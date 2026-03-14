@@ -1,0 +1,182 @@
+site_name: Second Brain — Maturità 2026
+site_description: Appunti organizzati per il quinto anno di liceo scientifico
+site_author: Nadia
+
+theme:
+  name: material
+  language: it
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passa al tema scuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passa al tema chiaro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: it
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Matematica:
+    - matematica/index.md
+    - Analisi:
+      - matematica/analisi/limiti.md
+      - matematica/analisi/derivate.md
+      - matematica/analisi/integrali.md
+      - matematica/analisi/studio-di-funzione.md
+      - matematica/analisi/equazioni-differenziali.md
+    - Geometria:
+      - matematica/geometria/coniche.md
+      - matematica/geometria/spazio.md
+    - Probabilità:
+      - matematica/probabilita/combinatorio.md
+      - matematica/probabilita/probabilita.md
+      - matematica/probabilita/distribuzioni.md
+  - Fisica:
+    - fisica/index.md
+    - Elettromagnetismo:
+      - fisica/elettromagnetismo/campo-elettrico.md
+      - fisica/elettromagnetismo/potenziale.md
+      - fisica/elettromagnetismo/corrente.md
+      - fisica/elettromagnetismo/campo-magnetico.md
+      - fisica/elettromagnetismo/induzione.md
+      - fisica/elettromagnetismo/maxwell.md
+    - Onde:
+      - fisica/onde/onde-em.md
+      - fisica/onde/ottica.md
+    - Fisica moderna:
+      - fisica/moderna/relativita.md
+      - fisica/moderna/quantistica.md
+      - fisica/moderna/nucleare.md
+  - Italiano:
+    - italiano/index.md
+    - Verismo:
+      - italiano/letteratura/verismo/verga.md
+    - Decadentismo:
+      - italiano/letteratura/decadentismo/pascoli.md
+      - italiano/letteratura/decadentismo/dannunzio.md
+    - Novecento:
+      - italiano/letteratura/novecento/pirandello.md
+      - italiano/letteratura/novecento/svevo.md
+      - italiano/letteratura/novecento/ungaretti.md
+      - italiano/letteratura/novecento/montale.md
+      - italiano/letteratura/novecento/saba.md
+      - italiano/letteratura/novecento/quasimodo.md
+    - Neorealismo:
+      - italiano/letteratura/neorealismo/primo-levi.md
+      - italiano/letteratura/neorealismo/calvino.md
+    - Divina Commedia:
+      - italiano/letteratura/divina-commedia/paradiso.md
+    - Scrittura:
+      - italiano/scrittura/tipologia-a.md
+      - italiano/scrittura/tipologia-b.md
+      - italiano/scrittura/tipologia-c.md
+  - Storia:
+    - storia/index.md
+    - storia/eta-giolittiana.md
+    - storia/wwi.md
+    - storia/rivoluzione-russa.md
+    - storia/fascismo.md
+    - storia/nazismo.md
+    - storia/wwii.md
+    - storia/shoah.md
+    - storia/guerra-fredda.md
+    - storia/italia-repubblicana.md
+    - storia/dal-1989.md
+  - Filosofia:
+    - filosofia/index.md
+    - Ottocento:
+      - filosofia/ottocento/hegel.md
+      - filosofia/ottocento/schopenhauer.md
+      - filosofia/ottocento/kierkegaard.md
+      - filosofia/ottocento/marx.md
+      - filosofia/ottocento/positivismo.md
+      - filosofia/ottocento/nietzsche.md
+    - Novecento:
+      - filosofia/novecento/freud.md
+      - filosofia/novecento/bergson.md
+      - filosofia/novecento/esistenzialismo.md
+      - filosofia/novecento/arendt.md
+      - filosofia/novecento/popper.md
+  - Scienze:
+    - scienze/index.md
+    - Chimica organica:
+      - scienze/chimica-organica/idrocarburi.md
+      - scienze/chimica-organica/gruppi-funzionali.md
+      - scienze/chimica-organica/polimeri.md
+    - Biochimica:
+      - scienze/biochimica/biomolecole.md
+      - scienze/biochimica/metabolismo.md
+      - scienze/biochimica/biotecnologie.md
+    - Scienze della Terra:
+      - scienze/scienze-della-terra/tettonica.md
+      - scienze/scienze-della-terra/atmosfera.md
+  - Inglese:
+    - inglese/index.md
+    - Letteratura:
+      - inglese/letteratura/victorian-age.md
+      - inglese/letteratura/modernism.md
+      - inglese/letteratura/dystopian-novel.md
+      - inglese/letteratura/war-poets.md
+    - Writing:
+      - inglese/writing/essay-structure.md
+  - Storia dell'arte:
+    - arte/index.md
+    - arte/impressionismo.md
+    - arte/post-impressionismo.md
+    - arte/avanguardie.md
+    - arte/razionalismo.md
+    - arte/arte-contemporanea.md
+  - Ed. civica:
+    - educazione-civica/index.md
+    - educazione-civica/costituzione.md
+    - educazione-civica/sviluppo-sostenibile.md
+    - educazione-civica/cittadinanza-digitale.md
+  - Esame:
+    - esame/index.md
+    - esame/prima-prova.md
+    - esame/seconda-prova.md
+    - esame/orale.md
+    - esame/collegamenti.md
