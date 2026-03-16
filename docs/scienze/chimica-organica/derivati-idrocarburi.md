@@ -1,12 +1,12 @@
 # Derivati degli idrocarburi
 
-I **derivati degli idrocarburi** sono composti organici che si ottengono sostituendo uno o piu' atomi di idrogeno con atomi o gruppi atomici diversi, detti **gruppi funzionali**. Sono i gruppi funzionali a determinare la reattivita' e il tipo di reazioni del composto.
+I **derivati degli idrocarburi** sono composti organici che si ottengono quando, in un idrocarburo, uno o piu' atomi di idrogeno vengono sostituiti da altri atomi o gruppi di atomi. Questi nuovi "pezzi" si chiamano **gruppi funzionali**, e sono loro a decidere come si comporta la molecola nelle reazioni chimiche.
 
-I derivati si suddividono in tre grandi famiglie:
+I derivati si dividono in tre grandi famiglie, a seconda dell'atomo principale del gruppo funzionale:
 
-1. **Derivati alogenati**: contengono un gruppo funzionale con un atomo di alogeno (F, Cl, Br, I)
-2. **Derivati ossigenati**: contengono un gruppo funzionale con ossigeno (alcoli, fenoli, eteri, aldeidi, chetoni, acidi carbossilici, esteri)
-3. **Derivati azotati**: contengono un gruppo funzionale con azoto (ammine, ammidi)
+1. **Derivati alogenati**: contengono un alogeno (F, Cl, Br, I)
+2. **Derivati ossigenati**: contengono ossigeno (alcoli, fenoli, eteri, aldeidi, chetoni, acidi carbossilici, esteri)
+3. **Derivati azotati**: contengono azoto (ammine, ammidi)
 
 ```mermaid
 flowchart TD
@@ -27,147 +27,149 @@ flowchart TD
 
 ## Alogenuri alchilici
 
-Gli **alogenuri alchilici** sono composti in cui uno o piu' atomi di idrogeno di un alcano sono stati sostituiti da un atomo di **alogeno** (fluoro, cloro, bromo o iodio). La formula molecolare generale e':
+Gli **alogenuri alchilici** sono composti in cui un atomo di idrogeno di un alcano e' stato sostituito da un **alogeno** (fluoro, cloro, bromo o iodio). In pratica, si prende un alcano e si "scambia" un H con un atomo di alogeno.
 
-\[
-  R - X
-\]
-
-dove R rappresenta un gruppo alchilico e X un atomo di alogeno.
+La formula generale e' **R—X**, dove R e' il gruppo alchilico (la parte che deriva dall'alcano) e X e' l'alogeno.
 
 ### Nomenclatura
 
-Secondo le regole IUPAC, il **nome** degli alogenuri alchilici e' formato da un numero che indica la posizione dell'alogeno nella catena, seguito dal nome dell'alogeno e dal nome dell'alcano corrispondente:
+Il nome IUPAC si costruisce cosi': si mette un numero per indicare dove si trova l'alogeno, poi il nome dell'alogeno (con prefisso *fluoro-*, *cloro-*, *bromo-*, *iodo-*) e infine il nome dell'alcano:
 
 | Formula | Nome IUPAC | Nome comune |
 |---------|-----------|-------------|
-| \( CH_3 - Cl \) | clorometano | cloruro di metile |
-| \( CH_3 - CH_2 - I \) | iodoetano | ioduro di etile |
-| \( CH_3 - CH_2 - CH_2 - CH_2 - Br \) | 1-bromobutano | — |
+| CH₃Cl | clorometano | cloruro di metile |
+| CH₃CH₂I | iodoetano | ioduro di etile |
+| CH₃CH₂CH₂CH₂Br | 1-bromobutano | — |
 
 !!! tip "Consiglio per la nomenclatura"
-    Se lo **stesso** sostituente e' presente piu' volte, i numeri di posizione sono separati da virgola e si usano i prefissi *di-*, *tri-*, *tetra-*. Se i sostituenti sono **diversi**, si elencano in ordine alfabetico.
+    Se lo **stesso** alogeno e' presente piu' volte, i numeri di posizione si separano con la virgola e si usano i prefissi *di-*, *tri-*, *tetra-* (es. 1,2,2-tricloropropano). Se ci sono sostituenti **diversi**, si elencano in ordine **alfabetico**.
 
 ### Classificazione: primari, secondari, terziari
 
-Gli alogenuri alchilici si classificano in base al tipo di carbonio a cui e' legato l'alogeno:
+Gli alogenuri si classificano in base a quanti altri atomi di carbonio sono legati al carbonio che porta l'alogeno:
 
-| Tipo | Struttura | Il carbonio e' legato a... |
-|------|-----------|---------------------------|
-| **Primario** | \( R - CH_2 - X \) | un solo atomo di carbonio |
-| **Secondario** | \( R - CH(-X) - R' \) | due atomi di carbonio |
-| **Terziario** | \( R_3C - X \) | tre atomi di carbonio |
+| Tipo | Significato | Struttura |
+|------|-------------|-----------|
+| **Primario** | il C con l'alogeno e' legato a **1 solo** altro C | R—CH₂—X |
+| **Secondario** | il C con l'alogeno e' legato a **2** altri C | R—CHX—R' |
+| **Terziario** | il C con l'alogeno e' legato a **3** altri C | R₃C—X |
 
 !!! warning "Attenzione"
-    Questa classificazione e' molto importante perche' determina il tipo di reazione che l'alogenuro subira' (sostituzione o eliminazione, e con quale meccanismo).
+    Questa classificazione e' fondamentale: il tipo di alogenuro determina **quale meccanismo di reazione** avverra' (sostituzione nucleofila S~N~1 o S~N~2, eliminazione E1 o E2).
 
 ### Isomeria di posizione
 
-Negli alogenuri alchilici (tranne i derivati del metano) si verifica l'**isomeria di posizione**, cioe' l'alogeno puo' trovarsi in posizioni diverse della catena. Per esempio, il cloropentano (\( C_5H_{11}Cl \)) ha tre isomeri: 1-cloropentano, 2-cloropentano e 3-cloropentano.
+L'alogeno puo' trovarsi in posizioni diverse sulla catena, dando origine a **isomeri di posizione**. Per esempio il cloropentano (C₅H₁₁Cl) esiste in tre forme: 1-cloropentano, 2-cloropentano e 3-cloropentano (l'atomo di cloro si trova rispettivamente sul primo, secondo o terzo carbonio).
 
 ### Sintesi degli alogenuri alchilici
 
-Le reazioni piu' comuni per ottenere alogenuri alchilici sono tre:
+Ci sono tre modi principali per ottenere un alogenuro alchilico:
 
-**1. Alogenazione degli alcheni** — reazione di addizione elettrofila tra un alchene e un alogeno (\( Cl_2, Br_2 \)) in un solvente anidro. Il prodotto e' un **dialogenuro alchilico** con configurazione *trans*:
+**1. Alogenazione degli alcheni** — si fa reagire un alchene con un alogeno (Cl₂ o Br₂) in un solvente anidro. I due atomi di alogeno si aggiungono ai due carboni del doppio legame, e si ottiene un **dialogenuro** (due alogeni sulla stessa molecola):
 
 \[
-  R-CH=CH_2 + Br_2 \xrightarrow{CCl_4} R-CHBr-CH_2Br
+  \text{R—CH=CH}_2 + \text{Br}_2 \xrightarrow{\text{CCl}_4} \text{R—CHBr—CH}_2\text{Br}
 \]
 
-**2. Idroalogenazione degli alcheni** — addizione elettrofila di un acido alogenidrico (HCl, HBr) a un alchene. Con alcheni asimmetrici la reazione segue la **regola di Markovnikov**:
+**2. Idroalogenazione degli alcheni** — si aggiunge un acido alogenidrico (HCl, HBr) al doppio legame di un alchene. Quando l'alchene e' asimmetrico, la reazione segue la **regola di Markovnikov**:
 
 \[
-  CH_3-CH=CH-CH_3 + HBr \rightarrow CH_3-CHBr-CH_2-CH_3
+  \text{CH}_3\text{—CH=CH—CH}_3 + \text{HBr} \longrightarrow \text{CH}_3\text{—CHBr—CH}_2\text{—CH}_3
 \]
 
 !!! abstract "Regola di Markovnikov"
-    L'idrogeno dell'acido si lega al carbonio del doppio legame che ha gia' **piu' atomi di idrogeno**, e l'alogeno si lega al carbonio con meno idrogeni.
+    L'idrogeno dell'acido si aggiunge al carbonio del doppio legame che ha gia' **piu' idrogeni**, mentre l'alogeno va sull'altro carbonio (quello con meno idrogeni).
 
-**3. Idroalogenazione degli alcoli** — sostituzione nucleofila tra un alcol e un acido alogenidrico:
+**3. Idroalogenazione degli alcoli** — un alcol reagisce con un acido alogenidrico. L'ossidrile (—OH) viene sostituito dall'alogeno:
 
 \[
-  R-OH + HBr \rightarrow R-Br + H_2O
+  \text{R—OH} + \text{HBr} \longrightarrow \text{R—Br} + \text{H}_2\text{O}
 \]
 
 ### Proprieta' fisiche
 
-- Gli alogenuri alchilici hanno punti di ebollizione **piu' alti** rispetto agli idrocarburi con lo stesso numero di atomi di carbonio, perche' l'alogeno nella catena aumenta la massa atomica e le **interazioni dipolo-dipolo**.
-- La temperatura di ebollizione cresce con l'aumentare delle dimensioni dell'atomo di alogeno: \( CH_3F < CH_3Cl < CH_3Br < CH_3I \)
-- Sono **insolubili** in acqua, ma solubili in solventi organici.
+- Hanno punti di ebollizione **piu' alti** rispetto agli idrocarburi con lo stesso numero di carboni, perche' l'alogeno aumenta la massa della molecola e le **interazioni dipolo-dipolo** (il legame C—X e' polare).
+- La temperatura di ebollizione cresce con la dimensione dell'alogeno: CH₃F < CH₃Cl < CH₃Br < CH₃I
+- Sono **insolubili** in acqua (non formano legami a idrogeno), ma si sciolgono bene nei solventi organici.
 
 ### Reazioni di sostituzione nucleofila
 
-La reattivita' degli alogenuri alchilici e' legata alla maggiore **elettronegativita'** dell'alogeno rispetto al carbonio, che rende il legame C—X **polare**. Il carbonio assume una parziale carica positiva e puo' essere attaccato da un **nucleofilo**.
+Il legame C—X e' **polare**: l'alogeno, essendo piu' elettronegativo, attira gli elettroni verso di se', lasciando sul carbonio una parziale carica positiva (δ+). Questo carbonio diventa un bersaglio per i **nucleofili**, cioe' specie chimiche ricche di elettroni che "attaccano" le cariche positive.
 
-Esistono due meccanismi di sostituzione nucleofila:
+Esistono due meccanismi diversi con cui puo' avvenire la sostituzione:
 
-#### Meccanismo S~N~2 (sostituzione nucleofila bimolecolare)
+#### Meccanismo S~N~2 (bimolecolare)
 
-Il nucleofilo attacca il carbonio dalla parte **opposta** all'alogeno, causando un'**inversione di configurazione**. Avviene in **un solo stadio**.
+Tutto avviene in **un solo passaggio**: il nucleofilo attacca il carbonio dalla parte opposta all'alogeno, che se ne va. Si ha un'**inversione di configurazione** (come un ombrello che si ribalta nel vento).
 
-!!! example "Esempio: reazione S~N~2"
+!!! example "Esempio di reazione S~N~2"
+    Lo ione idrossido (OH⁻) attacca il bromoetano e lo trasforma in etanolo:
+
     \[
-      OH^- + CH_3CH_2-Br \rightarrow CH_3CH_2-OH + Br^-
+      \text{OH}^- + \text{CH}_3\text{CH}_2\text{Br} \longrightarrow \text{CH}_3\text{CH}_2\text{OH} + \text{Br}^-
     \]
-    Lo ione idrossido (nucleofilo) attacca il 2-bromobutano e si forma il 2-butanolo.
 
-Aspetti chiave del meccanismo S~N~2:
+Caratteristiche principali:
 
-- La **velocita'** dipende dalla concentrazione sia del nucleofilo sia dell'alogenuro
-- Avviene preferibilmente con **alogenuri primari** (meno ingombro sterico)
-- E' favorito da **nucleofili forti** (come \( OH^-, RO^-, CN^- \))
-- Il processo e' sfavorito con alogenuri terziari per l'ingombro dei tre gruppi alchilici
+- La **velocita'** dipende dalla concentrazione di **entrambi** i reagenti (nucleofilo e alogenuro)
+- Funziona bene con **alogenuri primari**, perche' il carbonio e' "scoperto" e facile da attaccare
+- E' favorito da **nucleofili forti** (OH⁻, RO⁻, CN⁻)
+- Con gli alogenuri terziari e' difficile perche' i tre gruppi alchilici "fanno muro" (ingombro sterico)
 
-Le reazioni piu' comuni con meccanismo S~N~2 sono:
+Reazioni tipiche S~N~2:
 
-- Alogenuro primario + \( OH^- \) → **alcol primario**
-- Alogenuro primario + \( RO^- \) → **etere**
+- Alogenuro primario + OH⁻ → **alcol primario**
+- Alogenuro primario + RO⁻ → **etere** (sintesi di Williamson)
 
-#### Meccanismo S~N~1 (sostituzione nucleofila monomolecolare)
+#### Meccanismo S~N~1 (monomolecolare)
 
-La reazione avviene in **due stadi**:
+La reazione avviene in **due passaggi** separati:
 
-1. **Stadio lento**: l'alogenuro si dissocia spontaneamente formando un **carbocatione intermedio** (ione positivo sul carbonio)
-2. **Stadio veloce**: il nucleofilo attacca il carbocatione
+1. **Passaggio lento** (quello che determina la velocita'): l'alogeno se ne va da solo, lasciando un **carbocatione** (uno ione positivo sul carbonio)
+2. **Passaggio veloce**: il nucleofilo attacca il carbocatione
 
-!!! example "Esempio: reazione S~N~1"
+!!! example "Esempio di reazione S~N~1"
     Il 2-bromo-2-metilpropano reagisce con l'acqua:
 
-    **Stadio 1** (lento): \( (CH_3)_3C-Br \rightleftharpoons (CH_3)_3C^+ + Br^- \)
+    **Passaggio 1** (lento) — l'alogeno se ne va e si forma il carbocatione:
 
-    **Stadio 2** (veloce): il carbocatione viene attaccato dall'acqua, formando il 2-metil-2-propanolo.
+    \[
+      \text{(CH}_3\text{)}_3\text{C—Br} \longrightarrow \text{(CH}_3\text{)}_3\text{C}^+ + \text{Br}^-
+    \]
 
-Aspetti chiave del meccanismo S~N~1:
+    **Passaggio 2** (veloce) — l'acqua attacca il carbocatione, e si forma il 2-metil-2-propanolo.
 
-- La **velocita'** dipende solo dalla concentrazione dell'alogenuro (non del nucleofilo)
-- Avviene preferibilmente con **alogenuri terziari** (carbocationi terziari piu' stabili)
+Caratteristiche principali:
+
+- La **velocita'** dipende solo dalla concentrazione dell'alogenuro (il nucleofilo non partecipa al passaggio lento)
+- Funziona bene con **alogenuri terziari**, perche' i carbocationi terziari sono piu' stabili
 - E' favorito da **nucleofili deboli** (acqua, alcoli)
 
-Le reazioni piu' comuni con meccanismo S~N~1 sono:
+Reazioni tipiche S~N~1:
 
-- Alogenuro terziario + \( H_2O \) → **alcol terziario**
-- Alogenuro terziario + \( R'OH \) → **etere**
+- Alogenuro terziario + H₂O → **alcol terziario**
+- Alogenuro terziario + R'OH → **etere**
 
 ### Reazioni di eliminazione
 
-In una reazione di **eliminazione**, il nucleofilo (che agisce da **base**) strappa un protone \( H^+ \) dall'alogenuro, causando la perdita dell'alogeno e la formazione di un **doppio legame** (alchene).
+Nelle reazioni di **eliminazione** succede una cosa diversa: invece di sostituire l'alogeno, una base strappa un atomo di idrogeno (H⁺) dal carbonio vicino. L'alogeno se ne va, e tra i due carboni si forma un **doppio legame**: il prodotto e' un **alchene**.
 
-- **Meccanismo E2**: avviene in un solo stadio, favorito con alogenuri primari e basi forti
-- **Meccanismo E1**: avviene in due stadi (come S~N~1), favorito con alogenuri terziari e basi deboli
+- **Meccanismo E2**: tutto in un passaggio, favorito con alogenuri primari e basi forti
+- **Meccanismo E1**: in due passaggi (come S~N~1), favorito con alogenuri terziari e basi deboli
 
-!!! example "Esempio: eliminazione E2"
+!!! example "Esempio di eliminazione E2"
     \[
-      CH_3-CHBr-CH_3 + OH^- \rightarrow CH_3-CH=CH_2 + H_2O + Br^-
+      \text{CH}_3\text{—CHBr—CH}_3 + \text{OH}^- \longrightarrow \text{CH}_3\text{—CH=CH}_2 + \text{H}_2\text{O} + \text{Br}^-
     \]
-    Dal 1-bromopropano si ottiene propene.
 
-### Competizione tra sostituzione e eliminazione
+    Il bromopropano perde HBr e si trasforma in propene (un alchene).
+
+### Quando avviene sostituzione e quando eliminazione?
 
 | Condizione | Alogenuri primari | Alogenuri terziari |
 |-----------|-------------------|-------------------|
 | Nucleofilo forte | S~N~2 | E2 |
-| Nucleofilo forte e base forte | S~N~2 e E2 in competizione | E2 |
+| Nucleofilo forte + base forte | S~N~2 e E2 in competizione | E2 |
 | Nucleofilo debole | S~N~2 | S~N~1 e E1 |
 
 ---
@@ -176,216 +178,199 @@ In una reazione di **eliminazione**, il nucleofilo (che agisce da **base**) stra
 
 ### Gli alcoli: il gruppo ossidrile
 
-Gli **alcoli** sono composti caratterizzati dalla presenza del gruppo funzionale **ossidrile** \( -OH \), legato a un carbonio saturo (\( sp^3 \)). La formula molecolare generale e':
+Gli **alcoli** sono composti che hanno il gruppo funzionale **ossidrile** (—OH) legato a un carbonio saturo (ibridato sp³). In parole semplici, si prende un alcano e si sostituisce un H con un gruppo —OH.
 
-\[
-  R - OH
-\]
+La formula generale e' **R—OH**.
 
 ### Nomenclatura degli alcoli
 
-Il nome IUPAC degli **alcoli saturi** si ottiene sostituendo la desinenza *-o* dell'alcano con il suffisso **-olo**. I primi quattro termini sono:
+Per dare il nome IUPAC a un alcol, si prende il nome dell'alcano corrispondente e si sostituisce la *-o* finale con **-olo**:
 
 | Formula | Nome IUPAC | Nome comune |
 |---------|-----------|-------------|
-| \( CH_3-OH \) | metanolo | alcol metilico |
-| \( CH_3-CH_2-OH \) | etanolo | alcol etilico |
-| \( CH_3-CH_2-CH_2-OH \) | 1-propanolo | alcol propilico |
-| \( CH_3-CH_2-CH_2-CH_2-OH \) | 1-butanolo | alcol butilico |
+| CH₃OH | metanolo | alcol metilico |
+| CH₃CH₂OH | etanolo | alcol etilico |
+| CH₃CH₂CH₂OH | 1-propanolo | alcol propilico |
+| CH₃CH₂CH₂CH₂OH | 1-butanolo | alcol butilico |
 
-A partire dal terzo termine si puo' avere **isomeria di posizione** (il gruppo -OH puo' trovarsi su carboni diversi). Il propanolo, per esempio, esiste come 1-propanolo e 2-propanolo.
-
-Gli **alcoli insaturi** hanno il gruppo ossidrile su una catena con un doppio o triplo legame. Il nome si costruisce indicando la posizione del gruppo -OH, seguita dal suffisso *-olo*.
+Dal terzo termine in poi si ha **isomeria di posizione**: il gruppo —OH puo' trovarsi su carboni diversi. Per esempio il propanolo esiste come 1-propanolo e 2-propanolo.
 
 ### Classificazione degli alcoli
 
-Gli alcoli si classificano in **primari**, **secondari** e **terziari** a seconda del tipo di carbonio a cui e' legato il gruppo -OH:
+Come per gli alogenuri, anche gli alcoli si classificano in base al carbonio che porta il gruppo —OH:
 
-| Tipo | Struttura | Esempio |
-|------|-----------|---------|
-| Primario | \( R-CH_2-OH \) | etanolo |
-| Secondario | \( R-CH(-OH)-R' \) | 2-propanolo |
-| Terziario | \( R_3C-OH \) | 2-metil-2-propanolo |
+| Tipo | Quanti C sono legati al C con —OH | Esempio |
+|------|-----------------------------------|---------|
+| **Primario** | 1 solo | etanolo |
+| **Secondario** | 2 | 2-propanolo |
+| **Terziario** | 3 | 2-metil-2-propanolo |
+
+!!! warning "Importante per le reazioni"
+    Il tipo di alcol determina cosa succede quando si ossida: gli alcoli primari danno aldeidi, i secondari danno chetoni, e i terziari **non si ossidano**.
 
 ### Sintesi degli alcoli
 
-Le reazioni principali per sintetizzare gli alcoli sono:
-
-**1. Idratazione degli alcheni** — addizione elettrofila di acqua in ambiente acido. Con alcheni asimmetrici segue la regola di Markovnikov:
+**1. Idratazione degli alcheni** — si aggiunge acqua al doppio legame di un alchene, in ambiente acido. Con alcheni asimmetrici, segue la regola di Markovnikov e si ottiene un alcol secondario o terziario:
 
 \[
-  R-CH=CH_2 + H_2O \xrightarrow{H^+} R-CH(OH)-CH_3
+  \text{R—CH=CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{H}^+} \text{R—CH(OH)—CH}_3
 \]
 
-Si ottiene un alcol secondario o terziario.
+**2. Riduzione di aldeidi e chetoni** — si "aggiunge idrogeno" (con riducenti come LiAlH₄ o NaBH₄) a un'aldeide o a un chetone:
 
-**2. Riduzione di aldeidi e chetoni** — usando un riducente come \( LiAlH_4 \) o \( NaBH_4 \):
+- Da un'aldeide si ottiene un **alcol primario**:
 
 \[
-  R-CHO \xrightarrow{[H]} R-CH_2-OH \quad \text{(alcol primario)}
+  \text{R—CHO} \xrightarrow{[\text{H}]} \text{R—CH}_2\text{—OH}
 \]
 
+- Da un chetone si ottiene un **alcol secondario**:
+
 \[
-  R-CO-R' \xrightarrow{[H]} R-CH(OH)-R' \quad \text{(alcol secondario)}
+  \text{R—CO—R'} \xrightarrow{[\text{H}]} \text{R—CH(OH)—R'}
 \]
 
 ### Proprieta' fisiche degli alcoli
 
 | Nome | Formula | T. ebollizione (°C) | Solubilita' in acqua |
 |------|---------|---------------------|---------------------|
-| metanolo | \( CH_3-OH \) | 65 | molto solubile |
-| etanolo | \( CH_3-CH_2-OH \) | 78,5 | molto solubile |
-| 1-propanolo | \( CH_3-CH_2-CH_2-OH \) | 97 | molto solubile |
-| 1-butanolo | \( CH_3-(CH_2)_3-OH \) | 117,7 | solubile |
-| 1-pentanolo | \( CH_3-(CH_2)_4-OH \) | 137,9 | poco solubile |
-| 1-esanolo | \( CH_3-(CH_2)_5-OH \) | 155,8 | insolubile |
+| metanolo | CH₃OH | 65 | molto solubile |
+| etanolo | CH₃CH₂OH | 78,5 | molto solubile |
+| 1-propanolo | CH₃CH₂CH₂OH | 97 | molto solubile |
+| 1-butanolo | CH₃(CH₂)₃OH | 117,7 | solubile |
+| 1-pentanolo | CH₃(CH₂)₄OH | 137,9 | poco solubile |
+| 1-esanolo | CH₃(CH₂)₅OH | 155,8 | insolubile |
 
 !!! note "Perche' gli alcoli bollono a temperature alte?"
-    Il gruppo -OH puo' formare **legami a idrogeno** intermolecolari, molto piu' forti delle forze di London. Per questo gli alcoli hanno punti di ebollizione piu' alti degli idrocarburi con massa simile. I primi tre termini sono molto **solubili** in acqua grazie ai legami a idrogeno con le molecole d'acqua. All'aumentare della catena carboniosa (parte idrofobica), la solubilita' **diminuisce**.
+    Il gruppo —OH puo' formare **legami a idrogeno** con altre molecole di alcol e con l'acqua. Questi legami sono molto piu' forti delle deboli forze di London che tengono insieme gli idrocarburi. Per questo gli alcoli bollono a temperature molto piu' alte rispetto agli idrocarburi con la stessa massa. I primi tre termini della serie sono molto solubili in acqua proprio grazie a questi legami a idrogeno. Pero', man mano che la catena di carbonio si allunga, prevale la parte **idrofobica** (che "non ama" l'acqua) e la solubilita' **diminuisce**.
 
 ### Gli alcoli sono composti anfoteri
 
-Gli alcoli si comportano sia da **acidi** (cedono \( H^+ \)) sia da **basi** (accettano \( H^+ \)).
+"Anfotero" significa che si comportano **sia da acido sia da base**, a seconda della situazione.
 
-**Comportamento acido** (acidi di Bronsted-Lowry): cedono uno ione \( H^+ \) all'acqua:
-
-\[
-  ROH + H_2O \rightleftharpoons RO^- + H_3O^+
-\]
-
-La forza acida si misura con la costante di dissociazione acida \( K_a \):
+**Come acidi** (di Bronsted-Lowry): l'alcol puo' cedere il suo H⁺ del gruppo —OH all'acqua, formando uno **ione alcossido** (RO⁻):
 
 \[
-  K_a = \frac{[RO^-][H_3O^+]}{[ROH]}
+  \text{ROH} + \text{H}_2\text{O} \rightleftharpoons \text{RO}^- + \text{H}_3\text{O}^+
 \]
 
-Gli alcoli sono acidi **molto deboli**. Si preferisce esprimere l'acidita' con il \( pK_a = -\log K_a \). Maggiore il \( pK_a \), minore l'acidita'.
+Pero' gli alcoli sono acidi **molto deboli**. La loro forza acida si misura con la costante di dissociazione K~a~ oppure con il pK~a~ (piu' e' alto il pK~a~, piu' l'acido e' debole):
 
-| Alcol | Tipo | \( K_a \) | \( pK_a \) |
-|-------|------|-----------|-----------|
-| etanolo | primario | \( 1 \cdot 10^{-16} \) | 16 |
-| 2-propanolo | secondario | \( 1 \cdot 10^{-17} \) | 17 |
-| 2-metil-2-propanolo | terziario | \( 1 \cdot 10^{-18} \) | 18 |
+| Alcol | Tipo | pK~a~ |
+|-------|------|-------|
+| etanolo | primario | 16 |
+| 2-propanolo | secondario | 17 |
+| 2-metil-2-propanolo | terziario | 18 |
 
-!!! info "Regola"
-    Gli alcoli **primari** sono piu' acidi dei secondari, che a loro volta sono piu' acidi dei terziari.
+Gli alcoli primari sono leggermente piu' acidi dei secondari, che a loro volta sono piu' acidi dei terziari.
 
 ### Le reazioni degli alcoli
 
-Gli alcoli possono dare tre tipi di reazione: rottura del legame O—H, rottura del legame C—O, e ossidazione.
+#### 1. Rottura del legame O—H (reazione con metalli alcalini)
 
-#### Rottura del legame O—H
-
-Gli alcoli sono acidi molto deboli, ma in presenza di **metalli alcalini** (come sodio) reagiscono:
+Gli alcoli reagiscono con metalli come il sodio: l'idrogeno del gruppo —OH viene strappato e si forma un **alcossido** (un sale) piu' idrogeno gassoso:
 
 \[
-  2\, R-OH + 2\, Na \rightarrow 2\, R-O^-Na^+ + H_2 \uparrow
+  2 \text{ CH}_3\text{CH}_2\text{OH} + 2 \text{ Na} \longrightarrow 2 \text{ CH}_3\text{CH}_2\text{O}^-\text{Na}^+ + \text{H}_2 \uparrow
 \]
 
-Si forma un **alcossido** (sale) e si libera idrogeno gassoso.
+Il prodotto CH₃CH₂O⁻Na⁺ si chiama **etossido di sodio**.
 
-!!! example "Esempio"
+#### 2. Rottura del legame C—O (disidratazione)
+
+Scaldando un alcol con acido solforico a 180 °C, la molecola **perde acqua** e si forma un **alchene** (reazione di eliminazione):
+
+\[
+  \text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{H}_2\text{SO}_4,\, 180°\text{C}} \text{CH}_2\text{=CH}_2 + \text{H}_2\text{O}
+\]
+
+Dall'etanolo si ottiene etene (etilene) e acqua.
+
+#### 3. Ossidazione degli alcoli
+
+Ossidare, in chimica organica, significa far formare nuovi legami tra carbonio e ossigeno. Il risultato dipende dal tipo di alcol:
+
+```mermaid
+flowchart LR
+    A["Alcol primario<br>R—CH₂—OH"] -->|"ossidazione"| B["Aldeide<br>R—CHO"]
+    B -->|"ulteriore ossidazione"| C["Acido carbossilico<br>R—COOH"]
+    D["Alcol secondario<br>R—CH(OH)—R'"] -->|"ossidazione"| E["Chetone<br>R—CO—R'"]
+    F["Alcol terziario<br>R₃C—OH"] -->|"ossidazione"| G["NON reagisce"]
+```
+
+- **Alcol primario → aldeide → acido carbossilico**:
+
+\[
+  \text{R—CH}_2\text{—OH} \xrightarrow{[\text{O}]} \text{R—CHO} \xrightarrow{[\text{O}]} \text{R—COOH}
+\]
+
+- **Alcol secondario → chetone**:
+
+\[
+  \text{R—CH(OH)—R'} \xrightarrow{[\text{O}]} \text{R—CO—R'}
+\]
+
+- **Alcol terziario**: non si ossida facilmente, perche' il carbonio con il gruppo —OH non ha atomi di idrogeno da "perdere".
+
+!!! example "Esempio biologico: ossidazione dell'etanolo nel fegato"
+    Nel nostro corpo, il fegato ossida l'etanolo (l'alcol delle bevande alcoliche) grazie all'enzima *alcol deidrogenasi* e al coenzima NAD⁺:
+
     \[
-      2\, CH_3-CH_2-OH + 2\, Na \rightarrow 2\, CH_3-CH_2-O^-Na^+ + H_2
-    \]
-    Etanolo + sodio → etossido di sodio + idrogeno
-
-#### Rottura del legame C—O
-
-La **disidratazione** di un alcol e' una reazione di eliminazione: in presenza di acido solforico a 180 °C si perde una molecola d'acqua e si forma un **alchene**:
-
-\[
-  CH_3-CH_2-OH \xrightarrow{H_2SO_4, 180°C} CH_2=CH_2 + H_2O
-\]
-
-#### Ossidazione degli alcoli
-
-!!! abstract "Che cos'e' un'ossidazione?"
-    Una reazione e' di **ossidazione** quando gli atomi di carbonio di una molecola formano nuovi legami con atomi di ossigeno. Il numero di ossidazione del carbonio **aumenta** e il numero di atomi di idrogeno **diminuisce**.
-
-L'ossidazione degli alcoli dipende dal loro tipo:
-
-- **Alcol primario** → **aldeide** (e poi eventualmente → acido carbossilico):
-
-\[
-  R-CH_2-OH \xrightarrow{[O]} R-CHO \xrightarrow{[O]} R-COOH
-\]
-
-- **Alcol secondario** → **chetone**:
-
-\[
-  R-CH(OH)-R' \xrightarrow{[O]} R-CO-R'
-\]
-
-- **Alcol terziario**: **non si ossidano** facilmente (non hanno atomi di idrogeno sul carbonio che porta il gruppo -OH).
-
-!!! example "Esempio biologico: ossidazione dell'etanolo"
-    L'ossidazione dell'etanolo avviene nel nostro organismo, nelle cellule del fegato, catalizzata dall'enzima *alcol deidrogenasi* con il coenzima \( NAD^+ \):
-
-    \[
-      CH_3-CH_2-OH + NAD^+ \rightarrow CH_3-CHO + NADH + H^+
+      \text{CH}_3\text{CH}_2\text{OH} + \text{NAD}^+ \longrightarrow \text{CH}_3\text{CHO} + \text{NADH} + \text{H}^+
     \]
 
-    L'acetaldeide prodotta viene poi ossidata ad **acido acetico** e infine a \( CO_2 \) e acqua.
+    Si forma **acetaldeide** (un'aldeide tossica), che poi viene ulteriormente ossidata ad **acido acetico** e infine a CO₂ e acqua.
 
 ### I polioli
 
-I **polioli** (o polialcoli) sono composti con **due o piu' gruppi ossidrile** (-OH). Il nome si costruisce aggiungendo la posizione dei gruppi -OH e il suffisso *-diolo*, *-triolo*, ecc.
+I **polioli** (o polialcoli) sono molecole con **piu' di un gruppo —OH**. Il nome si costruisce aggiungendo i prefissi *-diolo*, *-triolo* ecc. a seconda di quanti gruppi —OH ci sono:
 
-| Composto | Formula | Uso |
-|----------|---------|-----|
-| **Glicole etilenico** (1,2-etandiolo) | \( HOCH_2-CH_2OH \) | Antigelo per automobili |
-| **Glicerolo** (1,2,3-propantriolo) | \( HOCH_2-CH(OH)-CH_2OH \) | Cosmetica, farmaci |
+| Composto | Quanti —OH ha | Uso principale |
+|----------|---------------|----------------|
+| **Glicole etilenico** (1,2-etandiolo) | 2 | Antigelo per auto |
+| **Glicerolo** (1,2,3-propantriolo) | 3 | Cosmetica, farmaci, alimentare |
+
+I composti con due gruppi —OH su carboni adiacenti si chiamano **glicoli**.
 
 !!! warning "Nitroglicerina"
-    Il glicerolo reagendo con acido nitrico forma la **nitroglicerina**, un potente esplosivo. Assorbita su materiale poroso, diventa la **dinamite**.
+    Il glicerolo, reagendo con acido nitrico, forma la **nitroglicerina**, un esplosivo potentissimo e molto sensibile agli urti. Assorbita su un materiale poroso, diventa la **dinamite**, inventata da Alfred Nobel.
 
 ### I fenoli
 
-I **fenoli** sono composti in cui il gruppo -OH e' legato direttamente a un **anello benzenico**. La formula generale e':
+I **fenoli** sono composti in cui il gruppo —OH e' attaccato direttamente a un **anello benzenico** (cioe' a un carbonio aromatico). Questa differenza rispetto agli alcoli cambia molto le loro proprieta'.
 
-\[
-  Ar - OH
-\]
+La formula generale e' **Ar—OH** (dove Ar indica un anello aromatico).
 
-Il fenolo piu' semplice e' il **fenolo** (idrossibenene, \( C_6H_5OH \)).
-
-#### Nomenclatura dei fenoli
-
-Se sull'anello benzenico sono presenti anche altri sostituenti, il gruppo -OH ha la **priorita'** nell'assegnazione della desinenza (tranne con aldeidi e acidi carbossilici):
-
-| Composto | Struttura |
-|----------|-----------|
-| Fenolo | anello benzenico con -OH |
-| Idrochinone | 1,4-diidrossibenzene |
-| o-Cresolo | 2-metildrossibenzene |
+Il fenolo piu' semplice e' il **fenolo** stesso (C₆H₅OH, chiamato anche idrossibenzene).
 
 #### Proprieta' dei fenoli
 
-!!! note "Differenze tra fenoli e alcoli"
-    - I fenoli sono **piu' acidi** degli alcoli, perche' lo ione fenossido (\( C_6H_5O^- \)) e' stabilizzato dalla **delocalizzazione per risonanza** della carica negativa sull'anello benzenico.
-    - I fenoli **non** hanno comportamento basico: la protonazione del gruppo -OH porterebbe alla formazione di un catione fenile, ma la geometria dell'anello benzenico impedisce questa reazione.
-    - I fenoli formano legami a idrogeno, ma sono **poco solubili** in acqua per la presenza dell'anello aromatico idrofobico.
+!!! note "Fenoli vs alcoli: le differenze chiave"
+    - I fenoli sono **piu' acidi** degli alcoli. Il motivo e' che lo ione fenossido (C₆H₅O⁻, che si forma quando il fenolo cede H⁺) e' stabilizzato dalla **risonanza**: la carica negativa si "spalma" sull'anello benzenico, rendendo lo ione piu' stabile e quindi la dissociazione piu' facile.
+    - I fenoli **non** si comportano da basi: se il gruppo —OH venisse protonato e poi perdesse acqua, si formerebbe un catione fenile, ma la geometria rigida dell'anello benzenico lo impedisce.
+    - I fenoli sono **poco solubili** in acqua, perche' l'anello aromatico (grande e idrofobico) prevale sul piccolo gruppo —OH.
 
 #### Reazioni dei fenoli
 
-**Rottura del legame O—H**: i fenoli sono acidi deboli e reagiscono con **basi forti**, formando sali detti **fenossidi**:
+**Rottura del legame O—H**: i fenoli, essendo acidi deboli, reagiscono con **basi forti** formando i **fenossidi** (sali):
 
 \[
-  C_6H_5-OH + NaOH \rightarrow C_6H_5-O^-Na^+ + H_2O
+  \text{C}_6\text{H}_5\text{OH} + \text{NaOH} \longrightarrow \text{C}_6\text{H}_5\text{O}^-\text{Na}^+ + \text{H}_2\text{O}
 \]
 
-**Ossidazione**: per esempio, l'idrochinone si ossida a **benzochinone**.
+**Ossidazione**: ad esempio, l'idrochinone (un difenolo) si ossida a **benzochinone**.
 
 ### I tioli
 
-I **tioli** (o mercaptani) hanno il gruppo funzionale **-SH** (solfidrile) legato a un carbonio saturo. La formula generale e':
+I **tioli** (detti anche mercaptani) sono simili agli alcoli, ma al posto dell'ossigeno hanno un atomo di **zolfo**. Il gruppo funzionale e' **—SH** (solfidrile) e la formula generale e' **R—SH**.
+
+Il nome si ottiene aggiungendo il suffisso *-tiolo* al nome dell'alcano (es. metantiolo, etantiolo).
+
+Una proprieta' importante: i tioli si ossidano formando **legami disolfuro** (S—S), che sono fondamentali per la struttura tridimensionale delle **proteine**.
 
 \[
-  R - SH
+  \text{R—SH} + \text{HS—R} \longrightarrow \text{R—S—S—R} + \text{H}_2
 \]
-
-Il nome si ottiene aggiungendo il suffisso *-tiolo* al nome dell'alcano. I tioli si ossidano formando **disolfuri** (\( R-S-S-R \)), legame importante nelle proteine (legame disolfuro \( S-S \)).
 
 ---
 
@@ -393,50 +378,49 @@ Il nome si ottiene aggiungendo il suffisso *-tiolo* al nome dell'alcano. I tioli
 
 ### Il gruppo funzionale
 
-Gli **eteri** sono composti in cui un atomo di **ossigeno** e' legato a due gruppi organici (alchilici o arilici). Le formule generali sono:
+Gli **eteri** sono composti in cui un atomo di **ossigeno** fa da "ponte" tra due gruppi organici. In pratica, se in una molecola d'acqua (H—O—H) sostituisci entrambi gli idrogeni con gruppi alchilici o arilici, ottieni un etere.
 
-\[
-  R-O-R \quad \quad Ar-O-Ar \quad \quad R-O-Ar
-\]
+Le formule generali sono: **R—O—R'** (alifatico), **Ar—O—Ar** (aromatico), **R—O—Ar** (misto).
 
 ### Nomenclatura e classificazione
 
-Gli eteri sono denominati con un nome formato dai nomi dei **due gruppi organici** (in ordine alfabetico) seguiti dalla parola *etere*:
+Il nome si costruisce mettendo i nomi dei due gruppi organici (in ordine alfabetico) seguiti dalla parola *etere*:
 
 | Formula | Nome |
 |---------|------|
-| \( CH_3-O-CH_3 \) | dimetil etere |
-| \( CH_3-CH_2-O-CH_2-CH_3 \) | dietil etere |
-| \( CH_3-O-C_6H_5 \) | fenil metil etere |
+| CH₃—O—CH₃ | dimetil etere |
+| CH₃CH₂—O—CH₂CH₃ | dietil etere |
+| CH₃—O—C₆H₅ | fenil metil etere |
 
 Se i due gruppi sono uguali → etere **simmetrico**; se sono diversi → etere **asimmetrico**.
 
 ### Sintesi degli eteri
 
-**1. Disidratazione intermolecolare degli alcoli** — due molecole di alcol primario perdono una molecola d'acqua in presenza di acido solforico a 140 °C:
+**1. Disidratazione intermolecolare** — due molecole di alcol primario vengono scaldate con acido solforico a 140 °C. Le due molecole "perdono" una molecola d'acqua e si uniscono tramite l'ossigeno:
 
 \[
-  CH_3-CH_2-OH + HO-CH_2-CH_3 \xrightarrow{H_2SO_4, 140°C} CH_3-CH_2-O-CH_2-CH_3 + H_2O
+  \text{CH}_3\text{CH}_2\text{OH} + \text{HOCH}_2\text{CH}_3 \xrightarrow{\text{H}_2\text{SO}_4,\, 140°\text{C}} \text{CH}_3\text{CH}_2\text{—O—CH}_2\text{CH}_3 + \text{H}_2\text{O}
 \]
 
-**2. Sintesi di Williamson** — un alcossido metallico (\( R-O^-Na^+ \)) reagisce con un alogenuro alchilico primario tramite meccanismo S~N~2:
+!!! tip "Attenzione alla temperatura!"
+    A **140 °C** si forma un etere (disidratazione intermolecolare, cioe' fra due molecole). A **180 °C** si forma un alchene (disidratazione intramolecolare, cioe' dentro la stessa molecola). La temperatura fa la differenza!
+
+**2. Sintesi di Williamson** — un alcossido metallico (il sale di un alcol) reagisce con un alogenuro alchilico primario tramite meccanismo S~N~2. In parole semplici, lo ione alcossido "attacca" il carbonio dell'alogenuro e lo sostituisce:
 
 \[
-  R-O^-Na^+ + R'-X \rightarrow R-O-R' + NaX
+  \text{R—O}^-\text{Na}^+ + \text{R'—X} \longrightarrow \text{R—O—R'} + \text{NaX}
 \]
 
 ### Proprieta' fisiche
 
-| Nome | Formula | Massa molecolare | T. eb. (°C) | Solubilita' |
-|------|---------|-----------------|-------------|-------------|
-| dimetil etere | \( CH_3-O-CH_3 \) | 46 | -25 | solubile |
-| dietil etere | \( C_2H_5-O-C_2H_5 \) | 74 | 35 | solubile |
-| dipentil etere | \( C_5H_{11}-O-C_5H_{11} \) | 158 | 187 | insolubile |
+| Nome | Massa molecolare | T. eb. (°C) | Solubilita' |
+|------|-----------------|-------------|-------------|
+| dimetil etere | 46 | -25 | solubile |
+| dietil etere | 74 | 35 | solubile |
+| dipentil etere | 158 | 187 | insolubile |
 
-!!! note "Proprieta' degli eteri"
-    - Gli eteri **non** formano legami a idrogeno tra di loro (non hanno H legato a O), quindi hanno punti di ebollizione **molto piu' bassi** degli alcoli con massa simile.
-    - Pero' possono formare legami a idrogeno **con l'acqua**, quindi i primi termini sono **solubili**.
-    - Sono composti poco reattivi e sono usati come **solventi** in chimica organica (il dietil etere e' stato usato anche come anestetico).
+!!! note "Perche' gli eteri bollono cosi' basso?"
+    A differenza degli alcoli, gli eteri **non** hanno un idrogeno legato all'ossigeno, quindi **non** possono formare legami a idrogeno fra di loro. Per questo i loro punti di ebollizione sono molto piu' bassi di quelli degli alcoli con massa simile. Possono pero' formare legami a idrogeno **con l'acqua** (l'ossigeno dell'etere si lega all'H dell'acqua), e per questo i primi termini sono solubili. Il dietil etere e' stato storicamente usato come **anestetico** ed e' ancora oggi un ottimo **solvente** in laboratorio.
 
 ---
 
@@ -444,136 +428,138 @@ Se i due gruppi sono uguali → etere **simmetrico**; se sono diversi → etere 
 
 ### Il gruppo funzionale carbonile
 
-Aldeidi e chetoni sono caratterizzati dalla presenza del **gruppo funzionale carbonile** \( >C=O \), in cui un atomo di carbonio ibridato \( sp^2 \) e' legato a un atomo di ossigeno da un **doppio legame**.
+Aldeidi e chetoni hanno in comune lo stesso gruppo funzionale: il **gruppo carbonile** (C=O). Si tratta di un carbonio ibridato sp² legato a un ossigeno tramite un **doppio legame**.
 
-Il legame C=O e' fortemente **polare**: l'ossigeno, piu' elettronegativo, attira verso di se' gli elettroni, creando una parziale carica negativa (\( \delta^- \)) sull'ossigeno e una parziale carica positiva (\( \delta^+ \)) sul carbonio. Questa polarita' e' la chiave della reattivita' di aldeidi e chetoni.
+Il legame C=O e' fortemente **polare**: l'ossigeno, piu' elettronegativo, attira gli elettroni verso di se'. Questo crea una parziale carica negativa (δ⁻) sull'ossigeno e una parziale carica positiva (δ⁺) sul carbonio. Questa polarita' e' il motivo per cui aldeidi e chetoni sono molecole reattive.
 
-### Differenza tra aldeidi e chetoni
+### Che differenza c'e' tra aldeidi e chetoni?
 
-- Nelle **aldeidi** il carbonio del gruppo carbonile e' legato a un atomo di idrogeno e a un gruppo alchilico (o arilico):
+La differenza sta in **cosa c'e' attaccato** al carbonio del gruppo C=O:
 
-\[
-  R-CHO \quad \quad \quad Ar-CHO
-\]
+- Nelle **aldeidi**: il carbonio e' legato a **un H e un gruppo R** (o due H nel caso della formaldeide). Il gruppo funzionale si scrive —CHO e si trova sempre in fondo alla catena.
+- Nei **chetoni**: il carbonio e' legato a **due gruppi R** (niente H). Il gruppo C=O si trova all'interno della catena.
 
-- Nei **chetoni** il carbonio del gruppo carbonile e' legato a **due** gruppi alchilici o arilici:
-
-\[
-  R-CO-R' \quad \quad Ar-CO-Ar \quad \quad Ar-CO-R
-\]
+| | Aldeidi | Chetoni |
+|--|---------|---------|
+| Formula | R—CHO | R—CO—R' |
+| Il C=O e' legato a... | almeno un H | due gruppi R |
+| Posizione nella catena | **estremita'** | **interno** |
 
 ### Nomenclatura
 
-**Aldeidi**: il nome IUPAC si ottiene sostituendo la desinenza *-o* dell'alcano con il suffisso **-ale**:
+**Aldeidi** — si sostituisce la *-o* dell'alcano con **-ale**:
 
 | Formula | Nome IUPAC | Nome comune |
 |---------|-----------|-------------|
-| \( H-CHO \) | metanale | formaldeide |
-| \( CH_3-CHO \) | etanale | acetaldeide |
-| \( CH_3-CH_2-CHO \) | propanale | aldeide propionica |
-| \( CH_3-CH_2-CH_2-CHO \) | butanale | aldeide butirrica |
+| HCHO | metanale | formaldeide |
+| CH₃CHO | etanale | acetaldeide |
+| CH₃CH₂CHO | propanale | aldeide propionica |
+| CH₃CH₂CH₂CHO | butanale | aldeide butirrica |
 
-**Chetoni**: il nome IUPAC si ottiene sostituendo la desinenza *-o* con il suffisso **-one**:
+**Chetoni** — si sostituisce la *-o* dell'alcano con **-one**:
 
 | Formula | Nome IUPAC | Nome comune |
 |---------|-----------|-------------|
-| \( CH_3-CO-CH_3 \) | propanone | acetone |
-| \( CH_3-CO-CH_2-CH_3 \) | butanone | metiletilchetone |
-| \( CH_3-CO-CH_2-CH_2-CH_3 \) | 2-pentanone | — |
+| CH₃—CO—CH₃ | propanone | acetone |
+| CH₃—CO—CH₂CH₃ | butanone | metiletilchetone |
+| CH₃—CO—(CH₂)₂CH₃ | 2-pentanone | — |
 
 !!! tip "Consiglio"
-    Il primo termine della serie dei chetoni e' il **propanone** (acetone), che ha 3 atomi di carbonio. A partire dal pentanone si ha isomeria di posizione (il gruppo C=O puo' trovarsi in posizioni diverse).
+    Il chetone piu' semplice e' il **propanone** (acetone), con 3 carboni. Servono almeno 3 carboni perche' il gruppo C=O dev'essere in mezzo, fra due gruppi alchilici. A partire dal pentanone c'e' isomeria di posizione.
 
 ### Sintesi di aldeidi e chetoni
 
-La reazione di sintesi piu' comune e' l'**ossidazione degli alcoli primari e secondari** in presenza di un forte ossidante:
+Il modo piu' comune per ottenerli e' l'**ossidazione degli alcoli**:
+
+- **Alcol primario → aldeide**:
 
 \[
-  R-CH_2-OH \xrightarrow{[O]} R-CHO \quad \text{(alcol primario} \rightarrow \text{aldeide)}
+  \text{R—CH}_2\text{OH} \xrightarrow{[\text{O}]} \text{R—CHO}
 \]
 
+- **Alcol secondario → chetone**:
+
 \[
-  R-CH(OH)-R' \xrightarrow{[O]} R-CO-R' \quad \text{(alcol secondario} \rightarrow \text{chetone)}
+  \text{R—CH(OH)—R'} \xrightarrow{[\text{O}]} \text{R—CO—R'}
 \]
 
 ### Proprieta' fisiche
 
-| Classe | Nome | Formula | T. eb. (°C) | Massa molecolare |
-|--------|------|---------|-------------|-----------------|
-| aldeide | propanale | \( CH_3CH_2CHO \) | 49 | 58 |
-| chetone | acetone | \( CH_3COCH_3 \) | 56 | 58 |
-| aldeide | pentanale | \( CH_3(CH_2)_3CHO \) | 103 | 86 |
-| chetone | 3-pentanone | \( CH_3CH_2COCH_2CH_3 \) | 102 | 86 |
+| Classe | Nome | Formula | T. eb. (°C) |
+|--------|------|---------|-------------|
+| aldeide | propanale | CH₃CH₂CHO | 49 |
+| chetone | acetone | CH₃COCH₃ | 56 |
+| aldeide | pentanale | CH₃(CH₂)₃CHO | 103 |
+| chetone | 3-pentanone | CH₃CH₂COCH₂CH₃ | 102 |
 
 !!! note "Caratteristiche fisiche"
-    - Hanno punti di ebollizione **piu' alti** degli idrocarburi (grazie alla polarizzazione del C=O) ma **piu' bassi** degli alcoli (perche' non formano legami a idrogeno tra di loro).
-    - I primi termini sono **solubili** in acqua (possono accettare legami a idrogeno dall'acqua), ma la solubilita' diminuisce con la massa molecolare.
-    - Molte aldeidi e chetoni hanno **odori caratteristici**: la formaldeide ha un odore pungente, mentre molti chetoni hanno aromi gradevoli (usati in profumi e cosmetici).
+    - Bollono a temperature **piu' alte** degli idrocarburi (per la polarita' del C=O) ma **piu' basse** degli alcoli (perche' non formano legami a idrogeno tra di loro).
+    - I primi termini sono **solubili** in acqua (l'ossigeno del C=O puo' accettare legami a idrogeno dall'acqua), poi la solubilita' cala con la massa.
+    - Molte aldeidi e chetoni hanno **odori caratteristici**: la formaldeide ha un odore pungente, mentre molti chetoni hanno aromi gradevoli e vengono usati in profumi, saponi e cosmetici.
 
 ### Reattivita' di aldeidi e chetoni
 
-La reattivita' dipende dal gruppo carbonile polare. Il carbonio con parziale carica positiva (\( \delta^+ \)) e' un punto di attacco per i **nucleofili**.
+Il carbonio del C=O, con la sua carica positiva parziale, e' un bersaglio perfetto per i nucleofili.
 
-!!! info "Aldeidi vs chetoni"
-    Le aldeidi sono **piu' reattive** dei chetoni perche' nel chetone il carbonio carbonilico e' legato a due gruppi alchilici che, essendo **elettron-donatori**, riducono la parziale carica positiva.
+!!! info "Perche' le aldeidi sono piu' reattive dei chetoni?"
+    Nei chetoni il carbonio del C=O e' circondato da **due** gruppi alchilici, che "donano" elettroni e riducono la carica positiva. Nelle aldeidi c'e' solo **un** gruppo alchilico (e un H), quindi la carica positiva e' piu' forte e il nucleofilo attacca piu' facilmente.
 
 #### Addizione nucleofila
 
-La reazione piu' comune e' l'**addizione nucleofila** al doppio legame C=O. Il nucleofilo attacca il carbonio, il doppio legame si rompe, e si forma un nuovo legame:
-
-\[
-  >C=O + R-OH \rightleftharpoons \text{emiacetale (o emichetale)}
-\]
-
-L'emiacetale puo' reagire con un'altra molecola di alcol per formare un **acetale** (o **chetale**), con eliminazione di acqua.
+La reazione piu' tipica: un nucleofilo attacca il carbonio del C=O, il doppio legame si rompe, e si forma un nuovo legame. Quando il nucleofilo e' un alcol (ROH), si ottiene un **emiacetale** (da un'aldeide) o un **emichetale** (da un chetone). L'emiacetale puo' poi reagire con un secondo alcol per formare un **acetale**, perdendo acqua.
 
 #### Riduzione
 
-La riduzione di aldeidi e chetoni con agenti riducenti (\( LiAlH_4 \), \( NaBH_4 \)) forma alcoli:
+"Ridurre" aldeidi e chetoni significa aggiungere idrogeno al gruppo C=O, ottenendo di nuovo un alcol:
+
+- **Aldeide → alcol primario**:
 
 \[
-  R-CHO \xrightarrow{[H]} R-CH_2-OH \quad \text{(alcol primario)}
+  \text{R—CHO} \xrightarrow{[\text{H}]} \text{R—CH}_2\text{OH}
 \]
 
+- **Chetone → alcol secondario**:
+
 \[
-  R-CO-R' \xrightarrow{[H]} R-CH(OH)-R' \quad \text{(alcol secondario)}
+  \text{R—CO—R'} \xrightarrow{[\text{H}]} \text{R—CH(OH)—R'}
 \]
 
 #### Ossidazione
 
-L'ossidazione delle **aldeidi** in presenza di opportuni ossidanti genera **acidi carbossilici**:
+Le **aldeidi** si ossidano facilmente ad **acidi carbossilici**:
 
 \[
-  R-CHO \xrightarrow{[O]} R-COOH
+  \text{R—CHO} \xrightarrow{[\text{O}]} \text{R—COOH}
 \]
 
-!!! warning "Attenzione"
-    I **chetoni** sono molto piu' difficili da ossidare perche' richiederebbero la rottura di un legame C—C.
+I **chetoni** invece sono molto piu' difficili da ossidare, perche' richiederebbero la rottura di un legame C—C.
 
-#### Reattivi di Fehling e di Tollens
+#### Come riconoscere un'aldeide: i reattivi di Fehling e Tollens
 
-Sono saggi di laboratorio per riconoscere le **aldeidi**:
+Sono due saggi di laboratorio che sfruttano la facile ossidazione delle aldeidi per riconoscerle:
 
-**Reattivo di Fehling**: contiene ioni \( Cu^{2+} \) (colore azzurro). In presenza di un'aldeide, gli ioni si riducono a \( Cu_2O \) (precipitato rosso mattone):
+!!! example "Reattivo di Fehling"
+    Contiene ioni rame Cu²⁺ in soluzione (colore **azzurro**). Se si aggiunge un'aldeide, gli ioni Cu²⁺ si riducono formando un precipitato **rosso mattone** di ossido rameoso (Cu₂O):
 
-\[
-  R-CHO + 2\, Cu^{2+} + 5\, OH^- \rightarrow R-COO^- + Cu_2O \downarrow + 3\, H_2O
-\]
+    \[
+      \text{R—CHO} + 2\text{ Cu}^{2+} + 5\text{ OH}^- \longrightarrow \text{R—COO}^- + \text{Cu}_2\text{O}\downarrow + 3\text{ H}_2\text{O}
+    \]
 
-**Reattivo di Tollens**: contiene ioni \( Ag^+ \) in ammoniaca. In presenza di un'aldeide, l'argento si deposita come uno **specchio** sulla parete della provetta:
+!!! example "Reattivo di Tollens"
+    Contiene ioni argento Ag⁺ sciolti in ammoniaca. Se si aggiunge un'aldeide, l'argento si deposita come uno **specchio lucido** sulla parete della provetta (per questo e' chiamato anche "saggio dello specchio d'argento"):
 
-\[
-  R-CHO + 2\, [Ag(NH_3)_2]^+ + 3\, OH^- \rightarrow R-COO^- + 2\, Ag \downarrow + 4\, NH_3 + 2\, H_2O
-\]
+    \[
+      \text{R—CHO} + 2\text{ Ag(NH}_3\text{)}_2^+ + 3\text{ OH}^- \longrightarrow \text{R—COO}^- + 2\text{ Ag}\downarrow + 4\text{ NH}_3 + 2\text{ H}_2\text{O}
+    \]
 
 ### Tautomeria cheto-enolica
 
-Le aldeidi e i chetoni che presentano un atomo di idrogeno sul carbonio adiacente al gruppo carbonile possono esistere in due forme in equilibrio:
+Le aldeidi e i chetoni che hanno un atomo di H sul carbonio adiacente al C=O possono esistere in **due forme** in equilibrio fra loro:
 
-- **Forma chetonica**: il doppio legame e' tra C e O
-- **Forma enolica**: il doppio legame e' tra due atomi di C, e il gruppo -OH e' legato a uno di essi
+- **Forma chetonica**: il doppio legame e' tra C e O (la forma "normale")
+- **Forma enolica**: il doppio legame si sposta tra i due carboni, e sull'ossigeno compare un gruppo —OH
 
-In genere la forma **chetonica e' prevalente**, ma in certi casi l'equilibrio puo' essere spostato verso la forma enolica.
+In condizioni normali la forma **chetonica prevale nettamente**, ma la forma enolica puo' diventare importante in certe reazioni.
 
 ---
 
@@ -581,39 +567,35 @@ In genere la forma **chetonica e' prevalente**, ma in certi casi l'equilibrio pu
 
 ### Il gruppo funzionale carbossile
 
-Gli **acidi carbossilici** sono caratterizzati dal gruppo funzionale **carbossile** \( -COOH \), formato da due gruppi funzionali: il gruppo carbonile \( >C=O \) e il gruppo ossidrile \( -OH \).
+Gli **acidi carbossilici** hanno il gruppo funzionale **carbossile** (—COOH). Questo gruppo e' speciale perche' e' formato dalla combinazione di due gruppi che gia' conosciamo: il **gruppo carbonile** (C=O) e il **gruppo ossidrile** (—OH), entrambi sullo stesso carbonio.
 
-Il carbonio del gruppo carbossile e' ibridato \( sp^2 \): i tre orbitali ibridi sono disposti a 120° (disposizione planare triangolare) e formano tre legami \( \sigma \). L'orbitale *p* non ibrido forma il legame \( \pi \) con l'ossigeno.
+Il carbonio del carbossile e' ibridato sp² (come nelle aldeidi), con una disposizione planare triangolare a 120°.
 
-Le formule molecolari generali sono:
-
-\[
-  R-COOH \quad \text{(acido alifatico)} \quad \quad Ar-COOH \quad \text{(acido aromatico)}
-\]
+Le formule generali sono: **R—COOH** (acido alifatico) e **Ar—COOH** (acido aromatico).
 
 ### Nomenclatura
 
-Il nome IUPAC si ottiene dal nome dell'alcano corrispondente, sostituendo la desinenza *-o* con il suffisso **-oico**, preceduto dalla parola *acido*:
+Il nome IUPAC si costruisce dal nome dell'alcano corrispondente, sostituendo la *-o* finale con **-oico** e mettendo davanti la parola *acido*:
 
 | Formula | Nome IUPAC | Nome comune |
 |---------|-----------|-------------|
-| \( H-COOH \) | acido metanoico | acido formico |
-| \( CH_3-COOH \) | acido etanoico | acido acetico |
-| \( CH_3-CH_2-COOH \) | acido propanoico | acido propionico |
-| \( CH_3-(CH_2)_2-COOH \) | acido butanoico | acido butirrico |
+| HCOOH | acido metanoico | acido formico |
+| CH₃COOH | acido etanoico | acido acetico |
+| CH₃CH₂COOH | acido propanoico | acido propionico |
+| CH₃(CH₂)₂COOH | acido butanoico | acido butirrico |
 
-!!! info "Nomi comuni"
-    Molti acidi carbossilici hanno nomi comuni che derivano dalla loro **fonte naturale**: acido formico (dalle formiche), acido acetico (dall'aceto), acido butirrico (dal burro).
+!!! info "Da dove vengono i nomi comuni?"
+    Molti nomi derivano dalla **fonte naturale** dell'acido: l'acido formico dalle formiche (*formica* in latino), l'acido acetico dall'aceto (*acetum*), l'acido butirrico dal burro (*butyrum*).
 
 ### Gli acidi grassi
 
-Gli **acidi grassi** sono acidi carbossilici alifatici con un numero **pari** di atomi di carbonio (solitamente da 12 a 22). Possono essere:
+Gli **acidi grassi** sono acidi carbossilici con una catena carboniosa lunga, con un numero **pari** di carboni (di solito da 12 a 22). Si dividono in:
 
-- **Saturi**: senza doppi legami nella catena carboniosa
-- **Insaturi**: con uno o piu' doppi legami (configurazione *cis*)
+- **Saturi**: nessun doppio legame nella catena → solidi a temperatura ambiente (**grassi**)
+- **Insaturi**: uno o piu' doppi legami (in configurazione *cis*) → liquidi a temperatura ambiente (**oli**)
 
-| Nome comune | Atomi di C | Tipo |
-|-------------|-----------|------|
+| Nome comune | Carboni | Tipo |
+|-------------|---------|------|
 | Acido laurico | 12 | saturo |
 | Acido palmitico | 16 | saturo |
 | Acido stearico | 18 | saturo |
@@ -621,62 +603,63 @@ Gli **acidi grassi** sono acidi carbossilici alifatici con un numero **pari** di
 | Acido linoleico | 18 | insaturo (2 doppi legami) |
 | Acido linolenico | 18 | insaturo (3 doppi legami) |
 
-Gli acidi grassi si trovano in natura sotto forma di **trigliceridi**: se contengono acidi grassi saturi sono **grassi** (solidi a temperatura ambiente), se contengono acidi grassi insaturi sono **oli** (liquidi).
+In natura gli acidi grassi si trovano combinati con il **glicerolo** sotto forma di **trigliceridi** (i grassi e gli oli che mangiamo).
 
 ### Proprieta' fisiche
 
-- I primi quattro termini sono **liquidi** a temperatura ambiente; dal quinto in poi sono **solidi**.
-- Il gruppo -COOH puo' formare **legami a idrogeno** (piu' forti degli alcoli), quindi i punti di ebollizione sono **molto alti**.
-- I primi termini sono **molto solubili** in acqua; la solubilita' diminuisce con la catena carboniosa.
-
 | Nome | Formula | T. eb. (°C) | Solubilita' |
 |------|---------|-------------|-------------|
-| acido metanoico | \( HCOOH \) | 101 | molto solubile |
-| acido etanoico | \( CH_3COOH \) | 118 | molto solubile |
-| acido propanoico | \( C_2H_5COOH \) | 141 | molto solubile |
-| acido butanoico | \( C_3H_7COOH \) | 164 | solubile |
-| acido esanoico | \( C_5H_{11}COOH \) | 205 | poco solubile |
+| acido metanoico | HCOOH | 101 | molto solubile |
+| acido etanoico | CH₃COOH | 118 | molto solubile |
+| acido propanoico | C₂H₅COOH | 141 | molto solubile |
+| acido butanoico | C₃H₇COOH | 164 | solubile |
+| acido esanoico | C₅H₁₁COOH | 205 | poco solubile |
+
+Il gruppo —COOH puo' formare **due legami a idrogeno** (sia come donatore sia come accettore), quindi i punti di ebollizione sono **molto alti**, superiori a quelli degli alcoli con massa simile. I primi termini della serie sono liquidi e molto solubili in acqua.
 
 ### Gli acidi carbossilici sono acidi deboli
 
-In acqua gli acidi carbossilici si dissociano **parzialmente** cedendo un protone:
+In acqua, gli acidi carbossilici cedono **parzialmente** un protone (H⁺) formando lo **ione carbossilato** (R—COO⁻):
 
 \[
-  R-COOH + H_2O \rightleftharpoons R-COO^- + H_3O^+
+  \text{R—COOH} + \text{H}_2\text{O} \rightleftharpoons \text{R—COO}^- + \text{H}_3\text{O}^+
 \]
 
-La forza dell'acido si esprime con la costante di dissociazione \( K_a \). Poiche' i valori di \( K_a \) sono piccoli, si usa il \( pK_a \):
+La forza dell'acido si misura con K~a~ e pK~a~:
 
-| Acido | \( K_a \) | \( pK_a \) |
-|-------|-----------|-----------|
-| acido metanoico | \( 2.1 \cdot 10^{-4} \) | 3,75 |
-| acido etanoico | \( 1.8 \cdot 10^{-5} \) | 4,74 |
-| acido propanoico | \( 1.3 \cdot 10^{-5} \) | 4,87 |
-| acido cloroetanoico | \( 1.5 \cdot 10^{-3} \) | 2,82 |
+| Acido | pK~a~ |
+|-------|-------|
+| acido metanoico | 3,75 |
+| acido etanoico | 4,74 |
+| acido propanoico | 4,87 |
+| acido cloroetanoico | 2,82 |
 
-!!! abstract "Effetto induttivo"
-    La presenza di **gruppi elettron-attrattori** (come gli alogeni) aumenta l'acidita'. Per esempio, l'acido cloroetanoico e' piu' acido dell'acido etanoico perche' il cloro attira elettroni e stabilizza la base coniugata (\( R-COO^- \)). L'acidita' degli acidi carbossilici e' comunque **maggiore** di quella degli alcoli, perche' lo ione carbossilato e' stabilizzato dalla **delocalizzazione per risonanza** della carica negativa su entrambi gli atomi di ossigeno.
+!!! abstract "L'effetto induttivo e la risonanza"
+    L'acidita' degli acidi carbossilici e' **maggiore** di quella degli alcoli per due motivi:
+
+    1. **Risonanza**: nello ione carbossilato (R—COO⁻) la carica negativa e' **distribuita** equamente sui due atomi di ossigeno. Questa delocalizzazione stabilizza lo ione e favorisce la dissociazione.
+    2. **Effetto induttivo**: se nella molecola ci sono gruppi che "attraggono" elettroni (come gli alogeni), l'acidita' aumenta. Per esempio, l'acido **cloroetanoico** (pK~a~ = 2,82) e' molto piu' acido dell'acido etanoico (pK~a~ = 4,74) perche' il cloro attira elettroni e stabilizza la base coniugata.
 
 ### Le reazioni degli acidi carbossilici
 
-#### Rottura del legame O—H (neutralizzazione)
+#### 1. Neutralizzazione (rottura del legame O—H)
 
-La reazione acido-base con una **base forte** (NaOH, KOH) produce un **sale** dell'acido e acqua:
+L'acido reagisce con una **base forte** (come NaOH) e si forma un **sale** e acqua:
 
 \[
-  R-COOH + NaOH \rightarrow R-COO^-Na^+ + H_2O
+  \text{CH}_3\text{COOH} + \text{NaOH} \longrightarrow \text{CH}_3\text{COO}^-\text{Na}^+ + \text{H}_2\text{O}
 \]
 
-Il nome del sale si ottiene dalla radice dell'acido con il suffisso *-ato*, seguito dal nome del metallo. Per esempio: acido etanoico → **etanoato di sodio** (acetato di sodio).
+Il sale si chiama **etanoato di sodio** (o acetato di sodio). Il nome del sale si costruisce cambiando la desinenza dell'acido da *-oico* a **-ato** e aggiungendo il nome del metallo.
 
-#### Sostituzione nucleofila acilica
+#### 2. Sostituzione nucleofila acilica
 
-Il gruppo -OH dell'acido viene sostituito da un nucleofilo. Il gruppo funzionale risultante si chiama **gruppo acilico**. I prodotti sono i **derivati degli acidi carbossilici**: esteri, ammidi, anidridi.
+Il gruppo —OH dell'acido puo' essere sostituito da un altro nucleofilo. Questa reazione e' alla base della formazione degli **esteri**, delle **ammidi** e delle **anidridi** (i derivati degli acidi carbossilici).
 
 ### I FANS (Farmaci Antinfiammatori Non Steroidei)
 
-!!! info "Curiosita'"
-    I FANS come ibuprofene, naprossene e **aspirina** sono acidi carbossilici o loro derivati. L'aspirina (acido acetilsalicilico) fu sintetizzata dalla casa farmaceutica Bayer nel 1899. E' il farmaco piu' diffuso al mondo: riduce dolore, infiammazione e febbre.
+!!! info "Curiosita': l'aspirina e i FANS"
+    Farmaci come ibuprofene, naprossene e **aspirina** (acido acetilsalicilico) sono acidi carbossilici o derivati. L'aspirina fu sintetizzata dalla Bayer nel 1899 ed e' il farmaco piu' diffuso al mondo: riduce dolore, infiammazione e febbre. L'acido salicilico (il suo precursore) si ricava dalla corteccia del salice.
 
 ---
 
@@ -684,53 +667,47 @@ Il gruppo -OH dell'acido viene sostituito da un nucleofilo. Il gruppo funzionale
 
 ### Il gruppo funzionale estereo
 
-Gli **esteri** sono derivati degli acidi carbossilici in cui il gruppo ossidrile -OH e' stato sostituito dal gruppo alcossido \( -OR' \) degli alcoli. Il gruppo funzionale e':
+Gli **esteri** sono derivati degli acidi carbossilici in cui il gruppo —OH del carbossile e' stato sostituito dal gruppo —OR' di un alcol. Il gruppo funzionale si chiama **gruppo estereo** (—COO—).
 
-\[
-  -COO- \quad \text{(gruppo estereo)}
-\]
+Le formule generali sono: **R—COO—R'** e **Ar—COO—R'**.
 
-Le formule molecolari generali sono:
-
-\[
-  R-COO-R' \quad \quad Ar-COO-R'
-\]
-
-Gli esteri sono largamente **diffusi in natura**: sono responsabili dell'odore gradevole della frutta e dei fiori. Appartengono alla classe degli esteri anche le cere, i grassi e molti aromi usati in profumeria.
+In natura gli esteri sono ovunque: sono responsabili dell'**odore della frutta** e dei fiori, e fanno parte delle cere, dei grassi e di molti aromi artificiali.
 
 ### Nomenclatura
 
-Il nome IUPAC si costruisce dal nome del gruppo R della componente acida (con suffisso *-ato*) e dal nome del gruppo alcolico R' (con suffisso *-ile*):
+Il nome IUPAC si costruisce cosi': prima il nome della parte acida (con desinenza **-ato**), poi il nome del gruppo alcolico (con desinenza **-ile**):
 
 | Formula | Nome IUPAC | Nome comune |
 |---------|-----------|-------------|
-| \( H-COO-CH_2CH_3 \) | metanoato di etile | formiato di etile |
-| \( CH_3-COO-CH_3 \) | etanoato di metile | acetato di metile |
+| HCOOCH₂CH₃ | metanoato di etile | formiato di etile |
+| CH₃COOCH₃ | etanoato di metile | acetato di metile |
 
-### La sintesi degli esteri: esterificazione di Fischer
+### La sintesi: esterificazione di Fischer
 
-La sintesi avviene mediante una reazione di **sostituzione nucleofila acilica** tra un acido carbossilico e un alcol, in presenza di un catalizzatore acido \( H^+ \). Si chiama **esterificazione di Fischer**:
+L'estere si forma dalla reazione tra un **acido carbossilico** e un **alcol**, in presenza di un catalizzatore acido (H⁺). Si chiama **esterificazione di Fischer**: il gruppo —OH dell'acido viene sostituito dal gruppo —OR' dell'alcol, e si libera acqua:
 
 \[
-  R-COOH + R'-OH \xrightarrow{H^+} R-COOR' + H_2O
+  \text{R—COOH} + \text{R'—OH} \xrightarrow{\text{H}^+} \text{R—COOR'} + \text{H}_2\text{O}
 \]
 
-!!! example "Esempio: formazione di un trigliceride"
-    Il **glicerolo** (un triolo) reagisce con tre molecole di acidi grassi per formare un **trigliceride** (o triacilglicerolo):
+!!! example "Esempio importante: i trigliceridi"
+    Il **glicerolo** (un triolo con 3 gruppi —OH) reagisce con **tre molecole di acidi grassi** per formare un **trigliceride**:
 
-    - I trigliceridi con acidi grassi **saturi** → **grassi** (solidi a temperatura ambiente)
-    - I trigliceridi con acidi grassi **insaturi** → **oli** (liquidi a temperatura ambiente)
+    - Con acidi grassi **saturi** → **grassi** (solidi, come il burro)
+    - Con acidi grassi **insaturi** → **oli** (liquidi, come l'olio d'oliva)
+
+    I trigliceridi sono la principale **riserva energetica** del nostro corpo.
 
 ### L'idrolisi basica (saponificazione)
 
-La reazione piu' importante degli esteri e' l'**idrolisi basica**: un estere reagisce con una base forte (NaOH) in soluzione acquosa, producendo il **sale dell'acido** e un **alcol**:
+La reazione piu' importante degli esteri e' l'**idrolisi basica**: l'estere viene "rotto" dall'acqua in ambiente basico (con NaOH), e si ottengono il **sale dell'acido** e l'**alcol**:
 
 \[
-  R-COOR' + NaOH \xrightarrow{H_2O, \Delta} R-COO^-Na^+ + R'-OH
+  \text{R—COOR'} + \text{NaOH} \xrightarrow{\text{H}_2\text{O},\, \Delta} \text{R—COO}^-\text{Na}^+ + \text{R'OH}
 \]
 
 !!! info "I saponi"
-    La saponificazione dei trigliceridi con NaOH produce **saponi** (sali di sodio degli acidi grassi). Il nome del sale si ottiene cambiando la desinenza dell'acido da *-ico* ad *-ato* e aggiungendo il nome del metallo.
+    Quando si fa l'idrolisi basica dei trigliceridi con NaOH, si ottengono **saponi** (che sono sali di sodio degli acidi grassi) e glicerolo. Questo processo si chiama **saponificazione** e veniva usato fin dall'antichita' per produrre sapone.
 
 ---
 
@@ -738,72 +715,64 @@ La reazione piu' importante degli esteri e' l'**idrolisi basica**: un estere rea
 
 ### Il gruppo funzionale ammidico
 
-Le **ammidi** sono derivati degli acidi carbossilici in cui il gruppo -OH e' stato sostituito dal gruppo \( -NH_2 \), \( -NHR \) o \( -NR_2 \).
+Le **ammidi** sono derivati degli acidi carbossilici in cui il gruppo —OH e' stato sostituito dal gruppo **—NH₂** (o —NHR o —NR₂). Il gruppo funzionale ammidico e' formato da un carbonio ibridato sp² legato con un doppio legame all'ossigeno e con un legame semplice all'azoto.
 
-Il **gruppo funzionale ammidico** e' dato da un atomo di carbonio ibridato \( sp^2 \) legato a un atomo di ossigeno (doppio legame) e a un atomo di azoto (legame semplice):
+Si classificano in:
 
-\[
-  -CON \quad \text{oppure} \quad -\overset{O}{C}-N
-\]
-
-Le ammidi si classificano in:
-
-| Tipo | Formula | Descrizione |
-|------|---------|-------------|
-| Primaria | \( R-CO-NH_2 \) | azoto legato a 2 H |
-| Secondaria | \( R-CO-NH-R' \) | azoto legato a 1 H e 1 gruppo alchilico |
-| Terziaria | \( R-CO-NR'R'' \) | azoto legato a 2 gruppi alchilici |
+| Tipo | Formula | Che cos'ha l'azoto |
+|------|---------|-------------------|
+| **Primaria** | R—CO—NH₂ | 2 atomi di H |
+| **Secondaria** | R—CO—NH—R' | 1 H e 1 gruppo alchilico |
+| **Terziaria** | R—CO—NR'R'' | 2 gruppi alchilici |
 
 ### Nomenclatura
 
-Il nome IUPAC delle ammidi primarie si costruisce dalla radice dell'acido corrispondente con il suffisso *-ammide*:
+Il nome IUPAC delle ammidi primarie si costruisce dalla radice dell'acido corrispondente con il suffisso **-ammide**:
 
 | Formula | Nome IUPAC | Nome comune |
 |---------|-----------|-------------|
-| \( H-CO-NH_2 \) | metanammide | formammide |
-| \( CH_3-CO-NH_2 \) | etanammide | acetammide |
+| H—CO—NH₂ | metanammide | formammide |
+| CH₃—CO—NH₂ | etanammide | acetammide |
 
-Per le ammidi secondarie e terziarie si usa la lettera *N-* seguita dal nome dei gruppi alchilici legati all'azoto.
+Per le ammidi secondarie e terziarie si mette la lettera *N-* seguita dal nome dei gruppi legati all'azoto.
 
 ### Il legame peptidico
 
-!!! abstract "Legame peptidico"
-    Il legame carbonio-azoto nelle ammidi, quando si stabilisce tra gli **amminoacidi** (i monomeri delle proteine), e' chiamato **legame peptidico**. E' il legame fondamentale delle proteine.
+!!! abstract "Il legame peptidico"
+    Quando il legame ammidico (C—N) si forma tra due **amminoacidi**, si chiama **legame peptidico**. E' il legame che tiene insieme i monomeri delle **proteine**, cioe' le molecole piu' importanti del nostro corpo. Quindi il legame ammidico e' alla base della vita stessa!
 
 ### L'urea
 
-L'**urea** (\( H_2N-CO-NH_2 \)) e' una diammide dell'acido carbonico. E' il prodotto finale del metabolismo delle proteine e viene eliminata con le urine. E' un solido cristallino molto solubile in acqua.
+L'**urea** (H₂N—CO—NH₂) e' una diammide, cioe' ha **due gruppi —NH₂** legati allo stesso carbonio del C=O. E' il prodotto finale del metabolismo delle proteine nel nostro corpo: quando le proteine vengono "smontate", l'azoto in eccesso viene trasformato in urea, che poi viene eliminata con le urine. L'urea e' un solido cristallino molto solubile in acqua.
 
 ### Sintesi e reazioni delle ammidi
 
-Le ammidi primarie si ottengono facendo reagire un **estere** con **ammoniaca**:
+Le ammidi si possono ottenere facendo reagire un **estere** con **ammoniaca**:
 
 \[
-  R-COOR' + NH_3 \rightarrow R-CO-NH_2 + R'OH
+  \text{R—COOR'} + \text{NH}_3 \longrightarrow \text{R—CO—NH}_2 + \text{R'OH}
 \]
 
-L'**idrolisi** delle ammidi (reazione inversa) avviene con un catalizzatore acido o base:
+L'**idrolisi** (reazione inversa) rompe l'ammide in acido carbossilico e ammoniaca:
 
 \[
-  R-CO-NH_2 + H_2O \xrightarrow{H^+} R-COOH + NH_3
+  \text{R—CO—NH}_2 + \text{H}_2\text{O} \xrightarrow{\text{H}^+} \text{R—COOH} + \text{NH}_3
 \]
 
 ### Le ammidi sono composti neutri
 
-Le ammidi non sono ne' acide ne' basiche: il doppietto elettronico dell'azoto e' delocalizzato nel legame con il carbonile, per cui l'azoto e' **poco disponibile** ad accettare protoni (comportamento non basico).
+A differenza delle ammine, le ammidi **non sono basiche**. Il motivo e' che il doppietto elettronico dell'azoto (quello che nelle ammine accetta protoni) nelle ammidi e' "impegnato" nella delocalizzazione con il gruppo C=O: l'azoto "condivide" i suoi elettroni con il carbonile, e non gli restano elettroni liberi per comportarsi da base.
 
 ---
 
 ## Le anidridi
 
-Le **anidridi** sono derivati degli acidi carbossilici ottenuti per **eliminazione di acqua** tra due molecole di acido carbossilico:
+Le **anidridi** si ottengono "togliendo una molecola d'acqua" da due molecole di acido carbossilico che si uniscono:
 
-\[
-  R-CO-O-CO-R
-\]
+La formula generale e': **R—CO—O—CO—R**
 
-!!! example "Esempio: l'aspirina"
-    L'**acido acetilsalicilico** (aspirina) si ottiene dalla reazione tra l'anidride acetica e l'acido salicilico (un idrossiacido).
+!!! example "Esempio importante: l'aspirina"
+    L'**acido acetilsalicilico** (aspirina) si produce facendo reagire l'**anidride acetica** con l'**acido salicilico** (un idrossiacido aromatico). E' un esempio pratico di come le anidridi vengano usate per sintetizzare farmaci.
 
 ---
 
@@ -811,103 +780,103 @@ Le **anidridi** sono derivati degli acidi carbossilici ottenuti per **eliminazio
 
 ### Il gruppo funzionale amminico
 
-Le **ammine** sono composti organici derivati dall'ammoniaca (\( NH_3 \)), in cui uno o piu' atomi di idrogeno sono sostituiti da **gruppi alchilici o arilici**. Il gruppo funzionale amminico e' costituito da un atomo di **azoto** ibridato \( sp^3 \), con un **doppietto elettronico libero** e angoli di legame di circa 107°.
+Le **ammine** sono composti che derivano dall'ammoniaca (NH₃) quando uno o piu' dei suoi idrogeni vengono sostituiti da **gruppi alchilici o arilici**. L'atomo di **azoto** e' ibridato sp³, ha una forma piramidale (angoli di 107°) e possiede un **doppietto elettronico libero** — cioe' una coppia di elettroni non condivisa, che rende le ammine capaci di comportarsi da basi.
 
 ### Classificazione
 
-| Tipo | Gruppo funzionale | Formula alifatica | Formula aromatica |
-|------|-------------------|-------------------|-------------------|
-| Primaria | \( -NH_2 \) | \( R-NH_2 \) | \( Ar-NH_2 \) |
-| Secondaria | \( -NH- \) | \( R-NH-R' \) | \( Ar-NH-R' \) |
-| Terziaria | \( -N< \) | \( R-N(R')(R'') \) | \( Ar-N(R')(R'') \) |
+| Tipo | Quanti H sono stati sostituiti | Formula alifatica | Formula aromatica |
+|------|-------------------------------|-------------------|-------------------|
+| **Primaria** | 1 | R—NH₂ | Ar—NH₂ |
+| **Secondaria** | 2 | R—NH—R' | Ar—NH—R' |
+| **Terziaria** | 3 | R₃N | Ar—N(R')(R'') |
 
 ### Nomenclatura
 
-**Ammine alifatiche primarie**: il nome IUPAC e' formato dal termine *ammino-* (con un numero che indica la posizione), seguito dal nome della catena carboniosa:
+Per le **ammine alifatiche**, il nome si costruisce mettendo i nomi dei gruppi alchilici (in ordine alfabetico) seguiti dal suffisso *-ammina*:
 
 | Formula | Nome |
 |---------|------|
-| \( CH_3-NH_2 \) | metilammina |
-| \( CH_3-CH_2-NH_2 \) | etilammina |
-| \( CH_3-NH-CH_3 \) | dimetilammina (secondaria) |
-| \( (CH_3)_3N \) | trimetilammina (terziaria) |
+| CH₃NH₂ | metilammina |
+| CH₃CH₂NH₂ | etilammina |
+| CH₃—NH—CH₃ | dimetilammina (secondaria) |
+| (CH₃)₃N | trimetilammina (terziaria) |
 
-L'ammina aromatica piu' semplice e' l'**anilina** (\( C_6H_5-NH_2 \)), usata nella produzione di farmaci e coloranti.
+L'ammina aromatica piu' semplice e' l'**anilina** (C₆H₅NH₂), usata nella produzione di farmaci e coloranti.
 
 ### Sintesi delle ammine
 
-**1. Alchilazione dell'ammoniaca** — sostituzione nucleofila (\( S_N2 \)) tra un alogenuro alchilico primario e ammoniaca in eccesso:
+**1. Alchilazione dell'ammoniaca** — un alogenuro alchilico reagisce con ammoniaca in eccesso (reazione S~N~2):
 
 \[
-  R-X + NH_3 \rightarrow R-NH_2 + HX
+  \text{R—X} + \text{NH}_3 \longrightarrow \text{R—NH}_2 + \text{HX}
 \]
 
-**2. Riduzione delle ammidi** — un'ammide viene ridotta con un riducente per ottenere un'ammina:
+**2. Riduzione delle ammidi** — un'ammide viene ridotta (si aggiunge idrogeno) per ottenere un'ammina:
 
 \[
-  R-CO-NH-R' \xrightarrow{[H]} R-CH_2-NH-R' + H_2O
+  \text{R—CO—NH—R'} \xrightarrow{[\text{H}]} \text{R—CH}_2\text{—NH—R'} + \text{H}_2\text{O}
 \]
 
 ### Proprieta' fisiche
 
-- Le ammine primarie e secondarie possono formare **legami a idrogeno** (ma piu' deboli di quelli degli alcoli, perche' N e' meno elettronegativo di O).
-- I punti di ebollizione sono **piu' alti** degli idrocarburi ma **piu' bassi** degli alcoli con massa simile.
-- Le ammine primarie e secondarie con massa molecolare non elevata sono **solubili** in acqua.
-- Le ammine terziarie sono meno solubili perche' non hanno H legato ad N per fare legami a idrogeno tra loro.
-
 | Composto | Massa molecolare | T. eb. (°C) |
 |----------|-----------------|-------------|
-| etano | 30 | -88 |
+| etano (per confronto) | 30 | -88 |
 | metilammina | 31 | -6 |
-| metanolo | 32 | 65 |
+| metanolo (per confronto) | 32 | 65 |
+
+Le ammine primarie e secondarie possono formare **legami a idrogeno** (l'azoto ha un doppietto libero e degli H legati), ma questi legami sono piu' deboli di quelli degli alcoli perche' l'azoto e' meno elettronegativo dell'ossigeno. Per questo le ammine bollono a temperature **intermedie** tra gli idrocarburi e gli alcoli.
+
+Le ammine con pochi carboni sono **solubili** in acqua. Le ammine terziarie lo sono meno, perche' non hanno H legato ad N e quindi non formano legami a idrogeno fra di loro.
 
 ### Le ammine sono basi deboli
 
-Per la presenza del **doppietto elettronico libero** sull'azoto, le ammine si comportano da **basi**:
+Grazie al **doppietto elettronico libero** sull'azoto, le ammine si comportano da **basi**: possono "catturare" un protone H⁺.
 
-**Come basi di Lewis**: donano il doppietto elettronico a un acido forte (HCl), formando un **sale di alchilammonio**:
+**Come basi di Lewis**: donano il doppietto a un acido forte, formando un **sale di alchilammonio**:
 
 \[
-  CH_3-NH_2 + HCl \rightleftharpoons CH_3-NH_3^+Cl^-
+  \text{CH}_3\text{NH}_2 + \text{HCl} \longrightarrow \text{CH}_3\text{NH}_3^+\text{Cl}^-
 \]
 
 **Come basi di Bronsted-Lowry**: accettano un protone dall'acqua:
 
 \[
-  CH_3-CH_2-NH_2 + H_2O \rightleftharpoons CH_3-CH_2-NH_3^+ + OH^-
+  \text{CH}_3\text{CH}_2\text{NH}_2 + \text{H}_2\text{O} \rightleftharpoons \text{CH}_3\text{CH}_2\text{NH}_3^+ + \text{OH}^-
 \]
 
-!!! note "Basicita' delle ammine"
-    Le ammine **alifatiche** sono basi piu' forti dell'ammoniaca (i gruppi alchilici sono elettron-donatori e rendono il doppietto piu' disponibile). Le ammine **aromatiche** (come l'anilina) sono basi piu' deboli perche' il doppietto dell'azoto e' delocalizzato per risonanza sull'anello benzenico.
+!!! note "Quanto sono basiche le ammine?"
+    Le ammine **alifatiche** (come metilammina, etilammina...) sono **piu' basiche** dell'ammoniaca, perche' i gruppi alchilici sono elettron-donatori e rendono il doppietto dell'azoto piu' disponibile. Le ammine **aromatiche** (come l'anilina) sono invece **meno basiche**, perche' il doppietto dell'azoto viene "risucchiato" dalla delocalizzazione nell'anello benzenico (risonanza) e diventa meno disponibile per catturare protoni.
 
 ---
 
 ## Acidi carbossilici polifunzionali
 
+Sono molecole che, oltre al gruppo carbossile —COOH, contengono anche **altri gruppi funzionali**. Sono importantissimi nel metabolismo.
+
 ### Gli idrossiacidi
 
-Gli **idrossiacidi** sono composti che contengono sia un gruppo ossidrile \( -OH \) sia un gruppo carbossile \( -COOH \). I piu' noti sono:
+Contengono sia un gruppo —OH sia un gruppo —COOH. I piu' importanti sono:
 
-**L'acido lattico** (acido 2-idrossipropanoico): presente nel latte e nello yogurt. Esiste in due forme enantiomere (chiralita'):
+**L'acido lattico** (acido 2-idrossipropanoico): si forma nei muscoli durante lo sforzo fisico intenso tramite la **fermentazione lattica** (quando le cellule muscolari non hanno abbastanza ossigeno). E' anche presente nel latte e nello yogurt. Esiste in due forme speculari (enantiomeri): l'acido D(-)-lattico e l'acido L(+)-lattico. L'accumulo di acido lattico nei muscoli causa la sensazione di **fatica**.
 
-- L'acido **D(-)-lattico**: prodotto dalla fermentazione lattica operata dai batteri nei muscoli durante l'attivita' fisica intensa. E' responsabile della sensazione di fatica.
-- L'acido **L(+)-lattico**: presente nei prodotti lattiero-caseari.
-
-**L'acido malico** (acido 2-idrossibutandioico): presente nella frutta, e' un importante intermedio del **ciclo di Krebs**.
+**L'acido malico** (acido 2-idrossibutandioico): presente nella frutta (soprattutto nelle mele), e' un intermedio importante del **ciclo di Krebs**, la via metabolica che produce energia nelle cellule.
 
 ### I chetoacidi
 
-I **chetoacidi** contengono un gruppo carbonile \( >C=O \) e un gruppo carbossile \( -COOH \). I piu' importanti sono:
+Contengono un gruppo carbonile (C=O) e un gruppo carbossile (—COOH):
 
-- **Acido piruvico** (acido 2-ossopropanoico): e' il prodotto finale della **glicolisi** e un composto chiave nel metabolismo energetico del glucosio.
-- **Acido ossalacetico** (acido 2-ossobutandioico): e' l'intermedio finale del **ciclo di Krebs**, prodotto dall'ossidazione dell'acido malico.
+- **Acido piruvico** (acido 2-ossopropanoico): e' il prodotto finale della **glicolisi** (la prima fase della demolizione del glucosio per ottenere energia). Rappresenta un crocevia metabolico fondamentale.
+- **Acido ossalacetico** (acido 2-ossobutandioico): e' l'ultimo intermedio del **ciclo di Krebs**, quello che si combina con l'acetil-CoA per far ripartire il ciclo.
 
 ### Gli acidi bicarbossilici
 
-Gli **acidi bicarbossilici** contengono **due gruppi carbossile**. L'acido piu' semplice e' l'**acido ossalico** (\( COOH-COOH \)). I piu' diffusi sono gli acidi bicarbossilici aromatici, come l'**acido ftalico**, l'**acido isoftalico** e l'**acido tereftalico**.
+Hanno **due gruppi carbossile** (—COOH) nella stessa molecola. Il piu' semplice e' l'**acido ossalico** (COOH—COOH). Tra i piu' importanti ci sono quelli aromatici:
 
-!!! info "Applicazione industriale"
-    L'**acido tereftalico** e' uno dei due componenti di partenza per la sintesi del **PET** (polietilene tereftalato), il polimero usato per le bottiglie di plastica.
+- **Acido ftalico**, **isoftalico** e **tereftalico**: tre isomeri di posizione con l'anello benzenico e due gruppi —COOH
+
+!!! info "Il PET: dalla chimica alla bottiglia"
+    L'**acido tereftalico** e' uno dei due componenti per produrre il **PET** (polietilene tereftalato), il polimero con cui si fanno le bottiglie di plastica. E' un esempio di come la chimica organica sia alla base di oggetti che usiamo ogni giorno.
 
 ---
 
@@ -917,7 +886,7 @@ Gli **acidi bicarbossilici** contengono **due gruppi carbossile**. L'acido piu' 
 - [x] Alcoli: nomenclatura, classificazione, sintesi, proprieta', reazioni, ossidazione
 - [x] Fenoli: struttura, proprieta', reazioni
 - [x] Tioli: struttura e legame disolfuro
-- [x] Eteri: nomenclatura, sintesi, proprieta'
+- [x] Eteri: nomenclatura, sintesi (disidratazione e Williamson), proprieta'
 - [x] Aldeidi e chetoni: gruppo carbonile, nomenclatura, sintesi, proprieta', reattivita'
 - [x] Acidi carbossilici: nomenclatura, acidi grassi, proprieta', acidita', reazioni
 - [x] Esteri: esterificazione di Fischer, idrolisi basica, trigliceridi
@@ -929,9 +898,9 @@ Gli **acidi bicarbossilici** contengono **due gruppi carbossile**. L'acido piu' 
 
 ## Collegamenti
 
-- **Biochimica**: gli acidi carbossilici polifunzionali (acido lattico, piruvico, ossalacetico) sono intermedi chiave del **ciclo di Krebs** e della **glicolisi**
-- **Biologia**: i trigliceridi sono la riserva energetica dell'organismo; gli amminoacidi (che contengono sia il gruppo amminico che il carbossile) formano le proteine tramite il **legame peptidico**
-- **Farmacologia**: i FANS (aspirina, ibuprofene) sono acidi carbossilici o derivati; l'anilina e' usata nella sintesi di farmaci e coloranti
-- **Chimica industriale**: il PET si produce dall'acido tereftalico; la nitroglicerina dal glicerolo; il dietil etere fu usato come primo anestetico
-- **Fisica**: le proprieta' fisiche (punto di ebollizione, solubilita') dipendono dalla polarita' dei legami e dai legami a idrogeno intermolecolari
-- **Educazione civica**: la normativa sugli esplosivi (dinamite/nitroglicerina); il problema ambientale della plastica PET
+- **Biochimica**: gli acidi carbossilici polifunzionali (acido lattico, piruvico, ossalacetico) sono intermedi chiave del **ciclo di Krebs** e della **glicolisi** — collegamento diretto col programma di biochimica
+- **Biologia**: i trigliceridi sono la riserva energetica dell'organismo; gli amminoacidi (con gruppo amminico e carbossile) formano le proteine tramite il **legame peptidico**; il legame **disolfuro** dei tioli mantiene la struttura delle proteine
+- **Farmacologia e storia della scienza**: l'aspirina (acido acetilsalicilico) fu sintetizzata nel 1899 dalla Bayer; i FANS sono tra i farmaci piu' usati al mondo; l'anilina e' alla base di molti coloranti e farmaci sintetici
+- **Chimica industriale e ambiente**: il PET si produce dall'acido tereftalico (problema dello smaltimento della plastica); la nitroglicerina dal glicerolo; il dietil etere fu il primo anestetico chirurgico
+- **Fisica**: le proprieta' fisiche (punto di ebollizione, solubilita') si spiegano con la polarita' dei legami, le interazioni dipolo-dipolo e i legami a idrogeno — collegamento con l'elettrostatica
+- **Educazione civica**: il problema ambientale della plastica PET; la regolamentazione dei farmaci; la gestione degli esplosivi (dinamite/nitroglicerina)
