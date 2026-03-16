@@ -67,24 +67,18 @@ Ci sono tre modi principali per ottenere un alogenuro alchilico:
 
 **1. Alogenazione degli alcheni** — si fa reagire un alchene con un alogeno (Cl₂ o Br₂) in un solvente anidro. I due atomi di alogeno si aggiungono ai due carboni del doppio legame, e si ottiene un **dialogenuro** (due alogeni sulla stessa molecola):
 
-\[
-  \text{R—CH=CH}_2 + \text{Br}_2 \xrightarrow{\text{CCl}_4} \text{R—CHBr—CH}_2\text{Br}
-\]
+> R—CH=CH₂ + Br₂ —(CCl₄)→ R—CHBr—CH₂Br
 
 **2. Idroalogenazione degli alcheni** — si aggiunge un acido alogenidrico (HCl, HBr) al doppio legame di un alchene. Quando l'alchene e' asimmetrico, la reazione segue la **regola di Markovnikov**:
 
-\[
-  \text{CH}_3\text{—CH=CH—CH}_3 + \text{HBr} \longrightarrow \text{CH}_3\text{—CHBr—CH}_2\text{—CH}_3
-\]
+> CH₃—CH=CH—CH₃ + HBr → CH₃—CHBr—CH₂—CH₃
 
 !!! abstract "Regola di Markovnikov"
     L'idrogeno dell'acido si aggiunge al carbonio del doppio legame che ha gia' **piu' idrogeni**, mentre l'alogeno va sull'altro carbonio (quello con meno idrogeni).
 
 **3. Idroalogenazione degli alcoli** — un alcol reagisce con un acido alogenidrico. L'ossidrile (—OH) viene sostituito dall'alogeno:
 
-\[
-  \text{R—OH} + \text{HBr} \longrightarrow \text{R—Br} + \text{H}_2\text{O}
-\]
+> R—OH + HBr → R—Br + H₂O
 
 ### Proprieta' fisiche
 
@@ -105,9 +99,7 @@ Tutto avviene in **un solo passaggio**: il nucleofilo attacca il carbonio dalla 
 !!! example "Esempio di reazione S~N~2"
     Lo ione idrossido (OH⁻) attacca il bromoetano e lo trasforma in etanolo:
 
-    \[
-      \text{OH}^- + \text{CH}_3\text{CH}_2\text{Br} \longrightarrow \text{CH}_3\text{CH}_2\text{OH} + \text{Br}^-
-    \]
+    > OH⁻ + CH₃CH₂Br → CH₃CH₂OH + Br⁻
 
 Caratteristiche principali:
 
@@ -133,9 +125,7 @@ La reazione avviene in **due passaggi** separati:
 
     **Passaggio 1** (lento) — l'alogeno se ne va e si forma il carbocatione:
 
-    \[
-      \text{(CH}_3\text{)}_3\text{C—Br} \longrightarrow \text{(CH}_3\text{)}_3\text{C}^+ + \text{Br}^-
-    \]
+    > (CH₃)₃C—Br → (CH₃)₃C⁺ + Br⁻
 
     **Passaggio 2** (veloce) — l'acqua attacca il carbocatione, e si forma il 2-metil-2-propanolo.
 
@@ -158,9 +148,7 @@ Nelle reazioni di **eliminazione** succede una cosa diversa: invece di sostituir
 - **Meccanismo E1**: in due passaggi (come S~N~1), favorito con alogenuri terziari e basi deboli
 
 !!! example "Esempio di eliminazione E2"
-    \[
-      \text{CH}_3\text{—CHBr—CH}_3 + \text{OH}^- \longrightarrow \text{CH}_3\text{—CH=CH}_2 + \text{H}_2\text{O} + \text{Br}^-
-    \]
+    > CH₃—CHBr—CH₃ + OH⁻ → CH₃—CH=CH₂ + H₂O + Br⁻
 
     Il bromopropano perde HBr e si trasforma in propene (un alchene).
 
@@ -212,23 +200,17 @@ Come per gli alogenuri, anche gli alcoli si classificano in base al carbonio che
 
 **1. Idratazione degli alcheni** — si aggiunge acqua al doppio legame di un alchene, in ambiente acido. Con alcheni asimmetrici, segue la regola di Markovnikov e si ottiene un alcol secondario o terziario:
 
-\[
-  \text{R—CH=CH}_2 + \text{H}_2\text{O} \xrightarrow{\text{H}^+} \text{R—CH(OH)—CH}_3
-\]
+> R—CH=CH₂ + H₂O —(H⁺)→ R—CH(OH)—CH₃
 
 **2. Riduzione di aldeidi e chetoni** — si "aggiunge idrogeno" (con riducenti come LiAlH₄ o NaBH₄) a un'aldeide o a un chetone:
 
 - Da un'aldeide si ottiene un **alcol primario**:
 
-\[
-  \text{R—CHO} \xrightarrow{[\text{H}]} \text{R—CH}_2\text{—OH}
-\]
+> R—CHO —[H]→ R—CH₂—OH
 
 - Da un chetone si ottiene un **alcol secondario**:
 
-\[
-  \text{R—CO—R'} \xrightarrow{[\text{H}]} \text{R—CH(OH)—R'}
-\]
+> R—CO—R' —[H]→ R—CH(OH)—R'
 
 ### Proprieta' fisiche degli alcoli
 
@@ -250,9 +232,7 @@ Come per gli alogenuri, anche gli alcoli si classificano in base al carbonio che
 
 **Come acidi** (di Bronsted-Lowry): l'alcol puo' cedere il suo H⁺ del gruppo —OH all'acqua, formando uno **ione alcossido** (RO⁻):
 
-\[
-  \text{ROH} + \text{H}_2\text{O} \rightleftharpoons \text{RO}^- + \text{H}_3\text{O}^+
-\]
+> ROH + H₂O ⇌ RO⁻ + H₃O⁺
 
 Pero' gli alcoli sono acidi **molto deboli**. La loro forza acida si misura con la costante di dissociazione K~a~ oppure con il pK~a~ (piu' e' alto il pK~a~, piu' l'acido e' debole):
 
@@ -270,9 +250,7 @@ Gli alcoli primari sono leggermente piu' acidi dei secondari, che a loro volta s
 
 Gli alcoli reagiscono con metalli come il sodio: l'idrogeno del gruppo —OH viene strappato e si forma un **alcossido** (un sale) piu' idrogeno gassoso:
 
-\[
-  2 \text{ CH}_3\text{CH}_2\text{OH} + 2 \text{ Na} \longrightarrow 2 \text{ CH}_3\text{CH}_2\text{O}^-\text{Na}^+ + \text{H}_2 \uparrow
-\]
+> 2 CH₃CH₂OH + 2 Na → 2 CH₃CH₂O⁻Na⁺ + H₂↑
 
 Il prodotto CH₃CH₂O⁻Na⁺ si chiama **etossido di sodio**.
 
@@ -280,9 +258,7 @@ Il prodotto CH₃CH₂O⁻Na⁺ si chiama **etossido di sodio**.
 
 Scaldando un alcol con acido solforico a 180 °C, la molecola **perde acqua** e si forma un **alchene** (reazione di eliminazione):
 
-\[
-  \text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{H}_2\text{SO}_4,\, 180°\text{C}} \text{CH}_2\text{=CH}_2 + \text{H}_2\text{O}
-\]
+> CH₃CH₂OH —(H₂SO₄, 180°C)→ CH₂=CH₂ + H₂O
 
 Dall'etanolo si ottiene etene (etilene) e acqua.
 
@@ -300,24 +276,18 @@ flowchart LR
 
 - **Alcol primario → aldeide → acido carbossilico**:
 
-\[
-  \text{R—CH}_2\text{—OH} \xrightarrow{[\text{O}]} \text{R—CHO} \xrightarrow{[\text{O}]} \text{R—COOH}
-\]
+> R—CH₂—OH —[O]→ R—CHO —[O]→ R—COOH
 
 - **Alcol secondario → chetone**:
 
-\[
-  \text{R—CH(OH)—R'} \xrightarrow{[\text{O}]} \text{R—CO—R'}
-\]
+> R—CH(OH)—R' —[O]→ R—CO—R'
 
 - **Alcol terziario**: non si ossida facilmente, perche' il carbonio con il gruppo —OH non ha atomi di idrogeno da "perdere".
 
 !!! example "Esempio biologico: ossidazione dell'etanolo nel fegato"
     Nel nostro corpo, il fegato ossida l'etanolo (l'alcol delle bevande alcoliche) grazie all'enzima *alcol deidrogenasi* e al coenzima NAD⁺:
 
-    \[
-      \text{CH}_3\text{CH}_2\text{OH} + \text{NAD}^+ \longrightarrow \text{CH}_3\text{CHO} + \text{NADH} + \text{H}^+
-    \]
+    > CH₃CH₂OH + NAD⁺ → CH₃CHO + NADH + H⁺
 
     Si forma **acetaldeide** (un'aldeide tossica), che poi viene ulteriormente ossidata ad **acido acetico** e infine a CO₂ e acqua.
 
@@ -354,9 +324,7 @@ Il fenolo piu' semplice e' il **fenolo** stesso (C₆H₅OH, chiamato anche idro
 
 **Rottura del legame O—H**: i fenoli, essendo acidi deboli, reagiscono con **basi forti** formando i **fenossidi** (sali):
 
-\[
-  \text{C}_6\text{H}_5\text{OH} + \text{NaOH} \longrightarrow \text{C}_6\text{H}_5\text{O}^-\text{Na}^+ + \text{H}_2\text{O}
-\]
+> C₆H₅OH + NaOH → C₆H₅O⁻Na⁺ + H₂O
 
 **Ossidazione**: ad esempio, l'idrochinone (un difenolo) si ossida a **benzochinone**.
 
@@ -368,9 +336,7 @@ Il nome si ottiene aggiungendo il suffisso *-tiolo* al nome dell'alcano (es. met
 
 Una proprieta' importante: i tioli si ossidano formando **legami disolfuro** (S—S), che sono fondamentali per la struttura tridimensionale delle **proteine**.
 
-\[
-  \text{R—SH} + \text{HS—R} \longrightarrow \text{R—S—S—R} + \text{H}_2
-\]
+> R—SH + HS—R → R—S—S—R + H₂
 
 ---
 
@@ -398,18 +364,14 @@ Se i due gruppi sono uguali → etere **simmetrico**; se sono diversi → etere 
 
 **1. Disidratazione intermolecolare** — due molecole di alcol primario vengono scaldate con acido solforico a 140 °C. Le due molecole "perdono" una molecola d'acqua e si uniscono tramite l'ossigeno:
 
-\[
-  \text{CH}_3\text{CH}_2\text{OH} + \text{HOCH}_2\text{CH}_3 \xrightarrow{\text{H}_2\text{SO}_4,\, 140°\text{C}} \text{CH}_3\text{CH}_2\text{—O—CH}_2\text{CH}_3 + \text{H}_2\text{O}
-\]
+> CH₃CH₂OH + HOCH₂CH₃ —(H₂SO₄, 140°C)→ CH₃CH₂—O—CH₂CH₃ + H₂O
 
 !!! tip "Attenzione alla temperatura!"
     A **140 °C** si forma un etere (disidratazione intermolecolare, cioe' fra due molecole). A **180 °C** si forma un alchene (disidratazione intramolecolare, cioe' dentro la stessa molecola). La temperatura fa la differenza!
 
 **2. Sintesi di Williamson** — un alcossido metallico (il sale di un alcol) reagisce con un alogenuro alchilico primario tramite meccanismo S~N~2. In parole semplici, lo ione alcossido "attacca" il carbonio dell'alogenuro e lo sostituisce:
 
-\[
-  \text{R—O}^-\text{Na}^+ + \text{R'—X} \longrightarrow \text{R—O—R'} + \text{NaX}
-\]
+> R—O⁻Na⁺ + R'—X → R—O—R' + NaX
 
 ### Proprieta' fisiche
 
@@ -473,15 +435,11 @@ Il modo piu' comune per ottenerli e' l'**ossidazione degli alcoli**:
 
 - **Alcol primario → aldeide**:
 
-\[
-  \text{R—CH}_2\text{OH} \xrightarrow{[\text{O}]} \text{R—CHO}
-\]
+> R—CH₂OH —[O]→ R—CHO
 
 - **Alcol secondario → chetone**:
 
-\[
-  \text{R—CH(OH)—R'} \xrightarrow{[\text{O}]} \text{R—CO—R'}
-\]
+> R—CH(OH)—R' —[O]→ R—CO—R'
 
 ### Proprieta' fisiche
 
@@ -514,23 +472,17 @@ La reazione piu' tipica: un nucleofilo attacca il carbonio del C=O, il doppio le
 
 - **Aldeide → alcol primario**:
 
-\[
-  \text{R—CHO} \xrightarrow{[\text{H}]} \text{R—CH}_2\text{OH}
-\]
+> R—CHO —[H]→ R—CH₂OH
 
 - **Chetone → alcol secondario**:
 
-\[
-  \text{R—CO—R'} \xrightarrow{[\text{H}]} \text{R—CH(OH)—R'}
-\]
+> R—CO—R' —[H]→ R—CH(OH)—R'
 
 #### Ossidazione
 
 Le **aldeidi** si ossidano facilmente ad **acidi carbossilici**:
 
-\[
-  \text{R—CHO} \xrightarrow{[\text{O}]} \text{R—COOH}
-\]
+> R—CHO —[O]→ R—COOH
 
 I **chetoni** invece sono molto piu' difficili da ossidare, perche' richiederebbero la rottura di un legame C—C.
 
@@ -541,16 +493,12 @@ Sono due saggi di laboratorio che sfruttano la facile ossidazione delle aldeidi 
 !!! example "Reattivo di Fehling"
     Contiene ioni rame Cu²⁺ in soluzione (colore **azzurro**). Se si aggiunge un'aldeide, gli ioni Cu²⁺ si riducono formando un precipitato **rosso mattone** di ossido rameoso (Cu₂O):
 
-    \[
-      \text{R—CHO} + 2\text{ Cu}^{2+} + 5\text{ OH}^- \longrightarrow \text{R—COO}^- + \text{Cu}_2\text{O}\downarrow + 3\text{ H}_2\text{O}
-    \]
+    > R—CHO + 2 Cu²⁺ + 5 OH⁻ → R—COO⁻ + Cu₂O↓ + 3 H₂O
 
 !!! example "Reattivo di Tollens"
     Contiene ioni argento Ag⁺ sciolti in ammoniaca. Se si aggiunge un'aldeide, l'argento si deposita come uno **specchio lucido** sulla parete della provetta (per questo e' chiamato anche "saggio dello specchio d'argento"):
 
-    \[
-      \text{R—CHO} + 2\text{ Ag(NH}_3\text{)}_2^+ + 3\text{ OH}^- \longrightarrow \text{R—COO}^- + 2\text{ Ag}\downarrow + 4\text{ NH}_3 + 2\text{ H}_2\text{O}
-    \]
+    > R—CHO + 2 Ag(NH₃)₂⁺ + 3 OH⁻ → R—COO⁻ + 2 Ag↓ + 4 NH₃ + 2 H₂O
 
 ### Tautomeria cheto-enolica
 
@@ -621,9 +569,7 @@ Il gruppo —COOH puo' formare **due legami a idrogeno** (sia come donatore sia 
 
 In acqua, gli acidi carbossilici cedono **parzialmente** un protone (H⁺) formando lo **ione carbossilato** (R—COO⁻):
 
-\[
-  \text{R—COOH} + \text{H}_2\text{O} \rightleftharpoons \text{R—COO}^- + \text{H}_3\text{O}^+
-\]
+> R—COOH + H₂O ⇌ R—COO⁻ + H₃O⁺
 
 La forza dell'acido si misura con K~a~ e pK~a~:
 
@@ -646,9 +592,7 @@ La forza dell'acido si misura con K~a~ e pK~a~:
 
 L'acido reagisce con una **base forte** (come NaOH) e si forma un **sale** e acqua:
 
-\[
-  \text{CH}_3\text{COOH} + \text{NaOH} \longrightarrow \text{CH}_3\text{COO}^-\text{Na}^+ + \text{H}_2\text{O}
-\]
+> CH₃COOH + NaOH → CH₃COO⁻Na⁺ + H₂O
 
 Il sale si chiama **etanoato di sodio** (o acetato di sodio). Il nome del sale si costruisce cambiando la desinenza dell'acido da *-oico* a **-ato** e aggiungendo il nome del metallo.
 
@@ -686,9 +630,7 @@ Il nome IUPAC si costruisce cosi': prima il nome della parte acida (con desinenz
 
 L'estere si forma dalla reazione tra un **acido carbossilico** e un **alcol**, in presenza di un catalizzatore acido (H⁺). Si chiama **esterificazione di Fischer**: il gruppo —OH dell'acido viene sostituito dal gruppo —OR' dell'alcol, e si libera acqua:
 
-\[
-  \text{R—COOH} + \text{R'—OH} \xrightarrow{\text{H}^+} \text{R—COOR'} + \text{H}_2\text{O}
-\]
+> R—COOH + R'—OH —(H⁺)→ R—COOR' + H₂O
 
 !!! example "Esempio importante: i trigliceridi"
     Il **glicerolo** (un triolo con 3 gruppi —OH) reagisce con **tre molecole di acidi grassi** per formare un **trigliceride**:
@@ -702,9 +644,7 @@ L'estere si forma dalla reazione tra un **acido carbossilico** e un **alcol**, i
 
 La reazione piu' importante degli esteri e' l'**idrolisi basica**: l'estere viene "rotto" dall'acqua in ambiente basico (con NaOH), e si ottengono il **sale dell'acido** e l'**alcol**:
 
-\[
-  \text{R—COOR'} + \text{NaOH} \xrightarrow{\text{H}_2\text{O},\, \Delta} \text{R—COO}^-\text{Na}^+ + \text{R'OH}
-\]
+> R—COOR' + NaOH —(H₂O, Δ)→ R—COO⁻Na⁺ + R'OH
 
 !!! info "I saponi"
     Quando si fa l'idrolisi basica dei trigliceridi con NaOH, si ottengono **saponi** (che sono sali di sodio degli acidi grassi) e glicerolo. Questo processo si chiama **saponificazione** e veniva usato fin dall'antichita' per produrre sapone.
@@ -749,15 +689,11 @@ L'**urea** (H₂N—CO—NH₂) e' una diammide, cioe' ha **due gruppi —NH₂*
 
 Le ammidi si possono ottenere facendo reagire un **estere** con **ammoniaca**:
 
-\[
-  \text{R—COOR'} + \text{NH}_3 \longrightarrow \text{R—CO—NH}_2 + \text{R'OH}
-\]
+> R—COOR' + NH₃ → R—CO—NH₂ + R'OH
 
 L'**idrolisi** (reazione inversa) rompe l'ammide in acido carbossilico e ammoniaca:
 
-\[
-  \text{R—CO—NH}_2 + \text{H}_2\text{O} \xrightarrow{\text{H}^+} \text{R—COOH} + \text{NH}_3
-\]
+> R—CO—NH₂ + H₂O —(H⁺)→ R—COOH + NH₃
 
 ### Le ammidi sono composti neutri
 
@@ -807,15 +743,11 @@ L'ammina aromatica piu' semplice e' l'**anilina** (C₆H₅NH₂), usata nella p
 
 **1. Alchilazione dell'ammoniaca** — un alogenuro alchilico reagisce con ammoniaca in eccesso (reazione S~N~2):
 
-\[
-  \text{R—X} + \text{NH}_3 \longrightarrow \text{R—NH}_2 + \text{HX}
-\]
+> R—X + NH₃ → R—NH₂ + HX
 
 **2. Riduzione delle ammidi** — un'ammide viene ridotta (si aggiunge idrogeno) per ottenere un'ammina:
 
-\[
-  \text{R—CO—NH—R'} \xrightarrow{[\text{H}]} \text{R—CH}_2\text{—NH—R'} + \text{H}_2\text{O}
-\]
+> R—CO—NH—R' —[H]→ R—CH₂—NH—R' + H₂O
 
 ### Proprieta' fisiche
 
@@ -835,15 +767,11 @@ Grazie al **doppietto elettronico libero** sull'azoto, le ammine si comportano d
 
 **Come basi di Lewis**: donano il doppietto a un acido forte, formando un **sale di alchilammonio**:
 
-\[
-  \text{CH}_3\text{NH}_2 + \text{HCl} \longrightarrow \text{CH}_3\text{NH}_3^+\text{Cl}^-
-\]
+> CH₃NH₂ + HCl → CH₃NH₃⁺Cl⁻
 
 **Come basi di Bronsted-Lowry**: accettano un protone dall'acqua:
 
-\[
-  \text{CH}_3\text{CH}_2\text{NH}_2 + \text{H}_2\text{O} \rightleftharpoons \text{CH}_3\text{CH}_2\text{NH}_3^+ + \text{OH}^-
-\]
+> CH₃CH₂NH₂ + H₂O ⇌ CH₃CH₂NH₃⁺ + OH⁻
 
 !!! note "Quanto sono basiche le ammine?"
     Le ammine **alifatiche** (come metilammina, etilammina...) sono **piu' basiche** dell'ammoniaca, perche' i gruppi alchilici sono elettron-donatori e rendono il doppietto dell'azoto piu' disponibile. Le ammine **aromatiche** (come l'anilina) sono invece **meno basiche**, perche' il doppietto dell'azoto viene "risucchiato" dalla delocalizzazione nell'anello benzenico (risonanza) e diventa meno disponibile per catturare protoni.
