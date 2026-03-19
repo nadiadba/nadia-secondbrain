@@ -34,13 +34,19 @@ Joyce's style is also different from traditional short stories. Writers like Poe
 
 ## Eveline
 
-"Eveline" is the fourth story in *Dubliners* and belongs to the **youth** group. But in Dublin, youth does not mean energy or hope: the story opens at the end of the day, with Eveline sitting at her window, watching the world outside. She is tired — not in her body, but tired of the life she lives.
+"Eveline" is the fourth story in *Dubliners* and belongs to the **youth** group. But in Dublin, youth does not mean energy or hope: the story opens at the end of the day, with Eveline sitting at her window, watching the world outside. She is tired — not in her body, but tired of the life she lives. Joyce implies her **tiredness with the life she is living** rather than actual physical fatigue.
 
-Eveline has agreed to leave Dublin with **Frank**, a kind sailor who wants to take her to Buenos Aires. She looks around her room at the familiar objects she has cleaned for years, and thinks about her hard life: her mother is dead, her father is violent and drinks, and she must give him all the money she earns. She works hard to keep the house together and look after the younger children. Frank is her chance to escape — he has a home waiting for her, he took her to the theatre, he sang songs to her.
+Eveline has agreed to leave Dublin with **Frank**, a kind sailor who wants to take her to Buenos Aires. As she sits at the window, she looks around her room at the familiar objects she has dusted once a week for so many years, wondering where on earth all the dust comes from. She thinks she will never see those objects again, and yet she has never even found out the name of the priest whose yellowing photograph hangs on the wall.
 
-But then she remembers the **promise she made to her dying mother**: to keep the family together as long as she could. At the dock, the boat is ready, Frank holds her hand and calls "Come!" — but Eveline **cannot move**. She holds the iron railing tight, her face white, like a helpless animal. Her eyes show Frank no sign of love, farewell or recognition. She is **paralysed**.
+Her life has been difficult. Her mother is dead, her brother Ernest is dead too, and the Waters have gone back to England. Her father is violent, drinks, and controls the family money — Eveline must hand over her entire wages and her brother Harry's too. She works hard to keep the house together, making sure the two younger children go to school and get their meals regularly. It is a hard life, and yet now that she is about to leave it, she does not find it a wholly undesirable life.
 
-Joyce shows that Eveline is trapped between two forces: her wish for a new life and her sense of duty. The fear of the unknown becomes paralysis — the same paralysis that runs through every story in the collection.
+Then she thinks of **Frank**. He is very kind, manly, open-hearted. He has a home waiting for her in Buenos Aires. She remembers how they met, how he took her to see *The Bohemian Girl* at the theatre, how he sang about "the lass that loves a sailor." He had started as a deck boy and had sailed through the Straits of Magellan. Frank represents her chance to escape — but her father found out about the affair and forbade her to see him.
+
+The turning point comes when she remembers the **promise she made to her dying mother**: to keep the family together as long as she could. She hears again her mother's last words, and a feeling of terror rises in her. She must escape! Frank would save her. He would give her life, perhaps love too.
+
+At the dock, among the crowd, Frank holds her hand. The boat blows a long mournful whistle into the mist. But at the last moment, Eveline **cannot move**. All the seas of the world tumble about her heart. She grips the iron railing with both hands, her face white, like a helpless animal. Frank calls "Come!" — but her eyes show him no sign of love, farewell or recognition. She is **paralysed**.
+
+Joyce shows that Eveline is trapped between two forces: her desire for a new life and her sense of duty. The promise to her mother acts like a chain, and the fear of the unknown becomes paralysis — the same paralysis that runs through every story in the collection.
 
 ## Checklist
 
