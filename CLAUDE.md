@@ -206,6 +206,14 @@ Il percorso e' relativo: `../` sale di una cartella.
 2. Aggiungi la voce corrispondente nella sezione `nav:` di `mkdocs.yml`
 3. Se crei una nuova sottocartella, segui la struttura esistente
 
+### Quando modifichi `mkdocs.yml`
+
+- **Dopo ogni modifica a `mkdocs.yml`, rileggi il file** e controlla che l'indentazione YAML sia corretta
+- Ogni voce del `nav:` deve stare su una riga a se' — **mai mettere due voci sulla stessa riga**
+- Le sotto-voci devono essere indentate di 2 o 4 spazi rispetto al livello superiore, in modo coerente
+- Se una voce sta dentro una sezione (es. `james-joyce.md` dentro `The Modern Age:`), deve avere la stessa indentazione delle altre voci di quella sezione
+- Un errore di indentazione in `mkdocs.yml` fa fallire il deploy su GitHub Pages
+
 ### Contenuto didattico
 
 - Scrivi per una studentessa di liceo, non per un universitario
