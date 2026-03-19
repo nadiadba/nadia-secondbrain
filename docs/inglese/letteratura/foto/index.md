@@ -1,4 +1,4 @@
-# The Dystopian Novel
+# Foto
 
 !!! warning "Da completare"
     Questa pagina è ancora da scrivere.
