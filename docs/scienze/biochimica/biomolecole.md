@@ -1,666 +1,702 @@
 # Biomolecole
 
-La **biochimica** (o chimica della vita) studia la struttura e la sintesi delle biomolecole, cioe' le molecole che costituiscono gli organismi viventi, e il **metabolismo cellulare**, cioe' l'insieme delle reazioni chimiche che si verificano in tutte le cellule.
+La **biochimica** e' la chimica della vita: studia le molecole che formano gli esseri viventi e le reazioni chimiche che avvengono dentro le cellule (cioe' il **metabolismo**).
 
-Le biomolecole sono **composti organici polifunzionali** che formano la struttura delle cellule e svolgono un ruolo fondamentale nel metabolismo. Sono costituite da atomi di carbonio, idrogeno, ossigeno, zolfo e fosforo e si riconducono a **quattro classi fondamentali**:
+Le molecole della vita si chiamano **biomolecole**. Sono fatte di carbonio, idrogeno, ossigeno (e a volte zolfo, azoto e fosforo) e si dividono in **quattro grandi famiglie**:
 
 ```mermaid
 flowchart TD
-    A["Biomolecole"] --> B["Carboidrati"]
-    A --> C["Lipidi"]
+    A["Le 4 famiglie di biomolecole"] --> B["Carboidrati<br>(zuccheri e amidi)"]
+    A --> C["Lipidi<br>(grassi e oli)"]
     A --> D["Proteine"]
-    A --> E["Acidi nucleici"]
-    B --> B1["Funzione energetica<br>e strutturale"]
-    C --> C1["Riserva energetica<br>e strutturale"]
-    D --> D1["Funzione strutturale,<br>catalitica, di regolazione"]
-    E --> E1["Informazione<br>genetica"]
+    A --> E["Acidi nucleici<br>(DNA e RNA)"]
+    B --> B1["Danno energia<br>e sostegno"]
+    C --> C1["Riserva di energia<br>e membrane cellulari"]
+    D --> D1["Fanno quasi tutto:<br>struttura, difesa,<br>reazioni chimiche..."]
+    E --> E1["Custodiscono le<br>informazioni genetiche"]
 ```
 
-Fanno da complemento a queste classi le **vitamine** e gli **ormoni**.
+A queste quattro famiglie si aggiungono le **vitamine** e gli **ormoni**.
 
-Molte biomolecole (carboidrati, proteine e acidi nucleici) sono **biopolimeri**, cioe' molecole grandi costituite dall'unione di un elevato numero di **monomeri**.
+Molte biomolecole sono **biopolimeri**: molecole enormi costruite mettendo insieme tanti "mattoncini" piu' piccoli chiamati **monomeri** (come una collana fatta di tante perline). Per unire i monomeri si toglie una molecola d'acqua (**condensazione**); per separarli si aggiunge acqua (**idrolisi**).
 
 ---
 
 ## I carboidrati
 
-I **carboidrati** (o glicidi) sono biomolecole monomeriche o polimeriche costituite da uno o piu' gruppi ossidrilici (—OH) e da un gruppo aldeidico (—CHO) o un gruppo chetonico (C=O).
+I **carboidrati** (detti anche **glicidi** o, nel linguaggio comune, "zuccheri") sono le biomolecole piu' diffuse in natura. Sono fatti di carbonio, idrogeno e ossigeno.
 
-Sono composti organici costituiti da atomi di carbonio, idrogeno e ossigeno e hanno un'enorme importanza biologica per il loro ruolo **energetico** (glucosio, fruttosio), di **riserva energetica** (amido e glicogeno) e **strutturale** (cellulosa).
+A cosa servono? Tre funzioni principali:
 
-I carboidrati si classificano in base alla complessita' della loro struttura:
+- **Energia immediata**: il glucosio e' il "carburante" preferito dalle nostre cellule
+- **Riserva di energia**: l'amido (nelle piante) e il glicogeno (negli animali) sono "scorte" di glucosio
+- **Sostegno**: la cellulosa forma le pareti delle cellule vegetali (il legno e' fatto di cellulosa!)
 
-- i **monosaccaridi** sono i monomeri dei carboidrati
-- gli **oligosaccaridi** sono costituiti dall'unione di due o pochi monosaccaridi
-- i **polisaccaridi** sono i polimeri formati dall'unione di molti monosaccaridi
+I carboidrati si classificano in base alla dimensione:
 
-Le tre classi sono in relazione reciproca tramite la **reazione di condensazione** (unione tra due monosaccaridi con liberazione di una molecola d'acqua) e la reazione inversa di **idrolisi** (rottura del legame con aggiunta di acqua).
+| Tipo | Che cos'e' | Esempio |
+|------|-----------|---------|
+| **Monosaccaride** | Un singolo "mattoncino" | Glucosio, fruttosio |
+| **Oligosaccaride** | 2-10 mattoncini uniti | Saccarosio (zucchero da cucina) |
+| **Polisaccaride** | Tantissimi mattoncini uniti in catena | Amido, cellulosa |
 
 ---
 
-### Monosaccaridi: aldosi e chetosi
+### Monosaccaridi: i mattoncini base
 
-I **monosaccaridi** (o zuccheri semplici) sono i monomeri dei carboidrati e non sono ulteriormente scomponibili per idrolisi in composti piu' semplici.
+I **monosaccaridi** (o zuccheri semplici) sono i carboidrati piu' piccoli: non si possono "rompere" in pezzi piu' semplici. Ogni monosaccaride ha nella sua molecola un gruppo che puo' essere:
 
-Si distinguono in **aldosi e chetosi** a seconda che il gruppo carbonile presente sia aldeidico (—CHO) o chetonico (C=O). In base al numero di atomi di carbonio presenti nella molecola si classificano anche in **triosi** (3 C), **tetrosi** (4 C), **pentosi** (5 C), **esosi** (6 C).
+- Un **gruppo aldeidico** (—CHO) → in questo caso lo zucchero si chiama **aldoso**
+- Un **gruppo chetonico** (C=O) → in questo caso si chiama **chetoso**
 
-| Tipo | Gruppo carbonile | Esempio di trioso |
-|------|-----------------|-------------------|
-| **Aldoso** | —CHO (aldeidico) | gliceraldeide |
-| **Chetoso** | C=O (chetonico) | diidrossiacetone |
+I monosaccaridi si classificano anche per il **numero di atomi di carbonio**:
 
-I monosaccaridi piu' diffusi sono i **pentosi** e gli **esosi**:
+| Numero di carboni | Nome | Esempi importanti |
+|-------------------|------|-------------------|
+| 3 | Triosi | Gliceraldeide, diidrossiacetone |
+| 5 | **Pentosi** | **Ribosio** (nell'RNA), **desossiribosio** (nel DNA) |
+| 6 | **Esosi** | **Glucosio**, **fruttosio**, **galattosio** |
 
-| Classe | Monosaccaridi importanti | Dove si trovano |
-|--------|-------------------------|-----------------|
-| Pentosi | **ribosio**, **desossiribosio** | RNA e DNA |
-| Esosi (aldosi) | **glucosio**, **galattosio** | Frutta, latte |
-| Esosi (chetosi) | **fruttosio** | Frutta, miele |
+!!! note "Glucosio, galattosio e fruttosio: stessa formula, molecole diverse"
+    Tutti e tre hanno la formula C₆H₁₂O₆, ma gli atomi sono disposti in modo diverso nello spazio. Glucosio e galattosio sono aldosi (hanno il gruppo —CHO), il fruttosio e' un chetoso (ha il gruppo C=O). Sono quindi **isomeri di struttura**.
 
-!!! note "Glucosio, galattosio e fruttosio"
-    Questi tre esosi sono **isomeri di struttura**: hanno la stessa formula molecolare (C₆H₁₂O₆) ma una diversa disposizione degli atomi. Glucosio e galattosio sono aldosi, il fruttosio e' un chetoso.
+### Come si disegnano: le proiezioni di Fischer
 
-### Le proiezioni di Fischer
+I monosaccaridi sono molecole tridimensionali, ma noi li disegniamo su un foglio (che e' piatto). Il chimico tedesco **Emil Fischer** invento' un modo semplice per farlo: le **proiezioni di Fischer**.
 
-Per rappresentare la struttura tridimensionale dei monosaccaridi su un foglio bidimensionale, il chimico tedesco Emil Fischer propose le **proiezioni di Fischer**: formule in cui lo stereocentro e' identificato dall'intersezione di due segmenti perpendicolari.
+Come funzionano:
 
-Per rappresentare le molecole:
+1. La catena di carboni si mette in **verticale**, con il gruppo aldeidico o chetonico **in alto**
+2. Si numerano i carboni dall'alto verso il basso
+3. I gruppi —OH e —H si disegnano ai lati, come le braccia di un pupazzetto
 
-1. Si dispone la catena carboniosa in verticale, con il gruppo carbonile **in alto**
-2. Si omette il simbolo dell'atomo di carbonio che costituisce lo stereocentro
-3. Si numerano gli atomi di carbonio **dall'alto verso il basso**
+!!! abstract "Serie D e serie L: destra e sinistra"
+    Si guarda il **penultimo carbonio** (quello piu' in basso prima dell'ultimo):
 
-!!! abstract "Serie D e serie L"
-    Fischer stabili' che la lettera **D** viene assegnata alla configurazione con il gruppo —OH situato **a destra** nell'ultimo stereocentro (quello piu' lontano dal gruppo carbonile), mentre la lettera **L** indica il gruppo —OH **a sinistra**. La maggior parte dei monosaccaridi presenti in natura e' della **serie D**.
+    - Se il suo gruppo —OH sta a **destra** → lo zucchero e' della **serie D**
+    - Se il suo gruppo —OH sta a **sinistra** → lo zucchero e' della **serie L**
 
-### I monosaccaridi sono molecole chirali
+    In natura quasi tutti i monosaccaridi sono della **serie D**.
 
-I monosaccaridi (tranne il diidrossiacetone) hanno uno o piu' **stereocentri** (carboni legati a quattro gruppi diversi) e si presentano sotto forma di **enantiomeri**: molecole che sono l'una l'immagine speculare dell'altra, non sovrapponibili.
+### Chiralita': molecole allo specchio
 
-!!! tip "Diastereoisomeri ed epimeri"
-    Gli stereoisomeri che **non** sono l'uno l'immagine speculare dell'altro si chiamano **diastereoisomeri**. I diastereoisomeri che differiscono per la posizione di **un solo** stereocentro si chiamano **epimeri**. Per esempio, il D-glucosio e il D-galattosio sono epimeri al C-4.
+I monosaccaridi (tranne il diidrossiacetone) hanno almeno un **stereocentro**: un carbonio legato a quattro gruppi tutti diversi tra loro. Questo fa si' che esistano due versioni della stessa molecola, una l'immagine speculare dell'altra, come la mano destra e la sinistra. Queste due versioni si chiamano **enantiomeri** e la molecola si dice **chirale**.
 
-### La forma ciclica dei monosaccaridi
+!!! tip "Epimeri e diastereoisomeri"
+    - **Diastereoisomeri**: stereoisomeri che NON sono immagini speculari l'uno dell'altro
+    - **Epimeri**: diastereoisomeri che differiscono per la posizione di UN SOLO gruppo —OH. Per esempio, il glucosio e il galattosio sono epimeri (differiscono solo al carbonio 4)
 
-In acqua, la struttura prevalente dei monosaccaridi (tranne i triosi) non e' lineare ma **ciclica** (o **emiacetale**). Il gruppo carbonile reagisce con un gruppo ossidrile della stessa molecola, formando un anello:
+### In acqua gli zuccheri diventano "ad anello"
 
-- Negli **aldoesosi** (come il glucosio): si forma un anello a **6 atomi** (esatomico)
-- Nei **chetoesosi** (come il fruttosio): si forma un anello a **5 atomi** (pentatomico)
+Quando un monosaccaride e' sciolto in acqua, la sua catena aperta si "chiude" su se stessa formando un **anello** (una struttura ciclica). Succede perche' il gruppo aldeidico (o chetonico) reagisce con uno dei gruppi —OH della stessa molecola, formando un **emiacetale**:
 
-La forma ciclica si rappresenta con le **proiezioni di Haworth**, in cui il lato dell'anello piu' vicino al lettore e' evidenziato con un tratto piu' spesso.
+- Il **glucosio** (un aldoesoso) forma un anello a **6 atomi** (un esagono)
+- Il **fruttosio** (un chetoesoso) forma un anello a **5 atomi** (un pentagono)
 
-!!! note "Conformazione a sedia"
-    Nella realta' la struttura ciclica non e' planare: a causa dell'ibridazione sp³ degli atomi di carbonio, i monosaccaridi assumono una conformazione tridimensionale **a sedia**, piu' stabile di quella a barca.
+Questa forma ad anello si disegna con le **proiezioni di Haworth**: l'anello e' rappresentato di prospettiva, con il lato piu' vicino a chi guarda disegnato con un tratto piu' spesso.
 
-### L'anomeria
+!!! note "La conformazione a sedia"
+    In realta' l'anello non e' piatto come lo disegniamo: gli atomi di carbonio si dispongono nello spazio come una **sedia** (con seduta e schienale), che e' la forma piu' stabile.
 
-La ciclizzazione porta alla formazione di un nuovo stereocentro sul carbonio emiacetale, detto **carbonio anomerico**. Di conseguenza sono possibili due stereoisomeri, chiamati **anomeri**:
+### L'anomeria: α e β
 
-- **Anomero α**: il gruppo —OH del carbonio anomerico e' diretto verso il **basso** nell'anello (nelle proiezioni di Haworth)
-- **Anomero β**: il gruppo —OH e' diretto verso l'**alto**
+Quando la catena si chiude ad anello, il carbonio che portava il gruppo aldeidico diventa un nuovo stereocentro, chiamato **carbonio anomerico**. Si formano cosi' due versioni dell'anello:
 
-!!! info "La mutarotazione"
-    In soluzione acquosa le due forme α e β si interconvertono l'una nell'altra attraverso la forma aperta. Questo fenomeno si chiama **mutarotazione**.
+- **Anomero α**: il gruppo —OH sul carbonio anomerico punta verso il **basso**
+- **Anomero β**: il gruppo —OH punta verso l'**alto**
+
+In acqua le due forme si trasformano continuamente l'una nell'altra passando per la forma aperta: questo fenomeno si chiama **mutarotazione**.
 
 ### Le reazioni dei monosaccaridi
 
-#### Riduzione
+#### Riduzione (si aggiunge idrogeno)
 
-In presenza di un riducente [H], il gruppo carbonile si riduce e si ottiene un poliolo (detto **alditolo**). Per esempio, la riduzione del D-glucosio porta alla formazione del **D-glucitolo** (noto come **sorbitolo**), usato come dolcificante alimentare.
+Se si aggiunge idrogeno [H] al gruppo aldeidico o chetonico, questo si trasforma in un gruppo —OH e si ottiene un **poliolo** (un alcol con tanti gruppi —OH). Per esempio, dal glucosio si ottiene il **sorbitolo**, un dolcificante usato nelle caramelle "senza zucchero".
 
-#### Ossidazione
+#### Ossidazione (si toglie idrogeno)
 
-La reazione di ossidazione interessa il gruppo **aldeidico** degli aldosi. In presenza di un ossidante, il gruppo aldeidico si ossida formando **acidi aldonici**.
+Se si ossida il gruppo aldeidico di un aldoso, si forma un **acido aldonico** (un acido carbossilico).
 
-!!! example "Saggi di Tollens e Fehling"
-    Sono due saggi di laboratorio per riconoscere gli zuccheri riducenti:
+!!! example "Come riconoscere uno zucchero in laboratorio"
+    Ci sono due saggi classici che sfruttano l'ossidazione degli zuccheri:
 
-    - **Reattivo di Tollens**: contiene ioni Ag⁺ in ammoniaca. L'aldeide riduce l'argento, che si deposita come uno **specchio lucido** sulla provetta.
-    - **Reattivo di Fehling**: contiene ioni Cu²⁺ (colore azzurro). L'aldeide li riduce a Cu₂O, che precipita come un solido **rosso mattone**.
+    - **Saggio di Tollens**: si usa una soluzione di ioni argento (Ag⁺). Se c'e' uno zucchero riducente, l'argento si deposita sulla provetta formando uno **specchio lucido** (bellissimo da vedere!)
+    - **Saggio di Fehling**: si usa una soluzione blu di ioni rame (Cu²⁺). Se c'e' uno zucchero riducente, si forma un precipitato **rosso mattone**
 
-!!! abstract "Zucchero riducente"
-    Un aldoso che reagisce con il reattivo di Tollens o di Fehling si chiama **zucchero riducente**, in quanto l'ossidazione del gruppo aldeidico e' accompagnata dalla riduzione degli ioni argento o rame.
+    Uno zucchero che reagisce con questi reattivi si chiama **zucchero riducente** (perche' riduce gli ioni metallici).
 
 ---
 
-### I disaccaridi
+### I disaccaridi: due mattoncini uniti
 
-I **disaccaridi** sono carboidrati costituiti da **due unita' di monosaccaridi** (uguali o diverse) uniti da un **legame glicosidico**.
+I **disaccaridi** sono formati da **due monosaccaridi** uniti tra loro da un **legame glicosidico**. Questo legame si forma quando il gruppo —OH del carbonio anomerico di uno zucchero reagisce con un gruppo —OH dell'altro zucchero, con perdita di una molecola d'acqua.
 
-Il legame glicosidico si forma tra il gruppo ossidrile del **carbonio anomerico** di un'unita' e un gruppo ossidrile dell'altra unita', con eliminazione di una molecola d'acqua (reazione di **condensazione**). Il legame puo' essere di tipo **α** o **β**, a seconda della configurazione del carbonio anomerico.
+Il legame glicosidico puo' essere di tipo **α** o **β** (a seconda della posizione del gruppo —OH del carbonio anomerico che partecipa al legame) e si indica con i numeri dei carboni coinvolti, per esempio α(1→4) o β(1→2).
 
-| Disaccaride | Composizione | Legame | Riducente? | Dove si trova |
-|-------------|-------------|--------|------------|---------------|
-| **Lattosio** | β-D-galattosio + β-D-glucosio | β(1→4) | Si' | Latte e derivati |
-| **Maltosio** | α-D-glucosio + α-D-glucosio | α(1→4) | Si' | Amido, malto |
-| **Saccarosio** | α-D-glucosio + β-D-fruttosio | α(1→2) | No | Canna da zucchero, barbabietola |
-| **Cellobiosio** | β-D-glucosio + β-D-glucosio | β(1→4) | Si' | Cellulosa |
+Ecco i disaccaridi piu' importanti:
 
-!!! warning "Saccarosio: zucchero non riducente"
-    Il saccarosio e' l'unico tra i disaccaridi comuni a essere uno **zucchero non riducente**, perche' il legame glicosidico coinvolge i carboni anomerici di **entrambi** i monosaccaridi: non c'e' nessun gruppo emiacetale libero.
+| Disaccaride | Di cosa e' fatto | Tipo di legame | E' riducente? | Dove si trova |
+|-------------|-----------------|----------------|---------------|---------------|
+| **Lattosio** | Galattosio + glucosio | β(1→4) | Si' | Latte |
+| **Maltosio** | Glucosio + glucosio | α(1→4) | Si' | Malto, birra |
+| **Saccarosio** | Glucosio + fruttosio | α(1→2) | **No** | Zucchero da cucina |
+| **Cellobiosio** | Glucosio + glucosio | β(1→4) | Si' | Cellulosa |
+
+!!! warning "Perche' il saccarosio NON e' riducente?"
+    Nel saccarosio il legame glicosidico coinvolge i carboni anomerici di **entrambi** gli zuccheri: non resta nessun gruppo emiacetale libero che possa ossidarsi. Gli altri disaccaridi, invece, hanno un carbonio anomerico libero e sono quindi riducenti.
 
 !!! info "La galattosemia"
-    In alcuni bambini, subito dopo la nascita, si puo' manifestare la **galattosemia**, una malattia ereditaria causata dalla mancanza dell'enzima capace di isomerizzare il galattosio. E' necessario eliminare il latte dalla dieta.
+    Alcuni bambini nascono senza l'enzima che trasforma il galattosio in glucosio. Se bevono latte, il galattosio si accumula nei tessuti causando danni gravi. La malattia si chiama **galattosemia** e si risolve eliminando il latte dalla dieta.
 
-I disaccaridi si scindono nei due monosaccaridi costituenti per **idrolisi** (reazione con acqua in presenza di un catalizzatore acido o di un enzima).
+Per "rompere" un disaccaride nei suoi due monosaccaridi si usa la reazione di **idrolisi** (si aggiunge acqua, il contrario della condensazione).
 
 ---
 
-### I polisaccaridi
+### I polisaccaridi: lunghe catene di zuccheri
 
-I **polisaccaridi** sono carboidrati costituiti da un numero elevato di monosaccaridi legati tra loro da legami glicosidici a formare lunghe catene. Si distinguono in:
+I **polisaccaridi** sono formati da **tantissimi monosaccaridi** uniti in catena da legami glicosidici. Sono come collane lunghissime fatte di centinaia o migliaia di perline.
 
-- **Omopolisaccaridi**: i monosaccaridi costituenti sono tutti uguali
-- **Eteropolisaccaridi**: i monosaccaridi sono diversi
+Si dividono in:
 
-Gli omopolisaccaridi piu' diffusi sono tutti **omopolimeri del glucosio** e sono tutti zuccheri **non riducenti** (non hanno gruppi emiacetali liberi, tranne in fondo alla catena).
+- **Omopolisaccaridi**: tutte le "perline" sono uguali (stesso monosaccaride)
+- **Eteropolisaccaridi**: le "perline" sono di tipi diversi
+
+Tutti i polisaccaridi sono zuccheri **non riducenti** (la catena e' cosi' lunga che il singolo gruppo emiacetale libero in fondo e' trascurabile).
 
 ```mermaid
 flowchart TD
-    A["Polisaccaridi"] --> B["Omopolisaccaridi"]
-    A --> C["Eteropolisaccaridi"]
-    B --> B1["Amido<br>(riserva vegetale)"]
-    B --> B2["Glicogeno<br>(riserva animale)"]
-    B --> B3["Cellulosa<br>(strutturale)"]
-    B --> B4["Chitina<br>(strutturale)"]
+    A["Polisaccaridi"] --> B["Omopolisaccaridi<br>(un solo tipo di zucchero)"]
+    A --> C["Eteropolisaccaridi<br>(zuccheri diversi)"]
+    B --> B1["Amido"]
+    B --> B2["Glicogeno"]
+    B --> B3["Cellulosa"]
+    B --> B4["Chitina"]
     C --> C1["Acido ialuronico"]
     C --> C2["Peptidoglicano"]
 ```
 
-#### L'amido
+#### L'amido: la riserva delle piante
 
-L'**amido** e' il piu' importante carboidrato di riserva energetica negli **organismi vegetali**. E' formato da unita' di α-D-glucosio ed e' costituito da una miscela di due polimeri:
+L'**amido** e' il polisaccaride che le piante usano per **mettere da parte il glucosio** (come un conto in banca di energia). Lo troviamo nelle patate, nel riso, nella pasta, nel pane.
 
-- **Amilosio**: catene **lineari** di unita' di glucosio unite da legami α(1→4). E' solubile in acqua.
-- **Amilopectina**: polimero **ramificato** con legami α(1→4) nella catena principale e ramificazioni ogni 24-30 unita' tramite legami α(1→6). E' insolubile in acqua.
+E' formato da due componenti:
 
-#### Il glicogeno
+| Componente | Struttura | Solubilita' |
+|-----------|-----------|-------------|
+| **Amilosio** | Catene **lineari** di glucosio unite da legami α(1→4) | Solubile in acqua |
+| **Amilopectina** | Catene **ramificate**: la catena principale ha legami α(1→4), le ramificazioni partono con legami α(1→6) ogni 24-30 unita' | Insolubile in acqua |
 
-Il **glicogeno** svolge funzione di **riserva energetica** negli **organismi animali**, dove e' presente nel **fegato** e nei **muscoli**. Ha una struttura analoga a quella dell'amilopectina ma **molto piu' ramificata** (ramificazioni ogni 8-14 unita'). Il glicogeno si forma quando il glucosio assunto con gli alimenti e' in eccesso; quando le cellule hanno bisogno di energia, viene riconvertito in glucosio.
+#### Il glicogeno: la riserva degli animali
 
-#### La cellulosa
+Il **glicogeno** e' il nostro "magazzino" di glucosio. Si accumula nel **fegato** e nei **muscoli**. Ha la stessa struttura dell'amilopectina, ma e' **molto piu' ramificato** (ramificazioni ogni 8-14 unita').
 
-La **cellulosa** e' un polisaccaride insolubile in acqua che ha la funzione di **sostegno** nelle piante, costituendo la **parete cellulare**. E' formata da unita' di β-D-glucosio legate da legami **β(1→4)**, che formano catene lineari unite fra loro da **legami a idrogeno**.
+Quando mangiamo troppi carboidrati, il glucosio in eccesso viene trasformato in glicogeno e immagazzinato. Quando abbiamo bisogno di energia, il glicogeno viene "smontato" e ritorna glucosio.
 
-!!! warning "Perche' non digeriamo la cellulosa?"
-    Il nostro organismo e' in grado di digerire l'amido e il glicogeno (legami α-glicosidici), ma **non la cellulosa** perche' il nostro apparato digerente non possiede enzimi capaci di catalizzare l'idrolisi dei legami **β-glicosidici**. Solo pochi organismi, come i batteri e i funghi, possiedono l'enzima specifico.
+#### La cellulosa: la struttura delle piante
+
+La **cellulosa** e' il materiale che forma le **pareti delle cellule vegetali** (il legno, il cotone, la carta sono fatti di cellulosa). E' il polisaccaride piu' abbondante sulla Terra.
+
+E' formata da catene lineari di glucosio, ma con una differenza fondamentale rispetto all'amido: i legami sono **β(1→4)** invece che α(1→4). Le catene si dispongono parallele e si tengono insieme con **legami a idrogeno**, formando fibre molto resistenti.
+
+!!! warning "Perche' non possiamo digerire la cellulosa?"
+    Il nostro corpo ha gli enzimi per rompere i legami **α**-glicosidici (quelli dell'amido e del glicogeno), ma **non** ha gli enzimi per rompere i legami **β**-glicosidici della cellulosa. Per questo mangiare insalata ci da' fibre ma non calorie! Solo alcuni batteri e funghi hanno l'enzima giusto (per questo le termiti riescono a mangiare il legno: hanno batteri nell'intestino che digeriscono la cellulosa per loro).
 
 #### La chitina
 
-La **chitina** e' un omopolimero con funzione strutturale costituito da molecole di **N-acetilglucosammina** unite da legami β(1→4). E' il componente principale dell'**esoscheletro** di crostacei e insetti e della parete cellulare dei funghi.
+La **chitina** ha la stessa funzione strutturale della cellulosa, ma nel mondo animale: forma l'**esoscheletro** (lo "scheletro esterno") di insetti, crostacei (granchi, gamberi) e la parete cellulare dei funghi. E' fatta di unita' di **N-acetilglucosammina** unite da legami β(1→4).
 
 #### Gli eteropolisaccaridi
 
-- **Acido ialuronico**: si trova nel liquido sinoviale delle articolazioni e nell'umor vitreo dell'occhio.
-- **Peptidoglicano**: componente principale della **parete cellulare dei batteri**, costituito da catene in cui si alternano N-acetilglucosammina e acido N-acetilmuramico, unite da brevi catene di amminoacidi.
+- **Acido ialuronico**: si trova nel liquido che lubrifica le articolazioni e nell'interno dell'occhio. E' usato anche in cosmetica!
+- **Peptidoglicano**: forma la **parete dei batteri**. E' fatto di due zuccheri diversi che si alternano (N-acetilglucosammina e acido N-acetilmuramico), collegati da brevi catene di amminoacidi.
 
 ---
 
 ## I lipidi
 
-I **lipidi** sono una vasta classe di composti chimicamente eterogenei per struttura e proprieta', che presentano tutti la caratteristica di essere **insolubili in acqua** e **solubili in solventi organici apolari**.
+I **lipidi** (dal greco *lipos* = grasso) sono un gruppo molto vario di molecole che hanno una cosa in comune: sono **insolubili in acqua** ma si sciolgono bene nei solventi organici apolari (come l'olio non si scioglie nell'acqua).
 
-Sono composti organici costituiti da atomi di carbonio, idrogeno e ossigeno. Si dividono in due grandi gruppi:
+A cosa servono i lipidi nel nostro corpo?
+
+- **Riserva di energia**: i grassi forniscono il **doppio** dell'energia rispetto ai carboidrati (per questo il corpo li accumula come scorta)
+- **Struttura**: i fosfolipidi formano le **membrane cellulari**
+- **Isolamento termico**: il grasso sottocutaneo ci protegge dal freddo
+- **Regolazione**: gli ormoni steroidei e le vitamine liposolubili regolano molti processi
+- **Protezione**: le cere rendono impermeabili piume e foglie
+
+I lipidi si dividono in due grandi gruppi:
 
 ```mermaid
 flowchart TD
-    A["Lipidi"] --> B["Saponificabili<br>(complessi)"]
-    A --> C["Non saponificabili<br>(semplici)"]
-    B --> B1["Trigliceridi"]
-    B --> B2["Fosfolipidi"]
+    A["Lipidi"] --> B["Saponificabili"]
+    A --> C["Non saponificabili"]
+    B --> B1["Trigliceridi<br>(grassi e oli)"]
+    B --> B2["Fosfolipidi<br>(membrane)"]
     B --> B3["Glicolipidi"]
-    C --> C1["Steroidi"]
+    C --> C1["Steroidi<br>(colesterolo, ormoni)"]
     C --> C2["Vitamine<br>liposolubili"]
 ```
 
-- I lipidi **saponificabili** contengono acidi grassi e per idrolisi basica formano i sali corrispondenti (saponi)
-- I lipidi **non saponificabili** non contengono acidi grassi e non formano saponi
-
-I lipidi rappresentano la principale forma di **riserva energetica** (trigliceridi), hanno un importante **ruolo strutturale** (fosfolipidi nelle membrane cellulari) e svolgono funzione di **regolazione** (ormoni steroidei e vitamine liposolubili).
+- **Saponificabili**: contengono acidi grassi e, trattati con una base forte (NaOH), formano saponi
+- **Non saponificabili**: non contengono acidi grassi e non formano saponi
 
 ---
 
-### I trigliceridi
+### I trigliceridi: grassi e oli
 
-I **trigliceridi** (o triacilgliceroli) sono costituiti da una molecola di **glicerolo** e **tre molecole di acidi grassi**, uniti tramite tre legami estere.
+I **trigliceridi** sono i lipidi piu' comuni. Sono fatti da una molecola di **glicerolo** (un alcol con tre gruppi —OH) legata a **tre molecole di acidi grassi** tramite tre legami estere.
 
-La reazione tra il glicerolo e gli acidi grassi e' una **sostituzione nucleofila acilica** (esterificazione), che comporta l'eliminazione di tre molecole d'acqua (condensazione).
+In pratica, il glicerolo fa da "gancio" a tre lunghe code di acidi grassi, che gli si attaccano tramite reazioni di **esterificazione** (la stessa reazione che abbiamo studiato nei derivati degli idrocarburi, con perdita di tre molecole d'acqua).
 
-I trigliceridi svolgono tre funzioni biologiche fondamentali:
+I trigliceridi hanno tre funzioni biologiche importanti:
 
-1. Costituiscono un'importante **riserva energetica** (1 g di trigliceridi fornisce circa il **doppio** dell'energia di 1 g di carboidrati)
-2. Formano il **tessuto adiposo sottocutaneo** negli animali, che protegge dal freddo (**isolamento termico**)
-3. Rappresentano il veicolo per l'**assorbimento delle vitamine liposolubili** a livello intestinale
+1. Sono la principale **riserva energetica** del corpo (1 g di grasso = circa 9 kcal, il doppio di 1 g di zuccheri)
+2. Formano il **tessuto adiposo** sotto la pelle, che ci protegge dal freddo
+3. Aiutano l'**assorbimento delle vitamine** A, D, E e K nell'intestino
 
-### Gli acidi grassi
+### Gli acidi grassi: saturi e insaturi
 
-Gli **acidi grassi** sono acidi carbossilici con una catena idrocarburica che contiene da 4 a 36 atomi di carbonio (di solito un numero **pari**, da 12 a 24). Si dividono in due classi:
+Gli **acidi grassi** sono acidi carbossilici con una catena di carboni molto lunga (di solito da 12 a 24 carboni, sempre in numero **pari**). Si dividono in due tipi:
 
-| Tipo | Catena | Stato fisico | Esempio | Fonte |
-|------|--------|-------------|---------|-------|
-| **Saturi** | Solo legami semplici C—C, catena lineare | Solidi (**grassi**) | Acido stearico (C18) | Animali |
-| **Insaturi** | Uno o piu' doppi legami C=C (configurazione *cis*) | Liquidi (**oli**) | Acido oleico (C18, 1 doppio legame) | Vegetali |
+| Tipo | Come e' la catena | Forma | Stato a temperatura ambiente | Dove si trovano |
+|------|------------------|-------|------------------------------|-----------------|
+| **Saturi** | Solo legami singoli C—C → catena **dritta** | Lineare, si impacchettano bene | **Solidi** (grassi) | Burro, strutto, carne |
+| **Insaturi** | Uno o piu' doppi legami C=C → catena con delle **pieghe** | Piegata, non si impacchettano | **Liquidi** (oli) | Olio d'oliva, olio di semi |
 
-!!! note "Perche' i grassi saturi sono solidi e gli oli sono liquidi?"
-    Gli acidi grassi **saturi** hanno catene lineari che si impacchettano bene, formando numerose interazioni dipolari: i composti sono **solidi** con punto di fusione alto. Gli acidi grassi **insaturi** hanno dei "punti di discontinuita'" (pieghe) nei doppi legami *cis*, che impediscono l'impacchettamento ordinato: sono quindi **liquidi** con punto di fusione basso.
+!!! note "Perche' il burro e' solido e l'olio e' liquido?"
+    Immagina tanti bastoncini dritti (acidi grassi saturi): li puoi impilare bene uno accanto all'altro, formano un blocco compatto → **solido**. Ora immagina bastoncini piegati (acidi grassi insaturi): non riesci a impilarli, restano disordinati → **liquido**. Ecco perche' il burro (grassi saturi) e' solido e l'olio (grassi insaturi) e' liquido!
 
 !!! warning "Acidi grassi essenziali"
-    L'**acido linoleico** e l'**acido linolenico** sono **acidi grassi essenziali**: il nostro organismo non e' in grado di sintetizzarli e devono essere assunti con gli alimenti. Sono necessari per produrre molecole coinvolte nella coagulazione del sangue e nella risposta infiammatoria.
+    L'**acido linoleico** e l'**acido linolenico** sono acidi grassi che il nostro corpo **non riesce a produrre da solo**: dobbiamo assumerli con il cibo (li troviamo nel pesce, nelle noci, nell'olio di semi). Per questo si chiamano **essenziali**. Servono per la coagulazione del sangue e per controllare le infiammazioni.
 
 ### Le reazioni dei trigliceridi
 
-#### Idrogenazione
+#### Idrogenazione: dagli oli ai grassi
 
-La reazione di **idrogenazione** trasforma gli acidi grassi insaturi degli oli in acidi grassi saturi. La reazione avviene per addizione di idrogeno, in presenza di un catalizzatore metallico, ai doppi legami carbonio-carbonio. Idrogenando l'olio si ottiene un grasso vegetale noto come **margarina**.
+L'**idrogenazione** e' una reazione che aggiunge idrogeno ai doppi legami degli acidi grassi insaturi, trasformandoli in saturi. In pratica, si prende un olio (liquido) e lo si trasforma in un grasso (solido). Cosi' si produce la **margarina**.
 
-#### Idrolisi alcalina (saponificazione)
+#### Saponificazione: dai grassi al sapone
 
-La reazione di **idrolisi alcalina** dei trigliceridi avviene fornendo calore e in presenza di basi forti (NaOH, KOH). Il processo, chiamato anche **saponificazione**, porta alla formazione di **glicerolo** e **sali di acidi grassi**, noti commercialmente come **saponi**.
+La **saponificazione** e' l'idrolisi dei trigliceridi con una base forte (NaOH o KOH), cioe' si "rompe" il trigliceride in **glicerolo** + **sali di acidi grassi**. Questi sali sono i **saponi**!
 
 !!! example "Come funziona il sapone?"
-    La molecola di sapone e' **anfipatica**: ha una lunga coda idrocarburica **apolare** (idrofobica) e una testa polare **idrofila** (il gruppo carbossilato COO⁻).
+    Ogni molecola di sapone ha due parti:
 
-    In acqua, le code idrofobiche si associano a formare sfere chiamate **micelle**, con le teste idrofile verso l'esterno. Quando il sapone incontra il grasso, le code idrofobiche penetrano nella gocciolina di grasso e le teste idrofile si dispongono all'esterno, formando un'**emulsione** che permette al grasso di essere allontanato con l'acqua.
+    - Una lunga **coda apolare** (la catena di carboni dell'acido grasso): "ama" il grasso e "odia" l'acqua
+    - Una **testa polare** (il gruppo COO⁻): "ama" l'acqua e "odia" il grasso
+
+    In acqua le molecole di sapone si riuniscono formando delle palline chiamate **micelle**: le code si mettono all'interno (lontano dall'acqua) e le teste all'esterno (a contatto con l'acqua).
+
+    Quando lavi i piatti, le code del sapone si "infilano" nelle goccioline di grasso, mentre le teste restano in acqua. Il grasso viene cosi' circondato e trascinato via dall'acqua. Questa miscela di grasso e acqua stabilizzata dal sapone si chiama **emulsione**.
 
 ---
 
-### I fosfolipidi
+### I fosfolipidi: i mattoni delle membrane
 
-I **fosfolipidi** sono lipidi costituiti da una **testa polare** (idrofila) e da una **coda apolare** (idrofobica). Essendo formati da una regione idrofila e una idrofobica, sono molecole **anfipatiche**. Si distinguono in **glicerofosfolipidi** e **sfingolipidi**.
+I **fosfolipidi** assomigliano ai trigliceridi, ma con una differenza importante: al posto di uno dei tre acidi grassi c'e' un **gruppo fosfato** legato a un **amminoalcol** (come l'etanolammina o la colina).
 
-#### I glicerofosfolipidi
+Questo li rende molecole **anfipatiche** (dal greco: "che amano entrambi"): hanno una testa **idrofila** (che ama l'acqua, formata dal fosfato e dall'amminoalcol) e due code **idrofobiche** (che fuggono dall'acqua, formate dai due acidi grassi).
 
-I **glicerofosfolipidi** (o fosfogliceridi) sono costituiti da una molecola di glicerolo, **due** molecole di acidi grassi, un **gruppo fosfato** e un **amminoalcol**. Gli amminoalcoli piu' comuni sono l'**etanolammina** e la **colina**.
+I due tipi principali sono:
 
-Sono i lipidi piu' abbondanti in natura dopo i trigliceridi e sono i **principali componenti delle membrane cellulari**: si dispongono in un **doppio strato** con le code idrofobiche rivolte verso l'interno e le teste idrofile verso l'esterno (verso gli ambienti acquosi).
+- **Glicerofosfolipidi**: basati sul glicerolo. Sono i piu' abbondanti nelle **membrane cellulari**
+- **Sfingolipidi**: basati sulla sfingosina (un amminoalcol). Abbondanti nella **guaina mielinica** che riveste i nervi
 
-#### Gli sfingolipidi
-
-Gli **sfingolipidi** sono costituiti da una molecola di **sfingosina** (un amminoalcol insaturo), una molecola di acido grasso e un gruppo fosfato legato a un amminoalcol. Sono presenti a concentrazioni molto elevate nella **guaina mielinica** che riveste gli assoni dei neuroni.
+!!! abstract "La membrana cellulare: un doppio strato di fosfolipidi"
+    Nella membrana cellulare i fosfolipidi si dispongono in un **doppio strato**: le code idrofobiche si affacciano verso l'interno (una contro l'altra, lontano dall'acqua), le teste idrofile verso l'esterno (a contatto con l'acqua sia dentro sia fuori la cellula). Questo doppio strato e' la barriera che separa l'interno della cellula dall'ambiente esterno.
 
 ---
 
 ### I glicolipidi
 
-I **glicolipidi** (o glicosfingolipidi) sono costituiti da una molecola di sfingosina, un acido grasso e un **carboidrato** (un monosaccaride come glucosio o galattosio, oppure un oligosaccaride). Sono molecole **anfipatiche**.
+I **glicolipidi** sono formati da sfingosina + un acido grasso + uno **zucchero** (glucosio, galattosio o un oligosaccaride). Si trovano sulla superficie esterna delle membrane cellulari.
 
-Si distinguono in:
+Ce ne sono di due tipi:
 
-- **Gangliosidi**: funzionano da siti di riconoscimento per molecole specifiche, come gli ormoni
-- **Cerebrosidi**: presenti sulle membrane dei neuroni, costituiscono i recettori per i **neurotrasmettitori**
+- **Gangliosidi**: funzionano come "antenne" che riconoscono molecole specifiche, come gli ormoni
+- **Cerebrosidi**: si trovano sulle membrane dei neuroni, dove funzionano da recettori per i neurotrasmettitori
 
-I glicolipidi sono presenti anche sulle membrane dei **globuli rossi**, dove svolgono un ruolo fondamentale per la determinazione del **gruppo sanguigno AB0**.
+!!! info "I gruppi sanguigni"
+    I glicolipidi presenti sulla membrana dei **globuli rossi** determinano il nostro **gruppo sanguigno** (A, B, AB o 0)!
 
 ---
 
 ### Gli steroidi
 
-Gli **steroidi** sono composti che derivano da un idrocarburo policiclico chiamato **sterano**, formato da quattro anelli condensati (tre esatomici e uno pentatomico).
+Gli **steroidi** sono lipidi con una struttura molto diversa dagli altri: sono formati da **quattro anelli** di carbonio fusi insieme (tre esagoni e un pentagono), derivati da una molecola chiamata **sterano**.
 
 #### Il colesterolo
 
-Il **colesterolo** e' lo steroide piu' abbondante nei tessuti animali. La sua molecola presenta un gruppo alcolico —OH, un doppio legame, una catena alifatica e due sostituenti metilici.
+Il **colesterolo** e' lo steroide piu' importante. Si trova nelle membrane delle nostre cellule e serve per:
 
-Il colesterolo e':
+- Regolare la **fluidita'** delle membrane cellulari
+- Essere il "materiale di partenza" per produrre **acidi biliari**, **ormoni steroidei** e **vitamina D**
 
-- Un importante **costituente delle membrane cellulari**, di cui regola la fluidita'
-- Il componente di partenza per la sintesi degli **acidi biliari**, degli **ormoni steroidei** e della **vitamina D**
+Il colesterolo viene sia prodotto dal nostro fegato sia assunto con gli alimenti (carne, uova, burro, latte).
 
-!!! warning "Colesterolo e salute"
-    Il trasporto del colesterolo nel sangue avviene mediante le **lipoproteine**: le **LDL** (a bassa densita') trasportano il colesterolo dal fegato ai tessuti, le **HDL** (ad alta densita') lo prelevano e lo riportano al fegato. Quando il colesterolo e' in eccesso (**ipercolesterolemia**), le LDL lo depositano nelle arterie causando rigidita' e ispessimento delle pareti (**aterosclerosi**), con rischio di infarto e ipertensione.
+!!! warning "Colesterolo buono e cattivo"
+    Il colesterolo viaggia nel sangue trasportato da "navette" chiamate **lipoproteine**:
+
+    - **LDL** (colesterolo "cattivo"): portano il colesterolo dal fegato ai tessuti. Se sono troppe, il colesterolo si deposita nelle pareti delle arterie → **aterosclerosi** (arterie rigide e strette) → rischio di infarto e ictus
+    - **HDL** (colesterolo "buono"): raccolgono il colesterolo in eccesso dai tessuti e lo riportano al fegato per essere eliminato
+
+    Per questo e' importante avere le LDL basse e le HDL alte!
 
 #### Gli acidi biliari
 
-Gli **acidi biliari** sono acidi carbossilici steroidei che derivano dall'ossidazione del colesterolo. Il piu' comune e' l'**acido colico**. I sali biliari, presenti nella bile, sono in grado di **emulsionare** i trigliceridi nell'intestino, facilitando la digestione dei grassi.
+Gli **acidi biliari** derivano dal colesterolo e si trovano nella **bile** (il liquido giallo-verde prodotto dal fegato). I loro sali funzionano come "detergenti naturali" nell'intestino: **emulsionano i grassi** (li spezzettano in goccioline piccole) per permettere agli enzimi digestivi di digerirli.
 
 #### Gli ormoni steroidei
 
-Fanno parte degli ormoni steroidei gli **ormoni sessuali** e gli **ormoni corticosurrenali**.
+Sono molecole segnale prodotte da ghiandole specifiche:
 
-**Ormoni sessuali**: prodotti dalle gonadi (ovaie nelle femmine e testicoli nei maschi), stimolano lo sviluppo dei **caratteri sessuali** primari e secondari.
+**Ormoni sessuali** (prodotti dalle gonadi):
 
-| Classe | Ormone principale | Prodotto da | Funzione |
-|--------|------------------|-------------|----------|
-| Androgeni | **Testosterone** | Testicoli | Differenziazione apparato genitale, spermatogenesi |
-| Estrogeni | **Progesterone** | Ovaie | Ciclo ovarico-uterino, caratteri sessuali femminili |
+| Tipo | Ormone principale | Funzione |
+|------|------------------|----------|
+| Androgeni | **Testosterone** | Sviluppo dei caratteri sessuali maschili, produzione di spermatozoi |
+| Estrogeni e progestinici | **Progesterone** | Sviluppo dei caratteri sessuali femminili, ciclo mestruale |
 
-**Ormoni corticosurrenali**: prodotti dalle ghiandole surrenali:
+**Ormoni corticosurrenali** (prodotti dalle ghiandole surrenali, sopra i reni):
 
-- **Glucocorticoidi** (cortisolo, cortisone): favoriscono la formazione di glucosio a partire dagli amminoacidi (gluconeogenesi)
-- **Mineralcorticoidi** (aldosterone): responsabili del riassorbimento del sodio Na⁺ nei tubuli renali del nefrone
+- **Cortisolo** e **cortisone** (glucocorticoidi): stimolano la produzione di glucosio dagli amminoacidi quando serve energia
+- **Aldosterone** (mineralcorticoide): regola il riassorbimento del sodio nei reni, controllando la pressione sanguigna
 
 ---
 
 ### Le vitamine liposolubili
 
-Le **vitamine liposolubili** (A, D, E, K) sono molecole organiche indispensabili per regolare numerosi processi metabolici. Sono **molecole essenziali**: devono essere introdotte con gli alimenti perche' non possono essere sintetizzate dall'organismo.
+Le **vitamine liposolubili** (A, D, E, K) sono molecole che il nostro corpo **non sa produrre** (sono essenziali) e che si sciolgono nei grassi (per questo si chiamano "liposolubili"). Dobbiamo assumerle con il cibo.
 
-| Vitamina | Nome chimico | Dove si trova | Funzione | Carenza provoca |
-|----------|-------------|---------------|----------|-----------------|
-| **A** | Retinolo | Fegato, uova, carote (β-carotene) | Funzione protettiva tessuti epiteliali, vista | Cecita' notturna |
-| **D** | Calciferolo | Latte, uova; sintetizzata dalla cute con raggi UV | Deposizione di Ca²⁺ e fosfato nelle ossa | Rachitismo (bambini), osteoporosi (adulti) |
-| **E** | Tocoferolo | Oli vegetali, frutta secca | **Antiossidante**, protegge le membrane cellulari | Danni ai fosfolipidi delle membrane |
-| **K** | Naftochinone | Vegetali a foglia verde, flora batterica intestinale | Sintesi della **protrombina** (coagulazione) | Rischio di emorragie |
+| Vitamina | Dove si trova | A cosa serve | Se manca... |
+|----------|--------------|-------------|-------------|
+| **A** (retinolo) | Carote, fegato, uova | Vista (soprattutto notturna), protezione della pelle | **Cecita' notturna** |
+| **D** (calciferolo) | Latte, uova; la pelle la produce con il sole | Fa depositare calcio nelle ossa | **Rachitismo** nei bambini, **osteoporosi** negli adulti |
+| **E** (tocoferolo) | Olio d'oliva, noci, mandorle | **Antiossidante**: protegge le membrane cellulari | Danni alle membrane |
+| **K** (naftochinone) | Spinaci, broccoli; prodotta dai batteri intestinali | Serve per la **coagulazione** del sangue | Rischio di **emorragie** |
 
 ---
 
 ## Gli amminoacidi e le proteine
 
-### Gli amminoacidi sono i monomeri delle proteine
+### Gli amminoacidi: i mattoncini delle proteine
 
-Gli **amminoacidi** rappresentano i monomeri dei **peptidi** e delle **proteine**, polimeri in cui e' presente il legame peptidico.
+Gli **amminoacidi** sono i monomeri (i "mattoncini") che, uniti in lunghe catene, formano i **peptidi** e le **proteine**.
 
-Oltre a formare peptidi e proteine, gli amminoacidi partecipano anche a molte altre funzioni biologiche:
+Ma non servono solo per costruire proteine. Alcuni amminoacidi hanno altre funzioni importanti:
 
-- L'acido **γ-amminobutirrico (GABA)** e la **dopamina** sono **neurotrasmettitori**
-- L'**istamina** e' un **mediatore dell'infiammazione** e delle reazioni allergiche
-- La **tiroxina** e' un **ormone** tiroideo coinvolto nella regolazione del metabolismo
-- La **niacina** (un derivato del triptofano) e' una vitamina idrosolubile
+- Il **GABA** e la **dopamina** (derivati di amminoacidi) sono **neurotrasmettitori** (i messaggeri chimici tra i neuroni)
+- L'**istamina** e' il mediatore delle reazioni allergiche e dell'infiammazione
+- La **tiroxina** e' un ormone della tiroide che regola il metabolismo
 
-### Struttura degli amminoacidi
+### Come e' fatto un amminoacido
 
-Gli amminoacidi sono composti **bifunzionali**, cioe' contengono due gruppi funzionali: il gruppo carbossilico (—COOH) e il gruppo amminico (—NH₂).
+Ogni amminoacido ha sempre la stessa struttura di base: un atomo di carbonio centrale (chiamato **carbonio α**) a cui sono legati:
 
-Gli amminoacidi che costituiscono le proteine sono **20**, di cui **8 sono essenziali** (l'organismo non e' in grado di sintetizzarli e devono essere assunti con gli alimenti). Sono tutti **α-amminoacidi**: i due gruppi funzionali sono legati allo stesso atomo di carbonio (il carbonio α), a cui sono anche legati un atomo di H e un **gruppo R** (catena laterale) diverso per ogni amminoacido.
+- Un gruppo **amminico** (—NH₂)
+- Un gruppo **carbossilico** (—COOH)
+- Un atomo di **idrogeno** (H)
+- Un **gruppo R** (la catena laterale), che e' **diverso** per ogni amminoacido
 
-!!! abstract "La formula generale degli α-amminoacidi"
-    Ogni α-amminoacido ha la struttura:
+!!! abstract "20 amminoacidi, 20 gruppi R diversi"
+    Gli amminoacidi che formano le proteine sono **20**. Si differenziano solo per il gruppo R. Di questi 20, **8 sono essenziali**: il nostro corpo non li sa fabbricare e dobbiamo assumerli mangiando (carne, pesce, uova, legumi...).
 
-    - Un **carbonio α** centrale
-    - Un gruppo **—NH₂** (amminico)
-    - Un gruppo **—COOH** (carbossilico)
-    - Un atomo di **H**
-    - Un **gruppo R** (catena laterale) che e' diverso per ciascuno dei 20 amminoacidi e ne determina le proprieta' specifiche
+### Come si classificano gli amminoacidi
 
-### Classificazione degli amminoacidi
+Si classificano in base alle proprieta' chimiche del **gruppo R**:
 
-Le proprieta' chimiche della catena laterale R permettono di distinguere gli amminoacidi in due classi: **apolari** e **polari**.
+| Classe | Che tipo di gruppo R ha | Caratteristiche | Esempi |
+|--------|------------------------|-----------------|--------|
+| **Apolari** | Catena di soli C e H | Idrofobici (fuggono dall'acqua) | Glicina, Alanina, Valina, Leucina, Fenilalanina |
+| **Polari non carichi** | Gruppi con O, N o S | Idrofili (amano l'acqua) | Serina, Cisteina, Asparagina, Treonina |
+| **Polari basici** (carica +) | Gruppo amminico in piu' | Carica positiva | Lisina, Istidina, Arginina |
+| **Polari acidi** (carica −) | Gruppo carbossilico in piu' | Carica negativa | Acido aspartico, Acido glutammico |
 
-| Classe | Caratteristiche | Esempi |
-|--------|----------------|--------|
-| **Apolari** | Catena laterale alifatica o aromatica, idrofobici | Glicina (Gly), Alanina (Ala), Valina (Val), Leucina (Leu), Isoleucina (Ile), Fenilalanina (Phe) |
-| **Polari non carichi** | Gruppi funzionali con O, N o S; idrofili | Serina (Ser), Cisteina (Cys), Asparagina (Asn), Glutammina (Gln), Treonina (Thr), Tirosina (Tyr) |
-| **Polari carichi positivamente** (basici) | Catena laterale con gruppo amminico, carica positiva | Lisina (Lys), Istidina (His), Arginina (Arg) |
-| **Polari carichi negativamente** (acidi) | Catena laterale con gruppo carbossile, carica negativa | Acido aspartico (Asp), Acido glutammico (Glu) |
+### Gli amminoacidi sono chirali
 
-### Gli amminoacidi sono molecole chirali
+Tutti gli amminoacidi (tranne la **glicina**, il piu' semplice) sono molecole **chirali**: esistono in due versioni speculari (D e L). In natura, tutti gli amminoacidi delle proteine sono nella forma **L** (come tutti i monosaccaridi sono nella forma D).
 
-Tutti gli α-amminoacidi (tranne la **glicina**) sono molecole **chirali**: il carbonio α e' legato a quattro gruppi diversi ed e' quindi uno stereocentro. Si presentano sotto forma di due enantiomeri (configurazione D e L). Tutti gli amminoacidi naturali hanno la **configurazione L**.
+### Lo zwitterione: una molecola con due cariche
 
-### La struttura ionica dipolare (zwitterione)
+A **pH fisiologico** (il pH del nostro corpo, circa 7,4), dentro l'amminoacido succede qualcosa di curioso: il gruppo —COOH cede il suo H⁺ al gruppo —NH₂ della stessa molecola. Si forma cosi' uno **zwitterione** ("ione ibrido" in tedesco): una molecola che ha **contemporaneamente una carica positiva e una negativa**:
 
-A **pH fisiologico**, negli amminoacidi si verifica una reazione intramolecolare acido-base: il gruppo —COOH cede un H⁺ al gruppo —NH₂. Si forma uno **zwitterione** (ione dipolare), cioe' uno ione con **due cariche opposte** sullo stesso molecola:
+- —COOH diventa **—COO⁻** (perde H⁺, carica negativa)
+- —NH₂ diventa **—NH₃⁺** (accetta H⁺, carica positiva)
 
-- Il gruppo carbossilico diventa **—COO⁻** (carica negativa)
-- Il gruppo amminico diventa **—NH₃⁺** (carica positiva)
+### Comportamento anfotero e punto isoelettrico
 
-### Gli amminoacidi sono composti anfoteri
+Gli amminoacidi sono **anfoteri**: si comportano da acidi o da basi a seconda del pH della soluzione in cui si trovano.
 
-Gli amminoacidi nella forma ionica dipolare possono reagire sia con gli acidi sia con le basi:
-
-- In **soluzione basica** (OH⁻): cedono un H⁺ → forma **anionica** (carica negativa)
-- In **soluzione acida** (H₃O⁺): accettano un H⁺ → forma **cationica** (carica positiva)
+- In ambiente **acido** (tanto H⁺): accettano protoni → diventano **cationi** (carica +)
+- In ambiente **basico** (poco H⁺): cedono protoni → diventano **anioni** (carica −)
 
 !!! abstract "Il punto isoelettrico (pI)"
-    Il **punto isoelettrico** (pI) e' il valore di pH specifico per ogni amminoacido in corrispondenza del quale l'amminoacido si trova nella forma ionica dipolare e ha **carica complessiva uguale a zero**.
+    Ogni amminoacido ha un suo valore di pH al quale la carica totale e' **zero** (tanti + quanti −): si chiama **punto isoelettrico (pI)**.
 
-    - A pH < pI → l'amminoacido e' nella forma **protonata** (carica positiva)
-    - A pH > pI → l'amminoacido e' nella forma **deprotonata** (carica negativa)
+    - Se il pH della soluzione e' **piu' basso** del pI → l'amminoacido ha carica **positiva**
+    - Se il pH e' **piu' alto** del pI → l'amminoacido ha carica **negativa**
 
-    In base al valore del pI, gli amminoacidi si distinguono in: amminoacidi **neutri** (pI tra 5 e 6,5), **acidi** (pI molto basso, 3-3,2) e **basici** (pI molto alto, 7,6-10,8).
+    Gli amminoacidi acidi hanno pI basso (circa 3), quelli neutri medio (5-6,5), quelli basici alto (7,6-10,8).
 
 ---
 
-### Il legame peptidico
+### Il legame peptidico: come si uniscono gli amminoacidi
 
-Il **legame peptidico** e' un legame covalente che si forma tra due amminoacidi (uguali o diversi). Si stabilisce tra il carbonio del gruppo carbossilico (—COOH) di un amminoacido e l'azoto del gruppo amminico (—NH₂) di un secondo amminoacido, con **eliminazione di una molecola d'acqua** (reazione di condensazione).
+Il **legame peptidico** e' il legame che unisce due amminoacidi tra loro. Si forma tra il gruppo —COOH del primo amminoacido e il gruppo —NH₂ del secondo, con perdita di una molecola d'acqua (condensazione). In pratica, e' un **legame ammidico** (lo abbiamo gia' visto nei derivati degli idrocarburi!).
 
-Per convenzione, il dipeptide si scrive mettendo a **sinistra** l'amminoacido con il gruppo amminico libero (**amminoacido N-terminale**) e a **destra** quello con il gruppo carbossilico libero (**amminoacido C-terminale**).
+La catena si scrive sempre con l'amminoacido **N-terminale** (quello con il gruppo —NH₂ libero) a **sinistra** e l'amminoacido **C-terminale** (quello con il gruppo —COOH libero) a **destra**.
 
 !!! note "Il legame peptidico e' rigido"
-    Il legame C—N del legame peptidico ha una lunghezza intermedia tra un legame singolo e uno doppio: per effetto della **risonanza**, il legame C—N e' **rigido** e non puo' ruotare. Il gruppo peptidico assume quindi una disposizione **planare**.
+    Per effetto della risonanza, il legame C—N del legame peptidico e' **rigido**: non puo' ruotare. Il gruppo peptidico e' quindi **planare** (piatto). La catena puo' pero' ruotare attorno ai legami che collegano i vari gruppi peptidici tra loro, e questo permette alle proteine di assumere forme tridimensionali complesse.
 
-I **peptidi** sono biopolimeri distinti in **oligopeptidi** (2-10 amminoacidi) e **polipeptidi** (11-80 amminoacidi). Le **proteine** sono biopolimeri formati da catene di piu' di 80 amminoacidi.
+In base alla lunghezza della catena si parla di:
 
-Il numero di peptidi diversi che si possono ottenere con *m* amminoacidi e' dato da: \( n = 1 \cdot 2 \cdot 3 \cdot \ldots \cdot m \) (cioe' *m*!)
+- **Oligopeptidi**: da 2 a 10 amminoacidi
+- **Polipeptidi**: da 11 a 80 amminoacidi
+- **Proteine**: piu' di 80 amminoacidi
 
 ### Il legame disolfuro
 
-Tra due amminoacidi di **cisteina** (che hanno il gruppo —SH nella catena laterale) si puo' formare un **legame disolfuro** (S—S), un legame covalente singolo tra due atomi di zolfo. Si forma per ossidazione (deidrogenazione) dei due gruppi —SH.
+Tra due amminoacidi di **cisteina** (che hanno il gruppo —SH nella catena laterale) si puo' formare un **legame disolfuro** (S—S): i due gruppi —SH si "ossidano" e si uniscono perdendo due atomi di idrogeno.
 
-Il legame disolfuro e' fondamentale perche' provoca un **ripiegamento della catena proteica**, contribuendo alla conformazione tridimensionale della proteina.
+Questo legame e' importantissimo perche' crea dei "ponti" nella catena proteica, forzandola a **ripiegarsi** in una forma specifica. Senza i ponti disolfuro, molte proteine non funzionerebbero.
 
 ---
 
 ### La classificazione delle proteine
 
-Le **proteine** sono biopolimeri formati da molti amminoacidi (piu' di 80) uniti tra loro da legami peptidici.
+Le **proteine** sono lunghe catene di amminoacidi (piu' di 80) unite da legami peptidici. Sono le molecole piu' versatili del nostro corpo: fanno praticamente tutto!
 
-#### Per composizione chimica
+#### Per composizione
 
-- **Proteine semplici**: formate solo da amminoacidi
-- **Proteine coniugate**: formate da amminoacidi e da un **gruppo prostetico** (un componente non proteico), che puo' essere un lipide (*lipoproteine*), un glucide (*glicoproteine*), un acido nucleico (*nucleoproteine*) o un metallo (*metalloproteine*)
+- **Proteine semplici**: fatte solo di amminoacidi
+- **Proteine coniugate**: amminoacidi + un **gruppo prostetico** (una parte non proteica), che puo' essere un lipide (*lipoproteine* come LDL e HDL), uno zucchero (*glicoproteine* come le immunoglobuline), un acido nucleico (*nucleoproteine*), un metallo (*metalloproteine* come i citocromi)
 
-#### Per funzione biologica
+#### Per funzione
 
-| Funzione | Esempio |
-|----------|---------|
-| **Strutturale** | Cheratina (capelli, unghie), collagene, fibroina (seta) |
-| **Catalitica** | Enzimi |
-| **Contrattile e di movimento** | Actina e miosina (muscoli), tubulina (ciglia) |
-| **Trasporto** | Emoglobina (trasporta O₂ nel sangue) |
-| **Riserva** | Ferritina (accumula ferro), ovoalbumina (uova) |
-| **Difesa** | Anticorpi (immunoglobuline) |
-| **Regolazione** | Ormoni (insulina, ossitocina) |
+| Funzione | Cosa fanno | Esempio |
+|----------|-----------|---------|
+| **Strutturali** | Formano tessuti e organi | Cheratina (capelli, unghie), collagene (pelle, tendini) |
+| **Catalitiche** | Accelerano le reazioni chimiche | **Enzimi** |
+| **Di movimento** | Permettono la contrazione | Actina e miosina (muscoli) |
+| **Di trasporto** | Trasportano sostanze | Emoglobina (porta l'O₂ nel sangue) |
+| **Di riserva** | Accumulano sostanze | Ferritina (accumula il ferro) |
+| **Di difesa** | Proteggono dalle infezioni | **Anticorpi** (immunoglobuline) |
+| **Di regolazione** | Inviano messaggi chimici | Ormoni (insulina, ossitocina) |
 
 #### Per forma
 
-- **Proteine fibrose**: catene polipeptidiche disposte le une accanto alle altre, legate da legami disolfuro o a idrogeno, a costituire un filamento. Esempio: cheratina, collagene, fibroina.
-- **Proteine globulari**: catene polipeptidiche ripiegate su se stesse in strutture compatte, di forma sferica. Esempio: enzimi, ormoni, emoglobina, anticorpi.
+- **Proteine fibrose**: catene lunghe e distese, disposte in parallelo come i fili di una corda. Sono resistenti e insolubili. Esempio: cheratina, collagene, fibroina della seta.
+- **Proteine globulari**: catene ripiegate su se stesse a formare una "pallina" compatta. Sono solubili e hanno funzioni attive. Esempio: enzimi, anticorpi, emoglobina.
 
 ---
 
-### La struttura delle proteine
+### La struttura delle proteine: quattro livelli
 
-Esaminando una proteina nella sua configurazione spaziale, si possono individuare **quattro livelli** di organizzazione strutturale.
+Una proteina non e' una catena piatta: si ripiega nello spazio in modi precisi. Si possono distinguere **quattro livelli** di struttura, uno dentro l'altro (come le scatole cinesi):
 
 ```mermaid
 flowchart LR
-    A["Struttura<br>primaria"] --> B["Struttura<br>secondaria"]
-    B --> C["Struttura<br>terziaria"]
-    C --> D["Struttura<br>quaternaria"]
+    A["1. Primaria<br>La sequenza<br>degli amminoacidi"] --> B["2. Secondaria<br>Elica o foglietto"]
+    B --> C["3. Terziaria<br>La forma 3D<br>completa"]
+    C --> D["4. Quaternaria<br>Piu' catene<br>insieme"]
 ```
 
-#### Struttura primaria
+#### 1. Struttura primaria: la sequenza
 
-La **struttura primaria** e' definita dalla **sequenza di amminoacidi** legati con legami peptidici nella catena polipeptidica. Ogni proteina ha la sua sequenza specifica e da essa dipende la funzione biologica.
+E' semplicemente l'**ordine** in cui gli amminoacidi sono disposti nella catena, come le lettere in una parola. Cambiare anche solo un amminoacido puo' cambiare completamente la funzione della proteina.
 
 !!! warning "L'anemia falciforme"
-    Nell'emoglobina, la sostituzione di **un solo amminoacido** (un acido glutammico con una valina) fa assumere ai globuli rossi una forma a falce, causando una grave patologia chiamata **anemia falciforme**. Questo dimostra quanto sia cruciale la struttura primaria.
+    Nell'emoglobina (la proteina che trasporta l'ossigeno nel sangue), la sostituzione di **un solo amminoacido** su 574 (un acido glutammico con una valina) fa cambiare la forma dei globuli rossi, che diventano a falce. Questo causa una grave malattia chiamata **anemia falciforme**. Basta un errore su 574 per provocare una patologia!
 
-#### Struttura secondaria
+#### 2. Struttura secondaria: elica e foglietto
 
-La **struttura secondaria** e' definita dalla disposizione spaziale della catena polipeptidica, stabilizzata da **legami a idrogeno** tra il gruppo C=O di un amminoacido e il gruppo —NH di un altro.
+La catena di amminoacidi si ripiega localmente in due configurazioni principali, tenute insieme da **legami a idrogeno** tra i gruppi C=O e N—H della catena principale:
 
-Si presenta in due configurazioni principali:
+| Configurazione | Come e' fatta | Esempio |
+|---------------|--------------|---------|
+| **α-elica** | La catena si avvolge a **spirale** (come una molla). I gruppi R puntano verso l'esterno. Molto flessibile. | Cheratina (capelli), elastina |
+| **β-foglietto** | Tratti di catena si dispongono **paralleli**, come le pieghe di una fisarmonica, collegati da legami a idrogeno. | Fibroina (seta del ragno) |
 
-| Configurazione | Descrizione | Proteine tipiche |
-|---------------|-------------|-----------------|
-| **α-elica** | Catena avvolta a spirale in senso antiorario; i gruppi R sono diretti verso l'esterno. Molto compatta e flessibile. | Cheratina, elastina |
-| **β-foglietto** | Tratti (filamenti β) della catena disposti parallelamente, legati da legami a idrogeno tra i gruppi C=O e —NH. I gruppi R sono alternati sopra e sotto. | Fibroina (seta) |
+Una stessa proteina puo' avere sia zone ad α-elica sia zone a β-foglietto.
 
-Una stessa proteina puo' presentare sia regioni ad α-elica sia regioni a β-foglietto.
+#### 3. Struttura terziaria: la forma 3D
 
-#### Struttura terziaria
+E' la **forma tridimensionale** complessiva della proteina: come la catena si ripiega nello spazio. Questa forma e' stabilizzata da interazioni tra i **gruppi R** degli amminoacidi:
 
-La **struttura terziaria** e' definita dalla forma che la proteina assume dopo essere stata stabilizzata da diversi tipi di legami e interazioni tra le catene laterali R degli amminoacidi:
+- **Legami a idrogeno** tra gruppi R polari
+- **Legami disolfuro** (S—S) tra due cisteine
+- **Interazioni ioniche** tra gruppi R con cariche opposte
+- **Interazioni di van der Waals** tra gruppi R apolari
 
-- **Legami a idrogeno**
-- **Legami disolfuro** (S—S tra due cisteine)
-- **Interazioni ioniche** (tra gruppi R con cariche opposte)
-- **Interazioni di van der Waals** (tra gruppi R apolari)
+!!! tip "Dentro e fuori"
+    Nella struttura terziaria, i gruppi R **idrofobici** (apolari) si nascondono all'**interno** della proteina (lontano dall'acqua), mentre quelli **idrofili** (polari) si dispongono all'**esterno** (a contatto con l'acqua). Questo "impacchettamento" e' chiamato **folding** (ripiegamento).
 
-Nella struttura terziaria le catene laterali **idrofobiche** si posizionano all'**interno** della proteina, mentre quelle **idrofile** si dispongono all'**esterno**, a contatto con l'acqua.
+#### 4. Struttura quaternaria: piu' catene insieme
 
-!!! info "Il folding"
-    Una proteina e' in grado di svolgere la sua attivita' biologica solo quando ha assunto la sua struttura tridimensionale definitiva, chiamata **folding proteico**.
-
-#### Struttura quaternaria
-
-La **struttura quaternaria** e' definita dall'associazione di **due o piu' catene polipeptidiche** (subunita') stabilizzata da legami a idrogeno, interazioni tra gruppi R apolari e legami disolfuro.
+Alcune proteine sono formate da **piu' catene polipeptidiche** (chiamate **subunita'**) unite tra loro.
 
 !!! example "L'emoglobina"
-    L'**emoglobina** e' un esempio di proteina con struttura quaternaria: e' costituita da **quattro catene polipeptidiche** (due α e due β), ciascuna legata a un gruppo prostetico chiamato **eme**, che contiene uno ione ferro Fe²⁺ responsabile del legame con l'ossigeno.
+    L'**emoglobina** e' formata da **4 catene** (due α e due β). Ognuna delle quattro catene contiene un gruppo **eme**, che ha al centro uno ione **ferro** (Fe²⁺): e' proprio questo ferro che lega l'ossigeno e lo trasporta dai polmoni a tutti i tessuti del corpo.
 
-### La denaturazione delle proteine
+### La denaturazione: quando le proteine si "rompono"
 
-I legami chimici che stabilizzano la struttura secondaria, terziaria e quaternaria sono legami **deboli**. Di conseguenza, alcuni fattori possono romperli causando la perdita della struttura e della funzione della proteina. Questo processo si chiama **denaturazione**.
+La **denaturazione** e' la perdita della struttura tridimensionale (secondaria, terziaria e quaternaria) di una proteina, con conseguente perdita della sua funzione.
 
-Fattori che causano la denaturazione:
+I legami che tengono insieme la forma 3D sono **deboli** (legami a idrogeno, interazioni di van der Waals, interazioni ioniche), quindi si rompono facilmente a causa di:
 
-- **Temperature elevate** (aumentano l'energia cinetica)
-- **Valori estremi di pH** (cambiano la dissociazione dei gruppi carichi)
-- **Solventi organici** (modificano la disposizione dei gruppi idrofili e idrofobici)
+- **Temperature alte** (il calore fa vibrare troppo gli atomi)
+- **pH estremi** (cambiano le cariche sui gruppi R)
+- **Solventi organici** (disturbano le interazioni idrofobiche)
 
 !!! warning "La denaturazione e' irreversibile"
-    Quando una proteina si denatura, forma nuovi legami intramolecolari e intermolecolari: il processo e' **irreversibile**. Un esempio quotidiano: quando cucini un uovo, l'albumina (la proteina dell'albume) si denatura per il calore e non torna piu' allo stato liquido.
+    Quando una proteina si denatura, non torna piu' alla sua forma originale: il processo e' **irreversibile**. Un esempio che vediamo ogni giorno: quando cuoci un uovo, l'**albumina** (la proteina dell'albume) passa da trasparente e liquida a bianca e solida. Non puoi "scuocere" un uovo!
 
 ---
 
 ## Gli enzimi
 
-### Gli enzimi sono catalizzatori biologici
+### Cosa sono gli enzimi
 
-Gli **enzimi** sono una classe di proteine altamente specializzate che svolgono la funzione di **catalizzatori biologici** nel metabolismo cellulare. Possono svolgere questa funzione anche molecole di RNA, chiamate **ribozimi**.
+Gli **enzimi** sono proteine specializzate che funzionano come **catalizzatori biologici**: accelerano enormemente le reazioni chimiche del metabolismo senza essere consumati nella reazione. Senza gli enzimi, le reazioni nelle nostre cellule sarebbero cosi' lente che la vita sarebbe impossibile.
 
-L'attivita' catalitica degli enzimi consiste nell'**aumentare la velocita'** delle reazioni metaboliche in due modi:
+!!! note "Anche l'RNA puo' essere un catalizzatore"
+    Oltre alle proteine, anche alcune molecole di **RNA** possono funzionare da catalizzatori: si chiamano **ribozimi**.
 
-- Indebolendo i **legami chimici** dei reagenti nelle reazioni cataboliche
-- Favorendo l'**orientazione** delle molecole dei reagenti nelle reazioni anaboliche
+Gli enzimi agiscono in due modi:
 
-Gli enzimi svolgono la loro funzione legandosi in modo specifico alle molecole dei reagenti (i **substrati**) e trasformandoli in **prodotti**.
+- Nelle reazioni **cataboliche** (quelle che "smontano" le molecole): indeboliscono i legami chimici dei reagenti
+- Nelle reazioni **anaboliche** (quelle che "costruiscono" molecole piu' grandi): favoriscono il corretto orientamento dei reagenti
 
 ### Il nome degli enzimi
 
-Il **nome comune** e' costituito da una radice (spesso il nome del substrato) seguita dal suffisso **-asi** (per indicare che la molecola enzimatica e' una proteina). Esempio: l'**amilasi** e' un enzima che idrolizza l'amido in maltosio.
+Il nome di un enzima si costruisce prendendo il nome del suo substrato (la molecola su cui agisce) e aggiungendo il suffisso **-asi**:
 
-Il **nome sistematico** e' costituito da un prefisso (la radice del substrato) e dalla desinenza **-asi**, con indicazione del tipo di reazione catalizzata.
+| Enzima | Substrato | Cosa fa |
+|--------|-----------|---------|
+| **Amilasi** | Amido | Spezza l'amido in maltosio |
+| **Maltasi** | Maltosio | Spezza il maltosio in due molecole di glucosio |
+| **Lipasi** | Lipidi | Digerisce i grassi |
+| **Proteasi** | Proteine | Digerisce le proteine |
 
-### Cofattori enzimatici
+### I cofattori: gli "aiutanti" degli enzimi
 
-La maggior parte degli enzimi richiede l'intervento di **cofattori** per svolgere la catalisi. I cofattori sono ioni metallici o molecole organiche che attivano gli enzimi e si dividono in:
+Molti enzimi non lavorano da soli: hanno bisogno di **cofattori**, molecole che li aiutano a svolgere la catalisi.
 
-| Tipo | Cosa sono | Esempi |
-|------|-----------|--------|
-| **Attivatori** | Ioni metallici che si legano all'enzima | Fe²⁺, Cu²⁺, Mg²⁺, Zn²⁺ |
-| **Coenzimi** | Molecole organiche che funzionano da trasportatori di gruppi funzionali, protoni o elettroni | NAD⁺, FAD, CoA |
+| Tipo di cofattore | Cosa sono | Esempi |
+|-------------------|-----------|--------|
+| **Attivatori** | Ioni metallici | Fe²⁺, Cu²⁺, Mg²⁺, Zn²⁺ |
+| **Coenzimi** | Molecole organiche che trasportano gruppi chimici, protoni o elettroni | NAD⁺, FAD, Coenzima A (CoA) |
 
-!!! note "NAD⁺ e FAD"
-    Il **NAD⁺** (nicotinammide adenindinucleotide) e il **FAD** (flavin adenindinucleotide) sono coenzimi fondamentali nelle reazioni di **ossidoriduzione** del metabolismo energetico:
+!!! note "NAD⁺ e FAD: i trasportatori di idrogeno"
+    **NAD⁺** e **FAD** sono due coenzimi fondamentali che lavorano come "taxi per l'idrogeno": raccolgono atomi di idrogeno da una reazione e li portano a un'altra.
 
-    - Il NAD⁺ nella forma **ossidata** accetta due atomi di idrogeno → diventa **NADH** (forma ridotta)
-    - Il FAD nella forma **ossidata** accetta due atomi di idrogeno → diventa **FADH₂** (forma ridotta)
+    - NAD⁺ + 2H → **NADH** + H⁺ (forma ridotta)
+    - FAD + 2H → **FADH₂** (forma ridotta)
 
-    La proteina enzimatica non legata al cofattore si chiama **apoenzima** (inattiva). Il complesso cataliticamente attivo (apoenzima + cofattore) si chiama **oloenzima**.
+    Li ritroveremo dappertutto nel metabolismo energetico (glicolisi, ciclo di Krebs, catena respiratoria).
+
+    L'enzima **senza** il cofattore si chiama **apoenzima** (e' inattivo). L'enzima **con** il cofattore si chiama **oloenzima** (e' attivo e funzionante).
 
 ### L'energia di attivazione
 
-L'**energia di attivazione** (E~a~) e' il valore minimo di energia che le molecole dei reagenti devono avere per potersi trasformare nelle molecole dei prodotti. I reagenti devono superare una "barriera energetica" passando attraverso uno stato intermedio instabile chiamato **complesso attivato**.
+Perche' una reazione chimica avvenga, i reagenti devono superare una "barriera" di energia, come una palla che deve superare una collina prima di rotolare dall'altra parte. Questa barriera si chiama **energia di attivazione** (E~a~).
 
-!!! abstract "Reazioni esoergoniche ed endoergoniche"
-    - **Reazione esoergonica**: i prodotti hanno un'energia potenziale **minore** dei reagenti → si libera energia termica
-    - **Reazione endoergonica**: i prodotti hanno un'energia potenziale **maggiore** dei reagenti → si assorbe energia termica
+I reagenti passano attraverso uno stato intermedio instabile chiamato **complesso attivato** (in cima alla "collina"), che poi si trasforma nei prodotti.
 
-    Il **profilo di reazione** e' un diagramma che rappresenta la variazione di energia potenziale in funzione del tempo di reazione.
+!!! abstract "Reazioni esoergoniche e endoergoniche"
+    - **Esoergonica**: i prodotti hanno **meno** energia dei reagenti → si **libera** energia (come una palla che rotola in discesa)
+    - **Endoergonica**: i prodotti hanno **piu'** energia dei reagenti → si **assorbe** energia (come spingere una palla in salita)
 
-Il ruolo degli enzimi e' quello di **abbassare l'energia di attivazione** (E~a~) della reazione, permettendo alle molecole del substrato di superare piu' facilmente la barriera energetica e trasformarsi nei prodotti.
+**Cosa fanno gli enzimi?** Abbassano l'energia di attivazione! Non cambiano la "destinazione" della reazione (i prodotti sono gli stessi), ma rendono la "collina" piu' bassa, cosi' i reagenti la superano piu' facilmente e la reazione avviene molto piu' velocemente.
 
-### L'azione catalitica di un enzima
+### Come funziona un enzima: i tre stadi
 
-Il meccanismo di reazione catalizzata da un enzima comprende tre stadi:
+Il meccanismo di catalisi enzimatica si svolge in tre passaggi:
 
-1. **Formazione del complesso enzima-substrato (ES)**: l'enzima orienta il substrato per una corretta interazione e si combina con esso. I legami tra enzima e substrato sono **interazioni deboli** (legami a idrogeno, interazioni dipolari).
+1. **L'enzima incontra il substrato** → si forma il **complesso enzima-substrato (ES)**. Il substrato si lega al **sito attivo** dell'enzima (una "tasca" con la forma giusta). I legami sono deboli (a idrogeno, dipolari).
 
-2. **Formazione del complesso enzima-prodotto (EP)**: il substrato si trasforma nel prodotto, con un'energia di attivazione **minore** di quella che servirebbe senza l'enzima.
+2. **La reazione avviene** → il substrato si trasforma nel prodotto, con un'energia di attivazione molto piu' bassa del normale.
 
-3. **Distacco del prodotto**: il prodotto ha caratteristiche chimiche diverse dal substrato, si riduce l'affinita' con l'enzima e si ha il distacco dal sito attivo. L'enzima puo' cosi' catalizzare una **nuova reazione**.
+3. **Il prodotto si stacca** → il prodotto non ha piu' affinita' per il sito attivo e se ne va. L'enzima e' di nuovo libero e pronto per un altro giro!
 
-In sintesi: **E + S → ES → EP → E + P**
+In formula: **E + S → ES → EP → E + P**
 
-### Gli enzimi hanno un'elevata specificita'
+### La specificita' degli enzimi
 
-#### Specificita' di substrato
+#### Specificita' di substrato: la chiave e la serratura
 
-Il **sito attivo** e' una piccola regione dell'enzima dalla configurazione ben definita, entro la quale si trovano le catene laterali degli amminoacidi che partecipano alla catalisi.
+Ogni enzima riconosce e lega **un solo substrato** (o pochissimi substrati molto simili). Questo succede perche' il **sito attivo** dell'enzima ha una forma tridimensionale precisa che "combacia" solo con il suo substrato.
 
-La specificita' di un enzima dipende dalla configurazione spaziale del sito attivo, la cui conformazione consente il legame con un **unico substrato**. L'interazione tra enzima e substrato e' spiegata dal **modello dell'adattamento indotto**: il substrato induce un cambiamento conformazionale nell'enzima, che si adatta in modo complementare al substrato.
+Pero' non e' un incastro rigido come una chiave in una serratura: quando il substrato si avvicina, l'enzima **cambia leggermente forma** per adattarsi meglio a lui. Questo meccanismo si chiama **modello dell'adattamento indotto** (come un guanto che si adatta alla mano).
 
-#### Specificita' di reazione
+#### Specificita' di reazione: le sei classi
 
-La specificita' di un enzima e' legata anche al **tipo di reazione** catalizzata. Gli enzimi si classificano in **sei classi**:
+Ogni enzima catalizza **un solo tipo** di reazione chimica. In base al tipo di reazione, gli enzimi si dividono in sei classi:
 
-| Classe | Tipo di reazione |
-|--------|-----------------|
-| **Ossidoreduttasi** | Ossidazione e riduzione |
-| **Trasferasi** | Trasferimento di gruppi funzionali tra due molecole |
-| **Idrolasi** | Idrolisi (rottura di legami con aggiunta di acqua) |
-| **Liasi** | Rottura o formazione di un doppio legame |
-| **Isomerasi** | Trasferimento di atomi all'interno di una stessa molecola (isomerizzazione) |
-| **Ligasi** | Sintesi (unione di due molecole) |
+| Classe | Che reazione catalizza | Esempio |
+|--------|----------------------|---------|
+| **Ossidoreduttasi** | Ossidazione e riduzione | Alcol deidrogenasi |
+| **Trasferasi** | Trasferimento di un gruppo da una molecola all'altra | Chinasi |
+| **Idrolasi** | Rottura di un legame con aggiunta di acqua | Amilasi, lipasi |
+| **Liasi** | Rottura o formazione di un doppio legame | Decarbossilasi |
+| **Isomerasi** | Spostamento di atomi nella stessa molecola | Isomerasi |
+| **Ligasi** | Unione di due molecole | DNA ligasi |
 
-### L'attivita' enzimatica
+### L'attivita' enzimatica: cosa la influenza
 
-L'**attivita' enzimatica** (o attivita' catalitica) e' definita come la **quantita' di substrato che viene trasformato in prodotto nell'unita' di tempo**. Dipende da diversi fattori:
+L'**attivita' enzimatica** e' la quantita' di substrato trasformato in prodotto nell'unita' di tempo. Dipende da diversi fattori:
 
-#### Effetto della temperatura
+#### La temperatura
 
-La velocita' di reazione aumenta con la temperatura fino a raggiungere un massimo, detto **temperatura ottimale**. Oltre quel valore, la velocita' diminuisce drasticamente perche' i legami deboli della proteina si rompono → **denaturazione** dell'enzima.
+La velocita' di reazione **aumenta** con la temperatura (piu' calore = piu' energia = piu' collisioni tra molecole), ma solo fino a un certo punto. Oltre quel valore, la proteina si **denatura** (perde la sua forma) e l'enzima smette di funzionare.
 
-!!! tip "Temperatura ottimale"
-    Per gli enzimi delle nostre cellule, la temperatura ottimale e' di **37 °C** (la temperatura corporea). Per i batteri termofili che vivono nelle sorgenti termali, puo' arrivare a 80 °C.
+La temperatura alla quale l'enzima lavora al massimo si chiama **temperatura ottimale**:
 
-#### Effetto del pH
+- Per i nostri enzimi: **37 °C** (la temperatura del corpo)
+- Per i batteri che vivono nelle sorgenti termali: fino a **80 °C**
 
-Ogni enzima ha un **pH ottimale** al quale corrisponde la massima attivita' catalitica:
+#### Il pH
 
-| Enzima | pH ottimale |
-|--------|-------------|
-| Pepsina (stomaco) | 1,5 |
-| Maltasi | 6,0 |
-| Amilasi salivare | 6,7 |
-| Chimotripsina | 7,8 |
-| Lipasi | 8,0 |
+Ogni enzima ha un **pH ottimale**, cioe' il valore di pH al quale funziona meglio. Cambiare il pH altera la forma del sito attivo e riduce l'attivita'.
 
-#### Effetto della concentrazione dell'enzima e del substrato
+| Enzima | Dove lavora | pH ottimale |
+|--------|-----------|-------------|
+| **Pepsina** | Stomaco (molto acido) | 1,5 |
+| **Amilasi salivare** | Bocca | 6,7 |
+| **Chimotripsina** | Intestino | 7,8 |
+| **Lipasi** | Intestino | 8,0 |
 
-- **Concentrazione dell'enzima**: a parita' di substrato disponibile, all'aumentare della concentrazione dell'enzima aumenta l'attivita' catalitica (relazione lineare).
-- **Concentrazione del substrato**: all'aumentare della concentrazione del substrato, la velocita' di reazione aumenta fino a raggiungere un valore massimo (V~max~) e poi rimane costante. Questo andamento si chiama **curva di saturazione**: quando tutti i siti attivi degli enzimi sono occupati, l'enzima e' **saturo** e la velocita' non puo' piu' aumentare.
+#### La concentrazione dell'enzima e del substrato
+
+- Piu' enzima c'e', piu' veloce va la reazione (relazione **lineare**: il doppio di enzima = il doppio di velocita')
+- Piu' substrato c'e', piu' veloce va la reazione... **ma fino a un certo punto**: quando tutti i siti attivi sono occupati, l'enzima e' **saturo** e la velocita' non aumenta piu'. Il grafico che descrive questo andamento si chiama **curva di saturazione**
 
 ### La regolazione dell'attivita' enzimatica
 
-L'attivita' degli enzimi all'interno di una cellula puo' essere modulata per rispondere alle esigenze metaboliche. I principali meccanismi di regolazione sono gli **effettori allosterici** e gli **inibitori enzimatici**.
+Le cellule hanno bisogno di "accendere" o "spegnere" gli enzimi a seconda delle necessita'. Ci sono due meccanismi principali:
 
-#### Gli effettori allosterici
+#### Gli effettori allosterici: l'interruttore
 
-Gli **effettori allosterici** sono molecole che si legano in modo specifico, ma **non covalentemente**, all'enzima inducendo un cambiamento conformazionale:
+Gli **effettori allosterici** sono molecole che si legano all'enzima in un punto diverso dal sito attivo, facendogli cambiare forma:
 
-- **Effettori positivi**: aumentano la capacita' del sito attivo di legarsi al substrato → **aumentano** l'attivita'
-- **Effettori negativi**: diminuiscono la capacita' del sito attivo → **diminuiscono** l'attivita'
+- **Effettore positivo**: fa funzionare **meglio** l'enzima (come accendere un interruttore)
+- **Effettore negativo**: fa funzionare **peggio** l'enzima (come spegnerlo)
 
-Un enzima la cui attivita' e' stimolata o inibita dalla presenza di un effettore allosterico si chiama **enzima allosterico**. Gli effettori si legano in modo **reversibile** agli enzimi, costituendo un importante sistema di **controllo molecolare** delle vie metaboliche.
+Il legame e' **reversibile** (l'effettore puo' staccarsi), quindi la regolazione e' flessibile. Gli enzimi che funzionano cosi' si chiamano **enzimi allosterici** e sono fondamentali per regolare le vie metaboliche.
 
-#### Gli inibitori enzimatici
+#### Gli inibitori enzimatici: chi blocca gli enzimi
 
-Gli **inibitori enzimatici** sono molecole che interferiscono con l'attivita' catalitica degli enzimi, riducendola.
+Gli **inibitori** sono molecole che **riducono** l'attivita' di un enzima. Ne esistono tre tipi:
 
-| Tipo | Come agisce | Reversibile? |
-|------|-------------|-------------|
-| **Irreversibile** | Forma un legame **covalente** con gli amminoacidi del sito attivo, modificandolo permanentemente | No |
-| **Reversibile competitivo** | Ha una forma simile al substrato, si lega al **sito attivo** al posto del substrato con un legame non covalente | Si' |
-| **Reversibile non competitivo** | Si lega in un **sito diverso** dal sito attivo, causando un cambiamento conformazionale che impedisce il legame del substrato | Si' |
+| Tipo | Come agisce | Si puo' rimediare? |
+|------|-------------|-------------------|
+| **Irreversibile** | Si lega **in modo permanente** al sito attivo con un legame covalente, distruggendolo | **No**, l'enzima e' rovinato per sempre |
+| **Competitivo** (reversibile) | Ha una forma simile al substrato e si "siede" al **sito attivo** al suo posto, ma senza reagire | **Si'**, basta aggiungere piu' substrato per "scacciarlo" |
+| **Non competitivo** (reversibile) | Si lega in un **punto diverso** dal sito attivo, cambiando la forma dell'enzima cosi' che il substrato non riesce piu' a legarsi | **Si'**, quando l'inibitore si stacca l'enzima torna normale |
 
-!!! warning "Il DFP: un inibitore irreversibile pericoloso"
-    Il **diisopropil fluorofosfato (DFP)** e' un inibitore irreversibile che blocca l'enzima **acetilcolinesterasi**, responsabile della degradazione dell'acetilcolina nelle sinapsi colinergiche. Il blocco di questo enzima impedisce la trasmissione corretta degli impulsi nervosi. Il DFP e' stato usato come componente di **gas nervini**.
+!!! danger "Il DFP e i gas nervini"
+    Il **DFP** (diisopropil fluorofosfato) e' un inibitore **irreversibile** dell'enzima **acetilcolinesterasi**, che normalmente distrugge l'acetilcolina (un neurotrasmettitore) dopo che ha trasmesso il segnale nervoso. Se questo enzima viene bloccato, l'acetilcolina si accumula e i muscoli restano contratti → paralisi. Il DFP e' stato usato come componente dei **gas nervini**, armi chimiche terribili vietate dalle convenzioni internazionali.
 
 ---
 
@@ -694,9 +730,9 @@ Gli **inibitori enzimatici** sono molecole che interferiscono con l'attivita' ca
 
 ## Collegamenti
 
-- **Chimica organica**: i carboidrati sono poliidrossialdeidi o poliidrossichetoni — collegamento diretto con i gruppi funzionali studiati nei derivati degli idrocarburi (aldeidi, chetoni, alcoli, acidi carbossilici, esteri, ammidi); il legame peptidico e' un legame ammidico; i trigliceridi sono esteri del glicerolo
-- **Fisica**: le proprieta' ottiche dei monosaccaridi (rotazione del piano della luce polarizzata) si collegano all'ottica e alla natura ondulatoria della luce; le interazioni deboli che stabilizzano le proteine (legami a idrogeno, forze di van der Waals) si collegano all'elettrostatica
-- **Biologia**: il DNA e l'RNA contengono i pentosi desossiribosio e ribosio; l'emoglobina e' fondamentale per il trasporto dell'ossigeno; gli enzimi catalizzano tutte le reazioni metaboliche (glicolisi, ciclo di Krebs, catena respiratoria)
-- **Educazione civica e salute**: l'ipercolesterolemia e le malattie cardiovascolari; l'importanza di una dieta equilibrata (acidi grassi essenziali, vitamine); le intolleranze alimentari (galattosemia, intolleranza al lattosio); i gas nervini come armi chimiche e le convenzioni internazionali che li vietano
-- **Italiano/Filosofia**: il concetto di "struttura e funzione" nelle proteine richiama il rapporto forma-contenuto in letteratura e il concetto di finalismo in filosofia (Aristotele); la scoperta degli enzimi e della catalisi biologica rivoluziono' la visione meccanicistica della vita
-- **Storia**: la scoperta della struttura delle proteine (Pauling, anni '50) e del DNA (Watson e Crick, 1953) rappresentano tappe fondamentali della biologia molecolare del Novecento
+- **Chimica organica**: i carboidrati contengono i gruppi funzionali che abbiamo studiato (aldeidi, chetoni, alcoli); il legame peptidico e' un legame ammidico; i trigliceridi sono esteri del glicerolo; la saponificazione e' l'idrolisi basica degli esteri — tutti argomenti trattati nei derivati degli idrocarburi
+- **Fisica**: le proprieta' ottiche dei monosaccaridi (rotazione della luce polarizzata) si collegano all'ottica; le interazioni deboli che stabilizzano le proteine (legami a idrogeno, forze di van der Waals) si collegano all'elettrostatica
+- **Biologia**: il DNA e l'RNA contengono ribosio e desossiribosio; l'emoglobina trasporta l'ossigeno; gli enzimi catalizzano tutte le reazioni del metabolismo (glicolisi, ciclo di Krebs, catena respiratoria)
+- **Educazione civica e salute**: l'ipercolesterolemia e le malattie cardiovascolari; l'importanza di una dieta equilibrata (acidi grassi essenziali, vitamine); le intolleranze alimentari (galattosemia, intolleranza al lattosio); i gas nervini come armi chimiche vietate dalle convenzioni internazionali
+- **Italiano/Filosofia**: il concetto di "struttura e funzione" nelle proteine richiama il rapporto forma-contenuto in letteratura; la scoperta degli enzimi rivoluziono' la visione meccanicistica della vita
+- **Storia**: la scoperta della struttura delle proteine (Pauling, anni '50) e del DNA (Watson e Crick, 1953) sono tappe fondamentali della scienza del Novecento
