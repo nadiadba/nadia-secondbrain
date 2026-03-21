@@ -32,9 +32,7 @@ Il **16 novembre 1922** Mussolini pronuncio' alla Camera il celebre **"discorso 
 
 Mussolini adotto' da subito un **"doppio binario"**: sul piano legale, formo' un governo di coalizione con liberali e popolari, presentandosi come uomo di Stato; sul piano illegale, lo squadrismo continuo' con violenze e intimidazioni contro gli avversari. Il suo primo governo comprendeva esponenti liberali e popolari perche' aveva ancora bisogno di un ampio consenso, ma nel frattempo procedeva a costruire le strutture del potere fascista. Nel dicembre 1922 creo' il **Gran Consiglio del Fascismo**, un organo di partito che si affiancava al Consiglio dei ministri. Nel gennaio 1923 istitui' la **Milizia Volontaria per la Sicurezza Nazionale (MVSN)**, inquadrando le squadre d'azione in una forza al servizio del regime. Venne creata anche una polizia segreta di partito, la cosiddetta "Ceka fascista", con il compito di sorvegliare e intimidire gli avversari.
 
----
-
-## Il delitto Matteotti e la nascita della dittatura
+### Il delitto Matteotti e la svolta autoritaria
 
 Nel 1923 Mussolini fece approvare la **legge Acerbo**, una riforma elettorale che prevedeva un premio di maggioranza enorme: chi avesse conquistato almeno il 25% dei voti avrebbe ottenuto i due terzi dei seggi in Parlamento. Con questa legge truccata, nelle elezioni dell'**aprile 1924** il "listone" fascista — un blocco che comprendeva fascisti, liberali e cattolici moderati — ottenne il 65% dei voti. Ma il risultato fu raggiunto anche grazie a brogli e violenze sistematiche durante la campagna elettorale.
 
@@ -46,17 +44,49 @@ Le forze d'opposizione reagirono con la **"secessione dell'Aventino"**: il 27 gi
 
 Il **3 gennaio 1925** Mussolini pronuncio' alla Camera il discorso che segno' l'inizio ufficiale della dittatura: "Dichiaro qui, al cospetto di questa Assemblea e al cospetto di tutto il popolo italiano, che io assumo — io solo — la responsabilita' politica, morale, storica di tutto quanto e' avvenuto." Aggiunse: "Se il fascismo e' stato un'associazione a delinquere, io sono il capo di questa associazione a delinquere!" Con queste parole, Mussolini sfido' apertamente il Parlamento e il Paese, annunciando che non avrebbe fatto alcun passo indietro.
 
-### Le leggi fascistissime
+Nei giorni successivi la repressione fu immediata: giornali di opposizione imbavagliati, 35 circoli politici chiusi, 25 organizzazioni sciolte, 111 oppositori arrestati. La violenza contro gli avversari si scateno' con ferocia: Giovanni Amendola, capo dell'opposizione dopo Matteotti, fu aggredito e mori' in Francia nel 1926; Don Giovanni Minzoni, parroco di Argenta che si opponeva al fascismo e sottraeva i giovani all'Opera Balilla con lo scoutismo, fu ucciso a bastonate dagli squadristi di Italo Balbo il 23 agosto 1923. Filippo Turati e Gaetano Salvemini furono costretti all'esilio.
 
-Nei giorni successivi al discorso, la repressione fu immediata: giornali di opposizione imbavagliati, 35 circoli politici chiusi, 25 organizzazioni sciolte, 111 oppositori arrestati. La violenza contro gli avversari si scateno' con ferocia: Giovanni Amendola, capo dell'opposizione dopo Matteotti, fu aggredito e mori' in Francia nel 1926; Don Giovanni Minzoni, parroco di Argenta che si opponeva al fascismo e sottraeva i giovani all'Opera Balilla con lo scoutismo, fu ucciso a bastonate dagli squadristi di Italo Balbo il 23 agosto 1923. Filippo Turati e Gaetano Salvemini furono costretti all'esilio.
+---
 
-Tra il **1925 e il 1926** furono emanate le cosiddette **"leggi fascistissime"**, ideate dal ministro della Giustizia Alfredo Rocco, che smantellarono definitivamente lo Stato liberale. Il potere fu accentrato nelle mani del Capo del governo — cioe' il Presidente del Consiglio — che divenne responsabile del proprio operato solo davanti al re e non piu' davanti al Parlamento. Mussolini poteva emanare le leggi: cessava cosi' la separazione tra potere esecutivo e potere legislativo. Furono soppressi tutti i partiti tranne il PNF, proibita la liberta' di stampa, abolite le elezioni locali — nei comuni un podesta' fascista sostitui' i sindaci — e istituito il **Tribunale speciale per la difesa dello Stato**, incaricato di giudicare i reati politici. Fu creata l'**OVRA** (forse acronimo di Opera per la Vigilanza e la Repressione dell'Antifascismo), la polizia segreta del regime, e introdotto il **confino di polizia**: gli oppositori venivano mandati in isolamento in piccoli paesi o isole. Il Tribunale speciale, nel corso della dittatura, commino' 27.000 anni di carcere.
+## La crisi del 1929
 
-Nel **1929** si svolsero nuove elezioni con una legge che permetteva solo di approvare o respingere una lista unica stilata dal Gran Consiglio. Il risultato fu un plebiscito: i 120 deputati d'opposizione che avevano partecipato alla secessione dell'Aventino furono dichiarati decaduti. L'Italia era ormai uno Stato a partito unico.
+### L'illusione americana
+
+Mentre in Italia Mussolini consolidava il suo potere, dall'altra parte dell'Atlantico si preparava una catastrofe economica destinata a sconvolgere il mondo intero. Negli Stati Uniti, dopo la Prima guerra mondiale, si era aperta una stagione di straordinaria prosperita': la produzione industriale aumento' del 64%, le nuove tecniche pubblicitarie e la possibilita' di acquistare a rate alimentarono un **consumo di massa** senza precedenti. L'automobile, il frigorifero, la radio entravano nelle case degli americani. I presidenti repubblicani Harding, Coolidge e Hoover seguivano il dogma liberista: lo Stato non doveva intromettersi nell'economia, ma limitarsi a rimuovere gli ostacoli al libero gioco del mercato. Hoover, nel discorso di accettazione della candidatura, arrivo' a dichiarare: "Siamo vicini in America, oggi, al trionfo finale sulla poverta', come mai era accaduto prima nella storia di qualsiasi Paese."
+
+Ma la crescita era piu' fragile di quanto apparisse. L'aumento del reddito coinvolgeva solo una parte della popolazione: il 5% degli statunitensi possedeva un terzo del reddito nazionale, mentre il 71% della popolazione aveva appena lo stretto necessario. Il mercato non era in grado di assorbire tutta la produzione industriale. Intanto, investire in borsa era diventato un fenomeno di massa: tra il 1927 e il 1929 il valore delle azioni raddoppio'. I risparmiatori, spinti dai brokers, compravano azioni per rivenderle poco dopo incassando la differenza, senza preoccuparsi della qualita' dei titoli. Il valore delle azioni era gonfiato artificiosamente, in una bolla speculativa che sembrava inarrestabile.
+
+### Il crollo di Wall Street
+
+Il **24 ottobre 1929**, il "giovedi' nero", la bolla scoppio'. Milioni di azioni furono vendute con un ribasso inarrestabile delle quotazioni. I guadagni di anni scomparvero in poche ore, mandando sul lastrico piccoli e grandi risparmiatori. Il panico si diffuse: la gente si precipito' nelle banche nel tentativo di salvare i propri depositi, ma molte banche non avevano liquidita' sufficiente e fallirono, trascinando nella crisi le industrie nelle quali avevano investito. La produzione calo' del 50% tra il 1929 e il 1932. La disoccupazione raggiunse i **12 milioni** negli Stati Uniti.
+
+La crisi si propago' rapidamente in tutto il mondo, colpendo per primi i Paesi che dipendevano dagli aiuti economici americani — in particolare la Germania, che si era ripresa grazie ai prestiti del Piano Dawes, e l'Austria. L'ondata di disoccupazione fu terribile: 6 milioni in Germania, 3 in Gran Bretagna. Solo l'Unione Sovietica, impegnata nel primo piano quinquennale, e il Giappone restarono immuni.
+
+Il presidente **Hoover** si rivelo' incapace di affrontare la situazione. Fedele alla tradizione liberista, confidava nella capacita' del mercato di rialzarsi da solo. Solo nel 1931-32, dopo due anni di crisi, autorizzo' misure piu' incisive, ma non bastarono. La disoccupazione arrivo' al 20%, migliaia di banche fallirono, e molta gente fini' a vivere nelle bidonville che la gente chiamo' "hooverville", per disprezzo verso il presidente.
+
+### Roosevelt e il New Deal
+
+Alle presidenziali del **1933** il democratico **Franklin Delano Roosevelt** promise di dare un "new deal", un nuovo corso, all'economia. La situazione era drammatica: il giorno dell'insediamento, il 4 marzo, la maggior parte degli Stati aveva chiuso le banche a tempo indeterminato. Roosevelt dichiaro': "Se c'e' qualcosa da temere, e' la paura stessa, il terrore sconosciuto, immotivato e ingiustificato che paralizza."
+
+Il New Deal si ispirava alle teorie dell'economista britannico **John Maynard Keynes**, che aveva teorizzato la necessita' di un intervento massiccio dello Stato per risollevare l'economia, in opposizione ai principi liberisti classici. Lo Stato non doveva piu' limitarsi a osservare: doveva diventare il motore dell'economia, creando occupazione attraverso la realizzazione di grandi opere pubbliche.
+
+In cento giorni Roosevelt spinse il Congresso ad approvare una serie di provvedimenti: furono stanziati 500 milioni di dollari per impiegare i disoccupati in lavori pubblici, un'agenzia di elettrificazione porto' l'energia elettrica in tutti gli Stati Uniti, l'Agricultural Adjustment Act aiuto' gli agricoltori. Le banche commerciali furono separate da quelle d'investimento, i risparmi garantiti fino a 5000 dollari, e fu istituita una commissione di controllo sulle operazioni di borsa. Con i suoi messaggi radiofonici — le "chiacchiere al caminetto" — Roosevelt riusci' a restituire fiducia alla popolazione. La gente gli credette e il collasso del sistema bancario fu evitato.
+
+Il **"secondo New Deal"**, a partire dal 1935, introdusse riforme ancora piu' ambiziose: il Social Security Act creo' un sistema di protezione sociale con contributi di disoccupazione, vecchiaia e disabilita'. Nacque il concetto di **welfare state**: lo Stato garantiva diritti fondamentali come l'assistenza in caso di disoccupazione o malattia. Fu riformato il sistema fiscale aumentando le imposte sui redditi elevati, scatenando le critiche dei conservatori che Roosevelt defini' "monarchici dell'economia".
+
+Il New Deal non produsse una piena ripresa economica — i disoccupati scesero da 12 a 7 milioni nel 1937 ma risalirono a 10 nel 1938 — e solo la Seconda guerra mondiale riusci' ad assorbire definitivamente la disoccupazione. Ma il New Deal cambio' per sempre il ruolo dello Stato nell'economia e getto' le basi del modello sociale che avrebbe dominato il secondo Novecento. E soprattutto, dimostro' che la democrazia poteva rispondere alla crisi con strumenti democratici — un'alternativa ai regimi totalitari che stavano emergendo in Europa.
 
 ---
 
 ## Il regime fascista
+
+### Le leggi fascistissime e la costruzione della dittatura
+
+La crisi del 1929 non colpi' solo l'America: le sue conseguenze si fecero sentire anche in Italia, influenzando profondamente la politica economica del regime. Ma per comprendere come l'Italia fascista affronto' la crisi, bisogna prima vedere come Mussolini completo' la costruzione della dittatura.
+
+Tra il **1925 e il 1926** furono emanate le cosiddette **"leggi fascistissime"**, ideate dal ministro della Giustizia Alfredo Rocco, che smantellarono definitivamente lo Stato liberale. Il potere fu accentrato nelle mani del Capo del governo — cioe' il Presidente del Consiglio — che divenne responsabile del proprio operato solo davanti al re e non piu' davanti al Parlamento. Mussolini poteva emanare le leggi: cessava cosi' la separazione tra potere esecutivo e potere legislativo. Furono soppressi tutti i partiti tranne il PNF, proibita la liberta' di stampa, abolite le elezioni locali — nei comuni un podesta' fascista sostitui' i sindaci — e istituito il **Tribunale speciale per la difesa dello Stato**, incaricato di giudicare i reati politici. Fu creata l'**OVRA** (forse acronimo di Opera per la Vigilanza e la Repressione dell'Antifascismo), la polizia segreta del regime, e introdotto il **confino di polizia**: gli oppositori venivano mandati in isolamento in piccoli paesi o isole. Il Tribunale speciale, nel corso della dittatura, commino' 27.000 anni di carcere.
+
+Nel **1929** si svolsero nuove elezioni con una legge che permetteva solo di approvare o respingere una lista unica stilata dal Gran Consiglio. Il risultato fu un plebiscito: i 120 deputati d'opposizione che avevano partecipato alla secessione dell'Aventino furono dichiarati decaduti. L'Italia era ormai uno Stato a partito unico.
 
 ### I Patti Lateranensi
 
@@ -101,36 +131,6 @@ Nonostante la repressione, l'opposizione al fascismo non si spense mai. Il filos
 Molti antifascisti scelsero l'esilio — il cosiddetto "fuoriuscitismo". A Parigi, nel 1929, **Carlo Rosselli** ed **Emilio Lussu** fondarono il movimento **"Giustizia e Liberta'"**, che propugnava un'azione rivoluzionaria per abbattere il regime. Nel 1927 era nata la **Concentrazione antifascista**, che riuni' diverse forze dell'opposizione in esilio.
 
 Il **Partito Comunista** di Gramsci fu l'unico a mantenere un'organizzazione clandestina in Italia, nonostante la durissima repressione. Gramsci fu arrestato nel 1926 e condannato a vent'anni di carcere. Al processo, il pubblico ministero disse: "Dobbiamo impedire a questo cervello di funzionare per vent'anni." Gramsci mori' nel 1937, pochi giorni dopo essere stato scarcerato per le gravi condizioni di salute. Nel 1917 aveva scritto parole che restano attuali: "Odio gli indifferenti. Credo che vivere vuol dire essere partigiani. Chi vive veramente non puo' non essere cittadino, e parteggiare. Indifferenza e' abulia, e' parassitismo, e' vigliaccheria, non e' vita."
-
----
-
-## La crisi del 1929
-
-### L'illusione americana
-
-Per comprendere l'ascesa del nazismo in Germania bisogna partire dalla crisi economica che sconvolse il mondo alla fine degli anni Venti. Negli Stati Uniti, dopo la Prima guerra mondiale, si era aperta una stagione di straordinaria prosperita': la produzione industriale aumento' del 64%, le nuove tecniche pubblicitarie e la possibilita' di acquistare a rate alimentarono un **consumo di massa** senza precedenti. L'automobile, il frigorifero, la radio entravano nelle case degli americani. I presidenti repubblicani Harding, Coolidge e Hoover seguivano il dogma liberista: lo Stato non doveva intromettersi nell'economia, ma limitarsi a rimuovere gli ostacoli al libero gioco del mercato. Hoover, nel discorso di accettazione della candidatura, arrivo' a dichiarare: "Siamo vicini in America, oggi, al trionfo finale sulla poverta', come mai era accaduto prima nella storia di qualsiasi Paese."
-
-Ma la crescita era piu' fragile di quanto apparisse. L'aumento del reddito coinvolgeva solo una parte della popolazione: il 5% degli statunitensi possedeva un terzo del reddito nazionale, mentre il 71% della popolazione aveva appena lo stretto necessario. Il mercato non era in grado di assorbire tutta la produzione industriale. Intanto, investire in borsa era diventato un fenomeno di massa: tra il 1927 e il 1929 il valore delle azioni raddoppio'. I risparmiatori, spinti dai brokers, compravano azioni per rivenderle poco dopo incassando la differenza, senza preoccuparsi della qualita' dei titoli. Il valore delle azioni era gonfiato artificiosamente, in una bolla speculativa che sembrava inarrestabile.
-
-### Il crollo di Wall Street
-
-Il **24 ottobre 1929**, il "giovedi' nero", la bolla scoppio'. Milioni di azioni furono vendute con un ribasso inarrestabile delle quotazioni. I guadagni di anni scomparvero in poche ore, mandando sul lastrico piccoli e grandi risparmiatori. Il panico si diffuse: la gente si precipito' nelle banche nel tentativo di salvare i propri depositi, ma molte banche non avevano liquidita' sufficiente e fallirono, trascinando nella crisi le industrie nelle quali avevano investito. La produzione calo' del 50% tra il 1929 e il 1932. La disoccupazione raggiunse i **12 milioni** negli Stati Uniti.
-
-La crisi si propago' rapidamente in tutto il mondo, colpendo per primi i Paesi che dipendevano dagli aiuti economici americani — in particolare la Germania, che si era ripresa grazie ai prestiti del Piano Dawes, e l'Austria. L'ondata di disoccupazione fu terribile: 6 milioni in Germania, 3 in Gran Bretagna. Solo l'Unione Sovietica, impegnata nel primo piano quinquennale, e il Giappone restarono immuni.
-
-Il presidente **Hoover** si rivelo' incapace di affrontare la situazione. Fedele alla tradizione liberista, confidava nella capacita' del mercato di rialzarsi da solo. Solo nel 1931-32, dopo due anni di crisi, autorizzo' misure piu' incisive, ma non bastarono. La disoccupazione arrivo' al 20%, migliaia di banche fallirono, e molta gente finì a vivere nelle bidonville che la gente chiamo' "hooverville", per disprezzo verso il presidente.
-
-### Roosevelt e il New Deal
-
-Alle presidenziali del **1933** il democratico **Franklin Delano Roosevelt** promise di dare un "new deal", un nuovo corso, all'economia. La situazione era drammatica: il giorno dell'insediamento, il 4 marzo, la maggior parte degli Stati aveva chiuso le banche a tempo indeterminato. Roosevelt dichiaro': "Se c'e' qualcosa da temere, e' la paura stessa, il terrore sconosciuto, immotivato e ingiustificato che paralizza."
-
-Il New Deal si ispirava alle teorie dell'economista britannico **John Maynard Keynes**, che aveva teorizzato la necessita' di un intervento massiccio dello Stato per risollevare l'economia, in opposizione ai principi liberisti classici. Lo Stato non doveva piu' limitarsi a osservare: doveva diventare il motore dell'economia, creando occupazione attraverso la realizzazione di grandi opere pubbliche.
-
-In cento giorni Roosevelt spinse il Congresso ad approvare una serie di provvedimenti: furono stanziati 500 milioni di dollari per impiegare i disoccupati in lavori pubblici, un'agenzia di elettrificazione porto' l'energia elettrica in tutti gli Stati Uniti, l'Agricultural Adjustment Act aiuto' gli agricoltori. Le banche commerciali furono separate da quelle d'investimento, i risparmi garantiti fino a 5000 dollari, e fu istituita una commissione di controllo sulle operazioni di borsa. Con i suoi messaggi radiofonici — le "chiacchiere al caminetto" — Roosevelt riusci' a restituire fiducia alla popolazione. La gente gli credette e il collasso del sistema bancario fu evitato.
-
-Il **"secondo New Deal"**, a partire dal 1935, introdusse riforme ancora piu' ambiziose: il Social Security Act creo' un sistema di protezione sociale con contributi di disoccupazione, vecchiaia e disabilita'. Nacque il concetto di **welfare state**: lo Stato garantiva diritti fondamentali come l'assistenza in caso di disoccupazione o malattia. Fu riformato il sistema fiscale aumentando le imposte sui redditi elevati, scatenando le critiche dei conservatori che Roosevelt defini' "monarchici dell'economia".
-
-Il New Deal non produsse una piena ripresa economica — i disoccupati scesero da 12 a 7 milioni nel 1937 ma risalirono a 10 nel 1938 — e solo la Seconda guerra mondiale riusci' ad assorbire definitivamente la disoccupazione. Ma il New Deal cambio' per sempre il ruolo dello Stato nell'economia e getto' le basi del modello sociale che avrebbe dominato il secondo Novecento. E soprattutto, dimostro' che la democrazia poteva rispondere alla crisi con strumenti democratici — un'alternativa ai regimi totalitari che stavano emergendo in Europa.
 
 ---
 
@@ -190,7 +190,7 @@ Un mese dopo, alla morte di Hindenburg nell'agosto 1934, Hitler assunse anche la
 
 Il nazismo fu un regime totalitario in senso pieno, molto piu' del fascismo italiano. Hitler creo' uno "Stato totale", in grado di controllare in modo capillare ogni aspetto della vita dei cittadini.
 
-**Joseph Goebbels**, ministro della Propaganda dal 1933, fu l'artefice di questo sistema. Thomas Mann lo defini' "uno storpio nel corpo e nell'animo, che mirava a elevare la menzogna a divinita', sovrana del mondo". Goebbels assunse il controllo di tutta l'informazione e la vita culturale: stampa, cinema, teatro, radio, sport. Applicava un metodo di persuasione basato sulla ripetizione ossessiva: "Ripetete una bugia mille volte e diventera' vera." Rimangono tristemente famosi i **roghi di libri** del maggio 1933, quando Goebbels istig' gli studenti a saccheggiare le biblioteche e a bruciare in piazza le opere di autori ebrei, comunisti e pacifisti.
+**Joseph Goebbels**, ministro della Propaganda dal 1933, fu l'artefice di questo sistema. Thomas Mann lo defini' "uno storpio nel corpo e nell'animo, che mirava a elevare la menzogna a divinita', sovrana del mondo". Goebbels assunse il controllo di tutta l'informazione e la vita culturale: stampa, cinema, teatro, radio, sport. Applicava un metodo di persuasione basato sulla ripetizione ossessiva: "Ripetete una bugia mille volte e diventera' vera." Rimangono tristemente famosi i **roghi di libri** del maggio 1933, quando Goebbels istigo' gli studenti a saccheggiare le biblioteche e a bruciare in piazza le opere di autori ebrei, comunisti e pacifisti.
 
 La regista **Leni Riefenstahl**, amica personale di Hitler, creo' film e documentari che esaltavano il regime. *Il trionfo della volonta'* — titolo scelto dallo stesso Hitler — fu un classico della propaganda cinematografica per l'efficacia nel glorificare la figura del Fuhrer come nuovo messia del popolo tedesco.
 
@@ -214,7 +214,7 @@ Hitler lancio' un vasto programma di **riarmo militare** segreto, violando apert
 
 La politica estera segui' un piano di espansione aggressivo: nel 1935 fu reintrodotta la coscrizione obbligatoria; nel 1936 la Renania fu rimilitarizzata; nello stesso anno nacque l'Asse Roma-Berlino con l'Italia e la Conferenza di Ginevra segno' il crescente isolamento delle democrazie. Nel **1938** Hitler procedette all'**Anschluss**, l'annessione dell'Austria, e poi all'annessione dei Sudeti con la Conferenza di Monaco, dove Francia e Gran Bretagna cedettero alle richieste tedesche sperando di evitare la guerra — la politica dell'*appeasement* che si rivelo' un fallimento. La Germania usci' dalla Societa' delle Nazioni.
 
-Nel 1939 Hitler occupo' la Cecoslovacchia e strinse il **Patto Molotov-Ribbentrop** con l'URSS, un patto di non aggressione che stupì il mondo intero. Il **1 settembre 1939** le truppe tedesche invasero la Polonia: era l'inizio della **Seconda guerra mondiale**.
+Nel 1939 Hitler occupo' la Cecoslovacchia e strinse il **Patto Molotov-Ribbentrop** con l'URSS, un patto di non aggressione che stupi' il mondo intero. Il **1 settembre 1939** le truppe tedesche invasero la Polonia: era l'inizio della **Seconda guerra mondiale**.
 
 ---
 
@@ -222,10 +222,10 @@ Nel 1939 Hitler occupo' la Cecoslovacchia e strinse il **Patto Molotov-Ribbentro
 
 - [x] L'Italia dal dopoguerra all'ascesa del fascismo
 - [x] I Fasci, lo squadrismo, la marcia su Roma
-- [x] Il delitto Matteotti e le leggi fascistissime
-- [x] Il regime fascista: Patti Lateranensi, consenso, economia
-- [x] Guerra d'Etiopia, leggi razziali, antifascismo
+- [x] Il delitto Matteotti e la svolta autoritaria
 - [x] La crisi del 1929 e il New Deal
+- [x] Il regime fascista: leggi fascistissime, Patti Lateranensi, consenso, economia
+- [x] Guerra d'Etiopia, leggi razziali, antifascismo
 - [x] Le origini del nazismo e il *Mein Kampf*
 - [x] Hitler al potere e lo smantellamento della democrazia
 - [x] Il totalitarismo nazista e la propaganda
