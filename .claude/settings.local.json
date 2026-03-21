@@ -3,7 +3,9 @@
     "allow": [
       "Bash(git add:*)",
       "Bash(git:*)",
-      "Bash(gh run:*)"
+      "Bash(gh run:*)",
+      "Bash(where pdftoppm:*)",
+      "Read(//c/Users/Nadia/AppData/**)"
     ]
   }
 }
