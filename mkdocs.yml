@@ -167,6 +167,10 @@ nav:
     - arte/avanguardie.md
     - arte/razionalismo.md
     - arte/arte-contemporanea.md
+  - Latino:
+    - latino/index.md
+    - latino/seneca.md
+    - latino/lucano.md
   - Ed. civica:
     - educazione-civica/index.md
     - educazione-civica/costituzione.md
