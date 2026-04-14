@@ -56,8 +56,8 @@ Joyce shows that Eveline is trapped between two forces: her desire for a new lif
 
 ## Collegamenti
 
-- **Italiano**: la paralisi e l'incapacita' di agire richiamano gli "inetti" di Italo Svevo (*La coscienza di Zeno*), che Joyce conobbe a Trieste e a cui presento' la psicoanalisi
+- **Italiano**: la paralisi e l'incapacità di agire richiamano gli "inetti" di Italo Svevo (*La coscienza di Zeno*), che Joyce conobbe a Trieste e a cui presentò la psicoanalisi
 - **Storia**: l'Irlanda tra Ottocento e Novecento — Home Rule, Parnell, Easter Rising 1916, emigrazione
-- **Filosofia**: paralisi della volonta' e liberta' di scelta — collegamento con l'esistenzialismo e la "cattiva fede" di Sartre
+- **Filosofia**: paralisi della volontà e libertà di scelta — collegamento con l'esistenzialismo e la "cattiva fede" di Sartre
 - **Arte**: il Realismo nella descrizione degli ambienti dublinesi
 - **Scienze**: Joyce e la psicoanalisi, il ruolo dell'inconscio nelle decisioni dei personaggi

@@ -50,8 +50,8 @@ Woolf's final message is clear: women must prepare the way, so that one day a fe
 
 ## Collegamenti
 
-- **Italiano**: la condizione della donna e la ricerca di identita' — collegamento con i personaggi femminili di Pirandello e Svevo
+- **Italiano**: la condizione della donna e la ricerca di identità — collegamento con i personaggi femminili di Pirandello e Svevo
 - **Storia**: il movimento delle suffragette in Inghilterra, il ruolo delle donne durante la Prima e la Seconda guerra mondiale
 - **Filosofia**: la coscienza e il tempo interiore — collegamento con Bergson e il concetto di durata (*duree*), e con Freud e l'inconscio
 - **Arte**: la sorella Vanessa Bell e il gruppo di Bloomsbury, il rapporto tra arte visiva e letteratura nel Modernismo
-- **Scienze**: il disturbo bipolare e la salute mentale, il rapporto tra creativita' e malattia psichica
+- **Scienze**: il disturbo bipolare e la salute mentale, il rapporto tra creatività e malattia psichica
