@@ -14,8 +14,6 @@ Investire in borsa era diventato un fenomeno di massa: sempre più persone compr
 
 Il 24 ottobre 1929 — il "giovedì nero" — la bolla scoppiò. La borsa di Wall Street crollò: milioni di azioni furono vendute in preda al panico, le quotazioni precipitarono e i guadagni di anni scomparvero in poche ore. I titoli continuarono a scendere fino al 1932: le azioni della United States Steel passarono da 250 dollari a 22, quelle della Chrysler da 135 a 5. Non furono soltanto i grandi capitalisti a finire in rovina, ma anche i piccoli risparmiatori. La caduta della borsa colpì soprattutto la media borghesia, facendo crollare la domanda di beni di consumo.
 
-## Dalla borsa all'economia reale
-
 La chiusura delle banche causò la contrazione del credito: tra il 1929 e il 1933 fallirono 5.000 banche, trascinando nella crisi le imprese in cui avevano investito. Fallirono anche 100.000 imprese che non potevano più godere dei finanziamenti bancari. La crisi colpì anche l'agricoltura: i contadini, guadagnando sempre meno dalla vendita, si indebitarono con le banche e molti furono espropriati delle loro terre. Alcuni produttori, tentando disperatamente di frenare il crollo dei prezzi, arrivarono a distruggere i raccolti. La produzione industriale scese del 50% tra il 1929 e il 1932, e la disoccupazione raggiunse livelli altissimi: il 25% della popolazione rimase senza lavoro (13-15 milioni di persone). L'economia si era avvitata in un meccanismo perverso nel quale la crisi generava sempre nuova e più profonda crisi.
 
 ---
@@ -32,11 +30,9 @@ Le conseguenze in America Latina furono drammatiche: le economie basate sulla ve
 
 ---
 
-## Hoover e il fallimento del liberismo
+## Dal fallimento di Hoover al primo New Deal
 
 I provvedimenti del presidente Hoover non furono all'altezza della situazione: seguendo la tradizione liberista, non prevedevano l'intervento diretto dello Stato nell'economia e confidavano nella capacità del mercato di rialzarsi da solo, affidandosi al "volontarismo" del mondo imprenditoriale. Solo nel 1931-32, dopo due anni di crisi, Hoover autorizzò misure più incisive — come la creazione di un ente per erogare prestiti alle banche — ma erano rivolte solo alle grandi istituzioni finanziarie, non ai cittadini rimasti senza lavoro. La disoccupazione arrivò al 20%, migliaia di banche fallirono, molta gente si ridusse a vivere nelle baraccopoli, che i cittadini chiamavano per disprezzo "hooverville".
-
-## Roosevelt e il primo New Deal
 
 Alle elezioni del 1932 il democratico Franklin Delano Roosevelt promise di dare un "new deal" — un nuovo patto — all'economia. I due candidati si scontrarono sulla diagnosi della crisi: Hoover sosteneva che proveniva dall'Europa e che il sistema americano era sano; Roosevelt ribaltava l'analisi, attribuendo la responsabilità all'assenza di controlli pubblici che aveva incoraggiato la speculazione. La situazione era drammatica: il 4 marzo 1933, giorno del suo insediamento, la maggior parte degli Stati aveva chiuso le banche a tempo indeterminato per evitare il collasso del sistema bancario.
 
@@ -88,8 +84,6 @@ Ma Hitler vi trovò la sua vocazione: cominciò a prendere parte a tempo pieno a
 
 A caratterizzare ideologicamente il nazionalsocialismo era una dottrina che univa motivi nazionalistici — innanzitutto la riscossa della Germania dopo l'umiliazione di Versailles — a elementi anticapitalistici e socialisti (come il controllo dello Stato sulla società e la statalizzazione delle industrie) e a motivi fortemente razzisti e antisemiti, con richiami al darwinismo sociale. I nemici politici interni erano due: da un lato le forze della sinistra (socialdemocratici e comunisti), dall'altro il liberalismo, colpevole di indebolire la compattezza della nazione.
 
-## Il Putsch di Monaco
-
 L'8 novembre 1923 Hitler tentò un colpo di Stato — il Putsch di Monaco — cercando di imitare la marcia su Roma di Mussolini. I nazisti marciarono da una birreria fino al Ministero della Guerra, ma il tentativo fallì e Hitler fu arrestato e processato per alto tradimento. Fu condannato a 5 anni di carcere, ma il processo gli diede enorme visibilità. In carcere lesse l'opera di Henry Ford, *L'ebreo internazionale*, e scrisse il Mein Kampf ("La mia battaglia"), pubblicato in due volumi nel 1925 e nel 1926. Considerato innocuo, fu rilasciato dopo soli 9 mesi.
 
 ---
@@ -139,8 +133,6 @@ Eliminate le opposizioni esterne, fu la volta delle epurazioni interne. Ernst R�
 
 Un mese dopo, alla morte di Hindenburg il 2 agosto 1934, Hitler poté assumere il totale controllo dello Stato tedesco. Fece emanare un decreto che sanciva la concentrazione di tutte le cariche nella persona del Führer (letteralmente "conduttore", equivalente al "duce" italiano), concentrando su di sé tutti i poteri secondo il Führerprinzip, il principio della supremazia assoluta del capo. Un plebiscito confermò la decisione: il 90% dell'elettorato, circa 38 milioni di cittadini, votò a favore. Al congresso annuale del partito, a Norimberga, Hitler annunciò la nascita del Terzo Reich — un nuovo "Impero" che si poneva come successore del medievale Sacro Romano Impero (962-1806) e dell'Impero tedesco di Guglielmo I (1871-1918) — destinato nelle sue intenzioni a durare mille anni.
 
-## La struttura del Terzo Reich
-
 Nel nuovo regime il Parlamento non aveva più alcun potere: prima dello scoppio della Seconda guerra mondiale si riunì soltanto 12 volte. Era il partito a tenere le redini dell'iniziativa legislativa, promulgando decreti che con l'approvazione del Führer diventavano automaticamente leggi. Il sistema giudiziario fu piegato al regime: fu abolito il principio dell'indipendenza della magistratura, fu creata la Corte del Popolo (le cui sentenze erano inappellabili) e il Tribunale speciale per i crimini politici. L'apparato repressivo fu affidato alla Gestapo (Geheime Staatspolizei, "polizia segreta di Stato"): fondata da Göring nel 1933, passò sotto il controllo delle SS nel 1934 e fu dotata di compiti di investigazione politica, rastrellamento e repressione degli oppositori. Era autorizzata a ogni tipo di trattamento nei confronti dei prigionieri, inclusa la tortura, e con un provvedimento del 1936 fu posta di fatto al di sopra della legge.
 
 ---
@@ -160,8 +152,6 @@ Strumento privilegiato per inculcare i valori nazisti furono le organizzazioni d
 Per disciplinare il tempo libero dei lavoratori, dal 1933 il Fronte tedesco del lavoro venne affiancato dalla "Forza attraverso la gioia" (Kraft durch Freude), un'associazione che doveva instillare nei tedeschi l'orgoglio di essere un gruppo sociale privilegiato attraverso l'organizzazione di concerti, mostre, gite e vacanze.
 
 Grande importanza ebbero le adunate di massa, manifestazioni studiate nei minimi dettagli scenografici — fiaccole, foreste di bandiere con la croce uncinata, aquile imperiali — e regolate da precisi cerimoniali. In tali occasioni Hitler agiva come un vero e proprio attore, rivolgendo alle masse discorsi meticolosamente costruiti, con immagini estremamente semplici, concrete e ripetute più volte, tali da creare una forte tensione emotiva e una totale identificazione con il capo carismatico.
-
-## Le Chiese e i campi di concentramento
 
 Per quanto riguarda i rapporti con le Chiese, nel luglio 1933 fu stipulato un Concordato tra la Santa Sede e il governo hitleriano, che garantiva il rispetto della libertà di culto e la non interferenza del regime negli affari della Chiesa. All'interno del protestantesimo si sviluppò fin dal 1932 il movimento dei "Cristiani tedeschi", che intendeva saldare motivi religiosi e nazionalsocialisti. Le confessioni e le personalità religiose che non si allinearono furono perseguitate e, non di rado, eliminate fisicamente. Fin dal 1933 furono istituiti campi di concentramento (Lager), dal 1936 affidati alla supervisione delle SS, per rinchiudere dissidenti politici e religiosi, ebrei, rom e sinti, e i cosiddetti "asociali" (omosessuali, malati di mente, delinquenti comuni).
 
