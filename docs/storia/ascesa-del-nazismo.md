@@ -8,9 +8,13 @@ Negli anni Venti, i cosiddetti "anni ruggenti", l'economia americana aveva raggi
 
 Sembrava un circolo virtuoso: l'alta produttività permetteva di mantenere bassi i prezzi, il che favoriva gli acquisti e incrementava i profitti. In realtà questa crescita era illusoria. L'aumento del reddito riguardava solo una parte della popolazione: il 5% degli statunitensi possedeva un terzo del reddito nazionale, mentre il 71% aveva appena lo stretto necessario per vivere e non era in grado di assorbire tutta la produzione industriale. Già dal 1925 iniziò a profilarsi una crisi di sovrapproduzione: i beni non riuscivano più ad essere acquistati alla velocità con cui venivano prodotti. I consumi non erano sostenuti dalla ricchezza reale ma dalla facilità di accesso al credito. Un altro fattore di instabilità era la frammentazione del sistema bancario americano in tante piccole banche private, vulnerabili in caso di crisi, che concedevano prestiti senza adeguate garanzie.
 
+## La bolla speculativa e il crollo di Wall Street
+
 Investire in borsa era diventato un fenomeno di massa: sempre più persone compravano azioni per rivenderle poco dopo, incassando la differenza. Tra il 1927 e il 1929 il valore delle azioni raddoppiò, ma questo aumento non corrispondeva a un effettivo aumento delle vendite: si era creata una bolla speculativa, un valore gonfiato artificiosamente che tra il 1924 e il 1929 aveva quintuplicato il valore medio dei titoli.
 
 Il 24 ottobre 1929 — il "giovedì nero" — la bolla scoppiò. La borsa di Wall Street crollò: milioni di azioni furono vendute in preda al panico, le quotazioni precipitarono e i guadagni di anni scomparvero in poche ore. I titoli continuarono a scendere fino al 1932: le azioni della United States Steel passarono da 250 dollari a 22, quelle della Chrysler da 135 a 5. Non furono soltanto i grandi capitalisti a finire in rovina, ma anche i piccoli risparmiatori. La caduta della borsa colpì soprattutto la media borghesia, facendo crollare la domanda di beni di consumo.
+
+## Dalla borsa all'economia reale
 
 La chiusura delle banche causò la contrazione del credito: tra il 1929 e il 1933 fallirono 5.000 banche, trascinando nella crisi le imprese in cui avevano investito. Fallirono anche 100.000 imprese che non potevano più godere dei finanziamenti bancari. La crisi colpì anche l'agricoltura: i contadini, guadagnando sempre meno dalla vendita, si indebitarono con le banche e molti furono espropriati delle loro terre. Alcuni produttori, tentando disperatamente di frenare il crollo dei prezzi, arrivarono a distruggere i raccolti. La produzione industriale scese del 50% tra il 1929 e il 1932, e la disoccupazione raggiunse livelli altissimi: il 25% della popolazione rimase senza lavoro (13-15 milioni di persone). L'economia si era avvitata in un meccanismo perverso nel quale la crisi generava sempre nuova e più profonda crisi.
 
@@ -28,9 +32,11 @@ Le conseguenze in America Latina furono drammatiche: le economie basate sulla ve
 
 ---
 
-## Roosevelt e il New Deal
+## Hoover e il fallimento del liberismo
 
 I provvedimenti del presidente Hoover non furono all'altezza della situazione: seguendo la tradizione liberista, non prevedevano l'intervento diretto dello Stato nell'economia e confidavano nella capacità del mercato di rialzarsi da solo, affidandosi al "volontarismo" del mondo imprenditoriale. Solo nel 1931-32, dopo due anni di crisi, Hoover autorizzò misure più incisive — come la creazione di un ente per erogare prestiti alle banche — ma erano rivolte solo alle grandi istituzioni finanziarie, non ai cittadini rimasti senza lavoro. La disoccupazione arrivò al 20%, migliaia di banche fallirono, molta gente si ridusse a vivere nelle baraccopoli, che i cittadini chiamavano per disprezzo "hooverville".
+
+## Roosevelt e il primo New Deal
 
 Alle elezioni del 1932 il democratico Franklin Delano Roosevelt promise di dare un "new deal" — un nuovo patto — all'economia. I due candidati si scontrarono sulla diagnosi della crisi: Hoover sosteneva che proveniva dall'Europa e che il sistema americano era sano; Roosevelt ribaltava l'analisi, attribuendo la responsabilità all'assenza di controlli pubblici che aveva incoraggiato la speculazione. La situazione era drammatica: il 4 marzo 1933, giorno del suo insediamento, la maggior parte degli Stati aveva chiuso le banche a tempo indeterminato per evitare il collasso del sistema bancario.
 
@@ -40,6 +46,8 @@ Il presidente convocò il Congresso e in poche ore fu approvato l'Emergency Bank
 
 In cento giorni Roosevelt spinse il Congresso ad approvare i provvedimenti suggeriti dal suo "brain trust", una task force di ricercatori. Furono stanziati 500 milioni di dollari per impiegare i disoccupati in lavori pubblici. Si vietò alle banche commerciali di operare nel settore finanziario e i risparmi degli statunitensi furono assicurati fino a 5.000 dollari. Il Securities and Exchange Act istituì una commissione di controllo sulle operazioni di borsa, vietando le azioni speculative. L'Agricultural Adjustment Act predispose indennizzi statali per gli agricoltori in difficoltà. La Public Works Administration (PWA) permise di impiegare milioni di disoccupati nei lavori pubblici. La National Recovery Administration (NRA) promosse accordi tra Stato, imprenditori e sindacati per il mantenimento di un certo livello di occupazione e di salari. Fu anche creata la Tennessee Valley Authority (TVA), un'agenzia federale per la realizzazione di opere idrogeologiche e la produzione di energia elettrica nel bacino del fiume Tennessee. La fine del proibizionismo, con la vendita di alcolici regolarmente tassati, incrementò le entrate dello Stato.
 
+## Il secondo New Deal e il welfare state
+
 Nel 1935 il Congresso approvò un "secondo New Deal" con riforme ancora più incisive. La Work Progress Administration (WPA) creò nuovi posti di lavoro — nel giro di otto anni occupò otto milioni di persone. Il Social Security Act istituì un sistema di protezione sociale con contributi per disoccupazione, vecchiaia e disabilità. Il sistema fiscale fu riformato aumentando le imposte sui redditi più alti (Wealth Tax Act), cosa che scatenò le proteste dei conservatori.
 
 La riforma monetaria svalutò il dollaro e aumentò la quantità di moneta in circolazione per far diminuire i prezzi e favorire le esportazioni. La Corte Suprema, in gran parte composta da conservatori nominati dai precedenti presidenti repubblicani, dichiarò incostituzionali vari provvedimenti del New Deal nel 1935-36, limitandone l'effetto: fu il più grave conflitto tra poteri costituzionali della storia americana.
@@ -48,9 +56,11 @@ Il New Deal gettò le basi del "welfare state": lo Stato assicurava ai cittadini
 
 ---
 
-## La Germania dopo la guerra: la Repubblica di Weimar
+## La Germania dopo la guerra: Versailles e la "pugnalata alla schiena"
 
 Per capire come il nazismo sia potuto nascere, bisogna tornare alla Germania del primo dopoguerra. Subito dopo la sconfitta nella Prima guerra mondiale, la Germania attraversò un periodo di profonda crisi economica, sociale e politica, a cui i deboli governi della Repubblica di Weimar, proclamata nel 1919, tentarono faticosamente di porre rimedio. Con il trattato di Versailles, la Germania aveva ceduto territori alla Francia, alla Polonia, al Belgio e alla Danimarca, perso le colonie, dovuto dismettere la Marina, pagare enormi riparazioni di guerra e — cosa più umiliante di tutte — assumersi la piena responsabilità dello scoppio del conflitto. Per i tedeschi, molti dei quali erano convinti che l'esercito non fosse mai stato veramente sconfitto sul campo, Versailles fu una pugnalata alla schiena inflitta dai "traditori di novembre", cioè dai politici che avevano firmato l'armistizio. Il mito della "pugnalata alla schiena" (Dolchstoßlegende) ebbe un effetto simile a quello della "vittoria mutilata" in Italia: alimentò un fortissimo risentimento nazionalista.
+
+## La Repubblica di Weimar tra caos e ripresa
 
 La Repubblica di Weimar era fragile fin dalle fondamenta. Il Paese era nel caos: nel 1923 la Francia occupò la Ruhr, il Partito comunista (KPD) tentò la rivoluzione proclamando la Repubblica bavarese dei Consigli, e la Repubblica sopravviveva solo grazie ai Freikorps, corpi paramilitari di ex soldati. L'inflazione raggiunse livelli catastrofici: nel 1923 una pagnotta costava miliardi di marchi, i risparmi di una vita non valevano più nulla. I primi risultati positivi si registrarono solo a partire dal 1924, grazie al Piano Dawes — aiuti economici americani — e al Patto di Locarno del 1925, con cui il cancelliere Stresemann riuscì a stabilizzare la situazione e a reinserire la Germania nel contesto internazionale. Nel 1929 fu varato anche il Piano Young, che riduceva l'entità delle riparazioni e le dilazionava in 60 rate (contro le 42 originarie), ma il piano non divenne mai operativo a causa del crollo di Wall Street.
 
@@ -68,7 +78,7 @@ Nel 1913 si trasferì a Monaco di Baviera per sfuggire alla leva austriaca. Quan
 
 ---
 
-## La nascita del Partito nazista e il Putsch di Monaco
+## La nascita del Partito nazista
 
 Quando Hitler si stabilì a Monaco nel dopoguerra, trovò in Germania — e in Baviera in particolare — una miriade di associazioni più o meno segrete che inneggiavano alla purezza della razza, al pangermanesimo e all'antisemitismo. Molte di queste, nate tra il 1890 e il 1930, avevano un carattere elitario ed esoterico. La più nota era la Thule Gesellschaft (Società Thule), che aveva per simbolo un gladio romano e una svastica: alcuni futuri alti gerarchi nazisti provenivano proprio da questo ambiente. Si trattava di un humus culturale già pronto ad accogliere le idee di Hitler.
 
@@ -77,6 +87,8 @@ Nel dopoguerra Hitler lavorava come informatore per la polizia, fornendo i nomi 
 Ma Hitler vi trovò la sua vocazione: cominciò a prendere parte a tempo pieno alle attività del partito e in pochi mesi il numero degli iscritti raggiunse i 20.000. Nel 1920 cambiò il nome del partito in Partito Nazionalsocialista Tedesco dei Lavoratori (NSDAP) — abbreviato in "partito nazista". Adottò come simbolo la svastica, un antico simbolo solare, su un vessillo rosso con un disco bianco al centro. Attirò nuovi aderenti tra cui Rudolf Hess, Hermann Göring ed Ernst Röhm. Nel 1921 Röhm organizzò le SA (Sturmabteilung, "reparti d'assalto"), squadre paramilitari in camicia bruna che attaccavano con violenza chiunque si opponesse al partito.
 
 A caratterizzare ideologicamente il nazionalsocialismo era una dottrina che univa motivi nazionalistici — innanzitutto la riscossa della Germania dopo l'umiliazione di Versailles — a elementi anticapitalistici e socialisti (come il controllo dello Stato sulla società e la statalizzazione delle industrie) e a motivi fortemente razzisti e antisemiti, con richiami al darwinismo sociale. I nemici politici interni erano due: da un lato le forze della sinistra (socialdemocratici e comunisti), dall'altro il liberalismo, colpevole di indebolire la compattezza della nazione.
+
+## Il Putsch di Monaco
 
 L'8 novembre 1923 Hitler tentò un colpo di Stato — il Putsch di Monaco — cercando di imitare la marcia su Roma di Mussolini. I nazisti marciarono da una birreria fino al Ministero della Guerra, ma il tentativo fallì e Hitler fu arrestato e processato per alto tradimento. Fu condannato a 5 anni di carcere, ma il processo gli diede enorme visibilità. In carcere lesse l'opera di Henry Ford, *L'ebreo internazionale*, e scrisse il Mein Kampf ("La mia battaglia"), pubblicato in due volumi nel 1925 e nel 1926. Considerato innocuo, fu rilasciato dopo soli 9 mesi.
 
@@ -100,6 +112,8 @@ Con l'uscita di Hitler dal carcere alla fine del 1924, il Partito nazista si rio
 
 Nel 1926, a fianco delle SA, comparvero le Schutzstaffeln ("milizie di protezione"), meglio note come SS, concepite inizialmente come guardia personale di Hitler. A partire dal 1929 furono poste sotto la guida di Heinrich Himmler e si specializzarono in compiti di polizia e di spionaggio, diventando una forza parallela e concorrente rispetto alle SA di Röhm. Nelle elezioni presidenziali del 1925 i nazionalsocialisti appoggiarono il generale Hindenburg, esponente delle idee conservatrici, che risultò vincitore.
 
+## Dalla crisi del '29 alla nomina a cancelliere
+
 Il crollo di Wall Street nel 1929 cambiò tutto. La Germania, che si era ripresa proprio grazie ai prestiti americani, fu travolta dalla crisi. L'aggravarsi della situazione, con la produzione industriale in calo del 40% e 6 milioni di disoccupati, fece guadagnare al partito di Hitler consensi sempre maggiori, sia tra le classi popolari prostrate dalla miseria, sia tra le classi dirigenti dell'aristocrazia agraria e militare, della finanza e dell'industria. Queste ultime iniziarono a ritenere preferibile l'instaurazione di un regime autoritario che tutelasse i loro interessi economici.
 
 Alle elezioni del settembre 1930 la NSDAP conquistò 107 seggi su 577 (contro i 12 delle elezioni del 1928), diventando il secondo partito del Paese. I partiti tradizionali — socialdemocratici e cattolici — ne uscirono indeboliti e furono costretti a formare governi di coalizione, incapaci di risolvere la crisi. Nelle elezioni presidenziali dell'aprile 1932 Hitler si candidò personalmente e ottenne il 37% dei voti, obbligando Hindenburg al ballottaggio. Dopo che nelle elezioni del novembre 1932 i nazisti furono consacrati primo partito del Paese con 196 seggi, nel gennaio 1933 una delegazione di industriali e latifondisti convinse Hindenburg ad affidare l'incarico di cancelliere a Hitler. Il leader nazista giunse così al potere senza alcuna "rivoluzione", ma legalmente chiamato a guidare il governo dal capo dello Stato.
@@ -119,9 +133,13 @@ Il presidente Hindenburg fu indotto a emanare un decreto che limitava le libert�
 
 I sindacati furono sciolti e sostituiti dal Fronte tedesco del lavoro, un ente sotto lo stretto controllo del Partito, concepito per penetrare in tutti i settori dell'economia nazionale e condizionare psicologicamente le masse dei lavoratori. La pubblica amministrazione fu epurata di tutti i funzionari non graditi, mentre le autonomie locali dei Länder furono soppresse, sostituendo i Parlamenti regionali con governatori nominati da Hitler.
 
+## La notte dei lunghi coltelli e la nascita del Terzo Reich
+
 Eliminate le opposizioni esterne, fu la volta delle epurazioni interne. Ernst Röhm, capo delle SA, era stato compagno di Hitler fin dalla prima ora — era l'unico a potergli dare del tu. Le SA erano costituite in larga parte da disoccupati, delinquenti comuni e sottoproletariato che davano sfogo ai peggiori istinti sotto la bandiera dell'ideologia: vessazioni e torture divennero la norma. Röhm diceva di sé: *"Siccome avevo un temperamento immaturo e bollente, la guerra e l'agitazione esercitavano su di me maggiore attrattiva che non il buon ordine borghese."* Le SA erano nemiche dell'ordine borghese e volevano sostituirsi all'Esercito regolare, creandone uno di popolo. Röhm mirava ad attuare una "rivoluzione" anticapitalistica attraverso il braccio armato delle SA, entrando in contrasto sia con la borghesia industriale sia con la casta militare, di cui Hitler aveva bisogno. Nella "notte dei lunghi coltelli" (29-30 giugno 1934) le SS, coordinate da Hermann Göring, massacrarono i vertici delle SA incluso Röhm; sorte analoga toccò a uomini politici conservatori e ad alcuni alti ufficiali dell'esercito considerati possibili concorrenti di Hitler.
 
 Un mese dopo, alla morte di Hindenburg il 2 agosto 1934, Hitler poté assumere il totale controllo dello Stato tedesco. Fece emanare un decreto che sanciva la concentrazione di tutte le cariche nella persona del Führer (letteralmente "conduttore", equivalente al "duce" italiano), concentrando su di sé tutti i poteri secondo il Führerprinzip, il principio della supremazia assoluta del capo. Un plebiscito confermò la decisione: il 90% dell'elettorato, circa 38 milioni di cittadini, votò a favore. Al congresso annuale del partito, a Norimberga, Hitler annunciò la nascita del Terzo Reich — un nuovo "Impero" che si poneva come successore del medievale Sacro Romano Impero (962-1806) e dell'Impero tedesco di Guglielmo I (1871-1918) — destinato nelle sue intenzioni a durare mille anni.
+
+## La struttura del Terzo Reich
 
 Nel nuovo regime il Parlamento non aveva più alcun potere: prima dello scoppio della Seconda guerra mondiale si riunì soltanto 12 volte. Era il partito a tenere le redini dell'iniziativa legislativa, promulgando decreti che con l'approvazione del Führer diventavano automaticamente leggi. Il sistema giudiziario fu piegato al regime: fu abolito il principio dell'indipendenza della magistratura, fu creata la Corte del Popolo (le cui sentenze erano inappellabili) e il Tribunale speciale per i crimini politici. L'apparato repressivo fu affidato alla Gestapo (Geheime Staatspolizei, "polizia segreta di Stato"): fondata da Göring nel 1933, passò sotto il controllo delle SS nel 1934 e fu dotata di compiti di investigazione politica, rastrellamento e repressione degli oppositori. Era autorizzata a ogni tipo di trattamento nei confronti dei prigionieri, inclusa la tortura, e con un provvedimento del 1936 fu posta di fatto al di sopra della legge.
 
@@ -135,11 +153,15 @@ Goebbels organizzò i roghi dei libri, in cui studenti istigati dal regime sacch
 
 La regista Leni Riefenstahl, amica personale di Hitler, creò film e documentari che esaltavano il regime, tra cui *Il trionfo della volontà* — un classico della propaganda cinematografica che glorificava la figura del Führer come messia del popolo tedesco — e *Olympia*, il primo documentario girato su un'Olimpiade (Berlino 1936).
 
+## Le organizzazioni di massa e le adunate
+
 Strumento privilegiato per inculcare i valori nazisti furono le organizzazioni di massa. Tutti i ragazzi dai 10 anni in su erano inquadrati nella Gioventù hitleriana (Hitler-Jugend), fondata nel 1926 per formarli ideologicamente e militarmente, sviluppando la fedeltà e l'obbedienza al regime. Il suo motto era "Blut und Ehre" (Sangue e onore). Dal 1936 tutti gli altri gruppi giovanili furono banditi e l'appartenenza alla Gioventù hitleriana divenne obbligatoria per i giovani sopra i 14 anni. Hitler disse apertamente: *"Io voglio una gioventù brutale, tiranna, intrepida e crudele. La debolezza dovrà essere spazzata via."*
 
 Per disciplinare il tempo libero dei lavoratori, dal 1933 il Fronte tedesco del lavoro venne affiancato dalla "Forza attraverso la gioia" (Kraft durch Freude), un'associazione che doveva instillare nei tedeschi l'orgoglio di essere un gruppo sociale privilegiato attraverso l'organizzazione di concerti, mostre, gite e vacanze.
 
 Grande importanza ebbero le adunate di massa, manifestazioni studiate nei minimi dettagli scenografici — fiaccole, foreste di bandiere con la croce uncinata, aquile imperiali — e regolate da precisi cerimoniali. In tali occasioni Hitler agiva come un vero e proprio attore, rivolgendo alle masse discorsi meticolosamente costruiti, con immagini estremamente semplici, concrete e ripetute più volte, tali da creare una forte tensione emotiva e una totale identificazione con il capo carismatico.
+
+## Le Chiese e i campi di concentramento
 
 Per quanto riguarda i rapporti con le Chiese, nel luglio 1933 fu stipulato un Concordato tra la Santa Sede e il governo hitleriano, che garantiva il rispetto della libertà di culto e la non interferenza del regime negli affari della Chiesa. All'interno del protestantesimo si sviluppò fin dal 1932 il movimento dei "Cristiani tedeschi", che intendeva saldare motivi religiosi e nazionalsocialisti. Le confessioni e le personalità religiose che non si allinearono furono perseguitate e, non di rado, eliminate fisicamente. Fin dal 1933 furono istituiti campi di concentramento (Lager), dal 1936 affidati alla supervisione delle SS, per rinchiudere dissidenti politici e religiosi, ebrei, rom e sinti, e i cosiddetti "asociali" (omosessuali, malati di mente, delinquenti comuni).
 
@@ -152,6 +174,8 @@ L'antisemitismo, che era sempre stato al centro dell'ideologia nazista, divenne 
 Fin dalla primavera del 1933, pochi mesi dopo la presa del potere, il regime procedette all'epurazione degli ebrei dalla pubblica amministrazione, dal giornalismo e dall'insegnamento. Le restrizioni si moltiplicarono mese dopo mese in modo sistematico.
 
 Il 15 settembre 1935 furono promulgate le leggi di Norimberga, che formalizzarono la persecuzione razziale. La Legge per la protezione del sangue e dell'onore tedesco proibiva matrimoni e rapporti tra ebrei e tedeschi "ariani". La Legge sulla cittadinanza del Reich stabilì che cittadini del Reich potevano essere soltanto quelli "di sangue tedesco o affine", privando gli ebrei della cittadinanza e del diritto di voto.
+
+## Dalla notte dei cristalli alla Soluzione finale
 
 A partire dal 1938 la persecuzione conobbe una radicalizzazione. Agli ebrei fu vietato il commercio, l'artigianato, il cinema, il teatro; i passaporti furono contrassegnati con la lettera "J"; gli uomini furono obbligati ad aggiungere "Israel" al loro nome e le donne "Sara". Fu l'attentato contro il diplomatico tedesco Ernst vom Rath, avvenuto a Parigi il 7 novembre 1938 per mano di un giovane ebreo polacco, a fornire ai nazisti il pretesto per scatenare un vero e proprio pogrom: nella notte tra l'8 e il 9 novembre — la Kristallnacht, la "notte dei cristalli" — uomini del partito distrussero i negozi degli ebrei, appiccarono il fuoco a 177 sinagoghe, assalirono gli israeliti nelle loro abitazioni e trafugarono beni per svariati miliardi di marchi. Dopo la notte dei cristalli, gli ebrei iniziarono a essere deportati nei campi di concentramento.
 
