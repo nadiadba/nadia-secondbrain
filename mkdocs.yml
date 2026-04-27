@@ -180,9 +180,16 @@ nav:
     - latino/debate-oratoria.md
   - Ed. civica:
     - educazione-civica/index.md
-    - educazione-civica/costituzione.md
-    - educazione-civica/sviluppo-sostenibile.md
-    - educazione-civica/cittadinanza-digitale.md
+    - Franca Viola:
+      - educazione-civica/franca-viola/storia.md
+      - educazione-civica/franca-viola/franca.md
+      - educazione-civica/franca-viola/mamma.md
+      - educazione-civica/franca-viola/padre.md
+      - educazione-civica/franca-viola/fratello.md
+      - educazione-civica/franca-viola/filippo.md
+      - educazione-civica/franca-viola/giuseppe.md
+      - educazione-civica/franca-viola/carabiniere.md
+      - educazione-civica/franca-viola/vicina.md
   - Esame:
     - esame/index.md
     - esame/prima-prova.md
