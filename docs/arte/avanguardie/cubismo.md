@@ -27,7 +27,9 @@ Si apre con un trauma: il **suicidio dell'amico Carles Casagemas** nel 1901. La 
 
 #### Poveri in riva al mare (1903)
 
-Tre figure isolate su una spiaggia desolata: un uomo seduto con le ginocchia raccolte, una donna magrissima in piedi con la mano sulla sua spalla, un bambino accovacciato ai loro piedi. Tutto il quadro è in **tonalità di blu**, persino la pelle dei corpi; i personaggi sono allungati alla maniera di El Greco. Il senso sta nei silenzi: nessuno guarda nessun altro, ognuno è chiuso nel proprio dolore. La spiaggia è uno **spazio metafisico** ai limiti del mondo, e il blu non è solo un colore ma uno **stato d'animo** — povertà, malinconia, morte.
+Tre figure isolate su una spiaggia desolata: un uomo seduto con le ginocchia raccolte, una donna magrissima in piedi con la mano sulla sua spalla, un bambino accovacciato ai loro piedi. Tutto il quadro è in **tonalità di blu**, persino la pelle dei corpi; i personaggi sono allungati alla maniera di **El Greco**, ossuti. La composizione è essenziale — solo le tre figure, l'orizzonte, il mare, il cielo — e proprio questa nudità accentua la solitudine.
+
+Il senso sta nei silenzi: nessuno guarda nessun altro, ognuno è chiuso nel proprio dolore, e persino il gesto della donna non oltrepassa la barriera dell'isolamento. La spiaggia non è un luogo di vacanza ma uno **spazio metafisico** ai limiti del mondo. Il blu non è solo un colore ma uno **stato d'animo** — povertà, malinconia, morte. Picasso vive in quegli anni in vera povertà tra Barcellona e Parigi: il quadro è anche un'indiretta autobiografia.
 
 ### Periodo rosa (1904-1906)
 
@@ -35,7 +37,9 @@ La tavolozza si schiarisce in **rosa, ocra, terra di Siena**. I soggetti sono il
 
 #### Famiglia di saltimbanchi (1905)
 
-Sei figure in un paesaggio brullo color sabbia: un **arlecchino** in costume a losanghe che tiene per mano una bambina vestita di bianco; un omone in rosso di spalle; una piccola acrobata; un ragazzo con un tamburo; e in disparte una **donna seduta vestita di rosa** che guarda altrove. La composizione è studiata, ma le figure **non comunicano fra loro**: Picasso costruisce una "famiglia" che esiste fisicamente ma psicologicamente è fatta di solitudini accostate. L'arlecchino è un **autoritratto** simbolico: l'artista come saltimbanco, outsider che vive di spettacolo ma è destinato all'isolamento.
+Sei figure in un paesaggio brullo color sabbia, sotto un cielo bianco-azzurrino: un **arlecchino** alto in costume a losanghe che tiene per mano una bambina vestita di bianco; un omone vestito di rosso di spalle, con un sacco; una piccola **acrobata** seminuda; un ragazzo con un tamburo; e in disparte sulla destra una **donna seduta vestita di rosa** che guarda altrove con un'espressione enigmatica. Il fondo è un paesaggio fuori dal tempo, sospeso.
+
+La composizione è studiata per guidare lo sguardo lungo una diagonale, ma le figure **non comunicano fra loro**: nessuno guarda nessuno. Picasso costruisce una "famiglia" che esiste fisicamente ma psicologicamente è fatta di solitudini accostate. L'arlecchino in primo piano è un **autoritratto** simbolico: l'artista come saltimbanco, outsider che vive di spettacolo ma è destinato all'isolamento — un'immagine che il poeta **Apollinaire**, amico di Picasso, celebrerà in versi famosi.
 
 ### Verso il Cubismo
 
@@ -43,7 +47,9 @@ Tra il 1906 e il 1907 due esperienze cambiano Picasso: la riscoperta della **scu
 
 #### Les Demoiselles d'Avignon (1907)
 
-Una tela enorme (oltre 2,5 m di lato) mostra **cinque donne nude** in una stanza spoglia. Sono prostitute: il titolo si riferisce a **Carrer d'Avinyó**, una via di Barcellona. Le tre figure di sinistra hanno volti stilizzati come scultura iberica; le **due di destra hanno maschere africane** al posto del viso. I corpi sono spigolosi, tagliati come da una lama; lo spazio si frantuma in schegge. Quando Picasso lo mostra agli amici, persino Matisse e Braque lo trovano troppo violento: lo arrotola e lo nasconde nello studio per anni. Eppure è qui che nasce il Cubismo — la prospettiva è abolita, l'idealizzazione del nudo classico distrutta. È il **punto zero da cui parte tutta l'arte del Novecento**.
+Una tela enorme (oltre 2,5 m di lato) mostra **cinque donne nude** in una stanza spoglia, separate da un drappeggio azzurro. Sono prostitute: il titolo si riferisce a **Carrer d'Avinyó**, una via di Barcellona. Le tre figure di sinistra hanno volti stilizzati come **scultura iberica**, con grandi occhi a mandorla; le **due di destra hanno maschere africane** al posto del viso, con scarificazioni a strisce e nasi a becco. Una di loro è in una posa contorta e impossibile, con il busto frontale e la testa girata di scatto. I corpi sono spigolosi, tagliati come da una lama; lo spazio si frantuma in schegge.
+
+Quando Picasso lo mostra agli amici, persino Matisse e Braque lo trovano troppo violento: lo arrotola e lo nasconde nello studio per anni — non sarà esposto fino al 1916. Eppure è proprio qui che nasce il Cubismo: la prospettiva è abolita, l'idealizzazione del nudo classico distrutta. *Les Demoiselles* è il **punto zero da cui parte tutta l'arte del Novecento**: da qui nasceranno cubismo analitico, sintetico, astrazione e persino Surrealismo.
 
 ### Cubismo analitico
 
@@ -51,7 +57,9 @@ L'oggetto è smontato in faccette geometriche e rimontato sulla tela, in tavoloz
 
 #### Violino (1912)
 
-Un fitto reticolo di **piani geometrici sovrapposti** in tonalità di bruno e grigio. Solo dopo qualche istante si distinguono manico, **effe** (le aperture a forma di "f"), corde, cassa armonica — mostrati da angolazioni diverse: la cassa dall'alto, le effe di fronte, il manico di lato. È una riflessione su come si **vede**: noi non guardiamo gli oggetti da un solo punto fisso, ci muoviamo intorno. Il quadro cubista è **un tempo in cui lo sguardo si muove**, condensato sulla tela: per questo si parla del Cubismo come di una "quarta dimensione" in pittura.
+Un fitto reticolo di **piani geometrici sovrapposti** in tonalità di bruno, beige e grigio, illuminati da lumi e ombre che non corrispondono a nessuna fonte di luce reale. Solo dopo qualche istante si distinguono il manico con i piroli, le **effe** (le aperture a forma di "f"), le corde, la cassa armonica — mostrati da angolazioni diverse: la cassa dall'alto, le effe di fronte, il manico di lato. Oggetto e ambiente si compenetrano al punto da fondersi.
+
+È una riflessione su **come si vede**: noi non guardiamo gli oggetti da un solo punto fisso, ci muoviamo intorno. Il quadro cubista è in fondo **un tempo in cui lo sguardo si muove**, condensato sulla tela: per questo si parla del Cubismo come di una "quarta dimensione" in pittura. La tavolozza monocromatica è una scelta precisa: in questa fase il colore distrarrebbe dall'analisi della forma.
 
 ### Cubismo sintetico
 
@@ -59,7 +67,9 @@ Nel 1912 Picasso introduce il **collage**: incolla sulla tela pezzi di giornale,
 
 #### Natura morta con sedia impagliata (1912)
 
-Un piccolo quadro **ovale**, racchiuso da una **corda di canapa** che fa da cornice. In basso compare una fascia di paglia intrecciata — ma non è dipinta: è **tela cerata stampata** incollata direttamente. Sopra, in una composizione cubista, oggetti di un caffè parigino — bicchiere, limone, pipa — e le lettere **JOU** (probabilmente *journal*). È il **primo collage della storia dell'arte moderna** e mette a confronto **tre livelli del rapporto fra immagine e realtà**: la realtà fisica (corda, tela cerata), un'imitazione industriale (la paglia stampata), la pittura. Da qui nasceranno assemblage, pop art e arte concettuale.
+Un piccolo quadro **ovale**, racchiuso da una **corda di canapa** che fa da cornice — anch'essa scelta come elemento dell'opera, non come accessorio. In basso compare una fascia di paglia intrecciata, ma non è dipinta: è un pezzo di **tela cerata stampata** che imita la paglia, incollato direttamente sulla tela. Sopra, in una composizione cubista di piani sovrapposti, si distinguono oggetti tipici di un caffè parigino — un bicchiere, una fetta di limone, una pipa — e le lettere **JOU** (probabilmente l'inizio di *journal*, "giornale").
+
+È il **primo collage della storia dell'arte moderna**, e cambia per sempre cosa può essere un quadro. Picasso si chiede: cosa significa rappresentare? Se voglio dipingere la paglia di una sedia, posso farlo a olio oppure incollare un pezzo di tela cerata che imita la paglia. Il quadro mette così a confronto **tre livelli del rapporto fra immagine e realtà**: la realtà fisica (la corda, la tela cerata), un'imitazione industriale (la paglia stampata in fabbrica), la pittura. Da questo gesto nasceranno l'**assemblage**, la **pop art** e tutta l'**arte concettuale** del secondo Novecento.
 
 ### Guernica (1937)
 
@@ -73,11 +83,15 @@ Al centro un **cavallo** agonizza sotto una **lampadina elettrica**, il muso spa
 
 ### Case all'Estaque (1908)
 
-Un piccolo gruppo di **case** in un paese provenzale dove aveva lavorato anche Cézanne. Le costruzioni sono ridotte a **volumi cubici essenziali** — parallelepipedi con tetti spioventi, senza finestre, senza porte. La cosa più sconvolgente è l'**abolizione della prospettiva**: le case sembrano impilate l'una sull'altra, come viste da angolazioni diverse e appiattite sulla tela. È un omaggio diretto a **Cézanne**. È proprio davanti a questo quadro che Vauxcelles scrisse di «piccoli cubi»: in senso letterale, è il **quadro che ha dato il nome al Cubismo**.
+Un piccolo gruppo di **case** addossate l'una all'altra in un paese provenzale dove aveva lavorato anche **Cézanne**. Le costruzioni sono ridotte a **volumi cubici essenziali** — parallelepipedi con tetti spioventi, senza finestre, senza porte. Intorno alle case, una vegetazione anch'essa geometrizzata, fatta di poche masse compatte di verde.
+
+La cosa più sconvolgente è la **prospettiva, o meglio la sua abolizione**: le case sembrano impilate l'una sull'altra, schiacciate su un unico piano. L'omaggio a **Cézanne** è esplicito: il maestro post-impressionista aveva scritto «trattare la natura per mezzo del cilindro, della sfera, del cono», e Braque prende la frase alla lettera. È proprio davanti a questo quadro che il critico **Vauxcelles** scrisse di «piccoli cubi» dando, involontariamente, il nome al movimento: in senso letterale, è il **quadro che ha dato il nome al Cubismo**.
 
 ### Violino e brocca (1910)
 
-Un **violino** e una **brocca** scomposti in piani geometrici grigi e bruni, mostrati da angolazioni diverse. Un dettaglio rompe l'analisi: in alto Braque dipinge un **chiodo realistico** in *trompe-l'œil*, con la testa metallica e l'ombra proiettata, come se reggesse il quadro. In mezzo all'astrazione cubista, **l'unico elemento dipinto realisticamente è il chiodo** — che però, proprio per questo, è l'unica cosa davvero finta del quadro. Cosa è più "vero", l'imitazione o l'analisi?
+In una composizione cubista analitica si vedono — non subito, ma dopo qualche istante — un **violino** e una **brocca** scomposti in piani geometrici grigi e bruni e mostrati da angolazioni diverse: il violino simultaneamente di fronte e di lato, la brocca dall'alto e di fronte. Si distinguono una curva di cassa armonica, le **effe** parallele, il manico, la sagoma rotonda della brocca.
+
+Un dettaglio rompe però tutta l'analisi: in alto Braque dipinge un **chiodo realistico** in *trompe-l'œil*, con la testa metallica e l'ombra proiettata, come se reggesse il quadro. In mezzo all'astrazione cubista, **l'unico elemento dipinto realisticamente è il chiodo** — che però, paradossalmente, è l'unica cosa davvero **finta** del quadro: il violino e la brocca, anche se scomposti, sono frutto di una vera analisi visiva, mentre il chiodo è puro inganno ottico. Braque sta dicendo: cosa è più "vero", l'imitazione o l'analisi?
 
 ## Checklist
 
