@@ -167,11 +167,13 @@ nav:
       - inglese/writing/essay-structure.md
   - Storia dell'arte:
     - arte/index.md
-    - arte/impressionismo.md
-    - arte/post-impressionismo.md
-    - arte/avanguardie.md
-    - arte/razionalismo.md
-    - arte/arte-contemporanea.md
+    - Avanguardie:
+      - arte/avanguardie/index.md
+      - arte/avanguardie/cubismo.md
+      - arte/avanguardie/futurismo.md
+      - arte/avanguardie/dadaismo.md
+      - arte/avanguardie/surrealismo.md
+      - arte/avanguardie/astrattismo.md
   - Latino:
     - latino/index.md
     - latino/seneca.md
