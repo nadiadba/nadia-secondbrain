@@ -30,26 +30,22 @@
 ### Giulio — Oratore 1 (introduce la tesi) — **voto 9**
 
 !!! note "Il punto della sua argomentazione"
-    Ha aperto il dibattito con la domanda di fondo: *l'ars oratoria è innata o si può imparare?* Ha sostenuto che si può imparare, perché tutti gli uomini hanno la capacità di apprendere, anche se alcuni sono più portati di altri: con la *diligentia* — l'applicazione costante — chiunque arriva a un risultato.
-
-**Riferimenti ai testi che ha fatto**
-
-- **Quintiliano, *Institutio Oratoria* I, 1-3**: ha richiamato l'idea che imparare è capacità naturale dell'uomo e che la *diligentia* permette a chiunque di raggiungere un risultato. Il passo chiave è quello in cui Quintiliano dice che *"non si trova nessuno che non abbia raggiunto con l'applicazione una pur minima meta"*.
+    Giulio ha aperto il dibattito ponendo subito agli ascoltatori la domanda di fondo: l'arte oratoria è una capacità innata o si può imparare con un attento e adeguato esercizio? La sua risposta è netta — *"certo che si può apprendere"* — e la difende con un argomento di principio: sarebbe il più grande insulto all'uomo dare per scontato che l'oratoria sia innata, perché lo studio e la comprensione sono le attività che più ci appartengono. Per sostenerlo ha portato **Quintiliano** (*Institutio Oratoria* I), che definisce la comprensione un'"attività dello spirito, per cui si crede che l'uomo abbia origine divina": una citazione testuale precisa che lega l'apprendimento alla stessa natura umana. Ha poi anticipato l'obiezione classica della squadra avversaria — "ma non tutti hanno la stessa intelligenza" — e l'ha smontata con un'altra citazione precisa di Quintiliano: *"non si trova nessuno che non abbia raggiunto con l'applicazione una pur minima meta"*; un argomento, ha aggiunto, che vale anche come messaggio morale, perché credere all'innatismo dell'oratoria sarebbe solo una scusa per non impegnarsi. Ha chiuso la sua introduzione annunciando gli argomenti che la squadra avrebbe sviluppato: la metodologia delle tre arti — scrittura, lettura ed eloquenza — e l'esempio storico di **Iseo** descritto da **Plinio il Giovane**, oratore le cui capacità furono il frutto di un'intensa attività di lettura e scrittura. Imposta così il terreno perfetto per Riccardo (i tre esercizi) e Marta (l'esempio di Iseo).
 
 **Riferimenti che avrebbe potuto aggiungere**
 
-- L'**analogia degli uccelli e dei cavalli** (sempre Quintiliano I, 1): "come gli uccelli sono generati per volare e i cavalli per correre, così l'uomo è generato per l'attività dello spirito". Era un'immagine perfetta per aprire e sarebbe stata molto efficace.
-- L'esempio di **Cornelia madre dei Gracchi** (Quintiliano I, 6), prova storica che la formazione oratoria si costruisce.
-- Una breve anticipazione dei tre esercizi di **Quintiliano X** (scrivere, leggere, parlare) per impostare il discorso che Riccardo avrebbe poi approfondito.
+- L'**analogia degli uccelli e dei cavalli** (Quintiliano I, 1): *"come gli uccelli sono generati per volare e i cavalli per correre, così l'uomo è generato per l'attività dello spirito"*. Era l'immagine concreta che mancava al suo discorso un po' astratto: l'aveva quasi tra le mani — parlando di "attività dello spirito" — ma non l'ha esplicitata.
+- L'esempio storico di **Cornelia madre dei Gracchi** (Quintiliano I, 6), prova concreta che la formazione oratoria si costruisce in famiglia: perfetto per un'apertura che vuole convincere.
+- Un'anticipazione preventiva del proverbio di **Seneca** *talis hominibus fuit oratio qualis vita* — non per appoggiarlo ma per smontarlo subito. Anticipare l'argomento dell'avversario e disinnescarlo in apertura è una mossa retorica molto forte.
 
 **Valutazione sui criteri della griglia**
 
-- *Introduce il tema e la tesi*: **buono** — ha posto bene la domanda di fondo e ha enunciato la tesi PRO con chiarezza.
-- *Uso del corpo e della voce*: **abbastanza** — voce sicura ma poco variata, poteva attirare di più l'attenzione.
-- *Utilizzo delle fonti*: **abbastanza** — ha citato un solo testo (Quintiliano I), e in modo generico.
+- *Introduce il tema e la tesi*: **molto buono** — ha posto bene la domanda, ha dato una risposta netta e ha già anticipato gli argomenti della squadra (tre esercizi + Iseo). Si vede che il discorso era preparato con cura.
+- *Uso del corpo e della voce*: **abbastanza** — il testo era retoricamente solenne ("Signore e signori", "Beh per noi la domanda è retorica"), ma all'orale la voce non ha sempre seguito la forza del testo scritto.
+- *Utilizzo delle fonti*: **buono** — due citazioni testuali precise di Quintiliano e un'anticipazione dei riferimenti che la squadra avrebbe sviluppato.
 
 !!! tip "Il mio commento sul voto"
-    Il **9** mi sembra giusto. Ha aperto bene il dibattito e ha dato il taglio corretto, però è rimasto un po' generico e ha sfruttato poco le immagini più forti del testo. Un 9 e non un 9,5 perché ha citato solo un passo e non ha usato le metafore vivide che il testo offriva.
+    Il **9** è giusto e ben motivato. Il discorso era scritto con cura: costruzione retorica solida (l'obiezione anticipata "e si obietti pure..." è una mossa da oratore vero), due citazioni testuali precise, e una mappa chiara di quello che la squadra avrebbe poi sviluppato. Quello che gli ha impedito il 9,5 è stato l'**uso della voce** all'orale, che non ha tenuto il passo della solennità del testo: una scrittura così curata avrebbe meritato un'esposizione altrettanto vibrante.
 
 ---
 
