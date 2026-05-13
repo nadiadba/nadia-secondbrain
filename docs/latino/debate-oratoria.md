@@ -1,200 +1,327 @@
-# Debate: l'oratoria si può insegnare?
+# Debate oratoria — La mia valutazione come giudice
 
-!!! info "La domanda del debate"
-    **L'oratoria si può insegnare e migliorare con l'esercizio, oppure è innata e dipende dalle condizioni sociali?**
+!!! info "La tesi del dibattito"
+    **L'oratoria si può insegnare e migliorare con l'esercizio (PRO) oppure è innata e dipende dalle condizioni sociali (CONTRO)?**
 
-    Due squadre si affrontano:
+    Testi a disposizione:
 
-    - **Pro** (si può insegnare): **Quintiliano** e **Plinio il Giovane**
-    - **Contro** (è innata / dipende dalla società): **Tacito** e **Seneca**
+    - **PRO**: Quintiliano *Institutio Oratoria* I, 1-3 e X, 1-4 + Plinio il Giovane *Epistulae* II, 3
+    - **CONTRO**: Tacito *Dialogus de Oratoribus* 28-29 + Seneca *Epistula ad Lucilium* CXIV
 
-## I quattro testi in breve
+## Tabella riassuntiva dei voti
 
-### Quintiliano, *Institutio Oratoria* I, 1-3 — squadra PRO
+| Compagno | Squadra | Ruolo | Voto |
+|----------|---------|-------|------|
+| Giulio | PRO | Oratore 1 (introduce) | 9 |
+| Riccardo | PRO | Oratore 2 (approfondisce) | 9,5 |
+| Marta | PRO | Oratore 3 (appello finale) | 9,5 |
+| Anna D. | PRO | Sostenitore 1 | 8 |
+| Anna N. | PRO | Sostenitore 2 | 8 |
+| Sara | CONTRO | Oratore 1 (introduce) | 8+ |
+| Caterina | CONTRO | Oratore 2 (approfondisce) | 9+ |
+| Edoardo | CONTRO | Oratore 3 (appello finale) | 8 |
+| Beatrice | CONTRO | Sostenitore 1 | 9- |
+| Emanuele | CONTRO | Sostenitore 2 | 9- |
 
-Quintiliano sostiene che **la capacità di imparare è naturale in quasi tutti gli uomini**: i ragazzi "duri di comprendonio" sono rari, come i corpi mostruosi. Se le speranze dell'infanzia svaniscono, la colpa non è della natura ma della **negligenza degli educatori**.
+---
 
-Idee chiave:
+## Squadra PRO
 
-- L'uomo è fatto per pensare, come gli uccelli per volare e i cavalli per correre
-- Anche chi è meno dotato, con l'**applicazione** (*diligentia*) raggiunge qualche risultato
-- L'educazione inizia dalla culla: persino la **nutrice** deve parlare bene, perché le prime impressioni restano per sempre (come il sapore nei recipienti nuovi)
-- Anche i **genitori** devono essere colti: cita Cornelia (madre dei Gracchi), Lelia, Ortensia
+### Giulio — Oratore 1 (introduce la tesi) — **voto 9**
 
-### Quintiliano, *Institutio Oratoria* X, 1-4 — squadra PRO
+!!! note "Il punto della sua argomentazione"
+    Ha aperto il dibattito con la domanda di fondo: *l'ars oratoria è innata o si può imparare?* Ha sostenuto che si può imparare, perché tutti gli uomini hanno la capacità di apprendere, anche se alcuni sono più portati di altri: con la *diligentia* — l'applicazione costante — chiunque arriva a un risultato.
 
-Qui Quintiliano spiega che all'oratore servono **tre esercizi combinati**: scrivere, leggere, parlare. Nessuno dei tre basta da solo.
+**Riferimenti ai testi che ha fatto**
 
-- Senza **scrittura**, l'eloquenza resta fragile
-- Senza **lettura**, manca il modello
-- Senza **parola**, tutto il sapere rimane chiuso come un tesoro sotto chiave
-- L'oratore è come l'**atleta**: dopo aver imparato le regole, deve allenarsi scegliendo gli esercizi giusti
+- **Quintiliano, *Institutio Oratoria* I, 1-3**: ha richiamato l'idea che imparare è capacità naturale dell'uomo e che la *diligentia* permette a chiunque di raggiungere un risultato. Il passo chiave è quello in cui Quintiliano dice che *"non si trova nessuno che non abbia raggiunto con l'applicazione una pur minima meta"*.
 
-### Plinio il Giovane, *Epistulae* II, 3 — squadra PRO
+**Riferimenti che avrebbe potuto aggiungere**
 
-Plinio descrive **Iseo**, oratore famoso, come esempio vivente del fatto che l'eloquenza si costruisce con lo studio.
+- L'**analogia degli uccelli e dei cavalli** (sempre Quintiliano I, 1): "come gli uccelli sono generati per volare e i cavalli per correre, così l'uomo è generato per l'attività dello spirito". Era un'immagine perfetta per aprire e sarebbe stata molto efficace.
+- L'esempio di **Cornelia madre dei Gracchi** (Quintiliano I, 6), prova storica che la formazione oratoria si costruisce.
+- Una breve anticipazione dei tre esercizi di **Quintiliano X** (scrivere, leggere, parlare) per impostare il discorso che Riccardo avrebbe poi approfondito.
 
-- Parla improvvisando, ma sembra che abbia preparato tutto
-- Ha una memoria prodigiosa, uno stile elegante, raffinato, attico
-- "Si formò queste qualità con lo **studio** e l'**esercizio**": giorno e notte non fa altro
-- Vivere lontano dal foro, in una "scuola" fatta di cause finte, lo rende più sincero e meno malizioso di chi combatte nei processi reali
+**Valutazione sui criteri della griglia**
 
-### Tacito, *Dialogus de Oratoribus* 28-29 — squadra CONTRO
+- *Introduce il tema e la tesi*: **buono** — ha posto bene la domanda di fondo e ha enunciato la tesi PRO con chiarezza.
+- *Uso del corpo e della voce*: **abbastanza** — voce sicura ma poco variata, poteva attirare di più l'attenzione.
+- *Utilizzo delle fonti*: **abbastanza** — ha citato un solo testo (Quintiliano I), e in modo generico.
 
-Tacito denuncia la **decadenza** dell'oratoria, causata da:
+!!! tip "Il mio commento sul voto"
+    Il **9** mi sembra giusto. Ha aperto bene il dibattito e ha dato il taglio corretto, però è rimasto un po' generico e ha sfruttato poco le immagini più forti del testo. Un 9 e non un 9,5 perché ha citato solo un passo e non ha usato le metafore vivide che il testo offriva.
 
-- pigrizia della gioventù
-- negligenza dei genitori
-- ignoranza degli insegnanti
-- abbandono del *mos maiorum* (il modo di fare degli antenati)
+---
 
-Il confronto col passato:
+### Riccardo — Oratore 2 (approfondisce) — **voto 9,5**
 
-| Una volta (*mos maiorum*) | Oggi (decadenza) |
-|---------------------------|------------------|
-| Il figlio cresciuto in grembo alla **madre casta** (Cornelia, Aurelia, Azia) | Affidato a un'**ancella greca** e a schiavi scadenti |
-| Parente anziana di moralità comprovata sorveglia studi e giochi | Nessuno controlla che si dice o si fa davanti al bambino |
-| Natura pura e integra, subito votata a un'arte | Animo corrotto da **istrioni, gladiatori, cavalli** fin dal ventre materno |
-| Precettori severi | Precettori che **adulano** invece di correggere |
+!!! note "Il punto della sua argomentazione"
+    Ha approfondito la tesi PRO sostenendo che **l'oratoria è un'arte che nasce nella culla**: la natura va unita all'esercizio. Ha richiamato i tre strumenti necessari — lettura, scrittura, parola — che producono l'eccellenza dell'oratore.
 
-Tesi: l'oratoria non decade per mancanza di talento, ma perché le **condizioni sociali e familiari** non permettono più di coltivarlo.
+**Riferimenti ai testi che ha fatto**
 
-### Seneca, *Epistula ad Lucilium* CXIV — squadra CONTRO
+- **Quintiliano, *Institutio Oratoria* I**: l'oratoria "nasce nella culla", il ruolo dei genitori e della nutrice come prima fase educativa.
+- **Quintiliano, *Institutio Oratoria* X**: ha citato i **tre esercizi combinati** — scrittura, lettura, parola — sottolineando che nessuno dei tre basta da solo.
+- **Seneca, *Epistula* 114**: ha accennato al legame tra linguaggio e società, anche se in chiave di confutazione.
 
-Seneca risponde alla domanda: perché in certe epoche il linguaggio si corrompe?
+**Riferimenti che avrebbe potuto aggiungere**
 
-Il principio fondamentale:
+- **Plinio, *Epistulae* II, 3**: l'esempio di **Iseo**, oratore che si è formato "giorno e notte" con lo studio. Sarebbe stato l'esempio concreto perfetto per la tesi PRO — sarà poi recuperato da Anna N. e soprattutto da Marta.
+- L'**analogia dell'atleta** (Quintiliano X): l'oratore come l'atleta che, imparate le regole, deve allenarsi. Curiosamente Edoardo dirà poi "non ho capito il collegamento sull'atleta", quindi sarebbe stato un'arma vincente.
 
-!!! quote "Talis hominibus fuit oratio qualis vita"
-    "Tale fu per gli uomini il linguaggio, quale fu la vita."
+**Valutazione sui criteri della griglia**
 
-    Il modo di parlare **riflette** il modo di vivere di una società.
+- *Approfondisce i temi introdotti*: **sì** — ha sviluppato bene l'idea di Giulio aggiungendo i tre esercizi di Quintiliano X.
+- *Uso del corpo e della voce*: **bene** — voce sicura, postura presente, ha tenuto l'attenzione.
+- *Utilizzo delle fonti*: **ottimo** — tre passi diversi usati per costruire un'argomentazione strutturata.
 
-- Se l'animo è sano e temperante, anche l'ingegno è "asciutto e sobrio"
-- Se l'animo è molle, lo stile si gonfia, si spezza, cerca metafore ardite
-- La **prosperità** porta dissolutezza: prima cura eccessiva del corpo, poi delle suppellettili, poi delle case di marmo, poi cene stravaganti... poi il linguaggio corrotto
-- Lo stile corrotto (frasi tronche, obsolete, metafore insistenti) è **sintomo** di una società malata
+!!! tip "Il mio commento sul voto"
+    Il **9,5** è meritato. Riccardo ha citato tre testi diversi, ha sviluppato la tesi con un'argomentazione costruita e ha esposto con sicurezza. L'unico appunto è che non ha portato Plinio (Iseo), che era il riferimento più forte disponibile per la PRO.
 
-Tesi: lo stile e l'eloquenza dipendono dal **contesto morale** della società, non si insegnano a scuola.
+---
 
-## Argomenti per la squadra PRO
+### Marta — Oratore 3 / appello finale — **voto 9,5**
 
-!!! tip "Come impostare il tuo intervento"
-    Idea di fondo: **l'oratoria è una tecnica, non un dono divino.** Come ogni tecnica, richiede metodo, costanza e maestri. Anche chi ha poco talento, con l'applicazione, raggiunge risultati.
+!!! note "Il punto della sua argomentazione"
+    Ha chiuso per la PRO ribadendo che **Quintiliano dimostra che con la disciplina e l'esercizio anche i più giovani arrivano a essere oratori**. Ha portato l'esempio di **Iseo** raccontato da Plinio: nato in condizioni non favorevoli, si è fatto da solo con lo studio.
 
-### 1. La natura dell'uomo è l'apprendimento
+**Riferimenti ai testi che ha fatto**
 
-Quintiliano ribalta la scusa "non ho talento": così come gli uccelli sono fatti per volare, **l'uomo è fatto per imparare**. I ragazzi incapaci esistono, ma sono una rarità (come i corpi mostruosi). Se un ragazzo non impara, la colpa è quasi sempre dell'educatore, non della natura.
+- **Quintiliano, *Institutio Oratoria* I e X**: la disciplina e l'esercizio rendono capaci i giovani.
+- **Plinio, *Epistulae* II, 3**: ha portato l'esempio di **Iseo**, l'oratore che si è formato dallo studio costante nonostante una vita avversa — l'esempio mancato da Riccardo.
+- **Tacito** (in chiave di confutazione): ha ribadito che senza pratica/educazione l'oratoria non avviene, prendendo lo stesso Tacito per dire che il punto è proprio l'educazione, non la natura.
 
-### 2. La tecnica si costruisce con tre esercizi combinati
+**Riferimenti che avrebbe potuto aggiungere**
 
-| Esercizio | Cosa dà |
-|-----------|---------|
-| **Scrittura** | Solidità e robustezza |
-| **Lettura** | Modelli da imitare |
-| **Parola** | L'arte in azione |
+- La **citazione testuale** di Plinio su Iseo: *"si formò queste qualità con lo studio e l'esercizio, poiché giorno e notte non fa altro"* — sarebbe stata la chiusura perfetta.
+- Una **mossa retorica** sul punto debole dei CONTRO: anche Tacito dice che l'oratoria è decaduta per la cattiva educazione, quindi indirettamente conferma che l'educazione conta — un'arma per ribaltare l'avversario nel momento finale.
 
-Nessuno nasce oratore. L'oratore è come l'**atleta**: imparate le regole, deve allenarsi.
+**Valutazione sui criteri della griglia**
 
-### 3. Esempio vivente: Iseo (Plinio)
+- *Efficacia appello finale*: **ottimo** — ha chiuso con Iseo, lasciando un'immagine forte e concreta.
+- *Uso del corpo e della voce*: **ottimo** — ritmo sicuro, ha tenuto l'attenzione fino in fondo.
+- *Utilizzo delle fonti*: **bene** — ottimo riferimento a Plinio, ma poteva citare il passo alla lettera.
 
-Iseo parla improvvisando, ma sembra aver preparato ogni virgola. Come ci è riuscito? "Si formò queste qualità con lo **studio e l'esercizio**, poiché giorno e notte non fa altro". La sua eccellenza è **provata dal metodo**, non da un dono misterioso.
+!!! tip "Il mio commento sul voto"
+    Il **9,5** è perfettamente meritato. Marta ha recuperato in chiusura il riferimento a Iseo che Riccardo aveva mancato, e ha chiuso con un'immagine concreta che lascia il segno. Insieme a Riccardo è stata la migliore della PRO.
 
-### 4. Anche l'ambiente si può costruire
+---
 
-Se Tacito dice che servono condizioni sociali giuste, Quintiliano risponde: benissimo, **creiamole**. Scegliamo nutrici che parlino bene, genitori colti, maestri severi. Cornelia, madre dei Gracchi, non era un caso di fortuna: era una donna che **volle** costruire quei figli.
+### Anna D. — Sostenitore 1 — **voto 8**
 
-### 5. Contrattacco a Seneca
+!!! note "Il punto della sua argomentazione"
+    Ha sostenuto la PRO portando riferimenti aggiuntivi e usando in modo intelligente lo stesso Tacito in chiave PRO: Tacito è severo perché vorrebbe rivoluzionare la società, ma proprio questo dimostra che l'oratoria potrebbe ancora insegnarsi se l'ambiente fosse giusto.
 
-Seneca dice che lo stile riflette la società. Vero, ma questo non è un argomento contro l'insegnamento: è un argomento **a favore della responsabilità educativa**. Se la società corrompe il linguaggio, la scuola è l'unico argine. Rinunciare a insegnare significa accettare la decadenza.
+**Riferimenti ai testi che ha fatto**
 
-## Argomenti per la squadra CONTRO
+- **Plinio, *Epistulae***: studio dell'oratoria e dei costumi.
+- **Seneca, *Epistulae***: in chiave di confutazione del CONTRO.
+- **Tacito, *Dialogus***: usato in chiave PRO — Tacito vuole "rivoluzionare la società", quindi crede ancora possibile insegnare l'oratoria.
 
-!!! tip "Come impostare il tuo intervento"
-    Idea di fondo: **non basta la tecnica.** L'oratoria autentica nasce da un animo forte e da una società sana. Puoi insegnare le regole, ma non il carattere e il contesto che producono un vero oratore.
+**Riferimenti che avrebbe potuto aggiungere**
 
-### 1. Gli antichi, senza scuole di retorica, erano migliori
+- Una **citazione testuale** di Plinio su Iseo.
+- **Quintiliano X**, che a quel punto non era ancora stato citato bene dalla sua squadra.
+- L'esempio delle madri romane di Tacito (Cornelia, Aurelia, Azia): formavano oratori senza precettori, ma proprio perché credevano nell'educazione.
 
-Tacito fa notare che Cornelia, Aurelia, Azia formarono Gracchi, Cesare e Augusto **senza precettori professionisti**. La grandezza oratoria romana nasce in casa, nel *mos maiorum*, non nelle scuole.
+**Valutazione sui criteri della griglia**
 
-### 2. Le scuole moderne non producono più oratori
+- *Interviene senza togliere la parola*: **sì, buono** — ha rispettato i tempi.
+- *Uso del corpo e della voce*: **medio** — voce un po' bassa.
+- *Capacità di tenere l'attenzione*: **medio** — non sempre coinvolgente.
+- *Rispetto dell'avversario*: **buono** — ha lasciato spazio.
+- *Efficacia*: **medio-buono** — riferimenti presenti ma poco incisivi.
 
-Eppure oggi i precettori esistono, le scuole di retorica ci sono, i trattati circolano... e l'eloquenza è **decaduta**. Se la tecnica bastasse, con più scuole avremmo più Cicerone. Invece abbiamo meno. Quindi la tecnica non basta.
+!!! tip "Il mio commento sul voto"
+    L'**8** mi pare giusto. È stata corretta nel ruolo di sostenitrice ma poco incisiva nella voce. La mossa di girare Tacito contro la sua stessa squadra era buona, ma è stata esposta in modo poco vigoroso.
 
-### 3. Il linguaggio è lo specchio della vita (Seneca)
+---
 
-*Talis hominibus fuit oratio qualis vita*. Se la società è dissoluta, anche il linguaggio si corrompe: metafore ardite, frasi tronche, stile gonfio. Non è un problema che si risolve con un corso: è un problema morale e collettivo.
+### Anna N. — Sostenitore 2 — **voto 8**
 
-### 4. L'educazione vera è prima dei maestri
+!!! note "Il punto della sua argomentazione"
+    Ha sostenuto la PRO concentrandosi su **Plinio il Giovane** e sull'idea che il discorso continuo, costantemente esercitato, è il vero mezzo per formare un oratore. Iseo è l'esempio: continua a studiare anche da anziano.
 
-Tacito è chiarissimo: il danno avviene **prima** della scuola. Il bambino cresciuto tra chiacchiere di schiavi, passione per gladiatori e istrioni, è già perduto. Nessun precettore recupererà un animo così formato.
+**Riferimenti ai testi che ha fatto**
 
-### 5. Contrattacco a Quintiliano
+- **Plinio, *Epistulae* II, 3**: Iseo che mette in pratica l'eloquenza e continua a studiare giorno e notte.
 
-Quintiliano stesso ammette che tutto dipende dalla **nutrice** e dai **genitori**: cioè dal contesto familiare e sociale, non dalla tecnica. Se anche lui riconosce che l'educazione inizia nel grembo materno, sta in realtà dando ragione a noi: senza un ambiente giusto, nessuna tecnica salva.
+**Riferimenti che avrebbe potuto aggiungere**
 
-## Confronto tra i quattro autori
+- La **citazione testuale**: *"ha varcato i sessanta anni, né fu altro mai che retore"*. Plinio sottolinea che la sua eccellenza è frutto solo di esercizio prolungato.
+- La **memoria prodigiosa** di Iseo: ripete tutto senza neanche una virgola fuori posto — prova che è esercizio, non talento.
+- **Quintiliano X** sui tre esercizi, per ancorare l'esempio di Iseo alla teoria.
 
-### Tabella di sintesi
+**Valutazione sui criteri della griglia**
 
-| Autore | Opera | Tesi | Parola chiave |
-|--------|-------|------|---------------|
-| **Quintiliano** | *Institutio Oratoria* I, 1-3 | Tutti possono imparare, basta la *diligentia* | **Natura + educazione** |
-| **Quintiliano** | *Institutio Oratoria* X, 1-4 | Scrivere, leggere, parlare: i tre esercizi dell'oratore | **Esercizio combinato** |
-| **Plinio il Giovane** | *Epistulae* II, 3 | Iseo mostra che lo studio continuo produce l'eccellenza | **Studio e fatica** |
-| **Tacito** | *Dialogus de Oratoribus* 28-29 | L'oratoria decade per le cattive condizioni sociali e familiari | ***Mos maiorum*** perduto |
-| **Seneca** | *Epistula* CXIV | Lo stile riflette la morale della società | **Oratio = vita** |
+- *Interviene senza togliere la parola*: **sì, buono**.
+- *Uso del corpo e della voce*: **medio**, leggermente più incisiva di Anna D.
+- *Capacità di tenere l'attenzione*: **sì, buono**.
+- *Rispetto dell'avversario*: **sì, bene**.
+- *Efficacia*: **buona** — Plinio è stato usato bene come esempio.
 
-### Le due visioni a confronto
+!!! tip "Il mio commento sul voto"
+    L'**8** è condivisibile. Ha portato bene Plinio e Iseo, ma le è mancata la citazione testuale che avrebbe reso il discorso veramente incisivo. Stesso voto di Anna D. coerente: entrambe corrette ma non brillanti.
 
-```mermaid
-flowchart TB
-    Q["Quintiliano + Plinio<br/>(scuola e tecnica)"]
-    T["Tacito + Seneca<br/>(società e carattere)"]
+---
 
-    Q --> Q1["La natura umana è aperta all'apprendimento"]
-    Q --> Q2["Metodo: scrivere, leggere, parlare"]
-    Q --> Q3["Esempio: Iseo, formato dallo studio"]
+## Squadra CONTRO
 
-    T --> T1["Le cause sono fuori dalla scuola:<br/>famiglia, costumi, società"]
-    T --> T2["Lo stile è specchio della vita"]
-    T --> T3["Rimpianto del mos maiorum"]
-```
+### Sara — Oratore 1 (introduce la tesi) — **voto 8+**
 
-### Il punto in cui si toccano
+!!! note "Il punto della sua argomentazione"
+    Ha aperto per la CONTRO sostenendo che l'oratoria non si svilupperà mai come pura tecnica: anche Quintiliano dice che servono natura ed esercizio. Ha portato il discorso sulla decadenza della società, citando Tacito sui bambini cresciuti da nutrici, allontanati dalla famiglia e affidati a persone meno raffinate.
 
-!!! abstract "Attenzione: non sono poi così lontani"
-    Quintiliano dice che l'educazione inizia **dalla nutrice**, cioè dal contesto familiare. Tacito dice che l'educazione decade perché **il contesto familiare** è peggiorato. I due parlano della stessa cosa: **l'ambiente educativo**.
+**Riferimenti ai testi che ha fatto**
 
-    La differenza è di **tono**:
+- **Quintiliano *Institutio* I** (usato contro la PRO): il binomio natura + esercizio, per dire che la sola tecnica non basta.
+- **Tacito, *Dialogus* 28**: il bambino cresciuto da nutrici e schiavi scadenti, lontano dal *mos maiorum*.
+- Accenno a **Seneca**.
 
-    - Quintiliano è **ottimista e pedagogico**: "costruiamo l'ambiente giusto, e l'oratoria si può insegnare"
-    - Tacito è **pessimista e moralista**: "l'ambiente giusto non c'è più, quindi l'oratoria è decaduta"
-    - Seneca è **etico e radicale**: "il problema non è la scuola ma l'anima della società"
+**Riferimenti che avrebbe potuto aggiungere**
 
-    Plinio si inserisce come **prova pratica** della tesi di Quintiliano: Iseo è la dimostrazione che, quando l'ambiente e lo studio si combinano, l'eccellenza oratoria è ancora possibile.
+- Il **confronto esplicito** di Tacito con il passato: **Cornelia, Aurelia, Azia** — le madri romane che formavano figli grandi senza precettori, proprio perché l'educazione era familiare e morale, non scolastica.
+- Il **proverbio greco** di Seneca: *"talis hominibus fuit oratio qualis vita"* (tale fu per gli uomini il linguaggio, quale fu la vita) — sarebbe stato un colpo perfetto per aprire la CONTRO.
+- L'immagine di Tacito su **istrioni, gladiatori e cavalli** che corrompono i bambini fin dal grembo materno.
 
-### Contesto storico
+**Valutazione sui criteri della griglia**
 
-- **Quintiliano** scrive sotto Domiziano (I sec. d.C.): è maestro di retorica a Roma, per lui l'insegnamento è la missione di una vita
-- **Plinio il Giovane** è suo allievo: l'elogio di Iseo è un'idea quintilianea applicata
-- **Tacito** scrive il *Dialogus* all'inizio del II sec.: guarda indietro con nostalgia al tempo della libertà repubblicana, quando l'oratoria era potere politico
-- **Seneca** (I sec. d.C.) scrive a Lucilio in chiave filosofico-stoica: per lui ogni aspetto della vita (cibo, vestiti, linguaggio) dipende dalla salute morale dell'animo
+- *Introduce il tema e la tesi*: **abbastanza** — ha presentato la tesi contro, ma mescolando un po' confusamente autori delle due squadre.
+- *Uso del corpo e della voce*: **poco** — voce bassa, poco incisiva, ha attirato poca attenzione.
+- *Utilizzo delle fonti*: **buono** — il riferimento a Tacito sulle nutrici è stato il punto migliore.
 
-## Checklist
+!!! tip "Il mio commento sul voto"
+    L'**8+** mi sembra adeguato. La struttura della sua introduzione era un po' confusa (ha mescolato Quintiliano con i suoi autori CONTRO senza chiarire il gioco), e l'esposizione orale era debole. Però ha portato bene il punto centrale di Tacito, quindi un 8 secco sarebbe stato troppo severo.
 
-- [x] Riassunto dei quattro testi
-- [x] Argomenti per la squadra pro
-- [x] Argomenti per la squadra contro
-- [x] Tabella di confronto tra gli autori
-- [x] Diagramma delle due visioni
-- [ ] Memorizzare le citazioni chiave (soprattutto *talis hominibus fuit oratio qualis vita*)
-- [ ] Preparare una frase di apertura e una di chiusura per il tuo intervento
+---
 
-## Collegamenti
+### Caterina — Oratore 2 (approfondisce) — **voto 9+**
 
-- **Italiano**: il tema della decadenza linguistica ritorna nel Novecento con Pirandello (la parola che non dice più la verità) e Montale (il "male di vivere" come incapacità di nominare le cose)
-- **Storia**: il passaggio dalla Repubblica all'Impero spegne l'oratoria politica — tema centrale del *Dialogus* di Tacito
-- **Filosofia**: Seneca è stoico, quindi collega lingua, morale e natura in un unico sistema; il parallelo è con il rapporto tra *ingegno* e *animo* tipico dell'etica antica
-- **Ed. civica**: il dibattito *nature vs nurture* (innato contro appreso) è ancora centrale nella pedagogia moderna
-- **Inglese**: T. S. Eliot nel Novecento lamenta la crisi del linguaggio poetico in termini sorprendentemente vicini a Seneca — quando la società si frantuma, il linguaggio si frantuma
+!!! note "Il punto della sua argomentazione"
+    Ha approfondito la CONTRO chiedendo: **l'oratoria può davvero essere insegnata a chiunque?** Ha risposto di no, perché l'abbandono dei costumi antichi e la corruzione del linguaggio rendono impossibile insegnare l'oratoria oggi. Mossa intelligente: ha usato lo stesso Quintiliano (Cornelia e i Gracchi) contro la squadra PRO, per dire che l'educazione vera è familiare, non scolastica.
+
+**Riferimenti ai testi che ha fatto**
+
+- **Tacito, *Dialogus* 28-29**: abbandono dei costumi antichi, decadenza del *mos maiorum*.
+- **Quintiliano** (girato contro la PRO): l'esempio di Cornelia e i Gracchi dimostra che l'educazione era familiare.
+- **Seneca *Epistula* 114**: il linguaggio sofisticato come sintomo di oratoria corrotta.
+- **Quintiliano *Institutio* X** (accenno alla scrittura).
+
+**Riferimenti che avrebbe potuto aggiungere**
+
+- L'immagine vivida di Tacito sull'**ancella greca** e sugli **schiavi scadenti** affidati al bambino oggi — molto più concreta di un riferimento generico ai costumi.
+- La passione per **istrioni, gladiatori, cavalli** di Tacito, esempio applicabile anche al presente.
+- La **progressione della corruzione** di Seneca (corpo → suppellettili → case di marmo → cene stravaganti → linguaggio): un crescendo retorico che avrebbe lasciato il segno.
+
+**Valutazione sui criteri della griglia**
+
+- *Approfondisce i temi introdotti*: **bene** — ha sviluppato il tema della decadenza dei costumi.
+- *Uso del corpo e della voce*: **medio** — voce chiara ma non sempre incisiva.
+- *Utilizzo delle fonti*: **ottimo** — ha usato Tacito, Seneca e perfino Quintiliano contro la sua stessa squadra: una mossa retorica molto intelligente.
+
+!!! tip "Il mio commento sul voto"
+    Il **9+** è ben dato. Il colpo migliore è stato girare Quintiliano contro i PRO (Cornelia educata in famiglia, non a scuola). Però l'esposizione orale era più debole di quella di Riccardo, quindi non arriva al 9,5: il voto è coerente.
+
+---
+
+### Edoardo — Oratore 3 / appello finale — **voto 8**
+
+!!! note "Il punto della sua argomentazione"
+    Ha chiuso per la CONTRO contestando l'analogia di Quintiliano sull'atleta, dicendo di **non averla capita** o di trovarla inadatta. Ha sostenuto che siamo cresciuti in una società corrotta, e in una società così l'oratoria non si può insegnare.
+
+**Riferimenti ai testi che ha fatto**
+
+- **Tacito**: l'oratoria è innata e dipende dal contesto sociale.
+- **Seneca**: non si può insegnare l'oratoria in una società malata.
+
+**Riferimenti che avrebbe potuto aggiungere**
+
+- La **citazione decisiva** di Seneca: *talis hominibus fuit oratio qualis vita* — il colpo finale che avrebbe chiuso il dibattito.
+- La **progressione di Seneca** sulla corruzione (corpo, case di marmo, cene, linguaggio): un crescendo perfetto per un appello finale.
+- Tacito sui **precettori moderni che adulano invece di correggere**: un colpo forte e diretto contro l'idea che la scuola di retorica formi oratori.
+
+**Valutazione sui criteri della griglia**
+
+- *Efficacia appello finale*: **medio** — è rimasto sulla difensiva, e dire "non ho capito l'esempio dell'atleta" in un appello finale è stato un errore strategico: in chiusura non puoi mostrare di non capire l'avversario, devi smontarlo.
+- *Uso del corpo e della voce*: **medio** — niente di particolarmente incisivo.
+- *Utilizzo delle fonti*: **bene** — ha citato Tacito e Seneca, ma in modo generico.
+
+!!! tip "Il mio commento sul voto (contesto il voto)"
+    L'**8** è forse anche generoso. Marta gli ha rubato la scena nell'appello finale con Iseo. La frase "non ho capito l'esempio dell'atleta" è stata un errore retorico: in un appello finale serve un colpo forte, non una domanda. Onestamente un **7,5** sarebbe più aderente alla griglia (efficacia appello finale: medio; corpo/voce: medio; fonti: medio-buono). Se vuoi tenere **8**, motivalo dicendo che ha comunque portato i due autori giusti e ha tenuto la posizione fino in fondo. Sii pronta a difendere l'8 davanti alla prof, perché è il voto su cui potrebbe interrogarti di più.
+
+---
+
+### Beatrice — Sostenitore 1 — **voto 9-**
+
+!!! note "Il punto della sua argomentazione"
+    Ha sostenuto la CONTRO insistendo sul fatto che **in una società corrotta non si impara** l'oratoria: l'indifferenza e la decadenza portano i ragazzi in tutt'altre direzioni. Ha fatto un parallelo forte con il presente — *"la vita è cambiata anche per noi vivi"* — applicando la tesi antica al mondo di oggi.
+
+**Riferimenti ai testi che ha fatto**
+
+- **Seneca** (implicito): il legame vita/linguaggio.
+- **Tacito** (implicito): la decadenza della società.
+
+**Riferimenti che avrebbe potuto aggiungere**
+
+- La **citazione testuale** di Seneca: *talis hominibus fuit oratio qualis vita*.
+- Tacito sulla **differenza tra precettori antichi e moderni** (severità contro adulazione): un punto fortissimo per la sua tesi.
+- L'immagine di Tacito sugli **interessi corrotti** (istrioni, gladiatori, cavalli) — applicabile anche al presente (social, intrattenimento, sport): avrebbe rafforzato il suo parallelo con l'oggi.
+
+**Valutazione sui criteri della griglia**
+
+- *Interviene senza togliere la parola*: **sì, buono**.
+- *Uso del corpo e della voce*: **sì, buono**.
+- *Capacità di tenere l'attenzione*: **buono**.
+- *Rispetto dell'avversario*: **buono**.
+- *Efficacia*: **buona** — il parallelo "anche per noi vivi" è una mossa retorica forte.
+
+!!! tip "Il mio commento sul voto"
+    Il **9-** è un buon voto. Il punto di forza è il parallelo con il presente: portare l'antico nell'attualità è una mossa che colpisce. Le manca però la citazione testuale precisa di Seneca o Tacito, e per questo non arriva al 9 pieno.
+
+---
+
+### Emanuele — Sostenitore 2 — **voto 9-**
+
+!!! note "Il punto della sua argomentazione"
+    Ha sostenuto la CONTRO portando il tema della **necessità di una guida educativa**: cita Seneca per dire che chi si forma da solo non diventa oratore. Chi sostiene che l'oratoria si impara, secondo lui, parla solo di esercitazione tecnica, non di vera oratoria.
+
+**Riferimenti ai testi che ha fatto**
+
+- **Seneca, *Epistula* 114**: necessità di una guida; il fatto che senza un contesto sano l'oratoria non si forma.
+- **Tacito** (implicito): la decadenza dei precettori.
+
+**Riferimenti che avrebbe potuto aggiungere**
+
+- Il **proverbio greco** di Seneca: *talis hominibus fuit oratio qualis vita* — la citazione chiave della sua tesi.
+- La **progressione della corruzione** di Seneca (corpo → suppellettili → case → cene → linguaggio).
+- L'**analogia di Seneca** tra animo molle e linguaggio gonfio: *"se l'animo si è illanguidito, le membra si trascinano e i piedi si muovono pigramente"* — un'immagine fortissima per la tesi CONTRO.
+
+**Valutazione sui criteri della griglia**
+
+- *Interviene senza togliere la parola*: **sì, buono**.
+- *Uso del corpo e della voce*: **molto buono**.
+- *Capacità di tenere l'attenzione*: **buono**.
+- *Rispetto dell'avversario*: **buono**.
+- *Efficacia*: **buona**.
+
+!!! tip "Il mio commento sul voto"
+    Il **9-** è coerente con quello di Beatrice. Emanuele ha portato Seneca con un argomento serio (la necessità della guida) e con buona presenza scenica, ma gli è mancata la citazione decisiva. Stesso voto: hanno espresso una posizione simile con efficacia simile.
+
+---
+
+## Schema di confronto rapido per la prof
+
+Se la prof ti chiede a bruciapelo "perché 9 a Giulio e 9,5 a Riccardo?", tieni in mente:
+
+| Confronto | Differenza che giustifica il voto |
+|-----------|----------------------------------|
+| **Giulio (9) vs Riccardo (9,5)** | Giulio ha citato un solo testo, Riccardo tre testi diversi e usati per costruire un'argomentazione |
+| **Sara (8+) vs Caterina (9+)** | Sara ha confuso autori delle due squadre, Caterina ha girato Quintiliano contro i PRO con una mossa retorica intelligente |
+| **Marta (9,5) vs Edoardo (8)** | Marta ha chiuso con Iseo (immagine concreta), Edoardo ha mostrato di non capire l'esempio dell'avversario |
+| **Anna D./N. (8) vs Beatrice/Emanuele (9-)** | I sostenitori CONTRO hanno fatto paralleli più forti con il presente e mostrato più presenza scenica |
+
+## I tre punti che voglio sottolineare alla prof
+
+1. **La squadra PRO ha vinto sui riferimenti** (Quintiliano I, Quintiliano X, Plinio: tre testi a disposizione, usati tutti).
+2. **La squadra CONTRO ha vinto sulle mosse retoriche** (specialmente Caterina che ha girato Quintiliano contro la PRO, e Beatrice che ha portato l'antico nel presente).
+3. **L'appello finale è stato sbilanciato**: Marta ha chiuso con un esempio concreto (Iseo), Edoardo è rimasto sulla difensiva. Per questo i voti dei due oratori finali sono distanti (9,5 vs 8).
