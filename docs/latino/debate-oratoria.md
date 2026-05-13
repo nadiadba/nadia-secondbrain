@@ -32,7 +32,7 @@ Giulio ha aperto il dibattito ponendo agli ascoltatori la domanda di fondo: l'ar
 
 A Giulio avrei suggerito di inserire l'analogia degli uccelli e dei cavalli con cui Quintiliano apre il primo libro dell'*Institutio* ("come gli uccelli sono generati per volare e i cavalli per correre, così è tipicamente nostra la solerte attività dello spirito"), che è l'immagine più immediata per illustrare il concetto di "attività dello spirito" da lui evocato; e di anticipare il proverbio greco riportato da Seneca, *talis hominibus fuit oratio qualis vita*, per disinnescare in apertura l'argomento principale della squadra avversaria.
 
-Ho dato a Giulio **9**. Sul piano dei contenuti l'introduzione è strutturata e coerente: la tesi è chiara, le citazioni di Quintiliano pertinenti, e l'anticipazione dei due nuclei argomentativi della squadra (i tre esercizi e l'esempio di Iseo) ha tracciato bene la mappa del dibattito; apprezzabile anche l'uso dell'obiezione anticipata, che mostra una preparazione accurata. Sul piano dell'esposizione, però, la voce non ha sempre accompagnato la solennità del testo scritto: una resa orale più variata avrebbe valorizzato ulteriormente il discorso.
+Ho dato a Giulio **9**. Sul piano dei contenuti l'introduzione è strutturata e coerente: la tesi è chiara, le citazioni di Quintiliano pertinenti, e l'anticipazione dei due nuclei argomentativi della squadra (i tre esercizi e l'esempio di Iseo) ha tracciato bene la mappa del dibattito; apprezzabile anche l'uso dell'obiezione anticipata, che mostra una preparazione accurata.
 
 ---
 
