@@ -92,21 +92,26 @@ nav:
       - fisica/moderna/nucleare.md
   - Italiano:
     - italiano/index.md
-    - Verismo:
-      - italiano/letteratura/verismo/verga.md
+    - Romanticismo:
+      - italiano/letteratura/romanticismo/movimento.md
+      - italiano/letteratura/romanticismo/leopardi.md
+    - Età postunitaria:
+      - italiano/letteratura/eta-postunitaria/contesto.md
+      - italiano/letteratura/eta-postunitaria/verga.md
     - Decadentismo:
+      - italiano/letteratura/decadentismo/introduzione.md
       - italiano/letteratura/decadentismo/pascoli.md
       - italiano/letteratura/decadentismo/dannunzio.md
-    - Novecento:
-      - italiano/letteratura/novecento/pirandello.md
-      - italiano/letteratura/novecento/svevo.md
-      - italiano/letteratura/novecento/ungaretti.md
-      - italiano/letteratura/novecento/montale.md
-      - italiano/letteratura/novecento/saba.md
-      - italiano/letteratura/novecento/quasimodo.md
-    - Neorealismo:
-      - italiano/letteratura/neorealismo/primo-levi.md
-      - italiano/letteratura/neorealismo/calvino.md
+    - Primo Novecento:
+      - italiano/letteratura/primo-novecento/contesto.md
+      - italiano/letteratura/primo-novecento/futurismo.md
+      - italiano/letteratura/primo-novecento/crepuscolari-gozzano.md
+      - italiano/letteratura/primo-novecento/svevo.md
+      - italiano/letteratura/primo-novecento/pirandello.md
+    - Tra le due guerre:
+      - italiano/letteratura/tra-le-due-guerre/contesto.md
+      - italiano/letteratura/tra-le-due-guerre/ungaretti.md
+      - italiano/letteratura/tra-le-due-guerre/montale.md
     - Divina Commedia:
       - italiano/letteratura/divina-commedia/paradiso.md
     - Scrittura:

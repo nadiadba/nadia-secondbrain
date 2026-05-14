@@ -1,0 +1,48 @@
+# La cultura italiana tra le due guerre
+
+Il periodo tra le due guerre mondiali è, nella storia europea e italiana, uno dei più cupi e drammatici dell'intera età moderna. Il primo dopoguerra eredita un continente esausto, segnato dalla strage delle trincee, dall'epidemia di "spagnola" che fa più morti della guerra, da economie devastate. Le speranze di rinnovamento democratico ed economico che animavano la generazione del 1918 si infrangono rapidamente contro la crisi degli Stati liberali e la successiva ascesa dei totalitarismi: in Italia il fascismo, andato al potere nel 1922 con la "marcia su Roma" e consolidato dopo l'assassinio di Matteotti nel 1924; in Germania il nazismo, vincitore delle elezioni nel 1933 con Hitler cancelliere; in Russia il comunismo di Stalin, che dalla metà degli anni Venti si trasforma in dittatura personale. Su tutto pesa la crisi economica del 1929, che scuote alle fondamenta il sistema capitalistico occidentale.
+
+La seconda guerra mondiale (1939-1945) sarà la catastrofe in cui questa fase precipita: sessanta milioni di morti, la Shoah, l'uso delle armi atomiche, la fine dell'Europa come centro del mondo. Ma anche prima del 1939, gli anni Venti e Trenta sono attraversati da un senso costante di precarietà, di minaccia, di catastrofe imminente. La letteratura italiana di questa stagione vive immersa in questa atmosfera: i suoi grandi protagonisti — Ungaretti, Montale, Saba, ma anche Pavese, Vittorini, Quasimodo — scrivono dentro l'ombra del fascismo, talvolta accomodandosi con esso (raramente), talvolta opponendovi una sorda resistenza interiore (più spesso), talvolta tacendo per anni in attesa di tempi migliori.
+
+## Il fascismo e la cultura
+
+Il rapporto tra letteratura e regime fascista è uno dei nodi più complessi di questa stagione. Mussolini, salito al potere, cerca di costruire un consenso culturale attorno al fascismo, e nel 1925 fa firmare a oltre duecentocinquanta intellettuali il *Manifesto degli intellettuali fascisti*, redatto da Giovanni Gentile, in cui si proclama che il fascismo è un movimento di rigenerazione spirituale dell'Italia. Pochi giorni dopo Benedetto Croce risponde con un proprio *Manifesto degli intellettuali antifascisti*, sottoscritto da altri intellettuali, fra cui Eugenio Montale: è uno dei pochi atti di pubblico dissenso intellettuale che resteranno possibili negli anni successivi. Da allora la vita culturale italiana si divide, sia pure in modo sfumato, tra autori organici al regime (D'Annunzio, anche se da sempre in una posizione molto autonoma; Marinetti e i futuristi; molti accademici), autori che cercano una neutralità di facciata (Pirandello, che si iscrive al partito nel 1924 ma mantiene una propria autonomia ideologica), e autori che restano in una sorda resistenza, scrivendo poesia "non politica" che però sotto sotto dice tutta l'estraneità al regime (Montale di *Ossi di seppia*, Saba del *Canzoniere*).
+
+Il fascismo impone progressivamente il proprio controllo sulla vita culturale: censura della stampa, dirigismo nelle case editrici, leggi razziali del 1938 che escludono dalla vita pubblica gli ebrei italiani (con conseguenze drammatiche su autori come Saba, costretto a nascondersi durante la guerra, e su Levi e Bassani, che vivranno la deportazione e la persecuzione). La cultura italiana di questi anni vive dunque divisa tra il bisogno di esprimersi e l'impossibilità di farlo apertamente. Molti intellettuali emigrano (Salvemini, Gobetti, Sturzo, Borgese); altri si chiudono nel silenzio o nell'esilio interno; altri ancora cercano forme di espressione indiretta, simbolica, criptica.
+
+## Le correnti letterarie
+
+Sul piano delle correnti, gli anni Venti e Trenta vedono il prevalere progressivo della poesia ermetica, il consolidarsi del realismo critico in narrativa, l'inizio della grande stagione del cinema neorealista. La poesia ermetica è il movimento più importante del periodo: un movimento, in larga parte non organizzato, di poeti che si concentra soprattutto a Firenze, attorno a riviste come «Solaria» (1926-1936), «Letteratura» (1937-1947), e ai caffè letterari del centro città. Il nome "ermetismo" venne usato dal critico Francesco Flora in un saggio del 1936, con intento polemico, per indicare una poesia oscura, difficile, chiusa al lettore comune. La parola fu accolta dagli interessati e diventò la denominazione del movimento.
+
+I caratteri della poesia ermetica si possono sintetizzare in pochi tratti. La rinuncia a ogni intento narrativo o discorsivo: la poesia non racconta, non spiega, non argomenta, ma evoca per immagini essenziali. La preferenza per la parola "assoluta", caricata di un valore simbolico al di là del suo significato comune. La frammentazione del verso, ridotto talvolta a una sola parola, isolata sulla pagina. L'analogia come unica forma di connessione tra le immagini: il poeta accosta cose lontane, lasciando al lettore il compito di trovare il legame. L'attenzione totale al silenzio, allo spazio bianco della pagina, alla musicalità sospesa delle parole. I principali esponenti dell'ermetismo sono, oltre a Ungaretti — che ne è il precursore con *L'Allegria* del 1916, anche se Ungaretti rifiuta di essere collocato dentro l'etichetta — Salvatore Quasimodo, Mario Luzi, Alfonso Gatto, Carlo Bo, Oreste Macrì (più critico che poeta). Eugenio Montale viene spesso accostato all'ermetismo ma in realtà se ne distingue per molti aspetti: è più narrativo, più aspro, più legato alla concretezza degli oggetti.
+
+## La narrativa
+
+Sul versante della narrativa, gli anni Venti e Trenta vedono la grande stagione di Svevo (la riscoperta della *Coscienza di Zeno* avviene proprio in questi anni, dopo il 1925), di Pirandello (i suoi grandi romanzi *Uno, nessuno e centomila* e i *Quaderni di Serafino Gubbio operatore* sono del 1925), e l'emergere di una nuova generazione di narratori che si confronta con la realtà sociale dell'Italia fascista in modo critico, anche se necessariamente indiretto. Alberto Moravia esordisce nel 1929 con *Gli indifferenti*, un romanzo che mette in scena la decadenza morale della borghesia romana sotto il fascismo. Cesare Pavese, dalla seconda metà degli anni Trenta, lavora a romanzi e poesie che riflettono la condizione contadina del Piemonte e la difficoltà del rapporto fra individuo e collettività. Elio Vittorini scrive nel 1938-1939 *Conversazione in Sicilia*, allegoria di un viaggio politico-esistenziale verso la coscienza dell'oppressione. Sono tutte esperienze che preparano la grande stagione del Neorealismo del secondo dopoguerra.
+
+## Il cinema e le altre arti
+
+Anche le altre arti, in questi anni, vivono una stagione di rinnovamento. Il cinema italiano del fascismo è inizialmente di propaganda o di intrattenimento (i "telefoni bianchi" degli anni Trenta), ma proprio nei suoi ultimi anni vede l'emergere di registi come Luchino Visconti (*Ossessione*, 1943) e Vittorio De Sica, che preparano il Neorealismo postbellico. La pittura conosce le esperienze del *Novecento italiano*, del *Realismo magico* di Felice Casorati, del *Ritorno all'ordine* di artisti come Carrà e De Chirico. L'architettura del Razionalismo (Terragni, Pagano, Persico) cerca un linguaggio moderno italiano, in dialogo critico con la cultura europea.
+
+## La frattura della Seconda guerra mondiale
+
+Lo spartiacque del periodo è la Seconda guerra mondiale. L'Italia entra in guerra a fianco della Germania nel 1940; subisce gravi sconfitte; nel luglio 1943 Mussolini viene destituito; in settembre l'armistizio di Cassibile divide l'Italia in due (Repubblica Sociale al Nord, Regno del Sud) e dà inizio alla Resistenza armata contro l'occupazione tedesca. La fine della guerra, nel 1945, porta con sé la liberazione dal nazifascismo, ma anche la scoperta della Shoah, della distruzione totale di vaste aree europee, della perdita di milioni di vite, della necessità di ricostruire ex novo una civiltà che pareva finita. Da questo trauma collettivo nasce la nuova letteratura del dopoguerra — Primo Levi, Italo Calvino, Beppe Fenoglio, Carlo Levi — che dovrà fare i conti con l'eredità del fascismo, della guerra, della Resistenza, e che ridefinirà completamente il rapporto fra letteratura e Storia.
+
+## Checklist
+
+- [x] Quadro storico-politico (fascismo, nazismo, crisi del 1929)
+- [x] Rapporti fra cultura e regime fascista
+- [x] Manifesto degli intellettuali fascisti e antifascisti (1925)
+- [x] Leggi razziali del 1938 e loro conseguenze culturali
+- [x] L'Ermetismo: caratteri generali e principali esponenti
+- [x] La narrativa: Svevo, Pirandello, Moravia, Pavese, Vittorini
+- [x] Cinema, pittura, architettura
+- [x] La Seconda guerra mondiale e la Resistenza come spartiacque
+
+## Collegamenti
+
+- **Storia**: l'ascesa del fascismo e del nazismo, la Seconda guerra mondiale, la Resistenza. Tutto il programma di storia del quinto anno è in dialogo diretto con questa pagina.
+- **Filosofia**: Croce e Gentile (i due grandi filosofi italiani del periodo, antagonisti politici); l'esistenzialismo di Heidegger e di Sartre come riflessione filosofica sul tempo della catastrofe.
+- **Inglese**: i grandi modernisti anglofoni (Eliot, Pound, Yeats, Auden) e poi gli scrittori in lingua inglese che vivono l'esperienza della guerra (Hemingway, Orwell con *Animal Farm* e *1984*).
+- **Storia dell'arte**: le avanguardie storiche del primo dopoguerra (Surrealismo, Bauhaus, Astrattismo); l'arte italiana del *Novecento*, del *Ritorno all'ordine*; il Razionalismo architettonico.
+- **Educazione civica**: le leggi razziali, la Resistenza, la Costituzione del 1948 come risposta etica alla catastrofe.
