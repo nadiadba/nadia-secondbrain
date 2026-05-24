@@ -1,0 +1,49 @@
+# Elio Vittorini
+
+Elio Vittorini nasce a Siracusa nel 1908 e muore a Milano nel 1966. La sua biografia è quella di un autodidatta che si forma da solo, fuori dalle scuole, leggendo i grandi narratori americani (Hemingway, Faulkner, Steinbeck, Caldwell) e traducendoli in italiano; di un siciliano che lascia presto l'isola per il Nord industriale, prima Firenze e poi Milano, dove diventa una delle figure centrali dell'editoria italiana del Novecento, prima come consulente di Bompiani, poi di Einaudi, dove dirige negli anni Sessanta la collana "I gettoni", scoprendo molti dei giovani narratori del dopoguerra. La sua attività di scrittore, di traduttore, di direttore di riviste, di editore, fa di lui uno dei grandi intermediari culturali del Novecento, un uomo che ha contribuito a far conoscere all'Italia la letteratura americana moderna e che ha contribuito a far nascere la grande stagione del romanzo italiano del dopoguerra.
+
+## L'engagement antifascista e *Conversazione in Sicilia*
+
+Vittorini esce dal fascismo per gradi. Inizialmente, come molti intellettuali della sua generazione, aderisce con simpatia ad alcuni aspetti del regime, salvo poi maturare una progressiva distanza, accelerata dalla guerra d'Etiopia (1935) e dall'intervento italiano nella guerra civile spagnola (1936). La rottura definitiva avviene nel 1936, quando il fratello Ugo combatte e muore al fianco dei franchisti in Spagna mentre Elio ne sta dalla parte opposta: da quel momento in poi Vittorini sarà sempre più chiaramente schierato contro il fascismo, fino all'adesione al Partito Comunista Italiano dopo la guerra.
+
+Il suo grande romanzo antifascista è *Conversazione in Sicilia*, pubblicato a puntate sulla rivista *Letteratura* nel 1938-39 e in volume nel 1941. È un romanzo strano e nuovo, costruito non come una vicenda lineare ma come una sequenza di incontri e di dialoghi durante un viaggio del protagonista, Silvestro Ferrauto, che torna in Sicilia dopo molti anni di lontananza per andare a trovare la madre. Il viaggio è insieme reale e simbolico: il protagonista attraversa un paese ferito dalla povertà, dalla malattia, dalla sopraffazione, e attraverso una serie di figure paradigmatiche (il "siciliano grande" sul treno, il magnano, gli arrotini, il fratello morto in guerra) riscopre la condizione del proprio popolo, e attraverso di essa riscopre il senso dell'azione politica. La frase che il libro ha reso celebre — "il mondo è offeso" — riassume questa scoperta: c'è in giro per il mondo una sofferenza che chiede di essere riconosciuta, e davanti a cui non si può restare neutrali.
+
+### Il «mondo offeso»
+
+Il passaggio del "mondo offeso" si trova al capitolo XXXV del romanzo, in uno dei dialoghi più intensi fra Silvestro e una delle figure visionarie che incontra nel suo viaggio. Vittorini formula qui la sua idea fondamentale: il mondo non è semplicemente "ingiusto", non è semplicemente attraversato da disuguaglianze; è "offeso", cioè ferito in qualcosa di sacro che gli appartiene, in una dignità che non doveva essere violata. L'offesa al mondo è la guerra, è la persecuzione razziale, è la sofferenza degli innocenti, è la rassegnazione dei poveri che hanno perso anche la capacità di ribellarsi. Davanti a questa offesa lo scrittore non può limitarsi a descrivere: deve scegliere da quale parte stare, deve "scegliere il proprio dolore" fra i tanti possibili.
+
+Il linguaggio del romanzo è una delle invenzioni più originali della prosa italiana del Novecento. Vittorini scrive frasi brevi, ripetute, quasi liturgiche, con un ritmo che ricorda il parlato siciliano e insieme la traduzione dei narratori americani che lui stesso aveva fatto. Le ripetizioni — "il mondo è offeso", "il siciliano è grande", "altri doveri, altri doveri" — danno alla prosa un carattere quasi incantatorio, da litania, che colpisce il lettore come un'eco profonda. È una scrittura "musicale", che cerca un effetto emotivo più che descrittivo, e che ha avuto un'enorme influenza sulla prosa italiana successiva, in particolare su Calvino e sui narratori della collana "I gettoni".
+
+## Il *Politecnico* e la "nuova cultura"
+
+L'altro grande momento dell'esperienza vittoriniana è la direzione della rivista *Il Politecnico*, fondata a Milano nell'autunno del 1945 e pubblicata fino al 1947. È una rivista di grande ambizione intellettuale, che si propone di rifondare la cultura italiana dopo vent'anni di fascismo, costruendo una "nuova cultura" capace di dialogare con la politica senza esserne strumento, di parlare a un pubblico largo senza rinunciare alla qualità, di mettere insieme letteratura, scienza, filosofia, cinema, arte. La rivista alterna pagine letterarie e pagine politiche, traduzioni di Hemingway e inchieste sulle fabbriche, saggi filosofici e poesie, in un disegno enciclopedico che è forse il tentativo più alto compiuto in Italia di costruire una cultura democratica popolare.
+
+### L'«impegno» e la «nuova cultura»
+
+L'editoriale di Vittorini più celebre apparso sul *Politecnico*, e che dà origine alla famosa polemica con Palmiro Togliatti, segretario del PCI, è quello in cui Vittorini definisce la propria idea di "impegno" intellettuale e la propria idea di "nuova cultura". Il punto di partenza è la constatazione che la cultura tradizionale ha fallito: non ha saputo opporsi al fascismo, non ha saputo proteggere l'uomo dalla guerra, non ha saputo cambiare la realtà. Occorre allora una "nuova cultura", che non sia più consolazione e ornamento, ma forza attiva di trasformazione del mondo.
+
+Questa nuova cultura, però, non deve diventare propaganda. Lo scrittore impegnato non è quello che "suona il piffero per la rivoluzione", come scrive Vittorini con una formula famosa che farà infuriare Togliatti, cioè non è quello che si limita a tradurre in opera d'arte le posizioni del partito. Lo scrittore impegnato è quello che mantiene la propria autonomia critica, che pone domande anche scomode al potere a cui in linea di principio è vicino, che difende la propria responsabilità individuale anche dentro un orizzonte politico collettivo. La polemica con Togliatti, che accusa Vittorini di "cedimento al borghesismo", segna il momento di rottura fra molti intellettuali e il PCI ortodosso, e apre una stagione di tensione e di dibattito che attraverserà tutti gli anni Cinquanta.
+
+Quella che Vittorini propone sul *Politecnico* è insomma un'idea di cultura impegnata e libera al tempo stesso: impegnata perché si schiera dalla parte degli sfruttati e degli oppressi, libera perché non accetta di trasformare l'arte in arma di partito. È un'idea che continua a essere discussa, e che ha lasciato un segno profondo non solo nella cultura italiana del dopoguerra, ma anche nel dibattito europeo sul ruolo dell'intellettuale (basti pensare alla parallela discussione francese fra Sartre e il Partito Comunista).
+
+## Le opere successive
+
+Dopo *Conversazione in Sicilia* Vittorini pubblica altri romanzi importanti, fra cui *Uomini e no* (1945), uno dei grandi romanzi della Resistenza milanese; *Il garofano rosso* (1948), libro giovanile rimaneggiato a lungo; *Le donne di Messina* (1949). Negli ultimi anni, però, la sua produzione narrativa diminuisce sensibilmente, e Vittorini si dedica soprattutto al lavoro editoriale, alla direzione della collana "I gettoni" presso Einaudi e poi della rivista *Il menabò* insieme a Italo Calvino. È in questa veste che esercita la sua influenza più duratura sulla letteratura italiana del Novecento: come scopritore di talenti, come traduttore, come maestro di una generazione intera di scrittori.
+
+## Checklist
+
+- [x] Vita: Siracusa, autodidatta, traduttore dall'americano, editore
+- [x] L'antifascismo e la guerra di Spagna
+- [x] *Conversazione in Sicilia*: trama, struttura, linguaggio
+- [x] Il «mondo offeso» (cap. XXXV)
+- [x] Il *Politecnico* e la "nuova cultura"
+- [x] L'«impegno» e la polemica con Togliatti
+- [x] Il lavoro editoriale: "I gettoni" e *Il menabò*
+
+## Collegamenti
+
+- **Storia**: il fascismo, la guerra civile spagnola, la resistenza, la nascita della Repubblica, la guerra fredda e la divisione politica della cultura italiana.
+- **Italiano**: Vittorini è l'erede italiano di Hemingway, di cui traduce e diffonde l'opera in Italia; è anche maestro per Calvino e per molti narratori del dopoguerra; va letto in parallelo a Pavese e a Pasolini, con cui condivide la riflessione sull'impegno.
+- **Filosofia**: la polemica con Togliatti riprende il dibattito tra Sartre e il Partito Comunista Francese sull'autonomia dello scrittore impegnato; ha radici nella riflessione gramsciana sul rapporto fra intellettuali e politica.
+- **Inglese**: la grande passione di Vittorini per la narrativa americana (Hemingway, Faulkner, Steinbeck, Caldwell) si traduce nella celebre antologia *Americana* (1941), una delle prime introduzioni in Italia alla letteratura statunitense del Novecento.
+- **Ed. civica**: l'idea di una "nuova cultura" democratica e popolare, capace di parlare a un pubblico largo senza rinunciare alla qualità, è un tema ancora oggi centrale nel dibattito sulla scuola, sui media, sulla cultura pubblica.
