@@ -1,6 +1,8 @@
 # Giuseppe Ungaretti
 
-Giuseppe Ungaretti nasce ad Alessandria d'Egitto nel 1888 da genitori lucchesi emigrati per costruire il Canale di Suez, e muore a Milano nel 1970. La sua biografia è quella di un esule perpetuo: cresce in Egitto, studia a Parigi all'Università della Sorbona, dove entra in contatto con i grandi protagonisti del modernismo europeo (Apollinaire, Picasso, Mallarmé); torna in Italia allo scoppio della Prima guerra mondiale, si arruola volontario nel reggimento fanteria, combatte in trincea sull'Isonzo e sul Carso; passa il secondo dopoguerra come professore universitario, prima a San Paolo del Brasile, poi a Roma. Più di altri poeti italiani, vive una condizione di sradicamento permanente: nessuna delle sue patrie è davvero la sua patria, e la poesia diventa per lui l'unico luogo possibile di radicamento.
+Ungaretti è il poeta che ha portato in Italia la rivoluzione modernista della poesia europea, e va capito prima di tutto come il primo grande interlocutore italiano del simbolismo francese e delle avanguardie parigine dei primi del Novecento. Formato fra l'Egitto della sua infanzia e la Parigi della sua giovinezza, in dialogo diretto con Apollinaire, Picasso, Mallarmé e Valéry, Ungaretti porta nella tradizione poetica italiana un sismo formale di portata enorme: con *L'Allegria* del 1916 (prima edizione *Il porto sepolto*) la metrica regolare, la punteggiatura, la sintassi tradizionale del verso italiano vengono di colpo abbandonate, sostituite da un verso brevissimo, spesso ridotto a una sola parola, isolato in mezzo al bianco della pagina. È una rivoluzione che condivide con il Futurismo l'abbandono delle convenzioni metriche, ma che si rivolge in direzione opposta: dove i futuristi accumulano rumore e velocità, Ungaretti cerca silenzio, condensazione, "parola assoluta".
+
+Questa scelta nasce in modo diretto da un'esperienza biografica che è anche un'esperienza culturale collettiva: la trincea della Prima guerra mondiale. Combattendo come fante volontario sul Carso e sull'Isonzo, vedendo morire i compagni a un metro di distanza, Ungaretti capisce che la lingua "letteraria" della tradizione — quella enfatica e oratoria di D'Annunzio — non basta più a dire l'esperienza estrema dell'uomo davanti alla morte. Occorre una lingua scarnificata, fatta di poche parole assolutamente necessarie, capaci di portare il peso di un'intera vita in poche sillabe. Da questa scoperta nasce la celebre poetica della "parola essenziale", e nasce anche la posizione che Ungaretti occupa nella storia della poesia italiana del Novecento: insieme a Montale e a Saba è uno dei tre grandi maestri del secolo, e in particolare è quello che ha dato voce, più di chiunque altro, alla generazione spezzata dalla Grande Guerra. La sua condizione esistenziale di sradicato permanente — nessuna delle sue molte patrie (l'Egitto, la Francia, l'Italia, il Brasile) è davvero la sua patria — è anche, simbolicamente, la condizione novecentesca dell'uomo moderno, per cui la poesia diventa l'unico luogo possibile di radicamento.
 
 ## La concezione della poesia
 
@@ -231,7 +233,7 @@ A partire dal *Sentimento del tempo* (1933) Ungaretti compie una svolta: torna a
 
 ## Checklist
 
-- [x] Vita (cenni: Alessandria d'Egitto, Parigi, guerra, Brasile, Roma)
+- [x] Inquadramento: la rivoluzione modernista, il dialogo con Parigi, la generazione della Grande Guerra
 - [x] La concezione della poesia: la "parola essenziale"
 - [x] La rivoluzione formale de *L'Allegria*: verso libero, abolizione della punteggiatura
 - [x] *In memoria* (testo integrale)

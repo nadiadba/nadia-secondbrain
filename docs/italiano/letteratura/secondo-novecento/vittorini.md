@@ -1,6 +1,8 @@
 # Elio Vittorini
 
-Elio Vittorini nasce a Siracusa nel 1908 e muore a Milano nel 1966. La sua biografia è quella di un autodidatta che si forma da solo, fuori dalle scuole, leggendo i grandi narratori americani (Hemingway, Faulkner, Steinbeck, Caldwell) e traducendoli in italiano; di un siciliano che lascia presto l'isola per il Nord industriale, prima Firenze e poi Milano, dove diventa una delle figure centrali dell'editoria italiana del Novecento, prima come consulente di Bompiani, poi di Einaudi, dove dirige negli anni Sessanta la collana "I gettoni", scoprendo molti dei giovani narratori del dopoguerra. La sua attività di scrittore, di traduttore, di direttore di riviste, di editore, fa di lui uno dei grandi intermediari culturali del Novecento, un uomo che ha contribuito a far conoscere all'Italia la letteratura americana moderna e che ha contribuito a far nascere la grande stagione del romanzo italiano del dopoguerra.
+Vittorini è uno dei grandi intermediari culturali del Novecento italiano, ed è anche uno dei rari intellettuali che hanno saputo essere contemporaneamente scrittori in proprio, traduttori, direttori di riviste e editori capaci di scoprire e lanciare un'intera generazione di narratori. La sua posizione nella storia letteraria del secolo è duplice e va sempre tenuta presente: da un lato è l'autore di *Conversazione in Sicilia* (1938-1941), uno dei più importanti romanzi antifascisti italiani, costruito con una lingua scarna, ripetitiva, quasi liturgica, che ha avuto un'enorme influenza sulla prosa italiana successiva (a partire da Calvino); dall'altro è il direttore del *Politecnico* nel 1945-1947 e poi delle collane einaudiane "I gettoni" e *Il menabò*, ruoli da cui ha contribuito a costruire materialmente la grande stagione del romanzo italiano del dopoguerra, scoprendo i giovani narratori che avrebbero segnato la letteratura nazionale per i decenni successivi.
+
+La sua importanza storica si capisce davvero quando lo si pensa come ponte fra due mondi diversi. Il primo è quello della grande narrativa americana moderna — Hemingway, Faulkner, Steinbeck, Caldwell — che Vittorini ha tradotto, antologizzato (nella celebre *Americana* del 1941) e diffuso in Italia in un momento in cui il regime fascista vedeva nella cultura statunitense un nemico politico. Il secondo è quello del grande dibattito europeo del secondo dopoguerra sul ruolo dell'intellettuale impegnato, dibattito di cui Vittorini è uno dei protagonisti principali, e in cui resterà celebre la sua polemica con Palmiro Togliatti sull'autonomia dello scrittore: lo scrittore impegnato — è la sua tesi — non è quello che "suona il piffero per la rivoluzione", cioè non è quello che si limita a tradurre in opera d'arte le posizioni del partito, ma è quello che mantiene una propria autonomia critica anche dentro l'orizzonte politico a cui aderisce. È una posizione che ha lasciato un segno profondo non solo nella cultura italiana del dopoguerra, ma anche nel parallelo dibattito francese fra Sartre e il Partito Comunista Francese.
 
 ## L'engagement antifascista e *Conversazione in Sicilia*
 
@@ -32,7 +34,7 @@ Dopo *Conversazione in Sicilia* Vittorini pubblica altri romanzi importanti, fra
 
 ## Checklist
 
-- [x] Vita: Siracusa, autodidatta, traduttore dall'americano, editore
+- [x] Inquadramento: scrittore-editore-traduttore, ponte fra narrativa americana e dibattito sull'impegno
 - [x] L'antifascismo e la guerra di Spagna
 - [x] *Conversazione in Sicilia*: trama, struttura, linguaggio
 - [x] Il «mondo offeso» (cap. XXXV)

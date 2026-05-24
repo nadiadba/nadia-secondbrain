@@ -1,14 +1,12 @@
 # Italo Svevo
 
-Italo Svevo, pseudonimo di Aron Hector Schmitz, nasce a Trieste nel 1861 e muore a Motta di Livenza nel 1928, in seguito a un incidente d'auto. Lo pseudonimo, "Italo Svevo" — italiano e tedesco insieme —, è già una dichiarazione di identità: Svevo è un triestino di cultura mitteleuropea, di lingua italiana e di formazione tedesca, ebreo, cittadino della frontiera tra mondi che alla sua nascita appartenevano ancora all'Impero austro-ungarico e che sarebbero diventati italiani solo dopo la Prima guerra mondiale. Questa identità ibrida è essenziale per capirne l'opera: Svevo porta nella letteratura italiana, ancora in larga parte legata a modelli ottocenteschi, le grandi correnti della cultura mitteleuropea — la filosofia di Schopenhauer e di Nietzsche, la psicoanalisi di Freud, la sensibilità per l'inconscio, per la malattia, per l'inettitudine — che in Italia, prima di lui, erano poco frequentate.
+Svevo è il romanziere che ha portato la letteratura italiana dentro il grande dibattito europeo sulla crisi del soggetto e sull'inconscio, ed è anche, in modo più radicale di qualunque suo contemporaneo italiano, l'autore che ha rotto la continuità con la tradizione narrativa ottocentesca per inaugurare il romanzo novecentesco. La sua importanza si capisce meglio se lo si pensa come l'omologo italiano di Joyce, di Proust, di Kafka — autori con cui condivide l'attenzione al monologo interiore, la frantumazione dell'io, l'inettitudine come condizione esistenziale, la sospensione del giudizio morale tradizionale — più che come un erede della grande narrativa italiana di Manzoni e di Verga. Non a caso fu proprio Joyce, che a Trieste gli dava lezioni di inglese, il primo grande lettore europeo a riconoscerne il valore e a contribuire alla riscoperta tardiva della sua opera negli anni Venti.
+
+Già il suo pseudonimo, "Italo Svevo" (italiano e tedesco insieme), è una dichiarazione di identità: triestino di cultura mitteleuropea, di lingua italiana e di formazione tedesca, ebreo, cittadino di una città di frontiera che alla sua nascita apparteneva ancora all'Impero austro-ungarico, Svevo è il primo scrittore italiano che porta nella nostra letteratura — ancora largamente provinciale rispetto al resto d'Europa — le grandi correnti della cultura mitteleuropea: la filosofia di Schopenhauer e di Nietzsche, la psicoanalisi di Freud, la sensibilità per l'inconscio, per la malattia psichica, per l'inettitudine come condizione conoscitiva privilegiata. Senza di lui, semplicemente, non ci sarebbe stato il romanzo italiano del Novecento come lo conosciamo: tutto ciò che da Pirandello a Moravia, dalla narrativa di Gadda fino al romanzo psicologico contemporaneo, ha fatto dell'io frammentato e della coscienza inattendibile la materia stessa della narrazione, deve a *La coscienza di Zeno* del 1923 il proprio modello fondativo.
 
 ## Il contesto culturale: Trieste e la Mitteleuropa
 
 Trieste è una città unica nel panorama italiano del primo Novecento. Crocevia di lingue (italiano, sloveno, tedesco, croato), di popoli, di religioni, ha una borghesia mercantile colta e cosmopolita, una forte presenza ebraica, un legame stretto con Vienna. Nei primi decenni del Novecento vi si incontrano scrittori e intellettuali di altissimo livello — Italo Svevo, Umberto Saba, Scipio Slataper, e più tardi James Joyce, che vi vivrà a lungo e che diventerà amico di Svevo — e vi si forma una particolare sensibilità culturale, in cui la psicoanalisi di Freud, ancora poco nota nel resto d'Italia, è invece di casa: il primo grande studio italiano sulla psicoanalisi sarà scritto proprio da uno psichiatra triestino, Edoardo Weiss. Senza questo contesto, *La coscienza di Zeno* non sarebbe stata possibile.
-
-## La vita
-
-La vita di Svevo si può ridurre a pochi tratti essenziali. Costretto presto ad abbandonare gli studi universitari per ragioni economiche, lavora per oltre vent'anni come impiegato di banca a Trieste, mestiere che detesta. Pubblica a proprie spese, senza alcun successo, due romanzi: *Una vita* nel 1892 e *Senilità* nel 1898. L'indifferenza della critica e del pubblico lo convince a smettere di scrivere per più di vent'anni. Sposatosi con la cugina Livia Veneziani, entra nell'azienda della famiglia della moglie, una fabbrica di vernici per navi, di cui diventa dirigente. Per motivi di lavoro deve perfezionare il proprio inglese, e nel 1907 prende lezioni private da un giovane irlandese stabilitosi a Trieste: James Joyce. L'incontro con Joyce sarà decisivo: Joyce lesse i romanzi di Svevo, li ammirò, e dopo qualche anno, divenuto famoso in Europa, contribuirà personalmente alla riscoperta dello scrittore triestino. Nel 1923 Svevo pubblica, di nuovo a proprie spese, *La coscienza di Zeno*, che inizialmente passa inosservato; ma grazie a Joyce e a Valéry Larbaud il libro viene scoperto in Francia e da lì si diffonde in tutta Europa. Quando Svevo muore, nel 1928, è ormai uno scrittore riconosciuto.
 
 ## La figura dell'inetto
 
@@ -66,8 +64,8 @@ Quando *La coscienza di Zeno* fu finalmente scoperto in Europa, fu Eugenio Monta
 
 ## Checklist
 
+- [x] Inquadramento: l'omologo italiano di Joyce, Proust, Kafka; chi ha portato in Italia la crisi del soggetto novecentesca
 - [x] Contesto storico-culturale: Trieste e la Mitteleuropa
-- [x] Vita di Svevo (cenni essenziali)
 - [x] La cultura e la figura dell'inetto
 - [x] *Una vita*: trama, brano *Le ali del gabbiano*
 - [x] *Senilità*: trama e poetica

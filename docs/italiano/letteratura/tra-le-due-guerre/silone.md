@@ -1,6 +1,8 @@
 # Ignazio Silone
 
-Ignazio Silone, pseudonimo di Secondino Tranquilli, nasce nel 1900 a Pescina dei Marsi, in Abruzzo, e muore a Ginevra nel 1978. La sua biografia è quella di un intellettuale segnato da due grandi traumi e da una lunga militanza politica. Il primo trauma è il terremoto della Marsica del 1915, che distrugge il suo paese natale, uccide la madre e gran parte della famiglia, e lascia il giovane Secondino in una condizione di solitudine assoluta. Il secondo trauma è la scoperta, da militante comunista negli anni Venti, della distanza incolmabile fra gli ideali di emancipazione contadina e la realtà del Partito Comunista d'Italia, fino alla rottura definitiva con lo stalinismo nel 1931 e all'esilio in Svizzera. È proprio nell'esilio svizzero che Silone scrive, in poco più di un anno e in lingua tedesca, *Fontamara* (1933), il romanzo che lo rende immediatamente uno degli scrittori italiani più letti nel mondo.
+Silone è uno dei pochissimi scrittori italiani del Novecento che abbia portato la condizione del Mezzogiorno contadino al centro di un grande romanzo antifascista di respiro europeo, e va capito prima di tutto come una figura cerniera fra due tradizioni che di solito vengono studiate separatamente: il Verismo verghiano da una parte, con la sua attenzione alla vita degli umili del Sud, e il neorealismo del secondo dopoguerra dall'altra, di cui Silone è uno dei principali anticipatori. *Fontamara*, pubblicato in tedesco a Zurigo nel 1933 mentre Silone era in esilio dopo la rottura con lo stalinismo, viene tradotto in pochi anni in tutte le maggiori lingue del mondo e diventa, mentre l'Italia fascista lo proibisce, uno dei romanzi italiani più letti all'estero. È il primo grande romanzo antifascista scritto da un esule, ed è anche il primo libro a portare all'attenzione internazionale la realtà dei "cafoni" della Marsica, quel mondo contadino abruzzese che la propaganda di regime presentava come parte di un'Italia unita e prospera.
+
+La posizione di Silone nella storia della letteratura italiana del Novecento è particolare e per certi versi scomoda. Da un lato è il narratore politico più importante della propria generazione, l'unico che abbia messo i cafoni del Sud al centro di un'opera con la forza di una grande parabola politica; dall'altro è una figura su cui pesa, oggi, una controversia storica seria (la possibile collaborazione giovanile con la polizia politica fascista, emersa negli anni Novanta dagli archivi). Senza entrare nel merito di una discussione che spetta agli storici, ciò che resta letterariamente è la lucidità di un libro che ha smontato il fascismo dall'interno, mostrandone i meccanismi più sottili: la burocrazia che si traveste da legge, la "democrazia" plebiscitaria che chiama consenso l'assenza di alternative, il furto delle risorse comuni mascherato da progresso. Sono temi che a quasi un secolo di distanza continuano a essere attuali, e che fanno di Silone uno dei pochi romanzieri italiani del Novecento la cui critica del potere abbia mantenuto integralmente la propria forza.
 
 ## La poetica e la voce dei "cafoni"
 
@@ -32,7 +34,7 @@ Silone tornerà al mondo della Marsica in due altri romanzi importanti, *Pane e 
 
 ## Checklist
 
-- [x] Vita: terremoto della Marsica, militanza comunista, rottura con lo stalinismo, esilio in Svizzera
+- [x] Inquadramento: cerniera fra Verismo e neorealismo, il primo grande romanzo antifascista in esilio
 - [x] Poetica: la voce dei cafoni, l'eredità del Verga, la letteratura come restituzione di parola
 - [x] *Fontamara*: ambientazione, struttura, significato storico
 - [x] Il furto dell'acqua (cap. II)

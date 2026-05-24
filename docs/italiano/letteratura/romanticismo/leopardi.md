@@ -1,6 +1,8 @@
 # Giacomo Leopardi
 
-Giacomo Leopardi nasce a Recanati nel 1798 e muore a Napoli nel 1837, durante l'epidemia di colera. La sua biografia, fatta di studio matto e disperatissimo nella biblioteca paterna, di malattie del corpo, di delusioni amorose e di una continua ricerca di un altrove che lo salvi dal "natio borgo selvaggio", conta soltanto in quanto premessa al pensiero. È un pensiero che attraversa quasi tutta la prima metà dell'Ottocento europeo e che, pur restando profondamente legato al lessico e alle forme della tradizione classica, anticipa con straordinaria lucidità molti dei temi che saranno propri della filosofia contemporanea: la centralità del corpo, l'inganno del linguaggio, l'illusione del progresso, l'assenza di senso ultimo dell'esistenza.
+Leopardi è una delle voci più radicali del pensiero europeo dell'Ottocento, e insieme uno dei pochi grandi poeti italiani che abbia fatto della propria opera letteraria il prolungamento diretto di una riflessione filosofica sistematica. Lo si studia tradizionalmente come l'ultimo grande classico e il primo grande moderno della nostra letteratura: l'ultimo perché la sua lingua, la sua metrica, la sua cultura sono ancora interamente formate sulla grande tradizione greco-latina e italiana; il primo perché i contenuti che quella lingua porta — il dolore come struttura del reale, l'illusione di ogni consolazione religiosa o progressista, la natura come macchina indifferente al destino dei viventi — sono già pienamente novecenteschi e anticipano molti temi che ritroveremo in Schopenhauer, Nietzsche, Beckett e nell'esistenzialismo del secondo Novecento.
+
+La sua collocazione nel panorama del Romanticismo italiano è eccentrica e va sottolineata. Mentre Manzoni e l'ambiente milanese del «Conciliatore» sviluppano un Romanticismo cattolico, civile, fondato sulla provvidenza e sul progresso morale, Leopardi compie una traiettoria opposta: parte dall'erudizione classicistica e dalla disciplina filologica, e attraverso questa disciplina arriva a una visione del mondo che non concede nulla né alla fede religiosa né alla speranza laica nel progresso. È un pensatore "controcorrente" rispetto al proprio tempo, isolato, polemico, ma proprio per questo l'unico che abbia saputo guardare in faccia la grande crisi spirituale che il Novecento renderà evidente a tutti. Si capisce così perché ancora oggi continua a essere riletto: l'attualità di Leopardi non è una scoperta retorica, è la conseguenza naturale del fatto che le domande che si poneva (cosa resta della felicità quando tutte le illusioni cadono? come si vive sapendo che la natura non ci ha pensati per la felicità? cosa lega ancora gli uomini quando hanno perso ogni fondamento religioso comune?) sono le stesse che noi continuiamo a porci.
 
 ## Le lettere e gli scritti autobiografici
 
@@ -120,7 +122,7 @@ La ginestra non si piega per viltà davanti alla minaccia, ma non si erge per or
 
 ## Checklist
 
-- [x] Vita (cenni essenziali)
+- [x] Inquadramento: l'ultimo classico e il primo moderno, posizione eccentrica nel Romanticismo italiano
 - [x] Lettera al Giordani, Ricordi d'infanzia e d'adolescenza
 - [x] Sistema filosofico: pessimismo storico, cosmico, eroico
 - [x] Poetica del vago e dell'indefinito

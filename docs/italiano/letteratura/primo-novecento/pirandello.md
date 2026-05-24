@@ -1,6 +1,8 @@
 # Luigi Pirandello
 
-Luigi Pirandello, nato a Girgenti (l'attuale Agrigento) nel 1867 e morto a Roma nel 1936, è la voce più filosoficamente radicale del primo Novecento italiano. La sua vita biografica conta poco rispetto al suo pensiero: gli studi di filologia romanza a Bonn, il matrimonio con Antonietta Portulano, la rovina economica della miniera di zolfo paterna nel 1903, la malattia mentale della moglie, l'insegnamento all'Istituto di Magistero di Roma, la lunga carriera di narratore e drammaturgo, il Premio Nobel per la Letteratura nel 1934. Su tutto questo si imprime, in modo direi maniacale, una sola ossessione: il problema dell'identità personale, della relazione tra l'io profondo e le maschere sociali, tra il flusso della vita e le forme rigide in cui essa viene costretta.
+Pirandello è la voce filosoficamente più radicale del primo Novecento italiano, ed è anche il primo autore italiano che abbia portato la letteratura nazionale nel cuore del dibattito europeo sulla crisi del soggetto. Mentre Svevo, suo grande contemporaneo, sviluppa la stessa crisi nel registro chiuso del romanzo borghese mitteleuropeo, Pirandello la porta sulla scena pubblica del teatro, dei romanzi a tiratura larga, delle novelle giornalistiche, e ne fa uno spettacolo che tutta l'Europa colta degli anni Venti riconosce come proprio. Il Premio Nobel del 1934 è la consacrazione internazionale di un percorso che aveva già fatto del suo nome — con la trilogia del "teatro nel teatro" e in particolare con *Sei personaggi in cerca d'autore* del 1921 — una specie di marchio universale per indicare la frantumazione novecentesca dell'io.
+
+L'ossessione attorno a cui ruota tutta la sua opera è il problema dell'identità personale: chi siamo davvero quando ci osserviamo da fuori? esiste un "io" autentico al di sotto delle maschere sociali che indossiamo? la vita è un flusso continuo o si lascia fissare nelle forme stabili che ne diamo? Da questa interrogazione, Pirandello costruisce un sistema teorico — il "relativismo conoscitivo", la dialettica fra "vita" e "forma", la poetica umoristica come "sentimento del contrario" — che attraversa indifferentemente novelle, romanzi e drammi, e che fa di lui una specie di filosofo travestito da scrittore. La sua attualità, a quasi un secolo di distanza, sta proprio in questo: in un'epoca in cui la pluralità delle identità sociali, dei profili pubblici, delle "maschere" che ognuno indossa è diventata l'esperienza quotidiana di chiunque viva sui social media, il relativismo pirandelliano si è rivelato una delle anticipazioni più lucide della condizione contemporanea. Quando Vitangelo Moscarda, in *Uno, nessuno e centomila*, scopre che nessuno lo vede come lui vede se stesso, sta vivendo in anticipo la vertigine di chiunque oggi scopra di esistere in cento versioni diverse — una per piattaforma, una per amicizia, una per ruolo professionale — e non sappia più quale sia quella "vera".
 
 ## La visione del mondo
 
@@ -62,7 +64,7 @@ Il dramma è una macchina filosofica perfetta. I sei personaggi sono più "reali
 
 ## Checklist
 
-- [x] Vita di Pirandello (cenni)
+- [x] Inquadramento: la crisi novecentesca del soggetto portata in scena, attualità del relativismo
 - [x] Visione del mondo: vita e forma
 - [x] Relativismo conoscitivo
 - [x] Poetica e *L'umorismo* (avvertimento e sentimento del contrario)

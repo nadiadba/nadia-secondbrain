@@ -1,6 +1,8 @@
 # Giovanni Verga
 
-Giovanni Verga, nato a Catania nel 1840 e morto nella stessa città nel 1922, è il più grande narratore italiano del secondo Ottocento e il fondatore del Verismo. La sua biografia letteraria si può riassumere in poche tappe: i romanzi giovanili di ambiente mondano scritti tra Firenze e Milano, l'incontro con la cultura del Naturalismo francese, la conversione verista a partire dalla novella *Nedda* del 1874, il ritorno immaginativo alla Sicilia degli umili, l'elaborazione del progetto del ciclo dei Vinti — di cui realizzerà soltanto i primi due romanzi, *I Malavoglia* e *Mastro-don Gesualdo* — e una lunga vecchiaia silenziosa, segnata dalla rinuncia alla scrittura.
+Verga è il narratore italiano che più di qualunque altro ha cambiato il modo di raccontare la realtà sociale del nostro paese. Il suo nome è legato alla nascita del Verismo, ma ridurre la sua importanza a un'etichetta di scuola sarebbe ingiusto: ciò che Verga ha portato nella letteratura italiana è una vera e propria rivoluzione del punto di vista narrativo, che ha aperto la strada a tutta la grande narrativa novecentesca, da Pirandello a Pavese fino al neorealismo del secondo dopoguerra. Prima di lui il romanzo italiano era ancora largamente costruito sul modello manzoniano, con un narratore onnisciente che giudica, commenta, accompagna il lettore mano nella mano. Con Verga il narratore scompare: l'autore si "eclissa" dietro i suoi personaggi, ne assume la lingua, i pregiudizi, i proverbi, e fa parlare il mondo siciliano dei pescatori e dei contadini con la voce della comunità stessa. È quello che la critica chiama "regressione" o "impersonalità": un cambio di prospettiva che farà scuola in tutto il Novecento europeo.
+
+Sul piano dei contenuti, Verga porta nella letteratura italiana il grande tema del Mezzogiorno postunitario, fino ad allora ignorato o trattato in chiave folclorica. La sua Sicilia non è quella pittoresca dei viaggiatori romantici: è la Sicilia dell'inchiesta Franchetti-Sonnino del 1876, quella della miseria, della subordinazione, del lavoro dei bambini nelle zolfare, dei pescatori che annegano per un carico di lupini. E sopra a tutto questo, Verga proietta una visione del mondo profondamente pessimistica, lontana dall'ottimismo positivistico del Naturalismo francese di Zola: il "progresso" non è per lui una marcia luminosa verso il bene, ma una "fiumana" cieca che travolge i deboli e li lascia sul fondo. I "vinti" — i pescatori dei *Malavoglia*, il borghese arricchito di *Mastro-don Gesualdo* — sono coloro che pagano con la propria sconfitta personale il movimento collettivo della modernità. È questa diagnosi disincantata, unita a una scrittura di assoluto rigore stilistico, a fare di Verga uno dei pochi grandi narratori italiani del secondo Ottocento che continuano ancora oggi a essere letti senza patina di antichità.
 
 ## Naturalismo francese e Verismo italiano
 
@@ -58,7 +60,7 @@ Il brano *La tensione faustiana del self-made man* mostra Gesualdo nel pieno del
 - [x] Zola e il ciclo dei *Rougon-Macquart*
 - [x] Romanzo inglese vittoriano e romanzo russo come modelli
 - [x] L'inchiesta Franchetti-Sonnino del 1876
-- [x] Vita: cenni
+- [x] Inquadramento: la rivoluzione del punto di vista narrativo, la scoperta del Mezzogiorno postunitario
 - [x] Poetica dell'impersonalità: *Prefazione a L'amante di Gramigna*
 - [x] Regressione ed eclissi dell'autore
 - [x] *I vinti* e la "fiumana del progresso"
