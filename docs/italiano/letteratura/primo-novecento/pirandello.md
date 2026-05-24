@@ -1,10 +1,8 @@
 # Luigi Pirandello
 
-Pirandello è la voce filosoficamente più radicale del primo Novecento italiano, ed è anche il primo autore italiano che abbia portato la letteratura nazionale nel cuore del dibattito europeo sulla crisi del soggetto. Mentre Svevo, suo grande contemporaneo, sviluppa la stessa crisi nel registro chiuso del romanzo borghese mitteleuropeo, Pirandello la porta sulla scena pubblica del teatro, dei romanzi a tiratura larga, delle novelle giornalistiche, e ne fa uno spettacolo che tutta l'Europa colta degli anni Venti riconosce come proprio. Il Premio Nobel del 1934 è la consacrazione internazionale di un percorso che aveva già fatto del suo nome — con la trilogia del "teatro nel teatro" e in particolare con *Sei personaggi in cerca d'autore* del 1921 — una specie di marchio universale per indicare la frantumazione novecentesca dell'io.
+Luigi Pirandello è la voce più filosoficamente radicale del primo Novecento italiano, e il primo autore italiano del Novecento ad aver raggiunto un'autentica risonanza internazionale (gli sarà conferito il Premio Nobel per la Letteratura nel 1934). La sua opera comprende romanzi (*Il fu Mattia Pascal*, *Uno, nessuno e centomila*, *Quaderni di Serafino Gubbio operatore*), un enorme corpus di novelle (le *Novelle per un anno*) e un teatro fra i più importanti del Novecento europeo (le *Maschere nude*, fra cui *Sei personaggi in cerca d'autore*, capolavoro del cosiddetto "teatro nel teatro"). Al centro di tutta la sua opera c'è un'unica grande ossessione: il problema dell'identità personale, il rapporto fra il flusso continuo della vita e le forme rigide (nomi, ruoli sociali, maschere) in cui essa viene costretta. Da questa ossessione nasce un sistema teorico che attraversa indifferentemente novelle, romanzi e drammi — il "relativismo conoscitivo", la dialettica fra vita e forma, la poetica dell'umorismo come "sentimento del contrario" — e che fa di Pirandello una specie di filosofo travestito da scrittore. La sua influenza sul Novecento europeo è enorme: il suo teatro è uno dei modelli diretti del teatro dell'assurdo di Beckett e Ionesco, e la sua riflessione sull'io frammentato resta uno dei riferimenti del romanzo psicologico contemporaneo.
 
-L'ossessione attorno a cui ruota tutta la sua opera è il problema dell'identità personale: chi siamo davvero quando ci osserviamo da fuori? esiste un "io" autentico al di sotto delle maschere sociali che indossiamo? la vita è un flusso continuo o si lascia fissare nelle forme stabili che ne diamo? Da questa interrogazione, Pirandello costruisce un sistema teorico — il "relativismo conoscitivo", la dialettica fra "vita" e "forma", la poetica umoristica come "sentimento del contrario" — che attraversa indifferentemente novelle, romanzi e drammi, e che fa di lui una specie di filosofo travestito da scrittore. La sua attualità, a quasi un secolo di distanza, sta proprio in questo: in un'epoca in cui la pluralità delle identità sociali, dei profili pubblici, delle "maschere" che ognuno indossa è diventata l'esperienza quotidiana di chiunque viva sui social media, il relativismo pirandelliano si è rivelato una delle anticipazioni più lucide della condizione contemporanea. Quando Vitangelo Moscarda, in *Uno, nessuno e centomila*, scopre che nessuno lo vede come lui vede se stesso, sta vivendo in anticipo la vertigine di chiunque oggi scopra di esistere in cento versioni diverse — una per piattaforma, una per amicizia, una per ruolo professionale — e non sappia più quale sia quella "vera".
-
-## La visione del mondo
+## Vita e forma: il relativismo conoscitivo
 
 Pirandello concepisce la realtà come un movimento continuo e ininterrotto, un *flusso vitale* che non si lascia mai fissare in una forma stabile. La vita, in sé, è cambiamento, divenire, perpetua trasformazione; ogni tentativo di darle una forma — un nome, un ruolo sociale, un'identità, una verità — è un tradimento del suo carattere fluido. Le forme, però, sono inevitabili: viviamo dentro le nostre forme, ci diamo nomi, indossiamo maschere, accettiamo i ruoli che la società ci assegna, perché senza una qualche forma non potremmo neppure pensarci come individui. La conseguenza è che ogni vita umana è una continua tensione tra la "vita" che vorrebbe scorrere libera e le "forme" che la imprigionano; e ogni essere umano è insieme se stesso e una maschera, autentico e falso al tempo stesso.
 
@@ -64,10 +62,9 @@ Il dramma è una macchina filosofica perfetta. I sei personaggi sono più "reali
 
 ## Checklist
 
-- [x] Inquadramento: la crisi novecentesca del soggetto portata in scena, attualità del relativismo
-- [x] Visione del mondo: vita e forma
-- [x] Relativismo conoscitivo
-- [x] Poetica e *L'umorismo* (avvertimento e sentimento del contrario)
+- [x] Inquadramento: voce filosoficamente più radicale del primo Novecento, Premio Nobel 1934
+- [x] Poetica: vita e forma (il relativismo conoscitivo)
+- [x] Poetica: l'umorismo (avvertimento e sentimento del contrario, saggio del 1908)
 - [x] *Il treno ha fischiato*
 - [x] *Il fu Mattia Pascal*: trama, T5, T6 (lanterninosofia), T7
 - [x] *Uno, nessuno e centomila*

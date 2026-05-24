@@ -1,10 +1,8 @@
 # Giovanni Verga
 
-Verga è il narratore italiano che più di qualunque altro ha cambiato il modo di raccontare la realtà sociale del nostro paese. Il suo nome è legato alla nascita del Verismo, ma ridurre la sua importanza a un'etichetta di scuola sarebbe ingiusto: ciò che Verga ha portato nella letteratura italiana è una vera e propria rivoluzione del punto di vista narrativo, che ha aperto la strada a tutta la grande narrativa novecentesca, da Pirandello a Pavese fino al neorealismo del secondo dopoguerra. Prima di lui il romanzo italiano era ancora largamente costruito sul modello manzoniano, con un narratore onnisciente che giudica, commenta, accompagna il lettore mano nella mano. Con Verga il narratore scompare: l'autore si "eclissa" dietro i suoi personaggi, ne assume la lingua, i pregiudizi, i proverbi, e fa parlare il mondo siciliano dei pescatori e dei contadini con la voce della comunità stessa. È quello che la critica chiama "regressione" o "impersonalità": un cambio di prospettiva che farà scuola in tutto il Novecento europeo.
+Giovanni Verga è il più grande narratore italiano del secondo Ottocento e il fondatore del Verismo, il movimento letterario che porta in Italia, riadattandola, la lezione del Naturalismo francese di Zola. La sua opera matura comprende novelle (*Vita dei campi*, *Novelle rusticane*) e romanzi (i due capolavori sono *I Malavoglia* e *Mastro-don Gesualdo*, primi due titoli del progettato e mai completato ciclo dei *Vinti*). Tutta la sua produzione matura ruota intorno a un unico tema: la vita degli umili del Mezzogiorno italiano postunitario, raccontata con metodo "scientifico" e senza intervento del narratore. La sua importanza nella storia della letteratura italiana è duplice. Sul piano contenutistico, è il primo grande scrittore a fare della miseria del Sud — pescatori, contadini, minatori delle zolfare — la materia del romanzo nazionale, anticipando temi che attraverseranno tutto il Novecento, da Silone a Pasolini fino al neorealismo. Sul piano formale, è il primo a rompere con il modello manzoniano del narratore onnisciente e a costruire una poetica dell'"impersonalità" in cui l'autore si eclissa e fa parlare i suoi personaggi con la loro stessa lingua: una rivoluzione narrativa che farà scuola in tutto il Novecento europeo e che fa di Verga il padre del romanzo moderno italiano.
 
-Sul piano dei contenuti, Verga porta nella letteratura italiana il grande tema del Mezzogiorno postunitario, fino ad allora ignorato o trattato in chiave folclorica. La sua Sicilia non è quella pittoresca dei viaggiatori romantici: è la Sicilia dell'inchiesta Franchetti-Sonnino del 1876, quella della miseria, della subordinazione, del lavoro dei bambini nelle zolfare, dei pescatori che annegano per un carico di lupini. E sopra a tutto questo, Verga proietta una visione del mondo profondamente pessimistica, lontana dall'ottimismo positivistico del Naturalismo francese di Zola: il "progresso" non è per lui una marcia luminosa verso il bene, ma una "fiumana" cieca che travolge i deboli e li lascia sul fondo. I "vinti" — i pescatori dei *Malavoglia*, il borghese arricchito di *Mastro-don Gesualdo* — sono coloro che pagano con la propria sconfitta personale il movimento collettivo della modernità. È questa diagnosi disincantata, unita a una scrittura di assoluto rigore stilistico, a fare di Verga uno dei pochi grandi narratori italiani del secondo Ottocento che continuano ancora oggi a essere letti senza patina di antichità.
-
-## Naturalismo francese e Verismo italiano
+## Il Verismo: Naturalismo francese e versione italiana
 
 La cornice europea entro cui Verga elabora la propria poetica è quella del Naturalismo francese, di cui Émile Zola è il teorico e il principale esponente. Zola, allievo del critico Hippolyte Taine e influenzato dalla medicina sperimentale di Claude Bernard, sostiene che il romanziere deve diventare uno scienziato della società: prendere in esame un gruppo umano, studiarne l'ereditarietà, l'ambiente, il momento storico, e ricostruire con metodo sperimentale i meccanismi che ne determinano il comportamento. Il ciclo dei *Rougon-Macquart*, venti romanzi pubblicati tra il 1871 e il 1893 e dedicati a una "Storia naturale e sociale di una famiglia sotto il Secondo Impero", è la realizzazione monumentale di questo programma. Zola applica al romanzo i principi del Positivismo: la realtà sociale come laboratorio, lo scrittore come osservatore distaccato, il personaggio come prodotto di leggi biologiche e ambientali. Sul piano ideologico il Naturalismo zoliano è anche dichiaratamente progressista: denunciare la miseria, le ingiustizie, l'ipocrisia della società serve a cambiarle.
 
@@ -12,7 +10,7 @@ Accanto al modello francese, Verga conosce il grande romanzo inglese dell'età v
 
 Il Verismo italiano nasce dall'incontro tra queste esperienze e la specifica realtà del Mezzogiorno postunitario. Rispetto al Naturalismo francese, il Verismo conserva il principio del rigore documentario e dell'osservazione, ma se ne distingue per almeno due ragioni. La prima è ideologica: Verga non condivide la fiducia progressista di Zola. Per Verga il "progresso" non è una marcia luminosa dell'umanità verso il bene, ma una "fiumana" cieca, una corrente che travolge gli umili e li lascia sul fondo. La seconda differenza è stilistica: mentre Zola interviene continuamente come narratore onnisciente, commenta, descrive con accumulo di particolari scientifici, Verga punta sull'impersonalità più radicale, fino a fare scomparire del tutto la propria voce e a far parlare i personaggi e l'ambiente con la loro stessa lingua.
 
-## La svolta verista e la poetica dell'impersonalità
+## L'impersonalità e la regressione
 
 Dopo i romanzi giovanili di ambiente borghese e cittadino (*Una peccatrice*, *Storia di una capinera*, *Eva*, *Tigre reale*, *Eros*), Verga compie la sua "svolta" intorno alla metà degli anni Settanta. Lasciato il mondo dei salotti milanesi, si volge alla Sicilia rurale dei pescatori e dei contadini, e formula una poetica che troverà la sua dichiarazione più chiara nella *Prefazione a L'amante di Gramigna* del 1880. In quella prefazione, indirizzata a Salvatore Farina, Verga afferma che il romanzo moderno deve dare al lettore l'illusione di un documento umano "fatto da sé", senza la mediazione dell'autore. Il narratore deve sparire, deve "mettersi nella pelle" dei suoi personaggi, vedere il mondo con i loro occhi, parlarne con la loro lingua, non giudicarli mai. Il romanzo deve avere "l'impronta del fatto reale": come se il lettore vi assistesse non in qualità di lettore, ma in qualità di paesano del paese narrato, che ascolta i pettegolezzi e ricostruisce la vicenda per intuizione.
 
@@ -56,14 +54,11 @@ Il brano *La tensione faustiana del self-made man* mostra Gesualdo nel pieno del
 
 ## Checklist
 
-- [x] Naturalismo francese e Verismo: somiglianze e differenze
-- [x] Zola e il ciclo dei *Rougon-Macquart*
-- [x] Romanzo inglese vittoriano e romanzo russo come modelli
-- [x] L'inchiesta Franchetti-Sonnino del 1876
-- [x] Inquadramento: la rivoluzione del punto di vista narrativo, la scoperta del Mezzogiorno postunitario
-- [x] Poetica dell'impersonalità: *Prefazione a L'amante di Gramigna*
-- [x] Regressione ed eclissi dell'autore
-- [x] *I vinti* e la "fiumana del progresso"
+- [x] Inquadramento: fondatore del Verismo, padre del romanzo moderno italiano
+- [x] Poetica: il Verismo (Naturalismo francese vs versione italiana)
+- [x] Poetica: l'impersonalità e la regressione (*Prefazione a L'amante di Gramigna*)
+- [x] Poetica: i vinti e la "fiumana del progresso"
+- [x] Contesto: l'inchiesta Franchetti-Sonnino del 1876
 - [x] *Vita dei campi*: *Fantasticheria* (ideale dell'ostrica), *Rosso Malpelo*
 - [x] *I Malavoglia*: incipit, comunità del villaggio
 - [x] *Novelle rusticane*: *La roba*, *Libertà*

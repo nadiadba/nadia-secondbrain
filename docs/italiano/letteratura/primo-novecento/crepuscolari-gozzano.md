@@ -14,9 +14,15 @@ Il Crepuscolarismo apre la strada a tutta la grande poesia novecentesca italiana
 
 ## Guido Gozzano
 
-Gozzano è il poeta più importante della corrente crepuscolare e una delle voci più autentiche del primo Novecento italiano. La sua posizione nella storia della poesia italiana è quella di una cerniera: chiude la grande stagione ottocentesca della metrica regolare e della rima ricca, e contemporaneamente apre il Novecento con l'invenzione di un io diviso, ironico, autoconsapevole, che non si prende mai del tutto sul serio. Eugenio Montale, in un articolo celebre, lo definirà come il primo poeta che in Italia ha saputo "torcere il collo alla retorica" della tradizione dannunziana, e in effetti senza Gozzano non si capirebbero né gli *Ossi di seppia* dello stesso Montale né le tonalità dimesse e familiari della grande poesia novecentesca italiana. La sua immaginazione resta legata a un paesaggio piemontese precisissimo — ville in collina, giardini chiusi, ammezzati con le lampade accese, bauli del nonno, fotografie ingiallite di antenati e di amori antichi — che però non è mai pura nostalgia: è il materiale di un'operazione poetica complessa, in cui ogni oggetto vecchio viene salvato attraverso un'ironia che è insieme tenera e disincantata.
+Guido Gozzano è il poeta più importante della corrente crepuscolare e una delle voci più autentiche del primo Novecento italiano. La sua opera principale è in versi (le due raccolte *La via del rifugio* del 1907 e *I colloqui* del 1911) e si concentra in un breve arco di anni, fra l'avvio del Novecento e la sua morte prematura. La sua posizione nella storia della poesia italiana è quella di una cerniera: chiude la grande stagione ottocentesca della metrica regolare e della rima ricca, e contemporaneamente apre il Novecento con l'invenzione di un io diviso, ironico, autoconsapevole, che non si prende mai del tutto sul serio. Eugenio Montale lo definirà come il primo poeta che in Italia ha saputo "torcere il collo alla retorica" della tradizione dannunziana, e in effetti senza Gozzano non si capirebbero né gli *Ossi di seppia* dello stesso Montale né le tonalità dimesse e familiari della grande poesia novecentesca italiana. La sua immaginazione resta legata a un paesaggio piemontese precisissimo — ville in collina, giardini chiusi, ammezzati con le lampade accese, bauli del nonno, fotografie ingiallite di antenati e di amori antichi — che però non è mai pura nostalgia: è il materiale di un'operazione poetica complessa, in cui ogni oggetto vecchio viene salvato attraverso un'ironia che è insieme tenera e disincantata.
 
-Ciò che fa di Gozzano un autore decisivo è il suo modo di mescolare i registri linguistici. Nella stessa poesia convivono parole dotte e arcaiche, espressioni quotidiane e prosastiche, rime ricche e raffinate accanto a rime povere da poesia da album scolastico. Il risultato è uno stile che il lettore percepisce come consapevolmente "minore", ma che è in realtà di altissima raffinatezza: Gozzano fa finta di scrivere "poesia da salotto" e nel frattempo demolisce dall'interno tutto l'apparato retorico della grande poesia italiana del secondo Ottocento. È la classica strategia dell'intellettuale che sa di non poter più credere ai grandi gesti del passato, ma che non vuole nemmeno aderire alla retorica vittoriosa del proprio presente (il vitalismo dannunziano, il furore futurista): sceglie allora una terza via, dimessa e autoironica, che è già pienamente novecentesca.
+## La poetica di Gozzano: ironia e "buone cose di pessimo gusto"
+
+La poetica di Gozzano si fonda su due principi che vanno sempre tenuti presenti per capire la sua opera. Il primo è la **mescolanza dei registri linguistici**: nella stessa poesia convivono parole dotte e arcaiche, espressioni quotidiane e prosastiche, rime ricche e raffinate accanto a rime povere da poesia da album scolastico. Il risultato è uno stile che il lettore percepisce come consapevolmente "minore", ma che è in realtà di altissima raffinatezza: Gozzano fa finta di scrivere "poesia da salotto" e nel frattempo demolisce dall'interno tutto l'apparato retorico della grande poesia italiana del secondo Ottocento.
+
+Il secondo principio è l'**ironia sull'io e sul sentimento**. L'io poetico di Gozzano non è mai unitario: è già diviso fra ciò che dice e ciò che pensa, fra il sentimento dichiarato e l'ironia che lo accompagna. Il poeta è capace di promettere amore a una donna e contemporaneamente di confessare al lettore che la promessa è falsa, di celebrare la "buona figliuola" di campagna e di sapere che non potrà mai tornare da lei. È un atteggiamento tipicamente novecentesco, che anticipa direttamente il relativismo di Pirandello e l'io frammentato della grande poesia europea successiva (T.S. Eliot, in particolare).
+
+A questi due principi si lega l'amore per le "buone cose di pessimo gusto", formula gozzaniana diventata famosa: gli oggetti vecchi, brutti, dismessi (la stampa imperiale del Re di Roma, il calamaio di laterizio, le bandiere di una guerra perduta, i ritratti di antenati morti) sono cari al poeta proprio perché inutili e fuori moda. Vi riconosce la propria stessa condizione di sopravvissuto a un'epoca finita, e fa di questo gusto del retrò una delle prime estetiche autenticamente novecentesche della poesia italiana.
 
 Le sue due principali raccolte poetiche sono *La via del rifugio* (1907) e *I colloqui* (1911). In *I colloqui* la sua poetica raggiunge la piena maturità. Gozzano vi mette in scena un io poetico autoironico, malinconico, consapevolmente "minore", che dialoga con se stesso, con un passato di amori falliti, con le cose vecchie che hanno il fascino di ciò che non è più. La sua lingua è una felice mescolanza di registri: parole dotte e arcaiche convivono con espressioni quotidiane, prosastiche, talvolta volutamente banali; rime ricche e raffinate si alternano a rime povere, da poesia da album scolastico. L'effetto è ironico e tenero insieme: Gozzano è il poeta che, mentre scrive, sorride della propria poesia, ne riconosce la fragilità, ne accetta la vena minore con elegante autoironia.
 
@@ -59,14 +65,14 @@ Il valore di Gozzano nella storia della poesia italiana è duplice. Da un lato c
 
 - [x] Origine del termine "crepuscolare" (Borgese, 1910)
 - [x] Principali esponenti: Corazzini, Moretti, Gozzano
-- [x] La poetica crepuscolare: antieroismo, cose minime, lingua dimessa
-- [x] Differenza con Futurismo e con Dannunzio
-- [x] Inquadramento di Gozzano: cerniera fra Ottocento e Novecento, l'io diviso e la mescolanza dei registri
-- [x] *I colloqui* e la poetica di Gozzano (mescolanza dei registri, ironia)
+- [x] Poetica crepuscolare: antieroismo, cose minime, lingua dimessa
+- [x] Differenza con Futurismo e con D'Annunzio
+- [x] Inquadramento di Gozzano: cerniera fra Ottocento e Novecento
+- [x] Poetica di Gozzano: ironia e "buone cose di pessimo gusto"
+- [x] *I colloqui* (1911)
 - [x] *La signorina Felicita ovvero la Felicità*: trama e analisi
 - [x] Passaggi delle sezioni IV, VI, VII
-- [x] Il "buone cose di pessimo gusto"
-- [x] Portata storica: dal tardo Ottocento alla poesia novecentesca
+- [x] Portata storica di Gozzano: dal tardo Ottocento alla poesia novecentesca
 
 ## Collegamenti
 

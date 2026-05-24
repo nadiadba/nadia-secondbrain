@@ -1,8 +1,6 @@
 # Gabriele D'Annunzio
 
-D'Annunzio è la figura più scenografica, più ingombrante e in molti modi più ambigua della letteratura italiana tra Otto e Novecento, e va capito prima di tutto come la più coerente realizzazione italiana del principio decadente per cui non esiste separazione fra arte e vita. Non si studia D'Annunzio solo come autore di romanzi e di poesie: si studia D'Annunzio come una figura culturale totale, che ha trasformato il proprio corpo, le proprie passioni, le proprie imprese pubbliche, persino la propria casa in opera d'arte. Il Vittoriale degli Italiani, la villa-monumento sul Lago di Garda in cui ha vissuto gli ultimi vent'anni, è il simbolo più nitido di questa poetica: una casa concepita come un'enciclopedia visiva di sé, dove ogni stanza è un'allegoria e ogni oggetto un cimelio, fino al mausoleo personale costruito in vita per accogliere le proprie spoglie. È il Decadentismo italiano portato alle estreme conseguenze.
-
-La sua importanza nella storia della letteratura italiana è duplice e per certi versi contraddittoria. Da un lato D'Annunzio è il grande sperimentatore linguistico che porta nella prosa e nella poesia italiane una ricchezza lessicale, una densità sonora, una raffinatezza stilistica senza precedenti, e che con *Alcyone* raggiunge una delle vette assolute del simbolismo europeo. Dall'altro D'Annunzio è il poeta-vate che incarna la posa più retorica e nazionalistica del Decadentismo, il teorico del superuomo italiano (rilettura personale di Nietzsche in chiave eroica e antidemocratica), l'interventista della Prima guerra mondiale, l'uomo dell'impresa di Fiume del 1919-1920 e il padre spirituale di molta della retorica che il fascismo farà propria. Capire D'Annunzio significa capire entrambi i piani contemporaneamente: la grande conquista stilistica e l'ideologia regressiva, l'altissima musicalità di *La pioggia nel pineto* e la propaganda colonialista di certi suoi discorsi pubblici. Per questo, accanto a Pascoli che incarna l'altro polo del Decadentismo italiano (il fanciullino contro il superuomo, il piccolo contro il grande), D'Annunzio resta una figura cruciale e non semplice: indispensabile per leggere il Novecento italiano, ma anche per capire i meccanismi culturali che hanno preparato il terreno al fascismo.
+Gabriele D'Annunzio è insieme a Pascoli la grande voce del Decadentismo italiano ed è la figura più scenografica e più ingombrante della letteratura italiana fra Otto e Novecento. La sua opera attraversa praticamente tutti i generi: poesia (*Le laudi del cielo, del mare, della terra e degli eroi*, di cui *Alcyone* è il capolavoro), romanzo (*Il piacere*, *Le vergini delle rocce*, *Il fuoco*, *Il trionfo della morte*), teatro, prosa lirica (*Il notturno*), oltre a una vasta produzione giornalistica e politica. La sua importanza nella letteratura italiana del Novecento è duplice e per certi versi contraddittoria. Da un lato è il più grande sperimentatore stilistico del Decadentismo italiano, capace di portare nella lingua poetica e prosastica una ricchezza lessicale, una densità sonora e una raffinatezza musicale senza precedenti (*Alcyone* è una delle vette del simbolismo europeo). Dall'altro è il poeta-vate che incarna la posa più retorica e nazionalistica del Decadentismo, il teorico del "superuomo" italiano in chiave eroica e antidemocratica, l'interventista della Prima guerra mondiale e uno dei padri spirituali di gran parte della retorica che il fascismo farà propria. Capire D'Annunzio significa tenere insieme entrambi i piani: l'altissima musicalità di *La pioggia nel pineto* e l'ideologia regressiva del superuomo, l'innovazione formale e la politica reazionaria.
 
 ## L'estetismo
 
@@ -32,9 +30,13 @@ Nel brano *Il "vento di barbarie" della speculazione edilizia*, il protagonista 
 
 Le *Laudi del cielo, del mare, della terra e degli eroi* sono il grande progetto poetico di D'Annunzio negli anni intorno al 1900. Avrebbero dovuto comprendere sette libri, ognuno intitolato a una stella delle Pleiadi, in un imponente disegno di poesia totale che celebrasse l'intera realtà cosmica e umana. D'Annunzio ne pubblicò soltanto i primi tre — *Maia*, *Elettra*, *Alcyone* (tutti del 1903) — e parzialmente il quarto (*Merope*, 1912). Di queste, *Alcyone* è il capolavoro: cento componimenti dedicati a un'estate trascorsa in Versilia, sulla riviera toscana, fra il giugno e il settembre.
 
+## Il panismo
+
+Strettamente legato al superuomo è un altro grande concetto della poetica dannunziana, che trova la sua massima espressione in *Alcyone*: il "panismo". Il termine viene dal greco *pan*, "tutto", e indica l'esperienza di una fusione totale dell'uomo con la natura, in cui il corpo umano e il corpo del mondo si sciolgono in un'unica vibrazione vitale. Non si tratta dell'identificazione sentimentale con il paesaggio tipica del Romanticismo: nel panismo dannunziano c'è una vera metamorfosi sensoriale, in cui i confini fra il soggetto e la natura si annullano, e l'uomo si trasforma in pianta, animale, elemento. È la forma più alta e raffinata della vitalità dannunziana, e una delle più alte espressioni del simbolismo italiano. Il panismo è il rovescio luminoso del superuomo: dove il superuomo si afferma sulla realtà imponendole la propria volontà, l'uomo panico si dissolve nella realtà fondendosi con essa. I due movimenti, opposti solo in apparenza, sono entrambi tentativi di superare la condizione mediocre dell'uomo comune, e di costruire un rapporto eccezionale con il mondo.
+
 ## Alcyone
 
-*Alcyone* è la celebrazione totale dell'estate come tempo di fusione panica tra l'uomo e la natura. "Panico" qui ha il senso etimologico greco: l'uomo si dissolve in *pan*, "tutto", diventa parte indistinguibile della natura, vibra con essa, si trasforma in pianta, animale, elemento. Non si tratta più dell'identificazione sentimentale con il paesaggio, come nel romanticismo; si tratta di una vera metamorfosi sensoriale, in cui i confini tra il corpo umano e il corpo del mondo si sciolgono. È la forma più alta e raffinata della vitalità dannunziana, ed è una delle più alte espressioni del simbolismo italiano.
+*Alcyone* è la celebrazione totale dell'estate come tempo di fusione panica tra l'uomo e la natura, e applica in versi la poetica del panismo descritta sopra. La raccolta è organizzata come un grande poema unitario, in cui cento componimenti seguono lo sviluppo di un'estate trascorsa in Versilia, sulla costa toscana, fra il giugno e il settembre. È una delle più alte espressioni del simbolismo italiano e del Decadentismo europeo.
 
 ### La pioggia nel pineto
 
@@ -145,15 +147,16 @@ Il brano *La prosa notturna* mostra il nuovo stile dannunziano: non più i fluvi
 
 ## Checklist
 
-- [x] Inquadramento: arte e vita come unica opera, sperimentazione linguistica e ideologia regressiva
+- [x] Inquadramento: voce del Decadentismo italiano, sperimentatore stilistico e poeta-vate
+- [x] Poetica: l'estetismo
+- [x] Poetica: il superuomo (derivazione da Nietzsche, differenze dal fanciullino pascoliano)
+- [x] Poetica: il panismo
 - [x] Il Vittoriale come emblema della poetica
-- [x] L'estetismo come prima fase
 - [x] *Il piacere*: Andrea Sperelli, Elena Muti, Maria Ferres
 - [x] Brano *Un ritratto allo specchio*
-- [x] Il superuomo: derivazione da Nietzsche, differenze dal fanciullino pascoliano
 - [x] *Le vergini delle rocce*: brano sul "vento di barbarie" e programma politico del superuomo
 - [x] *Le Laudi*: progetto generale e caratteri
-- [x] *Alcyone*: il panismo
+- [x] *Alcyone*
 - [x] *La pioggia nel pineto* (passaggi e analisi)
 - [x] *I pastori* (testo integrale)
 - [x] *Consolazione* dal *Poema paradisiaco*

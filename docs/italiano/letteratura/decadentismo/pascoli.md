@@ -1,8 +1,6 @@
 # Giovanni Pascoli
 
-Pascoli rappresenta, insieme a D'Annunzio, una delle due grandi risposte italiane al Decadentismo europeo, e occupa una posizione di assoluta centralità per capire il passaggio della poesia italiana dall'Ottocento al Novecento. La sua importanza, però, non si esaurisce nell'essere stato "il poeta del nido" o "il poeta dei piccoli oggetti rurali", come una vulgata scolastica ha spesso ridotto la sua opera. Pascoli è soprattutto il primo poeta italiano che abbia saputo costruire una lingua poetica radicalmente nuova, fatta di onomatopee, di nomi tecnici delle piante e degli uccelli, di pause, di silenzi, di parole quotidiane affiancate a citazioni dotte: una lingua che rompe con la solennità della tradizione carducciana e che apre la strada a tutta la grande poesia novecentesca, da Ungaretti a Montale.
-
-Sul piano della visione del mondo, Pascoli incarna la crisi tipicamente decadente di chi ha perso la fede positivistica nel progresso scientifico ma non riesce ad aderire né alla religione tradizionale né alla retorica eroica dannunziana. Resta una zona intermedia di stupore, di paura, di meraviglia, in cui il mondo conserva un significato segreto che la poesia ha il compito di evocare senza pretendere di spiegare. La sua celebre poetica del "fanciullino" — quella parte infantile dell'animo che in ogni uomo continua a guardare le cose con sguardo nuovo, e che nel poeta resta viva mentre negli altri tace — non è una graziosa metafora pedagogica: è una vera e propria teoria della conoscenza poetica, alternativa sia al razionalismo positivistico sia alla volontà di potenza superomistica. Per questo Pascoli e D'Annunzio vanno studiati insieme come due miti complementari del Decadentismo italiano: due risposte opposte alla stessa crisi della modernità, il superuomo che cerca la salvezza nella forza eroica e il fanciullino che la cerca nella delicatezza dello sguardo bambino.
+Giovanni Pascoli è insieme a D'Annunzio la grande voce del Decadentismo italiano, e una delle figure centrali per capire il passaggio della poesia italiana dall'Ottocento al Novecento. La sua opera comprende numerose raccolte in versi (*Myricae*, *Canti di Castelvecchio*, *Poemetti*, *Poemi conviviali*), una produzione poetica in latino di alta qualità, e un'importante riflessione teorica sulla natura della poesia esposta nel saggio *Il fanciullino* (1897). La sua importanza è duplice. Sul piano della visione del mondo, Pascoli incarna la crisi tipicamente decadente di chi ha perso la fede positivistica nella scienza e nel progresso ma non riesce ad aderire né alla religione tradizionale né alla retorica eroica dannunziana, e cerca un'altra via attraverso il "fanciullino", la parte infantile dell'animo capace di stupore e di percezione immediata delle cose. Sul piano formale, è il primo grande poeta italiano a costruire una lingua poetica radicalmente nuova, fatta di onomatopee, di nomi tecnici delle piante e degli uccelli, di pause, di silenzi, di parole quotidiane affiancate a citazioni dotte: una lingua che rompe con la solennità della tradizione carducciana e che apre la strada a tutta la grande poesia novecentesca, da Ungaretti a Montale. Per questo Pascoli va sempre studiato in parallelo a D'Annunzio: i due rappresentano i due grandi miti complementari del Decadentismo italiano, il fanciullino e il superuomo, due risposte opposte alla stessa crisi della modernità.
 
 ## La visione del mondo
 
@@ -193,13 +191,13 @@ In un discorso pronunciato nel 1900 agli studenti dell'Università di Messina, e
 
 ## Checklist
 
-- [x] Inquadramento: la rivoluzione linguistica e la posizione nel Decadentismo italiano, complementare a D'Annunzio
-- [x] Visione del mondo (nido, morti, esterno minaccioso)
-- [x] Poetica del Fanciullino
-- [x] Fanciullino e superuomo come miti complementari
+- [x] Inquadramento: voce del Decadentismo italiano, rivoluzione linguistica, complementare a D'Annunzio
+- [x] Poetica: la visione del mondo (nido, morti, esterno minaccioso)
+- [x] Poetica: il Fanciullino (saggio del 1897)
+- [x] Poetica: i temi (nido, morti, natura, morte)
+- [x] Poetica: il fonosimbolismo
+- [x] Fanciullino e superuomo come miti complementari del Decadentismo italiano
 - [x] Ideologia politica e nazionalismo pascoliano
-- [x] Temi: nido, morti, natura, morte
-- [x] Fonosimbolismo
 - [x] *Myricae*: *Lavandare*, *Temporale*, *Novembre*, *Il lampo*, *X agosto* (testi integrali)
 - [x] *Canti di Castelvecchio*: *Il gelsomino notturno*, *La cavalla storna*, *La mia sera*
 - [x] *Poemetti*: *Il vischio*, *Italy*

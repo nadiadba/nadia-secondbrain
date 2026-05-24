@@ -1,8 +1,6 @@
 # Italo Svevo
 
-Svevo è il romanziere che ha portato la letteratura italiana dentro il grande dibattito europeo sulla crisi del soggetto e sull'inconscio, ed è anche, in modo più radicale di qualunque suo contemporaneo italiano, l'autore che ha rotto la continuità con la tradizione narrativa ottocentesca per inaugurare il romanzo novecentesco. La sua importanza si capisce meglio se lo si pensa come l'omologo italiano di Joyce, di Proust, di Kafka — autori con cui condivide l'attenzione al monologo interiore, la frantumazione dell'io, l'inettitudine come condizione esistenziale, la sospensione del giudizio morale tradizionale — più che come un erede della grande narrativa italiana di Manzoni e di Verga. Non a caso fu proprio Joyce, che a Trieste gli dava lezioni di inglese, il primo grande lettore europeo a riconoscerne il valore e a contribuire alla riscoperta tardiva della sua opera negli anni Venti.
-
-Già il suo pseudonimo, "Italo Svevo" (italiano e tedesco insieme), è una dichiarazione di identità: triestino di cultura mitteleuropea, di lingua italiana e di formazione tedesca, ebreo, cittadino di una città di frontiera che alla sua nascita apparteneva ancora all'Impero austro-ungarico, Svevo è il primo scrittore italiano che porta nella nostra letteratura — ancora largamente provinciale rispetto al resto d'Europa — le grandi correnti della cultura mitteleuropea: la filosofia di Schopenhauer e di Nietzsche, la psicoanalisi di Freud, la sensibilità per l'inconscio, per la malattia psichica, per l'inettitudine come condizione conoscitiva privilegiata. Senza di lui, semplicemente, non ci sarebbe stato il romanzo italiano del Novecento come lo conosciamo: tutto ciò che da Pirandello a Moravia, dalla narrativa di Gadda fino al romanzo psicologico contemporaneo, ha fatto dell'io frammentato e della coscienza inattendibile la materia stessa della narrazione, deve a *La coscienza di Zeno* del 1923 il proprio modello fondativo.
+Italo Svevo (pseudonimo di Aron Hector Schmitz) è il fondatore del romanzo psicologico italiano moderno e il principale interlocutore della nostra letteratura con la grande narrativa europea del primo Novecento (Joyce, Proust, Kafka). La sua opera comprende tre romanzi — *Una vita*, *Senilità*, *La coscienza di Zeno*, quest'ultimo il suo capolavoro — oltre a novelle e brevi testi teatrali. Tutta la sua produzione ruota intorno a un'unica grande figura: l'**inetto**, l'uomo che non riesce a vivere, incapace di scegliere, di agire, di amare in modo sensato, e che vive in una continua sfasatura fra ciò che dovrebbe fare e ciò che fa. Triestino di cultura mitteleuropea e di formazione tedesca, ebreo, cittadino di una città di frontiera che alla sua nascita apparteneva ancora all'Impero austro-ungarico, Svevo porta nella letteratura italiana — ancora largamente legata ai modelli ottocenteschi — le grandi correnti della cultura mitteleuropea: la filosofia di Schopenhauer e di Nietzsche, la psicoanalisi di Freud, la sensibilità per l'inconscio, per la malattia psichica, per l'alienazione del soggetto moderno. La sua importanza è duplice: anticipa di vent'anni temi che diventeranno centrali nella narrativa europea del Novecento, e fornisce il modello su cui si costruirà tutto il romanzo italiano della crisi del soggetto, da Pirandello a Gadda fino al romanzo psicologico contemporaneo.
 
 ## Il contesto culturale: Trieste e la Mitteleuropa
 
@@ -64,12 +62,12 @@ Quando *La coscienza di Zeno* fu finalmente scoperto in Europa, fu Eugenio Monta
 
 ## Checklist
 
-- [x] Inquadramento: l'omologo italiano di Joyce, Proust, Kafka; chi ha portato in Italia la crisi del soggetto novecentesca
+- [x] Inquadramento: fondatore del romanzo psicologico italiano moderno, interlocutore di Joyce/Proust/Kafka
 - [x] Contesto storico-culturale: Trieste e la Mitteleuropa
-- [x] La cultura e la figura dell'inetto
+- [x] Poetica: la figura dell'inetto
+- [x] Poetica: l'evoluzione della concezione dell'inetto (dai primi due romanzi a Zeno)
 - [x] *Una vita*: trama, brano *Le ali del gabbiano*
 - [x] *Senilità*: trama e poetica
-- [x] L'evoluzione della concezione dell'inetto
 - [x] Montale, *La modernità di Svevo* (1925-1926)
 - [x] *La coscienza di Zeno*: struttura, ruolo del dottor S., capitoli tematici
 - [x] *Il fumo*: l'ultima sigaretta come simbolo dell'inettitudine
