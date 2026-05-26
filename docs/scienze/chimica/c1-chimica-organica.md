@@ -52,7 +52,7 @@ Gli stereoisomeri si distinguono in due tipi:
 
 ### Attività ottica
 
-Una molecola con un carbonio asimmetrico non è sovrapponibile alla propria immagine speculare: si dice chirale (dal greco *cheir*, mano), e le sue due forme speculari si chiamano enantiomeri. Hanno proprietà fisiche e chimiche identiche, tranne nel modo in cui interagiscono con la luce polarizzata: attraversando una soluzione di un enantiomero puro, il piano di vibrazione viene ruotato verso destra (destrogiro, $+$) o verso sinistra (levogiro, $-$), dello stesso angolo ma in versi opposti. Una miscela in parti uguali dei due, detta racemo, non ruota la luce. L'attività ottica è cruciale in biologia, perché gli enzimi distinguono i due enantiomeri di una sostanza e spesso solo uno dei due ha effetto biologico.
+Una molecola con un carbonio asimmetrico non è sovrapponibile alla propria immagine speculare: si dice chirale (dal greco cheir, mano), e le sue due forme speculari si chiamano enantiomeri. Hanno proprietà fisiche e chimiche identiche, tranne nel modo in cui interagiscono con la luce polarizzata: attraversando una soluzione di un enantiomero puro, il piano di vibrazione viene ruotato verso destra (destrogiro, $+$) o verso sinistra (levogiro, $-$), dello stesso angolo ma in versi opposti. Una miscela in parti uguali dei due, detta racemo, non ruota la luce. L'attività ottica è cruciale in biologia, perché gli enzimi distinguono i due enantiomeri di una sostanza e spesso solo uno dei due ha effetto biologico.
 
 ## Proprietà fisiche e reattività dei composti organici
 
