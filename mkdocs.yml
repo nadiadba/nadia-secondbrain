@@ -151,18 +151,13 @@ nav:
       - filosofia/novecento/popper.md
   - Scienze:
     - scienze/index.md
-    - Chimica organica:
-      - scienze/chimica-organica/idrocarburi.md
-      - scienze/chimica-organica/derivati-idrocarburi.md
-      - scienze/chimica-organica/gruppi-funzionali.md
-      - scienze/chimica-organica/polimeri.md
-    - Biochimica:
-      - scienze/biochimica/biomolecole.md
-      - scienze/biochimica/metabolismo.md
-      - scienze/biochimica/biotecnologie.md
-    - Scienze della Terra:
-      - scienze/scienze-della-terra/tettonica.md
-      - scienze/scienze-della-terra/atmosfera.md
+    - Chimica:
+      - scienze/chimica/c1-chimica-organica.md
+      - scienze/chimica/c2-idrocarburi.md
+      - scienze/chimica/c3-derivati-idrocarburi.md
+      - scienze/chimica/b1-biomolecole.md
+      - scienze/chimica/b2-metabolismo-energetico.md
+      - scienze/chimica/b3-fotosintesi.md
   - Inglese:
     - inglese/index.md
     - Letteratura:
