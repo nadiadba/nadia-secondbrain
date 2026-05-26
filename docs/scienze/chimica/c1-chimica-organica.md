@@ -4,8 +4,11 @@
 
 La chimica organica è la chimica dei composti del carbonio. Il nome risale all'Ottocento, quando si pensava che le sostanze prodotte dagli esseri viventi possedessero una "forza vitale" che le distingueva dalle altre: l'idea cade nel 1828, quando Wöhler sintetizza l'urea, una sostanza tipica del metabolismo animale, a partire da reagenti inorganici.
 I composti organici si dividono in tre grandi famiglie:
+
 - **Idrocarburi**: che contengono solo carbonio e idrogeno. Si dividono in saturi,  insaturi e aromatici.
+
 - **Derivati degli idrocarburi**: hanno uno o più idrogeni sostituiti da gruppi funzionali, come alcoli, eteri, aldeidi, chetoni, acidi carbossilici, ammine ecc.
+
 - **Biomolecole**: divise in carboidrati, lipidi, proteine e acidi nucleici.
 
 ## Le proprietà del carbonio
