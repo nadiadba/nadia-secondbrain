@@ -4,31 +4,51 @@
 
 La chimica organica è la chimica dei composti del carbonio. Il nome risale all'Ottocento, quando si pensava che le sostanze prodotte dagli esseri viventi possedessero una "forza vitale" che le distingueva dalle altre: l'idea cade nel 1828, quando Wöhler sintetizza l'urea — una sostanza tipica del metabolismo animale — a partire da reagenti inorganici. Oggi la chimica organica studia tutti i composti del carbonio, con la sola eccezione di alcune molecole tradizionalmente considerate inorganiche (anidride carbonica, ossido di carbonio, carbonati, cianuri).
 
-I composti organici si dividono in due grandi famiglie: gli **idrocarburi**, fatti di solo carbonio e idrogeno (saturi come gli alcani, insaturi come alcheni e alchini, aromatici come il benzene), e i **derivati degli idrocarburi**, in cui uno o più idrogeni sono sostituiti da gruppi contenenti altri elementi (ossigeno, azoto, alogeni, zolfo). Questi gruppi, detti **gruppi funzionali**, definiscono la classe del composto: alcoli, eteri, aldeidi, chetoni, acidi carbossilici, ammine e così via.
+I composti organici si dividono in due grandi famiglie:
+
+- **Idrocarburi**: contengono solo carbonio e idrogeno. Si distinguono in saturi (alcani e cicloalcani, con soli legami semplici), insaturi (alcheni con un doppio legame, alchini con un triplo) e aromatici (basati sull'anello del benzene).
+- **Derivati degli idrocarburi**: hanno uno o più idrogeni sostituiti da gruppi contenenti altri elementi (ossigeno, azoto, alogeni, zolfo). Questi gruppi, detti **gruppi funzionali**, definiscono la classe del composto: alcoli, eteri, aldeidi, chetoni, acidi carbossilici, ammine e così via.
 
 ## Le proprietà del carbonio
 
-Il carbonio ha configurazione elettronica $1s^2\, 2s^2\, 2p^2$ e quattro elettroni di valenza: per completare l'ottetto non cede né acquista elettroni, ma li condivide, formando sempre **quattro legami covalenti**. A seconda che siano tutti semplici o includano legami multipli, la geometria cambia: tetraedrica a 109,5° con quattro legami semplici, planare a 120° con un doppio legame, lineare a 180° con un triplo.
+Il numero elevatissimo di composti organici è dovuto alla versatilità dell'atomo di carbonio, che possiede cinque proprietà fondamentali:
 
-Il suo **numero di ossidazione** è variabile da $-4$ a $+4$, a seconda dell'elettronegatività degli atomi a cui si lega (positivo verso l'ossigeno, negativo verso l'idrogeno). L'**elettronegatività** del carbonio è invece intermedia ($2{,}55$ sulla scala di Pauling), e questo rende i suoi legami quasi sempre covalenti e poco polari; il **raggio atomico** è piccolo (circa 77 pm), tale da permettere legami corti, robusti e la sovrapposizione laterale degli orbitali $p$ necessaria per i doppi e tripli legami.
-
-La proprietà più importante, però, è la **concatenazione**: il carbonio si lega a sé stesso formando catene di qualsiasi lunghezza, lineari, ramificate o cicliche. Pochi altri elementi possiedono questa capacità in misura paragonabile, ed è da qui che nascono i milioni di composti organici conosciuti.
+- **Quattro legami covalenti**: con configurazione elettronica $1s^2\, 2s^2\, 2p^2$ e quattro elettroni di valenza, il carbonio non cede né acquista elettroni per completare l'ottetto, ma li condivide, formando sempre quattro legami covalenti. La geometria cambia in base ai legami: tetraedrica a 109,5° con quattro legami semplici, planare a 120° con un doppio legame, lineare a 180° con un triplo.
+- **Numero di ossidazione variabile**: può assumere valori da $-4$ a $+4$ a seconda dell'elettronegatività degli atomi a cui si lega (positivo verso l'ossigeno, negativo verso l'idrogeno).
+- **Elettronegatività intermedia**: vale $2{,}55$ sulla scala di Pauling, e questo rende i suoi legami quasi sempre covalenti e poco polari.
+- **Raggio atomico piccolo**: circa 77 pm, tale da permettere legami corti, robusti e la sovrapposizione laterale degli orbitali $p$ necessaria per i doppi e tripli legami.
+- **Concatenazione**: è la proprietà più importante. Il carbonio si lega a sé stesso formando catene di qualsiasi lunghezza — lineari, ramificate o cicliche — e da qui nascono i milioni di composti organici conosciuti.
 
 ## Le quattro formule dei composti organici
 
-Le molecole organiche si possono rappresentare con livelli crescenti di sintesi. La **formula di Lewis** (o strutturale espansa) mostra tutti gli atomi, tutti i legami come trattini e le coppie di elettroni non condivise come puntini: è la più completa, e si usa soprattutto per studiare i meccanismi di reazione. La **formula razionale** raggruppa gli idrogeni attorno ai carboni ma tiene esplicitamente i legami carbonio-carbonio: per il butano si scrive $\text{CH}_3-\text{CH}_2-\text{CH}_2-\text{CH}_3$. La **formula condensata** elimina anche i trattini ($\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_3$), risultando pratica per molecole lunghe ma ambigua per quelle ramificate. La **formula topologica**, infine, rappresenta la catena come una linea spezzata in cui ogni vertice è un atomo di carbonio: gli idrogeni legati al carbonio si sottintendono, gli altri atomi si scrivono esplicitamente. È la rappresentazione più rapida ed è quella usata abitualmente nei libri di chimica organica.
+Le molecole organiche si possono rappresentare con quattro tipi di formula, a livelli crescenti di sintesi:
+
+- **Formula di Lewis** (o strutturale espansa): mostra tutti gli atomi, tutti i legami come trattini e le coppie di elettroni non condivise come puntini. È la più completa e si usa soprattutto per studiare i meccanismi di reazione.
+- **Formula razionale**: raggruppa gli idrogeni attorno ai carboni ma mostra esplicitamente i legami carbonio-carbonio. Per il butano si scrive $\text{CH}_3-\text{CH}_2-\text{CH}_2-\text{CH}_3$.
+- **Formula condensata**: elimina anche i trattini ($\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_3$). È pratica per molecole lunghe ma ambigua per quelle ramificate.
+- **Formula topologica**: rappresenta la catena come una linea spezzata in cui ogni vertice è un atomo di carbonio. Gli idrogeni legati al carbonio si sottintendono, gli altri atomi si scrivono esplicitamente. È la più rapida ed è quella usata abitualmente nei libri di chimica organica.
 
 ## L'isomeria
 
-Si chiamano **isomeri** due composti con la stessa formula molecolare ma struttura diversa (dal greco *isos*, uguale, e *meros*, parte). È un fenomeno fondamentale, perché spiega come a una stessa formula bruta possano corrispondere sostanze con proprietà del tutto diverse. L'isomeria si divide in **costituzionale**, quando cambia la connettività degli atomi (cioè quali atomi sono legati a quali), e **stereoisomeria**, quando la connettività è la stessa ma cambia la disposizione spaziale.
+Si chiamano **isomeri** due composti con la stessa formula molecolare ma struttura diversa (dal greco *isos*, uguale, e *meros*, parte). È un fenomeno fondamentale, perché spiega come a una stessa formula bruta possano corrispondere sostanze con proprietà del tutto diverse. L'isomeria si divide in due grandi rami:
+
+- **Isomeria costituzionale**: cambia la connettività degli atomi, cioè quali atomi sono legati a quali.
+- **Stereoisomeria**: la connettività è la stessa, cambia la disposizione spaziale.
 
 ### Isomeria costituzionale
 
-L'**isomeria di catena** riguarda lo scheletro carbonioso, che a parità di atomi può essere lineare o ramificato: il $\text{C}_4\text{H}_{10}$ corrisponde sia al $n$-butano lineare sia all'isobutano ramificato. L'**isomeria di posizione** riguarda invece la collocazione di un sostituente o di un legame multiplo lungo la catena: il propanolo ha l'ossidrile sul carbonio terminale (1-propanolo) o su quello centrale (2-propanolo). L'**isomeria di gruppo funzionale** è la più sorprendente, perché la stessa formula molecolare può corrispondere a famiglie chimiche del tutto diverse: $\text{C}_2\text{H}_6\text{O}$, ad esempio, è sia l'etanolo $\text{CH}_3\text{CH}_2\text{OH}$ (un alcol liquido) sia il dimetiletere $\text{CH}_3-\text{O}-\text{CH}_3$ (un etere gassoso).
+L'isomeria costituzionale si presenta in tre forme:
+
+- **Isomeria di catena**: lo scheletro carbonioso, a parità di atomi, può essere lineare o ramificato. Il $\text{C}_4\text{H}_{10}$ corrisponde sia al $n$-butano lineare sia all'isobutano ramificato.
+- **Isomeria di posizione**: cambia la collocazione di un sostituente o di un legame multiplo lungo la catena. Il propanolo, ad esempio, ha l'ossidrile sul carbonio terminale (1-propanolo) o su quello centrale (2-propanolo).
+- **Isomeria di gruppo funzionale**: la stessa formula molecolare può corrispondere a famiglie chimiche del tutto diverse. $\text{C}_2\text{H}_6\text{O}$, ad esempio, è sia l'etanolo $\text{CH}_3\text{CH}_2\text{OH}$ (un alcol liquido) sia il dimetiletere $\text{CH}_3-\text{O}-\text{CH}_3$ (un etere gassoso).
 
 ### Stereoisomeria
 
-Gli **isomeri conformazionali** differiscono per la rotazione attorno a un legame semplice; poiché queste rotazioni a temperatura ambiente sono libere, le diverse forme si trasformano continuamente l'una nell'altra e non sono isolabili — si parla piuttosto di conformazioni più o meno stabili, come le forme *anti* e *gauche* del butano. Gli **isomeri configurazionali**, invece, possono interconvertirsi solo rompendo e riformando legami, e sono perciò composti distinti, isolabili e con proprietà diverse: comprendono l'**isomeria geometrica** (o *cis-trans*), quando attorno a un doppio legame o a un anello i sostituenti si trovano dalla stessa parte o da parti opposte, e l'**isomeria ottica**, legata alla presenza di un atomo di carbonio asimmetrico (cioè legato a quattro gruppi diversi).
+Gli stereoisomeri si distinguono in due tipi:
+
+- **Isomeri conformazionali**: differiscono per la rotazione attorno a un legame semplice. Poiché queste rotazioni a temperatura ambiente sono libere, le diverse forme si trasformano continuamente l'una nell'altra e non sono isolabili — si parla piuttosto di conformazioni più o meno stabili, come le forme *anti* e *gauche* del butano.
+- **Isomeri configurazionali**: possono interconvertirsi solo rompendo e riformando legami, e sono perciò composti distinti, isolabili e con proprietà diverse. Comprendono l'**isomeria geometrica** (o *cis-trans*), quando attorno a un doppio legame o a un anello i sostituenti si trovano dalla stessa parte o da parti opposte, e l'**isomeria ottica**, legata alla presenza di un atomo di carbonio asimmetrico (cioè legato a quattro gruppi diversi).
 
 ### Attività ottica
 
@@ -36,7 +56,7 @@ Una molecola con un carbonio asimmetrico non è sovrapponibile alla propria imma
 
 ## Proprietà fisiche e reattività dei composti organici
 
-La reattività di un composto organico dipende dalla presenza di legami polari, di legami multipli e soprattutto dei gruppi funzionali: i legami $\text{C}-\text{C}$ e $\text{C}-\text{H}$ sono poco reattivi perché poco polari, ma basta la presenza di un atomo più elettronegativo (ossigeno, azoto, alogeno) per creare una zona di carica parziale che diventa il punto di attacco per altre molecole. Ogni reazione organica comincia con la rottura di un legame esistente, e a seconda di come avviene questa rottura cambiano gli intermedi e quindi il meccanismo.
+La reattività di un composto organico dipende dalla presenza di legami polari, di legami multipli e soprattutto dei gruppi funzionali: i legami $\text{C}-\text{C}$ e $\text{C}-\text{H}$ sono poco reattivi perché poco polari, ma basta la presenza di un atomo più elettronegativo (ossigeno, azoto, alogeno) per creare una zona di carica parziale che diventa il punto di attacco per altre molecole. Ogni reazione organica comincia con la rottura di un legame esistente, e a seconda di come avviene questa rottura cambiano gli intermedi e quindi il meccanismo. Le rotture possibili sono due:
 
 ### Rottura omolitica
 
