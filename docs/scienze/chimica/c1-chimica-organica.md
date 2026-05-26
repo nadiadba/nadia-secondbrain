@@ -7,7 +7,7 @@ La chimica organica è la chimica dei composti del carbonio. Il nome risale all'
 I composti organici si dividono in due grandi famiglie:
 
 - **Idrocarburi**: contengono solo carbonio e idrogeno. Si distinguono in saturi (alcani e cicloalcani, con soli legami semplici), insaturi (alcheni con un doppio legame, alchini con un triplo) e aromatici (basati sull'anello del benzene).
-- **Derivati degli idrocarburi**: hanno uno o più idrogeni sostituiti da gruppi contenenti altri elementi (ossigeno, azoto, alogeni, zolfo). Questi gruppi, detti **gruppi funzionali**, definiscono la classe del composto: alcoli, eteri, aldeidi, chetoni, acidi carbossilici, ammine e così via.
+- **Derivati degli idrocarburi**: hanno uno o più idrogeni sostituiti da gruppi contenenti altri elementi (ossigeno, azoto, alogeni, zolfo). Questi gruppi, detti gruppi funzionali, definiscono la classe del composto: alcoli, eteri, aldeidi, chetoni, acidi carbossilici, ammine e così via.
 
 ## Le proprietà del carbonio
 
@@ -30,7 +30,7 @@ Le molecole organiche si possono rappresentare con quattro tipi di formula, a li
 
 ## L'isomeria
 
-Si chiamano **isomeri** due composti con la stessa formula molecolare ma struttura diversa (dal greco *isos*, uguale, e *meros*, parte). È un fenomeno fondamentale, perché spiega come a una stessa formula bruta possano corrispondere sostanze con proprietà del tutto diverse. L'isomeria si divide in due grandi rami:
+Si chiamano isomeri due composti con la stessa formula molecolare ma struttura diversa (dal greco *isos*, uguale, e *meros*, parte). È un fenomeno fondamentale, perché spiega come a una stessa formula bruta possano corrispondere sostanze con proprietà del tutto diverse. L'isomeria si divide in due grandi rami:
 
 - **Isomeria costituzionale**: cambia la connettività degli atomi, cioè quali atomi sono legati a quali.
 - **Stereoisomeria**: la connettività è la stessa, cambia la disposizione spaziale.
@@ -48,11 +48,11 @@ L'isomeria costituzionale si presenta in tre forme:
 Gli stereoisomeri si distinguono in due tipi:
 
 - **Isomeri conformazionali**: differiscono per la rotazione attorno a un legame semplice. Poiché queste rotazioni a temperatura ambiente sono libere, le diverse forme si trasformano continuamente l'una nell'altra e non sono isolabili — si parla piuttosto di conformazioni più o meno stabili, come le forme *anti* e *gauche* del butano.
-- **Isomeri configurazionali**: possono interconvertirsi solo rompendo e riformando legami, e sono perciò composti distinti, isolabili e con proprietà diverse. Comprendono l'**isomeria geometrica** (o *cis-trans*), quando attorno a un doppio legame o a un anello i sostituenti si trovano dalla stessa parte o da parti opposte, e l'**isomeria ottica**, legata alla presenza di un atomo di carbonio asimmetrico (cioè legato a quattro gruppi diversi).
+- **Isomeri configurazionali**: possono interconvertirsi solo rompendo e riformando legami, e sono perciò composti distinti, isolabili e con proprietà diverse. Comprendono l'isomeria geometrica (o *cis-trans*), quando attorno a un doppio legame o a un anello i sostituenti si trovano dalla stessa parte o da parti opposte, e l'isomeria ottica, legata alla presenza di un atomo di carbonio asimmetrico (cioè legato a quattro gruppi diversi).
 
 ### Attività ottica
 
-Una molecola con un carbonio asimmetrico non è sovrapponibile alla propria immagine speculare: si dice **chirale** (dal greco *cheir*, mano), e le sue due forme speculari si chiamano **enantiomeri**. Hanno proprietà fisiche e chimiche identiche, tranne nel modo in cui interagiscono con la luce polarizzata: attraversando una soluzione di un enantiomero puro, il piano di vibrazione viene ruotato verso destra (destrogiro, $+$) o verso sinistra (levogiro, $-$), dello stesso angolo ma in versi opposti. Una miscela in parti uguali dei due, detta **racemo**, non ruota la luce. L'attività ottica è cruciale in biologia, perché gli enzimi distinguono i due enantiomeri di una sostanza e spesso solo uno dei due ha effetto biologico.
+Una molecola con un carbonio asimmetrico non è sovrapponibile alla propria immagine speculare: si dice chirale (dal greco *cheir*, mano), e le sue due forme speculari si chiamano enantiomeri. Hanno proprietà fisiche e chimiche identiche, tranne nel modo in cui interagiscono con la luce polarizzata: attraversando una soluzione di un enantiomero puro, il piano di vibrazione viene ruotato verso destra (destrogiro, $+$) o verso sinistra (levogiro, $-$), dello stesso angolo ma in versi opposti. Una miscela in parti uguali dei due, detta racemo, non ruota la luce. L'attività ottica è cruciale in biologia, perché gli enzimi distinguono i due enantiomeri di una sostanza e spesso solo uno dei due ha effetto biologico.
 
 ## Proprietà fisiche e reattività dei composti organici
 
@@ -60,7 +60,7 @@ La reattività di un composto organico dipende dalla presenza di legami polari, 
 
 ### Rottura omolitica
 
-Nella **rottura omolitica** i due elettroni del legame si dividono equamente tra i due atomi, ciascuno se ne porta via uno e si formano due **radicali liberi**, frammenti con un elettrone spaiato:
+Nella rottura omolitica i due elettroni del legame si dividono equamente tra i due atomi, ciascuno se ne porta via uno e si formano due radicali liberi, frammenti con un elettrone spaiato:
 
 $$ \text{A}-\text{B} \longrightarrow \text{A}\cdot + \cdot\text{B} $$
 
@@ -68,11 +68,11 @@ $$ \text{A}-\text{B} \longrightarrow \text{A}\cdot + \cdot\text{B} $$
 
 ### Rottura eterolitica
 
-Nella **rottura eterolitica**, invece, entrambi gli elettroni restano sull'atomo più elettronegativo, e si formano due ioni di carica opposta:
+Nella rottura eterolitica, invece, entrambi gli elettroni restano sull'atomo più elettronegativo, e si formano due ioni di carica opposta:
 
 $$ \text{A}-\text{B} \longrightarrow \text{A}^+ + :\!\text{B}^- $$
 
-È tipica dei legami polari ed è favorita dai solventi polari, che stabilizzano gli ioni. Gli intermedi sono **carbocationi** (carica positiva su un carbonio) o **carbanioni** (carica negativa), e la facilità della reazione dipende dalla loro stabilità. Un esempio quotidiano è la dissociazione dell'acido cloridrico in acqua, $\text{HCl} \rightarrow \text{H}^+ + \text{Cl}^-$.
+È tipica dei legami polari ed è favorita dai solventi polari, che stabilizzano gli ioni. Gli intermedi sono carbocationi (carica positiva su un carbonio) o carbanioni (carica negativa), e la facilità della reazione dipende dalla loro stabilità. Un esempio quotidiano è la dissociazione dell'acido cloridrico in acqua, $\text{HCl} \rightarrow \text{H}^+ + \text{Cl}^-$.
 
 ## Collegamenti
 
