@@ -64,9 +64,9 @@ Gli stereoisomeri si distinguono in due tipi:
 
 - **Isomeri configurazionali**: differiscono per l'orientazione nello spazio di atomi o gruppi atomici ma che non si possono interconvertire per rotazione attorno a un legame. L'isomeria di configurazione è distinta a sua volta in isomeria geometrica ed enantiomeria.
 
- - Gli isomeri geometrici sono due composti che differiscono per la disposizione spaziale di atomi o gruppi atomici legati a due atomi di carbonio uniti da un legame semplice o doppio. L'isomero avente gli atomi o i gruppi atomici disposti nello spazio dalla stessa parte si chiama cis, quello con gli atomi o i gruppi atomici disposti da parti opposte si chiama trans.
+  - Gli isomeri geometrici sono due composti che differiscono per la disposizione spaziale di atomi o gruppi atomici legati a due atomi di carbonio uniti da un legame semplice o doppio. L'isomero avente gli atomi o i gruppi atomici disposti nello spazio dalla stessa parte si chiama cis, quello con gli atomi o i gruppi atomici disposti da parti opposte si chiama trans.
 
- - Gli enantiomeri o isomeri ottici sono due molecole con diversa disposizione spaziale che sono l'una l'immagine speculare dell'altra ma non sovrapponibili. Una molecola esiste sotto forma di due enantiomeri se nella molecola è presente uno stereocentro (un atomo di carbonio legato a quattro atomi o gruppi atomici diversi) ed è assente un piano di simmetria, ed è quindi detta chirale.
+  - Gli enantiomeri o isomeri ottici sono due molecole con diversa disposizione spaziale che sono l'una l'immagine speculare dell'altra ma non sovrapponibili. Una molecola esiste sotto forma di due enantiomeri se nella molecola è presente uno stereocentro (un atomo di carbonio legato a quattro atomi o gruppi atomici diversi) ed è assente un piano di simmetria, ed è quindi detta chirale.
 
 ## Proprietà fisiche dei composti organici
 
