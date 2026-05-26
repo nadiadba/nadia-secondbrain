@@ -5,7 +5,8 @@
       "Bash(git:*)",
       "Bash(gh run:*)",
       "Bash(where pdftoppm:*)",
-      "Read(//c/Users/Nadia/AppData/**)"
+      "Read(//c/Users/Nadia/AppData/**)",
+      "PowerShell($tmp = \"$env:TEMP\\\\indice-italiano-pages\"; if \\(-not \\(Test-Path $tmp\\)\\) { New-Item -ItemType Directory $tmp | Out-Null }; pdftoppm -r 100 -jpeg \"docs/italiano/materiale/Indice italiano.pdf\" \"$tmp/page\"; Get-ChildItem $tmp | Select-Object Name, @{n='SizeKB';e={[math]::Round\\($_.Length/1KB,1\\)}})"
     ]
   }
 }
