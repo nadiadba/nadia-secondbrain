@@ -1,171 +1,171 @@
 # Gabriele D'Annunzio
 
-Gabriele D'Annunzio è insieme a Pascoli la grande voce del Decadentismo italiano ed è la figura più scenografica e più ingombrante della letteratura italiana fra Otto e Novecento. La sua opera attraversa praticamente tutti i generi: poesia (*Le laudi del cielo, del mare, della terra e degli eroi*, di cui *Alcyone* è il capolavoro), romanzo (*Il piacere*, *Le vergini delle rocce*, *Il fuoco*, *Il trionfo della morte*), teatro, prosa lirica (*Il notturno*), oltre a una vasta produzione giornalistica e politica. La sua importanza nella letteratura italiana del Novecento è duplice e per certi versi contraddittoria. Da un lato è il più grande sperimentatore stilistico del Decadentismo italiano, capace di portare nella lingua poetica e prosastica una ricchezza lessicale, una densità sonora e una raffinatezza musicale senza precedenti (*Alcyone* è una delle vette del simbolismo europeo). Dall'altro è il poeta-vate che incarna la posa più retorica e nazionalistica del Decadentismo, il teorico del "superuomo" italiano in chiave eroica e antidemocratica, l'interventista della Prima guerra mondiale e uno dei padri spirituali di gran parte della retorica che il fascismo farà propria. Capire D'Annunzio significa tenere insieme entrambi i piani: l'altissima musicalità di *La pioggia nel pineto* e l'ideologia regressiva del superuomo, l'innovazione formale e la politica reazionaria.
+Gabriele D'Annunzio è insieme a Pascoli una delle due voci principali del Decadentismo italiano, e una delle figure centrali della letteratura italiana fra Otto e Novecento. La sua opera attraversa praticamente tutti i generi letterari: poesia (*Le laudi del cielo, del mare, della terra e degli eroi*, di cui *Alcyone* è il capolavoro), romanzo (*Il piacere*, *Le vergini delle rocce*, *Il fuoco*, *Il trionfo della morte*), teatro, prosa lirica (*Il notturno*), oltre a una vasta produzione giornalistica e politica. La sua importanza nella letteratura italiana del Novecento è duplice. Sul piano formale, è uno dei più importanti sperimentatori stilistici del Decadentismo italiano: porta nella lingua poetica e prosastica una ricchezza lessicale e una raffinatezza musicale senza precedenti, e *Alcyone* è considerata una delle vette del simbolismo europeo. Sul piano del pensiero, è il principale teorico italiano del "superuomo", figura elaborata a partire dalla filosofia di Nietzsche, che esprime una visione antidemocratica, nazionalistica e antimoderna; D'Annunzio fu inoltre interventista nella Prima guerra mondiale e protagonista dell'impresa di Fiume del 1919-1920, e la sua retorica eroica influenzò profondamente la cultura pubblica del fascismo. Per capire D'Annunzio è necessario tenere insieme entrambi i piani: l'innovazione stilistica e il programma politico, la musicalità di *La pioggia nel pineto* e l'ideologia del superuomo.
 
-## L'estetismo
+## La poetica
 
-La prima grande fase della scrittura dannunziana è quella dell'estetismo, sviluppata negli anni Ottanta e Novanta dell'Ottocento. L'estetismo è la convinzione che la bellezza sia l'unico valore assoluto in un mondo svuotato di senso, e che la vita debba essere modellata come un'opera d'arte. Vivere esteticamente significa scegliere le proprie sensazioni come si sceglierebbero i colori di un quadro, circondarsi di oggetti rari e raffinati, fare di ogni gesto un atto di stile, disprezzare la mediocrità borghese, coltivare un culto del passato e della tradizione (la bellezza rinascimentale, la civiltà cortese, la Roma imperiale) contro la bruttezza del presente democratico. L'esteta è un aristocratico dello spirito, un sopravvissuto raffinato di un mondo che il commercio e la democrazia stanno distruggendo. I modelli letterari di D'Annunzio sono qui i decadenti francesi — Joris-Karl Huysmans con *À rebours* (1884), il manifesto dell'estetismo europeo — e l'inglese Oscar Wilde con *Il ritratto di Dorian Gray* (1890).
+### L'estetismo
 
-## Il piacere
+L'estetismo è il principio che governa la prima grande fase della scrittura dannunziana, quella degli anni Ottanta e Novanta dell'Ottocento. Si tratta della convinzione che la bellezza sia l'unico valore assoluto in un mondo che ha perso ogni altro fondamento (religioso, etico, civile), e che la vita debba essere modellata come un'opera d'arte. Vivere esteticamente significa scegliere le proprie sensazioni come si sceglierebbero i colori di un quadro, circondarsi di oggetti rari e raffinati, fare di ogni gesto un atto di stile. L'esteta disprezza la mediocrità borghese e la volgarità del presente democratico, e coltiva un culto del passato come depositario di una bellezza ormai irraggiungibile: la civiltà cortese del Medioevo, l'arte rinascimentale, la grandezza della Roma imperiale. È un aristocratico dello spirito, un sopravvissuto raffinato di un mondo che il commercio e la democrazia stanno distruggendo.
 
-*Il piacere*, pubblicato nel 1889, è il primo romanzo di D'Annunzio e il manifesto del suo estetismo. Protagonista è Andrea Sperelli, giovane nobile romano, raffinato uomo di mondo, poeta dilettante, esteta puro. Sperelli è diviso tra due donne: Elena Muti, la dama affascinante e crudele che lo ha sedotto e abbandonato, e Maria Ferres, la donna dolce e spirituale che lo ama in modo sincero. La trama è la storia della disgregazione morale di Sperelli, incapace di scegliere, perso nelle proprie sensazioni, infine sconfitto dalla propria stessa incapacità di vivere. Il romanzo si conclude con un episodio simbolico: Sperelli, durante un'asta di mobili in casa di Maria Ferres, ormai partita e perduta, segue la lettiga che porta via gli oggetti, in una scena di malinconia e di rovina interiore.
+Sul piano filosofico, l'estetismo deriva dalla convinzione decadente che la realtà oggettiva sia ormai irraggiungibile: ciò che conta non è la verità ma l'impressione, non l'azione ma la sensazione, non la sostanza ma lo stile. Sul piano letterario, i modelli di D'Annunzio sono i decadenti francesi — in particolare Joris-Karl Huysmans, con il romanzo *À rebours* (1884), considerato il manifesto dell'estetismo europeo — e gli inglesi del movimento estetistico, soprattutto Oscar Wilde con *Il ritratto di Dorian Gray* (1890). L'estetismo trova in D'Annunzio la sua più piena espressione italiana nel romanzo *Il piacere* (1889), il cui protagonista Andrea Sperelli incarna il "perfetto esteta" e ne mostra anche la fragilità: l'esteta non riesce a vivere veramente, perché ha sostituito l'esperienza con la sua contemplazione, e finisce schiacciato dalla propria stessa incapacità di scelta.
 
-Il celebre brano *Un ritratto allo specchio: Andrea Sperelli ed Elena Muti* mostra in azione il principio estetistico: la donna non è mai descritta come persona reale, ma come oggetto raffinato di contemplazione, paragonato a quadri, a sculture, a profumi, a stoffe preziose. La sua bellezza è interamente filtrata da una cultura artistica: Elena non viene "vista", viene "letta" attraverso le altre bellezze che il protagonista ha già contemplato. Allo stesso modo Sperelli osserva se stesso: vive davanti a uno specchio interiore, in cui ogni gesto è studiato come una posa pittorica. È questo l'estetismo nella sua forma pura: l'esperienza diretta della vita è sostituita dalla riflessione estetica sulla vita; ciò che si prova è meno importante di come si racconta a se stessi ciò che si prova.
+### Il superuomo
 
-## Il superuomo
+Dalla metà degli anni Novanta, sotto l'influenza diretta della lettura di Friedrich Nietzsche, D'Annunzio elabora il mito del **superuomo**. Si tratta della seconda grande categoria della sua poetica, complementare e non sostitutiva dell'estetismo. Il superuomo dannunziano non è la traduzione fedele dell'*Übermensch* nietzscheano: D'Annunzio semplifica la complessa filosofia di Nietzsche e ne trattiene soprattutto la dimensione eroica, vitalistica, aristocratica. Il superuomo è l'individuo eccezionale che si pone al di sopra della morale comune ("al di là del bene e del male"), che impone alla realtà la propria volontà di potenza, che fa della propria esistenza un'opera d'arte e insieme un atto politico. Mentre l'esteta era un raffinato spettatore della propria vita, il superuomo è un attore protagonista: agisce, conquista, costruisce, distrugge.
 
-A partire dalla metà degli anni Novanta, sotto l'influenza diretta di Friedrich Nietzsche, D'Annunzio elabora il mito del superuomo. Il superuomo dannunziano non è la traduzione fedele dell'*Übermensch* nietzscheano, ma una sua interpretazione personale, in cui prevalgono la dimensione eroica, vitalistica, aristocratica. Il superuomo è l'individuo eccezionale che si pone al di sopra della morale comune, che impone alla realtà la propria volontà di potenza, che fa della propria esistenza un'opera d'arte e un atto politico insieme. Mentre l'esteta era un raffinato spettatore della propria vita, il superuomo è un attore: agisce, conquista, costruisce, distrugge. Il superuomo dannunziano è il prolungamento naturale dell'esteta: ne conserva il disprezzo per la mediocrità borghese e il culto della bellezza, ma vi aggiunge la volontà di azione, l'eroismo, la passione politica. Negli anni successivi questa figura ispirerà direttamente la retorica del primo fascismo, che farà di D'Annunzio uno dei propri padri spirituali, anche se i rapporti personali tra D'Annunzio e Mussolini saranno sempre ambigui.
+Il superuomo dannunziano è il prolungamento naturale dell'esteta, non la sua negazione: ne conserva il disprezzo per la mediocrità borghese e il culto della bellezza, ma vi aggiunge la volontà di azione, l'eroismo militare, la passione politica. Da qui derivano alcune posizioni concrete di D'Annunzio nella vita pubblica italiana: l'interventismo nella Prima guerra mondiale, l'esperienza dell'aviatore (il volo su Vienna del 1918), l'impresa di Fiume del 1919-1920. Negli anni successivi questa figura ispirerà direttamente la retorica del primo fascismo, che farà di D'Annunzio uno dei propri riferimenti culturali, anche se i rapporti personali fra D'Annunzio e Mussolini saranno sempre tesi e mai del tutto chiari.
 
-Il superuomo si oppone in modo speculare al fanciullino pascoliano: dove il fanciullino si rifugia nel piccolo, nell'umile, nel domestico, il superuomo si proietta nel grande, nell'eroico, nel pubblico. Pascoli e D'Annunzio rappresentano dunque le due risposte opposte alla stessa crisi decadente: la prima per via discendente, la seconda per via ascendente; entrambi cercano un valore in un mondo che ha perso i suoi valori comuni.
+Il superuomo si oppone in modo speculare al **fanciullino pascoliano**: dove il fanciullino si rifugia nel piccolo, nell'umile, nel domestico, il superuomo si proietta nel grande, nell'eroico, nel pubblico. Pascoli e D'Annunzio rappresentano le due risposte opposte alla stessa crisi decadente: la prima per via discendente (rifugio nella delicatezza), la seconda per via ascendente (esaltazione della forza); entrambe cercano un valore in un mondo che ha perso i suoi valori comuni. È uno dei più importanti collegamenti da tenere presenti per l'orale.
 
-## I romanzi del superuomo
+### Il panismo
 
-I "romanzi del superuomo" sono *Il trionfo della morte* (1894), *Le vergini delle rocce* (1895), *Il fuoco* (1900), che mettono in scena protagonisti aristocratici, sensibili e violenti, divisi tra il desiderio di un amore totale e l'impulso a una grandezza politica o artistica che li separi dalla massa.
+Il terzo grande concetto della poetica dannunziana, complementare e in certo modo opposto al superuomo, è il **panismo**. Il termine viene dal greco *pan*, "tutto", e indica l'esperienza di una fusione totale dell'uomo con la natura, in cui il corpo umano e il corpo del mondo si sciolgono in un'unica vibrazione vitale. Non si tratta dell'identificazione sentimentale con il paesaggio tipica del Romanticismo: nel panismo dannunziano c'è una vera metamorfosi sensoriale, in cui i confini fra il soggetto e la natura si annullano, e l'uomo si trasforma progressivamente in pianta, in animale, in elemento. La donna amata diventa ramo, foglia, ginestra; il volto del poeta si fa "molle di pioggia come una foglia"; la voce umana si confonde con il suono della pioggia sulle piante.
 
-In *Le vergini delle rocce* compare per la prima volta in modo esplicito il programma politico del superuomo. Il protagonista, Claudio Cantelmo, ultimo rampollo di una famiglia aristocratica meridionale, sogna di generare il "re di Roma", un nuovo eroe che possa salvare l'Italia dalla bruttezza della modernità democratica. Cantelmo va alla ricerca della donna degna di mettere al mondo questo erede, e la cerca tra tre sorelle, le "vergini delle rocce", figure ieratiche e quasi sacre, ultime testimoni di un mondo aristocratico in via di estinzione. Il romanzo non è una narrazione realistica ma un poema in prosa, in cui paesaggi, descrizioni, dialoghi sono soprattutto occasioni di stile: la parola dannunziana, ricca, sonora, accumulata, è il vero protagonista.
+Il panismo è il rovescio luminoso del superuomo: dove il superuomo si afferma sulla realtà imponendole la propria volontà, l'uomo panico si dissolve nella realtà fondendosi con essa. I due movimenti, opposti solo in apparenza, sono entrambi tentativi di superare la condizione mediocre dell'uomo comune e di costruire un rapporto eccezionale con il mondo. Il panismo trova la sua massima espressione letteraria nella raccolta *Alcyone* (1903), e in particolare in *La pioggia nel pineto*, dove la metamorfosi naturale è portata a un livello di musicalità simbolista che fa di questo testo uno dei capolavori del Decadentismo europeo. Sul piano stilistico, il panismo si traduce nell'uso massiccio del **fonosimbolismo** (parole scelte per il loro valore sonoro), delle **sinestesie** (mescolanza di sensazioni diverse: vedere un suono, sentire un colore), delle **onomatopee** (parole che imitano i suoni della natura). È in questo terreno che D'Annunzio è più vicino ai grandi simbolisti francesi (Mallarmé, Verlaine, Rimbaud) e che la sua poesia raggiunge gli esiti più alti.
 
-Nel brano *Il "vento di barbarie" della speculazione edilizia*, il protagonista contempla la nuova Roma postunitaria, sventrata dagli appaltatori, deturpata dalle costruzioni borghesi, e vi vede il segno della "barbarie" che sta distruggendo la bellezza secolare della città. La denuncia è autenticamente decadente: il bello, l'aristocratico, il raffinato sono spazzati via dal denaro e dalla volgarità. Da qui il programma politico del superuomo, esposto nel brano celebre: contro la democrazia mediocre, contro il dominio della massa, contro il livellamento, occorre il ritorno di un'élite che restituisca al mondo il senso della grandezza. È un programma reazionario nel senso letterale (vuole reagire contro la modernità democratica), ma è anche, nella sua coerenza, una delle formulazioni più nette dell'antimodernismo decadente europeo.
+## Le opere
 
-## Le Laudi
+### Il piacere (1889)
 
-Le *Laudi del cielo, del mare, della terra e degli eroi* sono il grande progetto poetico di D'Annunzio negli anni intorno al 1900. Avrebbero dovuto comprendere sette libri, ognuno intitolato a una stella delle Pleiadi, in un imponente disegno di poesia totale che celebrasse l'intera realtà cosmica e umana. D'Annunzio ne pubblicò soltanto i primi tre — *Maia*, *Elettra*, *Alcyone* (tutti del 1903) — e parzialmente il quarto (*Merope*, 1912). Di queste, *Alcyone* è il capolavoro: cento componimenti dedicati a un'estate trascorsa in Versilia, sulla riviera toscana, fra il giugno e il settembre.
+*Il piacere*, pubblicato nel 1889, è il primo romanzo di D'Annunzio e il manifesto narrativo del suo estetismo. È il romanzo che inaugura in Italia il filone del romanzo decadente, sulla scia diretta di Huysmans e di Wilde, e che fa di D'Annunzio, a soli ventisei anni, uno degli scrittori italiani più celebri del momento.
 
-## Il panismo
+**Trama.** Protagonista è Andrea Sperelli, giovane nobile romano di origine marchigiana, raffinato uomo di mondo, poeta dilettante, collezionista di oggetti d'arte. Sperelli è la figura compiuta dell'esteta: vive a Roma in un appartamento di palazzo Zuccari, sopra Trinità dei Monti, arredato con cura maniacale, frequenta i salotti dell'aristocrazia, ed è dedito alla seduzione delle donne come fosse un'arte da praticare con virtuosismo. La sua vita sentimentale è dominata da due figure femminili contrapposte. La prima è **Elena Muti**, una nobildonna affascinante e crudele, che lo aveva sedotto e poi abbandonato sposando per ragioni di denaro un ricco inglese, Lord Heathfield. La seconda è **Maria Ferres**, una donna spirituale e sincera, moglie del ministro plenipotenziario del Guatemala, che si innamora autenticamente di Sperelli e gli offre un amore puro. Sperelli è incapace di scegliere fra le due: cerca in Maria la stessa intensità sensuale che aveva avuto con Elena, e nelle sue fantasie sostituisce continuamente il volto di una con il volto dell'altra. Quando, in un momento di abbandono amoroso, lascia sfuggire il nome di Elena al posto di quello di Maria, perde anche quest'ultima per sempre. Il romanzo si chiude con una scena celebre: Sperelli, durante un'asta che disperde i mobili e gli oggetti di casa Ferres (Maria è partita per il Guatemala), segue da solo per le strade di Roma il facchino che porta via gli arredi, in un'immagine di rovina interiore e di malinconia.
 
-Strettamente legato al superuomo è un altro grande concetto della poetica dannunziana, che trova la sua massima espressione in *Alcyone*: il "panismo". Il termine viene dal greco *pan*, "tutto", e indica l'esperienza di una fusione totale dell'uomo con la natura, in cui il corpo umano e il corpo del mondo si sciolgono in un'unica vibrazione vitale. Non si tratta dell'identificazione sentimentale con il paesaggio tipica del Romanticismo: nel panismo dannunziano c'è una vera metamorfosi sensoriale, in cui i confini fra il soggetto e la natura si annullano, e l'uomo si trasforma in pianta, animale, elemento. È la forma più alta e raffinata della vitalità dannunziana, e una delle più alte espressioni del simbolismo italiano. Il panismo è il rovescio luminoso del superuomo: dove il superuomo si afferma sulla realtà imponendole la propria volontà, l'uomo panico si dissolve nella realtà fondendosi con essa. I due movimenti, opposti solo in apparenza, sono entrambi tentativi di superare la condizione mediocre dell'uomo comune, e di costruire un rapporto eccezionale con il mondo.
+**Struttura e stile.** Il romanzo è diviso in quattro libri e adotta una struttura ad analessi: si apre con Sperelli che aspetta nella propria casa il ritorno di Elena dopo due anni di lontananza, e poi torna indietro a raccontare i fatti precedenti. La prosa è straordinariamente ricca: D'Annunzio descrive in dettaglio gli oggetti, gli arredi, gli abiti, i profumi, i quadri, le musiche, in pagine che sono vere e proprie nature morte verbali. Lo stile è già pienamente decadente: la frase è lunga, sinuosa, costruita per accumulo di aggettivi e di immagini; il lessico è prezioso, ricco di termini rari, di forestierismi (francese, inglese, latino); la sintassi privilegia la sospensione e la musicalità sul senso logico.
 
-## Alcyone
+**Temi e significato.** Il romanzo è insieme la celebrazione e la critica dell'estetismo. Da un lato D'Annunzio costruisce Sperelli come un personaggio affascinante, e attraverso di lui esprime tutta la propria fascinazione per la bellezza, per l'arte, per la sensualità raffinata. Dall'altro mostra che l'esteta non riesce a vivere veramente: sostituisce l'esperienza con la sua contemplazione, l'amore con la sua descrizione, la scelta con la sua sospensione. La sua incapacità di amare davvero — la confusione fra Elena e Maria, il nome sbagliato che gli sfugge — è la conseguenza necessaria di un'esistenza modellata sull'arte e non sulla vita. In questo senso *Il piacere* anticipa già la grande critica novecentesca della condizione del soggetto decadente: l'esteta è il primo "uomo senza qualità" della letteratura italiana, incapace di scegliere, paralizzato dalla propria stessa raffinatezza.
 
-*Alcyone* è la celebrazione totale dell'estate come tempo di fusione panica tra l'uomo e la natura, e applica in versi la poetica del panismo descritta sopra. La raccolta è organizzata come un grande poema unitario, in cui cento componimenti seguono lo sviluppo di un'estate trascorsa in Versilia, sulla costa toscana, fra il giugno e il settembre. È una delle più alte espressioni del simbolismo italiano e del Decadentismo europeo.
+#### Un ritratto allo specchio: Andrea Sperelli ed Elena Muti
 
-### La pioggia nel pineto
+Il brano *Un ritratto allo specchio*, tratto dal libro I, capitolo II, è una delle pagine più celebri del romanzo e uno dei migliori esempi della prosa estetistica dannunziana. La scena è semplice: Andrea Sperelli e Elena Muti si trovano nell'appartamento di lui, davanti a uno specchio antico; Sperelli osserva il volto di Elena riflesso nello specchio, e la sua descrizione si trasforma in un lungo confronto fra la donna reale e una serie di immagini artistiche.
 
-*La pioggia nel pineto* è probabilmente la poesia più famosa di D'Annunzio. Una passeggiata in una pineta della Versilia con la donna amata (Ermione, nome poetico di Eleonora Duse) viene sorpresa da un acquazzone estivo, e l'acquazzone diventa l'occasione di una progressiva trasformazione dei due amanti in vegetazione, in suono, in elemento. La poesia è interamente costruita sul ritmo della pioggia che batte sulle foglie, e la struttura metrica imita l'andamento musicale dell'acqua. Della poesia, lunga circa centoventi versi, si riportano qui i passaggi essenziali:
+Il principio estetistico è qui in azione nella sua forma più pura. Elena non viene mai descritta come persona reale: viene "letta" attraverso una rete di riferimenti culturali. Il suo volto richiama un ritratto del Rinascimento, i suoi capelli ricordano una stoffa preziosa, il suo profilo evoca una scultura antica, la sua bocca si paragona a un fiore raro. La donna è ridotta a un catalogo di citazioni artistiche: la sua bellezza è interamente filtrata dalla cultura, non esiste fuori dai riferimenti pittorici e musicali che il protagonista le sovrappone. Allo stesso modo Sperelli osserva se stesso allo specchio, e ogni suo gesto è studiato come una posa pittorica: vive davanti a uno specchio interiore, in cui ogni movimento è considerato per il suo effetto estetico.
 
-> Taci. Su le soglie
-> del bosco non odo
-> parole che dici
-> umane; ma odo
-> parole più nuove
-> che parlano gocciole e foglie
-> lontane.
-> Ascolta. Piove
-> dalle nuvole sparse.
-> Piove su le tamerici
-> salmastre ed arse,
-> piove su i pini
-> scagliosi ed irti,
-> piove su i mirti
-> divini,
-> su le ginestre fulgenti
-> di fiori accolti,
-> su i ginepri folti
-> di coccole aulenti,
-> piove su i nostri vólti
-> silvani,
-> piove su le nostre mani
-> ignude,
-> su i nostri vestimenti
-> leggieri,
-> su i freschi pensieri
-> che l'anima schiude
-> novella,
-> su la favola bella
-> che ieri
-> t'illuse, che oggi m'illude,
-> o Ermione.
+Da questa pagina si estrae uno dei principi cardine dell'estetismo dannunziano: **l'esperienza diretta della vita è sostituita dalla riflessione estetica sulla vita**; ciò che si prova è meno importante di come si racconta a se stessi ciò che si prova. È una sensibilità che D'Annunzio condivide con il decadentismo europeo (Wilde, Huysmans) e che porta in Italia per la prima volta con piena consapevolezza letteraria. La scena dello specchio è anche una grande dichiarazione di poetica: la realtà non interessa più, ciò che conta è la sua trasfigurazione artistica.
 
-E nella parte finale, dopo che la pioggia ha trasformato il bosco in un'orchestra di suoni, gli amanti stessi diventano parte della vegetazione:
+### I romanzi del superuomo
 
-> E immersi
-> noi siam nello spirto
-> silvestre,
-> d'arborea vita viventi;
-> e il tuo vólto ebro
-> è molle di pioggia
-> come una foglia,
-> e le tue chiome
-> auliscono come
-> le chiare ginestre,
-> o creatura terrestre
-> che hai nome
-> Ermione.
+Sotto l'influenza della filosofia di Nietzsche, fra il 1894 e il 1900 D'Annunzio scrive una trilogia di romanzi che prendono il nome di "romanzi del superuomo": *Il trionfo della morte* (1894), *Le vergini delle rocce* (1895), *Il fuoco* (1900). I tre romanzi hanno protagonisti diversi ma sono uniti dalla stessa figura di eroe: l'aristocratico eccezionale, sensibile e violento, diviso fra il desiderio di un amore totale e l'impulso a una grandezza politica o artistica che lo separi dalla massa. In tutti e tre i romanzi la narrazione tradizionale è sostituita da una scrittura che assomiglia più al poema in prosa che al romanzo realistico: la trama è ridotta al minimo, l'azione è quasi assente, e ciò che conta sono le lunghe meditazioni del protagonista, le descrizioni del paesaggio, le invocazioni alla bellezza e alla forza. Il più importante dei tre, dal punto di vista del programma politico del superuomo, è *Le vergini delle rocce*.
 
-La poesia è una sinfonia di suoni: i nomi delle piante (tamerici, pini, mirti, ginestre, ginepri) si susseguono in onomatopee che riproducono l'effetto della pioggia sui diversi tipi di foglie; il fonosimbolismo lavora a pieno regime. La struttura non è narrativa ma musicale: si sviluppa per riprese, variazioni, modulazioni, come un brano sinfonico. È il punto più alto del simbolismo italiano: la natura cessa di essere uno sfondo descrittivo e diventa un evento musicale a cui il soggetto si abbandona.
+### Le vergini delle rocce (1895)
 
-### I pastori
+*Le vergini delle rocce*, pubblicato nel 1895, è il romanzo centrale della trilogia del superuomo. Il titolo è ripreso da un dipinto di Leonardo da Vinci e indica fin da subito l'atmosfera ieratica, quasi sacrale, del libro.
 
-*I pastori* è una delle più belle elegie italiane del Novecento, dedicata all'antica transumanza dei pastori abruzzesi che, ogni autunno, scendevano dai pascoli di montagna verso le pianure marine della Puglia. La poesia, di ventitré versi, è scritta in endecasillabi sciolti, con una compostezza classica che la distingue dalle effusioni musicali di *Alcyone*. Si riporta qui il testo integrale:
+**Trama.** Il protagonista è Claudio Cantelmo, ultimo rampollo di una famiglia aristocratica meridionale in decadenza, che si rifugia in una villa in Abruzzo per cercare la donna con cui dovrà generare il "**re di Roma**", l'erede eccezionale destinato a salvare l'Italia dalla bruttezza della modernità democratica. La villa appartiene alla famiglia Capece-Montaga, ormai ridotta a tre sorelle vergini — Massimilla, Anatolia e Violante — e a un padre malato di mente. Le tre sorelle sono le "vergini delle rocce" del titolo: figure quasi sacre, ultime testimoni di un mondo aristocratico in via di estinzione, custodi di una bellezza antica e irripetibile. Cantelmo le osserva, le studia, le confronta, cercando di capire quale di loro sarebbe la madre ideale del futuro eroe. Il romanzo, però, non si conclude: Cantelmo non sceglie nessuna delle tre, e il libro resta sospeso in una contemplazione che non si traduce mai in azione concreta. Doveva essere il primo di una trilogia ("I romanzi del Giglio"), mai completata.
 
-> Settembre, andiamo. È tempo di migrare.
-> Ora in terra d'Abruzzi i miei pastori
-> lascian gli stazzi e vanno verso il mare:
-> scendono all'Adriatico selvaggio
-> che verde è come i pascoli dei monti.
->
-> Han bevuto profondamente ai fonti
-> alpestri, che sapor d'acqua natìa
-> rimanga ne' cuori esuli a conforto,
-> che lungo illuda la lor sete in via.
-> Rinnovato hanno verga d'avellano.
->
-> E vanno pel tratturo antico al piano,
-> quasi per un erbal fiume silente,
-> su le vestigia degli antichi padri.
-> O voce di colui che primamente
-> conosce il tremolar della marina!
->
-> Ora lungh'esso il litoral cammina
-> la greggia. Senza mutamento è l'aria.
-> Il sole imbionda sì la viva lana
-> che quasi dalla sabbia non divaria.
-> Isciacquío, calpestío, dolci romori.
->
-> Ah perché non son io co' miei pastori?
+**Struttura e stile.** *Le vergini delle rocce* non è un romanzo realistico: è un **poema in prosa**. La trama è quasi inesistente, l'azione è ridotta al minimo, ogni capitolo è dominato da lunghe descrizioni, da meditazioni del protagonista, da invocazioni alla natura e all'antichità. La prosa è ancora più ricca e accumulata di quella de *Il piacere*: D'Annunzio costruisce periodi di pagine intere, ricchi di subordinate, di apposizioni, di immagini sinestetiche. La parola dannunziana è il vero protagonista del libro: il lettore non legge per sapere cosa succede, ma per ascoltare la musica della prosa.
 
-La poesia è un capolavoro di nostalgia controllata. D'Annunzio, ormai distante dalla propria terra natale, evoca un'Italia antica, pastorale, ritualizzata, che sopravvive nei gesti millenari della transumanza. Il finale, "Ah perché non son io co' miei pastori?", è la confessione di un esilio che non è solo geografico ma esistenziale: l'esteta moderno ha perso il legame con il mondo elementare della propria infanzia abruzzese, e nessuna raffinatezza letteraria potrà restituirglielo.
+**Temi e significato.** Il romanzo è la prima esposizione organica del **programma politico del superuomo**. Cantelmo non è solo un esteta che contempla la bellezza: è un teorico della rinascita aristocratica dell'Italia, convinto che la nazione possa essere salvata solo dal ritorno di un'élite eccezionale, che dovrà imporre alla massa il proprio gusto e la propria volontà. È una posizione antidemocratica esplicita, che ha avuto un'enorme influenza sulla cultura italiana del primo Novecento e che troverà piena applicazione politica nella retorica del fascismo.
 
-## Da Poema paradisiaco: Consolazione
+#### Il "vento di barbarie" della speculazione edilizia
 
-Prima delle *Laudi*, nel 1893, D'Annunzio aveva pubblicato il *Poema paradisiaco*, una raccolta più intimistica, in cui prevale un tono malinconico, dolce, di ritorno alla casa familiare e alla figura materna. La celebre *Consolazione*, lunga ma di tono colloquiale, è una sorta di promessa fatta dal poeta alla madre invecchiata: stancarsi del mondo, tornare a casa, riposarsi insieme nella quiete di un giardino familiare. Si riportano le strofe iniziali, in cui il tono dimesso contrasta deliberatamente con la magniloquenza estetistica:
+Il brano del "vento di barbarie", tratto dal libro I, è uno dei più celebri del romanzo. Cantelmo, dalla terrazza della propria casa romana, contempla la nuova Roma postunitaria, quella che dopo il 1870 era stata sventrata dalle speculazioni edilizie per essere trasformata da città papale in capitale dello Stato italiano. Interi quartieri storici erano stati demoliti per fare spazio a nuove costruzioni borghesi; ville antiche e giardini secolari erano stati distrutti per costruire palazzi anonimi di appartamenti; gli appaltatori e gli speculatori (la "razza di Crispi") avevano sfregiato in pochi anni un paesaggio urbano costruito nei secoli.
 
-> Non pianger più. Torna il diletto figlio
-> a la tua casa. È stanco di mentire.
-> Vieni; usciamo. Tempo è di rifiorire.
-> Troppo sei bianca: il volto è quasi un giglio.
->
-> Vieni; usciamo. Il giardino abbandonato
-> serba ancóra per noi qualche sentiero.
+Davanti a questo spettacolo, Cantelmo vede passare il "vento di barbarie": una metafora che indica la forza distruttiva della modernità democratica, capace di cancellare in pochi anni la bellezza accumulata dalle generazioni precedenti. La denuncia è autenticamente decadente: il bello, l'aristocratico, il raffinato sono spazzati via dal denaro e dalla volgarità delle nuove classi al potere. Da questa diagnosi nasce il programma politico del superuomo, esposto nel brano in modo esplicito: contro la democrazia mediocre, contro il dominio della massa, contro il livellamento culturale, occorre il ritorno di un'élite che restituisca al mondo il senso della grandezza. È una delle formulazioni più nette dell'antimodernismo decadente europeo, e va letta in parallelo con le riflessioni contemporanee di Nietzsche, di Maurice Barrès in Francia, e con tutta la cultura "reazionaria" europea di fine Ottocento.
 
-L'interesse storico-letterario di *Consolazione* sta nel fatto che mostra un D'Annunzio diverso, più crepuscolare ante litteram, in cui la stanchezza dell'estetismo si traduce nella nostalgia di una vita semplice e domestica. È un D'Annunzio "minore" che però anticipa la sensibilità dei poeti crepuscolari di pochi anni dopo (Corazzini, Gozzano), e dimostra la ricchezza di registri di cui era capace.
+Il brano è importante anche come pagina di prosa: D'Annunzio mescola descrizione visiva (le rovine, le impalcature, la polvere sollevata dai cantieri), invettiva politica (l'attacco alla "razza di Crispi"), evocazione storica (il riferimento alle ville antiche distrutte) e profezia (l'annuncio della rinascita aristocratica). È il modello del "poema in prosa" che caratterizza tutta la fase del superuomo.
 
-## Il periodo notturno
+#### Il programma politico del superuomo (T4)
 
-L'ultima grande stagione della scrittura dannunziana è quella del *Notturno*, scritto a partire dal 1916, durante un periodo di convalescenza in seguito a un grave incidente aereo che lo lasciò temporaneamente cieco. Costretto a letto, con gli occhi bendati, D'Annunzio scrive su sottili strisce di carta che la figlia Renata gli passa una alla volta. Il *Notturno* è il risultato di queste pagine, riunite e pubblicate nel 1921: una prosa frammentaria, evocativa, in cui la cecità diventa metafora di una visione interiore più profonda, e in cui il mondo esterno è ridotto a suoni, voci, sensazioni tattili.
+Il brano T4, *Il programma politico del superuomo* (sempre tratto da *Le vergini delle rocce*), è la formulazione più esplicita e diretta del pensiero politico dannunziano, e va letto come completamento del brano sul "vento di barbarie". Mentre quel passo descriveva il problema (la barbarie democratica che distrugge la bellezza), questo espone la soluzione proposta da Cantelmo.
 
-Il brano *La prosa notturna* mostra il nuovo stile dannunziano: non più i fluviali periodi delle *Laudi* o dei romanzi del superuomo, ma frasi brevi, accenni, immagini interrotte, come se il pensiero stesso si fosse fatto più sottile e più fragile. È il D'Annunzio della maturità, che dopo il vitalismo e l'eroismo si rivolge a una scrittura della perdita, della memoria, della malattia. In questa fase la sua poetica si avvicina, paradossalmente, a quella che sarà la grande lezione del Novecento europeo: la frantumazione del soggetto, la rinuncia all'organicità, la centralità dell'attimo.
+**Contenuto.** Il protagonista enuncia il proprio programma: la salvezza dell'Italia non potrà venire dal sistema parlamentare, dai partiti, dal suffragio universale, dalle masse, perché tutti questi strumenti producono soltanto mediocrità e livellamento. La salvezza verrà invece da una **élite di pochi**, da un nucleo di "uomini superiori" che imporranno alla maggioranza la propria volontà e il proprio gusto, restaurando i valori aristocratici della bellezza, della forza, dell'eroismo. Cantelmo immagina un futuro in cui un nuovo "re di Roma" — figlio simbolico delle "vergini delle rocce", erede della grande tradizione latina — guiderà l'Italia fuori dalla decadenza democratica verso una nuova grandezza imperiale.
+
+**Significato.** Il brano è una delle più nette formulazioni dell'**antidemocrazia decadente** europea, in cui si trovano elementi che provengono direttamente dalla filosofia di Nietzsche (la volontà di potenza, il disprezzo per la "morale degli schiavi", l'idea che la cultura aristocratica sia stata oppressa dal cristianesimo e dal liberalismo borghese). Sul piano del lessico, ricorrono parole-chiave del nazionalismo: "razza", "stirpe", "popolo", "grandezza", "Roma". La prosa è ricca, oratoria, costruita come un discorso pubblico più che come riflessione narrativa: anticipa, di vent'anni, le grandi orazioni che D'Annunzio terrà durante l'interventismo (1914-15) e a Fiume (1919-20). Per questo è un testo essenziale per capire come la cultura decadente europea abbia preparato il terreno alle ideologie autoritarie del primo Novecento.
+
+### Le Laudi (1903-1912)
+
+Le *Laudi del cielo, del mare, della terra e degli eroi* sono il grande progetto poetico di D'Annunzio negli anni intorno al 1900, e rappresentano il punto più alto della sua produzione in versi. Si tratta di un disegno di poesia totale, ispirato al modello dei grandi cicli poetici dell'antichità classica (il *De rerum natura* di Lucrezio, le *Metamorfosi* di Ovidio), che avrebbe dovuto celebrare l'intera realtà cosmica e umana — il cielo, il mare, la terra, gli eroi, la storia italiana, la guerra — in un grande affresco simbolista.
+
+**Struttura del progetto.** Le *Laudi* dovevano comprendere sette libri, ognuno intitolato a una delle sette stelle delle **Pleiadi** (Maia, Elettra, Alcyone, Merope, Asterope, Celeno, Taigete): un riferimento mitologico che alludeva alla volontà di costruire una poesia "cosmica", in cui ogni libro avrebbe avuto un proprio centro tematico e stilistico. D'Annunzio portò a compimento soltanto i primi tre — *Maia*, *Elettra*, *Alcyone*, tutti pubblicati nel 1903 — e parzialmente il quarto (*Merope*, 1912), dedicato alle imprese della guerra di Libia. Gli altri tre libri non furono mai scritti.
+
+**Caratteri dei tre libri pubblicati.** *Maia* è il primo libro: un lungo poema autobiografico che racconta un viaggio in Grecia compiuto dal poeta nel 1895, e ne fa una sorta di pellegrinaggio alle origini della civiltà mediterranea. *Elettra* è il libro civile e politico: contiene odi celebrative dedicate a grandi figure della storia italiana (Garibaldi, Dante, Carducci), e segna l'avvicinamento di D'Annunzio al nazionalismo. *Alcyone*, il terzo, è il capolavoro della raccolta e uno dei vertici della poesia italiana del Novecento: cento componimenti dedicati all'estate trascorsa in Versilia, in cui la poetica del panismo raggiunge la sua massima espressione.
+
+### Alcyone (1903)
+
+*Alcyone* è il terzo libro delle *Laudi*, e di gran lunga il più importante. Pubblicato nel 1903, è la raccolta che applica in versi la poetica del panismo, costruendo un grande poema unitario sul tema dell'estate come tempo di fusione fra l'uomo e la natura.
+
+**Struttura.** La raccolta è composta da 88 componimenti (numero che in alcune edizioni varia leggermente), organizzati come un grande poema unitario che segue lo sviluppo di un'estate trascorsa sulla costa della Versilia, in Toscana, fra il giugno e il settembre. Le poesie sono divise in cinque sezioni che corrispondono alle fasi della stagione: dall'arrivo dell'estate al solstizio, dal mezzogiorno estivo al primo autunno. Il poeta-protagonista è accompagnato dalla donna amata, **Ermione**, nome poetico dietro cui si nasconde Eleonora Duse, la grande attrice italiana con cui D'Annunzio ebbe una relazione fra il 1898 e il 1904.
+
+**Temi.** Il tema centrale è il **panismo**: il superamento dei confini fra l'io umano e la natura, in cui il poeta e la donna amata si trasformano progressivamente in elementi del paesaggio (pioggia, vegetazione, suono). Accanto al panismo, altri temi importanti: il mito classico (figure di divinità greche e latine compaiono spesso nelle poesie), la celebrazione del mondo mediterraneo (il mare, le pinete, le città toscane), la nostalgia della terra natale abruzzese (in *I pastori*).
+
+**Stile.** *Alcyone* è la più alta espressione del simbolismo italiano. D'Annunzio sviluppa al massimo grado le tecniche dell'**onomatopea** (parole che riproducono suoni naturali), della **sinestesia** (mescolanza di sensazioni diverse), del **fonosimbolismo** (valore espressivo dei suoni). La metrica è raffinatissima e variata: ogni poesia ha un proprio schema, spesso costruito sul modello dei grandi poeti latini (Catullo, Orazio, Virgilio). Il risultato è una poesia che si avvicina alla musica: le parole non valgono soltanto per il loro significato logico, ma per il loro peso sonoro, ritmico, evocativo.
+
+#### La pioggia nel pineto
+
+*La pioggia nel pineto* è la poesia più famosa di D'Annunzio e uno dei testi più studiati della letteratura italiana del Novecento. Appartiene alla terza sezione di *Alcyone* ed è composta di 128 versi, divisi in quattro strofe di 32 versi ciascuna, con uno schema metrico complesso e variato. È il manifesto in versi della poetica del panismo.
+
+**Occasione.** La poesia nasce da un episodio reale (e insieme idealizzato): durante una passeggiata in una pineta della Versilia con la donna amata, Ermione (Eleonora Duse), i due vengono sorpresi da un acquazzone estivo. L'acquazzone non è descritto come fenomeno meteorologico esterno, ma diventa l'occasione di una progressiva metamorfosi degli amanti, che si trasformano in vegetazione, in suono, in elemento naturale.
+
+**Struttura e contenuto.** La poesia si apre con un'invocazione al silenzio rivolta a Ermione (i celebri versi "Taci. Su le soglie del bosco non odo / parole che dici umane…"): il poeta invita la donna a tacere per ascoltare i suoni della pioggia, perché la lingua umana non basta più, occorre ascoltare il linguaggio segreto della natura. Le quattro strofe sviluppano un movimento progressivo: la prima descrive l'arrivo della pioggia sulle diverse piante del bosco (tamerici, pini, mirti, ginestre, ginepri); la seconda intensifica il fenomeno, con i suoni delle gocce che diventano sempre più complessi; la terza compie la metamorfosi vera e propria, con il volto della donna che si fa "molle di pioggia come una foglia"; la quarta arriva al culmine del processo, con gli amanti che sono ormai "immersi nello spirto silvestre, d'arborea vita viventi". Ognuna delle quattro strofe si chiude con il nome "Ermione", che funziona come una sorta di ritornello.
+
+**Analisi stilistica.** La poesia è una sinfonia di suoni, e applica al massimo grado tutte le tecniche del simbolismo dannunziano. Le **onomatopee** sono onnipresenti: il fragore della pioggia, lo scoppiettio delle foglie, il crepitio dei rami sono trasmessi attraverso la scelta delle parole e dei loro suoni. I **nomi delle piante** si susseguono in una serie ritmica che riproduce per via fonica i diversi rumori della pioggia sui diversi tipi di foglie: parole brevi e secche per le foglie sottili, parole lunghe e sonore per le foglie spesse. Il **fonosimbolismo** lavora a pieno regime: la "p" iniziale di "piove" si ripete in tutta la strofa come un battere costante; le "i" e le "e" si moltiplicano per evocare la leggerezza dell'acqua. La struttura non è narrativa ma **musicale**: si sviluppa per riprese, variazioni, modulazioni, come un brano sinfonico.
+
+**Significato.** *La pioggia nel pineto* è il punto più alto del simbolismo italiano: la natura cessa di essere uno sfondo descrittivo (come era nel Romanticismo) e diventa un evento musicale a cui il soggetto si abbandona, fino a perdere i propri confini individuali. È la formulazione poetica più pura del panismo dannunziano, e una delle vette espressive del Decadentismo europeo. È anche una poesia che ha suscitato e suscita ancora discussione: c'è chi vi vede il capolavoro della poesia italiana moderna, e chi vi denuncia una virtuosa vuotezza decorativa (è la celebre parodia di Eugenio Montale, *Piove*, che ne smaschera il meccanismo retorico). In ogni caso resta un testo imprescindibile per capire la poesia italiana fra Otto e Novecento.
+
+#### I pastori
+
+*I pastori* (1903), titolo completo *I pastori*, appartiene alla quarta sezione di *Alcyone* ("Sogni di terre lontane") ed è una delle più belle elegie italiane del Novecento. Si distingue dal resto della raccolta per il tono più contenuto e per la metrica più sobria.
+
+**Struttura.** La poesia è composta di 23 versi, divisi in quattro strofe di lunghezza variabile (5, 5, 5, 7 versi) più un verso finale isolato che funziona come domanda chiusa. La metrica è quella dell'**endecasillabo sciolto**, cioè senza rime, che richiama la tradizione classica della poesia italiana (Pascoli, Carducci) e in particolare quella della **bucolica virgiliana**. La compostezza metrica e la sobrietà del lessico la distinguono dalle esuberanze musicali di altre poesie di *Alcyone*: in *I pastori* D'Annunzio è classicista, non simbolista.
+
+**Tema.** La poesia evoca l'antica **transumanza** dei pastori abruzzesi: ogni autunno, dai pascoli di montagna dell'Abruzzo, i pastori scendevano con le greggi lungo i "tratturi" (le antiche piste pastorali) verso le pianure marine della Puglia, dove avrebbero passato l'inverno; la primavera successiva avrebbero compiuto il viaggio inverso. È un rito millenario, che attraversa la storia del Sud Italia dall'antichità classica al Novecento, e che proprio negli anni in cui D'Annunzio scrive sta scomparendo per effetto della modernizzazione agricola. Il modello letterario di fondo è la **bucolica virgiliana** delle *Ecloghe*, da cui D'Annunzio riprende l'attenzione alla vita pastorale come spazio di una bellezza antica e fragile.
+
+**Analisi.** La poesia è un capolavoro di nostalgia controllata. D'Annunzio, ormai distante dalla propria terra natale, evoca un'Italia antica, pastorale, ritualizzata, che sopravvive nei gesti millenari della transumanza. La struttura per strofe riflette le tappe del viaggio: la partenza dalla montagna, l'attraversamento del tratturo, l'arrivo al mare, la quiete del cammino sul litorale. I dettagli sono scelti con cura: i pastori che "bevono profondamente ai fonti alpestri" prima di partire (per portare con sé il sapore dell'acqua natale), la "verga d'avellano" rinnovata, il "tratturo antico" che è "quasi per un erbal fiume silente", il sole che indora la lana fino a confonderla con la sabbia. Il finale è una domanda esistenziale ("Ah perché non son io co' miei pastori?"): è la confessione di un esilio che non è solo geografico ma anche e soprattutto culturale. L'esteta moderno, raffinato e raffinatissimo, ha perso il legame con il mondo elementare della propria infanzia abruzzese, e nessuna raffinatezza letteraria potrà restituirglielo.
+
+**Significato.** *I pastori* è uno dei rari testi dannunziani in cui prevale la nota della perdita, non quella dell'esaltazione. D'Annunzio si misura qui con un tema antico — la nostalgia della patria e dell'infanzia — che lo avvicina ai grandi poeti latini (Virgilio in particolare) e che mostra il lato malinconico, quasi crepuscolare, del suo decadentismo. È una poesia che funziona bene anche all'orale perché concentra in pochi versi temi grandi (la fine di una civiltà arcaica, l'esilio interiore dell'intellettuale moderno) e si presta a collegamenti con altri autori (Pascoli per la nostalgia rurale, Verga per il mondo del Sud, i poeti latini per la bucolica).
+
+### Poema paradisiaco (1893) — Consolazione
+
+Prima delle *Laudi*, nel 1893, D'Annunzio aveva pubblicato il *Poema paradisiaco*, una raccolta poetica molto diversa dalle altre del periodo. Mentre il *Piacere* (1889) celebrava l'estetismo trionfante e i romanzi del superuomo (a partire dal *Trionfo della morte* del 1894) costruivano la figura dell'eroe vitalistico, il *Poema paradisiaco* è una raccolta intimistica, in cui prevalgono toni malinconici e dimessi: il ritorno alla casa familiare, la nostalgia dell'infanzia, l'invocazione alla figura materna, la ricerca di una quiete domestica lontana dai tumulti della vita pubblica.
+
+#### Consolazione
+
+*Consolazione* è il testo più celebre del *Poema paradisiaco*. È una poesia di tono colloquiale, costruita come una promessa che il poeta fa alla madre invecchiata: stancarsi del mondo, tornare a casa, riposarsi insieme nella quiete di un giardino familiare. Il primo verso celebre ("Non pianger più. Torna il diletto figlio / a la tua casa. È stanco di mentire") dà subito il tono: il poeta confessa la propria stanchezza, ammette di aver mentito (alla madre, a sé stesso, al mondo), e chiede di poter tornare alla semplicità dei luoghi dell'infanzia.
+
+**Analisi e significato.** La poesia ha grande interesse storico-letterario per almeno tre ragioni. Primo, mostra un D'Annunzio "diverso": stanco dell'estetismo, capace di una poesia dimessa, antieroica, di un'intimità che sorprende chi conosce solo il D'Annunzio del *Piacere* o di *Alcyone*. Secondo, anticipa di una decina d'anni la sensibilità dei poeti **crepuscolari** (Corazzini, Moretti, Gozzano), che faranno della malinconia familiare, del giardino abbandonato, della casa materna i loro temi centrali; Gozzano in particolare, nei *Colloqui*, riprenderà il tono di *Consolazione* con totale consapevolezza, e farà del D'Annunzio "minore" uno dei suoi modelli (paradossalmente, perché il Crepuscolarismo nasce in opposizione esplicita al D'Annunzio "maggiore" del superuomo). Terzo, dimostra la ricchezza di registri di cui D'Annunzio era capace: lo stesso autore che aveva costruito Sperelli e che costruirà Cantelmo è capace di una poesia sommessa, quasi cantilenante, di tono colloquiale.
+
+### Notturno (1921) — La prosa notturna
+
+Il *Notturno* è l'ultima grande opera di D'Annunzio, scritta in circostanze del tutto particolari. Nel gennaio del 1916, durante una missione militare nell'Adriatico, D'Annunzio era caduto col proprio aereo e aveva subito un grave incidente che gli aveva provocato la perdita temporanea della vista. Costretto a letto per mesi, con gli occhi bendati e proibito ogni movimento, aveva cominciato a scrivere — o meglio a dettare — i propri ricordi su sottili **strisce di carta** che la figlia Renata gli passava una alla volta. Quando, anni dopo, riordinò questi appunti, ne ricavò il *Notturno*, pubblicato nel 1921.
+
+**Forma e contenuto.** Il *Notturno* non è un romanzo né una raccolta poetica: è una **prosa frammentaria**, organizzata in tre "offerte" (Prima Offerta, Seconda Offerta, Terza Offerta), in cui D'Annunzio mescola ricordi d'infanzia, memorie di guerra, riflessioni sulla cecità, descrizioni della camera in cui è costretto, evocazioni di amici morti in guerra (in particolare Giuseppe Miraglia, compagno di volo morto durante la guerra). La cecità diventa **metafora di una visione interiore più profonda**: privato della vista esterna, il poeta scopre una nuova sensibilità, fatta di suoni, di voci, di sensazioni tattili. Il mondo esterno è ridotto al minimo: solo i rumori della strada, il fruscio di un abito, l'odore di un fiore portato in camera.
+
+#### La prosa notturna
+
+Il brano antologico *La prosa notturna* è un esempio del nuovo stile dannunziano della maturità. Non più i fluviali periodi ricchi di subordinate delle *Laudi* o dei romanzi del superuomo: ora la prosa è fatta di **frasi brevi, accenni, immagini interrotte**, di pause, di silenzi tra una frase e l'altra. È come se il pensiero stesso si fosse fatto più sottile e più fragile.
+
+**Significato.** È il D'Annunzio della maturità, che dopo il vitalismo e l'eroismo si rivolge a una scrittura della perdita, della memoria, della malattia. In questa fase la sua poetica si avvicina paradossalmente a quella che sarà la grande lezione del Novecento europeo: la **frantumazione del soggetto**, la rinuncia all'organicità, la centralità dell'attimo. Sono temi che troveremo, sviluppati in modi diversi, in Ungaretti (la "parola essenziale"), in Montale (il "correlativo oggettivo"), in Pirandello (la dissoluzione dell'io). Il *Notturno* è dunque un'opera importante per capire come anche D'Annunzio, l'autore che sembrava più lontano dalla sensibilità novecentesca, abbia partecipato — in modo personale e tardivo — alla grande crisi del Novecento europeo.
+
+### Il Vittoriale degli Italiani
+
+Conclusa l'impresa di Fiume nel 1920, D'Annunzio si ritira definitivamente in una villa sul Lago di Garda, a Gardone Riviera, che riceve in dono dal governo e che trasformerà nei vent'anni successivi nella propria ultima grande opera: il **Vittoriale degli Italiani**. Non si tratta di un romanzo né di una raccolta poetica, ma di un'opera architettonica e museale, ed è uno dei più interessanti esempi della poetica decadente applicata alla propria stessa vita.
+
+Il Vittoriale è concepito come una **enciclopedia visiva di sé**: ogni stanza è un'allegoria, ogni oggetto è un cimelio, ogni passaggio è una citazione. La prua dell'incrociatore *Puglia* è incastonata nella collina; l'aereo dell'impresa di Vienna del 1918 è sospeso in un padiglione; nel parco si trova un mausoleo personale che D'Annunzio fa costruire in vita per accogliere le proprie spoglie. Le stanze hanno nomi simbolici ("Stanza del lebbroso", "Stanza del Mappamondo", "Officina") e contengono migliaia di oggetti d'arte, libri rari, cimeli militari, regali ricevuti.
+
+Sul piano della poetica, il Vittoriale è la realizzazione finale del principio per cui non esiste separazione fra arte e vita: la propria casa, il proprio corpo, le proprie imprese sono tutti materia di stile. Sul piano politico, il Vittoriale è anche il "dorato esilio" in cui Mussolini, divenuto capo del governo nel 1922, confina di fatto D'Annunzio: lo onora pubblicamente per neutralizzarne il prestigio, lo finanzia per tenerlo lontano dalla scena politica. D'Annunzio vi morirà nel 1938.
 
 ## Checklist
 
-- [x] Inquadramento: voce del Decadentismo italiano, sperimentatore stilistico e poeta-vate
-- [x] Poetica: l'estetismo
-- [x] Poetica: il superuomo (derivazione da Nietzsche, differenze dal fanciullino pascoliano)
-- [x] Poetica: il panismo
-- [x] Il Vittoriale come emblema della poetica
-- [x] *Il piacere*: Andrea Sperelli, Elena Muti, Maria Ferres
-- [x] Brano *Un ritratto allo specchio*
-- [x] *Le vergini delle rocce*: brano sul "vento di barbarie" e programma politico del superuomo
-- [x] *Le Laudi*: progetto generale e caratteri
-- [x] *Alcyone*
-- [x] *La pioggia nel pineto* (passaggi e analisi)
-- [x] *I pastori* (testo integrale)
-- [x] *Consolazione* dal *Poema paradisiaco*
-- [x] *Notturno*: prosa frammentaria della maturità
+- [x] Inquadramento: una delle due voci principali del Decadentismo italiano (con Pascoli)
+- [x] Poetica: l'estetismo (modelli: Huysmans, Wilde)
+- [x] Poetica: il superuomo (Nietzsche, opposto al fanciullino pascoliano)
+- [x] Poetica: il panismo (onomatopee, sinestesie, fonosimbolismo)
+- [x] *Il piacere* (1889): trama, struttura, temi, significato
+- [x] Brano *Un ritratto allo specchio: Andrea Sperelli ed Elena Muti*
+- [x] I romanzi del superuomo (trilogia: *Trionfo della morte*, *Vergini delle rocce*, *Il fuoco*)
+- [x] *Le vergini delle rocce* (1895): trama, poema in prosa, programma del superuomo
+- [x] Brano *Il "vento di barbarie" della speculazione edilizia*
+- [x] Brano T4 *Il programma politico del superuomo*
+- [x] *Le Laudi*: progetto generale, struttura, le sette Pleiadi
+- [x] *Alcyone* (1903): struttura, temi, stile simbolista
+- [x] *La pioggia nel pineto* (passaggi, analisi stilistica, significato)
+- [x] *I pastori* (testo integrale, transumanza, modello bucolico virgiliano)
+- [x] *Poema paradisiaco* (1893) e *Consolazione* (anticipazione crepuscolare)
+- [x] *Notturno* (1921) e *La prosa notturna* (frantumazione novecentesca)
+- [x] Il Vittoriale degli Italiani (1920-1938): casa-museo come ultima opera totale
 
-## Collegamenti
+## Aggancio alla Storia: D'Annunzio e il fascismo
 
-- **Filosofia**: il superuomo dannunziano deriva direttamente da Nietzsche (volontà di potenza, oltreuomo), ma in una versione semplificata in chiave estetica e nazionalistica.
-- **Storia**: D'Annunzio interventista nella Prima guerra mondiale, l'impresa di Fiume (1919-1920), i rapporti ambigui con il primo fascismo. La sua retorica influenzerà profondamente lo stile pubblico mussoliniano.
-- **Storia dell'arte**: il Vittoriale è un'opera d'arte totale che si lega alla cultura simbolista europea e all'Art Nouveau; sul piano della pittura, il vitalismo di *Alcyone* si avvicina al simbolismo di Klimt e alla sensibilità preraffaellita.
-- **Inglese**: l'estetismo dannunziano è cugino diretto di quello di Oscar Wilde (*The Picture of Dorian Gray*); il modello francese è Huysmans (*À rebours*).
-- **Latino**: la struttura di *Alcyone* è ispirata ai *Carmi* di Catullo e Orazio; *I pastori* riprende il modello della bucolica virgiliana.
+D'Annunzio è uno dei principali precursori culturali del fascismo italiano. Già durante la Prima guerra mondiale è fra i più attivi propagandisti dell'interventismo; nel 1919-20 guida l'impresa di Fiume, in cui occupa la città con un corpo di volontari e fonda la "Reggenza del Carnaro", anticipando molti elementi della futura liturgia mussoliniana — adunate, discorsi dal balcone, saluto romano, culto del capo. Mussolini riprenderà sistematicamente questa retorica, facendone uno dei modelli della propria comunicazione politica.
