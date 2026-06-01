@@ -146,26 +146,6 @@ Il Vittoriale è concepito come una **enciclopedia visiva di sé**: ogni stanza 
 
 Sul piano della poetica, il Vittoriale è la realizzazione finale del principio per cui non esiste separazione fra arte e vita: la propria casa, il proprio corpo, le proprie imprese sono tutti materia di stile. Sul piano politico, il Vittoriale è anche il "dorato esilio" in cui Mussolini, divenuto capo del governo nel 1922, confina di fatto D'Annunzio: lo onora pubblicamente per neutralizzarne il prestigio, lo finanzia per tenerlo lontano dalla scena politica. D'Annunzio vi morirà nel 1938.
 
-## Checklist
-
-- [x] Inquadramento: una delle due voci principali del Decadentismo italiano (con Pascoli)
-- [x] Poetica: l'estetismo (modelli: Huysmans, Wilde)
-- [x] Poetica: il superuomo (Nietzsche, opposto al fanciullino pascoliano)
-- [x] Poetica: il panismo (onomatopee, sinestesie, fonosimbolismo)
-- [x] *Il piacere* (1889): trama, struttura, temi, significato
-- [x] Brano *Un ritratto allo specchio: Andrea Sperelli ed Elena Muti*
-- [x] I romanzi del superuomo (trilogia: *Trionfo della morte*, *Vergini delle rocce*, *Il fuoco*)
-- [x] *Le vergini delle rocce* (1895): trama, poema in prosa, programma del superuomo
-- [x] Brano *Il "vento di barbarie" della speculazione edilizia*
-- [x] Brano T4 *Il programma politico del superuomo*
-- [x] *Le Laudi*: progetto generale, struttura, le sette Pleiadi
-- [x] *Alcyone* (1903): struttura, temi, stile simbolista
-- [x] *La pioggia nel pineto* (passaggi, analisi stilistica, significato)
-- [x] *I pastori* (testo integrale, transumanza, modello bucolico virgiliano)
-- [x] *Poema paradisiaco* (1893) e *Consolazione* (anticipazione crepuscolare)
-- [x] *Notturno* (1921) e *La prosa notturna* (frantumazione novecentesca)
-- [x] Il Vittoriale degli Italiani (1920-1938): casa-museo come ultima opera totale
-
 ## Aggancio alla Storia: D'Annunzio e il fascismo
 
 D'Annunzio è uno dei principali precursori culturali del fascismo italiano. Già durante la Prima guerra mondiale è fra i più attivi propagandisti dell'interventismo; nel 1919-20 guida l'impresa di Fiume, in cui occupa la città con un corpo di volontari e fonda la "Reggenza del Carnaro", anticipando molti elementi della futura liturgia mussoliniana — adunate, discorsi dal balcone, saluto romano, culto del capo. Mussolini riprenderà sistematicamente questa retorica, facendone uno dei modelli della propria comunicazione politica.

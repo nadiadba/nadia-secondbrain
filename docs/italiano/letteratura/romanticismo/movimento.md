@@ -10,15 +10,6 @@ Il contributo italiano più alto e più meditato alla discussione viene da Aless
 
 A questo orizzonte si oppone, in modo molto personale, la posizione di Giacomo Leopardi, che pure ha letto e meditato il dibattito. Nel suo *Discorso di un italiano intorno alla poesia romantica*, scritto nel 1818 ma pubblicato postumo, Leopardi prende le distanze sia dai classicisti più rigidi sia dai romantici alla maniera di Berchet o Manzoni. Riconosce che la poesia moderna non può ignorare il proprio tempo, ma rifiuta l'idea che la grandezza della poesia stia nel pensiero filosofico, nella riflessione introspettiva, nell'analisi razionale dei sentimenti, come volevano i romantici nordici. Per Leopardi la poesia autentica è quella degli antichi, perché solo gli antichi avevano la freschezza dell'immaginazione, la capacità di lasciarsi ingannare dalla natura, di credere alle proprie illusioni; i moderni, troppo informati e troppo razionali, hanno perso questa virtù infantile e con essa hanno perso la sorgente stessa della poesia. La sua posizione è dunque paradossale: filosoficamente moderno e disincantato fino al pessimismo cosmico, poeticamente nostalgico degli antichi. Proprio questa tensione tra coscienza moderna e sentimento antico fa di Leopardi una figura unica, che attraversa il Romanticismo italiano restandone al margine, e che, per la profondità del suo pensiero sulla condizione umana, viene oggi considerato il più europeo dei nostri romantici.
 
-## Checklist
-
-- [x] Caratteri generali del Romanticismo europeo
-- [x] Madame de Staël e il salotto di Coppet
-- [x] *Sulla maniera e l'utilità delle traduzioni*
-- [x] La polemica classico-romantica in Italia
-- [x] La *Lettera sul Romanticismo* di Manzoni (vero, utile, interessante)
-- [x] La posizione di Leopardi rispetto al Romanticismo
-
 ## Collegamenti
 
 - **Filosofia**: Hegel e l'idealismo tedesco condividono con il Romanticismo l'idea di Spirito, Storia, totalità organica; Schopenhauer ne è invece il rovescio pessimistico, vicino al sentire leopardiano.

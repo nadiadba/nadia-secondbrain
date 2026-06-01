@@ -82,21 +82,6 @@ Il finale della *Coscienza di Zeno* è una delle pagine più celebri della lette
 
 Quando *La coscienza di Zeno* fu finalmente scoperto in Europa, fu **Eugenio Montale** a dedicargli, nel 1925 e nel 1926, due articoli critici importanti che ne riconoscevano la novità assoluta nel panorama letterario italiano. Montale, allora poco più che ventenne ma già voce critica autorevole, capì subito che Svevo era un autore che non rientrava nelle categorie tradizionali della letteratura italiana: non era né verista né dannunziano né pascoliano, ma apparteneva alla grande famiglia mitteleuropea di Joyce, Proust, Kafka. Montale sottolineò il valore di Svevo come **primo grande romanziere italiano del Novecento**, e contribuì in modo decisivo al riconoscimento postumo dell'opera sveviana in Italia, dove la critica accademica aveva fino a quel momento ignorato o sottovalutato lo scrittore triestino. I due articoli di Montale sono importanti anche perché segnano una specie di "passaggio di consegne" generazionale: il giovane poeta che diventerà la voce più alta del Novecento italiano riconosce nell'anziano romanziere triestino il padre della nuova narrativa.
 
-## Checklist
-
-- [x] Inquadramento: fondatore del romanzo psicologico italiano moderno, interlocutore di Joyce/Proust/Kafka
-- [x] Poetica: Trieste e la Mitteleuropa (contesto culturale)
-- [x] Poetica: la figura dell'inetto
-- [x] Poetica: l'evoluzione della concezione dell'inetto (dai primi due romanzi a Zeno)
-- [x] *Una vita* (1892): trama
-- [x] *Le ali del gabbiano* (metafora dell'inetto)
-- [x] *Senilità* (1898): trama, "vita non vissuta" e senilità precoce
-- [x] *La coscienza di Zeno* (1923): struttura, ruolo del dottor S., capitoli tematici
-- [x] *Il fumo*: l'ultima sigaretta come simbolo dell'inettitudine
-- [x] *La salute malata di Augusta*: rovesciamento di sano e malato
-- [x] *La profezia di un'apocalisse cosmica*: il finale del romanzo, anticipazione della bomba atomica
-- [x] Montale, *La modernità di Svevo* (1925-1926)
-
 ## Aggancio alla Storia: Svevo, Trieste e la Prima guerra mondiale
 
 L'opera di Svevo è uno dei principali documenti culturali della **Trieste austro-ungarica** e della sua fine. La città in cui Svevo nasce e scrive appartiene fino al 1918 all'**Impero asburgico**: solo con la conclusione della **Prima guerra mondiale** e il trattato di Saint-Germain del 1919 Trieste viene annessa all'Italia, realizzando l'aspirazione del movimento irredentista. *La coscienza di Zeno*, pubblicato nel 1923, è ambientato in questo passaggio storico: il suo finale racconta esplicitamente l'**ingresso dell'Italia in guerra** (24 maggio 1915) e la sua trasformazione del business di Zeno in attività bellica. Il romanzo si chiude con la celebre profezia di una catastrofe tecnologica che distruggerà l'umanità — una pagina che, scritta nel 1923 e dunque vent'anni prima di Hiroshima, dialoga con la riflessione novecentesca sulla guerra come malattia totale della civiltà moderna.

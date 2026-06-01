@@ -26,17 +26,6 @@ Il Futurismo non produce poeti di grandezza paragonabile a Pascoli o D'Annunzio,
 
 Sul piano della pittura il Futurismo dà invece risultati di altissimo livello con Umberto Boccioni (*La città che sale*, *Stati d'animo*, *Forme uniche della continuità nello spazio*), Giacomo Balla, Carlo Carrà, Gino Severini, Luigi Russolo: artisti che inventano un nuovo modo di rappresentare il movimento, la velocità, la simultaneità, e che dialogano alla pari con il Cubismo parigino. È soprattutto in pittura e in scultura che la lezione del Futurismo trova la propria pienezza espressiva.
 
-## Checklist
-
-- [x] Nascita del Futurismo (1909, *Le Figaro*)
-- [x] *Manifesto del Futurismo* di Marinetti: contenuti e provocazione
-- [x] Esaltazione di velocità, macchina, guerra
-- [x] *Manifesto tecnico della letteratura futurista* (1912)
-- [x] Parole in libertà e sperimentazioni linguistiche
-- [x] *Manifesto della cucina futurista*
-- [x] Rapporti tra Futurismo e primo fascismo
-- [x] Portata storica del movimento (linguaggio, organizzazione, pittura)
-
 ## Collegamenti
 
 - **Storia dell'arte**: il Futurismo è prima di tutto un movimento pittorico e scultoreo (Boccioni, Balla, Carrà, Severini, Russolo). I parallelismi con il Cubismo francese sono diretti.

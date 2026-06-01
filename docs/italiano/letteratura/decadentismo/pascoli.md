@@ -118,28 +118,6 @@ In un discorso pronunciato nel 1900 agli studenti dell'**Università di Messina*
 
 È una pagina di **acuta consapevolezza decadente**, in cui Pascoli, lontano dalla retorica del "vate", denuncia la perdita di senso della vita moderna e rivendica per la poesia il ruolo di custode di una verità altra. Il discorso anticipa molti temi della riflessione novecentesca sulla società di massa, e si può accostare alle analisi parallele che, negli stessi anni, sviluppavano in Europa pensatori come Friedrich Nietzsche (la critica della "morale del gregge") e che porteranno poi alla grande critica del Novecento sulla società dello spettacolo (Adorno, Debord). Per la sua attenzione al rapporto fra il poeta e la modernità di massa, *Una sagra* è uno dei testi pascoliani più interessanti dal punto di vista del pensiero, e mostra che il "fanciullino" non è solo un esercizio nostalgico ma anche una posizione critica precisa di fronte alla modernità.
 
-## Checklist
-
-- [x] Inquadramento: voce del Decadentismo italiano, rivoluzione linguistica, complementare a D'Annunzio
-- [x] Poetica: la visione del mondo e il nido
-- [x] Poetica: il Fanciullino (saggio del 1897)
-- [x] Poetica: i temi (nido, morti, natura, morte)
-- [x] Poetica: il fonosimbolismo
-- [x] Fanciullino e superuomo come miti complementari del Decadentismo italiano
-- [x] L'ideologia politica e il nazionalismo (*La grande proletaria s'è mossa*, 1911)
-- [x] *Myricae* (1891)
-- [x] *Lavandare* (analogia, fonosimbolismo)
-- [x] *Temporale* (paratassi nominale)
-- [x] *Novembre* (inganno percettivo, "estate dei morti")
-- [x] *Il lampo* (apparizione fulminea, allitterazioni)
-- [x] *X agosto* (morte del padre, struttura simmetrica, "atomo opaco del Male")
-- [x] *Canti di Castelvecchio* (1903)
-- [x] *Il gelsomino notturno* (sinestesie, mistero della generazione)
-- [x] *La cavalla storna* (ballata, giustizia simbolica)
-- [x] *La mia sera* (analogia giorno/vita, preghiera laica)
-- [x] *Poemetti*: *Il vischio*, *Italy* (emigrazione, plurilinguismo)
-- [x] *Una sagra* (1900): critica della modernità
-
 ## Aggancio alla Storia: Pascoli e il nazionalismo italiano
 
 L'opera di Pascoli è una delle principali testimonianze culturali dell'**Italia giolittiana** (1901-1914), e in particolare del passaggio dal socialismo umanitario al **nazionalismo coloniale** che caratterizza quegli anni. Due testi sono fondamentali per il collegamento con la Storia. *Italy*, dai *Poemetti*, racconta dall'interno il grande fenomeno dell'**emigrazione italiana** di fine Ottocento (oltre 14 milioni di italiani lasciano il paese fra il 1880 e il 1914), uno dei principali problemi sociali dell'Italia post-unitaria. *La grande proletaria s'è mossa*, discorso pronunciato a Barga nel 1911 in occasione dell'inizio della **guerra di Libia**, presenta l'Italia come "nazione proletaria" che ha diritto di conquistarsi un posto fra le potenze coloniali per dare lavoro ai propri figli emigrati. È un testo importante per capire come si è costruito il consenso al colonialismo italiano, e come la cultura abbia preparato il terreno alle posizioni nazionalistiche che porteranno, nei decenni successivi, all'interventismo nella Prima guerra mondiale e poi al fascismo.

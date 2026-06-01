@@ -62,21 +62,6 @@ I grandi romanzi di Pavese sono tutti del secondo dopoguerra, scritti fra il 194
 
 ***Il mestiere di vivere*** è il **diario intellettuale** che Pavese ha tenuto dal 1935 (anno del confino in Calabria) al 1950 (poche ore prima del suicidio). Pubblicato postumo da Einaudi nel 1952, è una delle più alte testimonianze della solitudine moderna nella letteratura italiana del Novecento. Vi Pavese annota fino all'ultimo giorno la propria difficoltà a vivere, la tentazione del suicidio, le riflessioni sul lavoro letterario, le delusioni amorose, le scoperte intellettuali. È un libro che ha avuto enorme fortuna nel dopoguerra, ed è diventato uno dei modelli del diario d'autore italiano (Calvino, Sciascia, Citati hanno tenuto diari simili). Pavese è una delle voci più rappresentative della **crisi dell'intellettuale italiano del Novecento**: la sua opera testimonia l'impossibilità di conciliare il "ritorno" alle radici contadine e la modernità urbana e politica.
 
-## Checklist
-
-- [x] Inquadramento: voce alta del primo dopoguerra, ponte fra narrativa americana e mondo contadino, ruolo in Einaudi
-- [x] Poetica: il mito come categoria poetica
-- [x] Poetica: la poesia-racconto
-- [x] Poetica: lo stile, il parlato e l'eredità americana
-- [x] *Lavorare stanca* (1936): la poesia delle Langhe
-- [x] *Dialoghi con Leucò* (1947): il mito greco come strumento esistenziale
-- [x] *Il compagno* (1947): la formazione comunista
-- [x] *La casa in collina* (1948): il rifugio durante la Resistenza
-- [x] *La bella estate* / *Tra donne sole* (1949): Premio Strega
-- [x] *La luna e i falò* (1950): capolavoro, ritorno impossibile, falò della guerra civile
-- [x] *Verrà la morte e avrà i tuoi occhi* (1951): testamento poetico, suicidio annunciato
-- [x] *Il mestiere di vivere* (1952): il diario intellettuale postumo
-
 ## Aggancio alla Storia: Pavese, la Resistenza e il dopoguerra
 
 L'opera di Pavese è uno dei principali documenti letterari italiani della **Resistenza** e del primo dopoguerra. Antifascista già negli anni Trenta (fu mandato al confino in Calabria nel 1935), Pavese visse la **guerra di Liberazione (1943-45)** nascosto in un convento sulle colline del Monferrato, senza prendere le armi: una scelta che porterà nei suoi romanzi del dopoguerra come **senso di colpa** e che è il nucleo emotivo de *La casa in collina* (1948), uno dei più importanti romanzi sulla coscienza divisa degli intellettuali italiani di fronte alla Resistenza. *La luna e i falò* (1950), il suo capolavoro, racconta anche la dimensione più oscura della guerra civile: le esecuzioni dei collaborazionisti da parte dei partigiani, di cui Santina è il simbolo. Da Pavese si passa naturalmente al discorso sulla **Resistenza** come guerra civile italiana, sulla difficile costruzione della **Repubblica** nel dopoguerra, e sull'esperienza degli intellettuali comunisti italiani fra Liberazione e disillusione (Pavese si era iscritto al PCI nel 1945, ma il suo rapporto con il partito sarà sempre complicato).

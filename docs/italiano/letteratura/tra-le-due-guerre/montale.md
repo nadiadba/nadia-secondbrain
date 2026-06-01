@@ -98,23 +98,6 @@ Fra *Le occasioni* e *Satura* si colloca ***La bufera e altro***, pubblicata nel
 
 **Significato.** La poesia è il **rovesciamento dell'ovvio**: si pensa di solito che il vedente guidi il cieco, ma Montale scopre che era il contrario, che la moglie cieca aveva guidato lui con i suoi "occhi" interiori. Il "milione di scale" diventa la metafora di tutta la vita coniugale, fatta di piccoli gesti ripetuti che danno consistenza e direzione all'esistenza. La poesia è anche un perfetto esempio della **nuova maniera di *Satura***: il lessico è semplicissimo, il tono è quello della conversazione familiare, ma il significato che emerge è di altissima profondità. Il "**correlativo oggettivo**" qui non è più un oggetto simbolico (l'osso di seppia, la forbice), ma un **gesto della vita di tutti i giorni**: scendere le scale al braccio della moglie. È una delle conclusioni più alte della poesia montaliana, e una delle più toccanti elegie d'amore della letteratura italiana.
 
-## Checklist
-
-- [x] Inquadramento: il più importante poeta italiano del Novecento, Premio Nobel 1975
-- [x] Poetica: il correlativo oggettivo (con riferimento a T.S. Eliot)
-- [x] Poetica: il male di vivere e la "divina Indifferenza"
-- [x] Poetica: l'attesa del varco, Clizia
-- [x] Poetica: l'evoluzione delle quattro raccolte
-- [x] *Ossi di seppia* (1925): titolo, paesaggio ligure
-- [x] *Non chiederci la parola* (antidannunzianesimo, "ciò che non siamo")
-- [x] *Meriggiare pallido e assorto* (la vita come muraglia)
-- [x] *Spesso il male di vivere ho incontrato* (antitesi male/divina Indifferenza)
-- [x] *Le occasioni* (1939): Clizia/Irma Brandeis, vicinanza all'Ermetismo
-- [x] *Non recidere, forbice, quel volto* (correlativo oggettivo, memoria contro oblio)
-- [x] *La bufera e altro* (1956): contesto della Seconda guerra mondiale
-- [x] *Satura* (1971): la svolta colloquiale, *Xenia*
-- [x] *Ho sceso, dandoti il braccio, almeno un milione di scale* (elegia coniugale)
-
 ## Aggancio alla Storia: Montale e il Novecento italiano
 
 L'opera di Montale attraversa cinquant'anni della storia italiana, dal primo dopoguerra al miracolo economico, e ne offre una delle testimonianze poetiche più importanti. Il primo collegamento è con il **fascismo**: nel 1938 Montale viene allontanato dal **Gabinetto Vieusseux** di Firenze (la prestigiosa biblioteca storica di cui era direttore) per essersi rifiutato di iscriversi al Partito Nazionale Fascista, una scelta di dignità antifascista che gli costa il posto e che lo segna profondamente. Il secondo collegamento è con la **Seconda guerra mondiale**, che è il vero sfondo della *Bufera e altro* (1956): la "bufera" del titolo è la Storia che si abbatte sull'Europa, e molte poesie della raccolta dialogano direttamente con l'esperienza della guerra e del primo dopoguerra. Il terzo collegamento è con la cultura del **secondo Novecento**: in *Satura* (1971) Montale commenta con ironia la società di massa, il consumismo, la televisione, e si avvicina alla riflessione critica che negli stessi anni Pasolini conduceva negli *Scritti corsari*. Il Premio Nobel del 1975 è la consacrazione finale di un percorso che ha attraversato tutto il secolo.

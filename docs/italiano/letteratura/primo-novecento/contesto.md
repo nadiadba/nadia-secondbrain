@@ -38,16 +38,6 @@ Tutte queste avanguardie condividono alcuni tratti: la fede nel manifesto come s
 
 In Italia l'avanguardia per eccellenza è il Futurismo, di cui Filippo Tommaso Marinetti è il fondatore e l'instancabile promotore. Accanto al Futurismo, e in parte in reazione ad esso, si sviluppano in Italia altre esperienze più sotterranee: i Crepuscolari, voce dimessa e malinconica della stessa stagione; i Vociani, riuniti attorno alla rivista «La Voce» di Firenze, che cercano una poesia di frammento, di sincerità autobiografica, di rinnovamento del linguaggio. Tutti questi gruppi, pur così diversi, hanno in comune la sensazione di vivere in un'epoca di rottura, in cui la poesia ottocentesca — quella di Carducci, quella stessa di D'Annunzio e di Pascoli — non basta più a dire l'esperienza moderna.
 
-## Checklist
-
-- [x] Psicoanalisi di Freud
-- [x] Relatività di Einstein
-- [x] Meccanica quantistica e principio di indeterminazione
-- [x] Filosofia di Bergson (durata, intuizione, memoria)
-- [x] La crisi del modo ottocentesco di percepire la realtà
-- [x] Nuovi temi: conflitto padre-figlio, guerra, inettitudine, alienazione
-- [x] La stagione delle avanguardie storiche
-
 ## Collegamenti
 
 - **Filosofia**: Freud, Bergson, Husserl (fenomenologia), Heidegger ed esistenzialismo sono i grandi pensatori che definiscono il quadro novecentesco.

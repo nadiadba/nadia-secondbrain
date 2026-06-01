@@ -42,18 +42,6 @@ L'editoriale di Vittorini più celebre apparso sul *Politecnico*, e che dà orig
 
 Dopo *Conversazione in Sicilia* Vittorini pubblica altri romanzi importanti: ***Uomini e no*** (1945), uno dei grandi romanzi della **Resistenza milanese**; ***Il garofano rosso*** (1948), libro giovanile rimaneggiato a lungo; ***Le donne di Messina*** (1949). Negli ultimi anni, però, la sua produzione narrativa diminuisce sensibilmente, e Vittorini si dedica soprattutto al lavoro editoriale: la direzione della collana "**I gettoni**" presso Einaudi (dove pubblica per primo Calvino, Cassola, Rigoni Stern, Lalla Romano) e poi della rivista ***Il menabò*** insieme a Italo Calvino. È in questa veste che esercita la sua influenza più duratura sulla letteratura italiana del Novecento: come **scopritore di talenti**, come traduttore (l'antologia *Americana* del 1941 introduce in Italia la grande narrativa americana moderna), come maestro di una generazione intera di scrittori.
 
-## Checklist
-
-- [x] Inquadramento: scrittore-editore-traduttore, ponte fra narrativa americana e dibattito sull'impegno
-- [x] Poetica: il "mondo offeso"
-- [x] Poetica: la "nuova cultura" e l'impegno autonomo (polemica con Togliatti)
-- [x] *Conversazione in Sicilia* (1938-41): trama, struttura, linguaggio
-- [x] *Il «mondo offeso»* (cap. XXXV)
-- [x] *Il Politecnico* (1945-47) e la "nuova cultura"
-- [x] La polemica con Togliatti ("suonare il piffero per la rivoluzione")
-- [x] Le altre opere (*Uomini e no*, *Il garofano rosso*, *Le donne di Messina*)
-- [x] Il lavoro editoriale: *Americana* (1941), "I gettoni", *Il menabò*
-
 ## Aggancio alla Storia: Vittorini, antifascismo e dopoguerra
 
 L'opera di Vittorini attraversa due grandi momenti della storia italiana del Novecento. Il primo è la **rottura con il fascismo** negli anni Trenta, accelerata dalla **guerra civile spagnola** (1936-39), in cui suo fratello combatte e muore al fianco dei franchisti mentre Vittorini ne sta dalla parte opposta. *Conversazione in Sicilia* (1938-41), scritto durante la dittatura, è uno dei più importanti romanzi antifascisti italiani, e attraversa la censura solo grazie al carattere allusivo della sua scrittura. Il secondo momento è il **primo dopoguerra**, di cui Vittorini è uno dei protagonisti culturali: la rivista *Il Politecnico* (1945-47) è uno dei più ambiziosi tentativi di ricostruire una cultura democratica dopo vent'anni di fascismo, e la polemica con Togliatti del 1947 sull'autonomia dell'intellettuale segna il momento di rottura fra molti scrittori e il PCI nell'Italia della **guerra fredda**. Da Vittorini si passa quindi naturalmente al discorso sulla **Resistenza** (di cui *Uomini e no* del 1945 è uno dei grandi romanzi), sulla nascita della Repubblica, e sui rapporti complessi fra cultura e politica nell'Italia repubblicana.

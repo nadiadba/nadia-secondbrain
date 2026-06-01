@@ -28,17 +28,6 @@ Anche le altre arti, in questi anni, vivono una stagione di rinnovamento. Il cin
 
 Lo spartiacque del periodo è la Seconda guerra mondiale. L'Italia entra in guerra a fianco della Germania nel 1940; subisce gravi sconfitte; nel luglio 1943 Mussolini viene destituito; in settembre l'armistizio di Cassibile divide l'Italia in due (Repubblica Sociale al Nord, Regno del Sud) e dà inizio alla Resistenza armata contro l'occupazione tedesca. La fine della guerra, nel 1945, porta con sé la liberazione dal nazifascismo, ma anche la scoperta della Shoah, della distruzione totale di vaste aree europee, della perdita di milioni di vite, della necessità di ricostruire ex novo una civiltà che pareva finita. Da questo trauma collettivo nasce la nuova letteratura del dopoguerra — Primo Levi, Italo Calvino, Beppe Fenoglio, Carlo Levi — che dovrà fare i conti con l'eredità del fascismo, della guerra, della Resistenza, e che ridefinirà completamente il rapporto fra letteratura e Storia.
 
-## Checklist
-
-- [x] Quadro storico-politico (fascismo, nazismo, crisi del 1929)
-- [x] Rapporti fra cultura e regime fascista
-- [x] Manifesto degli intellettuali fascisti e antifascisti (1925)
-- [x] Leggi razziali del 1938 e loro conseguenze culturali
-- [x] L'Ermetismo: caratteri generali e principali esponenti
-- [x] La narrativa: Svevo, Pirandello, Moravia, Pavese, Vittorini
-- [x] Cinema, pittura, architettura
-- [x] La Seconda guerra mondiale e la Resistenza come spartiacque
-
 ## Collegamenti
 
 - **Storia**: l'ascesa del fascismo e del nazismo, la Seconda guerra mondiale, la Resistenza. Tutto il programma di storia del quinto anno è in dialogo diretto con questa pagina.

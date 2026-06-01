@@ -116,20 +116,3 @@ Il *Dialogo di un venditore di almanacchi e di un passeggere* è uno dei testi p
 
 **Significato.** *La ginestra* è il punto in cui il pessimismo leopardiano si trasforma in un programma morale positivo. Non c'è consolazione religiosa, non c'è speranza nel progresso, non c'è uscita dal dolore; ma c'è la possibilità di una dignità umana che consiste nel riconoscere la verità e nel costruire, con gli altri, una solidarietà fondata sulla comune fragilità. È una conclusione che anticipa molti temi dell'esistenzialismo del Novecento (in particolare Camus, nel saggio *Il mito di Sisifo*, scriverà cose molto simili: l'eroismo come scelta di continuare a vivere nonostante l'assurdo).
 
-## Checklist
-
-- [x] Inquadramento: poeta e pensatore dell'Ottocento, posizione eccentrica nel Romanticismo italiano
-- [x] Poetica: il pessimismo storico, cosmico, eroico
-- [x] Poetica: la teoria del piacere
-- [x] Poetica: il vago e l'indefinito
-- [x] Poetica: la rimembranza
-- [x] Lettere e scritti autobiografici (lettera al Giordani, Ricordi d'infanzia)
-- [x] Gli Idilli: cappello generale
-- [x] *L'infinito* (1819): struttura, analisi, significato
-- [x] *A Silvia* (1828): contenuto, struttura, analisi
-- [x] Le Operette morali: cappello generale
-- [x] *Dialogo della Natura e di un Islandese*
-- [x] *Dialogo del folletto e di uno gnomo*
-- [x] *Proposta di premi dell'Accademia dei Sillografi*
-- [x] *Dialogo di un venditore di almanacchi e di un passeggere*
-- [x] *La ginestra o il fiore del deserto* (1836): incipit vv. 1-51, finale vv. 297-317

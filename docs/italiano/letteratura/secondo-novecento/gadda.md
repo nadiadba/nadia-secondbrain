@@ -56,17 +56,6 @@ Fra le altre opere importanti di Gadda vanno ricordati: ***La Madonna dei filoso
 
 **Significato.** È uno dei pamphlet politici più feroci della letteratura italiana del Novecento, e una delle rare opere in cui un grande scrittore italiano fa esplicitamente i conti con il proprio passato fascista (Gadda era stato simpatizzante del regime negli anni Venti). Lo stile è quello del plurilinguismo barocco, ma applicato alla satira politica: ogni pagina è un'esplosione di invettive, di neologismi, di citazioni colte mescolate a improperi popolari. Il libro è anche un importante documento culturale per capire come una parte significativa dell'intellettualità italiana abbia elaborato, nel dopoguerra, il proprio rapporto con il ventennio.
 
-## Checklist
-
-- [x] Inquadramento: grande sperimentatore linguistico del Novecento italiano, paragone con Joyce
-- [x] Poetica: il garbuglio e la cognizione del dolore (riferimento a Leibniz)
-- [x] Poetica: il plurilinguismo barocco (riferimento a Manzoni, parallelo con Joyce)
-- [x] *La cognizione del dolore* (1938-1963): trama, struttura, ambientazione, finale ambiguo
-- [x] *I borghesi al ristorante* (parte II, cap. VI)
-- [x] *Quer pasticciaccio brutto de via Merulana* (1957): il giallo non risolto
-- [x] Le altre opere (*La Madonna dei filosofi*, *L'Adalgisa*, *La meccanica*)
-- [x] *Eros e Priapo* (1967): il pamphlet antifascista
-
 ## Aggancio alla Storia: Gadda, il fascismo e la borghesia italiana
 
 L'opera di Gadda offre uno dei ritratti più feroci della **società italiana fra le due guerre**, e in particolare del **fascismo**. La sua traiettoria politica è quella di molti intellettuali della sua generazione: simpatizzante del regime negli anni Venti (vissuto come occasione di ordine dopo il caos del primo dopoguerra e come prosecuzione dell'eredità risorgimentale), Gadda matura una progressiva disillusione che diventa odio aperto dopo la guerra. Il pamphlet *Eros e Priapo* (scritto nel 1944-46, pubblicato nel 1967) è una delle più dure requisitorie contro Mussolini e contro il regime mai scritte da un letterato italiano: vi Gadda interpreta il fascismo come deviazione psicologica di massa, fenomeno di narcisismo politico in cui un'intera nazione si è identificata con un demagogo grottesco. Da Gadda si passa quindi al discorso sul **fascismo come fenomeno italiano** (non solo come dittatura politica ma come trasformazione antropologica della società), sulla **borghesia italiana** che il fascismo ha espresso, e sulla difficile elaborazione che la cultura italiana del dopoguerra ha fatto del proprio passato. Sul piano storico, l'esperienza di Gadda nella **Prima guerra mondiale** (combatté come ufficiale degli alpini e fu fatto prigioniero a Caporetto) è anche un importante punto di partenza per il discorso sulla Grande Guerra italiana.

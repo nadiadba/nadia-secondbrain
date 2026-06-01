@@ -24,14 +24,6 @@ Sono anche gli anni in cui si afferma una nuova generazione di intellettuali pol
 
 Il programma di quinta liceo riconduce a questa stagione cinque autori principali. **Elio Vittorini** rappresenta il legame fra la militanza antifascista degli anni Trenta e la grande stagione politico-culturale del dopoguerra, con il *Politecnico* come tentativo di rifondare una cultura democratica. **Cesare Pavese** è la voce più alta della poesia e del romanzo del primo dopoguerra, con la sua riflessione sul mito, sulla provincia, sul ritorno impossibile alle origini. **Carlo Emilio Gadda** è il grande sperimentatore linguistico del Novecento italiano, capace di costruire nella *Cognizione del dolore* e nel *Pasticciaccio* romanzi che sono insieme indagine sociale e capolavoro stilistico. **Pier Paolo Pasolini** è la figura più scomoda e più lucida della cultura italiana del secondo Novecento, poeta, romanziere, regista, polemista, capace di leggere la trasformazione del paese con un acume che il tempo ha confermato. **Ignazio Silone**, infine, anche se appartiene per la sua opera principale (*Fontamara*, 1933) alla stagione fra le due guerre, è una figura ponte verso questa nuova generazione di intellettuali politicamente impegnati e va letto insieme a loro.
 
-## Checklist
-
-- [x] Il contesto storico del secondo dopoguerra: ricostruzione, Repubblica, Costituzione, guerra fredda
-- [x] Il miracolo economico e la trasformazione del paese
-- [x] Il neorealismo: caratteri, temi, linguaggio, autori principali
-- [x] La crisi del neorealismo e gli anni Sessanta
-- [x] Quadro degli autori del programma: Silone, Vittorini, Pavese, Gadda, Pasolini
-
 ## Collegamenti
 
 - **Storia**: la resistenza, la nascita della Repubblica, la Costituzione del 1948, il miracolo economico, il Sessantotto.

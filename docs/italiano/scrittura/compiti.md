@@ -14,10 +14,6 @@ Questo aspetto del romanzo fa riflettere su quanto la nostra abitudine a mediare
 
 I *Quaderni*, del resto, non sono un romanzo che si legge per la trama, che pure ha momenti intensi e un epilogo davvero memorabile, ma per la qualità delle domande che pone. Sono domande scomode, che costringono a interrogarsi sul prezzo che paghiamo ogni volta che lasciamo che una macchina faccia qualcosa al posto nostro, incluso il vivere. E il fatto che queste domande, a più di un secolo di distanza, non abbiano ancora trovato risposta dice molto sulla grandezza di questo romanzo.
 
-## Checklist
-
-- [x] Recensione *Quaderni di Serafino Gubbio operatore*
-
 ## Collegamenti
 
 - Filosofia: il tema della meccanizzazione si collega a Bergson (tempo interiore vs tempo meccanico) e a Marx (alienazione del lavoratore) → vedi [Bergson](../../filosofia/novecento/bergson.md) e [Marx](../../filosofia/ottocento/marx.md)

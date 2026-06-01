@@ -78,23 +78,6 @@ La tesi pasoliniana è radicale: la droga non è un problema individuale, non è
 
 A cinquant'anni dalla morte, Pasolini resta una delle figure più discusse e più viventi della cultura italiana del Novecento. Il suo cinema (*Accattone*, *Il Vangelo secondo Matteo*, *Teorema*, *Salò o le 120 giornate di Sodoma*) è studiato e proiettato in tutto il mondo. La sua poesia continua a essere letta e tradotta. I suoi *Scritti corsari* e le *Lettere luterane* sono diventati un classico della saggistica civile italiana, ristampati ininterrottamente e citati ad ogni nuova crisi della società italiana. Pasolini non è stato un autore "facile", e non sempre le sue posizioni sono state condivisibili (la sua difesa, in un famoso articolo, dei poliziotti contro gli studenti del Sessantotto, "figli di papà" contro "ragazzi del popolo", suscitò allora e suscita ancora discussioni); ma è stato uno degli sguardi più acuti che il Novecento italiano abbia avuto sulla propria storia, e su quella che sarebbe poi diventata la storia di tutto l'Occidente nella seconda metà del secolo.
 
-## Checklist
-
-- [x] Inquadramento: intellettuale del secondo Novecento, opera plurale unita dal tema del cambiamento dell'Italia
-- [x] Poetica: il nazional-popolare e l'eredità di Gramsci
-- [x] Poetica: il realismo e la lingua "impura" (plurilinguismo)
-- [x] Poetica: la poesia civile in terzine dantesche
-- [x] Poetica: la mutazione antropologica e il "nuovo fascismo"
-- [x] Poetica: cinema di poesia e cinema mitico
-- [x] La prima stagione poetica: dialetto friulano
-- [x] *Le ceneri di Gramsci* (1957)
-- [x] *Il pianto della scavatrice*
-- [x] *Ragazzi di vita*: trama, lingua, scandalo, incipit
-- [x] Gli *Scritti corsari* e le *Lettere luterane* come testamento intellettuale
-- [x] *Rimpianto del mondo contadino e omologazione contemporanea*
-- [x] *La scomparsa delle lucciole*
-- [x] *I giovani e la droga* (dalle *Lettere luterane*)
-
 ## Collegamenti
 
 - **Storia**: la guerra civile italiana del 1943-45 (Porzûs, morte del fratello Guido), gli anni del miracolo economico, gli anni di piombo. Pasolini è insieme testimone e interprete della grande trasformazione italiana del Novecento.

@@ -18,23 +18,7 @@ Il manifesto poetico del movimento è considerato la poesia *Preludio* di Emilio
 
 ## Il breve itinerario poetico di Carducci
 
-Accanto alla rottura scapigliata si colloca, in posizione opposta, l'esperienza poetica di Giosue Carducci (1835-1907), che attraversa la seconda metà dell'Ottocento come l'ultimo grande poeta della tradizione classica italiana. Carducci si oppone tanto al sentimentalismo romantico quanto alla decomposizione scapigliata e cerca nella poesia una forma di restaurazione: restituire alla lingua italiana il suo nitore classico, riannodare il legame con Orazio, con i grandi padri letterari, costruire una poesia civile capace di parlare alla nuova nazione. È il vate ufficiale dell'Italia postunitaria, professore a Bologna, senatore, premio Nobel per la letteratura nel 1906 — il primo italiano a riceverlo.
+In posizione opposta alla rottura scapigliata si colloca **Giosue Carducci** (1835-1907), l'ultimo grande poeta della tradizione classica italiana. Si oppone sia al sentimentalismo romantico sia alla decomposizione scapigliata e cerca nella poesia una **restaurazione**: il nitore classico della lingua, il legame con Orazio e con i padri letterari, una poesia civile capace di parlare alla nuova nazione. È il **vate ufficiale dell'Italia postunitaria** — professore a Bologna, senatore, **Premio Nobel 1906**, primo italiano a riceverlo.
 
-La sua produzione poetica, oltre alle celebri *Odi barbare* in cui sperimenta metri ispirati alla classicità, comprende componimenti più intimi che oggi vengono spesso ricordati come momenti di sincera commozione: *Traversando la Maremma toscana*, in cui il paesaggio dell'infanzia diventa specchio della malinconia adulta, della stanchezza, della "vana speranza" che non si è realizzata; *Nevicata*, in cui la neve che cade silenziosa sui tetti diventa figura della morte che si avvicina ("ascolta: una voce sommessa…"); *Pianto antico*, scritta in memoria del figlioletto Dante morto a tre anni, una delle elegie funebri più toccanti della nostra letteratura, costruita sul contrasto tra il melograno fiorito in giardino e la "terra fredda" che custodisce il bambino; *San Martino*, descrizione di un paesaggio autunnale di colline e mare, in cui il profumo del mosto nuovo si confonde con la malinconia del migrare degli uccelli. Carducci non è un poeta postunitario nel senso pieno della parola — la sua è una controffensiva classicistica — ma proprio per questo il suo magistero accompagna come basso continuo tutta la stagione, e influenzerà nel primo Novecento poeti molto diversi tra loro come Pascoli, suo allievo a Bologna, e D'Annunzio.
+La sua opera principale sono le *Odi barbare*, in cui sperimenta metri ispirati alla classicità. Il programma elenca però quattro componimenti più intimi e malinconici: *Traversando la Maremma toscana*, poesia del ritorno in cui il paesaggio dell'infanzia diventa specchio della stanchezza adulta; *Nevicata*, dove la neve silenziosa sui tetti è figura della morte che si avvicina; *Pianto antico*, elegia per il figlioletto Dante morto a tre anni, costruita sul contrasto fra il melograno fiorito in giardino e la "terra fredda" che custodisce il bambino; *San Martino*, paesaggio autunnale in cui il profumo del mosto nuovo si confonde con la malinconia del migrare degli uccelli. Il magistero classicistico di Carducci accompagna tutta la stagione postunitaria e influenzerà poeti diversi come Pascoli (suo allievo a Bologna) e D'Annunzio.
 
-## Checklist
-
-- [x] Strutture politiche, economiche e sociali dell'Italia postunitaria
-- [x] L'inchiesta parlamentare Franchetti-Sonnino (1876)
-- [x] Il Positivismo
-- [x] La posizione sociale e il ruolo degli intellettuali
-- [x] La Scapigliatura: caratteri generali
-- [x] Emilio Praga, *Preludio* (manifesto della Scapigliatura)
-- [x] Itinerario poetico di Carducci (*Traversando la Maremma toscana*, *Nevicata*, *Pianto antico*, *San Martino*)
-
-## Collegamenti
-
-- **Filosofia**: il Positivismo è la trama filosofica di tutta l'età postunitaria; Comte, Spencer, Taine, Darwin sono i nomi di riferimento, contro cui reagirà la generazione decadente di fine secolo.
-- **Storia**: l'inchiesta Franchetti-Sonnino e la "questione meridionale" sono il fondamento del modo in cui Verga rappresenta il Sud nei *Malavoglia* e nelle *Novelle rusticane*.
-- **Scienze**: Darwin e l'evoluzionismo forniscono al Verismo il modello di una società regolata dalla lotta per l'esistenza, in cui i "vinti" sono spazzati via dal progresso.
-- **Inglese**: il romanzo vittoriano (Dickens, Eliot, Hardy) condivide con la cultura postunitaria italiana l'attenzione alle conseguenze sociali dell'industrializzazione e ai destini degli umili.

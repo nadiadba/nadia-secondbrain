@@ -82,22 +82,6 @@ A partire dal ***Sentimento del tempo*** (1933) Ungaretti compie una svolta. Tor
 
 La raccolta successiva, ***Il dolore*** (1947), nasce dal dramma personale della **morte del figlio Antonietto** (nove anni, nel 1939, in Brasile dove Ungaretti era professore universitario) e dall'esperienza della **Seconda guerra mondiale**. *La Terra Promessa* (1950), *Un grido e paesaggi* (1952), *Il Taccuino del Vecchio* (1960) chiudono il percorso ungarettiano in una poesia sempre più rarefatta e visionaria, in cui prevalgono i temi della memoria, della vecchiaia, della fine.
 
-## Checklist
-
-- [x] Inquadramento: uno dei tre maestri della poesia del Novecento (con Montale e Saba), modernismo
-- [x] Poetica: la parola essenziale
-- [x] Poetica: la rivoluzione formale dell'*Allegria* (verso libero, abolizione punteggiatura)
-- [x] *L'Allegria* (1916-1931): struttura, titoli successivi, sezioni
-- [x] *In memoria* (esilio, atto di salvataggio)
-- [x] *Il porto sepolto* (dichiarazione di poetica simbolista)
-- [x] *Fratelli* (solidarietà nella guerra)
-- [x] *Veglia* (notte accanto al cadavere)
-- [x] *Sono una creatura* (analogia con la pietra, "La morte si sconta vivendo")
-- [x] *I fiumi* (autobiografia in versi, sradicamento)
-- [x] *Mattina* (illuminazione e parola assoluta)
-- [x] *Soldati* (foglie d'autunno)
-- [x] *Sentimento del tempo* (1933) e ultime raccolte (Il dolore)
-
 ## Aggancio alla Storia: Ungaretti e la Prima guerra mondiale
 
 L'opera poetica di Ungaretti è una delle principali testimonianze letterarie italiane della **Prima guerra mondiale**. Arruolatosi volontario nel 1915, Ungaretti combatte come soldato di fanteria sul **fronte del Carso** (sui monti tra l'Isonzo e Trieste) e poi, dopo Caporetto, sul fronte francese. Le poesie de *L'Allegria* sono nate quasi tutte in trincea, e ogni testo è "datato" con il luogo e la data esatta del fronte (Cima Quattro, Locvizza, Cotici, Santa Maria La Longa, Bosco di Courton). Da Ungaretti si passa naturalmente al discorso sulla **Grande Guerra**: l'esperienza dei soldati italiani sul Carso, le battaglie sull'Isonzo, la disfatta di Caporetto (ottobre 1917), la vittoria finale di Vittorio Veneto (novembre 1918). La sua poesia mostra il rovescio umano della guerra che la storiografia ufficiale tende a misurare in date di battaglie e numeri di caduti: la paura, la fraternità improvvisa fra commilitoni, l'attaccamento alla vita davanti alla morte, il senso della precarietà che la trincea fa scoprire in modo definitivo.

@@ -62,17 +62,3 @@ Nella sezione VII il poeta **parte**. Felicita lo saluta sul cancello del giardi
 
 Il valore di Gozzano nella storia della poesia italiana è duplice. Da un lato **chiude un'epoca**: è l'ultimo grande poeta della "poesia ottocentesca", quella della rima ricca, della stanza metrica regolare, del piacere classico della parola. Dall'altro **apre il Novecento**: con la sua ironia, con il suo io diviso, con la sua mescolanza di registri, con la sua scelta della "piccola materia" antieroica, anticipa direttamente Montale, Saba, e in generale tutta la poesia novecentesca che si distingue dalla retorica vate-decadente. Eugenio Montale, in particolare, riconobbe più volte il proprio debito verso Gozzano, definendolo il primo poeta che in Italia ha saputo "torcere il collo alla retorica" della tradizione dannunziana.
 
-## Checklist
-
-- [x] Origine del termine "crepuscolare" (Borgese, 1910)
-- [x] Principali esponenti: Corazzini, Moretti, Gozzano
-- [x] Poetica crepuscolare: antieroismo, cose minime, lingua dimessa
-- [x] Differenza con Futurismo e con D'Annunzio
-- [x] Inquadramento di Gozzano: cerniera fra Ottocento e Novecento
-- [x] Poetica di Gozzano: ironia, "buone cose di pessimo gusto", io diviso
-- [x] *I colloqui* (1911): struttura e contenuto
-- [x] *La signorina Felicita ovvero la Felicità* (T2): trama
-- [x] Sezione IV: l'ammezzato e le "buone cose di pessimo gusto"
-- [x] Sezione VI: la confessione d'amore impossibile
-- [x] Sezione VII: la partenza
-- [x] Portata storica di Gozzano: dal tardo Ottocento alla poesia novecentesca

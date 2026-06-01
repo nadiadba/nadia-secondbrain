@@ -116,25 +116,6 @@ Il dramma si chiude in modo enigmatico: il **Bambino**, una delle figure mute de
 
 **Significato.** *Sei personaggi in cerca d'autore* è il punto di arrivo del metateatro pirandelliano: la finzione teatrale viene smontata dall'interno, lo spettatore è costretto a interrogarsi sul rapporto fra ciò che vede sul palco e ciò che chiama "realtà" nella propria vita. Il successo internazionale del dramma fu enorme: tradotto in tutte le lingue europee, fece di Pirandello uno dei drammaturghi più rappresentati al mondo, e fu uno dei principali motivi che gli valsero il Premio Nobel del 1934. La sua influenza sul Novecento è incalcolabile: è uno dei modelli diretti del teatro dell'assurdo di **Samuel Beckett** (*Aspettando Godot*) e di **Eugène Ionesco**, e di gran parte della drammaturgia contemporanea.
 
-## Checklist
-
-- [x] Inquadramento: voce filosoficamente più radicale del primo Novecento, Premio Nobel 1934
-- [x] Poetica: vita e forma (il relativismo conoscitivo)
-- [x] Poetica: l'umorismo (avvertimento e sentimento del contrario, saggio del 1908)
-- [x] *Novelle per un anno* (progetto e struttura)
-- [x] *Il treno ha fischiato*
-- [x] *Il fu Mattia Pascal* (1904): trama
-- [x] T5 *La costruzione di una nuova identità e la sua crisi*
-- [x] T6 *Lo strappo nel cielo di carta e la lanterninosofia*
-- [x] T7 *"Non saprei proprio dire ch'io mi sia"*
-- [x] *Uno, nessuno e centomila* (1925)
-- [x] *Quaderni di Serafino Gubbio operatore* (1925): T8
-- [x] Il teatro, le Maschere nude: tre fasi
-- [x] Prima fase: teatro grottesco
-- [x] Seconda fase: teatro nel teatro (metateatro)
-- [x] Terza fase: teatro dei miti
-- [x] *Sei personaggi in cerca d'autore* (1921), T12
-
 ## Aggancio alla Storia: Pirandello e il fascismo
 
 Pirandello è uno degli autori italiani in cui il rapporto fra letteratura e fascismo è più diretto e più controverso. Dopo l'**omicidio Matteotti** del 1924 — il momento in cui molti intellettuali italiani prendono le distanze dal regime — Pirandello compie il movimento opposto: nel settembre 1924 si iscrive al **Partito Nazionale Fascista** e invia un telegramma di adesione personale a Mussolini. Negli anni successivi i suoi rapporti con il regime saranno sempre ambigui: il fascismo lo utilizza come simbolo culturale (sostiene la sua attività teatrale, gli conferisce onorificenze), e quando nel 1934 Pirandello riceve il **Premio Nobel per la Letteratura** il regime lo presenta come un trionfo della cultura italiana fascista. Pirandello, da parte sua, mantiene un'autonomia intellettuale (i suoi drammi degli anni Trenta non sono propaganda, e *I giganti della montagna* si presta a una lettura critica della società di massa); ma non rinnega mai pubblicamente l'adesione. La sua figura è quindi un caso importante per capire i rapporti complessi fra cultura italiana e regime nei vent'anni del fascismo.

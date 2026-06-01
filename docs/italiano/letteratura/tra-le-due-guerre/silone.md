@@ -38,16 +38,6 @@ Il secondo passaggio celebre, anch'esso dal secondo capitolo, è la scena della 
 
 Silone tornerà al mondo della Marsica in due altri romanzi importanti, ***Pane e vino*** (1936) e ***Il seme sotto la neve*** (1941), che insieme a *Fontamara* compongono una sorta di **trilogia abruzzese**. Negli anni del secondo dopoguerra, dopo il ritorno in Italia, parteciperà alla nascita del Partito Socialista dei Lavoratori Italiani e si dedicherà a una saggistica politica e morale di forte impegno, fino al testamento spirituale di ***L'avventura di un povero cristiano*** (1968), dedicato alla figura di **Celestino V**, il papa medievale che rinunciò al pontificato (il "papa del gran rifiuto" di cui parla Dante nell'*Inferno*) — figura che Silone interpreta come modello dell'intellettuale che si rifiuta di partecipare al potere quando il potere è ingiusto.
 
-## Checklist
-
-- [x] Inquadramento: principale narratore antifascista in esilio, cerniera fra Verismo e neorealismo
-- [x] Poetica: la voce dei "cafoni" e il rovesciamento del Verismo
-- [x] *Fontamara* (1933): ambientazione, struttura, significato storico
-- [x] *Il furto dell'acqua* (cap. II): la legge come strumento di sopraffazione
-- [x] *La "democrazia" a Fontamara* (cap. II): la falsa consultazione popolare
-- [x] *Pane e vino*, *Il seme sotto la neve* (trilogia abruzzese)
-- [x] *L'avventura di un povero cristiano* (1968): Celestino V
-
 ## Aggancio alla Storia: Silone, il fascismo e l'antifascismo in esilio
 
 L'opera di Silone è una delle principali testimonianze letterarie dell'**antifascismo italiano in esilio**. Costretto a lasciare l'Italia nel 1930 dopo la rottura con lo stalinismo, Silone si rifugia in Svizzera e da lì scrive *Fontamara* (1933), che diventa uno dei principali romanzi antifascisti diffusi in Europa. Il libro è una delle prime opere a portare all'attenzione internazionale la realtà del **regime fascista**, mostrando dall'interno i meccanismi di oppressione della dittatura: la propaganda, il consenso plebiscitario, la repressione della stampa libera, la persecuzione del dissenso. Per questo Silone è uno degli autori più utili per fare il ponte fra letteratura italiana e Storia del Novecento: dalla sua opera si passa naturalmente al discorso sul fascismo come regime totalitario, sulla questione meridionale che il fascismo eredita dall'Italia liberale e non risolve, e sull'antifascismo democratico che dopo il 1945 contribuirà a fondare la Repubblica italiana. Sul piano internazionale, *Fontamara* è paragonabile a opere come *Animal Farm* di Orwell, scritte anche loro da intellettuali di sinistra delusi dallo stalinismo e usate come parabole contro ogni totalitarismo.
