@@ -151,13 +151,13 @@ nav:
       - filosofia/novecento/popper.md
   - Scienze:
     - scienze/index.md
-    - Chimica:
-      - scienze/chimica/c1-chimica-organica.md
-      - scienze/chimica/c2-idrocarburi.md
-      - scienze/chimica/c3-derivati-idrocarburi.md
-      - scienze/chimica/b1-biomolecole.md
-      - scienze/chimica/b2-metabolismo-energetico.md
-      - scienze/chimica/b4-dna.md
+    - scienze/c1-chimica-organica.md
+    - scienze/c2-idrocarburi.md
+    - scienze/c3-derivati-idrocarburi.md
+    - scienze/b1-biomolecole.md
+    - scienze/b2-metabolismo-energetico.md
+    - scienze/b4-dna.md
+    - scienze/scienze-della-terra.md
   - Inglese:
     - inglese/index.md
     - Letteratura:
