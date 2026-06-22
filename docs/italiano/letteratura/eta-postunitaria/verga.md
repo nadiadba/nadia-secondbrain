@@ -128,3 +128,7 @@ Tratto dalla **parte conclusiva del romanzo**, è una delle pagine più dure del
 
 Negli ultimi momenti Gesualdo assiste impotente alla scena della propria morte. La servitù **lo deride** alle spalle in dialetto chiamandolo "**villano arricchito**"; un domestico gli **ruba l'orologio** dal comodino mentre lui respira ancora; i nobili passano davanti alla porta senza entrare. Gesualdo muore con il senso amaro che la propria vita, fatta di lavoro accanito, non è valsa nulla: la "roba" che ha accumulato non lo accompagnerà nell'al di là, e gli unici che ne godranno sono proprio quelli che lo disprezzano. È la conclusione naturale del ciclo dei Vinti: anche al livello del borghese arricchito il progresso produce solo nuovi vinti, e l'ascesa sociale, per Verga, non è una promozione ma un'**illusione**.
 
+## Aggancio alla Storia: Verga e il fascismo
+
+Verga mostra che il "**progresso**" promesso dall'Unità d'Italia è una **fiumana che travolge solo i deboli** e arricchisce pochi speculatori: è il fallimento dello Stato liberale che il **fascismo** raccoglierà nel 1922 con la promessa di "rifondare" l'Italia, promessa che finirà nella catastrofe della Seconda guerra mondiale.
+
