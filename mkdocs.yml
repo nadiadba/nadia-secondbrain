@@ -128,6 +128,7 @@ nav:
       - italiano/scrittura/compiti.md
   - Storia:
     - storia/index.md
+    - storia/rivoluzione-russa.md
     - storia/ascesa-del-fascismo.md
     - storia/ascesa-del-nazismo.md
     - storia/seconda-guerra-mondiale.md
@@ -156,7 +157,7 @@ nav:
       - scienze/chimica/c3-derivati-idrocarburi.md
       - scienze/chimica/b1-biomolecole.md
       - scienze/chimica/b2-metabolismo-energetico.md
-      - scienze/chimica/b3-fotosintesi.md
+      - scienze/chimica/b4-dna.md
   - Inglese:
     - inglese/index.md
     - Letteratura:
@@ -194,6 +195,7 @@ nav:
   - Ed. civica:
     - educazione-civica/index.md
     - educazione-civica/debate-umano.md
+    - educazione-civica/capolavoro.md
     - Franca Viola:
       - educazione-civica/franca-viola/storia.md
       - educazione-civica/franca-viola/franca.md
