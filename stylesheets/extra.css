@@ -1,0 +1,24 @@
+/* Ottimizzazione per la stampa */
+@media print {
+  .md-sidebar,
+  .md-header,
+  .md-footer,
+  .md-tabs {
+    display: none !important;
+  }
+
+  .md-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Checklist più leggibili */
+.task-list-item {
+  list-style-type: none !important;
+}
+
+.task-list-item input[type="checkbox"] {
+  margin-right: 0.5em;
+}
