@@ -1,31 +1,19 @@
-# Second Brain — Maturità 2026
+# Second Brain — Architettura
 
-Benvenuta nel tuo second brain! Qui trovi tutti gli appunti organizzati per materia, pensati per accompagnarti lungo tutto il quinto anno e nella preparazione all'esame di maturità.
+Benvenuta nel tuo second brain universitario! Qui raccogli gli appunti e il materiale dei corsi di Architettura all'Università Roma Tre.
 
 ## Come è organizzato
 
-Ogni **materia** ha la sua sezione con sottocartelle per macro-argomenti. Usa le **tab** in alto per navigare tra le materie.
+Ogni **materia** ha la sua sezione, raggiungibile dalle **tab** in alto. Dentro ogni materia c'è lo spazio **Materiale**, dove tenere slide, PDF e appunti del corso.
 
-- Le pagine con ✅ sono complete
-- Le pagine con ⬜ sono ancora da completare
+## Esami di questo semestre
 
-## Materie
-
-| Materia              | Argomenti principali                                     |
-| -------------------- | -------------------------------------------------------- |
-| **Matematica**       | Analisi, geometria, probabilità                          |
-| **Fisica**           | Elettromagnetismo, onde, fisica moderna                  |
-| **Italiano**         | Letteratura dall'800 al '900, Divina Commedia, scrittura |
-| **Storia**           | Dall'età giolittiana al mondo contemporaneo              |
-| **Filosofia**        | Da Hegel al pensiero contemporaneo                       |
-| **Scienze**          | Chimica organica, biochimica, scienze della Terra        |
-| **Inglese**          | Letteratura inglese e writing                            |
-| **Storia dell'arte** | Dall'Impressionismo all'arte contemporanea               |
-| **Ed. civica**       | Costituzione, sostenibilità, cittadinanza digitale       |
-
-## Sezione Esame
-
-La sezione **Esame** conterrà le sintesi finali per la prima prova, la seconda prova, l'orale e i collegamenti interdisciplinari.
+| Materia                        | Spazi disponibili |
+| ------------------------------ | ----------------- |
+| **Storia dell'architettura**   | Materiale         |
+| **Geometria descrittiva**      | Materiale         |
+| **Composizione architettonica**| Materiale         |
+| **Matematica**                 | Materiale         |
 
 ## Funzionalità
 

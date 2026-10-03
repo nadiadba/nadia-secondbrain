@@ -1,5 +1,5 @@
-site_name: Second Brain — Maturità 2026
-site_description: Appunti organizzati per il quinto anno di liceo scientifico
+site_name: Second Brain — Architettura
+site_description: Appunti universitari — Architettura, Università Roma Tre
 site_author: Nadia
 
 theme:
@@ -51,164 +51,19 @@ markdown_extensions:
       permalink: false
 
 extra_javascript:
-  - javascripts/mathjax.js
+  - tema/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  - stylesheets/extra.css
+  - tema/extra.css
 
 nav:
   - Home: index.md
+  - Storia dell'architettura:
+    - storia-architettura/index.md
+  - Geometria descrittiva:
+    - geometria-descrittiva/index.md
+  - Composizione architettonica:
+    - composizione-architettonica/index.md
   - Matematica:
     - matematica/index.md
-    - Analisi:
-      - matematica/analisi/limiti.md
-      - matematica/analisi/derivate.md
-      - matematica/analisi/integrali.md
-      - matematica/analisi/studio-di-funzione.md
-      - matematica/analisi/equazioni-differenziali.md
-    - Geometria:
-      - matematica/geometria/coniche.md
-      - matematica/geometria/spazio.md
-    - Probabilità:
-      - matematica/probabilita/combinatorio.md
-      - matematica/probabilita/probabilita.md
-      - matematica/probabilita/distribuzioni.md
-  - Fisica:
-    - fisica/index.md
-    - Elettromagnetismo:
-      - fisica/elettromagnetismo/campo-elettrico.md
-      - fisica/elettromagnetismo/potenziale.md
-      - fisica/elettromagnetismo/corrente.md
-      - fisica/elettromagnetismo/campo-magnetico.md
-      - fisica/elettromagnetismo/induzione.md
-      - fisica/elettromagnetismo/maxwell.md
-    - Onde:
-      - fisica/onde/onde-em.md
-      - fisica/onde/ottica.md
-    - Fisica moderna:
-      - fisica/moderna/relativita.md
-      - fisica/moderna/quantistica.md
-      - fisica/moderna/nucleare.md
-    - fisica/verifica.md
-  - Italiano:
-    - italiano/index.md
-    - Romanticismo:
-      - italiano/letteratura/romanticismo/movimento.md
-      - italiano/letteratura/romanticismo/leopardi.md
-    - Età postunitaria:
-      - italiano/letteratura/eta-postunitaria/contesto.md
-      - italiano/letteratura/eta-postunitaria/naturalismo-zola.md
-      - italiano/letteratura/eta-postunitaria/verga.md
-    - Decadentismo:
-      - italiano/letteratura/decadentismo/introduzione.md
-      - italiano/letteratura/decadentismo/pascoli.md
-      - italiano/letteratura/decadentismo/dannunzio.md
-    - Primo Novecento:
-      - italiano/letteratura/primo-novecento/contesto.md
-      - italiano/letteratura/primo-novecento/crepuscolari-gozzano.md
-      - italiano/letteratura/primo-novecento/svevo.md
-      - italiano/letteratura/primo-novecento/pirandello.md
-    - Tra le due guerre:
-      - italiano/letteratura/tra-le-due-guerre/contesto.md
-      - italiano/letteratura/tra-le-due-guerre/ungaretti.md
-      - italiano/letteratura/tra-le-due-guerre/montale.md
-    - Secondo Novecento:
-      - italiano/letteratura/secondo-novecento/contesto.md
-      - italiano/letteratura/secondo-novecento/pavese.md
-      - italiano/letteratura/secondo-novecento/calvino.md
-      - italiano/letteratura/secondo-novecento/gadda.md
-      - italiano/letteratura/secondo-novecento/pasolini.md
-    - Divina Commedia:
-      - italiano/letteratura/divina-commedia/paradiso.md
-    - Scrittura:
-      - italiano/scrittura/tipologia-a.md
-      - italiano/scrittura/tipologia-b.md
-      - italiano/scrittura/tipologia-c.md
-      - italiano/scrittura/compiti.md
-  - Storia:
-    - storia/index.md
-    - storia/rivoluzione-russa.md
-    - storia/ascesa-del-fascismo.md
-    - storia/ascesa-del-nazismo.md
-    - storia/seconda-guerra-mondiale.md
-    - storia/secondo-dopoguerra.md
-  - Filosofia:
-    - filosofia/index.md
-    - Ottocento:
-      - filosofia/ottocento/hegel.md
-      - filosofia/ottocento/feuerbach.md
-      - filosofia/ottocento/schopenhauer.md
-      - filosofia/ottocento/kierkegaard.md
-      - filosofia/ottocento/marx.md
-      - filosofia/ottocento/positivismo.md
-      - filosofia/ottocento/nietzsche.md
-    - Novecento:
-      - filosofia/novecento/freud.md
-      - filosofia/novecento/bergson.md
-      - filosofia/novecento/esistenzialismo.md
-      - filosofia/novecento/arendt.md
-      - filosofia/novecento/popper.md
-  - Scienze:
-    - scienze/index.md
-    - scienze/c1-chimica-organica.md
-    - scienze/c2-idrocarburi.md
-    - scienze/c3-derivati-idrocarburi.md
-    - scienze/b1-biomolecole.md
-    - scienze/b2-metabolismo-energetico.md
-    - scienze/b4-dna.md
-    - scienze/scienze-della-terra.md
-  - Inglese:
-    - inglese/index.md
-    - Letteratura:
-      - The Victorian Age:
-        - inglese/letteratura/the-victorian-age/index.md
-      - The Modern Age:
-        - inglese/letteratura/the-modern-age/index.md
-        - inglese/letteratura/the-modern-age/james-joyce.md
-        - inglese/letteratura/the-modern-age/joyce-the-dead-ulysses.md
-        - inglese/letteratura/the-modern-age/virginia-woolf.md
-        - inglese/letteratura/the-modern-age/ts-eliot.md
-        - inglese/letteratura/the-modern-age/eliot-the-fire-sermon.md
-        - inglese/letteratura/the-modern-age/animal-farm.md
-        - inglese/letteratura/the-modern-age/verifica-domande.md
-    - The Global Age:
-      - inglese/letteratura/the-global-age/index.md
-    - Writing:
-      - inglese/writing/essay-structure.md
-  - Storia dell'arte:
-    - arte/index.md
-    - Avanguardie:
-      - arte/avanguardie/index.md
-      - arte/avanguardie/cubismo.md
-      - arte/avanguardie/futurismo.md
-      - arte/avanguardie/dadaismo.md
-      - arte/avanguardie/surrealismo.md
-      - arte/avanguardie/astrattismo.md
-  - Latino:
-    - latino/index.md
-    - latino/seneca.md
-    - latino/lucano.md
-    - latino/trattatistica-scientifica.md
-    - latino/debate-oratoria.md
-    - latino/debate-umano.md
-  - Ed. civica:
-    - educazione-civica/index.md
-    - educazione-civica/debate-umano.md
-    - educazione-civica/capolavoro.md
-    - Franca Viola:
-      - educazione-civica/franca-viola/storia.md
-      - educazione-civica/franca-viola/franca.md
-      - educazione-civica/franca-viola/mamma.md
-      - educazione-civica/franca-viola/padre.md
-      - educazione-civica/franca-viola/fratello.md
-      - educazione-civica/franca-viola/filippo.md
-      - educazione-civica/franca-viola/giuseppe.md
-      - educazione-civica/franca-viola/carabiniere.md
-      - educazione-civica/franca-viola/vicina.md
-  - Esame:
-    - esame/index.md
-    - esame/prima-prova.md
-    - esame/seconda-prova.md
-    - esame/orale.md
-    - esame/collegamenti.md
