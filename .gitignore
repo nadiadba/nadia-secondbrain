@@ -6,3 +6,6 @@ venv/
 
 # Materiali sorgente (PPT, foto, PDF di lezioni) — solo in locale
 docs/**/materiale/
+
+# Configurazione di Obsidian (solo in locale)
+.obsidian/
