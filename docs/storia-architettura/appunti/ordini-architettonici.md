@@ -44,7 +44,9 @@ Secondo Vitruvio, in origine i templi erano edificati in legno e argilla, materi
 
 ### La capanna primitiva nella trattatistica
 
-Il tema dell'origine lignea dell'architettura ha avuto una lunga fortuna nella teoria architettonica successiva. Le ricostruzioni degli archeologi e dei teorici hanno tentato di dare forma al racconto vitruviano, immaginando strutture di pali e travi lignee alla base della forma del tempio. Nel Settecento, in particolare, questo immaginario trova due espressioni celebri: l'*Essai sur l'architecture* di Marc-Antoine Laugier, del 1755, che pone al centro la figura della "capanna primitiva" come archetipo di ogni architettura, e il *Treatise on Civil Architecture* di William Chambers, del 1759. Entrambi testimoniano quanto a lungo l'idea di un'origine naturale e lignea dell'architettura abbia alimentato la riflessione teorica.
+Il tema dell'origine lignea dell'architettura ha avuto una lunga fortuna nella teoria architettonica dei secoli successivi. L'idea di fondo è che la prima architettura sia stata una semplice capanna costruita con elementi naturali — tronchi conficcati nel terreno a fare da sostegni verticali e rami appoggiati sopra a comporre la copertura — e che dalle forme di questa struttura elementare derivino quelle del tempio: le colonne nascerebbero dai pali, la trabeazione dalle travi. La capanna primitiva viene così considerata l'archetipo, cioè il modello originario di ogni architettura, di cui il tempio in pietra rappresenta la traduzione in un materiale durevole.
+
+Questo immaginario conosce nel Settecento due espressioni celebri. Nell'*Essai sur l'architecture* di Marc-Antoine Laugier (1755) la capanna primitiva è posta al centro come modello ideale, esempio di un'architettura ridotta ai suoi elementi essenziali e priva di ogni superfluo; al medesimo tema è dedicato il *Treatise on Civil Architecture* di William Chambers (1759). Entrambi testimoniano quanto a lungo l'idea di un'origine naturale e lignea dell'architettura — già presente nel racconto di Vitruvio — abbia continuato ad alimentare la riflessione teorica.
 
 ### Il sistema trilitico
 
