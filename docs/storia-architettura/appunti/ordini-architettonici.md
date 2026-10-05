@@ -20,11 +20,19 @@ L'organismo del tempio si articola in un numero ridotto di ambienti, ciascuno co
 
 Attorno a questo nucleo si dispone, nei templi più sviluppati, un colonnato esterno. Lo spazio compreso tra le pareti della cella e la fila di colonne che circonda l'edificio prende il nome di peristasi. Le colonne possono poggiare su elementi terminali delle pareti chiamati ante, da cui derivano alcune delle denominazioni dei tipi templari.
 
+![Pianta schematica del tempio con le sue parti](img/parti-tempio.png)
+
+*Le parti del tempio: 1. cella o naos, 2. pronao, 3. opistodomo, 4. colonne, 5. peristasi, 6. anta.*
+
 ### La classificazione dei templi
 
 I templi si classificano in base alla presenza e alla disposizione delle colonne, e a ogni soluzione corrisponde un termine tecnico che è bene conoscere con precisione. Il tempio si dice in antis quando la cella non è circondata da colonne e presenta soltanto due colonne inquadrate tra le ante del pronao; è detto doppiamente in antis quando la stessa soluzione si ripete anche sul fronte posteriore. Si parla invece di tempio prostilo quando una fila di colonne occupa l'intero fronte anteriore, e di anfiprostilo quando il colonnato è presente anche sul retro.
 
 La tipologia più diffusa, al punto da costituire una sorta di modello generatore rispetto a tutte le altre, è il tempio periptero, nel quale la cella è interamente circondata da un'unica fila di colonne. Il prefisso greco *peri-*, che significa "intorno", offre un utile appiglio mnemonico. A partire dal periptero, per progressivo arricchimento, si ottengono gli altri tipi: il diptero, caratterizzato da una doppia fila di colonne perimetrali, e le varianti pseudoperiptero e pseudodiptero, nelle quali le colonne libere sono sostituite da semicolonne addossate alla parete. A questi si aggiungono due casi particolari: il tempio monoptero, costituito da un giro di colonne privo di cella, e il tempio ipetro, un edificio di dimensioni tali da non poter essere coperto per intero e che resta quindi scoperto nella parte centrale.
+
+![I diversi tipi di tempio in pianta](img/tipi-tempio.png)
+
+*Alcuni tipi di tempio distinti in base alla disposizione delle colonne: periptero, diptero, pseudoperiptero, pseudodiptero, ipetro.*
 
 ### L'intercolumnio
 
@@ -52,9 +60,17 @@ Dal punto di vista costruttivo, il tempio si fonda su un principio elementare ma
 
 Nel mondo greco gli ordini architettonici sono tre: il dorico, lo ionico e il corinzio. I loro nomi non vanno intesi in senso cronologico, come se un ordine generasse il successivo in una sequenza evolutiva; essi rimandano piuttosto alla geografia, ai popoli e alle regioni in cui ciascuna forma prese autonomamente vita, per poi diffondersi altrove attraverso le migrazioni e gli scambi. Questo dato introduce un tema di fondo dell'intera storia dell'architettura, cioè lo stretto legame tra la forma architettonica e il luogo che la produce. Per lo studio, l'aspetto più immediatamente utile è imparare a distinguere i tre ordini, poiché a ciascuno corrisponde un elemento di riconoscimento inequivocabile.
 
+![I tre ordini greci: dorico, ionico, corinzio](img/tre-ordini.png)
+
+*I tre ordini greci a confronto — da sinistra dorico, ionico e corinzio — con le rispettive trabeazioni, i capitelli e la sezione del fusto; sulla prima colonna è indicata l'entasi.*
+
 ### L'ordine dorico
 
 L'ordine dorico è il più antico e severo dei tre, e si distingue per la sua robustezza e per la sobrietà delle forme. L'elemento che ne consente il riconoscimento immediato si trova nel fregio, come si vedrà più avanti; conviene però procedere con ordine, partendo dal basso.
+
+![Schema ricostruttivo di un tempio dorico con le parti numerate](img/schema-tempio-dorico.png)
+
+*Schema ricostruttivo di un tempio dorico: si riconoscono, tra l'altro, la crepidoma, lo stilobate, il fusto, il capitello, l'architrave, il fregio con triglifi e metope, il frontone.*
 
 #### La colonna e il capitello
 
