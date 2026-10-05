@@ -67,7 +67,11 @@ nav:
       - storia-architettura/lezioni/01-tempio-e-ordini.md
   - Geometria descrittiva:
     - geometria-descrittiva/index.md
+    - Sintesi:
+      - geometria-descrittiva/sintesi/strumenti-e-disegno.md
   - Composizione architettonica:
     - composizione-architettonica/index.md
+    - Sintesi:
+      - composizione-architettonica/sintesi/introduzione-laboratorio.md
   - Matematica:
     - matematica/index.md
