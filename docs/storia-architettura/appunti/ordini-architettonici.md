@@ -1,200 +1,79 @@
 # Gli ordini architettonici e il tempio greco
 
-Appunti rielaborati a partire dalla lezione del 29 (la trascrizione integrale è in [Lezioni → Il tempio e gli ordini](../lezioni/01-tempio-e-ordini.md)).
+Gli ordini architettonici sono il vocabolario con cui si descrive e si riconosce l'architettura antica. Hanno un doppio volto: da un lato sono un codice fisso, una "grammatica" tramandata dall'antichità fino a noi; dall'altro sono un oggetto della storia, che nel tempo cambia nelle forme, nelle proporzioni e nelle dimensioni. Studiarli significa quindi due cose insieme: imparare a memoria un lessico preciso e, soprattutto, abituare l'occhio a riconoscere gli edifici e le loro parti quando li si osserva dal vero.
 
-Gli ordini architettonici sono il "vocabolario" dell'architettura antica: una serie di elementi, e di parole, che servono a descrivere e a riconoscere gli edifici. Hanno un duplice volto: da un lato sono un codice fisso, tramandato dall'antichità; dall'altro sono un oggetto della storia, che cambia e varia nel tempo. Studiarli serve a due cose: imparare il lessico a memoria e, soprattutto, saper riconoscere dal vivo gli edifici e le loro parti.
+Conviene chiarire subito un equivoco frequente: l'ordine architettonico non è la colonna. La colonna è una delle sue parti, ma il sistema comprende anche la base, il capitello e la trabeazione che corre sopra le colonne. L'ordine, insomma, è un insieme organico di elementi che si sviluppa lungo tutto l'alzato dell'edificio, dall'appoggio a terra fino alla copertura.
 
-## Che cos'è un ordine architettonico
+## Il tempio greco e il sistema trilitico
 
-Definizione: insieme organico di elementi necessari alla realizzazione di un edificio, dall'appoggio a terra fino alle strutture in elevazione e di copertura.
+Il tempio è l'edificio più importante del mondo greco, perché ha la funzione più alta, quella di onorare la divinità. Proprio per questo sorge sempre sopraelevato rispetto alla strada, su una gradinata chiamata crepidoma, che lo distingue in modo simbolico dal resto della città; il suo ultimo gradino, cioè il piano su cui si impostano le colonne, si chiama stilobate. La pianta è di norma rettangolare e il tetto è a falde inclinate.
 
-Attenzione all'errore più comune: l'ordine *non* è solo la colonna. La colonna è una sua parte, ma il sistema comprende anche:
+All'interno, il tempio si organizza attorno a pochi spazi dalla funzione precisa. Il cuore è la cella, o naos, l'ambiente centrale che ospitava la statua della divinità. Davanti alla cella si apre il pronao, lo spazio d'ingresso introdotto da colonne, il cui nome significa appunto "davanti al naos"; sul retro si trova l'opistodomo, un ambiente speculare al pronao che non ha una vera funzione se non quella di equilibrare la composizione. Tra le pareti della cella e la fila di colonne che circonda l'edificio si apre infine la peristasi.
 
-- la base (quando c'è),
-- la colonna (fusto + capitello),
-- la trabeazione, che corre sopra le colonne.
+Dal modo in cui le colonne avvolgono la cella derivano i diversi tipi di tempio, a ciascuno dei quali corrisponde un termine tecnico. Quando la cella non ha colonne attorno ma solo due colonne nel pronao il tempio si dice in antis, e doppiamente in antis se la stessa soluzione si ripete sul retro; è prostilo quando una fila di colonne occupa tutto il fronte, anfiprostilo quando le colonne stanno anche sul retro. Il tipo più diffuso, quasi lo standard da cui tutti gli altri derivano, è il periptero, in cui la cella è interamente circondata da una sola fila di colonne: il prefisso *peri-*, "intorno", aiuta a ricordarlo. Da qui nascono per arricchimento il diptero, con una doppia fila di colonne, e le varianti pseudoperiptero e pseudodiptero, in cui le colonne libere diventano semicolonne addossate alla parete. Esistono infine casi particolari come il tempio monoptero, fatto di sole colonne senza cella, e l'ipetro, un tempio così grande da restare scoperto al centro.
 
-L'ordine si sviluppa quindi con tutto l'alzato dell'edificio.
+Tutto questo si regge su un principio costruttivo semplice ma fondamentale, il sistema trilitico, letteralmente "tre pietre": due elementi verticali che sostengono un elemento orizzontale. Moltiplicando i sostegni verticali nasce la struttura del tempio. È importante capire che si tratta di un'architettura trabeata e non arcuata: non ci sono archi, ma colonne che reggono la trabeazione e il peso del tetto.
 
-### Il sistema trilitico
+## Dal legno alla pietra: la litizzazione
 
-Il tempio greco si regge su un sistema costruttivo trilitico (dal greco "tre pietre"): due elementi verticali che sostengono un elemento orizzontale. Aggiungendo altri sostegni verticali nasce il sistema del tempio. È una struttura trabeata: non ci sono archi, ma sostegni verticali (colonne) che reggono elementi orizzontali (la trabeazione e il tetto).
+La nostra fonte principale su questi edifici è Vitruvio, architetto vissuto all'epoca di Augusto e autore del *De architectura*, l'unico trattato di architettura dell'antichità giunto fino a noi. Vitruvio racconta che in origine i templi erano costruiti in legno e argilla, materiali poveri e poco resistenti: è anche questo il motivo per cui le testimonianze più arcaiche sono andate perdute. Con il tempo si passò alla pietra, in un processo che prende il nome di litizzazione, dalla parola greca *litos* che significa appunto pietra.
 
-## Il tempio greco
-
-Il tempio è l'edificio religioso per eccellenza, destinato a onorare la divinità. Sorge sempre sopraelevato rispetto alla strada, su una gradinata (il crepidoma), per distinguerlo simbolicamente; ha pianta in genere rettangolare e tetto a falde inclinate.
-
-### Le parti del tempio
-
-| Parte | Che cos'è |
-|-------|-----------|
-| Cella (naos) | ambiente centrale, cuore del tempio; ospitava la statua della divinità |
-| Pronao | spazio d'ingresso, davanti alla cella (il nome significa "davanti al naos") |
-| Opistodomo | ambiente posteriore, speculare al pronao; serve a equilibrare la composizione |
-| Peristasi | spazio tra le pareti della cella e la fila di colonne esterne |
-| Crepidoma | la gradinata su cui poggia il tempio |
-| Stilobate | l'ultimo gradino del crepidoma, il piano su cui si impostano le colonne |
-
-## I tipi di tempio
-
-Si classificano in base a come sono disposte le colonne.
-
-| Tipo | Caratteristica |
-|------|----------------|
-| In antis | cella senza colonne attorno, solo due colonne nel pronao |
-| Doppiamente in antis | come sopra, ma ripetuto anche sul retro |
-| Prostilo | fila di colonne su tutto il fronte |
-| Anfiprostilo | colonne sul fronte e sul retro |
-| Periptero | cella interamente circondata da una fila di colonne (il tipo più diffuso, "generatore") |
-| Pseudoperiptero | semicolonne addossate alla parete invece di colonne libere |
-| Diptero | doppia fila di colonne attorno alla cella |
-| Pseudodiptero | come il diptero, ma con la fila interna ridotta a semicolonne |
-| Monoptero | solo colonne in cerchio, senza cella |
-| Ipetro | tempio enorme, scoperto al centro (non copribile per intero) |
-
-Il prefisso *peri-* significa "intorno": è il trucco per ricordare il periptero.
-
-## L'intercolumnio
-
-È la distanza tra le colonne. Cambia l'aspetto e il ritmo del tempio. I cinque casi (dal più fitto al più rado): picnostilo, sistilo, eustilo, diastilo, areostilo.
-
-## Dal tempio ligneo al tempio in pietra: la litizzazione
-
-La nostra fonte principale è Vitruvio (*De architectura*, l'unico trattato antico di architettura giunto fino a noi). Vitruvio racconta che in origine i templi erano costruiti in legno e argilla: materiali poveri e poco resistenti, che spiegano perché le testimonianze più arcaiche siano andate perdute. Col tempo si passa alla pietra: è il processo di litizzazione (da *litos*, pietra).
-
-Questo passaggio spiega l'origine di alcuni elementi dell'ordine dorico:
-
-- il triglifo nasce come rivestimento in pietra delle testate delle travi lignee, per proteggerle dalla pioggia (poi diventa elemento decorativo);
-- la metopa è la lastra che tampona lo spazio tra due triglifi; non avendo funzione strutturale, diventa lo spazio "narrativo" da decorare.
+Questo passaggio non è solo una curiosità, perché spiega l'origine di alcuni elementi che poi diventano decorativi. Il triglifo, per esempio, nasce come rivestimento in pietra delle testate delle travi lignee, messo lì per proteggerle dalla pioggia; la metopa è invece la lastra che chiudeva lo spazio vuoto tra una trave e l'altra. Quando il tempio diventa interamente di pietra queste parti perdono la loro funzione pratica e restano come segni distintivi dell'ordine dorico: la metopa, non dovendo più reggere nulla, diventa anzi lo spazio ideale su cui scolpire scene e racconti.
 
 ## I tre ordini greci
 
-| | Dorico | Ionico | Corinzio |
-|---|--------|--------|----------|
-| Base | assente in Grecia (base attica a Roma) | attica oppure vitruviana/efesina | attica |
-| Fusto | scanalato, rastremato, robusto | scanalato, più slanciato | scanalato, slanciato |
-| Capitello | echino + abaco (semplice) | volute | foglie d'acanto |
-| Fregio | triglifi e metope (alternanza) | continuo | continuo |
-| Si riconosce da | metope e triglifi | volute | foglie d'acanto |
-| Associato a | divinità maschili | divinità femminili | — |
+Nel mondo greco gli ordini sono tre: il dorico, lo ionico e il corinzio. I loro nomi non indicano una successione nel tempo, come se uno nascesse dall'altro, ma rimandano alla geografia, cioè ai popoli e alle regioni in cui presero forma, per poi diffondersi con le migrazioni. La cosa più utile da fissare subito è come si riconosce ciascuno di essi, perché è proprio questo che viene chiesto di saper fare.
 
-I tre nomi sono legati alla geografia (Dori, Ioni...) non alla cronologia: nascono in modo autonomo e poi si diffondono con le migrazioni dei popoli.
+### L'ordine dorico
 
-### Ordine dorico
+L'ordine dorico è il più severo e robusto, e lo si riconosce da un dettaglio preciso collocato nel fregio: l'alternanza di triglifi e metope. In Grecia la sua colonna poggia direttamente sullo stilobate, senza base, ed è una caratteristica unica; il fusto è percorso da scanalature, cioè solchi verticali che servono a catturare meglio la luce. In cima, il capitello è formato da due parti molto semplici, l'echino, la fascia curva, e l'abaco, il piano su cui si posa la trabeazione.
 
-La colonna dorica, in Grecia, poggia direttamente sullo stilobate, senza base: è una caratteristica unica. Il fusto è scanalato (le scanalature catturano la luce). Il capitello ha due parti: l'echino (parte curva) e l'abaco (il "piattello" su cui poggia la trabeazione), separati dal fusto dal collarino.
+La trabeazione dorica è sempre divisa in tre parti, ed è bene saperlo con sicurezza perché è una domanda tipica d'esame: in basso l'architrave, che poggia sulle colonne; al centro il fregio, con i triglifi e le metope; in alto la cornice. Sopra la trabeazione si apre il frontone, lo spazio triangolare creato dall'inclinazione del tetto, che insieme alle metope offriva una superficie da decorare con sculture.
 
-La trabeazione è sempre divisa in tre parti (da ricordare, è una domanda tipica d'esame):
+Proprio l'alternanza del fregio genera uno dei problemi teorici più discussi dell'architettura greca, il cosiddetto conflitto angolare: all'angolo del tempio il triglifo non riesce a stare contemporaneamente al centro della colonna e sullo spigolo dell'edificio, e si crea uno spazio che non torna. È una questione senza una soluzione definitiva, risolta di volta in volta allargando l'ultima metopa o la distanza tra i triglifi, ma resta uno dei grandi temi della teoria degli ordini.
 
-1. architrave (in basso, poggia sull'abaco),
-2. fregio (con l'alternanza di triglifi e metope),
-3. cornice.
+Un'ultima cosa va detta sul colore. Siamo abituati a immaginare i templi candidi, nel loro marmo bianco, ed è l'immagine che tanto affascinava studiosi come Winckelmann e Goethe; sappiamo però che in origine erano dipinti. Nell'ordine dorico la soluzione più comune era una bicromia con le metope bianche e i triglifi azzurri, e fu soprattutto nell'Ottocento, con architetti come Hittorff, che si cominciò a studiare questa policromia perduta. A Roma, infine, anche il dorico riceve una base, la cosiddetta base attica, formata dalla sequenza toro, scozia, toro.
 
-Sopra la trabeazione c'è il frontone, lo spazio triangolare creato dall'inclinazione del tetto, decorato con sculture (spazio narrativo, come le metope).
+### L'ordine ionico
 
-Il conflitto angolare: all'angolo del tempio il triglifo non riesce a stare contemporaneamente al centro della colonna e sull'angolo dell'edificio, lasciando uno spazio vuoto. È un problema insolubile, risolto di volta in volta allargando l'ultima metopa o la distanza fra i triglifi. È uno dei grandi temi della teoria degli ordini.
+L'ordine ionico è più slanciato ed elegante, e lo si riconosce dalle volute del capitello, i caratteristici ricci a spirale. A differenza del dorico, ha sempre una base, che può essere quella attica oppure la più ricca base vitruviana, detta anche efesina perché diffusa a Efeso. Il fusto è scanalato e dalle proporzioni più sottili, mentre il fregio non presenta più l'alternanza di triglifi e metope ma è continuo, una fascia unica su cui corre la decorazione.
 
-Il colore: i templi non erano candidi come li immaginiamo (idea cara a Winckelmann e Goethe), ma dipinti. Nell'ordine dorico la soluzione tipica è una bicromia con metope bianche e triglifi azzurri. La policromia fu studiata nell'Ottocento, per esempio da Hittorff.
+Il capitello ionico ha una particolarità: non è uguale da ogni lato come quello dorico, ma è orientato, perché le volute si mostrano sul fronte mentre i fianchi sono segnati da elementi diversi, il balaustro e il balteo. Anche qui l'angolo crea un problema, risolto con il capitello angolare, in cui le volute vengono mostrate su due lati grazie a una leggera rotazione. Per le sue forme più decorate e aggraziate, l'ordine ionico veniva associato alle divinità femminili, mentre il dorico era legato a quelle maschili; una grande eccezione, che vedremo, è il Partenone, dedicato ad Atena e però di ordine dorico.
 
-A Roma l'ordine dorico riceve una base: la base attica (toro – scozia – toro).
+### L'ordine corinzio
 
-### Ordine ionico
+L'ordine corinzio è il più ricco dei tre, e lo si riconosce dal capitello decorato con foglie d'acanto. Della sua origine Vitruvio racconta una leggenda: lo scultore Callimaco, passando accanto alla tomba di una fanciulla di Corinto, notò un canestro che qualcuno aveva posato per caso sopra una radice di acanto, le cui foglie crescendo lo avevano avvolto; da quell'immagine trasse l'idea del capitello. Al di là del racconto, è interessante come anche qui la nascita di un ordine venga legata a un luogo preciso, Corinto, confermando quel rapporto stretto tra forma e geografia che attraversa tutta la storia degli ordini.
 
-Si riconosce dalle volute del capitello. Ha sempre la base: attica, oppure la base vitruviana (detta anche efesina, da Efeso), più ricca. Il fusto è più slanciato e scanalato. Il fregio non è più a triglifi e metope, ma continuo.
+## Gli ordini romani: tuscanico e composito
 
-Il capitello ionico è "orientato" (non uguale da ogni lato): davanti ha le volute, mentre i lati sono segnati da balaustro e balteo. All'angolo nasce di nuovo un problema, risolto con il capitello angolare, che mostra le volute su due lati grazie a una rotazione; esiste anche la versione a quattro facce. Tra le volute corre la decorazione a ovoli e dardi.
+Spostandosi a Roma, ai tre ordini greci se ne aggiungono altri due, il tuscanico e il composito, così che il repertorio arriva a cinque. La tavola di riferimento è la *Regola delli cinque ordini d'architettura* pubblicata da Jacopo Barozzi da Vignola nel 1562, dove i tre ordini greci occupano il centro e i due romani gli estremi.
 
-L'ordine ionico, per le sue forme più slanciate e decorate, è generalmente associato a divinità femminili (il Partenone è una grande eccezione: dedicato ad Atena ma dorico).
-
-### Ordine corinzio
-
-Si riconosce dal capitello a foglie d'acanto. Vitruvio ne racconta l'origine leggendaria: lo scultore Callimaco, passando vicino alla tomba di una fanciulla di Corinto, vide un canestro posato per caso su una radice di acanto, le cui foglie lo avvolgevano; ne trasse l'idea del capitello. È di nuovo un legame tra forma, caso e luogo (Corinto).
-
-## I due ordini romani: tuscanico e composito
-
-A Roma i tre ordini greci diventano cinque. La tavola di riferimento è la *Regola delli cinque ordini d'architettura* di Jacopo Barozzi da Vignola (1562), dove i tre ordini greci stanno al centro e i due romani agli estremi.
-
-- Tuscanico: una semplificazione del dorico. Mantiene proporzioni simili ma manca l'alternanza di metope e triglifi (è questa l'assenza che lo distingue dal dorico).
-- Composito: una somma tra ionico e corinzio (foglie d'acanto + volute). È molto decorato e viene spesso usato negli archi trionfali (per esempio l'Arco di Tito).
+Il tuscanico è in sostanza una semplificazione del dorico: mantiene proporzioni simili, ma rinuncia all'alternanza di triglifi e metope, ed è proprio questa assenza a distinguerlo. Il composito, come dice il nome, è invece una somma tra ionico e corinzio, perché unisce le foglie d'acanto dell'uno alle volute dell'altro; molto decorato e solenne, veniva usato spesso negli archi trionfali, come l'Arco di Tito.
 
 ## I correttivi ottici
 
-Sono accorgimenti per evitare che l'occhio percepisca l'edificio come deformato:
+Un capitolo a parte meritano i correttivi ottici, cioè gli accorgimenti con cui gli architetti antichi evitavano che l'edificio apparisse deformato alla vista. Il più noto è l'entasi, il leggero rigonfiamento del fusto della colonna, il cui nome in greco significa "tensione"; a questo si aggiungono la curvatura dello stilobate e la lieve inclinazione delle colonne, con un ingrossamento di quelle d'angolo. Tutti questi interventi servono a un unico scopo: correggere gli inganni dell'occhio, facendo percepire come dritte e allineate colonne e trabeazioni che altrimenti sembrerebbero storte o curve.
 
-- entasi: il leggero rigonfiamento del fusto della colonna (dal greco "tensione");
-- curvatura dello stilobate;
-- inclinazione delle colonne e ingrossamento della colonna d'angolo.
+## Oltre il canone: varietà e cariatidi
 
-Servono a far percepire le colonne come dritte e allineate, correggendo gli "inganni" della vista.
+Il sistema degli ordini, per quanto ordinato, non racchiude tutto. Esistono molti capitelli che non rientrano in nessuna delle cinque categorie e che formano la cosiddetta *varietas*, la variazione: sono spesso capitelli figurati, dominati da figure o da elementi di fantasia. E non è soltanto il capitello a poter cambiare, perché anche il fusto della colonna può essere sostituito da una figura umana che ne svolge la funzione di sostegno: si parla allora di cariatidi, quando le figure sono femminili, e di telamoni, quando sono maschili.
 
-## Oltre il canone: varietas, capitelli figurati, cariatidi
+## La periodizzazione della Grecia
 
-Non tutti i capitelli rientrano nei cinque ordini: quelli "irregolari" formano la categoria della *varietas* (variazione). Spesso sono capitelli figurati, dominati da figure o elementi fantasiosi. Inoltre il fusto stesso può essere sostituito da figure umane con funzione di sostegno: si chiamano cariatidi (figure femminili) o telamoni (figure maschili).
+Per collocare nel tempo le opere che incontreremo è utile ricordare come si divide la storia della Grecia antica. Si distingue un periodo arcaico, dal 600 al 480 a.C., che si chiude con la battaglia di Salamina; un periodo classico, dal 480 al 323 a.C., considerato il momento di massimo splendore e segnato alla fine dalla morte di Alessandro Magno, ed è l'età del Partenone; e infine un periodo ellenistico, che si conclude con l'affermarsi della supremazia di Roma nel I secolo a.C. Sono naturalmente convenzioni stabilite dagli storici, che non indicano passaggi netti ma servono per orientarsi.
 
-## Periodizzazione dell'architettura greca
+## Uno sguardo critico
 
-| Periodo | Arco cronologico | Riferimento |
-|---------|------------------|-------------|
-| Arcaico | 600 – 480 a.C. | fino alla battaglia di Salamina |
-| Classico | 480 – 323 a.C. | fino alla morte di Alessandro Magno (è l'età del Partenone) |
-| Ellenistico | 323 – fine I sec. a.C. | fino alla supremazia di Roma |
+Vale la pena aggiungere una riflessione che può fare la differenza all'orale. Nel saggio *Cinque tesi sugli ordini architettonici*, lo storico Christof Thoenes sostiene che un vero "sistema" degli ordini, così ordinato come lo pensiamo noi, in realtà nell'antichità non è mai esistito: è piuttosto una costruzione dei trattatisti del Cinquecento, come Serlio e Vignola, nata per poter riprodurre correttamente l'architettura antica. Già in Vitruvio, del resto, gli ordini oscillano continuamente tra norma e storia, tra la regola e la sua trasgressione. Ciò che resta davvero invariabile, sotto tutte le varianti, è il principio di fondo, cioè la struttura trilitica del tempio, il rapporto tra ciò che sostiene e ciò che grava. È una chiave di lettura utile, perché mostra che dietro il lessico c'è un modo di pensare l'architettura.
 
-Sono convenzioni stabilite dagli storici: servono per orientarsi, non indicano passaggi netti.
+## Collegamenti
 
-## Uno sguardo critico (Thoenes)
-
-Nel saggio *Cinque tesi sugli ordini architettonici*, Christof Thoenes sostiene che un vero "sistema" degli ordini, come lo intendiamo oggi, in realtà non è mai esistito nell'antichità: è una costruzione dei trattatisti del Cinquecento (Serlio, Vignola), nata per poter riprodurre correttamente l'architettura antica. Già in Vitruvio gli ordini oscillano tra norma e storia, tra regola e licenza. Ciò che resta invariabile, sotto le mille varianti, è il principio di fondo: la struttura trilitica del tempio, cioè il rapporto tra sostegni e pesi. È una chiave di lettura utile per l'orale, perché mostra senso critico.
-
-## Per l'esame: cosa sapere a colpo d'occhio
-
-- metope e triglifi → dorico; volute → ionico; foglie d'acanto → corinzio;
-- la trabeazione è sempre divisa in tre parti: architrave, fregio, cornice;
-- saper riconoscere le parti del tempio e dell'ordine, e saperle disegnare;
-- i termini vanno imparati a memoria (è lessico);
-- gli ordini tornano anche nel Rinascimento, quindi questa terminologia non si "dimentica" dopo la prova intermedia.
-
-## Glossario essenziale
-
-| Termine | Significato |
-|---------|-------------|
-| Cella / naos | ambiente centrale del tempio |
-| Pronao | spazio d'ingresso davanti alla cella |
-| Opistodomo | ambiente posteriore speculare al pronao |
-| Peristasi | spazio tra cella e colonnato esterno |
-| Crepidoma | gradinata di base del tempio |
-| Stilobate | ultimo gradino, piano d'appoggio delle colonne |
-| Fusto | corpo verticale della colonna |
-| Rocchio | singolo blocco cilindrico che compone una colonna |
-| Scanalature | solchi verticali del fusto |
-| Entasi | leggero rigonfiamento del fusto |
-| Capitello | elemento in cima alla colonna |
-| Echino | parte curva del capitello dorico |
-| Abaco | parte superiore (a parallelepipedo) del capitello |
-| Collarino | elemento che separa fusto e capitello |
-| Trabeazione | parte orizzontale sopra le colonne |
-| Architrave | parte inferiore della trabeazione |
-| Fregio | parte centrale della trabeazione |
-| Triglifo | elemento scanalato del fregio dorico |
-| Metopa | lastra tra due triglifi, spesso decorata |
-| Cornice | parte superiore della trabeazione |
-| Timpano | superficie triangolare interna al frontone |
-| Frontone | coronamento triangolare del tempio |
-| Voluta | riccio a spirale del capitello ionico |
-| Ovoli e dardi | decorazione a uova e frecce del capitello ionico |
-| Acanto | pianta le cui foglie decorano il capitello corinzio |
-| Base attica | base a toro – scozia – toro |
-| Intercolumnio | distanza tra le colonne |
-| Sistema trilitico | due sostegni verticali + un elemento orizzontale |
-| Litizzazione | passaggio dalla costruzione lignea a quella in pietra |
-| Conflitto angolare | problema della posizione del triglifo all'angolo |
-| Correttivi ottici | accorgimenti contro le deformazioni visive |
-| Cariatidi / telamoni | figure femminili / maschili usate come colonne |
+Il tema degli ordini non si esaurisce nel mondo antico. Gli stessi elementi tornano infatti protagonisti nell'architettura del Rinascimento, quando Vitruvio viene riscoperto e gli ordini diventano di nuovo la base del linguaggio architettonico: per questo la terminologia imparata ora non va dimenticata, perché servirà anche più avanti nel corso. Un ponte diretto è il Partenone, che vedremo come massimo esempio di tempio dorico, mentre il rapporto costante tra forma architettonica e luogo di origine, che ritorna in ciascuno dei tre ordini, è lo stesso filo che lega questa materia all'esercitazione su storia e geografia dell'architettura.
 
 ## Per approfondire
 
-- C. Bozzoni, V. Franchetti Pardo, G. Ortolani, A. Viscogliosi, *L'architettura del mondo antico*, Roma, Laterza 2006 (manuale di riferimento per l'antico)
-- N. Pevsner, J. Fleming, H. Honour, *Dizionario di architettura*, Torino, Einaudi 2019 (per i termini tecnici)
-- C. Thoenes, *Cinque tesi sugli ordini architettonici* (saggio critico, disponibile nel materiale del corso)
-- G. Cricco, F.P. Di Teodoro, *Itinerario nell'arte* (versione gialla), Bologna, Zanichelli (livello introduttivo)
-- *Architettura romana: i grandi monumenti*, a cura di H. von Hesberg, P. Zanker, Milano, Electa 2009 (approfondimento sull'antico romano)
-- Fonti originali citate a lezione: Vitruvio, *De architectura* (libri III-IV); Vignola, *Regola delli cinque ordini d'architettura* (1562); M.-A. Laugier, *Essai sur l'architecture* (1755); W. Chambers, *A Treatise on Civil Architecture* (1759).
+- C. Bozzoni, V. Franchetti Pardo, G. Ortolani, A. Viscogliosi, *L'architettura del mondo antico*, Roma, Laterza 2006 (il manuale di riferimento per l'antico)
+- N. Pevsner, J. Fleming, H. Honour, *Dizionario di architettura*, Torino, Einaudi 2019 (utile per i termini tecnici)
+- C. Thoenes, *Cinque tesi sugli ordini architettonici* (saggio critico, nel materiale del corso)
+- G. Cricco, F.P. Di Teodoro, *Itinerario nell'arte*, versione gialla, Bologna, Zanichelli (livello introduttivo)
+- Fonti citate a lezione: Vitruvio, *De architectura* (libri III-IV); Vignola, *Regola delli cinque ordini d'architettura*, 1562.
