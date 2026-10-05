@@ -61,6 +61,8 @@ nav:
   - Home: index.md
   - Storia dell'architettura:
     - storia-architettura/index.md
+    - Appunti:
+      - storia-architettura/appunti/ordini-architettonici.md
     - Lezioni:
       - storia-architettura/lezioni/01-tempio-e-ordini.md
   - Geometria descrittiva:
