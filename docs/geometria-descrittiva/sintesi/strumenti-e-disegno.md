@@ -1,6 +1,6 @@
 # Geometria descrittiva — strumenti, materiali e regole di base
 
-Sintesi dei punti utili della prima lezione (gio 30): cosa procurarsi per disegnare, i formati dei fogli e le regole fondamentali del disegno, prima di iniziare con le proiezioni.
+Sintesi dei punti utili della prima lezione (gio 1 ottobre): cosa procurarsi per disegnare, i formati dei fogli e le regole fondamentali del disegno, prima di iniziare con le proiezioni.
 
 ## Gli strumenti da procurarsi
 
