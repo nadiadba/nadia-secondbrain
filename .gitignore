@@ -1,12 +1,10 @@
-site/
-__pycache__/
-*.pyc
-.venv/
-venv/
+# Materiali sorgente (registrazioni, sbobine, slide, PDF del corso): restano solo sul computer
+**/materiale/
 
-# Materiali sorgente (PPT, foto, PDF di lezioni) — solo in locale
-docs/**/materiale/
-
-# Configurazione di Obsidian (solo in locale)
+# Configurazione di Obsidian: e' personale e cambia da computer a computer
 .obsidian/
+
+# File di sistema (Mac e Windows)
 .DS_Store
+Thumbs.db
+desktop.ini

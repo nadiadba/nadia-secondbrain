@@ -1,241 +1,202 @@
-# CLAUDE.md — Istruzioni per il Second Brain
+# CLAUDE.md — Istruzioni per il Second Brain di Nadia
 
 ## Chi e' Nadia
 
-Nadia e' una studentessa di quinto liceo scientifico a Roma che sta preparando la maturita' 2026. E' una principiante assoluta: non conosce Markdown, Git, il terminale o la programmazione. Quando la aiuti:
+Nadia e' una studentessa del primo anno di Architettura all'Universita' Roma Tre (anno accademico 2026/27). E' una principiante assoluta con gli strumenti tecnici: non conosce Markdown, Git, il terminale o la programmazione. Legge e consulta gli appunti con **Obsidian**; usa Claude Code per produrli e sistemarli. Ha lavorato sia su Windows sia su Mac: non dare per scontato il sistema operativo, controlla.
+
+Quando la aiuti:
 
 - **Parla in italiano**, sempre
 - **Spiega tutto passo passo**, come se fosse la prima volta
 - **Non dare nulla per scontato**: se dici "committa", spiega anche cosa significa
 - **Non usare gergo tecnico** senza spiegarlo subito dopo
-- **Se Nadia chiede di fare qualcosa, fallo tu direttamente** — non darle comandi da copiare/incollare a meno che non lo chieda esplicitamente
+- **Se Nadia chiede di fare qualcosa, falla tu direttamente** — non darle comandi da copiare/incollare a meno che non lo chieda esplicitamente
 
 ## Il progetto
 
-Sito di appunti scolastici per tutte le materie del quinto anno, costruito con MkDocs Material e pubblicato su GitHub Pages. Tutto il contenuto e' in Markdown dentro `docs/`.
-
-### Stack tecnico
-
-| Cosa | A che serve |
-|------|-------------|
-| MkDocs Material | Genera il sito statico dai file Markdown |
-| MathJax | Formule matematiche (LaTeX) |
-| Mermaid | Diagrammi e schemi visivi |
-| GitHub Actions | Pubblica automaticamente il sito quando si fa push su `main` |
-| GitHub Pages | Hosting gratuito del sito |
+Questa cartella e' il **vault di Obsidian** di Nadia (la cartella principale del repository e' il vault). Contiene gli appunti universitari in Markdown, organizzati per anno, semestre e materia. Il repository su GitHub serve solo come copia di sicurezza e per sincronizzare tra computer: **non c'e' nessun sito da pubblicare** (MkDocs e GitHub Pages sono stati rimossi a ottobre 2026).
 
 ### Struttura delle cartelle
 
 ```
-nadia-secondbrain/
-  mkdocs.yml              ← configurazione del sito e menu di navigazione
-  requirements.txt        ← dipendenze Python
-  docs/
-    index.md              ← homepage
-    matematica/           ← una cartella per materia
-      index.md
-      analisi/
-        derivate.md       ← FILE TEMPLATE: usalo come modello per tutti gli altri
-        limiti.md
-        ...
-    fisica/
-    italiano/
-    storia/
-    filosofia/
-    scienze/
-    inglese/
-    arte/
-    educazione-civica/
-    esame/                ← sintesi per l'esame (da popolare dopo)
-    javascripts/mathjax.js
-    stylesheets/extra.css
-  .github/workflows/deploy.yml
+nadia-secondbrain/            ← vault di Obsidian
+  CLAUDE.md                   ← queste istruzioni
+  README.md
+  home.md                     ← nota di partenza: elenca anni, semestri e materie
+  guida-obsidian.md           ← guida all'uso di Obsidian scritta per Nadia
+  tutte-le-note.base          ← tabella automatica di tutte le note (Obsidian Bases)
+  modelli/                    ← modelli per i tre tipi di nota (plugin Modelli di Obsidian)
+    lezione.md  appunti.md  sintesi.md
+  anno-1/
+    semestre-1/
+      semestre-1.md           ← indice del semestre
+      storia-architettura/
+        storia-architettura.md   ← nota indice della materia (stesso nome della cartella)
+        lezioni/              ← trascrizioni sistemate delle lezioni, numerate 01-, 02-...
+        appunti/              ← rielaborazione in prosa, stile manuale
+        appunti/img/          ← immagini usate negli appunti
+        sintesi/              ← schemi di ripasso
+        materiale/            ← sorgenti (registrazioni, sbobine .docx, slide, PDF): NON va su git
+      geometria-descrittiva/
+      composizione-architettonica/
+      matematica/
+  .claude/scripts/docx2md.py  ← convertitore Word → Markdown
 ```
 
-## Come scrivere i contenuti
+Regole sulla struttura:
 
-### Struttura di ogni pagina
+- Ogni materia sta in `anno-N/semestre-N/<materia>/`. Quando inizia un nuovo semestre, crea la cartella e la sua nota indice `semestre-N.md`, poi aggiorna `home.md`.
+- La **nota indice** di una materia ha lo stesso nome della cartella (es. `storia-architettura.md`): fa da sommario e sostituisce il vecchio menu del sito. **Ogni volta che aggiungi una nota, aggiungila alla nota indice** nella sezione giusta (Lezioni, Appunti o Sintesi) con un wikilink e una riga di descrizione.
+- La cartella `materiale/` e' ignorata da git (`.gitignore`): e' il posto dove Nadia appoggia i file di partenza. Non committarla mai e non spostarne il contenuto.
+- Nomi file: minuscoli, senza accenti e senza spazi, parole separate da trattini (`arco-e-volta.md`). Le lezioni hanno un numero progressivo a due cifre (`06-argomento.md`). I PDF ufficiali dei docenti possono tenere il nome originale.
+- Un solo `# Titolo` in cima a ogni nota, dopo il blocco delle proprieta'.
 
-Ogni pagina di appunti deve avere queste sezioni, in quest'ordine:
+### Materie del primo semestre (anno 1)
+
+| Cartella | Corso | Che materiale arriva |
+|----------|-------|----------------------|
+| `storia-architettura` | Storia dell'architettura 1 | lezioni registrate e trascritte, slide PPT, PDF ufficiali della docente, visite (es. Via Appia), saggi da leggere |
+| `geometria-descrittiva` | Geometria descrittiva | lezioni registrate, esercizi grafici (proiezioni, omologia) |
+| `composizione-architettonica` | Fondamenti di composizione architettonica (laboratorio) | lezioni introduttive, esercitazioni con plastici |
+| `matematica` | Matematica | ancora nulla |
+
+## I tre tipi di nota e il flusso di lavoro
+
+Il flusso tipico di Nadia e': **registrazione della lezione → trascrizione grezza (la "sbobina", spesso un .docx o .txt in `materiale/`) → lezione sistemata → appunti → sintesi**. Ogni passaggio e' una nota diversa, con un `tipo` diverso nelle proprieta'.
+
+### 1. Lezione sistemata (`lezioni/`, `tipo: lezione`)
+
+- E' la trascrizione **integrale e fedele alle parole del docente**. Non riassumere, non aggiungere contenuti, non cambiare il registro.
+- Correggi solo gli errori di trascrizione, soprattutto sui termini tecnici (nomi di architetti e luoghi, parole latine e greche, termini di geometria).
+- Togli le parti fuori tema (chiacchiere, problemi tecnici). Gli avvisi organizzativi utili (cosa portare, scadenze) vanno in un callout `> [!tip]` alla fine.
+- Aggiungi titoli `##` per ritrovare gli argomenti a colpo d'occhio e, subito dopo il titolo, una citazione (`>`) che spiega cos'e' la nota (vedi `modelli/lezione.md`).
+- Se il docente fornisce la versione ufficiale (PDF), quella va in `lezioni/` al posto della trascrizione e viene linkata dalla nota indice con `[[nome del file.pdf|Titolo]]`.
+
+### 2. Appunti (`appunti/`, `tipo: appunti`)
+
+- Testo **da manuale universitario**: prosa discorsiva, paragrafi sviluppati, struttura gerarchica con `##` e `###`.
+- Integra tutte le fonti disponibili: lezione, slide, letture assegnate (es. saggi), PDF ufficiali.
+- **Niente grassetto nel corpo del testo**, niente elenchi o tabelle al posto della prosa, niente glossari: i termini tecnici si spiegano dentro il discorso, in corsivo se latini o greci.
+- Togli i chiarimenti puramente didattici che non sono contenuto d'esame (es. "non confondete la colonna con l'ordine"): la definizione va data in forma affermativa.
+- Inserisci gli schemi delle slide dove aiutano a capire (immagini in `appunti/img/`, vedi sotto).
+- Chiudi sempre con due sezioni: `## Collegamenti` (prosa: come l'argomento si lega al resto del corso e agli altri corsi) e `## Per approfondire` (bibliografia: manuali del corso, fonti antiche, saggi). **Non eliminare mai la sezione Collegamenti**.
+- Il modello e' `anno-1/semestre-1/storia-architettura/appunti/ordini-architettonici.md`.
+
+### 3. Sintesi (`sintesi/`, `tipo: sintesi`)
+
+- Schema di ripasso rapido: elenchi puntati, frasi brevi, formule, callout `> [!abstract]` per le cose da sapere a memoria.
+- Una o due pagine al massimo. Si legge in dieci minuti prima dell'esame.
+- Per le lezioni pratiche o organizzative (strumenti da comprare, come funziona il laboratorio) basta la sintesi, senza lezione sistemata.
+
+## Convenzioni Markdown per Obsidian
+
+Tutto cio' che scrivi deve essere letto in Obsidian. Usa solo la sintassi qui sotto.
+
+### Proprieta' (frontmatter) in cima a ogni nota
 
 ```markdown
-# Titolo argomento
-
-(contenuto: teoria, formule, esempi...)
-
-## Checklist
-
-- [x] Cosa completata
-- [ ] Cosa da fare
-
-## Collegamenti
-
-- **Materia**: spiegazione del collegamento
+---
+tipo: lezione          # lezione | appunti | sintesi | indice
+corso: Storia dell'architettura 1
+anno: 1
+semestre: 1
+data: 2026-10-08       # data della lezione, se nota (formato AAAA-MM-GG)
+tags: [storia-architettura, lezione]
+---
 ```
 
-Il file `docs/matematica/analisi/derivate.md` e' il **modello completo** da seguire. Contiene esempi di tutte le funzionalita'.
+Il tag della materia e' il nome della cartella. Queste proprieta' alimentano la tabella `tutte-le-note.base`, quindi scrivile sempre e con gli stessi nomi.
 
-### Cheat sheet Markdown per Nadia
+### Link e immagini
 
-Ecco le cose principali che si possono scrivere nei file `.md`:
-
-#### Testo base
+- Link a un'altra nota: `[[nome-file]]` oppure `[[nome-file|testo da mostrare]]`. I nomi dei file sono unici nel vault, quindi basta il nome senza percorso.
+- Link a un PDF: `[[01 - Il tempio e gli ordini (versione ufficiale).pdf|Il tempio e gli ordini]]`.
+- Immagine semplice: `![[nome-immagine.png|400]]` (il numero e' la larghezza in pixel).
+- Immagine a destra con il testo che le scorre attorno (modo gia' verificato da Nadia in Obsidian): metti l'HTML a inizio paragrafo e chiudi il blocco con un `div` di pulizia:
 
 ```markdown
-Testo normale.
+<img src="img/parti-tempio.png" alt="descrizione" title="didascalia" style="float: right; width: 300px; margin: 0.3rem 0 1rem 1.5rem; border: 1px solid #ddd;"> Testo del paragrafo...
 
-**Testo in grassetto** per concetti importanti.
-
-*Testo in corsivo* per termini stranieri o enfasi leggera.
+<div style="clear: both;"></div>
 ```
 
-#### Titoli (le sezioni della pagina)
+- Le immagini vanno in una cartella `img/` accanto alla nota, con nomi descrittivi (`parti-tempio.png`, non `image1.png`).
+
+### Box colorati (callout)
 
 ```markdown
-# Titolo grande (uno solo per pagina, in cima)
-
-## Sezione
-
-### Sotto-sezione
+> [!note] Titolo del box
+> Testo del box. Ogni riga inizia con `> `.
+> Una riga vuota dentro il box si scrive con un solo `>`.
 ```
 
-#### Elenchi
+Tipi utili: `note`, `abstract` (teoremi, cose da ricordare), `tip` (consigli, avvisi), `warning` (attenzione), `example` (esempi svolti), `info`, `quote`, `question`, `danger`.
+
+### Formule
+
+Inline: `$C_nH_{2n+2}$`. Su riga a se':
 
 ```markdown
-- Primo punto
-- Secondo punto
-  - Sotto-punto (metti 2 spazi davanti)
-
-1. Primo passo
-2. Secondo passo
+$$
+\frac{a}{b} = \sqrt{2}
+$$
 ```
 
-#### Checklist
+Non usare `\(` `\)` e `\[` `\]`: in Obsidian non funzionano.
 
-```markdown
-- [ ] Da fare
-- [x] Fatto
-```
+### Il resto
 
-#### Tabelle
+- Grassetto `**testo**` (solo nelle sintesi e negli indici, non nel corpo degli appunti), corsivo `*testo*`.
+- Elenchi `-` e `1.`, checklist `- [ ]` / `- [x]`, tabelle con `|`, note a pie' di pagina `[^1]`.
+- Diagrammi Mermaid in un blocco ```` ```mermaid ```` (Obsidian li disegna).
+- Citazioni con `>`.
 
-```markdown
-| Colonna 1 | Colonna 2 |
-|-----------|-----------|
-| dato      | dato      |
-| dato      | dato      |
-```
+### Da NON usare (sintassi del vecchio sito, in Obsidian non funziona)
 
-#### Formule matematiche
+- `!!! note "Titolo"` con testo indentato → usa i callout `> [!note]`
+- Schede `=== "Tab"`, attributi `{: .classe }`, `--8<--`
+- Link relativi con percorso `[testo](../../materia/file.md)` → usa i wikilink `[[file]]`
+- Niente file `index.md`: la nota indice ha il nome della cartella
 
-Formula nel testo: `\( E = mc^2 \)`
+## File in ingresso: docx, PDF, slide, registrazioni
 
-Formula centrata su riga a se':
-```markdown
-\[
-  \int_a^b f(x)\, dx = F(b) - F(a)
-\]
-```
+Nadia appoggia i file in `materiale/` della materia (se la cartella non c'e', creala). Da li':
 
-Cose utili dentro le formule:
-- Frazioni: `\frac{a}{b}`
-- Esponenti: `x^2` oppure `x^{n+1}`
-- Pedici: `x_0` oppure `x_{n+1}`
-- Radici: `\sqrt{x}` oppure `\sqrt[3]{x}`
-- Lettere greche: `\alpha`, `\beta`, `\gamma`, `\pi`, `\Delta`
-- Limiti: `\lim_{x \to 0}`
-- Sommatorie: `\sum_{i=1}^{n}`
-- Integrali: `\int_a^b`
-- Frecce: `\to`, `\Rightarrow`
+### Documenti Word (.docx)
 
-#### Box colorati (admonitions)
+1. Se `pandoc` e' installato: `pandoc "file.docx" -t gfm --wrap=none --extract-media=. -o "file.md"`.
+2. Altrimenti usa lo script del repo, che non ha dipendenze: `python3 -I .claude/scripts/docx2md.py "materiale/file.docx" cartella-di-uscita`. Converte titoli, elenchi, grassetto, corsivo, tabelle, immagini (in `img/`) e formule di Word (in LaTeX approssimato: ricontrollale).
+3. Poi rileggi il risultato e sistemalo come nota del tipo giusto: proprieta', titolo, callout, immagini rinominate, sezione Collegamenti se sono appunti.
+4. Se il documento e' in un'altra lingua (inglese, francese...), traducilo in italiano mantenendo i termini tecnici originali in corsivo tra parentesi la prima volta che compaiono.
+5. Il .docx originale resta in `materiale/`: non cancellarlo senza chiedere.
 
-```markdown
-!!! note "Titolo del box"
-    Testo dentro il box. ATTENZIONE: metti 4 spazi davanti a ogni riga.
+### PDF
 
-!!! warning "Attenzione"
-    Qualcosa di importante da ricordare.
+- PDF ufficiali del docente: lasciali come PDF in `lezioni/` (Obsidian li apre e permette di evidenziarli) e linkali dalla nota indice. Convertirli in testo fa perdere l'impaginazione: Nadia ha gia' provato e ha preferito il PDF.
+- PDF da studiare (saggi, capitoli): leggili con lo strumento di lettura e usali come fonte per gli appunti; il PDF resta in `materiale/`.
 
-!!! example "Esempio"
-    Un esempio svolto.
+### Slide (.pptx, .pdf)
 
-!!! abstract "Teorema"
-    Enunciato del teorema.
+- Sono fonte per gli appunti: integra i contenuti nel testo, estrai gli schemi utili come immagini PNG in `img/`.
 
-!!! tip "Consiglio"
-    Un suggerimento utile.
-```
+### Registrazioni e trascrizioni
 
-Tipi disponibili: `note`, `warning`, `tip`, `example`, `abstract`, `info`, `danger`, `bug`, `quote`.
+- Claude non trascrive audio. Nadia produce la trascrizione con un altro strumento e la mette in `materiale/` (testo o .docx); da li' nasce la lezione sistemata.
 
-#### Diagrammi Mermaid
+## Git e GitHub
 
-````markdown
-```mermaid
-flowchart LR
-    A["Passo 1"] --> B["Passo 2"]
-    B --> C{"Domanda?"}
-    C -->|Si'| D["Risultato A"]
-    C -->|No| E["Risultato B"]
-```
-````
+- Nadia non conosce Git. Dopo un lavoro concluso, **proponi** di salvare su GitHub e, se dice si', esegui tu: `git add`, `git commit`, `git push`. Spiega in una riga cosa stai facendo ("salvo una copia delle modifiche e la carico su GitHub").
+- Messaggi di commit in italiano, prima riga all'imperativo e specifica: "Aggiungi appunti sulla costruzione nel mondo antico", "Correggi la data della lezione di geometria". Mai "." o "update".
+- Prima di committare controlla con `git status` che non ci siano file di `materiale/` o file grandi. Non committare mai `.obsidian/`.
+- Se il lavoro e' su un altro computer, ricorda che le modifiche arrivano con `git pull`: spiegalo se serve.
 
-#### Link ad altre pagine
+## Cose da NON fare
 
-```markdown
-Vedi [Derivate](../../matematica/analisi/derivate.md)
-```
-
-Il percorso e' relativo: `../` sale di una cartella.
-
-## Regole per Claude
-
-### Quando Nadia chiede di scrivere appunti su un argomento
-
-1. **Leggi prima il file placeholder esistente** — non crearne uno nuovo
-2. **Usa lo stile di `derivate.md`**: box colorati per teoremi/esempi, formule LaTeX, tabelle, diagrammi Mermaid dove utili
-3. **Scrivi in italiano chiaro**, come un buon libro di testo per il liceo
-4. **Aggiungi la Checklist** in fondo con le voci completate spuntate
-5. **Aggiungi i Collegamenti** interdisciplinari per l'orale della maturita'
-6. **Aggiorna `mkdocs.yml`** se aggiungi nuovi file (nuove voci nel `nav:`)
-
-### Quando aggiungi un nuovo file
-
-1. Crea il file `.md` nella cartella giusta
-2. Aggiungi la voce corrispondente nella sezione `nav:` di `mkdocs.yml`
-3. Se crei una nuova sottocartella, segui la struttura esistente
-
-### Quando modifichi `mkdocs.yml`
-
-- **Dopo ogni modifica a `mkdocs.yml`, rileggi il file** e controlla che l'indentazione YAML sia corretta
-- Ogni voce del `nav:` deve stare su una riga a se' — **mai mettere due voci sulla stessa riga**
-- Le sotto-voci devono essere indentate di 2 o 4 spazi rispetto al livello superiore, in modo coerente
-- Se una voce sta dentro una sezione (es. `james-joyce.md` dentro `The Modern Age:`), deve avere la stessa indentazione delle altre voci di quella sezione
-- Un errore di indentazione in `mkdocs.yml` fa fallire il deploy su GitHub Pages
-
-### Contenuto didattico
-
-- Scrivi per una studentessa di liceo, non per un universitario
-- Parti dalla definizione, poi regole/proprieta', poi esempi svolti
-- Usa i box `!!! abstract` per i teoremi, `!!! example` per gli esempi
-- Metti le formule importanti in display mode (`\[ ... \]`), non inline
-- Aggiungi diagrammi Mermaid per i procedimenti (es: come si fa uno studio di funzione)
-- I collegamenti interdisciplinari sono fondamentali per l'orale: suggeriscine sempre
-
-### Cose da NON fare
-
-- Non toccare `docs/javascripts/mathjax.js` e `docs/stylesheets/extra.css` senza motivo
-- Non cambiare il tema o la struttura del sito senza che Nadia lo chieda
-- Non creare file fuori da `docs/` (tranne configurazione)
-- Non scrivere contenuti in inglese (tranne la sezione Inglese ovviamente)
-- Non usare funzionalita' Markdown avanzate non documentate qui sopra
-- Non eliminare la sezione Collegamenti dai file, serve per l'orale
-
-## Comandi utili
-
-| Cosa vuoi fare | Comando |
-|---------------|---------|
-| Vedere il sito in locale | `pip install -r requirements.txt` poi `mkdocs serve` |
-| Pubblicare il sito | `git add .` poi `git commit -m "messaggio"` poi `git push` |
-| Controllare lo stato | `git status` |
+- Non creare file fuori dalle cartelle degli appunti, tranne la configurazione (`.claude/`, `.gitignore`, `README.md`, questo file)
+- Non toccare `.obsidian/` (configurazione personale di Obsidian, non e' nel repo)
+- Non reintrodurre MkDocs, siti statici o sintassi che Obsidian non legge
+- Non scrivere contenuti in lingue diverse dall'italiano (tranne citazioni e termini tecnici)
+- Non eliminare la sezione Collegamenti dagli appunti
+- Non riassumere o "migliorare" le lezioni sistemate: devono restare fedeli al docente
+- Non usare il grassetto nel corpo degli appunti
+- Non cancellare i file di `materiale/` e non spostare le cartelle `materiale/`: sono solo sul computer di Nadia e git non le protegge
