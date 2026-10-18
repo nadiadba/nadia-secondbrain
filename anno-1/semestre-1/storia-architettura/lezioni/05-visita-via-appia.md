@@ -10,6 +10,11 @@ tags: [storia-architettura, lezione]
 
 > Trascrizione sistemata delle registrazioni della visita (due parti: il mausoleo di Cecilia Metella e la Villa di Massenzio). Il contenuto è fedele alle parole della professoressa: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
+> [!info] Note collegate
+> Per le tecniche costruttive citate (opera quadrata, *opus caementicium*, *opus testaceum*, *opus vittatum*): [[costruzione-mondo-antico]]
+>
+> Lezione precedente: [[04-costruzione-mondo-antico]]
+
 ---
 
 ## La Via Appia e i suoi monumenti funerari

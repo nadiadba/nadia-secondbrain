@@ -11,6 +11,11 @@ tags: [storia-architettura, lezione]
 
 > Trascrizione sistemata della registrazione (durata circa 1h27). Il contenuto è integrale e fedele alle parole della professoressa: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
+> [!info] Note collegate
+> Appunti: [[roma-foro-fori-imperiali]]
+>
+> Lezione precedente: [[02-grecia-antica-partenone]] · Successiva: [[04-costruzione-mondo-antico]]
+
 ---
 
 ## Un panorama dell'architettura romana

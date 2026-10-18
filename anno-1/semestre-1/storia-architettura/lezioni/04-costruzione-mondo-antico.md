@@ -12,6 +12,11 @@ tags: [storia-architettura, lezione]
 
 > Trascrizione sistemata della registrazione (durata circa 1h48). Il contenuto è integrale e fedele alle parole della professoressa: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema (comunicazioni e organizzazione delle visite). I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
+> [!info] Note collegate
+> Appunti: [[costruzione-mondo-antico]]
+>
+> Lezione precedente: [[03-roma-foro-romano-fori-imperiali]] · Successiva: [[05-visita-via-appia]]
+
 ---
 
 ## Introduzione: la storia delle tecniche costruttive

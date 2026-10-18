@@ -10,6 +10,9 @@ tags: [materia, sintesi]
 
 Riassunto rapido: i concetti chiave in forma di schema.
 
+> [!info] Note collegate
+> Lezione completa: [[nome-lezione]] · Appunti: [[nome-appunti]]
+
 ## Primo blocco
 
 - Punto chiave.

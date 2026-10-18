@@ -11,6 +11,11 @@ tags: [geometria-descrittiva, sintesi]
 
 Sintesi dei punti utili della prima lezione (gio 1 ottobre): cosa procurarsi per disegnare, i formati dei fogli e le regole fondamentali del disegno, prima di iniziare con le proiezioni.
 
+> [!info] Note collegate
+> Lezione successiva: [[01-proiezioni-e-omologia]] · Sintesi: [[proiezioni-e-omologia]]
+>
+> Altri corsi: [[introduzione-laboratorio]] (scale, piante e prospetti in Composizione)
+
 ## Gli strumenti da procurarsi
 
 - Portamine con due mine diverse: una fine, da 0,5 mm, per la scrittura e le linee sottili, e una più grossa, da 2,5 mm, per il disegno (va montata su un portamine apposito).

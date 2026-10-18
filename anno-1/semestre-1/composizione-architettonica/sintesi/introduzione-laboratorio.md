@@ -10,6 +10,9 @@ tags: [composizione-architettonica, sintesi]
 
 Sintesi dei punti utili della lezione introduttiva del laboratorio (mar 28): come funziona il corso, quali esercitazioni si fanno e con quale spirito.
 
+> [!info] Note collegate
+> Altri corsi: [[strumenti-e-disegno]] e [[proiezioni-e-omologia]] (Geometria descrittiva: strumenti, pianta e prospetto)
+
 ## Come funziona il laboratorio
 
 Il laboratorio si fonda sul lavoro con i plastici, cioè i modelli fisici, realizzati cercando di usare pochi materiali. L'obiettivo di fondo è imparare la composizione, cioè capire come e quando le forme stanno bene insieme. Non esiste una formula o una regola precisa che garantisca il risultato: la composizione è una sensibilità che si costruisce con l'esercizio, fatta di tanti piccoli equilibri validi in quel preciso contesto. Un'idea centrale è che anche lo spazio tra le forme e attorno ad esse conta quanto le forme stesse.

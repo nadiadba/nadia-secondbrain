@@ -8,6 +8,11 @@ tags: [storia-architettura, appunti]
 
 # Gli ordini architettonici e il tempio greco
 
+> [!info] Note collegate
+> Lezione: [[01 - Il tempio e gli ordini (versione ufficiale).pdf|Il tempio e gli ordini (PDF)]]
+>
+> Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]]
+
 ## Introduzione: la grammatica dell'architettura antica
 
 Gli ordini architettonici costituiscono il fondamento del linguaggio dell'architettura classica e, più in generale, la grammatica con cui l'architettura antica è stata concepita, descritta e tramandata. Costituiscono un vero e proprio sistema di regole che governa il rapporto tra le parti di un edificio, le loro proporzioni e la loro funzione costruttiva. Per questa ragione la conoscenza degli ordini è, insieme, un esercizio di memoria lessicale e uno strumento di lettura: da un lato impone di imparare un vocabolario preciso, dall'altro insegna a riconoscere e interpretare le opere quando le si osserva dal vero.
@@ -164,7 +169,7 @@ Al di sotto di tutte le varianti, tuttavia, resta immutato un principio fondamen
 
 ## Collegamenti
 
-Il tema degli ordini non si esaurisce nel mondo antico, ma attraversa l'intera storia dell'architettura occidentale. Gli stessi elementi tornano infatti protagonisti nell'architettura del Rinascimento, quando la riscoperta di Vitruvio e lo studio delle rovine romane riportano gli ordini al centro del progetto: per questa ragione la terminologia appresa ora costituisce una base che tornerà indispensabile nei moduli successivi del corso, dedicati all'età umanistica e rinascimentale. Un ponte diretto è offerto dal Partenone, che sarà studiato come massimo esempio di tempio dorico e come vertice dell'architettura classica. Infine, il costante rapporto tra forma architettonica e luogo di origine, che ricorre nella genesi di ciascuno dei tre ordini, si collega direttamente al tema dell'esercitazione su storia e geografia dell'architettura, invitando a leggere ogni edificio anche come prodotto di un territorio e di una cultura.
+Il tema degli ordini non si esaurisce nel mondo antico, ma attraversa l'intera storia dell'architettura occidentale. Gli stessi elementi tornano infatti protagonisti nell'architettura del Rinascimento, quando la riscoperta di Vitruvio e lo studio delle rovine romane riportano gli ordini al centro del progetto: per questa ragione la terminologia appresa ora costituisce una base che tornerà indispensabile nei moduli successivi del corso, dedicati all'età umanistica e rinascimentale. Un ponte diretto è offerto dal [[acropoli-partenone|Partenone]], che sarà studiato come massimo esempio di tempio dorico e come vertice dell'architettura classica. Infine, il costante rapporto tra forma architettonica e luogo di origine, che ricorre nella genesi di ciascuno dei tre ordini, si collega direttamente al tema dell'esercitazione su storia e geografia dell'architettura, invitando a leggere ogni edificio anche come prodotto di un territorio e di una cultura.
 
 ## Per approfondire
 

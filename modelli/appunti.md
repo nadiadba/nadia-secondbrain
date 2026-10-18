@@ -8,6 +8,11 @@ tags: [materia, appunti]
 
 # Titolo dell'argomento
 
+> [!info] Note collegate
+> Lezione: [[nome-lezione]]
+>
+> Argomenti collegati: [[altra-nota]]
+
 ## Introduzione
 
 Prosa discorsiva, in stile manuale universitario.

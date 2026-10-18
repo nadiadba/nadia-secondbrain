@@ -10,6 +10,11 @@ tags: [geometria-descrittiva, sintesi]
 
 Riassunto rapido della lezione del 6 ottobre: i concetti chiave in forma di schema, per ripassare velocemente.
 
+> [!info] Note collegate
+> Lezione completa: [[01-proiezioni-e-omologia]]
+>
+> Argomenti collegati: [[strumenti-e-disegno]]
+
 ## Richiami di geometria
 
 - Distanza punto-retta: segmento tra il punto $P$ e il piede della perpendicolare condotta da $P$ alla retta $r$. È sempre la distanza minima (quella perpendicolare).

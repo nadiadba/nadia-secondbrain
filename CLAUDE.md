@@ -88,6 +88,25 @@ Il flusso tipico di Nadia e': **registrazione della lezione → trascrizione gre
 - Una o due pagine al massimo. Si legge in dieci minuti prima dell'esame.
 - Per le lezioni pratiche o organizzative (strumenti da comprare, come funziona il laboratorio) basta la sintesi, senza lezione sistemata.
 
+## Collegare le note tra loro (fondamentale per il grafo)
+
+Una nota senza link e' un pallino isolato nel grafo di Obsidian. Ogni nota di contenuto deve essere collegata:
+
+- **Subito dopo il titolo** (dopo la citazione introduttiva nelle lezioni, dopo la riga descrittiva nelle sintesi) metti un callout con le note collegate:
+
+```markdown
+> [!info] Note collegate
+> Appunti: [[acropoli-partenone]]
+>
+> Lezione precedente: [[02-grecia-antica-partenone]] · Successiva: [[04-costruzione-mondo-antico]]
+```
+
+- Lezione ↔ appunti ↔ sintesi dello stesso argomento si linkano sempre a vicenda. Le lezioni linkano anche la precedente e la successiva.
+- **Quando crei una nota nuova, aggiorna anche le note vecchie** che devono puntare a lei: il callout della lezione corrispondente, la lezione precedente ("Successiva: ..."), la nota indice.
+- Nella sezione `## Collegamenti` degli appunti, quando citi un argomento che ha gia' una nota, trasforma la parola in link dentro la frase: `dal [[acropoli-partenone|Partenone]]`. Vale anche tra materie diverse (es. Geometria descrittiva ↔ Composizione).
+- Nelle lezioni sistemate non toccare il testo del docente: i link stanno solo nel callout iniziale.
+- Non inventare link a note che non esistono ancora (in Obsidian creerebbero pallini vuoti nel grafo).
+
 ## Convenzioni Markdown per Obsidian
 
 Tutto cio' che scrivi deve essere letto in Obsidian. Usa solo la sintassi qui sotto.
@@ -193,7 +212,7 @@ Nadia appoggia i file in `materiale/` della materia (se la cartella non c'e', cr
 ## Cose da NON fare
 
 - Non creare file fuori dalle cartelle degli appunti, tranne la configurazione (`.claude/`, `.gitignore`, `README.md`, questo file)
-- Non toccare `.obsidian/` (configurazione personale di Obsidian, non e' nel repo)
+- Non toccare `.obsidian/` (configurazione personale di Obsidian, non e' nel repo). In `.obsidian/app.json` sono esclusi dal vault `modelli/`, `CLAUDE.md` e `README.md`: non annullarlo
 - Non reintrodurre MkDocs, siti statici o sintassi che Obsidian non legge
 - Non scrivere contenuti in lingue diverse dall'italiano (tranne citazioni e termini tecnici)
 - Non eliminare la sezione Collegamenti dagli appunti

@@ -11,6 +11,11 @@ tags: [storia-architettura, lezione]
 
 > Trascrizione sistemata della registrazione (durata circa 1h40). Il contenuto è integrale e fedele alle parole della professoressa: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
+> [!info] Note collegate
+> Appunti: [[acropoli-partenone]]
+>
+> Lezione precedente: [[01 - Il tempio e gli ordini (versione ufficiale).pdf|Il tempio e gli ordini (PDF)]] · Successiva: [[03-roma-foro-romano-fori-imperiali]]
+
 ---
 
 ## La Grecia classica e il concetto di "classico"

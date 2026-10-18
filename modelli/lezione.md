@@ -11,6 +11,11 @@ tags: [materia, lezione]
 
 > Trascrizione sistemata della registrazione. Il contenuto e' fedele alle parole del docente: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
+> [!info] Note collegate
+> Appunti: [[nome-appunti]]
+>
+> Lezione precedente: [[nome-lezione-precedente]]
+
 ---
 
 ## Primo argomento

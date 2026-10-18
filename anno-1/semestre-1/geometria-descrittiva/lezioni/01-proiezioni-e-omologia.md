@@ -11,6 +11,11 @@ tags: [geometria-descrittiva, lezione]
 
 > Trascrizione sistemata della registrazione (due parti dello stesso incontro). Il contenuto è fedele alle parole del professore: sono stati corretti gli errori di trascrizione e la terminologia tecnica, e tolte le parti fuori tema. La lezione si divide in una prima parte di ripasso (distanze, parallelismo, postulati, convenzioni) e in una seconda parte vera e propria sulla geometria proiettiva e l'omologia.
 
+> [!info] Note collegate
+> Sintesi: [[proiezioni-e-omologia]]
+>
+> Lezione precedente (solo sintesi): [[strumenti-e-disegno]]
+
 ---
 
 ## La distanza di un punto da una retta

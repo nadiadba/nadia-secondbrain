@@ -8,6 +8,11 @@ tags: [storia-architettura, appunti]
 
 # L'architettura romana: il Foro Romano e i Fori Imperiali
 
+> [!info] Note collegate
+> Lezione: [[03-roma-foro-romano-fori-imperiali]]
+>
+> Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]] · [[ordini-architettonici]]
+
 ## Introduzione: il mondo romano e la sua architettura
 
 L'architettura romana costituisce una porzione vastissima della cultura italiana ed europea, ed è un fenomeno di lunga durata, ma anche frammentario e discontinuo: comprende opere dalle caratteristiche molto diverse tra loro, distribuite non solo a Roma e nella penisola italiana, ma in tutto il Mediterraneo e nei territori interni dell'impero. Anfiteatri, archi di trionfo, teatri, vie consolari come la via Appia costellano un territorio immenso, con una notevole differenziazione di materiali e di forme. Per questo lo studio dell'architettura romana procede per casi scelti, che permettono di cogliere sia i caratteri trasversali comuni sia le peculiarità di ciascuna opera: gli anfiteatri, per esempio, condividono un sistema costruttivo, ma il Colosseo non è identico a tutti gli altri, e occorre uno sguardo critico per distinguere ciò che è comune da ciò che è specifico.
@@ -62,7 +67,7 @@ Monumento gemello è la Colonna di Marco Aurelio (180-193 d.C.), eretta per cele
 
 ## Collegamenti
 
-Il Foro romano permette di confrontare la concezione della città greca e di quella romana: alla separazione tra Acropoli e agorà si sostituisce il Foro come centro unico e totale della vita cittadina. Il sistema dell'arco inquadrato nell'ordine, offerto dal Tabularium, è un ponte diretto verso i grandi edifici per lo spettacolo (anfiteatri e teatri) e verso l'architettura del Rinascimento, che riprenderà questo motivo. Infine, i templi dei Fori — da Venere Genitrice a Marte Ultore — mostrano come l'architettura romana usi le forme (e le dedicazioni) per costruire un discorso politico e dinastico, lo stesso principio di celebrazione del potere che percorre tutta la vicenda imperiale.
+Il Foro romano permette di confrontare la concezione della città greca e di quella romana: alla separazione tra [[acropoli-partenone|Acropoli]] e agorà si sostituisce il Foro come centro unico e totale della vita cittadina. Il sistema dell'arco inquadrato nell'ordine, offerto dal Tabularium, è un ponte diretto verso i grandi edifici per lo spettacolo (anfiteatri e teatri) e verso l'architettura del Rinascimento, che riprenderà questo motivo. Infine, i templi dei Fori — da Venere Genitrice a Marte Ultore — mostrano come l'architettura romana usi le forme (e le dedicazioni) per costruire un discorso politico e dinastico, lo stesso principio di celebrazione del potere che percorre tutta la vicenda imperiale.
 
 ## Per approfondire
 

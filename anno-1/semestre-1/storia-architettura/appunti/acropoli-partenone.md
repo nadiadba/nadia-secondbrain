@@ -8,6 +8,11 @@ tags: [storia-architettura, appunti]
 
 # La Grecia classica: l'Acropoli di Atene e il Partenone
 
+> [!info] Note collegate
+> Lezione: [[02-grecia-antica-partenone]]
+>
+> Argomenti collegati: [[ordini-architettonici]] · [[roma-foro-fori-imperiali]]
+
 ## Introduzione: il concetto di "classico"
 
 La civiltà greca si suddivide convenzionalmente in tre fasi: il periodo arcaico (600-480 a.C.), il periodo classico (480-323 a.C.) e il periodo ellenistico, che si chiude con l'affermarsi della supremazia di Roma nel I secolo a.C. Parlare di Grecia classica significa collocarsi nel preciso arco cronologico che va dalla battaglia di Salamina alla morte di Alessandro Magno; non si tratta di un'idea astratta, ma del risultato di una produzione artistica, architettonica e culturale situata in quel periodo.
@@ -88,7 +93,7 @@ L'aspetto che osserviamo oggi è il risultato di una lunga serie di trasformazio
 
 ## Collegamenti
 
-Il Partenone è il punto di arrivo del percorso sugli ordini architettonici: vi si applicano, in forma esemplare, il tempio dorico periptero, la convivenza con l'ordine ionico e i correttivi ottici studiati in generale. Il tema del rapporto tra forma architettonica e luogo d'origine — qui evidente nella provenienza del marmo pentelico e pario — è lo stesso che percorre l'esercitazione su storia e geografia dell'architettura. Infine, il confronto tra il teatro greco, immerso nel paesaggio, e quello romano, volume costruito e autonomo, apre il discorso che prosegue nella parte dedicata a Roma.
+Il Partenone è il punto di arrivo del percorso sugli [[ordini-architettonici|ordini architettonici]]: vi si applicano, in forma esemplare, il tempio dorico periptero, la convivenza con l'ordine ionico e i correttivi ottici studiati in generale. Il tema del rapporto tra forma architettonica e luogo d'origine — qui evidente nella provenienza del marmo pentelico e pario — è lo stesso che percorre l'esercitazione su storia e geografia dell'architettura. Infine, il confronto tra il teatro greco, immerso nel paesaggio, e quello romano, volume costruito e autonomo, apre il discorso che prosegue nella [[roma-foro-fori-imperiali|parte dedicata a Roma]].
 
 ## Per approfondire
 
