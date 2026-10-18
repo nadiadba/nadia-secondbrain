@@ -8,7 +8,7 @@ tags: [composizione-architettonica, indice]
 
 # Fondamenti di composizione architettonica
 
-Laboratorio del primo semestre: si lavora con plastici ed esercitazioni, prima astratte e poi su piccoli progetti di case.
+Laboratorio del primo semestre: si lavora con plastici ed esercitazioni, prima astratte e poi su piccoli progetti di case. Bellissime case.
 
 ## Sintesi
 
