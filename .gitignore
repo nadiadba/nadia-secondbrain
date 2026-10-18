@@ -9,3 +9,4 @@ docs/**/materiale/
 
 # Configurazione di Obsidian (solo in locale)
 .obsidian/
+.DS_Store
