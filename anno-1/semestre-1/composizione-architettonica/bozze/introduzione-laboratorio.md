@@ -8,7 +8,7 @@ tags: [composizione-architettonica, bozza]
 
 # Fondamenti della composizione architettonica — introduzione al laboratorio
 
-Sintesi dei punti utili della lezione introduttiva del laboratorio (mar 28): come funziona il corso, quali esercitazioni si fanno e con quale spirito.
+Sintesi dei punti utili della lezione introduttiva del laboratorio (martedì 29 settembre): come funziona il corso, quali esercitazioni si fanno e con quale spirito.
 
 > [!info] Note collegate
 > Altri corsi: [[strumenti-e-disegno]] e [[proiezioni-e-omologia]] (Geometria descrittiva: strumenti, pianta e prospetto)
