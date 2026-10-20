@@ -224,7 +224,8 @@ Nomi di audio e sbobine grezze: `materia gg-mm`, con ` (1)`, ` (2)` se ci sono p
 
 ## Git e GitHub
 
-- Nadia non conosce Git. Dopo un lavoro concluso, **proponi** di salvare su GitHub e, se dice si', esegui tu: `git add`, `git commit`, `git push`. Spiega in una riga cosa stai facendo ("salvo una copia delle modifiche e la carico su GitHub").
+- Nadia non conosce Git. **Dopo ogni lavoro concluso nel vault, salva e carica su GitHub in automatico, senza chiedere** (`git add`, `git commit`, `git push`): l'ha chiesto lei il 20/10/2026. Dille in una riga che l'hai fatto ("ho salvato le modifiche anche su GitHub").
+- Sul Mac le credenziali di GitHub sono nel Portachiavi (accesso fatto da VS Code): `git push` e `git fetch` vanno lanciati fuori dalla sandbox, altrimenti non le leggono e chiedono il nome utente. Se il push fallisce comunque, spiega a Nadia di cliccare *Sincronizza modifiche* nel pannello *Controllo del codice sorgente* di VS Code.
 - Messaggi di commit in italiano, prima riga all'imperativo e specifica: "Aggiungi appunti sulla costruzione nel mondo antico", "Correggi la data della lezione di geometria". Mai "." o "update".
 - Prima di committare controlla con `git status` che non ci siano file grandi o finiti per sbaglio nel vault (slide, audio, sbobine). Non committare mai `.obsidian/`.
 - Se il lavoro e' su un altro computer, ricorda che le modifiche arrivano con `git pull`: spiegalo se serve.
