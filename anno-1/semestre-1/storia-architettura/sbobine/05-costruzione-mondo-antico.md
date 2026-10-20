@@ -15,7 +15,7 @@ tags: [storia-architettura, sbobina]
 > [!info] Note collegate
 > Bozza: [[costruzione-mondo-antico]]
 >
-> Sbobina precedente: [[04-visita-via-appia]]
+> Sbobina precedente: [[04-visita-via-appia]] · Successiva: [[06-immagine-imperiale-e-domus]]
 
 ---
 

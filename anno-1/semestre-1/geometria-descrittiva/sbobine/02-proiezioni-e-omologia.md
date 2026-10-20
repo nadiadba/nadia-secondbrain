@@ -14,7 +14,7 @@ tags: [geometria-descrittiva, sbobina]
 > [!info] Note collegate
 > Bozza: [[proiezioni-e-omologia]]
 >
-> Sbobina precedente: [[01-strumenti-e-disegno]]
+> Sbobina precedente: [[01-strumenti-e-disegno]] · Successiva: [[03-piani-proiettanti-orizzontali-frontali]]
 
 ---
 

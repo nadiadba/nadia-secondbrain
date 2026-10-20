@@ -21,6 +21,9 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 3. [[03-roma-foro-romano-fori-imperiali|Roma: il Foro Romano e i Fori Imperiali]] (ven 2 ottobre)
 4. [[04-visita-via-appia|Visita alla Via Appia: Cecilia Metella e Villa di Massenzio]] (mer 7 ottobre)
 5. [[05-costruzione-mondo-antico|La costruzione nel mondo antico]] (gio 8 ottobre)
+6. [[06-immagine-imperiale-e-domus|L'immagine del potere imperiale, Ara Pacis, archi, teatri e anfiteatri, Pompei e la domus]] (mer 14 ottobre)
+7. [[07-residenza-mondo-antico|La residenza nel mondo antico: insula, Palatino, Domus Aurea]] (gio 15 ottobre)
+8. [[08-visita-terme-caracalla|Visita alle Terme di Caracalla]] (ven 16 ottobre)
 
 ## Bozze
 
