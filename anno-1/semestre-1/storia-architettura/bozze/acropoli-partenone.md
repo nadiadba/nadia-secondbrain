@@ -1,16 +1,14 @@
 ---
-tipo: appunti
+tipo: bozza
 corso: Storia dell'architettura 1
 anno: 1
 semestre: 1
-tags: [storia-architettura, appunti]
+tags: [storia-architettura, bozza]
 ---
 
 # La Grecia classica: l'Acropoli di Atene e il Partenone
 
 > [!info] Note collegate
-> Lezione: [[02-grecia-antica-partenone]]
->
 > Argomenti collegati: [[ordini-architettonici]] · [[roma-foro-fori-imperiali]]
 
 ## Introduzione: il concetto di "classico"

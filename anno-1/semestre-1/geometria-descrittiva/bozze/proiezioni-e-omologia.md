@@ -1,9 +1,9 @@
 ---
-tipo: sintesi
+tipo: bozza
 corso: Geometria descrittiva
 anno: 1
 semestre: 1
-tags: [geometria-descrittiva, sintesi]
+tags: [geometria-descrittiva, bozza]
 ---
 
 # Geometria descrittiva — proiezioni e omologia (ripasso schematico)
@@ -11,8 +11,6 @@ tags: [geometria-descrittiva, sintesi]
 Riassunto rapido della lezione del 6 ottobre: i concetti chiave in forma di schema, per ripassare velocemente.
 
 > [!info] Note collegate
-> Lezione completa: [[01-proiezioni-e-omologia]]
->
 > Argomenti collegati: [[strumenti-e-disegno]]
 
 ## Richiami di geometria

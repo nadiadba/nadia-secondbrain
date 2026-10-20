@@ -13,7 +13,7 @@ Se e' la prima volta che usi Obsidian, leggi la [[guida-obsidian|guida a Obsidia
 
 ### Primo semestre ([[semestre-1|indice del semestre]])
 
-- [[storia-architettura|Storia dell'architettura 1]]: lezioni, appunti e sintesi sull'architettura antica (Grecia, Roma) e oltre.
+- [[storia-architettura|Storia dell'architettura 1]]: l'architettura antica (Grecia, Roma) e oltre.
 - [[geometria-descrittiva|Geometria descrittiva]]: proiezioni, omologia, disegno e strumenti.
 - [[composizione-architettonica|Fondamenti di composizione architettonica]]: il laboratorio, le esercitazioni e i plastici.
 - [[matematica|Matematica]]: ancora da riempire.
@@ -24,14 +24,13 @@ Ancora da iniziare: le cartelle verranno create quando partono i corsi.
 
 ## Tutte le note in una tabella
 
-Apri [[tutte-le-note.base|Tutte le note]] per vedere ogni lezione, appunto e sintesi in una tabella filtrabile per materia e tipo.
+Apri [[tutte-le-note.base|Tutte le note]] per vedere le bozze in una tabella filtrabile per materia.
 
 ## Come sono organizzati gli appunti
 
-Ogni materia ha una nota indice (quella che apri dai link qui sopra) e tre tipi di note:
+Ogni materia ha una nota indice (quella che apri dai link qui sopra) e due tipi di contenuti:
 
-- **Lezioni**: la trascrizione sistemata di ogni lezione registrata, fedele alle parole del docente.
-- **Appunti**: la rielaborazione in forma di manuale, da studiare per l'esame.
-- **Sintesi**: schemi rapidi per il ripasso.
+- **Lezioni finite**: i PDF che hai studiato e sistemato tu, direttamente nella cartella della materia.
+- **Bozze**: i riassunti dettagliati che Claude prepara da sbobina e slide, nella cartella `bozze`. Li studi, li sistemi fuori da Obsidian e li riporti come PDF tra le lezioni finite.
 
-I materiali originali (registrazioni, slide, PDF) stanno nella cartella `materiale` di ogni materia, che resta solo sul computer e non viene caricata su GitHub.
+Le registrazioni e le sbobine (`Documenti/Sbobine`) e il materiale dei corsi, cioe' slide e PDF (`Documenti/Materiale`), stanno fuori da qui, solo sul computer, e non vengono caricati su GitHub.

@@ -1,16 +1,14 @@
 ---
-tipo: appunti
+tipo: bozza
 corso: Storia dell'architettura 1
 anno: 1
 semestre: 1
-tags: [storia-architettura, appunti]
+tags: [storia-architettura, bozza]
 ---
 
 # L'architettura romana: il Foro Romano e i Fori Imperiali
 
 > [!info] Note collegate
-> Lezione: [[03-roma-foro-romano-fori-imperiali]]
->
 > Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]] · [[ordini-architettonici]]
 
 ## Introduzione: il mondo romano e la sua architettura

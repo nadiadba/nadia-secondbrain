@@ -1,16 +1,14 @@
 ---
-tipo: appunti
+tipo: bozza
 corso: Storia dell'architettura 1
 anno: 1
 semestre: 1
-tags: [storia-architettura, appunti]
+tags: [storia-architettura, bozza]
 ---
 
 # La costruzione nel mondo antico
 
 > [!info] Note collegate
-> Lezione: [[04-costruzione-mondo-antico]] · Visita: [[05-visita-via-appia]]
->
 > Argomenti collegati: [[ordini-architettonici]] · [[roma-foro-fori-imperiali]]
 
 ## Introduzione: la storia della costruzione e le fonti

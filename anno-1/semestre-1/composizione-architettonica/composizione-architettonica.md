@@ -10,10 +10,10 @@ tags: [composizione-architettonica, indice]
 
 Laboratorio del primo semestre: si lavora con plastici ed esercitazioni, prima astratte e poi su piccoli progetti di case. Bellissime case.
 
-## Sintesi
+## Lezioni finite
+
+Ancora nessuna.
+
+## Bozze
 
 - [[introduzione-laboratorio|Introduzione al laboratorio: come funziona il corso e le esercitazioni]]
-
-## Da fare
-
-- [ ] Appunti sulle esercitazioni svolte

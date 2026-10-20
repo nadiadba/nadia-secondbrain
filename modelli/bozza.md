@@ -1,16 +1,14 @@
 ---
-tipo: appunti
+tipo: bozza
 corso: 
 anno: 1
 semestre: 1
-tags: [materia, appunti]
+tags: [materia, bozza]
 ---
 
 # Titolo dell'argomento
 
 > [!info] Note collegate
-> Lezione: [[nome-lezione]]
->
 > Argomenti collegati: [[altra-nota]]
 
 ## Introduzione

@@ -8,6 +8,8 @@ filters:
 properties:
   file.name:
     displayName: Nota
+  file.folder:
+    displayName: Cartella
   tipo:
     displayName: Tipo
   corso:
@@ -27,36 +29,3 @@ views:
       - tipo
       - data
       - semestre
-  - type: table
-    name: Lezioni
-    filters:
-      and:
-        - tipo == "lezione"
-    groupBy:
-      property: corso
-      direction: ASC
-    order:
-      - file.name
-      - data
-  - type: table
-    name: Appunti
-    filters:
-      and:
-        - tipo == "appunti"
-    groupBy:
-      property: corso
-      direction: ASC
-    order:
-      - file.name
-      - data
-  - type: table
-    name: Sintesi
-    filters:
-      and:
-        - tipo == "sintesi"
-    groupBy:
-      property: corso
-      direction: ASC
-    order:
-      - file.name
-      - data

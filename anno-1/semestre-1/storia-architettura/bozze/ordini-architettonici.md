@@ -1,15 +1,15 @@
 ---
-tipo: appunti
+tipo: bozza
 corso: Storia dell'architettura 1
 anno: 1
 semestre: 1
-tags: [storia-architettura, appunti]
+tags: [storia-architettura, bozza]
 ---
 
 # Gli ordini architettonici e il tempio greco
 
 > [!info] Note collegate
-> Lezione: [[01 - Il tempio e gli ordini (versione ufficiale).pdf|Il tempio e gli ordini (PDF)]]
+> Lezione: [[01 - Il tempio e gli ordini.pdf|Il tempio e gli ordini (PDF)]]
 >
 > Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]]
 

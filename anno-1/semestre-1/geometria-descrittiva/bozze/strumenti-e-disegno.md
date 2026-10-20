@@ -1,24 +1,24 @@
 ---
-tipo: sintesi
+tipo: bozza
 corso: Geometria descrittiva
 anno: 1
 semestre: 1
 data: 2026-10-01
-tags: [geometria-descrittiva, sintesi]
+tags: [geometria-descrittiva, bozza]
 ---
 
 # Geometria descrittiva — strumenti, materiali e regole di base
 
-Sintesi dei punti utili della prima lezione (gio 1 ottobre): cosa procurarsi per disegnare, i formati dei fogli e le regole fondamentali del disegno, prima di iniziare con le proiezioni.
+Sintesi dei punti utili della prima lezione (giovedì 1 ottobre): cosa procurarsi per disegnare, i formati dei fogli e le regole fondamentali del disegno, prima di iniziare con le proiezioni.
 
 > [!info] Note collegate
-> Lezione successiva: [[01-proiezioni-e-omologia]] · Sintesi: [[proiezioni-e-omologia]]
+> Argomento successivo: [[proiezioni-e-omologia]]
 >
 > Altri corsi: [[introduzione-laboratorio]] (scale, piante e prospetti in Composizione)
 
 ## Gli strumenti da procurarsi
 
-- Portamine con due mine diverse: una fine, da 0,5 mm, per la scrittura e le linee sottili, e una più grossa, da 2,5 mm, per il disegno (va montata su un portamine apposito).
+- Portamine con due mine diverse: una fine, da 0,5 mm, per la scrittura e le linee sottili, e una più grossa, da 2 mm, per il disegno (va montata su un portamine apposito).
 - Mine di diversa gradazione (per esempio HB, H): la gradazione cambia quanto la linea risulta chiara o scura. Le gradazioni più dure danno un segno più leggero e grigio, quelle più morbide un segno più scuro e marcato.
 - Una gomma di buona qualità, più la gomma pane per cancellare in modo delicato.
 - Squadre e riga (o parallelineo) per tracciare linee parallele, tenendo presente che in architettura si disegna molto anche a mano libera.

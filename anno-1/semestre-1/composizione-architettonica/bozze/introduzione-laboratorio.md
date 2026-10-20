@@ -1,9 +1,9 @@
 ---
-tipo: sintesi
+tipo: bozza
 corso: Fondamenti di composizione architettonica
 anno: 1
 semestre: 1
-tags: [composizione-architettonica, sintesi]
+tags: [composizione-architettonica, bozza]
 ---
 
 # Fondamenti della composizione architettonica — introduzione al laboratorio
