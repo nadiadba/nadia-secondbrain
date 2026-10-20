@@ -18,10 +18,7 @@ Questa cartella e' il **vault di Obsidian** di Nadia (la cartella principale del
 
 ### Struttura delle cartelle
 
-Il vault contiene solo cio' che Nadia studia: le lezioni finite e le bozze. Tutto il resto sta fuori dal repository, solo sul computer:
-
-- audio e sbobine in `Documenti/Sbobine/` (vedi "Registrazioni e sbobine");
-- slide, PDF del corso, saggi e documenti Word in `Documenti/Materiale/<materia>/` (stessi nomi di cartella del vault: `storia-architettura`, `geometria-descrittiva`, `composizione-architettonica`, `matematica`). Serve solo a Claude come fonte per le bozze.
+Tutto sta dentro il vault, materia per materia: sbobine, materiale, bozze e lezioni finite.
 
 ```
 nadia-secondbrain/            ← vault di Obsidian (su GitHub)
@@ -37,6 +34,8 @@ nadia-secondbrain/            ← vault di Obsidian (su GitHub)
       storia-architettura/
         storia-architettura.md         ← nota indice della materia (stesso nome della cartella)
         01 - Il tempio e gli ordini.pdf ← LEZIONI FINITE: PDF di Nadia, direttamente qui
+        sbobine/              ← trascrizioni delle lezioni (01-tempio-e-ordini.md, ...): su git
+        materiale/            ← slide, PDF del corso, saggi, Word: NON va su git (.gitignore)
         bozze/                ← riassunti dettagliati sbobina + slide, preparati da Claude
         bozze/img/            ← immagini usate nelle bozze
       geometria-descrittiva/
@@ -48,10 +47,10 @@ nadia-secondbrain/            ← vault di Obsidian (su GitHub)
 Regole sulla struttura:
 
 - Ogni materia sta in `anno-N/semestre-N/<materia>/`. Quando inizia un nuovo semestre, crea la cartella e la sua nota indice `semestre-N.md`, poi aggiorna `home.md`.
-- Dentro una materia ci sono solo: la nota indice, i PDF delle lezioni finite (direttamente nella cartella, non in una sottocartella), e `bozze/`. Non creare altre sottocartelle.
-- La **nota indice** di una materia ha lo stesso nome della cartella (es. `storia-architettura.md`) e ha due sezioni: **Lezioni finite** e **Bozze**. Ogni volta che aggiungi un file, aggiungilo alla nota indice nella sezione giusta con un wikilink e una riga di descrizione.
-- Sul vecchio PC Windows possono esserci ancora cartelle `materiale/` dentro il vault (o sotto il vecchio percorso `docs/<materia>/materiale/`): sono ignorate da git. Il loro contenuto va portato in `Documenti/Materiale/<materia>/`, ma solo copiandolo e dopo averlo chiesto a Nadia.
-- Nomi file: minuscoli, senza accenti e senza spazi, parole separate da trattini (`arco-e-volta.md`). Le lezioni finite sono i PDF di Nadia: tengono un numero progressivo e il titolo (`01 - Il tempio e gli ordini.pdf`).
+- Dentro una materia ci sono solo: la nota indice, i PDF delle lezioni finite (direttamente nella cartella, non in una sottocartella), `sbobine/`, `materiale/` e `bozze/`. Non creare altre sottocartelle.
+- La **nota indice** di una materia ha lo stesso nome della cartella (es. `storia-architettura.md`) e ha tre sezioni: **Lezioni finite**, **Sbobine** (con la data) e **Bozze**. Ogni volta che aggiungi un file, aggiungilo alla nota indice nella sezione giusta con un wikilink e una riga di descrizione.
+- `materiale/` e' ignorata da git (`.gitignore`): i file restano solo sul computer. Non committarla mai e non spostarne il contenuto.
+- Nomi file: minuscoli, senza accenti e senza spazi, parole separate da trattini (`arco-e-volta.md`). Le sbobine hanno un numero progressivo in ordine di data (`06-argomento.md`). Le lezioni finite sono i PDF di Nadia: tengono un numero progressivo e il titolo (`01 - Il tempio e gli ordini.pdf`). I file del materiale tengono il nome originale.
 - Un solo `# Titolo` in cima a ogni nota, dopo il blocco delle proprieta'.
 
 ### Materie del primo semestre (anno 1)
@@ -65,19 +64,19 @@ Regole sulla struttura:
 
 ## Il flusso di lavoro
 
-**registrazione → sbobina sistemata (fuori dal vault) → bozza (in `bozze/`) → lezione finita (PDF di Nadia, nella materia)**
+**trascrizione di Memo Vocali (in `sbobine/`) → bozza (in `bozze/`) → lezione finita (PDF di Nadia, nella materia)**
 
-1. Nadia mette l'audio in `Documenti/Sbobine/audio/<materia>/`. Claude lo trascrive e sistema la sbobina in `Documenti/Sbobine/sbobine sistemate/<materia>/` (vedi "Registrazioni e sbobine"). Questo passaggio Claude lo fa sempre, appena la trascrizione e' pronta, senza aspettare che Nadia lo chieda.
-2. Quando Nadia lo chiede, Claude scrive la **bozza**: il riassunto dettagliato di sbobina + slide. Sicuramente serve per Storia; per le altre materie solo se Nadia la chiede.
-3. Nadia studia la bozza, la rielabora fuori da Obsidian e riporta il risultato come PDF: Claude lo mette nella cartella della materia (fuori da `bozze/`) e lo aggiunge alle Lezioni finite della nota indice. La bozza resta dov'e' finche' Nadia non dice di toglierla.
+1. Nadia registra la lezione con l'app Memo Vocali dell'iPhone, che produce da sola la trascrizione (sincronizzata sul Mac via iCloud). Nadia mette la trascrizione nella cartella `sbobine/` della materia: puo' essere un `.txt`, un `.md` o testo incollato in chat.
+2. Quando arriva una trascrizione nuova, Claude la trasforma in sbobina (vedi sotto) e la aggiunge alla nota indice.
+3. Quando Nadia lo chiede, Claude scrive la **bozza** usando direttamente la sbobina e le slide di `materiale/`. Sicuramente serve per Storia; per le altre materie solo se Nadia la chiede.
+4. Nadia studia la bozza, la rielabora fuori da Obsidian e riporta il risultato come PDF: Claude lo mette nella cartella della materia (fuori da `bozze/`) e lo aggiunge alle Lezioni finite della nota indice. La bozza resta dov'e' finche' Nadia non dice di toglierla.
 
-### Sbobina sistemata (fuori dal vault, `Documenti/Sbobine/sbobine sistemate/<materia>/NN-argomento.md`)
+### Sbobina (`sbobine/`, `tipo: sbobina`)
 
-- E' la trascrizione **integrale e fedele alle parole del docente**. Non riassumere, non aggiungere contenuti, non cambiare il registro.
-- Correggi solo gli errori di trascrizione, soprattutto sui termini tecnici (nomi di architetti e luoghi, parole latine e greche, termini di geometria).
-- Togli le parti fuori tema (chiacchiere, problemi tecnici). Gli avvisi organizzativi utili (cosa portare, scadenze) vanno in un callout `> [!tip]` alla fine.
-- Se ha senso, dividi il testo in paragrafi con titoli `##` per ritrovare gli argomenti a colpo d'occhio.
-- In cima: proprieta' (`tipo: sbobina`, `corso`, `data`), `# Titolo` con materia e data, una citazione (`>`) che dice da quale registrazione viene. Niente link: e' fuori dal vault.
+- Le trascrizioni di Memo Vocali sono gia' buone: **non riscriverle e non sistemarle** se Nadia non lo chiede. Il testo resta com'e'.
+- Claude aggiunge solo la cornice: rinomina il file `NN-argomento.md` (numero successivo in ordine di data; se e' un `.txt`, convertilo in `.md`), mette le proprieta' (`tipo: sbobina`, `corso`, `anno`, `semestre`, `data`, `tags: [<materia>, sbobina]`), il `# Titolo` con materia e data, una citazione (`>`) che dice da dove viene il testo, e il callout Note collegate (bozza, sbobina precedente e successiva).
+- Se Nadia non dice la data, cercala nel nome del file o nel testo; se non c'e', chiedila.
+- Le sbobine 01-05 di Storia, 01-02 di Geometria e 01 di Composizione vengono dal vecchio sistema (Whisper + sistemazione di Claude): sono trascrizioni fedeli ma ripulite.
 
 ### Bozza (`bozze/`, `tipo: bozza`)
 
@@ -92,21 +91,23 @@ Regole sulla struttura:
 
 ## Collegare le note tra loro (fondamentale per il grafo)
 
-Una nota senza link e' un pallino isolato nel grafo di Obsidian. Ogni bozza deve essere collegata:
+Una nota senza link e' un pallino isolato nel grafo di Obsidian. Ogni bozza e ogni sbobina deve essere collegata:
 
 - **Subito dopo il titolo** metti un callout con le note collegate:
 
 ```markdown
 > [!info] Note collegate
-> Lezione finita: [[01 - Il tempio e gli ordini.pdf|Il tempio e gli ordini (PDF)]]
+> Sbobina: [[01-tempio-e-ordini]] · Lezione finita: [[01 - Il tempio e gli ordini.pdf|Il tempio e gli ordini (PDF)]]
 >
 > Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]]
 ```
 
+- Bozza ↔ sbobina dello stesso argomento si linkano sempre a vicenda; le sbobine linkano anche la precedente e la successiva.
 - Quando arriva il PDF finito di un argomento, aggiungilo al callout della bozza corrispondente.
-- **Quando crei una nota nuova, aggiorna anche le note vecchie** che devono puntare a lei: le bozze sugli argomenti collegati e la nota indice.
+- **Quando crei una nota nuova, aggiorna anche le note vecchie** che devono puntare a lei: la sbobina precedente ("Successiva: ..."), le bozze sugli argomenti collegati e la nota indice.
 - Nella sezione `## Collegamenti`, quando citi un argomento che ha gia' una nota, trasforma la parola in link dentro la frase: `dal [[acropoli-partenone|Partenone]]`. Vale anche tra materie diverse (es. Geometria descrittiva ↔ Composizione).
-- Non linkare le sbobine (sono fuori dal vault) e non inventare link a note che non esistono ancora (in Obsidian creerebbero pallini vuoti nel grafo).
+- Nelle sbobine non toccare il testo: i link stanno solo nel callout iniziale.
+- Non inventare link a note che non esistono ancora (in Obsidian creerebbero pallini vuoti nel grafo).
 
 ## Convenzioni Markdown per Obsidian
 
@@ -116,7 +117,7 @@ Tutto cio' che scrivi deve essere letto in Obsidian. Usa solo la sintassi qui so
 
 ```markdown
 ---
-tipo: bozza            # bozza | indice
+tipo: bozza            # bozza | sbobina | indice
 corso: Storia dell'architettura 1
 anno: 1
 semestre: 1
@@ -178,65 +179,48 @@ Non usare `\(` `\)` e `\[` `\]`: in Obsidian non funzionano.
 - Link relativi con percorso `[testo](../../materia/file.md)` → usa i wikilink `[[file]]`
 - Niente file `index.md`: la nota indice ha il nome della cartella
 
-## File in ingresso: docx, PDF, slide, registrazioni
+## File in ingresso: docx, PDF, slide, trascrizioni
 
-Nadia appoggia slide, PDF e documenti in `Documenti/Materiale/<materia>/` (se la cartella non c'e', creala); gli audio invece vanno in `Documenti/Sbobine/audio/<materia>/`. Da li':
+Nadia appoggia slide, PDF e documenti in `materiale/` della materia e le trascrizioni in `sbobine/` (se la cartella non c'e', creala). Se trovi file finiti nel posto sbagliato (per esempio in `Download`), riconosci la materia e spostali, dicendolo a Nadia. Da li':
 
 ### Documenti Word (.docx)
 
 1. Se `pandoc` e' installato: `pandoc "file.docx" -t gfm --wrap=none --extract-media=. -o "file.md"`.
-2. Altrimenti usa lo script del repo, che non ha dipendenze: `python3 -I .claude/scripts/docx2md.py "$HOME/Documents/Materiale/storia-architettura/file.docx" cartella-di-uscita`. Converte titoli, elenchi, grassetto, corsivo, tabelle, immagini (in `img/`) e formule di Word (in LaTeX approssimato: ricontrollale).
+2. Altrimenti usa lo script del repo, che non ha dipendenze: `python3 -I .claude/scripts/docx2md.py "anno-1/semestre-1/storia-architettura/materiale/file.docx" cartella-di-uscita`. Converte titoli, elenchi, grassetto, corsivo, tabelle, immagini (in `img/`) e formule di Word (in LaTeX approssimato: ricontrollale).
 3. Poi rileggi il risultato e sistemalo come sbobina o bozza: proprieta', titolo, callout, immagini rinominate, sezione Collegamenti se e' una bozza.
 4. Se il documento e' in un'altra lingua (inglese, francese...), traducilo in italiano mantenendo i termini tecnici originali in corsivo tra parentesi la prima volta che compaiono.
-5. Il .docx originale resta in `Documenti/Materiale/`: non cancellarlo senza chiedere.
+5. Il .docx originale resta in `materiale/`: non cancellarlo senza chiedere.
 
 ### PDF
 
 - PDF delle lezioni finite (rielaborati da Nadia): mettili direttamente nella cartella della materia, con nome `NN - Titolo.pdf`, e linkali dalla nota indice in Lezioni finite. Restano PDF: non convertirli in testo (Obsidian li apre e permette di evidenziarli).
-- PDF del corso, saggi, capitoli: leggili con lo strumento di lettura e usali come fonte per le bozze; il PDF resta in `Documenti/Materiale/<materia>/`.
+- PDF del corso, saggi, capitoli: leggili con lo strumento di lettura e usali come fonte per le bozze; il PDF resta in `materiale/`.
 
 ### Slide (.pptx, .pdf)
 
 - Sono fonte per le bozze: integra i contenuti nel testo, estrai gli schemi utili come immagini PNG in `img/`.
 
-### Registrazioni e sbobine
+### Registrazioni e trascrizioni
 
-Gli audio NON stanno nel vault: Nadia li mette nella cartella `Sbobine/` dentro Documenti, fuori dal repository, e Claude li trascrive con Whisper.
-
-```
-Documenti/Sbobine/
-  audio/<materia>/              ← Nadia mette qui le registrazioni (dall'iPhone: .m4a, .mp3...)
-  sbobine grezze/<materia>/     ← uscita di Whisper: <nome>.txt, a paragrafi (niente file con i minuti: a Nadia non servono)
-  sbobine sistemate/<materia>/  ← sbobine sistemate da Claude: 01-tempio-e-ordini.md, 02-grecia-antica-partenone.md...
-  trascrivi.py                  ← trascrive gli audio di audio/<materia>/ che non hanno ancora un .txt nelle grezze
-  .venv/                        ← ambiente Python con Whisper
-```
-
-`<materia>` e' sempre una delle quattro cartelle `storia-architettura`, `geometria-descrittiva`, `composizione-architettonica`, `matematica`.
-
-Nomi di audio e sbobine grezze: `materia gg-mm`, con ` (1)`, ` (2)` se ci sono piu' registrazioni nello stesso giorno. Esempi: `storia dell'architettura 30-09.txt`, `geometria descrittiva 06-10 (1).txt`, `composizione architettonica 28-09.txt`, `matematica 15-10.txt`. Nadia vorrebbe la data come gg/mm, ma `/` non e' ammesso nei nomi dei file: si usa il trattino. Se un audio arriva con un altro nome, rinominalo con questo schema (chiedendo la data se non e' chiara); lo script da' alla grezza lo stesso nome dell'audio.
-
-- Su Mac (Apple Silicon): `~/Documents/Sbobine/.venv/bin/python ~/Documents/Sbobine/trascrivi.py`. Usa `mlx-whisper` con il modello `mlx-community/whisper-large-v3-turbo` sul chip grafico: circa mezz'ora per ogni ora di audio. Lancialo in background e avvisa Nadia quando finisce.
-- Su Windows lo script e' in `C:\Users\Nadia\Documents\Sbobine\` e usa `faster-whisper` (modello medium, `av==13.1.0` obbligatorio: le versioni piu' nuove di `av` non funzionano). Lancialo con `$env:PYTHONIOENCODING = "utf-8"`. E' molto piu' lento.
-- Quando la trascrizione finisce, senza aspettare che Nadia lo chieda, sistemala come sbobina (vedi "Il flusso di lavoro") in `sbobine sistemate/<materia>/`, con il numero progressivo successivo e la `data` nelle proprieta'. Se un audio e' finito fuori dalle cartelle delle materie, riconosci la materia dal nome o dal contenuto e spostalo; se non e' chiaro, chiedi.
-- Se Nadia porta una trascrizione gia' fatta (testo o .docx), mettila in `sbobine grezze/<materia>/` con il nome secondo lo schema e parti da li'.
-- `Sbobine/` non e' su GitHub: esiste solo sul computer dove e' stata creata. Non cancellare nulla da li' senza chiedere.
+- Le trascrizioni le fa Memo Vocali (vedi "Il flusso di lavoro"). Gli audio non servono e non vanno nel vault.
+- Se Memo Vocali smette di sincronizzarsi tra iPhone e Mac, la causa trovata il 20/10/2026 era la Modalita' Risparmio energetico (su Mac e iPhone), che fa rinviare a iCloud i caricamenti.
+- Se serve trascrivere un audio senza Memo (per esempio una registrazione fatta con il telefono di un'altra persona), sul Mac c'e' ancora Whisper: metti l'audio in `~/Documents/Sbobine/audio/<materia>/` e lancia `~/Documents/Sbobine/.venv/bin/python ~/Documents/Sbobine/trascrivi.py` in background (mlx-whisper, modello `mlx-community/whisper-large-v3-turbo`, circa mezz'ora per ogni ora di audio). La trascrizione esce in `~/Documents/Sbobine/sbobine grezze/<materia>/`: da li' crea la sbobina nel vault.
 
 ## Git e GitHub
 
 - Nadia non conosce Git. **Dopo ogni lavoro concluso nel vault, salva e carica su GitHub in automatico, senza chiedere** (`git add`, `git commit`, `git push`): l'ha chiesto lei il 20/10/2026. Dille in una riga che l'hai fatto ("ho salvato le modifiche anche su GitHub").
 - Sul Mac le credenziali di GitHub sono nel Portachiavi (accesso fatto da VS Code): `git push` e `git fetch` vanno lanciati fuori dalla sandbox, altrimenti non le leggono e chiedono il nome utente. Se il push fallisce comunque, spiega a Nadia di cliccare *Sincronizza modifiche* nel pannello *Controllo del codice sorgente* di VS Code.
 - Messaggi di commit in italiano, prima riga all'imperativo e specifica: "Aggiungi appunti sulla costruzione nel mondo antico", "Correggi la data della lezione di geometria". Mai "." o "update".
-- Prima di committare controlla con `git status` che non ci siano file grandi o finiti per sbaglio nel vault (slide, audio, sbobine). Non committare mai `.obsidian/`.
+- Prima di committare controlla con `git status` che non ci siano file grandi, audio o file di `materiale/`. Non committare mai `.obsidian/`.
 - Se il lavoro e' su un altro computer, ricorda che le modifiche arrivano con `git pull`: spiegalo se serve.
 
 ## Cose da NON fare
 
-- Non creare file fuori dalle cartelle delle materie, tranne la configurazione (`.claude/`, `.gitignore`, `README.md`, questo file) e `Documenti/Sbobine/`
+- Non creare file fuori dalle cartelle delle materie, tranne la configurazione (`.claude/`, `.gitignore`, `README.md`, questo file)
 - Non toccare `.obsidian/` (configurazione personale di Obsidian, non e' nel repo). In `.obsidian/app.json` sono esclusi dal vault `modelli/`, `CLAUDE.md` e `README.md`: non annullarlo
 - Non reintrodurre MkDocs, siti statici o sintassi che Obsidian non legge
 - Non scrivere contenuti in lingue diverse dall'italiano (tranne citazioni e termini tecnici)
 - Non eliminare la sezione Collegamenti dalle bozze
-- Non riassumere o "migliorare" le sbobine: devono restare fedeli al docente
+- Non riassumere, riscrivere o "migliorare" le sbobine: devono restare fedeli al docente
 - Non usare il grassetto nel corpo delle bozze in prosa
-- Non cancellare i file di `Documenti/Materiale/` e `Documenti/Sbobine/`: sono solo sul computer di Nadia e git non li protegge
+- Non cancellare i file di `materiale/`: sono solo sul computer di Nadia e git non li protegge

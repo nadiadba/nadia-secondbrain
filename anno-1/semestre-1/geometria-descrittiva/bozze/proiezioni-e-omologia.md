@@ -11,6 +11,8 @@ tags: [geometria-descrittiva, bozza]
 Riassunto rapido della lezione del 6 ottobre: i concetti chiave in forma di schema, per ripassare velocemente.
 
 > [!info] Note collegate
+> Sbobina: [[02-proiezioni-e-omologia]]
+>
 > Argomenti collegati: [[strumenti-e-disegno]]
 
 ## Richiami di geometria

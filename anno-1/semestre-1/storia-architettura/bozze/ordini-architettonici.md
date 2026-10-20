@@ -9,6 +9,8 @@ tags: [storia-architettura, bozza]
 # Gli ordini architettonici e il tempio greco
 
 > [!info] Note collegate
+> Sbobina: [[01-tempio-e-ordini]]
+>
 > Lezione: [[01 - Il tempio e gli ordini.pdf|Il tempio e gli ordini (PDF)]]
 >
 > Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]]

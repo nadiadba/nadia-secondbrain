@@ -24,13 +24,13 @@ Ancora da iniziare: le cartelle verranno create quando partono i corsi.
 
 ## Tutte le note in una tabella
 
-Apri [[tutte-le-note.base|Tutte le note]] per vedere le bozze in una tabella filtrabile per materia.
+Apri [[tutte-le-note.base|Tutte le note]] per vedere sbobine e bozze in una tabella filtrabile per materia.
 
 ## Come sono organizzati gli appunti
 
-Ogni materia ha una nota indice (quella che apri dai link qui sopra) e due tipi di contenuti:
+Ogni materia ha una nota indice (quella che apri dai link qui sopra) e queste cartelle:
 
 - **Lezioni finite**: i PDF che hai studiato e sistemato tu, direttamente nella cartella della materia.
-- **Bozze**: i riassunti dettagliati che Claude prepara da sbobina e slide, nella cartella `bozze`. Li studi, li sistemi fuori da Obsidian e li riporti come PDF tra le lezioni finite.
-
-Le registrazioni e le sbobine (`Documenti/Sbobine`) e il materiale dei corsi, cioe' slide e PDF (`Documenti/Materiale`), stanno fuori da qui, solo sul computer, e non vengono caricati su GitHub.
+- **Sbobine** (`sbobine`): le trascrizioni delle lezioni fatte da Memo Vocali.
+- **Materiale** (`materiale`): slide, PDF del corso e saggi. Resta solo sul computer e non viene caricato su GitHub.
+- **Bozze** (`bozze`): i riassunti dettagliati che Claude prepara da sbobina e slide. Li studi, li sistemi fuori da Obsidian e li riporti come PDF tra le lezioni finite.

@@ -9,6 +9,8 @@ tags: [storia-architettura, bozza]
 # La Grecia classica: l'Acropoli di Atene e il Partenone
 
 > [!info] Note collegate
+> Sbobina: [[02-grecia-antica-partenone]]
+>
 > Argomenti collegati: [[ordini-architettonici]] · [[roma-foro-fori-imperiali]]
 
 ## Introduzione: il concetto di "classico"

@@ -11,7 +11,7 @@ Obsidian e' il programma con cui leggi e consulti gli appunti. Questa cartella (
 
 - **Barra laterale sinistra**: l'icona delle cartelle mostra tutti i file (anno, semestre, materia). L'icona della lente cerca una parola in tutte le note contemporaneamente.
 - **Apertura rapida**: premi Cmd+O (Mac) o Ctrl+O (Windows), scrivi qualche lettera del nome della nota e premi Invio. E' il modo piu' veloce per spostarsi.
-- **Nota di partenza**: [[home]] elenca tutte le materie. Da ogni materia si arriva alle lezioni finite (i tuoi PDF) e alle bozze.
+- **Nota di partenza**: [[home]] elenca tutte le materie. Da ogni materia si arriva alle lezioni finite (i tuoi PDF), alle sbobine e alle bozze.
 - **Indice automatico della nota**: a destra, l'icona con le tre righe ("Struttura") mostra i titoli della nota aperta: cliccane uno per saltare a quel punto.
 - **Modifica e lettura**: in alto a destra c'e' un'icona (matita o libro) per passare dalla modalita' modifica alla modalita' lettura. Per studiare tieni la lettura.
 
@@ -24,10 +24,10 @@ I link tra note si scrivono con doppie parentesi quadre, per esempio `[[ordini-a
 
 ## 3. Le proprieta' (il blocco in cima a ogni nota)
 
-Ogni nota inizia con alcune informazioni: `tipo` (bozza, indice), `corso`, `anno`, `semestre`, `data`, `tags`. Obsidian le mostra come una tabellina in cima alla nota. Servono per filtrare e cercare:
+Ogni nota inizia con alcune informazioni: `tipo` (sbobina, bozza, indice), `corso`, `anno`, `semestre`, `data`, `tags`. Obsidian le mostra come una tabellina in cima alla nota. Servono per filtrare e cercare:
 
 - Clicca su un tag (per esempio `#storia-architettura`) per vedere tutte le note con quel tag.
-- La nota [[tutte-le-note.base|Tutte le note]] e' una **Base**: una tabella automatica di tutte le bozze, raggruppate per materia. Puoi ordinarla e filtrarla cliccando sulle intestazioni delle colonne.
+- La nota [[tutte-le-note.base|Tutte le note]] e' una **Base**: una tabella automatica di sbobine e bozze, raggruppate per materia. Puoi ordinarla e filtrarla cliccando sulle intestazioni delle colonne.
 
 ## 4. Elementi che trovi negli appunti
 
@@ -50,8 +50,8 @@ La prima volta serve dire a Obsidian dove stanno i modelli: Impostazioni, Plugin
 
 ## 6. Dalla registrazione alla lezione finita
 
-1. Copia la registrazione nella cartella della materia dentro `Documenti/Sbobine/audio` (per esempio `audio/storia-architettura`) e di' a Claude: "ho messo l'audio di storia del 15 ottobre, sbobinalo". Claude la trascrive (la trascrizione grezza va in `sbobine grezze`) e mette la sbobina sistemata in `sbobine sistemate`, sempre nella cartella della materia. Questa cartella resta solo sul computer e non si vede in Obsidian.
-2. Le slide e i PDF del corso vanno in `Documenti/Materiale/<materia>`: anche questa cartella resta solo sul computer e non si vede in Obsidian.
+1. Registra la lezione con *Memo Vocali* sull'iPhone: l'app fa da sola la trascrizione, che arriva anche sul Mac tramite iCloud. Copia la trascrizione nella cartella `sbobine` della materia (va bene anche un file di testo o incollarla in chat) e di' a Claude, per esempio: "ho messo la sbobina di storia del 15 ottobre". Claude le da' il nome giusto, la data e i collegamenti, senza cambiare il testo.
+2. Le slide e i PDF del corso vanno nella cartella `materiale` della materia: la vedi in Obsidian, ma resta solo sul computer e non viene caricata su GitHub.
 3. Quando vuoi studiare un argomento, chiedi a Claude la bozza: un riassunto dettagliato di sbobina e slide, che compare nella cartella `bozze` della materia.
 4. Studi la bozza, la sistemi a modo tuo fuori da Obsidian e la riporti come PDF: Claude la mette tra le lezioni finite, direttamente nella cartella della materia.
 

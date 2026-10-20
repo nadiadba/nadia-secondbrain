@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, bozza]
 Sintesi dei punti utili della prima lezione (giovedì 1 ottobre): cosa procurarsi per disegnare, i formati dei fogli e le regole fondamentali del disegno, prima di iniziare con le proiezioni.
 
 > [!info] Note collegate
+> Sbobina: [[01-strumenti-e-disegno]]
+>
 > Argomento successivo: [[proiezioni-e-omologia]]
 >
 > Altri corsi: [[introduzione-laboratorio]] (scale, piante e prospetti in Composizione)

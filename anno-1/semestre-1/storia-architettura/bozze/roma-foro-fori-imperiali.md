@@ -9,6 +9,8 @@ tags: [storia-architettura, bozza]
 # L'architettura romana: il Foro Romano e i Fori Imperiali
 
 > [!info] Note collegate
+> Sbobina: [[03-roma-foro-romano-fori-imperiali]]
+>
 > Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]] · [[ordini-architettonici]]
 
 ## Introduzione: il mondo romano e la sua architettura

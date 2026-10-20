@@ -9,6 +9,8 @@ tags: [storia-architettura, bozza]
 # La costruzione nel mondo antico
 
 > [!info] Note collegate
+> Sbobina: [[05-costruzione-mondo-antico]] · Visita: [[04-visita-via-appia]]
+>
 > Argomenti collegati: [[ordini-architettonici]] · [[roma-foro-fori-imperiali]]
 
 ## Introduzione: la storia della costruzione e le fonti

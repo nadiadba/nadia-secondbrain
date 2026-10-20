@@ -9,4 +9,4 @@ tags: [matematica, indice]
 # Matematica
 
 > [!warning] Da completare
-> Questa sezione e' ancora vuota. Quando arrivano le prime lezioni, le bozze vanno nella cartella `bozze` e le lezioni finite (PDF) direttamente qui, accanto a questa nota.
+> Questa sezione e' ancora vuota. Quando arrivano le prime lezioni, le sbobine vanno nella cartella `sbobine`, slide e PDF del corso in `materiale`, le bozze in `bozze` e le lezioni finite (PDF) direttamente qui, accanto a questa nota.

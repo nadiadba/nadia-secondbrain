@@ -14,6 +14,10 @@ Laboratorio del primo semestre: si lavora con plastici ed esercitazioni, prima a
 
 Ancora nessuna.
 
+## Sbobine
+
+1. [[01-introduzione-laboratorio|Lezione introduttiva al laboratorio]] (mar 29 settembre)
+
 ## Bozze
 
 - [[introduzione-laboratorio|Introduzione al laboratorio: come funziona il corso e le esercitazioni]]
