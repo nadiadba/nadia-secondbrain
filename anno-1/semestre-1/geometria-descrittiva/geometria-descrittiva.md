@@ -10,7 +10,7 @@ tags: [geometria-descrittiva, indice]
 
 Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 
-## Lezioni finite
+## Appunti (i tuoi PDF finiti)
 
 Ancora nessuna.
 

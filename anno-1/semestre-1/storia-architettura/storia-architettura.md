@@ -8,9 +8,9 @@ tags: [storia-architettura, indice]
 
 # Storia dell'architettura 1
 
-Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; da ogni sbobina, integrata con le slide del materiale, nasce una bozza di appunti, che diventa poi la lezione finita in PDF.
+Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; da ogni sbobina, integrata con le slide del materiale, nasce una bozza di appunti, che diventa poi l'appunto finito in PDF.
 
-## Lezioni finite
+## Appunti (i tuoi PDF finiti)
 
 1. [[01 - Il tempio e gli ordini.pdf|Il tempio e gli ordini]]
 

@@ -18,7 +18,7 @@ Questa cartella e' il **vault di Obsidian** di Nadia (la cartella principale del
 
 ### Struttura delle cartelle
 
-Tutto sta dentro il vault, materia per materia: sbobine, materiale, bozze e lezioni finite.
+Tutto sta dentro il vault, materia per materia: sbobine, materiale, bozze e appunti finiti.
 
 ```
 nadia-secondbrain/            ← vault di Obsidian (su GitHub)
@@ -33,11 +33,11 @@ nadia-secondbrain/            ← vault di Obsidian (su GitHub)
       semestre-1.md           ← indice del semestre
       storia-architettura/
         storia-architettura.md         ← nota indice della materia (stesso nome della cartella)
-        01 - Il tempio e gli ordini.pdf ← LEZIONI FINITE: PDF di Nadia, direttamente qui
         sbobine/              ← trascrizioni delle lezioni (01-tempio-e-ordini.md, ...): su git
         materiale/            ← slide, PDF del corso, saggi, Word: NON va su git (.gitignore)
         bozze/                ← riassunti dettagliati sbobina + slide, preparati da Claude
         bozze/img/            ← immagini usate nelle bozze
+        appunti/              ← APPUNTI FINITI: PDF di Nadia (01 - Il tempio e gli ordini.pdf)
       geometria-descrittiva/
       composizione-architettonica/
       matematica/
@@ -47,10 +47,10 @@ nadia-secondbrain/            ← vault di Obsidian (su GitHub)
 Regole sulla struttura:
 
 - Ogni materia sta in `anno-N/semestre-N/<materia>/`. Quando inizia un nuovo semestre, crea la cartella e la sua nota indice `semestre-N.md`, poi aggiorna `home.md`.
-- Dentro una materia ci sono solo: la nota indice, i PDF delle lezioni finite (direttamente nella cartella, non in una sottocartella), `sbobine/`, `materiale/` e `bozze/`. Non creare altre sottocartelle.
-- La **nota indice** di una materia ha lo stesso nome della cartella (es. `storia-architettura.md`) e ha tre sezioni: **Lezioni finite**, **Sbobine** (con la data) e **Bozze**. Ogni volta che aggiungi un file, aggiungilo alla nota indice nella sezione giusta con un wikilink e una riga di descrizione.
+- Dentro una materia ci sono solo: la nota indice, `sbobine/`, `materiale/`, `bozze/` e `appunti/`. Non creare altre sottocartelle e non lasciare file sciolti accanto alla nota indice.
+- La **nota indice** di una materia ha lo stesso nome della cartella (es. `storia-architettura.md`) e ha tre sezioni: **Appunti (i tuoi PDF finiti)**, **Sbobine** (con la data) e **Bozze**. Ogni volta che aggiungi un file, aggiungilo alla nota indice nella sezione giusta con un wikilink e una riga di descrizione.
 - `materiale/` e' ignorata da git (`.gitignore`): i file restano solo sul computer. Non committarla mai e non spostarne il contenuto.
-- Nomi file: minuscoli, senza accenti e senza spazi, parole separate da trattini (`arco-e-volta.md`). Le sbobine hanno un numero progressivo in ordine di data (`06-argomento.md`). Le lezioni finite sono i PDF di Nadia: tengono un numero progressivo e il titolo (`01 - Il tempio e gli ordini.pdf`). I file del materiale tengono il nome originale.
+- Nomi file: minuscoli, senza accenti e senza spazi, parole separate da trattini (`arco-e-volta.md`). Le sbobine hanno un numero progressivo in ordine di data (`06-argomento.md`). Gli appunti finiti sono i PDF di Nadia: tengono un numero progressivo e il titolo (`01 - Il tempio e gli ordini.pdf`). I file del materiale tengono il nome originale.
 - Un solo `# Titolo` in cima a ogni nota, dopo il blocco delle proprieta'.
 
 ### Materie del primo semestre (anno 1)
@@ -64,12 +64,12 @@ Regole sulla struttura:
 
 ## Il flusso di lavoro
 
-**trascrizione di Memo Vocali (in `sbobine/`) → bozza (in `bozze/`) → lezione finita (PDF di Nadia, nella materia)**
+**trascrizione di Memo Vocali (in `sbobine/`) → bozza (in `bozze/`) → appunto finito (PDF di Nadia, in `appunti/`)**
 
 1. Nadia registra la lezione con l'app Memo Vocali dell'iPhone, che produce da sola la trascrizione (sincronizzata sul Mac via iCloud). Nadia mette la trascrizione nella cartella `sbobine/` della materia: puo' essere un `.txt`, un `.md` o testo incollato in chat.
 2. Quando arriva una trascrizione nuova, Claude la trasforma in sbobina (vedi sotto) e la aggiunge alla nota indice.
 3. Quando Nadia lo chiede, Claude scrive la **bozza** usando direttamente la sbobina e le slide di `materiale/`. Sicuramente serve per Storia; per le altre materie solo se Nadia la chiede.
-4. Nadia studia la bozza, la rielabora fuori da Obsidian e riporta il risultato come PDF: Claude lo mette nella cartella della materia (fuori da `bozze/`) e lo aggiunge alle Lezioni finite della nota indice. La bozza resta dov'e' finche' Nadia non dice di toglierla.
+4. Nadia studia la bozza, la rielabora fuori da Obsidian e riporta il risultato come PDF: Claude lo mette in `appunti/` e lo aggiunge alla sezione Appunti della nota indice. La bozza resta dov'e' finche' Nadia non dice di toglierla.
 
 ### Sbobina (`sbobine/`, `tipo: sbobina`)
 
@@ -97,7 +97,7 @@ Una nota senza link e' un pallino isolato nel grafo di Obsidian. Ogni bozza e og
 
 ```markdown
 > [!info] Note collegate
-> Sbobina: [[01-tempio-e-ordini]] · Lezione finita: [[01 - Il tempio e gli ordini.pdf|Il tempio e gli ordini (PDF)]]
+> Sbobina: [[01-tempio-e-ordini]] · Appunti: [[01 - Il tempio e gli ordini.pdf|Il tempio e gli ordini (PDF)]]
 >
 > Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]]
 ```
@@ -193,7 +193,7 @@ Nadia appoggia slide, PDF e documenti in `materiale/` della materia e le trascri
 
 ### PDF
 
-- PDF delle lezioni finite (rielaborati da Nadia): mettili direttamente nella cartella della materia, con nome `NN - Titolo.pdf`, e linkali dalla nota indice in Lezioni finite. Restano PDF: non convertirli in testo (Obsidian li apre e permette di evidenziarli).
+- PDF degli appunti finiti (rielaborati da Nadia): mettili in `appunti/` della materia, con nome `NN - Titolo.pdf`, e linkali dalla nota indice nella sezione Appunti. Restano PDF: non convertirli in testo (Obsidian li apre e permette di evidenziarli).
 - PDF del corso, saggi, capitoli: leggili con lo strumento di lettura e usali come fonte per le bozze; il PDF resta in `materiale/`.
 
 ### Slide (.pptx, .pdf)

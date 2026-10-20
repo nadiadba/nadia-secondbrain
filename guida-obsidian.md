@@ -11,7 +11,7 @@ Obsidian e' il programma con cui leggi e consulti gli appunti. Questa cartella (
 
 - **Barra laterale sinistra**: l'icona delle cartelle mostra tutti i file (anno, semestre, materia). L'icona della lente cerca una parola in tutte le note contemporaneamente.
 - **Apertura rapida**: premi Cmd+O (Mac) o Ctrl+O (Windows), scrivi qualche lettera del nome della nota e premi Invio. E' il modo piu' veloce per spostarsi.
-- **Nota di partenza**: [[home]] elenca tutte le materie. Da ogni materia si arriva alle lezioni finite (i tuoi PDF), alle sbobine e alle bozze.
+- **Nota di partenza**: [[home]] elenca tutte le materie. Da ogni materia si arriva ai tuoi appunti (i PDF finiti), alle sbobine e alle bozze.
 - **Indice automatico della nota**: a destra, l'icona con le tre righe ("Struttura") mostra i titoli della nota aperta: cliccane uno per saltare a quel punto.
 - **Modifica e lettura**: in alto a destra c'e' un'icona (matita o libro) per passare dalla modalita' modifica alla modalita' lettura. Per studiare tieni la lettura.
 
@@ -48,17 +48,17 @@ Normalmente le note le prepara Claude a partire dalle registrazioni e dai materi
 
 La prima volta serve dire a Obsidian dove stanno i modelli: Impostazioni, Plugin principali, Modelli, cartella `modelli`.
 
-## 6. Dalla registrazione alla lezione finita
+## 6. Dalla registrazione agli appunti
 
 1. Registra la lezione con *Memo Vocali* sull'iPhone: l'app fa da sola la trascrizione, che arriva anche sul Mac tramite iCloud. Copia la trascrizione nella cartella `sbobine` della materia (va bene anche un file di testo o incollarla in chat) e di' a Claude, per esempio: "ho messo la sbobina di storia del 15 ottobre". Claude le da' il nome giusto, la data e i collegamenti, senza cambiare il testo.
 2. Le slide e i PDF del corso vanno nella cartella `materiale` della materia: la vedi in Obsidian, ma resta solo sul computer e non viene caricata su GitHub.
 3. Quando vuoi studiare un argomento, chiedi a Claude la bozza: un riassunto dettagliato di sbobina e slide, che compare nella cartella `bozze` della materia.
-4. Studi la bozza, la sistemi a modo tuo fuori da Obsidian e la riporti come PDF: Claude la mette tra le lezioni finite, direttamente nella cartella della materia.
+4. Studi la bozza, la sistemi a modo tuo fuori da Obsidian e la riporti come PDF: Claude la mette nella cartella `appunti` della materia.
 
 ## 7. Studiare al meglio
 
 - **Studio**: le *bozze* (il riassunto dettagliato di lezione e slide).
-- **Ripasso prima dell'esame**: le *lezioni finite*, i tuoi PDF, piu' la ricerca per parola quando non ricordi un termine.
+- **Ripasso prima dell'esame**: i tuoi *appunti* in PDF, piu' la ricerca per parola quando non ricordi un termine.
 - **Canvas**: con clic destro su una cartella puoi creare un *Canvas*, una lavagna dove trascinare note e immagini per costruire mappe concettuali (utile per collegare argomenti di Storia dell'architettura tra loro).
 - **Segnalibri**: clic destro su una nota, *Aggiungi ai segnalibri*, per tenere a portata di mano le note che stai studiando in questo periodo.
 

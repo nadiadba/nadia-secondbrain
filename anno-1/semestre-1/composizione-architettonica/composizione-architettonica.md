@@ -10,7 +10,7 @@ tags: [composizione-architettonica, indice]
 
 Laboratorio del primo semestre: si lavora con plastici ed esercitazioni, prima astratte e poi su piccoli progetti di case. Bellissime case.
 
-## Lezioni finite
+## Appunti (i tuoi PDF finiti)
 
 Ancora nessuna.
 
