@@ -9,7 +9,7 @@ tags: [geometria-descrittiva, sbobina]
 
 # Geometria descrittiva — Lezione di martedì 20 ottobre
 
-> Trascrizione sistemata della registrazione (trascrizione automatica di Memo Vocali). Il contenuto è fedele alle parole del docente: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
+> Trascrizione sistemata della registrazione (trascrizione automatica di Memo Vocali). Il contenuto è fedele alle parole del docente: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni fatte alla lavagna con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
 > Sbobina precedente: [[02-proiezioni-e-omologia]]
@@ -30,6 +30,15 @@ La retta orizzontale ha la caratteristica di avere la seconda proiezione paralle
 
 Quindi io posso disegnare una retta orizzontale, segnare un punto su questa retta orizzontale e disegnarne le proiezioni: ho disegnato un punto che appartiene al piano.
 
+> [!example] Il disegno alla lavagna
+> ![[03-punto-piano-generico-orizzontale.svg|620]]
+>
+> 1. Le due tracce del piano generico α partono dallo stesso punto della linea di terra: t₂α sopra, t₁α sotto.
+> 2. Si disegna o″, la seconda proiezione dell'orizzontale, parallela alla LT all'altezza che si vuole. Dove incontra t₂α c'è T₂ₒ″, la seconda traccia dell'orizzontale.
+> 3. Da T₂ₒ″ si scende con la linea di richiamo fino alla LT: lì c'è T₂ₒ′.
+> 4. Da T₂ₒ′ si traccia o′ parallela a t₁α. La prima traccia dell'orizzontale è all'infinito (T₁ₒ∞): per questo o′ è parallela alla prima traccia del piano.
+> 5. Si sceglie P″ su o″ e si scende con il richiamo fino a o′: lì c'è P′. P appartiene ad α perché sta su una retta di α.
+
 ## Un punto che appartiene ai piani proiettanti
 
 Ora, questa cosa naturalmente vale, l'abbiamo visto l'altra volta, anche per il piano proiettante in prima e per il piano proiettante in seconda. Il piano proiettante in prima è un piano verticale, e quello che abbiamo visto è che c'è una coincidenza — questo non ve lo dovete dimenticare — tra la prima proiezione di tutti gli elementi geometrici che appartengono al piano e la prima traccia.
@@ -39,6 +48,14 @@ Detto questo, vediamo anche il piano proiettante in seconda: non l'abbiamo diseg
 Quindi se io qui devo disegnare un punto, basterà semplicemente che io metta qui $P''$ [sulla seconda traccia], e poi devo stabilire dove collocare $P'$: ma posso metterlo qui, a qualunque distanza, e quello è un punto del piano.
 
 Per verificare che questo punto effettivamente appartiene al piano, che retta posso usare? Potrei usare per esempio una retta frontale. Perché una retta frontale? Perché in questo modo che cosa faccio? Costruisco una frontale, che ha la caratteristica di avere la prima proiezione parallela alla linea di terra, e faccio coincidere la prima traccia della retta con la prima traccia del piano. E qui che cosa succede? Questa è $T_2$, all'infinito in questa direzione. E naturalmente in questo modo il punto appartiene alla retta $f$.
+
+> [!example] Il disegno alla lavagna
+> ![[03-piano-proiettante-in-seconda-frontale.svg|620]]
+>
+> 1. Il piano β proiettante in seconda ha la prima traccia t₁β perpendicolare alla LT e la seconda traccia t₂β inclinata.
+> 2. Tutto ciò che sta su β ha la seconda proiezione sopra t₂β: quindi P″ si mette su t₂β, e P′ in un punto qualunque sulla stessa linea di richiamo.
+> 3. Per la verifica si usa la frontale f: f′ è parallela alla LT e passa per P′, e incontra t₁β in T₁f′.
+> 4. La seconda proiezione della frontale coincide con t₂β (f″ ≡ t₂β) e la sua seconda traccia è all'infinito (T₂f∞).
 
 ## Il piano rappresentato da una figura: la forma tecnica
 
@@ -61,6 +78,14 @@ Che cos'è questo punto? All'interno del modello, come lo chiamiamo? Sarebbe la 
 Ha un nome preciso: è la seconda proiezione della prima traccia. Ed è importante saperlo, perché non tutte le rette sono messe così: per esempio, anche per le ombre non è messa così, e come voi trovate due tracce sopra, due tracce sotto, se non conoscete questo punto non le visualizzate, le tracce non le trovate. Quel punto lì è la seconda proiezione della prima traccia. Questo è $T''_1$. Quindi se io so che quello è la seconda proiezione della prima traccia — poi il modello si apre e va giù — basta semplicemente fare una perpendicolare alla linea di terra e dove incontro la prima proiezione individuo $T_1$: a questo serve saperlo.
 
 Dopodiché, nel momento in cui io $r'$ la prolungo fino alla linea di terra, mi chiedo che cos'è questo punto. Perché ricordatevi una cosa, ragazzi: le tracce sono i punti in cui la retta buca i piani di proiezione, e le proiezioni delle tracce — prima, seconda, terza — finiscono sempre o sulla linea di terra o sulla retta [di proiezione]. Quindi quel punto lì come si chiamerà? È la prima proiezione della seconda traccia, $T'_2$. Quando vedete una retta così, in cui vedo tutte e due le proiezioni inclinate, quella è una retta generica.
+
+> [!example] Il disegno alla lavagna
+> ![[03-retta-generica-punti-notevoli.svg|620]]
+>
+> 1. Una retta generica ha tutte e due le proiezioni inclinate rispetto alla LT.
+> 2. Si prolunga r″ fino alla LT: il punto che si trova è T₁ᵣ″, la seconda proiezione della prima traccia.
+> 3. Da T₁ᵣ″ si scende con il richiamo fino a r′: lì c'è T₁ᵣ′, la prima traccia vera e propria, cioè dove la retta buca π₁.
+> 4. Allo stesso modo si prolunga r′ fino alla LT e si trova T₂ᵣ′, la prima proiezione della seconda traccia. Salendo con il richiamo fino a r″ si trova T₂ᵣ″.
 
 ## L'orizzontale nella figura piana
 
@@ -118,6 +143,16 @@ Quindi è inutile che io vada a cercare le tracce della terza retta, perché che
 
 Quindi che cosa faccio? Con il punto che ho e con questa direzione io costruisco la prima traccia del piano. Che caratteristica deve avere? La prima traccia deve passare per la prima traccia della frontale, ma deve anche contenere il punto all'infinito dell'orizzontale: cioè la retta $t_1\gamma$ deve passare per $T_1$ della frontale ed essere parallela a $o'$, per contenere il punto improprio. La stessa cosa per la seconda: deve passare per $T_2$ dell'orizzontale e deve essere parallela a $f''$. Perché? Perché così contiene la seconda traccia della frontale, che è all'infinito. Quindi quello è un piano generico che contiene questa figura, che poi a un certo punto scompare; potete anche colorare la figura per farla risaltare all'interno. Se mi servisse sapere qual è la vera forma di questa figura, dovrei fare delle operazioni che oggi non facciamo.
 
+> [!example] Il disegno alla lavagna
+> ![[03-triangolo-tracce-piano-generico.svg|620]]
+>
+> 1. Il triangolo ABC ha il lato AB orizzontale (A″B″ parallelo alla LT) e il lato AC frontale (A′C′ parallelo alla LT).
+> 2. Orizzontale o, per A e B: si prolunga o″ fino a incontrare la linea di richiamo che sale da dove o′ taglia la LT. Quel punto è T₂ₒ″, la seconda traccia dell'orizzontale; la prima traccia è all'infinito (T₁ₒ∞).
+> 3. Frontale f, per A e C: si prolunga f″ fino alla LT (T₁f″) e si scende con il richiamo fino a f′: lì c'è T₁f′, la prima traccia della frontale; la seconda è all'infinito (T₂f∞).
+> 4. t₂γ passa per T₂ₒ″ ed è parallela a f″, perché deve contenere il punto all'infinito della frontale.
+> 5. t₁γ passa per T₁f′ ed è parallela a o′, perché deve contenere il punto all'infinito dell'orizzontale.
+> 6. Controllo: le due tracce si incontrano sulla linea di terra.
+
 Viceversa, se voglio disegnare quella stessa figura appartenente a un piano proiettante in prima, quello che io so è che tutto quello che c'è sul piano ha la prima proiezione coincidente con la prima traccia. Quindi qualunque cosa io posso disegnare così, volendo, ma la prima proiezione fa questo. Questo era il disegno che avevo chiesto qua sopra, con l'orizzontale e la frontale; e questo sarà l'altro. Naturalmente anche qua sopra trovo comunque l'appartenenza al piano.
 
 Quindi, ripeto, la questione è che non è la figura di per sé a essere nel piano generico: la figura, a seconda di come l'ho piazzata — il triangolo — può essere messa in verticale, frontale, può essere messa in orizzontale, può essere messa nel piano proiettante in prima, può essere messa in posizione generica. Non è la figura in sé: la figura è un piano che, a seconda della posizione che assume all'interno del modello, è una cosa o un'altra. Tant'è che questa qui è una retta di profilo, qui invece non è una retta di profilo, perché il triangolo l'ho messo verticale, nel piano proiettante in prima. È chiaro? Questo è il concetto e non ve lo dovete dimenticare. Qui le condizioni di appartenenza sono ovviamente rispettate.
@@ -151,6 +186,14 @@ Adesso vi chiedo: se guardo questo frontale qua, se guardo questo piano messo in
 Nel frontale, che cosa vi dice qual è quella vera? La seconda proiezione: quello è il piano frontale di cui stiamo parlando, per cui tutti gli elementi si proiettano in vera grandezza su $\pi_2$. La figura è la stessa: è una vera e propria traslazione, intesa come rapporto omologico tra due figure, perché noi abbiamo due piani che sono paralleli — quello che contiene la figura e quello su cui si proietta la figura — e un centro di proiezione. Quindi a quel punto andiamo all'infinito: l'asse dell'omologia è all'infinito e il centro è all'infinito, quindi la figura si riproduce esattamente. Quindi questa qui sarà la $t_1\gamma$, e qui segno subito $t_2\gamma$ all'infinito. Ricordatevi che vi ho detto di mettere sempre la prima e la seconda traccia, anche se si sovrappongono: mettendole vicine vedo immediatamente che quello è il frontale.
 
 Qual è l'altra configurazione in cui ho le dimensioni precise di quello che ho disegnato? Il piano orizzontale, come nella pianta, quindi la prima proiezione. E poi la terza, il piano di profilo: sono le cose che utilizziamo di più proprio in architettura. Però non è che tutte le cose che noi disegniamo siano ad angolo retto, e quindi abbiamo questa, per esempio, che è una configurazione in cui c'è un accorciamento della dimensione, almeno per la lunghezza. Questo come si chiama? Su questa cosa torniamo la prossima volta, anche perché queste poi sono le cose del compito.
+
+> [!example] Il disegno: lo stesso triangolo in quattro posizioni
+> ![[03-triangolo-quattro-posizioni.svg|620]]
+>
+> 1. Piano orizzontale: la seconda proiezione del triangolo si riduce a un segmento parallelo alla LT (su t₂γ). La prima proiezione è in vera forma, come in una pianta.
+> 2. Piano proiettante in seconda: A″, B″ e C″ stanno su t₂β, inclinata; t₁β è perpendicolare alla LT. Nessuna delle due proiezioni è in vera forma.
+> 3. Piano proiettante in prima: A′, B′ e C′ stanno su t₁δ, inclinata; t₂δ è perpendicolare alla LT.
+> 4. Piano frontale: la prima proiezione si riduce a un segmento parallelo alla LT (su t₁ε) e la seconda proiezione è in vera forma, come in un prospetto.
 
 Quindi ricordate: potete collocare una figura in diverse posizioni rispetto ai tre piani. Naturalmente questa l'avrei potuta mettere anche in un piano generico.
 
@@ -188,6 +231,14 @@ Questo argomento non è difficile, anzi è più semplice: quando una retta è pe
 
 Cosa significa? Io devo disegnare una retta $r$ perpendicolare a questo piano $\alpha$: basta che io costruisca la $r''$ perpendicolare a $t_2\alpha$ e la $r'$ perpendicolare a $t_1\alpha$. Questa sarà la $r''$, questa la $r'$; non vi interessano adesso le tracce. Questa è una perpendicolarità tra una retta esterna e un piano, come ci potrebbe essere perpendicolarità con rette che appartengono al piano. Il piano qui è inclinato, e io sto dicendo come faccio a costruire una perpendicolare a questo piano. Monge ci dice: guarda che, se le proiezioni della retta sono perpendicolari alle tracce, la retta è perpendicolare al piano.
 
+> [!example] Il disegno alla lavagna
+> ![[03-retta-perpendicolare-al-piano.svg|620]]
+>
+> 1. Si parte da un punto P esterno al piano α, con le sue due proiezioni P″ e P′.
+> 2. Da P″ si traccia r″ perpendicolare a t₂α.
+> 3. Da P′ si traccia r′ perpendicolare a t₁α.
+> 4. Per il teorema di Monge la retta r così costruita è perpendicolare al piano α.
+
 ## La perpendicolarità tra due piani
 
 Bene: quando è che due piani sono perpendicolari tra di loro? Due piani sono perpendicolari tra di loro se uno dei due contiene una retta perpendicolare all'altro.
@@ -204,6 +255,13 @@ Devo costruire per un piano una retta perpendicolare a $\gamma$, in modo da dimo
 
 Allora: due piani sono perpendicolari tra loro, e lo sono perché le prime tracce del piano sono perpendicolari. Qui riprendo una bella orizzontale, che forma con l'altro piano 90°, e ci siamo. Quindi non c'era bisogno di queste dimostrazioni, perché nel caso dei piani proiettanti in prima è un dato di fatto che sono perpendicolari tra loro se le prime tracce formano un angolo di 90°.
 
+> [!example] Il disegno alla lavagna
+> ![[03-piani-proiettanti-perpendicolari.svg|620]]
+>
+> 1. Due piani proiettanti in prima, γ e δ, hanno le seconde tracce perpendicolari alla LT.
+> 2. Sono perpendicolari tra loro se le prime tracce t₁γ e t₁δ formano un angolo retto, come il quaderno aperto in piedi sul banco.
+> 3. Verifica: in δ si prende la retta r con r′ ≡ t₁δ e r″ parallela alla LT (è un'orizzontale). r′ è perpendicolare a t₁γ e r″ è perpendicolare a t₂γ, quindi r è perpendicolare a γ. Un piano che contiene una retta perpendicolare all'altro è perpendicolare all'altro.
+
 ## Un piano perpendicolare a un piano generico
 
 Andiamo un attimo avanti con un'altra cosa; torniamo un momento qua. Secondo voi, come si fa un piano perpendicolare a un piano generico? È chiaro che io posso disegnare un piano generico perpendicolare al generico, sicuramente, però è abbastanza complicato. Quello che sto per fare è utile a un'operazione precisa.
@@ -216,6 +274,13 @@ Io so che in questo caso $\alpha$ è perpendicolare a $\gamma$. Come faccio a di
 
 Allora, adesso devo dimostrare che sono perpendicolari tra di loro. Per esempio, se io su un piano prendo una retta, prendo un'orizzontale: per appartenere ad $\alpha$, in prima proiezione deve essere definita in questa direzione [parallela alla prima traccia]. Come vedete questa cosa è semplice, facile, perché anche usando i piani ausiliari io posso dimostrare la perpendicolarità. Quindi non è che dovete dire "uso il proiettante in prima" così, in maniera acritica: uso il proiettante in prima in maniera cosciente, cioè con la condizione che la sua prima traccia sia perpendicolare alla prima traccia di $\alpha$, e quando disegno l'orizzontale vedo che quella retta effettivamente è perpendicolare.
 
+> [!example] Il disegno alla lavagna
+> ![[03-piano-perpendicolare-al-generico.svg|620]]
+>
+> 1. Per avere un piano facile perpendicolare al generico α si usa un piano ausiliario γ proiettante in prima.
+> 2. Condizione: t₁γ perpendicolare a t₁α. t₂γ è perpendicolare alla LT, come in ogni proiettante in prima.
+> 3. Verifica: si prende in γ una retta r. Essendo γ proiettante in prima, r′ coincide con t₁γ ed è quindi perpendicolare a t₁α. Si sceglie r″ perpendicolare a t₂α: per Monge r è perpendicolare ad α, e γ, che la contiene, è perpendicolare ad α.
+
 ## La perpendicolare a un piano con l'orizzontale e la frontale
 
 Che cosa succede se devo dimostrare la perpendicolarità senza le tracce? Perché se io non ho le tracce, devo comunque, anche senza tracce del piano, poter costruire la retta perpendicolare al piano. Quindi devo ricorrere alla prima cosa che ho detto, cioè che una retta è perpendicolare a un piano quando è perpendicolare a due rette del piano. Naturalmente le rette che mi vengono in soccorso sono l'orizzontale e la frontale. Per quale motivo?
@@ -223,6 +288,14 @@ Che cosa succede se devo dimostrare la perpendicolarità senza le tracce? Perch�
 Io posso dire che una retta è perpendicolare a questo piano se è perpendicolare a una retta del piano e a un'altra retta del piano. Per quella retta io posso costruire un piano perpendicolare al piano, perché qui faccio il piano [ausiliario] come nel caso di prima; e se prendo una frontale, la stessa cosa. Anche in questo caso, quindi, la retta è perpendicolare perché è perpendicolare a due rette del piano. Ma quello che voi vedete lì è una cosa molto particolare, e cioè che io posso costruire queste famose due perpendicolari alle rette del piano imponendo un angolo retto tra la prima proiezione della retta e l'orizzontale [e tra la seconda proiezione e la frontale]. Perché, guardate, una retta è perpendicolare a un piano se è possibile tracciare per essa un piano perpendicolare [al piano dato]. Tutto questo noi lo riprendiamo la prossima volta, comunque riguardatelo, perché ci serve per il ribaltamento.
 
 Che cosa ho fatto qua? Ho detto: prendiamo l'orizzontale, che è una retta del piano, e la perpendicolarità è verificata tra la retta e il piano. Perché? Perché per la retta posso tracciare un piano perpendicolare al piano dato. Se io faccio passare per la retta un piano $\beta$ proiettante in seconda, la seconda proiezione della retta coincide con la seconda traccia di $\beta$, e la traccia è perpendicolare a $f''$; dopodiché la $r'$ è perpendicolare alla $o'$: è verificata la prima cosa che ho detto, la perpendicolarità tra retta e piano. Se costruisco un'orizzontale del piano, la retta e l'orizzontale sono perpendicolari tra di loro, perché per $r$ posso costruire un piano che risulta perpendicolare: costruisco il piano $\delta$ proiettante in prima, per cui $r'$ coincide con la prima traccia, e quindi le proiezioni della retta risultano perpendicolari.
+
+> [!example] Il disegno alla lavagna
+> ![[03-perpendicolare-con-orizzontale-e-frontale.svg|620]]
+>
+> 1. Il piano è dato dal triangolo ABC, senza tracce. Le rette che aiutano sono l'orizzontale o (per A e B) e la frontale f (per A e C).
+> 2. Dal punto Q si traccia r′ perpendicolare a o′, la prima proiezione dell'orizzontale.
+> 3. Si traccia r″ perpendicolare a f″, la seconda proiezione della frontale.
+> 4. Così r è perpendicolare a due rette del piano, quindi al piano. Il motivo è che le tracce di un piano sono parallele alle proiezioni "vere" delle sue orizzontali e frontali: t₁ ∥ o′ e t₂ ∥ f″.
 
 Quindi questo disegno fatelo a colori. Queste condizioni sono più facili di quello che sembra, perché sono tutte collegate: basta ricordarsele. Non è che ci sono dei libri che partono dalla teoria e poi disegnano direttamente; dovete capire voi l'esito.
 
@@ -239,6 +312,12 @@ O voi questa cosa non la fate, non fate esattamente quello che io dico. Vi dico 
 Se avete disegnato la figura e la prima proiezione della figura, che va a finire qua, a terra, c'è la prima traccia. Le rotazioni intorno a che cosa possono avvenire? Intorno alle tracce. Domanda, guardatemi: se voi fate ruotare il cartoncino — questa è la domanda che pongo — l'altezza dei punti in questa rotazione varia? Cioè, quando voi ruotate, i punti danzano così sul foglio? No, l'altezza è quella: quindi la quota rimane quella.
 
 Vi faccio ancora un'altra domanda. Questi punti compiono degli archi di circonferenza, giusto, facendo questo? Ora, tutti i punti di quel cartoncino descrivono un arco di circonferenza. L'arco di circonferenza si trova rispetto alla traccia come? È perpendicolare, esattamente. In questa rotazione ogni punto fa un arco di circonferenza che sta su un piano perpendicolare all'asse di rotazione, come nel vostro quaderno: la spirale è bloccata nel movimento, e il movimento è quello che va a destra… [la registrazione si interrompe qui]
+
+> [!example] Il disegno: il piano mobile del modellino
+> 1. Sul modellino si fissa un piano proiettante in prima, piegato alla base in modo che possa ruotare intorno alla sua prima traccia, che fa da cerniera.
+> 2. Sul piano si disegna un triangolo. Finché il piano è inclinato, la proiezione del triangolo su π₁ non è in vera grandezza: lati e angoli sono deformati.
+> 3. Ruotando il piano intorno alla traccia fino a farlo coincidere con π₁ (il ribaltamento), il triangolo compare nella sua vera forma.
+> 4. Durante la rotazione ogni punto del triangolo descrive un arco di circonferenza, che sta su un piano perpendicolare alla traccia (l'asse di rotazione). Per questo, nel disegno, i punti ribaltati si trovano sulle perpendicolari alla traccia.
 
 > [!tip] Avvisi
 > - Rifare a casa, a mano libera e poi con precisione, il disegno del triangolo con un lato orizzontale e uno frontale: trovare le tracce del piano generico che lo contiene e ridisegnare la stessa figura in un piano proiettante in prima.
