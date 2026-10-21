@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 366" width="690" height="366">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Retta r parallela alla LT: i piani che la contengono</text>
+<g transform="translate(0,36)">
+<text x="15" y="18" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">piano α parallelo alla linea di terra</text>
+<line x1="15.0" y1="160.0" x2="335.0" y2="160.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="17.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="215.0" y1="20.0" x2="215.0" y2="300.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="221.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="17.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="17.0" y="300.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<line x1="30.0" y1="110.0" x2="215.0" y2="110.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="30.0" y="102.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″</text>
+<line x1="30.0" y1="200.0" x2="215.0" y2="200.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="30.0" y="216.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<path d="M 215.0,200.0 L 217.6,199.9 L 220.2,199.7 L 222.8,199.2 L 225.4,198.6 L 227.9,197.9 L 230.3,197.0 L 232.7,195.9 L 235.0,194.6 L 237.2,193.3 L 239.4,191.7 L 241.4,190.1 L 243.3,188.3 L 245.1,186.4 L 246.7,184.4 L 248.3,182.2 L 249.6,180.0 L 250.9,177.7 L 252.0,175.3 L 252.9,172.9 L 253.6,170.4 L 254.2,167.8 L 254.7,165.2 L 254.9,162.6 L 255.0,160.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="255.0" y1="160.0" x2="255.0" y2="110.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="20.0" y1="60.0" x2="215.0" y2="60.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="20.0" y="52.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="20.0" y1="240.0" x2="215.0" y2="240.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="20.0" y="258.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<path d="M 215.0,240.0 L 220.2,239.8 L 225.4,239.3 L 230.6,238.5 L 235.7,237.3 L 240.7,235.8 L 245.6,233.9 L 250.4,231.7 L 255.0,229.3 L 259.4,226.5 L 263.7,223.5 L 267.7,220.1 L 271.6,216.6 L 275.1,212.7 L 278.5,208.7 L 281.5,204.4 L 284.3,200.0 L 286.7,195.4 L 288.9,190.6 L 290.8,185.7 L 292.3,180.7 L 293.5,175.6 L 294.3,170.4 L 294.8,165.2 L 295.0,160.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="215.0" y1="60.0" x2="295.0" y2="160.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="301.0" y="176.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>α</text>
+<circle cx="255.0" cy="110.0" r="2.8" fill="#c0392b"/>
+<text x="263.0" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r‴ ≡ T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan></text>
+<text x="360" y="18" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">piano frontale φ</text>
+<line x1="360.0" y1="160.0" x2="680.0" y2="160.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="560.0" y1="20.0" x2="560.0" y2="300.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="566.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="362.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="362.0" y="300.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<line x1="375.0" y1="110.0" x2="560.0" y2="110.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="375.0" y="102.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″</text>
+<line x1="375.0" y1="200.0" x2="560.0" y2="200.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="375.0" y="216.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<path d="M 560.0,200.0 L 562.6,199.9 L 565.2,199.7 L 567.8,199.2 L 570.4,198.6 L 572.9,197.9 L 575.3,197.0 L 577.7,195.9 L 580.0,194.6 L 582.2,193.3 L 584.4,191.7 L 586.4,190.1 L 588.3,188.3 L 590.1,186.4 L 591.7,184.4 L 593.3,182.2 L 594.6,180.0 L 595.9,177.7 L 597.0,175.3 L 597.9,172.9 L 598.6,170.4 L 599.2,167.8 L 599.7,165.2 L 599.9,162.6 L 600.0,160.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="600.0" y1="160.0" x2="600.0" y2="110.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="365.0" y1="200.0" x2="560.0" y2="200.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="455.0" y="218.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>φ ≡ r′</text>
+<text x="420.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>φ∞</text>
+<line x1="600.0" y1="160.0" x2="600.0" y2="30.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="606.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>φ</text>
+<circle cx="600.0" cy="110.0" r="2.8" fill="#c0392b"/>
+<text x="608.0" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r‴ ≡ T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan></text>
+</g>
+</svg>

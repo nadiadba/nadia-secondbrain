@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 466" width="660" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Triangolo ABC nel piano proiettante in seconda α</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="200.0" x2="640.0" y2="200.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="194.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="430.0" y1="15.0" x2="430.0" y2="385.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="150.0" y1="200.0" x2="430.0" y2="26.4" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="380.0" y="18.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="150.0" y1="200.0" x2="150.0" y2="375.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="158.0" y="379.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="430.0" y1="26.4" x2="630.0" y2="26.4" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="600.0" y="18.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="280.0" y1="119.4" x2="280.0" y2="240.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="280.0" y1="240.0" x2="430.0" y2="240.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<path d="M 430.0 240.0 A 40.0 40.0 0 0 0 470.0 200.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="470.0" y1="200.0" x2="470.0" y2="119.4" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="280.0" y1="119.4" x2="470.0" y2="119.4" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="280.0" y1="119.4" x2="280.0" y2="320.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="280.0" y1="320.0" x2="430.0" y2="320.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<path d="M 430.0 320.0 A 120.0 120.0 0 0 0 550.0 200.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="550.0" y1="200.0" x2="550.0" y2="119.4" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="280.0" y1="119.4" x2="550.0" y2="119.4" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="360.0" y1="69.8" x2="360.0" y2="270.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="360.0" y1="270.0" x2="430.0" y2="270.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<path d="M 430.0 270.0 A 70.0 70.0 0 0 0 500.0 200.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="500.0" y1="200.0" x2="500.0" y2="69.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="360.0" y1="69.8" x2="500.0" y2="69.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<polygon points="280.0,240.0 280.0,320.0 360.0,270.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<line x1="280.0" y1="119.4" x2="360.0" y2="69.8" stroke="#2563a8" stroke-width="4" stroke-linecap="round"/>
+<polygon points="470.0,119.4 550.0,119.4 500.0,69.8" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<circle cx="280.0" cy="240.0" r="2.8" fill="#1f1f1f"/>
+<text x="256.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A′</text>
+<circle cx="280.0" cy="320.0" r="2.8" fill="#1f1f1f"/>
+<text x="256.0" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B′</text>
+<circle cx="360.0" cy="270.0" r="2.8" fill="#1f1f1f"/>
+<text x="368.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C′</text>
+<circle cx="280.0" cy="119.4" r="2.8" fill="#1f1f1f"/>
+<text x="216.0" y="111.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A″ ≡ B″</text>
+<circle cx="360.0" cy="69.8" r="2.8" fill="#1f1f1f"/>
+<text x="350.0" y="57.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C″</text>
+<circle cx="470.0" cy="119.4" r="2.8" fill="#1f1f1f"/>
+<text x="456.0" y="139.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A‴</text>
+<circle cx="550.0" cy="119.4" r="2.8" fill="#1f1f1f"/>
+<text x="552.0" y="139.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B‴</text>
+<circle cx="500.0" cy="69.8" r="2.8" fill="#1f1f1f"/>
+<text x="508.0" y="63.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C‴</text>
+<text x="20" y="422" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">A‴B‴ è parallelo alla LT: A e B hanno la stessa quota, AB è una retta proiettante in seconda</text>
+</g>
+</svg>

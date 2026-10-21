@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" width="700" height="360">
+<rect width="100%" height="100%" fill="#ffffff"/>
+
+<g transform="translate(0,0)">
+<text x="20" y="22" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#444">centro proprio: proiezione centrale</text>
+<polygon points="256.2,312.5 256.2,92.5 323.8,47.5 323.8,267.5" fill="#8a8a8a" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1.8"/>
+<text x="216.2" y="330.5" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">piano di quadro</text>
+<line x1="40.0" y1="180.0" x2="264.0" y2="274.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="40.0" y1="180.0" x2="264.0" y2="120.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="40.0" y1="180.0" x2="316.0" y2="85.8" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="40.0" y1="180.0" x2="316.0" y2="239.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="156.5,229.0 156.5,149.0 183.5,131.0 183.5,211.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="264.0,274.2 264.0,120.4 316.0,85.8 316.0,239.6" fill="#2e8b57" fill-opacity="0.12" stroke="#2e8b57" stroke-width="1.8"/>
+<text x="142.5" y="243.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2563a8" font-style="italic">A</text>
+<text x="268.0" y="288.2" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">A′</text>
+<text x="142.5" y="145.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2563a8" font-style="italic">B</text>
+<text x="238.0" y="116.4" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">B′</text>
+<text x="187.5" y="127.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2563a8" font-style="italic">C</text>
+<text x="320.0" y="81.8" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">C′</text>
+<text x="187.5" y="225.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2563a8" font-style="italic">D</text>
+<text x="320.0" y="253.6" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">D′</text>
+<circle cx="40.0" cy="180.0" r="2.8" fill="#1f1f1f"/>
+<text x="34.0" y="170.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">S</text>
+<text x="375" y="22" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#444">centro improprio: proiezione cilindrica</text>
+<polygon points="571.2,312.5 571.2,92.5 638.8,47.5 638.8,267.5" fill="#8a8a8a" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1.8"/>
+<text x="531.2" y="330.5" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">piano di quadro</text>
+<line x1="371.5" y1="229.0" x2="591.5" y2="229.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="371.5" y1="149.0" x2="591.5" y2="149.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="398.5" y1="131.0" x2="618.5" y2="131.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="398.5" y1="211.0" x2="618.5" y2="211.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="471.5,229.0 471.5,149.0 498.5,131.0 498.5,211.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="591.5,229.0 591.5,149.0 618.5,131.0 618.5,211.0" fill="#2e8b57" fill-opacity="0.12" stroke="#2e8b57" stroke-width="1.8"/>
+<text x="457.5" y="243.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2563a8" font-style="italic">A</text>
+<text x="595.5" y="243.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">A′</text>
+<text x="457.5" y="145.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2563a8" font-style="italic">B</text>
+<text x="565.5" y="145.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">B′</text>
+<text x="502.5" y="127.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2563a8" font-style="italic">C</text>
+<text x="622.5" y="127.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">C′</text>
+<text x="502.5" y="225.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2563a8" font-style="italic">D</text>
+<text x="622.5" y="225.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">D′</text>
+<text x="375.0" y="260.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">S<tspan dy="4" font-size="70%">∞</tspan><tspan dy="-4"></tspan>: raggi paralleli</text>
+</g>
+</svg>

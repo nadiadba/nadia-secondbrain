@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 336" width="690" height="336">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">I piani che contengono una retta frontale f</text>
+<g transform="translate(0,36)">
+<text x="15" y="18" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">piano frontale β</text>
+<line x1="15.0" y1="150.0" x2="220.0" y2="150.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="17.0" y="144.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="95.0" y1="150.0" x2="95.0" y2="220.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="20.0" y1="220.0" x2="215.0" y2="220.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="151.0" y="238.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>β ≡ f′</text>
+<text x="25.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>β∞</text>
+<line x1="95.0" y1="220.0" x2="215.0" y2="220.0" stroke="#2e8b57" stroke-width="1.8" stroke-linecap="round"/>
+<text x="201.0" y="212.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">f′</text>
+<line x1="95.0" y1="150.0" x2="189.2" y2="46.4" stroke="#2e8b57" stroke-width="1.4" stroke-linecap="round"/>
+<text x="195.2" y="50.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">f″</text>
+<circle cx="95.0" cy="220.0" r="2.8" fill="#1f1f1f"/>
+<text x="47.0" y="212.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan>′</text>
+<circle cx="95.0" cy="150.0" r="2.8" fill="#1f1f1f"/>
+<text x="47.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan>″</text>
+<text x="245" y="18" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">piano generico α</text>
+<line x1="245.0" y1="150.0" x2="450.0" y2="150.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="325.0" y1="150.0" x2="325.0" y2="220.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="265.0" y1="150.0" x2="349.6" y2="248.7" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="353.6" y="258.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="265.0" y1="150.0" x2="359.2" y2="46.4" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="325.2" y="50.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="325.0" y1="220.0" x2="445.0" y2="220.0" stroke="#2e8b57" stroke-width="1.8" stroke-linecap="round"/>
+<text x="431.0" y="238.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">f′</text>
+<line x1="325.0" y1="150.0" x2="419.2" y2="46.4" stroke="#2e8b57" stroke-width="1.4" stroke-linecap="round"/>
+<text x="425.2" y="50.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">f″</text>
+<circle cx="325.0" cy="220.0" r="2.8" fill="#1f1f1f"/>
+<text x="277.0" y="236.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan>′</text>
+<circle cx="325.0" cy="150.0" r="2.8" fill="#1f1f1f"/>
+<text x="331.0" y="166.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan>″</text>
+<text x="475" y="18" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">piano proiettante in seconda γ</text>
+<line x1="475.0" y1="150.0" x2="680.0" y2="150.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="555.0" y1="150.0" x2="555.0" y2="220.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="555.0" y1="150.0" x2="555.0" y2="275.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="561.0" y="279.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>γ</text>
+<line x1="555.0" y1="150.0" x2="649.2" y2="46.4" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="569.2" y="46.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>γ ≡ f″</text>
+<line x1="555.0" y1="220.0" x2="675.0" y2="220.0" stroke="#2e8b57" stroke-width="1.8" stroke-linecap="round"/>
+<text x="661.0" y="238.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">f′</text>
+<line x1="555.0" y1="150.0" x2="649.2" y2="46.4" stroke="#2e8b57" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="555.0" cy="220.0" r="2.8" fill="#1f1f1f"/>
+<text x="507.0" y="236.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan>′</text>
+<circle cx="555.0" cy="150.0" r="2.8" fill="#1f1f1f"/>
+<text x="507.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan>″</text>
+</g>
+</svg>

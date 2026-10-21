@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 336" width="690" height="336">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Retta r proiettante in seconda: i piani che la contengono</text>
+<g transform="translate(0,36)">
+<text x="15" y="18" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">piano proiettante in seconda β</text>
+<line x1="15.0" y1="150.0" x2="220.0" y2="150.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="17.0" y="144.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="125.0" y1="150.0" x2="125.0" y2="270.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="131.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<text x="79.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>∞</text>
+<line x1="125.0" y1="80.0" x2="125.0" y2="150.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="75.0" y1="150.0" x2="138.9" y2="60.5" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="142.9" y="64.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>β</text>
+<line x1="75.0" y1="150.0" x2="75.0" y2="270.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="45.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>β</text>
+<line x1="84.0" y1="150.0" x2="84.0" y2="159.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="84.0" y1="159.0" x2="75.0" y2="159.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<circle cx="125.0" cy="80.0" r="2.8" fill="#c0392b"/>
+<text x="135.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″ ≡ T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>″</text>
+<text x="245" y="18" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">piano orizzontale γ</text>
+<line x1="245.0" y1="150.0" x2="450.0" y2="150.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="355.0" y1="150.0" x2="355.0" y2="270.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="361.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<text x="309.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>∞</text>
+<line x1="355.0" y1="80.0" x2="355.0" y2="150.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="255.0" y1="80.0" x2="445.0" y2="80.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="417.0" y="72.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>γ</text>
+<text x="395.0" y="245.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>γ∞</text>
+<circle cx="355.0" cy="80.0" r="2.8" fill="#c0392b"/>
+<text x="365.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″ ≡ T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>″</text>
+<text x="475" y="18" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">piano di profilo δ</text>
+<line x1="475.0" y1="150.0" x2="680.0" y2="150.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="585.0" y1="150.0" x2="585.0" y2="270.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="539.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>∞</text>
+<line x1="585.0" y1="80.0" x2="585.0" y2="150.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="585.0" y1="150.0" x2="585.0" y2="40.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="591.0" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>δ</text>
+<line x1="585.0" y1="150.0" x2="585.0" y2="270.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="585.0" y1="150.0" x2="585.0" y2="270.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="593.0" y="214.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>δ ≡ r′</text>
+<circle cx="585.0" cy="80.0" r="2.8" fill="#c0392b"/>
+<text x="595.0" y="72.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″ ≡ T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>″</text>
+</g>
+</svg>
