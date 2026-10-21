@@ -14,15 +14,15 @@
 <line x1="268.5" y1="253.7" x2="265.7" y2="245.1" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="265.7" y1="245.1" x2="257.2" y2="248.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="310.0" y1="24.1" x2="231.8" y2="127.9" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
-<text x="314.0" y="38.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″</text>
+<text x="314.0" y="38.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂</text>
 <line x1="271.1" y1="289.7" x2="237.8" y2="190.0" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
-<text x="279.1" y="303.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′ ≡ t₁γ</text>
+<text x="279.1" y="303.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₁ ≡ t₁γ</text>
 <line x1="291.7" y1="63.4" x2="286.3" y2="70.6" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="286.3" y1="70.6" x2="279.1" y2="65.1" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="267.9" y1="80.0" x2="267.9" y2="280.2" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="267.9" cy="80.0" r="2.8" fill="#c0392b"/>
-<text x="243.9" y="76.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P″</text>
+<text x="243.9" y="76.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P₂</text>
 <circle cx="267.9" cy="280.2" r="2.8" fill="#c0392b"/>
-<text x="243.9" y="286.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P′</text>
+<text x="243.9" y="286.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P₁</text>
 </g>
 </svg>

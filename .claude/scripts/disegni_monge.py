@@ -202,3 +202,145 @@ def _etichetta(s):
         else:
             out.append(_escape(parte))
     return "".join(out)
+
+
+# ---------- vista nello spazio: il triedro in assonometria ----------
+
+class Triedro:
+    """Vista nello spazio dei tre piani di proiezione (come alla lavagna).
+
+    Lo spigolo comune ai tre piani e' nel punto (X3, 0, 0): pi3 e' il piano x = X3,
+    la LT scende verso sinistra, l'asse dell'aggetto (pi1 ∩ pi3) verso destra, la quota in alto.
+    I punti si danno con le stesse coordinate (x, aggetto, quota) degli schemi di Monge.
+    """
+
+    def __init__(self, fig, origine, X3, U, Y, Z, scala=1.0):
+        self.f, self.o, self.X3, self.U, self.Y, self.Z, self.k = fig, origine, X3, U, Y, Z, scala
+        self.c, self.s = math.cos(math.radians(30)), math.sin(math.radians(30))
+
+    def _p(self, p):
+        """Punto 3D -> coordinate SVG assolute."""
+        u = (self.X3 - p[0]) * self.k
+        y, z = p[1] * self.k, p[2] * self.k
+        return (self.o[0] - u * self.c + y * self.c, self.o[1] + u * self.s + y * self.s - z)
+
+    def _linea(self, a, b, colore, spessore, tratteggio=None):
+        (x1, y1), (x2, y2) = self._p(a), self._p(b)
+        dash = f' stroke-dasharray="{tratteggio}"' if tratteggio else ""
+        self.f.parti.append(
+            f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" '
+            f'stroke="{COLORI.get(colore, colore)}" stroke-width="{spessore}"{dash} stroke-linecap="round"/>')
+
+    def _poligono(self, punti, colore, opacita=0.12, bordo=None):
+        pts = " ".join("{:.1f},{:.1f}".format(*self._p(p)) for p in punti)
+        c = COLORI.get(colore, colore)
+        b = f' stroke="{COLORI.get(bordo, bordo)}" stroke-width="1"' if bordo else ' stroke="none"'
+        self.f.parti.append(f'<polygon points="{pts}" fill="{c}" fill-opacity="{opacita}"{b}/>')
+
+    def _rettangoli(self):
+        X3, U, Y, Z = self.X3, self.U, self.Y, self.Z
+        x0 = X3 - U
+        return {
+            1: [(x0, 0, 0), (X3, 0, 0), (X3, Y, 0), (x0, Y, 0)],
+            2: [(x0, 0, 0), (X3, 0, 0), (X3, 0, Z), (x0, 0, Z)],
+            3: [(X3, 0, 0), (X3, Y, 0), (X3, Y, Z), (X3, 0, Z)],
+        }
+
+    def piani(self, etichette=True):
+        r = self._rettangoli()
+        for i in (1, 2, 3):
+            self._poligono(r[i], "#9aa5b1", 0.10, "#b7bfc8")
+        self._linea((self.X3 - self.U, 0, 0), (self.X3, 0, 0), "nero", 1.6)   # LT
+        self._linea((self.X3, 0, 0), (self.X3, self.Y, 0), "nero", 1.2)
+        self._linea((self.X3, 0, 0), (self.X3, 0, self.Z), "nero", 1.2)
+        if etichette:
+            self.testo((self.X3 - self.U * 0.85, self.Y * 0.8, 0), "π_1", colore="grigio")
+            self.testo((self.X3 - self.U * 0.85, 0, self.Z * 0.85), "π_2", colore="grigio")
+            self.testo((self.X3, self.Y * 0.75, self.Z * 0.85), "π_3", colore="grigio")
+            self.testo((self.X3 - self.U, 0, 0), "LT", -22, 4, "nero")
+
+    def segmento(self, a, b, colore="rosso", spessore=2, tratteggio=None):
+        self._linea(a, b, colore, spessore, tratteggio)
+
+    def richiamo(self, a, b):
+        self._linea(a, b, "grigio", 0.9, "3,3")
+
+    def punto(self, p, etichetta=None, dx=6, dy=-6, colore="nero"):
+        x, y = self._p(p)
+        self.f.parti.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.8" fill="{COLORI.get(colore, colore)}"/>')
+        if etichetta:
+            self.testo(p, etichetta, dx, dy, colore)
+
+    def testo(self, p, etichetta, dx=6, dy=-6, colore="nero", dimensione=14):
+        x, y = self._p(p)
+        self.f.parti.append(
+            f'<text x="{x + dx:.1f}" y="{y + dy:.1f}" font-family="Helvetica, Arial, sans-serif" '
+            f'font-size="{dimensione}" font-style="italic" fill="{COLORI.get(colore, colore)}">{_etichetta(etichetta)}</text>')
+
+    def _taglio(self, n, d, poligono):
+        """Punti in cui il piano n.X = d taglia i lati di un poligono (o gli spigoli di un solido)."""
+        pts = []
+        lati = list(zip(poligono, poligono[1:] + poligono[:1]))
+        for a, b in lati:
+            fa = sum(n[i] * a[i] for i in range(3)) - d
+            fb = sum(n[i] * b[i] for i in range(3)) - d
+            if abs(fa) < 1e-9:
+                pts.append(a)
+            elif fa * fb < 0:
+                t = fa / (fa - fb)
+                pts.append(tuple(a[i] + (b[i] - a[i]) * t for i in range(3)))
+        unici = []
+        for p in pts:
+            if all(math.dist(p, q) > 1e-6 for q in unici):
+                unici.append(p)
+        return unici
+
+    def tracce(self, n, d, colore="nero", nome=None):
+        """Disegna le tracce del piano n.X = d dentro i tre piani di proiezione; restituisce {1: (a,b), ...}."""
+        out = {}
+        for i, rett in self._rettangoli().items():
+            p = self._taglio(n, d, rett)
+            if len(p) >= 2:
+                self._linea(p[0], p[1], colore, 2.2)
+                out[i] = (p[0], p[1])
+                if nome:
+                    meta = tuple((p[0][j] + p[1][j]) / 2 for j in range(3))
+                    self.testo(meta, f"t_{i}{nome}", 4, -4, colore, 13)
+        return out
+
+    def piano(self, n, d, colore="blu", opacita=0.16):
+        """Colora la parte del piano che sta dentro il triedro."""
+        X3, U, Y, Z = self.X3, self.U, self.Y, self.Z
+        x0 = X3 - U
+        v = [(x, y, z) for x in (x0, X3) for y in (0, Y) for z in (0, Z)]
+        spigoli = [(a, b) for i, a in enumerate(v) for b in v[i + 1:] if sum(a[j] != b[j] for j in range(3)) == 1]
+        pts = []
+        for a, b in spigoli:
+            for p in self._taglio_segmento(n, d, a, b):
+                if all(math.dist(p, q) > 1e-6 for q in pts):
+                    pts.append(p)
+        if len(pts) < 3:
+            return
+        c = tuple(sum(p[j] for p in pts) / len(pts) for j in range(3))
+        # ordina i punti attorno al centro, nel piano
+        nn = math.sqrt(sum(x * x for x in n))
+        e1 = [pts[0][j] - c[j] for j in range(3)]
+        l1 = math.sqrt(sum(x * x for x in e1)) or 1
+        e1 = [x / l1 for x in e1]
+        e2 = [(n[1] * e1[2] - n[2] * e1[1]) / nn, (n[2] * e1[0] - n[0] * e1[2]) / nn, (n[0] * e1[1] - n[1] * e1[0]) / nn]
+        pts.sort(key=lambda p: math.atan2(sum((p[j] - c[j]) * e2[j] for j in range(3)),
+                                          sum((p[j] - c[j]) * e1[j] for j in range(3))))
+        self._poligono(pts, colore, opacita)
+
+    @staticmethod
+    def _taglio_segmento(n, d, a, b):
+        fa = sum(n[i] * a[i] for i in range(3)) - d
+        fb = sum(n[i] * b[i] for i in range(3)) - d
+        if abs(fa) < 1e-9:
+            return [a]
+        if abs(fb) < 1e-9:
+            return [b]
+        if fa * fb < 0:
+            t = fa / (fa - fb)
+            return [tuple(a[i] + (b[i] - a[i]) * t for i in range(3))]
+        return []

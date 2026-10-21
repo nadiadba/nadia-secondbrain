@@ -5,19 +5,19 @@
 <line x1="20.0" y1="175.0" x2="560.0" y2="175.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
 <text x="22.0" y="169.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
 <line x1="116.8" y1="202.7" x2="436.6" y2="36.1" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
-<text x="440.6" y="36.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″</text>
+<text x="440.6" y="36.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂</text>
 <line x1="112.4" y1="261.8" x2="467.6" y2="158.2" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
-<text x="473.6" y="162.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<text x="473.6" y="162.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₁</text>
 <line x1="170.0" y1="175.0" x2="170.0" y2="245.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <line x1="410.0" y1="175.0" x2="410.0" y2="50.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="170.0" cy="175.0" r="2.8" fill="#1f1f1f"/>
-<text x="152.0" y="165.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>″</text>
+<text x="152.0" y="165.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>)₂</text>
 <circle cx="170.0" cy="245.0" r="2.8" fill="#1f1f1f"/>
-<text x="178.0" y="261.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>′</text>
+<text x="178.0" y="261.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan></text>
 <circle cx="410.0" cy="175.0" r="2.8" fill="#1f1f1f"/>
-<text x="416.0" y="193.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>′</text>
+<text x="416.0" y="193.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>)₁</text>
 <circle cx="410.0" cy="50.0" r="2.8" fill="#1f1f1f"/>
-<text x="360.0" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>″</text>
-<text x="20" y="328" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">T₁ᵣ″ = seconda proiezione della prima traccia · T₂ᵣ′ = prima proiezione della seconda traccia</text>
+<text x="360.0" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan></text>
+<text x="20" y="328" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">(T₁ᵣ)₂ = seconda proiezione della prima traccia · (T₂ᵣ)₁ = prima proiezione della seconda traccia</text>
 </g>
 </svg>

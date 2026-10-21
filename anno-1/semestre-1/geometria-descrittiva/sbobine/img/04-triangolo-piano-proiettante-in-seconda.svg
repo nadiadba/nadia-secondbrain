@@ -30,21 +30,21 @@
 <line x1="280.0" y1="119.4" x2="360.0" y2="69.8" stroke="#2563a8" stroke-width="4" stroke-linecap="round"/>
 <polygon points="470.0,119.4 550.0,119.4 500.0,69.8" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
 <circle cx="280.0" cy="240.0" r="2.8" fill="#1f1f1f"/>
-<text x="256.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A′</text>
+<text x="256.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₁</text>
 <circle cx="280.0" cy="320.0" r="2.8" fill="#1f1f1f"/>
-<text x="256.0" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B′</text>
+<text x="256.0" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₁</text>
 <circle cx="360.0" cy="270.0" r="2.8" fill="#1f1f1f"/>
-<text x="368.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C′</text>
+<text x="368.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₁</text>
 <circle cx="280.0" cy="119.4" r="2.8" fill="#1f1f1f"/>
-<text x="216.0" y="111.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A″ ≡ B″</text>
+<text x="216.0" y="111.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₂ ≡ B₂</text>
 <circle cx="360.0" cy="69.8" r="2.8" fill="#1f1f1f"/>
-<text x="350.0" y="57.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C″</text>
+<text x="350.0" y="57.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₂</text>
 <circle cx="470.0" cy="119.4" r="2.8" fill="#1f1f1f"/>
-<text x="456.0" y="139.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A‴</text>
+<text x="456.0" y="139.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₃</text>
 <circle cx="550.0" cy="119.4" r="2.8" fill="#1f1f1f"/>
-<text x="552.0" y="139.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B‴</text>
+<text x="552.0" y="139.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₃</text>
 <circle cx="500.0" cy="69.8" r="2.8" fill="#1f1f1f"/>
-<text x="508.0" y="63.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C‴</text>
-<text x="20" y="422" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">A‴B‴ è parallelo alla LT: A e B hanno la stessa quota, AB è una retta proiettante in seconda</text>
+<text x="508.0" y="63.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₃</text>
+<text x="20" y="422" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">A₃B₃ è parallelo alla LT: A e B hanno la stessa quota, AB è una retta proiettante in seconda</text>
 </g>
 </svg>

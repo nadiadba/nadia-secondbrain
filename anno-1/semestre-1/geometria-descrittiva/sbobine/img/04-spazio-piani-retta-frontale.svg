@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 466" width="600" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: i piani che contengono la retta frontale f</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,325.0 262.0,190.0 411.4,276.2 177.6,411.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,325.0 262.0,190.0 262.0,25.0 28.2,160.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,190.0 411.4,276.2 411.4,111.2 262.0,25.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="325.0" x2="262.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="411.4" y2="276.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="262.0" y2="25.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="320.5,223.8 86.6,358.8 86.6,193.8 320.5,58.8" fill="#2e8b57" fill-opacity="0.08" stroke="none"/>
+<line x1="320.5" y1="223.8" x2="86.6" y2="358.8" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="320.5" y1="223.8" x2="320.5" y2="58.8" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="244.7,372.5 95.3,286.2 262.0,45.6 411.4,131.9" fill="#7b4fa0" fill-opacity="0.08" stroke="none"/>
+<line x1="95.3" y1="286.2" x2="244.7" y2="372.5" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="95.3" y1="286.2" x2="262.0" y2="45.6" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="411.4" y1="131.9" x2="262.0" y2="45.6" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="411.4,218.5 344.7,314.7 31.0,323.4 221.5,48.4 298.8,46.3" fill="#2563a8" fill-opacity="0.08" stroke="none"/>
+<line x1="31.0" y1="323.4" x2="344.7" y2="314.7" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="31.0" y1="323.4" x2="221.5" y2="48.4" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="411.4" y1="218.5" x2="298.8" y2="46.3" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="171.1" y1="295.0" x2="320.5" y2="79.4" stroke="#2e8b57" stroke-width="2.6" stroke-linecap="round"/>
+<text x="326.5" y="75.4" font-family="Helvetica, Arial, sans-serif" font-size="16" font-style="italic" fill="#2e8b57">f</text>
+<text x="16" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">verde: β frontale · viola: γ proiettante in seconda · blu: α generico</text>
+</g>
+</svg>

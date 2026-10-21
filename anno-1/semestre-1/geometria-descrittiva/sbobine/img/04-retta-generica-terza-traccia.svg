@@ -14,36 +14,36 @@
 <text x="298.0" y="24.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>α</text>
 <line x1="112.1" y1="161.1" x2="240.0" y2="110.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
 <line x1="240.0" y1="110.0" x2="370.0" y2="58.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4" stroke-linecap="round"/>
-<text x="180.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″</text>
+<text x="180.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂</text>
 <line x1="114.3" y1="225.4" x2="240.0" y2="150.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
 <line x1="240.0" y1="150.0" x2="370.0" y2="72.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4" stroke-linecap="round"/>
-<text x="50.3" y="239.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′ ≡ t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<text x="50.3" y="239.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₁ ≡ t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
 <line x1="140.0" y1="150.0" x2="140.0" y2="210.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <line x1="240.0" y1="110.0" x2="240.0" y2="150.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <path d="M 370.0,210.0 L 373.9,209.9 L 377.8,209.5 L 381.7,208.8 L 385.5,208.0 L 389.3,206.8 L 393.0,205.4 L 396.5,203.8 L 400.0,202.0 L 403.3,199.9 L 406.5,197.6 L 409.6,195.1 L 412.4,192.4 L 415.1,189.6 L 417.6,186.5 L 419.9,183.3 L 422.0,180.0 L 423.8,176.5 L 425.4,173.0 L 426.8,169.3 L 428.0,165.5 L 428.8,161.7 L 429.5,157.8 L 429.9,153.9 L 430.0,150.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
 <line x1="240.0" y1="110.0" x2="370.0" y2="110.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <line x1="430.0" y1="150.0" x2="370.0" y2="110.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
 <line x1="370.0" y1="110.0" x2="292.0" y2="58.0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6,4" stroke-linecap="round"/>
-<text x="436.0" y="144.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r‴</text>
+<text x="436.0" y="144.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₃</text>
 <circle cx="430.0" cy="150.0" r="2.8" fill="#1f1f1f"/>
-<text x="434.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>‴</text>
+<text x="434.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>)₃</text>
 <circle cx="370.0" cy="110.0" r="2.8" fill="#1f1f1f"/>
-<text x="376.0" y="114.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>‴</text>
+<text x="376.0" y="114.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>)₃</text>
 <path d="M 370.0,72.0 L 364.9,72.2 L 359.8,72.7 L 354.8,73.5 L 349.8,74.7 L 344.9,76.1 L 340.2,77.9 L 335.5,80.0 L 331.0,82.5 L 326.7,85.1 L 322.5,88.1 L 318.6,91.4 L 314.8,94.8 L 311.4,98.6 L 308.1,102.5 L 305.1,106.7 L 302.5,111.0 L 300.0,115.5 L 297.9,120.2 L 296.1,124.9 L 294.7,129.8 L 293.5,134.8 L 292.7,139.8 L 292.2,144.9 L 292.0,150.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
 <line x1="370.0" y1="58.0" x2="292.0" y2="58.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="370.0" cy="58.0" r="2.8" fill="#1f1f1f"/>
-<text x="376.0" y="54.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan>″</text>
+<text x="376.0" y="54.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan>)₂</text>
 <circle cx="370.0" cy="72.0" r="2.8" fill="#1f1f1f"/>
-<text x="376.0" y="86.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan>′</text>
+<text x="376.0" y="86.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan>)₁</text>
 <circle cx="292.0" cy="58.0" r="2.8" fill="#c0392b"/>
 <text x="252.0" y="52.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan></text>
 <circle cx="140.0" cy="210.0" r="2.8" fill="#1f1f1f"/>
 <text x="148.0" y="224.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan></text>
 <circle cx="140.0" cy="150.0" r="2.8" fill="#1f1f1f"/>
-<text x="122.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>″</text>
+<text x="122.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>)₂</text>
 <circle cx="240.0" cy="110.0" r="2.8" fill="#1f1f1f"/>
-<text x="190.0" y="106.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>″</text>
+<text x="190.0" y="106.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan></text>
 <circle cx="240.0" cy="150.0" r="2.8" fill="#1f1f1f"/>
-<text x="246.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>′</text>
+<text x="246.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>)₁</text>
 </g>
 </svg>

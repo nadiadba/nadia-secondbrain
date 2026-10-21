@@ -9,19 +9,19 @@
 <polygon points="60.0,225.0 200.0,210.0 140.0,300.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
 <line x1="60.0" y1="125.0" x2="60.0" y2="225.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="60.0" cy="125.0" r="2.8" fill="#1f1f1f"/>
-<text x="65.0" y="120.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A″</text>
+<text x="65.0" y="120.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₂</text>
 <circle cx="60.0" cy="225.0" r="2.8" fill="#1f1f1f"/>
-<text x="65.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A′</text>
+<text x="65.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₁</text>
 <line x1="200.0" y1="125.0" x2="200.0" y2="210.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="200.0" cy="125.0" r="2.8" fill="#1f1f1f"/>
-<text x="205.0" y="120.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B″</text>
+<text x="205.0" y="120.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₂</text>
 <circle cx="200.0" cy="210.0" r="2.8" fill="#1f1f1f"/>
-<text x="205.0" y="224.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B′</text>
+<text x="205.0" y="224.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₁</text>
 <line x1="140.0" y1="125.0" x2="140.0" y2="300.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="140.0" cy="125.0" r="2.8" fill="#1f1f1f"/>
-<text x="145.0" y="120.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C″</text>
+<text x="145.0" y="120.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₂</text>
 <circle cx="140.0" cy="300.0" r="2.8" fill="#1f1f1f"/>
-<text x="145.0" y="314.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C′</text>
+<text x="145.0" y="314.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₁</text>
 <line x1="20.0" y1="125.0" x2="245.0" y2="125.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
 <text x="223.0" y="143.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>γ</text>
 <text x="180.0" y="335.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>γ∞</text>
@@ -32,19 +32,19 @@
 <polygon points="315.0,215.0 445.0,235.0 385.0,305.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
 <line x1="315.0" y1="171.0" x2="315.0" y2="215.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="315.0" cy="171.0" r="2.8" fill="#1f1f1f"/>
-<text x="320.0" y="166.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A″</text>
+<text x="320.0" y="166.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₂</text>
 <circle cx="315.0" cy="215.0" r="2.8" fill="#1f1f1f"/>
-<text x="320.0" y="229.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A′</text>
+<text x="320.0" y="229.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₁</text>
 <line x1="445.0" y1="93.0" x2="445.0" y2="235.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="445.0" cy="93.0" r="2.8" fill="#1f1f1f"/>
-<text x="450.0" y="88.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B″</text>
+<text x="450.0" y="88.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₂</text>
 <circle cx="445.0" cy="235.0" r="2.8" fill="#1f1f1f"/>
-<text x="450.0" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B′</text>
+<text x="450.0" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₁</text>
 <line x1="385.0" y1="129.0" x2="385.0" y2="305.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="385.0" cy="129.0" r="2.8" fill="#1f1f1f"/>
-<text x="390.0" y="124.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C″</text>
+<text x="390.0" y="124.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₂</text>
 <circle cx="385.0" cy="305.0" r="2.8" fill="#1f1f1f"/>
-<text x="390.0" y="319.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C′</text>
+<text x="390.0" y="319.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₁</text>
 <line x1="291.7" y1="185.0" x2="490.0" y2="66.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
 <text x="462.0" y="60.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>β</text>
 <line x1="291.7" y1="185.0" x2="291.7" y2="325.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
@@ -55,19 +55,19 @@
 <polygon points="560.0,200.0 690.0,265.0 620.0,230.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
 <line x1="560.0" y1="145.0" x2="560.0" y2="200.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="560.0" cy="145.0" r="2.8" fill="#1f1f1f"/>
-<text x="565.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A″</text>
+<text x="565.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₂</text>
 <circle cx="560.0" cy="200.0" r="2.8" fill="#1f1f1f"/>
-<text x="565.0" y="214.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A′</text>
+<text x="565.0" y="214.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₁</text>
 <line x1="690.0" y1="115.0" x2="690.0" y2="265.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="690.0" cy="115.0" r="2.8" fill="#1f1f1f"/>
-<text x="695.0" y="110.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B″</text>
+<text x="695.0" y="110.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₂</text>
 <circle cx="690.0" cy="265.0" r="2.8" fill="#1f1f1f"/>
-<text x="695.0" y="279.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B′</text>
+<text x="695.0" y="279.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₁</text>
 <line x1="620.0" y1="55.0" x2="620.0" y2="230.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="620.0" cy="55.0" r="2.8" fill="#1f1f1f"/>
-<text x="625.0" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C″</text>
+<text x="625.0" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₂</text>
 <circle cx="620.0" cy="230.0" r="2.8" fill="#1f1f1f"/>
-<text x="625.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C′</text>
+<text x="625.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₁</text>
 <line x1="530.0" y1="185.0" x2="735.0" y2="287.5" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
 <text x="705.0" y="301.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>δ</text>
 <line x1="530.0" y1="185.0" x2="530.0" y2="45.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
@@ -78,19 +78,19 @@
 <polygon points="795.0,225.0 935.0,225.0 865.0,225.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
 <line x1="795.0" y1="145.0" x2="795.0" y2="225.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="795.0" cy="145.0" r="2.8" fill="#1f1f1f"/>
-<text x="800.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A″</text>
+<text x="800.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₂</text>
 <circle cx="795.0" cy="225.0" r="2.8" fill="#1f1f1f"/>
-<text x="800.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A′</text>
+<text x="800.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₁</text>
 <line x1="935.0" y1="125.0" x2="935.0" y2="225.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="935.0" cy="125.0" r="2.8" fill="#1f1f1f"/>
-<text x="940.0" y="120.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B″</text>
+<text x="940.0" y="120.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₂</text>
 <circle cx="935.0" cy="225.0" r="2.8" fill="#1f1f1f"/>
-<text x="940.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B′</text>
+<text x="940.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₁</text>
 <line x1="865.0" y1="50.0" x2="865.0" y2="225.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="865.0" cy="50.0" r="2.8" fill="#1f1f1f"/>
-<text x="870.0" y="45.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C″</text>
+<text x="870.0" y="45.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₂</text>
 <circle cx="865.0" cy="225.0" r="2.8" fill="#1f1f1f"/>
-<text x="870.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C′</text>
+<text x="870.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₁</text>
 <line x1="755.0" y1="225.0" x2="980.0" y2="225.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
 <text x="970.0" y="247.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>ε</text>
 <text x="915.0" y="35.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>ε∞</text>

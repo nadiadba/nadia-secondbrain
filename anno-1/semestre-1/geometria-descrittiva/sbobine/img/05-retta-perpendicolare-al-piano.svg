@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 416" width="600" height="416">
 <rect width="100%" height="100%" fill="#ffffff"/>
-<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Retta r perpendicolare al piano α: r″ ⊥ t₂α e r′ ⊥ t₁α</text>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Retta r perpendicolare al piano α: r₂ ⊥ t₂α e r₁ ⊥ t₁α</text>
 <g transform="translate(0,36)">
 <line x1="20.0" y1="195.0" x2="580.0" y2="195.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
 <text x="22.0" y="189.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
@@ -9,17 +9,17 @@
 <line x1="80.0" y1="195.0" x2="480.0" y2="355.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
 <text x="484.0" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
 <line x1="359.6" y1="131.0" x2="312.6" y2="20.6" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
-<text x="318.6" y="24.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″</text>
+<text x="318.6" y="24.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂</text>
 <line x1="369.7" y1="180.7" x2="317.7" y2="310.7" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
-<text x="375.7" y="180.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<text x="375.7" y="180.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₁</text>
 <line x1="348.1" y1="81.1" x2="351.6" y2="89.3" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="351.6" y1="89.3" x2="343.3" y2="92.9" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="333.2" y1="296.3" x2="336.5" y2="287.9" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="336.5" y1="287.9" x2="328.2" y2="284.6" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="340.0" y1="85.0" x2="340.0" y2="255.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="340.0" cy="85.0" r="2.8" fill="#c0392b"/>
-<text x="348.0" y="81.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P″</text>
+<text x="348.0" y="81.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P₂</text>
 <circle cx="340.0" cy="255.0" r="2.8" fill="#c0392b"/>
-<text x="348.0" y="269.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P′</text>
+<text x="348.0" y="269.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P₁</text>
 </g>
 </svg>

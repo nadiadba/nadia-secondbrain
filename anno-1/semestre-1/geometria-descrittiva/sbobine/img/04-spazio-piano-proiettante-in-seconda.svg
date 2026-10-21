@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 466" width="600" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: il piano α proiettante in seconda e il triangolo ABC</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,325.0 262.0,190.0 411.4,276.2 177.6,411.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,325.0 262.0,190.0 262.0,25.0 28.2,160.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,190.0 411.4,276.2 411.4,111.2 262.0,25.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="325.0" x2="262.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="411.4" y2="276.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="262.0" y2="25.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="216.5,388.8 67.1,302.5 257.7,27.5 407.1,113.7" fill="#2563a8" fill-opacity="0.15" stroke="none"/>
+<line x1="67.1" y1="302.5" x2="216.5" y2="388.8" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="145.8" y="341.6" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="67.1" y1="302.5" x2="257.7" y2="27.5" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="166.4" y="161.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+
+<polygon points="164.6,227.5 242.5,272.5 255.5,161.9" fill="#c0392b" fill-opacity="0.25" stroke="#c0392b" stroke-width="1"/>
+<circle cx="164.6" cy="227.5" r="2.8" fill="#c0392b"/>
+<text x="170.6" y="223.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">A</text>
+<line x1="164.6" y1="227.5" x2="132.1" y2="208.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="242.5" cy="272.5" r="2.8" fill="#c0392b"/>
+<text x="248.5" y="268.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">B</text>
+<line x1="242.5" y1="272.5" x2="132.1" y2="208.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="255.5" cy="161.9" r="2.8" fill="#c0392b"/>
+<text x="261.5" y="157.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">C</text>
+<line x1="255.5" y1="161.9" x2="190.6" y2="124.4" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="132.1" cy="208.8" r="2.8" fill="#1f1f1f"/>
+<text x="70.1" y="204.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">A₂ ≡ B₂</text>
+<text x="16" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Tutto ciò che sta su α finisce in seconda proiezione su t₂α: A₂ ≡ B₂.</text>
+</g>
+</svg>

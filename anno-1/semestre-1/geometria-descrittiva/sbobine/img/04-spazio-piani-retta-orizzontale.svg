@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 466" width="600" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: i piani che contengono la retta orizzontale o</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,325.0 262.0,190.0 411.4,276.2 177.6,411.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,325.0 262.0,190.0 262.0,25.0 28.2,160.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,190.0 411.4,276.2 411.4,111.2 262.0,25.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="325.0" x2="262.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="411.4" y2="276.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="262.0" y2="25.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="177.6,328.8 28.2,242.5 262.0,107.5 411.4,193.8" fill="#2e8b57" fill-opacity="0.08" stroke="none"/>
+<line x1="262.0" y1="107.5" x2="28.2" y2="242.5" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="411.4" y1="193.8" x2="262.0" y2="107.5" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="48.2,148.4 48.2,313.4 379.6,257.9 379.6,92.9" fill="#7b4fa0" fill-opacity="0.08" stroke="none"/>
+<line x1="48.2" y1="313.4" x2="379.6" y2="257.9" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="48.2" y1="313.4" x2="48.2" y2="148.4" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="379.6" y1="257.9" x2="379.6" y2="92.9" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="411.4,245.5 377.0,296.1 67.9,347.9 28.2,260.5 140.5,95.2 328.8,63.6" fill="#2563a8" fill-opacity="0.08" stroke="none"/>
+<line x1="377.0" y1="296.1" x2="67.9" y2="347.9" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="140.5" y1="95.2" x2="28.2" y2="260.5" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="411.4" y1="245.5" x2="328.8" y2="63.6" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="117.8" y1="219.2" x2="379.6" y2="175.4" stroke="#d97706" stroke-width="2.6" stroke-linecap="round"/>
+<text x="385.6" y="171.4" font-family="Helvetica, Arial, sans-serif" font-size="16" font-style="italic" fill="#d97706">o</text>
+<text x="16" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">verde: α orizzontale · viola: γ proiettante in prima · blu: β generico</text>
+</g>
+</svg>

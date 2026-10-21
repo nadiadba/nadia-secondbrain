@@ -14,7 +14,7 @@ tags: [geometria-descrittiva, sbobina]
 > [!info] Note collegate
 > Bozza collegata (omologia): [[proiezioni-e-omologia]]
 >
-> Sbobina precedente: [[02-proiezioni-e-omologia]] · Successiva: [[04-rette-e-piani-metodo-di-monge]]
+> Sbobina precedente: [[02-proiezioni-e-omologia]] · Successiva: [[04-piani-rette-e-appartenenza]]
 
 ## Riepilogo: il processo proiettivo
 
@@ -131,6 +131,15 @@ Se abbiamo una proiezione cilindrica, la figura viene praticamente traslata, nel
 Si può fare una pianta senza le finestre? La pianta è una sezione orizzontale: la quota a cui si taglia l'edificio deve intercettare le finestre, altrimenti nella pianta avrei uno spazio completamente chiuso. Naturalmente il piano di sezione deve essere un piano orizzontale.
 
 È molto importante che voi sappiate che quando si disegna ci sono più aspetti, diversi tra di loro. Quando guardate una pianta, pensate al suo volume, alla sua restituzione, no? Immaginatevi di camminarci intorno. Questo è il prospetto. Se sto camminando e guardo l'edificio da questa parte, questo punto è a una certa altezza, e questo è il prospetto che vedo.
+
+> [!example] Dal taccuino di Marta: le scale di rappresentazione
+>
+> Questa parte non si sente nella registrazione: viene dal quaderno di Marta e dalle tabelle delle scale caricate dalla docente (in `materiale`).
+> - Si lavora sempre in scala: le scale possono essere di riduzione o di ingrandimento; in architettura si usano soprattutto quelle di riduzione.
+> - 1:100 → 1 metro = 1 centimetro: un muro spesso 50 cm si disegna spesso 5 mm.
+> - 1:200 → 1 metro = 0,5 centimetri: lo stesso muro è 2,5 mm (le misure si dimezzano).
+> - 1:50 → 1 metro = 2 centimetri: il muro è 1 cm (le misure raddoppiano).
+> - La scala grafica è fondamentale: è la testimonianza delle dimensioni delle cose e permette di risalire dalle misure del disegno a quelle reali, anche dopo vari passaggi (riduzioni, fotocopie, stampe).
 
 ### L'errore del prospetto disegnato al contrario
 

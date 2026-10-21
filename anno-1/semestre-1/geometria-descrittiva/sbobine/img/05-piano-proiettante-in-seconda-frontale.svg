@@ -7,20 +7,20 @@
 <line x1="230.0" y1="180.0" x2="230.0" y2="330.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
 <text x="236.0" y="334.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>β</text>
 <line x1="230.0" y1="180.0" x2="510.0" y2="40.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
-<text x="518.0" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>β ≡ f″</text>
+<text x="518.0" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>β ≡ f₂</text>
 <line x1="239.0" y1="180.0" x2="239.0" y2="189.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="239.0" y1="189.0" x2="230.0" y2="189.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
 <line x1="230.0" y1="265.0" x2="570.0" y2="265.0" stroke="#2e8b57" stroke-width="1.8" stroke-linecap="round"/>
-<text x="556.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">f′</text>
+<text x="556.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">f₁</text>
 <circle cx="230.0" cy="265.0" r="2.8" fill="#1f1f1f"/>
-<text x="178.0" y="281.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan>′</text>
+<text x="178.0" y="281.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan></text>
 <circle cx="230.0" cy="180.0" r="2.8" fill="#1f1f1f"/>
-<text x="186.0" y="172.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan>″</text>
+<text x="186.0" y="172.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan>)₂</text>
 <text x="518.0" y="64.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">T<tspan dy="4" font-size="70%">2f</tspan><tspan dy="-4"></tspan>∞</text>
 <line x1="410.0" y1="90.0" x2="410.0" y2="265.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="410.0" cy="90.0" r="2.8" fill="#c0392b"/>
-<text x="384.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P″</text>
+<text x="384.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P₂</text>
 <circle cx="410.0" cy="265.0" r="2.8" fill="#c0392b"/>
-<text x="418.0" y="281.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P′</text>
+<text x="418.0" y="281.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P₁</text>
 </g>
 </svg>

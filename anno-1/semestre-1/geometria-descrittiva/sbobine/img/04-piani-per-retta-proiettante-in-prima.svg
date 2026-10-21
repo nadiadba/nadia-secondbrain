@@ -5,7 +5,7 @@
 <line x1="20.0" y1="190.0" x2="600.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
 <text x="22.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
 <line x1="280.0" y1="190.0" x2="280.0" y2="20.0" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
-<text x="286.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r″</text>
+<text x="286.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂</text>
 <line x1="25.0" y1="280.0" x2="590.0" y2="280.0" stroke="#2e8b57" stroke-width="2.4" stroke-linecap="round"/>
 <text x="560.0" y="298.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
 <text x="510.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α∞</text>
@@ -19,9 +19,9 @@
 <line x1="160.0" y1="190.0" x2="160.0" y2="20.0" stroke="#2563a8" stroke-width="2.4" stroke-linecap="round"/>
 <text x="166.0" y="24.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>β</text>
 <circle cx="280.0" cy="280.0" r="2.8" fill="#c0392b"/>
-<text x="290.0" y="272.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′ ≡ T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>′</text>
+<text x="290.0" y="272.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₁ ≡ T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan></text>
 <circle cx="280.0" cy="190.0" r="2.8" fill="#1f1f1f"/>
-<text x="286.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>″</text>
-<text x="20" y="398" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">verde: α frontale · viola: γ di profilo (t₂γ contiene r″) · blu: β proiettante in prima</text>
+<text x="286.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>)₂</text>
+<text x="20" y="398" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">verde: α frontale · viola: γ di profilo (t₂γ contiene r₂) · blu: β proiettante in prima</text>
 </g>
 </svg>
