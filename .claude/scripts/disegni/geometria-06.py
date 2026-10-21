@@ -39,7 +39,7 @@ P2p = (xP, h)
 P1p = interseca(T2o1, o1_fine, (xP, 0), (xP, -1))
 f.richiamo(xP, P2p[1], P1p[1])
 f.punto(P2p, "P″", 6, -8, "rosso"); f.punto(P1p, "P′", 8, 14, "rosso")
-f.salva(OUT + "03-punto-piano-generico-orizzontale.svg")
+f.salva(OUT + "06-punto-piano-generico-orizzontale.svg")
 
 # 2. Piano proiettante in seconda, punto e frontale -----------------------------
 f = Figura(600, 350, 180, "Piano β proiettante in seconda: un punto P e la frontale f", x0=30)
@@ -58,7 +58,7 @@ f.punto(K, "T_{1f}″", -44, -8)
 f.testo(t2b, "T_{2f}∞", 8, 24, "verde")
 f.richiamo(xP, P2p[1], P1p[1])
 f.punto(P2p, "P″", -26, -6, "rosso"); f.punto(P1p, "P′", 8, 16, "rosso")
-f.salva(OUT + "03-piano-proiettante-in-seconda-frontale.svg")
+f.salva(OUT + "06-piano-proiettante-in-seconda-frontale.svg")
 
 # 3. Retta generica e i due punti notevoli sulla LT -----------------------------
 f = Figura(600, 340, 175, "Retta generica r: i punti notevoli sulla linea di terra", x0=30)
@@ -73,7 +73,7 @@ f.richiamo(a, 0, T1r1[1]); f.richiamo(b, 0, T2r2[1])
 f.punto(T1r2, "T_{1r}″", -18, -10); f.punto(T1r1, "T_{1r}′", 8, 16)
 f.punto(T2r1, "T_{2r}′", 6, 18); f.punto(T2r2, "T_{2r}″", -50, -6)
 f.nota(20, 328, "T₁ᵣ″ = seconda proiezione della prima traccia · T₂ᵣ′ = prima proiezione della seconda traccia")
-f.salva(OUT + "03-retta-generica-punti-notevoli.svg")
+f.salva(OUT + "06-retta-generica-punti-notevoli.svg")
 
 # 4. Triangolo con un lato orizzontale e uno frontale: le tracce del piano --------
 A = (180, 40, 70)
@@ -104,7 +104,7 @@ f.punto(f1a, "T_{1f}″", -10, -10); f.punto(P1(T1f), "T_{1f}′", -54, 14)
 for p, nome, dx2, dy2, dx1, dy1 in [(A, "A", -18, -6, -20, 6), (B, "B", 6, -6, 6, 16), (C, "C", 10, 6, 4, -6)]:
     f.richiamo(p[0], P2(p)[1], P1(p)[1])
     f.punto(P2(p), nome + "″", dx2, dy2); f.punto(P1(p), nome + "′", dx1, dy1)
-f.salva(OUT + "03-triangolo-tracce-piano-generico.svg")
+f.salva(OUT + "06-triangolo-tracce-piano-generico.svg")
 
 # 5. Lo stesso triangolo in quattro posizioni ------------------------------------
 f = Figura(990, 360, 185)
@@ -139,7 +139,7 @@ for i, (nome, pts) in enumerate(casi):
         g.traccia((-10, -40), (215, -40)); g.testo((215, -40), "t_1ε", -10, 22)
         g.testo((150, 150), "t_2ε∞", 0, 0)
         g.testo((10, -95), "vera forma in seconda proiezione", 0, 0, "grigio", 11, False)
-f.salva(OUT + "03-triangolo-quattro-posizioni.svg")
+f.salva(OUT + "06-triangolo-quattro-posizioni.svg")
 
 # 6. Retta perpendicolare a un piano (teorema di Monge) ---------------------------
 f = Figura(600, 380, 195, "Retta r perpendicolare al piano α: r″ ⊥ t₂α e r′ ⊥ t₁α", x0=40)
@@ -157,7 +157,7 @@ f.angolo_retto(X2, direzione(X2, t2a), direzione(X2, P2(P)))
 f.angolo_retto(X1, direzione(X1, t1a), direzione(X1, P1(P)))
 f.richiamo(P[0], P2(P)[1], P1(P)[1])
 f.punto(P2(P), "P″", 8, -4, "rosso"); f.punto(P1(P), "P′", 8, 14, "rosso")
-f.salva(OUT + "03-retta-perpendicolare-al-piano.svg")
+f.salva(OUT + "06-retta-perpendicolare-al-piano.svg")
 
 # 7. Due piani proiettanti in prima perpendicolari ---------------------------------
 f = Figura(560, 360, 180, "Due piani proiettanti in prima γ e δ perpendicolari: t₁γ ⊥ t₁δ", x0=20)
@@ -176,7 +176,7 @@ h = 95
 f.retta((Kd[0], h), (Kg[0], h), "rosso"); f.testo(((Kd[0] + Kg[0]) / 2, h), "r″", 0, -8, "rosso")
 f.retta(Kd, Q, "rosso", 3); f.testo(pt_su(Kd, Q, 0.5), "r′ ≡ t₁δ", 8, 4, "rosso")
 f.angolo_retto((Kg[0], h), (0, -1), (-1, 0))
-f.salva(OUT + "03-piani-proiettanti-perpendicolari.svg")
+f.salva(OUT + "06-piani-proiettanti-perpendicolari.svg")
 
 # 8. Piano proiettante in prima perpendicolare a un piano generico -------------------
 f = Figura(560, 380, 190, "Piano γ proiettante in prima perpendicolare al generico α: t₁γ ⊥ t₁α", x0=20)
@@ -200,7 +200,7 @@ X = interseca(P2p, lungo(P2p, d2, 1), K, t2a)
 f.angolo_retto(X, direzione(X, K), direzione(X, P2p))
 f.richiamo(P2p[0], P2p[1], P1p[1])
 f.punto(P2p, "P″", -24, -4, "rosso"); f.punto(P1p, "P′", -24, 6, "rosso")
-f.salva(OUT + "03-piano-perpendicolare-al-generico.svg")
+f.salva(OUT + "06-piano-perpendicolare-al-generico.svg")
 
 # 9. Perpendicolare al piano del triangolo senza tracce: r′ ⊥ o′ e r″ ⊥ f″ ------------
 f = Figura(640, 400, 205, "Senza tracce: r è perpendicolare al piano di ABC se r′ ⊥ o′ e r″ ⊥ f″", x0=40)
@@ -227,5 +227,5 @@ f.angolo_retto(X2, df, direzione(X2, Q2))
 f.angolo_retto(X1, do, direzione(X1, Q1))
 f.richiamo(420, Q2[1], Q1[1])
 f.punto(Q2, "Q″", 8, 14, "rosso"); f.punto(Q1, "Q′", 8, 14, "rosso")
-f.salva(OUT + "03-perpendicolare-con-orizzontale-e-frontale.svg")
+f.salva(OUT + "06-perpendicolare-con-orizzontale-e-frontale.svg")
 print("ok")
