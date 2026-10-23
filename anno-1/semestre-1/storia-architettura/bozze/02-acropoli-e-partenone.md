@@ -44,6 +44,10 @@ Subito prima dell'accesso all'Acropoli si trova il tempietto di Atena Nike, di o
 
 I Propilei sono l'ingresso monumentale vero e proprio, con la funzione concreta di segnare il punto di attraversamento verso il centro del luogo sacro. Hanno un impianto simmetrico, con uno spazio centrale per il passaggio reso monumentale da una serie di colonne e due ambienti laterali, tra cui la Pinacoteca. Anche qui convivono i due ordini, come nel Partenone: colonne doriche all'esterno, dove l'ordine più massiccio doveva destare maggiore soggezione, e colonne ioniche all'interno. L'opera, in marmo pentelico, è dell'architetto Callicrate, che conosceva bene l'opera di Ictino; Callicrate e Ictino sono tra i pochi architetti del mondo greco di cui conosciamo sia il nome sia alcune opere, perché spesso le fonti tramandano elenchi di nomi senza opere, oppure opere grandiose, come il Colosseo, di cui ignoriamo l'autore.
 
+### L'Eretteo e la Loggia delle Cariatidi
+
+L'Eretteo è un edificio del V secolo che combina funzioni diverse, tra cui spazi di culto e spazi di sepoltura. Vi si trova la Loggia delle Cariatidi, un piccolo spazio realizzato con grande cura scultorea, in cui statue femminili svolgono la funzione dei sostegni verticali, cioè delle colonne. L'etimologia del termine cariatide è spiegata da Vitruvio: le donne della città di Caria, sottomessa dagli ateniesi, vengono rappresentate nell'atto di sostenere il peso dell'architettura come metafora della loro sottomissione, in un contesto in cui Atene celebra la propria superiorità politica. L'architettura va quindi letta anche nel suo significato storico e politico. Il corrispettivo maschile delle cariatidi sono i telamoni, o atlanti, il cui nome richiama la figura di Atlante che porta sulle spalle il peso del mondo.
+
 ## IL PARTENONE
 
 Il Partenone è il tempio principale dell'Acropoli e uno dei monumenti più significativi del mondo antico, sia per la sua storia sia per il coinvolgimento di architetti e scultori di grande fama.
@@ -73,10 +77,6 @@ Al centro della cella era collocata la statua di Atena Parthenos, opera di Fidia
 ### Il Partenone nei secoli
 
 L'aspetto che osserviamo oggi è il risultato di una lunga serie di trasformazioni. Intorno alla metà del Quattrocento, quando Atene entra a far parte dell'impero ottomano, il Partenone viene trasformato in moschea. Nel 1687, durante la guerra tra Venezia e i turchi per la supremazia sul Mediterraneo, gli ottomani utilizzavano il tempio come deposito di munizioni: il veneziano Francesco Morosini lo bombardò, provocandone la principale distruzione. I disegni di Jacques Carrey, eseguiti nel Seicento prima del bombardamento, permettono di conoscere parti oggi perdute. All'inizio dell'Ottocento, infine, Lord Elgin, ambasciatore britannico, rimosse gran parte della decorazione, che si trova oggi al British Museum; i pezzi rimasti in Grecia sono conservati nel nuovo Museo dell'Acropoli.
-
-## L'ERETTEO E LA LOGGIA DELLE CARIATIDI
-
-L'Eretteo è un edificio del V secolo che combina funzioni diverse, tra cui spazi di culto e spazi di sepoltura. Vi si trova la Loggia delle Cariatidi, un piccolo spazio realizzato con grande cura scultorea, in cui statue femminili svolgono la funzione dei sostegni verticali, cioè delle colonne. L'etimologia del termine cariatide è spiegata da Vitruvio: le donne della città di Caria, sottomessa dagli ateniesi, vengono rappresentate nell'atto di sostenere il peso dell'architettura come metafora della loro sottomissione, in un contesto in cui Atene celebra la propria superiorità politica. L'architettura va quindi letta anche nel suo significato storico e politico. Il corrispettivo maschile delle cariatidi sono i telamoni, o atlanti, il cui nome richiama la figura di Atlante che porta sulle spalle il peso del mondo.
 
 ## IL TEATRO GRECO
 

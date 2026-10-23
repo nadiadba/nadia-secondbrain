@@ -16,15 +16,9 @@ tags: [storia-architettura, bozza]
 >
 > Argomenti collegati: [[02-acropoli-e-partenone]] · [[05-costruzione-nel-mondo-antico]]
 
-## Introduzione: la grammatica dell'architettura antica
+L'ordine architettonico è un insieme organico di elementi che si sviluppa lungo l'intero alzato dell'edificio, dall'appoggio a terra fino alle strutture di copertura. Esso comprende la base, la colonna — a sua volta articolata in fusto e capitello — e la trabeazione che corre al di sopra delle colonne. Il concetto di ordine risiede proprio in questa concatenazione di parti e nelle regole che ne fissano le forme e le proporzioni: un sistema compiuto, che governa l'intera elevazione dell'edificio. Gli ordini architettonici costituiscono il fondamento del linguaggio dell'architettura classica e, più in generale, la grammatica con cui l'architettura antica è stata concepita, descritta e tramandata. Costituiscono un vero e proprio sistema di regole che governa il rapporto tra le parti di un edificio, le loro proporzioni e la loro funzione costruttiva. Per questa ragione la conoscenza degli ordini è, insieme, un esercizio di memoria lessicale e uno strumento di lettura: da un lato impone di imparare un vocabolario preciso, dall'altro insegna a riconoscere e interpretare le opere quando le si osserva dal vero. Gli ordini nascono e si definiscono in rapporto a un tipo edilizio ben preciso, il tempio, che ne costituisce il campo di applicazione per eccellenza. Conviene dunque partire proprio dal tempio, dalla sua struttura e dai suoi elementi, per poi affrontare il sistema degli ordini che su di esso si innesta.
 
-Gli ordini architettonici costituiscono il fondamento del linguaggio dell'architettura classica e, più in generale, la grammatica con cui l'architettura antica è stata concepita, descritta e tramandata. Costituiscono un vero e proprio sistema di regole che governa il rapporto tra le parti di un edificio, le loro proporzioni e la loro funzione costruttiva. Per questa ragione la conoscenza degli ordini è, insieme, un esercizio di memoria lessicale e uno strumento di lettura: da un lato impone di imparare un vocabolario preciso, dall'altro insegna a riconoscere e interpretare le opere quando le si osserva dal vero.
-
-L'ordine architettonico è un insieme organico di elementi che si sviluppa lungo l'intero alzato dell'edificio, dall'appoggio a terra fino alle strutture di copertura. Esso comprende la base, la colonna — a sua volta articolata in fusto e capitello — e la trabeazione che corre al di sopra delle colonne. Il concetto di ordine risiede proprio in questa concatenazione di parti e nelle regole che ne fissano le forme e le proporzioni: un sistema compiuto, che governa l'intera elevazione dell'edificio.
-
-Gli ordini nascono e si definiscono in rapporto a un tipo edilizio ben preciso, il tempio, che ne costituisce il campo di applicazione per eccellenza. Conviene dunque partire proprio dal tempio, dalla sua struttura e dai suoi elementi, per poi affrontare il sistema degli ordini che su di esso si innesta.
-
-## Il tempio greco
+## IL TEMPIO GRECO
 
 ### Funzione e caratteri generali
 
@@ -46,9 +40,7 @@ La tipologia più diffusa, al punto da costituire una sorta di modello generator
 
 Un ulteriore criterio di classificazione riguarda la distanza tra le colonne, detta intercolumnio. La trattatistica distingue cinque casi, dal più fitto al più rado: picnostilo, sistilo, eustilo, diastilo e areostilo. Al di là della terminologia, ciò che conta è comprendere come la variazione della distanza tra i sostegni modifichi profondamente il ritmo del colonnato e la percezione complessiva dell'edificio.
 
-## Le origini: dal tempio ligneo al tempio in pietra
-
-### La testimonianza di Vitruvio
+### La litizzazione: la testimonianza di Vitruvio
 
 La fonte principale per la conoscenza delle origini del tempio è il *De architectura* di Vitruvio, architetto attivo all'epoca di Augusto, tra la fine del I secolo a.C. e l'inizio del I secolo d.C. Si tratta dell'unico trattato di architettura dell'antichità giunto integralmente fino a noi, circostanza che gli conferisce un valore di fonte del tutto straordinario: è probabile che ne esistessero altri, ma di essi non resta traccia. Articolato in dieci libri, il trattato affronta anche i templi, spiegandone non soltanto la funzione ma anche l'evoluzione costruttiva.
 
@@ -56,75 +48,75 @@ Secondo Vitruvio, in origine i templi erano edificati in legno e argilla, materi
 
 ### La capanna primitiva nella trattatistica
 
-Il tema dell'origine lignea dell'architettura ha avuto una lunga fortuna nella teoria architettonica dei secoli successivi. L'idea di fondo è che la prima architettura sia stata una semplice capanna costruita con elementi naturali — tronchi conficcati nel terreno a fare da sostegni verticali e rami appoggiati sopra a comporre la copertura — e che dalle forme di questa struttura elementare derivino quelle del tempio: le colonne nascerebbero dai pali, la trabeazione dalle travi. La capanna primitiva viene così considerata l'archetipo, cioè il modello originario di ogni architettura, di cui il tempio in pietra rappresenta la traduzione in un materiale durevole.
-
-Questo immaginario conosce nel Settecento due espressioni celebri. Nell'*Essai sur l'architecture* di Marc-Antoine Laugier (1755) la capanna primitiva è posta al centro come modello ideale, esempio di un'architettura ridotta ai suoi elementi essenziali e priva di ogni superfluo; al medesimo tema è dedicato il *Treatise on Civil Architecture* di William Chambers (1759). Entrambi testimoniano quanto a lungo l'idea di un'origine naturale e lignea dell'architettura — già presente nel racconto di Vitruvio — abbia continuato ad alimentare la riflessione teorica.
+Il tema dell'origine lignea dell'architettura ha avuto una lunga fortuna nella teoria architettonica dei secoli successivi. L'idea di fondo è che la prima architettura sia stata una semplice capanna costruita con elementi naturali — tronchi conficcati nel terreno a fare da sostegni verticali e rami appoggiati sopra a comporre la copertura — e che dalle forme di questa struttura elementare derivino quelle del tempio: le colonne nascerebbero dai pali, la trabeazione dalle travi. La capanna primitiva viene così considerata l'archetipo, cioè il modello originario di ogni architettura, di cui il tempio in pietra rappresenta la traduzione in un materiale durevole. Questo immaginario conosce nel Settecento due espressioni celebri. Nell'*Essai sur l'architecture* di Marc-Antoine Laugier (1755) la capanna primitiva è posta al centro come modello ideale, esempio di un'architettura ridotta ai suoi elementi essenziali e priva di ogni superfluo; al medesimo tema è dedicato il *Treatise on Civil Architecture* di William Chambers (1759). Entrambi testimoniano quanto a lungo l'idea di un'origine naturale e lignea dell'architettura — già presente nel racconto di Vitruvio — abbia continuato ad alimentare la riflessione teorica.
 
 ### Il sistema trilitico
 
 Dal punto di vista costruttivo, il tempio si fonda su un principio elementare ma decisivo, il sistema trilitico, il cui nome deriva dalle "tre pietre" che lo compongono: due elementi verticali che sorreggono un elemento orizzontale. Moltiplicando i sostegni verticali e disponendovi sopra la trabeazione si ottiene la struttura del tempio. È fondamentale comprendere che si tratta di un'architettura trabeata e non arcuata: la stabilità non è affidata ad archi o volte, ma all'accostamento tra elementi portanti verticali, le colonne, ed elementi portati orizzontali, la trabeazione e la copertura. Su questa struttura trilitica si innesta, come sua articolazione formale, il sistema degli ordini.
 
-## I tre ordini greci
+## I TRE ORDINI GRECI
+
+### La periodizzazione della storia greca
+
+Per collocare correttamente nel tempo le opere e i fenomeni di cui si tratta è indispensabile conoscere la periodizzazione della storia greca antica, articolata convenzionalmente in tre fasi. Il periodo arcaico si estende dal 600 al 480 a.C., anno della battaglia di Salamina; il periodo classico, considerato il momento di massimo splendore dell'arte e dell'architettura greca, va dal 480 al 323 a.C., data della morte di Alessandro Magno, e corrisponde all'età della costruzione del Partenone; il periodo ellenistico, infine, si conclude con l'affermazione della supremazia di Roma, nel corso del I secolo a.C. Va tenuto presente che tali suddivisioni sono convenzioni elaborate dagli storici: non indicano cesure nette, ma servono a orientare la comprensione dei processi.
 
 ### Geografia e non cronologia
 
 Nel mondo greco gli ordini architettonici sono tre: il dorico, lo ionico e il corinzio. I loro nomi non vanno intesi in senso cronologico, come se un ordine generasse il successivo in una sequenza evolutiva; essi rimandano piuttosto alla geografia, ai popoli e alle regioni in cui ciascuna forma prese autonomamente vita, per poi diffondersi altrove attraverso le migrazioni e gli scambi. Questo dato introduce un tema di fondo dell'intera storia dell'architettura, cioè lo stretto legame tra la forma architettonica e il luogo che la produce. Per lo studio, l'aspetto più immediatamente utile è imparare a distinguere i tre ordini, poiché a ciascuno corrisponde un elemento di riconoscimento inequivocabile.
 
-### L'ordine dorico
+## L'ORDINE DORICO
 
 L'ordine dorico è il più severo dei tre, e si distingue per la sua robustezza e per la sobrietà delle forme. L'elemento che ne consente il riconoscimento immediato si trova nel fregio, come si vedrà più avanti; conviene però procedere con ordine, partendo dal basso.
 
-#### La colonna e il capitello
+### La colonna e il capitello
 
 Nell'architettura greca la colonna dorica poggia direttamente sullo stilobate, priva di base: è una caratteristica esclusiva di questo ordine, che verrà meno soltanto in età romana. Il fusto è percorso da scanalature, solchi verticali ravvicinati la cui funzione è catturare e modulare la luce, accentuando la plasticità del sostegno. La colonna non è quasi mai monolitica, ma composta da più elementi cilindrici sovrapposti, i rocchi, uniti da perni; la realizzazione in un unico blocco, come nel caso del tempio di Apollo a Corinto, era considerata segno di particolare qualità e di notevole disponibilità economica, data la difficoltà di reperire e lavorare blocchi integri.
 
 Al vertice del fusto, il collarino segna il passaggio al capitello. Il capitello dorico è formato da due parti essenziali: l'echino, la fascia dal profilo curvo che raccorda il fusto alla sommità, e l'abaco, l'elemento a forma di parallelepipedo su cui si imposta la trabeazione. La semplicità quasi astratta di queste forme è uno dei tratti distintivi dell'ordine.
 
-#### La trabeazione: architrave, fregio e cornice
+### La trabeazione: architrave, fregio e cornice
 
 Al di sopra delle colonne corre la trabeazione, l'elemento orizzontale introdotto dal sistema trilitico. Nell'ordine dorico, come in generale, la trabeazione è sempre divisa in tre parti, e questa tripartizione è uno dei dati fondamentali da padroneggiare. In basso si trova l'architrave, che poggia direttamente sull'abaco dei capitelli; al centro il fregio; in alto la cornice.
 
 È proprio il fregio a contenere l'elemento distintivo dell'ordine dorico, ossia l'alternanza di triglifi e metope. Il triglifo è un elemento a sezione rettangolare segnato da tre fasce verticali; la metopa è la lastra, spesso di forma quadrata, che occupa lo spazio tra due triglifi. Questa alternanza è esclusiva del dorico e ne costituisce il segno di riconoscimento: dinanzi a un tempio provvisto di triglifi e metope non vi è possibilità di confusione con gli altri ordini.
 
-#### L'origine lignea di triglifi e metope
-
 La presenza di triglifi e metope si spiega alla luce del processo di litizzazione. Nella struttura lignea originaria, le testate delle travi che reggevano il tetto sporgevano all'esterno ed erano particolarmente esposte all'azione della pioggia. Per proteggerle, Vitruvio racconta che venivano rivestite con elementi lapidei: da questa soluzione tecnica, destinata a impermeabilizzare le testate, deriva il triglifo, la cui scansione a tre fasce evoca ancora la memoria della struttura lignea. La metopa, invece, era in origine la lastra che tamponava lo spazio vuoto tra una trave e l'altra. Venuta meno, con il passaggio alla pietra, ogni funzione strutturale, la metopa si trasforma nello spazio privilegiato per la decorazione scolpita: vi si rappresentano bassorilievi e scene mitologiche che assumono una funzione narrativa, legata alla divinità e alla storia del tempio.
 
-#### Il conflitto angolare
+### Il conflitto angolare
 
 Dall'alternanza del fregio nasce uno dei problemi teorici più dibattuti dell'architettura dorica, il cosiddetto conflitto angolare. La regola prevedeva che il triglifo fosse collocato in asse con ciascuna colonna; all'angolo dell'edificio, tuttavia, questa esigenza entrava in contrasto con quella di far coincidere l'ultimo triglifo con lo spigolo stesso del tempio. Poiché il triglifo ha un ingombro minore di quello della colonna, all'angolo si generava inevitabilmente uno spazio di risulta, esteticamente insoddisfacente. Il problema, privo di una soluzione univoca, veniva affrontato caso per caso, ad esempio ampliando l'ultima metopa o contraendo l'interasse d'angolo per riportare il triglifo sullo spigolo. Il conflitto angolare rimane uno dei grandi temi della teoria degli ordini e un banco di prova dell'abilità compositiva degli architetti antichi.
 
-#### La policromia
+### La policromia
 
 Un aspetto spesso trascurato riguarda il colore. Siamo abituati a immaginare i templi greci nel candore del marmo bianco, un'immagine che ha profondamente segnato la cultura moderna, dall'estetica di Johann Joachim Winckelmann alle suggestioni di Goethe. Le ricerche archeologiche avviate nell'Ottocento hanno però dimostrato che i templi erano in realtà dipinti: il bianco che oggi li caratterizza è il risultato della perdita dei colori nel tempo. Nell'ordine dorico la soluzione cromatica più ricorrente era una bicromia che vedeva le metope bianche e i triglifi azzurri. Rare testimonianze di questa policromia si sono conservate in alcuni monumenti, come la tomba di Filippo II di Macedonia a Verghina; fu soprattutto grazie agli studi di architetti e archeologi ottocenteschi, tra cui Jacques Ignace Hittorff, che si cominciò a ricostruire l'aspetto originario, colorato, dell'architettura antica.
 
-#### Il frontone e l'ordine dorico a Roma
+### Il frontone e l'ordine dorico a Roma
 
 Al di sopra della trabeazione si apre il frontone, lo spazio di forma triangolare determinato dall'inclinazione delle falde del tetto. Come le metope, anche il frontone costituiva una superficie destinata alla decorazione scultorea, con funzione narrativa: ne è un esempio il frontone del tempio di Artemide a Corfù, del VII-VI secolo a.C., con la rappresentazione del mito di Perseo. Occorre infine ricordare che, se in Grecia la colonna dorica è priva di base, in età romana l'ordine dorico riceve una base, generalmente la base attica, costituita dalla sequenza toro, scozia, toro. L'impiego romano dell'ordine, del resto, non si limita ai templi: lo si ritrova anche in edifici per lo spettacolo, come nel primo registro del Teatro di Marcello.
 
-### L'ordine ionico
+## L'ORDINE IONICO
 
 L'ordine ionico, originario dell'Asia Minore e in particolare della Ionia, si distingue dal dorico per proporzioni più slanciate ed eleganti e per una maggiore ricchezza decorativa. L'elemento che ne consente il riconoscimento immediato è il capitello a volute, cioè i caratteristici ricci a spirale.
 
-#### Caratteri generali e trabeazione
+### Caratteri generali e trabeazione
 
 A differenza del dorico, l'ordine ionico possiede sempre una base. Il fusto, anch'esso scanalato, è più sottile e allungato. La differenza più evidente rispetto al dorico si coglie però nel fregio, che non presenta l'alternanza di triglifi e metope ma è continuo: una fascia unica e ininterrotta che corre lungo tutto l'edificio e può ospitare una decorazione scultorea senza soluzione di continuità. Restano invece analoghe l'articolazione generale e la successione delle parti, dalla base alla trabeazione fino al frontone.
 
-#### Il capitello ionico e il problema dell'angolo
+### Il capitello ionico e il problema dell'angolo
 
 Il capitello ionico presenta una peculiarità che lo distingue radicalmente da quello dorico: non è concepito "a tutto tondo", uguale da ogni punto di vista, ma è orientato. Le volute si mostrano infatti sulla fronte, mentre i fianchi sono caratterizzati da una forma diversa, segnata dal balaustro e dal balteo, gli elementi che congiungono lateralmente le volute del fronte e del retro. Tra le volute corre inoltre una raffinata decorazione a ovoli e dardi.
 
 Questa natura orientata del capitello genera, ancora una volta, un problema in corrispondenza degli angoli dell'edificio, dove sarebbe inevitabile una faccia priva di volute. La soluzione adottata dagli architetti antichi è il capitello angolare, nel quale le volute vengono mostrate su due lati adiacenti grazie a una rotazione a 45 gradi degli elementi d'angolo, con un progressivo sviluppo che porterà fino al capitello a quattro facce. Proprio la difficoltà di disegnare correttamente la voluta, garantendone la simmetria e la corretta spirale, farà sì che gli architetti del Cinquecento mettano a punto appositi sistemi geometrici di costruzione.
 
-#### Le basi e l'associazione simbolica
+### Le basi e l'associazione simbolica
 
 L'ordine ionico si associa generalmente alla base attica, ma anche a un tipo particolare, la base vitruviana, detta pure efesina per la sua diffusione a Efeso, caratterizzata da un toro superiore che sembra schiacciare con il proprio peso le scozie sottostanti. L'interesse per questi dettagli attraverserà i secoli: un celebre disegno di Antonio da Sangallo il Giovane documenta, ad esempio, il rilievo accurato di una base ionica vitruviana. Sul piano simbolico, infine, le forme più snelle e ornate dell'ordine ionico ne favorirono l'associazione alle divinità femminili, in contrapposizione al carattere maschile attribuito al dorico. Una grande eccezione a questa consuetudine è il Partenone, dedicato ad Atena e tuttavia realizzato in ordine dorico.
 
-### L'ordine corinzio
+## L'ORDINE CORINZIO
 
 L'ordine corinzio è il più ricco e slanciato, e si riconosce dal capitello decorato con foglie d'acanto. Della sua origine Vitruvio tramanda una celebre leggenda, legata, come già per gli altri ordini, a un luogo preciso, la città di Corinto. Si racconta che la nutrice di una fanciulla corinzia, morta prematuramente, avesse deposto sulla sua tomba un canestro con gli oggetti a lei cari, poggiandolo per caso sopra una radice di acanto. Crescendo, le foglie della pianta avvolsero il canestro; lo scultore Callimaco, passando di lì, fu colpito dalla bellezza casuale di quella composizione e la riprodusse nei capitelli delle colonne. Al di là del valore aneddotico, la leggenda ribadisce il nesso tra forma, caso e luogo che percorre tutta la vicenda degli ordini. Dal punto di vista della diffusione, il capitello corinzio, documentato in esempi come la *tholos* di Epidauro, conoscerà una fortuna crescente, fino a diventare l'ordine prediletto dell'architettura romana.
 
-## Gli ordini a Roma: tuscanico e composito
+## GLI ORDINI ROMANI: TUSCANICO E COMPOSITO
 
 ### I cinque ordini e la codificazione rinascimentale
 
@@ -138,27 +130,29 @@ L'ordine tuscanico può essere inteso come una semplificazione dell'ordine doric
 
 L'ordine composito, come indica il nome, nasce dalla fusione di due ordini: unisce le foglie d'acanto del corinzio alle volute dello ionico. Il risultato è un capitello particolarmente ricco e solenne, che per questa ragione trovò impiego privilegiato negli archi trionfali, come l'Arco di Tito e l'Arco di Settimio Severo a Roma. Non a caso l'ordine composito fu molto apprezzato dagli imperatori della dinastia flavia, Vespasiano, Tito e Domiziano, che lo adottarono in numerose opere.
 
-## I correttivi ottici
+## OLTRE IL CANONE: CORRETTIVI OTTICI E VARIETAS
 
-Un capitolo di grande importanza nella concezione del tempio greco è quello dei correttivi ottici, cioè degli accorgimenti introdotti per impedire che l'edificio apparisse deformato alla vista. Gli architetti greci erano consapevoli che l'occhio umano, nell'osservare una sequenza di elementi regolari e di grandi dimensioni, tende a percepirli in modo alterato: un colonnato perfettamente rettilineo, ad esempio, può apparire incurvato o cedevole.
+### I correttivi ottici
 
-Per ovviare a questi inganni percettivi si ricorreva a una serie di correzioni. La più nota è l'entasi, il leggero rigonfiamento del fusto della colonna, il cui nome deriva dal greco *entasis*, "tensione"; a essa si affiancano la lieve curvatura convessa dello stilobate, l'impercettibile inclinazione delle colonne verso l'interno e l'ingrossamento delle colonne d'angolo. Tutti questi interventi, calibrati con grande raffinatezza, hanno un unico scopo: restituire all'osservatore l'impressione di un edificio perfettamente rettilineo e stabile, correggendo a monte le distorsioni della visione.
+Un capitolo di grande importanza nella concezione del tempio greco è quello dei correttivi ottici, cioè degli accorgimenti introdotti per impedire che l'edificio apparisse deformato alla vista. Gli architetti greci erano consapevoli che l'occhio umano, nell'osservare una sequenza di elementi regolari e di grandi dimensioni, tende a percepirli in modo alterato: un colonnato perfettamente rettilineo, ad esempio, può apparire incurvato o cedevole. Per ovviare a questi inganni percettivi si ricorreva a una serie di correzioni. La più nota è l'entasi, il leggero rigonfiamento del fusto della colonna, il cui nome deriva dal greco *entasis*, "tensione"; a essa si affiancano la lieve curvatura convessa dello stilobate, l'impercettibile inclinazione delle colonne verso l'interno e l'ingrossamento delle colonne d'angolo. Tutti questi interventi, calibrati con grande raffinatezza, hanno un unico scopo: restituire all'osservatore l'impressione di un edificio perfettamente rettilineo e stabile, correggendo a monte le distorsioni della visione.
 
-## Oltre il canone: varietà, capitelli figurati e cariatidi
+### Capitelli figurati, cariatidi e telamoni
 
 Il sistema degli ordini, per quanto rigoroso, non esaurisce la ricchezza delle forme antiche. Esistono infatti numerosi capitelli che non rientrano in nessuna delle categorie codificate e che vengono ricondotti alla nozione di *varietas*, ossia di variazione. Si tratta spesso di capitelli figurati, dominati dalla presenza di figure umane, animali o fantastiche, ma anche di elementi astratti, che testimoniano la libertà inventiva degli artefici antichi, al di là della norma.
 
 La variazione, inoltre, non riguarda soltanto il capitello. Anche il fusto della colonna può essere sostituito da una figura umana che ne assume la funzione portante: si parla in questo caso di cariatidi, quando le figure sono femminili, e di telamoni, quando sono maschili. L'esempio più celebre è la loggia delle cariatidi dell'Eretteo, sull'Acropoli di Atene, dove le statue femminili sostituiscono a tutti gli effetti le colonne nel reggere la trabeazione.
 
-## La periodizzazione dell'architettura greca
+## GLI ORDINI TRA NORMA E STORIA
 
-Per collocare correttamente nel tempo le opere e i fenomeni descritti è indispensabile conoscere la periodizzazione della storia greca antica, articolata convenzionalmente in tre fasi. Il periodo arcaico si estende dal 600 al 480 a.C., anno della battaglia di Salamina; il periodo classico, considerato il momento di massimo splendore dell'arte e dell'architettura greca, va dal 480 al 323 a.C., data della morte di Alessandro Magno, e corrisponde all'età della costruzione del Partenone; il periodo ellenistico, infine, si conclude con l'affermazione della supremazia di Roma, nel corso del I secolo a.C. Va tenuto presente che tali suddivisioni sono convenzioni elaborate dagli storici: non indicano cesure nette, ma servono a orientare la comprensione dei processi.
-
-## Gli ordini tra norma e storia: una lettura critica
+### Il duplice aspetto degli ordini secondo Thoenes
 
 Alle nozioni fin qui esposte è utile affiancare una riflessione di carattere storiografico, che aiuta a comprendere la natura profonda del sistema degli ordini e che può rivelarsi preziosa in sede d'esame. Nel saggio *Cinque tesi sugli ordini architettonici*, lo storico Christof Thoenes osserva che gli ordini si presentano allo studioso sotto un duplice aspetto: come codice operativo nel disegno, cioè come dottrina fissa e normativa, e come oggetto della storia, soggetto a continue trasformazioni. Chi guarda agli ordini come a un canone immutabile ne ignora la storia; chi ne segue la storia, ne mette in crisi il carattere normativo. Questa tensione tra norma e storia, tra regola e licenza, è secondo Thoenes connaturata al sistema fin dalle sue origini.
 
+### Da Vitruvio alla codificazione rinascimentale
+
 Già in Vitruvio, infatti, i diversi generi del tempio sono presentati come prodotti della storia, legati a episodi e a luoghi, e al tempo stesso ricondotti a un valore atemporale, come quando si associa il dorico al corpo maschile, lo ionico a quello femminile e il corinzio a una variante verginale. Fu il Rinascimento a trasformare questa materia composita in un vero sistema: Leon Battista Alberti, combinando lo studio delle rovine con la lettura di Vitruvio, seppe astrarre il concetto stesso di ordine, mentre più tardi Sebastiano Serlio, nelle sue *Regole generali di architettura* del 1537, e Jacopo Barozzi da Vignola, nella *Regola* del 1562, fissarono definitivamente il canone dei cinque ordini. In altre parole, il sistema ordinato e coerente che oggi studiamo è in larga misura una costruzione culturale della prima età moderna, elaborata per poter riprodurre e insegnare correttamente il linguaggio dell'antico.
+
+### Il principio trilitico e la sua critica
 
 Al di sotto di tutte le varianti, tuttavia, resta immutato un principio fondamentale: la struttura trilitica del tempio classico, cioè il rapporto tra elementi di sostegno ed elementi gravanti. È su questo principio che si regge l'intero edificio concettuale degli ordini, e sarà proprio questo principio a essere messo in discussione, già nella prima metà del Settecento, da critici come Carlo Lodoli, che denunceranno il carattere "fittizio" di ordini nati per imitare in pietra le originarie strutture lignee. Una tensione, come annotava Goethe a proposito di Palladio, dalla quale l'architettura degli ordini ha tratto per secoli la propria vitalità.
 

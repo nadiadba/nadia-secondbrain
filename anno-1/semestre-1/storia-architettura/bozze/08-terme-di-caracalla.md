@@ -14,23 +14,9 @@ tags: [storia-architettura, bozza]
 >
 > Argomenti collegati: [[05-costruzione-nel-mondo-antico]] · [[07-residenza-romana-palatino-domus-aurea]]
 
-## Introduzione: le terme come tipo architettonico
-
 Le terme sono, insieme al foro, alla basilica, al teatro e all'anfiteatro, uno dei tipi architettonici che definiscono la città romana. Nate come luoghi destinati al bagno e alla cura del corpo, in età imperiale diventano complessi di dimensioni straordinarie, nei quali l'igiene si intreccia con l'esercizio fisico, il passeggio, la lettura e la vita sociale. Le Terme di Caracalla, costruite all'inizio del III secolo d.C. ai piedi dell'Aventino, nel tratto in cui la Via Appia entrava in città, sono uno degli esempi meglio conservati e più leggibili di questo tipo: osservarle dal vero permette di comprendere insieme la logica della pianta, il funzionamento tecnico dell'acqua e del riscaldamento e il significato politico dell'opera.
 
-## Caracalla, i Severi e il significato delle terme
-
-### L'imperatore e la dinastia
-
-Caracalla appartiene alla dinastia dei Severi, fondata dal padre Settimio Severo, e regna tra il 211 e il 217 d.C., in un'epoca in cui il cristianesimo non è ancora la religione dell'impero, come diverrà con Costantino. Alla morte del padre, nel 211, il potere avrebbe dovuto essere condiviso con il fratello Geta; Caracalla, tuttavia, rifiuta di governare insieme a lui, lo fa assassinare e ne decreta la *damnatio memoriae*, cioè la cancellazione del nome e dell'immagine da ogni monumento e documento pubblico, per regnare da solo.
-
-L'età severiana lascia a Roma segni monumentali di grande impatto scenografico. Lungo l'ingresso in città da sud sorgeva un grande fronte monumentale, articolato in ordini sovrapposti e rivestito di marmi colorati, concepito come una vera scena teatrale: per i forestieri che giungevano dalla Via Appia era la prima immagine della capitale, un ingresso nobile alla città principale dell'impero. L'opera viene comunemente identificata con il Septizodium di Settimio Severo, ai piedi del Palatino.
-
-### Le terme come opera pubblica
-
-Le terme imperiali sono anzitutto un'opera pubblica: l'imperatore costruisce un grande edificio destinato al popolo, frequentato da uomini e donne di ogni condizione, e in questo modo mette il proprio potere al servizio della collettività, esaltandolo. Il complesso termale è dunque, al tempo stesso, un servizio e un simbolo. Si è talvolta proposto di leggere le terme anche come una forma di espiazione del fratricidio; l'ipotesi è però poco probabile, perché il cantiere era già stato avviato sotto Settimio Severo e le terme furono soltanto inaugurate da Caracalla. Il complesso è datato al 221-225 d.C.
-
-## Il modello delle terme imperiali
+## LE TERME IMPERIALI
 
 ### Dalle Terme di Agrippa alle Terme di Traiano
 
@@ -42,7 +28,17 @@ Il modello delle grandi terme imperiali si definisce con le Terme di Traiano, co
 
 L'asse di simmetria è il carattere distintivo delle terme imperiali. Lungo di esso si allineano le sale principali, mentre gli ambienti di servizio e di esercizio si raddoppiano ai due lati: due spogliatoi, due palestre, due serie di sale minori. Si è a lungo ritenuto che questo raddoppiamento servisse a separare gli uomini dalle donne; tale spiegazione non è però convincente, perché a partire da Adriano una legge regolò l'accesso alle terme attraverso turni distinti. È più probabile che la simmetria rispondesse a un'esigenza di organizzazione dei flussi: le terme accoglievano migliaia di persone ogni giorno, e il raddoppiamento dei percorsi consentiva di distribuire il traffico in modo ordinato.
 
-## La pianta delle Terme di Caracalla
+## LE TERME DI CARACALLA
+
+### Caracalla e l'età dei Severi
+
+Caracalla appartiene alla dinastia dei Severi, fondata dal padre Settimio Severo, e regna tra il 211 e il 217 d.C., in un'epoca in cui il cristianesimo non è ancora la religione dell'impero, come diverrà con Costantino. Alla morte del padre, nel 211, il potere avrebbe dovuto essere condiviso con il fratello Geta; Caracalla, tuttavia, rifiuta di governare insieme a lui, lo fa assassinare e ne decreta la *damnatio memoriae*, cioè la cancellazione del nome e dell'immagine da ogni monumento e documento pubblico, per regnare da solo.
+
+L'età severiana lascia a Roma segni monumentali di grande impatto scenografico. Lungo l'ingresso in città da sud sorgeva un grande fronte monumentale, articolato in ordini sovrapposti e rivestito di marmi colorati, concepito come una vera scena teatrale: per i forestieri che giungevano dalla Via Appia era la prima immagine della capitale, un ingresso nobile alla città principale dell'impero. L'opera viene comunemente identificata con il Septizodium di Settimio Severo, ai piedi del Palatino.
+
+### Le terme come opera pubblica
+
+Le terme imperiali sono anzitutto un'opera pubblica: l'imperatore costruisce un grande edificio destinato al popolo, frequentato da uomini e donne di ogni condizione, e in questo modo mette il proprio potere al servizio della collettività, esaltandolo. Il complesso termale è dunque, al tempo stesso, un servizio e un simbolo. Si è talvolta proposto di leggere le terme anche come una forma di espiazione del fratricidio; l'ipotesi è però poco probabile, perché il cantiere era già stato avviato sotto Settimio Severo e le terme furono soltanto inaugurate da Caracalla. Il complesso è datato al 221-225 d.C.
 
 ### Il corpo centrale e la sequenza delle temperature
 
@@ -60,7 +56,7 @@ Il corpo centrale è circondato da un vasto giardino, che svolgeva a sua volta l
 
 Il giardino è a sua volta racchiuso da un recinto, articolato sui due lati lunghi da due grandi esedre semicircolari aperte e chiuso, sul lato opposto all'ingresso, da un semi-stadio, una gradinata a pianta curva da cui assistere alle attività sportive, affiancato da due biblioteche, una per i testi latini e una per i testi greci. L'intero complesso si estende su circa undici ettari. Rispetto alle Terme di Traiano, la differenza più significativa riguarda il rapporto tra corpo centrale e recinto: mentre a Traiano il corpo termale è addossato al recinto, collegato a esso anche attraverso le cisterne dell'acqua, a Caracalla il corpo centrale è staccato e si erge isolato al centro del giardino, come un grande volume autonomo.
 
-## L'acqua e il riscaldamento
+## IL FUNZIONAMENTO
 
 ### L'approvvigionamento idrico e i sotterranei
 
@@ -74,37 +70,41 @@ Gli ambienti caldi erano dotati di un sistema di riscaldamento che riguardava il
 
 Lo stesso principio si estendeva alle pareti. Davanti alla muratura portante si creava un'intercapedine in cui saliva l'aria calda, chiusa verso l'interno dall'intonaco o dal rivestimento marmoreo; in alcuni casi si impiegavano anche lastre metalliche, che aumentavano la diffusione del calore, così che le pareti risultavano calde al tatto. L'intercapedine si otteneva con due tecniche principali: i *tubuli*, mattoni cavi a sezione rettangolare accostati l'uno all'altro a formare condotti verticali, oppure le *tegulae mammatae*, tegole dotate di sporgenze sul retro che, applicate alla parete, lasciavano tra sé e la muratura lo spazio per il passaggio dell'aria.
 
-## Il calidarium
-
-### Orientamento e pianta circolare
+### Il calidarium: orientamento e pianta circolare
 
 Anche la forma e la posizione del *calidarium* rispondono all'esigenza di trattenere il calore. La sala è orientata verso sud, così da ricevere la luce e il calore del sole nelle ore centrali della giornata; la pianta centrale, a sua volta, riduce la dispersione termica rispetto a una pianta allungata e consente di distribuire la luce in modo uniforme. La scelta della pianta circolare è quindi insieme formale e funzionale.
 
-### La cupola e le vetrate
+## LA COSTRUZIONE E I RIVESTIMENTI
 
-La sala era coperta da una cupola sostenuta da otto grandi pilastri, tra i quali si aprivano ampie vetrate che alleggerivano la struttura. La cupola non era una semplice massa gettata in opera cementizia: la disposizione dei mattoni quadrati all'interno del getto formava vere e proprie nervature, che suddividevano la calotta in spicchi e conducevano i carichi principali verso gli otto pilastri. Alla stabilità contribuivano inoltre barre di bronzo e di rame, con una funzione analoga a quella delle catene; quelle visibili oggi non sono originali. Per la tecnica dell'opera cementizia, del paramento in laterizio e delle volte si rimanda alla nota sulla [[05-costruzione-nel-mondo-antico|costruzione nel mondo antico]].
+### La cupola e le vetrate del calidarium
+
+La sala del *calidarium* era coperta da una cupola sostenuta da otto grandi pilastri, tra i quali si aprivano ampie vetrate che alleggerivano la struttura. La cupola non era una semplice massa gettata in opera cementizia: la disposizione dei mattoni quadrati all'interno del getto formava vere e proprie nervature, che suddividevano la calotta in spicchi e conducevano i carichi principali verso gli otto pilastri. Alla stabilità contribuivano inoltre barre di bronzo e di rame, con una funzione analoga a quella delle catene; quelle visibili oggi non sono originali. Per la tecnica dell'opera cementizia, del paramento in laterizio e delle volte si rimanda alla nota sulla [[05-costruzione-nel-mondo-antico|costruzione nel mondo antico]].
 
 Le finestre e le nicchie del *calidarium* erano chiuse da vetrate, poiché i Romani conoscevano già l'impiego del vetro nelle finestre. Non si trattava però di grandi lastre come quelle moderne, ma di piccoli vetri triangolari, montati in un sottile telaio di piombo, a sua volta inserito in un telaio più grande di legno. Finestre di questo tipo sono state ricostruite nelle Terme di Diocleziano, dove se ne può osservare l'effetto.
 
-## Rivestimenti e pavimenti
+### Rivestimenti e pavimenti
 
 All'interno, tutte le superfici erano rivestite. I pavimenti erano decorati a mosaico o in *opus sectile*, la tecnica che compone figure e disegni geometrici accostando lastrine di marmi colorati tagliate secondo forme diverse; le pareti erano interamente rivestite di marmo, così da esprimere la monumentalità che Caracalla intendeva affidare alla sua opera. Le pareti erano inoltre articolate da nicchie circolari e rettangolari di diverse dimensioni, e le aperture oggi visibili sono in gran parte quelle originali.
 
 Della tecnica di rivestimento restano tracce leggibili. Sullo strato di intonaco si inserivano scaglie di laterizio, che non avevano funzione decorativa ma servivano a creare un appiglio per lo strato successivo; su di esse si fissavano le lastre di marmo, mediante un ulteriore strato di malta di calce e mediante grappe metalliche che ancoravano le lastre alla muratura. I fori lasciati dalle grappe, ancora visibili su molte pareti, sono la testimonianza del rivestimento perduto.
 
-## Il confronto con le Terme di Diocleziano
+## DAL MEDIOEVO AI FARNESE
+
+Con la fine dell'età antica le Terme di Caracalla cessano di funzionare. Nel Medioevo il complesso viene abbandonato e ridotto a rudere; gran parte dei materiali viene asportata, soprattutto i marmi, cotti nelle fornaci per ricavarne calce. Le strutture superstiti furono utilizzate anche come ricovero per i pellegrini.
+
+Nel Cinquecento, sotto il pontificato di Paolo III Farnese, le terme diventano oggetto di scavi condotti per conto della famiglia del papa, che vi rinvenne numerose sculture destinate ad arricchire la propria collezione privata di antichità. Tra queste vi è l'Ercole Farnese, una delle statue più celebri della scultura antica, oggi conservata con il resto della collezione Farnese al Museo Archeologico Nazionale di Napoli. La vicenda delle terme mostra così le due sorti più frequenti dei grandi monumenti romani dopo l'antichità: lo smontaggio come cava di materiali e la riscoperta come fonte di opere d'arte e di modelli.
+
+## IL CONFRONTO CON LE TERME DI DIOCLEZIANO
+
+### L'impianto e la trasformazione in chiesa
 
 Le Terme di Diocleziano, costruite tra il 298 e il 306 d.C. sul Viminale, sono le più simili alle Terme di Caracalla, ma ancora più grandi: nel corso dell'età imperiale, infatti, le terme tendono ad aumentare progressivamente di dimensioni. Il loro impianto riprende lo schema con il corpo centrale assiale e il grande recinto, che in origine occupava anche l'attuale Piazza della Repubblica: il profilo curvo della piazza ricalca ancora la grande esedra del recinto termale.
 
 Le Terme di Diocleziano si sono conservate in alzato perché furono trasformate in chiesa, Santa Maria degli Angeli e dei Martiri, con l'intervento di Michelangelo nel Cinquecento. Ne restano il *frigidarium*, coperto da tre volte a crociera; il *tepidarium*, di forma circolare; e il *calidarium*, a pianta rettangolare con absidi, di cui sopravvivono solo due lati e una delle absidi. La sequenza mostra come la stessa successione funzionale potesse tradursi in forme diverse: a Caracalla è circolare il *calidarium*, a Diocleziano il *tepidarium*.
 
+### Il frigidarium e le soluzioni strutturali
+
 Il *frigidarium* di Diocleziano permette di comprendere le soluzioni strutturali adottate per coprire queste grandi aule. Le tre volte a crociera sono contraffortate da volte a botte disposte perpendicolarmente, dette volte collaboranti perché collaborano a contenere la spinta delle crociere; a esse si aggiungono setti murari trasversali, che contengono le spinte laterali, ed elementi verticali posti sopra la copertura, che con il loro peso riconducono verso il basso le forze orizzontali. Alle pareti si aprono le finestre termali, un tipo di apertura proprio di questi edifici: grandi finestre semicircolari suddivise da due montanti verticali e chiuse da vetri. Le coperture delle terme, infine, non erano cassettonate, come spesso compare nelle ricostruzioni: i cassettoni avrebbero favorito il ristagno dell'umidità prodotta dalle vasche.
-
-## Dal Medioevo ai Farnese
-
-Con la fine dell'età antica le Terme di Caracalla cessano di funzionare. Nel Medioevo il complesso viene abbandonato e ridotto a rudere; gran parte dei materiali viene asportata, soprattutto i marmi, cotti nelle fornaci per ricavarne calce. Le strutture superstiti furono utilizzate anche come ricovero per i pellegrini.
-
-Nel Cinquecento, sotto il pontificato di Paolo III Farnese, le terme diventano oggetto di scavi condotti per conto della famiglia del papa, che vi rinvenne numerose sculture destinate ad arricchire la propria collezione privata di antichità. Tra queste vi è l'Ercole Farnese, una delle statue più celebri della scultura antica, oggi conservata con il resto della collezione Farnese al Museo Archeologico Nazionale di Napoli. La vicenda delle terme mostra così le due sorti più frequenti dei grandi monumenti romani dopo l'antichità: lo smontaggio come cava di materiali e la riscoperta come fonte di opere d'arte e di modelli.
 
 ## Collegamenti
 

@@ -14,41 +14,35 @@ tags: [storia-architettura, bozza]
 >
 > Argomenti collegati: [[03-roma-foro-e-fori-imperiali]] · [[07-residenza-romana-palatino-domus-aurea]]
 
-## Introduzione: due sguardi sull'architettura romana
+Lo studio dell'architettura romana procede per affondi tematici più che per successione cronologica: dopo lo spazio pubblico del foro e le basi costruttive dell'arco, delle volte e della cupola, l'attenzione si sposta qui su due temi complementari. Il primo è l'immagine del potere, cioè il modo in cui gli imperatori, a partire da Augusto, si servirono dell'architettura per rappresentare la propria autorità a Roma e nei territori conquistati; vi appartengono l'Ara Pacis, gli archi di trionfo e i grandi edifici per lo spettacolo, il teatro e l'anfiteatro. Il secondo è la dimensione privata dell'abitare, che si osserva attraverso un luogo eccezionale, la città di Pompei, sepolta dall'eruzione del Vesuvio del 79 d.C. e per questo giunta fino a noi con le sue case, la *domus* di città e la villa suburbana. Per entrambi i temi lo studio richiede uno sguardo doppio. Da un lato occorre conoscere i caratteri generali dei tipi edilizi, cioè la funzione e il lessico specifico di un arco di trionfo, di un teatro, di un anfiteatro o di una *domus*; dall'altro occorre conoscere alcuni casi di studio nella loro specificità, con la loro data, il loro committente e la loro storia. I casi su cui ci si sofferma più a lungo sono l'Ara Pacis, l'Arco di Augusto a Rimini, il Teatro di Marcello, il Colosseo, le *domus* pompeiane e la Villa dei Misteri; gli altri esempi servono al confronto, e vanno saputi leggere e commentare nelle loro forme anche senza conoscerne ogni dettaglio.
 
-Lo studio dell'architettura romana procede per affondi tematici più che per successione cronologica: dopo lo spazio pubblico del foro e le basi costruttive dell'arco, delle volte e della cupola, l'attenzione si sposta qui su due temi complementari. Il primo è l'immagine del potere, cioè il modo in cui gli imperatori, a partire da Augusto, si servirono dell'architettura per rappresentare la propria autorità a Roma e nei territori conquistati; vi appartengono l'Ara Pacis, gli archi di trionfo e i grandi edifici per lo spettacolo, il teatro e l'anfiteatro. Il secondo è la dimensione privata dell'abitare, che si osserva attraverso un luogo eccezionale, la città di Pompei, sepolta dall'eruzione del Vesuvio del 79 d.C. e per questo giunta fino a noi con le sue case, la *domus* di città e la villa suburbana.
+## L'IMMAGINE DEL POTERE: AUGUSTO, L'ARA PACIS E GLI ARCHI
 
-Per entrambi i temi lo studio richiede uno sguardo doppio. Da un lato occorre conoscere i caratteri generali dei tipi edilizi, cioè la funzione e il lessico specifico di un arco di trionfo, di un teatro, di un anfiteatro o di una *domus*; dall'altro occorre conoscere alcuni casi di studio nella loro specificità, con la loro data, il loro committente e la loro storia. I casi su cui ci si sofferma più a lungo sono l'Ara Pacis, l'Arco di Augusto a Rimini, il Teatro di Marcello, il Colosseo, le *domus* pompeiane e la Villa dei Misteri; gli altri esempi servono al confronto, e vanno saputi leggere e commentare nelle loro forme anche senza conoscerne ogni dettaglio.
-
-## Augusto e il potere delle immagini
+### Augusto e il potere delle immagini
 
 Il passaggio dalla Repubblica all'Impero, con l'affermazione di Ottaviano Augusto (al potere dal 27 a.C. al 14 d.C.), produsse cambiamenti profondi non solo nel governo della città ma anche nel suo aspetto. Questi cambiamenti sono stati indagati in un libro divenuto un classico degli studi sull'arte e l'architettura romana, *Augusto e il potere delle immagini* dell'archeologo Paul Zanker. Zanker mostra come Augusto, nel momento in cui doveva affermare la propria autorità, abbia fatto delle immagini un vero strumento di governo, capace di consolidare il consenso e di rendere visibile il nuovo ordine politico.
 
 La necessità era tanto più forte in un impero che, sotto Augusto, raggiunse una notevole espansione: oltre alla penisola italiana comprendeva la costa mediterranea dell'Africa, la *Hispania*, cioè la penisola iberica, la Gallia e parte dell'Asia affacciata sul Mediterraneo. L'imperatore viaggiava di continuo per controllare i confini, ma non poteva essere presente ovunque; la sua immagine doveva quindi circolare per altre vie. Gli strumenti di questa circolazione formano una scala di impegno crescente: le monete, che si coniano in tempi brevi e passano di mano in mano; le statue, replicate attraverso calchi; e infine gli edifici, che richiedono anni di lavoro ma lasciano un segno permanente nel paesaggio. Strade, ponti, teatri e archi partecipano tutti alla costruzione dell'immagine dell'imperatore e, insieme, dell'impero.
 
+### Roma, da città di mattoni a città di marmo
+
 A Roma l'età augustea coincise con una vasta attività edilizia. Svetonio, nella biografia di Augusto contenuta nelle *Vite dei Cesari*, riferisce che l'imperatore si vantava di aver ricevuto una città di mattoni e di lasciarla di marmo. Tra gli interventi promossi da Augusto si contano il foro con il tempio di Marte Ultore, l'orologio solare del Campo Marzio, il primo Pantheon (diverso da quello che vediamo oggi), il Mausoleo destinato alla sua famiglia, e una serie di edifici legati alla memoria dei suoi parenti: il Teatro di Marcello, dedicato al nipote figlio della sorella Ottavia, e il Portico di Ottavia che gli sorge accanto. Sono opere con funzioni pubbliche che, nei nomi e nelle dedicazioni, celebrano anche la dinastia.
 
-## L'Ara Pacis
+### L'Ara Pacis: committenza e significato
 
-### Committenza e significato
+L'*Ara Pacis Augustae*, l'altare della Pace augustea, fu decretata dal Senato nel 13 a.C., al ritorno di Augusto dalle campagne in Spagna e in Gallia che avevano portato all'annessione di quei territori; la notizia è tramandata da fonti come Svetonio. Il Senato, che durante l'età imperiale conservava una funzione di governo, stabilì di consacrare un altare alla pace: dopo una lunga stagione di guerre si volle celebrare la pace che l'imperatore aveva conquistato con le armi. Proprio qui sta il senso politico del monumento, che fonda il proprio messaggio su una retorica delle immagini: Augusto, che per anni aveva condotto campagne militari, viene presentato come colui che porta la pace all'interno dell'impero. In origine l'altare sorgeva nel Campo Marzio, allora cuore politico della città, in relazione con il grande orologio solare voluto da Augusto, e aveva quindi un impatto monumentale sullo spazio urbano.
 
-L'*Ara Pacis Augustae*, l'altare della Pace augustea, fu decretata dal Senato nel 13 a.C., al ritorno di Augusto dalle campagne in Spagna e in Gallia che avevano portato all'annessione di quei territori; la notizia è tramandata da fonti come Svetonio. Il Senato, che durante l'età imperiale conservava una funzione di governo, stabilì di consacrare un altare alla pace: dopo una lunga stagione di guerre si volle celebrare la pace che l'imperatore aveva conquistato con le armi. Proprio qui sta il senso politico del monumento, che fonda il proprio messaggio su una retorica delle immagini: Augusto, che per anni aveva condotto campagne militari, viene presentato come colui che porta la pace all'interno dell'impero.
-
-In origine l'altare sorgeva nel Campo Marzio, allora cuore politico della città, in relazione con il grande orologio solare voluto da Augusto, e aveva quindi un impatto monumentale sullo spazio urbano.
-
-### La forma e il programma iconografico
+### L'Ara Pacis: forma e programma iconografico
 
 L'impianto dell'Ara Pacis è molto semplice. Su un podio si innalza un recinto marmoreo a forma di parallelepipedo cavo, al quale si accede per una scalinata; all'interno del recinto si trova l'altare vero e proprio. Le pareti esterne sono scandite da lesene corinzie, con lesene angolari agli spigoli. La forza comunicativa del monumento non risiede dunque nella sua architettura, ma nel programma iconografico che ne riveste le superfici, trattate come una superficie narrativa.
 
 La parte inferiore delle pareti è occupata da un fitto intreccio di girali vegetali, mentre nella fascia superiore corre la processione in onore di Augusto, che si sviluppa lungo il perimetro del recinto. Lo sfruttamento della superficie di un monumento come racconto continuo richiama quello della [[03-roma-foro-e-fori-imperiali|Colonna Traiana]], con la differenza che qui il fregio non si avvolge a spirale ma segue in orizzontale i lati dell'altare. All'interno del recinto la decorazione presenta bucrani, cioè teschi di bue, che reggono ghirlande di fiori e frutti: è un motivo legato alla celebrazione della memoria, impiegato anche nei mausolei, come nel fregio del [[04-via-appia-cecilia-metella-massenzio|Mausoleo di Cecilia Metella]]. L'altare, oggi di un bianco uniforme, era in origine dipinto; alcune ricostruzioni realizzate con proiezioni luminose ne hanno restituito per qualche tempo l'aspetto policromo.
 
-### Le vicende moderne
+### L'Ara Pacis nel Novecento
 
 L'Ara Pacis non si trova più nella sua posizione originaria. Ricomposta nel Novecento, fu collocata nel 1938 accanto al Mausoleo di Augusto, lungo via di Ripetta, in modo da accostare i due monumenti augustei, e protetta da una teca in porfido rosso progettata dall'architetto Vittorio Ballio Morpurgo. L'operazione si inserisce nel clima del Ventennio fascista, quando il richiamo all'età imperiale di Roma veniva usato per legittimare il potere del presente e l'architettura antica era presa a modello per nuove costruzioni; la sistemazione di piazza Augusto Imperatore, con il Mausoleo al centro, ne è il risultato. La teca di Morpurgo fu poi demolita e sostituita dal museo progettato da Richard Meier (2000-2006), un involucro molto più monumentale; la piazza è stata infine riprogettata da Francesco Cellini, che ha creato un nuovo collegamento tra via di Ripetta e l'interno del Campo Marzio al cospetto dei resti del Mausoleo. Alcuni frammenti dell'Ara Pacis, staccati nel corso dei secoli, presero strade diverse e furono reimpiegati, ad esempio, sulla facciata di Villa Medici.
 
-## Gli archi di trionfo
-
-### Funzione: il trionfo
+### L'arco di trionfo e la cerimonia del trionfo
 
 L'arco di trionfo è un monumento eretto in memoria di un trionfo, cioè di una vittoria di Roma su popoli stranieri. Quando il Senato riconosceva il trionfo a un comandante vittorioso, l'esercito di ritorno si radunava nel Campo Marzio e da lì sfilava in processione fino al Foro Romano, attraversando una porta ad arco. Il trionfo era però una cerimonia effimera, che si esauriva nel giorno in cui si svolgeva; l'arco ne fissava il ricordo in forma permanente.
 
@@ -60,6 +54,10 @@ Gli archi di trionfo rispondono pienamente alla definizione di monumento, parola
 
 Di molti archi scomparsi resta tuttavia l'immagine proprio grazie agli strumenti con cui si diffondeva l'immagine dell'impero, le monete. Sui denari di Augusto compaiono l'arco di Nauloco, che ricordava la vittoria navale di Ottaviano su Sesto Pompeo, l'arco Aziaco e l'arco partico, che celebrava la restituzione delle insegne romane da parte dei Parti. In uno spazio di pochi centimetri le monete sintetizzano con efficacia i caratteri del tipo: il fornice da attraversare, l'ordine che lo inquadra, l'attico con l'iscrizione e il gruppo scultoreo che lo corona.
 
+### Le parti dell'arco di trionfo
+
+L'arco di trionfo si articola in parti dal nome preciso. Alla base si trova il basamento, sul quale poggiano i piedritti, cioè i sostegni verticali dell'arco. Il piano d'imposta è il livello, sopra i piedritti, da cui si avvia la curva dell'arco, formata dai conci e definita sul fronte dalla ghiera, la fascia curva che ne segue il profilo. Ai lati del fornice si dispongono le semicolonne dell'ordine, che reggono la trabeazione, articolata come negli [[01-ordini-architettonici|ordini]] in architrave, fregio e cornice, e talvolta un frontone. I tondi che ospitano busti o figure a bassorilievo si chiamano clipei. Al di sopra dell'arco si innalza l'attico, termine che ancora oggi designa la parte più alta di una costruzione: negli archi di trionfo era destinato all'iscrizione dedicatoria, che riportava il nome dell'imperatore, la data e l'impresa celebrata, così che, quando l'attico si è conservato, il monumento si lascia leggere direttamente. Sull'attico poggiava infine la quadriga, il carro trainato da quattro cavalli con la statua del trionfatore, segno visibile del trionfo.
+
 ### L'Arco di Augusto a Rimini
 
 Accanto agli archi trionfali in senso stretto, Augusto fece erigere archi onorari con funzione cerimoniale nei nodi principali della rete stradale. L'Arco di Augusto a Rimini, costruito nel 27 a.C., sorge nel punto in cui la via Flaminia, proveniente da Roma, raggiungeva la costa adriatica e da cui partiva la via Emilia, diretta a Piacenza attraverso la pianura padana: un luogo di convergenza tra percorsi strategici, che il monumento segnava e celebrava.
@@ -70,19 +68,15 @@ Il materiale è la pietra d'Istria, un calcare bianchissimo cavato sull'altra sp
 
 L'arco mostra inoltre con chiarezza la stratificazione delle fasi costruttive. Sopra la struttura antica in pietra d'Istria si leva un coronamento in laterizio con merli, aggiunto nel Medioevo quando l'arco fu inglobato nelle mura cittadine: la differenza di materiale e di linguaggio permette di riconoscere a colpo d'occhio la trasformazione, come accade per le merlature medievali del Mausoleo di Cecilia Metella. Nel rifacimento andarono perduti l'attico originario e la quadriga che lo coronava.
 
-### Le parti dell'arco di trionfo
-
-L'arco di trionfo si articola in parti dal nome preciso. Alla base si trova il basamento, sul quale poggiano i piedritti, cioè i sostegni verticali dell'arco. Il piano d'imposta è il livello, sopra i piedritti, da cui si avvia la curva dell'arco, formata dai conci e definita sul fronte dalla ghiera, la fascia curva che ne segue il profilo. Ai lati del fornice si dispongono le semicolonne dell'ordine, che reggono la trabeazione, articolata come negli [[01-ordini-architettonici|ordini]] in architrave, fregio e cornice, e talvolta un frontone. I tondi che ospitano busti o figure a bassorilievo si chiamano clipei. Al di sopra dell'arco si innalza l'attico, termine che ancora oggi designa la parte più alta di una costruzione: negli archi di trionfo era destinato all'iscrizione dedicatoria, che riportava il nome dell'imperatore, la data e l'impresa celebrata, così che, quando l'attico si è conservato, il monumento si lascia leggere direttamente. Sull'attico poggiava infine la quadriga, il carro trainato da quattro cavalli con la statua del trionfatore, segno visibile del trionfo.
-
 ### Il racconto del trionfo e la diffusione nell'impero
 
 Per ricordare in modo permanente la processione, gli archi di trionfo ne riproducono spesso le scene. Nell'Arco di Tito, eretto dopo l'81 d.C. ai margini del Foro Romano per celebrare la vittoria nella guerra giudaica, i rilievi all'interno del fornice raffigurano il corteo e l'imperatore sulla quadriga incoronato dalla Vittoria, la fanciulla alata che si posa accanto al trionfatore. Il tema iconografico è così diffuso che, anche davanti a un arco sconosciuto, è possibile riconoscere nei dettagli i punti in cui il trionfo è rappresentato.
 
 Gli archi si diffusero in tutto l'impero, con soluzioni costruttive e formali diverse. Tra la fine del I secolo a.C. e il I secolo d.C. se ne costruirono ad Aosta, città il cui nome deriva da quello di Augusto (*Augusta Praetoria*), a Glanum presso Saint-Rémy-de-Provence e a Orange, nella Gallia romana, regione segnata dal passaggio delle truppe di Augusto; l'arco di Orange ha tre fornici. Il tipo conobbe una lunga durata: due secoli più tardi Settimio Severo fece erigere nel 203 d.C. un arco a tre fornici nel Foro Romano e un arco a quattro fronti a Leptis Magna, sua città natale in Africa; a Timgad, in Algeria, città fondata da Traiano, un arco a tre fornici segna l'ingresso nel centro urbano. L'arco di trionfo appare così come una chiara incarnazione della rappresentazione del potere attraverso l'architettura: un monumento carico di significati simbolici, monito a ricordare un episodio e insieme superficie narrativa offerta al racconto della storia.
 
-## Il teatro
+## GLI EDIFICI PER LO SPETTACOLO: TEATRO E ANFITEATRO
 
-L'immagine dell'impero passa anche attraverso gli edifici pubblici destinati all'intrattenimento dell'intera cittadinanza, capaci di offrire occasioni di svago e di *otium*. Il teatro ne è il primo esempio.
+L'immagine dell'impero passa anche attraverso gli edifici pubblici destinati all'intrattenimento dell'intera cittadinanza, capaci di offrire occasioni di svago e di *otium*. Il teatro e l'anfiteatro ne sono i due esempi principali.
 
 ### Il teatro in Vitruvio
 
@@ -92,11 +86,13 @@ Vitruvio tratta del teatro nel quinto libro del *De architectura*, dedicato agli
 
 Il teatro romano eredita dal [[02-acropoli-e-partenone|teatro greco]] la funzione, cioè la rappresentazione di commedie e tragedie, e la forma semicircolare delle gradinate rivolte verso la scena. La differenza decisiva riguarda il rapporto con il terreno. Il teatro greco si adagia sul pendio naturale di una collina, che ne sostiene le gradinate: è un'architettura quasi priva di volume, assorbita dalla conformazione del luogo, come si vede nel teatro di Siracusa. Il teatro romano è invece un edificio interamente costruito, un volume autonomo che può sorgere in qualunque punto della città, anche in pianura, perché le gradinate poggiano su sostruzioni in muratura e calcestruzzo erette sulle fondazioni. All'esterno, l'altezza della facciata assorbe la pendenza delle gradinate.
 
-Il primo teatro stabile in muratura di Roma fu il Teatro di Pompeo, costruito tra il 55 e il 53 a.C. da Gneo Pompeo Magno, console e grande rivale di Giulio Cesare, quindi alla fine dell'età repubblicana; è con ogni probabilità il teatro che Vitruvio aveva in mente scrivendo il suo trattato. L'edificio è andato distrutto e lo conosciamo attraverso ricostruzioni, come l'incisione di Alessandro Donati e il plastico di Roma antica di Italo Gismondi, che mostrano anche il tempio collocato alla sommità della cavea e il grande portico retrostante. La sua presenza resta però impressa nella topografia: nella zona di largo del Pallaro, dietro Campo de' Fiori, alcuni edifici hanno una facciata curva perché ne ricalcano il perimetro, e gli ambienti voltati delle sostruzioni sono stati riutilizzati nelle costruzioni successive.
-
 ### Le parti del teatro romano
 
 I nomi delle parti del teatro romano traducono in latino quelli del teatro greco. La *cavea* è lo spazio semicircolare delle gradinate destinate agli spettatori; è divisa in settori a forma di cuneo, i *cunei*, da scalette radiali, e in fasce orizzontali, i *maeniana*, separate da corridoi anulari detti *praecinctiones*. L'*orchestra*, che nel teatro romano si riduce a un semicerchio, è lo spazio compreso tra le gradinate e la scena, al quale si accede attraverso i grandi ingressi laterali. Davanti all'orchestra si alza il palcoscenico, il *pulpitum* o proscenio, luogo della recitazione. Alle sue spalle si erge la scena, parte stabile in muratura e non effimera: la sua parete monumentale, la *scaenae frons*, è articolata da più ordini di colonne sovrapposti e aperta da tre porte, la *valva regia* al centro e le *valvae hospitales* ai lati. Diversamente dal teatro greco, la cavea e la scena sono saldate in un unico organismo architettonico.
+
+### Il Teatro di Pompeo
+
+Il primo teatro stabile in muratura di Roma fu il Teatro di Pompeo, costruito tra il 55 e il 53 a.C. da Gneo Pompeo Magno, console e grande rivale di Giulio Cesare, quindi alla fine dell'età repubblicana; è con ogni probabilità il teatro che Vitruvio aveva in mente scrivendo il suo trattato. L'edificio è andato distrutto e lo conosciamo attraverso ricostruzioni, come l'incisione di Alessandro Donati e il plastico di Roma antica di Italo Gismondi, che mostrano anche il tempio collocato alla sommità della cavea e il grande portico retrostante. La sua presenza resta però impressa nella topografia: nella zona di largo del Pallaro, dietro Campo de' Fiori, alcuni edifici hanno una facciata curva perché ne ricalcano il perimetro, e gli ambienti voltati delle sostruzioni sono stati riutilizzati nelle costruzioni successive.
 
 ### Il Teatro di Marcello
 
@@ -104,11 +100,13 @@ Il Teatro di Marcello, iniziato da Cesare e completato da Augusto alla fine del 
 
 All'interno l'edificio presentava la cavea, le gradinate e l'orchestra; all'esterno la struttura in muratura e calcestruzzo che regge le gradinate si presentava come una sequenza di arcate in travertino, distribuite su più registri sovrapposti. Oltre le arcate corrono i corridoi anulari voltati che consentivano di girare intorno al teatro e di salire, attraverso le scale, ai diversi settori della cavea. Ogni arcata è inquadrata da semicolonne che reggono una trabeazione: è lo stesso sistema dell'arco inquadrato dall'ordine visto negli archi di trionfo e, prima ancora, nel [[03-roma-foro-e-fori-imperiali|Tabularium]], qui ripetuto lungo tutta la superficie del monumento.
 
-### La sovrapposizione degli ordini
+### La sovrapposizione degli ordini e la fortuna rinascimentale
 
 La struttura a gallerie sovrapposte offre l'occasione di impiegare ordini diversi, uno per ciascun registro. Nel Teatro di Marcello si conservano i primi due: il registro inferiore è in ordine dorico, con colonne prive di base come nel dorico greco e un fregio in cui, nonostante l'erosione, si riconoscono ancora i triglifi alternati alle metope; il registro superiore è in ordine ionico, riconoscibile dalle volute dei capitelli. Il principio è quello di una crescita degli ordini, dal più semplice e meno decorato in basso verso i più ricchi in alto: un criterio che diventa una regola dell'architettura dei teatri e degli anfiteatri romani.
 
 Proprio per questa sovrapposizione il Teatro di Marcello divenne un modello di studio per gli architetti del Rinascimento. Già nel 1510 Francesco Albertini, nella sua guida alle meraviglie di Roma antica e moderna, ricordava il teatro costruito «dorico ionicoque more»; Sebastiano Serlio lo rilevò e lo disegnò nel suo *Terzo libro* (Venezia 1540), dedicato alle antichità, e i disegni di Alberto Alberti, nella seconda metà del Cinquecento, ne analizzano gli ordini e le modanature. Nei trattati sugli ordini il teatro è uno degli esempi più citati della corretta sovrapposizione del dorico e dello ionico.
+
+### Il Teatro di Marcello nei secoli
 
 L'edificio odierno è il risultato di una lunga serie di trasformazioni. Perduta la sua funzione, il teatro fu riutilizzato: le arcate furono a lungo tamponate e occupate da botteghe, riaperte soltanto con i restauri del Novecento. Sopra i due registri antichi in travertino si leva un corpo in laterizio aperto da finestre, nettamente diverso per materiale e linguaggio: è il palazzo che Baldassarre Peruzzi realizzò nel Cinquecento per la famiglia Savelli, trasformando il teatro antico in residenza nobiliare. L'interno non conserva più la cavea, ma ospita abitazioni.
 
@@ -116,27 +114,23 @@ L'edificio odierno è il risultato di una lunga serie di trasformazioni. Perduta
 
 Il teatro, come l'arco, fu uno dei segni con cui Roma connotò i territori conquistati. Il teatro di Mérida, in Estremadura, costruito alla fine del I secolo a.C. nella Spagna appena annessa da Augusto, è tra i meglio conservati: oltre alle gradinate e alle gallerie voltate conserva la *scaenae frons*, con i suoi ordini sovrapposti di colonne, che nel Teatro di Marcello è andata perduta. In Gallia, a Orange, il teatro di età augustea conserva l'imponente muro della scena, alla cui sommità si trova una nicchia con la statua dell'imperatore, ed è ancora oggi utilizzato per gli spettacoli; le colonne visibili sul palcoscenico sono inserimenti moderni. Nel teatro di Sabratha, in Libia, del II-III secolo d.C., la *scaenae frons* ricostruita mostra in modo eloquente la sovrapposizione di tre ordini di colonne.
 
-## L'anfiteatro e il Colosseo
-
 ### Dal teatro all'anfiteatro
 
 L'anfiteatro è strettamente imparentato con il teatro per configurazione architettonica e spaziale, ma ne differisce per la funzione: non vi si rappresentavano commedie e tragedie, ma si svolgevano i giochi, cioè i combattimenti dei gladiatori e le cacce agli animali. Il nome contiene il prefisso greco *amphi*, che significa intorno, da entrambe le parti: se il teatro è un semicerchio aperto verso la scena, l'anfiteatro è uno spazio chiuso, con le gradinate che circondano per intero uno spazio centrale di forma ellittica, l'arena.
 
-### L'Anfiteatro Flavio
+### Il Colosseo: storia e costruzione
 
 L'anfiteatro più celebre è l'Anfiteatro Flavio, detto Colosseo, promosso dagli imperatori della dinastia flavia, Vespasiano, Tito e Domiziano, e costruito nell'arco di circa un decennio, tra il 70 e l'80 d.C.; la sua inaugurazione, sotto Tito, fu celebrata anche sulle monete, sul cui rovescio l'edificio è chiaramente riconoscibile. È uno degli edifici più grandi e capienti del mondo romano.
 
 In pianta il Colosseo si organizza intorno all'arena ellittica, circondata dalle gradinate che occupano l'intero sviluppo in altezza dell'edificio. Al di sotto della cavea si sviluppa un sistema di gallerie anulari concentriche, una per ogni livello, e di muri radiali; la sezione rende evidente come una serie di arcate e di volte sovrapposte sostenga le gradinate, e come le scale interne conducano ai diversi settori della cavea, i *maeniana*, nei quali gli spettatori sbucavano attraverso aperture distribuite lungo l'anello.
 
-### Il motivo teatrale e la sovrapposizione degli ordini
+La costruzione del Colosseo riassume le tecniche già studiate. Il rivestimento esterno, cioè ciò che si vedeva, è in travertino, roccia sedimentaria calcarea tra le più diffuse nell'architettura di Roma; i pilastri e le murature interne sono in parte in tufo, roccia vulcanica; il nucleo portante, che garantisce la solidità dell'insieme, è in [[05-costruzione-nel-mondo-antico|opera cementizia]]. Quella che i contemporanei vedevano era dunque una scatola di travertino, la cui stabilità era affidata a una struttura nascosta di altri materiali.
+
+### Il Colosseo: il motivo teatrale e la sovrapposizione degli ordini
 
 All'esterno il Colosseo ripete lungo tutto il perimetro la sequenza di archi inquadrati dall'ordine già vista nel Teatro di Marcello. L'impianto prevede quattro registri: i primi tre sono scanditi da arcate inquadrate da semicolonne; il quarto è una parete chiusa, aperta solo da piccole finestre, che mantiene però l'allineamento verticale con i registri inferiori grazie a lesene poste in corrispondenza delle semicolonne. Il sistema dell'arco inquadrato dall'ordine, che gli archeologi chiamano anche motivo teatrale perché caratterizza i teatri e, insieme, gli anfiteatri, è lo stesso che si incontra nel Tabularium, dal quale prende l'altro suo nome.
 
 Anche qui a ogni registro corrisponde un ordine diverso, secondo il criterio di crescita del Teatro di Marcello: il registro inferiore è un dorico molto semplificato, vicino al tuscanico; il secondo è ionico; il terzo è corinzio; il quarto, quello chiuso, è composito. Si parla di crescita perché l'altezza dei registri aumenta leggermente e perché si procede dall'ordine più semplice a quello più articolato. Un'incisione cinquecentesca della raccolta *Speculum Romanae Magnificentiae* (1581) illustra questa successione, combinando in una sola immagine prospettica pianta, sezione e prospetto. Lo schema è comune a tutti gli edifici per lo spettacolo romani, anche se pochi si sono conservati abbastanza da mostrarlo per intero.
-
-### I materiali
-
-La costruzione del Colosseo riassume le tecniche già studiate. Il rivestimento esterno, cioè ciò che si vedeva, è in travertino, roccia sedimentaria calcarea tra le più diffuse nell'architettura di Roma; i pilastri e le murature interne sono in parte in tufo, roccia vulcanica; il nucleo portante, che garantisce la solidità dell'insieme, è in [[05-costruzione-nel-mondo-antico|opera cementizia]]. Quella che i contemporanei vedevano era dunque una scatola di travertino, la cui stabilità era affidata a una struttura nascosta di altri materiali.
 
 ### Il Colosseo dopo l'antichità
 
@@ -146,11 +140,11 @@ Perduta la funzione, il Colosseo fu progressivamente spogliato: la prima operazi
 
 Gli anfiteatri si diffusero in tutto l'impero con le stesse forme. Nella penisola, oltre al Colosseo, spiccano l'Arena di Verona e l'anfiteatro di Santa Maria Capua Vetere, l'antica Capua, del I secolo d.C., oggetto di una spoliazione sistematica: i suoi blocchi furono impiegati nella nuova Capua per costruzioni come il Castello delle Pietre e il campanile della cattedrale, mentre parte delle sculture finì a decorare edifici rinascimentali. Fuori d'Italia si conservano gli anfiteatri di Pola, di età augustea, di Arles e di Nîmes. In molti casi l'anfiteatro fu occupato nel Medioevo da abitazioni, come documentano le vedute seicentesche di Arles; a Lucca le case costruite sui resti hanno conservato la forma dell'arena, oggi piazza dell'Anfiteatro. Sono esempi di un processo comune di riuso e reimpiego dei materiali, che lascia le architetture antiche impresse nella forma delle città.
 
-## Pompei e l'eruzione del 79 d.C.
+## POMPEI
 
 Dagli spazi pubblici della città si passa ora alla dimensione privata dell'abitazione. L'osservatorio privilegiato è Pompei, città di origine preromana la cui configurazione attuale risale in gran parte all'età romana, e che si è conservata a causa di un evento disastroso: l'eruzione del Vesuvio del 79 d.C. Ceneri e lapilli seppellirono la città, interrompendone la storia e causando la morte di chi vi era rimasto o tentava di fuggire, ma ne garantirono al tempo stesso la conservazione. La quantità di edifici e di reperti, in un sito ancora non interamente scavato, fa di Pompei la fonte principale per lo studio della casa nel mondo antico.
 
-### La testimonianza di Plinio il Giovane
+### L'eruzione e la testimonianza di Plinio il Giovane
 
 L'eruzione è nota da una testimonianza celebre, le lettere di Plinio il Giovane, che ne fu spettatore: «Una nube nera e terribile, squarciata da guizzi serpeggianti di fuoco, si apriva in vasti bagliori d'incendio: erano essi simili a folgori, ma più estesi» (*Epistulae*, VI, 16). Nell'eruzione perse la vita suo zio, Plinio il Vecchio, naturalista e autore della *Naturalis historia*, che spinto dalla curiosità scientifica si era avvicinato al vulcano e morì sulla spiaggia di Stabia. Dal suo nome l'evento è detto eruzione pliniana. Insieme a Pompei furono sepolte Ercolano, Stabia e Oplontis, e di queste città si perse a lungo la memoria. L'eruzione del 79 d.C. è soltanto una delle tante che hanno segnato un territorio vulcanico e sismico ancora oggi attivo, come mostrano le raffigurazioni delle eruzioni successive, dall'incisione del 1694 di Antonio Bulifon alla fotografia dell'eruzione del 1872.
 
@@ -170,27 +164,21 @@ Le città vesuviane divennero presto meta di visitatori, eruditi, artisti e arch
 
 Uno strumento di studio straordinario è il plastico di Pompei voluto da Giuseppe Fiorelli, direttore degli scavi nella seconda metà dell'Ottocento, e completato nel 1879: realizzato in sughero in scala 1:100, una scala di dettaglio, riproduce lo stato di rovina delle architetture e le pitture delle case, ed è esposto al Museo Archeologico Nazionale di Napoli.
 
-## La città di Pompei
-
 ### La forma urbana
 
 La pianta di Pompei rivela le fasi della sua crescita. Intorno al foro si estende il nucleo più antico, con un tracciato stradale irregolare; la parte orientale, costruita successivamente, è organizzata invece secondo una griglia molto regolare di isolati, e ospita l'anfiteatro, uno dei più antichi anfiteatri in muratura conosciuti. La città è racchiusa da mura, aperte dalle porte urbiche, come la Porta Marina, oggi uno degli accessi al sito; fuori dalle mura partivano le strade verso le altre città della *Campania felix*, l'area vesuviana, lungo le quali si allineavano la necropoli, con i suoi sepolcri, e le ville suburbane.
 
 ### Cardo e decumano
 
-La griglia urbana è ordinata da assi stradali principali tra loro perpendicolari: il cardo, orientato da nord a sud, e il decumano, orientato da est a ovest. Nelle città romane fondate *ex novo*, a differenza di Roma, cresciuta nel corso di una lunga storia, l'incrocio tra cardo e decumano costituiva l'origine della città: lì sorgeva il foro, e alle direzioni dei due assi si allineavano tutte le altre strade, che disegnavano la griglia degli isolati, le *insulae*, sui quali si costruivano le *domus* o gli edifici pubblici. Nelle città più grandi, come Pompei, i cardi e i decumani potevano essere più di uno. Lo stesso principio si legge ad Aosta e a Ostia, con il suo decumano massimo, e in forma perfetta a Timgad, città di fondazione traianea in Algeria: un quadrato attraversato dal cardo e dal decumano, con isolati quasi quadrati e il foro all'incrocio dei due assi, centro funzionale e insieme geometrico della città.
+La griglia urbana è ordinata da assi stradali principali tra loro perpendicolari: il cardo, orientato da nord a sud, e il decumano, orientato da est a ovest. Nelle città romane fondate *ex novo*, a differenza di Roma, cresciuta nel corso di una lunga storia, l'incrocio tra cardo e decumano costituiva l'origine della città: lì sorgeva il foro, e alle direzioni dei due assi si allineavano tutte le altre strade, che disegnavano la griglia degli isolati, le *insulae*, sui quali si costruivano le *domus* o gli edifici pubblici. Nelle città più grandi, come Pompei, i cardi e i decumani potevano essere più di uno. Lo stesso principio si legge ad Aosta e a Ostia, con il suo decumano massimo, e in forma perfetta a Timgad, città di fondazione traianea in Algeria: un quadrato attraversato dal cardo e dal decumano, con isolati quasi quadrati e il foro all'incrocio dei due assi, centro funzionale e insieme geometrico della città. A Pompei una delle strade principali è la via Stabiana, che prende nome dalla direzione verso Stabia. Come le strade consolari, è pavimentata con il basolato, cioè con lastre di pietra vulcanica che formano la superficie stradale.
 
-Una delle strade principali di Pompei è la via Stabiana, che prende nome dalla direzione verso Stabia. Come le strade consolari, è pavimentata con il basolato, cioè con lastre di pietra vulcanica che formano la superficie stradale.
-
-### Il foro e il Tempio della triade capitolina
+### Il foro, il Tempio della triade capitolina e i teatri
 
 Il foro, cuore della città, si trova nella parte più antica. Oggi è uno spazio aperto con edifici ridotti allo stato di rovina, e per comprenderne l'aspetto occorre ricorrere alle ricostruzioni archeologiche. Ha forma rettangolare molto allungata ed era circondato da un portico continuo, secondo i caratteri descritti da Vitruvio per il [[03-roma-foro-e-fori-imperiali|foro romano]]: uno spazio recintato ma scoperto, sul quale si affacciavano la basilica, il tempio di Apollo, il *macellum*, cioè il mercato, e altri edifici pubblici e religiosi.
 
-Su uno dei lati brevi domina il tempio principale, dedicato alla triade capitolina, cioè Giove, Giunone e Minerva, le tre divinità principali del *pantheon* romano, termine che qui indica l'insieme degli dèi e non l'edificio. La sua prima fondazione risale al II secolo a.C., in età sannitica; quando nell'80 a.C. Pompei divenne colonia romana, il tempio fu ricostruito e dedicato alla triade. Sorge su un alto podio, largo circa 15 metri e lungo 27, ed è un tempio prostilo, esastilo secondo le ricostruzioni. La dedicazione a tre divinità si riflette nella ripartizione della cella in tre parti, che deriva dalla tradizione dei templi etruschi: di questi, costruiti con materiali deperibili come il legno e la terracotta, non restano le strutture ma alcune decorazioni fittili, e la loro forma è nota da ricostruzioni come quella in scala reale nel giardino del Museo di Villa Giulia a Roma. Il foro di Pompei fu oggetto di ricostruzione ideale già da parte degli architetti dell'Ottocento, come mostrano i rilievi e le restituzioni di Callet.
+Su uno dei lati brevi domina il tempio principale, dedicato alla triade capitolina, cioè Giove, Giunone e Minerva, le tre divinità principali del *pantheon* romano, termine che qui indica l'insieme degli dèi e non l'edificio. La sua prima fondazione risale al II secolo a.C., in età sannitica; quando nell'80 a.C. Pompei divenne colonia romana, il tempio fu ricostruito e dedicato alla triade. Sorge su un alto podio, largo circa 15 metri e lungo 27, ed è un tempio prostilo, esastilo secondo le ricostruzioni. La dedicazione a tre divinità si riflette nella ripartizione della cella in tre parti, che deriva dalla tradizione dei templi etruschi: di questi, costruiti con materiali deperibili come il legno e la terracotta, non restano le strutture ma alcune decorazioni fittili, e la loro forma è nota da ricostruzioni come quella in scala reale nel giardino del Museo di Villa Giulia a Roma. Il foro di Pompei fu oggetto di ricostruzione ideale già da parte degli architetti dell'Ottocento, come mostrano i rilievi e le restituzioni di Callet. Tra gli edifici pubblici della città si contano anche due teatri, risalenti al periodo romano della sua storia; il maggiore ripropone le parti e la forma del teatro romano già descritte.
 
-Tra gli edifici pubblici della città si contano anche due teatri, risalenti al periodo romano della sua storia; il maggiore ripropone le parti e la forma del teatro romano già descritte.
-
-## La *domus* pompeiana
+## LA *DOMUS* E LA VILLA
 
 ### Vitruvio e le case di Pompei
 
@@ -204,11 +192,9 @@ La Casa del Poeta tragico, di dimensioni medie, offre lo schema paradigmatico de
 
 L'atrio è coperto da un tetto inclinato verso l'interno, aperto al centro da un'apertura detta *compluvium*; in corrispondenza di essa, nel pavimento, si trova una vasca, l'*impluvium*. Il dispositivo ha una doppia funzione: lascia entrare la luce dall'alto, illuminando gli ambienti affacciati sull'atrio, e raccoglie l'acqua piovana nella vasca, da cui veniva convogliata in una cisterna. Vitruvio distingue cinque tipi di atrio a seconda del modo in cui è sostenuta la copertura. Nell'atrio tuscanico, come quello del Poeta tragico, il tetto è retto soltanto da travi incrociate, senza colonne; nell'atrio tetrastilo il *compluvium* poggia su quattro colonne poste agli angoli dell'*impluvium*.
 
-### Le pitture e i nomi delle case
+### I nomi delle case
 
 Il nome della Casa del Poeta tragico deriva dai soggetti delle pitture che vi furono rinvenute, oggi in gran parte al Museo Archeologico di Napoli, staccate anche per ragioni conservative, dato che gli ambienti sono privi di copertura: tra queste il matrimonio di Zeus ed Era e il sacrificio di Ifigenia. Allo stesso modo sono stati attribuiti i nomi di quasi tutte le case, delle strade e degli edifici di Pompei: in mancanza di notizie sui proprietari, gli archeologi li hanno denominati *a posteriori* in base a ciò che vi trovavano. La denominazione ufficiale, comune a tutte le pubblicazioni, si basa invece sulla numerazione delle *insulae* e delle singole case all'interno di ciascun isolato.
-
-Accanto alle scene figurate, la decorazione pittorica delle *domus* comprende finiture geometriche e astratte. Nella Casa di Sallustio, del II secolo a.C., la pittura imita in modo policromo un rivestimento in blocchi di pietre colorate, una finta opera isodoma realizzata in stucco e colore.
 
 ### Le varianti: la Casa del Labirinto e la Casa del Fauno
 
@@ -220,23 +206,21 @@ Un impianto analogo, con doppio atrio, caratterizza la Casa del Fauno, tra le pi
 
 La Casa del Menandro, del I secolo a.C., che prende nome dal ritratto del poeta Menandro dipinto in un'esedra del peristilio, presenta un impianto ancora più articolato, quasi un assemblaggio di ambienti: atrio tuscanico, *tablinum*, un ampio peristilio porticato, un quartiere termale privato, un orto, numerose sale. La sua ricostruzione in sezione rende evidente ciò che la pianta lascia solo intuire: all'esterno la casa è delimitata da muri continui, gli ambienti intorno agli atri e ai peristili sono coperti, e la luce penetra dai vuoti dell'atrio e del peristilio.
 
-### Lusso domestico, culto e pittura
+### Lusso domestico e culto
 
 La varietà delle *domus* pompeiane, per dimensioni, decorazioni e opere d'arte, permette di leggere la distribuzione dei ceti sociali nella città e testimonia una ricerca del lusso domestico straordinaria per un centro di medie dimensioni: la casa privata diventa il luogo in cui si cerca una qualità della vita e si esibisce il proprio status. I giardini dei peristili, con fontane, statue e vasche, ne sono un'espressione: nella Casa di Ottavio Quarto un lungo canale fiancheggiato da pergolati attraversa il giardino.
 
 Nella *domus* trovava posto anche il culto domestico. Accanto agli dèi maggiori, ai quali erano dedicati i templi pubblici, i Romani veneravano nelle case i Lari, protettori della famiglia e legati agli antenati; a essi era dedicato il *lararium*, un piccolo altare o edicola presso il quale la famiglia si raccoglieva, come quello conservato nella Casa del Menandro.
 
-La Casa dei Vettii, con il suo peristilio-giardino e le pitture dei suoi ambienti, realizzate tra il 62 e il 79 d.C., mostra come le superfici dipinte di maggiore estensione si conservino ancora sul posto, mentre le pitture di dimensioni contenute sono state staccate e trasferite al museo. La pittura pompeiana costituisce un campo di studi autonomo, che ne distingue diversi stili in base ai caratteri formali e ai soggetti; per l'architettura interessa come parte integrante dell'immagine della casa.
+### La decorazione pittorica
 
-## La villa
+La Casa dei Vettii, con il suo peristilio-giardino e le pitture dei suoi ambienti, realizzate tra il 62 e il 79 d.C., mostra come le superfici dipinte di maggiore estensione si conservino ancora sul posto, mentre le pitture di dimensioni contenute sono state staccate e trasferite al museo. La pittura pompeiana costituisce un campo di studi autonomo, che ne distingue diversi stili in base ai caratteri formali e ai soggetti; per l'architettura interessa come parte integrante dell'immagine della casa. Accanto alle scene figurate, la decorazione pittorica delle *domus* comprende finiture geometriche e astratte. Nella Casa di Sallustio, del II secolo a.C., la pittura imita in modo policromo un rivestimento in blocchi di pietre colorate, una finta opera isodoma realizzata in stucco e colore.
 
-### Villa e *otium*
+### La villa suburbana e l'*otium*
 
 Le *domus* sono le abitazioni interne alla cinta muraria, costruite sulle *insulae*. Fuori dalle mura, in area suburbana, cioè non lontano dalla città (mentre extraurbano indica ciò che ne è più distante), sorgono le ville. La prima distinzione rispetto alla *domus* è dunque topografica, ma ha conseguenze sulla funzione e sull'architettura.
 
-La villa è la residenza legata al riposo dalle attività lavorative, commerciali e politiche, un tempo che i Romani designavano con la parola *otium*. La sua negazione, *negotium*, indicava il lavoro e gli affari: nella mentalità romana il punto di partenza era l'*otium*, e l'attività ne era la negazione. L'ozio non aveva alcuna accezione negativa: era il tempo dedicato alla lettura, agli studi letterari, alla contemplazione della natura, un'attività ricreativa per lo spirito. La villa incarnava questa idea dell'abitare.
-
-Dal punto di vista architettonico, la villa è un edificio isolato, indipendente e circondato da uno spazio verde, mentre le *domus* si addossano le une alle altre e, pur con ingressi indipendenti, formano un tessuto continuo all'interno degli isolati.
+La villa è la residenza legata al riposo dalle attività lavorative, commerciali e politiche, un tempo che i Romani designavano con la parola *otium*. La sua negazione, *negotium*, indicava il lavoro e gli affari: nella mentalità romana il punto di partenza era l'*otium*, e l'attività ne era la negazione. L'ozio non aveva alcuna accezione negativa: era il tempo dedicato alla lettura, agli studi letterari, alla contemplazione della natura, un'attività ricreativa per lo spirito. La villa incarnava questa idea dell'abitare. Dal punto di vista architettonico, la villa è un edificio isolato, indipendente e circondato da uno spazio verde, mentre le *domus* si addossano le une alle altre e, pur con ingressi indipendenti, formano un tessuto continuo all'interno degli isolati.
 
 ### La Villa dei Misteri
 

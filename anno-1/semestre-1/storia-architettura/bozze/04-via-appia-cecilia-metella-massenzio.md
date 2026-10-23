@@ -14,23 +14,13 @@ tags: [storia-architettura, bozza]
 >
 > Argomenti collegati: [[05-costruzione-nel-mondo-antico]] · [[03-roma-foro-e-fori-imperiali]]
 
-## Introduzione: leggere l'architettura sul posto
+La visita alla Via Appia offre l'occasione di osservare dal vero, nello spazio di poche centinaia di metri, tre temi centrali dell'architettura romana: l'infrastruttura viaria, il monumento funerario e la residenza imperiale. Il tratto visitato si trova attorno al III miglio, dove sorgono, a breve distanza l'uno dall'altro e sullo stesso lato della strada, due complessi appartenenti a epoche molto lontane tra loro: il mausoleo di Cecilia Metella, testimonianza dell'ultima età repubblicana, e il complesso di Massenzio, che appartiene invece al Tardo Impero. Una fotografia aerea del 1958 mostra con chiarezza questo rapporto: vi si distinguono il complesso massenziano, con la lunga sagoma del circo, e, poco più avanti lungo la via, il mausoleo inglobato nel *castrum* medievale. Accanto alla conoscenza dei singoli monumenti, la visita ha un obiettivo di metodo. Osservare un edificio sul posto significa riconoscerne i materiali, gli apparecchi murari e i segni lasciati dalle trasformazioni successive, cioè leggere nelle murature la storia dell'opera. Le nozioni sulle tecniche costruttive, che trovano una trattazione sistematica nella lezione dedicata alla [[05-costruzione-nel-mondo-antico|costruzione nel mondo antico]], qui si verificano direttamente sui resti.
 
-La visita alla Via Appia offre l'occasione di osservare dal vero, nello spazio di poche centinaia di metri, tre temi centrali dell'architettura romana: l'infrastruttura viaria, il monumento funerario e la residenza imperiale. Il tratto visitato si trova attorno al III miglio, dove sorgono, a breve distanza l'uno dall'altro e sullo stesso lato della strada, due complessi appartenenti a epoche molto lontane tra loro: il mausoleo di Cecilia Metella, testimonianza dell'ultima età repubblicana, e il complesso di Massenzio, che appartiene invece al Tardo Impero. Una fotografia aerea del 1958 mostra con chiarezza questo rapporto: vi si distinguono il complesso massenziano, con la lunga sagoma del circo, e, poco più avanti lungo la via, il mausoleo inglobato nel *castrum* medievale.
-
-Accanto alla conoscenza dei singoli monumenti, la visita ha un obiettivo di metodo. Osservare un edificio sul posto significa riconoscerne i materiali, gli apparecchi murari e i segni lasciati dalle trasformazioni successive, cioè leggere nelle murature la storia dell'opera. Le nozioni sulle tecniche costruttive, che trovano una trattazione sistematica nella lezione dedicata alla [[05-costruzione-nel-mondo-antico|costruzione nel mondo antico]], qui si verificano direttamente sui resti.
-
-## La Via Appia
+## LA VIA APPIA
 
 ### Origine e tracciato
 
 La Via Appia è la più antica e la più celebre delle vie consolari, le grandi strade che dall'Urbe si irradiavano verso i territori conquistati. Deve il nome al censore Appio Claudio Cieco, che ne avviò la costruzione nel 312 a.C. per collegare Roma a Capua; il tracciato fu poi prolungato fino a Brindisi, il porto da cui partivano le rotte verso la Grecia e l'Oriente. Uscendo da Roma, la strada attraversa la campagna in direzione dei Colli Albani con un percorso in larga parte rettilineo, toccando centri come Bovillae e Aricia. Più a sud raggiunge il mare a Terracina, prosegue per Formia e Minturno fino a Capua e, attraverso Benevento, Venosa e Taranto, arriva a Brindisi. Nel corso del tempo il tracciato conobbe anche delle varianti: tra il 109 e il 112 d.C. Traiano realizzò un nuovo percorso che, da Benevento, attraversava la Puglia settentrionale passando per Aecae, Herdonia, Canosa, Bitonto, Bari ed Egnazia, per raggiungere anch'esso Brindisi lungo la costa adriatica. La rete viaria era dunque un organismo continuamente adeguato alle esigenze politiche, militari e commerciali dell'impero.
-
-### Il paesaggio funerario
-
-Lungo i margini della Via Appia si allineano moltissimi monumenti funerari. Le leggi romane vietavano infatti di seppellire i defunti all'interno della città, e le strade in uscita da Roma divennero il luogo privilegiato per i sepolcri. La Via Appia, in particolare, appartiene alla più antica tradizione dei sepolcri delle grandi famiglie patrizie: in età repubblicana il monumento funerario aveva la funzione principale di celebrare lo status politico e sociale della famiglia, e la sua collocazione lungo una strada molto frequentata ne garantiva la massima visibilità. Il sepolcro diventava così un mezzo di autorappresentazione rivolto a chiunque percorresse la via.
-
-Le dimensioni di questi monumenti sono assai variabili. Il più grande mausoleo romano è quello di Augusto, nel Campo Marzio; quello di Cecilia Metella, pur essendo più piccolo, misura circa cento piedi di diametro, cioè quasi trenta metri, considerando che il piede romano corrisponde all'incirca a 29 centimetri. Molti dei sepolcri minori conservano oggi soltanto il basamento, mentre l'elevazione è andata perduta.
 
 ### La costruzione della strada
 
@@ -40,7 +30,13 @@ Il basolato della Via Appia è composto da pietre poligonali di basalto, una roc
 
 Ai lati della carreggiata corrono i margini rialzati destinati ai pedoni, le *crepidines*, il cui nome richiama il crepidoma del tempio, cioè la gradinata di base su cui l'edificio sacro si innalza: anche nella strada si tratta di un sottofondo che sopraeleva il piano, qui però nascosto sotto la superficie di calpestio. La carreggiata della Via Appia misura soltanto 4 metri, quanto basta per il passaggio di almeno due carri, mentre i marciapiedi raggiungono circa 2 metri ciascuno. Per l'attraversamento si impiegavano pietre di basalto più grandi e più alte rispetto alla pavimentazione, i *gomphi*, che consentivano ai pedoni di passare da un lato all'altro della strada su un percorso regolare.
 
-## Il mausoleo di Cecilia Metella
+### Il paesaggio funerario
+
+Lungo i margini della Via Appia si allineano moltissimi monumenti funerari. Le leggi romane vietavano infatti di seppellire i defunti all'interno della città, e le strade in uscita da Roma divennero il luogo privilegiato per i sepolcri. La Via Appia, in particolare, appartiene alla più antica tradizione dei sepolcri delle grandi famiglie patrizie: in età repubblicana il monumento funerario aveva la funzione principale di celebrare lo status politico e sociale della famiglia, e la sua collocazione lungo una strada molto frequentata ne garantiva la massima visibilità. Il sepolcro diventava così un mezzo di autorappresentazione rivolto a chiunque percorresse la via.
+
+Le dimensioni di questi monumenti sono assai variabili. Il più grande mausoleo romano è quello di Augusto, nel Campo Marzio; quello di Cecilia Metella, pur essendo più piccolo, misura circa cento piedi di diametro, cioè quasi trenta metri, considerando che il piede romano corrisponde all'incirca a 29 centimetri. Molti dei sepolcri minori conservano oggi soltanto il basamento, mentre l'elevazione è andata perduta.
+
+## IL MAUSOLEO DI CECILIA METELLA
 
 ### La committente e il contesto
 
@@ -68,7 +64,7 @@ Il mausoleo di Cecilia Metella è uno dei pochi sepolcri della Via Appia giunti 
 
 Le tracce di questa trasformazione sono leggibili a occhio nudo. La parte sommitale del mausoleo non appartiene all'edificio antico: la merlatura che corona il tamburo è un'aggiunta medievale, eseguita con una muratura diversa e con forme che parlano una lingua estranea a quella del monumento romano. Lo studio della stratigrafia muraria, cioè della successione delle diverse fasi costruttive riconoscibili nella muratura, permette di distinguere con precisione la parte antica dalle aggiunte successive. Nella porzione superiore del mausoleo si riconoscono così, sopra i filari di travertino del monumento con l'iscrizione e il fregio, una fase tardoantica, una fase medievale anteriore ai Caetani, le murature del palazzo Caetani del 1302-1303 e infine un intervento della metà del XIX secolo; ciascuna fase si appoggia alla precedente, e proprio questi rapporti di appoggio permettono di stabilirne la successione. Il mausoleo offre così un esempio chiaro di come un'opera architettonica si trasformi nel tempo, cambiando funzione e assumendo nuove forme, e di come proprio il riuso ne abbia garantito la conservazione.
 
-## La Villa di Massenzio
+## LA VILLA DI MASSENZIO
 
 ### Massenzio e il Tardo Impero
 
@@ -78,9 +74,7 @@ Il complesso si compone di tre edifici principali: la villa vera e propria, il c
 
 ### Il circo
 
-Il circo di Massenzio è uno degli edifici per lo spettacolo meglio conservati dell'antichità romana. Il circo è l'edificio destinato alle corse dei carri e ha una caratteristica pianta molto allungata, con i lati lunghi rettilinei e le estremità chiuse da una semicirconferenza. Gli imperatori erano legati soprattutto a questo genere di spettacoli, e la presenza di un circo accanto alla residenza esprime con chiarezza il rapporto tra il sovrano e il pubblico dei giochi.
-
-Sul posto si riconoscono le parti fondamentali dell'impianto. Su uno dei lati brevi si trovano i *carceres*, i cancelli di partenza dai quali uscivano i carri guidati dagli aurighi; al centro dell'arena corre la *spina*, il lungo basamento attorno al quale i carri compivano i giri della corsa; sul lato opposto, in corrispondenza della curva, si apriva un arco di trionfo riservato al passaggio dei vincitori.
+Il circo di Massenzio è uno degli edifici per lo spettacolo meglio conservati dell'antichità romana. Il circo è l'edificio destinato alle corse dei carri e ha una caratteristica pianta molto allungata, con i lati lunghi rettilinei e le estremità chiuse da una semicirconferenza. Gli imperatori erano legati soprattutto a questo genere di spettacoli, e la presenza di un circo accanto alla residenza esprime con chiarezza il rapporto tra il sovrano e il pubblico dei giochi. Sul posto si riconoscono le parti fondamentali dell'impianto. Su uno dei lati brevi si trovano i *carceres*, i cancelli di partenza dai quali uscivano i carri guidati dagli aurighi; al centro dell'arena corre la *spina*, il lungo basamento attorno al quale i carri compivano i giri della corsa; sul lato opposto, in corrispondenza della curva, si apriva un arco di trionfo riservato al passaggio dei vincitori.
 
 ### Il mausoleo di Romolo
 

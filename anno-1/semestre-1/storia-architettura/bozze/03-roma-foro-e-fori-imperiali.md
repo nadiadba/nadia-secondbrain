@@ -14,19 +14,21 @@ tags: [storia-architettura, bozza]
 >
 > Argomenti collegati: [[02-acropoli-e-partenone]] · [[05-costruzione-nel-mondo-antico]] · [[01-ordini-architettonici]]
 
-## Introduzione: il mondo romano e la sua architettura
-
 L'architettura romana costituisce una porzione vastissima della cultura italiana ed europea, ed è un fenomeno di lunga durata, ma anche frammentario e discontinuo: comprende opere dalle caratteristiche molto diverse tra loro, distribuite non solo a Roma e nella penisola italiana, ma in tutto il Mediterraneo e nei territori interni dell'impero. Anfiteatri, archi di trionfo, teatri, vie consolari come la via Appia costellano un territorio immenso, con una notevole differenziazione di materiali e di forme. Per questo lo studio dell'architettura romana procede per casi scelti, che permettono di cogliere sia i caratteri trasversali comuni sia le peculiarità di ciascuna opera: gli anfiteatri, per esempio, condividono un sistema costruttivo, ma il Colosseo non è identico a tutti gli altri, e occorre uno sguardo critico per distinguere ciò che è comune da ciò che è specifico.
 
-## La periodizzazione di Roma
+## ROMA E LA CITTÀ ROMANA
+
+### La periodizzazione di Roma
 
 La storia di Roma si articola in tre fasi, scandite dalla variazione del sistema politico. L'età regia va dalla fondazione mitica di Roma (753 a.C.) all'avvento della Repubblica (509 a.C.); l'età repubblicana dal 509 al 27 a.C., quando si avvia l'età imperiale; quest'ultima ha una conclusione più articolata, legata alla caduta dell'impero d'Occidente e d'Oriente. Simboli dei due estremi di questa cronologia sono la Lupa capitolina, che allatta Romolo e Remo, e l'Augusto di Prima Porta, che rappresenta il primo imperatore. La maggior parte delle opere studiate si colloca tra la fine dell'età repubblicana e i primi due secoli dell'età imperiale.
 
-## La città romana e il Foro
+### Il Foro, cuore della città romana
 
 Il Foro è il cuore della città romana. Mentre la città greca distingueva due poli — l'Acropoli, religiosa, e l'agorà, politica e commerciale — nella città romana queste funzioni si fondono in un unico centro: nel Foro convivono gli edifici religiosi e quelli destinati alle attività commerciali, pubbliche e politiche. Secondo Vitruvio, il Foro era uno spazio di forma rettangolare che si apriva nel punto di incrocio delle due strade principali della città, il cardo (asse nord-sud) e il decumano (asse est-ovest). Dal punto di vista architettonico è uno spazio chiuso e delimitato, ma scoperto: una piazza a cielo aperto, cinta da un porticato colonnato su cui si affacciano le botteghe, con un tempio collocato su uno dei lati, a testimoniare la fusione tra funzione civica e funzione religiosa. Le città minori avevano un'unica piazza; Roma, invece, era dotata di più fori, con una maggiore specializzazione: accanto al Foro Romano, centro della vita politica, c'era per esempio il Foro Boario, dedicato al commercio del bestiame.
 
-## Il Foro Romano in età repubblicana
+## IL FORO ROMANO IN ETÀ REPUBBLICANA
+
+### Gli edifici del Foro
 
 Il Foro occupa una porzione pianeggiante della città e ospitava edifici dalle funzioni diverse. Il tempio di Vesta rispondeva a una funzione religiosa ed era legato, secondo la tradizione, alla fondazione di Roma. Due edifici denominati basilica — la Basilica Sempronia e la Basilica Fulvia-Emilia — accoglievano assemblee e svolgevano una funzione giudiziaria, come tribunali; è un dato importante, perché più tardi, con il termine basilica, si indicheranno edifici dalla funzione del tutto diversa. Il Comitium era il centro dei comizi e la Curia Ostilia la sede del Senato, principale organo di governo in età repubblicana. Il Tabularium, infine, era l'archivio di stato in cui si conservavano le tavole delle leggi — da cui il nome, legato al termine "tavola". Nella maggior parte dei casi questi edifici ci sono giunti solo allo stato archeologico, nei loro elementi e non nella loro integrità.
 
@@ -38,7 +40,9 @@ La Basilica Fulvia-Emilia illustra bene il principio di stratificazione proprio 
 
 Il Tabularium, realizzato nel 78 a.C. e probabilmente commissionato da Lucio Cornelio Silla, era l'archivio di stato; i suoi resti furono successivamente inglobati nel complesso dei Musei Capitolini, sul Campidoglio, di cui costituiscono il basamento. La sua importanza, oltre che documentaria, è architettonica: offre il modello di uno dei sistemi prediletti dall'architettura romana e poi rinascimentale, l'arco inquadrato dall'ordine architettonico. In Grecia il sistema degli ordini è trabeato, cioè le colonne sostengono una trabeazione orizzontale; nella facciata del Tabularium, invece, il sistema degli ordini inquadra un arco. Questo sistema — detto "sistema del Tabularium" o appunto "arco inquadrato nell'ordine" — ritorna, sovrapposto su più livelli, negli anfiteatri e nei teatri. L'edificio è costruito con blocchi regolari di tufo e peperino, materiali locali non pregiati ma robusti, e presenta all'interno una grande galleria di arcate.
 
-## I Fori Imperiali
+## I FORI IMPERIALI
+
+### Un sistema continuo
 
 Adiacenti al Foro Romano si sviluppa la sequenza dei Fori Imperiali, legati ciascuno al nome del proprio committente: Cesare, Augusto, Vespasiano, Nerva, Traiano. Essi costituivano un sistema continuo, in cui ogni imperatore edificava un nuovo spazio in continuità con il predecessore. Oggi questa continuità è spezzata, soprattutto a causa dell'apertura della via dei Fori Imperiali, realizzata nel Novecento durante il ventennio fascista per collegare l'Altare della Patria con il Colosseo: la strada ha tagliato in due l'area. Essa corre inoltre a una quota molto più alta rispetto ai resti antichi, perché le città crescono per stratificazione e il suolo di Roma si è alzato nel tempo: ciò che vediamo oggi è il frutto di una serie di scavi. In tutti questi fori si riconoscono i caratteri descritti da Vitruvio — spazio rettangolare, chiuso dal porticato ma scoperto, con un tempio collocato quasi sempre su uno dei lati corti.
 
@@ -60,7 +64,7 @@ Il Foro di Vespasiano, o Templum Pacis, costituisce un'eccezione nella categoria
 
 Il Foro di Traiano, con i Mercati annessi, è l'ultimo e il più grande della sequenza. L'imperatore Traiano, originario di Italica in Spagna, lo costruì per celebrare la vittoria sui Daci. Dell'opera conosciamo anche l'architetto, Apollodoro di Damasco, figura di primo piano — gli si attribuiscono il Foro, la Colonna Traiana e forse la ricostruzione del Pantheon — e autore di un trattato sulla guerra: accanto a Vitruvio, è uno degli architetti più importanti del mondo antico. La costruzione richiese un imponente sbancamento del terreno, per ottenere la superficie piana necessaria al foro. Vi si accedeva da un arco; all'interno si trovavano una statua di Traiano, la Basilica Ulpia (chiamata basilica ma con funzione diversa da quelle repubblicane), la Colonna Traiana, due biblioteche e l'ipotizzato tempio del Divo Traiano, la cui presenza resta incerta perché l'area è oggi sommersa dalle costruzioni moderne. Con una lunghezza di 118 metri e una larghezza di 89, era una porzione di città davvero vasta. Come tutti questi complessi, era riccamente rivestito di marmi e pietre pregiate, andati quasi interamente perduti perché furono i primi a essere spogliati.
 
-## La Colonna Traiana e la Colonna di Marco Aurelio
+### La Colonna Traiana e la Colonna di Marco Aurelio
 
 La Colonna Traiana è il monumento più importante del Foro di Traiano. Ha la forma di una colonna ma non ha alcuna funzione strutturale: la sua unica funzione è celebrare la guerra vittoriosa contro i Daci, il cui territorio corrisponde all'attuale Romania, combattuta tra il 101 e il 106 d.C. È una colonna coclide e centenaria: coclide perché il fregio, come un nastro continuo, si avvolge a spirale lungo tutta la sua altezza; centenaria perché alta cento piedi, cioè circa 30 metri (il piede è un'antica unità di misura antropometrica, pari a circa 30 centimetri). La forma a spirale è anche quella della struttura interna: la colonna è composta da rocchi di marmo incastrati, ciascuno dei quali contiene una porzione della scala che consente di risalirla internamente — il sistema che sarà poi chiamato scala a chiocciola. Un disegno di Antonio Labacco, che a confronto mostra prospetto e sezione, rende evidente la corrispondenza tra la forma esterna e quella interna. Il basamento reca un'iscrizione e due vittorie alate, mentre il fregio, densamente popolato di figure, racconta per sequenze successive le fasi della guerra, costituendo una sorta di grande libro di pietra da "sfogliare" con lo sguardo; vi si riconoscono anche rappresentazioni di città fortificate, archi e anfiteatri, preziose come fonti.
 
