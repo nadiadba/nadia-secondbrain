@@ -89,6 +89,7 @@ Regole sulla struttura:
 
 - Testo **da manuale universitario**: prosa discorsiva, paragrafi sviluppati, struttura gerarchica con `##` e `###`.
 - Integra tutte le fonti disponibili: sbobina, slide, letture assegnate (es. saggi), PDF ufficiali.
+- **La docente ha ragione.** Quello che dice a lezione (sbobina) o nelle slide si scrive cosi': non contraddirla e non correggerla con manuali o conoscenze generali, non attenuare quello che afferma con sicurezza. Si correggono solo gli errori evidenti della trascrizione automatica. Se un dato sembra del tutto sbagliato, verifica bene prima di cambiarlo (spesso si riferisce ad altro); nel dubbio riporta la sua versione e segnala il dubbio a Nadia in chat, non nel testo.
 - **Niente grassetto nel corpo del testo**, niente elenchi o tabelle al posto della prosa, niente glossari: i termini tecnici si spiegano dentro il discorso, in corsivo se latini o greci.
 - Togli i chiarimenti puramente didattici che non sono contenuto d'esame (es. "non confondete la colonna con l'ordine"): la definizione va data in forma affermativa.
 - Inserisci gli schemi delle slide dove aiutano a capire (immagini in `bozze/img/`, vedi sotto).

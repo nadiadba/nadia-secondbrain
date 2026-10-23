@@ -72,7 +72,7 @@ Nel mondo greco gli ordini architettonici sono tre: il dorico, lo ionico e il co
 
 ### L'ordine dorico
 
-L'ordine dorico è il più antico e severo dei tre, e si distingue per la sua robustezza e per la sobrietà delle forme. L'elemento che ne consente il riconoscimento immediato si trova nel fregio, come si vedrà più avanti; conviene però procedere con ordine, partendo dal basso.
+L'ordine dorico è il più severo dei tre, e si distingue per la sua robustezza e per la sobrietà delle forme. L'elemento che ne consente il riconoscimento immediato si trova nel fregio, come si vedrà più avanti; conviene però procedere con ordine, partendo dal basso.
 
 #### La colonna e il capitello
 
@@ -146,7 +146,7 @@ Per ovviare a questi inganni percettivi si ricorreva a una serie di correzioni. 
 
 ## Oltre il canone: varietà, capitelli figurati e cariatidi
 
-Il sistema degli ordini, per quanto rigoroso, non esaurisce la ricchezza delle forme antiche. Esistono infatti numerosi capitelli che non rientrano in nessuna delle categorie codificate e che vengono ricondotti alla nozione di *varietas*, ossia di variazione. Si tratta spesso di capitelli figurati, dominati dalla presenza di figure umane, animali o di elementi fantastici, che testimoniano la libertà inventiva degli artefici antichi, al di là della norma.
+Il sistema degli ordini, per quanto rigoroso, non esaurisce la ricchezza delle forme antiche. Esistono infatti numerosi capitelli che non rientrano in nessuna delle categorie codificate e che vengono ricondotti alla nozione di *varietas*, ossia di variazione. Si tratta spesso di capitelli figurati, dominati dalla presenza di figure umane, animali o fantastiche, ma anche di elementi astratti, che testimoniano la libertà inventiva degli artefici antichi, al di là della norma.
 
 La variazione, inoltre, non riguarda soltanto il capitello. Anche il fusto della colonna può essere sostituito da una figura umana che ne assume la funzione portante: si parla in questo caso di cariatidi, quando le figure sono femminili, e di telamoni, quando sono maschili. L'esempio più celebre è la loggia delle cariatidi dell'Eretteo, sull'Acropoli di Atene, dove le statue femminili sostituiscono a tutti gli effetti le colonne nel reggere la trabeazione.
 
@@ -160,7 +160,7 @@ Alle nozioni fin qui esposte è utile affiancare una riflessione di carattere st
 
 Già in Vitruvio, infatti, i diversi generi del tempio sono presentati come prodotti della storia, legati a episodi e a luoghi, e al tempo stesso ricondotti a un valore atemporale, come quando si associa il dorico al corpo maschile, lo ionico a quello femminile e il corinzio a una variante verginale. Fu il Rinascimento a trasformare questa materia composita in un vero sistema: Leon Battista Alberti, combinando lo studio delle rovine con la lettura di Vitruvio, seppe astrarre il concetto stesso di ordine, mentre più tardi Sebastiano Serlio, nelle sue *Regole generali di architettura* del 1537, e Jacopo Barozzi da Vignola, nella *Regola* del 1562, fissarono definitivamente il canone dei cinque ordini. In altre parole, il sistema ordinato e coerente che oggi studiamo è in larga misura una costruzione culturale della prima età moderna, elaborata per poter riprodurre e insegnare correttamente il linguaggio dell'antico.
 
-Al di sotto di tutte le varianti, tuttavia, resta immutato un principio fondamentale: la struttura trilitica del tempio classico, cioè il rapporto tra elementi di sostegno ed elementi gravanti. È su questo principio che si regge l'intero edificio concettuale degli ordini, e sarà proprio questo principio a essere messo in discussione, verso la fine del Settecento, da critici come Carlo Lodoli, che denunceranno il carattere "fittizio" di ordini nati per imitare in pietra le originarie strutture lignee. Una tensione, come annotava Goethe a proposito di Palladio, dalla quale l'architettura degli ordini ha tratto per secoli la propria vitalità.
+Al di sotto di tutte le varianti, tuttavia, resta immutato un principio fondamentale: la struttura trilitica del tempio classico, cioè il rapporto tra elementi di sostegno ed elementi gravanti. È su questo principio che si regge l'intero edificio concettuale degli ordini, e sarà proprio questo principio a essere messo in discussione, già nella prima metà del Settecento, da critici come Carlo Lodoli, che denunceranno il carattere "fittizio" di ordini nati per imitare in pietra le originarie strutture lignee. Una tensione, come annotava Goethe a proposito di Palladio, dalla quale l'architettura degli ordini ha tratto per secoli la propria vitalità.
 
 ## Collegamenti
 
