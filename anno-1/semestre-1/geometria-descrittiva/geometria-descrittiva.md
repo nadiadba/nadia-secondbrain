@@ -22,6 +22,7 @@ Ancora nessuna.
 4. [[04-rette-e-piani-metodo-di-monge|Rette e piani con il metodo di Monge: rette e piani nelle varie posizioni, condizioni di appartenenza, piano proiettante in prima, correzione dell'esercizio di omologia]] (mar 13 ottobre)
 5. [[05-piani-rette-e-appartenenza|Piano proiettante in seconda, retta e piano generico, piani che contengono le rette, punto che appartiene a un piano]] (gio 15 ottobre)
 6. [[06-piani-proiettanti-orizzontali-frontali|Piani ausiliari, rette orizzontali e frontali, perpendicolarità]] (mar 20 ottobre)
+7. [[07-ribaltamento-piani-proiettanti|Il ribaltamento dei piani proiettanti in prima e in seconda, su π₁ e su π₂]] (gio 22 ottobre)
 
 ## Bozze
 

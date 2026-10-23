@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 566" width="560" height="566">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Piano α proiettante in seconda: ribaltamento su π₂ intorno a t₂α</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="270.0" x2="540.0" y2="270.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="264.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="150.0" y1="270.0" x2="362.1" y2="17.2" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="368.1" y="23.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="150.0" y1="270.0" x2="150.0" y2="460.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="156.0" y="464.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="159.0" y1="270.0" x2="159.0" y2="279.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="159.0" y1="279.0" x2="150.0" y2="279.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<polygon points="195.0,315.0 310.7,340.0 246.4,435.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="160.5,187.5 257.1,33.5 120.0,49.0" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<line x1="195.0" y1="216.4" x2="195.0" y2="315.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="195.0" y1="216.4" x2="160.5" y2="187.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<path d="M 168.5 180.0 L 168.2 180.2 L 167.8 180.5 L 167.4 180.8 L 167.1 181.1 L 166.7 181.4 L 166.4 181.7 L 166.0 181.9 L 165.7 182.2 L 165.3 182.5 L 165.0 182.8 L 164.6 183.2 L 164.3 183.5 L 164.0 183.8 L 163.6 184.1 L 163.3 184.4 L 163.0 184.7 L 162.7 185.1 L 162.4 185.4 L 162.0 185.7 L 161.7 186.1 L 161.4 186.4 L 161.1 186.8 L 160.8 187.1 L 160.5 187.5 L 160.2 187.8 L 159.9 188.2 L 159.7 188.5 L 159.4 188.9 L 159.1 189.2 L 158.8 189.6 L 158.6 190.0 L 158.3 190.4 L 158.0 190.7 L 157.8 191.1 L 157.5 191.5 L 157.3 191.9 L 157.0 192.3 L 156.8 192.6 L 156.5 193.0 L 156.3 193.4 L 156.1 193.8 L 155.8 194.2 L 155.6 194.6 L 155.4 195.0 L 155.2 195.4 L 155.0 195.8 L 154.8 196.2 L 154.5 196.7" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="190.0" y1="292.5" x2="200.0" y2="292.5" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="181.0" y1="198.1" x2="174.5" y2="205.7" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="310.7" y1="78.5" x2="310.7" y2="340.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="310.7" y1="78.5" x2="257.1" y2="33.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<path d="M 269.6 21.9 L 269.0 22.3 L 268.4 22.7 L 267.8 23.1 L 267.3 23.6 L 266.7 24.0 L 266.2 24.5 L 265.6 24.9 L 265.1 25.4 L 264.5 25.9 L 264.0 26.3 L 263.5 26.8 L 263.0 27.3 L 262.4 27.8 L 261.9 28.3 L 261.4 28.8 L 260.9 29.3 L 260.4 29.8 L 259.9 30.3 L 259.4 30.8 L 259.0 31.3 L 258.5 31.9 L 258.0 32.4 L 257.5 33.0 L 257.1 33.5 L 256.6 34.0 L 256.2 34.6 L 255.7 35.2 L 255.3 35.7 L 254.9 36.3 L 254.4 36.9 L 254.0 37.4 L 253.6 38.0 L 253.2 38.6 L 252.8 39.2 L 252.4 39.8 L 252.0 40.4 L 251.6 41.0 L 251.2 41.6 L 250.9 42.2 L 250.5 42.8 L 250.1 43.4 L 249.8 44.0 L 249.4 44.6 L 249.1 45.3 L 248.7 45.9 L 248.4 46.5 L 248.1 47.2 L 247.8 47.8" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="305.7" y1="303.0" x2="315.7" y2="303.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="305.7" y1="307.0" x2="315.7" y2="307.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="288.6" y1="53.4" x2="282.2" y2="61.1" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="285.6" y1="50.9" x2="279.1" y2="58.5" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="246.4" y1="155.1" x2="246.4" y2="435.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="246.4" y1="155.1" x2="120.0" y2="49.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<path d="M 149.4 21.6 L 148.1 22.6 L 146.7 23.6 L 145.4 24.6 L 144.1 25.7 L 142.8 26.7 L 141.5 27.8 L 140.2 28.9 L 138.9 29.9 L 137.6 31.0 L 136.4 32.2 L 135.1 33.3 L 133.9 34.4 L 132.7 35.6 L 131.5 36.7 L 130.3 37.9 L 129.1 39.1 L 127.9 40.3 L 126.7 41.5 L 125.6 42.7 L 124.4 44.0 L 123.3 45.2 L 122.2 46.5 L 121.1 47.8 L 120.0 49.0 L 118.9 50.3 L 117.9 51.6 L 116.8 52.9 L 115.8 54.3 L 114.8 55.6 L 113.8 56.9 L 112.8 58.3 L 111.8 59.7 L 110.8 61.0 L 109.9 62.4 L 109.0 63.8 L 108.0 65.2 L 107.1 66.6 L 106.2 68.1 L 105.4 69.5 L 104.5 70.9 L 103.6 72.4 L 102.8 73.8 L 102.0 75.3 L 101.2 76.8 L 100.4 78.3 L 99.6 79.8 L 98.9 81.3 L 98.1 82.8" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="241.4" y1="348.5" x2="251.4" y2="348.5" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="241.4" y1="352.5" x2="251.4" y2="352.5" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="241.4" y1="356.5" x2="251.4" y2="356.5" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="189.5" y1="100.8" x2="183.1" y2="108.5" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="186.4" y1="98.2" x2="180.0" y2="105.9" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="183.4" y1="95.7" x2="176.9" y2="103.3" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="252.2" y1="148.2" x2="245.3" y2="142.4" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="245.3" y1="142.4" x2="239.5" y2="149.3" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<circle cx="195.0" cy="216.4" r="2.8" fill="#1f1f1f"/>
+<text x="203.0" y="228.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₂</text>
+<circle cx="195.0" cy="315.0" r="2.8" fill="#2563a8"/>
+<text x="169.0" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A₁</text>
+<circle cx="160.5" cy="187.5" r="2.8" fill="#c0392b"/>
+<text x="132.5" y="183.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A*</text>
+<circle cx="310.7" cy="78.5" r="2.8" fill="#1f1f1f"/>
+<text x="318.7" y="90.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₂</text>
+<circle cx="310.7" cy="340.0" r="2.8" fill="#2563a8"/>
+<text x="316.7" y="354.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B₁</text>
+<circle cx="257.1" cy="33.5" r="2.8" fill="#c0392b"/>
+<text x="263.1" y="25.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B*</text>
+<circle cx="246.4" cy="155.1" r="2.8" fill="#1f1f1f"/>
+<text x="254.4" y="169.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₂</text>
+<circle cx="246.4" cy="435.0" r="2.8" fill="#2563a8"/>
+<text x="256.4" y="439.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C₁</text>
+<circle cx="120.0" cy="49.0" r="2.8" fill="#c0392b"/>
+<text x="90.0" y="43.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C*</text>
+<text x="20" y="492" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Ogni punto ribaltato sta sulla perpendicolare a t₂α, a una distanza</text>
+<text x="20" y="509" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">uguale al suo aggetto: le lineette indicano i segmenti uguali.</text>
+</g>
+</svg>

@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica di Memo Vocali). Il contenuto è fedele alle parole del docente: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni fatte alla lavagna con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
-> Sbobina precedente: [[05-piani-rette-e-appartenenza]]
+> Sbobina precedente: [[05-piani-rette-e-appartenenza]] · Successiva: [[07-ribaltamento-piani-proiettanti]]
 >
 > Argomenti collegati: [[proiezioni-e-omologia]]
 

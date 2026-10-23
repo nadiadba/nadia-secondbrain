@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 556" width="560" height="556">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Piano α proiettante in seconda: ribaltamento su π₁ intorno a t₁α</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="255.0" x2="540.0" y2="255.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="80.0" y1="255.0" x2="292.1" y2="2.2" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="298.1" y="8.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="80.0" y1="255.0" x2="80.0" y2="445.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="86.0" y="449.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="89.0" y1="255.0" x2="89.0" y2="264.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="89.0" y1="264.0" x2="80.0" y2="264.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<polygon points="125.0,300.0 240.7,325.0 176.4,420.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="150.0,300.0 330.0,325.0 230.0,420.0" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<line x1="125.0" y1="201.4" x2="125.0" y2="300.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<path d="M 125.0 201.4 L 126.0 202.2 L 126.9 203.0 L 127.9 203.9 L 128.8 204.8 L 129.7 205.7 L 130.6 206.6 L 131.4 207.5 L 132.3 208.5 L 133.1 209.4 L 133.9 210.4 L 134.8 211.4 L 135.5 212.4 L 136.3 213.4 L 137.0 214.4 L 137.8 215.5 L 138.5 216.5 L 139.2 217.6 L 139.8 218.7 L 140.5 219.8 L 141.1 220.9 L 141.7 222.0 L 142.3 223.1 L 142.9 224.3 L 143.4 225.4 L 144.0 226.6 L 144.5 227.7 L 145.0 228.9 L 145.4 230.1 L 145.9 231.3 L 146.3 232.5 L 146.7 233.7 L 147.1 234.9 L 147.4 236.1 L 147.7 237.4 L 148.1 238.6 L 148.3 239.8 L 148.6 241.1 L 148.8 242.3 L 149.1 243.6 L 149.3 244.9 L 149.4 246.1 L 149.6 247.4 L 149.7 248.6 L 149.8 249.9 L 149.9 251.2 L 150.0 252.5 L 150.0 253.7 L 150.0 255.0" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="150.0" y1="255.0" x2="150.0" y2="300.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="125.0" y1="300.0" x2="150.0" y2="300.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="240.7" y1="63.5" x2="240.7" y2="325.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<path d="M 240.7 63.5 L 244.2 66.4 L 247.6 69.5 L 250.9 72.5 L 254.2 75.7 L 257.4 78.9 L 260.6 82.1 L 263.7 85.4 L 266.8 88.8 L 269.7 92.2 L 272.7 95.7 L 275.5 99.2 L 278.3 102.8 L 281.1 106.4 L 283.7 110.1 L 286.3 113.8 L 288.9 117.6 L 291.3 121.4 L 293.7 125.3 L 296.1 129.2 L 298.3 133.2 L 300.5 137.2 L 302.6 141.2 L 304.6 145.2 L 306.6 149.3 L 308.5 153.5 L 310.3 157.7 L 312.0 161.9 L 313.7 166.1 L 315.2 170.3 L 316.7 174.6 L 318.2 179.0 L 319.5 183.3 L 320.8 187.7 L 321.9 192.1 L 323.0 196.5 L 324.1 200.9 L 325.0 205.3 L 325.9 209.8 L 326.7 214.3 L 327.4 218.8 L 328.0 223.3 L 328.5 227.8 L 329.0 232.3 L 329.3 236.8 L 329.6 241.4 L 329.8 245.9 L 330.0 250.5 L 330.0 255.0" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="330.0" y1="255.0" x2="330.0" y2="325.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="240.7" y1="325.0" x2="330.0" y2="325.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="176.4" y1="140.1" x2="176.4" y2="420.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<path d="M 176.4 140.1 L 178.5 141.9 L 180.5 143.7 L 182.5 145.5 L 184.5 147.4 L 186.5 149.3 L 188.4 151.3 L 190.2 153.3 L 192.1 155.3 L 193.8 157.3 L 195.6 159.4 L 197.3 161.5 L 199.0 163.7 L 200.6 165.9 L 202.2 168.1 L 203.8 170.3 L 205.3 172.6 L 206.8 174.9 L 208.2 177.2 L 209.6 179.5 L 211.0 181.9 L 212.3 184.3 L 213.6 186.7 L 214.8 189.1 L 215.9 191.6 L 217.1 194.1 L 218.2 196.6 L 219.2 199.1 L 220.2 201.7 L 221.1 204.2 L 222.0 206.8 L 222.9 209.4 L 223.7 212.0 L 224.5 214.6 L 225.2 217.2 L 225.8 219.9 L 226.4 222.5 L 227.0 225.2 L 227.5 227.9 L 228.0 230.6 L 228.4 233.3 L 228.8 236.0 L 229.1 238.7 L 229.4 241.4 L 229.6 244.1 L 229.8 246.8 L 229.9 249.5 L 230.0 252.3 L 230.0 255.0" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="230.0" y1="255.0" x2="230.0" y2="420.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="176.4" y1="420.0" x2="230.0" y2="420.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<circle cx="125.0" cy="201.4" r="2.8" fill="#1f1f1f"/>
+<text x="99.0" y="199.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₂</text>
+<circle cx="125.0" cy="300.0" r="2.8" fill="#2563a8"/>
+<text x="101.0" y="316.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A₁</text>
+<circle cx="150.0" cy="300.0" r="2.8" fill="#c0392b"/>
+<text x="156.0" y="294.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A*</text>
+<circle cx="240.7" cy="63.5" r="2.8" fill="#1f1f1f"/>
+<text x="214.7" y="61.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₂</text>
+<circle cx="240.7" cy="325.0" r="2.8" fill="#2563a8"/>
+<text x="248.7" y="343.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B₁</text>
+<circle cx="330.0" cy="325.0" r="2.8" fill="#c0392b"/>
+<text x="336.0" y="341.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B*</text>
+<circle cx="176.4" cy="140.1" r="2.8" fill="#1f1f1f"/>
+<text x="150.4" y="138.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₂</text>
+<circle cx="176.4" cy="420.0" r="2.8" fill="#2563a8"/>
+<text x="150.4" y="436.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C₁</text>
+<circle cx="230.0" cy="420.0" r="2.8" fill="#c0392b"/>
+<text x="236.0" y="436.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C*</text>
+<text x="64.0" y="271.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">K</text>
+<text x="20" y="482" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Centro dei compassi in K, dove t₁α incontra la LT. L'aggetto non cambia:</text>
+<text x="20" y="499" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">A* sta alla stessa distanza dalla LT di A₁.</text>
+</g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 526" width="600" height="526">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: il piano α si chiude su π₂ come una porta, con cerniera su t₂α</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,335.0 262.0,200.0 411.4,286.2 177.6,421.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,335.0 262.0,200.0 262.0,35.0 28.2,170.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,200.0 411.4,286.2 411.4,121.2 262.0,35.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="335.0" x2="262.0" y2="200.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="200.0" x2="411.4" y2="286.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="200.0" x2="262.0" y2="35.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="377.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="168.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="118.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="339.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="158.1,95.0 158.1,260.0 410.4,285.7 410.4,120.7" fill="#2563a8" fill-opacity="0.14" stroke="none"/>
+<line x1="158.1" y1="260.0" x2="410.4" y2="285.7" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="288.2" y="268.8" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="158.1" y1="260.0" x2="158.1" y2="95.0" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="162.1" y="173.5" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="410.4" y1="285.7" x2="410.4" y2="120.7" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="414.4" y="199.2" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>α</text>
+<path d="M 197.3 243.1 L 196.9 244.3 L 196.3 245.5 L 195.7 246.7 L 194.9 247.9 L 194.0 249.0 L 193.0 250.1 L 191.9 251.2 L 190.7 252.3 L 189.4 253.3 L 188.0 254.3 L 186.6 255.2 L 185.0 256.0 L 183.4 256.9 L 181.6 257.6 L 179.9 258.4 L 178.0 259.0 L 176.1 259.6 L 174.1 260.1 L 172.1 260.6 L 170.1 261.0 L 168.0 261.4 L 165.9 261.6 L 163.7 261.9 L 161.6 262.0 L 159.4 262.1 L 157.2 262.1 L 155.0 262.0 L 152.9 261.9 L 150.7 261.7 L 148.6 261.4 L 146.5 261.1 L 144.4 260.7 L 142.4 260.2 L 140.4 259.7 L 138.5 259.1 L 136.7 258.5 L 134.9 257.8 L 133.1 257.0 L 131.5 256.2 L 129.9 255.3" fill="none" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="5,3"/>
+<path d="M 298.3 241.7 L 296.7 246.1 L 294.8 250.5 L 292.4 254.7 L 289.6 258.9 L 286.4 263.0 L 282.9 267.0 L 279.0 270.9 L 274.7 274.6 L 270.1 278.2 L 265.1 281.6 L 259.8 284.9 L 254.3 288.1 L 248.4 291.0 L 242.3 293.7 L 235.9 296.3 L 229.3 298.6 L 222.4 300.8 L 215.4 302.7 L 208.2 304.4 L 200.9 305.8 L 193.4 307.1 L 185.9 308.1 L 178.2 308.8 L 170.5 309.3 L 162.7 309.6 L 155.0 309.6 L 147.2 309.4 L 139.5 308.9 L 131.8 308.2 L 124.2 307.3 L 116.7 306.1 L 109.4 304.7 L 102.2 303.0 L 95.1 301.2 L 88.2 299.1 L 81.6 296.8 L 75.1 294.3 L 69.0 291.6 L 63.0 288.7 L 57.4 285.6" fill="none" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="5,3"/>
+<path d="M 242.2 191.8 L 241.3 194.5 L 240.1 197.1 L 238.7 199.6 L 237.0 202.1 L 235.1 204.6 L 233.0 207.0 L 230.6 209.3 L 228.1 211.6 L 225.3 213.7 L 222.3 215.8 L 219.1 217.8 L 215.8 219.6 L 212.3 221.4 L 208.6 223.0 L 204.8 224.6 L 200.8 226.0 L 196.7 227.3 L 192.5 228.4 L 188.2 229.4 L 183.8 230.3 L 179.3 231.1 L 174.7 231.6 L 170.2 232.1 L 165.5 232.4 L 160.9 232.6 L 156.2 232.6 L 151.6 232.5 L 146.9 232.2 L 142.3 231.8 L 137.8 231.2 L 133.3 230.5 L 128.9 229.6 L 124.5 228.6 L 120.3 227.5 L 116.2 226.3 L 112.2 224.9 L 108.3 223.4 L 104.6 221.7 L 101.1 220.0 L 97.7 218.2" fill="none" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="5,3"/>
+<polygon points="197.3,243.1 298.3,241.7 242.2,191.8" fill="#2563a8" fill-opacity="0.3" stroke="#2563a8" stroke-width="1"/>
+<polygon points="129.9,255.3 57.4,285.6 97.7,218.2" fill="#c0392b" fill-opacity="0.2" stroke="#c0392b" stroke-width="1"/>
+<circle cx="197.3" cy="243.1" r="2.8" fill="#2563a8"/>
+<text x="203.3" y="239.1" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">A</text>
+<circle cx="129.9" cy="255.3" r="2.8" fill="#c0392b"/>
+<text x="107.9" y="249.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">A*</text>
+<circle cx="298.3" cy="241.7" r="2.8" fill="#2563a8"/>
+<text x="304.3" y="237.7" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">B</text>
+<circle cx="57.4" cy="285.6" r="2.8" fill="#c0392b"/>
+<text x="35.4" y="279.6" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">B*</text>
+<circle cx="242.2" cy="191.8" r="2.8" fill="#2563a8"/>
+<text x="248.2" y="187.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">C</text>
+<circle cx="97.7" cy="218.2" r="2.8" fill="#c0392b"/>
+<text x="75.7" y="212.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">C*</text>
+<text x="20" y="462" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Gli archi sono orizzontali, con centro su t₂α: come la maniglia della porta,</text>
+<text x="20" y="479" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">ogni punto resta alla sua quota. La figura è portata dalla parte opposta a quella di partenza.</text>
+</g>
+</svg>

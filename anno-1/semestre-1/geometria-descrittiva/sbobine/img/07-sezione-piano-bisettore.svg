@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 336" width="480" height="336">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Sezione perpendicolare a t₁α: la rotazione e il piano bisettore</text>
+<g transform="translate(0,36)">
+<line x1="110.0" y1="230.0" x2="110.0" y2="30.0" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<text x="118.0" y="42.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">α</text>
+<line x1="50.0" y1="230.0" x2="410.0" y2="230.0" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="390.0" y="250.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">π₁</text>
+<line x1="80.0" y1="260.0" x2="310.0" y2="30.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<text x="160.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">piano bisettore</text>
+<path d="M 110.0 80.0 L 114.9 80.1 L 119.8 80.3 L 124.7 80.7 L 129.6 81.3 L 134.4 82.0 L 139.3 82.9 L 144.1 83.9 L 148.8 85.1 L 153.5 86.5 L 158.2 88.0 L 162.8 89.6 L 167.4 91.4 L 171.9 93.4 L 176.3 95.5 L 180.7 97.7 L 185.0 100.1 L 189.2 102.6 L 193.3 105.3 L 197.4 108.1 L 201.3 111.0 L 205.2 114.0 L 208.9 117.2 L 212.5 120.5 L 216.1 123.9 L 219.5 127.5 L 222.8 131.1 L 226.0 134.8 L 229.0 138.7 L 231.9 142.6 L 234.7 146.7 L 237.4 150.8 L 239.9 155.0 L 242.3 159.3 L 244.5 163.7 L 246.6 168.1 L 248.6 172.6 L 250.4 177.2 L 252.0 181.8 L 253.5 186.5 L 254.9 191.2 L 256.1 195.9 L 257.1 200.7 L 258.0 205.6 L 258.7 210.4 L 259.3 215.3 L 259.7 220.2 L 259.9 225.1 L 260.0 230.0" fill="none" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="5,4"/>
+<line x1="110.0" y1="80.0" x2="260.0" y2="230.0" stroke="#d97706" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="191.4" y1="148.6" x2="197.7" y2="155.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="197.7" y1="155.0" x2="191.4" y2="161.4" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="115.0" y1="155.0" x2="105.0" y2="155.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="185.0" y1="235.0" x2="185.0" y2="225.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="110.0" cy="80.0" r="2.8" fill="#2563a8"/>
+<text x="118.0" y="78.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="260.0" cy="230.0" r="2.8" fill="#c0392b"/>
+<text x="254.0" y="252.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A*</text>
+<circle cx="110.0" cy="230.0" r="2.8" fill="#1f1f1f"/>
+<text x="32.0" y="252.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t₁α ≡ A₁</text>
+</g>
+</svg>
