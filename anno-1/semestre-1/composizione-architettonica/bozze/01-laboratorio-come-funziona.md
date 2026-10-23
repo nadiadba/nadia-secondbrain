@@ -13,7 +13,7 @@ Sintesi dei punti utili della lezione introduttiva del laboratorio (martedì 29 
 > [!info] Note collegate
 > Sbobina: [[01-introduzione-laboratorio]]
 >
-> Altri corsi: [[strumenti-e-disegno]] e [[proiezioni-e-omologia]] (Geometria descrittiva: strumenti, pianta e prospetto)
+> Altri corsi: [[01-strumenti-materiali-e-regole]] e [[02-proiezioni-e-omologia-schema]] (Geometria descrittiva: strumenti, pianta e prospetto)
 
 ## Come funziona il laboratorio
 

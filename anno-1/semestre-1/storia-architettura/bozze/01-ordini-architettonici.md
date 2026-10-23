@@ -3,6 +3,7 @@ tipo: bozza
 corso: Storia dell'architettura 1
 anno: 1
 semestre: 1
+data: 2026-09-30
 tags: [storia-architettura, bozza]
 ---
 
@@ -13,7 +14,7 @@ tags: [storia-architettura, bozza]
 >
 > Lezione: [[01 - Il tempio e gli ordini.pdf|Il tempio e gli ordini (PDF)]]
 >
-> Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]]
+> Argomenti collegati: [[02-acropoli-e-partenone]] · [[05-costruzione-nel-mondo-antico]]
 
 ## Introduzione: la grammatica dell'architettura antica
 
@@ -163,13 +164,4 @@ Al di sotto di tutte le varianti, tuttavia, resta immutato un principio fondamen
 
 ## Collegamenti
 
-Il tema degli ordini non si esaurisce nel mondo antico, ma attraversa l'intera storia dell'architettura occidentale. Gli stessi elementi tornano infatti protagonisti nell'architettura del Rinascimento, quando la riscoperta di Vitruvio e lo studio delle rovine romane riportano gli ordini al centro del progetto: per questa ragione la terminologia appresa ora costituisce una base che tornerà indispensabile nei moduli successivi del corso, dedicati all'età umanistica e rinascimentale. Un ponte diretto è offerto dal [[acropoli-partenone|Partenone]], che sarà studiato come massimo esempio di tempio dorico e come vertice dell'architettura classica. Infine, il costante rapporto tra forma architettonica e luogo di origine, che ricorre nella genesi di ciascuno dei tre ordini, si collega direttamente al tema dell'esercitazione su storia e geografia dell'architettura, invitando a leggere ogni edificio anche come prodotto di un territorio e di una cultura.
-
-## Per approfondire
-
-- C. Bozzoni, V. Franchetti Pardo, G. Ortolani, A. Viscogliosi, *L'architettura del mondo antico*, Roma, Laterza 2006 (manuale di riferimento per l'architettura antica)
-- N. Pevsner, J. Fleming, H. Honour, *Dizionario di architettura*, Torino, Einaudi 2019 (fondamentale per la terminologia tecnica)
-- C. Thoenes, *Cinque tesi sugli ordini architettonici* (saggio critico sulla formazione del sistema degli ordini, disponibile nel materiale del corso)
-- G. Cricco, F.P. Di Teodoro, *Itinerario nell'arte*, versione gialla, Bologna, Zanichelli (trattazione introduttiva, utile per le basi)
-- *Architettura romana: i grandi monumenti*, a cura di H. von Hesberg, P. Zanker, Milano, Electa 2009 (approfondimento sull'architettura romana)
-- Fonti originali: Vitruvio, *De architectura*, libri III-IV; Jacopo Barozzi da Vignola, *Regola delli cinque ordini d'architettura*, 1562; M.-A. Laugier, *Essai sur l'architecture*, 1755.
+Il tema degli ordini non si esaurisce nel mondo antico, ma attraversa l'intera storia dell'architettura occidentale. Gli stessi elementi tornano infatti protagonisti nell'architettura del Rinascimento, quando la riscoperta di Vitruvio e lo studio delle rovine romane riportano gli ordini al centro del progetto: per questa ragione la terminologia appresa ora costituisce una base che tornerà indispensabile nei moduli successivi del corso, dedicati all'età umanistica e rinascimentale. Un ponte diretto è offerto dal [[02-acropoli-e-partenone|Partenone]], che sarà studiato come massimo esempio di tempio dorico e come vertice dell'architettura classica. Infine, il costante rapporto tra forma architettonica e luogo di origine, che ricorre nella genesi di ciascuno dei tre ordini, si collega direttamente al tema dell'esercitazione su storia e geografia dell'architettura, invitando a leggere ogni edificio anche come prodotto di un territorio e di una cultura.

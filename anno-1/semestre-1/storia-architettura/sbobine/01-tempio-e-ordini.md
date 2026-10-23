@@ -13,7 +13,7 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (durata 1h38). Il contenuto è integrale e fedele alle parole della professoressa: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema. I titoli in grassetto servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
-> Bozza: [[ordini-architettonici]]
+> Bozza: [[01-ordini-architettonici]]
 >
 > Successiva: [[02-grecia-antica-partenone]]
 

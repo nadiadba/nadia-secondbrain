@@ -12,7 +12,7 @@ tags: [composizione-architettonica, sbobina]
 > Trascrizione sistemata della registrazione della lezione introduttiva del laboratorio (prof. V. Palmieri), in cui il docente presenta le esercitazioni e alcuni studenti degli anni passati mostrano i loro lavori. L'audio era di qualità bassa, con molte voci: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema o incomprensibili, senza aggiungere contenuti. Gli interventi degli studenti sono segnalati in corsivo. La registrazione inizia a lezione già avviata.
 
 > [!info] Note collegate
-> Bozza: [[introduzione-laboratorio]]
+> Bozza: [[01-laboratorio-come-funziona]]
 
 ## I materiali
 

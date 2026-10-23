@@ -14,7 +14,7 @@ tags: [storia-architettura, sbobina]
 > [!info] Note collegate
 > Sbobina precedente: [[07-residenza-mondo-antico]] · Successiva: [[10-adriano-pantheon]]
 >
-> Argomenti collegati: [[costruzione-mondo-antico]] (tecniche costruttive, opera cementizia, laterizio)
+> Argomenti collegati: [[05-costruzione-nel-mondo-antico]] (tecniche costruttive, opera cementizia, laterizio)
 
 ## Caracalla, i Severi e il significato delle terme
 

@@ -13,7 +13,7 @@ Riassunto rapido della lezione del 6 ottobre: i concetti chiave in forma di sche
 > [!info] Note collegate
 > Sbobina: [[02-proiezioni-e-omologia]]
 >
-> Argomenti collegati: [[strumenti-e-disegno]]
+> Argomenti collegati: [[01-strumenti-materiali-e-regole]]
 
 ## Richiami di geometria
 

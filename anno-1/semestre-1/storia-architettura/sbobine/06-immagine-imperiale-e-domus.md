@@ -14,7 +14,7 @@ tags: [storia-architettura, sbobina]
 > [!info] Note collegate
 > Sbobina precedente: [[05-costruzione-mondo-antico]] · Successiva: [[07-residenza-mondo-antico]]
 >
-> Argomenti collegati: [[roma-foro-fori-imperiali]] · [[costruzione-mondo-antico]]
+> Argomenti collegati: [[03-roma-foro-e-fori-imperiali]] · [[05-costruzione-nel-mondo-antico]]
 
 ## Ripasso delle lezioni precedenti
 

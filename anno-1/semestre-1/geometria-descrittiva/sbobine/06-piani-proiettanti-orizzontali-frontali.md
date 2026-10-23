@@ -14,7 +14,7 @@ tags: [geometria-descrittiva, sbobina]
 > [!info] Note collegate
 > Sbobina precedente: [[05-piani-rette-e-appartenenza]] · Successiva: [[07-ribaltamento-piani-proiettanti]]
 >
-> Argomenti collegati: [[proiezioni-e-omologia]]
+> Argomenti collegati: [[02-proiezioni-e-omologia-schema]]
 
 ## Piani ausiliari e rette ausiliarie
 

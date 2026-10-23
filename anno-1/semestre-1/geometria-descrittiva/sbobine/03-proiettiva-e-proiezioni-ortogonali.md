@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata delle registrazioni della lezione (tre file). L'audio era di qualità bassa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema o incomprensibili, senza aggiungere contenuti. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni fatte alla lavagna con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
-> Bozza collegata (omologia): [[proiezioni-e-omologia]]
+> Bozza collegata (omologia): [[02-proiezioni-e-omologia-schema]]
 >
 > Sbobina precedente: [[02-proiezioni-e-omologia]] · Successiva: [[04-rette-e-piani-metodo-di-monge]]
 

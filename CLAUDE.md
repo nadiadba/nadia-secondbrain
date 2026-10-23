@@ -92,9 +92,11 @@ Regole sulla struttura:
 - **Niente grassetto nel corpo del testo**, niente elenchi o tabelle al posto della prosa, niente glossari: i termini tecnici si spiegano dentro il discorso, in corsivo se latini o greci.
 - Togli i chiarimenti puramente didattici che non sono contenuto d'esame (es. "non confondete la colonna con l'ordine"): la definizione va data in forma affermativa.
 - Inserisci gli schemi delle slide dove aiutano a capire (immagini in `bozze/img/`, vedi sotto).
-- Chiudi sempre con due sezioni: `## Collegamenti` (prosa: come l'argomento si lega al resto del corso e agli altri corsi) e `## Per approfondire` (bibliografia: manuali del corso, fonti antiche, saggi). **Non eliminare mai la sezione Collegamenti**.
-- Il modello e' `anno-1/semestre-1/storia-architettura/bozze/ordini-architettonici.md`.
-- Per le lezioni pratiche o organizzative (strumenti da comprare, come funziona il laboratorio) la bozza puo' essere uno schema a elenchi, come `geometria-descrittiva/bozze/strumenti-e-disegno.md`.
+- Chiudi sempre con la sezione `## Collegamenti` (prosa: come l'argomento si lega al resto del corso e agli altri corsi). **Non eliminare mai la sezione Collegamenti**.
+- **Storia: niente bibliografia in fondo alle bozze.** La bibliografia di ogni bozza va nella pagina `storia-architettura/bozze/00-bibliografia.md`, in ordine di lezione: titolo della lezione, data, link alla bozza e alla sbobina, elenco dei testi (manuali del programma, fonti e saggi citati a lezione). Aggiornala ogni volta che crei una bozza di storia. Nelle altre materie si puo' chiudere con `## Per approfondire`.
+- **Nome della bozza:** `NN-argomento.md`, con NN uguale al numero della sbobina della lezione da cui nasce, cosi' in Obsidian le bozze stanno in ordine dalla prima lezione all'ultima (vale per tutte le materie). Il nome deve essere diverso da quello della sbobina (es. sbobina `05-costruzione-mondo-antico`, bozza `05-costruzione-nel-mondo-antico`): in Obsidian i nomi dei file devono essere unici.
+- Il modello e' `anno-1/semestre-1/storia-architettura/bozze/01-ordini-architettonici.md`.
+- Per le lezioni pratiche o organizzative (strumenti da comprare, come funziona il laboratorio) la bozza puo' essere uno schema a elenchi, come `geometria-descrittiva/bozze/01-strumenti-materiali-e-regole.md`.
 
 ## Collegare le note tra loro (fondamentale per il grafo)
 
@@ -106,13 +108,13 @@ Una nota senza link e' un pallino isolato nel grafo di Obsidian. Ogni bozza e og
 > [!info] Note collegate
 > Sbobina: [[01-tempio-e-ordini]] · Appunti: [[01 - Il tempio e gli ordini.pdf|Il tempio e gli ordini (PDF)]]
 >
-> Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]]
+> Argomenti collegati: [[02-acropoli-e-partenone]] · [[05-costruzione-nel-mondo-antico]]
 ```
 
 - Bozza ↔ sbobina dello stesso argomento si linkano sempre a vicenda; le sbobine linkano anche la precedente e la successiva.
 - Quando arriva il PDF finito di un argomento, aggiungilo al callout della bozza corrispondente.
 - **Quando crei una nota nuova, aggiorna anche le note vecchie** che devono puntare a lei: la sbobina precedente ("Successiva: ..."), le bozze sugli argomenti collegati e la nota indice.
-- Nella sezione `## Collegamenti`, quando citi un argomento che ha gia' una nota, trasforma la parola in link dentro la frase: `dal [[acropoli-partenone|Partenone]]`. Vale anche tra materie diverse (es. Geometria descrittiva ↔ Composizione).
+- Nella sezione `## Collegamenti`, quando citi un argomento che ha gia' una nota, trasforma la parola in link dentro la frase: `dal [[02-acropoli-e-partenone|Partenone]]`. Vale anche tra materie diverse (es. Geometria descrittiva ↔ Composizione).
 - Nelle sbobine non toccare il testo: i link stanno solo nel callout iniziale.
 - Non inventare link a note che non esistono ancora (in Obsidian creerebbero pallini vuoti nel grafo).
 

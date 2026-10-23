@@ -14,9 +14,9 @@ Sintesi dei punti utili della prima lezione (giovedì 1 ottobre): cosa procurars
 > [!info] Note collegate
 > Sbobina: [[01-strumenti-e-disegno]]
 >
-> Argomento successivo: [[proiezioni-e-omologia]]
+> Argomento successivo: [[02-proiezioni-e-omologia-schema]]
 >
-> Altri corsi: [[introduzione-laboratorio]] (scale, piante e prospetti in Composizione)
+> Altri corsi: [[01-laboratorio-come-funziona]] (scale, piante e prospetti in Composizione)
 
 ## Gli strumenti da procurarsi
 

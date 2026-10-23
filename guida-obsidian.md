@@ -17,7 +17,7 @@ Obsidian e' il programma con cui leggi e consulti gli appunti. Questa cartella (
 
 ## 2. I collegamenti tra le note
 
-I link tra note si scrivono con doppie parentesi quadre, per esempio `[[ordini-architettonici]]`. Cliccandoli si apre la nota collegata. Tenendo premuto Cmd (o Ctrl) mentre passi col mouse si vede un'anteprima senza aprirla.
+I link tra note si scrivono con doppie parentesi quadre, per esempio `[[01-ordini-architettonici]]`. Cliccandoli si apre la nota collegata. Tenendo premuto Cmd (o Ctrl) mentre passi col mouse si vede un'anteprima senza aprirla.
 
 - **Backlink** (in basso o nella barra destra, "Link entranti"): mostra quali altre note parlano della nota che stai leggendo. Utile per scoprire collegamenti tra argomenti.
 - **Vista grafo** (icona a forma di rete): disegna tutte le note come pallini collegati. I pallini piu' grandi sono gli argomenti piu' collegati.

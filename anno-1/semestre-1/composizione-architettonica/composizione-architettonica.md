@@ -20,4 +20,4 @@ Ancora nessuna.
 
 ## Bozze
 
-- [[introduzione-laboratorio|Introduzione al laboratorio: come funziona il corso e le esercitazioni]]
+- [[01-laboratorio-come-funziona|Introduzione al laboratorio: come funziona il corso e le esercitazioni]]

@@ -13,7 +13,7 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (durata circa 1h48). Il contenuto è integrale e fedele alle parole della professoressa: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema (comunicazioni e organizzazione delle visite). I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
-> Bozza: [[costruzione-mondo-antico]]
+> Bozza: [[05-costruzione-nel-mondo-antico]]
 >
 > Sbobina precedente: [[04-visita-via-appia]] · Successiva: [[06-immagine-imperiale-e-domus]]
 

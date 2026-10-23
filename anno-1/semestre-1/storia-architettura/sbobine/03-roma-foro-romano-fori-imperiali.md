@@ -13,7 +13,7 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (durata circa 1h27). Il contenuto è integrale e fedele alle parole della professoressa: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
-> Bozza: [[roma-foro-fori-imperiali]]
+> Bozza: [[03-roma-foro-e-fori-imperiali]]
 >
 > Sbobina precedente: [[02-grecia-antica-partenone]] · Successiva: [[04-visita-via-appia]]
 

@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della registrazione della prima lezione. L'audio era di qualità bassa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema o incomprensibili, senza aggiungere contenuti. I termini sugli strumenti sono stati controllati sulla lista "Da portare sempre a lezione" del corso. La registrazione inizia a lezione già avviata.
 
 > [!info] Note collegate
-> Bozza: [[strumenti-e-disegno]]
+> Bozza: [[01-strumenti-materiali-e-regole]]
 >
 > Successiva: [[02-proiezioni-e-omologia]]
 

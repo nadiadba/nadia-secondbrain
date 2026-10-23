@@ -3,6 +3,7 @@ tipo: bozza
 corso: Storia dell'architettura 1
 anno: 1
 semestre: 1
+data: 2026-10-08
 tags: [storia-architettura, bozza]
 ---
 
@@ -11,7 +12,7 @@ tags: [storia-architettura, bozza]
 > [!info] Note collegate
 > Sbobina: [[05-costruzione-mondo-antico]] · Visita: [[04-visita-via-appia]]
 >
-> Argomenti collegati: [[ordini-architettonici]] · [[roma-foro-fori-imperiali]]
+> Argomenti collegati: [[01-ordini-architettonici]] · [[03-roma-foro-e-fori-imperiali]]
 
 ## Introduzione: la storia della costruzione e le fonti
 
@@ -121,10 +122,4 @@ La cupola si ottiene per rotazione dell'arco attorno al proprio asse, generando 
 
 ## Collegamenti
 
-Questa lezione è la "cassetta degli attrezzi" per leggere tutte le opere che incontreremo: ogni volta che studieremo un edificio ne osserveremo anche il modo di costruzione, riconoscendo i materiali e gli apparecchi murari qui descritti. Il sistema trilitico collega questa parte all'architettura greca e agli [[ordini-architettonici|ordini]], mentre l'arco, le volte, la cupola e l'opera cementizia sono la chiave dell'architettura romana e dei suoi grandi edifici (anfiteatri, teatri, terme, Pantheon). Il tema dei tipi di pietra e della loro provenienza — marmo pentelico, travertino, peperino — si lega direttamente all'esercitazione individuale *Geografie della pietra. Atlante dei materiali*. Infine, molte di queste tecniche e sistemi (l'opus spicatum, l'arco inquadrato nell'ordine) torneranno protagoniste nell'architettura del Rinascimento.
-
-## Per approfondire
-
-- C. Bozzoni, V. Franchetti Pardo, G. Ortolani, A. Viscogliosi, *L'architettura del mondo antico*, Roma, Laterza 2006
-- J.-P. Adam, *L'arte di costruire presso i Romani. Materiali e tecniche*, Milano, Longanesi (manuale di riferimento sulle tecniche costruttive romane)
-- Fonte antica richiamata a lezione: Vitruvio, *De architectura* (in particolare i libri II e X).
+Questa lezione è la "cassetta degli attrezzi" per leggere tutte le opere che incontreremo: ogni volta che studieremo un edificio ne osserveremo anche il modo di costruzione, riconoscendo i materiali e gli apparecchi murari qui descritti. Il sistema trilitico collega questa parte all'architettura greca e agli [[01-ordini-architettonici|ordini]], mentre l'arco, le volte, la cupola e l'opera cementizia sono la chiave dell'architettura romana e dei suoi grandi edifici (anfiteatri, teatri, terme, Pantheon). Il tema dei tipi di pietra e della loro provenienza — marmo pentelico, travertino, peperino — si lega direttamente all'esercitazione individuale *Geografie della pietra. Atlante dei materiali*. Infine, molte di queste tecniche e sistemi (l'opus spicatum, l'arco inquadrato nell'ordine) torneranno protagoniste nell'architettura del Rinascimento.

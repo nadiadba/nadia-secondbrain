@@ -26,5 +26,5 @@ Ancora nessuna.
 
 ## Bozze
 
-- [[strumenti-e-disegno|Strumenti, materiali e regole di base del disegno]] (prima lezione, 1 ottobre)
-- [[proiezioni-e-omologia|Proiezioni e omologia]] (lezione del 6 ottobre)
+- [[01-strumenti-materiali-e-regole|Strumenti, materiali e regole di base del disegno]] (prima lezione, 1 ottobre)
+- [[02-proiezioni-e-omologia-schema|Proiezioni e omologia]] (lezione del 6 ottobre)

@@ -3,6 +3,7 @@ tipo: bozza
 corso: Storia dell'architettura 1
 anno: 1
 semestre: 1
+data: 2026-10-02
 tags: [storia-architettura, bozza]
 ---
 
@@ -11,7 +12,7 @@ tags: [storia-architettura, bozza]
 > [!info] Note collegate
 > Sbobina: [[03-roma-foro-romano-fori-imperiali]]
 >
-> Argomenti collegati: [[acropoli-partenone]] · [[costruzione-mondo-antico]] · [[ordini-architettonici]]
+> Argomenti collegati: [[02-acropoli-e-partenone]] · [[05-costruzione-nel-mondo-antico]] · [[01-ordini-architettonici]]
 
 ## Introduzione: il mondo romano e la sua architettura
 
@@ -67,11 +68,4 @@ Monumento gemello è la Colonna di Marco Aurelio (180-193 d.C.), eretta per cele
 
 ## Collegamenti
 
-Il Foro romano permette di confrontare la concezione della città greca e di quella romana: alla separazione tra [[acropoli-partenone|Acropoli]] e agorà si sostituisce il Foro come centro unico e totale della vita cittadina. Il sistema dell'arco inquadrato nell'ordine, offerto dal Tabularium, è un ponte diretto verso i grandi edifici per lo spettacolo (anfiteatri e teatri) e verso l'architettura del Rinascimento, che riprenderà questo motivo. Infine, i templi dei Fori — da Venere Genitrice a Marte Ultore — mostrano come l'architettura romana usi le forme (e le dedicazioni) per costruire un discorso politico e dinastico, lo stesso principio di celebrazione del potere che percorre tutta la vicenda imperiale.
-
-## Per approfondire
-
-- C. Bozzoni, V. Franchetti Pardo, G. Ortolani, A. Viscogliosi, *L'architettura del mondo antico*, Roma, Laterza 2006
-- *Architettura romana: i grandi monumenti*, a cura di H. von Hesberg, P. Zanker, Milano, Electa 2009
-- P. Zanker, *Augusto e il potere delle immagini*, Torino, Einaudi
-- Fonte antica richiamata a lezione: Vitruvio, *De architectura*.
+Il Foro romano permette di confrontare la concezione della città greca e di quella romana: alla separazione tra [[02-acropoli-e-partenone|Acropoli]] e agorà si sostituisce il Foro come centro unico e totale della vita cittadina. Il sistema dell'arco inquadrato nell'ordine, offerto dal Tabularium, è un ponte diretto verso i grandi edifici per lo spettacolo (anfiteatri e teatri) e verso l'architettura del Rinascimento, che riprenderà questo motivo. Infine, i templi dei Fori — da Venere Genitrice a Marte Ultore — mostrano come l'architettura romana usi le forme (e le dedicazioni) per costruire un discorso politico e dinastico, lo stesso principio di celebrazione del potere che percorre tutta la vicenda imperiale.

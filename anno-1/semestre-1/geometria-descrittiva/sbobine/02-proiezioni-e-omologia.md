@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della registrazione (due parti dello stesso incontro). Il contenuto è fedele alle parole del professore: sono stati corretti gli errori di trascrizione e la terminologia tecnica, e tolte le parti fuori tema. La lezione si divide in una prima parte di ripasso (distanze, parallelismo, postulati, convenzioni) e in una seconda parte vera e propria sulla geometria proiettiva e l'omologia.
 
 > [!info] Note collegate
-> Bozza: [[proiezioni-e-omologia]]
+> Bozza: [[02-proiezioni-e-omologia-schema]]
 >
 > Sbobina precedente: [[01-strumenti-e-disegno]] · Successiva: [[03-proiettiva-e-proiezioni-ortogonali]]
 

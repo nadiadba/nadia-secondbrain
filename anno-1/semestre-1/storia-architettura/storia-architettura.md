@@ -30,10 +30,11 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 
 ## Bozze
 
-- [[ordini-architettonici|Gli ordini architettonici e il tempio greco]]
-- [[acropoli-partenone|La Grecia classica: l'Acropoli di Atene e il Partenone]]
-- [[roma-foro-fori-imperiali|Roma: il Foro Romano e i Fori Imperiali]]
-- [[costruzione-mondo-antico|La costruzione nel mondo antico]]: materiali e tecniche costruttive.
+- [[00-bibliografia|Bibliografia delle bozze]]: i testi per approfondire, lezione per lezione.
+- [[01-ordini-architettonici|Gli ordini architettonici e il tempio greco]]
+- [[02-acropoli-e-partenone|La Grecia classica: l'Acropoli di Atene e il Partenone]]
+- [[03-roma-foro-e-fori-imperiali|Roma: il Foro Romano e i Fori Imperiali]]
+- [[05-costruzione-nel-mondo-antico|La costruzione nel mondo antico]]: materiali e tecniche costruttive.
 
 ## Da fare
 

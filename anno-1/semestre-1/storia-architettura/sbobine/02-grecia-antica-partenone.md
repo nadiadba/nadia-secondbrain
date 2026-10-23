@@ -13,7 +13,7 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (durata circa 1h40). Il contenuto è integrale e fedele alle parole della professoressa: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
-> Bozza: [[acropoli-partenone]]
+> Bozza: [[02-acropoli-e-partenone]]
 >
 > Sbobina precedente: [[01-tempio-e-ordini]] · Successiva: [[03-roma-foro-romano-fori-imperiali]]
 
