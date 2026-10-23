@@ -64,7 +64,7 @@ f.traccia((XA, H), (560, H)); f.testo((560, H), "t_3α", -30, -8)
 f.richiamo(XA, 0, H)
 f.punto((XA, H))
 f.nota(20, 402, "t₁α ⊥ LT · t₂α inclinata · t₃α parallela alla LT: t₂α e t₃α si incontrano sull'asse di π₃")
-f.salva(OUT + "04-piano-proiettante-in-seconda-tre-tracce.svg")
+f.salva(OUT + "05-piano-proiettante-in-seconda-tre-tracce.svg")
 
 # 2. Triangolo nel piano proiettante in seconda: dalla prima alla seconda e terza ----
 A = (250, 40, quota(250))
@@ -89,7 +89,7 @@ f.punto(P1(A), "A₁", -24, 4); f.punto(P1(B), "B₁", -24, 6); f.punto(P1(C), "
 f.punto(P2(A), "A₂ ≡ B₂", -64, -8); f.punto(P2(C), "C₂", -10, -12)
 f.punto(P3(A, XA), "A₃", -14, 20); f.punto(P3(B, XA), "B₃", 2, 20); f.punto(P3(C, XA), "C₃", 8, -6)
 f.nota(20, 422, "A₃B₃ è parallelo alla LT: A e B hanno la stessa quota, AB è una retta proiettante in seconda")
-f.salva(OUT + "04-triangolo-piano-proiettante-in-seconda.svg")
+f.salva(OUT + "05-triangolo-piano-proiettante-in-seconda.svg")
 
 # 3. Piani che contengono una retta proiettante in prima ----------------------------
 f = Figura(620, 405, 190, "Piani che contengono la retta r proiettante in prima", x0=30)
@@ -113,7 +113,7 @@ f.traccia(Kb, (Kb[0], 170), "blu"); f.testo((Kb[0], 170), "t_2β", 6, 4, "blu")
 f.punto(T1, "r₁ ≡ T_{1r}", 10, -8, "rosso")
 f.punto((xr, 0), "(T_{1r})₂", 6, 18)
 f.nota(20, 398, "verde: α frontale · viola: γ di profilo (t₂γ contiene r₂) · blu: β proiettante in prima")
-f.salva(OUT + "04-piani-per-retta-proiettante-in-prima.svg")
+f.salva(OUT + "05-piani-per-retta-proiettante-in-prima.svg")
 
 # 4. Piani che contengono una retta proiettante in seconda ---------------------------
 f = Figura(620, 405, 190, "Piani che contengono la retta r proiettante in seconda", x0=30)
@@ -137,7 +137,7 @@ f.testo((xr, -175), "t_1γ", -34, 0, "viola")
 f.punto(T2, "r₂ ≡ T_{2r}", -98, -10, "rosso")
 f.punto((xr, 0), "(T_{2r})₁", 6, 18)
 f.nota(20, 398, "blu: β proiettante in seconda · verde: α orizzontale · viola: γ di profilo (t₁γ contiene r₁)")
-f.salva(OUT + "04-piani-per-retta-proiettante-in-seconda-riepilogo.svg")
+f.salva(OUT + "05-piani-per-retta-proiettante-in-seconda-riepilogo.svg")
 
 # Piano generico per gli schemi 5-7
 K = (60, 0)
@@ -163,7 +163,7 @@ xP = 420
 P1p = interseca(T2o1, o1_fine, (xP, 0), (xP, -1))
 f.richiamo(xP, h, P1p[1])
 f.punto((xP, h), "P₂", 6, -8, "rosso"); f.punto(P1p, "P₁", 8, -8, "rosso")
-f.salva(OUT + "04-punto-piano-generico-orizzontale.svg")
+f.salva(OUT + "05-punto-piano-generico-orizzontale.svg")
 
 # 6. P appartiene ad alfa? Verifica con una retta generica ----------------------------
 f = Figura(600, 395, 180, "P appartiene ad α? Verifica con una retta generica r", x0=20)
@@ -191,7 +191,7 @@ f.parti.append('<circle cx="{:.1f}" cy="{:.1f}" r="4" fill="none" stroke="{}" st
     *f._s(X), COLORI["rosso"]))
 f.testo(X, "qui P₁ starebbe su r₁", 8, 12, "grigio", 11, False)
 f.nota(20, 388, "P₂ sta su r₂, ma P₁ non sta su r₁: P non appartiene alla retta r, quindi P non appartiene ad α")
-f.salva(OUT + "04-verifica-punto-con-retta-generica.svg")
+f.salva(OUT + "05-verifica-punto-con-retta-generica.svg")
 
 # 7. Frontale del piano generico e un punto su di essa ---------------------------------
 f = Figura(600, 370, 180, "Una frontale f del piano generico α e un punto P su f", x0=20)
@@ -212,5 +212,5 @@ xP = 400
 P2p = interseca(T1f2, f2_fine, (xP, 0), (xP, 1))
 f.richiamo(xP, P2p[1], -yf)
 f.punto(P2p, "P₂", -8, -10, "rosso"); f.punto((xP, -yf), "P₁", 6, 16, "rosso")
-f.salva(OUT + "04-frontale-piano-generico.svg")
+f.salva(OUT + "05-frontale-piano-generico.svg")
 print("ok")

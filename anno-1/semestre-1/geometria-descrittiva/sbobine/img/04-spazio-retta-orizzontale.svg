@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 496" width="600" height="496">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: la retta orizzontale o</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,325.0 262.0,190.0 411.4,276.2 177.6,411.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,325.0 262.0,190.0 262.0,25.0 28.2,160.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,190.0 411.4,276.2 411.4,111.2 262.0,25.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="325.0" x2="262.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="411.4" y2="276.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="262.0" y2="25.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<line x1="106.1" y1="190.0" x2="365.9" y2="160.0" stroke="#d97706" stroke-width="2.6" stroke-linecap="round"/>
+<text x="230.0" y="165.0" font-family="Helvetica, Arial, sans-serif" font-size="16" font-style="italic" fill="#d97706">o</text>
+<line x1="106.1" y1="280.0" x2="365.9" y2="250.0" stroke="#d97706" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="106.1" y1="190.0" x2="262.0" y2="100.0" stroke="#d97706" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="262.0" y1="100.0" x2="365.9" y2="160.0" stroke="#d97706" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="106.1" y1="190.0" x2="106.1" y2="280.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="365.9" y1="160.0" x2="365.9" y2="250.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="365.9" y1="160.0" x2="262.0" y2="100.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="106.1" cy="190.0" r="2.8" fill="#d97706"/>
+<text x="62.1" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#d97706">T<tspan dy="4" font-size="70%">2o</tspan><tspan dy="-4"></tspan></text>
+<circle cx="365.9" cy="160.0" r="2.8" fill="#d97706"/>
+<text x="373.9" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#d97706">T<tspan dy="4" font-size="70%">3o</tspan><tspan dy="-4"></tspan></text>
+<text x="240.0" y="283.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#d97706">o₁</text>
+<text x="16" y="452" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">o è parallela a π₁: T₂ₒ e T₃ₒ hanno la stessa quota; la prima traccia è all'infinito.</text>
+</g>
+</svg>

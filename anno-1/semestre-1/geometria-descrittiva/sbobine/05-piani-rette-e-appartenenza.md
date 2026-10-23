@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata delle quattro registrazioni della lezione. L'ordine delle parti è ricostruito sul quaderno di Marta (piano proiettante in seconda → rette e piani, prima e dopo la pausa → punto che appartiene a un piano). L'audio era di qualità bassa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema o incomprensibili, senza aggiungere contenuti. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni fatte alla lavagna con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
-> Sbobina precedente: [[03-proiettiva-e-proiezioni-ortogonali]] · Successiva: [[05-piani-proiettanti-orizzontali-frontali]]
+> Sbobina precedente: [[04-rette-e-piani-metodo-di-monge]] · Successiva: [[06-piani-proiettanti-orizzontali-frontali]]
 
 ## I piani e la loro posizione rispetto ai piani di proiezione
 
@@ -27,7 +27,7 @@ Questo piano, perpendicolare a $\pi_2$, si chiama piano proiettante in seconda. 
 Che cosa succede quando apro il modello? Disegno la prima traccia, disegno la seconda, disegno la terza. Qual è la configurazione che avete sul vostro foglio di disegno? È questa. Quando aprite il modello, mi raccomando, nessuno scriva $\pi_1$, $\pi_2$, $\pi_3$ come se fossero separati: bisogna scrivere $\pi_1 \equiv \pi_2 \equiv \pi_3$, perché, lo vedete da qui, i piani sono sovrapposti.
 
 > [!example] Il disegno alla lavagna
-> ![[04-piano-proiettante-in-seconda-tre-tracce.svg|620]]
+> ![[05-piano-proiettante-in-seconda-tre-tracce.svg|620]]
 >
 > 1. Il piano α proiettante in seconda è perpendicolare a π₂: per questo la prima traccia t₁α è perpendicolare alla linea di terra.
 > 2. La seconda traccia t₂α parte dallo stesso punto della LT ed è inclinata quanto è inclinato il piano.
@@ -35,7 +35,7 @@ Che cosa succede quando apro il modello? Disegno la prima traccia, disegno la se
 > 4. Sul foglio i tre piani di proiezione sono sovrapposti: π₁ ≡ π₂ ≡ π₃.
 
 > [!example] Il disegno nello spazio (come alla lavagna)
-> ![[04-spazio-piano-proiettante-in-seconda.svg|620]]
+> ![[05-spazio-piano-proiettante-in-seconda.svg|620]]
 >
 > Il piano α è perpendicolare a π₂: contiene tutte le rette perpendicolari a π₂, come AB.
 > Per questo ogni punto del triangolo, proiettato su π₂, cade sulla seconda traccia t₂α, e A₂ coincide con B₂.
@@ -70,7 +70,7 @@ Poi in realtà qualcosa dovete già saperlo. Per come io ho disegnato questo tri
 Se voi conservate il parallelismo in tutte le costruzioni che fate all'interno di questo modello tridimensionale, in pratica state già disegnando l'assonometria, semplicemente usando la logica. Poi vedremo il motivo. Quindi è chiaro che, se ho una figura messa in questo modo e vi chiedo che piano è quello, la risposta è: è un piano proiettante in seconda.
 
 > [!example] Il disegno alla lavagna
-> ![[04-triangolo-piano-proiettante-in-seconda.svg|620]]
+> ![[05-triangolo-piano-proiettante-in-seconda.svg|620]]
 >
 > 1. È data la prima proiezione del triangolo, A₁B₁C₁. Il lato A₁B₁ è perpendicolare alla LT.
 > 2. Dai vertici si sale con le linee di richiamo fino a t₂α: lì ci sono le seconde proiezioni. A₂ e B₂ coincidono, perché A e B stanno sulla stessa perpendicolare a π₂.
@@ -79,7 +79,7 @@ Se voi conservate il parallelismo in tutte le costruzioni che fate all'interno d
 > 5. Controllo: A₃B₃ viene parallelo alla LT, perché A e B hanno la stessa quota (AB è una retta proiettante in seconda).
 
 > [!example] Dal taccuino di Marta: un quadrato in un piano parallelo alla linea di terra
-> ![[04-quadrato-piano-parallelo-alla-lt.svg|620]]
+> ![[05-quadrato-piano-parallelo-alla-lt.svg|620]]
 >
 > Questa costruzione non si sente nella registrazione: viene dal quaderno di Marta.
 > Il quadrato ABCD ha i lati AB e CD paralleli alla LT; tutte e due le proiezioni sono rettangoli.
@@ -102,7 +102,7 @@ Un altro piano che contiene questa retta? Il frontale, perché è sempre un pian
 E ancora, con un altro colore, ho un altro piano. Il piano verticale che abbiamo studiato qual è? Il proiettante in prima. Costruisco il piano proiettante in prima, eccolo qua: in questo caso le tracce sono tutte proprie, $t_1\beta$ e $t_2\beta$. Quindi tutti e tre questi piani contengono la retta verticale. Questa è la base.
 
 > [!example] Il disegno alla lavagna
-> ![[04-piani-per-retta-proiettante-in-prima.svg|620]]
+> ![[05-piani-per-retta-proiettante-in-prima.svg|620]]
 >
 > 1. La retta r proiettante in prima è verticale: r₂ è perpendicolare alla LT e r₁ si riduce a un punto, che coincide con la prima traccia T₁ᵣ.
 > 2. Ogni piano che contiene r deve avere la prima traccia che passa per T₁ᵣ.
@@ -112,7 +112,7 @@ E ancora, con un altro colore, ho un altro piano. Il piano verticale che abbiamo
 > 6. Un piano orizzontale non può contenere r: la retta verticale lo buca in un solo punto.
 
 > [!example] Il disegno nello spazio (come alla lavagna)
-> ![[04-spazio-piani-retta-proiettante-in-prima.svg|620]]
+> ![[05-spazio-piani-retta-proiettante-in-prima.svg|620]]
 >
 > La retta r è verticale e buca π₁ in T₁ᵣ.
 > La contengono il piano frontale α (parallelo a π₂), il piano di profilo γ (parallelo a π₃) e i piani proiettanti in prima come β, che ruotano attorno a r.
@@ -122,7 +122,7 @@ Adesso facciamo una retta proiettante in seconda, nel secondo riquadro: la retta
 Quali sono i piani che contengono una retta proiettante in seconda? La prima cosa che vi viene da associare è il nome della retta e il nome del piano: una retta proiettante in seconda sicuramente è contenuta in un piano proiettante in seconda, come abbiamo fatto qui [con il lato $AB$ del triangolo]. Se voi collocate la retta all'interno del modello, questa cosa la potete verificare.
 
 > [!example] Il disegno: i piani che contengono una retta proiettante in seconda
-> ![[04-piani-per-retta-proiettante-in-seconda-riepilogo.svg|620]]
+> ![[05-piani-per-retta-proiettante-in-seconda-riepilogo.svg|620]]
 >
 > 1. La retta r proiettante in seconda è perpendicolare a π₂: r₂ si riduce a un punto, che coincide con la seconda traccia T₂ᵣ, e r₁ è perpendicolare alla LT.
 > 2. Ogni piano che contiene r deve avere la seconda traccia che passa per T₂ᵣ.
@@ -136,7 +136,7 @@ Quali sono i piani che contengono una retta proiettante in seconda? La prima cos
 Vediamo i piani che contengono una retta proiettante in seconda. Mettetela nel modello, guardatela e vedete quali sono i piani. Ci sono risposte certe. Il piano che io posso costruire, tutto sommato, è anche l'orizzontale, giusto? Voi la mettete nel modello e vedete che riesce con un piano orizzontale: si appoggia sul piano orizzontale. E poi, anche soltanto guardando la retta, se voi girate il modello, la retta può appartenere anche a un piano di profilo: il piano di profilo la contiene perfettamente.
 
 > [!example] Il disegno alla lavagna
-> ![[04-piani-per-retta-proiettante-in-seconda.svg|620]]
+> ![[05-piani-per-retta-proiettante-in-seconda.svg|620]]
 >
 > 1. La retta r proiettante in seconda è perpendicolare a π₂: la seconda proiezione r₂ è un punto, che coincide con la seconda traccia T₂ᵣ. La prima proiezione r₁ è perpendicolare alla LT e la prima traccia è all'infinito (T₁ᵣ∞).
 > 2. Piano proiettante in seconda β: la seconda traccia t₂β passa per r₂ ≡ T₂ᵣ; la prima traccia t₁β parte dallo stesso punto della LT ed è perpendicolare alla LT.
@@ -150,14 +150,14 @@ Adesso facciamo una retta parallela alla linea di terra. La retta parallela alla
 Allora, abbiamo detto retta parallela alla linea di terra. Qual è il piano che sicuramente la contiene? Facendo semplicemente questa associazione: una retta parallela alla linea di terra è sicuramente contenuta in un piano parallelo alla linea di terra, per forza. Dopodiché ci sono anche altri piani. Qual è l'altro piano che la contiene? Il piano frontale, va bene.
 
 > [!example] Il disegno alla lavagna
-> ![[04-piani-per-retta-parallela-alla-lt.svg|620]]
+> ![[05-piani-per-retta-parallela-alla-lt.svg|620]]
 >
 > 1. La retta r parallela alla LT ha r₂ e r₁ parallele alla LT: non buca né π₁ né π₂, quindi le sue prime due tracce sono all'infinito. L'unica traccia propria è la terza, T₃ᵣ, che coincide con la terza proiezione r₃ (un punto). Per trovarla si porta r₁ sul terzo piano con l'arco di richiamo e si sale fino all'altezza di r₂.
 > 2. Piano α parallelo alla LT: t₂α e t₁α sono parallele alla LT. Per contenere r, la terza traccia t₃α deve passare per T₃ᵣ.
 > 3. Piano frontale φ: la prima traccia coincide con r₁ (t₁φ ≡ r₁), la seconda è all'infinito e la terza è verticale e passa per T₃ᵣ.
 
 > [!example] Dal taccuino di Marta: il piano orizzontale
-> ![[04-retta-parallela-alla-lt-piano-orizzontale.svg|620]]
+> ![[05-retta-parallela-alla-lt-piano-orizzontale.svg|620]]
 >
 > Nel quaderno di Marta, per la retta parallela alla LT c'è anche il piano orizzontale.
 > Il piano orizzontale α che contiene r ha la seconda traccia t₂α parallela alla LT e coincidente con r₂; la prima traccia è all'infinito.
@@ -179,7 +179,7 @@ Adesso è ancora più importante che ricordiate le parole che uso quando faccio 
 Quindi, quando voglio disegnare la prima proiezione della retta, proietto i suoi punti: proietto due punti notevoli, che sono la prima e la seconda traccia. Proietto la seconda traccia, e quindi la proiezione della seconda traccia dovrà finire sempre sulla linea di terra, perché tutto quello che sta sul secondo piano di proiezione, quando lo proietto giù sul primo piano di proiezione, finisce sulla linea di terra. Quindi anche questo è un punto importante, notevole, perché rappresenta sulla linea di terra la prima proiezione della seconda traccia. Non lo dovete imparare a memoria, lo dovete vedere. La prima traccia di $r$ non la devo proiettare, sta già lì: pertanto $r_{1}$ passa per la sua prima traccia e per la prima proiezione della seconda traccia.
 
 > [!example] Il disegno alla lavagna
-> ![[04-retta-generica-proiezioni.svg|560]]
+> ![[05-retta-generica-proiezioni.svg|560]]
 >
 > 1. Si parte dalle due tracce della retta: T₁ᵣ sta su π₁ (sotto la LT), T₂ᵣ sta su π₂ (sopra la LT).
 > 2. Si proietta la prima traccia su π₂: cade sulla LT, nel punto (T₁ᵣ)₂ (seconda proiezione della prima traccia).
@@ -188,7 +188,7 @@ Quindi, quando voglio disegnare la prima proiezione della retta, proietto i suoi
 > 5. r₁ è la retta che passa per T₁ᵣ e per (T₂ᵣ)₁. Le due proiezioni di ogni traccia stanno sulla stessa linea di richiamo, perpendicolare alla LT.
 
 > [!example] Il disegno nello spazio (come alla lavagna)
-> ![[04-spazio-retta-generica.svg|620]]
+> ![[05-spazio-retta-generica.svg|620]]
 >
 > La retta generica buca π₁ in T₁ᵣ e π₂ in T₂ᵣ.
 > r₁ è la sua ombra sul pavimento: va da T₁ᵣ al punto (T₂ᵣ)₁ sulla LT, sotto T₂ᵣ.
@@ -218,7 +218,7 @@ Per la terza traccia considero il piano proiettante in prima, cioè questo: $t_1
 Adesso disegnatevi una retta in quella posizione, ragionando e non copiando; poi andiamo in pausa.
 
 > [!example] Il disegno alla lavagna
-> ![[04-retta-generica-terza-traccia.svg|620]]
+> ![[05-retta-generica-terza-traccia.svg|620]]
 >
 > 1. La verticale a destra è l'intersezione tra π₂ e π₃ (sopra la LT) e tra π₁ e π₃ (sotto la LT). Il terzo piano è ribaltato a destra: un punto del primo piano si porta sul terzo con un arco di richiamo centrato nell'incrocio tra la LT e la verticale.
 > 2. Terza proiezione della prima traccia: da T₁ᵣ si va in orizzontale fino alla verticale, si gira con l'arco fino alla LT e si trova (T₁ᵣ)₃.
@@ -247,7 +247,7 @@ Ma non c'è solo questo piano proiettante, c'è anche l'altro: il piano proietta
 Qualcuno mi chiedeva: quando ho la terza traccia della retta, dove sta? Non sta qui, non sta nel primo quadrante: sta dietro. Abbiamo detto che questo non rappresenta uno spazio occulto, ma una posizione dello spazio. Prolungo ovviamente la retta $r$, e il punto di intersezione della retta [con π₃] sta nell'altro quadrante, dietro. Rispetto ai quattro quadranti: questo è il primo, questo il secondo, questo il terzo e questo il quarto.
 
 > [!example] Il disegno alla lavagna
-> ![[04-retta-generica-piani-proiettanti.svg|620]]
+> ![[05-retta-generica-piani-proiettanti.svg|620]]
 >
 > 1. A sinistra, il piano α proiettante in prima: la prima traccia coincide con la prima proiezione della retta (t₁α ≡ r₁), quindi contiene T₁ᵣ. La seconda traccia t₂α parte da dove r₁ incontra la LT ((T₂ᵣ)₁), è perpendicolare alla LT e passa per T₂ᵣ.
 > 2. A destra, il piano β proiettante in seconda: la seconda traccia coincide con la seconda proiezione della retta (t₂β ≡ r₂), quindi contiene T₂ᵣ. La prima traccia t₁β parte da (T₁ᵣ)₂, è perpendicolare alla LT e passa per T₁ᵣ.
@@ -260,7 +260,7 @@ Se invece noi dobbiamo raffigurare un piano generico, voi dovete immaginare che 
 Questa cosa è molto importante perché poi in assonometria succederà che questo piano generico diventerà il piano di quadro, e questo triangolo si chiamerà triangolo delle tracce. E quindi noi dovremo lavorare in questo modo. Comunque, questo è il piano generico.
 
 > [!example] Il disegno nello spazio (come alla lavagna)
-> ![[04-spazio-piano-generico.svg|620]]
+> ![[05-spazio-piano-generico.svg|620]]
 >
 > Il piano generico taglia i tre piani di proiezione lungo le tre tracce, che formano un triangolo.
 > Un'orizzontale o del piano è parallela al pavimento: la sua prima proiezione o₁ è parallela a t₁α, e la retta buca π₂ in T₂ₒ, su t₂α.
@@ -282,7 +282,7 @@ Prima abbiamo visto che per una retta passano infiniti piani. Infiniti piani sig
 Poi le trovate proprio qua, in questo esempio: quali sono le rette che stanno su questo piano, con tutte le proiezioni. Una generica, un'orizzontale, una frontale, e ce n'è ancora un'altra che può stare qua: quella di profilo. In questo esempio, sul libro ma anche sulle schede, trovate quali sono le rette che possono appartenere a un determinato piano: orizzontale, frontale, generica e di profilo. E qui si vede una retta proiettante in prima che sta fuori dal piano generico: il piano è questo triangolo, e una retta verticale sta fuori dal triangolo.
 
 > [!example] Il disegno alla lavagna
-> ![[04-piano-generico-orizzontale.svg|620]]
+> ![[05-piano-generico-orizzontale.svg|620]]
 >
 > 1. Il piano generico α ha tre tracce: t₂α e t₁α partono dallo stesso punto della LT; t₃α unisce il punto in cui t₂α incontra la verticale con il punto in cui t₁α, girato con l'arco, arriva sulla LT. Nello spazio le tre tracce formano il triangolo delle tracce.
 > 2. L'orizzontale o ha la seconda proiezione o₂ parallela alla LT. Dove o₂ incontra t₂α c'è la seconda traccia T₂ₒ; con il richiamo si scende sulla LT e si trova (T₂ₒ)₁.
@@ -290,7 +290,7 @@ Poi le trovate proprio qua, in questo esempio: quali sono le rette che stanno su
 > 4. La terza traccia: o₁ incontra la verticale in (T₃ₒ)₁; con l'arco si porta sulla LT e si sale fino all'altezza di o₂. Il punto T₃ₒ cade proprio su t₃α, come vuole la condizione di appartenenza. La terza proiezione o₃ è parallela alla LT, alla stessa altezza di o₂.
 
 > [!example] Il disegno alla lavagna
-> ![[04-piano-generico-frontale.svg|620]]
+> ![[05-piano-generico-frontale.svg|620]]
 >
 > 1. La frontale f ha la prima proiezione f₁ parallela alla LT. Dove f₁ incontra t₁α c'è la prima traccia T₁f; con il richiamo si sale sulla LT e si trova (T₁f)₂.
 > 2. La seconda traccia della frontale è all'infinito (T₂f∞) e deve stare su t₂α: per questo f₂ si disegna da (T₁f)₂ parallela a t₂α.
@@ -307,7 +307,7 @@ L'altro piano che contiene questa retta l'abbiamo appena visto: il piano generic
 L'altro piano che può passare per questa retta, facile, è il piano verticale: il proiettante in prima. Eccolo qua, con le sue tracce.
 
 > [!example] Il disegno alla lavagna
-> ![[04-piani-per-retta-orizzontale.svg|620]]
+> ![[05-piani-per-retta-orizzontale.svg|620]]
 >
 > 1. La retta orizzontale o: o₂ parallela alla LT, o₁ inclinata; la seconda traccia è T₂ₒ, la prima è all'infinito.
 > 2. Piano orizzontale α: la seconda traccia coincide con o₂ (t₂α ≡ o₂) ed è parallela alla LT; la prima traccia è all'infinito.
@@ -315,7 +315,7 @@ L'altro piano che può passare per questa retta, facile, è il piano verticale: 
 > 4. Piano γ proiettante in prima: la prima traccia coincide con o₁ (t₁γ ≡ o₁) e la seconda traccia è perpendicolare alla LT e passa per T₂ₒ.
 
 > [!example] Il disegno nello spazio (come alla lavagna)
-> ![[04-spazio-piani-retta-orizzontale.svg|620]]
+> ![[05-spazio-piani-retta-orizzontale.svg|620]]
 >
 > Per l'orizzontale o passano il piano orizzontale α, il piano proiettante in prima γ e infiniti piani generici come β.
 > Tutti questi piani hanno le tracce che contengono T₂ₒ e T₃ₒ; nel generico, la prima traccia è parallela a o₁.
@@ -331,7 +331,7 @@ L'altro piano che contiene la stessa frontale l'abbiamo visto prima: è l'ultimo
 Poi il piano proiettante in seconda. Anche in questo caso scelgo il piano proiettante in seconda per la caratteristica di avere la seconda proiezione di tutti gli elementi che vi giacciono sulla seconda traccia. Quindi immediatamente faccio coincidere $f_{2}$ con la seconda traccia.
 
 > [!example] Il disegno alla lavagna
-> ![[04-piani-per-retta-frontale.svg|620]]
+> ![[05-piani-per-retta-frontale.svg|620]]
 >
 > 1. La retta frontale f: f₁ parallela alla LT, f₂ inclinata; la prima traccia è T₁f, la seconda è all'infinito.
 > 2. Piano frontale β: la prima traccia coincide con f₁ (t₁β ≡ f₁) ed è parallela alla LT; la seconda traccia è all'infinito.
@@ -339,7 +339,7 @@ Poi il piano proiettante in seconda. Anche in questo caso scelgo il piano proiet
 > 4. Piano γ proiettante in seconda: la seconda traccia coincide con f₂ (t₂γ ≡ f₂) e la prima traccia è perpendicolare alla LT e passa per T₁f.
 
 > [!example] Il disegno nello spazio (come alla lavagna)
-> ![[04-spazio-piani-retta-frontale.svg|620]]
+> ![[05-spazio-piani-retta-frontale.svg|620]]
 >
 > Per la frontale f passano il piano frontale β, il piano proiettante in seconda γ e i piani generici come α.
 > Nel piano generico la seconda traccia è parallela a f₂.
@@ -353,7 +353,7 @@ Poi, per esempio, questo piano è messo così rispetto a π₃ e rispetto a π�
 E il piano generico: che caratteristica deve avere la terza traccia di questo piano generico? La terza traccia di $m$ è all'infinito, quindi la terza traccia di questo piano deve essere necessariamente parallela a $m_{3}$.
 
 > [!example] Il disegno alla lavagna
-> ![[04-piani-per-retta-di-profilo.svg|620]]
+> ![[05-piani-per-retta-di-profilo.svg|620]]
 >
 > 1. La retta di profilo m sta in un piano parallelo a π₃: m₁ e m₂ sono sulla stessa perpendicolare alla LT. Le tracce sono T₁ₘ (su π₁) e T₂ₘ (su π₂); la terza è all'infinito. La terza proiezione m₃ si trova portando T₁ₘ sul terzo piano con l'arco e T₂ₘ con il richiamo orizzontale.
 > 2. Piano di profilo δ: le due tracce sono perpendicolari alla LT e coincidono con le proiezioni della retta (t₂δ ≡ m₂, t₁δ ≡ m₁).
@@ -361,7 +361,7 @@ E il piano generico: che caratteristica deve avere la terza traccia di questo pi
 > 4. Piano generico α: t₂α passa per T₂ₘ e t₁α per T₁ₘ, e si incontrano sulla LT. La terza traccia t₃α risulta parallela a m₃, perché la terza traccia di m è all'infinito.
 
 > [!example] Il disegno nello spazio (come alla lavagna)
-> ![[04-spazio-piani-retta-di-profilo.svg|620]]
+> ![[05-spazio-piani-retta-di-profilo.svg|620]]
 >
 > La retta di profilo m sta in un piano parallelo a π₃.
 > La contengono il piano di profilo, un piano parallelo alla LT e piani generici.
@@ -381,7 +381,7 @@ Quindi, perché la retta appartenga al piano, le tracce della retta devono appar
 Fatto questo, su questa retta posso prendere un punto qualunque: disegno $P_{2}$, linea di richiamo, e disegno $P_{1}$. Questo è il punto che appartiene a una retta del piano, quindi appartiene al piano.
 
 > [!example] Il disegno alla lavagna
-> ![[04-punto-piano-generico-orizzontale.svg|620]]
+> ![[05-punto-piano-generico-orizzontale.svg|620]]
 >
 > 1. Il piano generico α è dato con le sue tracce t₂α e t₁α, che si incontrano sulla linea di terra.
 > 2. Si disegna o₂ parallela alla LT: dove incontra t₂α c'è T₂ₒ, la seconda traccia dell'orizzontale, che così appartiene a t₂α.
@@ -408,7 +408,7 @@ Quindi la prima proiezione della retta passa per la sua prima traccia e per la p
 Quindi in questo esercizio abbiamo fatto due cose: abbiamo verificato la condizione di appartenenza, ma abbiamo anche imparato a disegnare una retta che appartiene al piano. Questa cosa è importante perché, quando abbiamo figure triangolari che appartengono a piani generici, dobbiamo cercare di capire che piano è e dove sono le tracce, per poterlo poi ribaltare. Non è sempre necessario trovare le tracce, adesso vedremo, però cominciamo da qui.
 
 > [!example] Il disegno alla lavagna
-> ![[04-verifica-punto-con-retta-generica.svg|620]]
+> ![[05-verifica-punto-con-retta-generica.svg|620]]
 >
 > 1. Sono dati il piano generico α (t₂α, t₁α) e le due proiezioni del punto, P₂ e P₁.
 > 2. Si disegna r₂ passante per P₂, scegliendo la seconda traccia T₂ᵣ su t₂α.
@@ -427,7 +427,7 @@ Questa è la frontale che appartiene ad $\alpha$: in prima proiezione è questa.
 Quindi dovete disegnare $P$ che appartiene ad $\alpha$, dimostrando che $P$ appartiene a $f$ e che $f$ appartiene ad $\alpha$. Questo è quello che dovete fare: il punto appartiene alla retta, quindi appartiene al piano.
 
 > [!example] Il disegno alla lavagna
-> ![[04-frontale-piano-generico.svg|620]]
+> ![[05-frontale-piano-generico.svg|620]]
 >
 > 1. Si disegna f₁ parallela alla LT: dove incontra t₁α c'è T₁f, la prima traccia della frontale, che così sta sulla prima traccia del piano.
 > 2. Da T₁f si sale con il richiamo fino alla LT: lì c'è (T₁f)₂.
@@ -435,7 +435,7 @@ Quindi dovete disegnare $P$ che appartiene ad $\alpha$, dimostrando che $P$ appa
 > 4. Si sceglie P₂ su f₂ e si scende fino a f₁: lì c'è P₁. P appartiene a f, e f appartiene ad α, quindi P appartiene ad α.
 
 > [!example] Dal taccuino di Marta: l'esercizio «disegnare P ∈ α, dimostrando che P ∈ r ∈ α»
-> ![[04-esercizio-punto-nel-piano-proiettante.svg|620]]
+> ![[05-esercizio-punto-nel-piano-proiettante.svg|620]]
 >
 > Nella registrazione questo esercizio non si capisce; la foto del quaderno di Marta è poco leggibile, quindi lo schema è una ricostruzione probabile.
 > Il piano α è proiettante in prima: t₂α perpendicolare alla LT, t₁α inclinata.

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 576" width="640" height="576">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Correzione dell'esercizio: la figura corrispondente (centro U∞, asse u)</text>
+<g transform="translate(0,36)">
+<line x1="45.0" y1="507.5" x2="545.0" y2="132.5" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
+<text x="549.0" y="146.5" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#1f1f1f">u</text>
+<line x1="95.0" y1="470.0" x2="520.0" y2="470.0" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
+<text x="512.0" y="462.0" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#1f1f1f">r</text>
+<line x1="95.0" y1="470.0" x2="167.2" y2="50.0" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
+<text x="173.2" y="56.0" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#1f1f1f">r′</text>
+<line x1="307.5" y1="470.0" x2="132.6" y2="251.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="276.2" y1="376.2" x2="265.0" y2="342.5" stroke="#2563a8" stroke-width="1" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="265.0" y1="342.5" x2="229.9" y2="318.4" stroke="#c0392b" stroke-width="1" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="276.2" y1="376.2" x2="229.9" y2="318.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<circle cx="265.0" cy="342.5" r="3" fill="#1f1f1f"/>
+<line x1="413.8" y1="320.0" x2="548.3" y2="130.0" stroke="#2563a8" stroke-width="1" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="548.3" y1="130.0" x2="316.0" y2="197.8" stroke="#c0392b" stroke-width="1" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="413.8" y1="320.0" x2="316.0" y2="197.8" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<circle cx="548.3" cy="130.0" r="3" fill="#1f1f1f"/>
+<line x1="345.0" y1="320.0" x2="295.0" y2="320.0" stroke="#2563a8" stroke-width="1" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="295.0" y1="320.0" x2="303.8" y2="268.6" stroke="#c0392b" stroke-width="1" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="345.0" y1="320.0" x2="303.8" y2="268.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<circle cx="295.0" cy="320.0" r="3" fill="#1f1f1f"/>
+<polygon points="307.5,470.0 276.2,376.2 345.0,320.0 413.8,320.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="132.6,251.4 229.9,318.4 303.8,268.6 316.0,197.8" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<text x="332.5" y="395.0" font-family="Helvetica, Arial, sans-serif" font-size="17" font-style="italic" fill="#2563a8">ℒ</text>
+<circle cx="307.5" cy="470.0" r="3" fill="#2563a8"/>
+<text x="311.5" y="488.0" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#2563a8">A</text>
+<circle cx="276.2" cy="376.2" r="3" fill="#2563a8"/>
+<text x="258.2" y="382.2" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#2563a8">B</text>
+<circle cx="345.0" cy="320.0" r="3" fill="#2563a8"/>
+<text x="339.0" y="312.0" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#2563a8">C</text>
+<circle cx="413.8" cy="320.0" r="3" fill="#2563a8"/>
+<text x="419.8" y="316.0" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#2563a8">D</text>
+<circle cx="132.6" cy="251.4" r="3" fill="#c0392b"/>
+<text x="106.6" y="257.4" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#c0392b">A′</text>
+<circle cx="229.9" cy="318.4" r="3" fill="#c0392b"/>
+<text x="203.9" y="324.4" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#c0392b">B′</text>
+<circle cx="303.8" cy="268.6" r="3" fill="#c0392b"/>
+<text x="293.8" y="260.6" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#c0392b">C′</text>
+<circle cx="316.0" cy="197.8" r="3" fill="#c0392b"/>
+<text x="324.0" y="193.8" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#c0392b">D′</text>
+<line x1="463.8" y1="95.0" x2="432.5" y2="56.0" stroke="#1f1f1f" stroke-width="1.4" stroke-linecap="round"/>
+<text x="456.1" y="75.5" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#1f1f1f">U∞</text>
+<text x="20" y="532" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">I corrispondenti stanno sulle rette con la direzione di U∞; i lati corrispondenti si incontrano sull'asse u.</text>
+</g>
+</svg>

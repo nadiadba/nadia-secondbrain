@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 422" width="660" height="422">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Retta r parallela alla LT (perpendicolare a π₃)</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="185.0" x2="640.0" y2="185.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="179.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="410.0" y1="10.0" x2="410.0" y2="350.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="24.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="24.0" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="418.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="544.0" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">π₁ ≡ π₂ ≡ π₃</text>
+<line x1="70.0" y1="99.3" x2="410.0" y2="99.3" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="68.0" y="91.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂</text>
+<line x1="70.0" y1="245.0" x2="410.0" y2="245.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="68.0" y="263.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₁</text>
+<circle cx="410.0" cy="245.0" r="2.8" fill="#1f1f1f"/>
+<text x="416.0" y="261.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan>)₁</text>
+<circle cx="410.0" cy="99.3" r="2.8" fill="#1f1f1f"/>
+<text x="346.0" y="91.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan>)₂</text>
+<path d="M 410.0 245.0 A 60.0 60.0 0 0 0 470.0 185.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="470.0" y1="185.0" x2="470.0" y2="99.3" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="470.0" cy="99.3" r="2.8" fill="#c0392b"/>
+<text x="478.0" y="93.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₃ ≡ T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan></text>
+<line x1="110.0" y1="245.0" x2="130.0" y2="245.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="100.0" y="269.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#c0392b" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>∞</text>
+<line x1="110.0" y1="99.3" x2="130.0" y2="99.3" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="100.0" y="89.3" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#c0392b" font-style="italic">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>∞</text>
+<text x="20" y="380" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">r₁ e r₂ sono parallele alla LT e partono dalla verticale; r₃ è un punto e coincide con la terza traccia.</text>
+</g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 422" width="660" height="422">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Piano α proiettante in prima e un punto P di α</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="185.0" x2="640.0" y2="185.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="179.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="410.0" y1="10.0" x2="410.0" y2="350.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="24.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="24.0" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="418.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="544.0" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">π₁ ≡ π₂ ≡ π₃</text>
+<line x1="130.0" y1="185.0" x2="410.0" y2="325.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="240.0" y="271.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="130.0" y1="185.0" x2="130.0" y2="20.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="138.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="139.0" y1="185.0" x2="139.0" y2="176.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.0" y1="176.0" x2="130.0" y2="176.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<path d="M 410.0 325.0 A 140.0 140.0 0 0 0 550.0 185.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="550.0" y1="185.0" x2="550.0" y2="20.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="558.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="270.0" y1="185.0" x2="270.0" y2="25.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="276.0" y="35.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂</text>
+<line x1="480.0" y1="185.0" x2="480.0" y2="25.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="486.0" y="35.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₃</text>
+<line x1="270.0" y1="185.0" x2="270.0" y2="255.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<path d="M 410.0 255.0 A 70.0 70.0 0 0 0 480.0 185.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="270.0" y1="105.0" x2="480.0" y2="105.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="270.0" cy="255.0" r="2.8" fill="#c0392b"/>
+<text x="282.0" y="245.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P₁ ≡ r₁ ≡ T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="270.0" cy="105.0" r="2.8" fill="#c0392b"/>
+<text x="246.0" y="97.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P₂</text>
+<circle cx="480.0" cy="105.0" r="2.8" fill="#c0392b"/>
+<text x="488.0" y="97.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P₃</text>
+<text x="20" y="380" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">P₁ cade su t₁α: nei piani verticali è una coincidenza. La regola: P sta sulla retta r, e T₁ᵣ sta su t₁α.</text>
+</g>
+</svg>

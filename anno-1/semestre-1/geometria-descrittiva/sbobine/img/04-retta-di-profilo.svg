@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 422" width="660" height="422">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Retta r di profilo (parallela a π₃)</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="185.0" x2="640.0" y2="185.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="179.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="410.0" y1="10.0" x2="410.0" y2="350.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="24.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="24.0" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="418.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="544.0" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">π₁ ≡ π₂ ≡ π₃</text>
+<line x1="250.0" y1="65.0" x2="250.0" y2="295.0" stroke="#7b4fa0" stroke-width="2" stroke-linecap="round"/>
+<text x="256.0" y="145.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">r₂</text>
+<text x="228.0" y="245.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">r₁</text>
+<path d="M 410.0 295.0 A 110.0 110.0 0 0 0 520.0 185.0" fill="none" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3"/>
+<line x1="250.0" y1="295.0" x2="410.0" y2="295.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="250.0" y1="65.0" x2="410.0" y2="65.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="520.0" y1="185.0" x2="410.0" y2="65.0" stroke="#7b4fa0" stroke-width="1.8" stroke-linecap="round"/>
+<text x="471.0" y="123.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">r₃</text>
+<circle cx="250.0" cy="65.0" r="2.8" fill="#1f1f1f"/>
+<text x="202.0" y="61.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="250.0" cy="295.0" r="2.8" fill="#1f1f1f"/>
+<text x="202.0" y="301.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="250.0" cy="185.0" r="2.8" fill="#1f1f1f"/>
+<text x="258.0" y="201.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>)₂ ≡ (T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>)₁</text>
+<circle cx="410.0" cy="65.0" r="2.8" fill="#1f1f1f"/>
+<text x="416.0" y="57.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan>)₃</text>
+<circle cx="520.0" cy="185.0" r="2.8" fill="#1f1f1f"/>
+<text x="526.0" y="201.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>)₃</text>
+<circle cx="410.0" cy="295.0" r="2.8" fill="#1f1f1f"/>
+<text x="480.0" y="45.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7b4fa0" font-style="italic">T<tspan dy="4" font-size="70%">3r</tspan><tspan dy="-4"></tspan>∞</text>
+<text x="20" y="380" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">r₁ e r₂ stanno sulla stessa perpendicolare alla LT: la retta si vede davvero solo in terza proiezione.</text>
+</g>
+</svg>

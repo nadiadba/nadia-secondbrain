@@ -52,7 +52,7 @@ for p, nome in [(B, "B"), (D, "D")]:
 arco(f, X3, A[1]); arco(f, X3, C[1])
 f.punto(P3(A, X3), "A₃ ≡ B₃", 8, 14); f.punto(P3(C, X3), "C₃ ≡ D₃", 8, -6)
 f.nota(20, 412, "Piano parallelo alla LT: t₁α ∥ LT, t₂α ∥ LT; in terza proiezione il quadrato è un segmento su t₃α.")
-f.salva(OUT + "04-quadrato-piano-parallelo-alla-lt.svg")
+f.salva(OUT + "05-quadrato-piano-parallelo-alla-lt.svg")
 
 # 2. Retta parallela alla LT nel piano orizzontale ----------------------------------
 f = Figura(560, 300, 150, "Retta r parallela alla LT: anche il piano orizzontale la contiene (dal quaderno di Marta)", x0=30)
@@ -63,7 +63,7 @@ f.retta((60, -70), (440, -70), "rosso"); f.testo((440, -70), "r₁", 6, 4, "ross
 f.testo((300, -125), "t_1α∞", 0, 0)
 f.richiamo(250, 90, -70); f.punto((250, 90), "P₂", 4, -8, "rosso"); f.punto((250, -70), "P₁", 6, 16, "rosso")
 f.nota(20, 290, "Piano orizzontale α: la seconda traccia è parallela alla LT e coincide con r₂; la prima traccia è all'infinito.")
-f.salva(OUT + "04-retta-parallela-alla-lt-piano-orizzontale.svg")
+f.salva(OUT + "05-retta-parallela-alla-lt-piano-orizzontale.svg")
 
 # 3. Esercizio p. 9: disegnare P in alfa dimostrando che P appartiene a r di alfa -------
 f = Figura(560, 360, 175, "Esercizio: P ∈ α, dimostrando che P ∈ r ⊂ α (α proiettante in prima)", x0=30)
@@ -87,7 +87,7 @@ f.retta((K[0], 110), (P2p[0] + 80, 110), "arancio"); f.testo((P2p[0] + 80, 110),
 f.punto((K[0], 110), "T_{2o}", -40, -4)
 f.testo((400, -138), "o₁ ≡ t₁α", -40, -14, "arancio")
 f.nota(20, 352, "T₁ᵣ sta su t₁α, quindi r ⊂ α; P sta su r, quindi P ∈ α. Lo conferma l'orizzontale o: T₂ₒ sta su t₂α.")
-f.salva(OUT + "04-esercizio-punto-nel-piano-proiettante.svg")
+f.salva(OUT + "05-esercizio-punto-nel-piano-proiettante.svg")
 
 # ===================== nello spazio =====================
 
@@ -112,7 +112,7 @@ t.punto(T1, "T_{1r}", 8, 14); t.punto(T2, "T_{2r}", 6, -8)
 t.punto((T1[0], 0, 0), "(T_{1r})₂", -66, -6); t.punto((T2[0], 0, 0), "(T_{2r})₁", 4, 18)
 t.testo(T1, "r", 10, 4, "rosso", 16)
 f.nota(16, 420, "r buca π₁ in T₁ᵣ e π₂ in T₂ᵣ; la terza traccia è fuori dal triedro.")
-f.salva(OUT + "04-spazio-retta-generica.svg")
+f.salva(OUT + "05-spazio-retta-generica.svg")
 
 # 5. Piano generico: il triangolo delle tracce e un'orizzontale
 f, t = triedro("Nello spazio: il piano generico α e il triangolo delle tracce")
@@ -129,7 +129,7 @@ t.segmento(o1a, o1b, "arancio", 1.2, "6,4"); t.testo(o1b, "o₁ ∥ t₁α", -10
 t.richiamo(o_a, o1a); t.richiamo(o_b, o1b)
 t.punto(o_a, "T_{2o}", -40, -6)
 f.nota(16, 420, "Le tre tracce formano un triangolo; l'orizzontale o ha o₁ parallela a t₁α.")
-f.salva(OUT + "04-spazio-piano-generico.svg")
+f.salva(OUT + "05-spazio-piano-generico.svg")
 
 # 6. Piani che contengono una retta proiettante in prima
 f, t = triedro("Nello spazio: i piani che contengono la retta r proiettante in prima")
@@ -140,7 +140,7 @@ for (nn, d_), col in [(piano_per(R, (1, 0, 0), (0, 0, 1)), "verde"), (piano_per(
 t.segmento(R, (R[0], R[1], 210), "rosso", 2.6); t.testo((R[0], R[1], 210), "r", 6, 0, "rosso", 16)
 t.punto(R, "T_{1r}", 8, 16)
 f.nota(16, 420, "verde: α frontale · viola: γ di profilo · blu: β proiettante in prima")
-f.salva(OUT + "04-spazio-piani-retta-proiettante-in-prima.svg")
+f.salva(OUT + "05-spazio-piani-retta-proiettante-in-prima.svg")
 
 # 7. Piani che contengono una retta orizzontale
 f, t = triedro("Nello spazio: i piani che contengono la retta orizzontale o")
@@ -151,7 +151,7 @@ for (nn, d_), col in [(piano_per(O, do, (0, 1, 0)), "verde"), (piano_per(O, do, 
 oa = (O[0] - 40, O[1] - 22, O[2]); ob = (400, O[1] + (400 - O[0]) * 0.55, O[2])
 t.segmento(oa, ob, "arancio", 2.6); t.testo(ob, "o", 6, -4, "arancio", 16)
 f.nota(16, 420, "verde: α orizzontale · viola: γ proiettante in prima · blu: β generico")
-f.salva(OUT + "04-spazio-piani-retta-orizzontale.svg")
+f.salva(OUT + "05-spazio-piani-retta-orizzontale.svg")
 
 # 8. Piani che contengono una retta frontale
 f, t = triedro("Nello spazio: i piani che contengono la retta frontale f")
@@ -162,7 +162,7 @@ for (nn, d_), col in [(piano_per(F, dfr, (1, 0, 0)), "verde"), (piano_per(F, dfr
 fb = (400, F[1], F[2] + (400 - F[0]) * 0.75)
 t.segmento(F, fb, "verde", 2.6); t.testo(fb, "f", 6, -4, "verde", 16)
 f.nota(16, 420, "verde: β frontale · viola: γ proiettante in seconda · blu: α generico")
-f.salva(OUT + "04-spazio-piani-retta-frontale.svg")
+f.salva(OUT + "05-spazio-piani-retta-frontale.svg")
 
 # 9. Piani che contengono una retta di profilo
 f, t = triedro("Nello spazio: i piani che contengono la retta di profilo m")
@@ -173,7 +173,7 @@ for (nn, d_), col in [(piano_per(M, dm, (0, 0, 1)), "viola"), (piano_per(M, dm, 
 mb = (300, 30 + 200, 0)
 t.segmento(M, mb, "rosso", 2.6); t.testo(M, "m", 6, -2, "rosso", 16)
 f.nota(16, 420, "viola: piano di profilo · verde: piano parallelo alla LT · blu: piano generico")
-f.salva(OUT + "04-spazio-piani-retta-di-profilo.svg")
+f.salva(OUT + "05-spazio-piani-retta-di-profilo.svg")
 
 # 10. Piano proiettante in seconda con il triangolo ABC
 f, t = triedro("Nello spazio: il piano α proiettante in seconda e il triangolo ABC")
@@ -187,5 +187,5 @@ for p, nome in [(Aa, "A"), (Bb, "B"), (Cc, "C")]:
     t.richiamo(p, (p[0], 0, p[2]))
 t.punto((200, 0, 75), "A₂ ≡ B₂", -62, -4)
 f.nota(16, 420, "Tutto ciò che sta su α finisce in seconda proiezione su t₂α: A₂ ≡ B₂.")
-f.salva(OUT + "04-spazio-piano-proiettante-in-seconda.svg")
+f.salva(OUT + "05-spazio-piano-proiettante-in-seconda.svg")
 print("ok")

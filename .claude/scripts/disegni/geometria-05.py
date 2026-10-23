@@ -1,231 +1,354 @@
+"""Schemi per la sbobina di geometria descrittiva del 13 ottobre (04): rette e piani nel metodo di Monge.
+
+Per la terza proiezione: il terzo piano π3 e' a destra, la sua intersezione con π2 e' la verticale x = X3.
+Un punto (x, y, z) ha la terza proiezione in (X3 + y, z): il primo piano si ribalta con archi di
+richiamo centrati nel punto (X3, 0).
+"""
 import math
 import sys
 
 sys.path.insert(0, "/Users/nadia/Documents/GitHub/nadia-secondbrain/.claude/scripts")
-from disegni_monge import (Figura, P1, P2, tracce_retta, piano, tracce_piano, interseca,
-                           direzione, perpendicolare)
+from disegni_monge import (Figura, P1, P2, tracce_retta, piano, interseca, direzione, COLORI)
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/geometria-descrittiva/sbobine/img/"
-
-
-def pt_su(p, q, t):
-    return (p[0] + (q[0] - p[0]) * t, p[1] + (q[1] - p[1]) * t)
 
 
 def lungo(p, d, l):
     return (p[0] + d[0] * l, p[1] + d[1] * l)
 
 
-# 1. Punto di un piano generico, con l'orizzontale ------------------------------
-f = Figura(620, 360, 175, "Un punto P del piano generico α, con un'orizzontale o", x0=40)
-f.lt(-20, 560)
-K = (60, 0)
-t2a = (400, 160)
-t1a = (400, -165)
-f.traccia(K, t2a); f.testo(t2a, "t_2α", 4, 4)
-f.traccia(K, t1a); f.testo(t1a, "t_1α", 4, 10)
-h = 95
-T2o2 = interseca(K, t2a, (0, h), (1, h))           # T2o'' su t2α
-T2o1 = (T2o2[0], 0)
-d1 = direzione(K, t1a)                               # o' parallela a t1α
-o1_fine = lungo(T2o1, d1, 300)
-f.retta(T2o2, (540, h), "arancio"); f.testo((540, h), "o₂", -18, -8, "arancio")
-f.retta(T2o1, o1_fine, "arancio"); f.testo(o1_fine, "o₁", -22, 2, "arancio")
-f.testo(o1_fine, "T_{1o}∞", -40, 20, "arancio")
-f.richiamo(T2o2[0], T2o2[1], 0)
-f.punto(T2o2, "T_{2o}", -46, -8); f.punto(T2o1, "(T_{2o})₁", -12, 20)
-xP = 430
-P2p = (xP, h)
-P1p = interseca(T2o1, o1_fine, (xP, 0), (xP, -1))
-f.richiamo(xP, P2p[1], P1p[1])
-f.punto(P2p, "P₂", 6, -8, "rosso"); f.punto(P1p, "P₁", 8, 14, "rosso")
-f.salva(OUT + "05-punto-piano-generico-orizzontale.svg")
+def P3(p, X3):
+    """Terza proiezione di un punto 3D (terzo piano ribaltato a destra)."""
+    return (X3 + p[1], p[2])
 
-# 2. Piano proiettante in seconda, punto e frontale -----------------------------
-f = Figura(600, 350, 180, "Piano β proiettante in seconda: un punto P e la frontale f", x0=30)
-f.lt(-10, 560)
-K = (200, 0)
-f.traccia(K, (200, -150)); f.testo((200, -150), "t_1β", 6, 4)
-t2b = (480, 140)
-f.traccia(K, t2b); f.testo(t2b, "t_2β ≡ f₂", 8, 4)
-f.angolo_retto(K, (1, 0), (0, -1))
-xP = 380
-P2p = interseca(K, t2b, (xP, 0), (xP, 1))
-P1p = (xP, -85)
-f.retta((200, -85), (540, -85), "verde"); f.testo((540, -85), "f₁", -14, -8, "verde")
-f.punto((200, -85), "T_{1f}", -52, 16)
-f.punto(K, "(T_{1f})₂", -44, -8)
-f.testo(t2b, "T_{2f}∞", 8, 24, "verde")
-f.richiamo(xP, P2p[1], P1p[1])
-f.punto(P2p, "P₂", -26, -6, "rosso"); f.punto(P1p, "P₁", 8, 16, "rosso")
-f.salva(OUT + "05-piano-proiettante-in-seconda-frontale.svg")
 
-# 3. Retta generica e i due punti notevoli sulla LT -----------------------------
-f = Figura(600, 340, 175, "Retta generica r: i punti notevoli sulla linea di terra", x0=30)
-f.lt(-10, 530)
-a, b = 140, 380
-T1r1, T1r2 = (a, -70), (a, 0)
-T2r2, T2r1 = (b, 125), (b, 0)
-d2 = direzione(T1r2, T2r2); d1 = direzione(T1r1, T2r1)
-f.retta(lungo(T1r2, d2, -60), lungo(T2r2, d2, 30), "rosso"); f.testo(lungo(T2r2, d2, 30), "r₂", 4, 0, "rosso")
-f.retta(lungo(T1r1, d1, -60), lungo(T2r1, d1, 60), "rosso"); f.testo(lungo(T2r1, d1, 60), "r₁", 6, 4, "rosso")
-f.richiamo(a, 0, T1r1[1]); f.richiamo(b, 0, T2r2[1])
-f.punto(T1r2, "(T_{1r})₂", -18, -10); f.punto(T1r1, "T_{1r}", 8, 16)
-f.punto(T2r1, "(T_{2r})₁", 6, 18); f.punto(T2r2, "T_{2r}", -50, -6)
-f.nota(20, 328, "(T₁ᵣ)₂ = seconda proiezione della prima traccia · (T₂ᵣ)₁ = prima proiezione della seconda traccia")
-f.salva(OUT + "05-retta-generica-punti-notevoli.svg")
+def asse_terzo(f, X3, y1, y2):
+    """Verticale π2/π3 (e π1/π3 sotto la LT)."""
+    f._linea((X3, y1), (X3, y2), "nero", 1.2)
 
-# 4. Triangolo con un lato orizzontale e uno frontale: le tracce del piano --------
-A = (180, 40, 70)
-B = (330, 100, 70)    # AB orizzontale (stessa quota)
-C = (270, 40, 160)    # AC frontale (stesso aggetto)
-T1o, T2o = tracce_retta(A, B)
-T1f, T2f = tracce_retta(A, C)
-n, d = piano(A, B, C)
-f = Figura(660, 400, 225, "Triangolo ABC: dall'orizzontale o e dalla frontale f alle tracce del piano γ", x0=60)
-f.lt(-40, 540)
-t1, t2 = tracce_piano(n, d, 10, 470)
-f.traccia(t1[0], (330, interseca(*t1, (330, 0), (330, 1))[1])); f.testo((330, interseca(*t1, (330, 0), (330, 1))[1]), "t_1γ", 4, 14)
-f.traccia(t2[0], (190, interseca(*t2, (190, 0), (190, 1))[1])); f.testo((190, interseca(*t2, (190, 0), (190, 1))[1]), "t_2γ", -34, 0)
-f.figura([P2(A), P2(B), P2(C)], "blu"); f.figura([P1(A), P1(B), P1(C)], "blu")
-# orizzontale
-f.retta(P2(T2o), (500, 70), "arancio"); f.testo((500, 70), "o₂", -4, -8, "arancio")
-o1a = (T2o[0], 0); do1 = direzione(o1a, P1(B))
-f.retta(o1a, lungo(o1a, do1, 330), "arancio"); f.testo(lungo(o1a, do1, 330), "o₁", 4, 4, "arancio")
-f.testo(lungo(o1a, do1, 330), "T_{1o}∞", -10, 22, "arancio")
-f.richiamo(T2o[0], P2(T2o)[1], 0)
-f.punto(P2(T2o), "T_{2o}", -54, -6); f.punto(o1a, "(T_{2o})₁", -10, 18)
-# frontale
-f.retta(P1(T1f), (480, -40), "verde"); f.testo((480, -40), "f₁", 2, 14, "verde")
-f1a = (T1f[0], 0); df2 = direzione(f1a, P2(C))
-f.retta(f1a, lungo(f1a, df2, 250), "verde"); f.testo(lungo(f1a, df2, 250), "f₂  T_{2f}∞", -70, -4, "verde")
-f.richiamo(T1f[0], 0, P1(T1f)[1])
-f.punto(f1a, "(T_{1f})₂", -10, -10); f.punto(P1(T1f), "T_{1f}", -54, 14)
-for p, nome, dx2, dy2, dx1, dy1 in [(A, "A", -18, -6, -20, 6), (B, "B", 6, -6, 6, 16), (C, "C", 10, 6, 4, -6)]:
-    f.richiamo(p[0], P2(p)[1], P1(p)[1])
-    f.punto(P2(p), nome + "₂", dx2, dy2); f.punto(P1(p), nome + "₁", dx1, dy1)
-f.salva(OUT + "05-triangolo-tracce-piano-generico.svg")
 
-# 5. Lo stesso triangolo in quattro posizioni ------------------------------------
-f = Figura(990, 360, 185)
-casi = [
-    ("piano orizzontale", [(30, 40, 60), (170, 25, 60), (110, 115, 60)]),
-    ("piano proiettante in seconda", [(40, 30, 14), (170, 50, 92), (110, 120, 56)]),
-    ("piano proiettante in prima", [(40, 15, 40), (170, 80, 70), (100, 45, 130)]),
-    ("piano frontale", [(30, 40, 40), (170, 40, 60), (100, 40, 135)]),
-]
-for i, (nome, pts) in enumerate(casi):
-    ox = 30 + 245 * i
-    f.nota(ox, 22, nome, 14)
-    g = Figura(0, 0, 185, x0=ox)  # usa lo stesso sistema di coordinate, spostato
+def arco(f, X3, y, colore="grigio"):
+    """Arco di richiamo: dal punto (X3, -y) del primo piano al punto (X3 + y, 0) del terzo."""
+    pts = []
+    for i in range(25):
+        t = math.pi / 2 * i / 24
+        pts.append(f._s((X3 + y * math.sin(t), -y * math.cos(t))))
+    d = "M " + " L ".join(f"{x:.1f},{yy:.1f}" for x, yy in pts)
+    f.parti.append(f'<path d="{d}" fill="none" stroke="{COLORI.get(colore, colore)}" '
+                   f'stroke-width="0.9" stroke-dasharray="3,3"/>')
+
+
+def tratteggiata(f, a, b, colore="rosso", spessore=1.6):
+    f._linea(a, b, colore, spessore, "6,4")
+
+
+def orizz(f, x, y1, y2):
+    """Richiamo orizzontale (verso il terzo piano)."""
+    f._linea((y1, x), (y2, x), "grigio", 0.9, "3,3")
+
+
+def pannello(f, ox):
+    """Restituisce una figura che disegna nelle stesse parti di f, spostata di ox."""
+    g = Figura(0, 0, f.y_lt, x0=ox)
     g.parti = f.parti
-    g.lt(-10, 215, etichetta=(i == 0))
-    g.figura([P2(p) for p in pts], "blu"); g.figura([P1(p) for p in pts], "blu")
-    for p, nome_p in zip(pts, "ABC"):
-        g.richiamo(p[0], P2(p)[1], P1(p)[1])
-        g.punto(P2(p), nome_p + "₂", 5, -5); g.punto(P1(p), nome_p + "₁", 5, 14)
+    return g
+
+
+# 1. Piani che contengono una retta proiettante in seconda --------------------------
+f = Figura(690, 300, 150, "Retta r proiettante in seconda: i piani che la contengono")
+titoli = ["piano proiettante in seconda β", "piano orizzontale γ", "piano di profilo δ"]
+for i, tit in enumerate(titoli):
+    ox = 15 + 230 * i
+    f.nota(ox, 18, tit, 13)
+    g = pannello(f, ox)
+    g.lt(0, 205, etichetta=(i == 0))
+    xr, zr = 110, 70
+    # r'' e' un punto (≡ T2r), r' e' perpendicolare alla LT
+    g.retta((xr, 0), (xr, -120), "rosso")
+    if i != 2:
+        g.testo((xr, -120), "r₁", 6, 6, "rosso")
+    g.testo((xr, -120), "T_{1r}∞", -46, 6, "rosso")
+    g.richiamo(xr, zr, 0)
     if i == 0:
-        g.traccia((-10, 60), (215, 60)); g.testo((215, 60), "t_2γ", -22, 18)
-        g.testo((150, -150), "t_1γ∞", 0, 0)
-        g.testo((40, 95), "vera forma in prima proiezione", 0, 0, "grigio", 11, False)
+        K = (60, 0)
+        dt = direzione(K, (xr, zr))
+        g.traccia(K, lungo(K, dt, 110)); g.testo(lungo(K, dt, 110), "t_2β", 4, 4)
+        g.traccia(K, (60, -120)); g.testo((60, -120), "t_1β", -30, 6)
+        g.angolo_retto(K, (1, 0), (0, -1))
     elif i == 1:
-        x0 = 10 / 0.6
-        g.traccia((x0, 0), (215, 0.6 * 215 - 10)); g.testo((215, 0.6 * 215 - 10), "t_2β", -28, -6)
-        g.traccia((x0, 0), (x0, -140)); g.testo((x0, -140), "t_1β", 6, 4)
-    elif i == 2:
-        g.traccia((10, 0), (215, -(0.5 * 215 - 5))); g.testo((215, -(0.5 * 215 - 5)), "t_1δ", -30, 14)
-        g.traccia((10, 0), (10, 140)); g.testo((10, 140), "t_2δ", -26, 8)
+        g.traccia((10, zr), (200, zr)); g.testo((200, zr), "t_2γ", -28, -8)
+        g.testo((150, -95), "t_1γ∞", 0, 0)
     else:
-        g.traccia((-10, -40), (215, -40)); g.testo((215, -40), "t_1ε", -10, 22)
-        g.testo((150, 150), "t_2ε∞", 0, 0)
-        g.testo((10, -95), "vera forma in seconda proiezione", 0, 0, "grigio", 11, False)
-f.salva(OUT + "05-triangolo-quattro-posizioni.svg")
+        g.traccia((xr, 0), (xr, 110)); g.testo((xr, 110), "t_2δ", 6, 4)
+        g.traccia((xr, 0), (xr, -120), "nero")
+        g.retta((xr, 0), (xr, -120), "rosso", 1.4)
+        g.testo((xr, -60), "t_1δ ≡ r₁", 8, 4)
+    g.punto((xr, zr), "r₂ ≡ T_{2r}", 10, 18 if i != 2 else -8, "rosso")
+f.salva(OUT + "05-piani-per-retta-proiettante-in-seconda.svg")
 
-# 6. Retta perpendicolare a un piano (teorema di Monge) ---------------------------
-f = Figura(600, 380, 195, "Retta r perpendicolare al piano α: r₂ ⊥ t₂α e r₁ ⊥ t₁α", x0=40)
-f.lt(-20, 540)
-K = (40, 0); t2a = (440, 170); t1a = (440, -160)
-f.traccia(K, t2a); f.testo(t2a, "t_2α", 4, 4)
-f.traccia(K, t1a); f.testo(t1a, "t_1α", 4, 12)
-P = (300, 60, 110)
-d2 = perpendicolare(direzione(K, t2a)); d1 = perpendicolare(direzione(K, t1a))
-f.retta(lungo(P2(P), d2, -50), lungo(P2(P), d2, 70), "rosso"); f.testo(lungo(P2(P), d2, 70), "r₂", 6, 4, "rosso")
-f.retta(lungo(P1(P), d1, 80), lungo(P1(P), d1, -60), "rosso"); f.testo(lungo(P1(P), d1, 80), "r₁", 6, 0, "rosso")
-X2 = interseca(P2(P), lungo(P2(P), d2, 1), K, t2a)
-X1 = interseca(P1(P), lungo(P1(P), d1, 1), K, t1a)
-f.angolo_retto(X2, direzione(X2, t2a), direzione(X2, P2(P)))
-f.angolo_retto(X1, direzione(X1, t1a), direzione(X1, P1(P)))
-f.richiamo(P[0], P2(P)[1], P1(P)[1])
-f.punto(P2(P), "P₂", 8, -4, "rosso"); f.punto(P1(P), "P₁", 8, 14, "rosso")
-f.salva(OUT + "05-retta-perpendicolare-al-piano.svg")
+# 2. Piani che contengono una retta parallela alla LT (con la terza proiezione) -------
+f = Figura(690, 330, 160, "Retta r parallela alla LT: i piani che la contengono")
+y_r, z_r = 40, 50
+for i, tit in enumerate(["piano α parallelo alla linea di terra", "piano frontale φ"]):
+    ox = 15 + 345 * i
+    f.nota(ox, 18, tit, 13)
+    g = pannello(f, ox)
+    X3 = 200
+    g.lt(0, 320, etichetta=(i == 0))
+    asse_terzo(g, X3, 140, -140)
+    g.testo((X3, 140), "π_3", 6, 10, "grigio", 12, False)
+    g.testo((0, 140), "π_2", 2, 10, "grigio", 12, False)
+    g.testo((0, -140), "π_1", 2, 0, "grigio", 12, False)
+    g.retta((15, z_r), (X3, z_r), "rosso"); g.testo((15, z_r), "r₂", 0, -8, "rosso")
+    g.retta((15, -y_r), (X3, -y_r), "rosso"); g.testo((15, -y_r), "r₁", 0, 16, "rosso")
+    arco(g, X3, y_r)
+    T3 = (X3 + y_r, z_r)
+    g.richiamo(X3 + y_r, 0, z_r)
+    if i == 0:
+        z2, y1 = 100, 80
+        g.traccia((5, z2), (X3, z2)); g.testo((5, z2), "t_2α", 0, -8)
+        g.traccia((5, -y1), (X3, -y1)); g.testo((5, -y1), "t_1α", 0, 18)
+        arco(g, X3, y1)
+        g.traccia((X3, z2), (X3 + y1, 0)); g.testo((X3 + y1, 0), "t_3α", 6, 16)
+    else:
+        g.traccia((5, -y_r), (X3, -y_r)); g.testo((95, -y_r), "t_1φ ≡ r₁", 0, 18)
+        g.testo((60, 120), "t_2φ∞", 0, 0)
+        g.traccia((X3 + y_r, 0), (X3 + y_r, 130)); g.testo((X3 + y_r, 130), "t_3φ", 6, 4)
+    g.punto(T3, "r₃ ≡ T_{3r}", 8, -6, "rosso")
+f.salva(OUT + "05-piani-per-retta-parallela-alla-lt.svg")
 
-# 7. Due piani proiettanti in prima perpendicolari ---------------------------------
-f = Figura(560, 360, 180, "Due piani proiettanti in prima γ e δ perpendicolari: t₁γ ⊥ t₁δ", x0=20)
-f.lt(0, 520)
-Q = (260, -110)
-Kg = (Q[0] + 110 / 0.8, 0)       # t1γ: direzione (1, 0.8)
-Kd = (Q[0] - 0.8 * 110, 0)        # t1δ: direzione (-0.8, 1)
-f.traccia(Kg, lungo(Q, direzione(Q, Kg), -60)); f.testo(lungo(Q, direzione(Q, Kg), -60), "t_1γ", -30, 6)
-f.traccia(Kd, lungo(Q, direzione(Q, Kd), -60)); f.testo(lungo(Q, direzione(Q, Kd), -60), "t_1δ", 6, 6)
-f.traccia(Kg, (Kg[0], 160)); f.testo((Kg[0], 160), "t_2γ", 6, 4)
-f.traccia(Kd, (Kd[0], 160)); f.testo((Kd[0], 160), "t_2δ", 6, 4)
-f.angolo_retto(Q, direzione(Q, Kg), direzione(Q, Kd))
-f.angolo_retto(Kg, (0, 1), (-1, 0))
-# retta r di δ, perpendicolare a γ: r' su t1δ, r'' parallela a LT
-h = 95
-f.retta((Kd[0], h), (Kg[0], h), "rosso"); f.testo(((Kd[0] + Kg[0]) / 2, h), "r₂", 0, -8, "rosso")
-f.retta(Kd, Q, "rosso", 3); f.testo(pt_su(Kd, Q, 0.5), "r₁ ≡ t₁δ", 8, 4, "rosso")
-f.angolo_retto((Kg[0], h), (0, -1), (-1, 0))
-f.salva(OUT + "05-piani-proiettanti-perpendicolari.svg")
+# Retta generica usata negli schemi 3, 4 e 5
+T1 = (100, 60, 0)
+T2 = (200, 0, 40)
 
-# 8. Piano proiettante in prima perpendicolare a un piano generico -------------------
-f = Figura(560, 380, 190, "Piano γ proiettante in prima perpendicolare al generico α: t₁γ ⊥ t₁α", x0=20)
-f.lt(0, 520)
-K = (440, 0); t2a = (230, 158); t1a = (40, -133)
-f.traccia(K, t2a); f.testo(pt_su(K, t2a, 0.45), "t_2α", 4, -8)
-f.traccia(K, t1a); f.testo(t1a, "t_1α", -8, 18)
-M = interseca(K, t1a, (240, 0), (240, 1))
-dg = direzione(M, (M[0] - 1, M[1] + 3))            # perpendicolare a t1α, verso l'alto
-Kg = interseca(M, lungo(M, dg, 1), (0, 0), (1, 0))
-f.traccia(Kg, lungo(M, dg, -35))
-f.traccia(Kg, (Kg[0], 170)); f.testo((Kg[0], 170), "t_2γ", 6, 4)
-f.angolo_retto(M, direzione(M, K), dg)
-# retta r di γ perpendicolare ad α: r' su t1γ, r'' perpendicolare a t2α
-P1p = lungo(M, dg, -25)
-P2p = (P1p[0], 110)
-d2 = perpendicolare(direzione(K, t2a))
-f.retta(lungo(P2p, d2, -70), lungo(P2p, d2, 60), "rosso"); f.testo(lungo(P2p, d2, -70), "r₂", 4, 14, "rosso")
-f.retta(lungo(M, dg, -35), Kg, "rosso", 3); f.testo(lungo(M, dg, -35), "r₁ ≡ t₁γ", 8, 14, "rosso")
-X = interseca(P2p, lungo(P2p, d2, 1), K, t2a)
-f.angolo_retto(X, direzione(X, K), direzione(X, P2p))
-f.richiamo(P2p[0], P2p[1], P1p[1])
-f.punto(P2p, "P₂", -24, -4, "rosso"); f.punto(P1p, "P₁", -24, 6, "rosso")
-f.salva(OUT + "05-piano-perpendicolare-al-generico.svg")
+# 3. Retta generica: dalle tracce alle proiezioni -------------------------------------
+f = Figura(520, 240, 120, "Retta generica r: le proiezioni passano per le tracce", x0=30)
+f.lt(-10, 400)
+d2 = direzione(P2(T1), P2(T2)); d1 = direzione(P1(T1), P1(T2))
+f.retta(lungo(P2(T1), d2, -40), lungo(P2(T2), d2, 50), "rosso"); f.testo(lungo(P2(T2), d2, 50), "r₂", 6, 0, "rosso")
+f.retta(lungo(P1(T1), d1, -40), lungo(P1(T2), d1, 60), "rosso"); f.testo(lungo(P1(T2), d1, 60), "r₁", 6, 0, "rosso")
+f.richiamo(T1[0], 0, -T1[1]); f.richiamo(T2[0], T2[2], 0)
+f.punto(P1(T1), "T_{1r} ≡ T_{1r}", -96, 14)
+f.punto(P2(T1), "(T_{1r})₂", -50, -8)
+f.punto(P2(T2), "T_{2r} ≡ T_{2r}", -112, -4)
+f.punto(P1(T2), "(T_{2r})₁", 8, 18)
+f.salva(OUT + "05-retta-generica-proiezioni.svg")
 
-# 9. Perpendicolare al piano del triangolo senza tracce: r′ ⊥ o′ e r″ ⊥ f″ ------------
-f = Figura(640, 400, 205, "Senza tracce: r è perpendicolare al piano di ABC se r₁ ⊥ o₁ e r₂ ⊥ f₂", x0=40)
-f.lt(-20, 560)
-f.figura([P2(A), P2(B), P2(C)], "blu"); f.figura([P1(A), P1(B), P1(C)], "blu")
-f.retta((120, 70), (470, 70), "arancio", 1.4); f.testo((470, 70), "o₂", 4, 4, "arancio")
-do = direzione(P1(A), P1(B))
-f.retta(lungo(P1(A), do, -60), lungo(P1(A), do, 330), "arancio", 1.4); f.testo(lungo(P1(A), do, 330), "o₁", 4, 4, "arancio")
-f.retta((130, -40), (360, -40), "verde", 1.4); f.testo((130, -40), "f₁", -18, 4, "verde")
-df = direzione(P2(A), P2(C))
-f.retta(lungo(P2(A), df, -60), lungo(P2(A), df, 175), "verde", 1.4); f.testo(lungo(P2(A), df, 175), "f₂", 4, 0, "verde")
-for p, nome, d2x, d2y, d1x, d1y in [(A, "A", -24, -6, -24, 14), (B, "B", 6, -6, -4, 18), (C, "C", -24, -4, 6, -6)]:
-    f.richiamo(p[0], P2(p)[1], P1(p)[1])
-    f.punto(P2(p), nome + "₂", d2x, d2y); f.punto(P1(p), nome + "₁", d1x, d1y)
-Q2, Q1 = (420, 30), (420, -165)
-r2 = perpendicolare(df); r1 = perpendicolare(do)
-if r1[1] < 0: r1 = (-r1[0], -r1[1])
-X2 = interseca(Q2, lungo(Q2, r2, 1), P2(A), P2(C))
-X1 = interseca(Q1, lungo(Q1, r1, 1), P1(A), P1(B))
-f.retta(lungo(Q2, direzione(Q2, X2), -40), lungo(X2, direzione(Q2, X2), 25), "rosso")
-f.testo(lungo(Q2, direzione(Q2, X2), -40), "r₂", 6, 4, "rosso")
-f.retta(lungo(Q1, r1, -25), lungo(X1, r1, 40), "rosso"); f.testo(lungo(Q1, r1, -25), "r₁", 8, 4, "rosso")
-f.angolo_retto(X2, df, direzione(X2, Q2))
-f.angolo_retto(X1, do, direzione(X1, Q1))
-f.richiamo(420, Q2[1], Q1[1])
-f.punto(Q2, "Q₂", 8, 14, "rosso"); f.punto(Q1, "Q₁", 8, 14, "rosso")
-f.salva(OUT + "05-perpendicolare-con-orizzontale-e-frontale.svg")
+# 4. Retta generica: terza proiezione e terza traccia ---------------------------------
+X3 = 330
+t3 = (X3 - T1[0]) / (T2[0] - T1[0])
+T3 = tuple(T1[i] + (T2[i] - T1[i]) * t3 for i in range(3))       # y negativo: dietro π2
+f = Figura(600, 270, 150, "Retta generica r: la terza proiezione e la terza traccia T₃ᵣ", x0=40)
+f.lt(-20, 520)
+asse_terzo(f, X3, 140, -110)
+f.testo((X3, 140), "π_3", 6, 10, "grigio", 12, False)
+f.testo((-20, 140), "π_2", 2, 10, "grigio", 12, False)
+f.testo((-20, -110), "π_1", 2, 0, "grigio", 12, False)
+# piano ausiliario α proiettante in prima: t1α ≡ r', t2α verticale per T2r'
+f.traccia((T2[0], 0), (T2[0], 130)); f.testo((T2[0], 130), "t_2α", -32, 4)
+f.traccia((P3(T3, X3)[0], 0), (P3(T3, X3)[0], 130)); f.testo((P3(T3, X3)[0], 130), "t_3α", 6, 4)
+# r'' e r'
+f.retta(lungo(P2(T1), d2, -30), P2(T2), "rosso"); tratteggiata(f, P2(T2), P2(T3))
+f.testo(P2(T2), "r₂", -60, -26, "rosso")
+f.retta(lungo(P1(T1), d1, -30), P1(T2), "rosso"); tratteggiata(f, P1(T2), P1(T3))
+f.testo(lungo(P1(T1), d1, -30), "r₁ ≡ t_1α", -64, 14, "rosso")
+f.richiamo(T1[0], 0, -T1[1]); f.richiamo(T2[0], T2[2], 0)
+# terza proiezione: T1 e T2 portati sul terzo piano
+arco(f, X3, T1[1])
+orizz(f, T2[2], T2[0], X3)
+f.retta(P3(T1, X3), P3(T2, X3), "rosso"); tratteggiata(f, P3(T2, X3), P3(T3, X3))
+f.testo(P3(T1, X3), "r₃", 6, -6, "rosso")
+f.punto(P3(T1, X3), "(T_{1r})₃", 4, 18); f.punto(P3(T2, X3), "(T_{2r})₃", 6, 4)
+# terza traccia: dal ribaltamento di t1α e dalla seconda proiezione
+arco(f, X3, T3[1])
+orizz(f, T3[2], P2(T3)[0], P3(T3, X3)[0])
+f.punto(P2(T3), "(T_{3r})₂", 6, -4)
+f.punto(P1(T3), "(T_{3r})₁", 6, 14)
+f.punto(P3(T3, X3), "T_{3r}", -40, -6, "rosso")
+f.punto(P1(T1), "T_{1r}", 8, 14); f.punto(P2(T1), "(T_{1r})₂", -18, -10)
+f.punto(P2(T2), "T_{2r}", -50, -4); f.punto(P1(T2), "(T_{2r})₁", 6, 18)
+f.salva(OUT + "05-retta-generica-terza-traccia.svg")
+
+# 5. Retta generica nei due piani proiettanti ----------------------------------------
+f = Figura(690, 320, 150, "Retta generica r nei piani ausiliari: proiettante in prima α e in seconda β")
+for i, tit in enumerate(["piano α proiettante in prima", "piano β proiettante in seconda"]):
+    ox = 20 + 345 * i
+    f.nota(ox, 18, tit, 13)
+    g = pannello(f, ox)
+    g.lt(0, 320, etichetta=(i == 0))
+    a1, a2 = (90, -90), (90, 0)
+    b2, b1 = (200, 90), (200, 0)
+    e2 = direzione(a2, b2); e1 = direzione(a1, b1)
+    g.richiamo(90, 0, -90); g.richiamo(200, 90, 0)
+    if i == 0:
+        g.traccia(lungo(a1, e1, -40), lungo(b1, e1, 70)); g.testo(lungo(b1, e1, 70), "t_1α ≡ r₁", -10, -10)
+        g.retta(lungo(a1, e1, -40), lungo(b1, e1, 70), "rosso", 1.4)
+        g.traccia(b1, (200, 115)); g.testo((200, 115), "t_2α", 6, 4)
+        g.retta(lungo(a2, e2, -20), lungo(b2, e2, 30), "rosso"); g.testo(lungo(b2, e2, 30), "r₂", 6, 10, "rosso")
+    else:
+        g.traccia(lungo(a2, e2, -40), lungo(b2, e2, 30)); g.testo(lungo(b2, e2, 30), "t_2β ≡ r₂", 6, 4)
+        g.retta(lungo(a2, e2, -40), lungo(b2, e2, 30), "rosso", 1.4)
+        g.traccia(a2, (90, -135)); g.testo((90, -135), "t_1β", 6, 4)
+        g.retta(lungo(a1, e1, -20), lungo(b1, e1, 40), "rosso"); g.testo(lungo(b1, e1, 40), "r₁", 6, 4, "rosso")
+    g.punto(a1, "T_{1r}", -40, 8); g.punto(a2, "(T_{1r})₂", -46, -8)
+    g.punto(b2, "T_{2r}", -52, -2); g.punto(b1, "(T_{2r})₁", 8, 16)
+f.salva(OUT + "05-retta-generica-piani-proiettanti.svg")
+
+# Piano generico α usato negli schemi 6 e 7
+K = (60, 0, 0)
+A = (300, 0, 90)      # su t2α
+B = (300, 110, 0)     # su t1α
+n, dd = piano(K, A, B)
+X3 = 420
+z0 = (dd - n[0] * X3) / n[2]       # dove t2α incontra la verticale π2/π3
+y0 = (dd - n[0] * X3) / n[1]       # dove t1α incontra la verticale π1/π3
+
+
+def piano_generico(f):
+    asse_terzo(f, X3, 175, -185)
+    f.testo((X3, 175), "π_3", 6, 10, "grigio", 12, False)
+    f.traccia((K[0], 0), (X3, z0)); f.testo(((K[0] + X3) / 2, z0 / 2), "t_2α", -10, -12)
+    f.traccia((K[0], 0), (X3, -y0)); f.testo(((K[0] + X3) / 2, -y0 / 2), "t_1α", -24, 18)
+    arco(f, X3, y0)
+    f.traccia((X3, z0), (X3 + y0, 0)); f.testo((X3 + y0 * 0.8, z0 * 0.2), "t_3α", 8, 0)
+
+
+def su_alfa_y(x, z):
+    """Aggetto del punto di α con ascissa x e quota z."""
+    return (dd - n[0] * x - n[2] * z) / n[1]
+
+
+# 6. Piano generico: le tre tracce e un'orizzontale -----------------------------------
+h = 55
+xo = (dd - n[2] * h) / n[0]                # T2o: y = 0, z = h
+f = Figura(640, 390, 195, "Piano generico α: le tre tracce e una retta orizzontale o del piano", x0=20)
+f.lt(0, 600)
+piano_generico(f)
+yo3 = su_alfa_y(X3, h)
+f.retta((xo, h), (X3, h), "arancio"); f.testo(((xo + X3) / 2, h), "o₂", 0, -8, "arancio")
+f.retta((xo, 0), (X3, -yo3), "arancio"); f.testo(((xo + X3) / 2, -yo3 / 2), "o₁", 4, -8, "arancio")
+f.testo((X3, -yo3), "T_{1o}∞", -60, 20, "arancio")
+f.retta((X3, h), (X3 + yo3 + 70, h), "arancio", 1.4); f.testo((X3 + yo3 + 70, h), "o₃", -8, -8, "arancio")
+f.richiamo(xo, h, 0)
+arco(f, X3, yo3)
+f.richiamo(X3 + yo3, 0, h)
+f.punto((xo, h), "T_{2o}", -50, -8); f.punto((xo, 0), "(T_{2o})₁", -12, 18)
+f.punto((X3, -yo3), "(T_{3o})₁", 6, 14)
+f.punto((X3 + yo3, h), "T_{3o}", -8, 20)
+f.salva(OUT + "05-piano-generico-orizzontale.svg")
+
+# 7. Piano generico: una frontale ---------------------------------------------------
+yf = 50
+xf = (dd - n[1] * yf) / n[0]               # T1f: z = 0, y = yf
+zf3 = (dd - n[0] * X3 - n[1] * yf) / n[2]
+f = Figura(640, 390, 195, "Piano generico α: una retta frontale f del piano", x0=20)
+f.lt(0, 600)
+piano_generico(f)
+f.retta((xf, -yf), (X3, -yf), "verde"); f.testo(((xf + X3) / 2, -yf), "f₁", 0, 16, "verde")
+f.retta((xf, 0), (X3, zf3), "verde"); f.testo(((xf + X3) / 2, zf3 / 2), "f₂", -8, -10, "verde")
+f.testo((X3, zf3), "T_{2f}∞", -58, 2, "verde")
+f.retta((X3 + yf, 0), (X3 + yf, 150), "verde", 1.4); f.testo((X3 + yf, 150), "f₃", 6, 4, "verde")
+f.richiamo(xf, 0, -yf)
+arco(f, X3, yf)
+orizz(f, zf3, X3, X3 + yf)
+f.punto((xf, -yf), "T_{1f}", -18, 18); f.punto((xf, 0), "(T_{1f})₂", -18, -10)
+f.punto((X3, zf3), "(T_{3f})₂", 6, -6)
+f.punto((X3 + yf, zf3), "T_{3f}", 6, -6)
+f.salva(OUT + "05-piano-generico-frontale.svg")
+
+# 8. I piani che contengono un'orizzontale -----------------------------------------
+f = Figura(690, 300, 140, "I piani che contengono una retta orizzontale o")
+for i, tit in enumerate(["piano orizzontale α", "piano generico β", "piano proiettante in prima γ"]):
+    ox = 15 + 230 * i
+    f.nota(ox, 18, tit, 13)
+    g = pannello(f, ox)
+    g.lt(0, 205, etichetta=(i == 0))
+    x0, h = 80, 70
+    do = direzione((x0, 0), (180, -110))
+    o1_fine = lungo((x0, 0), do, 140)
+    g.richiamo(x0, h, 0)
+    if i == 0:
+        g.traccia((5, h), (200, h)); g.testo((200, h), "t_2α ≡ o₂", -64, -8)
+        g.testo((10, -110), "t_1α∞", 0, 0)
+    elif i == 1:
+        Kb = (20, 0)
+        g.traccia(Kb, lungo(Kb, direzione(Kb, (x0, h)), 115)); g.testo(lungo(Kb, direzione(Kb, (x0, h)), 115), "t_2β", 4, 4)
+        g.traccia(Kb, lungo(Kb, do, 150)); g.testo(lungo(Kb, do, 150), "t_1β", -34, 4)
+    else:
+        g.traccia((x0, 0), (x0, 105)); g.testo((x0, 105), "t_2γ", 6, 4)
+        g.traccia((x0, 0), o1_fine)
+        g.testo(o1_fine, "t_1γ ≡ o₁", -80, 4)
+    g.retta((x0, h), (200, h), "arancio")
+    if i != 0:
+        g.testo((200, h), "o₂", -14, -8, "arancio")
+    g.retta((x0, 0), o1_fine, "arancio", 1.4)
+    if i != 2:
+        g.testo(o1_fine, "o₁", 6, 4, "arancio")
+    g.punto((x0, h), "T_{2o}", -48, -8 if i != 0 else 18); g.punto((x0, 0), "(T_{2o})₁", *((-46, -8) if i == 1 else (-46, 16)))
+f.salva(OUT + "05-piani-per-retta-orizzontale.svg")
+
+# 9. I piani che contengono una frontale ---------------------------------------------
+f = Figura(690, 300, 150, "I piani che contengono una retta frontale f")
+for i, tit in enumerate(["piano frontale β", "piano generico α", "piano proiettante in seconda γ"]):
+    ox = 15 + 230 * i
+    f.nota(ox, 18, tit, 13)
+    g = pannello(f, ox)
+    g.lt(0, 205, etichetta=(i == 0))
+    x0, yf = 80, 70
+    df = direzione((x0, 0), (180, 110))
+    f2_fine = lungo((x0, 0), df, 140)
+    g.richiamo(x0, 0, -yf)
+    if i == 0:
+        g.traccia((5, -yf), (200, -yf)); g.testo((200, -yf), "t_1β ≡ f₁", -64, 18)
+        g.testo((10, 110), "t_2β∞", 0, 0)
+    elif i == 1:
+        Kb = (20, 0)
+        g.traccia(Kb, lungo(Kb, direzione(Kb, (x0, -yf)), 130)); g.testo(lungo(Kb, direzione(Kb, (x0, -yf)), 130), "t_1α", 4, 10)
+        g.traccia(Kb, lungo(Kb, df, 140)); g.testo(lungo(Kb, df, 140), "t_2α", -34, 4)
+    else:
+        g.traccia((x0, 0), (x0, -125)); g.testo((x0, -125), "t_1γ", 6, 4)
+        g.traccia((x0, 0), f2_fine)
+        g.testo(f2_fine, "t_2γ ≡ f₂", -80, 0)
+    g.retta((x0, -yf), (200, -yf), "verde"); g.testo((200, -yf), "f₁", -14, -8 if i == 0 else 18, "verde")
+    g.retta((x0, 0), f2_fine, "verde", 1.4)
+    if i != 2:
+        g.testo(f2_fine, "f₂", 6, 4, "verde")
+    g.punto((x0, -yf), "T_{1f}", -48, 16 if i != 0 else -8); g.punto((x0, 0), "(T_{1f})₂", *((6, 16) if i == 1 else (-48, -8)))
+f.salva(OUT + "05-piani-per-retta-frontale.svg")
+
+# 10. I piani che contengono una retta di profilo (con la terza proiezione) ------------
+f = Figura(700, 330, 165, "Retta di profilo m: i piani che la contengono")
+ym, zm = 60, 70
+for i, tit in enumerate(["piano di profilo δ e piano ε parallelo alla LT", "piano generico α"]):
+    ox = 15 + 350 * i
+    f.nota(ox, 18, tit, 13)
+    g = pannello(f, ox)
+    X0, X3 = (90, 200) if i == 0 else (110, 170)
+    g.lt(0, 320, etichetta=(i == 0))
+    asse_terzo(g, X3, 130, -150)
+    g.testo((X3, 130), "π_3", 6, 10, "grigio", 12, False)
+    T1m, T2m = (X0, ym, 0), (X0, 0, zm)
+    arco(g, X3, ym)
+    orizz(g, zm, X0, X3)
+    if i == 0:
+        g.traccia((X0, 0), (X0, 120)); g.testo((X0, 120), "t_2δ ≡ m₂", 6, 4)
+        g.traccia((X0, 0), (X0, -140)); g.testo((X0, -140), "t_1δ ≡ m₁", 6, 4)
+        g.traccia((5, zm), (X3, zm)); g.testo((5, zm), "t_2ε", 0, -8)
+        g.traccia((5, -ym), (X3, -ym)); g.testo((5, -ym), "t_1ε", 0, 18)
+        g.traccia(P3(T1m, X3), P3(T2m, X3)); g.testo((X3 + ym / 2, zm / 2), "t_3ε ≡ m₃", 8, -4)
+    else:
+        Ka = (20, 0)
+        ya = ym * (X3 - Ka[0]) / (X0 - Ka[0]); za = zm * (X3 - Ka[0]) / (X0 - Ka[0])
+        g.traccia(Ka, (X3, za)); g.testo((X3, za), "t_2α", -36, 0)
+        g.traccia(Ka, (X3, -ya)); g.testo((X3, -ya), "t_1α", -36, 14)
+        arco(g, X3, ya)
+        g.traccia((X3, za), (X3 + ya, 0)); g.testo((X3 + ya, 0), "t_3α", 4, -6)
+        g.retta(P3(T1m, X3), P3(T2m, X3), "rosso")
+    g.retta((X0, zm), (X0, -ym), "rosso", 1.4)
+    if i == 1:
+        g.testo((X0, -ym / 2), "m₁ ≡ m₂", 6, 4, "rosso")
+        g.testo((X3 + ym / 2, zm / 2), "m₃", -26, 18, "rosso")
+    g.punto((X0, zm), "T_{2m}", -50, -6); g.punto((X0, -ym), "T_{1m}", -50, 14)
+    g.punto(P3(T1m, X3), None); g.punto(P3(T2m, X3), None)
+f.salva(OUT + "05-piani-per-retta-di-profilo.svg")
 print("ok")

@@ -14,7 +14,7 @@ tags: [geometria-descrittiva, sbobina]
 > [!info] Note collegate
 > Bozza collegata (omologia): [[proiezioni-e-omologia]]
 >
-> Sbobina precedente: [[02-proiezioni-e-omologia]] · Successiva: [[04-piani-rette-e-appartenenza]]
+> Sbobina precedente: [[02-proiezioni-e-omologia]] · Successiva: [[04-rette-e-piani-metodo-di-monge]]
 
 ## Riepilogo: il processo proiettivo
 

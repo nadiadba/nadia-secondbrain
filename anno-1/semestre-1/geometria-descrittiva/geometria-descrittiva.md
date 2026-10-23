@@ -19,10 +19,9 @@ Ancora nessuna.
 1. [[01-strumenti-e-disegno|Strumenti, materiali e regole del disegno]] (gio 1 ottobre)
 2. [[02-proiezioni-e-omologia|Richiami di geometria, proiezioni e omologia]] (mar 6 ottobre)
 3. [[03-proiettiva-e-proiezioni-ortogonali|Riepilogo di geometria proiettiva, introduzione alle proiezioni ortogonali, punto e rette proiettanti]] (gio 8 ottobre)
-4. [[04-piani-rette-e-appartenenza|Piano proiettante in seconda, retta e piano generico, piani che contengono le rette, punto che appartiene a un piano]] (gio 15 ottobre)
-5. [[05-piani-proiettanti-orizzontali-frontali|Piani ausiliari, rette orizzontali e frontali, perpendicolarità]] (mar 20 ottobre)
-
-Martedì 13 ottobre (rette e piani con il metodo di Monge, condizioni di appartenenza) non è stato registrato.
+4. [[04-rette-e-piani-metodo-di-monge|Rette e piani con il metodo di Monge: rette e piani nelle varie posizioni, condizioni di appartenenza, piano proiettante in prima, correzione dell'esercizio di omologia]] (mar 13 ottobre)
+5. [[05-piani-rette-e-appartenenza|Piano proiettante in seconda, retta e piano generico, piani che contengono le rette, punto che appartiene a un piano]] (gio 15 ottobre)
+6. [[06-piani-proiettanti-orizzontali-frontali|Piani ausiliari, rette orizzontali e frontali, perpendicolarità]] (mar 20 ottobre)
 
 ## Bozze
 
