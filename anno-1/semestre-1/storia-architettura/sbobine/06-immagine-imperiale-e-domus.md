@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica di Memo Vocali). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
+> Bozza: [[06-potere-imperiale-spettacolo-pompei]]
+>
 > Sbobina precedente: [[05-costruzione-mondo-antico]] · Successiva: [[07-residenza-mondo-antico]]
 >
 > Argomenti collegati: [[03-roma-foro-e-fori-imperiali]] · [[05-costruzione-nel-mondo-antico]]

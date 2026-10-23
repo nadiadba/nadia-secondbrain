@@ -12,7 +12,7 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata delle registrazioni della visita (due parti: il mausoleo di Cecilia Metella e la Villa di Massenzio). Il contenuto è fedele alle parole della professoressa: sono stati corretti solo gli errori di trascrizione sui termini tecnici e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
-> Bozza collegata (tecniche costruttive): [[05-costruzione-nel-mondo-antico]]
+> Bozza: [[04-via-appia-cecilia-metella-massenzio]]
 >
 > Sbobina precedente: [[03-roma-foro-romano-fori-imperiali]] · Successiva: [[05-costruzione-mondo-antico]]
 

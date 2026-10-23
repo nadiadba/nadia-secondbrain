@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione della visita (trascrizione automatica di Memo Vocali). Il contenuto è fedele alle parole di chi spiega: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. La registrazione inizia a visita già avviata.
 
 > [!info] Note collegate
+> Bozza: [[08-terme-di-caracalla]]
+>
 > Sbobina precedente: [[07-residenza-mondo-antico]] · Successiva: [[10-adriano-pantheon]]
 >
 > Argomenti collegati: [[05-costruzione-nel-mondo-antico]] (tecniche costruttive, opera cementizia, laterizio)

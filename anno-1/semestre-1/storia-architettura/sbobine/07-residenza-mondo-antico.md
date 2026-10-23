@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica di Memo Vocali). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
+> Bozza: [[07-residenza-romana-palatino-domus-aurea]]
+>
 > Sbobina precedente: [[06-immagine-imperiale-e-domus]] · Successiva: [[08-visita-terme-caracalla]]
 
 ## La residenza nel mondo antico: il programma della lezione

@@ -34,8 +34,11 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 - [[01-ordini-architettonici|Gli ordini architettonici e il tempio greco]]
 - [[02-acropoli-e-partenone|La Grecia classica: l'Acropoli di Atene e il Partenone]]
 - [[03-roma-foro-e-fori-imperiali|Roma: il Foro Romano e i Fori Imperiali]]
+- [[04-via-appia-cecilia-metella-massenzio|La Via Appia: il mausoleo di Cecilia Metella e la Villa di Massenzio]]
 - [[05-costruzione-nel-mondo-antico|La costruzione nel mondo antico]]: materiali e tecniche costruttive.
+- [[06-potere-imperiale-spettacolo-pompei|L'immagine del potere imperiale, teatri e anfiteatri, Pompei e la domus]]
+- [[07-residenza-romana-palatino-domus-aurea|La residenza romana: l'insula, il Palatino, la Domus Aurea]]
+- [[08-terme-di-caracalla|Le Terme di Caracalla]]
 
 ## Da fare
 
-- [ ] Bozza sulla visita alla Via Appia (la sbobina è già pronta)
