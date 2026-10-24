@@ -14,13 +14,34 @@ tags: [geometria-descrittiva, bozza]
 >
 > Bozza precedente: [[04-rette-e-piani-nelle-varie-posizioni]] · Successiva: [[06-piani-ausiliari-e-perpendicolarita]]
 
-La lezione di giovedì 15 ottobre completa il quadro dei piani e delle rette nel metodo di Monge e lo mette al servizio di un'unica domanda: quando un elemento appartiene a un altro? Nella lezione del 13 ottobre si erano viste le rette e i piani nelle posizioni particolari, il piano proiettante in prima e le condizioni di appartenenza; qui si aggiunge il piano proiettante in seconda, si arriva alla retta generica e al piano generico, che non hanno nessuna posizione particolare, e si impara a riconoscere quali piani possono contenere una retta data. L'ultimo passo è il punto: un punto appartiene a un piano se sta su una retta del piano, e le rette più comode per dimostrarlo sono le due ausiliarie, l'orizzontale e la frontale. Tutto va verificato sul modello tridimensionale: la docente insiste che queste regole non si imparano a memoria, si vedono, e poi restano in testa.
+La lezione di giovedì 15 ottobre completa il quadro dei piani e delle rette nel metodo di Monge e lo mette al servizio di un'unica domanda: quando un elemento appartiene a un altro?
+
+Nella lezione del 13 ottobre si erano viste le rette e i piani nelle posizioni particolari, il piano proiettante in prima e le condizioni di appartenenza; qui:
+
+- si aggiunge il piano proiettante in seconda,
+- si arriva alla retta generica e al piano generico, che non hanno nessuna posizione particolare,
+- e si impara a riconoscere quali piani possono contenere una retta data.
+
+L'ultimo passo è il punto: un punto appartiene a un piano se sta su una retta del piano, e le rette più comode per dimostrarlo sono le due ausiliarie, l'orizzontale e la frontale.
+
+Tutto va verificato sul modello tridimensionale: la docente insiste che queste regole non si imparano a memoria, si vedono, e poi restano in testa.
 
 ## IL PIANO PROIETTANTE IN SECONDA
 
 ### Com'è fatto e come si costruisce nel modello
 
-I piani si nominano a seconda della posizione che assumono rispetto ai tre piani di proiezione. Il piano proiettante in prima, visto la volta scorsa, è perpendicolare a π₁; il piano proiettante in seconda è invece perpendicolare a π₂ e inclinato rispetto a π₁ e a π₃. Nel modello si costruisce con un cartoncino che stia in piedi da solo e che entri nel modello, in modo da poterlo portare sempre a lezione. Guardandolo si vede subito la sua caratteristica: la prima traccia t₁α è perpendicolare alla linea di terra, mentre la seconda traccia t₂α è inclinata quanto è inclinato il piano; la terza traccia t₃α, sul piano laterale, è parallela alla linea di terra e incontra t₂α sull'asse verticale.
+I piani si nominano a seconda della posizione che assumono rispetto ai tre piani di proiezione.
+
+- Il piano proiettante in prima, visto la volta scorsa, è perpendicolare a π₁;
+- il piano proiettante in seconda è invece perpendicolare a π₂ e inclinato rispetto a π₁ e a π₃.
+
+Nel modello si costruisce con un cartoncino che stia in piedi da solo e che entri nel modello, in modo da poterlo portare sempre a lezione.
+
+Guardandolo si vede subito la sua caratteristica:
+
+- la prima traccia t₁α è perpendicolare alla linea di terra,
+- mentre la seconda traccia t₂α è inclinata quanto è inclinato il piano;
+- la terza traccia t₃α, sul piano laterale, è parallela alla linea di terra e incontra t₂α sull'asse verticale.
 
 Quando si apre il modello, i tre piani di proiezione finiscono sovrapposti sul foglio. Per questo non si scrive π₁, π₂ e π₃ come se fossero tre zone separate, ma π₁ ≡ π₂ ≡ π₃.
 
@@ -35,7 +56,11 @@ Quando si apre il modello, i tre piani di proiezione finiscono sovrapposti sul f
 
 ### Una figura sul piano: la seconda proiezione sta sulla seconda traccia
 
-Se si disegna un triangolo sul cartoncino e lo si guarda di taglio, come lo vedrebbe π₂, non si vede più un triangolo ma una linea. Lo stesso accade con un cerchio messo perpendicolare alla lavagna. Mandando dai vertici della figura le perpendicolari al secondo piano di proiezione, tutte finiscono sulla seconda traccia: nel piano proiettante in seconda la seconda proiezione di tutti gli elementi che stanno sul piano coincide con la seconda traccia. Si ricordi che la traccia è sempre una retta, l'intersezione tra il piano e un piano di proiezione.
+Se si disegna un triangolo sul cartoncino e lo si guarda di taglio, come lo vedrebbe π₂, non si vede più un triangolo ma una linea. Lo stesso accade con un cerchio messo perpendicolare alla lavagna.
+
+Mandando dai vertici della figura le perpendicolari al secondo piano di proiezione, tutte finiscono sulla seconda traccia: nel piano proiettante in seconda la seconda proiezione di tutti gli elementi che stanno sul piano coincide con la seconda traccia.
+
+Si ricordi che la traccia è sempre una retta, l'intersezione tra il piano e un piano di proiezione.
 
 > [!example] Disegno 2 · Il disegno nello spazio
 > ![[05-spazio-piano-proiettante-in-seconda.svg|620]]
@@ -44,7 +69,10 @@ Se si disegna un triangolo sul cartoncino e lo si guarda di taglio, come lo vedr
 > 2. Ogni punto del triangolo, proiettato su π₂, cade sulla seconda traccia t₂α; per questo A₂ coincide con B₂.
 > 3. Sul pavimento π₁ la prima traccia t₁α è perpendicolare alla LT.
 
-È esattamente quello che accade nel piano proiettante in prima, dove tutto ciò che sta sul piano ha la prima proiezione sulla prima traccia, e vale anche per gli altri piani verticali (il frontale e quello di profilo), mentre nel piano orizzontale tutto ciò che sta sul piano ha la seconda proiezione sulla seconda traccia.
+È esattamente quello che accade:
+
+- nel piano proiettante in prima, dove tutto ciò che sta sul piano ha la prima proiezione sulla prima traccia, e vale anche per gli altri piani verticali (il frontale e quello di profilo),
+- mentre nel piano orizzontale tutto ciò che sta sul piano ha la seconda proiezione sulla seconda traccia.
 
 > [!abstract] Da ricordare
 > - Piani verticali (proiettante in prima, frontale, di profilo): la prima proiezione di tutto ciò che sta sul piano coincide con la prima traccia.
@@ -53,9 +81,17 @@ Se si disegna un triangolo sul cartoncino e lo si guarda di taglio, come lo vedr
 
 ### Esercizio: dalla prima proiezione del triangolo alla seconda e alla terza
 
-L'esercizio tipico della docente dà la prima proiezione di una figura e chiede la seconda e la terza (si potrebbe anche partire dalla terza e risalire alla prima, ma di solito si dà la prima). Guardando il cartoncino dall'alto si capisce che la prima proiezione esiste ma non è la figura vera: è più piccola, gli angoli non sono gli stessi, come un quaderno inclinato che, proiettato, si accorcia. La sola prima proiezione, però, non dice che la figura appartiene al piano: un triangolo sollevato sopra il piano avrebbe la stessa prima proiezione. Servono le condizioni di appartenenza, e in questo caso basta quella più immediata, cioè che la seconda proiezione stia sulla seconda traccia. Non serve nemmeno passare per le rette, anche se si potrebbe.
+L'esercizio tipico della docente dà la prima proiezione di una figura e chiede la seconda e la terza (si potrebbe anche partire dalla terza e risalire alla prima, ma di solito si dà la prima).
 
-Le linee di richiamo vanno tenute più leggere della figura, ma devono vedersi, perché alla docente interessa il processo e non solo il risultato. Sulla traccia del piano si calca più scuro il tratto della figura, per dire che lì c'è il triangolo.
+Guardando il cartoncino dall'alto si capisce che la prima proiezione esiste ma non è la figura vera: è più piccola, gli angoli non sono gli stessi, come un quaderno inclinato che, proiettato, si accorcia.
+
+La sola prima proiezione, però, non dice che la figura appartiene al piano: un triangolo sollevato sopra il piano avrebbe la stessa prima proiezione.
+
+Servono le condizioni di appartenenza, e in questo caso basta quella più immediata, cioè che la seconda proiezione stia sulla seconda traccia. Non serve nemmeno passare per le rette, anche se si potrebbe.
+
+Le linee di richiamo vanno tenute più leggere della figura, ma devono vedersi, perché alla docente interessa il processo e non solo il risultato.
+
+Sulla traccia del piano si calca più scuro il tratto della figura, per dire che lì c'è il triangolo.
 
 > [!example] Disegno 3 · Il disegno
 > ![[05-triangolo-piano-proiettante-in-seconda.svg|620]]
@@ -66,11 +102,19 @@ Le linee di richiamo vanno tenute più leggere della figura, ma devono vedersi, 
 > 4. Terza proiezione: da ogni punto della prima proiezione si va in orizzontale fino all'asse, si gira con l'arco fino alla LT a destra e si sale; dalla seconda proiezione si va in orizzontale verso destra; dove le due linee si incontrano c'è il punto in π₃.
 > 5. Controllo: A₃B₃ è parallelo alla LT, perché A e B hanno la stessa quota; la retta AB è una retta proiettante in seconda che sta sul piano.
 
-Se in tutte le costruzioni dentro il modello si conserva il parallelismo, si sta già disegnando un'assonometria usando solo la logica: lo si vedrà più avanti. E se una figura si presenta in questo modo, la risposta alla domanda «che piano è?» è immediata: un piano proiettante in seconda.
+Se in tutte le costruzioni dentro il modello si conserva il parallelismo, si sta già disegnando un'assonometria usando solo la logica: lo si vedrà più avanti.
+
+E se una figura si presenta in questo modo, la risposta alla domanda «che piano è?» è immediata: un piano proiettante in seconda.
 
 ### Un quadrato in un piano parallelo alla linea di terra
 
-Nel quaderno di Marta, accanto al piano proiettante in seconda, c'è anche il quadrato appartenente a un piano parallelo alla linea di terra, collegato all'esercizio per casa assegnato il 13 ottobre. I lati AB e CD sono paralleli alla LT, le due proiezioni sono rettangoli e nella terza proiezione il quadrato si riduce a un segmento sulla terza traccia: è il segno che il piano è parallelo alla LT. Per disegnare le tracce del piano si trovano prima le tracce delle rette dei lati.
+Nel quaderno di Marta, accanto al piano proiettante in seconda, c'è anche il quadrato appartenente a un piano parallelo alla linea di terra, collegato all'esercizio per casa assegnato il 13 ottobre.
+
+- I lati AB e CD sono paralleli alla LT,
+- le due proiezioni sono rettangoli
+- e nella terza proiezione il quadrato si riduce a un segmento sulla terza traccia: è il segno che il piano è parallelo alla LT.
+
+Per disegnare le tracce del piano si trovano prima le tracce delle rette dei lati.
 
 > [!example] Disegno 4 · Il disegno
 > ![[05-quadrato-piano-parallelo-alla-lt.svg|620]]
@@ -83,9 +127,15 @@ Nel quaderno di Marta, accanto al piano proiettante in seconda, c'è anche il qu
 
 ### Le proiezioni a partire dalle tracce
 
-La retta generica non ha condizioni di particolarità: è quella che ha tutte le tracce proprie, cioè buca sia π₁ sia π₂. Nel disegno nello spazio le parti nascoste dietro un piano si tratteggiano: il tratteggio serve per le viste virtuali, perché in architettura si disegna anche ciò che sta dietro un'altra cosa e non si vede.
+La retta generica non ha condizioni di particolarità: è quella che ha tutte le tracce proprie, cioè buca sia π₁ sia π₂.
 
-Le proiezioni si costruiscono a partire dai due punti che si conoscono, le due tracce. Proiettando la prima traccia su π₂ si ottiene un punto della linea di terra, perché tutto ciò che sta su π₁, proiettato su π₂, finisce sulla LT: è la seconda proiezione della prima traccia, (T₁ᵣ)₂. La seconda traccia invece sta già su π₂ e non si riproietta. Quindi r₂ passa per la sua seconda traccia e per la seconda proiezione della prima. Allo stesso modo, la seconda traccia proiettata su π₁ cade sulla LT in (T₂ᵣ)₁, e r₁ passa per la sua prima traccia e per la prima proiezione della seconda.
+Nel disegno nello spazio le parti nascoste dietro un piano si tratteggiano: il tratteggio serve per le viste virtuali, perché in architettura si disegna anche ciò che sta dietro un'altra cosa e non si vede.
+
+Le proiezioni si costruiscono a partire dai due punti che si conoscono, le due tracce.
+
+Proiettando la prima traccia su π₂ si ottiene un punto della linea di terra, perché tutto ciò che sta su π₁, proiettato su π₂, finisce sulla LT: è la seconda proiezione della prima traccia, (T₁ᵣ)₂. La seconda traccia invece sta già su π₂ e non si riproietta. Quindi r₂ passa per la sua seconda traccia e per la seconda proiezione della prima.
+
+Allo stesso modo, la seconda traccia proiettata su π₁ cade sulla LT in (T₂ᵣ)₁, e r₁ passa per la sua prima traccia e per la prima proiezione della seconda.
 
 La docente chiede di fare attenzione alle parole: le tracce sono punti, e «la seconda proiezione della prima traccia» non è un gioco di parole ma un'azione, proiettare quel punto su π₂.
 
@@ -111,9 +161,26 @@ La docente chiede di fare attenzione alle parole: le tracce sono punti, e «la s
 
 ### La terza traccia
 
-La retta generica ha anche una terza traccia, il punto in cui buca π₃. Per disegnare la terza proiezione non serve: bastano le terze proiezioni della prima e della seconda traccia, e per due punti passa una retta. Il problema è trovare la terza traccia, perché la retta buca π₃ non dentro il primo diedro ma dietro, dove nel modello il piano non c'è: i piani però sono infiniti.
+La retta generica ha anche una terza traccia, il punto in cui buca π₃.
 
-Ci sono due modi. Il primo è immediato: la terza proiezione passa per la terza traccia, quindi si prolunga r₃, tratteggiandola perché la retta sta andando dietro. Graficamente però a mano potrebbe non tornare, e la docente suggerisce un secondo modo, più sicuro: pensare la retta su un piano ausiliario. I piani ausiliari sono proprio i piani proiettanti in prima e in seconda, e aiutano molto. Se per r si fa passare un piano proiettante in prima, cioè si fa coincidere r₁ con t₁α, per le condizioni di appartenenza la terza traccia della retta deve stare sulla terza traccia del piano, anche se sta dietro. Guardando tutto dall'alto si prolunga t₁α fino alla retta di intersezione tra π₁ e π₃; quel punto si ruota con l'arco e si sale in verticale: quella verticale è la terza traccia del piano, e T₃ᵣ sta lì sopra.
+Per disegnare la terza proiezione non serve: bastano le terze proiezioni della prima e della seconda traccia, e per due punti passa una retta.
+
+Il problema è trovare la terza traccia, perché la retta buca π₃ non dentro il primo diedro ma dietro, dove nel modello il piano non c'è: i piani però sono infiniti.
+
+Ci sono due modi.
+
+1. Il primo è immediato: la terza proiezione passa per la terza traccia, quindi si prolunga r₃, tratteggiandola perché la retta sta andando dietro. Graficamente però a mano potrebbe non tornare,
+2. e la docente suggerisce un secondo modo, più sicuro: pensare la retta su un piano ausiliario.
+
+I piani ausiliari sono proprio i piani proiettanti in prima e in seconda, e aiutano molto.
+
+Se per r si fa passare un piano proiettante in prima, cioè si fa coincidere r₁ con t₁α, per le condizioni di appartenenza la terza traccia della retta deve stare sulla terza traccia del piano, anche se sta dietro.
+
+Guardando tutto dall'alto:
+
+1. si prolunga t₁α fino alla retta di intersezione tra π₁ e π₃;
+2. quel punto si ruota con l'arco
+3. e si sale in verticale: quella verticale è la terza traccia del piano, e T₃ᵣ sta lì sopra.
 
 > [!example] Disegno 7 · Il disegno
 > ![[05-retta-generica-terza-traccia.svg|620]]
@@ -132,13 +199,22 @@ Ci sono due modi. Il primo è immediato: la terza proiezione passa per la terza 
 > 2. Il piano α proiettante in prima contiene r: t₁α ≡ r₁, che prolungata arriva in (T₃ᵣ)₁ dietro π₂.
 > 3. Da (T₃ᵣ)₁ sale t₃α, e la retta buca π₃ prolungato in T₃ᵣ, proprio su t₃α.
 
-Rispetto ai quattro quadranti (primo, secondo, terzo e quarto), la terza traccia di questa retta sta dietro: non è uno spazio occulto, ma una posizione dello spazio. Per esercitarsi a trovarla si può costruire anche un modello apposito, meglio in plexiglass che in cartoncino, perché si vede di più.
+Rispetto ai quattro quadranti (primo, secondo, terzo e quarto), la terza traccia di questa retta sta dietro: non è uno spazio occulto, ma una posizione dello spazio.
+
+Per esercitarsi a trovarla si può costruire anche un modello apposito, meglio in plexiglass che in cartoncino, perché si vede di più.
 
 ### La retta generica nei piani ausiliari
 
-Una retta generica appartiene sempre a un piano proiettante: se si appoggia una retta sul cartoncino, ci sta. Per costruire un piano che la contenga bisogna rispettare le condizioni di appartenenza, cioè le tracce della retta devono stare sulle rispettive tracce del piano. Non basta far passare le tracce del piano per una sola delle tracce della retta: un piano che contiene T₁ᵣ ma non T₂ᵣ non contiene la retta.
+Una retta generica appartiene sempre a un piano proiettante: se si appoggia una retta sul cartoncino, ci sta.
 
-Il modo più comodo sfrutta la proprietà dei piani proiettanti. Nel piano proiettante in prima la prima proiezione di tutto ciò che vi sta coincide con la prima traccia: quindi si fa coincidere r₁ con t₁α, e t₂α, perpendicolare alla LT, conterrà T₂ᵣ. Nel piano proiettante in seconda vale lo stesso con la seconda proiezione: r₂ coincide con t₂β, e t₁β, perpendicolare alla LT, passa per T₁ᵣ.
+Per costruire un piano che la contenga bisogna rispettare le condizioni di appartenenza, cioè le tracce della retta devono stare sulle rispettive tracce del piano.
+
+Non basta far passare le tracce del piano per una sola delle tracce della retta: un piano che contiene T₁ᵣ ma non T₂ᵣ non contiene la retta.
+
+Il modo più comodo sfrutta la proprietà dei piani proiettanti.
+
+- Nel piano proiettante in prima la prima proiezione di tutto ciò che vi sta coincide con la prima traccia: quindi si fa coincidere r₁ con t₁α, e t₂α, perpendicolare alla LT, conterrà T₂ᵣ.
+- Nel piano proiettante in seconda vale lo stesso con la seconda proiezione: r₂ coincide con t₂β, e t₁β, perpendicolare alla LT, passa per T₁ᵣ.
 
 > [!example] Disegno 9 · Il disegno
 > ![[05-retta-generica-piani-proiettanti.svg|620]]
@@ -160,9 +236,16 @@ Il modo più comodo sfrutta la proprietà dei piani proiettanti. Nel piano proie
 
 ### Il triangolo delle tracce
 
-Il piano generico è in posizione generica rispetto a tutti e tre i piani di proiezione: forma un angolo con ciascuno, e li taglia lungo un triangolo, né più né meno. Con il cartoncino si può realizzare solo incidendo i piani verticali con due tagli che si incontrano in un punto sulla verticale, e infilandoci il cartoncino. Questo triangolo è molto importante perché in assonometria il piano generico diventerà il piano di quadro e il triangolo si chiamerà triangolo delle tracce.
+Il piano generico è in posizione generica rispetto a tutti e tre i piani di proiezione: forma un angolo con ciascuno, e li taglia lungo un triangolo, né più né meno.
 
-Sul foglio le tre tracce si incontrano a due a due sulle rette di intersezione dei piani di proiezione: t₂α e t₁α partono dallo stesso punto della LT, e t₃α unisce il punto in cui t₂α incontra l'asse con il punto in cui t₁α, girato con l'arco, arriva sulla LT a destra.
+Con il cartoncino si può realizzare solo incidendo i piani verticali con due tagli che si incontrano in un punto sulla verticale, e infilandoci il cartoncino.
+
+Questo triangolo è molto importante perché in assonometria il piano generico diventerà il piano di quadro e il triangolo si chiamerà triangolo delle tracce.
+
+Sul foglio le tre tracce si incontrano a due a due sulle rette di intersezione dei piani di proiezione:
+
+- t₂α e t₁α partono dallo stesso punto della LT,
+- e t₃α unisce il punto in cui t₂α incontra l'asse con il punto in cui t₁α, girato con l'arco, arriva sulla LT a destra.
 
 > [!example] Disegno 11 · Il disegno nello spazio
 > ![[05-spazio-piano-generico.svg|620]]
@@ -172,11 +255,30 @@ Sul foglio le tre tracce si incontrano a due a due sulle rette di intersezione d
 
 ### Le rette che appartengono al piano generico
 
-Una retta appartiene a un piano quando tutti i suoi punti appartengono al piano: è la lezione numero uno, e in pratica se ne prendono due, che quando è possibile diventano le tracce. Sul piano generico può stare sicuramente una retta generica. Non può starci invece una retta proiettante in prima: è verticale, esce dal piano e lo buca in un solo punto.
+Una retta appartiene a un piano quando tutti i suoi punti appartengono al piano: è la lezione numero uno, e in pratica se ne prendono due, che quando è possibile diventano le tracce.
 
-Ci può stare l'orizzontale, che non è la parallela alla linea di terra (anche quella è orizzontale), ma la retta con la seconda proiezione parallela alla LT e la prima variamente inclinata. Essendo parallela a π₁, ha la prima traccia all'infinito; per appartenere al piano, anche quel punto all'infinito deve stare su t₁α, e questo succede solo se la retta ha la direzione di t₁α. Quindi l'orizzontale del piano è parallela alla prima traccia, e la sua prima proiezione o₁ si disegna parallela a t₁α; le sue tracce proprie T₂ₒ e T₃ₒ stanno su t₂α e su t₃α.
+Sul piano generico può stare sicuramente una retta generica.
 
-Allo stesso modo ci può stare la frontale, che ha la prima proiezione parallela alla LT e la seconda inclinata. È parallela a π₂, ha la seconda traccia all'infinito, e per rispettare la condizione di appartenenza deve essere parallela alla seconda traccia del piano: f₂ si disegna parallela a t₂α. Infine sul piano generico può stare anche una retta di profilo. Sul libro e sulle schede si trova l'esempio completo, con tutte le proiezioni, delle rette che possono appartenere al piano generico: generica, orizzontale, frontale e di profilo.
+Non può starci invece una retta proiettante in prima: è verticale, esce dal piano e lo buca in un solo punto.
+
+Ci può stare l'orizzontale, che non è la parallela alla linea di terra (anche quella è orizzontale), ma la retta con la seconda proiezione parallela alla LT e la prima variamente inclinata.
+
+Essendo parallela a π₁, ha la prima traccia all'infinito; per appartenere al piano, anche quel punto all'infinito deve stare su t₁α, e questo succede solo se la retta ha la direzione di t₁α.
+
+Quindi l'orizzontale del piano è parallela alla prima traccia, e la sua prima proiezione o₁ si disegna parallela a t₁α; le sue tracce proprie T₂ₒ e T₃ₒ stanno su t₂α e su t₃α.
+
+Allo stesso modo ci può stare la frontale, che ha la prima proiezione parallela alla LT e la seconda inclinata.
+
+È parallela a π₂, ha la seconda traccia all'infinito, e per rispettare la condizione di appartenenza deve essere parallela alla seconda traccia del piano: f₂ si disegna parallela a t₂α.
+
+Infine sul piano generico può stare anche una retta di profilo.
+
+Sul libro e sulle schede si trova l'esempio completo, con tutte le proiezioni, delle rette che possono appartenere al piano generico:
+
+- generica,
+- orizzontale,
+- frontale
+- e di profilo.
 
 > [!example] Disegno 12 · Il disegno nello spazio
 > ![[05-spazio-piano-generico-rette.svg|620]]
@@ -210,13 +312,32 @@ Allo stesso modo ci può stare la frontale, che ha la prima proiezione parallela
 
 ### Il metodo
 
-Data una retta, quanti piani possono contenerla? Per una retta passano infiniti piani: per una retta verticale, per esempio, passano infiniti piani verticali, ma solo quelli. Ogni piano ha le sue caratteristiche, e ogni retta le sue a seconda di come è posizionata. Per rispondere si colloca la retta nel modello e si guardano i piani su cui si appoggia, partendo dall'associazione più immediata tra il nome della retta e il nome del piano (una retta proiettante in seconda sta sicuramente in un piano proiettante in seconda). Poi si disegnano i piani con colori diversi rispettando la condizione di appartenenza: le tracce del piano passano per le tracce della retta. Per questo, nel disegno delle condizioni, contano le tracce della retta più che le sue proiezioni.
+Data una retta, quanti piani possono contenerla?
 
-Sul foglio si fanno sei disegni, non più di sei, abbastanza grandi, a mano libera ma con cura, seguendo con lo sguardo la mano che traccia la linea. Lo schema del triedro si disegna senza lettere sugli assi: non è propriamente un'assonometria, ma una trasposizione grafica del modello.
+Per una retta passano infiniti piani: per una retta verticale, per esempio, passano infiniti piani verticali, ma solo quelli. Ogni piano ha le sue caratteristiche, e ogni retta le sue a seconda di come è posizionata.
+
+Per rispondere:
+
+1. si colloca la retta nel modello e si guardano i piani su cui si appoggia, partendo dall'associazione più immediata tra il nome della retta e il nome del piano (una retta proiettante in seconda sta sicuramente in un piano proiettante in seconda).
+2. Poi si disegnano i piani con colori diversi rispettando la condizione di appartenenza: le tracce del piano passano per le tracce della retta.
+
+Per questo, nel disegno delle condizioni, contano le tracce della retta più che le sue proiezioni.
+
+Sul foglio si fanno sei disegni, non più di sei, abbastanza grandi, a mano libera ma con cura, seguendo con lo sguardo la mano che traccia la linea.
+
+Lo schema del triedro si disegna senza lettere sugli assi: non è propriamente un'assonometria, ma una trasposizione grafica del modello.
 
 ### Retta proiettante in prima
 
-La retta verticale è perpendicolare a π₁ e lo buca in T₁ᵣ. Un piano orizzontale non può contenerla, perché la retta lo buca in un solo punto. La contengono i piani verticali: il piano di profilo, il piano frontale e i piani proiettanti in prima, che ruotano attorno alla retta. In tutti la prima traccia passa per T₁ᵣ.
+La retta verticale è perpendicolare a π₁ e lo buca in T₁ᵣ. Un piano orizzontale non può contenerla, perché la retta lo buca in un solo punto.
+
+La contengono i piani verticali:
+
+- il piano di profilo,
+- il piano frontale
+- e i piani proiettanti in prima, che ruotano attorno alla retta.
+
+In tutti la prima traccia passa per T₁ᵣ.
 
 > [!example] Disegno 15 · Il disegno
 > ![[05-piani-per-retta-proiettante-in-prima.svg|620]]
@@ -231,7 +352,13 @@ La retta verticale è perpendicolare a π₁ e lo buca in T₁ᵣ. Un piano oriz
 
 ### Retta proiettante in seconda
 
-La retta perpendicolare a π₂ lo buca in T₂ᵣ: r₂ è un punto e la prima traccia è all'infinito. La contiene il piano proiettante in seconda; mettendola nel modello si vede che si appoggia anche su un piano orizzontale e, girando il modello, anche su un piano di profilo. In tutti la seconda traccia passa per T₂ᵣ.
+La retta perpendicolare a π₂ lo buca in T₂ᵣ: r₂ è un punto e la prima traccia è all'infinito.
+
+- La contiene il piano proiettante in seconda;
+- mettendola nel modello si vede che si appoggia anche su un piano orizzontale
+- e, girando il modello, anche su un piano di profilo.
+
+In tutti la seconda traccia passa per T₂ᵣ.
 
 > [!example] Disegno 17 · Il disegno
 > ![[05-piani-per-retta-proiettante-in-seconda.svg|620]]
@@ -246,7 +373,11 @@ La retta perpendicolare a π₂ lo buca in T₂ᵣ: r₂ è un punto e la prima 
 
 ### Retta parallela alla linea di terra
 
-Le proiezioni r₁ e r₂ sono parallele alla LT; la retta non buca né π₁ né π₂, e l'unica traccia propria è la terza, T₃ᵣ, che coincide con r₃. Una retta parallela alla linea di terra sta per forza in un piano parallelo alla linea di terra; la contiene anche il piano frontale e, nel quaderno di Marta, il piano orizzontale.
+Le proiezioni r₁ e r₂ sono parallele alla LT; la retta non buca né π₁ né π₂, e l'unica traccia propria è la terza, T₃ᵣ, che coincide con r₃.
+
+- Una retta parallela alla linea di terra sta per forza in un piano parallelo alla linea di terra;
+- la contiene anche il piano frontale
+- e, nel quaderno di Marta, il piano orizzontale.
 
 > [!example] Disegno 19 · Il disegno
 > ![[05-piani-per-retta-parallela-alla-lt.svg|620]]
@@ -265,7 +396,16 @@ Le proiezioni r₁ e r₂ sono parallele alla LT; la retta non buca né π₁ n�
 
 ### Retta orizzontale
 
-L'orizzontale è parallela a π₁: i suoi punti stanno tutti alla stessa altezza, la prima traccia è all'infinito e la seconda è T₂ₒ. La contiene prima di tutto il piano orizzontale. La contiene poi un piano generico: si è liberi di sceglierlo, ma una volta fissati gli elementi di partenza il piano è determinato. Si parte dalla seconda traccia t₂β per T₂ₒ; perché la retta appartenga al piano, la prima traccia del piano deve essere parallela alla prima proiezione della retta, e siccome le tracce si incontrano sulla LT, t₁β si disegna dal punto in cui t₂β incontra la LT, parallela a o₁. Infine la contiene il piano verticale, il proiettante in prima.
+L'orizzontale è parallela a π₁: i suoi punti stanno tutti alla stessa altezza, la prima traccia è all'infinito e la seconda è T₂ₒ.
+
+La contiene prima di tutto il piano orizzontale.
+
+La contiene poi un piano generico: si è liberi di sceglierlo, ma una volta fissati gli elementi di partenza il piano è determinato.
+
+1. Si parte dalla seconda traccia t₂β per T₂ₒ;
+2. perché la retta appartenga al piano, la prima traccia del piano deve essere parallela alla prima proiezione della retta, e siccome le tracce si incontrano sulla LT, t₁β si disegna dal punto in cui t₂β incontra la LT, parallela a o₁.
+
+Infine la contiene il piano verticale, il proiettante in prima.
 
 > [!example] Disegno 22 · Il disegno
 > ![[05-piani-per-retta-orizzontale.svg|620]]
@@ -280,7 +420,13 @@ L'orizzontale è parallela a π₁: i suoi punti stanno tutti alla stessa altezz
 
 ### Retta frontale
 
-La frontale è parallela a π₂ e ha la prima proiezione parallela alla LT: conviene disegnare comunque f₁, per essere certi del parallelismo. La contiene il piano frontale, che è verticale, e infatti f₁ coincide con la prima traccia. La contiene un piano generico: la seconda traccia della retta è all'infinito nella direzione di f₂, quindi la seconda traccia del piano si disegna parallela a f₂. La contiene infine il piano proiettante in seconda, scelto perché tutto ciò che vi sta ha la seconda proiezione sulla seconda traccia: si fa coincidere subito f₂ con t₂γ. La docente sottolinea che l'orizzontale e la frontale sono le rette che servono a risolvere i problemi.
+La frontale è parallela a π₂ e ha la prima proiezione parallela alla LT: conviene disegnare comunque f₁, per essere certi del parallelismo.
+
+- La contiene il piano frontale, che è verticale, e infatti f₁ coincide con la prima traccia.
+- La contiene un piano generico: la seconda traccia della retta è all'infinito nella direzione di f₂, quindi la seconda traccia del piano si disegna parallela a f₂.
+- La contiene infine il piano proiettante in seconda, scelto perché tutto ciò che vi sta ha la seconda proiezione sulla seconda traccia: si fa coincidere subito f₂ con t₂γ.
+
+La docente sottolinea che l'orizzontale e la frontale sono le rette che servono a risolvere i problemi.
 
 > [!example] Disegno 24 · Il disegno
 > ![[05-piani-per-retta-frontale.svg|620]]
@@ -295,7 +441,9 @@ La frontale è parallela a π₂ e ha la prima proiezione parallela alla LT: con
 
 ### Retta di profilo
 
-La retta di profilo m appartiene per definizione a un piano di profilo, che è il primo da disegnare. Appoggiando un cartoncino sulla retta viene fuori anche un piano parallelo alla linea di terra. Infine c'è il piano generico: la terza traccia di m è all'infinito, quindi la terza traccia del piano deve essere necessariamente parallela a m₃.
+- La retta di profilo m appartiene per definizione a un piano di profilo, che è il primo da disegnare.
+- Appoggiando un cartoncino sulla retta viene fuori anche un piano parallelo alla linea di terra.
+- Infine c'è il piano generico: la terza traccia di m è all'infinito, quindi la terza traccia del piano deve essere necessariamente parallela a m₃.
 
 > [!example] Disegno 26 · Il disegno
 > ![[05-piani-per-retta-di-profilo.svg|620]]
@@ -320,7 +468,14 @@ La retta di profilo m appartiene per definizione a un piano di profilo, che è i
 
 ### La regola e le rette ausiliarie
 
-Un punto appartiene a un piano se appartiene a una retta del piano, e un punto appartiene a una retta se le sue proiezioni giacciono sulle proiezioni della retta. Si può usare qualunque retta del piano, anche una generica, ma quelle che aiutano di più sono le due ausiliarie, le uniche che hanno un nome: l'orizzontale e la frontale. Le condizioni vanno rispettate tutte: il punto sulla retta, e la retta sul piano con le sue tracce sulle tracce del piano.
+Un punto appartiene a un piano se appartiene a una retta del piano, e un punto appartiene a una retta se le sue proiezioni giacciono sulle proiezioni della retta.
+
+Si può usare qualunque retta del piano, anche una generica, ma quelle che aiutano di più sono le due ausiliarie, le uniche che hanno un nome: l'orizzontale e la frontale.
+
+Le condizioni vanno rispettate tutte:
+
+- il punto sulla retta,
+- e la retta sul piano con le sue tracce sulle tracce del piano.
 
 Bisogna anche non confondere le tracce con le proiezioni. Tranne nei casi particolari dei piani proiettanti, la proiezione di un punto del piano non va a finire sulla traccia: la traccia è soltanto l'intersezione del piano con un piano di proiezione.
 
@@ -331,7 +486,11 @@ Bisogna anche non confondere le tracce con le proiezioni. Tranne nei casi partic
 
 ### Disegnare un punto del piano con l'orizzontale
 
-Si disegna un'orizzontale del piano: la sua seconda proiezione è parallela alla LT e la sua seconda traccia deve stare sulla seconda traccia del piano. Un'orizzontale qualunque avrebbe una o₁ qualsiasi; quella del piano no, perché anche T₁ₒ deve stare su t₁α, e siccome T₁ₒ è all'infinito, o₁ deve essere parallela a t₁α. In questo modo la retta lascia la sua traccia proprio lì, sulla traccia del piano. Fatto questo, si prende un punto qualunque della retta.
+Si disegna un'orizzontale del piano: la sua seconda proiezione è parallela alla LT e la sua seconda traccia deve stare sulla seconda traccia del piano.
+
+Un'orizzontale qualunque avrebbe una o₁ qualsiasi; quella del piano no, perché anche T₁ₒ deve stare su t₁α, e siccome T₁ₒ è all'infinito, o₁ deve essere parallela a t₁α. In questo modo la retta lascia la sua traccia proprio lì, sulla traccia del piano.
+
+Fatto questo, si prende un punto qualunque della retta.
 
 > [!example] Disegno 28 · Il disegno
 > ![[05-punto-piano-generico-orizzontale.svg|620]]
@@ -344,7 +503,12 @@ Si disegna un'orizzontale del piano: la sua seconda proiezione è parallela alla
 
 ### Disegnare un punto del piano con la frontale
 
-Per la frontale la seconda traccia è all'infinito: T₁f deve stare su t₁α e T₂f su t₂α. Si comincia da f₁, parallela alla LT; poi la seconda proiezione deve avere la direzione che porta il suo punto all'infinito sulla traccia del piano, quindi f₂ si costruisce parallela a t₂α. Si dimostra così che P appartiene a f e che f appartiene ad α.
+Per la frontale la seconda traccia è all'infinito: T₁f deve stare su t₁α e T₂f su t₂α.
+
+1. Si comincia da f₁, parallela alla LT;
+2. poi la seconda proiezione deve avere la direzione che porta il suo punto all'infinito sulla traccia del piano, quindi f₂ si costruisce parallela a t₂α.
+
+Si dimostra così che P appartiene a f e che f appartiene ad α.
 
 > [!example] Disegno 29 · Il disegno
 > ![[05-frontale-piano-generico.svg|620]]
@@ -356,9 +520,21 @@ Per la frontale la seconda traccia è all'infinito: T₁f deve stare su t₁α e
 
 ### Il problema al contrario: il punto appartiene al piano?
 
-Si possono dare le tracce di α e le due proiezioni P₂ e P₁, e chiedere se P appartiene ad α. A lezione la docente lo risolve con una retta generica: si è liberi di sceglierla, ma deve passare per il punto e deve appartenere al piano. Si disegna r₂ per P₂, segnando T₂ᵣ dove incontra t₂α; da quel momento la prima proiezione non è più libera. Dove r₂ incontra la LT c'è (T₁ᵣ)₂; scendendo si trova T₁ᵣ su t₁α. La prima proiezione r₁ passa per T₁ᵣ e per (T₂ᵣ)₁. Se P₁ cade su r₁ il punto appartiene al piano; nell'esempio della lavagna non ci cade, e la risposta è no.
+Si possono dare le tracce di α e le due proiezioni P₂ e P₁, e chiedere se P appartiene ad α.
 
-In questo esercizio si fanno due cose insieme: si verifica la condizione di appartenenza e si impara a disegnare una retta che appartiene al piano. Serve per quando si avranno figure triangolari su piani generici e bisognerà capire che piano è e dove sono le tracce, per poterlo poi ribaltare.
+A lezione la docente lo risolve con una retta generica: si è liberi di sceglierla, ma deve passare per il punto e deve appartenere al piano.
+
+1. Si disegna r₂ per P₂, segnando T₂ᵣ dove incontra t₂α; da quel momento la prima proiezione non è più libera.
+2. Dove r₂ incontra la LT c'è (T₁ᵣ)₂; scendendo si trova T₁ᵣ su t₁α.
+3. La prima proiezione r₁ passa per T₁ᵣ e per (T₂ᵣ)₁.
+4. Se P₁ cade su r₁ il punto appartiene al piano; nell'esempio della lavagna non ci cade, e la risposta è no.
+
+In questo esercizio si fanno due cose insieme:
+
+- si verifica la condizione di appartenenza
+- e si impara a disegnare una retta che appartiene al piano.
+
+Serve per quando si avranno figure triangolari su piani generici e bisognerà capire che piano è e dove sono le tracce, per poterlo poi ribaltare.
 
 > [!example] Disegno 30 · Il disegno
 > ![[05-verifica-punto-con-retta-generica.svg|620]]
@@ -371,7 +547,11 @@ In questo esercizio si fanno due cose insieme: si verifica la condizione di appa
 
 ### Esercizio: disegnare P ∈ α dimostrando che P ∈ r ⊂ α
 
-L'ultimo esercizio della lezione, nel quaderno di Marta, riguarda un piano proiettante in prima. Durante l'esercizio la docente ricorda: pensate al modello, nel piano proiettante in prima tutto ciò che sta sul piano ha la prima proiezione sulla prima traccia. La ricostruzione è probabile, perché la foto è poco leggibile.
+L'ultimo esercizio della lezione, nel quaderno di Marta, riguarda un piano proiettante in prima.
+
+Durante l'esercizio la docente ricorda: pensate al modello, nel piano proiettante in prima tutto ciò che sta sul piano ha la prima proiezione sulla prima traccia.
+
+La ricostruzione è probabile, perché la foto è poco leggibile.
 
 > [!example] Disegno 31 · Il disegno
 > ![[05-esercizio-punto-nel-piano-proiettante.svg|620]]
@@ -383,11 +563,21 @@ L'ultimo esercizio della lezione, nel quaderno di Marta, riguarda un piano proie
 
 ## ESERCIZI TIPO DELLE SCHEDE
 
-Le schede di esercizi della docente (PO, proiezioni ortogonali) usano tutto quello che si è visto: trovare le tracce di una retta, dire se una retta o un punto appartengono a un piano, disegnare la proiezione mancante di una figura che sta su un piano. I procedimenti qui sotto seguono le soluzioni delle schede; a lezione non sono stati svolti alla lavagna.
+Le schede di esercizi della docente (PO, proiezioni ortogonali) usano tutto quello che si è visto:
+
+- trovare le tracce di una retta,
+- dire se una retta o un punto appartengono a un piano,
+- disegnare la proiezione mancante di una figura che sta su un piano.
+
+I procedimenti qui sotto seguono le soluzioni delle schede; a lezione non sono stati svolti alla lavagna.
 
 ### Dalla prima proiezione e dalle tracce, la seconda proiezione della figura
 
-È la versione generale dell'esercizio fatto sul piano proiettante in seconda. Su un piano generico la seconda proiezione non cade più sulla traccia, quindi bisogna passare per le rette: ogni lato del triangolo sta su una retta del piano, e le tracce di quella retta stanno sulle tracce del piano. Nella soluzione della scheda si prolungano i lati della prima proiezione fino alle tracce.
+È la versione generale dell'esercizio fatto sul piano proiettante in seconda.
+
+Su un piano generico la seconda proiezione non cade più sulla traccia, quindi bisogna passare per le rette: ogni lato del triangolo sta su una retta del piano, e le tracce di quella retta stanno sulle tracce del piano.
+
+Nella soluzione della scheda si prolungano i lati della prima proiezione fino alle tracce.
 
 > [!example] Disegno 32 (proposto, non fatto a lezione): la seconda proiezione di un triangolo su un piano generico
 > ![[b05-proposto-seconda-proiezione-triangolo.svg|620]]
@@ -398,11 +588,29 @@ Le schede di esercizi della docente (PO, proiezioni ortogonali) usano tutto quel
 > 4. Si ripete con il lato B₁C₁ (retta s, in verde): s₂ passa per T₂ₛ e (T₁ₛ)₂; da B₁ si sale fino a s₂: B₂. C₂ deve cadere anche su s₂, ed è un controllo.
 > 5. Si uniscono A₂, B₂ e C₂.
 
-Lo stesso disegno, letto al contrario, risolve l'esercizio «data la figura in prima e seconda proiezione, individuare il piano»: si trovano le tracce delle rette di due lati, e t₁α passa per le due prime tracce, t₂α per le due seconde; le due tracce del piano devono incontrarsi sulla LT. E risolve anche quello «data la seconda proiezione, trovare la prima», scendendo invece di salire. Quando il piano è parallelo alla LT, come in una delle schede, si procede allo stesso modo con le rette dei lati.
+Lo stesso disegno, letto al contrario, risolve l'esercizio «data la figura in prima e seconda proiezione, individuare il piano»:
+
+- si trovano le tracce delle rette di due lati,
+- e t₁α passa per le due prime tracce, t₂α per le due seconde;
+- le due tracce del piano devono incontrarsi sulla LT.
+
+E risolve anche quello «data la seconda proiezione, trovare la prima», scendendo invece di salire.
+
+Quando il piano è parallelo alla LT, come in una delle schede, si procede allo stesso modo con le rette dei lati.
 
 ### La retta r appartiene al piano?
 
-Sono date r₁, r₂ e le tracce del piano. Prima si trovano le tracce della retta, poi si controlla se stanno sulle tracce del piano. La seconda traccia si trova dove r₁ incontra la LT, salendo fino a r₂; la prima dove r₂ incontra la LT, scendendo fino a r₁. Nelle soluzioni della scheda a volte le tracce cadono negli altri quadranti, per esempio T₁ᵣ sopra la LT: in quel caso si prolunga anche la traccia del piano oltre la LT.
+Sono date r₁, r₂ e le tracce del piano.
+
+1. Prima si trovano le tracce della retta,
+2. poi si controlla se stanno sulle tracce del piano.
+
+Le tracce si trovano così:
+
+- la seconda traccia si trova dove r₁ incontra la LT, salendo fino a r₂;
+- la prima dove r₂ incontra la LT, scendendo fino a r₁.
+
+Nelle soluzioni della scheda a volte le tracce cadono negli altri quadranti, per esempio T₁ᵣ sopra la LT: in quel caso si prolunga anche la traccia del piano oltre la LT.
 
 > [!example] Disegno 33 (proposto, non fatto a lezione): la retta appartiene al piano?
 > ![[b05-proposto-retta-appartiene.svg|620]]
@@ -414,7 +622,11 @@ Sono date r₁, r₂ e le tracce del piano. Prima si trovano le tracce della ret
 
 ### La falda di un tetto: dalla prima proiezione la seconda e la terza
 
-La scheda «data la prima proiezione della falda appartenente a un piano inclinato e le tracce di questo, determinare la seconda e la terza proiezione» ha uno svolgimento in tre passaggi: si disegnano le tre tracce del piano generico, poi si costruisce un'orizzontale del piano. Nella figura il lato A₁B₁ è parallelo a t₁α, quindi AB sta su un'orizzontale; per il terzo vertice se ne traccia un'altra.
+La scheda «data la prima proiezione della falda appartenente a un piano inclinato e le tracce di questo, determinare la seconda e la terza proiezione» ha uno svolgimento in tre passaggi:
+
+1. si disegnano le tre tracce del piano generico,
+2. poi si costruisce un'orizzontale del piano. Nella figura il lato A₁B₁ è parallelo a t₁α, quindi AB sta su un'orizzontale;
+3. per il terzo vertice se ne traccia un'altra.
 
 > [!example] Disegno 34 (proposto, non fatto a lezione): la falda con le orizzontali
 > ![[b05-proposto-falda-seconda-e-terza.svg|620]]
@@ -427,7 +639,21 @@ La scheda «data la prima proiezione della falda appartenente a un piano inclina
 
 ### Le altre schede
 
-La scheda di riepilogo chiede anche di trovare le tracce di rette date per proiezioni (anche con le tracce negli altri quadranti), di indicare un punto di un piano proiettante in prima (con l'orizzontale: o₁ ≡ t₁α, T₂ₒ su t₂α), di dire se P o r appartengono ad α, e di trovare un punto su una retta di profilo, che richiede la terza proiezione. La scheda sulle proiezioni dei solidi chiede, date le piante di tre solidi con le altezze, di disegnare le proiezioni con i prospetti frontali e laterali, di individuare per ogni solido un piano e una retta verificando le condizioni di appartenenza (piano frontale anteriore e retta orizzontale; piano di profilo e retta proiettante in prima; piano proiettante in seconda e retta frontale) e di fare uno schema assonometrico a mano libera.
+La scheda di riepilogo chiede anche:
+
+- di trovare le tracce di rette date per proiezioni (anche con le tracce negli altri quadranti),
+- di indicare un punto di un piano proiettante in prima (con l'orizzontale: o₁ ≡ t₁α, T₂ₒ su t₂α),
+- di dire se P o r appartengono ad α,
+- e di trovare un punto su una retta di profilo, che richiede la terza proiezione.
+
+La scheda sulle proiezioni dei solidi chiede, date le piante di tre solidi con le altezze:
+
+- di disegnare le proiezioni con i prospetti frontali e laterali,
+- di individuare per ogni solido un piano e una retta verificando le condizioni di appartenenza:
+    - piano frontale anteriore e retta orizzontale;
+    - piano di profilo e retta proiettante in prima;
+    - piano proiettante in seconda e retta frontale;
+- e di fare uno schema assonometrico a mano libera.
 
 > [!tip] Consegne e avvisi
 > - Foglio delle rette e dei piani che le contengono: sei disegni grandi, a mano libera ma con cura, con i piani a colori.
@@ -439,7 +665,13 @@ La scheda di riepilogo chiede anche di trovare le tracce di rette date per proie
 
 ## Collegamenti
 
-Questa lezione chiude il discorso iniziato con [[03-proiezioni-ortogonali-punto-e-rette|le proiezioni ortogonali del punto e delle rette]] e proseguito con [[04-rette-e-piani-nelle-varie-posizioni|le rette e i piani nelle varie posizioni]], da cui riprende le condizioni di appartenenza applicandole al piano proiettante in seconda e ai casi generici. Le rette orizzontale e frontale, presentate qui come rette ausiliarie, sono gli strumenti con cui si risolvono i problemi della lezione successiva sui [[06-piani-ausiliari-e-perpendicolarita|piani ausiliari e la perpendicolarità]], e la ricerca delle tracce del piano di una figura serve a preparare [[07-il-ribaltamento|il ribaltamento]], che permette di vedere la figura in vera forma. Il triangolo delle tracce del piano generico tornerà nell'assonometria come triangolo delle tracce del piano di quadro, e il rigore delle linee di richiamo leggere ma visibili è quello chiesto fin dalle [[01-strumenti-materiali-e-regole|regole del disegno]]. Il testo completo della lezione è nella sbobina [[05-piani-rette-e-appartenenza]].
+Questa lezione chiude il discorso iniziato con [[03-proiezioni-ortogonali-punto-e-rette|le proiezioni ortogonali del punto e delle rette]] e proseguito con [[04-rette-e-piani-nelle-varie-posizioni|le rette e i piani nelle varie posizioni]], da cui riprende le condizioni di appartenenza applicandole al piano proiettante in seconda e ai casi generici.
+
+Le rette orizzontale e frontale, presentate qui come rette ausiliarie, sono gli strumenti con cui si risolvono i problemi della lezione successiva sui [[06-piani-ausiliari-e-perpendicolarita|piani ausiliari e la perpendicolarità]], e la ricerca delle tracce del piano di una figura serve a preparare [[07-il-ribaltamento|il ribaltamento]], che permette di vedere la figura in vera forma.
+
+Il triangolo delle tracce del piano generico tornerà nell'assonometria come triangolo delle tracce del piano di quadro, e il rigore delle linee di richiamo leggere ma visibili è quello chiesto fin dalle [[01-strumenti-materiali-e-regole|regole del disegno]].
+
+Il testo completo della lezione è nella sbobina [[05-piani-rette-e-appartenenza]].
 
 ## Materiale usato
 

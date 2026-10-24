@@ -14,21 +14,63 @@ tags: [geometria-descrittiva, bozza]
 >
 > Bozza precedente: [[02-proiezioni-e-omologia-schema]] · Successiva: [[04-rette-e-piani-nelle-varie-posizioni]]
 
-La lezione di giovedì 8 ottobre fa da ponte tra le due parti iniziali del corso. Nella prima parte si riprendono i fondamenti della geometria proiettiva e l'omologia, con l'esercizio guidato sulle omologie da svolgere a casa; nella seconda si entra nel primo metodo di rappresentazione vero e proprio, le proiezioni ortogonali. Si parte dalla posizione del centro di proiezione, si passa per la pianta, i prospetti e le scale, e si arriva a rappresentare il punto con le sue tre proiezioni e le prime due rette particolari, la retta proiettante in prima e la retta proiettante in seconda. Il filo che lega tutto è lo stesso: ogni segno sul foglio è il risultato di un'operazione di proiezione e sezione avvenuta nello spazio.
+La lezione di giovedì 8 ottobre fa da ponte tra le due parti iniziali del corso.
+
+- Nella prima parte si riprendono i fondamenti della geometria proiettiva e l'omologia, con l'esercizio guidato sulle omologie da svolgere a casa;
+- nella seconda si entra nel primo metodo di rappresentazione vero e proprio, le proiezioni ortogonali.
+
+Si parte dalla posizione del centro di proiezione, si passa per la pianta, i prospetti e le scale, e si arriva a rappresentare il punto con le sue tre proiezioni e le prime due rette particolari:
+
+- la retta proiettante in prima
+- e la retta proiettante in seconda.
+
+Il filo che lega tutto è lo stesso: ogni segno sul foglio è il risultato di un'operazione di proiezione e sezione avvenuta nello spazio.
 
 ## DALLA GEOMETRIA PROIETTIVA ALL'OMOLOGIA
 
 ### Il processo proiettivo e gli enti impropri
 
-Il processo proiettivo è un insieme di operazioni in cui compaiono sempre tre elementi: un centro di proiezione, un oggetto e un piano di quadro su cui l'oggetto viene proiettato. È così in tutti i metodi di rappresentazione, che sono diversi aspetti dello stesso processo; il caso più semplice è la prospettiva, cioè la fotografia. La geometria proiettiva studia le proprietà delle figure che restano invariate durante le operazioni di proiezione e sezione: alcune cose cambiano tra l'oggetto e la sua immagine, ma l'appartenenza, l'allineamento e l'incidenza si conservano. Sembrano ovvietà, ma sono la struttura di ogni rappresentazione e la chiave per risolvere gli esercizi.
+Il processo proiettivo è un insieme di operazioni in cui compaiono sempre tre elementi:
 
-Il punto improprio di una retta non si vede: se ne intuisce l'esistenza. Se si costruiscono i raggi proiettanti per tutti i punti di una retta, anche quando il raggio diventa parallelo alla retta si ottiene un'immagine sul piano di quadro; se esiste un'immagine, esiste il punto che l'ha generata, e quel punto sta all'infinito. Per questo una retta passa per due punti propri, ma anche per un punto proprio e un punto improprio, che le dà la direzione. Lo stesso vale per i piani, e restano validi tutti e sei i postulati, i tre di appartenenza e i loro duali.
+- un centro di proiezione,
+- un oggetto
+- e un piano di quadro su cui l'oggetto viene proiettato.
+
+È così in tutti i metodi di rappresentazione, che sono diversi aspetti dello stesso processo; il caso più semplice è la prospettiva, cioè la fotografia.
+
+La geometria proiettiva studia le proprietà delle figure che restano invariate durante le operazioni di proiezione e sezione: alcune cose cambiano tra l'oggetto e la sua immagine, ma
+
+- l'appartenenza,
+- l'allineamento
+- e l'incidenza
+
+si conservano. Sembrano ovvietà, ma sono la struttura di ogni rappresentazione e la chiave per risolvere gli esercizi.
+
+Il punto improprio di una retta non si vede: se ne intuisce l'esistenza.
+
+Se si costruiscono i raggi proiettanti per tutti i punti di una retta, anche quando il raggio diventa parallelo alla retta si ottiene un'immagine sul piano di quadro; se esiste un'immagine, esiste il punto che l'ha generata, e quel punto sta all'infinito.
+
+Per questo una retta passa per due punti propri, ma anche per un punto proprio e un punto improprio, che le dà la direzione.
+
+Lo stesso vale per i piani, e restano validi tutti e sei i postulati, i tre di appartenenza e i loro duali.
 
 ### Dalla prospettività all'omologia
 
-La proiettività più semplice è la prospettività: un centro e due piani, con una corrispondenza biunivoca che a ogni punto di un piano associa un solo punto dell'altro (omografia). Di questa corrispondenza l'omologia conserva due fatti. I punti corrispondenti sono allineati con il centro, perché l'immagine $A'$ è prodotta da un raggio che parte da $S$ e passa per $A$. Le rette corrispondenti $r$ e $r'$ si incontrano sull'asse, che è la retta di intersezione tra il piano della figura e il piano su cui la si proietta; il punto in cui si incontrano si chiama punto unito, perché appartiene a tutti e due i piani e proiettandolo resta dov'è.
+La proiettività più semplice è la prospettività: un centro e due piani, con una corrispondenza biunivoca che a ogni punto di un piano associa un solo punto dell'altro (omografia).
 
-Per portare queste relazioni sul foglio, secondo Desargues, basta considerare le due figure corrispondenti come le proiezioni di una stessa figura, appartenente a un altro piano (un piano verticale $\alpha_0$), da due centri di proiezione diversi, $S$ ed $S_1$. Proiettando un centro dall'altro si ottiene un unico punto sul piano, il centro $U$. Questa relazione, prodotto di due prospettività, si chiama omologia. Le convenzioni contano: il centro è un punto e si scrive con la maiuscola $U$; l'asse è una retta e si scrive con la minuscola $u$.
+Di questa corrispondenza l'omologia conserva due fatti.
+
+1. I punti corrispondenti sono allineati con il centro, perché l'immagine $A'$ è prodotta da un raggio che parte da $S$ e passa per $A$.
+2. Le rette corrispondenti $r$ e $r'$ si incontrano sull'asse, che è la retta di intersezione tra il piano della figura e il piano su cui la si proietta; il punto in cui si incontrano si chiama punto unito, perché appartiene a tutti e due i piani e proiettandolo resta dov'è.
+
+Per portare queste relazioni sul foglio, secondo Desargues, basta considerare le due figure corrispondenti come le proiezioni di una stessa figura, appartenente a un altro piano (un piano verticale $\alpha_0$), da due centri di proiezione diversi, $S$ ed $S_1$.
+
+Proiettando un centro dall'altro si ottiene un unico punto sul piano, il centro $U$. Questa relazione, prodotto di due prospettività, si chiama omologia.
+
+Le convenzioni contano:
+
+- il centro è un punto e si scrive con la maiuscola $U$;
+- l'asse è una retta e si scrive con la minuscola $u$.
 
 > [!example] Disegno 1 · Il disegno: trovare il corrispondente di un punto
 > ![[03-omologia-punto-corrispondente.svg|620]]
@@ -47,7 +89,14 @@ Per portare queste relazioni sul foglio, secondo Desargues, basta considerare le
 
 ### Le omologie particolari
 
-A seconda della posizione dei piani e dei centri, l'omologia prende nomi diversi, che conviene ricordare perché aiutano a distinguere i casi; la soluzione degli esercizi però resta sempre la stessa. L'omologia è speciale quando il centro giace sull'asse. È un'affinità quando la retta che unisce i due centri è parallela al piano: il centro va all'infinito ($U_\infty$) e se ne disegna solo la direzione, con una lineetta che non è casuale; l'affinità è ortogonale se la direzione è perpendicolare all'asse, obliqua se è inclinata. È un'omotetia quando il piano della figura e il piano di proiezione sono paralleli: allora è l'asse a essere improprio ($u_\infty$, segnato con una crocetta), e le rette corrispondenti, incontrandosi all'infinito, sono parallele; la figura risulta ingrandita. Se infine anche i centri sono allineati parallelamente al piano, si ha una traslazione, un'isometria che conserva distanze e angoli ($A'B' = AB$). La bozza [[02-proiezioni-e-omologia-schema]] riprende tutti questi casi in forma di schema.
+A seconda della posizione dei piani e dei centri, l'omologia prende nomi diversi, che conviene ricordare perché aiutano a distinguere i casi; la soluzione degli esercizi però resta sempre la stessa.
+
+- L'omologia è speciale quando il centro giace sull'asse.
+- È un'affinità quando la retta che unisce i due centri è parallela al piano: il centro va all'infinito ($U_\infty$) e se ne disegna solo la direzione, con una lineetta che non è casuale; l'affinità è ortogonale se la direzione è perpendicolare all'asse, obliqua se è inclinata.
+- È un'omotetia quando il piano della figura e il piano di proiezione sono paralleli: allora è l'asse a essere improprio ($u_\infty$, segnato con una crocetta), e le rette corrispondenti, incontrandosi all'infinito, sono parallele; la figura risulta ingrandita.
+- Se infine anche i centri sono allineati parallelamente al piano, si ha una traslazione, un'isometria che conserva distanze e angoli ($A'B' = AB$).
+
+La bozza [[02-proiezioni-e-omologia-schema]] riprende tutti questi casi in forma di schema.
 
 > [!example] Disegno 2 · Il disegno: affinità ortogonale e obliqua
 > ![[03-affinita-ortogonale-obliqua.svg|620]]
@@ -58,7 +107,12 @@ A seconda della posizione dei piani e dei centri, l'omologia prende nomi diversi
 
 ### L'esercizio guidato sulle omologie
 
-Il foglio dell'esercizio guidato (`ES.GUIDATA_Omologia_01.pdf`) raccoglie sei esercizi, uno per ogni situazione vista a lezione, da stampare e svolgere a casa; la correzione è avvenuta nella lezione del 13 ottobre. Riconoscere il tipo di omologia dai dati è il primo passo, e i dati si leggono proprio dalle convenzioni: un centro con la lineetta è improprio, un asse con la crocetta è all'infinito.
+Il foglio dell'esercizio guidato (`ES.GUIDATA_Omologia_01.pdf`) raccoglie sei esercizi, uno per ogni situazione vista a lezione, da stampare e svolgere a casa; la correzione è avvenuta nella lezione del 13 ottobre.
+
+Riconoscere il tipo di omologia dai dati è il primo passo, e i dati si leggono proprio dalle convenzioni:
+
+- un centro con la lineetta è improprio,
+- un asse con la crocetta è all'infinito.
 
 > [!example] Il disegno: i sei esercizi del foglio, riconosciuti dai dati
 > 1. Dati $r$ e $r'$ parallele, $U_\infty$ e $u_\infty$, trovare $A'B'C'$ del triangolo $ABC$: centro e asse impropri, è una traslazione.
@@ -74,7 +128,14 @@ Il foglio dell'esercizio guidato (`ES.GUIDATA_Omologia_01.pdf`) raccoglie sei es
 
 ### Centro proprio e centro improprio
 
-Il centro di proiezione può essere proprio, cioè a distanza finita: da esso parte una stella di rette, i raggi proiettanti che portano la figura sul piano. È il caso del fascio di luce che proietta un rettangolo parallelo alla parete: il rettangolo si ingrandisce, ed è un'omotetia, con asse all'infinito e centro proprio. Se invece il centro è all'infinito si ha soltanto una direzione e tutti i raggi sono paralleli tra loro, come i raggi del sole nella costruzione delle ombre (mentre una lampada, centro proprio, dà ombre diverse). Con il centro proprio si hanno le proiezioni centrali e la prospettiva; con il centro improprio le proiezioni cilindriche, tra cui le proiezioni ortogonali, in cui la figura viene come traslata sul piano di quadro, nelle stesse dimensioni.
+Il centro di proiezione può essere proprio, cioè a distanza finita: da esso parte una stella di rette, i raggi proiettanti che portano la figura sul piano. È il caso del fascio di luce che proietta un rettangolo parallelo alla parete: il rettangolo si ingrandisce, ed è un'omotetia, con asse all'infinito e centro proprio.
+
+Se invece il centro è all'infinito si ha soltanto una direzione e tutti i raggi sono paralleli tra loro, come i raggi del sole nella costruzione delle ombre (mentre una lampada, centro proprio, dà ombre diverse).
+
+Quindi:
+
+- con il centro proprio si hanno le proiezioni centrali e la prospettiva;
+- con il centro improprio le proiezioni cilindriche, tra cui le proiezioni ortogonali, in cui la figura viene come traslata sul piano di quadro, nelle stesse dimensioni.
 
 > [!example] Disegno 3 · Il disegno: proiezione centrale e proiezione cilindrica
 > ![[03-proiezione-centrale-e-cilindrica.svg|620]]
@@ -83,17 +144,44 @@ Il centro di proiezione può essere proprio, cioè a distanza finita: da esso pa
 > 2. A destra il centro è improprio ($S_\infty$): i raggi sono paralleli e la figura arriva con le stesse dimensioni.
 > 3. Se i raggi sono anche perpendicolari al piano di quadro si hanno le proiezioni ortogonali.
 
-Nelle proiezioni ortogonali i centri di proiezione sono tre, tutti all'infinito, ciascuno in direzione perpendicolare a uno dei piani di proiezione: una direzione è perpendicolare al piano verticale, una al piano orizzontale. I piani su cui si proietta l'immagine sono paralleli, quindi è come se si facesse una traslazione: se in partenza c'è un rettangolo, lo si ritrova anche una volta proiettato. Monge lavora principalmente con il triedro, e i suoi esercizi si svolgono soprattutto su due proiezioni.
+Nelle proiezioni ortogonali i centri di proiezione sono tre, tutti all'infinito, ciascuno in direzione perpendicolare a uno dei piani di proiezione: una direzione è perpendicolare al piano verticale, una al piano orizzontale.
+
+I piani su cui si proietta l'immagine sono paralleli, quindi è come se si facesse una traslazione: se in partenza c'è un rettangolo, lo si ritrova anche una volta proiettato.
+
+Monge lavora principalmente con il triedro, e i suoi esercizi si svolgono soprattutto su due proiezioni.
 
 ### Pianta, sezione e prospetti
 
-La pianta è una sezione orizzontale, ottenuta con un piano parallelo al piano orizzontale di proiezione. La quota a cui si taglia l'edificio non è indifferente: deve intercettare le finestre e comprendere tutti gli elementi che compongono l'edificio, altrimenti la pianta mostrerebbe uno spazio completamente chiuso. La sezione verticale passa invece per due punti precisi della pianta, taglia i muri trasversalmente ed è perpendicolare al piano orizzontale; non è mai parallela al piano orizzontale, altrimenti diventerebbe una pianta.
+La pianta è una sezione orizzontale, ottenuta con un piano parallelo al piano orizzontale di proiezione.
 
-Una pianta da sola non basta a dare l'idea della forma: per stabilire i volumi dell'oggetto si devono disegnare anche i prospetti, cioè le proiezioni ortogonali fatte sui piani di un triedro. Davanti a una pianta bisogna immaginarne il volume, come se ci si camminasse intorno: il prospetto è ciò che si vede guardando l'edificio da fuori, da uno dei suoi lati.
+La quota a cui si taglia l'edificio non è indifferente:
+
+- deve intercettare le finestre
+- e comprendere tutti gli elementi che compongono l'edificio,
+
+altrimenti la pianta mostrerebbe uno spazio completamente chiuso.
+
+La sezione verticale passa invece per due punti precisi della pianta, taglia i muri trasversalmente ed è perpendicolare al piano orizzontale; non è mai parallela al piano orizzontale, altrimenti diventerebbe una pianta.
+
+Una pianta da sola non basta a dare l'idea della forma: per stabilire i volumi dell'oggetto si devono disegnare anche i prospetti, cioè le proiezioni ortogonali fatte sui piani di un triedro.
+
+Davanti a una pianta bisogna immaginarne il volume, come se ci si camminasse intorno: il prospetto è ciò che si vede guardando l'edificio da fuori, da uno dei suoi lati.
 
 ### Da che parte si guarda: il prospetto disegnato al contrario
 
-L'errore più frequente, che si trascina anche fino alla fine del corso, riguarda la posizione della linea di terra. Per disegnare il prospetto del lato che in pianta sta in alto, viene istintivo mettere la linea di terra subito sopra la pianta, tirare su le linee e disegnare il prospetto in piedi. Così però il prospetto viene specchiato: si sta guardando l'edificio da dentro, e una rientranza che chi guarda vede a destra finisce a sinistra. Il prospetto si guarda sempre da fuori; solo la sezione permette di guardare da dentro. Per questo la linea di terra va in alto, e il prospetto si disegna a testa in giù. È come la mano: per vedere il dorso bisogna guardare dalla parte del dorso, non del palmo.
+L'errore più frequente, che si trascina anche fino alla fine del corso, riguarda la posizione della linea di terra.
+
+Per disegnare il prospetto del lato che in pianta sta in alto, viene istintivo:
+
+- mettere la linea di terra subito sopra la pianta,
+- tirare su le linee
+- e disegnare il prospetto in piedi.
+
+Così però il prospetto viene specchiato: si sta guardando l'edificio da dentro, e una rientranza che chi guarda vede a destra finisce a sinistra.
+
+Il prospetto si guarda sempre da fuori; solo la sezione permette di guardare da dentro. Per questo la linea di terra va in alto, e il prospetto si disegna a testa in giù.
+
+È come la mano: per vedere il dorso bisogna guardare dalla parte del dorso, non del palmo.
 
 > [!example] Disegno 4 · Il disegno: il prospetto giusto e quello sbagliato
 > ![[03-prospetto-giusto-e-sbagliato.svg|660]]
@@ -110,7 +198,19 @@ L'errore più frequente, che si trascina anche fino alla fine del corso, riguard
 
 ### Le scale di rappresentazione
 
-Si lavora sempre in scala. Le scale possono essere di ingrandimento o di riduzione, e in architettura si usano soprattutto quelle di riduzione. La più semplice è la 1:100, in cui 1 metro reale diventa 1 centimetro sul foglio: un muro spesso 50 cm si disegna spesso 5 mm. In 1:200 un metro diventa mezzo centimetro e le misure si dimezzano (lo stesso muro è spesso 2,5 mm); in 1:50 un metro diventa 2 centimetri e le misure raddoppiano (il muro è spesso 1 cm). La tabella delle scale fornita dalla docente (`004b_scale di rappresentazione.jpg`) va dagli ingrandimenti (10:1, 5:1, 2:1) alla scala di riproduzione 1:1, fino alle riduzioni dei disegni di architettura e delle carte del territorio (fino a 1:1.000.000). La scala grafica è fondamentale: è la testimonianza delle dimensioni delle cose e permette di risalire dalle misure del disegno a quelle reali anche dopo vari passaggi.
+Si lavora sempre in scala. Le scale possono essere di ingrandimento o di riduzione, e in architettura si usano soprattutto quelle di riduzione.
+
+- La più semplice è la 1:100, in cui 1 metro reale diventa 1 centimetro sul foglio: un muro spesso 50 cm si disegna spesso 5 mm.
+- In 1:200 un metro diventa mezzo centimetro e le misure si dimezzano (lo stesso muro è spesso 2,5 mm);
+- in 1:50 un metro diventa 2 centimetri e le misure raddoppiano (il muro è spesso 1 cm).
+
+La tabella delle scale fornita dalla docente (`004b_scale di rappresentazione.jpg`) va:
+
+- dagli ingrandimenti (10:1, 5:1, 2:1)
+- alla scala di riproduzione 1:1,
+- fino alle riduzioni dei disegni di architettura e delle carte del territorio (fino a 1:1.000.000).
+
+La scala grafica è fondamentale: è la testimonianza delle dimensioni delle cose e permette di risalire dalle misure del disegno a quelle reali anche dopo vari passaggi.
 
 > [!example] Disegno 5 · Il disegno: lo stesso muro in tre scale e la scala grafica
 > ![[03-scale-di-rappresentazione.svg|620]]
@@ -127,7 +227,17 @@ Si lavora sempre in scala. Le scale possono essere di ingrandimento o di riduzio
 
 ### I tre piani di proiezione e i pedici
 
-Per rappresentare un punto nello spazio bisogna prima definire una porzione di spazio, cioè costruire un diedro o un triedro. I piani di proiezione si chiamano con la lettera greca $\pi$, perché i piani si indicano con le minuscole dell'alfabeto greco: $\pi_1$ è il piano orizzontale, $\pi_2$ il piano verticale (quello di uno dei prospetti), $\pi_3$ il terzo piano, verticale anch'esso, di lato. Il punto si rappresenta mediante le sue tre proiezioni, e nelle proiezioni ortogonali si scrivono con il pedice: $P_1$, $P_2$, $P_3$. L'apice resta all'omologia e alla prospettiva ($P'$), e tornerà nell'assonometria accanto al pedice ($P'_1$, $P'_2$, $P'_3$).
+Per rappresentare un punto nello spazio bisogna prima definire una porzione di spazio, cioè costruire un diedro o un triedro.
+
+I piani di proiezione si chiamano con la lettera greca $\pi$, perché i piani si indicano con le minuscole dell'alfabeto greco:
+
+- $\pi_1$ è il piano orizzontale,
+- $\pi_2$ il piano verticale (quello di uno dei prospetti),
+- $\pi_3$ il terzo piano, verticale anch'esso, di lato.
+
+Il punto si rappresenta mediante le sue tre proiezioni, e nelle proiezioni ortogonali si scrivono con il pedice: $P_1$, $P_2$, $P_3$.
+
+L'apice resta all'omologia e alla prospettiva ($P'$), e tornerà nell'assonometria accanto al pedice ($P'_1$, $P'_2$, $P'_3$).
 
 > [!abstract] Da ricordare: la notazione
 > - $P'$ → omologia e prospettiva.
@@ -138,7 +248,21 @@ Per rappresentare un punto nello spazio bisogna prima definire una porzione di s
 
 ### Dallo spazio al foglio: il ribaltamento dei piani
 
-Il modello del triedro che si costruisce in classe è rigido, con i piani in piedi. Per avere tutte le proiezioni su un unico foglio si ruota il terzo piano di proiezione sul secondo, poi si ruota il primo: i due piani verticali si sovrappongono, il piano orizzontale si ribalta, e le tre proiezioni del punto si ritrovano disegnate su un solo piano. Per questo si scrive $\pi_1 \equiv \pi_2 \equiv \pi_3$: dopo le rotazioni i tre piani coincidono. Le proiezioni restano legate da due rette: la linea di terra, che è la retta orizzontale di intersezione tra i piani, e la linea verticale, che rappresenta l'altra intersezione, quella tra i due piani verticali.
+Il modello del triedro che si costruisce in classe è rigido, con i piani in piedi.
+
+Per avere tutte le proiezioni su un unico foglio:
+
+1. si ruota il terzo piano di proiezione sul secondo,
+2. poi si ruota il primo:
+
+i due piani verticali si sovrappongono, il piano orizzontale si ribalta, e le tre proiezioni del punto si ritrovano disegnate su un solo piano.
+
+Per questo si scrive $\pi_1 \equiv \pi_2 \equiv \pi_3$: dopo le rotazioni i tre piani coincidono.
+
+Le proiezioni restano legate da due rette:
+
+- la linea di terra, che è la retta orizzontale di intersezione tra i piani,
+- e la linea verticale, che rappresenta l'altra intersezione, quella tra i due piani verticali.
 
 > [!example] Disegno 6 (proposto, non fatto a lezione): come i tre piani finiscono sul foglio
 > ![[b03-ribaltamento-dei-piani.svg|660]]
@@ -150,7 +274,14 @@ Il modello del triedro che si costruisce in classe è rigido, con i piani in pie
 
 ### Aggetto, quota e linea di richiamo
 
-Il punto $P$ si proietta perpendicolarmente su ciascun piano. La sua prima proiezione $P_1$ sta sotto la linea di terra, a una distanza che è l'aggetto: la distanza del punto dal piano verticale, come la sporgenza di un balcone, cioè la distanza tra la ringhiera e la facciata. La seconda proiezione $P_2$ sta sopra la linea di terra, a un'altezza che è la quota, la distanza del punto dal piano orizzontale. $P_1$ e $P_2$ non si possono mettere dove si vuole: devono stare sulla stessa linea di richiamo, la linea di costruzione perpendicolare alla LT che le collega. Con aggetto e quota si sa già dove si trova il punto nello spazio.
+Il punto $P$ si proietta perpendicolarmente su ciascun piano.
+
+- La sua prima proiezione $P_1$ sta sotto la linea di terra, a una distanza che è l'aggetto: la distanza del punto dal piano verticale, come la sporgenza di un balcone, cioè la distanza tra la ringhiera e la facciata.
+- La seconda proiezione $P_2$ sta sopra la linea di terra, a un'altezza che è la quota, la distanza del punto dal piano orizzontale.
+
+$P_1$ e $P_2$ non si possono mettere dove si vuole: devono stare sulla stessa linea di richiamo, la linea di costruzione perpendicolare alla LT che le collega.
+
+Con aggetto e quota si sa già dove si trova il punto nello spazio.
 
 > [!example] Disegno 7 · Il disegno: il punto nel triedro
 > ![[03-punto-nel-triedro.svg|620]]
@@ -161,7 +292,9 @@ Il punto $P$ si proietta perpendicolarmente su ciascun piano. La sua prima proie
 
 ### La terza proiezione
 
-La terza proiezione si ottiene proiettando il punto sul terzo piano, che nello spazio sta di lato, e costruendo sempre la linea di richiamo. Ciò che si trova su $\pi_3$ non è il punto ma la sua immagine; ribaltando il piano, la si riporta sul foglio. In questa operazione la quota non cambia: il punto non può né salire né scendere.
+La terza proiezione si ottiene proiettando il punto sul terzo piano, che nello spazio sta di lato, e costruendo sempre la linea di richiamo.
+
+Ciò che si trova su $\pi_3$ non è il punto ma la sua immagine; ribaltando il piano, la si riporta sul foglio. In questa operazione la quota non cambia: il punto non può né salire né scendere.
 
 > [!example] Disegno 8 · Il disegno: le tre proiezioni del punto sul foglio
 > ![[03-tre-proiezioni-del-punto.svg|620]]
@@ -180,11 +313,27 @@ La terza proiezione si ottiene proiettando il punto sul terzo piano, che nello s
 
 ### Perché si chiamano proiettanti
 
-Le prime rette particolari sono quelle perpendicolari a uno dei primi due piani di proiezione. Si chiamano proiettanti perché hanno la stessa direzione dei raggi proiettanti: il centro di proiezione all'infinito è perpendicolare al piano, e la retta è parallela a quei raggi. Ricordando che i piani sono tre e i centri di proiezione tre, all'infinito e perpendicolari ai tre piani, il nome della retta dipende dalla posizione che assume rispetto ai primi due piani, $\pi_1$ orizzontale e $\pi_2$ verticale. Di ogni retta si cercano le proiezioni e le tracce, cioè i punti in cui la retta buca i piani di proiezione; una retta parallela a un piano non lo incontra mai, e la traccia su quel piano è all'infinito.
+Le prime rette particolari sono quelle perpendicolari a uno dei primi due piani di proiezione.
+
+Si chiamano proiettanti perché hanno la stessa direzione dei raggi proiettanti: il centro di proiezione all'infinito è perpendicolare al piano, e la retta è parallela a quei raggi.
+
+Ricordando che i piani sono tre e i centri di proiezione tre, all'infinito e perpendicolari ai tre piani, il nome della retta dipende dalla posizione che assume rispetto ai primi due piani, $\pi_1$ orizzontale e $\pi_2$ verticale.
+
+Di ogni retta si cercano le proiezioni e le tracce, cioè i punti in cui la retta buca i piani di proiezione; una retta parallela a un piano non lo incontra mai, e la traccia su quel piano è all'infinito.
 
 ### La retta proiettante in prima
 
-La retta $r$ proiettante in prima è perpendicolare a $\pi_1$, cioè verticale. Vista dall'alto si riduce a un punto, in cui coincidono la prima proiezione della retta, la sua prima traccia e la prima proiezione di ogni suo punto: $r_1 \equiv T_{1r} \equiv P_1$. La seconda e la terza proiezione sono verticali; la retta è parallela sia a $\pi_2$ sia a $\pi_3$, quindi la seconda e la terza traccia sono all'infinito.
+La retta $r$ proiettante in prima è perpendicolare a $\pi_1$, cioè verticale.
+
+Vista dall'alto si riduce a un punto, in cui coincidono:
+
+- la prima proiezione della retta,
+- la sua prima traccia
+- e la prima proiezione di ogni suo punto:
+
+$r_1 \equiv T_{1r} \equiv P_1$.
+
+La seconda e la terza proiezione sono verticali; la retta è parallela sia a $\pi_2$ sia a $\pi_3$, quindi la seconda e la terza traccia sono all'infinito.
 
 > [!example] Disegno 9 · Il disegno: la retta proiettante in prima sul foglio
 > ![[03-retta-proiettante-in-prima.svg|620]]
@@ -203,7 +352,13 @@ La retta $r$ proiettante in prima è perpendicolare a $\pi_1$, cioè verticale. 
 
 ### La retta proiettante in seconda
 
-La retta $m$ proiettante in seconda è perpendicolare a $\pi_2$. La sua traccia nota è la seconda, $T_{2m}$, il punto in cui la retta incontra il piano verticale; vista di fronte la retta si riduce a quel punto, quindi la seconda proiezione coincide con la seconda traccia: $m_2 \equiv T_{2m}$. Dalla seconda proiezione si scende con la linea di richiamo e si disegna la prima proiezione $m_1$; la prima traccia è all'infinito. Poi la terza proiezione $m_3$, e anche la terza traccia è all'infinito. Le proiezioni non sono tratteggiate, ma continue: non bisogna farsi confondere, bisogna ragionare.
+La retta $m$ proiettante in seconda è perpendicolare a $\pi_2$.
+
+La sua traccia nota è la seconda, $T_{2m}$, il punto in cui la retta incontra il piano verticale; vista di fronte la retta si riduce a quel punto, quindi la seconda proiezione coincide con la seconda traccia: $m_2 \equiv T_{2m}$.
+
+Dalla seconda proiezione si scende con la linea di richiamo e si disegna la prima proiezione $m_1$; la prima traccia è all'infinito. Poi la terza proiezione $m_3$, e anche la terza traccia è all'infinito.
+
+Le proiezioni non sono tratteggiate, ma continue: non bisogna farsi confondere, bisogna ragionare.
 
 > [!example] Disegno 11 · Il disegno: la retta proiettante in seconda nello spazio
 > ![[03-spazio-retta-proiettante-in-seconda.svg|560]]
@@ -231,7 +386,13 @@ La retta $m$ proiettante in seconda è perpendicolare a $\pi_2$. La sua traccia 
 
 ## Collegamenti
 
-La prima parte della lezione chiude il discorso sulla geometria proiettiva iniziato nella [[02-proiezioni-e-omologia-schema|lezione sull'omologia]]: le due proprietà dell'omologia e le condizioni di appartenenza resteranno lo strumento per risolvere tutti gli esercizi, e torneranno nell'omologia di ribaltamento, con cui [[07-il-ribaltamento|si ribaltano le figure dei piani proiettanti]]. La seconda parte apre il metodo di Monge: il punto con le sue tre proiezioni e le due rette proiettanti sono il primo passo verso [[04-rette-e-piani-nelle-varie-posizioni|le rette e i piani nelle varie posizioni]], le [[05-appartenenza-e-rette-ausiliarie|condizioni di appartenenza]] e i [[06-piani-ausiliari-e-perpendicolarita|piani ausiliari]]. Le regole del disegno viste nella [[01-strumenti-materiali-e-regole|prima lezione]], come lasciare visibili le linee di richiamo e distinguere il segno delle costruzioni da quello del risultato, trovano qui la prima applicazione. Pianta, prospetti e scale, infine, sono gli stessi strumenti con cui si lavora nel laboratorio di Composizione architettonica.
+La prima parte della lezione chiude il discorso sulla geometria proiettiva iniziato nella [[02-proiezioni-e-omologia-schema|lezione sull'omologia]]: le due proprietà dell'omologia e le condizioni di appartenenza resteranno lo strumento per risolvere tutti gli esercizi, e torneranno nell'omologia di ribaltamento, con cui [[07-il-ribaltamento|si ribaltano le figure dei piani proiettanti]].
+
+La seconda parte apre il metodo di Monge: il punto con le sue tre proiezioni e le due rette proiettanti sono il primo passo verso [[04-rette-e-piani-nelle-varie-posizioni|le rette e i piani nelle varie posizioni]], le [[05-appartenenza-e-rette-ausiliarie|condizioni di appartenenza]] e i [[06-piani-ausiliari-e-perpendicolarita|piani ausiliari]].
+
+Le regole del disegno viste nella [[01-strumenti-materiali-e-regole|prima lezione]], come lasciare visibili le linee di richiamo e distinguere il segno delle costruzioni da quello del risultato, trovano qui la prima applicazione.
+
+Pianta, prospetti e scale, infine, sono gli stessi strumenti con cui si lavora nel laboratorio di Composizione architettonica.
 
 ## Materiale usato
 

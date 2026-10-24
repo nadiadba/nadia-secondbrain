@@ -14,15 +14,38 @@ tags: [geometria-descrittiva, bozza]
 >
 > Bozza precedente: [[01-strumenti-materiali-e-regole]] · Successiva: [[03-proiezioni-ortogonali-punto-e-rette]]
 
-La lezione del 6 ottobre si divide in due parti. La prima è un ripasso della geometria euclidea che serve da base a tutto il corso: la distanza di un punto da una retta, il parallelismo e l'incidenza, i diedri e i triedri, i postulati di appartenenza e le convenzioni grafiche. La seconda introduce la geometria proiettiva, cioè lo studio delle proprietà che restano invariate quando una figura viene proiettata e sezionata, e arriva fino all'omologia e ai suoi casi particolari: omologia speciale, affinità ortogonale e obliqua, omotetia e traslazione. L'omologia è l'argomento della Prova n. 1 di giovedì 29 ottobre, per questo l'ultima parte della bozza raccoglie, passo passo, tutti i tipi di esercizio che la docente ha proposto e corretto.
+La lezione del 6 ottobre si divide in due parti.
+
+La prima è un ripasso della geometria euclidea che serve da base a tutto il corso:
+
+- la distanza di un punto da una retta,
+- il parallelismo e l'incidenza,
+- i diedri e i triedri,
+- i postulati di appartenenza
+- e le convenzioni grafiche.
+
+La seconda introduce la geometria proiettiva, cioè lo studio delle proprietà che restano invariate quando una figura viene proiettata e sezionata, e arriva fino all'omologia e ai suoi casi particolari:
+
+- omologia speciale,
+- affinità ortogonale e obliqua,
+- omotetia
+- e traslazione.
+
+L'omologia è l'argomento della Prova n. 1 di giovedì 29 ottobre, per questo l'ultima parte della bozza raccoglie, passo passo, tutti i tipi di esercizio che la docente ha proposto e corretto.
 
 ## RICHIAMI DI GEOMETRIA EUCLIDEA
 
 ### La distanza di un punto da una retta e da un piano
 
-Data una retta $r$ e un punto $P$ che non le appartiene, la distanza del punto dalla retta è il segmento che ha per estremi $P$ e il piede della perpendicolare condotta da $P$ alla retta, cioè il punto in cui la perpendicolare incontra $r$. Si parla di distanza minima perché si potrebbero misurare anche altri segmenti inclinati, a 30° o a 40°, ma quello che interessa è sempre il più breve, quello perpendicolare. La perpendicolare è una retta che forma con l'altra un angolo di 90°, e sul disegno l'angolo retto si segna con un quartino di circonferenza oppure con un piccolo quadrato. Bisogna esercitarsi a tracciare perpendicolari vere, non rette che lo sono "quasi".
+Data una retta $r$ e un punto $P$ che non le appartiene, la distanza del punto dalla retta è il segmento che ha per estremi $P$ e il piede della perpendicolare condotta da $P$ alla retta, cioè il punto in cui la perpendicolare incontra $r$.
 
-Il concetto è fondamentale perché ritorna nello spazio: la distanza di un punto da un piano è il segmento compreso tra il punto e il piede della perpendicolare condotta dal punto al piano. Ogni volta che si dovrà misurare una distanza, la prima cosa a cui pensare sarà la perpendicolarità.
+Si parla di distanza minima perché si potrebbero misurare anche altri segmenti inclinati, a 30° o a 40°, ma quello che interessa è sempre il più breve, quello perpendicolare.
+
+La perpendicolare è una retta che forma con l'altra un angolo di 90°, e sul disegno l'angolo retto si segna con un quartino di circonferenza oppure con un piccolo quadrato. Bisogna esercitarsi a tracciare perpendicolari vere, non rette che lo sono "quasi".
+
+Il concetto è fondamentale perché ritorna nello spazio: la distanza di un punto da un piano è il segmento compreso tra il punto e il piede della perpendicolare condotta dal punto al piano.
+
+Ogni volta che si dovrà misurare una distanza, la prima cosa a cui pensare sarà la perpendicolarità.
 
 > [!example] Disegno 1 · Il disegno: la distanza di un punto da una retta
 > ![[b02-distanza-punto-retta.svg|560]]
@@ -42,9 +65,26 @@ Il concetto è fondamentale perché ritorna nello spazio: la distanza di un punt
 
 ### Rette e piani: paralleli, incidenti, sghembi
 
-Due rette che stanno nello stesso piano, per esempio sul foglio, possono trovarsi solo in due situazioni: o sono parallele, cioè complanari ed equidistanti, senza alcun punto in comune, oppure sono incidenti e si incontrano in un punto. Due rette che non appartengono allo stesso piano si dicono invece sghembe; prese insieme definiscono una superficie, e molte coperture dei centri storici sono vere superfici sghembe, costruite su quattro pali di cui basta che uno non stia nel piano degli altri tre. Vale poi una proprietà importante: dati una retta e un punto che non le appartiene, per quel punto passa una e una sola parallela alla retta.
+Due rette che stanno nello stesso piano, per esempio sul foglio, possono trovarsi solo in due situazioni:
 
-Lo stesso ragionamento vale per i piani: due piani paralleli non hanno punti in comune, due piani incidenti hanno in comune una retta. Una retta e un piano si incontrano in un punto; una retta esterna a un piano può essere secante, se lo incontra in un punto, oppure parallela al piano, e lo è quando è parallela a una retta del piano. Una retta è perpendicolare a un piano quando è perpendicolare a due rette del piano.
+- o sono parallele, cioè complanari ed equidistanti, senza alcun punto in comune,
+- oppure sono incidenti e si incontrano in un punto.
+
+Due rette che non appartengono allo stesso piano si dicono invece sghembe: non si incontrano e non sono parallele. Prese insieme definiscono una superficie, e molte coperture dei centri storici sono vere superfici sghembe, costruite su quattro pali di cui basta che uno non stia nel piano degli altri tre.
+
+Vale poi una proprietà importante: dati una retta e un punto che non le appartiene, per quel punto passa una e una sola parallela alla retta.
+
+Lo stesso ragionamento vale per i piani:
+
+- due piani paralleli non hanno punti in comune,
+- due piani incidenti hanno in comune una retta.
+
+Una retta e un piano si incontrano in un punto; una retta esterna a un piano può essere:
+
+- secante, se lo incontra in un punto,
+- oppure parallela al piano, se non lo incontra, e lo è quando è parallela a una retta del piano.
+
+Una retta è perpendicolare a un piano quando è perpendicolare a due rette del piano.
 
 > [!example] Disegno 3 · Il disegno: rette parallele e incidenti
 > ![[b02-rette-parallele-incidenti.svg|640]]
@@ -53,28 +93,24 @@ Lo stesso ragionamento vale per i piani: due piani paralleli non hanno punti in 
 > 2. Al centro sono incidenti: si incontrano nel punto $P$.
 > 3. A destra, per il punto $P$ esterno a $r$ si traccia l'unica parallela $s$.
 
-> [!abstract] In schema: rette e piani
-> **Due rette nello stesso piano** (complanari, per esempio sul foglio): solo due casi
-> - **parallele** → nessun punto in comune, sempre alla stessa distanza (equidistanti)
-> - **incidenti** → un punto in comune, dove si incontrano
->
-> **Due rette in piani diversi** → **sghembe**: non si incontrano e non sono parallele. Prese insieme definiscono una superficie (es. le coperture su quattro pali, con un palo fuori dal piano degli altri tre).
->
-> **Per un punto esterno a una retta** passa **una e una sola** parallela a quella retta.
->
-> **Due piani**
-> - **paralleli** → nessun punto in comune
-> - **incidenti** → una retta in comune
->
-> **Una retta e un piano**
-> - si incontrano in **un punto**
-> - retta esterna al piano **secante** → lo incontra in un punto
-> - retta esterna al piano **parallela** → non lo incontra; è parallela al piano quando è parallela a **una retta del piano**
-> - retta **perpendicolare** al piano → è perpendicolare a **due rette del piano**
-
 ### Diedri e triedri
 
-Due piani incidenti, oltre a condividere una retta, delimitano delle porzioni di spazio: ciascuna di queste porzioni, racchiusa tra due semipiani che hanno in comune una retta, si chiama diedro. Il triedro è invece la porzione di spazio delimitata da tre piani; tre piani distinti hanno in comune un punto, il vertice del triedro, che diventerà l'origine degli assi. Il triedro tornerà spesso, perché avere un terzo piano di riferimento è molto utile. I piani vanno sempre pensati infiniti, anche se sul foglio siamo costretti a disegnarli come rettangoli. Tutte queste definizioni sono concatenate, ognuna richiama la precedente: non vanno imparate "a vuoto", ma capite nel loro legame.
+Il diedro è la porzione di spazio compresa tra due semipiani che hanno in comune una retta, e nasce da due piani incidenti. Due piani incidenti, oltre a condividere una retta, delimitano delle porzioni di spazio: ciascuna di queste porzioni, racchiusa tra due semipiani che hanno in comune una retta, si chiama diedro.
+
+Il triedro è invece la porzione di spazio delimitata da tre piani; tre piani distinti hanno in comune un punto, il vertice del triedro, che diventerà l'origine degli assi.
+
+Il triedro tornerà spesso, perché avere un terzo piano di riferimento è molto utile: anche i tre piani di proiezione $\pi_1$, $\pi_2$, $\pi_3$ formano un triedro.
+
+I piani vanno sempre pensati infiniti, anche se sul foglio siamo costretti a disegnarli come rettangoli.
+
+Gli angoli tra i piani non sono per forza retti: nella definizione i piani possono formare un angolo qualsiasi.
+
+- Un diedro può essere acuto, retto o ottuso: per esempio due facce vicine di una piramide formano un diedro non retto, mentre due facce vicine di un parallelepipedo rettangolo formano un diedro retto.
+- Anche i tre piani di un triedro, in generale, possono essere inclinati tra loro.
+
+Il triedro che usiamo nelle proiezioni ortogonali è invece un caso particolare: $\pi_1$ (orizzontale), $\pi_2$ (verticale di fronte) e $\pi_3$ (verticale di lato) sono perpendicolari a due a due, quindi tutti i suoi angoli sono retti.
+
+Tutte queste definizioni sono concatenate, ognuna richiama la precedente: non vanno imparate "a vuoto", ma capite nel loro legame.
 
 > [!example] Disegno 4 · Il disegno: diedro e triedro
 > ![[b02-diedro-triedro.svg|640]]
@@ -82,26 +118,21 @@ Due piani incidenti, oltre a condividere una retta, delimitano delle porzioni di
 > 1. Diedro: i semipiani $\alpha$ e $\beta$ hanno in comune la retta $r$ e racchiudono una porzione di spazio.
 > 2. Triedro: i piani $\alpha$, $\beta$ e $\gamma$ hanno in comune il solo vertice $V$, futura origine degli assi.
 
-> [!abstract] In schema: diedro e triedro
-> **Il diedro** è la porzione di spazio compresa tra **due semipiani** che hanno in comune **una retta**.
-> - Nasce da due piani incidenti: incontrandosi lungo una retta, dividono lo spazio in porzioni, e ognuna è un diedro.
-> - Da sapere: due semipiani ($\alpha$, $\beta$) → una retta in comune ($r$) → lo spazio racchiuso tra loro.
->
-> **Il triedro** è la porzione di spazio delimitata da **tre piani**.
-> - Tre piani distinti hanno in comune **un solo punto**: il **vertice** del triedro ($V$), che diventa l'**origine degli assi**.
-> - Da sapere: tre piani ($\alpha$, $\beta$, $\gamma$) → un punto in comune → il vertice $V$ = origine degli assi.
-> - Si usa sempre perché un terzo piano di riferimento è molto utile: i tre piani di proiezione $\pi_1$, $\pi_2$, $\pi_3$ formano un triedro.
->
-> I piani si pensano sempre **infiniti**, anche se sul foglio si disegnano come rettangoli.
->
-> **Gli angoli non sono per forza retti.** Nella definizione i piani possono formare un angolo qualsiasi:
-> - un diedro può essere acuto, retto o ottuso (es. due facce vicine di una piramide formano un diedro non retto; due facce vicine di un parallelepipedo rettangolo formano un diedro retto);
-> - anche i tre piani di un triedro, in generale, possono essere inclinati tra loro.
-> - Il triedro che usiamo nelle proiezioni ortogonali è invece un caso particolare: $\pi_1$ (orizzontale), $\pi_2$ (verticale di fronte) e $\pi_3$ (verticale di lato) sono **perpendicolari a due a due**, quindi tutti i suoi angoli sono retti.
-
 ### I postulati di appartenenza e i loro duali
 
-I primi tre postulati di appartenenza dicono che per due punti distinti passa una e una sola retta, che tre punti distinti e non allineati individuano un piano e che un punto e una retta che non lo contiene individuano un piano. Sostituendo la parola "piano" alla parola "punto" si ottengono i tre postulati duali: due piani distinti individuano una retta che appartiene a entrambi; tre piani distinti, che non passano per una stessa retta, individuano un punto comune a tutti e tre; una retta e un piano distinti individuano un punto. La condizione sui tre piani è importante: se passassero tutti per la stessa retta, come tre pagine di un libro, avrebbero in comune quella retta e non un punto.
+I primi tre postulati di appartenenza dicono:
+
+- che per due punti distinti passa una e una sola retta,
+- che tre punti distinti e non allineati individuano un piano
+- e che un punto e una retta che non lo contiene individuano un piano.
+
+Sostituendo la parola "piano" alla parola "punto" si ottengono i tre postulati duali:
+
+- due piani distinti individuano una retta che appartiene a entrambi;
+- tre piani distinti, che non passano per una stessa retta, individuano un punto comune a tutti e tre;
+- una retta e un piano distinti individuano un punto.
+
+La condizione sui tre piani è importante: se passassero tutti per la stessa retta, come tre pagine di un libro, avrebbero in comune quella retta e non un punto.
 
 > [!abstract] Da ricordare: i sei postulati
 > - Due punti distinti → una retta. Tre punti non allineati → un piano. Un punto e una retta che non lo contiene → un piano.
@@ -110,7 +141,19 @@ I primi tre postulati di appartenenza dicono che per due punti distinti passa un
 
 ### Le convenzioni grafiche
 
-Le convenzioni servono a riconoscere subito di che cosa si sta parlando. Le lettere maiuscole indicano i punti, e soltanto i punti; le minuscole dell'alfabeto latino ($r$, $s$) indicano le rette; le minuscole dell'alfabeto greco ($\alpha$, $\beta$, $\gamma$, $\delta$) indicano i piani. Si usano poi i simboli di parallelismo e di appartenenza. Anche il tratto ha un significato: i segni di costruzione devono essere sottili ma sempre visibili, perché alla docente interessa il procedimento e non solo il risultato; il segno medio va bene per le operazioni, quello più marcato è riservato al risultato finale.
+Le convenzioni servono a riconoscere subito di che cosa si sta parlando.
+
+- Le lettere maiuscole indicano i punti, e soltanto i punti;
+- le minuscole dell'alfabeto latino ($r$, $s$) indicano le rette;
+- le minuscole dell'alfabeto greco ($\alpha$, $\beta$, $\gamma$, $\delta$) indicano i piani.
+
+Si usano poi i simboli di parallelismo e di appartenenza.
+
+Anche il tratto ha un significato:
+
+- i segni di costruzione devono essere sottili ma sempre visibili, perché alla docente interessa il procedimento e non solo il risultato;
+- il segno medio va bene per le operazioni,
+- quello più marcato è riservato al risultato finale.
 
 > [!abstract] Da ricordare: lettere e segni
 > - Punti: maiuscole ($P$). Rette: minuscole latine ($r$). Piani: minuscole greche ($\alpha$).
@@ -121,15 +164,42 @@ Le convenzioni servono a riconoscere subito di che cosa si sta parlando. Le lett
 
 ### Rappresentare lo spazio sul foglio
 
-Tutti i metodi di rappresentazione che si studiano nel corso hanno la stessa origine: sono espressioni diverse di uno stesso procedimento proiettivo, in cui ci sono un centro di proiezione, un oggetto e un piano di quadro su cui l'oggetto viene proiettato. Conoscendone il principio, in pratica li si conosce tutti. Lo scopo è rappresentare sul foglio, che ha due sole dimensioni, ciò che avviene nello spazio, trasformando i problemi geometrici dello spazio in problemi di geometria piana.
+Tutti i metodi di rappresentazione che si studiano nel corso hanno la stessa origine: sono espressioni diverse di uno stesso procedimento proiettivo, in cui ci sono:
 
-Tra una figura e la sua proiezione non c'è uguaglianza: solo alcune proprietà si conservano, e dipendono anche dalla posizione della figura rispetto al piano. Proiettando un quadrato su uno schermo inclinato gli angoli retti non si mantengono, e al cinema l'immagine proiettata è più grande dell'originale. La geometria proiettiva, fondata da Girard Desargues nel Seicento, studia proprio le proprietà delle figure che restano invariate durante le operazioni di proiezione e sezione, dette proprietà proiettive. I due termini vanno distinti: la proiezione è ciò che parte dalla fonte, come il fascio di luce di un proiettore; l'immagine che vediamo su una parete è invece il frutto di una sezione, cioè di un'intersezione.
+- un centro di proiezione,
+- un oggetto
+- e un piano di quadro su cui l'oggetto viene proiettato.
+
+Conoscendone il principio, in pratica li si conosce tutti.
+
+Lo scopo è rappresentare sul foglio, che ha due sole dimensioni, ciò che avviene nello spazio, trasformando i problemi geometrici dello spazio in problemi di geometria piana.
+
+Tra una figura e la sua proiezione non c'è uguaglianza: solo alcune proprietà si conservano, e dipendono anche dalla posizione della figura rispetto al piano. Proiettando un quadrato su uno schermo inclinato gli angoli retti non si mantengono, e al cinema l'immagine proiettata è più grande dell'originale.
+
+La geometria proiettiva, fondata da Girard Desargues nel Seicento, studia proprio le proprietà delle figure che restano invariate durante le operazioni di proiezione e sezione, dette proprietà proiettive.
+
+I due termini vanno distinti:
+
+- la proiezione è ciò che parte dalla fonte, come il fascio di luce di un proiettore;
+- l'immagine che vediamo su una parete è invece il frutto di una sezione, cioè di un'intersezione.
 
 ### Proiettare un punto, una retta, un piano
 
-L'operazione di proiezione richiede due elementi: un centro di proiezione $S$ e un piano di quadro (PQ), il piano su cui si proietta. Proiettare un punto $P$ significa costruire il raggio proiettante, la retta che passa per $S$ e per $P$: dove il raggio attraversa il piano di quadro lascia la proiezione $P'$. La sequenza centro, oggetto, piano di quadro non è rigida: il piano può stare anche tra il centro e l'oggetto, come nella macchina fotografica, e l'oggetto può trovarsi al di qua o al di là del quadro, cosa che conterà soprattutto nella prospettiva.
+L'operazione di proiezione richiede due elementi:
 
-Proiettare una retta significa costruire un fascio di rette, cioè tante rette che passano tutte per il centro e per gli infiniti punti della retta: il fascio appartiene tutto a uno stesso piano. Proiettare un piano significa invece proiettare dal centro tutte le sue rette, e si ottiene una stella di rette, che non stanno in un unico piano.
+- un centro di proiezione $S$
+- e un piano di quadro (PQ), il piano su cui si proietta.
+
+Proiettare un punto $P$ significa costruire il raggio proiettante, la retta che passa per $S$ e per $P$: dove il raggio attraversa il piano di quadro lascia la proiezione $P'$.
+
+La sequenza centro, oggetto, piano di quadro non è rigida:
+
+- il piano può stare anche tra il centro e l'oggetto, come nella macchina fotografica,
+- e l'oggetto può trovarsi al di qua o al di là del quadro, cosa che conterà soprattutto nella prospettiva.
+
+Proiettare una retta significa costruire un fascio di rette, cioè tante rette che passano tutte per il centro e per gli infiniti punti della retta: il fascio appartiene tutto a uno stesso piano.
+
+Proiettare un piano significa invece proiettare dal centro tutte le sue rette, e si ottiene una stella di rette, che non stanno in un unico piano.
 
 > [!example] Disegno 5 · Il disegno: proiettare un punto e una retta
 > ![[b02-proiezione-punto-retta.svg|660]]
@@ -140,7 +210,11 @@ Proiettare una retta significa costruire un fascio di rette, cioè tante rette c
 
 ### Le proprietà proiettive
 
-Le proprietà proiettive fondamentali sembrano ovvie, ma sono la struttura di ogni rappresentazione e la chiave per risolvere gli esercizi. Per l'appartenenza, se un punto $P$ appartiene a una retta $r$, la sua immagine $P'$ appartiene alla retta immagine $r'$. Per l'allineamento, punti allineati restano allineati dopo la proiezione. Per l'incidenza, se due rette sono incidenti in un punto $P$, le loro immagini $r'$ e $s'$ sono incidenti nel punto immagine $P'$.
+Le proprietà proiettive fondamentali sembrano ovvie, ma sono la struttura di ogni rappresentazione e la chiave per risolvere gli esercizi.
+
+- Per l'appartenenza, se un punto $P$ appartiene a una retta $r$, la sua immagine $P'$ appartiene alla retta immagine $r'$.
+- Per l'allineamento, punti allineati restano allineati dopo la proiezione.
+- Per l'incidenza, se due rette sono incidenti in un punto $P$, le loro immagini $r'$ e $s'$ sono incidenti nel punto immagine $P'$.
 
 > [!abstract] Da ricordare: le tre proprietà proiettive
 > - Appartenenza: $P \in r$ → $P' \in r'$.
@@ -149,9 +223,19 @@ Le proprietà proiettive fondamentali sembrano ovvie, ma sono la struttura di og
 
 ### Gli enti impropri
 
-La geometria proiettiva introduce gli enti impropri: punti, rette e piani la cui posizione si considera, per convenzione, all'infinito. L'infinito non si vede, ma se ne dimostra l'esistenza per induzione geometrica con il modello della circonferenza. Si prende una circonferenza, si pone su di essa il centro di proiezione $S$ e si considera una retta $r$ alla base. Proiettando da $S$ i punti di $r$, a ciascuno corrisponde un punto della circonferenza; continuando, anche il raggio che diventa parallelo a $r$ lascia un'immagine sulla circonferenza, come tutti gli altri. Se esiste l'immagine, esiste il punto che l'ha generata, e si trova all'infinito: la circonferenza è il modello della retta proiettiva, cioè della retta a cui si aggiunge il suo punto improprio.
+La geometria proiettiva introduce gli enti impropri: punti, rette e piani la cui posizione si considera, per convenzione, all'infinito.
 
-Due rette parallele, dunque, si incontrano in un punto improprio, che si rappresenta con la sua direzione, un piccolo trattino che dice verso dove "va" la retta. I postulati di appartenenza si ampliano di conseguenza: per due punti passa una e una sola retta anche quando uno dei due è improprio, perché la retta conterrà il punto proprio e avrà la direzione dell'altro.
+L'infinito non si vede, ma se ne dimostra l'esistenza per induzione geometrica con il modello della circonferenza.
+
+1. Si prende una circonferenza, si pone su di essa il centro di proiezione $S$ e si considera una retta $r$ alla base.
+2. Proiettando da $S$ i punti di $r$, a ciascuno corrisponde un punto della circonferenza;
+3. continuando, anche il raggio che diventa parallelo a $r$ lascia un'immagine sulla circonferenza, come tutti gli altri.
+
+Se esiste l'immagine, esiste il punto che l'ha generata, e si trova all'infinito: la circonferenza è il modello della retta proiettiva, cioè della retta a cui si aggiunge il suo punto improprio.
+
+Due rette parallele, dunque, si incontrano in un punto improprio, che si rappresenta con la sua direzione, un piccolo trattino che dice verso dove "va" la retta.
+
+I postulati di appartenenza si ampliano di conseguenza: per due punti passa una e una sola retta anche quando uno dei due è improprio, perché la retta conterrà il punto proprio e avrà la direzione dell'altro.
 
 > [!example] Disegno 6 · Il disegno: il modello della circonferenza
 > ![[b02-retta-proiettiva.svg|600]]
@@ -168,7 +252,17 @@ Due rette parallele, dunque, si incontrano in un punto improprio, che si rappres
 
 ### Proiezioni coniche e cilindriche
 
-Il tipo di proiezione dipende dalla posizione del centro. Se il centro è proprio, cioè a distanza finita, da esso parte una stella di rette e si hanno le proiezioni coniche, da cui nasce la prospettiva. Se il centro è improprio, all'infinito, i raggi proiettanti sono tutti paralleli e definiscono un'unica direzione: si hanno le proiezioni cilindriche, che comprendono le proiezioni ortogonali e le assonometrie. È la stessa differenza che c'è tra l'ombra di una lampada, che ha un centro proprio, e l'ombra del sole, i cui raggi si assumono paralleli perché il sole è molto distante. Nell'assonometria la direzione di proiezione può essere perpendicolare al piano di quadro (assonometria ortogonale) oppure inclinata (assonometria obliqua).
+Il tipo di proiezione dipende dalla posizione del centro.
+
+- Se il centro è proprio, cioè a distanza finita, da esso parte una stella di rette e si hanno le proiezioni coniche, da cui nasce la prospettiva.
+- Se il centro è improprio, all'infinito, i raggi proiettanti sono tutti paralleli e definiscono un'unica direzione: si hanno le proiezioni cilindriche, che comprendono le proiezioni ortogonali e le assonometrie.
+
+È la stessa differenza che c'è tra l'ombra di una lampada, che ha un centro proprio, e l'ombra del sole, i cui raggi si assumono paralleli perché il sole è molto distante.
+
+Nell'assonometria la direzione di proiezione può essere:
+
+- perpendicolare al piano di quadro (assonometria ortogonale)
+- oppure inclinata (assonometria obliqua).
 
 > [!example] Disegno 8 · Il disegno: centro proprio e centro improprio
 > ![[03-proiezione-centrale-e-cilindrica.svg|640]]
@@ -180,9 +274,18 @@ Il tipo di proiezione dipende dalla posizione del centro. Se il centro è propri
 
 ### La prospettività e l'omografia
 
-La proiettività più semplice è la prospettività: ci sono un centro e due piani, e si stabilisce una corrispondenza biunivoca, in cui a ogni punto di un piano corrisponde uno e un solo punto dell'altro. Se da un centro $S$ si proiettano gli elementi di un piano $\alpha$ su un secondo piano $\alpha'$, la corrispondenza tra i punti dei due piani si chiama omografia. Due figure sono prospettive quando le rette che congiungono i vertici corrispondenti passano tutte per uno stesso punto, il centro di proiezione, e quando le rette corrispondenti, cioè i lati prolungati, si incontrano su una retta fissa, l'asse della prospettività, che è la retta di intersezione tra i due piani.
+La proiettività più semplice è la prospettività: ci sono un centro e due piani, e si stabilisce una corrispondenza biunivoca, in cui a ogni punto di un piano corrisponde uno e un solo punto dell'altro.
 
-Il punto in cui una retta incontra l'asse si chiama punto unito: sta sulla retta di intersezione, quindi appartiene a tutti e due i piani, e proiettandolo si ottiene lo stesso punto. Le due proprietà, allineamento con il centro e incontro sull'asse, valgono per una retta, per tante rette e per ogni figura, per esempio per i lati $AB$, $BC$, $CA$ di un triangolo.
+Se da un centro $S$ si proiettano gli elementi di un piano $\alpha$ su un secondo piano $\alpha'$, la corrispondenza tra i punti dei due piani si chiama omografia.
+
+Due figure sono prospettive:
+
+- quando le rette che congiungono i vertici corrispondenti passano tutte per uno stesso punto, il centro di proiezione,
+- e quando le rette corrispondenti, cioè i lati prolungati, si incontrano su una retta fissa, l'asse della prospettività, che è la retta di intersezione tra i due piani.
+
+Il punto in cui una retta incontra l'asse si chiama punto unito: sta sulla retta di intersezione, quindi appartiene a tutti e due i piani, e proiettandolo si ottiene lo stesso punto.
+
+Le due proprietà, allineamento con il centro e incontro sull'asse, valgono per una retta, per tante rette e per ogni figura, per esempio per i lati $AB$, $BC$, $CA$ di un triangolo.
 
 > [!example] Disegno 9 · Il disegno: la prospettività tra due piani
 > ![[b02-prospettivita.svg|660]]
@@ -193,9 +296,18 @@ Il punto in cui una retta incontra l'asse si chiama punto unito: sta sulla retta
 
 ### L'omologia: due prospettività sullo stesso piano
 
-L'omologia nasce da un passo in più. Due figure che stanno sullo stesso piano si possono pensare come il risultato della proiezione di una stessa figura di partenza, posta su un altro piano $\alpha_0$, da due centri diversi, $S$ e $S_1$. Se le relazioni valgono nello spazio, per Desargues valgono anche sul piano. Per portare tutto sul foglio, che va interpretato come il piano $\alpha$ coincidente con $\alpha'$, bisogna portarci anche i centri, che nello spazio stanno uno più in alto e uno più in basso: si proietta un centro dall'altro e si ottiene un solo punto del piano, il centro dell'omologia $U$. L'asse è sempre la retta di intersezione tra i piani considerati.
+L'omologia nasce da un passo in più. Due figure che stanno sullo stesso piano si possono pensare come il risultato della proiezione di una stessa figura di partenza, posta su un altro piano $\alpha_0$, da due centri diversi, $S$ e $S_1$. Se le relazioni valgono nello spazio, per Desargues valgono anche sul piano.
 
-L'omologia è dunque la relazione tra due figure generate dalla proiezione della stessa figura da due centri diversi: è il prodotto di due prospettività. Nell'omografia c'è un solo centro che proietta da un piano a un altro; nell'omologia ci sono due centri che proiettano sul medesimo piano. Una volta definita, l'omologia vale indipendentemente dalla configurazione spaziale che l'ha generata: gli esercizi sono astratti e vanno risolti sul piano, senza figurarsi lo spazio.
+Per portare tutto sul foglio, che va interpretato come il piano $\alpha$ coincidente con $\alpha'$, bisogna portarci anche i centri, che nello spazio stanno uno più in alto e uno più in basso: si proietta un centro dall'altro e si ottiene un solo punto del piano, il centro dell'omologia $U$.
+
+L'asse è sempre la retta di intersezione tra i piani considerati.
+
+L'omologia è dunque la relazione tra due figure generate dalla proiezione della stessa figura da due centri diversi: è il prodotto di due prospettività.
+
+- Nell'omografia c'è un solo centro che proietta da un piano a un altro;
+- nell'omologia ci sono due centri che proiettano sul medesimo piano.
+
+Una volta definita, l'omologia vale indipendentemente dalla configurazione spaziale che l'ha generata: gli esercizi sono astratti e vanno risolti sul piano, senza figurarsi lo spazio.
 
 > [!example] Disegno 10 · Il disegno: dai due centri al centro dell'omologia
 > ![[b02-omologia-due-centri.svg|660]]
@@ -207,7 +319,15 @@ L'omologia è dunque la relazione tra due figure generate dalla proiezione della
 
 ### Centro, asse e coppia di elementi corrispondenti
 
-Un'omologia è definita da tre dati: il centro, l'asse e una coppia di elementi corrispondenti (due punti, oppure due rette). Con questi dati la figura corrispondente di qualunque figura è una sola: per una configurazione di dati esiste una e una sola retta corrispondente di una retta data. La corrispondenza conserva le proprietà proiettive: a rette corrispondono rette, a rette incidenti rette incidenti. Non è invece una corrispondenza di forma, come quella tra due triangoli simili.
+Un'omologia è definita da tre dati:
+
+- il centro,
+- l'asse
+- e una coppia di elementi corrispondenti (due punti, oppure due rette).
+
+Con questi dati la figura corrispondente di qualunque figura è una sola: per una configurazione di dati esiste una e una sola retta corrispondente di una retta data.
+
+La corrispondenza conserva le proprietà proiettive: a rette corrispondono rette, a rette incidenti rette incidenti. Non è invece una corrispondenza di forma, come quella tra due triangoli simili.
 
 Per risolvere gli esercizi non serve altro che le due proprietà dell'omologia e le condizioni di appartenenza. Saperle a memoria non basta: bisogna saperle applicare.
 
@@ -225,7 +345,13 @@ Per risolvere gli esercizi non serve altro che le due proprietà dell'omologia e
 
 ### Le convenzioni dell'omologia
 
-Le convenzioni non sono indifferenti alla comprensione del problema: guardando il disegno si distingue subito di che cosa si sta parlando. Il centro è un punto e si indica con la maiuscola $U$; l'asse è una retta e si indica con la minuscola $u$. I corrispondenti si indicano con l'apice: $A$ e $A'$, $r$ e $r'$. Nelle proiezioni ortogonali si useranno invece i pedici ($P_1$, $P_2$, $P_3$), perché l'apice resta all'omologia e all'assonometria.
+Le convenzioni non sono indifferenti alla comprensione del problema: guardando il disegno si distingue subito di che cosa si sta parlando.
+
+- Il centro è un punto e si indica con la maiuscola $U$;
+- l'asse è una retta e si indica con la minuscola $u$.
+- I corrispondenti si indicano con l'apice: $A$ e $A'$, $r$ e $r'$.
+
+Nelle proiezioni ortogonali si useranno invece i pedici ($P_1$, $P_2$, $P_3$), perché l'apice resta all'omologia e all'assonometria.
 
 > [!abstract] Da ricordare: come si scrive
 > - Centro $U$ (punto, segnato), asse $u$ (retta). Corrispondenti con l'apice: $A$ → $A'$, $r$ → $r'$.
@@ -234,7 +360,9 @@ Le convenzioni non sono indifferenti alla comprensione del problema: guardando i
 
 ## LE OMOLOGIE PARTICOLARI
 
-A seconda della posizione reciproca dei piani e dei centri di proiezione, l'omologia prende nomi diversi. I nomi aiutano a distinguere le situazioni, ma la soluzione degli esercizi resta sempre la stessa. Quella con centro e asse propri è l'omologia classica.
+A seconda della posizione reciproca dei piani e dei centri di proiezione, l'omologia prende nomi diversi. I nomi aiutano a distinguere le situazioni, ma la soluzione degli esercizi resta sempre la stessa.
+
+Quella con centro e asse propri è l'omologia classica.
 
 ### L'omologia speciale
 
@@ -248,7 +376,14 @@ L'omologia è speciale quando, proiettando un centro dall'altro, il centro viene
 
 ### L'affinità ortogonale e obliqua
 
-Si ha un'affinità quando i due centri sono allineati lungo una retta parallela al piano: la retta che li unisce non incontra il piano a distanza finita, ma all'infinito. Il centro dell'omologia è allora improprio e si indica con una direzione. Unendo i punti corrispondenti si ottengono rette tutte parallele a quella direzione: se la direzione è perpendicolare all'asse l'affinità è ortogonale, se è inclinata è obliqua. L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'assonometria obliqua; un'affinità compare anche nel ribaltamento, dove il centro è all'infinito nella direzione perpendicolare all'asse.
+Si ha un'affinità quando i due centri sono allineati lungo una retta parallela al piano: la retta che li unisce non incontra il piano a distanza finita, ma all'infinito. Il centro dell'omologia è allora improprio e si indica con una direzione.
+
+Unendo i punti corrispondenti si ottengono rette tutte parallele a quella direzione:
+
+- se la direzione è perpendicolare all'asse l'affinità è ortogonale,
+- se è inclinata è obliqua.
+
+L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'assonometria obliqua; un'affinità compare anche nel ribaltamento, dove il centro è all'infinito nella direzione perpendicolare all'asse.
 
 > [!example] Disegno 13 · Il disegno: affinità ortogonale e obliqua
 > ![[b02-affinita.svg|640]]
@@ -260,7 +395,11 @@ Si ha un'affinità quando i due centri sono allineati lungo una retta parallela 
 
 ### L'omotetia
 
-L'omotetia si ha quando il piano che contiene la figura è parallelo al piano su cui la si proietta. La retta di intersezione tra i due piani, cioè l'asse, è allora impropria, mentre il centro è proprio. Poiché le rette corrispondenti si incontrano sull'asse, che è all'infinito, le rette corrispondenti sono necessariamente parallele: è la differenza fondamentale dell'omotetia. La figura si ingrandisce, come un rettangolo parallelo alla parete illuminato da una lampada, o come la pianta che si allarga nella prospettiva centrale frontale.
+L'omotetia si ha quando il piano che contiene la figura è parallelo al piano su cui la si proietta. La retta di intersezione tra i due piani, cioè l'asse, è allora impropria, mentre il centro è proprio.
+
+Poiché le rette corrispondenti si incontrano sull'asse, che è all'infinito, le rette corrispondenti sono necessariamente parallele: è la differenza fondamentale dell'omotetia.
+
+La figura si ingrandisce, come un rettangolo parallelo alla parete illuminato da una lampada, o come la pianta che si allarga nella prospettiva centrale frontale.
 
 > [!example] Disegno 14 · Il disegno: l'omotetia
 > ![[b02-omotetia.svg|620]]
@@ -271,7 +410,14 @@ L'omotetia si ha quando il piano che contiene la figura è parallelo al piano su
 
 ### La traslazione
 
-La traslazione è il caso limite, di massima indeterminazione: il piano della figura è parallelo al piano su cui si proietta (asse all'infinito) e anche i due centri sono allineati parallelamente al piano (centro all'infinito). È un'isometria, una trasformazione del piano che conserva distanze e angoli: un quadrato rimane un quadrato e il segmento $A'B'$ è uguale ad $AB$. La figura viene semplicemente spostata.
+La traslazione è il caso limite, di massima indeterminazione:
+
+- il piano della figura è parallelo al piano su cui si proietta (asse all'infinito)
+- e anche i due centri sono allineati parallelamente al piano (centro all'infinito).
+
+È un'isometria, una trasformazione del piano che conserva distanze e angoli: un quadrato rimane un quadrato e il segmento $A'B'$ è uguale ad $AB$.
+
+La figura viene semplicemente spostata.
 
 > [!example] Disegno 15 · Il disegno: la traslazione
 > ![[b02-traslazione.svg|620]]
@@ -291,9 +437,20 @@ La traslazione è il caso limite, di massima indeterminazione: il piano della fi
 
 ### Il metodo
 
-Ogni esercizio è una somma di cose già note: se si hanno i punti si cercano le rette, se si hanno le rette si cercano i punti. La prima cosa da fare è sempre individuare una coppia di punti corrispondenti, perché serve sempre. Se il testo dà due rette corrispondenti $r$ e $r'$, la coppia si trova prendendo un punto su $r$ e mandando il raggio dal centro fino a $r'$; ma conviene guardare se c'è un punto che appartiene già a due rette (per esempio l'intersezione tra la retta data e $r$), perché il suo corrispondente sta su entrambe le rette corrispondenti: è solo una condizione di appartenenza, ed è più rapido. Si traccia una linea in meno, e meno linee si tracciano, meno l'errore grafico è in agguato. Questo modo di procedere, un punto dopo l'altro, si chiama costruire per punti.
+Ogni esercizio è una somma di cose già note: se si hanno i punti si cercano le rette, se si hanno le rette si cercano i punti.
 
-Quando il centro è improprio, "mandare il raggio dal centro" significa tracciare dal punto la parallela alla direzione di $U_\infty$. Quando l'asse è improprio, "le rette corrispondenti si incontrano sull'asse" significa che sono parallele: la retta corrispondente si traccia come parallela per un punto già trovato. Alla fine conviene sempre verificare con un'altra coppia di punti: la figura corrispondente è una sola, quindi qualunque coppia si usi il risultato deve essere lo stesso.
+La prima cosa da fare è sempre individuare una coppia di punti corrispondenti, perché serve sempre.
+
+Se il testo dà due rette corrispondenti $r$ e $r'$, la coppia si trova prendendo un punto su $r$ e mandando il raggio dal centro fino a $r'$; ma conviene guardare se c'è un punto che appartiene già a due rette (per esempio l'intersezione tra la retta data e $r$), perché il suo corrispondente sta su entrambe le rette corrispondenti: è solo una condizione di appartenenza, ed è più rapido.
+
+Si traccia una linea in meno, e meno linee si tracciano, meno l'errore grafico è in agguato.
+
+Questo modo di procedere, un punto dopo l'altro, si chiama costruire per punti.
+
+- Quando il centro è improprio, "mandare il raggio dal centro" significa tracciare dal punto la parallela alla direzione di $U_\infty$.
+- Quando l'asse è improprio, "le rette corrispondenti si incontrano sull'asse" significa che sono parallele: la retta corrispondente si traccia come parallela per un punto già trovato.
+
+Alla fine conviene sempre verificare con un'altra coppia di punti: la figura corrispondente è una sola, quindi qualunque coppia si usi il risultato deve essere lo stesso.
 
 > [!abstract] Da ricordare: i passaggi di ogni esercizio
 > 1. Trova una coppia di punti corrispondenti ($A$ e $A'$), se non è già data.
@@ -304,7 +461,9 @@ Quando il centro è improprio, "mandare il raggio dal centro" significa tracciar
 
 ### Omologia classica: dati A e A′, trovare B′
 
-È l'esercizio più semplice, quello spiegato a lezione il 6 ottobre: sono dati il centro, l'asse, una coppia di punti corrispondenti $A$ e $A'$ e un punto $B$, e si chiede il corrispondente $B'$. Se invece di un punto è dato un segmento, lo si prolunga fino a ottenere la retta che lo contiene e si ragiona allo stesso modo.
+È l'esercizio più semplice, quello spiegato a lezione il 6 ottobre: sono dati il centro, l'asse, una coppia di punti corrispondenti $A$ e $A'$ e un punto $B$, e si chiede il corrispondente $B'$.
+
+Se invece di un punto è dato un segmento, lo si prolunga fino a ottenere la retta che lo contiene e si ragiona allo stesso modo.
 
 > [!example] Disegno 16 · Il disegno: dati U, u, A e A′, trovare B′
 > ![[b02-es-punto-coppia.svg|620]]
@@ -316,7 +475,9 @@ Quando il centro è improprio, "mandare il raggio dal centro" significa tracciar
 
 ### Omologia classica: date le rette corrispondenti r e r′
 
-Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e ci si riconduce all'esercizio precedente. È l'esercizio fatto insieme l'8 ottobre ed è lo stesso tipo del terzo esercizio del foglio «ES.GUIDATA Omologia 01» (dati $U$, $u$, $r$ e $r'$ che si incontrano sull'asse, trovare $M'$).
+Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e ci si riconduce all'esercizio precedente.
+
+È l'esercizio fatto insieme l'8 ottobre ed è lo stesso tipo del terzo esercizio del foglio «ES.GUIDATA Omologia 01» (dati $U$, $u$, $r$ e $r'$ che si incontrano sull'asse, trovare $M'$).
 
 > [!example] Disegno 17 · Il disegno: dati U, u, r e r′, trovare P′ (lezione dell'8 ottobre)
 > ![[03-omologia-punto-corrispondente.svg|620]]
@@ -339,7 +500,9 @@ Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e c
 
 ### Omologia speciale
 
-Il metodo non cambia: l'unica particolarità è che il centro sta sull'asse, quindi i raggi partono da un punto dell'asse. Il foglio «OMOLOGIA riepilogo» contiene un esercizio di questo tipo con la soluzione della docente; il secondo esercizio del foglio «ES.GUIDATA Omologia 01» è dello stesso tipo, ma senza soluzione.
+Il metodo non cambia: l'unica particolarità è che il centro sta sull'asse, quindi i raggi partono da un punto dell'asse.
+
+Il foglio «OMOLOGIA riepilogo» contiene un esercizio di questo tipo con la soluzione della docente; il secondo esercizio del foglio «ES.GUIDATA Omologia 01» è dello stesso tipo, ma senza soluzione.
 
 > [!example] Disegno 19 · Il disegno: dati U sull'asse, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-speciale-figura.svg|620]]
@@ -359,7 +522,9 @@ Il metodo non cambia: l'unica particolarità è che il centro sta sull'asse, qui
 
 ### Omotetia: asse improprio
 
-Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il punto unito, si traccia la parallela. Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione della docente (trovare $P'$ e trovare la retta $n'$); l'esercizio sulla retta $s'$ del foglio «ES.GUIDATA» è stato corretto in aula il 13 ottobre.
+Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il punto unito, si traccia la parallela.
+
+Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione della docente (trovare $P'$ e trovare la retta $n'$); l'esercizio sulla retta $s'$ del foglio «ES.GUIDATA» è stato corretto in aula il 13 ottobre.
 
 > [!example] Disegno 21 · Il disegno: dati U, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-omotetia-punto.svg|560]]
@@ -387,7 +552,11 @@ Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il 
 
 ### Affinità: centro improprio
 
-Con il centro all'infinito i corrispondenti stanno su rette parallele alla direzione di $U_\infty$, mentre l'asse resta proprio e i lati corrispondenti si incontrano su di esso. Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione della docente; l'esercizio della figura ℒ del foglio «ES.GUIDATA» è stato corretto in aula il 13 ottobre. Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri, propone anche un'omologia affine speciale, in cui la direzione di $U_\infty$ è parallela all'asse.
+Con il centro all'infinito i corrispondenti stanno su rette parallele alla direzione di $U_\infty$, mentre l'asse resta proprio e i lati corrispondenti si incontrano su di esso.
+
+Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione della docente; l'esercizio della figura ℒ del foglio «ES.GUIDATA» è stato corretto in aula il 13 ottobre.
+
+Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri, propone anche un'omologia affine speciale, in cui la direzione di $U_\infty$ è parallela all'asse.
 
 > [!example] Disegno 24 · Il disegno: dati U∞, u, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-affinita-figura.svg|580]]
@@ -423,7 +592,12 @@ Con il centro all'infinito i corrispondenti stanno su rette parallele alla direz
 
 ### Traslazione: centro e asse impropri
 
-Con centro e asse all'infinito valgono insieme le due regole: i corrispondenti stanno sulle parallele alla direzione di $U_\infty$ e le rette corrispondenti sono parallele. Il foglio «OMOLOGIA riepilogo» ha un esercizio con la soluzione della docente; il primo esercizio del foglio «ES.GUIDATA» è dello stesso tipo, con un triangolo.
+Con centro e asse all'infinito valgono insieme le due regole:
+
+- i corrispondenti stanno sulle parallele alla direzione di $U_\infty$
+- e le rette corrispondenti sono parallele.
+
+Il foglio «OMOLOGIA riepilogo» ha un esercizio con la soluzione della docente; il primo esercizio del foglio «ES.GUIDATA» è dello stesso tipo, con un triangolo.
 
 > [!example] Disegno 28 · Il disegno: dati U∞, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-traslazione-punto.svg|560]]
@@ -443,7 +617,18 @@ Con centro e asse all'infinito valgono insieme le due regole: i corrispondenti s
 
 ## L'ESERCITAZIONE IN AULA: IL SECONDO SOLIDO
 
-Alla fine della lezione la docente fa svolgere in aula un secondo esercizio di piante e prospetti, sullo stesso modello di quello della [[01-strumenti-materiali-e-regole|prima lezione]]. Il solido è dato in assonometria nella scheda esrcit_02 ed è più articolato del primo: è misurato con due moduli diversi, b per le dimensioni in pianta e a per le altezze (quattro moduli a), a partire dall'origine O, e ha anche linee nascoste tratteggiate e superfici inclinate. Si risolve con lo stesso procedimento: impaginare il foglio con il reticolo dei moduli, disegnare le piante ruotando l'oggetto, ricavare i prospetti, campire. Questa parte della lezione non è registrata, perché in aula si lavorava in silenzio.
+Alla fine della lezione la docente fa svolgere in aula un secondo esercizio di piante e prospetti, sullo stesso modello di quello della [[01-strumenti-materiali-e-regole|prima lezione]].
+
+Il solido è dato in assonometria nella scheda esrcit_02 ed è più articolato del primo: è misurato con due moduli diversi, b per le dimensioni in pianta e a per le altezze (quattro moduli a), a partire dall'origine O, e ha anche linee nascoste tratteggiate e superfici inclinate.
+
+Si risolve con lo stesso procedimento:
+
+1. impaginare il foglio con il reticolo dei moduli,
+2. disegnare le piante ruotando l'oggetto,
+3. ricavare i prospetti,
+4. campire.
+
+Questa parte della lezione non è registrata, perché in aula si lavorava in silenzio.
 
 > [!example] Disegno 30 · Il disegno: il secondo solido in assonometria (scheda della docente)
 > ![[b01-esercizio-2-solido-assonometria.png|520]]
@@ -461,7 +646,15 @@ Alla fine della lezione la docente fa svolgere in aula un secondo esercizio di p
 
 ## Collegamenti
 
-L'omologia è lo strumento che tiene insieme tutto il corso. Le proprietà proiettive e le condizioni di appartenenza viste qui tornano subito nelle proiezioni ortogonali, introdotte nella lezione dell'8 ottobre ([[03-proiettiva-e-proiezioni-ortogonali]] e [[03-proiezioni-ortogonali-punto-e-rette]]), dove i punti si indicano con i pedici invece che con l'apice, e nel metodo di Monge per rette e piani ([[04-rette-e-piani-metodo-di-monge]], [[04-rette-e-piani-nelle-varie-posizioni]], [[05-appartenenza-e-rette-ausiliarie]]). L'affinità ortogonale ricompare nel ribaltamento ([[07-ribaltamento-piani-proiettanti]] e [[07-il-ribaltamento]]), dove tra la prima proiezione di una figura e il suo ribaltamento c'è un'omologia con l'asse sulla traccia-cerniera e il centro all'infinito nella direzione perpendicolare all'asse. Più avanti l'affinità servirà nell'assonometria, ortogonale e obliqua, e l'omologia nella sezione delle piramidi e nella ricerca della vera forma di una sezione; l'omotetia è alla base della prospettiva centrale frontale. Le regole sul tratto e sulle lettere riprendono quelle della prima lezione ([[01-strumenti-materiali-e-regole]]).
+L'omologia è lo strumento che tiene insieme tutto il corso.
+
+Le proprietà proiettive e le condizioni di appartenenza viste qui tornano subito nelle proiezioni ortogonali, introdotte nella lezione dell'8 ottobre ([[03-proiettiva-e-proiezioni-ortogonali]] e [[03-proiezioni-ortogonali-punto-e-rette]]), dove i punti si indicano con i pedici invece che con l'apice, e nel metodo di Monge per rette e piani ([[04-rette-e-piani-metodo-di-monge]], [[04-rette-e-piani-nelle-varie-posizioni]], [[05-appartenenza-e-rette-ausiliarie]]).
+
+L'affinità ortogonale ricompare nel ribaltamento ([[07-ribaltamento-piani-proiettanti]] e [[07-il-ribaltamento]]), dove tra la prima proiezione di una figura e il suo ribaltamento c'è un'omologia con l'asse sulla traccia-cerniera e il centro all'infinito nella direzione perpendicolare all'asse.
+
+Più avanti l'affinità servirà nell'assonometria, ortogonale e obliqua, e l'omologia nella sezione delle piramidi e nella ricerca della vera forma di una sezione; l'omotetia è alla base della prospettiva centrale frontale.
+
+Le regole sul tratto e sulle lettere riprendono quelle della prima lezione ([[01-strumenti-materiali-e-regole]]).
 
 ## Materiale usato
 
