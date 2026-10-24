@@ -95,3 +95,11 @@ La visita alla Via Appia è innanzitutto un'applicazione diretta dei contenuti d
 La strada consolare, inoltre, completa il quadro della città romana delineato con il [[03-roma-foro-e-fori-imperiali|Foro e i Fori Imperiali]]: il Foro è il centro della vita pubblica, le vie consolari sono le linee che lo collegano al territorio, e lungo di esse si dispongono i sepolcri che la città esclude dal proprio interno. Il mausoleo circolare di Cecilia Metella introduce poi il confronto con il mausoleo di Augusto e con l'uso dinastico della memoria nell'età augustea, mentre la Via Appia tornerà come ingresso monumentale a Roma nella visita alle Terme di Caracalla.
 
 Il complesso di Massenzio, infine, apre il tema dell'architettura tardoantica. La sua residenza fuori città si inserisce nella tradizione della villa imperiale che ha nella Villa di Adriano a Tivoli il suo esempio più celebre, il mausoleo di Romolo dialoga con le forme del Pantheon, e la figura di Massenzio tornerà come committente della grande basilica nell'area dei Fori, poi completata da Costantino. Il riuso del mausoleo di Cecilia Metella nel castello dei Caetani e il motivo del bugnato anticipano, infine, due temi che accompagneranno il corso fino al Rinascimento: la trasformazione e il reimpiego delle architetture antiche, e lo studio dell'antico da parte degli architetti dell'età moderna.
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[4_Visita Via Appia_2026.pdf]]: slide della visita
+- [[5_tecniche costruttive.pdf]]: tecniche murarie citate nella visita
+- [[MATTEI Storia dell'architettura 1_parole chiave.pdf]]: parole chiave della docente per l'argomento

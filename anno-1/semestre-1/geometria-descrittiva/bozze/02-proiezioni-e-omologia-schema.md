@@ -395,3 +395,16 @@ Con centro e asse all'infinito valgono insieme le due regole: i corrispondenti s
 ## Collegamenti
 
 L'omologia è lo strumento che tiene insieme tutto il corso. Le proprietà proiettive e le condizioni di appartenenza viste qui tornano subito nelle proiezioni ortogonali, introdotte nella lezione dell'8 ottobre ([[03-proiettiva-e-proiezioni-ortogonali]] e [[03-proiezioni-ortogonali-punto-e-rette]]), dove i punti si indicano con i pedici invece che con l'apice, e nel metodo di Monge per rette e piani ([[04-rette-e-piani-metodo-di-monge]], [[04-rette-e-piani-nelle-varie-posizioni]], [[05-appartenenza-e-rette-ausiliarie]]). L'affinità ortogonale ricompare nel ribaltamento ([[07-ribaltamento-piani-proiettanti]] e [[07-il-ribaltamento]]), dove tra la prima proiezione di una figura e il suo ribaltamento c'è un'omologia con l'asse sulla traccia-cerniera e il centro all'infinito nella direzione perpendicolare all'asse. Più avanti l'affinità servirà nell'assonometria, ortogonale e obliqua, e l'omologia nella sezione delle piramidi e nella ricerca della vera forma di una sezione; l'omotetia è alla base della prospettiva centrale frontale. Le regole sul tratto e sulle lettere riprendono quelle della prima lezione ([[01-strumenti-materiali-e-regole]]).
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[ARGOMENTI LEZIONI 26-27.pdf]]: elenco degli argomenti della lezione
+- [[PROGRAMMA_26-27.pdf]]: bibliografia e modalità d'esame
+- [[ES.GUIDATA_Omologia_01.pdf]]: i sei esercizi guidati sull'omologia
+- [[OMOLOGIA_riepilogo.pdf]]: sei esercizi di riepilogo
+- [[OMOLOGIA_riepilogo_soluzione.pdf]]: soluzioni della docente, ridisegnate nella bozza
+- [[OMOLOGIA_2_affinità.pdf]]: esercizio sull'affinità
+- [[OMOLOGIA_2_affinità_soluzione.pdf]]: soluzione della docente
+- [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: data della Prova n. 1

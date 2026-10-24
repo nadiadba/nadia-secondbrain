@@ -159,3 +159,11 @@ Al di sotto di tutte le varianti, tuttavia, resta immutato un principio fondamen
 ## Collegamenti
 
 Il tema degli ordini non si esaurisce nel mondo antico, ma attraversa l'intera storia dell'architettura occidentale. Gli stessi elementi tornano infatti protagonisti nell'architettura del Rinascimento, quando la riscoperta di Vitruvio e lo studio delle rovine romane riportano gli ordini al centro del progetto: per questa ragione la terminologia appresa ora costituisce una base che tornerà indispensabile nei moduli successivi del corso, dedicati all'età umanistica e rinascimentale. Un ponte diretto è offerto dal [[02-acropoli-e-partenone|Partenone]], che sarà studiato come massimo esempio di tempio dorico e come vertice dell'architettura classica. Infine, il costante rapporto tra forma architettonica e luogo di origine, che ricorre nella genesi di ciascuno dei tre ordini, si collega direttamente al tema dell'esercitazione su storia e geografia dell'architettura, invitando a leggere ogni edificio anche come prodotto di un territorio e di una cultura.
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[1_il tempio e gli ordini architettonici.pdf]]: slide della lezione
+- [[THOENES cinque tesi sugli ordini.pdf]]: saggio di Thoenes
+- [[MATTEI Storia dell'architettura 1_parole chiave.pdf]]: parole chiave della docente per l'argomento

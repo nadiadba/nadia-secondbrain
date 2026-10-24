@@ -242,3 +242,16 @@ Nella stessa serie c'è un secondo solido in assonometria (scheda esrcit_02), pi
 ## Collegamenti
 
 Gli strumenti e le regole di questa lezione servono in ogni esercizio del corso: le linee di costruzione lasciate in vista, i segni leggeri e marcati, le campiture e la scrittura tra le parallele tornano in tutte le costruzioni, dalle [[02-proiezioni-e-omologia-schema|proiezioni e l'omologia]] in poi. L'esercizio delle piante ruotate e dei prospetti è un primo assaggio delle proiezioni ortogonali, che vengono introdotte con il metodo di Monge nella lezione dell'8 ottobre ([[03-proiettiva-e-proiezioni-ortogonali]]): lì la pianta diventa la prima proiezione e il prospetto la seconda, con la linea di terra che le separa, e torna l'errore del prospetto disegnato al contrario, legato proprio alla domanda su dove sia il davanti. Il modellino dei piani di riferimento annunciato in questa lezione serve per [[04-rette-e-piani-metodo-di-monge|rette e piani nello spazio]]. Scale, piante e prospetti si ritrovano anche nel laboratorio di Composizione architettonica ([[01-laboratorio-come-funziona]]), e le tavole 50 × 70 e il raccoglitore A4 sono gli elaborati in cui il caso di studio scelto verrà ridisegnato a riga e squadra.
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[ARGOMENTI LEZIONI 26-27.pdf]]: elenco degli argomenti della lezione
+- [[Da portare sempre a lezione.pdf]]: elenco degli strumenti
+- [[PROGRAMMA_26-27.pdf]]: programma del corso e modalità d'esame
+- [[esercit_01.jpg]]: scheda del primo esercizio (solido in assonometria)
+- [[esercit_01_esecuzione.pdf]]: come si esegue l'esercizio, passo per passo
+- [[esrcit_02.pdf]]: secondo solido in assonometria
+- [[004b_scale di rappresentazione.jpg]]: tabella delle scale
+- [[007_Scale grafiche_M2.jpg]]: scale grafiche

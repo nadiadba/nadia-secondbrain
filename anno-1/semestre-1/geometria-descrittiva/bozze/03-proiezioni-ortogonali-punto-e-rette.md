@@ -232,3 +232,18 @@ La retta $m$ proiettante in seconda è perpendicolare a $\pi_2$. La sua traccia 
 ## Collegamenti
 
 La prima parte della lezione chiude il discorso sulla geometria proiettiva iniziato nella [[02-proiezioni-e-omologia-schema|lezione sull'omologia]]: le due proprietà dell'omologia e le condizioni di appartenenza resteranno lo strumento per risolvere tutti gli esercizi, e torneranno nell'omologia di ribaltamento, con cui [[07-il-ribaltamento|si ribaltano le figure dei piani proiettanti]]. La seconda parte apre il metodo di Monge: il punto con le sue tre proiezioni e le due rette proiettanti sono il primo passo verso [[04-rette-e-piani-nelle-varie-posizioni|le rette e i piani nelle varie posizioni]], le [[05-appartenenza-e-rette-ausiliarie|condizioni di appartenenza]] e i [[06-piani-ausiliari-e-perpendicolarita|piani ausiliari]]. Le regole del disegno viste nella [[01-strumenti-materiali-e-regole|prima lezione]], come lasciare visibili le linee di richiamo e distinguere il segno delle costruzioni da quello del risultato, trovano qui la prima applicazione. Pianta, prospetti e scale, infine, sono gli stessi strumenti con cui si lavora nel laboratorio di Composizione architettonica.
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[ARGOMENTI LEZIONI 26-27.pdf]]: elenco degli argomenti della lezione
+- [[ES.GUIDATA_Omologia_01.pdf]]: esercizio guidato fatto a inizio lezione
+- [[PO_riepilogo_1.pdf]]: esercizi sul punto e sulle rette
+- [[PO_riepilogo_1_soluzione.pdf]]: soluzioni della docente
+- [[PO_data-la-1°-trovare-2°-e-3°_svolgimento.pdf]]: svolgimento: data la prima proiezione, trovare la seconda e la terza
+- [[004b_scale di rappresentazione.jpg]]: tabella delle scale
+- [[007_Scale grafiche_M2.jpg]]: scale grafiche
+- [[taccuino-marta-01-proiezioni-ortogonali-pianta-prospetti-scale.jpg]]: foto del taccuino di Marta
+- [[taccuino-marta-02-sezione-verticale-e-proiezioni-del-punto.jpg]]: foto del taccuino di Marta
+- [[taccuino-marta-03-retta-proiettante-in-seconda.jpg]]: foto del taccuino di Marta

@@ -274,3 +274,14 @@ Il ribaltamento torna utile anche in un esercizio della scheda PO_riepilogo_1: d
 ## Collegamenti
 
 Il ribaltamento mette insieme quasi tutto quello che si è visto finora. Si fonda sui piani proiettanti e sulle loro tracce, studiati in [[04-rette-e-piani-nelle-varie-posizioni]] e nella sbobina [[04-rette-e-piani-metodo-di-monge]], e sulla lettura di quota e aggetto di un punto, che risale alle [[03-proiettiva-e-proiezioni-ortogonali|proiezioni ortogonali del punto]] e alla bozza [[03-proiezioni-ortogonali-punto-e-rette]]. Il modellino con il piano mobile era stato preparato alla fine della lezione del 20 ottobre ([[06-piani-proiettanti-orizzontali-frontali]]), la stessa in cui la docente aveva raccomandato di riguardare la perpendicolarità tra retta e piano con l'orizzontale e la frontale ([[06-piani-ausiliari-e-perpendicolarita]]), perché servirà nel ribaltamento del piano generico, il prossimo argomento. L'omologia di ribaltamento riporta invece alla geometria proiettiva della [[02-proiezioni-e-omologia|seconda lezione]] e al suo [[02-proiezioni-e-omologia-schema|schema]]: l'affinità, con il centro all'infinito, è la stessa che si ripassa negli esercizi della scheda OMOLOGIA_riepilogo, e il punto unito sulla cerniera è un caso della regola per cui le rette corrispondenti si incontrano sull'asse. Infine, il ribaltamento della retta di profilo mostra che la stessa tecnica risolve problemi di appartenenza come quelli di [[05-appartenenza-e-rette-ausiliarie]].
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[ARGOMENTI LEZIONI 26-27.pdf]]: elenco degli argomenti della lezione
+- [[OMOLOGIA_riepilogo.pdf]]: la scheda da stampare per l'esercitazione
+- [[OMOLOGIA_riepilogo_soluzione.pdf]]: soluzioni della docente
+- [[PO_riepilogo_1.pdf]]: esercizio sulla retta di profilo
+- [[PO_riepilogo_1_soluzione.pdf]]: soluzione della docente
+- [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: data della Prova n. 1

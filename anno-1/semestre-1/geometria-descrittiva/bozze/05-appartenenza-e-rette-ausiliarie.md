@@ -440,3 +440,25 @@ La scheda di riepilogo chiede anche di trovare le tracce di rette date per proie
 ## Collegamenti
 
 Questa lezione chiude il discorso iniziato con [[03-proiezioni-ortogonali-punto-e-rette|le proiezioni ortogonali del punto e delle rette]] e proseguito con [[04-rette-e-piani-nelle-varie-posizioni|le rette e i piani nelle varie posizioni]], da cui riprende le condizioni di appartenenza applicandole al piano proiettante in seconda e ai casi generici. Le rette orizzontale e frontale, presentate qui come rette ausiliarie, sono gli strumenti con cui si risolvono i problemi della lezione successiva sui [[06-piani-ausiliari-e-perpendicolarita|piani ausiliari e la perpendicolarità]], e la ricerca delle tracce del piano di una figura serve a preparare [[07-il-ribaltamento|il ribaltamento]], che permette di vedere la figura in vera forma. Il triangolo delle tracce del piano generico tornerà nell'assonometria come triangolo delle tracce del piano di quadro, e il rigore delle linee di richiamo leggere ma visibili è quello chiesto fin dalle [[01-strumenti-materiali-e-regole|regole del disegno]]. Il testo completo della lezione è nella sbobina [[05-piani-rette-e-appartenenza]].
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[ARGOMENTI LEZIONI 26-27.pdf]]: elenco degli argomenti della lezione
+- [[PO_condizioni di appartenenza_1.pdf]]: esercizi sulle condizioni di appartenenza
+- [[PO_condizioni di appartenenza_1_soluzione.pdf]]: soluzioni della docente
+- [[PO_condizioni di appartenenza_2.pdf]]: altri esercizi di appartenenza
+- [[PO_condizioni di appartenenza_2_soluzione.pdf]]: soluzioni della docente
+- [[PO_data-la-1°-trovare-2°-e-3°_svolgimento.pdf]]: svolgimento: data la prima proiezione, trovare la seconda e la terza
+- [[PO_riepilogo_1.pdf]]: scheda di riepilogo
+- [[PO_riepilogo_1_soluzione.pdf]]: soluzioni della docente
+- [[PO_proiezioni-solidi_1.pdf]]: esercizio sulle proiezioni dei solidi
+- [[PO_proiezioni-solidi_1_soluzione.pdf]]: soluzione della docente
+- [[assegno su rette e piani e modello.pdf]]: il compito con il modello
+- [[taccuino-marta-04-piano-proiettante-in-seconda.jpg]]: foto del taccuino di Marta
+- [[taccuino-marta-05-riepilogo-rette-nei-piani.jpg]]: foto del taccuino di Marta
+- [[taccuino-marta-06-retta-generica-e-piano-generico.jpg]]: foto del taccuino di Marta
+- [[taccuino-marta-07-rette-orizzontale-frontale-di-profilo.jpg]]: foto del taccuino di Marta
+- [[taccuino-marta-08-punto-che-appartiene-a-un-piano.jpg]]: foto del taccuino di Marta
+- [[taccuino-marta-09-esercizio-punto-nel-piano.jpg]]: foto del taccuino di Marta

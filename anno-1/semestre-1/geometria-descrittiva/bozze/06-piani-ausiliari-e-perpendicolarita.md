@@ -348,3 +348,20 @@ Il raccoglitore ha buste trasparenti. In copertina va la copertina fornita dai d
 ## Collegamenti
 
 Questa lezione mette al lavoro tutto ciò che si è costruito nelle lezioni precedenti. Le tracce e i punti notevoli della retta generica vengono dalle [[03-proiezioni-ortogonali-punto-e-rette|proiezioni ortogonali del punto e delle rette]]; i piani nelle varie posizioni, che qui si riconoscono dalla forma delle proiezioni di una figura, sono quelli della bozza sulle [[04-rette-e-piani-nelle-varie-posizioni|rette e i piani nelle varie posizioni]]; le orizzontali, le frontali e le condizioni di appartenenza sono quelle della bozza su [[05-appartenenza-e-rette-ausiliarie|appartenenza e rette ausiliarie]]. Il discorso sulla vera grandezza nel piano frontale si appoggia all'omologia e alla traslazione, con asse e centro all'infinito, viste nello [[02-proiezioni-e-omologia-schema|schema su proiezioni e omologia]], mentre la definizione di diedro e di retta perpendicolare a un piano risale ai richiami di geometria della lezione del 6 ottobre. Il piano ausiliario perpendicolare al piano dato e il piano mobile del modellino preparano direttamente [[07-il-ribaltamento|il ribaltamento]], dove la rotazione intorno alla traccia diventa una costruzione sul foglio. Le orizzontali e le perpendicolari servono anche per le ombre e per le falde dei tetti, e il ridisegno di Villa Tugendhat o di Villa Le Lac applica in scala 1:100 le stesse proiezioni ortogonali, che il corso porterà fino alle tavole d'esame. Per il testo completo della docente si veda la sbobina [[06-piani-proiettanti-orizzontali-frontali]], e per la lezione successiva [[07-ribaltamento-piani-proiettanti]].
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[ARGOMENTI LEZIONI 26-27.pdf]]: elenco degli argomenti della lezione
+- [[PO_condizioni di appartenenza_1.pdf]]: esercizi caricati il 20 ottobre
+- [[PO_condizioni di appartenenza_1_soluzione.pdf]]: soluzioni della docente
+- [[PO_condizioni di appartenenza_2.pdf]]: esercizi caricati il 20 ottobre
+- [[PO_condizioni di appartenenza_2_soluzione.pdf]]: soluzioni della docente
+- [[PO_proiezioni-solidi_1.pdf]]: esercizio sulle proiezioni dei solidi
+- [[PO_proiezioni-solidi_1_soluzione.pdf]]: soluzione della docente
+- [[linee guida per lo studio delle architetture proposte _2026-2027.pdf]]: come si studia la casa scelta
+- [[2_Villa Tugendhat_Mies van der Rohe.pdf]]: la prima delle due case proposte
+- [[3_Villa Le Lac_Le Corbusier.pdf]]: la seconda casa proposta
+- [[3_Pianta casa a Le Lac.jpg]]: pianta di Villa Le Lac
+- [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: date delle prove e delle consegne

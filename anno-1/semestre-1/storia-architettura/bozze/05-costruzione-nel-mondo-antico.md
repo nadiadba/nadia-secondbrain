@@ -109,3 +109,10 @@ La cupola si ottiene per rotazione dell'arco attorno al proprio asse, generando 
 ## Collegamenti
 
 Questa lezione è la "cassetta degli attrezzi" per leggere tutte le opere che incontreremo: ogni volta che studieremo un edificio ne osserveremo anche il modo di costruzione, riconoscendo i materiali e gli apparecchi murari qui descritti. Il sistema trilitico collega questa parte all'architettura greca e agli [[01-ordini-architettonici|ordini]], mentre l'arco, le volte, la cupola e l'opera cementizia sono la chiave dell'architettura romana e dei suoi grandi edifici (anfiteatri, teatri, terme, Pantheon). Il tema dei tipi di pietra e della loro provenienza — marmo pentelico, travertino, peperino — si lega direttamente all'esercitazione individuale *Geografie della pietra. Atlante dei materiali*. Infine, molte di queste tecniche e sistemi (l'opus spicatum, l'arco inquadrato nell'ordine) torneranno protagoniste nell'architettura del Rinascimento.
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[5_tecniche costruttive.pdf]]: slide della lezione
+- [[MATTEI Storia dell'architettura 1_parole chiave.pdf]]: parole chiave della docente per l'argomento

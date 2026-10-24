@@ -340,3 +340,18 @@ La docente ha insistito molto sul modo di disegnare. Le proiezioni si fanno prim
 ## Collegamenti
 
 Questa lezione prosegue direttamente quella sul punto e sulle rette proiettanti ([[03-proiezioni-ortogonali-punto-e-rette]]), da cui riprende la condizione di appartenenza del punto alla retta, il metodo delle tracce e l'uso degli archi per portare l'aggetto sul terzo piano. Le rette frontale e orizzontale, presentate qui come rette notevoli, diventano gli strumenti principali nella lezione successiva ([[05-appartenenza-e-rette-ausiliarie]]), dove servono come rette ausiliarie per verificare l'appartenenza di un punto a un piano generico; da lì si passa ai piani ausiliari e alla perpendicolarità ([[06-piani-ausiliari-e-perpendicolarita]]). Il passaggio "dalla figura ai piani", con cui la docente chiude l'esercizio sulla figura nel piano parallelo alla linea di terra, prepara il ribaltamento dei piani proiettanti ([[07-il-ribaltamento]]), che serve a vedere le figure in vera grandezza; il quadrato nel piano proiettante in prima, che non appare mai in vera grandezza nelle tre proiezioni, ne è la motivazione. La correzione dell'esercizio guidato rimanda all'omologia ([[02-proiezioni-e-omologia-schema]]), che tornerà proprio come omologia di ribaltamento. Le regole sul disegno (strumenti, segno, lettere) sono quelle della prima lezione ([[01-strumenti-materiali-e-regole]]). Il testo completo della lezione è nella sbobina [[04-rette-e-piani-metodo-di-monge]]; il seguito è nella sbobina [[05-piani-rette-e-appartenenza]].
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[ARGOMENTI LEZIONI 26-27.pdf]]: elenco degli argomenti della lezione
+- [[PO_riepilogo_1.pdf]]: esercizi su punto, rette e piani
+- [[PO_riepilogo_1_soluzione.pdf]]: soluzioni della docente
+- [[PO_condizioni di appartenenza_1.pdf]]: esercizi sulle condizioni di appartenenza
+- [[PO_condizioni di appartenenza_1_soluzione.pdf]]: soluzioni della docente
+- [[PO_condizioni di appartenenza_2.pdf]]: altri esercizi di appartenenza
+- [[PO_condizioni di appartenenza_2_soluzione.pdf]]: soluzioni della docente
+- [[assegno su rette e piani e modello.pdf]]: il compito con il modello (sette fogli)
+- [[taccuino-marta-07-rette-orizzontale-frontale-di-profilo.jpg]]: foto del taccuino di Marta
+- [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: data della Prova n. 1

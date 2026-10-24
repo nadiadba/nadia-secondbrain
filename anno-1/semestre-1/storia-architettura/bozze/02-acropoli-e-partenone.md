@@ -87,3 +87,10 @@ La caratteristica principale del teatro greco è l'immersione nel paesaggio: l'e
 ## Collegamenti
 
 Il Partenone è il punto di arrivo del percorso sugli [[01-ordini-architettonici|ordini architettonici]]: vi si applicano, in forma esemplare, il tempio dorico periptero, la convivenza con l'ordine ionico e i correttivi ottici studiati in generale. Il tema del rapporto tra forma architettonica e luogo d'origine, qui evidente nella provenienza del marmo pentelico e pario, è lo stesso che percorre l'esercitazione su storia e geografia dell'architettura. Infine, il confronto tra il teatro greco, immerso nel paesaggio, e quello romano, volume costruito e autonomo, apre il discorso che prosegue nella [[03-roma-foro-e-fori-imperiali|parte dedicata a Roma]] e negli [[06-potere-imperiale-spettacolo-pompei|edifici per lo spettacolo]].
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[2_Acropoli e Partenone.pdf]]: slide della lezione
+- [[MATTEI Storia dell'architettura 1_parole chiave.pdf]]: parole chiave della docente per l'argomento

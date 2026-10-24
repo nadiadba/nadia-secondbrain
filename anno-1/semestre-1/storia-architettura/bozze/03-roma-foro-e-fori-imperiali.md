@@ -73,3 +73,10 @@ Monumento gemello è la Colonna di Marco Aurelio (180-193 d.C.), eretta per cele
 ## Collegamenti
 
 Il Foro romano permette di confrontare la concezione della città greca e di quella romana: alla separazione tra [[02-acropoli-e-partenone|Acropoli]] e agorà si sostituisce il Foro come centro unico e totale della vita cittadina. Il sistema dell'arco inquadrato nell'ordine, offerto dal Tabularium, è un ponte diretto verso i grandi edifici per lo spettacolo (anfiteatri e teatri) e verso l'architettura del Rinascimento, che riprenderà questo motivo. Infine, i templi dei Fori — da Venere Genitrice a Marte Ultore — mostrano come l'architettura romana usi le forme (e le dedicazioni) per costruire un discorso politico e dinastico, lo stesso principio di celebrazione del potere che percorre tutta la vicenda imperiale.
+
+## Materiale usato
+
+I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
+
+- [[3_ROMA Foro Romano e Fori Imperiali.pdf]]: slide della lezione
+- [[MATTEI Storia dell'architettura 1_parole chiave.pdf]]: parole chiave della docente per l'argomento
