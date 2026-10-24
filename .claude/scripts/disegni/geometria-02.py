@@ -354,6 +354,33 @@ def proiezione_punto_retta():
     return f
 
 
+def proiezione_piano():
+    """Disegno proposto: proiettare un piano da S -> stella di rette (non in un unico piano)."""
+    f = F(560, 390, "Proiettare un piano da un centro S: una stella di rette")
+    xq = 220
+    ox, oy = 70, 95
+    pq = [(xq, 0, -75), (xq, 0, 120), (xq, 215, 120), (xq, 215, -75)]
+    f.poligono([schermo(p, ox, oy) for p in pq], "grigio", 0.10, 1.2)
+    f.testo(schermo((xq, 0, -75), ox, oy), "piano di quadro (PQ)", -30, 18, "grigio", 12, False)
+    S = (0, 110, 30)
+    V = [(95, 78, -10), (112, 78, 62), (106, 145, 62), (90, 145, -10)]   # una porzione del piano α
+    Vp = [su_piano3(S, X, 0, xq) for X in V]
+    def media(pts, w):
+        return tuple(sum(wi * q[i] for wi, q in zip(w, pts)) for i in range(3))
+    interni = [media(V, w) for w in ((.25, .25, .25, .25), (.5, .5, 0, 0), (0, .5, .5, 0), (0, 0, .5, .5), (.5, 0, 0, .5))]
+    for X in V + interni:
+        f.linea(schermo(S, ox, oy), schermo(su_piano3(S, X, 0, xq), ox, oy), "grigio", 1, "5,4")
+    f.poligono([schermo(X, ox, oy) for X in V], "blu", 0.18, 2)
+    f.poligono([schermo(X, ox, oy) for X in Vp], "rosso", 0.10, 2)
+    for X in V + interni:
+        f.punto(schermo(X, ox, oy), "", 0, 0, "blu")
+    f.testo(schermo(V[3], ox, oy), "α", -16, -4, "blu", 16)
+    f.testo(schermo(Vp[2], ox, oy), "α′", 6, -4, "rosso", 16)
+    f.punto(schermo(S, ox, oy), "S", -6, -10)
+    f.didascalia("I raggi da S per i punti di α vanno in tutte le direzioni: non stanno in un unico piano.")
+    return f
+
+
 def retta_proiettiva():
     f = F(600, 360, "La retta proiettiva: il modello della circonferenza")
     C, R = (300, 215), 105
@@ -933,6 +960,7 @@ distanza_piano().salva_in(BZ + "b02-distanza-punto-piano.svg")
 rette().salva_in(SB + "02-rette-parallele-incidenti.svg", BZ + "b02-rette-parallele-incidenti.svg")
 diedro_triedro().salva_in(SB + "02-diedro-triedro.svg", BZ + "b02-diedro-triedro.svg")
 proiezione_punto_retta().salva_in(SB + "02-proiezione-punto-retta.svg", BZ + "b02-proiezione-punto-retta.svg")
+proiezione_piano().salva_in(BZ + "b02-proiezione-piano.svg")
 retta_proiettiva().salva_in(SB + "02-retta-proiettiva.svg", BZ + "b02-retta-proiettiva.svg")
 punto_improprio().salva_in(SB + "02-punto-improprio.svg", BZ + "b02-punto-improprio.svg")
 prospettivita().salva_in(SB + "02-prospettivita.svg", BZ + "b02-prospettivita.svg")
