@@ -109,11 +109,3 @@ Il *frigidarium* di Diocleziano permette di comprendere le soluzioni strutturali
 ## Collegamenti
 
 Le Terme di Caracalla raccolgono e mettono alla prova molte delle nozioni incontrate nelle settimane precedenti. Sul piano costruttivo sono un'applicazione su grande scala dell'opera cementizia, del paramento in laterizio, delle volte a botte e a crociera e della cupola descritte nella lezione sulla [[05-costruzione-nel-mondo-antico|costruzione nel mondo antico]], e mostrano come queste tecniche permettessero di coprire spazi di dimensioni prima impensabili. Sul piano urbano e politico, le terme proseguono il discorso sull'architettura come strumento di rappresentazione del potere già affrontato con i [[03-roma-foro-e-fori-imperiali|Fori Imperiali]] e con gli [[06-potere-imperiale-spettacolo-pompei|edifici per lo spettacolo]]: come l'anfiteatro, il complesso termale è un dono dell'imperatore al popolo. La sovrapposizione delle Terme di Traiano alla [[07-residenza-romana-palatino-domus-aurea|Domus Aurea]] ricorda poi che la città antica è un palinsesto di trasformazioni continue, mentre la posizione delle terme lungo l'ingresso della Via Appia lega questa visita a quella del [[04-via-appia-cecilia-metella-massenzio|sepolcro di Cecilia Metella e della Villa di Massenzio]]. Il tema della grande cupola su pianta circolare, qui affrontato nel *calidarium*, troverà la sua espressione più alta nel Pantheon, mentre le grandi aule voltate delle terme saranno il modello di riferimento per l'architettura tardoantica, a partire dalla Basilica di Massenzio, la cui navata riprende la struttura del *frigidarium* termale. Infine, la riconversione delle Terme di Diocleziano in chiesa e lo studio delle rovine termali da parte degli architetti del Cinquecento anticipano il rapporto tra antico e moderno che sarà centrale nel modulo sul Rinascimento.
-
-## Materiale usato
-
-I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul computer dove c'è il materiale).
-
-- [[9_visita didattica alle terme di Caracalla.pdf]]: slide della visita
-- [[5_tecniche costruttive.pdf]]: tecniche costruttive delle terme
-- [[MATTEI Storia dell'architettura 1_parole chiave.pdf]]: parole chiave della docente per l'argomento
