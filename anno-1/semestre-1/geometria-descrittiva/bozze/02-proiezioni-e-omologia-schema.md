@@ -233,17 +233,25 @@ Le proprietà proiettive fondamentali sembrano ovvie, ma sono la struttura di og
 
 La geometria proiettiva introduce gli enti impropri: punti, rette e piani la cui posizione si considera, per convenzione, all'infinito.
 
-L'infinito non si vede, ma se ne dimostra l'esistenza per induzione geometrica con il modello della circonferenza.
+In altre parole, si chiamano propri gli enti che stanno a una distanza finita, cioè quelli che possiamo disegnare sul foglio, e impropri quelli che stanno all'infinito. A che cosa serve? Nella geometria euclidea due rette parallele non si incontrano mai; nella geometria proiettiva, invece, si dice che si incontrano anche loro, ma in un punto che sta all'infinito: il punto improprio.
+
+L'infinito non si vede, ma se ne dimostra l'esistenza per induzione geometrica con il modello della circonferenza (Disegno 7).
 
 1. Si prende una circonferenza, si pone su di essa il centro di proiezione $S$ e si considera una retta $r$ alla base.
 2. Proiettando da $S$ i punti di $r$, a ciascuno corrisponde un punto della circonferenza;
 3. continuando, anche il raggio che diventa parallelo a $r$ lascia un'immagine sulla circonferenza, come tutti gli altri.
 
+Il ragionamento è questo. Ogni raggio che parte da $S$ e incontra $r$ in un punto lascia la sua immagine sulla circonferenza. Il raggio parallelo a $r$ non incontra $r$ in nessun punto che possiamo disegnare, eppure lascia anche lui la sua immagine sulla circonferenza.
+
 Se esiste l'immagine, esiste il punto che l'ha generata, e si trova all'infinito: la circonferenza è il modello della retta proiettiva, cioè della retta a cui si aggiunge il suo punto improprio.
 
-Due rette parallele, dunque, si incontrano in un punto improprio, che si rappresenta con la sua direzione, un piccolo trattino che dice verso dove "va" la retta.
+Due rette parallele, dunque, si incontrano in un punto improprio (Disegno 8), che si rappresenta con la sua direzione, un piccolo trattino che dice verso dove "va" la retta. Infatti il punto improprio non si può disegnare, perché sta all'infinito.
+
+Tutte le rette parallele tra loro hanno la stessa direzione, quindi hanno lo stesso punto improprio: per questo si dice che si incontrano lì.
 
 I postulati di appartenenza si ampliano di conseguenza: per due punti passa una e una sola retta anche quando uno dei due è improprio, perché la retta conterrà il punto proprio e avrà la direzione dell'altro.
+
+Per esempio, dati un punto $A$ sul foglio e un punto improprio $P_\infty$ (cioè una direzione), la retta che li contiene tutti e due è la retta che passa per $A$ e ha quella direzione: è la parallela per $A$.
 
 > [!example] Disegno 7 · Il disegno: il modello della circonferenza
 > ![[b02-retta-proiettiva.svg|600]]
