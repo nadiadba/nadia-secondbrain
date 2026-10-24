@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 436" width="640" height="436">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Omotetia: centro U proprio, asse all'infinito (u∞)</text>
+<g transform="translate(0,36)">
+<line x1="120.0" y1="290.0" x2="292.5" y2="43.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="120.0" y1="290.0" x2="482.6" y2="96.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="120.0" y1="290.0" x2="392.3" y2="215.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="190.0,190.0 270.0,210.0 230.0,260.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="281.0,60.0 465.0,106.0 373.0,221.0" fill="#2e8b57" fill-opacity="0.12" stroke="#2e8b57" stroke-width="1.8"/>
+<circle cx="120.0" cy="290.0" r="2.8" fill="#1f1f1f"/>
+<text x="102.0" y="294.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">U</text>
+<circle cx="190.0" cy="190.0" r="2.8" fill="#2563a8"/>
+<text x="172.0" y="188.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="270.0" cy="210.0" r="2.8" fill="#2563a8"/>
+<text x="274.0" y="228.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<circle cx="230.0" cy="260.0" r="2.8" fill="#2563a8"/>
+<text x="226.0" y="280.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
+<circle cx="281.0" cy="60.0" r="2.8" fill="#2e8b57"/>
+<text x="255.0" y="58.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">A′</text>
+<circle cx="465.0" cy="106.0" r="2.8" fill="#2e8b57"/>
+<text x="473.0" y="110.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">B′</text>
+<circle cx="373.0" cy="221.0" r="2.8" fill="#2e8b57"/>
+<text x="381.0" y="235.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">C′</text>
+<line x1="561.0" y1="79.0" x2="579.0" y2="61.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="561.0" y1="61.0" x2="579.0" y2="79.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="584.0" y="75.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">u<tspan dy="4" font-size="70%">∞</tspan><tspan dy="-4"></tspan></text>
+<text x="14" y="388" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">L'asse è all'infinito: i lati corrispondenti sono paralleli (A′B′ ∥ AB...). La figura si ingrandisce.</text>
+</g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 506" width="740" height="506">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Il prospetto del lato in alto della pianta: giusto e sbagliato</text>
+<g transform="translate(0,36)">
+<polygon points="60.0,440.0 260.0,440.0 260.0,330.0 130.0,330.0 130.0,360.0 60.0,360.0" fill="#9aa5b1" fill-opacity="0.25" stroke="#1f1f1f" stroke-width="2"/>
+<text x="160.0" y="400.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444" text-anchor="middle">pianta</text>
+<text x="95.0" y="352.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#d97706" text-anchor="middle">rientranza</text>
+<text x="20.0" y="20.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" text-anchor="start" font-weight="bold">GIUSTO: LT in alto, prospetto a testa in giù</text>
+<line x1="30.0" y1="70.0" x2="300.0" y2="70.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="30.0" y="64.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f" text-anchor="start" font-style="italic">LT</text>
+<line x1="60.0" y1="360.0" x2="60.0" y2="70.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="130.0" y1="330.0" x2="130.0" y2="70.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="260.0" y1="330.0" x2="260.0" y2="70.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="4,3" stroke-linecap="round"/>
+<rect x="60.0" y="70.0" width="70.0" height="60.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1.8"/>
+<rect x="130.0" y="70.0" width="130.0" height="100.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1.8"/>
+<rect x="82.0" y="90.0" width="26.0" height="22.0" fill="#d6e4f0" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="175.0" y="100.0" width="40.0" height="30.0" fill="#d6e4f0" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<text x="95.0" y="148.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#d97706" text-anchor="middle">rientranza</text>
+<line x1="330.0" y1="38.0" x2="330.0" y2="90.0" stroke="#2e8b57" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="330.0" y1="90.0" x2="326.0" y2="81.0" stroke="#2e8b57" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="330.0" y1="90.0" x2="334.0" y2="81.0" stroke="#2e8b57" stroke-width="1.6" stroke-linecap="round"/>
+<text x="322.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#2e8b57" text-anchor="end">si guarda da qui</text>
+<text x="312.0" y="300.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#444" text-anchor="end">girando il foglio la rientranza</text>
+<text x="312.0" y="314.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#444" text-anchor="end">è a destra, come la vede chi guarda</text>
+<polygon points="430.0,440.0 630.0,440.0 630.0,330.0 500.0,330.0 500.0,360.0 430.0,360.0" fill="#9aa5b1" fill-opacity="0.25" stroke="#1f1f1f" stroke-width="2"/>
+<text x="530.0" y="400.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444" text-anchor="middle">pianta</text>
+<text x="465.0" y="352.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#d97706" text-anchor="middle">rientranza</text>
+<text x="390.0" y="20.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#c0392b" text-anchor="start" font-weight="bold">SBAGLIATO: LT sotto, prospetto specchiato</text>
+<line x1="400.0" y1="308.0" x2="670.0" y2="308.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="400.0" y="324.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f" text-anchor="start" font-style="italic">LT</text>
+<line x1="430.0" y1="360.0" x2="430.0" y2="308.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="500.0" y1="330.0" x2="500.0" y2="308.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="630.0" y1="330.0" x2="630.0" y2="308.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="4,3" stroke-linecap="round"/>
+<rect x="430.0" y="248.0" width="70.0" height="60.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1.8"/>
+<rect x="500.0" y="208.0" width="130.0" height="100.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1.8"/>
+<rect x="452.0" y="266.0" width="26.0" height="22.0" fill="#d6e4f0" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="545.0" y="248.0" width="40.0" height="30.0" fill="#d6e4f0" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<text x="465.0" y="234.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#d97706" text-anchor="middle">rientranza</text>
+<text x="550.0" y="150.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#444" text-anchor="middle">è come guardare l'edificio</text>
+<text x="550.0" y="164.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#444" text-anchor="middle">da dentro: destra e sinistra</text>
+<text x="550.0" y="178.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#444" text-anchor="middle">sono scambiate</text>
+</g>
+</svg>

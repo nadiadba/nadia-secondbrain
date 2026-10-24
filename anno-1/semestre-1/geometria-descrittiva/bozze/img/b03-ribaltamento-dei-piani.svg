@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 506" width="760" height="506">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Come i tre piani finiscono sul foglio: π₃ ruota su π₂, poi π₁ ruota sotto la LT</text>
+<g transform="translate(0,36)">
+<polygon points="101.9,283.2 220.0,215.0 300.5,261.5 182.4,329.7" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="101.9,283.2 220.0,215.0 220.0,122.0 101.9,190.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="220.0,215.0 300.5,261.5 300.5,168.5 220.0,122.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="101.9" y1="283.2" x2="220.0" y2="215.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="220.0" y1="215.0" x2="300.5" y2="261.5" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="220.0" y1="215.0" x2="220.0" y2="122.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="190.0" y="304.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="125.6" y="187.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="276.4" y="194.1" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="79.9" y="287.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<line x1="220.0" y1="215.0" x2="300.5" y2="168.5" stroke="#2563a8" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="300.5" y1="168.5" x2="300.5" y2="75.5" stroke="#2563a8" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="300.5" y1="75.5" x2="220.0" y2="122.0" stroke="#2563a8" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="101.9" y1="283.2" x2="101.9" y2="376.2" stroke="#2e8b57" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="101.9" y1="376.2" x2="220.0" y2="308.0" stroke="#2e8b57" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="220.0" y1="308.0" x2="220.0" y2="215.0" stroke="#2e8b57" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<path d="M 300.5 224.3 L 304.6 221.8 L 308.5 219.2 L 312.1 216.5 L 315.5 213.6 L 318.6 210.7 L 321.5 207.7 L 324.1 204.5 L 326.3 201.4 L 328.3 198.1 L 330.0 194.8 L 331.4 191.5 L 332.5 188.1 L 333.3 184.7 L 333.7 181.2 L 333.9 177.8 L 333.7 174.4 L 333.3 170.9 L 332.5 167.5 L 331.4 164.1 L 330.0 160.8 L 328.3 157.5 L 326.3 154.2 L 324.1 151.1 L 321.5 147.9 L 318.6 144.9 L 315.5 142.0 L 312.1 139.1 L 308.5 136.4 L 304.6 133.8 L 300.5 131.3" fill="none" stroke="#2563a8" stroke-width="1.4"/>
+<line x1="300.5" y1="131.3" x2="310.3" y2="132.6" stroke="#2563a8" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="300.5" y1="131.3" x2="306.2" y2="139.4" stroke="#2563a8" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 214.6 311.1 L 214.5 315.9 L 214.2 320.6 L 213.6 325.1 L 212.9 329.4 L 211.9 333.6 L 210.7 337.6 L 209.3 341.3 L 207.7 344.9 L 205.9 348.3 L 203.8 351.4 L 201.6 354.2 L 199.2 356.9 L 196.7 359.3 L 193.9 361.4 L 191.0 363.2 L 188.0 364.8 L 184.8 366.1 L 181.4 367.2 L 178.0 367.9 L 174.4 368.4 L 170.7 368.6 L 166.8 368.5 L 163.0 368.1 L 159.0 367.4 L 154.9 366.5 L 150.8 365.2 L 146.7 363.7 L 142.5 362.0 L 138.3 359.9 L 134.1 357.6" fill="none" stroke="#2e8b57" stroke-width="1.4"/>
+<line x1="134.1" y1="357.6" x2="143.9" y2="358.4" stroke="#2e8b57" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="134.1" y1="357.6" x2="140.1" y2="365.4" stroke="#2e8b57" stroke-width="1.4" stroke-linecap="round"/>
+<text x="306.5" y="89.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#2563a8">π₃ ribaltato</text>
+<text x="81.9" y="394.2" font-family="Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#2e8b57">π₁ ribaltato</text>
+<text x="16.0" y="430.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">1. π₃ ruota attorno allo spigolo verticale e si mette accanto a π₂ (freccia blu).</text>
+<text x="16.0" y="448.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" text-anchor="start">2. π₁ ruota attorno alla LT e scende sotto π₂ (freccia verde): i tre piani diventano il foglio.</text>
+<line x1="460.0" y1="200.0" x2="750.0" y2="200.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="462.0" y="194.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="610.0" y1="50.0" x2="610.0" y2="350.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="500.0" y="110.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8a8a8a" font-style="italic">π₂</text>
+<text x="670.0" y="110.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8a8a8a" font-style="italic">π₃</text>
+<text x="500.0" y="290.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8a8a8a" font-style="italic">π₁</text>
+<text x="460.0" y="350.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f" font-style="italic">π₁ ≡ π₂ ≡ π₃</text>
+<text x="460.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start" font-weight="bold">sul foglio</text>
+</g>
+</svg>

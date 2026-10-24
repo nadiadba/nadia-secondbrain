@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 486" width="600" height="486">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: la retta r perpendicolare al piano α</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,325.0 262.0,190.0 411.4,276.2 177.6,411.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,325.0 262.0,190.0 262.0,25.0 28.2,160.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,190.0 411.4,276.2 411.4,111.2 262.0,25.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="325.0" x2="262.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="411.4" y2="276.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="262.0" y2="25.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="262.0,40.0 41.2,317.5 339.9,235.0" fill="#2563a8" fill-opacity="0.14" stroke="none"/>
+<line x1="41.2" y1="317.5" x2="339.9" y2="235.0" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="41.2" y1="317.5" x2="262.0" y2="40.0" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="339.9" y1="235.0" x2="262.0" y2="40.0" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="261.2" y="273.6" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<text x="126.6" y="160.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="188.0" y1="209.0" x2="203.5" y2="211.1" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="203.5" y1="211.1" x2="255.3" y2="218.2" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<text x="265.3" y="222.2" font-family="Helvetica, Arial, sans-serif" font-size="16" font-style="italic" fill="#c0392b">r</text>
+<circle cx="255.3" cy="218.2" r="2.8" fill="#c0392b"/>
+<text x="261.3" y="210.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">P</text>
+<circle cx="203.5" cy="211.1" r="2.8" fill="#c0392b"/>
+<text x="183.5" y="205.1" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">H</text>
+<line x1="203.5" y1="253.8" x2="255.3" y2="316.2" stroke="#c0392b" stroke-width="1.3" stroke-dasharray="6,4" stroke-linecap="round"/>
+<text x="263.3" y="324.2" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#c0392b">r₁</text>
+<line x1="177.6" y1="196.1" x2="149.3" y2="157.0" stroke="#c0392b" stroke-width="1.3" stroke-dasharray="6,4" stroke-linecap="round"/>
+<text x="155.6" y="192.1" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#c0392b">r₂</text>
+<line x1="203.5" y1="211.1" x2="203.5" y2="253.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="203.5" y1="211.1" x2="177.6" y2="196.1" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="255.3" y1="218.2" x2="255.3" y2="316.2" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="255.3" y1="218.2" x2="149.3" y2="157.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<text x="16" y="424" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">r è perpendicolare ad α (forma 90° con ogni retta di α per H). Le sue proiezioni</text>
+<text x="16" y="442" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">r₁ e r₂ risultano perpendicolari a t₁α e a t₂α: è il teorema di Monge.</text>
+</g>
+</svg>

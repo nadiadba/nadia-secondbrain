@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 436" width="560" height="436">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Due piani proiettanti in seconda β e ε perpendicolari: t₂β ⊥ t₂ε</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="180.0" x2="540.0" y2="180.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="174.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="142.5" y1="180.0" x2="326.9" y2="32.5" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="332.9" y="36.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>β</text>
+<line x1="368.0" y1="180.0" x2="242.5" y2="23.1" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="208.5" y="23.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>ε</text>
+<line x1="142.5" y1="180.0" x2="142.5" y2="340.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="148.5" y="344.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>β</text>
+<line x1="368.0" y1="180.0" x2="368.0" y2="340.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="374.0" y="344.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>ε</text>
+<line x1="273.0" y1="75.6" x2="278.6" y2="82.7" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="278.6" y1="82.7" x2="285.6" y2="77.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="142.5" y1="275.0" x2="368.0" y2="275.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="255.2" y="293.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₁</text>
+<line x1="368.0" y1="180.0" x2="280.0" y2="70.0" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<text x="332.0" y="129.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂ ≡ t₂ε</text>
+<line x1="142.5" y1="266.0" x2="151.5" y2="266.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="151.5" y1="266.0" x2="151.5" y2="275.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<text x="16" y="374" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">In ε si prende la frontale r: r₂ ≡ t₂ε è perpendicolare a t₂β, r₁ ∥ LT è perpendicolare a t₁β.</text>
+<text x="16" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Quindi r è perpendicolare a β, ed ε, che contiene r, è perpendicolare a β.</text>
+</g>
+</svg>

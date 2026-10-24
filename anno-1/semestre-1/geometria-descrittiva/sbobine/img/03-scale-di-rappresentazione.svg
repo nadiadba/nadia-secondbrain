@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 466" width="720" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Le scale: lo stesso muro di 50 cm disegnato in tre scale, e la scala grafica</text>
+<g transform="translate(0,36)">
+<text x="20.0" y="36.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" text-anchor="start" font-weight="bold">scala 1:50</text>
+<text x="20.0" y="54.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">1 m = 2 cm</text>
+<rect x="150.0" y="22.0" width="180.0" height="40.0" fill="#9aa5b1" fill-opacity="0.6" stroke="#1f1f1f" stroke-width="1.4"/>
+<text x="350.0" y="36.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">muro reale: 50 cm</text>
+<text x="350.0" y="52.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2563a8" text-anchor="start">spessore disegnato 1 cm (le misure raddoppiano)</text>
+<text x="20.0" y="116.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" text-anchor="start" font-weight="bold">scala 1:100</text>
+<text x="20.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">1 m = 1 cm</text>
+<rect x="150.0" y="102.0" width="180.0" height="20.0" fill="#9aa5b1" fill-opacity="0.6" stroke="#1f1f1f" stroke-width="1.4"/>
+<text x="350.0" y="116.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">muro reale: 50 cm</text>
+<text x="350.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2563a8" text-anchor="start">spessore disegnato 5 mm</text>
+<text x="20.0" y="196.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" text-anchor="start" font-weight="bold">scala 1:200</text>
+<text x="20.0" y="214.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">1 m = 0,5 cm</text>
+<rect x="150.0" y="182.0" width="180.0" height="10.0" fill="#9aa5b1" fill-opacity="0.6" stroke="#1f1f1f" stroke-width="1.4"/>
+<text x="350.0" y="196.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">muro reale: 50 cm</text>
+<text x="350.0" y="212.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2563a8" text-anchor="start">spessore disegnato 2,5 mm (le misure si dimezzano)</text>
+<text x="20.0" y="262.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" text-anchor="start" font-weight="bold">scala grafica 1:100 (1 m = 1 cm)</text>
+<rect x="30.0" y="282.0" width="40.0" height="8.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<text x="30.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">0</text>
+<rect x="70.0" y="282.0" width="40.0" height="8.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<text x="70.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">1</text>
+<rect x="110.0" y="282.0" width="40.0" height="8.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<text x="110.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">2</text>
+<rect x="150.0" y="282.0" width="40.0" height="8.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<text x="150.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">3</text>
+<rect x="190.0" y="282.0" width="40.0" height="8.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<text x="190.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">4</text>
+<rect x="230.0" y="282.0" width="40.0" height="8.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<text x="230.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">5</text>
+<text x="274.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="start">m</text>
+<line x1="30.0" y1="274.0" x2="70.0" y2="274.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="30.0" y1="269.0" x2="30.0" y2="279.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="70.0" y1="269.0" x2="70.0" y2="279.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="78.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b" text-anchor="start">leggo 1 cm sul righello = 1 m</text>
+<text x="20.0" y="342.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" text-anchor="start" font-weight="bold">scala grafica 1:200 (1 m = 0,5 cm)</text>
+<rect x="30.0" y="362.0" width="20.0" height="8.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="50.0" y="362.0" width="20.0" height="8.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="70.0" y="362.0" width="20.0" height="8.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="90.0" y="362.0" width="20.0" height="8.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="110.0" y="362.0" width="20.0" height="8.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="130.0" y="362.0" width="20.0" height="8.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="150.0" y="362.0" width="20.0" height="8.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="170.0" y="362.0" width="20.0" height="8.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="190.0" y="362.0" width="20.0" height="8.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<rect x="210.0" y="362.0" width="20.0" height="8.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1"/>
+<text x="30.0" y="388.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">0</text>
+<text x="130.0" y="388.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">5</text>
+<text x="230.0" y="388.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="middle">10</text>
+<text x="240.0" y="388.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f" text-anchor="start">m</text>
+<line x1="30.0" y1="354.0" x2="50.0" y2="354.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="30.0" y1="349.0" x2="30.0" y2="359.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="50.0" y1="349.0" x2="50.0" y2="359.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="60.0" y="356.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b" text-anchor="start">leggo 0,5 cm = 1 m</text>
+<text x="330.0" y="300.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444" text-anchor="start">La scala grafica si disegna accanto</text>
+<text x="330.0" y="316.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444" text-anchor="start">al disegno: se il foglio viene ridotto</text>
+<text x="330.0" y="332.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444" text-anchor="start">o fotocopiato, si riduce insieme a lui</text>
+<text x="330.0" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444" text-anchor="start">e permette sempre di risalire</text>
+<text x="330.0" y="364.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444" text-anchor="start">alle misure reali.</text>
+</g>
+</svg>

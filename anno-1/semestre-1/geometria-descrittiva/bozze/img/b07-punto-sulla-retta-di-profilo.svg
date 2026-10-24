@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 401" width="520" height="401">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Un punto P della retta r di profilo, con il ribaltamento del piano</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="160.0" x2="480.0" y2="160.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="260.0" y1="10.0" x2="260.0" y2="285.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="268.0" y="24.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α ≡ t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<path d="M 260.0 253.0 L 257.0 253.0 L 253.9 252.8 L 250.9 252.6 L 247.9 252.2 L 244.9 251.8 L 241.9 251.2 L 238.9 250.6 L 235.9 249.8 L 233.0 249.0 L 230.1 248.1 L 227.2 247.0 L 224.4 245.9 L 221.6 244.7 L 218.9 243.4 L 216.2 242.0 L 213.5 240.5 L 210.9 239.0 L 208.3 237.3 L 205.8 235.6 L 203.4 233.8 L 201.0 231.9 L 198.7 229.9 L 196.4 227.9 L 194.2 225.8 L 192.1 223.6 L 190.1 221.3 L 188.1 219.0 L 186.2 216.6 L 184.4 214.2 L 182.7 211.7 L 181.0 209.1 L 179.5 206.5 L 178.0 203.8 L 176.6 201.1 L 175.3 198.4 L 174.1 195.6 L 173.0 192.8 L 171.9 189.9 L 171.0 187.0 L 170.2 184.1 L 169.4 181.1 L 168.8 178.1 L 168.2 175.1 L 167.8 172.1 L 167.4 169.1 L 167.2 166.1 L 167.0 163.0 L 167.0 160.0" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="167.0" y1="160.0" x2="260.0" y2="54.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="223.0" y1="96.2" x2="260.0" y2="96.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="223.0" y1="96.2" x2="223.0" y2="160.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<path d="M 223.0 160.0 L 223.0 161.2 L 223.1 162.4 L 223.2 163.6 L 223.3 164.8 L 223.5 166.0 L 223.7 167.2 L 224.0 168.4 L 224.3 169.6 L 224.6 170.7 L 225.0 171.9 L 225.4 173.0 L 225.8 174.2 L 226.3 175.3 L 226.8 176.4 L 227.4 177.4 L 228.0 178.5 L 228.6 179.5 L 229.2 180.6 L 229.9 181.6 L 230.6 182.5 L 231.4 183.5 L 232.2 184.4 L 233.0 185.3 L 233.8 186.2 L 234.7 187.0 L 235.6 187.8 L 236.5 188.6 L 237.5 189.4 L 238.4 190.1 L 239.4 190.8 L 240.5 191.4 L 241.5 192.0 L 242.6 192.6 L 243.6 193.2 L 244.7 193.7 L 245.8 194.2 L 247.0 194.6 L 248.1 195.0 L 249.3 195.4 L 250.4 195.7 L 251.6 196.0 L 252.8 196.3 L 254.0 196.5 L 255.2 196.7 L 256.4 196.8 L 257.6 196.9 L 258.8 197.0 L 260.0 197.0" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<circle cx="260.0" cy="54.0" r="2.8" fill="#1f1f1f"/>
+<text x="268.0" y="58.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>r</text>
+<circle cx="260.0" cy="253.0" r="2.8" fill="#1f1f1f"/>
+<text x="268.0" y="259.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>r</text>
+<circle cx="167.0" cy="160.0" r="2.8" fill="#c0392b"/>
+<text x="103.0" y="180.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">(T<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>r)*</text>
+<circle cx="223.0" cy="96.2" r="2.8" fill="#c0392b"/>
+<text x="193.0" y="90.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P*</text>
+<circle cx="260.0" cy="96.2" r="2.8" fill="#c0392b"/>
+<text x="268.0" y="92.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="260.0" cy="197.0" r="2.8" fill="#c0392b"/>
+<text x="268.0" y="203.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">P<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="268.0" y="138.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f" font-style="italic">r<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan> ≡ r<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="170.0" y="122.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c0392b" font-style="italic">r*</text>
+<text x="20" y="305" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Il piano di profilo che contiene r si ribalta su π₂ intorno a t₂α: la</text>
+<text x="20" y="322" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">quota resta, l'aggetto diventa distanza dalla cerniera. P* si sceglie</text>
+<text x="20" y="339" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">su r*, poi si torna a P₂ e P₁.</text>
+</g>
+</svg>

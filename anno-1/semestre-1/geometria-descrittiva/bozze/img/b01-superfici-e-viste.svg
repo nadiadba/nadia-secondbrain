@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 436" width="640" height="436">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Dal solido alle viste: le superfici orizzontali, verticali e inclinate</text>
+<g transform="translate(0,36)">
+<polygon points="170.0,375.0 267.6,277.4 267.6,231.4 202.5,204.5 202.5,296.5 170.0,329.0" fill="#dfe6ee" fill-opacity="1" stroke="#1f1f1f" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="170.0,375.0 137.5,342.5 137.5,296.5 170.0,329.0" fill="#c9d3de" fill-opacity="1" stroke="#1f1f1f" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="137.5,342.5 72.4,277.4 72.4,231.4 137.5,250.5" fill="#c9d3de" fill-opacity="1" stroke="#1f1f1f" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="137.5,296.5 170.0,264.0 170.0,218.0 137.5,250.5" fill="#dfe6ee" fill-opacity="1" stroke="#1f1f1f" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="202.5,296.5 170.0,264.0 170.0,218.0 105.0,198.9 105.0,106.9 202.5,204.5" fill="#c9d3de" fill-opacity="1" stroke="#1f1f1f" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="170.0,329.0 137.5,296.5 170.0,264.0 202.5,296.5" fill="#f4f1e6" fill-opacity="1" stroke="#1f1f1f" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="137.5,250.5 72.4,231.4 105.0,198.9 170.0,218.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="202.5,204.5 105.0,106.9 170.0,41.9 202.5,74.4" fill="#f4f1e6" fill-opacity="1" stroke="#1f1f1f" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="202.5,204.5 202.5,74.4 267.6,231.4" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="360.0" y="60.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f" font-weight="bold" text-anchor="start">In pianta (dall'alto):</text>
+<text x="360.0" y="80.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start">orizzontali → campite</text>
+<text x="360.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start">inclinate → bianche, con la freccia</text>
+<text x="360.0" y="116.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start">     che scende</text>
+<text x="360.0" y="136.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start">verticali → solo una linea</text>
+<text x="360.0" y="180.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f" font-weight="bold" text-anchor="start">Nel prospetto (davanti):</text>
+<text x="360.0" y="200.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start">verticali → campite</text>
+<text x="360.0" y="218.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start">inclinate → bianche</text>
+<text x="360.0" y="236.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start">orizzontali → solo una linea</text>
+<text x="16" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">La rampa e la falda triangolare sono le due superfici inclinate del solido.</text>
+</g>
+</svg>

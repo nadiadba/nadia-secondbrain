@@ -141,6 +141,13 @@ Si può fare una pianta senza le finestre? La pianta è una sezione orizzontale:
 > - 1:50 → 1 metro = 2 centimetri: il muro è 1 cm (le misure raddoppiano).
 > - La scala grafica è fondamentale: è la testimonianza delle dimensioni delle cose e permette di risalire dalle misure del disegno a quelle reali, anche dopo vari passaggi (riduzioni, fotocopie, stampe).
 
+> [!example] Il disegno alla lavagna: le scale di rappresentazione
+> ![[03-scale-di-rappresentazione.svg|620]]
+>
+> Ricostruito dal quaderno di Marta (i tre muri) e dalla tavola delle scale grafiche della docente (`007_Scale grafiche_M2.jpg`).
+> 1. Si prende un muro reale spesso 50 cm e lo si disegna nelle tre scale: in 1:100 è spesso 5 mm, in 1:200 la metà (2,5 mm), in 1:50 il doppio (1 cm).
+> 2. Accanto al disegno si mette la scala grafica: una barra divisa in tratti, ognuno dei quali vale 1 metro reale (1 cm sul righello in 1:100, 0,5 cm in 1:200).
+
 ### L'errore del prospetto disegnato al contrario
 
 Che cosa succede? Qual è l'errore che si fa, anche alla fine del corso? Qualcuno dice: va bene, devo disegnare questo prospetto. Dove la disegno la mia linea di terra per fare questo prospetto? Qua? O la disegno un po' più in giù, così mi viene meglio il prospetto? Chi è per disegnarla sotto?
@@ -154,6 +161,14 @@ Faccio sempre l'esempio delle mani quando vedo un prospetto sbagliato: se voi vo
 > 2. Per disegnarlo si mette la linea di terra dalla parte del lato che si vuole rappresentare, cioè dalla parte da cui lo si guarda.
 > 3. Se la linea di terra si mette dalla parte opposta, si guarda l'edificio "da dentro": il prospetto viene specchiato (una rientranza che sta a destra finisce a sinistra) ed è sbagliato.
 > 4. Per il lato che nella pianta sta in alto, la linea di terra va sopra la pianta e il prospetto si disegna a testa in giù. È come la mano: per vedere il dorso bisogna guardare dalla parte del dorso, non del palmo.
+
+> [!example] Il disegno alla lavagna: il prospetto giusto e quello sbagliato
+> ![[03-prospetto-giusto-e-sbagliato.svg|620]]
+>
+> La forma dell'edificio è uno schema (la registrazione non dice com'era quello disegnato alla lavagna): conta solo la rientranza.
+> 1. Dagli spigoli del lato in alto della pianta si tirano le linee di proiezione verso l'alto.
+> 2. Giusto (a sinistra): la LT sta in alto, lontana dalla pianta, e il prospetto "pende" dalla LT, a testa in giù. Girando il foglio, come se si stesse dalla parte di chi guarda quel lato, la rientranza è a destra.
+> 3. Sbagliato (a destra): la LT sta subito sopra la pianta e il prospetto è disegnato in piedi; la rientranza finisce dalla parte sbagliata, come se si guardasse l'edificio da dentro.
 
 ## Il punto nelle proiezioni ortogonali
 
@@ -226,6 +241,14 @@ Le linee non sono tratteggiate: sono continue. Non vi fate confondere da queste 
 > 3. Dalla seconda proiezione si scende con la linea di richiamo: la prima proiezione $m_1$ parte dalla LT ed è perpendicolare alla LT. La prima traccia è all'infinito ($T_{1m}\infty$), perché la retta è parallela a $\pi_1$.
 > 4. La terza proiezione $m_3$ è orizzontale, alla stessa quota di $m_2$, e parte dalla linea verticale; anche la terza traccia è all'infinito ($T_{3m}\infty$).
 > 5. Le proiezioni della retta si disegnano a tratto continuo, non tratteggiate.
+
+> [!example] Il disegno alla lavagna: la retta proiettante in seconda nello spazio
+> ![[03-spazio-retta-proiettante-in-seconda.svg|560]]
+>
+> Ricostruito dal quaderno di Marta, che accanto allo schema sul foglio ha copiato anche la vista nel triedro.
+> 1. La retta $m$ esce perpendicolare da $\pi_2$: il punto in cui lo buca è la seconda traccia, e lì sta anche tutta la seconda proiezione ($m_2 \equiv T_{2m}$).
+> 2. Proiettata su $\pi_1$, la retta dà $m_1$, perpendicolare alla LT; proiettata su $\pi_3$ dà $m_3$, orizzontale.
+> 3. $m$ è parallela a $\pi_1$ e a $\pi_3$: non li incontra mai, quindi $T_{1m}$ e $T_{3m}$ sono all'infinito.
 
 > [!tip] Avvisi
 > - Stampate gli esercizi di omologia che la docente ha indicato e, se non li avete ancora fatti, fateli a casa.

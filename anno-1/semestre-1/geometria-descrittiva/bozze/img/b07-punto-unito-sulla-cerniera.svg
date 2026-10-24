@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 536" width="600" height="536">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">La retta r = AC e la sua ribaltata r* si incontrano su t₁α, in T₁r</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="205.0" x2="580.0" y2="205.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="199.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="80.0" y1="205.0" x2="391.8" y2="385.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="395.8" y="399.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="80.0" y1="205.0" x2="80.0" y2="15.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="86.0" y="19.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="89.0" y1="205.0" x2="89.0" y2="196.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="89.0" y1="196.0" x2="80.0" y2="196.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<polygon points="140.6,160.0 296.5,135.0 209.9,40.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="118.1,279.0 261.5,390.6 127.4,422.9" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<line x1="140.6" y1="160.0" x2="140.6" y2="240.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="140.6" y1="240.0" x2="118.1" y2="279.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="296.5" y1="135.0" x2="296.5" y2="330.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="296.5" y1="330.0" x2="261.5" y2="390.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="209.9" y1="40.0" x2="209.9" y2="280.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="209.9" y1="280.0" x2="127.4" y2="422.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="148.4" y1="244.5" x2="143.9" y2="252.3" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="143.9" y1="252.3" x2="136.1" y2="247.8" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="217.7" y1="284.5" x2="213.2" y2="292.3" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="213.2" y1="292.3" x2="205.4" y2="287.8" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="140.6" y1="160.0" x2="114.6" y2="205.0" stroke="#d97706" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="114.6" y1="205.0" x2="114.6" y2="225.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="118.1" y1="279.0" x2="114.6" y2="225.0" stroke="#d97706" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="114.6" cy="225.0" r="2.8" fill="#d97706"/>
+<text x="68.6" y="229.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#d97706" font-style="italic">T<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>r</text>
+<circle cx="114.6" cy="205.0" r="2.8" fill="#1f1f1f"/>
+<circle cx="140.6" cy="160.0" r="2.8" fill="#2563a8"/>
+<text x="148.6" y="166.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A₂</text>
+<circle cx="140.6" cy="240.0" r="2.8" fill="#1f1f1f"/>
+<text x="146.6" y="234.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₁</text>
+<circle cx="118.1" cy="279.0" r="2.8" fill="#c0392b"/>
+<text x="88.1" y="283.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A*</text>
+<circle cx="296.5" cy="135.0" r="2.8" fill="#2563a8"/>
+<text x="302.5" y="129.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B₂</text>
+<circle cx="296.5" cy="330.0" r="2.8" fill="#1f1f1f"/>
+<text x="304.5" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₁</text>
+<circle cx="261.5" cy="390.6" r="2.8" fill="#c0392b"/>
+<text x="269.5" y="400.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B*</text>
+<circle cx="209.9" cy="40.0" r="2.8" fill="#2563a8"/>
+<text x="215.9" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C₂</text>
+<circle cx="209.9" cy="280.0" r="2.8" fill="#1f1f1f"/>
+<text x="217.9" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₁</text>
+<circle cx="127.4" cy="422.9" r="2.8" fill="#c0392b"/>
+<text x="115.4" y="440.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C*</text>
+<text x="106.6" y="186.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#d97706" font-style="italic">r<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="94.1" y="253.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#d97706" font-style="italic">r*</text>
+<text x="20" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">T₁r sta sulla cerniera e non si muove: è un punto unito. Rette corrispondenti si</text>
+<text x="20" y="487" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">incontrano sull'asse t₁α; punti corrispondenti stanno sulle perpendicolari all'asse.</text>
+</g>
+</svg>

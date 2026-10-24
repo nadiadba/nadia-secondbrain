@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 436" width="560" height="436">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">La stessa figura nel piano δ proiettante in prima</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="190.0" x2="530.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="130.0" y1="190.0" x2="130.0" y2="15.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="136.0" y="21.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>δ</text>
+<line x1="130.0" y1="190.0" x2="462.3" y2="328.5" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="468.3" y="334.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>δ</text>
+<line x1="139.0" y1="190.0" x2="139.0" y2="181.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="139.0" y1="181.0" x2="130.0" y2="181.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<polygon points="210.0,120.0 330.0,120.0 330.0,30.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<line x1="210.0" y1="223.3" x2="330.0" y2="273.3" stroke="#2563a8" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="160.0" y1="120.0" x2="410.0" y2="120.0" stroke="#d97706" stroke-width="1.2" stroke-linecap="round"/>
+<text x="416.0" y="124.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#d97706" font-style="italic">o₂</text>
+<line x1="210.0" y1="120.0" x2="210.0" y2="223.3" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="330.0" y1="30.0" x2="330.0" y2="273.3" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="210.0" cy="120.0" r="2.8" fill="#1f1f1f"/>
+<text x="186.0" y="114.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₂</text>
+<circle cx="330.0" cy="120.0" r="2.8" fill="#1f1f1f"/>
+<text x="338.0" y="136.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₂</text>
+<circle cx="330.0" cy="30.0" r="2.8" fill="#1f1f1f"/>
+<text x="338.0" y="28.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C₂</text>
+<circle cx="210.0" cy="223.3" r="2.8" fill="#1f1f1f"/>
+<text x="204.0" y="245.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A₁</text>
+<circle cx="330.0" cy="273.3" r="2.8" fill="#1f1f1f"/>
+<text x="340.0" y="265.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B₁ ≡ C₁</text>
+<text x="16" y="374" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Tutta la figura ha la prima proiezione su t₁δ: B₁ ≡ C₁, e BC non è più</text>
+<text x="16" y="392" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">di profilo ma proiettante in prima. AB resta orizzontale (A₂B₂ ∥ LT).</text>
+</g>
+</svg>

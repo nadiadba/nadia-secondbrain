@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata delle quattro registrazioni della lezione. L'ordine delle parti è ricostruito sul quaderno di Marta (piano proiettante in seconda → rette e piani, prima e dopo la pausa → punto che appartiene a un piano). L'audio era di qualità bassa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema o incomprensibili, senza aggiungere contenuti. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni fatte alla lavagna con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
+> Bozza: [[05-appartenenza-e-rette-ausiliarie]]
+>
 > Sbobina precedente: [[04-rette-e-piani-metodo-di-monge]] · Successiva: [[06-piani-proiettanti-orizzontali-frontali]]
 
 ## I piani e la loro posizione rispetto ai piani di proiezione
@@ -143,6 +145,13 @@ Vediamo i piani che contengono una retta proiettante in seconda. Mettetela nel m
 > 3. Piano orizzontale γ: la seconda traccia t₂γ è parallela alla LT e passa per r₂; la prima traccia è all'infinito.
 > 4. Piano di profilo δ: le due tracce sono perpendicolari alla LT; t₂δ passa per r₂ e t₁δ coincide con r₁.
 
+> [!example] Il disegno alla lavagna (nello spazio)
+> ![[05-spazio-piani-retta-proiettante-in-seconda.svg|620]]
+>
+> Dal quaderno di Marta (schema del triedro senza lettere sugli assi, come alla lavagna).
+> La retta r è perpendicolare a π₂ e lo buca in T₂ᵣ.
+> La contengono il piano proiettante in seconda β (blu), il piano orizzontale γ (verde) e il piano di profilo δ (viola): tutti hanno la seconda traccia che passa per T₂ᵣ.
+
 ## I piani che contengono una retta parallela alla linea di terra
 
 Adesso facciamo una retta parallela alla linea di terra. La retta parallela alla linea di terra che caratteristica ha? La prima e la seconda proiezione sono parallele alla linea di terra. Qui disegno soltanto la retta, senza le proiezioni, perché non interessano le proiezioni della retta: per le condizioni di appartenenza interessano le tracce della retta, non le proiezioni. Questo è un disegno delle condizioni [di appartenenza].
@@ -161,6 +170,13 @@ Allora, abbiamo detto retta parallela alla linea di terra. Qual è il piano che 
 >
 > Nel quaderno di Marta, per la retta parallela alla LT c'è anche il piano orizzontale.
 > Il piano orizzontale α che contiene r ha la seconda traccia t₂α parallela alla LT e coincidente con r₂; la prima traccia è all'infinito.
+
+> [!example] Il disegno alla lavagna (nello spazio)
+> ![[05-spazio-piani-retta-parallela-alla-lt.svg|620]]
+>
+> Dal quaderno di Marta (schema del triedro).
+> La retta r è parallela alla LT: buca soltanto π₃, in T₃ᵣ.
+> La contengono il piano α parallelo alla LT (blu), il piano frontale φ (verde) e il piano orizzontale (viola): le loro terze tracce passano tutte per T₃ᵣ.
 
 ## La retta generica
 
@@ -228,6 +244,13 @@ Adesso disegnatevi una retta in quella posizione, ragionando e non copiando; poi
 > 6. Secondo modo, con il piano ausiliario α proiettante in prima: t₁α coincide con r₁ e t₂α è verticale per (T₂ᵣ)₁. Si prolunga r₁ ≡ t₁α fino alla verticale (punto (T₃ᵣ)₁, che sta sopra la LT perché è dietro π₂), si gira il punto con l'arco fino alla LT e si sale in verticale: quella verticale è t₃α, e T₃ᵣ deve stare lì sopra.
 > 7. Verifica: r₂ prolungata incontra la verticale nel punto (T₃ᵣ)₂; portandolo in orizzontale su t₃α si trova T₃ᵣ, lo stesso punto in cui arriva r₃ prolungata.
 
+> [!example] Il disegno alla lavagna (nello spazio)
+> ![[05-spazio-retta-generica-terza-traccia.svg|620]]
+>
+> Dal quaderno di Marta (retta prolungata, tratteggiata dietro π₂).
+> Oltre T₂ᵣ la retta passa dietro π₂ e buca π₃, prolungato all'indietro, nella terza traccia T₃ᵣ.
+> Il piano ausiliario α proiettante in prima contiene r: t₁α coincide con r₁ e, prolungata, arriva in (T₃ᵣ)₁; da lì sale t₃α, verticale, e T₃ᵣ sta su t₃α.
+
 ## Dopo la pausa: i nomi delle rette e dei piani
 
 Io ho detto l'orizzontale $o$ e la frontale $f$, ma se voi la chiamate $r$ va bene lo stesso: è solo una convenzione. Per i piani non c'è nessuna convenzione: chiamate i piani con le lettere greche minuscole, come vi pare. Il nome invece, cioè proiettante in prima, proiettante in seconda, è importante, perché ci aiuta a capirci. Se mi dite solo "il piano", non capisco di cosa stiamo parlando; se mi dite frontale, di profilo, d'accordo? Se mi dite proiettante in prima, si capisce: ci capiamo.
@@ -252,6 +275,13 @@ Qualcuno mi chiedeva: quando ho la terza traccia della retta, dove sta? Non sta 
 > 1. A sinistra, il piano α proiettante in prima: la prima traccia coincide con la prima proiezione della retta (t₁α ≡ r₁), quindi contiene T₁ᵣ. La seconda traccia t₂α parte da dove r₁ incontra la LT ((T₂ᵣ)₁), è perpendicolare alla LT e passa per T₂ᵣ.
 > 2. A destra, il piano β proiettante in seconda: la seconda traccia coincide con la seconda proiezione della retta (t₂β ≡ r₂), quindi contiene T₂ᵣ. La prima traccia t₁β parte da (T₁ᵣ)₂, è perpendicolare alla LT e passa per T₁ᵣ.
 > 3. In tutti e due i casi le tracce della retta stanno sulle tracce del piano: è la condizione di appartenenza retta/piano. Un piano le cui tracce passano per T₁ᵣ ma non per T₂ᵣ non contiene la retta.
+
+> [!example] Il disegno alla lavagna (nello spazio)
+> ![[05-spazio-retta-generica-piani-ausiliari.svg|620]]
+>
+> Dal quaderno di Marta (schema del triedro).
+> Il piano α proiettante in prima (blu) contiene r: la sua prima traccia coincide con r₁ e la seconda, verticale, passa per T₂ᵣ.
+> Il piano β proiettante in seconda (verde) contiene r: la sua seconda traccia coincide con r₂ e la prima, perpendicolare alla LT, passa per T₁ᵣ.
 
 ## Il piano generico e il triangolo delle tracce
 
@@ -295,6 +325,13 @@ Poi le trovate proprio qua, in questo esempio: quali sono le rette che stanno su
 > 1. La frontale f ha la prima proiezione f₁ parallela alla LT. Dove f₁ incontra t₁α c'è la prima traccia T₁f; con il richiamo si sale sulla LT e si trova (T₁f)₂.
 > 2. La seconda traccia della frontale è all'infinito (T₂f∞) e deve stare su t₂α: per questo f₂ si disegna da (T₁f)₂ parallela a t₂α.
 > 3. La terza proiezione f₃ è verticale, alla distanza di f₁ dalla LT riportata con l'arco. f₂ incontra la verticale in (T₃f)₂: portando quel punto in orizzontale su f₃ si trova la terza traccia T₃f, che cade su t₃α.
+
+> [!example] Il disegno alla lavagna (nello spazio)
+> ![[05-spazio-piano-generico-rette.svg|620]]
+>
+> Dal quaderno di Marta (triangolo delle tracce con le rette del piano).
+> Sul piano generico α stanno la retta generica r (T₁ᵣ su t₁α, T₂ᵣ su t₂α), l'orizzontale o (T₂ₒ su t₂α, T₃ₒ su t₃α, parallela a t₁α) e la frontale f (T₁f su t₁α, T₃f su t₃α, parallela a t₂α).
+> La retta proiettante in prima v non può stare sul piano: è verticale e lo buca in un solo punto.
 
 ## I piani che passano per una retta orizzontale
 

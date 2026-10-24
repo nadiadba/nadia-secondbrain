@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 396" width="640" height="396">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Traslazione: centro e asse all'infinito (U∞, u∞)</text>
+<g transform="translate(0,36)">
+<line x1="90.0" y1="150.0" x2="373.2" y2="50.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="230.0" y1="110.0" x2="513.2" y2="10.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="150.0" y1="240.0" x2="433.2" y2="140.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="90.0,150.0 230.0,110.0 150.0,240.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="373.2,50.9 513.2,10.9 433.2,140.9" fill="#2e8b57" fill-opacity="0.12" stroke="#2e8b57" stroke-width="1.8"/>
+<circle cx="90.0" cy="150.0" r="2.8" fill="#2563a8"/>
+<text x="72.0" y="148.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="230.0" cy="110.0" r="2.8" fill="#2563a8"/>
+<text x="226.0" y="100.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<circle cx="150.0" cy="240.0" r="2.8" fill="#2563a8"/>
+<text x="144.0" y="260.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
+<circle cx="373.2" cy="50.9" r="2.8" fill="#2e8b57"/>
+<text x="365.2" y="40.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">A′</text>
+<circle cx="513.2" cy="10.9" r="2.8" fill="#2e8b57"/>
+<text x="521.2" y="6.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">B′</text>
+<circle cx="433.2" cy="140.9" r="2.8" fill="#2e8b57"/>
+<text x="441.2" y="154.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">C′</text>
+<line x1="544.9" y1="265.3" x2="575.1" y2="254.7" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
+<text x="576.0" y="268.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">U<tspan dy="4" font-size="70%">∞</tspan><tspan dy="-4"></tspan></text>
+<line x1="551.0" y1="69.0" x2="569.0" y2="51.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="551.0" y1="51.0" x2="569.0" y2="69.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="574.0" y="65.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">u<tspan dy="4" font-size="70%">∞</tspan><tspan dy="-4"></tspan></text>
+<text x="14" y="348" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">La figura si sposta tale e quale: A′B′ = AB, angoli e distanze si conservano.</text>
+</g>
+</svg>

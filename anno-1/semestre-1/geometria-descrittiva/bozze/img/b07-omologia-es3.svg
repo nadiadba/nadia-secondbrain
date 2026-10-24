@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 496" width="620" height="496">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Es. 3 – U sull'asse u, ABC, A e A′: trovare A′B′C′</text>
+<g transform="translate(0,36)">
+<line x1="23.0" y1="265.0" x2="588.0" y2="145.0" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<text x="25.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">u</text>
+<polygon points="164.0,128.0 396.0,215.0 112.0,333.0" fill="none" stroke="#1f1f1f" stroke-width="1.8"/>
+<line x1="122.3" y1="32.0" x2="207.0" y2="227.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="195.2" y1="5.0" x2="112.0" y2="333.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="122.3" y1="32.0" x2="139.1" y2="302.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="207.0" y1="227.0" x2="55.0" y2="396.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="164.0" y1="128.0" x2="346.3" y2="196.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="122.3" y1="32.0" x2="346.3" y2="196.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="207.0" y1="227.0" x2="424.4" y2="213.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="396.0" y1="215.0" x2="539.9" y2="155.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="373.6" y1="216.4" x2="539.9" y2="155.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="122.3,32.0 373.6,216.4 139.1,302.7" fill="none" stroke="#c0392b" stroke-width="2.2"/>
+<circle cx="207.0" cy="227.0" r="2.8" fill="#1f1f1f"/>
+<text x="211.0" y="217.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">U</text>
+<circle cx="164.0" cy="128.0" r="2.8" fill="#1f1f1f"/>
+<text x="172.0" y="124.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A</text>
+<circle cx="122.3" cy="32.0" r="2.8" fill="#1f1f1f"/>
+<text x="128.3" y="26.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A′</text>
+<circle cx="396.0" cy="215.0" r="2.8" fill="#1f1f1f"/>
+<text x="400.0" y="235.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B</text>
+<circle cx="112.0" cy="333.0" r="2.8" fill="#1f1f1f"/>
+<text x="106.0" y="355.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C</text>
+<circle cx="373.6" cy="216.4" r="2.8" fill="#c0392b"/>
+<text x="367.6" y="206.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′</text>
+<circle cx="139.1" cy="302.7" r="2.8" fill="#c0392b"/>
+<text x="147.1" y="318.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C′</text>
+<circle cx="135.3" cy="241.1" r="2.8" fill="#1f1f1f"/>
+<circle cx="346.3" cy="196.3" r="2.8" fill="#1f1f1f"/>
+<circle cx="539.9" cy="155.2" r="2.8" fill="#1f1f1f"/>
+<text x="198.6" y="15.2" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8a8a" font-style="italic">r</text>
+<text x="101.5" y="84.3" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c0392b" font-style="italic">r′</text>
+<text x="20" y="415" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">r = CA incontra u in un punto unito; r′ lo unisce ad A′ e taglia UC in C′. Con AB si</text>
+<text x="20" y="432" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">trova B′ su UB. Verifica: CB e C′B′ si incontrano sull'asse.</text>
+</g>
+</svg>

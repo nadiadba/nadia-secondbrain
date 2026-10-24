@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica di Memo Vocali). Il contenuto è fedele alle parole del docente: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni fatte alla lavagna con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
+> Bozza: [[06-piani-ausiliari-e-perpendicolarita]]
+>
 > Sbobina precedente: [[05-piani-rette-e-appartenenza]] · Successiva: [[07-ribaltamento-piani-proiettanti]]
 >
 > Argomenti collegati: [[02-proiezioni-e-omologia-schema]]
@@ -97,6 +99,15 @@ Questa cosa delle orizzontali è molto importante perché, per esempio, se io mi
 
 Ovviamente ci può essere anche una frontale per la retta rappresentata lì, quella lì del piano: va bene.
 
+> [!example] Il disegno alla lavagna
+> ![[06-orizzontale-nel-triangolo.svg|620]]
+>
+> 1. Il piano è dato in forma tecnica dal triangolo ABC: i tre lati hanno entrambe le proiezioni inclinate, quindi sono rette generiche e il piano è generico.
+> 2. Da A₂ si traccia o₂ parallela alla LT: incontra B₂C₂ in H₂.
+> 3. Con la linea di richiamo da H₂ si trova H₁ su B₁C₁.
+> 4. o₁ passa per A₁ e H₁: è la prima proiezione dell'orizzontale.
+> 5. Qualunque punto P preso sull'orizzontale (P₂ su o₂, P₁ su o₁) appartiene al piano del triangolo.
+
 ## Dalle proiezioni della figura alle tracce del piano
 
 Una volta che abbiamo fatto questo, è chiaro che se io vi do solamente le due tracce — questo l'abbiamo già fatto la volta scorsa — se noi abbiamo solo le tracce possiamo disegnare le proiezioni, e se abbiamo le proiezioni possiamo individuare le tracce. È facile individuare queste: quello che devo fare è costruire la prima proiezione della seconda traccia e poi la seconda proiezione della prima traccia. Questi grandi quadri li faccio solo perché voglio che voi abbiate chiara questa cosa: scrivetemi però anche come si chiamano. Ogni punto ha il suo nome: non possiamo dire "il punto della linea dove va la proiezione"; è un'intersezione, quindi è la prima proiezione o la seconda proiezione [di una traccia], a seconda dei casi. Diciamo che queste sono le cose facili.
@@ -116,6 +127,15 @@ In realtà già con due tracce io posso costruire le tracce del piano. Per quale
 Comunque vi annuncio che cambio aula: io sono abituata a disegnare alla lavagna, e in questa aula non si può disegnare bene. Dalla prossima volta.
 
 Che cosa succede? Naturalmente, se io provo a trovare la traccia anche con la terza retta, la trovo qua, va bene così, e le cose tornano. Ma non sempre è utile trovare le tracce, perché appunto magari finiscono lontano. Non sono due cose diverse: posso lavorare con le tracce, posso lavorare senza tracce, è indifferente.
+
+> [!example] Il disegno alla lavagna
+> ![[06-tracce-dal-triangolo-generico.svg|660]]
+>
+> 1. Si chiamano r, s e m le rette dei lati AB, BC e AC: sono tutte generiche.
+> 2. Per r: si prolunga A₂B₂ fino alla LT e si trova (T₁ᵣ)₂; si scende con il richiamo fino ad A₁B₁ prolungata e si trova T₁ᵣ. Si prolunga A₁B₁ fino alla LT e si trova (T₂ᵣ)₁; si sale con il richiamo fino ad A₂B₂ prolungata e si trova T₂ᵣ.
+> 3. Si fa lo stesso per s (lato BC).
+> 4. t₁α passa per T₁ᵣ e T₁ₛ; t₂α passa per T₂ᵣ e T₂ₛ. Le due tracce si incontrano sulla LT.
+> 5. Le tracce di m (lato AC) servono da controllo: cadono anch'esse su t₁α e t₂α. Non sono indispensabili, soprattutto quando finiscono lontano.
 
 ## Esercizio: la stessa figura nel piano generico e nel piano proiettante in prima
 
@@ -146,7 +166,7 @@ Quindi che cosa faccio? Con il punto che ho e con questa direzione io costruisco
 > [!example] Il disegno alla lavagna
 > ![[06-triangolo-tracce-piano-generico.svg|620]]
 >
-> 1. Il triangolo ABC ha il lato AB orizzontale (A₂B₂ parallelo alla LT) e il lato AC frontale (A₁C₁ parallelo alla LT).
+> 1. Il triangolo ABC ha il lato AB orizzontale (A₂B₂ parallelo alla LT), il lato AC frontale (A₁C₁ parallelo alla LT) e il lato BC di profilo (B e C sulla stessa linea di richiamo): è la retta di cui, come dice la docente, non si trovano le tracce senza la terza proiezione.
 > 2. Orizzontale o, per A e B: si prolunga o₂ fino a incontrare la linea di richiamo che sale da dove o₁ taglia la LT. Quel punto è T₂ₒ, la seconda traccia dell'orizzontale; la prima traccia è all'infinito (T₁ₒ∞).
 > 3. Frontale f, per A e C: si prolunga f₂ fino alla LT ((T₁f)₂) e si scende con il richiamo fino a f₁: lì c'è T₁f, la prima traccia della frontale; la seconda è all'infinito (T₂f∞).
 > 4. t₂γ passa per T₂ₒ ed è parallela a f₂, perché deve contenere il punto all'infinito della frontale.
@@ -156,6 +176,14 @@ Quindi che cosa faccio? Con il punto che ho e con questa direzione io costruisco
 Viceversa, se voglio disegnare quella stessa figura appartenente a un piano proiettante in prima, quello che io so è che tutto quello che c'è sul piano ha la prima proiezione coincidente con la prima traccia. Quindi qualunque cosa io posso disegnare così, volendo, ma la prima proiezione fa questo. Questo era il disegno che avevo chiesto qua sopra, con l'orizzontale e la frontale; e questo sarà l'altro. Naturalmente anche qua sopra trovo comunque l'appartenenza al piano.
 
 Quindi, ripeto, la questione è che non è la figura di per sé a essere nel piano generico: la figura, a seconda di come l'ho piazzata — il triangolo — può essere messa in verticale, frontale, può essere messa in orizzontale, può essere messa nel piano proiettante in prima, può essere messa in posizione generica. Non è la figura in sé: la figura è un piano che, a seconda della posizione che assume all'interno del modello, è una cosa o un'altra. Tant'è che questa qui è una retta di profilo, qui invece non è una retta di profilo, perché il triangolo l'ho messo verticale, nel piano proiettante in prima. È chiaro? Questo è il concetto e non ve lo dovete dimenticare. Qui le condizioni di appartenenza sono ovviamente rispettate.
+
+> [!example] Il disegno alla lavagna (ricostruzione)
+> ![[06-triangolo-piano-proiettante-in-prima.svg|600]]
+>
+> 1. Si ridisegna lo stesso triangolo dell'esercizio, con la stessa seconda proiezione: A₂B₂ parallelo alla LT (AB orizzontale) e B₂C₂ perpendicolare alla LT.
+> 2. Il piano δ è proiettante in prima: t₂δ perpendicolare alla LT, t₁δ inclinata a piacere.
+> 3. Tutta la figura ha la prima proiezione su t₁δ: A₁ e B₁ si trovano con i richiami, e C₁ coincide con B₁.
+> 4. Il lato BC, che nel piano generico era una retta di profilo, qui è una retta proiettante in prima: la stessa figura cambia natura a seconda della posizione.
 
 Facciamo pausa.
 
@@ -205,6 +233,13 @@ Noi usiamo spesso il parallelepipedo, no? Questo l'avete fatto anche [al laborat
 
 Ora, queste due facce parallele congruenti che cosa significa? Significa che, sovrapponendole l'una all'altra, coincidono perfettamente. Quindi posso dire che il parallelepipedo rettangolo è un prisma, ma posso avere un prisma, per esempio, a base triangolare: sotto un triangolo e sopra lo stesso triangolo. Tutto questo vi viene in mente per dare l'idea delle parole che magari useremo.
 
+> [!example] Il disegno alla lavagna (ricostruzione)
+> ![[06-solidi-piramide-prisma-parallelepipedo.svg|700]]
+>
+> 1. Piramide a base triangolare: tre facce laterali che si incontrano nel vertice; il lato comune a due facce è uno spigolo.
+> 2. Parallelepipedo rettangolo: le facce sono rettangoli; due facce vicine formano un diedro.
+> 3. Prisma a base triangolare: base inferiore e base superiore congruenti e parallele, unite dalle facce laterali.
+
 ## Esercizio sul solido: in che piano sta la base?
 
 Adesso io disegno questo solido, fatto in questo modo. Dovete avere cura di usare le stesse lettere, perché in questo modo, quando io dico "ragioniamo sul segmento $AC$", ci capiamo. Sullo sfondo c'è anche la figura che abbiamo già fatto. Questi sono i dati: abbiamo comunque una base inferiore, una base superiore e delle facce laterali, perché le due facce sono parallele tra loro.
@@ -222,6 +257,15 @@ Ora, domanda: posso disegnare le tracce del piano? Ho due punti per disegnare la
 Quindi avete scritto: per disegnare la prima traccia del piano mi servono le prime tracce di due rette. Ce le abbiamo, sì o no? Sì: abbiamo $T_1$, e abbiamo l'altro punto, che ha una direzione — anche se è all'infinito quel punto esiste. E quindi per disegnare la prima traccia di questo piano io devo andare con questa direzione passando per $T_1$: è parallela.
 
 Naturalmente, se voi a casa rifate questo disegno che io faccio qui a mano libera, è per esercitare la mano. Perché bisogna anche capire che la geometria descrittiva non è un accidente che capita: dovete già sapere quello che volete fare; quando la mano disegna qualcosa, la governa quello che sappiamo. E naturalmente sappiamo trovare, se volessimo, anche la seconda traccia.
+
+> [!example] Il disegno alla lavagna (ricostruzione)
+> ![[06-solido-base-nel-piano-generico.svg|640]]
+>
+> 1. Il solido è un prisma: base inferiore ABC, base superiore DEF parallela e congruente, facce laterali.
+> 2. AB ha le due proiezioni perpendicolari alla LT: è una retta di profilo, di cui le tracce si trovano solo con la terza proiezione.
+> 3. AC ha le due proiezioni inclinate: è generica. Si prolunga A₂C₂ fino alla LT, si trova (T₁)₂ e si scende fino ad A₁C₁ prolungata: lì c'è T₁ di AC.
+> 4. BC ha B₂C₂ parallelo alla LT: è un'orizzontale, con la prima traccia all'infinito (T₁∞) nella direzione di B₁C₁.
+> 5. t₁α passa per T₁ di AC ed è parallela a B₁C₁. t₂α passa per T₂ di BC e per il punto in cui t₁α incontra la LT.
 
 Se qualcuno ha bisogno di una spiegazione, chiedete adesso; però ora passiamo a un'altra cosa.
 
@@ -314,6 +358,8 @@ Se avete disegnato la figura e la prima proiezione della figura, che va a finire
 Vi faccio ancora un'altra domanda. Questi punti compiono degli archi di circonferenza, giusto, facendo questo? Ora, tutti i punti di quel cartoncino descrivono un arco di circonferenza. L'arco di circonferenza si trova rispetto alla traccia come? È perpendicolare, esattamente. In questa rotazione ogni punto fa un arco di circonferenza che sta su un piano perpendicolare all'asse di rotazione, come nel vostro quaderno: la spirale è bloccata nel movimento, e il movimento è quello che va a destra… [la registrazione si interrompe qui]
 
 > [!example] Il disegno: il piano mobile del modellino
+> ![[06-spazio-piano-mobile.svg|600]]
+>
 > 1. Sul modellino si fissa un piano proiettante in prima, piegato alla base in modo che possa ruotare intorno alla sua prima traccia, che fa da cerniera.
 > 2. Sul piano si disegna un triangolo. Finché il piano è inclinato, la proiezione del triangolo su π₁ non è in vera grandezza: lati e angoli sono deformati.
 > 3. Ruotando il piano intorno alla traccia fino a farlo coincidere con π₁ (il ribaltamento), il triangolo compare nella sua vera forma.

@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica di Memo Vocali). L'audio era di qualità bassa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema o incomprensibili, senza aggiungere contenuti. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni fatte alla lavagna con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
+> Bozza: [[04-rette-e-piani-nelle-varie-posizioni]]
+>
 > Sbobina precedente: [[03-proiettiva-e-proiezioni-ortogonali]] · Successiva: [[05-piani-rette-e-appartenenza]]
 
 ## Il nome delle rette e lo schema del triedro
@@ -21,6 +23,13 @@ Abbiamo anche un'altra cosa: il nome della retta viene assegnato in base alla po
 Se dovete disegnare sul vostro taccuino quello che disegno io: io sto disegnando delle assonometrie, che vedremo poi come si chiamano e per quale motivo. Questa assonometria ha la caratteristica di avere il piano di quadro su cui proietto coincidente con $\pi_1$; pertanto la pianta la vedo con gli angoli di 90°, cioè la pianta mantiene la sua vera forma. Non posso dire come dimensione, perché la dimensione dipende dalla scala: la forma. Gli angoli di 90° rimangono di 90°. Quindi per comodità, quando faccio questo schema, che vuole semplicemente rimandare al modello, lo disegno ruotato nella posizione in cui mi trovo più comoda, con l'angolo di 90° alla base: questo è $\pi_1$, questo $\pi_2$ e questo $\pi_3$.
 
 Naturalmente abbiamo anche detto che la linea di intersezione tra i piani si chiama linea di terra. Quando ribalto i piani gli uni sugli altri ottengo la linea di terra, che divide la pianta dal prospetto. Ma abbiamo detto attenzione: non divide lo spazio in maniera rigida, cioè non è detto che le prime proiezioni stiano sotto e le seconde sopra, perché abbiamo visto che dipende dalla posizione che i punti assumono all'interno dei quadranti. In architettura naturalmente le cose stanno tutte nel primo diedro.
+
+> [!example] Il disegno alla lavagna
+> ![[04-triedro-come-alla-lavagna.svg|560]]
+>
+> 1. Lo schema del triedro è un'assonometria con il piano di quadro coincidente con π₁: la pianta resta in vera forma, quindi l'angolo tra la LT e lo spigolo π₁/π₃ resta di 90°.
+> 2. Per comodità il triedro si disegna ruotato, con l'angolo retto alla base: la LT scende verso sinistra, lo spigolo π₁/π₃ verso destra, lo spigolo π₂/π₃ è verticale.
+> 3. A sinistra c'è π₂ (verticale), a destra π₃, in basso π₁. La LT è l'intersezione tra π₁ e π₂.
 
 ## La retta parallela alla linea di terra
 
@@ -250,6 +259,13 @@ Quando disegnate il piano, per esempio un piano come il tavolo, lo disegnate com
 Nel piano frontale le tracce sono questa, $t_3$, e questa, $t_1$. Quindi l'unica cosa che posso disegnare qua è questa, che mi dà la distanza, l'aggetto, rispetto al secondo piano di proiezione. Poi ho la rotazione, quando ribalto $\pi_3$ su $\pi_2$. Non posso disegnare niente altro, perché non c'è nessuna linea: io adesso non sto proiettando, sto dicendo come si rappresenta il piano, e il piano non si rappresenta con le proiezioni. Le tracce sono le intersezioni con i piani di riferimento. Anche perché qua ho $t_2\beta$ all'infinito, e quindi sono certa che è un piano verticale, e la caratteristica di questo piano verticale è che è frontale. Se volete, invece della linea del rettangolo, fate una cosa che non è tagliata ma prosegue: può essere rappresentato anche così.
 
 Quindi non sto facendo adesso delle proiezioni: al momento ci serve la rappresentazione del piano attraverso le sue tracce.
+
+> [!example] Il disegno alla lavagna
+> ![[04-spazio-piano-non-e-una-figura.svg|560]]
+>
+> 1. Il piano frontale β si disegna come un rettangolo solo per comodità: i bordi non esistono, il piano prosegue (si possono segnare dei tratteggi oltre i bordi).
+> 2. Del piano restano solo le tracce: t₁β sul pavimento (dà l'aggetto rispetto a π₂) e t₃β su π₃; t₂β è all'infinito.
+> 3. Sul foglio, quindi, non si proietta il rettangolo: si disegnano t₁β e t₃β (portata con la rotazione di π₃), come nello schema del piano frontale qui sopra.
 
 ## Il piano proiettante in prima
 

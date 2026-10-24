@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 336" width="600" height="336">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Le gradazioni delle mine: dure (H) chiare, morbide (B) scure</text>
+<g transform="translate(0,36)">
+<text x="40.0" y="45.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-weight="bold" text-anchor="start">2H</text>
+<path d="M 90.0 40.0 L 100.0 40.9 L 110.0 41.2 L 120.0 40.5 L 130.0 39.5 L 140.0 38.8 L 150.0 39.1 L 160.0 40.0 L 170.0 41.0 L 180.0 41.2 L 190.0 40.5 L 200.0 39.5 L 210.0 38.8 L 220.0 39.1 L 230.0 40.0 L 240.0 41.0 L 250.0 41.2 L 260.0 40.5 L 270.0 39.4 L 280.0 38.8 L 290.0 39.1 L 300.0 40.1 L 310.0 41.0 L 320.0 41.2 L 330.0 40.5 L 340.0 39.4 L 350.0 38.8 L 360.0 39.1 L 370.0 40.1 L 380.0 41.0 L 390.0 41.1 L 400.0 40.4 L 410.0 39.4" fill="none" stroke="#c4c4c4" stroke-width="1.0" stroke-linecap="round"/>
+<text x="40.0" y="85.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-weight="bold" text-anchor="start">H</text>
+<path d="M 90.0 81.0 L 100.0 81.1 L 110.0 80.4 L 120.0 79.4 L 130.0 78.8 L 140.0 79.2 L 150.0 80.1 L 160.0 81.0 L 170.0 81.1 L 180.0 80.4 L 190.0 79.3 L 200.0 78.8 L 210.0 79.2 L 220.0 80.2 L 230.0 81.0 L 240.0 81.1 L 250.0 80.4 L 260.0 79.3 L 270.0 78.8 L 280.0 79.2 L 290.0 80.2 L 300.0 81.0 L 310.0 81.1 L 320.0 80.3 L 330.0 79.3 L 340.0 78.8 L 350.0 79.2 L 360.0 80.2 L 370.0 81.1 L 380.0 81.1 L 390.0 80.3 L 400.0 79.3 L 410.0 78.8" fill="none" stroke="#aaaaaa" stroke-width="1.3" stroke-linecap="round"/>
+<text x="40.0" y="125.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-weight="bold" text-anchor="start">HB</text>
+<path d="M 90.0 121.1 L 100.0 120.3 L 110.0 119.3 L 120.0 118.8 L 130.0 119.2 L 140.0 120.3 L 150.0 121.1 L 160.0 121.1 L 170.0 120.3 L 180.0 119.2 L 190.0 118.8 L 200.0 119.3 L 210.0 120.3 L 220.0 121.1 L 230.0 121.1 L 240.0 120.2 L 250.0 119.2 L 260.0 118.8 L 270.0 119.3 L 280.0 120.3 L 290.0 121.1 L 300.0 121.1 L 310.0 120.2 L 320.0 119.2 L 330.0 118.8 L 340.0 119.3 L 350.0 120.3 L 360.0 121.1 L 370.0 121.1 L 380.0 120.2 L 390.0 119.2 L 400.0 118.8 L 410.0 119.3" fill="none" stroke="#7d7d7d" stroke-width="1.7" stroke-linecap="round"/>
+<text x="40.0" y="165.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-weight="bold" text-anchor="start">B</text>
+<path d="M 90.0 160.2 L 100.0 159.2 L 110.0 158.8 L 120.0 159.3 L 130.0 160.4 L 140.0 161.1 L 150.0 161.0 L 160.0 160.1 L 170.0 159.2 L 180.0 158.8 L 190.0 159.4 L 200.0 160.4 L 210.0 161.1 L 220.0 161.0 L 230.0 160.1 L 240.0 159.1 L 250.0 158.8 L 260.0 159.4 L 270.0 160.4 L 280.0 161.1 L 290.0 161.0 L 300.0 160.1 L 310.0 159.1 L 320.0 158.8 L 330.0 159.4 L 340.0 160.4 L 350.0 161.1 L 360.0 161.0 L 370.0 160.1 L 380.0 159.1 L 390.0 158.8 L 400.0 159.4 L 410.0 160.4" fill="none" stroke="#4d4d4d" stroke-width="2.2" stroke-linecap="round"/>
+<text x="40.0" y="205.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-weight="bold" text-anchor="start">2B</text>
+<path d="M 90.0 199.1 L 100.0 198.8 L 110.0 199.4 L 120.0 200.5 L 130.0 201.2 L 140.0 201.0 L 150.0 200.0 L 160.0 199.1 L 170.0 198.8 L 180.0 199.5 L 190.0 200.5 L 200.0 201.2 L 210.0 200.9 L 220.0 200.0 L 230.0 199.1 L 240.0 198.8 L 250.0 199.5 L 260.0 200.5 L 270.0 201.2 L 280.0 200.9 L 290.0 200.0 L 300.0 199.1 L 310.0 198.8 L 320.0 199.5 L 330.0 200.5 L 340.0 201.2 L 350.0 200.9 L 360.0 200.0 L 370.0 199.0 L 380.0 198.8 L 390.0 199.5 L 400.0 200.6 L 410.0 201.2" fill="none" stroke="#262626" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="440.0" y1="30.0" x2="440.0" y2="200.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="440.0,200.0 435.9,191.0 444.1,191.0" fill="#1f1f1f" fill-opacity="1" stroke="none" stroke-linejoin="round"/>
+<text x="452.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start">più dura:</text>
+<text x="452.0" y="56.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">segno grigio, leggero</text>
+<text x="452.0" y="180.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start">più morbida:</text>
+<text x="452.0" y="196.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="start">segno scuro, forte</text>
+<text x="16" y="240" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Mina dura → linee di costruzione. Con la mano pesante la mina dura incide il foglio.</text>
+<text x="16" y="260" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Nella lista del corso: portamine 2 mm con H, 2H, B; portamine 0,5 con B, 2B;</text>
+<text x="16" y="278" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">matite in legno HB, B, 2B.</text>
+</g>
+</svg>

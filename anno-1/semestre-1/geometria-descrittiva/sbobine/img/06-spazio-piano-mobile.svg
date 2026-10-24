@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 486" width="600" height="486">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Il modellino: il piano γ proiettante in prima ruota intorno a t₁γ fino a π₁</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,325.0 262.0,190.0 411.4,276.2 177.6,411.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,325.0 262.0,190.0 262.0,25.0 28.2,160.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,190.0 411.4,276.2 411.4,111.2 262.0,25.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="325.0" x2="262.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="411.4" y2="276.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="262.0" y2="25.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="197.0,62.5 197.0,227.5 271.7,356.9 271.7,191.9" fill="#2563a8" fill-opacity="0.1" stroke="none"/>
+<line x1="197.0" y1="227.5" x2="271.7" y2="356.9" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="197.0" y1="227.5" x2="197.0" y2="62.5" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="203.0" y="77.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>γ</text>
+<text x="239.7" y="363.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>γ</text>
+<polygon points="214.5,220.2 252.2,278.1 226.1,172.8" fill="#2563a8" fill-opacity="0.3" stroke="#2563a8" stroke-width="1"/>
+<polygon points="258.0,249.3 304.5,313.0 348.1,254.3" fill="#c0392b" fill-opacity="0.22" stroke="#c0392b" stroke-width="1"/>
+<polyline points="214.5,220.2 217.3,219.7 220.2,219.4 223.0,219.3 225.8,219.3 228.5,219.5 231.2,219.8 233.7,220.3 236.3,221.0 238.7,221.8 241.0,222.8 243.2,224.0 245.3,225.2 247.2,226.7 249.0,228.2 250.7,229.9 252.2,231.7 253.6,233.6 254.7,235.6 255.7,237.7 256.6,239.9 257.2,242.1 257.7,244.5 258.0,246.9 258.0,249.3" fill="none" stroke="#d97706" stroke-width="1.3" stroke-dasharray="4,3"/>
+<line x1="214.5" y1="220.2" x2="214.5" y2="257.7" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="214.5" cy="220.2" r="2.8" fill="#2563a8"/>
+<text x="198.5" y="214.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">A</text>
+<circle cx="258.0" cy="249.3" r="2.8" fill="#c0392b"/>
+<text x="266.0" y="263.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">(A)</text>
+<circle cx="214.5" cy="257.7" r="2.8" fill="#1f1f1f"/>
+<polyline points="252.2,278.1 255.7,277.5 259.1,277.2 262.4,277.0 265.8,277.0 269.0,277.2 272.2,277.7 275.4,278.3 278.4,279.1 281.3,280.1 284.1,281.3 286.7,282.6 289.2,284.2 291.5,285.9 293.7,287.7 295.7,289.7 297.5,291.9 299.1,294.2 300.5,296.6 301.7,299.1 302.7,301.7 303.5,304.4 304.1,307.2 304.4,310.1 304.5,313.0" fill="none" stroke="#d97706" stroke-width="1.3" stroke-dasharray="4,3"/>
+<line x1="252.2" y1="278.1" x2="252.2" y2="323.1" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="252.2" cy="278.1" r="2.8" fill="#2563a8"/>
+<text x="236.2" y="272.1" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">B</text>
+<circle cx="304.5" cy="313.0" r="2.8" fill="#c0392b"/>
+<text x="312.5" y="327.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">(B)</text>
+<circle cx="252.2" cy="323.1" r="2.8" fill="#1f1f1f"/>
+<polyline points="226.1,172.8 234.1,171.5 242.0,170.6 249.9,170.2 257.7,170.3 265.3,170.8 272.8,171.8 280.1,173.3 287.1,175.1 293.9,177.5 300.4,180.2 306.5,183.4 312.4,187.0 317.8,190.9 322.9,195.3 327.5,200.0 331.7,205.0 335.5,210.3 338.8,215.9 341.6,221.8 343.9,228.0 345.8,234.3 347.1,240.8 347.8,247.5 348.1,254.3" fill="none" stroke="#d97706" stroke-width="1.3" stroke-dasharray="4,3"/>
+<line x1="226.1" y1="172.8" x2="226.1" y2="277.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="226.1" cy="172.8" r="2.8" fill="#2563a8"/>
+<text x="210.1" y="166.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">C</text>
+<circle cx="348.1" cy="254.3" r="2.8" fill="#c0392b"/>
+<text x="356.1" y="258.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">(C)</text>
+<circle cx="226.1" cy="277.8" r="2.8" fill="#1f1f1f"/>
+<line x1="214.5" y1="257.7" x2="252.2" y2="323.1" stroke="#2563a8" stroke-width="3" stroke-linecap="round"/>
+<text x="142.2" y="343.1" font-family="Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#2563a8">A₁B₁C₁ su t₁γ</text>
+<text x="16" y="424" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Ogni punto descrive un arco (arancio) in un piano perpendicolare a t₁γ, la cerniera;</text>
+<text x="16" y="442" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">a rotazione finita il triangolo (A)(B)(C) è su π₁ in vera forma.</text>
+</g>
+</svg>

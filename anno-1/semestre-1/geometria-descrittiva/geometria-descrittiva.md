@@ -26,5 +26,10 @@ Ancora nessuna.
 
 ## Bozze
 
-- [[01-strumenti-materiali-e-regole|Strumenti, materiali e regole di base del disegno]] (prima lezione, 1 ottobre)
-- [[02-proiezioni-e-omologia-schema|Proiezioni e omologia]] (lezione del 6 ottobre)
+- [[01-strumenti-materiali-e-regole|Strumenti, materiali e regole di base del disegno]] (1 ottobre)
+- [[02-proiezioni-e-omologia-schema|Richiami di geometria, proiezioni e omologia, con gli esercizi risolti]] (6 ottobre)
+- [[03-proiezioni-ortogonali-punto-e-rette|Proiezioni ortogonali: il punto e le rette proiettanti]] (8 ottobre)
+- [[04-rette-e-piani-nelle-varie-posizioni|Rette e piani nelle varie posizioni con il metodo di Monge]] (13 ottobre)
+- [[05-appartenenza-e-rette-ausiliarie|Appartenenza di rette e punti a un piano, rette ausiliarie]] (15 ottobre)
+- [[06-piani-ausiliari-e-perpendicolarita|Piani ausiliari, rette orizzontali e frontali, perpendicolarità]] (20 ottobre)
+- [[07-il-ribaltamento|Il ribaltamento dei piani proiettanti]] (22 ottobre)

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 466" width="560" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Es. 6 – U∞, u, r e r′: trovare m′</text>
+<g transform="translate(0,36)">
+<line x1="15.0" y1="238.0" x2="535.0" y2="238.0" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="72.0" y1="238.0" x2="318.0" y2="117.0" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="72.0" y1="238.0" x2="238.0" y2="343.0" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="241.0" y1="238.0" x2="485.0" y2="117.0" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<text x="17.0" y="230.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">u</text>
+<text x="288.0" y="127.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">r</text>
+<text x="137.3" y="309.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">r′</text>
+<text x="455.0" y="127.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">m</text>
+<line x1="353.6" y1="23.2" x2="366.4" y2="56.8" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="326.0" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" font-style="italic">U∞</text>
+<line x1="165.0" y1="192.3" x2="227.6" y2="357.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="296.0" y1="210.7" x2="333.4" y2="309.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="165.0" y1="192.3" x2="489.9" y2="238.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="217.2" y1="329.8" x2="489.9" y2="238.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="241.0" y1="238.0" x2="387.5" y2="331.2" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<text x="391.5" y="345.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">m′</text>
+<circle cx="165.0" cy="192.3" r="2.8" fill="#c0392b"/>
+<text x="147.0" y="184.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A</text>
+<circle cx="217.2" cy="329.8" r="2.8" fill="#c0392b"/>
+<text x="185.2" y="343.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A′</text>
+<circle cx="296.0" cy="210.7" r="2.8" fill="#c0392b"/>
+<text x="292.0" y="200.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B</text>
+<circle cx="327.2" cy="292.8" r="2.8" fill="#c0392b"/>
+<text x="297.2" y="308.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′</text>
+<circle cx="489.9" cy="238.0" r="2.8" fill="#1f1f1f"/>
+<circle cx="241.0" cy="238.0" r="2.8" fill="#1f1f1f"/>
+<text x="420.0" y="218.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a" font-style="italic">n</text>
+<text x="420.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a" font-style="italic">n′</text>
+<text x="20" y="378" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">m incontra u in un punto unito. Retta ausiliaria n = AB; la sua</text>
+<text x="20" y="395" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">corrispondente n′ passa per A′ e per il punto dove n incontra u; B′ sulla</text>
+<text x="20" y="412" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">parallela a U∞ per B. m′ unisce il punto unito e B′.</text>
+</g>
+</svg>

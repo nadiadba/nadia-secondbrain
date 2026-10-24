@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 506" width="620" height="506">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Omotetia: dati U, u∞, A e A′, trovare A′B′C′D′</text>
+<g transform="translate(0,36)">
+<line x1="300.0" y1="190.0" x2="211.3" y2="349.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="300.0" y1="190.0" x2="235.5" y2="70.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="300.0" y1="190.0" x2="423.1" y2="31.8" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="300.0" y1="190.0" x2="589.9" y2="155.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="250.0,280.0 265.0,125.0 370.0,100.0 470.0,170.0" fill="#2563a8" fill-opacity="0.1" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="220.0,334.0 244.0,86.0 412.0,46.0 572.0,158.0" fill="#c0392b" fill-opacity="0.06" stroke="#c0392b" stroke-width="2.4"/>
+<circle cx="300.0" cy="190.0" r="2.8" fill="#1f1f1f"/>
+<text x="308.0" y="186.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">U</text>
+<circle cx="250.0" cy="280.0" r="2.8" fill="#2563a8"/>
+<text x="232.0" y="294.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="265.0" cy="125.0" r="2.8" fill="#2563a8"/>
+<text x="247.0" y="121.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<circle cx="370.0" cy="100.0" r="2.8" fill="#2563a8"/>
+<text x="368.0" y="90.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
+<circle cx="470.0" cy="170.0" r="2.8" fill="#2563a8"/>
+<text x="474.0" y="160.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">D</text>
+<circle cx="220.0" cy="334.0" r="2.8" fill="#c0392b"/>
+<text x="194.0" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A′</text>
+<circle cx="244.0" cy="86.0" r="2.8" fill="#c0392b"/>
+<text x="218.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′</text>
+<circle cx="412.0" cy="46.0" r="2.8" fill="#c0392b"/>
+<text x="408.0" y="36.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C′</text>
+<circle cx="572.0" cy="158.0" r="2.8" fill="#c0392b"/>
+<text x="580.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">D′</text>
+<line x1="531.0" y1="429.0" x2="549.0" y2="411.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="531.0" y1="411.0" x2="549.0" y2="429.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="554.0" y="425.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">u<tspan dy="4" font-size="70%">∞</tspan><tspan dy="-4"></tspan></text>
+<text x="14" y="458" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">A′B′ ∥ AB, B′C′ ∥ BC, C′D′ ∥ CD, D′A′ ∥ DA: con u∞ i lati corrispondenti sono paralleli.</text>
+</g>
+</svg>

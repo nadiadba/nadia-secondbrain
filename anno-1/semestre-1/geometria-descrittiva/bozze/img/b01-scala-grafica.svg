@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 286" width="620" height="286">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">La scala grafica: quanto misura sul foglio un metro vero</text>
+<g transform="translate(0,36)">
+<polygon points="50.0,50.0 90.0,50.0 90.0,58.0 50.0,58.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="90.0,50.0 130.0,50.0 130.0,58.0 90.0,58.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="130.0,50.0 170.0,50.0 170.0,58.0 130.0,58.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="170.0,50.0 210.0,50.0 210.0,58.0 170.0,58.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="210.0,50.0 250.0,50.0 250.0,58.0 210.0,58.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="250.0,50.0 290.0,50.0 290.0,58.0 250.0,58.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="290.0,50.0 330.0,50.0 330.0,58.0 290.0,58.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="330.0,50.0 370.0,50.0 370.0,58.0 330.0,58.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="370.0,50.0 410.0,50.0 410.0,58.0 370.0,58.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="410.0,50.0 450.0,50.0 450.0,58.0 410.0,58.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<text x="50.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">0</text>
+<text x="90.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 1</text>
+<text x="130.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 2</text>
+<text x="170.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 3</text>
+<text x="210.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 4</text>
+<text x="250.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 5</text>
+<text x="290.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 6</text>
+<text x="330.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 7</text>
+<text x="370.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 8</text>
+<text x="410.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 9</text>
+<text x="450.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 10</text>
+<text x="590.0" y="54.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f1f1f" font-style="italic" text-anchor="end">1:100</text>
+<text x="50.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b" text-anchor="start">1 m vero = 1 cm sul foglio</text>
+<polygon points="50.0,130.0 130.0,130.0 130.0,138.0 50.0,138.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="130.0,130.0 210.0,130.0 210.0,138.0 130.0,138.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="210.0,130.0 290.0,130.0 290.0,138.0 210.0,138.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="290.0,130.0 370.0,130.0 370.0,138.0 290.0,138.0" fill="#ffffff" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="370.0,130.0 450.0,130.0 450.0,138.0 370.0,138.0" fill="#1f1f1f" fill-opacity="1" stroke="#1f1f1f" stroke-width="1" stroke-linejoin="round"/>
+<text x="50.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">0</text>
+<text x="130.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 1</text>
+<text x="210.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 2</text>
+<text x="290.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 3</text>
+<text x="370.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 4</text>
+<text x="450.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" font-style="italic" text-anchor="middle">m 5</text>
+<text x="590.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f1f1f" font-style="italic" text-anchor="end">1:50</text>
+<text x="50.0" y="120.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b" text-anchor="start">1 m vero = 2 cm sul foglio</text>
+<text x="16" y="205" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Lo schema non è in misura reale: conta il rapporto. In 1:50 tutto è il doppio che in 1:100.</text>
+<text x="16" y="225" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">La scala grafica resta giusta anche se il foglio viene ridotto o fotocopiato.</text>
+</g>
+</svg>

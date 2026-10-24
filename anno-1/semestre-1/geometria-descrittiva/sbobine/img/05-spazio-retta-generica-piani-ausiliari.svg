@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 466" width="600" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: la retta generica r nei piani ausiliari α e β</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,325.0 262.0,190.0 411.4,276.2 177.6,411.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,325.0 262.0,190.0 262.0,25.0 28.2,160.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,190.0 411.4,276.2 411.4,111.2 262.0,25.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="325.0" x2="262.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="411.4" y2="276.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="262.0" y2="25.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="319.3,329.4 99.6,283.8 99.6,118.8 319.3,164.4" fill="#2563a8" fill-opacity="0.1" stroke="none"/>
+<line x1="99.6" y1="283.8" x2="319.3" y2="329.4" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="99.6" y1="283.8" x2="99.6" y2="118.8" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="301.0,340.0 151.6,253.8 75.4,132.8 224.8,219.0" fill="#2e8b57" fill-opacity="0.1" stroke="none"/>
+<line x1="151.6" y1="253.8" x2="301.0" y2="340.0" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="151.6" y1="253.8" x2="75.4" y2="132.8" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="262.0" y1="317.5" x2="99.6" y2="171.2" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="262.0" cy="317.5" r="2.8" fill="#1f1f1f"/>
+<text x="270.0" y="335.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="99.6" cy="171.2" r="2.8" fill="#1f1f1f"/>
+<text x="107.6" y="163.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">T<tspan dy="4" font-size="70%">2r</tspan><tspan dy="-4"></tspan></text>
+<text x="188.8" y="242.4" font-family="Helvetica, Arial, sans-serif" font-size="16" font-style="italic" fill="#c0392b">r</text>
+<text x="160.8" y="324.6" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#2563a8">t₁α ≡ r₁</text>
+<text x="87.6" y="119.8" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#2563a8">t₂α</text>
+<text x="21.6" y="216.2" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#2e8b57">t₂β ≡ r₂</text>
+<text x="299.2" y="338.4" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#2e8b57">t₁β</text>
+<text x="16" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">blu: α proiettante in prima (t₁α ≡ r₁) · verde: β proiettante in seconda (t₂β ≡ r₂)</text>
+</g>
+</svg>

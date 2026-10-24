@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 466" width="600" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: la retta m proiettante in seconda (perpendicolare a π₂)</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,325.0 262.0,190.0 411.4,276.2 177.6,411.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,325.0 262.0,190.0 262.0,25.0 28.2,160.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,190.0 411.4,276.2 411.4,111.2 262.0,25.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="325.0" x2="262.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="411.4" y2="276.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="262.0" y2="25.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<line x1="132.1" y1="175.0" x2="281.5" y2="261.2" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<text x="287.5" y="265.2" font-family="Helvetica, Arial, sans-serif" font-size="16" font-style="italic" fill="#c0392b">m</text>
+<line x1="132.1" y1="265.0" x2="281.5" y2="351.2" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round"/>
+<text x="275.5" y="371.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">m₁</text>
+<text x="299.5" y="371.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">T<tspan dy="4" font-size="70%">1m</tspan><tspan dy="-4"></tspan>∞</text>
+<line x1="262.0" y1="100.0" x2="411.4" y2="186.2" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round"/>
+<text x="417.4" y="190.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">m₃</text>
+<text x="417.4" y="208.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">T<tspan dy="4" font-size="70%">3m</tspan><tspan dy="-4"></tspan>∞</text>
+<line x1="132.1" y1="175.0" x2="132.1" y2="265.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="281.5" y1="261.2" x2="281.5" y2="351.2" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="281.5" y1="261.2" x2="411.4" y2="186.2" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="132.1" y1="175.0" x2="262.0" y2="100.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="132.1" cy="265.0" r="2.8" fill="#1f1f1f"/>
+<circle cx="262.0" cy="100.0" r="2.8" fill="#1f1f1f"/>
+<circle cx="132.1" cy="175.0" r="2.8" fill="#c0392b"/>
+<text x="36.1" y="193.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">m₂ ≡ T<tspan dy="4" font-size="70%">2m</tspan><tspan dy="-4"></tspan></text>
+<text x="16" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">m buca solo π₂ (in T₂ₘ); è parallela a π₁ e a π₃, quindi T₁ₘ e T₃ₘ sono all'infinito.</text>
+</g>
+</svg>

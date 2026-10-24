@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 456" width="620" height="456">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Traslazione: dati U∞, u∞, r e r′ e il triangolo ABC, trovare A′B′C′</text>
+<g transform="translate(0,36)">
+<line x1="30.0" y1="230.0" x2="580.8" y2="83.1" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="574.8" y="73.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">r</text>
+<line x1="30.0" y1="390.0" x2="580.8" y2="243.1" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="574.8" y="263.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">r′</text>
+<line x1="155.6" y1="196.5" x2="321.1" y2="312.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="60.0" y1="90.0" x2="155.6" y2="196.5" stroke="#c0392b" stroke-width="1" stroke-linecap="round"/>
+<line x1="225.5" y1="205.9" x2="321.1" y2="312.4" stroke="#c0392b" stroke-width="1" stroke-linecap="round"/>
+<line x1="60.0" y1="90.0" x2="225.5" y2="205.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="220.0" y1="50.0" x2="385.5" y2="165.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="170.0" y1="160.0" x2="335.5" y2="275.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="60.0,90.0 220.0,50.0 170.0,160.0" fill="#2563a8" fill-opacity="0.1" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="225.5,205.9 385.5,165.9 335.5,275.9" fill="#c0392b" fill-opacity="0.08" stroke="#c0392b" stroke-width="2.4"/>
+<circle cx="155.6" cy="196.5" r="2.8" fill="#c0392b"/>
+<text x="161.6" y="214.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">M</text>
+<circle cx="321.1" cy="312.4" r="2.8" fill="#c0392b"/>
+<text x="315.1" y="334.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">M′</text>
+<circle cx="60.0" cy="90.0" r="2.8" fill="#2563a8"/>
+<text x="42.0" y="86.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="220.0" cy="50.0" r="2.8" fill="#2563a8"/>
+<text x="216.0" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<circle cx="170.0" cy="160.0" r="2.8" fill="#2563a8"/>
+<text x="146.0" y="164.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
+<circle cx="225.5" cy="205.9" r="2.8" fill="#c0392b"/>
+<text x="199.5" y="213.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A′</text>
+<circle cx="385.5" cy="165.9" r="2.8" fill="#c0392b"/>
+<text x="393.5" y="161.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′</text>
+<circle cx="335.5" cy="275.9" r="2.8" fill="#c0392b"/>
+<text x="343.5" y="289.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C′</text>
+<line x1="456.9" y1="25.8" x2="483.1" y2="44.2" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
+<text x="482.0" y="41.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">U<tspan dy="4" font-size="70%">∞</tspan><tspan dy="-4"></tspan></text>
+<line x1="531.0" y1="369.0" x2="549.0" y2="351.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="531.0" y1="351.0" x2="549.0" y2="369.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="554.0" y="365.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">u<tspan dy="4" font-size="70%">∞</tspan><tspan dy="-4"></tspan></text>
+</g>
+</svg>

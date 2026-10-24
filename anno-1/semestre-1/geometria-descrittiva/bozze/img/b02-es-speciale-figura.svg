@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 446" width="660" height="446">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Omologia speciale: dati U sull'asse u, il triangolo ABC e A′, trovare A′B′C′</text>
+<g transform="translate(0,36)">
+<line x1="10.0" y1="298.7" x2="650.0" y2="162.3" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="10.0" y="318.7" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">u</text>
+<line x1="214.6" y1="255.1" x2="117.1" y2="26.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="214.6" y1="255.1" x2="462.4" y2="240.1" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="214.6" y1="255.1" x2="91.4" y2="394.8" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="123.3" y1="41.2" x2="138.5" y2="301.6" stroke="#c0392b" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<text x="142.5" y="307.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<line x1="168.4" y1="146.8" x2="183.2" y2="88.6" stroke="#2563a8" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<text x="187.2" y="88.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">r</text>
+<line x1="398.1" y1="244.0" x2="368.7" y2="222.2" stroke="#c0392b" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="422.5" y1="242.5" x2="368.7" y2="222.2" stroke="#2563a8" stroke-width="1" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="422.5" y1="242.5" x2="578.3" y2="177.5" stroke="#2563a8" stroke-width="1" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="398.1" y1="244.0" x2="578.3" y2="177.5" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3" stroke-linecap="round"/>
+<polygon points="168.4,146.8 422.5,242.5 111.2,372.3" fill="#2563a8" fill-opacity="0.08" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="123.3,41.2 398.1,244.0 140.6,338.9" fill="#c0392b" fill-opacity="0.1" stroke="#c0392b" stroke-width="2.4"/>
+<circle cx="136.7" cy="271.7" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
+<text x="118.7" y="265.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">1</text>
+<circle cx="368.7" cy="222.2" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
+<text x="364.7" y="212.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">2</text>
+<circle cx="578.3" cy="177.5" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
+<text x="574.3" y="199.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">3</text>
+<circle cx="214.6" cy="255.1" r="2.8" fill="#1f1f1f"/>
+<text x="210.6" y="279.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">U</text>
+<circle cx="168.4" cy="146.8" r="2.8" fill="#2563a8"/>
+<text x="176.4" y="142.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="422.5" cy="242.5" r="2.8" fill="#2563a8"/>
+<text x="430.5" y="258.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<circle cx="111.2" cy="372.3" r="2.8" fill="#2563a8"/>
+<text x="93.2" y="376.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
+<circle cx="123.3" cy="41.2" r="2.8" fill="#c0392b"/>
+<text x="131.3" y="37.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A′</text>
+<circle cx="398.1" cy="244.0" r="2.8" fill="#c0392b"/>
+<text x="400.1" y="234.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′</text>
+<circle cx="140.6" cy="338.9" r="2.8" fill="#c0392b"/>
+<text x="148.6" y="352.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C′</text>
+</g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 436" width="640" height="436">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Affinità: dati U∞, u, r e r′ e la retta m, trovare m′</text>
+<g transform="translate(0,36)">
+<line x1="10.0" y1="200.0" x2="630.0" y2="200.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="10.0" y="192.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">u</text>
+<line x1="80.0" y1="200.0" x2="375.2" y2="52.4" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
+<text x="369.2" y="72.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">r</text>
+<line x1="80.0" y1="200.0" x2="328.0" y2="350.3" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
+<text x="334.0" y="354.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">r′</text>
+<line x1="300.0" y1="200.0" x2="568.3" y2="65.8" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
+<text x="562.3" y="85.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">m</text>
+<line x1="209.2" y1="119.8" x2="296.0" y2="348.1" stroke="#c0392b" stroke-width="1" stroke-linecap="round"/>
+<line x1="357.6" y1="155.6" x2="405.3" y2="281.1" stroke="#c0392b" stroke-width="1" stroke-linecap="round"/>
+<line x1="214.2" y1="132.9" x2="492.5" y2="200.0" stroke="#c0392b" stroke-width="1" stroke-linecap="round"/>
+<text x="386.7" y="166.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">n</text>
+<line x1="287.4" y1="325.7" x2="492.5" y2="200.0" stroke="#c0392b" stroke-width="1" stroke-linecap="round"/>
+<text x="344.9" y="280.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">n′</text>
+<line x1="300.0" y1="200.0" x2="499.4" y2="320.9" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<text x="505.4" y="324.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">m′</text>
+<circle cx="80.0" cy="200.0" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
+<circle cx="300.0" cy="200.0" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
+<text x="294.0" y="190.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">Q</text>
+<circle cx="492.5" cy="200.0" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
+<text x="486.5" y="190.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">N</text>
+<circle cx="214.2" cy="132.9" r="2.8" fill="#c0392b"/>
+<text x="196.2" y="126.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A</text>
+<circle cx="287.4" cy="325.7" r="2.8" fill="#c0392b"/>
+<text x="261.4" y="331.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A′</text>
+<circle cx="362.6" cy="168.7" r="2.8" fill="#c0392b"/>
+<text x="356.6" y="156.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B</text>
+<circle cx="396.8" cy="258.7" r="2.8" fill="#c0392b"/>
+<text x="404.8" y="274.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′</text>
+<line x1="475.7" y1="75.0" x2="464.3" y2="45.0" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
+<text x="482.0" y="66.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">U<tspan dy="4" font-size="70%">∞</tspan><tspan dy="-4"></tspan></text>
+</g>
+</svg>

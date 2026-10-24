@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 436" width="640" height="436">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Esercizio: dati U, u, la coppia A e A′ e il punto B, trovare B′</text>
+<g transform="translate(0,36)">
+<line x1="10.0" y1="349.8" x2="630.0" y2="360.2" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="10.0" y="341.8" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">u</text>
+<line x1="100.0" y1="40.0" x2="310.3" y2="217.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="100.0" y1="40.0" x2="530.0" y2="81.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="51.8" y1="350.5" x2="329.9" y2="37.6" stroke="#2563a8" stroke-width="1.6" stroke-linecap="round"/>
+<text x="315.9" y="35.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">r</text>
+<line x1="51.8" y1="350.5" x2="531.9" y2="63.3" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round"/>
+<text x="535.9" y="67.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<circle cx="51.8" cy="350.5" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
+<text x="47.8" y="372.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">V</text>
+<circle cx="100.0" cy="40.0" r="2.8" fill="#1f1f1f"/>
+<text x="84.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">U</text>
+<circle cx="230.0" cy="150.0" r="2.8" fill="#2563a8"/>
+<text x="212.0" y="146.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="295.0" cy="205.0" r="2.8" fill="#2e8b57"/>
+<text x="267.0" y="221.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">A′</text>
+<circle cx="310.0" cy="60.0" r="2.8" fill="#2563a8"/>
+<text x="292.0" y="56.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<circle cx="506.1" cy="78.7" r="2.8" fill="#c0392b"/>
+<text x="506.1" y="66.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′</text>
+<text x="14" y="388" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">r = AB incontra l'asse nel punto unito V; r′ passa per V e per A′; B′ = r′ ∩ raggio UB.</text>
+</g>
+</svg>

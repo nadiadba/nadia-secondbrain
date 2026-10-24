@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 486" width="600" height="486">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: due piani proiettanti in prima perpendicolari (il quaderno aperto)</text>
+<g transform="translate(0,36)">
+<polygon points="28.2,325.0 262.0,190.0 411.4,276.2 177.6,411.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="28.2,325.0 262.0,190.0 262.0,25.0 28.2,160.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="262.0,190.0 411.4,276.2 411.4,111.2 262.0,25.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="28.2" y1="325.0" x2="262.0" y2="190.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="411.4" y2="276.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="190.0" x2="262.0" y2="25.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="188.8" y="367.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="69.2" y="158.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="380.0" y="108.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="6.2" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="32.7,162.6 32.7,327.6 336.7,233.1 336.7,68.1" fill="#2e8b57" fill-opacity="0.12" stroke="none"/>
+<line x1="336.7" y1="233.1" x2="32.7" y2="327.6" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="336.7" y1="233.1" x2="336.7" y2="68.1" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="178.2,73.4 178.2,238.4 282.8,350.5 282.8,185.5" fill="#7b4fa0" fill-opacity="0.12" stroke="none"/>
+<line x1="178.2" y1="238.4" x2="282.8" y2="350.5" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="178.2" y1="238.4" x2="178.2" y2="73.4" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<text x="307.1" y="260.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2e8b57">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>γ</text>
+<text x="279.0" y="347.9" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#7b4fa0">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>δ</text>
+<line x1="210.0" y1="272.5" x2="210.0" y2="107.5" stroke="#1f1f1f" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="221.4" y1="269.0" x2="227.5" y2="275.5" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="227.5" y1="275.5" x2="216.1" y2="279.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="188.3" y1="144.2" x2="275.4" y2="237.5" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<text x="281.4" y="241.5" font-family="Helvetica, Arial, sans-serif" font-size="16" font-style="italic" fill="#c0392b">r</text>
+<line x1="219.7" y1="164.5" x2="225.0" y2="170.1" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="225.0" y1="170.1" x2="215.3" y2="173.1" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<text x="16" y="424" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">L'angolo retto si legge sul banco (π₁), tra le prime tracce. La retta r di δ, orizzontale,</text>
+<text x="16" y="442" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">è perpendicolare a γ: per questo i due piani sono perpendicolari.</text>
+</g>
+</svg>
