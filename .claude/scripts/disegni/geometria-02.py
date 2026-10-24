@@ -237,6 +237,31 @@ def distanza():
     return f
 
 
+def distanza_piano():
+    """Disegno proposto: distanza di un punto da un piano (vista obliqua del piano orizzontale)."""
+    f = F(600, 300, "La distanza di un punto P da un piano α")
+    def s(q):  # x a destra, y in alto, z in profondita'
+        return (60 + q[0] + 0.5 * q[2], 45 + q[1] + 0.35 * q[2])
+    f.poligono([s((0, 0, 0)), s((380, 0, 0)), s((380, 0, 200)), s((0, 0, 200))], "blu", 0.10, 1.4)
+    f.testo(s((350, 0, 15)), "α", 0, 0, "blu", 18)
+    H3 = (190, 0, 100); P3 = (190, 155, 100)
+    H, P = s(H3), s(P3)
+    # due rette del piano per H, perpendicolari a PH
+    for a3, b3, nome in (((40, 0, 100), (340, 0, 100), "a"), ((190, 0, 10), (190, 0, 190), "b")):
+        f.linea(s(a3), s(b3), "verde", 1.4); f.testo(s(b3), nome, 6, -2, "verde", 14)
+    dx, dz = direzione(H, s((340, 0, 100))), direzione(H, s((190, 0, 190)))
+    f.angolo_retto(H, dx, (0, 1), 13); f.angolo_retto(H, dz, (0, 1), 13)
+    # distanze inclinate
+    for Q3 in ((60, 0, 40), (320, 0, 160)):
+        f.tratt(P, s(Q3))
+    f.testo(P, "distanze inclinate (più lunghe)", 70, 30, "grigio", 12, False)
+    f.linea(P, H, "rosso", 2.6)
+    f.punto(P, "P", 8, -4, "rosso"); f.punto(H, "H", -20, 20)
+    f.testo(oltre(H, P, 0.5), "PH", 9, 4, "rosso", 14, False)
+    f.didascalia("PH = distanza minima: è perpendicolare a due rette a e b del piano che passano per H.")
+    return f
+
+
 def rette():
     f = F(690, 240, "Due rette nello stesso piano, e la parallela per un punto")
     for x, t in ((14, "rette parallele"), (246, "rette incidenti"), (478, "per P una sola parallela a r")):
@@ -904,6 +929,7 @@ def es_classica_punto_m():
 
 # ==================================================================== salvataggio
 distanza().salva_in(SB + "02-distanza-punto-retta.svg", BZ + "b02-distanza-punto-retta.svg")
+distanza_piano().salva_in(BZ + "b02-distanza-punto-piano.svg")
 rette().salva_in(SB + "02-rette-parallele-incidenti.svg", BZ + "b02-rette-parallele-incidenti.svg")
 diedro_triedro().salva_in(SB + "02-diedro-triedro.svg", BZ + "b02-diedro-triedro.svg")
 proiezione_punto_retta().salva_in(SB + "02-proiezione-punto-retta.svg", BZ + "b02-proiezione-punto-retta.svg")

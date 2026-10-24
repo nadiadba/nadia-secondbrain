@@ -32,13 +32,21 @@ Il concetto è fondamentale perché ritorna nello spazio: la distanza di un punt
 > 3. Si segna l'angolo retto in $H$.
 > 4. $PH$ è la distanza: i segmenti inclinati (tratteggiati) sono tutti più lunghi.
 
+> [!example] Disegno 2 (proposto, non fatto a lezione): la distanza di un punto da un piano
+> ![[b02-distanza-punto-piano.svg|560]]
+>
+> 1. Si disegnano il piano $\alpha$ (in prospettiva, come un parallelogramma) e il punto $P$ esterno, sopra il piano.
+> 2. Da $P$ si conduce la perpendicolare al piano; il punto in cui lo incontra è il piede $H$.
+> 3. Per verificare che $PH$ sia perpendicolare al piano, si prendono due rette del piano che passano per $H$, $a$ e $b$: $PH$ è perpendicolare a tutte e due, e si segnano i due angoli retti.
+> 4. $PH$ è la distanza del punto dal piano: i segmenti inclinati (tratteggiati) che vanno da $P$ ad altri punti del piano sono tutti più lunghi.
+
 ### Rette e piani: paralleli, incidenti, sghembi
 
 Due rette che stanno nello stesso piano, per esempio sul foglio, possono trovarsi solo in due situazioni: o sono parallele, cioè complanari ed equidistanti, senza alcun punto in comune, oppure sono incidenti e si incontrano in un punto. Due rette che non appartengono allo stesso piano si dicono invece sghembe; prese insieme definiscono una superficie, e molte coperture dei centri storici sono vere superfici sghembe, costruite su quattro pali di cui basta che uno non stia nel piano degli altri tre. Vale poi una proprietà importante: dati una retta e un punto che non le appartiene, per quel punto passa una e una sola parallela alla retta.
 
 Lo stesso ragionamento vale per i piani: due piani paralleli non hanno punti in comune, due piani incidenti hanno in comune una retta. Una retta e un piano si incontrano in un punto; una retta esterna a un piano può essere secante, se lo incontra in un punto, oppure parallela al piano, e lo è quando è parallela a una retta del piano. Una retta è perpendicolare a un piano quando è perpendicolare a due rette del piano.
 
-> [!example] Disegno 2 · Il disegno: rette parallele e incidenti
+> [!example] Disegno 3 · Il disegno: rette parallele e incidenti
 > ![[b02-rette-parallele-incidenti.svg|640]]
 >
 > 1. A sinistra le rette $r$ e $s$ sono parallele: non si incontrano.
@@ -49,7 +57,7 @@ Lo stesso ragionamento vale per i piani: due piani paralleli non hanno punti in 
 
 Due piani incidenti, oltre a condividere una retta, delimitano delle porzioni di spazio: ciascuna di queste porzioni, racchiusa tra due semipiani che hanno in comune una retta, si chiama diedro. Il triedro è invece la porzione di spazio delimitata da tre piani; tre piani distinti hanno in comune un punto, il vertice del triedro, che diventerà l'origine degli assi. Il triedro tornerà spesso, perché avere un terzo piano di riferimento è molto utile. I piani vanno sempre pensati infiniti, anche se sul foglio siamo costretti a disegnarli come rettangoli. Tutte queste definizioni sono concatenate, ognuna richiama la precedente: non vanno imparate "a vuoto", ma capite nel loro legame.
 
-> [!example] Disegno 3 · Il disegno: diedro e triedro
+> [!example] Disegno 4 · Il disegno: diedro e triedro
 > ![[b02-diedro-triedro.svg|640]]
 >
 > 1. Diedro: i semipiani $\alpha$ e $\beta$ hanno in comune la retta $r$ e racchiudono una porzione di spazio.
@@ -87,7 +95,7 @@ L'operazione di proiezione richiede due elementi: un centro di proiezione $S$ e 
 
 Proiettare una retta significa costruire un fascio di rette, cioè tante rette che passano tutte per il centro e per gli infiniti punti della retta: il fascio appartiene tutto a uno stesso piano. Proiettare un piano significa invece proiettare dal centro tutte le sue rette, e si ottiene una stella di rette, che non stanno in un unico piano.
 
-> [!example] Disegno 4 · Il disegno: proiettare un punto e una retta
+> [!example] Disegno 5 · Il disegno: proiettare un punto e una retta
 > ![[b02-proiezione-punto-retta.svg|660]]
 >
 > 1. Punto: il raggio da $S$ per $P$ incontra il piano di quadro in $P'$.
@@ -109,14 +117,14 @@ La geometria proiettiva introduce gli enti impropri: punti, rette e piani la cui
 
 Due rette parallele, dunque, si incontrano in un punto improprio, che si rappresenta con la sua direzione, un piccolo trattino che dice verso dove "va" la retta. I postulati di appartenenza si ampliano di conseguenza: per due punti passa una e una sola retta anche quando uno dei due è improprio, perché la retta conterrà il punto proprio e avrà la direzione dell'altro.
 
-> [!example] Disegno 5 · Il disegno: il modello della circonferenza
+> [!example] Disegno 6 · Il disegno: il modello della circonferenza
 > ![[b02-retta-proiettiva.svg|600]]
 >
 > 1. Si disegnano la circonferenza, il centro $S$ su di essa e la retta $r$.
 > 2. I raggi da $S$ per $A$, $B$, $C$ incontrano la circonferenza in $A'$, $B'$, $C'$.
 > 3. Anche il raggio parallelo a $r$ incontra la circonferenza, in $P'$: è l'immagine del punto improprio $P_\infty$ di $r$.
 
-> [!example] Disegno 6 · Il disegno: il punto improprio di rette parallele
+> [!example] Disegno 7 · Il disegno: il punto improprio di rette parallele
 > ![[b02-punto-improprio.svg|600]]
 >
 > 1. Le parallele $r$ e $s$ si incontrano in $P_\infty$, segnato con il trattino nella loro direzione.
@@ -126,7 +134,7 @@ Due rette parallele, dunque, si incontrano in un punto improprio, che si rappres
 
 Il tipo di proiezione dipende dalla posizione del centro. Se il centro è proprio, cioè a distanza finita, da esso parte una stella di rette e si hanno le proiezioni coniche, da cui nasce la prospettiva. Se il centro è improprio, all'infinito, i raggi proiettanti sono tutti paralleli e definiscono un'unica direzione: si hanno le proiezioni cilindriche, che comprendono le proiezioni ortogonali e le assonometrie. È la stessa differenza che c'è tra l'ombra di una lampada, che ha un centro proprio, e l'ombra del sole, i cui raggi si assumono paralleli perché il sole è molto distante. Nell'assonometria la direzione di proiezione può essere perpendicolare al piano di quadro (assonometria ortogonale) oppure inclinata (assonometria obliqua).
 
-> [!example] Disegno 7 · Il disegno: centro proprio e centro improprio
+> [!example] Disegno 8 · Il disegno: centro proprio e centro improprio
 > ![[03-proiezione-centrale-e-cilindrica.svg|640]]
 >
 > 1. Centro $S$ proprio: i raggi partono tutti da $S$ e la figura proiettata cambia dimensione (proiezione conica).
@@ -140,7 +148,7 @@ La proiettività più semplice è la prospettività: ci sono un centro e due pia
 
 Il punto in cui una retta incontra l'asse si chiama punto unito: sta sulla retta di intersezione, quindi appartiene a tutti e due i piani, e proiettandolo si ottiene lo stesso punto. Le due proprietà, allineamento con il centro e incontro sull'asse, valgono per una retta, per tante rette e per ogni figura, per esempio per i lati $AB$, $BC$, $CA$ di un triangolo.
 
-> [!example] Disegno 8 · Il disegno: la prospettività tra due piani
+> [!example] Disegno 9 · Il disegno: la prospettività tra due piani
 > ![[b02-prospettivita.svg|660]]
 >
 > 1. Il triangolo $ABC$ sta su $\alpha$; proiettandolo da $S$ su $\alpha'$ si ottiene $A'B'C'$.
@@ -153,7 +161,7 @@ L'omologia nasce da un passo in più. Due figure che stanno sullo stesso piano s
 
 L'omologia è dunque la relazione tra due figure generate dalla proiezione della stessa figura da due centri diversi: è il prodotto di due prospettività. Nell'omografia c'è un solo centro che proietta da un piano a un altro; nell'omologia ci sono due centri che proiettano sul medesimo piano. Una volta definita, l'omologia vale indipendentemente dalla configurazione spaziale che l'ha generata: gli esercizi sono astratti e vanno risolti sul piano, senza figurarsi lo spazio.
 
-> [!example] Disegno 9 · Il disegno: dai due centri al centro dell'omologia
+> [!example] Disegno 10 · Il disegno: dai due centri al centro dell'omologia
 > ![[b02-omologia-due-centri.svg|660]]
 >
 > 1. Il segmento $A_0B_0$ sta su $\alpha_0$; proiettandolo su $\alpha$ da $S$ si ottiene $AB$, da $S_1$ si ottiene $A'B'$.
@@ -167,7 +175,7 @@ Un'omologia è definita da tre dati: il centro, l'asse e una coppia di elementi 
 
 Per risolvere gli esercizi non serve altro che le due proprietà dell'omologia e le condizioni di appartenenza. Saperle a memoria non basta: bisogna saperle applicare.
 
-> [!example] Disegno 10 · Il disegno: due triangoli corrispondenti
+> [!example] Disegno 11 · Il disegno: due triangoli corrispondenti
 > ![[b02-omologia-centro-asse.svg|620]]
 >
 > 1. Le rette $AA'$, $BB'$, $CC'$ passano tutte per il centro $U$.
@@ -196,7 +204,7 @@ A seconda della posizione reciproca dei piani e dei centri di proiezione, l'omol
 
 L'omologia è speciale quando, proiettando un centro dall'altro, il centro viene a cadere proprio sull'asse. Nella risoluzione non cambia nulla: semplicemente il centro appartiene all'asse.
 
-> [!example] Disegno 11 · Il disegno: l'omologia speciale
+> [!example] Disegno 12 · Il disegno: l'omologia speciale
 > ![[b02-omologia-speciale.svg|620]]
 >
 > 1. $U$ sta sull'asse $u$.
@@ -206,7 +214,7 @@ L'omologia è speciale quando, proiettando un centro dall'altro, il centro viene
 
 Si ha un'affinità quando i due centri sono allineati lungo una retta parallela al piano: la retta che li unisce non incontra il piano a distanza finita, ma all'infinito. Il centro dell'omologia è allora improprio e si indica con una direzione. Unendo i punti corrispondenti si ottengono rette tutte parallele a quella direzione: se la direzione è perpendicolare all'asse l'affinità è ortogonale, se è inclinata è obliqua. L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'assonometria obliqua; un'affinità compare anche nel ribaltamento, dove il centro è all'infinito nella direzione perpendicolare all'asse.
 
-> [!example] Disegno 12 · Il disegno: affinità ortogonale e obliqua
+> [!example] Disegno 13 · Il disegno: affinità ortogonale e obliqua
 > ![[b02-affinita.svg|640]]
 >
 > 1. $U_\infty$ si disegna con la lineetta della sua direzione.
@@ -218,7 +226,7 @@ Si ha un'affinità quando i due centri sono allineati lungo una retta parallela 
 
 L'omotetia si ha quando il piano che contiene la figura è parallelo al piano su cui la si proietta. La retta di intersezione tra i due piani, cioè l'asse, è allora impropria, mentre il centro è proprio. Poiché le rette corrispondenti si incontrano sull'asse, che è all'infinito, le rette corrispondenti sono necessariamente parallele: è la differenza fondamentale dell'omotetia. La figura si ingrandisce, come un rettangolo parallelo alla parete illuminato da una lampada, o come la pianta che si allarga nella prospettiva centrale frontale.
 
-> [!example] Disegno 13 · Il disegno: l'omotetia
+> [!example] Disegno 14 · Il disegno: l'omotetia
 > ![[b02-omotetia.svg|620]]
 >
 > 1. Asse all'infinito: $u_\infty$ con la crocetta.
@@ -229,7 +237,7 @@ L'omotetia si ha quando il piano che contiene la figura è parallelo al piano su
 
 La traslazione è il caso limite, di massima indeterminazione: il piano della figura è parallelo al piano su cui si proietta (asse all'infinito) e anche i due centri sono allineati parallelamente al piano (centro all'infinito). È un'isometria, una trasformazione del piano che conserva distanze e angoli: un quadrato rimane un quadrato e il segmento $A'B'$ è uguale ad $AB$. La figura viene semplicemente spostata.
 
-> [!example] Disegno 14 · Il disegno: la traslazione
+> [!example] Disegno 15 · Il disegno: la traslazione
 > ![[b02-traslazione.svg|620]]
 >
 > 1. Centro e asse impropri: $U_\infty$ con la lineetta, $u_\infty$ con la crocetta.
@@ -262,7 +270,7 @@ Quando il centro è improprio, "mandare il raggio dal centro" significa tracciar
 
 È l'esercizio più semplice, quello spiegato a lezione il 6 ottobre: sono dati il centro, l'asse, una coppia di punti corrispondenti $A$ e $A'$ e un punto $B$, e si chiede il corrispondente $B'$. Se invece di un punto è dato un segmento, lo si prolunga fino a ottenere la retta che lo contiene e si ragiona allo stesso modo.
 
-> [!example] Disegno 15 · Il disegno: dati U, u, A e A′, trovare B′
+> [!example] Disegno 16 · Il disegno: dati U, u, A e A′, trovare B′
 > ![[b02-es-punto-coppia.svg|620]]
 >
 > 1. $B'$ è allineato con $U$: si traccia il raggio da $U$ per $B$.
@@ -274,7 +282,7 @@ Quando il centro è improprio, "mandare il raggio dal centro" significa tracciar
 
 Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e ci si riconduce all'esercizio precedente. È l'esercizio fatto insieme l'8 ottobre ed è lo stesso tipo del terzo esercizio del foglio «ES.GUIDATA Omologia 01» (dati $U$, $u$, $r$ e $r'$ che si incontrano sull'asse, trovare $M'$).
 
-> [!example] Disegno 16 · Il disegno: dati U, u, r e r′, trovare P′ (lezione dell'8 ottobre)
+> [!example] Disegno 17 · Il disegno: dati U, u, r e r′, trovare P′ (lezione dell'8 ottobre)
 > ![[03-omologia-punto-corrispondente.svg|620]]
 >
 > 1. Si sceglie un punto $A$ su $r$ e si manda il raggio da $U$: dove incontra $r'$ c'è $A'$.
@@ -282,7 +290,7 @@ Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e c
 > 3. $s'$ passa per $W$ e per $A'$.
 > 4. $P'$ sta su $s'$ e sul raggio da $U$ per $P$.
 
-> [!example] Disegno 17 (proposto, non fatto a lezione): esercizio 3 di «ES.GUIDATA Omologia 01»
+> [!example] Disegno 18 (proposto, non fatto a lezione): esercizio 3 di «ES.GUIDATA Omologia 01»
 > ![[b02-es-classica-punto-m.svg|620]]
 >
 > Sono dati il centro $U$, l'asse $u$ e le rette corrispondenti $r$ e $r'$, che si incontrano in un punto unito dell'asse; si chiede il corrispondente $M'$ del punto $M$, che sta tra $U$ e l'asse.
@@ -297,7 +305,7 @@ Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e c
 
 Il metodo non cambia: l'unica particolarità è che il centro sta sull'asse, quindi i raggi partono da un punto dell'asse. Il foglio «OMOLOGIA riepilogo» contiene un esercizio di questo tipo con la soluzione della docente; il secondo esercizio del foglio «ES.GUIDATA Omologia 01» è dello stesso tipo, ma senza soluzione.
 
-> [!example] Disegno 18 · Il disegno: dati U sull'asse, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 19 · Il disegno: dati U sull'asse, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-speciale-figura.svg|620]]
 >
 > 1. Si prolunga il lato $AC$ (la retta $r$) fino all'asse: punto unito 1.
@@ -305,7 +313,7 @@ Il metodo non cambia: l'unica particolarità è che il centro sta sull'asse, qui
 > 3. Si prolunga $AB$ fino all'asse: punto unito 2. La retta per 2 e $A'$ incontra il raggio da $U$ per $B$ in $B'$.
 > 4. Verifica: $BC$ e $B'C'$ si incontrano sull'asse (punto 3).
 
-> [!example] Disegno 19 (proposto, non fatto a lezione): dati U sull'asse, r e r′, trovare M′ («ES.GUIDATA Omologia 01», esercizio 2)
+> [!example] Disegno 20 (proposto, non fatto a lezione): dati U sull'asse, r e r′, trovare M′ («ES.GUIDATA Omologia 01», esercizio 2)
 > ![[b02-es-speciale-punto.svg|580]]
 >
 > 1. Si sceglie un punto $A$ su $r$ e si manda il raggio da $U$: dove incontra $r'$ c'è $A'$.
@@ -317,7 +325,7 @@ Il metodo non cambia: l'unica particolarità è che il centro sta sull'asse, qui
 
 Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il punto unito, si traccia la parallela. Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione della docente (trovare $P'$ e trovare la retta $n'$); l'esercizio sulla retta $s'$ del foglio «ES.GUIDATA» è stato corretto in aula il 13 ottobre.
 
-> [!example] Disegno 20 · Il disegno: dati U, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 21 · Il disegno: dati U, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-omotetia-punto.svg|560]]
 >
 > 1. Si sceglie un punto $A$ su $r$ e si manda il raggio da $U$: dove incontra $r'$ c'è $A'$.
@@ -325,7 +333,7 @@ Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il 
 > 3. Per $A'$ si traccia la parallela a $PA$ (l'asse è all'infinito).
 > 4. $P'$ sta su questa parallela e sul raggio da $U$ per $P$.
 
-> [!example] Disegno 21 · Il disegno: dati U, u∞, r e r′, trovare s′ (correzione del 13 ottobre)
+> [!example] Disegno 22 · Il disegno: dati U, u∞, r e r′, trovare s′ (correzione del 13 ottobre)
 > ![[04-omologia-retta-corrispondente.svg|620]]
 >
 > 1. Si prolunga $r$ fino a $s$: il punto comune $P$ sta su entrambe le rette.
@@ -333,7 +341,7 @@ Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il 
 > 3. $s'$ è la parallela a $s$ per $P'$.
 > 4. Verifica (in blu): con un altro punto $M$ di $s$ si trova $M'$, che cade su $s'$.
 
-> [!example] Disegno 22 (proposto, non fatto a lezione): dati U, u∞, A e A′, trovare A′B′C′D′ («ES.GUIDATA Omologia 01», esercizio 5)
+> [!example] Disegno 23 (proposto, non fatto a lezione): dati U, u∞, A e A′, trovare A′B′C′D′ («ES.GUIDATA Omologia 01», esercizio 5)
 > ![[b02-es-omotetia-figura.svg|580]]
 >
 > 1. Si mandano i raggi da $U$ per tutti i vertici.
@@ -345,7 +353,7 @@ Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il 
 
 Con il centro all'infinito i corrispondenti stanno su rette parallele alla direzione di $U_\infty$, mentre l'asse resta proprio e i lati corrispondenti si incontrano su di esso. Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione della docente; l'esercizio della figura ℒ del foglio «ES.GUIDATA» è stato corretto in aula il 13 ottobre. Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri, propone anche un'omologia affine speciale, in cui la direzione di $U_\infty$ è parallela all'asse.
 
-> [!example] Disegno 23 · Il disegno: dati U∞, u, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 24 · Il disegno: dati U∞, u, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-affinita-figura.svg|580]]
 >
 > 1. La direzione di $U_\infty$ è quella della retta $AA'$: da ogni vertice si tracciano le parallele a questa direzione.
@@ -353,7 +361,7 @@ Con il centro all'infinito i corrispondenti stanno su rette parallele alla direz
 > 3. Si prolunga $BC$ fino all'asse: punto unito 2. La retta per 2 e $C'$ incontra la parallela per $B$ in $B'$.
 > 4. Si uniscono $A'$, $B'$, $C'$.
 
-> [!example] Disegno 24 · Il disegno: dati U∞, u, r e r′ e la retta m, trovare m′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 25 · Il disegno: dati U∞, u, r e r′ e la retta m, trovare m′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-affinita-retta.svg|600]]
 >
 > 1. Si sceglie $A$ su $r$; la parallela alla direzione di $U_\infty$ incontra $r'$ in $A'$.
@@ -361,7 +369,7 @@ Con il centro all'infinito i corrispondenti stanno su rette parallele alla direz
 > 3. $n'$ passa per $N$ e per $A'$; la parallela per $B$ alla direzione di $U_\infty$ la incontra in $B'$.
 > 4. $m$ incontra l'asse nel punto unito $Q$: $m'$ passa per $Q$ e per $B'$.
 
-> [!example] Disegno 25 · Il disegno: dati U∞, u, r e r′, trovare la figura corrispondente di ℒ (correzione del 13 ottobre)
+> [!example] Disegno 26 · Il disegno: dati U∞, u, r e r′, trovare la figura corrispondente di ℒ (correzione del 13 ottobre)
 > ![[04-omologia-figura-corrispondente.svg|620]]
 >
 > 1. Il vertice $A$ sta su $r$: andando nella direzione di $U_\infty$ fino a $r'$ si trova $A'$.
@@ -369,7 +377,7 @@ Con il centro all'infinito i corrispondenti stanno su rette parallele alla direz
 > 3. Allo stesso modo, con $AD$ si trova $D'$ e con $DC$ si trova $C'$.
 > 4. Verifica: i lati corrispondenti si incontrano tutti sull'asse.
 
-> [!example] Disegno 26 · Il disegno: omologia affine speciale, dati il quadrato ABCD e B′ (soluzione della docente, «OMOLOGIA 2 affinità»)
+> [!example] Disegno 27 · Il disegno: omologia affine speciale, dati il quadrato ABCD e B′ (soluzione della docente, «OMOLOGIA 2 affinità»)
 > ![[b02-es-affinita-speciale.svg|640]]
 >
 > 1. La direzione di $U_\infty$ è parallela all'asse: da ogni vertice si tracciano le parallele all'asse.
@@ -381,7 +389,7 @@ Con il centro all'infinito i corrispondenti stanno su rette parallele alla direz
 
 Con centro e asse all'infinito valgono insieme le due regole: i corrispondenti stanno sulle parallele alla direzione di $U_\infty$ e le rette corrispondenti sono parallele. Il foglio «OMOLOGIA riepilogo» ha un esercizio con la soluzione della docente; il primo esercizio del foglio «ES.GUIDATA» è dello stesso tipo, con un triangolo.
 
-> [!example] Disegno 27 · Il disegno: dati U∞, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 28 · Il disegno: dati U∞, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-traslazione-punto.svg|560]]
 >
 > 1. Si sceglie $M$ su $r$; la parallela alla direzione di $U_\infty$ incontra $r'$ in $M'$.
@@ -389,7 +397,7 @@ Con centro e asse all'infinito valgono insieme le due regole: i corrispondenti s
 > 3. La parallela per $P$ alla direzione di $U_\infty$ la incontra in $P'$.
 > 4. $PP'$ e $MM'$ risultano uguali e paralleli: è una traslazione.
 
-> [!example] Disegno 28 (proposto, non fatto a lezione): dati U∞, u∞, r e r′ e il triangolo ABC, trovare A′B′C′ («ES.GUIDATA Omologia 01», esercizio 1)
+> [!example] Disegno 29 (proposto, non fatto a lezione): dati U∞, u∞, r e r′ e il triangolo ABC, trovare A′B′C′ («ES.GUIDATA Omologia 01», esercizio 1)
 > ![[b02-es-traslazione-figura.svg|580]]
 >
 > 1. Si sceglie $M$ su $r$ e si trova $M'$ su $r'$ nella direzione di $U_\infty$.
@@ -401,7 +409,7 @@ Con centro e asse all'infinito valgono insieme le due regole: i corrispondenti s
 
 Alla fine della lezione la docente fa svolgere in aula un secondo esercizio di piante e prospetti, sullo stesso modello di quello della [[01-strumenti-materiali-e-regole|prima lezione]]. Il solido è dato in assonometria nella scheda esrcit_02 ed è più articolato del primo: è misurato con due moduli diversi, b per le dimensioni in pianta e a per le altezze (quattro moduli a), a partire dall'origine O, e ha anche linee nascoste tratteggiate e superfici inclinate. Si risolve con lo stesso procedimento: impaginare il foglio con il reticolo dei moduli, disegnare le piante ruotando l'oggetto, ricavare i prospetti, campire. Questa parte della lezione non è registrata, perché in aula si lavorava in silenzio.
 
-> [!example] Disegno 29 · Il disegno: il secondo solido in assonometria (scheda della docente)
+> [!example] Disegno 30 · Il disegno: il secondo solido in assonometria (scheda della docente)
 > ![[b01-esercizio-2-solido-assonometria.png|520]]
 >
 > 1. Si parte dall'origine O, in basso: da lì partono i due spigoli di base (misurati con il modulo b) e lo spigolo verticale (misurato con il modulo a, quattro volte).
