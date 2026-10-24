@@ -24,7 +24,7 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 6. [[06-immagine-imperiale-e-domus|L'immagine del potere imperiale, Ara Pacis, archi, teatri e anfiteatri, Pompei e la domus]] (mer 14 ottobre)
 7. [[07-residenza-mondo-antico|La residenza nel mondo antico: insula, Palatino, Domus Aurea]] (gio 15 ottobre)
 8. [[08-visita-terme-caracalla|Visita alle Terme di Caracalla]] (ven 16 ottobre)
-9. Mercoledì 21 ottobre (Adriano e Villa Adriana): sbobina in arrivo da Marta.
+9. [[09-la-villa-romana-villa-adriana|La villa romana; Adriano committente e Villa Adriana a Tivoli]] (mer 21 ottobre, registrazione di Marta)
 10. [[10-adriano-pantheon|Il Pantheon: da Agrippa ad Adriano, la rotonda e la cupola; Partenone e Pantheon]] (gio 22 ottobre)
 11. [[11-architettura-tardoantica|L'architettura tardoantica: Baalbek, Leptis Magna, Arco di Costantino, Basilica di Massenzio, Palazzo di Diocleziano]] (ven 23 ottobre)
 

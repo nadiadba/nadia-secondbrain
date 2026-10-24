@@ -14,7 +14,7 @@ tags: [storia-architettura, sbobina]
 > [!info] Note collegate
 > Bozza: [[08-terme-di-caracalla]]
 >
-> Sbobina precedente: [[07-residenza-mondo-antico]] · Successiva: [[10-adriano-pantheon]]
+> Sbobina precedente: [[07-residenza-mondo-antico]] · Successiva: [[09-la-villa-romana-villa-adriana]]
 >
 > Argomenti collegati: [[05-costruzione-nel-mondo-antico]] (tecniche costruttive, opera cementizia, laterizio)
 

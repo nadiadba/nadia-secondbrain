@@ -12,7 +12,7 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica di Memo Vocali). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
-> Sbobina precedente: [[08-visita-terme-caracalla]] · Successiva: [[11-architettura-tardoantica]]
+> Sbobina precedente: [[09-la-villa-romana-villa-adriana]] · Successiva: [[11-architettura-tardoantica]]
 
 ## Le letture e l'assegnazione dei materiali
 
