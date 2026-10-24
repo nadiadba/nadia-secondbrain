@@ -93,6 +93,11 @@ Due piani incidenti, oltre a condividere una retta, delimitano delle porzioni di
 > - Si usa sempre perché un terzo piano di riferimento è molto utile: i tre piani di proiezione $\pi_1$, $\pi_2$, $\pi_3$ formano un triedro.
 >
 > I piani si pensano sempre **infiniti**, anche se sul foglio si disegnano come rettangoli.
+>
+> **Gli angoli non sono per forza retti.** Nella definizione i piani possono formare un angolo qualsiasi:
+> - un diedro può essere acuto, retto o ottuso (es. due facce vicine di una piramide formano un diedro non retto; due facce vicine di un parallelepipedo rettangolo formano un diedro retto);
+> - anche i tre piani di un triedro, in generale, possono essere inclinati tra loro.
+> - Il triedro che usiamo nelle proiezioni ortogonali è invece un caso particolare: $\pi_1$ (orizzontale), $\pi_2$ (verticale di fronte) e $\pi_3$ (verticale di lato) sono **perpendicolari a due a due**, quindi tutti i suoi angoli sono retti.
 
 ### I postulati di appartenenza e i loro duali
 
