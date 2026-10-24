@@ -862,6 +862,46 @@ def es_traslazione_figura():
     return f
 
 
+def es_classica_punto_m():
+    """Foglio ES.GUIDATA_Omologia_01, 3° esercizio: U, u, r e r' che si incontrano sull'asse, trovare M'.
+
+    Coordinate prese dal foglio (pagina a 2000 px di larghezza) e ridisegnate.
+    M sta tra U e l'asse: il suo corrispondente cade oltre U, dall'altra parte del centro.
+    """
+    f = F(640, 600, "Omologia: dati U, u, r e r′, trovare M′")
+
+    def cv(p):
+        return ((p[0] - 1310) * 0.95 + 10, (765 - p[1]) * 0.95)
+    U, M, O, ua, ub, re_, r1e = [cv(p) for p in ((1670, 316), (1696, 430), (1731, 519), (1333, 580),
+                                                    (1960, 482), (1495, 725), (1901, 693))]
+    O = interseca(ua, ub, O, (O[0], O[1] + 1))            # r e r' si incontrano esattamente sull'asse
+    A = oltre(O, re_, 0.85)                                # 1. un punto A di r
+    A1 = interseca(U, A, O, r1e)                           # 2. raggio da U per A: A' su r' (prolungata)
+    om = Omologia(A, A1, U=U, asse=(ua, ub))
+    W = interseca(A, M, ua, ub)                            # 3. s = AM incontra l'asse in W
+    M1 = om(M)                                             # 4. M' = s' (W A') ∩ raggio UM
+    assert allineati(W, A1, M1) and allineati(U, M, M1)
+    om.controlla([(A, A1), (M, M1), (O, O), (W, W)])
+    # r' corrisponde davvero a r: un altro punto di r va su r'
+    B = oltre(O, re_, 0.4)
+    assert allineati(O, r1e, om(B))
+
+    f.asse(ua, ub, dx=-4, dy=-10)
+    f.linea(O, re_, "nero", 2); f.testo(re_, "r", -14, -2)
+    f.linea(O, r1e, "nero", 2); f.testo(r1e, "r′", 8, 0)
+    f.tratt(O, lungo(A1, direzione(O, A1), 30), "nero")    # r' prolungata oltre l'asse
+    f.raggio(U, A, 20)                                     # raggio U A (passa per A')
+    f.raggio(M, M1, 22)                                    # raggio U M prolungato oltre U
+    f.linea(A, M, "blu", 1.4); f.testo(oltre(A, M, 0.2), "s", 10, 2, "blu")
+    f.linea(W, M1, "rosso", 1.4); f.testo(oltre(W, M1, 0.62), "s′", 8, 4, "rosso")
+    f.unito(O); f.unito(W, "W", 10, 22)
+    f.punto(U, "U", 10, 4)
+    f.punto(A, "A", -20, 4, "blu"); f.punto(A1, "A′", -28, -2, "verde")
+    f.punto(M, "M", 8, -6, "blu"); f.punto(M1, "M′", 10, 4, "rosso")
+    f.didascalia("A′ = raggio UA ∩ r′;  s = AM incontra l'asse in W;  s′ = WA′;  M′ = s′ ∩ raggio UM.")
+    return f
+
+
 # ==================================================================== salvataggio
 distanza().salva_in(SB + "02-distanza-punto-retta.svg", BZ + "b02-distanza-punto-retta.svg")
 rette().salva_in(SB + "02-rette-parallele-incidenti.svg", BZ + "b02-rette-parallele-incidenti.svg")
@@ -888,4 +928,5 @@ es_affinita_retta().salva_in(BZ + "b02-es-affinita-retta.svg")
 es_affinita_speciale().salva_in(BZ + "b02-es-affinita-speciale.svg")
 es_traslazione_punto().salva_in(BZ + "b02-es-traslazione-punto.svg")
 es_traslazione_figura().salva_in(BZ + "b02-es-traslazione-figura.svg")
+es_classica_punto_m().salva_in(BZ + "b02-es-classica-punto-m.svg")
 print("ok")

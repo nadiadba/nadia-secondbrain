@@ -39,7 +39,7 @@ Per il disegno tecnico si usano due portamine diversi. Il portamine da 2 millime
 
 Le mine non sono tutte uguali: hanno gradazioni diverse. Una mina dura lascia sul foglio un segno grigio e leggero; più la mina è morbida, più il segno è scuro e forte. Le mine dure si indicano con la lettera H, quelle morbide con la lettera B, e HB sta nel mezzo. La gradazione si sceglie anche in base alla propria mano: la mina dura è adatta alle linee di costruzione, ma chi ha la mano pesante, usandola, incide il foglio, e il solco resta visibile anche dopo aver cancellato.
 
-> [!example] Disegno proposto (non fatto a lezione): le gradazioni delle mine
+> [!example] Disegno 1 (proposto, non fatto a lezione): le gradazioni delle mine
 > ![[01-gradazioni-mine.svg|600]]
 >
 > 1. Si tracciano, una sotto l'altra, linee con mine di gradazione diversa: 2H, H, HB, B, 2B.
@@ -54,7 +54,7 @@ Nel disegno tecnico si usa la carta liscia, non quella ruvida. La gomma deve ess
 
 Per disegnare sul formato 50 × 70 conviene, se possibile, un tavolo da disegno. Un'alternativa semplice è il parallelineo: una riga con le rotelle in cui passa un filo, fissato agli angoli del tavolo, in modo che la riga scorra sempre parallela a se stessa. Altrimenti si usano le squadrette, e quelle piccole sono sufficienti; meglio evitare quelle graduate, perché dopo un po' i numeri si cancellano. Le squadrette lavorano in coppia: una sta ferma e l'altra scorre lungo il suo bordo.
 
-> [!example] Il disegno: le squadrette in coppia
+> [!example] Disegno 2 · Il disegno: le squadrette in coppia
 > ![[01-squadrette-in-coppia.svg|600]]
 >
 > 1. Si appoggia la squadretta a 45° con l'ipotenusa sulla retta r a cui si vogliono tracciare le parallele.
@@ -83,7 +83,7 @@ La lista completa è sulla piattaforma Teams del corso (FAGD, «Da portare sempr
 
 I formati vanno conosciuti a memoria: se viene chiesto un A3, bisogna sapere quanto misura senza andarlo a cercare. Il formato A4 è quello delle fotocopie, 21 × 29,7 cm. La sua forma non è casuale: il lato maggiore è uguale alla diagonale del quadrato costruito sul lato minore. Il rapporto tra i lati è quindi quello tra la diagonale e il lato di un quadrato, cioè la radice di due.
 
-> [!example] Il disegno: il rapporto dei lati dell'A4
+> [!example] Disegno 3 · Il disegno: il rapporto dei lati dell'A4
 > ![[01-formato-a4-rapporto.svg|600]]
 >
 > 1. Sul lato minore del foglio, l = 21 cm, si costruisce un quadrato.
@@ -95,7 +95,7 @@ I formati vanno conosciuti a memoria: se viene chiesto un A3, bisogna sapere qua
 
 Il formato più grande non è «il doppio» in senso generico: è fatto di due fogli del formato più piccolo accostati. L'A3 è formato da due A4, quindi il suo lato minore è il lato maggiore dell'A4: misura 29,7 × 42 cm. Allo stesso modo l'A2 misura 42 × 59,4, l'A1 59,4 × 84 e il formato più grande 84 × 118, quello che si usa per esempio per i pannelli delle mostre. Poiché ogni foglio si ottiene dimezzando il precedente sul lato maggiore, la forma resta sempre la stessa.
 
-> [!example] Il disegno: i formati uno dentro l'altro
+> [!example] Disegno 4 · Il disegno: i formati uno dentro l'altro
 > ![[01-formati-serie-a.svg|620]]
 >
 > 1. Si disegna il foglio più grande, 84 × 118 cm.
@@ -131,7 +131,7 @@ Tutte le linee di costruzione si lasciano sul foglio: all'esame non si arriva co
 
 Le linee di costruzione si tracciano leggere; quelle definitive si fanno un po' più spesse, e così la confusione si attenua. Una linea va tracciata con un segno unico, uguale dall'inizio alla fine, con la stessa direzione e lo stesso colore: se si vuole ripassarla bisogna farlo sulla prima, altrimenti si vede che non è la stessa linea. La scheda dell'esercizio in aula aggiunge altre indicazioni utili per esercitarsi.
 
-> [!example] Il disegno: le regole del segno (scheda dell'esercizio)
+> [!example] Disegno 5 · Il disegno: le regole del segno (scheda dell'esercizio)
 > ![[01-regole-del-segno.svg|620]]
 >
 > 1. Una linea da A a B si fa con un segno unico, con una direzione precisa e controllata, anche se il tratto trema un po'; non con tanti tratti sovrapposti.
@@ -143,7 +143,7 @@ Le linee di costruzione si tracciano leggere; quelle definitive si fanno un po' 
 
 Sul taccuino si può scrivere come si vuole, ma il nome e i dati sul foglio vanno scritti a mano, in modo preciso, chiaro e leggibile: è disegno tecnico, e la stessa cura servirà sulle tavole. Il consiglio è scrivere tra due linee parallele tracciate a mano, leggere, così le lettere vengono tutte uguali. Più le linee sono distanti, più è difficile scrivere bene e fare belle M e belle S.
 
-> [!example] Il disegno: scrivere tra due parallele
+> [!example] Disegno 6 · Il disegno: scrivere tra due parallele
 > ![[01-scrittura-tra-parallele.svg|600]]
 >
 > 1. Si tracciano a mano due parallele leggere e vicine.
@@ -154,7 +154,7 @@ Sul taccuino si può scrivere come si vuole, ma il nome e i dati sul foglio vann
 
 Un edificio non entra in un foglio: si disegna in scala, cioè riducendo tutte le misure nello stesso rapporto. In architettura si usano soprattutto le scale di riduzione. Nella scala 1:100 un metro vero diventa un centimetro sul foglio; nella 1:50 diventa due centimetri, nella 1:200 mezzo centimetro. La scala grafica, cioè il segmento graduato disegnato accanto al disegno, è la testimonianza delle dimensioni reali: anche se il foglio viene ridotto o fotocopiato, si riduce insieme al disegno e permette di risalire alle misure vere. L'argomento viene ripreso nella lezione dell'8 ottobre ([[03-proiettiva-e-proiezioni-ortogonali]]); le tabelle delle scale caricate dalla docente riportano tutti i rapporti, dagli ingrandimenti (10:1, 5:1, 2:1) alle riduzioni, fino a 1:1.000.000.
 
-> [!example] Disegno proposto (non fatto a lezione): la scala grafica
+> [!example] Disegno 7 (proposto, non fatto a lezione): la scala grafica
 > ![[b01-scala-grafica.svg|600]]
 >
 > 1. Si sceglie la scala: in 1:100 un metro vero corrisponde a 1 cm sul foglio.
@@ -174,14 +174,14 @@ Un edificio non entra in un foglio: si disegna in scala, cioè riducendo tutte l
 
 L'esercizio in aula parte da un solido disegnato in assonometria (scheda esercit_01). Il solido sta tutto dentro un cubo di lato 3a: in pianta occupa un quadrato di tre moduli per tre, e in altezza è diviso in tre parti uguali. Davanti c'è un cubetto alto un modulo; accanto al cubetto c'è una rampa, una superficie inclinata che sale da uno a due moduli; dietro c'è la parte alta tre moduli, con una terrazza orizzontale e una falda triangolare inclinata che scende fino a un modulo. Le superfici sono quindi di tre tipi: orizzontali (la terrazza, la sommità del cubetto), verticali (le pareti) e inclinate (la rampa e la falda). Per disegnare le superfici inclinate bisogna, letteralmente, unire i punti alle diverse altezze, contando i moduli.
 
-> [!example] Il disegno: il solido dato in assonometria
+> [!example] Disegno 8 · Il disegno: il solido dato in assonometria
 > ![[01-esercizio-solido-assonometria.svg|600]]
 >
 > 1. Si riconosce l'ingombro: un cubo di 3 × 3 × 3 moduli, con il modulo a segnato sui tre spigoli che partono dal vertice in basso.
 > 2. Si individuano le parti: il cubetto (alto 1), la rampa (da 1 a 2), la terrazza (a 3) e la falda (da 3 a 1).
 > 3. Si distinguono le superfici: orizzontali, verticali e inclinate (in bianco).
 
-> [!example] Disegno proposto (non fatto a lezione): come appare ogni superficie nelle viste
+> [!example] Disegno 9 (proposto, non fatto a lezione): come appare ogni superficie nelle viste
 > ![[b01-superfici-e-viste.svg|600]]
 >
 > 1. Guardando dall'alto, le superfici orizzontali si vedono intere, quelle verticali si riducono a una linea, quelle inclinate si vedono ma deformate.
@@ -192,7 +192,7 @@ L'esercizio in aula parte da un solido disegnato in assonometria (scheda esercit
 
 Prima di disegnare si organizza la pagina, delineando con linee di costruzione leggere le linee principali dei disegni che la comporranno. Si costruisce un reticolo di moduli: tre quadrati di 3 × 3 per le piante e tre per i prospetti. Nella scheda della docente i prospetti stanno sopra la linea di terra e le piante sotto, allineati sulle stesse verticali, e le linee orizzontali proseguono da un disegno all'altro, in modo che le altezze siano le stesse in tutti i prospetti. Il modulo si riporta con gli archi, in orizzontale e in altezza, come un compasso fatto a mano.
 
-> [!example] Il disegno: impaginare il foglio (passo 1)
+> [!example] Disegno 10 · Il disegno: impaginare il foglio (passo 1)
 > ![[01-esercizio-impaginazione.svg|620]]
 >
 > 1. Si traccia la linea di terra.
@@ -204,7 +204,7 @@ Prima di disegnare si organizza la pagina, delineando con linee di costruzione l
 
 La pianta è l'oggetto visto dall'alto: come lo si vedrebbe guardandolo da sopra se lo si avesse davanti. L'esercizio chiede tre piante dello stesso solido, ruotandolo ogni volta. In ogni pianta si disegnano solo le linee che si vedono da quella vista, non tutte le linee in tre dimensioni: il contorno del quadrato, le linee che separano il cubetto, la rampa, la terrazza e la falda. La falda triangolare si riconosce dalla diagonale che la separa dalla terrazza. Anche se l'esercizio si fa a mano libera, bisogna ragionare come quando si usano le squadre: con le squadre si controlla che le cose combacino, a mano bisogna farlo a mente.
 
-> [!example] Disegno proposto (non fatto a lezione): da dove si guarda
+> [!example] Disegno 11 (proposto, non fatto a lezione): da dove si guarda
 > ![[b01-da-dove-si-guarda.svg|620]]
 >
 > 1. Pianta 1: il solido nella posizione di partenza; il cubetto è in basso a destra.
@@ -216,7 +216,7 @@ La pianta è l'oggetto visto dall'alto: come lo si vedrebbe guardandolo da sopra
 
 Il prospetto è quello che si vede guardando l'oggetto di fronte, e il davanti dipende da come è stato ruotato l'oggetto. Ogni prospetto si ricava dalla sua pianta salendo con le verticali e leggendo le altezze sul reticolo: un modulo per il cubetto, da uno a due per la rampa, tre per la parte alta. Nella prima rotazione davanti ci sono il cubetto e la rampa, che si vede di lato come una linea inclinata; dietro, tutta la parete alta tre moduli. Nella seconda davanti ci sono il cubetto e la falda, che si vede come un triangolo inclinato; nella terza davanti ci sono la terrazza, alta tre moduli, e la rampa, vista nel verso in cui sale.
 
-> [!example] Il disegno: piante ruotate e prospetti (passi 2 e 3)
+> [!example] Disegno 12 · Il disegno: piante ruotate e prospetti (passi 2 e 3)
 > ![[01-esercizio-piante-e-prospetti.svg|620]]
 >
 > 1. Si disegnano le tre piante sul reticolo, unendo i punti dei moduli.

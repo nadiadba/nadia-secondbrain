@@ -36,7 +36,7 @@ Il principio da cui dipende tutto il ribaltamento è questo: durante la rotazion
 
 Il punto ribaltato si indica con l'asterisco: A\* è il ribaltamento di A. Il ribaltamento fa conoscere la vera grandezza e forma della figura ribaltata sul piano di proiezione.
 
-> [!example] Il disegno nello spazio: il piano proiettante in prima si abbatte su π₁
+> [!example] Disegno 1 · Il disegno nello spazio: il piano proiettante in prima si abbatte su π₁
 > ![[07-spazio-ribaltamento-su-pi1.svg|620]]
 >
 > 1. Il piano α è proiettante in prima (verticale). Il triangolo ABC sta su α e le sue prime proiezioni A₁, B₁, C₁ cadono tutte su t₁α.
@@ -58,7 +58,7 @@ Per ribaltare su π₁ un piano proiettante in prima la seconda traccia non serv
 
 Il punto A ha la prima proiezione A₁ su t₁α; quando il piano si abbatte, A ruota intorno alla traccia e arriva su π₁ lungo la perpendicolare a t₁α condotta da A₁. Quanto si allontana dalla traccia? Esattamente quanto era alto, perché il raggio di rotazione è la distanza del punto dalla cerniera, cioè la sua quota. La quota si legge sul disegno come distanza della seconda proiezione A₂ dalla linea di terra. Basta quindi riportare questa misura, con il compasso, sulla perpendicolare a t₁α a partire da A₁: si trova A\*. Ripetendo per B e per C si ottiene il triangolo A\*B\*C\*, che è la vera grandezza e forma della figura, ribaltata sul primo piano di proiezione.
 
-> [!example] Il disegno: il piano proiettante in prima ribaltato su π₁
+> [!example] Disegno 2 · Il disegno: il piano proiettante in prima ribaltato su π₁
 > ![[07-ribaltamento-proiettante-in-prima-su-pi1.svg|620]]
 >
 > 1. Si disegnano le tracce di α: t₂α perpendicolare alla LT, t₁α inclinata. La seconda proiezione del triangolo, A₂B₂C₂, non è in vera grandezza; la prima proiezione si riduce a tre punti su t₁α.
@@ -78,14 +78,14 @@ Lo stesso piano si può ribaltare anche su π₂. Invece di abbatterlo facendolo
 
 Il piano si può girare su π₂ in una direzione o nell'altra. In una direzione la figura ribaltata si sovrappone alla seconda proiezione già disegnata; nell'altra la si vede, per così dire, sul retro. Alla lavagna la docente ha portato il ribaltamento dall'altra parte, per non sovrapporlo al disegno della seconda proiezione; sul libro si trova invece il ribaltamento dall'altro lato, con la sovrapposizione, ma il risultato è lo stesso. Secondo la docente questo ribaltamento è proprio il più facile.
 
-> [!example] Il disegno nello spazio: il piano si chiude su π₂ come una porta
+> [!example] Disegno 3 · Il disegno nello spazio: il piano si chiude su π₂ come una porta
 > ![[07-spazio-ribaltamento-su-pi2.svg|620]]
 >
 > 1. La cerniera è la seconda traccia t₂α, verticale.
 > 2. Ogni punto del triangolo descrive un arco orizzontale con il centro su t₂α, come la maniglia: resta sempre alla sua quota.
 > 3. Il piano è chiuso dalla parte opposta a quella in cui sta la figura, così il ribaltamento non si sovrappone alla seconda proiezione.
 
-> [!example] Il disegno: il piano proiettante in prima ribaltato su π₂
+> [!example] Disegno 4 · Il disegno: il piano proiettante in prima ribaltato su π₂
 > ![[07-ribaltamento-proiettante-in-prima-su-pi2.svg|620]]
 >
 > 1. Stesso piano α e stesso triangolo. La cerniera è t₂α; K è il punto in cui t₂α incontra la LT.
@@ -110,7 +110,11 @@ I modi per ribaltare un piano proiettante sono quindi due: intorno alla prima tr
 
 Il piano proiettante in seconda è perpendicolare a π₂ ed è inclinato rispetto a π₁ e a π₃. La sua caratteristica è che la seconda proiezione di tutti gli elementi che stanno sul piano coincide con la seconda traccia t₂α. Se sul piano si disegna un triangolo, quella che si vede come figura è la prima proiezione, mentre la seconda si riduce a una linea. Anche qui la prima proiezione non è in vera grandezza, e per conoscere la figura bisogna ribaltare il piano. Valgono le stesse due possibilità del proiettante in prima: si può ribaltare su π₁ o su π₂.
 
-> [!example] Disegno proposto (non fatto a lezione): il proiettante in seconda nello spazio
+### Il ribaltamento su π₁ intorno alla prima traccia
+
+Per ribaltare su π₁ si fa ruotare il piano intorno alla prima traccia. Questo significa che A₂, B₂, C₂ compiono tutti degli archi di circonferenza, con il centro nel punto in cui la traccia incontra la linea di terra, perché l'asse di rotazione è una traccia. Che cosa non cambia, in questo caso? Nel proiettante in prima non cambiava la quota dei punti. Con il piano messo così, invece, quello che non cambia è la distanza del punto dal piano π₂, cioè l'aggetto: si fa un'equivalenza, si mette una cosa uguale a un'altra. Si punta quindi il compasso, si costruiscono gli archi che portano A₂, B₂, C₂ sulla linea di terra, e da lì si riporta la stessa, medesima distanza dalla linea di terra che hanno A₁, B₁, C₁. Si trovano così A\*, B\*, C\*, il ribaltamento della figura sul primo piano di proiezione.
+
+> [!example] Disegno 5 (proposto, non fatto a lezione): il proiettante in seconda nello spazio
 > ![[b07-spazio-proiettante-in-seconda-su-pi1.svg|620]]
 >
 > 1. Il piano α è perpendicolare a π₂: t₁α è perpendicolare alla LT, t₂α è inclinata. Le seconde proiezioni A₂, B₂, C₂ cadono tutte su t₂α.
@@ -118,11 +122,7 @@ Il piano proiettante in seconda è perpendicolare a π₂ ed è inclinato rispet
 > 3. Gli archi stanno su piani perpendicolari a t₁α, cioè paralleli a π₂: durante la rotazione la distanza di ogni punto da π₂, l'aggetto, non cambia.
 > 4. Il triangolo A\*B\*C\* arriva su π₁ con le sue misure vere.
 
-### Il ribaltamento su π₁ intorno alla prima traccia
-
-Per ribaltare su π₁ si fa ruotare il piano intorno alla prima traccia. Questo significa che A₂, B₂, C₂ compiono tutti degli archi di circonferenza, con il centro nel punto in cui la traccia incontra la linea di terra, perché l'asse di rotazione è una traccia. Che cosa non cambia, in questo caso? Nel proiettante in prima non cambiava la quota dei punti. Con il piano messo così, invece, quello che non cambia è la distanza del punto dal piano π₂, cioè l'aggetto: si fa un'equivalenza, si mette una cosa uguale a un'altra. Si punta quindi il compasso, si costruiscono gli archi che portano A₂, B₂, C₂ sulla linea di terra, e da lì si riporta la stessa, medesima distanza dalla linea di terra che hanno A₁, B₁, C₁. Si trovano così A\*, B\*, C\*, il ribaltamento della figura sul primo piano di proiezione.
-
-> [!example] Il disegno: il piano proiettante in seconda ribaltato su π₁
+> [!example] Disegno 6 · Il disegno: il piano proiettante in seconda ribaltato su π₁
 > ![[07-ribaltamento-proiettante-in-seconda-su-pi1.svg|620]]
 >
 > 1. Si disegnano le tracce di α: t₁α perpendicolare alla LT, t₂α inclinata. A₂, B₂, C₂ stanno su t₂α; la prima proiezione A₁B₁C₁ non è in vera grandezza.
@@ -137,7 +137,7 @@ Se invece si vuole ribaltare su π₂, si fa ruotare il piano intorno alla secon
 
 I due ribaltamenti devono risultare uguali, perché sono i ribaltamenti della stessa figura. Il ribaltamento non può produrre un'altra figura: la figura è una sola, e quelle che si disegnano sono altre sue proiezioni.
 
-> [!example] Il disegno: il piano proiettante in seconda ribaltato su π₂
+> [!example] Disegno 7 · Il disegno: il piano proiettante in seconda ribaltato su π₂
 > ![[07-ribaltamento-proiettante-in-seconda-su-pi2.svg|620]]
 >
 > 1. Stesso piano α e stesso triangolo; ora la cerniera è t₂α.
@@ -161,7 +161,7 @@ Tra la prima proiezione di una figura e il suo ribaltamento si crea una relazion
 
 Si crea quindi un'affinità, perché il centro di proiezione è all'infinito. Valgono le proprietà dell'omologia: i punti corrispondenti sono allineati con il centro, che è all'infinito nella direzione perpendicolare all'asse; le rette corrispondenti si incontrano sull'asse, che è la traccia intorno a cui il piano ruota. È l'omologia di ribaltamento. La docente avverte che nei piani proiettanti c'è una coincidenza: la prima proiezione della figura non è una figura ma una linea, mentre il ribaltamento è una figura. Per questo l'affinità si vedrà meglio nel ribaltamento del piano generico; l'ha introdotta adesso, pur trattandosi di cose della parte sulla geometria proiettiva, per legarla al ribaltamento del piano proiettante.
 
-> [!example] Il disegno: la sezione e il piano bisettore
+> [!example] Disegno 8 · Il disegno: la sezione e il piano bisettore
 > ![[07-sezione-piano-bisettore.svg|480]]
 >
 > 1. Si guarda la rotazione in sezione, su un piano perpendicolare a t₁α: la traccia si vede come un punto, α come una linea verticale, π₁ come una linea orizzontale.
@@ -173,7 +173,7 @@ Si crea quindi un'affinità, perché il centro di proiezione è all'infinito. Va
 
 La proprietà delle rette corrispondenti si può già controllare sul disegno del proiettante in prima. Una retta r del piano, per esempio quella del lato AC, incontra la cerniera nella sua prima traccia T₁r, il punto della retta che ha quota zero. Durante la rotazione T₁r non si muove, perché sta sull'asse: è un punto unito. Per questo la retta ribaltata r\* = A\*C\* deve passare per T₁r, e i punti corrispondenti stanno sulle perpendicolari alla cerniera, cioè sono allineati con il centro all'infinito.
 
-> [!example] Disegno proposto (non fatto a lezione): verifica con il punto unito sulla cerniera
+> [!example] Disegno 9 (proposto, non fatto a lezione): verifica con il punto unito sulla cerniera
 > ![[b07-punto-unito-sulla-cerniera.svg|620]]
 >
 > 1. Si parte dal ribaltamento su π₁ del piano proiettante in prima, già costruito.
@@ -192,7 +192,7 @@ La proprietà delle rette corrispondenti si può già controllare sul disegno de
 
 La scheda OMOLOGIA_riepilogo, da stampare e portare in aula, raccoglie sei esercizi che ripassano tutte le omologie viste nella lezione del 6 ottobre. La registrazione non copre l'esercitazione: lo svolgimento qui sotto segue la soluzione della docente (OMOLOGIA_riepilogo_soluzione). Nella scheda il centro si chiama U e l'asse u; quando sono all'infinito si scrivono U∞ (indicato con un trattino nella sua direzione) e u∞ (indicato con una crocetta). Gli esercizi si risolvono sempre con le due proprietà dell'omologia: i punti corrispondenti sono allineati con il centro e le rette corrispondenti si incontrano sull'asse. Quando l'asse è all'infinito, le rette corrispondenti si incontrano all'infinito, cioè sono parallele; quando il centro è all'infinito, i punti corrispondenti stanno su rette parallele alla direzione del centro. Se si hanno i punti, si cercano le rette; se si hanno le rette, si cercano i punti.
 
-> [!example] Esercizio 1: dati U∞, u∞, una coppia di rette corrispondenti r e r′ e il punto P, trovare P′
+> [!example] Disegno 10 · Esercizio 1: dati U∞, u∞, una coppia di rette corrispondenti r e r′ e il punto P, trovare P′
 > ![[b07-omologia-es1.svg|520]]
 >
 > Centro e asse sono entrambi all'infinito: è una traslazione.
@@ -202,7 +202,7 @@ La scheda OMOLOGIA_riepilogo, da stampare e portare in aula, raccoglie sei eserc
 > 4. Da P si traccia la parallela alla direzione di U∞: dove incontra la retta del passo 3 c'è P′.
 > 5. PMM′P′ risulta un parallelogramma: la figura si sposta uguale.
 
-> [!example] Esercizio 2: dati U, u∞, una coppia di rette corrispondenti r e r′ e la retta n, trovare n′
+> [!example] Disegno 11 · Esercizio 2: dati U, u∞, una coppia di rette corrispondenti r e r′ e la retta n, trovare n′
 > ![[b07-omologia-es2.svg|560]]
 >
 > Il centro è proprio e l'asse è all'infinito: è un'omotetia.
@@ -212,7 +212,7 @@ La scheda OMOLOGIA_riepilogo, da stampare e portare in aula, raccoglie sei eserc
 > 4. La retta t′ corrispondente di t passa per A′ ed è parallela a t, perché l'asse è all'infinito. Dove t′ incontra UM c'è M′.
 > 5. n′ è la retta B′M′, e risulta parallela a n. Sulla scheda la docente annota: «Il punto A è stato usato come verifica».
 
-> [!example] Esercizio 3: dati U, u, la figura ABC e una coppia di punti corrispondenti A e A′, trovare A′B′C′
+> [!example] Disegno 12 · Esercizio 3: dati U, u, la figura ABC e una coppia di punti corrispondenti A e A′, trovare A′B′C′
 > ![[b07-omologia-es3.svg|620]]
 >
 > Il centro sta sull'asse: è un'omologia speciale, che si risolve allo stesso modo.
@@ -221,7 +221,7 @@ La scheda OMOLOGIA_riepilogo, da stampare e portare in aula, raccoglie sei eserc
 > 3. Si prolunga il lato AB fino all'asse; la retta che unisce quel punto ad A′ incontra UB in B′.
 > 4. Verifica: il lato CB e il lato C′B′, prolungati, devono incontrarsi sull'asse.
 
-> [!example] Esercizio 4: dati U, u∞, una coppia di rette corrispondenti r e r′ e un punto P, trovare P′
+> [!example] Disegno 13 · Esercizio 4: dati U, u∞, una coppia di rette corrispondenti r e r′ e un punto P, trovare P′
 > ![[b07-omologia-es4.svg|420]]
 >
 > Ancora un'omotetia: centro proprio, asse all'infinito.
@@ -230,7 +230,7 @@ La scheda OMOLOGIA_riepilogo, da stampare e portare in aula, raccoglie sei eserc
 > 3. Per A′ si traccia la parallela a PA (l'asse è all'infinito, quindi le rette corrispondenti sono parallele).
 > 4. P′ sta su questa parallela e sulla retta UP.
 
-> [!example] Esercizio 5: dati U∞, u, la figura ABC e una coppia di punti corrispondenti A e A′, trovare A′B′C′
+> [!example] Disegno 14 · Esercizio 5: dati U∞, u, la figura ABC e una coppia di punti corrispondenti A e A′, trovare A′B′C′
 > ![[b07-omologia-es5.svg|520]]
 >
 > Il centro è all'infinito e l'asse è proprio: è un'affinità. La direzione del centro è quella di AA′.
@@ -240,7 +240,7 @@ La scheda OMOLOGIA_riepilogo, da stampare e portare in aula, raccoglie sei eserc
 > 4. Per B si traccia la parallela ad AA′: dove incontra la retta del passo 3 c'è B′.
 > 5. Il triangolo A′B′C′ è il corrispondente di ABC.
 
-> [!example] Esercizio 6: dati U∞, u, una coppia di rette corrispondenti r e r′ e la retta m, trovare m′
+> [!example] Disegno 15 · Esercizio 6: dati U∞, u, una coppia di rette corrispondenti r e r′ e la retta m, trovare m′
 > ![[b07-omologia-es6.svg|600]]
 >
 > Ancora un'affinità: centro all'infinito, asse proprio.
@@ -255,7 +255,7 @@ La scheda OMOLOGIA_riepilogo, da stampare e portare in aula, raccoglie sei eserc
 
 Il ribaltamento torna utile anche in un esercizio della scheda PO_riepilogo_1: disegnare un punto P che appartenga a una retta r di profilo. La retta di profilo ha le due proiezioni sovrapposte sulla stessa linea perpendicolare alla LT (r₂ ≡ r₁), che coincide anche con le tracce del piano di profilo che la contiene (t₂α ≡ t₁α): dalla sola seconda proiezione di un punto non si capisce dove stia la prima. Nella soluzione la docente ribalta il piano di profilo su π₂, facendolo ruotare intorno alla sua seconda traccia: la quota dei punti resta la stessa, mentre l'aggetto diventa la distanza dalla cerniera. Così la retta compare in vera forma come r\*, si sceglie su di essa P\* e si torna indietro alle proiezioni. Nella bozza [[04-rette-e-piani-nelle-varie-posizioni]] lo stesso problema è risolto con la terza proiezione.
 
-> [!example] Il disegno: un punto P sulla retta r di profilo (scheda PO_riepilogo_1, soluzione della docente)
+> [!example] Disegno 16 · Il disegno: un punto P sulla retta r di profilo (scheda PO_riepilogo_1, soluzione della docente)
 > ![[b07-punto-sulla-retta-di-profilo.svg|520]]
 >
 > 1. Sono date le tracce T₂r (sopra la LT) e T₁r (sotto la LT) sulla linea verticale r₂ ≡ r₁.

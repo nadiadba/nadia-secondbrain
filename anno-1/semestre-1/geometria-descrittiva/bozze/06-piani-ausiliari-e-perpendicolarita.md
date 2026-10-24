@@ -28,7 +28,7 @@ Della retta bisogna conoscere le tracce: fatto questo si risolve qualunque quest
 
 Per disegnare un punto che appartiene a un piano generico α, dato con le sue tracce t₁α e t₂α, si parte dalla regola: un punto appartiene al piano se appartiene a una retta del piano. Si disegna quindi una retta del piano, e la più comoda è l'orizzontale. La sua seconda traccia sta su t₂α; la prima traccia è all'infinito, e per stare su t₁α deve averne la direzione: per questo la prima proiezione dell'orizzontale è parallela a t₁α. Su questa orizzontale si sceglie un punto e se ne disegnano le proiezioni.
 
-> [!example] Il disegno
+> [!example] Disegno 1 · Il disegno
 > ![[06-punto-piano-generico-orizzontale.svg|620]]
 >
 > 1. Disegna le tracce del piano generico α, che partono dallo stesso punto della LT: t₂α sopra, t₁α sotto.
@@ -43,7 +43,7 @@ La stessa regola vale per i piani proiettanti, con una scorciatoia. Il piano pro
 
 Per verificare che il punto appartiene davvero al piano si usa una frontale: ha la prima proiezione parallela alla linea di terra, la sua prima traccia si fa coincidere con un punto della prima traccia del piano, la seconda traccia è all'infinito e la seconda proiezione coincide con la seconda traccia del piano. Il punto sta sulla frontale, e quindi sul piano.
 
-> [!example] Il disegno
+> [!example] Disegno 2 · Il disegno
 > ![[06-piano-proiettante-in-seconda-frontale.svg|620]]
 >
 > 1. Disegna il piano β proiettante in seconda: t₁β perpendicolare alla LT, t₂β inclinata.
@@ -77,7 +77,7 @@ La retta, a differenza del segmento, è estesa: per lavorare con una retta gener
 
 Il motivo è sempre lo stesso: le tracce sono i punti in cui la retta buca i piani di proiezione, e le proiezioni delle tracce finiscono sempre sulla linea di terra (o sulla retta di proiezione della terza). Ogni punto va chiamato con il suo nome: non si dice "il punto sulla linea dove va la proiezione", ma prima o seconda proiezione di una traccia.
 
-> [!example] Il disegno
+> [!example] Disegno 3 · Il disegno
 > ![[06-retta-generica-punti-notevoli.svg|620]]
 >
 > 1. La retta generica r ha tutte e due le proiezioni inclinate rispetto alla LT.
@@ -88,7 +88,7 @@ Il motivo è sempre lo stesso: le tracce sono i punti in cui la retta buca i pia
 
 La retta disegnata così è quella canonica, ma la retta può avere altre direzioni, e allora le tracce non stanno per forza come prima. Una retta può non bucare né π₁ né π₂ dalla parte del modello e bucarli sotto la linea di terra; può venire da fuori; oppure può essere alta e bucare prima π₂, poi π₁, poi π₃. La posizione delle tracce dipende dalla direzione della retta: si possono trovare tutte e due le tracce sotto o tutte e due sopra. Il procedimento però non cambia, perché le proiezioni della retta passano sempre per quei due punti notevoli sulla linea di terra. Questa configurazione servirà per le ombre, in cui la luce deve venire da fuori; conviene esercitarsi con un disegno a squadra e con il modello.
 
-> [!example] Disegno proposto (non fatto a lezione): una retta con le tracce dall'altra parte
+> [!example] Disegno 4 (proposto, non fatto a lezione): una retta con le tracce dall'altra parte
 > ![[b06-retta-tracce-sotto-la-lt.svg|600]]
 >
 > 1. Prolunga r₂ fino alla LT: trovi (T₁ᵣ)₂; scendi con il richiamo fino a r₁ e trovi T₁ᵣ.
@@ -104,9 +104,7 @@ La retta disegnata così è quella canonica, ma la retta può avere altre direzi
 
 Per disegnare rapidamente una retta che appartiene al piano del triangolo si sceglie un'orizzontale, costruita in forma tecnica sfruttando il fatto che la retta passa per punti della figura. Si parte da A₂ e si traccia la seconda proiezione parallela alla linea di terra: dentro la figura incontra il lato B₂C₂ in un punto che si chiama H₂. Con il richiamo si trova H₁ su B₁C₁, e la prima proiezione dell'orizzontale, o₁, è la retta che passa per A₁ e H₁. Qualunque punto preso sull'orizzontale appartiene al piano. Allo stesso modo si può costruire una frontale.
 
-Le orizzontali sono importanti anche in architettura. Per sapere qual è la pendenza di un piano, per esempio in che direzione mettere le tegole di una falda, bisogna trovare le orizzontali: le tegole sono perpendicolari alla gronda, che di solito è orizzontale, e la parte più bassa del piano dipende dalla sua inclinazione. Si trova quindi un'orizzontale del piano e poi la perpendicolare, argomento ripreso nella lezione successiva.
-
-> [!example] Il disegno
+> [!example] Disegno 5 · Il disegno
 > ![[06-orizzontale-nel-triangolo.svg|560]]
 >
 > 1. Il triangolo ABC ha i tre lati su rette generiche: il piano è generico ed è dato in forma tecnica, senza tracce.
@@ -115,13 +113,15 @@ Le orizzontali sono importanti anche in architettura. Per sapere qual è la pend
 > 4. Traccia o₁ per A₁ e H₁.
 > 5. Prendi un punto P su o (P₂ su o₂, P₁ su o₁ con il richiamo): P appartiene al piano del triangolo.
 
+Le orizzontali sono importanti anche in architettura. Per sapere qual è la pendenza di un piano, per esempio in che direzione mettere le tegole di una falda, bisogna trovare le orizzontali: le tegole sono perpendicolari alla gronda, che di solito è orizzontale, e la parte più bassa del piano dipende dalla sua inclinazione. Si trova quindi un'orizzontale del piano e poi la perpendicolare, argomento ripreso nella lezione successiva.
+
 ### Dalle proiezioni della figura alle tracce del piano
 
 Se si hanno le tracce si possono disegnare le proiezioni della figura, e se si hanno le proiezioni si possono trovare le tracce. La regola da scrivere è questa: le tracce di un piano generico contengono le tracce delle rette che compongono la figura, cioè dei lati che la limitano. I lati sono segmenti, i segmenti appartengono a rette, quindi la prima traccia del piano contiene le prime tracce delle rette dei lati e la seconda traccia del piano ne contiene le seconde tracce.
 
 Per ogni lato si fa quello che si è visto per la retta generica: si prolunga la seconda proiezione fino alla linea di terra e si trova la seconda proiezione della prima traccia, si prolunga la prima proiezione e si trova la prima proiezione della seconda traccia, e con i richiami si arriva alle tracce vere. Bastano due lati, perché la traccia di un piano è una retta e per una retta bastano due punti; la terza retta, se si trova, serve solo da controllo, e le cose tornano. Le tracce non sono però sempre utili, perché spesso finiscono lontano.
 
-> [!example] Il disegno
+> [!example] Disegno 6 · Il disegno
 > ![[06-tracce-dal-triangolo-generico.svg|660]]
 >
 > 1. Chiama r, s e m le rette dei lati AB, BC e AC: sono tutte generiche.
@@ -143,7 +143,7 @@ Lavorando su un lato bisogna immaginare che esista solo quel segmento: l'orizzon
 
 La prima traccia del piano deve passare per la prima traccia della frontale e contenere il punto all'infinito dell'orizzontale, quindi è parallela a o₁; la seconda traccia deve passare per la seconda traccia dell'orizzontale e contenere il punto all'infinito della frontale, quindi è parallela a f₂. Si ottiene così il piano generico che contiene la figura, che si può colorare per farla risaltare. La vera forma del triangolo, invece, richiede operazioni che si vedono più avanti.
 
-> [!example] Il disegno
+> [!example] Disegno 7 · Il disegno
 > ![[b06-triangolo-lato-di-profilo.svg|600]]
 >
 > 1. Riconosci i lati: AB orizzontale (A₂B₂ ∥ LT), AC frontale (A₁C₁ ∥ LT), BC di profilo (B₂C₂ e B₁C₁ perpendicolari alla LT).
@@ -157,7 +157,7 @@ La prima traccia del piano deve passare per la prima traccia della frontale e co
 
 Se invece la stessa figura appartiene a un piano proiettante in prima, si sa che tutto ciò che sta sul piano ha la prima proiezione coincidente con la prima traccia: la seconda proiezione si può disegnare come prima, ma la prima proiezione si schiaccia sulla traccia. Il confronto mostra che non è la figura in sé a essere generica: a seconda di come la si colloca nel modello, lo stesso triangolo può stare in un piano verticale, frontale, orizzontale, proiettante in prima o generico. Il lato BC, che nel piano generico era una retta di profilo, nel piano proiettante in prima non lo è più. Le condizioni di appartenenza restano naturalmente rispettate.
 
-> [!example] Il disegno
+> [!example] Disegno 8 · Il disegno
 > ![[06-triangolo-piano-proiettante-in-prima.svg|560]]
 >
 > 1. Disegna il piano δ proiettante in prima: t₂δ perpendicolare alla LT, t₁δ inclinata a piacere.
@@ -173,7 +173,7 @@ Un piano non è generico di per sé: lo è in relazione alla posizione che assum
 
 Solo in alcune di queste posizioni il disegno corrisponde alle misure vere della figura. Nel piano frontale la seconda proiezione è in vera grandezza: il piano che contiene la figura e il piano su cui si proietta sono paralleli, il centro di proiezione è all'infinito, l'asse dell'omologia è all'infinito, e la figura si riproduce esattamente, come in una traslazione intesa come rapporto omologico tra due figure. Per il frontale si segna t₁γ e subito t₂γ all'infinito: vanno sempre scritte tutte e due le tracce, anche se si sovrappongono, perché mettendole vicine si riconosce subito il piano. Le altre configurazioni in vera grandezza sono il piano orizzontale, come nella pianta, con la prima proiezione, e il piano di profilo, con la terza: sono quelle usate di più in architettura. Ma non tutto ciò che si disegna è ad angolo retto, e nei piani proiettanti la figura appare accorciata; come si recuperi la vera forma si vede nella lezione successiva.
 
-> [!example] Il disegno
+> [!example] Disegno 9 · Il disegno
 > ![[06-triangolo-quattro-posizioni.svg|700]]
 >
 > 1. Piano orizzontale: la seconda proiezione è un segmento su t₂γ, parallelo alla LT; la prima proiezione è in vera forma.
@@ -192,7 +192,7 @@ Solo in alcune di queste posizioni il disegno corrisponde alle misure vere della
 
 I solidi sono delimitati da una serie di facce, che sono figure piane. In una piramide triangolare ci sono tre facce laterali, e il lato comune a due facce è lo spigolo; due facce vicine che si intersecano formano un diedro, cioè una porzione di spazio delimitata da due semipiani. Il solido più usato è il parallelepipedo, le cui facce sono parallelogrammi; nella consuetudine si chiama parallelepipedo il parallelepipedo rettangolo, ma bisognerebbe specificarlo. Il prisma è più vario: è un solido in cui la base inferiore e la base superiore sono due figure piane congruenti e parallele, unite tra loro dalle facce laterali. Congruenti significa che, sovrapposte, coincidono perfettamente. Il parallelepipedo rettangolo è quindi un prisma, ma si può avere anche, per esempio, un prisma a base triangolare.
 
-> [!example] Il disegno
+> [!example] Disegno 10 · Il disegno
 > ![[06-solidi-piramide-prisma-parallelepipedo.svg|700]]
 >
 > 1. Piramide a base triangolare: tre facce laterali che si incontrano nel vertice.
@@ -205,7 +205,7 @@ Il solido disegnato in aula ha una base inferiore, una base superiore parallela 
 
 Il segmento AB ha entrambe le proiezioni perpendicolari alla linea di terra: sta su una retta di profilo, di cui è difficile trovare le tracce senza la terza proiezione. Il segmento AC ha entrambe le proiezioni inclinate: sta su una retta generica, e prolungandone le proiezioni fino alla linea di terra si trovano i punti notevoli e quindi le tracce. Per disegnare la prima traccia del piano servono le prime tracce di due rette: una è T₁ di AC, l'altra è un punto all'infinito, che esiste anche se è all'infinito e dà una direzione. La prima traccia passa quindi per T₁ di AC ed è parallela a quella direzione; allo stesso modo si può trovare la seconda traccia. Il disegno va rifatto a casa per esercitare la mano: la geometria descrittiva non è un accidente che capita, e la mano che disegna è governata da ciò che si sa.
 
-> [!example] Il disegno
+> [!example] Disegno 11 · Il disegno
 > ![[06-solido-base-nel-piano-generico.svg|640]]
 >
 > 1. Il solido è un prisma: base ABC, base superiore DEF parallela e congruente.
@@ -220,7 +220,7 @@ Il segmento AB ha entrambe le proiezioni perpendicolari alla linea di terra: sta
 
 Nei richiami di geometria si è detto che una retta è perpendicolare a un piano se è perpendicolare a due rette del piano. Monge traduce questa condizione nelle proiezioni: una retta è perpendicolare a un piano se le proiezioni della retta sono perpendicolari alle rispettive tracce del piano. Per disegnare una retta r perpendicolare al piano α basta quindi costruire r₂ perpendicolare a t₂α e r₁ perpendicolare a t₁α. La retta può essere esterna al piano, come in questo caso, ma la stessa perpendicolarità vale per rette che appartengono al piano.
 
-> [!example] Il disegno
+> [!example] Disegno 12 · Il disegno
 > ![[06-retta-perpendicolare-al-piano.svg|600]]
 >
 > 1. Parti da un punto P, con le proiezioni P₂ e P₁.
@@ -228,7 +228,7 @@ Nei richiami di geometria si è detto che una retta è perpendicolare a un piano
 > 3. Da P₁ traccia r₁ perpendicolare a t₁α (segna l'angolo retto).
 > 4. Per il teorema di Monge la retta r è perpendicolare ad α.
 
-> [!example] Disegno proposto (non fatto a lezione): la stessa situazione nello spazio
+> [!example] Disegno 13 (proposto, non fatto a lezione): la stessa situazione nello spazio
 > ![[b06-spazio-retta-perpendicolare-al-piano.svg|600]]
 >
 > 1. Il piano α taglia i tre piani di proiezione lungo le tracce t₁α, t₂α e t₃α.
@@ -241,7 +241,7 @@ Due piani sono perpendicolari tra loro se uno dei due contiene una retta perpend
 
 Si può comunque verificare che è vero, cercando nel piano δ una retta perpendicolare a γ. Per essere perpendicolare a γ la retta deve avere la seconda proiezione perpendicolare a t₂γ, che è perpendicolare alla linea di terra, quindi r₂ è parallela alla linea di terra: è un'orizzontale. Per appartenere a δ, che è proiettante in prima, deve avere la prima proiezione sulla prima traccia, quindi r₁ coincide con t₁δ, ed è perpendicolare a t₁γ. Il ragionamento è una concatenazione di condizioni già note: δ contiene una retta perpendicolare a γ, e i due piani sono perpendicolari.
 
-> [!example] Il disegno
+> [!example] Disegno 14 · Il disegno
 > ![[06-piani-proiettanti-perpendicolari.svg|560]]
 >
 > 1. Disegna due piani proiettanti in prima γ e δ, con le seconde tracce perpendicolari alla LT.
@@ -249,14 +249,14 @@ Si può comunque verificare che è vero, cercando nel piano δ una retta perpend
 > 3. Verifica: in δ prendi la retta r con r₁ ≡ t₁δ e r₂ parallela alla LT (un'orizzontale).
 > 4. r₁ ⊥ t₁γ e r₂ ⊥ t₂γ, quindi r ⊥ γ: δ contiene una retta perpendicolare a γ.
 
-> [!example] Disegno proposto (non fatto a lezione): il quaderno aperto nello spazio
+> [!example] Disegno 15 (proposto, non fatto a lezione): il quaderno aperto nello spazio
 > ![[b06-spazio-piani-perpendicolari.svg|600]]
 >
 > 1. Le due metà del quaderno sono i piani γ e δ, entrambi verticali.
 > 2. L'angolo retto si vede sul banco, tra le prime tracce t₁γ e t₁δ.
 > 3. La retta orizzontale r di δ è perpendicolare a γ.
 
-> [!example] Disegno proposto (non fatto a lezione): due piani proiettanti in seconda perpendicolari
+> [!example] Disegno 16 (proposto, non fatto a lezione): due piani proiettanti in seconda perpendicolari
 > ![[b06-piani-proiettanti-in-seconda-perpendicolari.svg|560]]
 >
 > 1. Disegna β ed ε proiettanti in seconda: prime tracce perpendicolari alla LT.
@@ -269,7 +269,7 @@ Si può disegnare un piano generico perpendicolare a un piano generico, ma è ab
 
 Per dimostrare che α e γ sono perpendicolari vengono in aiuto le rette ausiliarie. Si prende un'orizzontale di α: per appartenere ad α la sua prima proiezione è parallela a t₁α, quindi è perpendicolare a t₁γ, e la sua seconda proiezione, parallela alla linea di terra, è perpendicolare a t₂γ. Disegnando l'orizzontale si vede che quella retta è effettivamente perpendicolare a γ, e quindi i due piani sono perpendicolari.
 
-> [!example] Il disegno
+> [!example] Disegno 17 · Il disegno
 > ![[06-piano-perpendicolare-al-generico.svg|560]]
 >
 > 1. Dato il piano generico α, disegna il piano ausiliario γ proiettante in prima con t₁γ ⊥ t₁α (segna i 90°); t₂γ è perpendicolare alla LT.
@@ -282,7 +282,7 @@ Se il piano è dato da una figura e non si hanno le tracce, bisogna comunque pot
 
 Il motivo sta ancora nei piani ausiliari. Se per la retta r si fa passare un piano β proiettante in seconda, la seconda proiezione di r coincide con la seconda traccia di β, che è perpendicolare a f₂; se si fa passare un piano δ proiettante in prima, r₁ coincide con la prima traccia di δ, perpendicolare a o₁. Le proiezioni della retta risultano così perpendicolari alle proiezioni "vere" delle rette del piano. Il disegno va fatto a colori e riguardato, perché sarà ripreso per il ribaltamento: le condizioni sono più facili di quello che sembrano, perché sono tutte collegate.
 
-> [!example] Il disegno
+> [!example] Disegno 18 · Il disegno
 > ![[06-perpendicolare-con-orizzontale-e-frontale.svg|620]]
 >
 > 1. Nel triangolo ABC individua l'orizzontale o (per A e B, A₂B₂ ∥ LT) e la frontale f (per A e C, A₁C₁ ∥ LT).
@@ -307,7 +307,7 @@ Nel modello si fissa un piano proiettante in prima che si possa muovere. Si usa 
 
 Finché il piano è inclinato rispetto a π₁, la proiezione del triangolo non ha la sua vera grandezza: le lunghezze dei lati e gli angoli non sono quelli veri. Per conoscere le dimensioni vere bisogna fare una rotazione del piano, e le rotazioni avvengono intorno alle tracce. Ruotando il cartoncino intorno alla prima traccia fino a farlo coincidere con π₁, la figura appare vera. Durante la rotazione l'altezza dei punti non va perduta: ogni punto descrive un arco di circonferenza che sta su un piano perpendicolare all'asse di rotazione, cioè alla traccia, come la spirale del quaderno che, bloccata, lascia ai fogli un solo movimento possibile. È il principio del ribaltamento, ripreso nella lezione successiva.
 
-> [!example] Il disegno
+> [!example] Disegno 19 · Il disegno
 > ![[06-spazio-piano-mobile.svg|600]]
 >
 > 1. Il piano γ è proiettante in prima: verticale, con t₂γ perpendicolare alla LT e t₁γ inclinata su π₁.

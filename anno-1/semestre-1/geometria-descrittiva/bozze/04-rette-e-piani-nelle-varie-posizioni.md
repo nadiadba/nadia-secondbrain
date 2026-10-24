@@ -22,7 +22,7 @@ Dopo il punto e le rette proiettanti, la lezione del 13 ottobre completa la rapp
 
 Per richiamare il modello, alla lavagna il triedro si disegna con un'assonometria particolare, in cui il piano su cui si proietta coincide con π₁: la pianta mantiene così la sua forma (non la dimensione, che dipende dalla scala), e gli angoli di 90° restano di 90°. Per comodità lo schema si disegna ruotato, con l'angolo retto alla base: π₁ in basso, π₂ e π₃ in verticale. La linea di intersezione tra π₁ e π₂ è la linea di terra (LT), che, quando si ribaltano i piani gli uni sugli altri, divide la pianta dal prospetto. Non divide però lo spazio in modo rigido: le prime proiezioni non stanno per forza sotto e le seconde sopra, perché dipende dal quadrante in cui si trovano i punti. In architettura, naturalmente, le cose stanno tutte nel primo diedro.
 
-> [!example] Il disegno: il triedro come alla lavagna
+> [!example] Disegno 1 · Il disegno: il triedro come alla lavagna
 > ![[04-triedro-come-alla-lavagna.svg|560]]
 >
 > 1. Si disegna lo spigolo π₂/π₃ in verticale.
@@ -50,7 +50,7 @@ Le proiezioni ortogonali presuppongono che la retta sia proiettata da un centro 
 
 Uno stecchino fissato su π₃ e perpendicolare a π₃, a una certa quota (altezza) e a una certa distanza da π₂ (l'aggetto), è parallelo a π₁ e a π₂: è la retta parallela alla linea di terra, anche se è giusto dire che è proiettante in terza. L'unica traccia propria è T₃ᵣ, il punto in cui la retta è fissata su π₃; la prima e la seconda traccia sono all'infinito, perché la retta incontra π₁ e π₂ all'infinito, nella direzione delle sue proiezioni. Proiettando T₃ᵣ su π₁ e su π₂ si trovano due punti sulla linea di intersezione dei piani, e da lì partono le proiezioni r₁ e r₂, parallele alla linea di terra. In terza proiezione la retta si riduce a un punto, che coincide con la sua traccia.
 
-> [!example] Il disegno: la retta parallela alla LT
+> [!example] Disegno 2 · Il disegno: la retta parallela alla LT
 > ![[04-retta-parallela-alla-lt.svg|620]]
 >
 > 1. Si segna T₃ᵣ (r₃ ≡ T₃ᵣ) sul terzo piano, alla quota della retta e all'aggetto della retta (portato con l'arco).
@@ -69,7 +69,7 @@ La frontale è una delle due rette fondamentali per la soluzione degli esercizi.
 
 Guardando il modello, la seconda proiezione f₂ è parallela alla retta, cioè ne mostra l'inclinazione; la prima proiezione f₁ risulta parallela alla linea di terra, ed è la caratteristica fondamentale da ricordare; la terza proiezione f₃ è verticale. Per costruire f₂ si proiettano su π₂ la prima e la terza traccia: f₂ passa per le loro proiezioni e per la seconda traccia, all'infinito.
 
-> [!example] Il disegno: la retta frontale
+> [!example] Disegno 3 · Il disegno: la retta frontale
 > ![[04-retta-frontale.svg|620]]
 >
 > 1. Si fissano T₁f (sotto la LT, all'aggetto della retta) e T₃f (sul terzo piano, alla stessa distanza da π₂).
@@ -88,7 +88,7 @@ Uno stecchino parallelo a π₁ ma inclinato rispetto ai piani verticali è una 
 
 La seconda proiezione o₂ passa per la seconda traccia, che sta già su π₂, e per la seconda proiezione della terza traccia (e della prima, all'infinito): è parallela alla linea di terra. La prima proiezione o₁ passa per la prima proiezione di T₂ₒ e di T₃ₒ, e per la prima traccia all'infinito: mostra l'inclinazione della retta. Aprendo il modello, o₂ e o₃ stanno sulla stessa linea. Le frasi che sembrano difficili si capiscono leggendole guardando il modello: la geometria descrittiva si studia così.
 
-> [!example] Il disegno: la retta orizzontale
+> [!example] Disegno 4 · Il disegno: la retta orizzontale
 > ![[04-retta-orizzontale.svg|620]]
 >
 > 1. Si fissano T₂ₒ (sopra la LT, alla quota della retta) e T₃ₒ (sul terzo piano, alla stessa quota).
@@ -105,7 +105,7 @@ La seconda proiezione o₂ passa per la seconda traccia, che sta già su π₂, 
 
 La retta parallela a π₃ ha la prima e la seconda traccia alla stessa distanza da π₃, ed è inclinata rispetto agli altri due piani. Le sue proiezioni su π₁ e su π₂ stanno sulla stessa linea, perpendicolare alla linea di terra: potremmo dire coincidenti. Per capire come si chiama basta immaginare, al posto della retta, una figura parallela a π₃: la si vede di profilo. È quindi una retta di profilo, perché tutte le rette e i segmenti paralleli a π₃ hanno la prima e la seconda proiezione sulla stessa linea, e la retta si vede davvero soltanto sul terzo piano di proiezione. La terza traccia è all'infinito.
 
-> [!example] Il disegno: la retta di profilo
+> [!example] Disegno 5 · Il disegno: la retta di profilo
 > ![[04-retta-di-profilo.svg|620]]
 >
 > 1. T₂ᵣ e T₁ᵣ stanno sulla stessa perpendicolare alla LT: r₂ va da T₂ᵣ alla LT, r₁ dalla LT a T₁ᵣ. Sulla LT, (T₁ᵣ)₂ ≡ (T₂ᵣ)₁.
@@ -118,7 +118,7 @@ La retta parallela a π₃ ha la prima e la seconda traccia alla stessa distanza
 
 Proprio perché r₁ e r₂ stanno sulla stessa linea, anche un punto della retta di profilo non si individua con le sole due proiezioni: come dirà la docente a proposito del piano di profilo, per vedere a cosa corrisponde una figura serve la terza proiezione.
 
-> [!example] Disegno proposto (non fatto a lezione): un punto P sulla retta di profilo
+> [!example] Disegno 6 (proposto, non fatto a lezione): un punto P sulla retta di profilo
 > ![[b04-punto-sulla-retta-di-profilo.svg|620]]
 >
 > 1. Si disegna la retta di profilo con le sue tracce e la terza proiezione r₃, come sopra.
@@ -142,7 +142,7 @@ Proprio perché r₁ e r₂ stanno sulla stessa linea, anche un punto della rett
 
 Il piano si considera esteso all'infinito: non è una figura, ma un ente geometrico esteso nelle due dimensioni. Quando nel modello o negli esercizi lo si vede come un rettangolo, è solo per comodità; i tratteggi oltre i bordi dicono che il piano prosegue. Per questo il piano non si rappresenta con le proiezioni (se fosse un rettangolo, nel prospetto se ne vedrebbero tutti i lati), ma con le tracce, cioè le rette di intersezione che lascia sui piani di proiezione. La traccia è il segno lasciato dal contatto di una cosa sull'altra: la traccia della retta è un punto, la traccia del piano è una retta. Si scrive con la t minuscola (perché è una retta), il numero del piano e la lettera greca del piano: t₁α, t₂α, t₃α. Conviene scrivere il nome vicino alla traccia, così si riconosce subito il piano; se il piano è parallelo a un piano di proiezione, la traccia corrispondente è all'infinito e si scrive anche quella (per esempio t₂β∞). Come le rette, anche i piani prendono il nome dalla posizione rispetto ai piani di proiezione.
 
-> [!example] Il disegno: il piano frontale non è una figura
+> [!example] Disegno 7 · Il disegno: il piano frontale non è una figura
 > ![[04-spazio-piano-non-e-una-figura.svg|560]]
 >
 > 1. Il cartoncino del piano frontale β è disegnato come un rettangolo, ma i tratteggi dicono che prosegue.
@@ -153,7 +153,7 @@ Il piano si considera esteso all'infinito: non è una figura, ma un ente geometr
 
 Il primo piano è costruito per contenere la retta parallela alla linea di terra: è anch'esso parallelo alla linea di terra, ma inclinato rispetto a π₁ e a π₂. Taglia tutti e tre i piani di proiezione, quindi ha tre tracce: aprendo il modello, la prima traccia t₁α e la seconda t₂α risultano parallele alla linea di terra, mentre la terza t₃α è variamente inclinata. Il piano è stato fatto passare apposta per la retta r, costruendo la terza traccia del piano t₃α passante per la terza traccia della retta T₃ᵣ: è da qui che nascono le condizioni di appartenenza. Sul piano non c'è solo r: ci possono essere tante rette parallele alla linea di terra, figure e punti, ognuno con le sue proiezioni.
 
-> [!example] Il disegno: il piano parallelo alla LT che contiene la retta r
+> [!example] Disegno 8 · Il disegno: il piano parallelo alla LT che contiene la retta r
 > ![[04-piano-parallelo-alla-lt.svg|620]]
 >
 > 1. Si disegna la retta r parallela alla LT (r₂, r₁ e T₃ᵣ), come prima.
@@ -170,7 +170,7 @@ Il primo piano è costruito per contenere la retta parallela alla linea di terra
 
 Il piano frontale è parallelo a π₂ e perpendicolare a π₁ e a π₃; è uno dei piani più usati in architettura. Facendolo passare per la retta frontale, ha la prima traccia t₁β sul pavimento e la terza t₃β verticale, mentre la seconda non c'è, perché il piano è parallelo a π₂: la retta di intersezione esiste, ma all'infinito, e si scrive t₂β∞ vicino alle altre tracce. Perché la frontale appartenga al piano, la prima traccia del piano deve passare per la prima traccia della retta: si sta verificando una condizione di appartenenza. I piani frontali sono infiniti, come le sezioni di un edificio: dove farli passare dipende da che cosa si vuole far vedere.
 
-> [!example] Il disegno: il piano frontale che contiene la retta frontale f
+> [!example] Disegno 9 · Il disegno: il piano frontale che contiene la retta frontale f
 > ![[04-piano-frontale.svg|620]]
 >
 > 1. Si traccia t₁β parallela alla LT, passante per T₁f: coincide con f₁. La distanza dalla LT è l'aggetto del piano.
@@ -185,7 +185,7 @@ Il piano frontale è parallelo a π₂ e perpendicolare a π₁ e a π₃; è un
 
 Tutte le sezioni orizzontali, tutte le piante, sono fatte con piani orizzontali. Il piano orizzontale è parallelo a π₁, quindi la prima traccia è all'infinito (t₁γ∞), mentre la seconda e la terza ci sono e, aprendo il modello, risultano orizzontali, sulla stessa linea. Sempre per le condizioni di appartenenza, il piano si fa passare per la retta orizzontale, facendo incidere la traccia della retta con la traccia del piano; si possono scrivere anche le coincidenze.
 
-> [!example] Il disegno: il piano orizzontale che contiene la retta orizzontale o
+> [!example] Disegno 10 · Il disegno: il piano orizzontale che contiene la retta orizzontale o
 > ![[04-piano-orizzontale.svg|620]]
 >
 > 1. Si traccia t₂γ parallela alla LT, all'altezza del piano, passante per T₂ₒ: coincide con o₂ (t₂γ ≡ o₂).
@@ -200,7 +200,7 @@ Tutte le sezioni orizzontali, tutte le piante, sono fatte con piani orizzontali.
 
 Per la retta di profilo si può costruire un piano di profilo, parallelo a π₃ (anche qui i piani possibili sono infiniti). La terza traccia è all'infinito; la prima, t₁δ, e la seconda, t₂δ, ci sono e, aprendo il modello, stanno sulla stessa linea perpendicolare alla linea di terra, dove si possono scrivere direttamente le coincidenze con le proiezioni della retta. Sono piani semplici e intuitivi.
 
-> [!example] Il disegno: il piano di profilo che contiene la retta di profilo
+> [!example] Disegno 11 · Il disegno: il piano di profilo che contiene la retta di profilo
 > ![[04-piano-di-profilo.svg|620]]
 >
 > 1. t₂δ e t₁δ partono dallo stesso punto della LT e sono perpendicolari alla LT (segnare gli angoli retti).
@@ -217,7 +217,7 @@ Anche il frontale è un piano verticale, ma il piano proiettante in prima va dis
 
 Se si segna un punto P sul cartoncino prima di collocarlo e se ne fa la prima proiezione, P₁ cade proprio sulla prima traccia del piano. Non è la regola, ma una coincidenza dei piani verticali: la regola dice che un punto appartiene al piano se appartiene a una retta del piano. Facendo passare per P una retta verticale r, la sua prima proiezione è un punto che coincide con T₁ᵣ, e T₁ᵣ sta sulla traccia del piano: quindi r appartiene ad α, e P, che sta su r, appartiene ad α. La caratteristica dei piani verticali è che la prima proiezione di tutto ciò che giace sul piano coincide con la prima traccia: una retta, un triangolo, un cerchio su un piano verticale, visti dall'alto, si riducono a una linea. La coincidenza c'è solo sulla prima traccia; la quota del punto non cambia tra la seconda e la terza proiezione.
 
-> [!example] Il disegno: il piano proiettante in prima e il punto P
+> [!example] Disegno 12 · Il disegno: il piano proiettante in prima e il punto P
 > ![[04-piano-proiettante-in-prima.svg|620]]
 >
 > 1. t₁α è inclinata, t₂α parte dallo stesso punto della LT ed è perpendicolare alla LT (angolo retto).
@@ -233,7 +233,7 @@ Se si segna un punto P sul cartoncino prima di collocarlo e se ne fa la prima pr
 
 Un quadrato disposto con il suo piano verticale, in pianta, è una linea: appartiene a un piano proiettante in prima, e la sua prima proiezione coincide con t₁α. Proiettandolo sul secondo piano, la figura non corrisponde a quella reale, perché è il risultato di una proiezione tra piani non paralleli tra loro: appare più stretta, più piccola. In terza proiezione è ancora più scorciata. La sua vera grandezza non è nessuna delle due. Le figure, a seconda di come sono disposte, appartengono a piani diversi.
 
-> [!example] Il disegno: il quadrato nel piano proiettante in prima
+> [!example] Disegno 13 · Il disegno: il quadrato nel piano proiettante in prima
 > ![[04-quadrato-piano-proiettante-in-prima.svg|620]]
 >
 > 1. In prima proiezione il quadrato è un segmento su t₁α (A₁ ≡ D₁, B₁ ≡ C₁).
@@ -278,7 +278,7 @@ L'esercizio si fa direttamente sul foglio: è data una figura ABCD, in prima e s
 
 Trovare la terza traccia di questo piano è molto facile: la terza proiezione della figura sta già tutta sulla terza traccia, perché nel piano parallelo alla linea di terra tutte le terze proiezioni coincidono con la terza traccia, come nel piano verticale tutte le prime proiezioni coincidono con la prima traccia. La figura potrebbe essere la falda di un tetto.
 
-> [!example] Il disegno: la terza proiezione della figura ABCD
+> [!example] Disegno 14 · Il disegno: la terza proiezione della figura ABCD
 > ![[04-esercizio-figura-piano-parallelo-alla-lt.svg|620]]
 >
 > 1. Si ricopiano le proiezioni date: A₁B₁D₁C₁ sotto la LT, A₂B₂D₂C₂ sopra, con AB e CD paralleli alla LT.
@@ -290,7 +290,7 @@ Trovare la terza traccia di questo piano è molto facile: la terza proiezione de
 
 A casa, sul taccuino, bisogna individuare le rette che compongono la figura: i lati sono segmenti, ma stanno su rette, e sono di due tipi già visti. AB e CD sono rette parallele alla linea di terra, AC e BD sono rette di profilo. Con le condizioni di appartenenza se ne trovano le tracce, e quindi le tracce del piano. Il concetto è passare dalla figura ai piani, per poterli poi ribaltare.
 
-> [!example] Disegno proposto (non fatto a lezione): le tracce del piano della figura ABCD
+> [!example] Disegno 15 (proposto, non fatto a lezione): le tracce del piano della figura ABCD
 > ![[b04-tracce-del-piano-della-figura.svg|620]]
 >
 > 1. AB e CD sono parallele alla LT: la loro unica traccia propria è la terza, A₃ ≡ B₃ e C₃ ≡ D₃, che stanno su t₃α.
@@ -307,7 +307,7 @@ Un esercizio simile è il terzo del foglio PO_condizioni di appartenenza_2 ("Dat
 
 Nell'esercizio guidato di omologia bisognava trovare la retta s′ corrispondente di s, con il centro U, l'asse all'infinito e le rette corrispondenti r e r′ parallele (si incontrano sull'asse, che è all'infinito). Basta la regola fondamentale: i punti corrispondenti sono allineati con il centro, le rette corrispondenti si incontrano sull'asse. Prima di tutto serve una coppia di punti corrispondenti. Prendere un punto qualsiasi su r non è sbagliato, ma è più rapido usare il punto P comune a s e r: il suo corrispondente P′ sta sul raggio da U per P e appartiene sia a r′ sia a s′ (sono solo le condizioni di appartenenza). Poi basta costruire per P′ la parallela a s. Meno linee si tracciano, meno l'errore grafico è in agguato; per verificare si può usare un'altra coppia di punti, ma la retta s′ è una e una sola.
 
-> [!example] Il disegno: trovare s′
+> [!example] Disegno 16 · Il disegno: trovare s′
 > ![[04-omologia-retta-corrispondente.svg|620]]
 >
 > 1. Si prolunga r fino a s: il punto comune è P.
@@ -319,7 +319,7 @@ Nell'esercizio guidato di omologia bisognava trovare la retta s′ corrispondent
 
 Nell'ultimo esercizio sono dati la direzione del centro, l'asse e la coppia di rette, e la figura ha un vertice proprio sulla retta r: il suo corrispondente si trova su r′, andando nella direzione del centro. Poi si prolunga un lato fino all'asse e si trova il lato corrispondente, che passa per il punto sull'asse e per il vertice già trovato; il vertice successivo sta su quel lato, nella direzione del centro. È la costruzione per punti, che viene con l'esperienza. Per le regole dell'omologia si veda la bozza [[02-proiezioni-e-omologia-schema]].
 
-> [!example] Il disegno: la figura corrispondente
+> [!example] Disegno 17 · Il disegno: la figura corrispondente
 > ![[04-omologia-figura-corrispondente.svg|620]]
 >
 > 1. A sta su r: A′ sta su r′, nella direzione di U∞.
