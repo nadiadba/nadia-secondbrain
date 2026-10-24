@@ -82,6 +82,18 @@ Due piani incidenti, oltre a condividere una retta, delimitano delle porzioni di
 > 1. Diedro: i semipiani $\alpha$ e $\beta$ hanno in comune la retta $r$ e racchiudono una porzione di spazio.
 > 2. Triedro: i piani $\alpha$, $\beta$ e $\gamma$ hanno in comune il solo vertice $V$, futura origine degli assi.
 
+> [!abstract] In schema: diedro e triedro
+> **Il diedro** è la porzione di spazio compresa tra **due semipiani** che hanno in comune **una retta**.
+> - Nasce da due piani incidenti: incontrandosi lungo una retta, dividono lo spazio in porzioni, e ognuna è un diedro.
+> - Da sapere: due semipiani ($\alpha$, $\beta$) → una retta in comune ($r$) → lo spazio racchiuso tra loro.
+>
+> **Il triedro** è la porzione di spazio delimitata da **tre piani**.
+> - Tre piani distinti hanno in comune **un solo punto**: il **vertice** del triedro ($V$), che diventa l'**origine degli assi**.
+> - Da sapere: tre piani ($\alpha$, $\beta$, $\gamma$) → un punto in comune → il vertice $V$ = origine degli assi.
+> - Si usa sempre perché un terzo piano di riferimento è molto utile: i tre piani di proiezione $\pi_1$, $\pi_2$, $\pi_3$ formano un triedro.
+>
+> I piani si pensano sempre **infiniti**, anche se sul foglio si disegnano come rettangoli.
+
 ### I postulati di appartenenza e i loro duali
 
 I primi tre postulati di appartenenza dicono che per due punti distinti passa una e una sola retta, che tre punti distinti e non allineati individuano un piano e che un punto e una retta che non lo contiene individuano un piano. Sostituendo la parola "piano" alla parola "punto" si ottengono i tre postulati duali: due piani distinti individuano una retta che appartiene a entrambi; tre piani distinti, che non passano per una stessa retta, individuano un punto comune a tutti e tre; una retta e un piano distinti individuano un punto. La condizione sui tre piani è importante: se passassero tutti per la stessa retta, come tre pagine di un libro, avrebbero in comune quella retta e non un punto.
