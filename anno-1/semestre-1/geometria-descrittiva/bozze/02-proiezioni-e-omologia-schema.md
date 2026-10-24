@@ -397,6 +397,18 @@ Con centro e asse all'infinito valgono insieme le due regole: i corrispondenti s
 > 3. Con la coppia $A$, $A'$ si trovano allo stesso modo $B'$ e $C'$.
 > 4. $A'B'C'$ è uguale ad $ABC$, soltanto spostato.
 
+## L'ESERCITAZIONE IN AULA: IL SECONDO SOLIDO
+
+Alla fine della lezione la docente fa svolgere in aula un secondo esercizio di piante e prospetti, sullo stesso modello di quello della [[01-strumenti-materiali-e-regole|prima lezione]]. Il solido è dato in assonometria nella scheda esrcit_02 ed è più articolato del primo: è misurato con due moduli diversi, b per le dimensioni in pianta e a per le altezze (quattro moduli a), a partire dall'origine O, e ha anche linee nascoste tratteggiate e superfici inclinate. Si risolve con lo stesso procedimento: impaginare il foglio con il reticolo dei moduli, disegnare le piante ruotando l'oggetto, ricavare i prospetti, campire. Questa parte della lezione non è registrata, perché in aula si lavorava in silenzio.
+
+> [!example] Disegno 29 · Il disegno: il secondo solido in assonometria (scheda della docente)
+> ![[b01-esercizio-2-solido-assonometria.png|520]]
+>
+> 1. Si parte dall'origine O, in basso: da lì partono i due spigoli di base (misurati con il modulo b) e lo spigolo verticale (misurato con il modulo a, quattro volte).
+> 2. Si ricopia prima il reticolo con linee leggere: le tacche dei moduli b sui lati in alto e dei moduli a sul lato verticale a destra.
+> 3. Poi si ripassano con il tratto marcato gli spigoli visibili del solido; le linee nascoste restano tratteggiate.
+> 4. Per l'esercizio si procede come nel primo: reticolo dei moduli sul foglio, piante ruotate, prospetti, campiture.
+
 > [!tip] Consegne e avvisi
 > - Prova n. 1 sull'omologia: giovedì 29 ottobre (calendario della docente; accennata a lezione il 13 ottobre).
 > - 8 ottobre: stampare gli esercizi di omologia indicati dalla docente e farli a casa (probabilmente i fogli «ES.GUIDATA Omologia 01» e «OMOLOGIA riepilogo»). La correzione è stata fatta il 13 ottobre; il calendario prevede anche la correzione dell'esercitazione sulle omologie il 15 ottobre e un'esercitazione guidata sulle omologie il 22 ottobre.
@@ -418,4 +430,5 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[OMOLOGIA_riepilogo_soluzione.pdf]]: soluzioni della docente, ridisegnate nella bozza
 - [[OMOLOGIA_2_affinità.pdf]]: esercizio sull'affinità
 - [[OMOLOGIA_2_affinità_soluzione.pdf]]: soluzione della docente
+- [[esrcit_02.pdf]]: il secondo solido in assonometria, esercitazione in aula
 - [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: data della Prova n. 1

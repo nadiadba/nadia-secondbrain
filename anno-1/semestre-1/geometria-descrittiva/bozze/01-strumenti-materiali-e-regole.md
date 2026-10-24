@@ -235,18 +235,6 @@ Le campiture servono a far leggere subito la natura delle superfici. Sono fatte 
 > - Si disegnano solo le linee visibili in quella vista.
 > - Campiture: linee parallele vicine ed equidistanti, da linea a linea. Orizzontali e verticali campite, inclinate in bianco (in pianta con la freccia che scende).
 
-### Il secondo esercizio
-
-Nella stessa serie c'è un secondo solido in assonometria (scheda esrcit_02), più articolato: è misurato con due moduli diversi, b per le dimensioni in pianta e a per le altezze (quattro moduli a), a partire dall'origine O, e ha anche linee nascoste tratteggiate e superfici inclinate. Si risolve con lo stesso procedimento: impaginare il foglio con il reticolo dei moduli, disegnare le piante ruotando l'oggetto, ricavare i prospetti, campire.
-
-> [!example] Disegno 13 · Il disegno: il secondo solido in assonometria (scheda della docente)
-> ![[b01-esercizio-2-solido-assonometria.png|520]]
->
-> 1. Si parte dall'origine O, in basso: da lì partono i due spigoli di base (misurati con il modulo b) e lo spigolo verticale (misurato con il modulo a, quattro volte).
-> 2. Si ricopia prima il reticolo con linee leggere: le tacche dei moduli b sui lati in alto e dei moduli a sul lato verticale a destra.
-> 3. Poi si ripassano con il tratto marcato gli spigoli visibili del solido; le linee nascoste restano tratteggiate.
-> 4. Per l'esercizio si procede come nel primo: reticolo dei moduli sul foglio, piante ruotate, prospetti, campiture.
-
 ## Collegamenti
 
 Gli strumenti e le regole di questa lezione servono in ogni esercizio del corso: le linee di costruzione lasciate in vista, i segni leggeri e marcati, le campiture e la scrittura tra le parallele tornano in tutte le costruzioni, dalle [[02-proiezioni-e-omologia-schema|proiezioni e l'omologia]] in poi. L'esercizio delle piante ruotate e dei prospetti è un primo assaggio delle proiezioni ortogonali, che vengono introdotte con il metodo di Monge nella lezione dell'8 ottobre ([[03-proiettiva-e-proiezioni-ortogonali]]): lì la pianta diventa la prima proiezione e il prospetto la seconda, con la linea di terra che le separa, e torna l'errore del prospetto disegnato al contrario, legato proprio alla domanda su dove sia il davanti. Il modellino dei piani di riferimento annunciato in questa lezione serve per [[04-rette-e-piani-metodo-di-monge|rette e piani nello spazio]]. Scale, piante e prospetti si ritrovano anche nel laboratorio di Composizione architettonica ([[01-laboratorio-come-funziona]]), e le tavole 50 × 70 e il raccoglitore A4 sono gli elaborati in cui il caso di studio scelto verrà ridisegnato a riga e squadra.
@@ -260,6 +248,5 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[PROGRAMMA_26-27.pdf]]: programma del corso e modalità d'esame
 - [[esercit_01.jpg]]: scheda del primo esercizio (solido in assonometria)
 - [[esercit_01_esecuzione.pdf]]: come si esegue l'esercizio, passo per passo
-- [[esrcit_02.pdf]]: secondo solido in assonometria
 - [[004b_scale di rappresentazione.jpg]]: tabella delle scale
 - [[007_Scale grafiche_M2.jpg]]: scale grafiche
