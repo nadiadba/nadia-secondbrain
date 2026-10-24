@@ -53,6 +53,25 @@ Lo stesso ragionamento vale per i piani: due piani paralleli non hanno punti in 
 > 2. Al centro sono incidenti: si incontrano nel punto $P$.
 > 3. A destra, per il punto $P$ esterno a $r$ si traccia l'unica parallela $s$.
 
+> [!abstract] In schema: rette e piani
+> **Due rette nello stesso piano** (complanari, per esempio sul foglio): solo due casi
+> - **parallele** → nessun punto in comune, sempre alla stessa distanza (equidistanti)
+> - **incidenti** → un punto in comune, dove si incontrano
+>
+> **Due rette in piani diversi** → **sghembe**: non si incontrano e non sono parallele. Prese insieme definiscono una superficie (es. le coperture su quattro pali, con un palo fuori dal piano degli altri tre).
+>
+> **Per un punto esterno a una retta** passa **una e una sola** parallela a quella retta.
+>
+> **Due piani**
+> - **paralleli** → nessun punto in comune
+> - **incidenti** → una retta in comune
+>
+> **Una retta e un piano**
+> - si incontrano in **un punto**
+> - retta esterna al piano **secante** → lo incontra in un punto
+> - retta esterna al piano **parallela** → non lo incontra; è parallela al piano quando è parallela a **una retta del piano**
+> - retta **perpendicolare** al piano → è perpendicolare a **due rette del piano**
+
 ### Diedri e triedri
 
 Due piani incidenti, oltre a condividere una retta, delimitano delle porzioni di spazio: ciascuna di queste porzioni, racchiusa tra due semipiani che hanno in comune una retta, si chiama diedro. Il triedro è invece la porzione di spazio delimitata da tre piani; tre piani distinti hanno in comune un punto, il vertice del triedro, che diventerà l'origine degli assi. Il triedro tornerà spesso, perché avere un terzo piano di riferimento è molto utile. I piani vanno sempre pensati infiniti, anche se sul foglio siamo costretti a disegnarli come rettangoli. Tutte queste definizioni sono concatenate, ognuna richiama la precedente: non vanno imparate "a vuoto", ma capite nel loro legame.
