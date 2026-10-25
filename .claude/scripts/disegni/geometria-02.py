@@ -510,34 +510,42 @@ def omologia_due_centri(nome1="S′"):
 
 
 def omologia_speciale_spazio():
-    """Disegno proposto: l'omologia speciale nello spazio, con un triangolo come nel disegno sul foglio.
-    S1 sta sulla retta che va da S a un punto U dell'asse: la retta S S1 buca il piano sull'asse."""
-    f = F(640, 740, "L'omologia speciale nello spazio: la retta S S₁ buca il piano sull'asse")
-    ox, oy = 70, 300
+    """Disegno proposto: l'omologia speciale nello spazio, vista come il disegno dei due centri.
+    S1 sta sulla retta che va da S a un punto U dell'asse: la retta S S1 buca il piano sull'asse.
+    I triangoli stanno a cavallo dell'asse come nel disegno sul foglio: per questo il vertice C0
+    del triangolo di partenza sta sulla parte di alfa0 che scende sotto il foglio."""
+    f = F(720, 540, "L'omologia speciale nello spazio: la retta S S₁ buca il piano sull'asse")
+    ox, oy = 140, 170
 
-    def s(p):                                          # pianta in vera forma (come alla lavagna): alfa si vede dall'alto
-        return (ox + p[0] + 0.35 * p[1], oy + 0.8 * p[2] + 0.6 * p[1])
+    def s(p):
+        return (ox + p[0] + 0.42 * p[2], oy + p[1] + 0.3 * p[2])
 
-    S = (100, 340, 220)
-    U = (360, 0, 0)                                    # punto scelto sull'asse u
-    S1 = tuple(S[i] + 0.4 * (U[i] - S[i]) for i in range(3))
-    T0 = [(140, 140, 0), (220, 80, 0), (120, 50, 0)]  # triangolo A0 B0 C0 sul piano alfa0
+    S = (100, 360, -260)
+    U = (120, 0, 0)                                    # punto scelto sull'asse u
+    S1 = tuple(S[i] + 0.5 * (U[i] - S[i]) for i in range(3))
+    T0 = [(80, 120, 0), (280, 40, 0), (0, -100, 0)]    # A0 B0 sopra il foglio, C0 sotto
     T = [su_piano3(S, X, 1, 0) for X in T0]
     T1 = [su_piano3(S1, X, 1, 0) for X in T0]
     a2 = lambda p: (p[0], p[2])  # noqa: E731
     assert math.dist(su_piano3(S, S1, 1, 0), U) < 1e-9
     for X, X1 in zip(T, T1):
         assert allineati(a2(U), a2(X), a2(X1))
-    f.poligono([s(p) for p in [(-60, 0, -330), (440, 0, -330), (440, 0, 60), (-60, 0, 60)]], "grigio", 0.08, 1)
-    f.poligono([s(p) for p in [(-60, 0, 0), (440, 0, 0), (440, 230, 0), (-60, 230, 0)]], "grigio", 0.10, 1)
-    f.testo(s((-60, 0, -330)), "α ≡ α′", 10, -10, "grigio", 15)
-    f.testo(s((-60, 230, 0)), "α_0", 6, 20, "grigio", 15)
-    f.linea(s((-80, 0, 0)), s((460, 0, 0)), "nero", 2.4)
-    f.testo(s((460, 0, 0)), "u", 4, 4, "nero", 16)
-    for X0, X in zip(T0, T):
-        f.linea(s(S), s(X), "blu", 0.8, "5,4")
-    for X0, X1 in zip(T0, T1):
-        f.linea(s(S1), s(X1), "verde", 0.8, "5,4")
+    # piano alfa0: la parte sotto il foglio piu' chiara e tratteggiata
+    f.poligono([s(p) for p in [(-80, -130, 0), (380, -130, 0), (380, 0, 0), (-80, 0, 0)]], "grigio", 0.04, 0.8)
+    f.testo(s((-80, -130, 0)), "α_0 sotto il foglio", 6, -8, "grigio", 12)
+    f.poligono([s(p) for p in [(-80, 0, -150), (380, 0, -150), (380, 0, 300), (-80, 0, 300)]], "grigio", 0.10, 1)
+    f.poligono([s(p) for p in [(-80, 0, 0), (380, 0, 0), (380, 190, 0), (-80, 190, 0)]], "grigio", 0.10, 1)
+    f.testo(s((-80, 0, -150)), "α ≡ α′", 40, 16, "grigio", 15)
+    f.testo(s((-80, 190, 0)), "α_0", 6, 20, "grigio", 15)
+    f.linea(s((-100, 0, 0)), s((400, 0, 0)), "nero", 2.4)
+    f.testo(s((400, 0, 0)), "u", 4, 4, "nero", 16)
+    for X0 in T0:
+        f.linea(s(S), s(X0), "blu", 0.8, "5,4")
+        f.linea(s(S1), s(X0), "verde", 0.8, "5,4")
+    for X0, X, X1 in zip(T0, T, T1):                  # i raggi arrivano su alfa (anche oltre il punto di partenza)
+        for C, Y in ((S, X), (S1, X1)):
+            if math.dist(C, Y) > math.dist(C, X0):
+                f.linea(s(X0), s(Y), "blu" if C is S else "verde", 0.8, "5,4")
     f.linea(s(S), s(U), "rosso", 1.6, "7,4")
     for X, X1 in zip(T, T1):                          # U, X, X' allineati
         far = X1 if math.dist(U, X1) > math.dist(U, X) else X
@@ -547,10 +555,12 @@ def omologia_speciale_spazio():
         K = su_piano3(T0[i], T0[j], 1, 0)
         assert allineati(a2(T[i]), a2(T[j]), a2(K)) and allineati(a2(T1[i]), a2(T1[j]), a2(K))
         uniti.append(K)
-        f.linea(s(K), s(T0[i]), "nero", 0.9, "6,4")
-        f.linea(s(K), s(T[i]), "blu", 0.9, "3,3"); f.linea(s(K), s(T1[i]), "verde", 0.9, "3,3")
+        for Y in (T[i], T[j]):
+            f.linea(s(K), s(Y), "blu", 0.9, "3,3")
+        for Y in (T1[i], T1[j]):
+            f.linea(s(K), s(Y), "verde", 0.9, "3,3")
     f.poligono([s(X) for X in T0], "grigio", 0.15, 2.2)
-    f.poligono([s(X) for X in T], "blu", 0.10, 2.2)
+    f.poligono([s(X) for X in T], "blu", 0.12, 2.2)
     f.poligono([s(X) for X in T1], "verde", 0.12, 2.2)
     for K in uniti:
         f.unito(s(K))
@@ -560,9 +570,9 @@ def omologia_speciale_spazio():
         f.punto(s(X), n, 6, 16, "blu")
     for X, n in zip(T1, ("A′", "B′", "C′")):
         f.punto(s(X), n, -22, -8, "verde")
-    f.punto(s(S), "S", 10, 4); f.punto(s(S1), "S_1", 8, -2)
+    f.punto(s(S), "S", 8, -4); f.punto(s(S1), "S_1", 8, -2)
     f.punto(s(U), "U", 6, 22, "rosso")
-    f.didascalia("Il piano α è in vera forma, come visto dall'alto: è il disegno dell'omologia speciale, con U sull'asse.", 12)
+    f.didascalia("I triangoli ABC e A′B′C′ stanno a cavallo dell'asse, come nel disegno sul foglio; U sta su u.", 12)
     return f
 
 
@@ -1026,7 +1036,7 @@ punto_improprio().salva_in(SB + "02-punto-improprio.svg", BZ + "b02-punto-improp
 prospettivita().salva_in(SB + "02-prospettivita.svg", BZ + "b02-prospettivita.svg")
 omologia_due_centri("S′").salva_in(SB + "02-omologia-dai-centri-s-s1.svg")
 omologia_due_centri("S_1").salva_in(BZ + "b02-omologia-dai-centri-s-s1.svg")
-omologia_speciale_spazio().salva_in(BZ + "b02-omologia-speciale-nello-spazio.svg")
+omologia_speciale_spazio().salva_in(BZ + "b02-omologia-speciale-3d.svg")
 omologia_triangoli().salva_in(SB + "02-omologia-centro-asse.svg", BZ + "b02-omologia-centro-asse.svg")
 esercizio_punto_coppia().salva_in(SB + "02-omologia-esercizio-punto.svg", BZ + "b02-es-punto-coppia.svg")
 omologia_speciale_teoria().salva_in(SB + "02-omologia-speciale.svg", BZ + "b02-omologia-speciale.svg")

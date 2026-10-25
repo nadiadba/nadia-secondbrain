@@ -484,13 +484,13 @@ Nella risoluzione non cambia nulla: semplicemente il centro $U$ appartiene all'a
 > 2. I corrispondenti restano allineati con $U$ e i lati corrispondenti si incontrano sull'asse.
 
 > [!example] Disegno 14 (proposto, non fatto a lezione): l'omologia speciale nello spazio
-> ![[b02-omologia-speciale-nello-spazio.svg|620]]
+> ![[b02-omologia-speciale-3d.svg|660]]
 >
-> 1. Il piano $\alpha$ (il foglio) è disegnato in vera forma, come se lo si guardasse dall'alto: la parte sotto l'asse $u$ è proprio un disegno come il Disegno 13, con i triangoli $ABC$ e $A'B'C'$ e il centro $U$ sull'asse.
-> 2. Sopra l'asse si alza il piano $\alpha_0$, con il triangolo di partenza $A_0B_0C_0$.
-> 3. Da $S$ si proietta $A_0B_0C_0$ su $\alpha$ e si ottiene $ABC$ (raggi blu); da $S_1$ si ottiene $A'B'C'$ (raggi verdi).
+> 1. I piani sono messi come nel Disegno 11: $\alpha$ (il foglio) orizzontale, $\alpha_0$ verticale, e si tagliano lungo l'asse $u$. Il piano $\alpha_0$ continua anche sotto il foglio (parte più chiara).
+> 2. Il triangolo di partenza $A_0B_0C_0$ sta su $\alpha_0$: $A_0$ e $B_0$ sopra il foglio, $C_0$ sotto.
+> 3. Da $S$ si proietta $A_0B_0C_0$ sul foglio e si ottiene $ABC$ (raggi blu); da $S_1$ si ottiene $A'B'C'$ (raggi verdi). Siccome $C_0$ sta sotto il foglio, $C$ e $C'$ cadono dall'altra parte dell'asse: i due triangoli stanno a cavallo dell'asse, come nel Disegno 13.
 > 4. $S_1$ è stato messo sulla retta che va da $S$ a un punto dell'asse: per questo la retta $SS_1$ (rossa) buca il foglio proprio sull'asse, e il centro dell'omologia $U$ sta su $u$. È questo che rende l'omologia speciale.
-> 5. Tutto il resto funziona come sempre: $U$, $A$, $A'$ sono allineati (e così per $B$ e $C$), e i lati corrispondenti si incontrano sull'asse nei punti uniti (cerchietti), dove arrivano anche i lati di $A_0B_0C_0$ prolungati.
+> 5. Tutto il resto funziona come sempre: $U$, $A$, $A'$ sono allineati (e così per $B$ e $C$), e i lati corrispondenti si incontrano sull'asse nei punti uniti (cerchietti).
 
 #### L'affinità ortogonale e obliqua
 
