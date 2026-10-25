@@ -484,12 +484,13 @@ Nella risoluzione non cambia nulla: semplicemente il centro $U$ appartiene all'a
 > 2. I corrispondenti restano allineati con $U$ e i lati corrispondenti si incontrano sull'asse.
 
 > [!example] Disegno 14 (proposto, non fatto a lezione): l'omologia speciale nello spazio
-> ![[b02-omologia-speciale-spazio.svg|660]]
+> ![[b02-omologia-speciale-nello-spazio.svg|620]]
 >
-> 1. È lo stesso disegno dei due centri (Disegno 11), con una sola differenza: si sceglie prima un punto sull'asse $u$, e $S_1$ si mette sulla retta che va da $S$ a quel punto.
-> 2. Così la retta $SS_1$ (rossa), prolungata, buca il piano $\alpha$ proprio sull'asse: il centro dell'omologia $U$ sta su $u$.
-> 3. Tutto il resto funziona come prima: $U$, $A$, $A'$ sono allineati, e così $U$, $B$, $B'$ (linee grigie); $AB$ e $A'B'$ si incontrano nel punto unito $V$.
-> 4. Sull'asse ci sono quindi due punti diversi: $V$, il punto unito dove si incontrano le rette corrispondenti, e $U$, il centro dell'omologia.
+> 1. Il piano $\alpha$ (il foglio) è disegnato in vera forma, come se lo si guardasse dall'alto: la parte sotto l'asse $u$ è proprio un disegno come il Disegno 13, con i triangoli $ABC$ e $A'B'C'$ e il centro $U$ sull'asse.
+> 2. Sopra l'asse si alza il piano $\alpha_0$, con il triangolo di partenza $A_0B_0C_0$.
+> 3. Da $S$ si proietta $A_0B_0C_0$ su $\alpha$ e si ottiene $ABC$ (raggi blu); da $S_1$ si ottiene $A'B'C'$ (raggi verdi).
+> 4. $S_1$ è stato messo sulla retta che va da $S$ a un punto dell'asse: per questo la retta $SS_1$ (rossa) buca il foglio proprio sull'asse, e il centro dell'omologia $U$ sta su $u$. È questo che rende l'omologia speciale.
+> 5. Tutto il resto funziona come sempre: $U$, $A$, $A'$ sono allineati (e così per $B$ e $C$), e i lati corrispondenti si incontrano sull'asse nei punti uniti (cerchietti), dove arrivano anche i lati di $A_0B_0C_0$ prolungati.
 
 #### L'affinità ortogonale e obliqua
 
