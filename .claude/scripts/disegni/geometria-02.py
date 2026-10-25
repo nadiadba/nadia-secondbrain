@@ -494,6 +494,8 @@ def omologia_due_centri(nome1="S′"):
     f.linea(s(U), s(A1), "grigio", 1, "2,3")
     f.linea(s(U), s(B1), "grigio", 1, "2,3")
     f.linea(s(K), s(B), "blu", 1, "3,3"); f.linea(s(K), s(B1), "verde", 1, "3,3")
+    f.linea(s(K), s(A0), "nero", 1.2, "6,4")         # A0B0 prolungato fino all'asse: il punto unito
+    f.testo(oltre(s(K), s(A0), 0.55), "prolungamento di A₀B₀", -128, -6, "nero", 12, False)
     f.linea(s(A0), s(B0), "nero", 2.4)
     f.linea(s(A), s(B), "blu", 2.4)
     f.linea(s(A1), s(B1), "verde", 2.4)
