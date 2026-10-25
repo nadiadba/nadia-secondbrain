@@ -6,7 +6,7 @@ semestre: 1
 data: 2026-10-06
 tags: [geometria-descrittiva, bozza]
 ---
-
+  
 # Geometria proiettiva e omologia
 
 > [!info] Note collegate
@@ -370,6 +370,19 @@ Una volta definita, l'omologia vale indipendentemente dalla configurazione spazi
 > 2. $AB$, $A'B'$ e $A_0B_0$ si incontrano sull'asse $u$, intersezione di $\alpha_0$ e $\alpha$.
 > 3. La retta $SS_1$ incontra il piano in $U$: è il centro dell'omologia.
 > 4. Sul piano $U$, $A$, $A'$ sono allineati, e così $U$, $B$, $B'$.
+>
+> Per ridisegnarlo sul taccuino, in quest'ordine (così le linee tornano da sole):
+>
+> 1. I due piani. Disegna $\alpha$ come un parallelogramma "steso": un lato lungo orizzontale davanti, i lati di fianco inclinati verso destra in alto. Scrivi accanto $\alpha \equiv \alpha'$. Poi disegna $\alpha_0$ come un rettangolo in piedi, con il lato di sotto appoggiato su $\alpha$.
+> 2. L'asse. Ripassa il lato di sotto di $\alpha_0$ e prolungalo a destra e a sinistra: è l'asse $u$, la retta in cui i due piani si tagliano.
+> 3. La figura di partenza. Dentro $\alpha_0$ disegna il segmento $A_0B_0$, inclinato, che sale verso destra.
+> 4. Il punto unito. Prolunga $A_0B_0$ verso il basso a sinistra finché tocca $u$: lì fai un cerchietto. Tutte le rette di questa figura passeranno per quel cerchietto.
+> 5. Il primo centro $S$. Mettilo in alto a sinistra, fuori dai due piani. Da $S$ tira due raggi tratteggiati (blu) che passano per $A_0$ e per $B_0$ e continuano verso il basso, oltre il segmento.
+> 6. Il segmento $AB$. Sul primo raggio, sotto $A_0$, dentro $\alpha$, scegli il punto $A$. Poi tira una retta dal cerchietto per $A$ e prolungala: dove incontra il secondo raggio c'è $B$. Ripassa $AB$ in blu.
+> 7. Il secondo centro $S_1$. Mettilo più in basso di $S$, sempre fuori dai piani. Da $S_1$ tira due raggi tratteggiati (verdi) per $A_0$ e per $B_0$, prolungati verso il basso.
+> 8. Il segmento $A'B'$. Sul primo raggio verde, dentro $\alpha$, scegli $A'$. Tira una retta dal cerchietto per $A'$: dove incontra il secondo raggio verde c'è $B'$. Ripassa $A'B'$ in verde.
+> 9. Il centro dell'omologia $U$. Tira la retta che passa per $S$ e $S_1$ (rossa) e prolungala verso il basso. Tira anche la retta per $A$ e $A'$ e prolungala: dove le due rette si incontrano c'è $U$.
+> 10. La verifica. La retta per $B$ e $B'$, prolungata, deve passare anche lei per $U$. Se ci passa, il disegno è giusto.
 
 ### Centro, asse e coppia di elementi corrispondenti
 

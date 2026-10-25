@@ -502,8 +502,8 @@ def omologia_due_centri(nome1="S′"):
     f.punto(s(A), "A", 4, 18, "blu"); f.punto(s(B), "B", 8, 4, "blu")
     f.punto(s(A1), "A′", -26, -2, "verde"); f.punto(s(B1), "B′", 8, -4, "verde")
     f.punto(s(S), "S", 8, -4); f.punto(s(S1), nome1, 8, -2)
-    f.punto(s(U), "U", -22, -6, "rosso")
-    f.didascalia("U è il punto in cui la retta dei due centri buca il piano: U, A e A′ (e U, B, B′) sono allineati.")
+    f.punto(s(U), "U", 8, 18, "rosso")
+    f.didascalia("U è il punto in cui la retta dei due centri buca il piano: U, A e A′ (e U, B, B′) sono allineati.", 12)
     return f
 
 

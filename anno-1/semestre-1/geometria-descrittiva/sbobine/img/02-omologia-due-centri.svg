@@ -38,7 +38,7 @@
 <circle cx="279.6" cy="206.0" r="2.8" fill="#1f1f1f"/>
 <text x="287.6" y="204.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">S′</text>
 <circle cx="402.3" cy="366.0" r="2.8" fill="#c0392b"/>
-<text x="380.3" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">U</text>
-<text x="14" y="418" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">U è il punto in cui la retta dei due centri buca il piano: U, A e A′ (e U, B, B′) sono allineati.</text>
+<text x="410.3" y="384.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">U</text>
+<text x="14" y="12" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">U è il punto in cui la retta dei due centri buca il piano: U, A e A′ (e U, B, B′) sono allineati.</text>
 </g>
 </svg>
