@@ -461,7 +461,19 @@ Quella con centro $U$ e asse $u$ propri è l'omologia classica.
 
 #### L'omologia speciale
 
-L'omologia è speciale quando, proiettando un centro di proiezione dall'altro, il centro dell'omologia $U$ viene a cadere proprio sull'asse. Nella risoluzione non cambia nulla: semplicemente il centro $U$ appartiene all'asse.
+L'omologia è speciale quando, proiettando un centro di proiezione dall'altro, il centro dell'omologia $U$ viene a cadere proprio sull'asse.
+
+Per capire la frase bisogna tornare al Disegno 11.
+
+1. Lì ci sono i due centri di proiezione nello spazio, $S$ e $S_1$.
+2. "Proiettare un centro dall'altro" vuol dire tirare la retta che passa per $S$ e per $S_1$ e prolungarla finché buca il piano $\alpha$, cioè il foglio.
+3. Il punto in cui la buca è il centro dell'omologia $U$.
+4. Di solito questo punto cade in un posto qualsiasi del foglio, lontano dall'asse: è l'omologia classica.
+5. Se invece $S$ e $S_1$ sono messi in modo che la retta $SS_1$ buchi il foglio proprio in un punto dell'asse $u$, allora $U$ sta sull'asse: è l'omologia speciale.
+
+Sul foglio, quindi, l'omologia speciale si riconosce subito: il centro $U$ è disegnato sopra l'asse $u$.
+
+Nella risoluzione non cambia nulla: semplicemente il centro $U$ appartiene all'asse.
 
 > [!example] Disegno 13 · Il disegno: l'omologia speciale
 > ![[b02-omologia-speciale.svg|620]]
