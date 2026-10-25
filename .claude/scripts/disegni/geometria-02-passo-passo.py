@@ -3,7 +3,7 @@
 Un'immagine per ogni passaggio: l'elemento nuovo e' in arancione e piu' spesso, quelli gia' fatti
 restano nei loro colori. Stessa geometria di omologia_due_centri() in geometria-02.py.
 
-Immagini: bozze/img/b02-pp-NN.svg  -  Nota: bozze/02-omologia-dai-due-centri-passo-passo.md
+Immagini: bozze/img/b02-passo-NN.svg  -  Nota: bozze/02-omologia-dai-due-centri-passo-passo.md
 """
 import importlib.util
 import os
@@ -89,10 +89,10 @@ def _(f, n):
     f.punto(s(A0), "A_0", -26, -4, col(n, "nero")); f.punto(s(B0), "B_0", 6, -6, col(n, "nero"))
 
 
-@passo("Prolunga A₀B₀ verso il basso a sinistra fino all'asse u: lì metti il cerchietto (punto unito).")
+@passo("Prolunga A₀B₀ verso il basso a sinistra fino all'asse u: lì metti il cerchietto, il punto unito V.")
 def _(f, n):
     f.linea(s(K), s(A0), col(n, "nero"), sp(n, 1.2), "6,4")
-    f.unito(s(K))
+    f.unito(s(K), "V", -4, 22)
 
 
 @passo("Metti il primo centro S, in alto, fuori dai due piani.")
@@ -197,7 +197,7 @@ for k in range(TOT):
     for i in piani + linee + punti:
         PASSI[i][1](f, i == k)
     f.didascalia(PASSI[k][0], 12)
-    f.salva(BZ + f"b02-pp-{k + 1:02d}.svg")
+    f.salva(BZ + f"b02-passo-{k + 1:02d}.svg")
 print(TOT, "passi")
 
 
@@ -238,7 +238,7 @@ def variante(tA, tA1, nome, titolo, didascalia=None, alza=0, w=700, h=430):
     _lunga(f, [s_S, s_S1, u], "rosso", 1.4, "7,4")
     _lunga(f, [a1, a, u], "grigio", 1, "2,3"); _lunga(f, [b1, b, u], NUOVO, 2.2, "4,3")
     f.linea(s_A0, s_B0, "nero", 2.4); f.linea(a, b, "blu", 2.4); f.linea(a1, b1, "verde", 2.4)
-    f.unito(s_K)
+    f.unito(s_K, "V", -4, 22)
     f.punto(s_A0, "A_0", -26, -4); f.punto(s_B0, "B_0", 6, -6)
     f.punto(s_S, "S", 8, -4); f.punto(s_S1, "S_1", 8, -2)
     f.punto(a, "A", 6, 16, "blu"); f.punto(b, "B", 8, 4, "blu")
@@ -250,7 +250,7 @@ def variante(tA, tA1, nome, titolo, didascalia=None, alza=0, w=700, h=430):
     return {k: tuple(round(c) for c in v) for k, v in dict(A=a, A1=a1, B=b, B1=b1, U=u).items()}
 
 
-print(variante(1.2, 1.53, "b02-pp-variante.svg", "Variante: A e A′ scelti in altri punti dei raggi"))
-print(variante(1.36, 1.58, "b02-pp-variante-2.svg", "Variante 2: A′ più in alto di A",
+print(variante(1.2, 1.53, "b02-passo-variante-1.svg", "Variante: A e A′ scelti in altri punti dei raggi"))
+print(variante(1.36, 1.58, "b02-passo-variante-2.svg", "Variante 2: A′ più in alto di A",
                "A′ più in alto di A: U cade in basso, davanti al piano disegnato. B B′ passa lo stesso per U.",
                alza=80, w=760, h=500))

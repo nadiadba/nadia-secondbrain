@@ -364,7 +364,7 @@ L'omologia è dunque la relazione tra due figure generate dalla proiezione della
 Una volta definita, l'omologia vale indipendentemente dalla configurazione spaziale che l'ha generata: gli esercizi sono astratti e vanno risolti sul piano, senza figurarsi lo spazio.
 
 > [!example] Disegno 11 · Il disegno: dai due centri al centro dell'omologia
-> ![[b02-omologia-centro-u.svg|660]]
+> ![[b02-omologia-dai-centri-s-s1.svg|660]]
 >
 > 1. Il segmento $A_0B_0$ sta su $\alpha_0$; proiettandolo su $\alpha$ da $S$ si ottiene $AB$, da $S_1$ si ottiene $A'B'$.
 > 2. $AB$, $A'B'$ e $A_0B_0$ si incontrano sull'asse $u$, intersezione di $\alpha_0$ e $\alpha$.
@@ -378,7 +378,7 @@ Una volta definita, l'omologia vale indipendentemente dalla configurazione spazi
 > 1. I due piani. Disegna $\alpha$ come un parallelogramma "steso": un lato lungo orizzontale davanti, i lati di fianco inclinati verso destra in alto. Scrivi accanto $\alpha \equiv \alpha'$. Poi disegna $\alpha_0$ come un rettangolo in piedi, con il lato di sotto appoggiato su $\alpha$.
 > 2. L'asse. Ripassa il lato di sotto di $\alpha_0$ e prolungalo a destra e a sinistra: è l'asse $u$, la retta in cui i due piani si tagliano.
 > 3. La figura di partenza. Dentro $\alpha_0$ disegna il segmento $A_0B_0$, inclinato, che sale verso destra.
-> 4. Il punto unito. Prolunga $A_0B_0$ verso il basso a sinistra finché tocca $u$: lì fai un cerchietto. Tutte le rette di questa figura passeranno per quel cerchietto.
+> 4. Il punto unito. Prolunga $A_0B_0$ verso il basso a sinistra finché tocca $u$: lì fai un cerchietto, il punto unito $V$. Tutte le rette di questa figura passeranno per quel cerchietto.
 > 5. Il primo centro $S$. Mettilo in alto a sinistra, fuori dai due piani. Da $S$ tira due raggi tratteggiati (blu) che passano per $A_0$ e per $B_0$ e continuano verso il basso, oltre il segmento.
 > 6. Il segmento $AB$. Sul primo raggio, sotto $A_0$, dentro $\alpha$, scegli il punto $A$. Poi tira una retta dal cerchietto per $A$ e prolungala: dove incontra il secondo raggio c'è $B$. Ripassa $AB$ in blu.
 > 7. Il secondo centro $S_1$. Mettilo più in basso di $S$, sempre fuori dai piani. Da $S_1$ tira due raggi tratteggiati (verdi) per $A_0$ e per $B_0$, prolungati verso il basso.

@@ -192,7 +192,7 @@ L'omologia nasce da un passo in più. Possiamo considerare due figure sullo stes
 Il nostro obiettivo è sempre portare tutto sul foglio da disegno, che va interpretato come il piano $\alpha$ coincidente con $\alpha'$. Sul foglio abbiamo già una coppia di rette corrispondenti $r$ e $r'$, che — come sappiamo — si incontrano sull'asse, cioè sulla retta di intersezione tra i piani. Restano da portare sul piano i due centri di proiezione, che nello spazio stanno uno più in alto e uno più in basso: per farlo si proietta l'uno dall'altro, ottenendo un unico punto sul piano, che è il centro dell'omologia. I punti corrispondenti risultano allineati con questo centro.
 
 > [!example] Il disegno alla lavagna: dai due centri al centro dell'omologia
-> ![[02-omologia-centro-u.svg|660]]
+> ![[02-omologia-dai-centri-s-s1.svg|660]]
 >
 > 1. Il segmento $A_0B_0$ sta sul piano $\alpha_0$; lo si proietta sul piano $\alpha$ (coincidente con $\alpha'$) da due centri, $S$ e $S'$: da $S$ si ottiene $AB$, da $S'$ si ottiene $A'B'$.
 > 2. L'asse $u$ è la retta di intersezione tra $\alpha_0$ e $\alpha$: le rette $AB$, $A'B'$ (e $A_0B_0$) si incontrano tutte lì (cerchietto).

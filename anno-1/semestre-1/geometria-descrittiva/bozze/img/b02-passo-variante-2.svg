@@ -22,6 +22,7 @@
 <line x1="252.5" y1="349.1" x2="428.4" y2="333.9" stroke="#2563a8" stroke-width="2.4" stroke-linecap="round"/>
 <line x1="199.8" y1="336.3" x2="353.2" y2="286.5" stroke="#2e8b57" stroke-width="2.4" stroke-linecap="round"/>
 <circle cx="126.7" cy="360.0" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
+<text x="122.7" y="382.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">V</text>
 <circle cx="260.0" cy="280.0" r="2.8" fill="#1f1f1f"/>
 <text x="234.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
 <circle cx="360.0" cy="220.0" r="2.8" fill="#1f1f1f"/>
