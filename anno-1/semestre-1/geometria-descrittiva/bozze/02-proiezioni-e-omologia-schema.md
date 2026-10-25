@@ -407,6 +407,8 @@ La corrispondenza conserva le proprietà proiettive: a rette corrispondono rette
 
 Per risolvere gli esercizi non serve altro che le due proprietà dell'omologia e le condizioni di appartenenza. Saperle a memoria non basta: bisogna saperle applicare.
 
+Il Disegno 12 è come guardare dall'alto il piano $\alpha$ del Disegno 11: lo spazio sparisce e sul foglio restano solo il centro $U$, l'asse $u$ e le figure corrispondenti. Nel Disegno 11 le figure erano i due segmenti $AB$ e $A'B'$; qui sono due triangoli, $ABC$ e $A'B'C'$, ma le regole sono le stesse.
+
 > [!example] Disegno 12 · Il disegno: due triangoli corrispondenti
 > ![[b02-omologia-centro-asse.svg|620]]
 >
