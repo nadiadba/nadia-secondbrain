@@ -447,6 +447,16 @@ Nelle proiezioni ortogonali si useranno invece i pedici ($P_1$, $P_2$, $P_3$), p
 
 A seconda della posizione reciproca dei piani e dei centri di proiezione, l'omologia prende nomi diversi. I nomi aiutano a distinguere le situazioni, ma la soluzione degli esercizi resta sempre la stessa.
 
+In breve, i tipi sono questi:
+
+- omologia classica = $U$ e $u$ propri
+- omologia speciale = $U$ e $u$ propri, ma $U$ sta sull'asse $u$
+- affinità = $U$ improprio ($U_\infty$), $u$ proprio
+	- ortogonale = la direzione di $U_\infty$ è perpendicolare all'asse
+	- obliqua = la direzione di $U_\infty$ è inclinata rispetto all'asse
+- omotetia = $U$ proprio, $u$ improprio ($u_\infty$)
+- traslazione = $U$ e $u$ impropri ($U_\infty$ e $u_\infty$)
+
 Quella con centro $U$ e asse $u$ propri è l'omologia classica.
 
 #### L'omologia speciale
