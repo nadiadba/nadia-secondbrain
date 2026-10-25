@@ -383,6 +383,13 @@ Una volta definita, l'omologia vale indipendentemente dalla configurazione spazi
 > 8. Il segmento $A'B'$. Sul primo raggio verde, dentro $\alpha$, scegli $A'$. Tira una retta dal cerchietto per $A'$: dove incontra il secondo raggio verde c'è $B'$. Ripassa $A'B'$ in verde.
 > 9. Il centro dell'omologia $U$. Tira la retta che passa per $S$ e $S_1$ (rossa) e prolungala verso il basso. Tira anche la retta per $A$ e $A'$ e prolungala: dove le due rette si incontrano c'è $U$.
 > 10. La verifica. La retta per $B$ e $B'$, prolungata, deve passare anche lei per $U$. Se ci passa, il disegno è giusto.
+>
+> Se alla verifica le linee non si incontrano in $U$, il motivo è quasi sempre uno di questi:
+>
+> - si sono scelti a occhio punti che invece vanno trovati. Gli unici punti che si scelgono liberamente sono $A$ (sul raggio da $S$) e $A'$ (sul raggio da $S_1$). Il cerchietto, $B$, $B'$ e $U$ non si scelgono mai: sono sempre l'incrocio di due linee;
+> - le rette che partono dal cerchietto non passano esattamente per il cerchietto: tutte e due ($AB$ e $A'B'$) devono uscire proprio da lì;
+> - le linee sono corte o tirate a mano libera: vanno tirate con la squadretta, lunghe, con la mina appuntita, perché quando due linee si incrociano quasi parallele basta un millimetro di errore per spostare il punto di molto;
+> - $S$ e $S_1$ sono troppo vicini: più sono lontani, più gli incroci sono netti.
 
 ### Centro, asse e coppia di elementi corrispondenti
 
