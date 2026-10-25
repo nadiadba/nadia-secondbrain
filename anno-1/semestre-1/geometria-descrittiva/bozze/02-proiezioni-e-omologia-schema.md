@@ -338,6 +338,7 @@ Le due proprietà, allineamento con il centro e incontro sull'asse, valgono per 
 > 1. Il triangolo $ABC$ sta su $\alpha$; proiettandolo da $S$ su $\alpha'$ si ottiene $A'B'C'$.
 > 2. Ogni raggio da $S$ contiene due vertici corrispondenti.
 > 3. I lati corrispondenti prolungati si incontrano a due a due sull'asse, intersezione dei due piani: i cerchietti sono i punti uniti.
+> 4. Il centro $S$ sta fuori da tutti e due i piani: è in alto, sopra $\alpha$, e davanti ad $\alpha'$, dalla parte di chi guarda. Qui il piano $\alpha'$ sta tra $S$ e il triangolo $ABC$, come nella macchina fotografica: i raggi partono da $S$, attraversano $\alpha'$ (dove lasciano $A'$, $B'$, $C'$) e arrivano ai vertici di $ABC$.
 
 ### L'omologia: due prospettività sullo stesso piano
 

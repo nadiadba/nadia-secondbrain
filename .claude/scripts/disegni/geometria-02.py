@@ -426,13 +426,13 @@ def punto_improprio():
 
 
 def prospettivita():
-    f = F(730, 360, "La prospettività tra due piani α e α′: centro S e asse")
+    f = F(730, 430, "La prospettività tra due piani α e α′: centro S e asse")
     ox, oy, k = 90, 72, 1.3
 
     def s(p):
         return (ox + k * (p[0] + 0.5 * p[2]), oy + k * (p[1] + 0.32 * p[2]))
 
-    S = (170, 230, -200)
+    S = (170, 290, -200)        # S fuori da tutti e due i piani: sopra α e davanti ad α′
     A, B, C = (60, 0, 80), (250, 0, 20), (170, 0, 190)
     tri = [A, B, C]
     img = [su_piano3(S, p, 2, 0) for p in tri]
@@ -458,6 +458,7 @@ def prospettivita():
     for p, n, dx, dy in zip(img, "ABC", (-26, 6, -6), (-6, -8, -10)):
         f.punto(s(p), n + "′", dx, dy, "verde")
     f.punto(s(S), "S", -18, -6)
+    f.testo(s(S), "S è fuori dai due piani", 10, -6, "nero", 12, False)
     f.didascalia("I raggi da S uniscono i vertici corrispondenti; i lati corrispondenti si incontrano sull'asse (cerchietti).")
     return f
 
