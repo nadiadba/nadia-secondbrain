@@ -364,7 +364,7 @@ L'omologia è dunque la relazione tra due figure generate dalla proiezione della
 Una volta definita, l'omologia vale indipendentemente dalla configurazione spaziale che l'ha generata: gli esercizi sono astratti e vanno risolti sul piano, senza figurarsi lo spazio.
 
 > [!example] Disegno 11 · Il disegno: dai due centri al centro dell'omologia
-> ![[b02-omologia-dai-due-centri.svg|660]]
+> ![[b02-omologia-centro-u.svg|660]]
 >
 > 1. Il segmento $A_0B_0$ sta su $\alpha_0$; proiettandolo su $\alpha$ da $S$ si ottiene $AB$, da $S_1$ si ottiene $A'B'$.
 > 2. $AB$, $A'B'$ e $A_0B_0$ si incontrano sull'asse $u$, intersezione di $\alpha_0$ e $\alpha$.
@@ -381,7 +381,7 @@ Una volta definita, l'omologia vale indipendentemente dalla configurazione spazi
 > 6. Il segmento $AB$. Sul primo raggio, sotto $A_0$, dentro $\alpha$, scegli il punto $A$. Poi tira una retta dal cerchietto per $A$ e prolungala: dove incontra il secondo raggio c'è $B$. Ripassa $AB$ in blu.
 > 7. Il secondo centro $S_1$. Mettilo più in basso di $S$, sempre fuori dai piani. Da $S_1$ tira due raggi tratteggiati (verdi) per $A_0$ e per $B_0$, prolungati verso il basso.
 > 8. Il segmento $A'B'$. Sul primo raggio verde, dentro $\alpha$, scegli $A'$. Tira una retta dal cerchietto per $A'$: dove incontra il secondo raggio verde c'è $B'$. Ripassa $A'B'$ in verde.
-> 9. Il centro dell'omologia $U$. Tira la retta che passa per $S$ e $S_1$ (rossa) e prolungala verso il basso. Tira anche la retta per $A$ e $A'$ e prolungala: dove le due rette si incontrano c'è $U$.
+> 9. Il centro dell'omologia $U$. Tira la retta che passa per $S$ e $S_1$ (rossa) e prolungala verso il basso. Tira anche la retta per $A$ e $A'$ e prolungala: dove le due rette si incontrano c'è $U$. Attenzione: $U$ non sta sull'asse $u$ e non è il punto dove la retta rossa arriva all'asse. È il punto dove la retta rossa incontra la retta $AA'$, e può cadere ovunque sul piano $\alpha$, anche lontano dall'asse.
 > 10. La verifica. La retta per $B$ e $B'$, prolungata, deve passare anche lei per $U$. Se ci passa, il disegno è giusto.
 >
 > Se alla verifica le linee non si incontrano in $U$, il motivo è quasi sempre uno di questi:

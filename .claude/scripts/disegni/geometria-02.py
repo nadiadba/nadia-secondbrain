@@ -470,7 +470,7 @@ def omologia_due_centri(nome1="S′"):
     def s(p):
         return (ox + p[0] + 0.42 * p[2], oy + p[1] + 0.3 * p[2])
 
-    S, S1 = (150, 320, -200), (190, 200, -120)
+    S, S1 = (250, 350, -260), (270, 210, -110)     # U ben lontano dall'asse: U non sta su u
     A0, B0 = (120, 80, 0), (220, 140, 0)
     A, B = su_piano3(S, A0, 1, 0), su_piano3(S, B0, 1, 0)
     A1, B1 = su_piano3(S1, A0, 1, 0), su_piano3(S1, B0, 1, 0)
@@ -502,7 +502,7 @@ def omologia_due_centri(nome1="S′"):
     f.unito(s(K))
     f.punto(s(A0), "A_0", -26, -4); f.punto(s(B0), "B_0", 6, -6)
     f.punto(s(A), "A", 4, 18, "blu"); f.punto(s(B), "B", 8, 4, "blu")
-    f.punto(s(A1), "A′", -26, -2, "verde"); f.punto(s(B1), "B′", 8, -4, "verde")
+    f.punto(s(A1), "A′", -10, -12, "verde"); f.punto(s(B1), "B′", 8, -4, "verde")
     f.punto(s(S), "S", 8, -4); f.punto(s(S1), nome1, 8, -2)
     f.punto(s(U), "U", 8, 18, "rosso")
     f.didascalia("U è il punto in cui la retta dei due centri buca il piano: U, A e A′ (e U, B, B′) sono allineati.", 12)
@@ -967,8 +967,8 @@ proiezione_piano().salva_in(BZ + "b02-proiezione-piano.svg")
 retta_proiettiva().salva_in(SB + "02-retta-proiettiva.svg", BZ + "b02-retta-proiettiva.svg")
 punto_improprio().salva_in(SB + "02-punto-improprio.svg", BZ + "b02-punto-improprio.svg")
 prospettivita().salva_in(SB + "02-prospettivita.svg", BZ + "b02-prospettivita.svg")
-omologia_due_centri("S′").salva_in(SB + "02-omologia-dai-due-centri.svg")
-omologia_due_centri("S_1").salva_in(BZ + "b02-omologia-dai-due-centri.svg")
+omologia_due_centri("S′").salva_in(SB + "02-omologia-centro-u.svg")
+omologia_due_centri("S_1").salva_in(BZ + "b02-omologia-centro-u.svg")
 omologia_triangoli().salva_in(SB + "02-omologia-centro-asse.svg", BZ + "b02-omologia-centro-asse.svg")
 esercizio_punto_coppia().salva_in(SB + "02-omologia-esercizio-punto.svg", BZ + "b02-es-punto-coppia.svg")
 omologia_speciale_teoria().salva_in(SB + "02-omologia-speciale.svg", BZ + "b02-omologia-speciale.svg")
