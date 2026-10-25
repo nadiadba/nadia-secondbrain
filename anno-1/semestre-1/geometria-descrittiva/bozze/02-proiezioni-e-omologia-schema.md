@@ -241,6 +241,17 @@ L'infinito non si vede, ma se ne dimostra l'esistenza per induzione geometrica c
 2. Proiettando da $S$ i punti di $r$, a ciascuno corrisponde un punto della circonferenza;
 3. continuando, anche il raggio che diventa parallelo a $r$ lascia un'immagine sulla circonferenza, come tutti gli altri.
 
+Per capire il modello conviene guardare il Disegno 7 seguendo i punti da sinistra a destra.
+
+La circonferenza fa da "schermo": il centro $S$ sta sulla circonferenza, e ogni raggio che parte da $S$ la taglia in un secondo punto, che è l'immagine del punto di $r$ da cui passa il raggio.
+
+- Il raggio che va da $S$ ad $A$ taglia la circonferenza in $A'$: $A'$ è l'immagine di $A$.
+- Il raggio che va da $S$ a $B$ la taglia in $B'$, e il raggio che va da $S$ a $C$ la taglia in $C'$.
+
+Ora si immagini di prendere punti di $r$ sempre più lontani, verso destra, oltre $C$. Più il punto è lontano, più il raggio che parte da $S$ per raggiungerlo si abbassa poco: diventa sempre più "piatto", cioè sempre più vicino a essere parallelo a $r$. Di conseguenza la sua immagine sulla circonferenza sale, da $C'$ verso $P'$.
+
+Alla fine si arriva al raggio parallelo a $r$ (la linea rossa tratteggiata). Questo raggio non incontra $r$ in nessun punto che si possa disegnare, ma taglia comunque la circonferenza, nel punto $P'$.
+
 Il ragionamento è questo. Ogni raggio che parte da $S$ e incontra $r$ in un punto lascia la sua immagine sulla circonferenza. Il raggio parallelo a $r$ non incontra $r$ in nessun punto che possiamo disegnare, eppure lascia anche lui la sua immagine sulla circonferenza.
 
 Se esiste l'immagine, esiste il punto che l'ha generata, e si trova all'infinito: la circonferenza è il modello della retta proiettiva, cioè della retta a cui si aggiunge il suo punto improprio.
