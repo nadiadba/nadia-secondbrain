@@ -471,6 +471,8 @@ Per capire la frase bisogna tornare al Disegno 11.
 4. Di solito questo punto cade in un posto qualsiasi del foglio, lontano dall'asse: è l'omologia classica.
 5. Se invece $S$ e $S_1$ sono messi in modo che la retta $SS_1$ buchi il foglio proprio in un punto dell'asse $u$, allora $U$ sta sull'asse: è l'omologia speciale.
 
+Non basta, e non funziona, mettere $S$ e $S_1$ sul piano $\alpha_0$. È vero che allora la retta $SS_1$ starebbe tutta su $\alpha_0$ e toccherebbe $\alpha$ sull'asse, ma i raggi che partono da $S$ resterebbero anch'essi dentro $\alpha_0$: la figura $A_0B_0$ si schiaccerebbe tutta sull'asse e non ci sarebbe più niente da proiettare. I due centri devono stare fuori dai piani; basta che la retta che li unisce, prolungata, passi per un punto dell'asse. Per costruirla si sceglie un punto dell'asse, si mette $S$ dove si vuole, e si mette $S_1$ sulla retta che va da $S$ a quel punto.
+
 Sul foglio, quindi, l'omologia speciale si riconosce subito: il centro $U$ è disegnato sopra l'asse $u$.
 
 Nella risoluzione non cambia nulla: semplicemente il centro $U$ appartiene all'asse.
