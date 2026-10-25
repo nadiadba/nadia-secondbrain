@@ -52,7 +52,7 @@ Scheda da ripassare in 30-40 minuti prima della Prova n.1 di giovedì 29 ottobre
 
 **Come si risolve** (metodo generale: «se ho i punti cerco le rette, se ho le rette cerco i punti»; [[02-proiezioni-e-omologia-schema#Il metodo|bozza 02]])
 
-*Omologia classica, dati U, u, A e A′: trovare B′* ([[02-proiezioni-e-omologia-schema#COME SI RISOLVONO GLI ESERCIZI DI OMOLOGIA|bozza 02]])
+*Omologia classica, dati U, u, A e A′: trovare B′* ([[02-proiezioni-e-omologia-schema#Come si risolvono gli esercizi di omologia|bozza 02]])
 1. Traccia il raggio da U per B: B′ starà lì sopra.
 2. Traccia la retta AB e prolungala fino all'asse: punto unito V.
 3. Unisci V con A′: è la retta corrispondente A′B′.

@@ -297,7 +297,7 @@ Nell'assonometria la direzione di proiezione può essere:
 > 1. Centro $S$ proprio: i raggi partono tutti da $S$ e la figura proiettata cambia dimensione (proiezione conica).
 > 2. Centro improprio: i raggi sono paralleli e la figura viene trasferita con le stesse dimensioni (proiezione cilindrica).
 
-## LE PROIETTIVITÀ: PROSPETTIVITÀ E OMOLOGIA
+## LA PROSPETTIVITÀ
 
 ### La prospettività e l'omografia
 
@@ -345,6 +345,8 @@ Le due proprietà, allineamento con il centro e incontro sull'asse, valgono per 
 > 2. Ogni raggio da $S$ contiene due vertici corrispondenti.
 > 3. I lati corrispondenti prolungati si incontrano a due a due sull'asse, intersezione dei due piani: i cerchietti sono i punti uniti.
 > 4. Il centro $S$ sta fuori da tutti e due i piani: è in alto, sopra $\alpha$, e davanti ad $\alpha'$, dalla parte di chi guarda. Qui il piano $\alpha'$ sta tra $S$ e il triangolo $ABC$, come nella macchina fotografica: i raggi partono da $S$, attraversano $\alpha'$ (dove lasciano $A'$, $B'$, $C'$) e arrivano ai vertici di $ABC$.
+
+## L'OMOLOGIA
 
 ### L'omologia: due prospettività sullo stesso piano
 
@@ -410,13 +412,13 @@ Nelle proiezioni ortogonali si useranno invece i pedici ($P_1$, $P_2$, $P_3$), p
 > - Centro improprio: $U_\infty$ con una lineetta. La lineetta non è casuale: è la direzione in cui stanno tutti i punti corrispondenti.
 > - Asse improprio: $u_\infty$ con una crocetta.
 
-## LE OMOLOGIE PARTICOLARI
+### Le omologie particolari
 
 A seconda della posizione reciproca dei piani e dei centri di proiezione, l'omologia prende nomi diversi. I nomi aiutano a distinguere le situazioni, ma la soluzione degli esercizi resta sempre la stessa.
 
 Quella con centro e asse propri è l'omologia classica.
 
-### L'omologia speciale
+#### L'omologia speciale
 
 L'omologia è speciale quando, proiettando un centro dall'altro, il centro viene a cadere proprio sull'asse. Nella risoluzione non cambia nulla: semplicemente il centro appartiene all'asse.
 
@@ -426,7 +428,7 @@ L'omologia è speciale quando, proiettando un centro dall'altro, il centro viene
 > 1. $U$ sta sull'asse $u$.
 > 2. I corrispondenti restano allineati con $U$ e i lati corrispondenti si incontrano sull'asse.
 
-### L'affinità ortogonale e obliqua
+#### L'affinità ortogonale e obliqua
 
 Si ha un'affinità quando i due centri sono allineati lungo una retta parallela al piano: la retta che li unisce non incontra il piano a distanza finita, ma all'infinito. Il centro dell'omologia è allora improprio e si indica con una direzione.
 
@@ -445,7 +447,7 @@ L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'ass
 > 3. I lati corrispondenti si incontrano sull'asse $u$, come nell'omologia classica.
 > 4. Direzione perpendicolare a $u$: affinità ortogonale; direzione inclinata: affinità obliqua.
 
-### L'omotetia
+#### L'omotetia
 
 L'omotetia si ha quando il piano che contiene la figura è parallelo al piano su cui la si proietta. La retta di intersezione tra i due piani, cioè l'asse, è allora impropria, mentre il centro è proprio.
 
@@ -460,7 +462,7 @@ La figura si ingrandisce, come un rettangolo parallelo alla parete illuminato da
 > 2. $A'$, $B'$, $C'$ stanno sui raggi da $U$.
 > 3. I lati corrispondenti sono paralleli: $A'B' \parallel AB$, $B'C' \parallel BC$, $C'A' \parallel CA$.
 
-### La traslazione
+#### La traslazione
 
 La traslazione è il caso limite, di massima indeterminazione:
 
@@ -485,9 +487,9 @@ La figura viene semplicemente spostata.
 > - Omotetia: centro proprio $U$, asse improprio $u_\infty$; rette corrispondenti parallele.
 > - Traslazione: $U_\infty$ e $u_\infty$; la figura si sposta uguale.
 
-## COME SI RISOLVONO GLI ESERCIZI DI OMOLOGIA
+### Come si risolvono gli esercizi di omologia
 
-### Il metodo
+#### Il metodo
 
 Ogni esercizio è una somma di cose già note: se si hanno i punti si cercano le rette, se si hanno le rette si cercano i punti.
 
@@ -511,7 +513,7 @@ Alla fine conviene sempre verificare con un'altra coppia di punti: la figura cor
 > 4. Con $U_\infty$: al posto del raggio, la parallela alla direzione del centro. Con $u_\infty$: al posto del punto unito, la parallela ad $AX$ per $A'$.
 > 5. Verifica: i lati corrispondenti si incontrano sull'asse (o sono paralleli, se l'asse è improprio).
 
-### Omologia classica: dati A e A′, trovare B′
+#### Omologia classica: dati A e A′, trovare B′
 
 È l'esercizio più semplice, quello spiegato a lezione il 6 ottobre: sono dati il centro, l'asse, una coppia di punti corrispondenti $A$ e $A'$ e un punto $B$, e si chiede il corrispondente $B'$.
 
@@ -525,7 +527,7 @@ Se invece di un punto è dato un segmento, lo si prolunga fino a ottenere la ret
 > 3. La retta corrispondente $r'$ passa per $V$ e per $A'$.
 > 4. $B'$ è l'intersezione tra $r'$ e il raggio da $U$ per $B$.
 
-### Omologia classica: date le rette corrispondenti r e r′
+#### Omologia classica: date le rette corrispondenti r e r′
 
 Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e ci si riconduce all'esercizio precedente.
 
@@ -550,7 +552,7 @@ Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e c
 > 4. Si traccia il raggio da $U$ per $M$ e lo si prolunga oltre $U$: $M'$ è il punto in cui incontra $s'$.
 > 5. In questo esercizio $M'$ cade dall'altra parte del centro rispetto a $M$, sopra $U$. Verifica: $U$, $M$ e $M'$ sono allineati e $s$ e $s'$ si incontrano sull'asse in $W$.
 
-### Omologia speciale
+#### Omologia speciale
 
 Il metodo non cambia: l'unica particolarità è che il centro sta sull'asse, quindi i raggi partono da un punto dell'asse.
 
@@ -572,7 +574,7 @@ Il foglio «OMOLOGIA riepilogo» contiene un esercizio di questo tipo con la sol
 > 3. $s'$ passa per $W$ e per $A'$.
 > 4. $M'$ sta su $s'$ e sul raggio da $U$ per $M$.
 
-### Omotetia: asse improprio
+#### Omotetia: asse improprio
 
 Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il punto unito, si traccia la parallela.
 
@@ -602,7 +604,7 @@ Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione
 > 3. Per $B'$ la parallela a $BC$ dà $C'$; per $C'$ la parallela a $CD$ dà $D'$.
 > 4. Verifica: $D'A'$ deve risultare parallela a $DA$.
 
-### Affinità: centro improprio
+#### Affinità: centro improprio
 
 Con il centro all'infinito i corrispondenti stanno su rette parallele alla direzione di $U_\infty$, mentre l'asse resta proprio e i lati corrispondenti si incontrano su di esso.
 
@@ -642,7 +644,7 @@ Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri,
 > 3. Si prolunga $CB$ fino all'asse (punto 2): la retta per 2 e $B'$ incontra la parallela per $C$ in $C'$.
 > 4. $CD$ incontra l'asse nel punto 3: la retta per 3 e $C'$ incontra la parallela per $D$ in $D'$.
 
-### Traslazione: centro e asse impropri
+#### Traslazione: centro e asse impropri
 
 Con centro e asse all'infinito valgono insieme le due regole:
 
