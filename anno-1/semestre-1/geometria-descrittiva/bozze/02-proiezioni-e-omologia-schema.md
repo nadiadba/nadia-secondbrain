@@ -364,7 +364,7 @@ L'omologia è dunque la relazione tra due figure generate dalla proiezione della
 Una volta definita, l'omologia vale indipendentemente dalla configurazione spaziale che l'ha generata: gli esercizi sono astratti e vanno risolti sul piano, senza figurarsi lo spazio.
 
 > [!example] Disegno 11 · Il disegno: dai due centri al centro dell'omologia
-> ![[b02-omologia-due-centri.svg|660]]
+> ![[b02-omologia-dai-due-centri.svg|660]]
 >
 > 1. Il segmento $A_0B_0$ sta su $\alpha_0$; proiettandolo su $\alpha$ da $S$ si ottiene $AB$, da $S_1$ si ottiene $A'B'$.
 > 2. $AB$, $A'B'$ e $A_0B_0$ si incontrano sull'asse $u$, intersezione di $\alpha_0$ e $\alpha$.
