@@ -303,7 +303,19 @@ Nell'assonometria la direzione di proiezione può essere:
 
 La proiettività più semplice è la prospettività: ci sono un centro e due piani, e si stabilisce una corrispondenza biunivoca, in cui a ogni punto di un piano corrisponde uno e un solo punto dell'altro.
 
+Corrispondenza biunivoca vuol dire che la corrispondenza funziona nei due sensi, a coppie:
+
+- a ogni punto del primo piano corrisponde un solo punto del secondo,
+- e a ogni punto del secondo piano corrisponde un solo punto del primo.
+
+Per immaginarla si può pensare a una lampadina, il centro $S$, a una lastra di vetro con un triangolo disegnato sopra, il piano $\alpha$, e a un muro, il piano $\alpha'$: la luce che parte dalla lampadina e passa per il triangolo disegna sul muro un altro triangolo. Ogni punto del triangolo sul vetro ha il suo punto nel triangolo sul muro, e viceversa.
+
 Se da un centro $S$ si proiettano gli elementi di un piano $\alpha$ su un secondo piano $\alpha'$, la corrispondenza tra i punti dei due piani si chiama omografia.
+
+Prospettività e omografia descrivono quindi la stessa situazione da due punti di vista:
+
+- la prospettività è l'operazione, cioè proiettare da un centro $S$ un piano su un altro piano;
+- l'omografia è il nome della corrispondenza che si ottiene, cioè il legame tra ogni punto di $\alpha$ e il suo punto su $\alpha'$.
 
 Due figure sono prospettive:
 
@@ -311,6 +323,12 @@ Due figure sono prospettive:
 - e quando le rette corrispondenti, cioè i lati prolungati, si incontrano su una retta fissa, l'asse della prospettività, che è la retta di intersezione tra i due piani.
 
 Il punto in cui una retta incontra l'asse si chiama punto unito: sta sulla retta di intersezione, quindi appartiene a tutti e due i piani, e proiettandolo si ottiene lo stesso punto.
+
+Perché le rette corrispondenti si incontrano proprio sull'asse? Si prenda il lato $AB$, che sta sul piano $\alpha$, e il suo corrispondente $A'B'$, che sta sul piano $\alpha'$.
+
+1. Se si prolunga $AB$, prima o poi esce dal piano $\alpha$ proprio dove $\alpha$ incontra $\alpha'$, cioè sull'asse.
+2. In quel punto il raggio che parte da $S$ trova lo stesso punto su tutti e due i piani, perché il punto sta già su $\alpha'$: la sua proiezione è sé stesso.
+3. Quindi anche $A'B'$ prolungato passa per quel punto, e i due lati si incontrano lì, sull'asse. Quel punto è il punto unito.
 
 Le due proprietà, allineamento con il centro e incontro sull'asse, valgono per una retta, per tante rette e per ogni figura, per esempio per i lati $AB$, $BC$, $CA$ di un triangolo.
 
