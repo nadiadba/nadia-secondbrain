@@ -509,6 +509,54 @@ def omologia_due_centri(nome1="S′"):
     return f
 
 
+def omologia_speciale_spazio():
+    """Disegno proposto: come il disegno dei due centri, ma con S1 sulla retta che va da S a un punto
+    dell'asse: la retta S S1 buca il piano proprio sull'asse, quindi U sta su u (omologia speciale)."""
+    f = F(700, 430, "L'omologia speciale nello spazio: la retta S S₁ buca il piano sull'asse")
+    ox, oy = 140, 60
+
+    def s(p):
+        return (ox + p[0] + 0.42 * p[2], oy + p[1] + 0.3 * p[2])
+
+    S = (280, 360, -200)
+    U = (320, 0, 0)                                    # punto scelto sull'asse u
+    S1 = tuple(S[i] + 0.4 * (U[i] - S[i]) for i in range(3))
+    A0, B0 = (120, 80, 0), (220, 140, 0)
+    A, B = su_piano3(S, A0, 1, 0), su_piano3(S, B0, 1, 0)
+    A1, B1 = su_piano3(S1, A0, 1, 0), su_piano3(S1, B0, 1, 0)
+    K = su_piano3(A0, B0, 1, 0)
+    a2 = lambda p: (p[0], p[2])  # noqa: E731
+    assert math.dist(su_piano3(S, S1, 1, 0), U) < 1e-9 and abs(U[2]) < 1e-9
+    assert allineati(a2(U), a2(A), a2(A1)) and allineati(a2(U), a2(B), a2(B1))
+    assert allineati(a2(A), a2(B), a2(K)) and allineati(a2(A1), a2(B1), a2(K))
+    f.poligono([s(p) for p in [(-80, 0, -60), (360, 0, -60), (360, 0, 300), (-80, 0, 300)]], "grigio", 0.08, 1)
+    f.poligono([s(p) for p in [(-80, 0, 0), (360, 0, 0), (360, 190, 0), (-80, 190, 0)]], "grigio", 0.10, 1)
+    f.testo(s((-80, 0, -60)), "α ≡ α′", 40, 16, "grigio", 15)
+    f.testo(s((-80, 190, 0)), "α_0", 6, 20, "grigio", 15)
+    f.linea(s((-100, 0, 0)), s((380, 0, 0)), "nero", 2.4)
+    f.testo(s((380, 0, 0)), "u", 4, 4, "nero", 16)
+    for C, P in ((S, A), (S, B)):
+        f.linea(s(C), s(P), "blu", 0.9, "5,4")
+    for C, P in ((S1, A1), (S1, B1)):
+        f.linea(s(C), s(P), "verde", 0.9, "5,4")
+    f.linea(s(S), s(U), "rosso", 1.6, "7,4")
+    f.linea(s(U), lungo(s(A1), direzione(s(U), s(A1)), 20), "grigio", 1, "2,3")
+    f.linea(s(U), lungo(s(B1), direzione(s(U), s(B1)), 20), "grigio", 1, "2,3")
+    f.linea(s(K), s(A0), "nero", 1.2, "6,4")
+    f.linea(s(K), s(B), "blu", 1, "3,3"); f.linea(s(K), s(B1), "verde", 1, "3,3")
+    f.linea(s(A0), s(B0), "nero", 2.4)
+    f.linea(s(A), s(B), "blu", 2.4)
+    f.linea(s(A1), s(B1), "verde", 2.4)
+    f.unito(s(K), "V", -4, 22)
+    f.punto(s(A0), "A_0", -26, -4); f.punto(s(B0), "B_0", 6, -6)
+    f.punto(s(A), "A", 6, 16, "blu"); f.punto(s(B), "B", 8, 4, "blu")
+    f.punto(s(A1), "A′", -14, -12, "verde"); f.punto(s(B1), "B′", 8, -4, "verde")
+    f.punto(s(S), "S", 8, -4); f.punto(s(S1), "S_1", 8, -2)
+    f.punto(s(U), "U", 6, 22, "rosso")
+    f.didascalia("S₁ sta sulla retta che va da S a un punto dell'asse: così U cade su u. U, A, A′ e U, B, B′ restano allineati.", 12)
+    return f
+
+
 # ==================================================================== OMOLOGIA SUL FOGLIO
 def omologia_triangoli():
     f = F(640, 430, "Omologia di centro U e asse u: due triangoli corrispondenti")
@@ -969,6 +1017,7 @@ punto_improprio().salva_in(SB + "02-punto-improprio.svg", BZ + "b02-punto-improp
 prospettivita().salva_in(SB + "02-prospettivita.svg", BZ + "b02-prospettivita.svg")
 omologia_due_centri("S′").salva_in(SB + "02-omologia-dai-centri-s-s1.svg")
 omologia_due_centri("S_1").salva_in(BZ + "b02-omologia-dai-centri-s-s1.svg")
+omologia_speciale_spazio().salva_in(BZ + "b02-omologia-speciale-spazio.svg")
 omologia_triangoli().salva_in(SB + "02-omologia-centro-asse.svg", BZ + "b02-omologia-centro-asse.svg")
 esercizio_punto_coppia().salva_in(SB + "02-omologia-esercizio-punto.svg", BZ + "b02-es-punto-coppia.svg")
 omologia_speciale_teoria().salva_in(SB + "02-omologia-speciale.svg", BZ + "b02-omologia-speciale.svg")
