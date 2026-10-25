@@ -152,6 +152,14 @@ Verifica: la retta per B e B′, prolungata, passa anche lei per U. Se ci passa,
 
 ![[b02-pp-23.svg|660]]
 
+## Variante: A e A′ scelti in altri punti
+
+Stessi $S$, $S_1$, stesso segmento $A_0B_0$ e stesso asse, ma $A$ e $A'$ presi in altri punti dei loro raggi. Cambiano $B$, $B'$ e anche $U$, però la verifica funziona lo stesso: la retta per $B$ e $B'$ (in arancione) passa per $U$. Funziona con qualsiasi scelta, perché lo garantisce un teorema (il teorema di Desargues).
+
+Se la retta $AA'$ viene quasi parallela alla retta $SS_1$, il loro incrocio $U$ cade lontanissimo, anche fuori dal foglio: conviene scegliere $A$ e $A'$ in modo che la retta $AA'$ tagli bene la retta $SS_1$.
+
+![[b02-pp-variante.svg|660]]
+
 ## Collegamenti
 
 È la costruzione con cui la docente spiega da dove nasce l'omologia nella [[02-proiezioni-e-omologia-schema|bozza 02]]: una stessa figura proiettata da due centri sullo stesso piano, con il centro dell'omologia U dove la retta dei due centri buca il piano.

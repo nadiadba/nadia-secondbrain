@@ -199,3 +199,51 @@ for k in range(TOT):
     f.didascalia(PASSI[k][0], 12)
     f.salva(BZ + f"b02-pp-{k + 1:02d}.svg")
 print(TOT, "passi")
+
+
+# ---------------------------------------------------------------- variante: A e A' scelti diversi
+def _inter(p1, p2, p3, p4):
+    (x1, y1), (x2, y2), (x3, y3), (x4, y4) = p1, p2, p3, p4
+    d = (x1 - x2) * (y3 - y4) - (y1 - y2) * (x3 - x4)
+    t = ((x1 - x3) * (y3 - y4) - (y1 - y3) * (x3 - x4)) / d
+    return (x1 + t * (x2 - x1), y1 + t * (y2 - y1))
+
+
+def _oltre(a, b, t):
+    return (a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t)
+
+
+def _lunga(f, pts, colore, spess, tratt, extra=28):
+    d = direzione(pts[0], pts[1])
+    t = [(q[0] - pts[0][0]) * d[0] + (q[1] - pts[0][1]) * d[1] for q in pts]
+    f.linea(lungo(pts[0], d, min(t) - extra), lungo(pts[0], d, max(t) + extra), colore, spess, tratt)
+
+
+def variante(tA, tA1, nome, titolo):
+    """Stessi S, S1, A0B0 e asse; A e A' presi in altri punti dei raggi. Tutto costruito sul foglio."""
+    s_S, s_S1, s_A0, s_B0, s_K = s(S), s(S1), s(A0), s(B0), s(K)
+    a = _oltre(s_S, s_A0, tA); a1 = _oltre(s_S1, s_A0, tA1)
+    b = _inter(s_K, a, s_S, s_B0); b1 = _inter(s_K, a1, s_S1, s_B0)
+    u = _inter(s_S, s_S1, a, a1)
+    assert allineati(b, b1, u, 1e-9)                      # Desargues: B B' passa per U
+    f = F(700, 430, titolo)
+    PASSI[0][1](f, False); PASSI[1][1](f, False); PASSI[2][1](f, False)
+    f.linea(s_K, s_A0, "nero", 1.2, "6,4")
+    _lunga(f, [s_S, s_A0, a], "blu", 0.9, "5,4"); _lunga(f, [s_S, s_B0, b], "blu", 0.9, "5,4")
+    _lunga(f, [s_S1, s_A0, a1], "verde", 0.9, "5,4"); _lunga(f, [s_S1, s_B0, b1], "verde", 0.9, "5,4")
+    _lunga(f, [s_K, a, b], "blu", 1, "3,3"); _lunga(f, [s_K, a1, b1], "verde", 1, "3,3")
+    _lunga(f, [s_S, s_S1, u], "rosso", 1.4, "7,4")
+    _lunga(f, [a1, a, u], "grigio", 1, "2,3"); _lunga(f, [b1, b, u], NUOVO, 2.2, "4,3")
+    f.linea(s_A0, s_B0, "nero", 2.4); f.linea(a, b, "blu", 2.4); f.linea(a1, b1, "verde", 2.4)
+    f.unito(s_K)
+    f.punto(s_A0, "A_0", -26, -4); f.punto(s_B0, "B_0", 6, -6)
+    f.punto(s_S, "S", 8, -4); f.punto(s_S1, "S_1", 8, -2)
+    f.punto(a, "A", 6, 16, "blu"); f.punto(b, "B", 8, 4, "blu")
+    f.punto(a1, "A′", -26, 2, "verde"); f.punto(b1, "B′", -26, -8, "verde")
+    f.punto(u, "U", 4, -12, "rosso")
+    f.didascalia("Stessi S, S₁ e A₀B₀, ma A e A′ scelti in altri punti: la retta B B′ (arancione) passa lo stesso per U.", 12)
+    f.salva(BZ + nome)
+    return {k: tuple(round(c) for c in v) for k, v in dict(A=a, A1=a1, B=b, B1=b1, U=u).items()}
+
+
+print(variante(1.2, 1.53, "b02-pp-variante.svg", "Variante: A e A′ scelti in altri punti dei raggi"))
