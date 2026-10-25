@@ -10,20 +10,24 @@ tags: [geometria-descrittiva, bozza, mappa]
 # Mappa degli argomenti
 
 - **Proiezioni coniche** (centro proprio)
-	- prospettiva
-	- prospettività con il centro proprio → omografia
-	- omologia con il centro proprio
-		- classica
-		- speciale
-		- omotetia
+	- metodi per disegnare
+		- prospettiva
+	- corrispondenze tra figure
+		- prospettività con il centro proprio → omografia
+		- omologia con il centro proprio
+			- classica
+			- speciale
+			- omotetia
 - **Proiezioni cilindriche** (centro improprio)
-	- proiezioni ortogonali
-	- assonometria
-		- ortogonale
-		- obliqua
-	- prospettività con il centro improprio → omografia
-	- omologia con il centro improprio
-		- affinità
+	- metodi per disegnare
+		- proiezioni ortogonali
+		- assonometria
 			- ortogonale
 			- obliqua
-		- traslazione
+	- corrispondenze tra figure
+		- prospettività con il centro improprio → omografia
+		- omologia con il centro improprio
+			- affinità
+				- ortogonale
+				- obliqua
+			- traslazione
