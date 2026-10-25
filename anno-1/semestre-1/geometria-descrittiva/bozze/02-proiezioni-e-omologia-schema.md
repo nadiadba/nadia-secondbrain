@@ -297,7 +297,7 @@ Nell'assonometria la direzione di proiezione può essere:
 > 1. Centro $S$ proprio: i raggi partono tutti da $S$ e la figura proiettata cambia dimensione (proiezione conica).
 > 2. Centro improprio: i raggi sono paralleli e la figura viene trasferita con le stesse dimensioni (proiezione cilindrica).
 
-## DALLA PROSPETTIVITÀ ALL'OMOLOGIA
+## LE PROIETTIVITÀ: PROSPETTIVITÀ E OMOLOGIA
 
 ### La prospettività e l'omografia
 
