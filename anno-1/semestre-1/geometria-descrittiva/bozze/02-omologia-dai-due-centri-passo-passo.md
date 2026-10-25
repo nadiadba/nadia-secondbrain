@@ -160,6 +160,14 @@ Se la retta $AA'$ viene quasi parallela alla retta $SS_1$, il loro incrocio $U$ 
 
 ![[b02-pp-variante.svg|660]]
 
+## Variante 2: A′ più in alto di A
+
+Stessi $S$, $S_1$ e $A_0B_0$, ma questa volta $A'$ sta più in alto di $A$. La verifica funziona ancora (la retta $BB'$, in arancione, passa per $U$), però $U$ scappa in basso: cade davanti al piano disegnato, oltre l'asse, lontano dalle figure.
+
+Più si alza $A'$ rispetto ad $A$, più $U$ si allontana, finché esce dal foglio. Il motivo è che la retta $AA'$ diventa sempre più parallela alla retta $SS_1$, e due rette quasi parallele si incontrano molto lontano. Per questo, sul taccuino, conviene tenere $A'$ più in basso di $A$, come nel disegno passo passo.
+
+![[b02-pp-variante-2.svg|700]]
+
 ## Collegamenti
 
 È la costruzione con cui la docente spiega da dove nasce l'omologia nella [[02-proiezioni-e-omologia-schema|bozza 02]]: una stessa figura proiettata da due centri sullo stesso piano, con il centro dell'omologia U dove la retta dei due centri buca il piano.

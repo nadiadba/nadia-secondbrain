@@ -219,14 +219,17 @@ def _lunga(f, pts, colore, spess, tratt, extra=28):
     f.linea(lungo(pts[0], d, min(t) - extra), lungo(pts[0], d, max(t) + extra), colore, spess, tratt)
 
 
-def variante(tA, tA1, nome, titolo):
-    """Stessi S, S1, A0B0 e asse; A e A' presi in altri punti dei raggi. Tutto costruito sul foglio."""
+def variante(tA, tA1, nome, titolo, didascalia=None, alza=0, w=700, h=430):
+    """Stessi S, S1, A0B0 e asse; A e A' presi in altri punti dei raggi. Tutto costruito sul foglio.
+    alza: sposta tutto il disegno in su (px) per fare spazio sotto, quando U cade in basso."""
+    global oy
+    oy = 60 + alza
     s_S, s_S1, s_A0, s_B0, s_K = s(S), s(S1), s(A0), s(B0), s(K)
     a = _oltre(s_S, s_A0, tA); a1 = _oltre(s_S1, s_A0, tA1)
     b = _inter(s_K, a, s_S, s_B0); b1 = _inter(s_K, a1, s_S1, s_B0)
     u = _inter(s_S, s_S1, a, a1)
     assert allineati(b, b1, u, 1e-9)                      # Desargues: B B' passa per U
-    f = F(700, 430, titolo)
+    f = F(w, h, titolo)
     PASSI[0][1](f, False); PASSI[1][1](f, False); PASSI[2][1](f, False)
     f.linea(s_K, s_A0, "nero", 1.2, "6,4")
     _lunga(f, [s_S, s_A0, a], "blu", 0.9, "5,4"); _lunga(f, [s_S, s_B0, b], "blu", 0.9, "5,4")
@@ -241,9 +244,13 @@ def variante(tA, tA1, nome, titolo):
     f.punto(a, "A", 6, 16, "blu"); f.punto(b, "B", 8, 4, "blu")
     f.punto(a1, "A′", -26, 2, "verde"); f.punto(b1, "B′", -26, -8, "verde")
     f.punto(u, "U", 4, -12, "rosso")
-    f.didascalia("Stessi S, S₁ e A₀B₀, ma A e A′ scelti in altri punti: la retta B B′ (arancione) passa lo stesso per U.", 12)
+    f.didascalia(didascalia or "Stessi S, S₁ e A₀B₀, ma A e A′ scelti in altri punti: la retta B B′ (arancione) passa lo stesso per U.", 12)
     f.salva(BZ + nome)
+    oy = 60
     return {k: tuple(round(c) for c in v) for k, v in dict(A=a, A1=a1, B=b, B1=b1, U=u).items()}
 
 
 print(variante(1.2, 1.53, "b02-pp-variante.svg", "Variante: A e A′ scelti in altri punti dei raggi"))
+print(variante(1.36, 1.58, "b02-pp-variante-2.svg", "Variante 2: A′ più in alto di A",
+               "A′ più in alto di A: U cade in basso, davanti al piano disegnato. B B′ passa lo stesso per U.",
+               alza=80, w=760, h=500))
