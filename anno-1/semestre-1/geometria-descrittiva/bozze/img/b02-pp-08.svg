@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 466" width="700" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Passo 8 di 23</text>
+<g transform="translate(0,36)">
+<polygon points="34.8,388.0 474.8,388.0 626.0,280.0 186.0,280.0" fill="#8a8a8a" fill-opacity="0.08" stroke="#8a8a8a" stroke-width="1"/>
+<text x="74.8" y="404.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#8a8a8a" font-style="italic">α ≡ α′</text>
+<polygon points="60.0,370.0 500.0,370.0 500.0,180.0 60.0,180.0" fill="#8a8a8a" fill-opacity="0.1" stroke="#8a8a8a" stroke-width="1"/>
+<text x="66.0" y="200.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#8a8a8a" font-style="italic">α<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<line x1="40.0" y1="370.0" x2="520.0" y2="370.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="524.0" y="374.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">u</text>
+<line x1="260.0" y1="290.0" x2="360.0" y2="230.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="260.0" cy="290.0" r="2.8" fill="#1f1f1f"/>
+<text x="234.0" y="286.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">A<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<circle cx="360.0" cy="230.0" r="2.8" fill="#1f1f1f"/>
+<text x="366.0" y="224.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">B<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<line x1="283.8" y1="70.2" x2="250.8" y2="374.7" stroke="#2563a8" stroke-width="0.9" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="266.4" y1="74.0" x2="427.2" y2="342.0" stroke="#d97706" stroke-width="2.5" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="126.7" y1="370.0" x2="260.0" y2="290.0" stroke="#1f1f1f" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<circle cx="126.7" cy="370.0" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
+<circle cx="280.8" cy="98.0" r="2.8" fill="#1f1f1f"/>
+<text x="288.8" y="94.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">S</text>
+<text x="14" y="12" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Da S tira il raggio che passa per B₀ e prolungalo verso il basso, dentro α.</text>
+</g>
+</svg>

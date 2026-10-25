@@ -371,6 +371,8 @@ Una volta definita, l'omologia vale indipendentemente dalla configurazione spazi
 > 3. La retta $SS_1$ incontra il piano in $U$: è il centro dell'omologia.
 > 4. Sul piano $U$, $A$, $A'$ sono allineati, e così $U$, $B$, $B'$.
 >
+> Tutorial con un disegno per ogni passaggio: [[02-omologia-dai-due-centri-passo-passo|il Disegno 11 passo passo]].
+>
 > Per ridisegnarlo sul taccuino, in quest'ordine (così le linee tornano da sole):
 >
 > 1. I due piani. Disegna $\alpha$ come un parallelogramma "steso": un lato lungo orizzontale davanti, i lati di fianco inclinati verso destra in alto. Scrivi accanto $\alpha \equiv \alpha'$. Poi disegna $\alpha_0$ come un rettangolo in piedi, con il lato di sotto appoggiato su $\alpha$.

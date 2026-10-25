@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 466" width="700" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Passo 1 di 23</text>
+<g transform="translate(0,36)">
+<polygon points="34.8,388.0 474.8,388.0 626.0,280.0 186.0,280.0" fill="#d97706" fill-opacity="0.08" stroke="#d97706" stroke-width="2.6"/>
+<text x="74.8" y="404.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#d97706" font-style="italic">α ≡ α′</text>
+<text x="14" y="12" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Disegna il piano α come un parallelogramma steso: lato davanti orizzontale, lati di fianco inclinati.</text>
+</g>
+</svg>

@@ -30,6 +30,7 @@ Ancora nessuna.
 - [[00-ripasso-prova-1|Ripasso per la Prova n.1 (29 ottobre)]]: scheda su tutto il programma fatto finora, con i passaggi di ogni tipo di esercizio
 - [[01-strumenti-materiali-e-regole|Strumenti, materiali e regole di base del disegno]] (1 ottobre)
 - [[02-proiezioni-e-omologia-schema|Richiami di geometria, proiezioni e omologia, con gli esercizi risolti]] (6 ottobre)
+- [[02-omologia-dai-due-centri-passo-passo|Il Disegno 11 passo passo]]: la costruzione dei due centri e del centro U, un'immagine per ogni linea
 - [[03-proiezioni-ortogonali-punto-e-rette|Proiezioni ortogonali: il punto e le rette proiettanti]] (8 ottobre)
 - [[04-rette-e-piani-nelle-varie-posizioni|Rette e piani nelle varie posizioni con il metodo di Monge]] (13 ottobre)
 - [[05-appartenenza-e-rette-ausiliarie|Appartenenza di rette e punti a un piano, rette ausiliarie]] (15 ottobre)
