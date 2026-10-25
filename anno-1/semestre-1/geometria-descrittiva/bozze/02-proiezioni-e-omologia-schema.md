@@ -484,13 +484,13 @@ Nella risoluzione non cambia nulla: semplicemente il centro $U$ appartiene all'a
 > 2. I corrispondenti restano allineati con $U$ e i lati corrispondenti si incontrano sull'asse.
 
 > [!example] Disegno 14 (proposto, non fatto a lezione): l'omologia speciale nello spazio
-> ![[b02-omologia-speciale-3d.svg|660]]
+> ![[b02-omologia-speciale-segmento.svg|660]]
 >
-> 1. I piani sono messi come nel Disegno 11: $\alpha$ (il foglio) orizzontale, $\alpha_0$ verticale, e si tagliano lungo l'asse $u$. Il piano $\alpha_0$ continua anche sotto il foglio (parte più chiara).
-> 2. Il triangolo di partenza $A_0B_0C_0$ sta su $\alpha_0$: $A_0$ e $B_0$ sopra il foglio, $C_0$ sotto.
-> 3. Da $S$ si proietta $A_0B_0C_0$ sul foglio e si ottiene $ABC$ (raggi blu); da $S_1$ si ottiene $A'B'C'$ (raggi verdi). Siccome $C_0$ sta sotto il foglio, $C$ e $C'$ cadono dall'altra parte dell'asse: i due triangoli stanno a cavallo dell'asse, come nel Disegno 13.
-> 4. $S_1$ è stato messo sulla retta che va da $S$ a un punto dell'asse: per questo la retta $SS_1$ (rossa) buca il foglio proprio sull'asse, e il centro dell'omologia $U$ sta su $u$. È questo che rende l'omologia speciale.
-> 5. Tutto il resto funziona come sempre: $U$, $A$, $A'$ sono allineati (e così per $B$ e $C$), e i lati corrispondenti si incontrano sull'asse nei punti uniti (cerchietti).
+> 1. È lo stesso disegno dei due centri (Disegno 11), con la stessa vista e lo stesso segmento $A_0B_0$.
+> 2. L'unica differenza è dove si mette $S_1$: prima si sceglie un punto sull'asse $u$, poi si mette $S_1$ sulla retta che va da $S$ a quel punto.
+> 3. Così la retta $SS_1$ (rossa), prolungata, buca il foglio proprio sull'asse: il centro dell'omologia $U$ sta su $u$. È questo che rende l'omologia speciale.
+> 4. Tutto il resto funziona come nel Disegno 11: $U$, $A$, $A'$ sono allineati, e così $U$, $B$, $B'$ (linee grigie); $AB$ e $A'B'$ si incontrano nel punto unito $V$.
+> 5. Sull'asse ci sono quindi due punti diversi: $V$, il punto unito, e $U$, il centro dell'omologia.
 
 #### L'affinità ortogonale e obliqua
 

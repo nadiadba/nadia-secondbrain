@@ -510,69 +510,51 @@ def omologia_due_centri(nome1="S′"):
 
 
 def omologia_speciale_spazio():
-    """Disegno proposto: l'omologia speciale nello spazio, vista come il disegno dei due centri.
-    S1 sta sulla retta che va da S a un punto U dell'asse: la retta S S1 buca il piano sull'asse.
-    I triangoli stanno a cavallo dell'asse come nel disegno sul foglio: per questo il vertice C0
-    del triangolo di partenza sta sulla parte di alfa0 che scende sotto il foglio."""
-    f = F(720, 540, "L'omologia speciale nello spazio: la retta S S₁ buca il piano sull'asse")
-    ox, oy = 140, 170
+    """Disegno proposto: l'omologia speciale nello spazio, nella versione piu' semplice (un segmento),
+    con la stessa vista del disegno dei due centri. S1 sta sulla retta che va da S a un punto U
+    dell'asse: la retta S S1 buca il piano proprio sull'asse, quindi U sta su u."""
+    f = F(700, 430, "L'omologia speciale nello spazio: la retta S S₁ buca il piano sull'asse")
+    ox, oy = 140, 60
 
     def s(p):
         return (ox + p[0] + 0.42 * p[2], oy + p[1] + 0.3 * p[2])
 
-    S = (100, 360, -260)
-    U = (120, 0, 0)                                    # punto scelto sull'asse u
-    S1 = tuple(S[i] + 0.5 * (U[i] - S[i]) for i in range(3))
-    T0 = [(80, 120, 0), (280, 40, 0), (0, -100, 0)]    # A0 B0 sopra il foglio, C0 sotto
-    T = [su_piano3(S, X, 1, 0) for X in T0]
-    T1 = [su_piano3(S1, X, 1, 0) for X in T0]
+    S = (280, 360, -200)
+    U = (320, 0, 0)                                    # punto scelto sull'asse u
+    S1 = tuple(S[i] + 0.4 * (U[i] - S[i]) for i in range(3))
+    A0, B0 = (120, 80, 0), (220, 140, 0)
+    A, B = su_piano3(S, A0, 1, 0), su_piano3(S, B0, 1, 0)
+    A1, B1 = su_piano3(S1, A0, 1, 0), su_piano3(S1, B0, 1, 0)
+    K = su_piano3(A0, B0, 1, 0)
     a2 = lambda p: (p[0], p[2])  # noqa: E731
     assert math.dist(su_piano3(S, S1, 1, 0), U) < 1e-9
-    for X, X1 in zip(T, T1):
-        assert allineati(a2(U), a2(X), a2(X1))
-    # piano alfa0: la parte sotto il foglio piu' chiara e tratteggiata
-    f.poligono([s(p) for p in [(-80, -130, 0), (380, -130, 0), (380, 0, 0), (-80, 0, 0)]], "grigio", 0.04, 0.8)
-    f.testo(s((-80, -130, 0)), "α_0 sotto il foglio", 6, -8, "grigio", 12)
-    f.poligono([s(p) for p in [(-80, 0, -150), (380, 0, -150), (380, 0, 300), (-80, 0, 300)]], "grigio", 0.10, 1)
-    f.poligono([s(p) for p in [(-80, 0, 0), (380, 0, 0), (380, 190, 0), (-80, 190, 0)]], "grigio", 0.10, 1)
-    f.testo(s((-80, 0, -150)), "α ≡ α′", 40, 16, "grigio", 15)
+    assert allineati(a2(U), a2(A), a2(A1)) and allineati(a2(U), a2(B), a2(B1))
+    assert allineati(a2(A), a2(B), a2(K)) and allineati(a2(A1), a2(B1), a2(K))
+    f.poligono([s(p) for p in [(-80, 0, -60), (360, 0, -60), (360, 0, 300), (-80, 0, 300)]], "grigio", 0.08, 1)
+    f.poligono([s(p) for p in [(-80, 0, 0), (360, 0, 0), (360, 190, 0), (-80, 190, 0)]], "grigio", 0.10, 1)
+    f.testo(s((-80, 0, -60)), "α ≡ α′", 40, 16, "grigio", 15)
     f.testo(s((-80, 190, 0)), "α_0", 6, 20, "grigio", 15)
-    f.linea(s((-100, 0, 0)), s((400, 0, 0)), "nero", 2.4)
-    f.testo(s((400, 0, 0)), "u", 4, 4, "nero", 16)
-    for X0 in T0:
-        f.linea(s(S), s(X0), "blu", 0.8, "5,4")
-        f.linea(s(S1), s(X0), "verde", 0.8, "5,4")
-    for X0, X, X1 in zip(T0, T, T1):                  # i raggi arrivano su alfa (anche oltre il punto di partenza)
-        for C, Y in ((S, X), (S1, X1)):
-            if math.dist(C, Y) > math.dist(C, X0):
-                f.linea(s(X0), s(Y), "blu" if C is S else "verde", 0.8, "5,4")
+    f.linea(s((-100, 0, 0)), s((380, 0, 0)), "nero", 2.4)
+    f.testo(s((380, 0, 0)), "u", 4, 4, "nero", 16)
+    for C, P in ((S, A), (S, B)):
+        f.linea(s(C), s(P), "blu", 0.9, "5,4")
+    for C, P in ((S1, A1), (S1, B1)):
+        f.linea(s(C), s(P), "verde", 0.9, "5,4")
     f.linea(s(S), s(U), "rosso", 1.6, "7,4")
-    for X, X1 in zip(T, T1):                          # U, X, X' allineati
-        far = X1 if math.dist(U, X1) > math.dist(U, X) else X
-        f.linea(s(U), lungo(s(far), direzione(s(U), s(far)), 16), "grigio", 1, "2,3")
-    uniti = []
-    for i, j in ((0, 1), (1, 2), (2, 0)):             # lati corrispondenti sull'asse
-        K = su_piano3(T0[i], T0[j], 1, 0)
-        assert allineati(a2(T[i]), a2(T[j]), a2(K)) and allineati(a2(T1[i]), a2(T1[j]), a2(K))
-        uniti.append(K)
-        for Y in (T[i], T[j]):
-            f.linea(s(K), s(Y), "blu", 0.9, "3,3")
-        for Y in (T1[i], T1[j]):
-            f.linea(s(K), s(Y), "verde", 0.9, "3,3")
-    f.poligono([s(X) for X in T0], "grigio", 0.15, 2.2)
-    f.poligono([s(X) for X in T], "blu", 0.12, 2.2)
-    f.poligono([s(X) for X in T1], "verde", 0.12, 2.2)
-    for K in uniti:
-        f.unito(s(K))
-    for X, n in zip(T0, ("A_0", "B_0", "C_0")):
-        f.punto(s(X), n, 6, -6)
-    for X, n in zip(T, "ABC"):
-        f.punto(s(X), n, 6, 16, "blu")
-    for X, n in zip(T1, ("A′", "B′", "C′")):
-        f.punto(s(X), n, -22, -8, "verde")
+    f.linea(s(U), lungo(s(A1), direzione(s(U), s(A1)), 20), "grigio", 1, "2,3")
+    f.linea(s(U), lungo(s(B1), direzione(s(U), s(B1)), 20), "grigio", 1, "2,3")
+    f.linea(s(K), s(A0), "nero", 1.2, "6,4")
+    f.linea(s(K), s(B), "blu", 1, "3,3"); f.linea(s(K), s(B1), "verde", 1, "3,3")
+    f.linea(s(A0), s(B0), "nero", 2.4)
+    f.linea(s(A), s(B), "blu", 2.4)
+    f.linea(s(A1), s(B1), "verde", 2.4)
+    f.unito(s(K), "V", -4, 22)
+    f.punto(s(A0), "A_0", -26, -4); f.punto(s(B0), "B_0", 6, -6)
+    f.punto(s(A), "A", 6, 16, "blu"); f.punto(s(B), "B", 8, 4, "blu")
+    f.punto(s(A1), "A′", -14, -12, "verde"); f.punto(s(B1), "B′", 8, -4, "verde")
     f.punto(s(S), "S", 8, -4); f.punto(s(S1), "S_1", 8, -2)
     f.punto(s(U), "U", 6, 22, "rosso")
-    f.didascalia("I triangoli ABC e A′B′C′ stanno a cavallo dell'asse, come nel disegno sul foglio; U sta su u.", 12)
+    f.didascalia("Come il disegno dei due centri, ma S₁ sta sulla retta che va da S a un punto dell'asse: così U cade su u.", 12)
     return f
 
 
@@ -1036,7 +1018,7 @@ punto_improprio().salva_in(SB + "02-punto-improprio.svg", BZ + "b02-punto-improp
 prospettivita().salva_in(SB + "02-prospettivita.svg", BZ + "b02-prospettivita.svg")
 omologia_due_centri("S′").salva_in(SB + "02-omologia-dai-centri-s-s1.svg")
 omologia_due_centri("S_1").salva_in(BZ + "b02-omologia-dai-centri-s-s1.svg")
-omologia_speciale_spazio().salva_in(BZ + "b02-omologia-speciale-3d.svg")
+omologia_speciale_spazio().salva_in(BZ + "b02-omologia-speciale-segmento.svg")
 omologia_triangoli().salva_in(SB + "02-omologia-centro-asse.svg", BZ + "b02-omologia-centro-asse.svg")
 esercizio_punto_coppia().salva_in(SB + "02-omologia-esercizio-punto.svg", BZ + "b02-es-punto-coppia.svg")
 omologia_speciale_teoria().salva_in(SB + "02-omologia-speciale.svg", BZ + "b02-omologia-speciale.svg")
