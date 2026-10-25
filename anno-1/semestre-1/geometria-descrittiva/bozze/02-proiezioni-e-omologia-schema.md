@@ -317,6 +317,12 @@ Prospettività e omografia descrivono quindi la stessa situazione da due punti d
 - la prospettività è l'operazione, cioè proiettare da un centro $S$ un piano su un altro piano;
 - l'omografia è il nome della corrispondenza che si ottiene, cioè il legame tra ogni punto di $\alpha$ e il suo punto su $\alpha'$.
 
+In sintesi, le due definizioni sono queste.
+
+La prospettività è la proiettività più semplice: è l'operazione con cui, da un centro $S$ che sta fuori dai due piani, si proiettano i punti di un piano $\alpha$ su un secondo piano $\alpha'$, stabilendo tra i due piani una corrispondenza biunivoca, in cui a ogni punto di $\alpha$ corrisponde uno e un solo punto di $\alpha'$, e viceversa.
+
+L'omografia è la corrispondenza biunivoca tra i punti del piano $\alpha$ e i punti del piano $\alpha'$ che si ottiene proiettando da un centro $S$ gli elementi di $\alpha$ su $\alpha'$.
+
 Due figure sono prospettive:
 
 - quando le rette che congiungono i vertici corrispondenti passano tutte per uno stesso punto, il centro di proiezione,
