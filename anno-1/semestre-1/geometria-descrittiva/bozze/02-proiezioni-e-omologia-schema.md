@@ -192,14 +192,14 @@ L'operazione di proiezione richiede due elementi:
 
 Proiettare un punto $P$ significa costruire il raggio proiettante, la retta che passa per $S$ e per $P$: dove il raggio attraversa il piano di quadro lascia la proiezione $P'$.
 
-La sequenza centro, oggetto, piano di quadro non è rigida:
+La sequenza centro $S$, oggetto, piano di quadro non è rigida:
 
-- il piano può stare anche tra il centro e l'oggetto, come nella macchina fotografica,
+- il piano può stare anche tra il centro $S$ e l'oggetto, come nella macchina fotografica,
 - e l'oggetto può trovarsi al di qua o al di là del quadro, cosa che conterà soprattutto nella prospettiva.
 
-Proiettare una retta significa costruire un fascio di rette, cioè tante rette che passano tutte per il centro e per gli infiniti punti della retta: il fascio appartiene tutto a uno stesso piano.
+Proiettare una retta significa costruire un fascio di rette, cioè tante rette che passano tutte per il centro $S$ e per gli infiniti punti della retta: il fascio appartiene tutto a uno stesso piano.
 
-Proiettare un piano significa invece proiettare dal centro tutte le sue rette, e si ottiene una stella di rette, che non stanno in un unico piano.
+Proiettare un piano significa invece proiettare dal centro $S$ tutte le sue rette, e si ottiene una stella di rette, che non stanno in un unico piano.
 
 > [!example] Disegno 5 · Il disegno: proiettare un punto e una retta
 > ![[b02-proiezione-punto-retta.svg|660]]
@@ -279,10 +279,10 @@ Per esempio, dati un punto $A$ sul foglio e un punto improprio $P_\infty$ (cioè
 
 ### Proiezioni coniche e cilindriche
 
-Il tipo di proiezione dipende dalla posizione del centro.
+Il tipo di proiezione dipende dalla posizione del centro di proiezione $S$.
 
-- Se il centro è proprio, cioè a distanza finita, da esso parte una stella di rette e si hanno le proiezioni coniche, da cui nasce la prospettiva.
-- Se il centro è improprio, all'infinito, i raggi proiettanti sono tutti paralleli e definiscono un'unica direzione: si hanno le proiezioni cilindriche, che comprendono le proiezioni ortogonali e le assonometrie.
+- Se il centro $S$ è proprio, cioè a distanza finita, da esso parte una stella di rette e si hanno le proiezioni coniche, da cui nasce la prospettiva.
+- Se il centro $S$ è improprio, all'infinito, i raggi proiettanti sono tutti paralleli e definiscono un'unica direzione: si hanno le proiezioni cilindriche, che comprendono le proiezioni ortogonali e le assonometrie.
 
 È la stessa differenza che c'è tra l'ombra di una lampada, che ha un centro proprio, e l'ombra del sole, i cui raggi si assumono paralleli perché il sole è molto distante.
 
@@ -295,13 +295,13 @@ Nell'assonometria la direzione di proiezione può essere:
 > ![[03-proiezione-centrale-e-cilindrica.svg|640]]
 >
 > 1. Centro $S$ proprio: i raggi partono tutti da $S$ e la figura proiettata cambia dimensione (proiezione conica).
-> 2. Centro improprio: i raggi sono paralleli e la figura viene trasferita con le stesse dimensioni (proiezione cilindrica).
+> 2. Centro $S$ improprio: i raggi sono paralleli e la figura viene trasferita con le stesse dimensioni (proiezione cilindrica).
 
 ## LA PROSPETTIVITÀ
 
 ### La prospettività e l'omografia
 
-La proiettività più semplice è la prospettività: ci sono un centro e due piani, e si stabilisce una corrispondenza biunivoca, in cui a ogni punto di un piano corrisponde uno e un solo punto dell'altro.
+La proiettività più semplice è la prospettività: ci sono un centro di proiezione $S$ e due piani, e si stabilisce una corrispondenza biunivoca, in cui a ogni punto di un piano corrisponde uno e un solo punto dell'altro.
 
 Corrispondenza biunivoca vuol dire che la corrispondenza funziona nei due sensi, a coppie:
 
@@ -336,7 +336,7 @@ Perché le rette corrispondenti si incontrano proprio sull'asse? Si prenda il la
 2. In quel punto il raggio che parte da $S$ trova lo stesso punto su tutti e due i piani, perché il punto sta già su $\alpha'$: la sua proiezione è sé stesso.
 3. Quindi anche $A'B'$ prolungato passa per quel punto, e i due lati si incontrano lì, sull'asse. Quel punto è il punto unito.
 
-Le due proprietà, allineamento con il centro e incontro sull'asse, valgono per una retta, per tante rette e per ogni figura, per esempio per i lati $AB$, $BC$, $CA$ di un triangolo.
+Le due proprietà, allineamento con il centro $S$ e incontro sull'asse, valgono per una retta, per tante rette e per ogni figura, per esempio per i lati $AB$, $BC$, $CA$ di un triangolo.
 
 > [!example] Disegno 10 · Il disegno: la prospettività tra due piani
 > ![[b02-prospettivita.svg|660]]
@@ -352,14 +352,14 @@ Le due proprietà, allineamento con il centro e incontro sull'asse, valgono per 
 
 L'omologia nasce da un passo in più. Due figure che stanno sullo stesso piano si possono pensare come il risultato della proiezione di una stessa figura di partenza, posta su un altro piano $\alpha_0$, da due centri diversi, $S$ e $S_1$. Se le relazioni valgono nello spazio, per Desargues valgono anche sul piano.
 
-Per portare tutto sul foglio, che va interpretato come il piano $\alpha$ coincidente con $\alpha'$, bisogna portarci anche i centri, che nello spazio stanno uno più in alto e uno più in basso: si proietta un centro dall'altro e si ottiene un solo punto del piano, il centro dell'omologia $U$.
+Per portare tutto sul foglio, che va interpretato come il piano $\alpha$ coincidente con $\alpha'$, bisogna portarci anche i centri di proiezione, che nello spazio stanno uno più in alto e uno più in basso: si proietta un centro di proiezione dall'altro e si ottiene un solo punto del piano, il centro dell'omologia $U$.
 
 L'asse è sempre la retta di intersezione tra i piani considerati.
 
-L'omologia è dunque la relazione tra due figure generate dalla proiezione della stessa figura da due centri diversi: è il prodotto di due prospettività.
+L'omologia è dunque la relazione tra due figure generate dalla proiezione della stessa figura da due centri di proiezione diversi: è il prodotto di due prospettività.
 
-- Nell'omografia c'è un solo centro che proietta da un piano a un altro;
-- nell'omologia ci sono due centri che proiettano sul medesimo piano.
+- Nell'omografia c'è un solo centro di proiezione che proietta da un piano a un altro;
+- nell'omologia ci sono due centri di proiezione che proiettano sul medesimo piano.
 
 Una volta definita, l'omologia vale indipendentemente dalla configurazione spaziale che l'ha generata: gli esercizi sono astratti e vanno risolti sul piano, senza figurarsi lo spazio.
 
@@ -397,7 +397,7 @@ Una volta definita, l'omologia vale indipendentemente dalla configurazione spazi
 
 Un'omologia è definita da tre dati:
 
-- il centro,
+- il centro dell'omologia $U$,
 - l'asse
 - e una coppia di elementi corrispondenti (due punti, oppure due rette).
 
@@ -416,7 +416,7 @@ Il Disegno 12 è come guardare dall'alto il piano $\alpha$ del Disegno 11: lo sp
 > 2. I lati $AB$ e $A'B'$, $BC$ e $B'C'$, $CA$ e $C'A'$ si incontrano sull'asse $u$ (cerchietti).
 
 > [!abstract] Da ricordare: le due proprietà dell'omologia
-> 1. I punti corrispondenti sono allineati con il centro.
+> 1. I punti corrispondenti sono allineati con il centro $U$.
 > 2. Le rette corrispondenti si incontrano sull'asse.
 >
 > Il punto in cui una retta incontra l'asse è un punto unito: corrisponde a sé stesso, quindi sta sia sulla retta sia sulla sua corrispondente.
@@ -425,9 +425,16 @@ Il Disegno 12 è come guardare dall'alto il piano $\alpha$ del Disegno 11: lo sp
 
 Le convenzioni non sono indifferenti alla comprensione del problema: guardando il disegno si distingue subito di che cosa si sta parlando.
 
-- Il centro è un punto e si indica con la maiuscola $U$;
+- Il centro dell'omologia è un punto e si indica con la maiuscola $U$;
 - l'asse è una retta e si indica con la minuscola $u$.
 - I corrispondenti si indicano con l'apice: $A$ e $A'$, $r$ e $r'$.
+
+Attenzione a non confondere i due tipi di centro:
+
+- il centro di proiezione, $S$ (e $S_1$), sta nello spazio: è il punto da cui partono i raggi, e serve solo a capire da dove nasce l'omologia;
+- il centro dell'omologia, $U$, sta sul foglio: è il punto per cui passano le rette che uniscono i punti corrispondenti.
+
+Negli esercizi $S$ non compare mai: quando si parla del centro, si intende sempre $U$.
 
 Nelle proiezioni ortogonali si useranno invece i pedici ($P_1$, $P_2$, $P_3$), perché l'apice resta all'omologia e all'assonometria.
 
@@ -440,11 +447,11 @@ Nelle proiezioni ortogonali si useranno invece i pedici ($P_1$, $P_2$, $P_3$), p
 
 A seconda della posizione reciproca dei piani e dei centri di proiezione, l'omologia prende nomi diversi. I nomi aiutano a distinguere le situazioni, ma la soluzione degli esercizi resta sempre la stessa.
 
-Quella con centro e asse propri è l'omologia classica.
+Quella con centro $U$ e asse $u$ propri è l'omologia classica.
 
 #### L'omologia speciale
 
-L'omologia è speciale quando, proiettando un centro dall'altro, il centro viene a cadere proprio sull'asse. Nella risoluzione non cambia nulla: semplicemente il centro appartiene all'asse.
+L'omologia è speciale quando, proiettando un centro di proiezione dall'altro, il centro dell'omologia $U$ viene a cadere proprio sull'asse. Nella risoluzione non cambia nulla: semplicemente il centro $U$ appartiene all'asse.
 
 > [!example] Disegno 13 · Il disegno: l'omologia speciale
 > ![[b02-omologia-speciale.svg|620]]
@@ -454,14 +461,14 @@ L'omologia è speciale quando, proiettando un centro dall'altro, il centro viene
 
 #### L'affinità ortogonale e obliqua
 
-Si ha un'affinità quando i due centri sono allineati lungo una retta parallela al piano: la retta che li unisce non incontra il piano a distanza finita, ma all'infinito. Il centro dell'omologia è allora improprio e si indica con una direzione.
+Si ha un'affinità quando i due centri di proiezione $S$ e $S_1$ sono allineati lungo una retta parallela al piano: la retta che li unisce non incontra il piano a distanza finita, ma all'infinito. Il centro dell'omologia è allora improprio e si indica con una direzione.
 
 Unendo i punti corrispondenti si ottengono rette tutte parallele a quella direzione:
 
 - se la direzione è perpendicolare all'asse l'affinità è ortogonale,
 - se è inclinata è obliqua.
 
-L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'assonometria obliqua; un'affinità compare anche nel ribaltamento, dove il centro è all'infinito nella direzione perpendicolare all'asse.
+L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'assonometria obliqua; un'affinità compare anche nel ribaltamento, dove il centro dell'omologia è all'infinito nella direzione perpendicolare all'asse.
 
 > [!example] Disegno 14 · Il disegno: affinità ortogonale e obliqua
 > ![[b02-affinita.svg|640]]
@@ -473,7 +480,7 @@ L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'ass
 
 #### L'omotetia
 
-L'omotetia si ha quando il piano che contiene la figura è parallelo al piano su cui la si proietta. La retta di intersezione tra i due piani, cioè l'asse, è allora impropria, mentre il centro è proprio.
+L'omotetia si ha quando il piano che contiene la figura è parallelo al piano su cui la si proietta. La retta di intersezione tra i due piani, cioè l'asse, è allora impropria, mentre il centro $U$ è proprio.
 
 Poiché le rette corrispondenti si incontrano sull'asse, che è all'infinito, le rette corrispondenti sono necessariamente parallele: è la differenza fondamentale dell'omotetia.
 
@@ -491,7 +498,7 @@ La figura si ingrandisce, come un rettangolo parallelo alla parete illuminato da
 La traslazione è il caso limite, di massima indeterminazione:
 
 - il piano della figura è parallelo al piano su cui si proietta (asse all'infinito)
-- e anche i due centri sono allineati parallelamente al piano (centro all'infinito).
+- e anche i due centri di proiezione $S$ e $S_1$ sono allineati parallelamente al piano (centro dell'omologia $U$ all'infinito).
 
 È un'isometria, una trasformazione del piano che conserva distanze e angoli: un quadrato rimane un quadrato e il segmento $A'B'$ è uguale ad $AB$.
 
@@ -519,13 +526,13 @@ Ogni esercizio è una somma di cose già note: se si hanno i punti si cercano le
 
 La prima cosa da fare è sempre individuare una coppia di punti corrispondenti, perché serve sempre.
 
-Se il testo dà due rette corrispondenti $r$ e $r'$, la coppia si trova prendendo un punto su $r$ e mandando il raggio dal centro fino a $r'$; ma conviene guardare se c'è un punto che appartiene già a due rette (per esempio l'intersezione tra la retta data e $r$), perché il suo corrispondente sta su entrambe le rette corrispondenti: è solo una condizione di appartenenza, ed è più rapido.
+Se il testo dà due rette corrispondenti $r$ e $r'$, la coppia si trova prendendo un punto su $r$ e mandando il raggio dal centro $U$ fino a $r'$; ma conviene guardare se c'è un punto che appartiene già a due rette (per esempio l'intersezione tra la retta data e $r$), perché il suo corrispondente sta su entrambe le rette corrispondenti: è solo una condizione di appartenenza, ed è più rapido.
 
 Si traccia una linea in meno, e meno linee si tracciano, meno l'errore grafico è in agguato.
 
 Questo modo di procedere, un punto dopo l'altro, si chiama costruire per punti.
 
-- Quando il centro è improprio, "mandare il raggio dal centro" significa tracciare dal punto la parallela alla direzione di $U_\infty$.
+- Quando il centro $U$ è improprio, "mandare il raggio dal centro" significa tracciare dal punto la parallela alla direzione di $U_\infty$.
 - Quando l'asse è improprio, "le rette corrispondenti si incontrano sull'asse" significa che sono parallele: la retta corrispondente si traccia come parallela per un punto già trovato.
 
 Alla fine conviene sempre verificare con un'altra coppia di punti: la figura corrispondente è una sola, quindi qualunque coppia si usi il risultato deve essere lo stesso.
@@ -539,7 +546,7 @@ Alla fine conviene sempre verificare con un'altra coppia di punti: la figura cor
 
 #### Omologia classica: dati A e A′, trovare B′
 
-È l'esercizio più semplice, quello spiegato a lezione il 6 ottobre: sono dati il centro, l'asse, una coppia di punti corrispondenti $A$ e $A'$ e un punto $B$, e si chiede il corrispondente $B'$.
+È l'esercizio più semplice, quello spiegato a lezione il 6 ottobre: sono dati il centro $U$, l'asse $u$, una coppia di punti corrispondenti $A$ e $A'$ e un punto $B$, e si chiede il corrispondente $B'$.
 
 Se invece di un punto è dato un segmento, lo si prolunga fino a ottenere la retta che lo contiene e si ragiona allo stesso modo.
 
@@ -574,11 +581,11 @@ Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e c
 > 2. Si traccia la retta $s$ per $A$ e $M$ fino all'asse: lì c'è il punto unito $W$.
 > 3. La retta corrispondente $s'$ passa per $W$ e per $A'$.
 > 4. Si traccia il raggio da $U$ per $M$ e lo si prolunga oltre $U$: $M'$ è il punto in cui incontra $s'$.
-> 5. In questo esercizio $M'$ cade dall'altra parte del centro rispetto a $M$, sopra $U$. Verifica: $U$, $M$ e $M'$ sono allineati e $s$ e $s'$ si incontrano sull'asse in $W$.
+> 5. In questo esercizio $M'$ cade dall'altra parte del centro $U$ rispetto a $M$, sopra $U$. Verifica: $U$, $M$ e $M'$ sono allineati e $s$ e $s'$ si incontrano sull'asse in $W$.
 
 #### Omologia speciale
 
-Il metodo non cambia: l'unica particolarità è che il centro sta sull'asse, quindi i raggi partono da un punto dell'asse.
+Il metodo non cambia: l'unica particolarità è che il centro $U$ sta sull'asse $u$, quindi i raggi partono da un punto dell'asse.
 
 Il foglio «OMOLOGIA riepilogo» contiene un esercizio di questo tipo con la soluzione della docente; il secondo esercizio del foglio «ES.GUIDATA Omologia 01» è dello stesso tipo, ma senza soluzione.
 
@@ -630,7 +637,7 @@ Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione
 
 #### Affinità: centro improprio
 
-Con il centro all'infinito i corrispondenti stanno su rette parallele alla direzione di $U_\infty$, mentre l'asse resta proprio e i lati corrispondenti si incontrano su di esso.
+Con il centro $U$ all'infinito i corrispondenti stanno su rette parallele alla direzione di $U_\infty$, mentre l'asse resta proprio e i lati corrispondenti si incontrano su di esso.
 
 Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione della docente; l'esercizio della figura ℒ del foglio «ES.GUIDATA» è stato corretto in aula il 13 ottobre.
 
@@ -670,7 +677,7 @@ Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri,
 
 #### Traslazione: centro e asse impropri
 
-Con centro e asse all'infinito valgono insieme le due regole:
+Con centro $U$ e asse $u$ all'infinito valgono insieme le due regole:
 
 - i corrispondenti stanno sulle parallele alla direzione di $U_\infty$
 - e le rette corrispondenti sono parallele.
