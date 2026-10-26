@@ -13,6 +13,11 @@ Il Disegno 15 della bozza 02 costruito una linea alla volta, come in un esercizi
 
 La regola è quella dell'omologia classica, con una sola differenza: il centro è all'infinito, quindi al posto del raggio che parte da $U$ si usa la parallela alla direzione di $U_\infty$ (qui perpendicolare all'asse, perché l'affinità è ortogonale).
 
+Due cose da sapere prima di cominciare.
+
+- Se l'affinità è ortogonale o obliqua non lo decidi tu: lo dicono i dati. Basta guardare la direzione di $U_\infty$ (la lineetta), oppure la retta che unisce $A$ e $A'$: se è perpendicolare all'asse l'affinità è ortogonale, se è inclinata è obliqua.
+- Le rette che uniscono i punti corrispondenti ($AA'$, $BB'$, $CC'$) non si tracciano alla fine: sono proprio le parallele che si usano per trovare $B'$ e $C'$ (passi 3, 6 e 10). Quando hai trovato $B'$, la retta $BB'$ è già disegnata.
+
 > [!info] Note collegate
 > Bozza: [[02-proiezioni-e-omologia-schema]] · Sbobina: [[02-proiezioni-e-omologia]]
 
