@@ -506,7 +506,7 @@ Unendo i punti corrispondenti si ottengono rette tutte parallele a quella direzi
 L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'assonometria obliqua; un'affinità compare anche nel ribaltamento, dove il centro dell'omologia è all'infinito nella direzione perpendicolare all'asse.
 
 > [!example] Disegno 15 · Il disegno: l'affinità ortogonale sul foglio
-> ![[b02-affinita-ortogonale-foglio.svg|600]]
+> ![[b02-affinita-ortogonale-foglio-2.svg|600]]
 >
 > 1. $U_\infty$ si disegna con la lineetta della sua direzione: qui è perpendicolare all'asse.
 > 2. Le rette $AA'$, $BB'$, $CC'$ sono tutte parallele a quella direzione, quindi perpendicolari all'asse: è un'affinità ortogonale.
@@ -515,7 +515,7 @@ L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'ass
 > Tutorial con un disegno per ogni passaggio: [[02-affinita-ortogonale-passo-passo|il Disegno 15 passo passo]].
 
 > [!example] Disegno 16 (proposto, non fatto a lezione): l'affinità ortogonale nello spazio
-> ![[b02-affinita-ortogonale-spazio.svg|660]]
+> ![[b02-affinita-ortogonale-spazio-2.svg|660]]
 >
 > 1. I piani sono come nel Disegno 11: il foglio $\alpha$ orizzontale, $\alpha_0$ verticale, l'asse $u$ dove si tagliano. Su $\alpha_0$ c'è il triangolo di partenza $A_0B_0C_0$.
 > 2. $S$ e $S_1$ sono alla stessa altezza: la retta $SS_1$ (rossa) è parallela al foglio e non lo buca mai. Per questo il centro dell'omologia è all'infinito, $U_\infty$, nella direzione di $SS_1$.
@@ -523,14 +523,14 @@ L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'ass
 > 4. Guardando il foglio dall'alto si vede il disegno precedente: $AA'$, $BB'$, $CC'$ parallele (linee grigie), lati corrispondenti che si incontrano sull'asse.
 
 > [!example] Disegno 17 · Il disegno: l'affinità obliqua sul foglio
-> ![[b02-affinita-obliqua-foglio.svg|600]]
+> ![[b02-affinita-obliqua-foglio-2.svg|600]]
 >
 > 1. La lineetta di $U_\infty$ è inclinata rispetto all'asse.
 > 2. Le rette $AA'$, $BB'$, $CC'$ sono parallele a quella direzione, inclinate: è un'affinità obliqua.
 > 3. I lati corrispondenti si incontrano sull'asse $u$.
 
 > [!example] Disegno 18 (proposto, non fatto a lezione): l'affinità obliqua nello spazio
-> ![[b02-affinita-obliqua-spazio.svg|660]]
+> ![[b02-affinita-obliqua-spazio-2.svg|660]]
 >
 > 1. Come nell'affinità ortogonale, $S$ e $S_1$ sono alla stessa altezza: $SS_1$ è parallela al foglio e $U$ è all'infinito.
 > 2. Questa volta però $S_1$ è spostato anche di lato rispetto a $S$: la direzione di $SS_1$, e quindi di $U_\infty$, è inclinata rispetto all'asse. Per questo l'affinità è obliqua.
@@ -545,14 +545,14 @@ Poiché le rette corrispondenti si incontrano sull'asse, che è all'infinito, le
 La figura si ingrandisce, come un rettangolo parallelo alla parete illuminato da una lampada, o come la pianta che si allarga nella prospettiva centrale frontale.
 
 > [!example] Disegno 19 · Il disegno: l'omotetia sul foglio
-> ![[b02-omotetia-foglio.svg|600]]
+> ![[b02-omotetia-foglio-2.svg|600]]
 >
 > 1. Asse all'infinito: $u_\infty$ con la crocetta.
 > 2. $A'$, $B'$, $C'$ stanno sui raggi da $U$.
 > 3. I lati corrispondenti sono paralleli: $A'B' \parallel AB$, $B'C' \parallel BC$, $C'A' \parallel CA$.
 
 > [!example] Disegno 20 (proposto, non fatto a lezione): l'omotetia nello spazio
-> ![[b02-omotetia-spazio.svg|660]]
+> ![[b02-omotetia-spazio-2.svg|660]]
 >
 > 1. Il piano $\alpha_0$, con il triangolo $A_0B_0C_0$, è parallelo al foglio: i due piani non si tagliano mai, quindi l'asse è all'infinito, $u_\infty$.
 > 2. $S$ e $S_1$ sono ad altezze diverse: la retta $SS_1$ (rossa) buca il foglio in un punto, il centro dell'omologia $U$, che è proprio.
@@ -571,14 +571,14 @@ La traslazione è il caso limite, di massima indeterminazione:
 La figura viene semplicemente spostata.
 
 > [!example] Disegno 21 · Il disegno: la traslazione sul foglio
-> ![[b02-traslazione-foglio.svg|600]]
+> ![[b02-traslazione-foglio-2.svg|600]]
 >
 > 1. Centro e asse impropri: $U_\infty$ con la lineetta, $u_\infty$ con la crocetta.
 > 2. Tutti i punti si spostano nella direzione di $U_\infty$ della stessa quantità.
 > 3. I lati corrispondenti sono paralleli e uguali.
 
 > [!example] Disegno 22 (proposto, non fatto a lezione): la traslazione nello spazio
-> ![[b02-traslazione-spazio.svg|660]]
+> ![[b02-traslazione-spazio-2.svg|660]]
 >
 > 1. Il piano $\alpha_0$ è parallelo al foglio, come nell'omotetia: asse all'infinito, $u_\infty$.
 > 2. $S$ e $S_1$ sono alla stessa altezza, come nell'affinità: $SS_1$ è parallela al foglio e il centro è all'infinito, $U_\infty$.

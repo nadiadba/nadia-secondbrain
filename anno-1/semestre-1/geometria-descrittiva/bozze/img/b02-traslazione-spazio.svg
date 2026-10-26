@@ -27,17 +27,17 @@
 <circle cx="257.0" cy="275.0" r="2.8" fill="#1f1f1f"/>
 <text x="263.0" y="269.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">C<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
 <circle cx="224.8" cy="408.3" r="2.8" fill="#2563a8"/>
-<text x="230.8" y="424.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<text x="230.8" y="402.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
 <circle cx="400.3" cy="398.6" r="2.8" fill="#2563a8"/>
-<text x="406.3" y="414.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<text x="406.3" y="392.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
 <circle cx="364.3" cy="354.9" r="2.8" fill="#2563a8"/>
-<text x="370.3" y="370.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
+<text x="370.3" y="348.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
 <circle cx="150.5" cy="408.3" r="2.8" fill="#2e8b57"/>
-<text x="128.5" y="402.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">A′</text>
+<text x="136.5" y="426.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">A′</text>
 <circle cx="326.0" cy="398.6" r="2.8" fill="#2e8b57"/>
-<text x="304.0" y="392.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">B′</text>
+<text x="312.0" y="416.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">B′</text>
 <circle cx="290.1" cy="354.9" r="2.8" fill="#2e8b57"/>
-<text x="268.1" y="348.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">C′</text>
+<text x="276.1" y="372.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">C′</text>
 <circle cx="83.6" cy="146.0" r="2.8" fill="#1f1f1f"/>
 <text x="91.6" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">S</text>
 <circle cx="203.6" cy="146.0" r="2.8" fill="#1f1f1f"/>

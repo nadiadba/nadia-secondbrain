@@ -25,79 +25,79 @@ Due cose da sapere prima di cominciare.
 
 I dati: l'asse u e la direzione di U∞ (la lineetta), perpendicolare all'asse.
 
-![[b02-aff-passo-01.svg|600]]
+![[b02-affinita-passo-01.svg|600]]
 
 ## Passo 2
 
 I dati: il triangolo ABC.
 
-![[b02-aff-passo-02.svg|600]]
+![[b02-affinita-passo-02.svg|600]]
 
 ## Passo 3
 
 I dati: A′, sulla retta per A parallela alla direzione di U∞ (perpendicolare all'asse).
 
-![[b02-aff-passo-03.svg|600]]
+![[b02-affinita-passo-03.svg|600]]
 
 ## Passo 4
 
 Prolunga il lato AB fino all'asse: lì c'è il primo punto unito, V₁.
 
-![[b02-aff-passo-04.svg|600]]
+![[b02-affinita-passo-04.svg|600]]
 
 ## Passo 5
 
 Dal punto unito V₁ tira la retta che passa per A′ e prolungala.
 
-![[b02-aff-passo-05.svg|600]]
+![[b02-affinita-passo-05.svg|600]]
 
 ## Passo 6
 
 Per B tira la parallela alla direzione di U∞ (perpendicolare all'asse).
 
-![[b02-aff-passo-06.svg|600]]
+![[b02-affinita-passo-06.svg|600]]
 
 ## Passo 7
 
 B′ NON si sceglie: è l'incrocio tra la retta da V₁ per A′ e la parallela per B.
 
-![[b02-aff-passo-07.svg|600]]
+![[b02-affinita-passo-07.svg|600]]
 
 ## Passo 8
 
 Prolunga il lato AC fino all'asse: secondo punto unito, V₂.
 
-![[b02-aff-passo-08.svg|600]]
+![[b02-affinita-passo-08.svg|600]]
 
 ## Passo 9
 
 Dal punto unito V₂ tira la retta che passa per A′ e prolungala.
 
-![[b02-aff-passo-09.svg|600]]
+![[b02-affinita-passo-09.svg|600]]
 
 ## Passo 10
 
 Per C tira la parallela alla direzione di U∞.
 
-![[b02-aff-passo-10.svg|600]]
+![[b02-affinita-passo-10.svg|600]]
 
 ## Passo 11
 
 C′ NON si sceglie: è l'incrocio tra la retta da V₂ per A′ e la parallela per C.
 
-![[b02-aff-passo-11.svg|600]]
+![[b02-affinita-passo-11.svg|600]]
 
 ## Passo 12
 
 Unisci A′, B′ e C′: è il triangolo corrispondente.
 
-![[b02-aff-passo-12.svg|600]]
+![[b02-affinita-passo-12.svg|600]]
 
 ## Passo 13
 
 Verifica: prolungati, i lati BC e B′C′ si incontrano anche loro sull'asse (V₃).
 
-![[b02-aff-passo-13.svg|600]]
+![[b02-affinita-passo-13.svg|600]]
 
 ## Collegamenti
 

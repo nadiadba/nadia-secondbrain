@@ -23,8 +23,8 @@ BZ = g.BZ
 
 CASI = {
     "affinita-ortogonale": dict(
-        titolo="Affinità ortogonale", S=(0, 220, -200), S1=(0, 220, -60),
-        piano=("verticale",), T0=[(-40, 80, 0), (0, 120, 0), (120, 40, 0)]),
+        titolo="Affinità ortogonale", S=(200, 300, -180), S1=(200, 300, -60),
+        piano=("verticale",), T0=[(80, 120, 0), (200, 180, 0), (120, 90, 0)]),
     "affinita-obliqua": dict(
         titolo="Affinità obliqua", S=(100, 220, -160), S1=(200, 220, -100),
         piano=("verticale",), T0=[(40, 40, 0), (160, 120, 0), (200, 80, 0)]),
@@ -104,7 +104,7 @@ def foglio(nome, c):
     for X, n in zip(T1, ("A′", "B′", "C′")):
         f.punto(s(X), n, -24, 6, "verde")
     f.didascalia(c["didascalia_foglio"])
-    f.salva(BZ + f"b02-{nome}-foglio.svg")
+    f.salva(BZ + f"b02-{nome}-foglio-2.svg")
 
 
 def spazio(nome, c):
@@ -159,14 +159,14 @@ def spazio(nome, c):
     for X, n in zip(T0, ("A_0", "B_0", "C_0")):
         f.punto(s(X), n, 6, -6)
     for X, n in zip(T, "ABC"):
-        f.punto(s(X), n, 6, 16, "blu")
+        f.punto(s(X), n, 6, -6, "blu")
     for X, n in zip(T1, ("A′", "B′", "C′")):
-        f.punto(s(X), n, -22, -6, "verde")
+        f.punto(s(X), n, -14, 18, "verde")
     f.punto(s(S), "S", 8, -4); f.punto(s(S1), "S_1", 8, -2)
     if U is not None:
         f.punto(s(U), "U", -18, -6, "rosso")
     f.didascalia(c["didascalia_spazio"], 12)
-    f.salva(BZ + f"b02-{nome}-spazio.svg")
+    f.salva(BZ + f"b02-{nome}-spazio-2.svg")
 
 
 CASI["affinita-ortogonale"].update(

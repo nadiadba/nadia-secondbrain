@@ -146,5 +146,5 @@ for kk in range(TOT):
     for i in [i for i in fatti if i not in PUNTI] + [i for i in fatti if i in PUNTI]:
         PASSI[i][1](f, i == kk)
     f.didascalia(PASSI[kk][0], 12)
-    f.salva(g.BZ + f"b02-aff-passo-{kk + 1:02d}.svg")
+    f.salva(g.BZ + f"b02-affinita-passo-{kk + 1:02d}.svg")
 print(TOT, "passi")

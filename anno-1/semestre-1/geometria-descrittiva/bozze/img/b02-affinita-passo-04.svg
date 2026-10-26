@@ -6,17 +6,17 @@
 <text x="584.0" y="414.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">u</text>
 <line x1="585.0" y1="366.0" x2="585.0" y2="334.0" stroke="#1f1f1f" stroke-width="2" stroke-linecap="round"/>
 <text x="545.0" y="340.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f1f1f" font-style="italic">U<tspan dy="4" font-size="70%">∞</tspan><tspan dy="-4"></tspan></text>
-<polygon points="132.3,275.8 206.1,128.3 378.3,357.8" fill="#2563a8" fill-opacity="0.1" stroke="#2563a8" stroke-width="1.8"/>
-<circle cx="132.3" cy="275.8" r="2.8" fill="#2563a8"/>
-<text x="140.3" y="271.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
-<circle cx="206.1" cy="128.3" r="2.8" fill="#2563a8"/>
-<text x="214.1" y="124.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
-<circle cx="378.3" cy="357.8" r="2.8" fill="#2563a8"/>
-<text x="386.3" y="353.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
-<line x1="132.3" y1="393.8" x2="132.3" y2="251.8" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
-<circle cx="132.3" cy="369.8" r="2.8" fill="#2e8b57"/>
-<text x="108.3" y="375.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">A′</text>
-<line x1="132.3" y1="275.8" x2="65.2" y2="410.0" stroke="#d97706" stroke-width="2.6" stroke-dasharray="3,3" stroke-linecap="round"/>
+<polygon points="253.0,269.1 487.8,93.0 353.7,319.4" fill="#2563a8" fill-opacity="0.1" stroke="#2563a8" stroke-width="1.8"/>
+<circle cx="253.0" cy="269.1" r="2.8" fill="#2563a8"/>
+<text x="261.0" y="265.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="487.8" cy="93.0" r="2.8" fill="#2563a8"/>
+<text x="495.8" y="89.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<circle cx="353.7" cy="319.4" r="2.8" fill="#2563a8"/>
+<text x="361.7" y="315.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
+<line x1="253.0" y1="387.0" x2="253.0" y2="245.1" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<circle cx="253.0" cy="363.0" r="2.8" fill="#2e8b57"/>
+<text x="229.0" y="369.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">A′</text>
+<line x1="253.0" y1="269.1" x2="65.2" y2="410.0" stroke="#d97706" stroke-width="2.6" stroke-dasharray="3,3" stroke-linecap="round"/>
 <circle cx="65.2" cy="410.0" r="4" fill="#ffffff" stroke="#1f1f1f" stroke-width="1.6"/>
 <text x="59.2" y="432.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">V<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
 <text x="14" y="12" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Prolunga il lato AB fino all'asse: lì c'è il primo punto unito, V₁.</text>
