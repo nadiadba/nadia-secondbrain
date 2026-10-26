@@ -584,6 +584,14 @@ La figura viene semplicemente spostata.
 > 2. $S$ e $S_1$ sono alla stessa altezza, come nell'affinità: $SS_1$ è parallela al foglio e il centro è all'infinito, $U_\infty$.
 > 3. Da $S$ e da $S_1$ il triangolo viene ingrandito della stessa quantità, perché i due centri sono alla stessa altezza: $ABC$ e $A'B'C'$ sono uguali, uno spostato rispetto all'altro.
 > 4. Guardando il foglio dall'alto si vede il disegno precedente.
+>
+> Per ridisegnarlo a mano. In un disegno nello spazio non si può "vedere" a che altezza un raggio buca il foglio: un punto si sceglie, tutti gli altri si trovano con le parallele.
+>
+> 1. Sul raggio da $S$ per $A_0$, prolungato oltre $A_0$, scegli tu il punto $A$ sul foglio. È l'unico punto libero.
+> 2. Siccome $\alpha_0$ è parallelo al foglio, il triangolo che si ottiene ha i lati paralleli a quelli di $A_0B_0C_0$. Per $A$ tira la parallela ad $A_0B_0$: dove incontra il raggio da $S$ per $B_0$ c'è $B$.
+> 3. Per $A$ tira la parallela ad $A_0C_0$: dove incontra il raggio da $S$ per $C_0$ c'è $C$.
+> 4. Siccome $S$ e $S_1$ sono alla stessa altezza, la retta $AA'$ è parallela a $SS_1$. Per $A$ tira la parallela a $SS_1$: dove incontra il raggio da $S_1$ per $A_0$ c'è $A'$. Questa volta $A'$ non si sceglie.
+> 5. Per $A'$ tira le parallele ad $A_0B_0$ e ad $A_0C_0$: dove incontrano i raggi da $S_1$ per $B_0$ e per $C_0$ ci sono $B'$ e $C'$.
 
 > [!abstract] Da ricordare: i casi dell'omologia
 > - Omologia classica: centro $U$ proprio, asse $u$ proprio.
