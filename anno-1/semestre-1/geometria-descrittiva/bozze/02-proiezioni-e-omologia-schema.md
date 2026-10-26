@@ -478,19 +478,20 @@ Sul foglio, quindi, l'omologia speciale si riconosce subito: il centro $U$ è di
 Nella risoluzione non cambia nulla: semplicemente il centro $U$ appartiene all'asse.
 
 > [!example] Disegno 13 · Il disegno: l'omologia speciale
-> ![[b02-omologia-speciale.svg|620]]
+> ![[b02-omologia-speciale-foglio.svg|620]]
 >
 > 1. $U$ sta sull'asse $u$.
 > 2. I corrispondenti restano allineati con $U$ e i lati corrispondenti si incontrano sull'asse.
+> 3. È il foglio del Disegno 14 visto dall'alto: stessi triangoli $ABC$ e $A'B'C'$, stesso $U$, stessi punti uniti.
 
 > [!example] Disegno 14 (proposto, non fatto a lezione): l'omologia speciale nello spazio
-> ![[b02-omologia-speciale-segmento.svg|660]]
+> ![[b02-omologia-speciale-spazio-triangoli.svg|660]]
 >
-> 1. È lo stesso disegno dei due centri (Disegno 11), con la stessa vista e lo stesso segmento $A_0B_0$.
-> 2. L'unica differenza è dove si mette $S_1$: prima si sceglie un punto sull'asse $u$, poi si mette $S_1$ sulla retta che va da $S$ a quel punto.
-> 3. Così la retta $SS_1$ (rossa), prolungata, buca il foglio proprio sull'asse: il centro dell'omologia $U$ sta su $u$. È questo che rende l'omologia speciale.
-> 4. Tutto il resto funziona come nel Disegno 11: $U$, $A$, $A'$ sono allineati, e così $U$, $B$, $B'$ (linee grigie); $AB$ e $A'B'$ si incontrano nel punto unito $V$.
-> 5. Sull'asse ci sono quindi due punti diversi: $V$, il punto unito, e $U$, il centro dell'omologia.
+> 1. È la stessa omologia del Disegno 13, vista nello spazio, con i piani messi come nel Disegno 11: $\alpha$ (il foglio) orizzontale, $\alpha_0$ verticale, l'asse $u$ dove si tagliano.
+> 2. Su $\alpha_0$ c'è il triangolo di partenza $A_0B_0C_0$. Da $S$ lo si proietta sul foglio e si ottiene $ABC$ (raggi blu); da $S_1$ si ottiene $A'B'C'$ (raggi verdi).
+> 3. $S_1$ è stato messo sulla retta che va da $S$ a un punto dell'asse: per questo la retta $SS_1$ (rossa) buca il foglio proprio sull'asse, e il centro dell'omologia $U$ sta su $u$. È questo che rende l'omologia speciale.
+> 4. I lati di $A_0B_0C_0$, prolungati (tratteggio nero), arrivano sull'asse nei punti uniti: sono gli stessi cerchietti del Disegno 13, dove si incontrano i lati corrispondenti di $ABC$ e $A'B'C'$.
+> 5. Se si guarda il foglio $\alpha$ dall'alto, si vede esattamente il Disegno 13.
 
 #### L'affinità ortogonale e obliqua
 
