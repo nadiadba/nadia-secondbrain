@@ -268,7 +268,7 @@ La retta è parallela a π₁ e a π₃, quindi la prima e la terza traccia sono
 
 ### Le rette parallele a un piano di proiezione (13 ottobre)
 
-#### La retta parallela alla linea di terra (13 ottobre)
+#### La retta parallela alla linea di terra, cioè proiettante in terza (13 ottobre)
 
 La retta parallela alla linea di terra è parallela a π₁ e a π₂ e perpendicolare a π₃: per questo si potrebbe dire anche proiettante in terza.
 
