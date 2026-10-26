@@ -579,9 +579,15 @@ def omologia_speciale_spazio():
     for X1 in T1:
         f.linea(s(S1), s(X1), "verde", 0.8, "5,4")
     f.linea(s(S), s(U), "rosso", 1.6, "7,4")
+    for X, X1 in zip(T, T1):                          # U, X, X' allineati (sul foglio)
+        far = X1 if math.dist(U, X1) > math.dist(U, X) else X
+        f.linea(s(U), lungo(s(far), direzione(s(U), s(far)), 16), "grigio", 1.1, "2,3")
     for (i, j), V in zip(((0, 1), (1, 2), (2, 0)), K):
         far0 = T0[i] if math.dist(V, T0[i]) > math.dist(V, T0[j]) else T0[j]
+        far = T[i] if math.dist(V, T[i]) > math.dist(V, T[j]) else T[j]
+        far1 = T1[i] if math.dist(V, T1[i]) > math.dist(V, T1[j]) else T1[j]
         f.linea(s(V), s(far0), "nero", 0.8, "6,4")
+        f.linea(s(V), s(far), "blu", 0.8, "3,3"); f.linea(s(V), s(far1), "verde", 0.8, "3,3")
     f.poligono([s(X) for X in T0], "grigio", 0.18, 2.2)
     f.poligono([s(X) for X in T], "blu", 0.12, 2.2)
     f.poligono([s(X) for X in T1], "verde", 0.14, 2.2)
@@ -1059,7 +1065,7 @@ punto_improprio().salva_in(SB + "02-punto-improprio.svg", BZ + "b02-punto-improp
 prospettivita().salva_in(SB + "02-prospettivita.svg", BZ + "b02-prospettivita.svg")
 omologia_due_centri("S′").salva_in(SB + "02-omologia-dai-centri-s-s1.svg")
 omologia_due_centri("S_1").salva_in(BZ + "b02-omologia-dai-centri-s-s1.svg")
-omologia_speciale_spazio().salva_in(BZ + "b02-omologia-speciale-spazio-triangoli.svg")
+omologia_speciale_spazio().salva_in(BZ + "b02-omologia-speciale-spazio-con-u.svg")
 omologia_triangoli().salva_in(SB + "02-omologia-centro-asse.svg", BZ + "b02-omologia-centro-asse.svg")
 esercizio_punto_coppia().salva_in(SB + "02-omologia-esercizio-punto.svg", BZ + "b02-es-punto-coppia.svg")
 omologia_speciale_teoria().salva_in(SB + "02-omologia-speciale.svg")

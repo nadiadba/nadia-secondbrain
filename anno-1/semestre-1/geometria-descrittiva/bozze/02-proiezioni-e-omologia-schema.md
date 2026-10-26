@@ -485,13 +485,14 @@ Nella risoluzione non cambia nulla: semplicemente il centro $U$ appartiene all'a
 > 3. È il foglio del Disegno 14 visto dall'alto: stessi triangoli $ABC$ e $A'B'C'$, stesso $U$, stessi punti uniti.
 
 > [!example] Disegno 14 (proposto, non fatto a lezione): l'omologia speciale nello spazio
-> ![[b02-omologia-speciale-spazio-triangoli.svg|660]]
+> ![[b02-omologia-speciale-spazio-con-u.svg|660]]
 >
 > 1. È la stessa omologia del Disegno 13, vista nello spazio, con i piani messi come nel Disegno 11: $\alpha$ (il foglio) orizzontale, $\alpha_0$ verticale, l'asse $u$ dove si tagliano.
 > 2. Su $\alpha_0$ c'è il triangolo di partenza $A_0B_0C_0$. Da $S$ lo si proietta sul foglio e si ottiene $ABC$ (raggi blu); da $S_1$ si ottiene $A'B'C'$ (raggi verdi).
 > 3. $S_1$ è stato messo sulla retta che va da $S$ a un punto dell'asse: per questo la retta $SS_1$ (rossa) buca il foglio proprio sull'asse, e il centro dell'omologia $U$ sta su $u$. È questo che rende l'omologia speciale.
-> 4. I lati di $A_0B_0C_0$, prolungati (tratteggio nero), arrivano sull'asse nei punti uniti: sono gli stessi cerchietti del Disegno 13, dove si incontrano i lati corrispondenti di $ABC$ e $A'B'C'$.
-> 5. Se si guarda il foglio $\alpha$ dall'alto, si vede esattamente il Disegno 13.
+> 4. Sul foglio, $U$, $A$, $A'$ sono allineati, e così $U$, $B$, $B'$ e $U$, $C$, $C'$ (linee grigie a puntini).
+> 5. I lati di $A_0B_0C_0$, prolungati (tratteggio nero), arrivano sull'asse nei punti uniti: sono gli stessi cerchietti del Disegno 13, dove si incontrano anche i lati corrispondenti di $ABC$ (tratteggio blu) e $A'B'C'$ (tratteggio verde).
+> 6. Se si guarda il foglio $\alpha$ dall'alto, si vede esattamente il Disegno 13.
 
 #### L'affinità ortogonale e obliqua
 
