@@ -27,13 +27,15 @@ Gli esercizi sono divisi per argomento, nell'ordine del corso. Nel titolo di ogn
 
 Nell'omologia i punti corrispondenti si scrivono con l'apice ($A$ e $A'$); nelle proiezioni ortogonali le proiezioni si scrivono con i pedici (P₁, P₂, P₃) e le tracce con T₁ᵣ, T₂ᵣ.
 
-## IL DISEGNO DEI SOLIDI
+---
+
+## 1. IL DISEGNO DEI SOLIDI
 
 Le prime due esercitazioni in aula sono piante e prospetti di un solido dato in assonometria. Sono il primo contatto con l'idea, centrale in tutto il corso, che piante e prospetti dello stesso oggetto sono legati tra loro: la pianta diventerà la prima proiezione e il prospetto la seconda.
 
-### Piante e prospetti
+### 1.1 Piante e prospetti
 
-#### Il primo solido: tre piante ruotate e i prospetti (1 ottobre, in aula)
+#### 1.1.1 Il primo solido: tre piante ruotate e i prospetti (1 ottobre, in aula)
 
 Dati: un solido in assonometria (scheda esercit_01), tutto contenuto in un cubo di lato 3a. Richiesta: disegnare tre piante del solido, ruotandolo ogni volta, e i tre prospetti corrispondenti, a mano libera, con le campiture.
 
@@ -97,7 +99,7 @@ Le campiture sono linee parallele vicine ed equidistanti, che occupano tutta l'a
 > 3. Si delineano i disegni con linee leggere e poi si ripassano con un tratto più scuro le linee di proiezione.
 > 4. Si campiscono le superfici: in pianta quelle orizzontali, nei prospetti quelle verticali. Le superfici inclinate restano bianche; in pianta una freccia indica il verso in cui scendono.
 
-#### Il secondo solido in assonometria (6 ottobre, in aula)
+#### 1.1.2 Il secondo solido in assonometria (6 ottobre, in aula)
 
 Dati: un solido in assonometria (scheda esrcit_02), più articolato del primo, misurato con due moduli diversi a partire dall'origine O: b per le dimensioni in pianta e a per le altezze (quattro moduli a). Ha linee nascoste tratteggiate e superfici inclinate. Richiesta: piante e prospetti, come nel primo esercizio.
 
@@ -118,7 +120,9 @@ Questa parte della lezione non è registrata, perché in aula si lavorava in sil
 > 3. Poi si ripassano con il tratto marcato gli spigoli visibili del solido; le linee nascoste restano tratteggiate.
 > 4. Per l'esercizio si procede come nel primo: reticolo dei moduli sul foglio, piante ruotate, prospetti, campiture.
 
-## L'OMOLOGIA
+---
+
+## 2. L'OMOLOGIA
 
 Gli esercizi di omologia vengono da quattro fonti:
 
@@ -129,7 +133,7 @@ Gli esercizi di omologia vengono da quattro fonti:
 
 L'omologia è l'argomento della Prova n. 1 di giovedì 29 ottobre.
 
-### Il metodo
+### 2.1 Il metodo
 
 Ogni esercizio è una somma di cose già note: se si hanno i punti si cercano le rette, se si hanno le rette si cercano i punti. Bastano le due proprietà dell'omologia e le condizioni di appartenenza:
 
@@ -153,9 +157,9 @@ Questo modo di procedere, un punto dopo l'altro, si chiama costruire per punti. 
 4. con il centro improprio, al posto del raggio si traccia la parallela alla direzione di $U_\infty$; con l'asse improprio, al posto del punto unito si traccia per $A'$ la parallela ad $AX$;
 5. si verifica con un'altra coppia di punti: i lati corrispondenti si incontrano sull'asse (o sono paralleli, se l'asse è improprio). La figura corrispondente è una sola, quindi qualunque coppia si usi il risultato deve essere lo stesso.
 
-### L'omologia classica
+### 2.2 L'omologia classica
 
-#### Dati U, u, A e A′, trovare B′ (6 ottobre, in aula)
+#### 2.2.1 Dati U, u, A e A′, trovare B′ (6 ottobre, in aula)
 
 Dati: il centro $U$, l'asse $u$, una coppia di punti corrispondenti $A$ e $A'$ e un punto $B$. Richiesta: il corrispondente $B'$.
 
@@ -172,7 +176,7 @@ Dati: il centro $U$, l'asse $u$, una coppia di punti corrispondenti $A$ e $A'$ e
 > 3. La retta corrispondente $r'$ passa per $V$ e per $A'$.
 > 4. $B'$ è l'intersezione tra $r'$ e il raggio da $U$ per $B$.
 
-#### Dati U, u, r e r′ e il punto P, trovare P′ (8 ottobre, in aula)
+#### 2.2.2 Dati U, u, r e r′ e il punto P, trovare P′ (8 ottobre, in aula)
 
 Dati: il centro $U$, l'asse $u$, le rette corrispondenti $r$ e $r'$ (che si incontrano sull'asse nel punto unito $V$) e un punto $P$. Richiesta: il corrispondente $P'$.
 
@@ -186,7 +190,7 @@ Dati: il centro $U$, l'asse $u$, le rette corrispondenti $r$ e $r'$ (che si inco
 > 3. La corrispondente $s'$ passa per $W$ e per $A'$.
 > 4. $P'$ è il punto in cui il raggio da $U$ per $P$ incontra $s'$.
 
-#### Dati U, u, r e r′, trovare M′ (proposto, non fatto a lezione, foglio «ES.GUIDATA Omologia 01», esercizio 3)
+#### 2.2.3 Dati U, u, r e r′, trovare M′ (proposto, non fatto a lezione, foglio «ES.GUIDATA Omologia 01», esercizio 3)
 
 Dati: il centro $U$, l'asse $u$ e le rette corrispondenti $r$ e $r'$, che si incontrano in un punto unito dell'asse; il punto $M$, che sta tra $U$ e l'asse. Richiesta: il corrispondente $M'$.
 
@@ -201,13 +205,13 @@ Dati: il centro $U$, l'asse $u$ e le rette corrispondenti $r$ e $r'$, che si inc
 > 4. Si traccia il raggio da $U$ per $M$ e lo si prolunga oltre $U$: $M'$ è il punto in cui incontra $s'$.
 > 5. In questo esercizio $M'$ cade dall'altra parte del centro $U$ rispetto a $M$, sopra $U$. Verifica: $U$, $M$ e $M'$ sono allineati e $s$ e $s'$ si incontrano sull'asse in $W$.
 
-### L'omologia speciale
+### 2.3 L'omologia speciale
 
 Il metodo non cambia: l'unica particolarità è che il centro $U$ sta sull'asse $u$, quindi i raggi partono da un punto dell'asse.
 
 Un altro esercizio di questo tipo, con la soluzione della docente, è l'esercizio 3 del foglio «OMOLOGIA riepilogo», svolto più sotto nell'esercitazione guidata del 22 ottobre (Disegno 18).
 
-#### Dati U sull'asse, r e r′, trovare M′ (proposto, non fatto a lezione, foglio «ES.GUIDATA Omologia 01», esercizio 2)
+#### 2.3.1 Dati U sull'asse, r e r′, trovare M′ (proposto, non fatto a lezione, foglio «ES.GUIDATA Omologia 01», esercizio 2)
 
 Dati: l'asse $u$, il centro $U$ che sta sull'asse, le rette corrispondenti $r$ e $r'$ e il punto $M$. Richiesta: il corrispondente $M'$.
 
@@ -219,13 +223,13 @@ Dati: l'asse $u$, il centro $U$ che sta sull'asse, le rette corrispondenti $r$ e
 > 3. $s'$ passa per $W$ e per $A'$.
 > 4. $M'$ sta su $s'$ e sul raggio da $U$ per $M$.
 
-### L'omotetia
+### 2.4 L'omotetia
 
 Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il punto unito, si traccia la parallela.
 
 Altri due esercizi di questo tipo, con la soluzione della docente, sono gli esercizi 2 e 4 del foglio «OMOLOGIA riepilogo», svolti più sotto (Disegni 17 e 19).
 
-#### Dati U, u∞, r e r′, trovare s′ (13 ottobre, in aula: correzione del foglio «ES.GUIDATA Omologia 01», esercizio 4)
+#### 2.4.1 Dati U, u∞, r e r′, trovare s′ (13 ottobre, in aula: correzione del foglio «ES.GUIDATA Omologia 01», esercizio 4)
 
 Dati: il centro $U$, l'asse all'infinito $u_\infty$, le rette corrispondenti $r$ e $r'$, parallele (si incontrano sull'asse, che è all'infinito), e la retta $s$. Richiesta: la retta corrispondente $s'$.
 
@@ -239,7 +243,7 @@ Prendere un punto qualsiasi su $r$ non è sbagliato, ma è più rapido usare il 
 > 3. L'asse è all'infinito: $s'$ è la parallela a $s$ per $P'$.
 > 4. Verifica (in blu): con un altro punto $M$ di $s$ e una retta per $M$ e $A$ si trova $M'$, che cade su $s'$.
 
-#### Dati U, u∞, A e A′, trovare A′B′C′D′ (proposto, non fatto a lezione, foglio «ES.GUIDATA Omologia 01», esercizio 5)
+#### 2.4.2 Dati U, u∞, A e A′, trovare A′B′C′D′ (proposto, non fatto a lezione, foglio «ES.GUIDATA Omologia 01», esercizio 5)
 
 Dati: il centro $U$, l'asse all'infinito $u_\infty$, la coppia di punti corrispondenti $A$ e $A'$ (allineati con $U$) e la figura $ABCD$. Richiesta: la figura corrispondente $A'B'C'D'$.
 
@@ -251,13 +255,13 @@ Dati: il centro $U$, l'asse all'infinito $u_\infty$, la coppia di punti corrispo
 > 3. Per $B'$ la parallela a $BC$ dà $C'$; per $C'$ la parallela a $CD$ dà $D'$.
 > 4. Verifica: $D'A'$ deve risultare parallela a $DA$.
 
-### L'affinità
+### 2.5 L'affinità
 
 Con il centro $U$ all'infinito i corrispondenti stanno su rette parallele alla direzione di $U_\infty$, mentre l'asse resta proprio e i lati corrispondenti si incontrano su di esso.
 
 Altri due esercizi di questo tipo, con la soluzione della docente, sono gli esercizi 5 e 6 del foglio «OMOLOGIA riepilogo», svolti più sotto (Disegni 20 e 21).
 
-#### Dati U∞, u, r e r′, trovare la figura corrispondente di ℒ (13 ottobre, in aula: correzione del foglio «ES.GUIDATA Omologia 01», esercizio 6)
+#### 2.5.1 Dati U∞, u, r e r′, trovare la figura corrispondente di ℒ (13 ottobre, in aula: correzione del foglio «ES.GUIDATA Omologia 01», esercizio 6)
 
 Dati: la direzione del centro $U_\infty$, l'asse $u$, le rette corrispondenti $r$ e $r'$ e la figura $\mathscr{L}$, che ha un vertice proprio sulla retta $r$. Richiesta: la figura corrispondente.
 
@@ -271,7 +275,7 @@ Il corrispondente del vertice che sta su $r$ si trova su $r'$, andando nella dir
 > 3. Allo stesso modo, con $AD$ si trova $D'$ e con $DC$ si trova $C'$.
 > 4. Verifica: i lati corrispondenti si incontrano tutti sull'asse.
 
-#### Omologia affine speciale: dati il quadrato ABCD e B′, trovare A′B′C′D′ (soluzione della docente, foglio «OMOLOGIA 2 affinità»)
+#### 2.5.2 Omologia affine speciale: dati il quadrato ABCD e B′, trovare A′B′C′D′ (soluzione della docente, foglio «OMOLOGIA 2 affinità»)
 
 Dati: l'asse $u$, la direzione di $U_\infty$ parallela all'asse, il quadrato $ABCD$ e il punto $B'$ corrispondente di $B$. Richiesta: la figura corrispondente $A'B'C'D'$.
 
@@ -285,13 +289,13 @@ Il foglio è tratto dal libro di Docci, Gaiani e Maestri. Quando la direzione di
 > 3. Si prolunga $CB$ fino all'asse (punto 2): la retta per 2 e $B'$ incontra la parallela per $C$ in $C'$.
 > 4. $CD$ incontra l'asse nel punto 3: la retta per 3 e $C'$ incontra la parallela per $D$ in $D'$.
 
-### La traslazione
+### 2.6 La traslazione
 
 Con centro $U$ e asse $u$ all'infinito valgono insieme le due regole: i corrispondenti stanno sulle parallele alla direzione di $U_\infty$, e le rette corrispondenti sono parallele. La figura si sposta uguale.
 
 Un altro esercizio di questo tipo, con la soluzione della docente, è l'esercizio 1 del foglio «OMOLOGIA riepilogo», svolto più sotto (Disegno 16).
 
-#### Dati U∞, u∞, r e r′ e il triangolo ABC, trovare A′B′C′ (proposto, non fatto a lezione, foglio «ES.GUIDATA Omologia 01», esercizio 1)
+#### 2.6.1 Dati U∞, u∞, r e r′ e il triangolo ABC, trovare A′B′C′ (proposto, non fatto a lezione, foglio «ES.GUIDATA Omologia 01», esercizio 1)
 
 Dati: la direzione di $U_\infty$, l'asse all'infinito $u_\infty$, le rette corrispondenti $r$ e $r'$, parallele, e il triangolo $ABC$. Richiesta: il triangolo corrispondente $A'B'C'$.
 
@@ -303,13 +307,13 @@ Dati: la direzione di $U_\infty$, l'asse all'infinito $u_\infty$, le rette corri
 > 3. Con la coppia $A$, $A'$ si trovano allo stesso modo $B'$ e $C'$.
 > 4. $A'B'C'$ è uguale ad $ABC$, soltanto spostato.
 
-### L'esercitazione guidata del 22 ottobre
+### 2.7 L'esercitazione guidata del 22 ottobre
 
 La scheda «OMOLOGIA riepilogo», da stampare e portare in aula, raccoglie sei esercizi che ripassano tutte le omologie. È stata svolta in aula il 22 ottobre; la registrazione non copre l'esercitazione, quindi lo svolgimento segue la soluzione della docente (OMOLOGIA_riepilogo_soluzione).
 
 Nella scheda il centro si chiama $U$ e l'asse $u$; quando sono all'infinito si scrivono $U_\infty$ (indicato con un trattino nella sua direzione) e $u_\infty$ (indicato con una crocetta).
 
-#### Esercizio 1: dati U∞, u∞, r e r′ e il punto P, trovare P′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
+#### 2.7.1 Esercizio 1: dati U∞, u∞, r e r′ e il punto P, trovare P′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
 
 Dati: la direzione di $U_\infty$, l'asse $u_\infty$, una coppia di rette corrispondenti $r$ e $r'$ e il punto $P$. Richiesta: il corrispondente $P'$. Centro e asse sono entrambi all'infinito: è una traslazione.
 
@@ -321,7 +325,7 @@ Dati: la direzione di $U_\infty$, l'asse $u_\infty$, una coppia di rette corrisp
 > 3. La parallela per $P$ alla direzione di $U_\infty$ la incontra in $P'$.
 > 4. $PMM'P'$ risulta un parallelogramma: $PP'$ e $MM'$ sono uguali e paralleli, la figura si sposta uguale.
 
-#### Esercizio 2: dati U, u∞, r e r′ e la retta n, trovare n′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
+#### 2.7.2 Esercizio 2: dati U, u∞, r e r′ e la retta n, trovare n′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
 
 Dati: il centro $U$, l'asse $u_\infty$, una coppia di rette corrispondenti $r$ e $r'$ e la retta $n$. Richiesta: la retta corrispondente $n'$. Il centro è proprio e l'asse è all'infinito: è un'omotetia.
 
@@ -334,7 +338,7 @@ Dati: il centro $U$, l'asse $u_\infty$, una coppia di rette corrispondenti $r$ e
 > 4. La retta $t'$ corrispondente di $t$ passa per $A'$ ed è parallela a $t$, perché l'asse è all'infinito. Dove $t'$ incontra $UM$ c'è $M'$.
 > 5. $n'$ è la retta $B'M'$, e risulta parallela a $n$. Sulla scheda la docente annota: «Il punto A è stato usato come verifica».
 
-#### Esercizio 3: dati U sull'asse, ABC e A′, trovare A′B′C′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
+#### 2.7.3 Esercizio 3: dati U sull'asse, ABC e A′, trovare A′B′C′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
 
 Dati: il centro $U$, che sta sull'asse $u$, il triangolo $ABC$ e il punto $A'$ corrispondente di $A$. Richiesta: il triangolo corrispondente $A'B'C'$. Il centro sta sull'asse: è un'omologia speciale, che si risolve allo stesso modo.
 
@@ -346,7 +350,7 @@ Dati: il centro $U$, che sta sull'asse $u$, il triangolo $ABC$ e il punto $A'$ c
 > 3. Si prolunga $AB$ fino all'asse: punto unito 2. La retta per 2 e $A'$ incontra il raggio da $U$ per $B$ in $B'$.
 > 4. Verifica: $BC$ e $B'C'$, prolungati, si incontrano sull'asse (punto 3).
 
-#### Esercizio 4: dati U, u∞, r e r′ e il punto P, trovare P′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
+#### 2.7.4 Esercizio 4: dati U, u∞, r e r′ e il punto P, trovare P′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
 
 Dati: il centro $U$, l'asse $u_\infty$, una coppia di rette corrispondenti $r$ e $r'$ e il punto $P$. Richiesta: il corrispondente $P'$. Ancora un'omotetia: centro proprio, asse all'infinito.
 
@@ -358,7 +362,7 @@ Dati: il centro $U$, l'asse $u_\infty$, una coppia di rette corrispondenti $r$ e
 > 3. Per $A'$ si traccia la parallela a $PA$ (l'asse è all'infinito, quindi le rette corrispondenti sono parallele).
 > 4. $P'$ sta su questa parallela e sul raggio da $U$ per $P$.
 
-#### Esercizio 5: dati U∞, u, ABC e A′, trovare A′B′C′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
+#### 2.7.5 Esercizio 5: dati U∞, u, ABC e A′, trovare A′B′C′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
 
 Dati: l'asse $u$, il triangolo $ABC$ e il punto $A'$ corrispondente di $A$; il centro è all'infinito. Richiesta: il triangolo corrispondente $A'B'C'$. Il centro è all'infinito e l'asse è proprio: è un'affinità.
 
@@ -370,7 +374,7 @@ Dati: l'asse $u$, il triangolo $ABC$ e il punto $A'$ corrispondente di $A$; il c
 > 3. Si prolunga $BC$ fino all'asse: punto unito 2. La retta per 2 e $C'$ incontra la parallela per $B$ in $B'$.
 > 4. Si uniscono $A'$, $B'$, $C'$: il triangolo $A'B'C'$ è il corrispondente di $ABC$.
 
-#### Esercizio 6: dati U∞, u, r e r′ e la retta m, trovare m′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
+#### 2.7.6 Esercizio 6: dati U∞, u, r e r′ e la retta m, trovare m′ (22 ottobre, in aula; soluzione della docente, foglio «OMOLOGIA riepilogo»)
 
 Dati: la direzione di $U_\infty$, l'asse $u$, una coppia di rette corrispondenti $r$ e $r'$ e la retta $m$. Richiesta: la retta corrispondente $m'$. Ancora un'affinità: centro all'infinito, asse proprio.
 
@@ -382,15 +386,17 @@ Dati: la direzione di $U_\infty$, l'asse $u$, una coppia di rette corrispondenti
 > 3. $n'$ passa per $N$ e per $A'$; la parallela per $B$ alla direzione di $U_\infty$ la incontra in $B'$.
 > 4. $m$ incontra l'asse nel punto unito $Q$: $m'$ passa per $Q$ e per $B'$.
 
-## LE PROIEZIONI ORTOGONALI
+---
+
+## 3. LE PROIEZIONI ORTOGONALI
 
 Gli esercizi di proiezioni ortogonali vengono dalle lezioni dal 13 al 22 ottobre e dalle schede PO della docente (PO_riepilogo_1, PO_condizioni di appartenenza, PO_proiezioni-solidi).
 
 Il metodo di lavoro è sempre lo stesso: si colloca l'elemento nel modello del triedro, si fanno le proiezioni sul modello, si apre il modello e si ricava il disegno sul foglio. Le linee di richiamo si tengono più leggere della figura, ma devono vedersi, perché alla docente interessa il processo e non solo il risultato; le lettere sono obbligatorie, e un disegno senza lettere viene considerato un errore.
 
-### Il punto e le rette
+### 3.1 Il punto e le rette
 
-#### Un punto P sulla retta di profilo, con la terza proiezione (13 ottobre, proposto, non fatto a lezione, scheda PO_riepilogo_1)
+#### 3.1.1 Un punto P sulla retta di profilo, con la terza proiezione (13 ottobre, proposto, non fatto a lezione, scheda PO_riepilogo_1)
 
 Dati: la retta di profilo $r$, con le tracce T₂ᵣ e T₁ᵣ. Richiesta: disegnare un punto P che appartenga a r.
 
@@ -404,9 +410,9 @@ La retta di profilo ha le due proiezioni r₁ e r₂ sulla stessa linea perpendi
 > 3. Da P₃ si scende sulla LT, si torna con l'arco sulla verticale (sotto la LT) e si va in orizzontale fino a r₁: lì c'è P₁.
 > 4. Nella soluzione della docente la terza proiezione è costruita a sinistra della retta, ruotando T₁ᵣ sulla LT, con lo stesso principio.
 
-### I piani e le figure
+### 3.2 I piani e le figure
 
-#### La figura ABCD nel piano parallelo alla linea di terra: la terza proiezione (13 ottobre, in aula)
+#### 3.2.1 La figura ABCD nel piano parallelo alla linea di terra: la terza proiezione (13 ottobre, in aula)
 
 Dati: una figura ABCD in prima e seconda proiezione, leggermente sollevata rispetto alla linea di terra, con AB e CD paralleli alla LT. Richiesta: trovarne la terza proiezione e dire a che tipo di piano appartiene.
 
@@ -422,7 +428,7 @@ La terza proiezione è un segmento: la figura appartiene a un piano parallelo al
 > 3. Lo stesso per C e D: C₃ ≡ D₃.
 > 4. Il segmento A₃C₃ sta sulla terza traccia: prolungandolo si trova t₃α.
 
-#### Le tracce del piano della figura ABCD (13 ottobre, compito per casa; proposto, non fatto a lezione)
+#### 3.2.2 Le tracce del piano della figura ABCD (13 ottobre, compito per casa; proposto, non fatto a lezione)
 
 Dati: la stessa figura ABCD dell'esercizio precedente. Richiesta: individuare le rette che compongono la figura e, con le condizioni di appartenenza, trovare le tracce del piano.
 
@@ -439,7 +445,7 @@ I lati sono segmenti, ma stanno su rette di due tipi già visti: AB e CD sono re
 
 Un esercizio simile è il terzo del foglio PO_condizioni di appartenenza_2 («Data la figura in prima proiezione e le tracce del piano, disegnare la seconda proiezione della figura»): il piano è parallelo alla linea di terra, A₁ e C₁ stanno su t₁α, quindi A₂ e C₂ cadono sulla linea di terra.
 
-#### Il triangolo nel piano proiettante in seconda: la seconda e la terza proiezione (15 ottobre, in aula)
+#### 3.2.3 Il triangolo nel piano proiettante in seconda: la seconda e la terza proiezione (15 ottobre, in aula)
 
 Dati: il piano α proiettante in seconda, con le sue tracce, e la prima proiezione A₁B₁C₁ di un triangolo che gli appartiene. Richiesta: la seconda e la terza proiezione del triangolo.
 
@@ -454,9 +460,9 @@ Dati: il piano α proiettante in seconda, con le sue tracce, e la prima proiezio
 > 4. Terza proiezione: da ogni punto della prima proiezione si va in orizzontale fino all'asse, si gira con l'arco fino alla LT a destra e si sale; dalla seconda proiezione si va in orizzontale verso destra; dove le due linee si incontrano c'è il punto in π₃.
 > 5. Controllo: A₃B₃ è parallelo alla LT, perché A e B hanno la stessa quota; la retta AB è una retta proiettante in seconda che sta sul piano.
 
-### L'appartenenza
+### 3.3 L'appartenenza
 
-#### Disegnare P ∈ α dimostrando che P ∈ r ⊂ α, nel piano proiettante in prima (15 ottobre, dal taccuino di Marta)
+#### 3.3.1 Disegnare P ∈ α dimostrando che P ∈ r ⊂ α, nel piano proiettante in prima (15 ottobre, dal taccuino di Marta)
 
 Dati: un piano α proiettante in prima. Richiesta: disegnare un punto P che appartenga ad α, dimostrandolo con una retta r del piano che passa per P.
 
@@ -470,7 +476,7 @@ Dati: un piano α proiettante in prima. Richiesta: disegnare un punto P che appa
 > 3. Per P passa la retta r proiettante in prima: r₂ perpendicolare alla LT, r₁ ≡ T₁ᵣ ≡ P₁ su t₁α. Quindi r ⊂ α e P ∈ α.
 > 4. Controllo con l'orizzontale o per P: o₂ parallela alla LT incontra t₂α in T₂ₒ; o₁ ≡ t₁α.
 
-#### Dalla prima proiezione e dalle tracce, la seconda proiezione di un triangolo su un piano generico (15 ottobre, proposto, non fatto a lezione, schede PO)
+#### 3.3.2 Dalla prima proiezione e dalle tracce, la seconda proiezione di un triangolo su un piano generico (15 ottobre, proposto, non fatto a lezione, schede PO)
 
 Dati: le tracce t₁α e t₂α di un piano generico e la prima proiezione A₁B₁C₁ di un triangolo che gli appartiene. Richiesta: la seconda proiezione del triangolo.
 
@@ -492,7 +498,7 @@ Lo stesso disegno, letto al contrario, risolve altri due esercizi delle schede:
 
 Quando il piano è parallelo alla LT, come in una delle schede, si procede allo stesso modo con le rette dei lati.
 
-#### La retta r appartiene al piano? (15 ottobre, proposto, non fatto a lezione, schede PO)
+#### 3.3.3 La retta r appartiene al piano? (15 ottobre, proposto, non fatto a lezione, schede PO)
 
 Dati: le proiezioni r₁ e r₂ di una retta e le tracce di un piano α. Richiesta: dire se r appartiene ad α.
 
@@ -506,7 +512,7 @@ Prima si trovano le tracce della retta, poi si controlla se stanno sulle tracce 
 > 3. A sinistra T₂ᵣ non sta su t₂α (e T₁ᵣ non sta su t₁α): r non appartiene ad α.
 > 4. A destra T₂ᵣ ∈ t₂α e T₁ᵣ ∈ t₁α: r appartiene ad α.
 
-#### La falda di un tetto: dalla prima proiezione la seconda e la terza (15 ottobre, proposto, non fatto a lezione, schede PO)
+#### 3.3.4 La falda di un tetto: dalla prima proiezione la seconda e la terza (15 ottobre, proposto, non fatto a lezione, schede PO)
 
 Dati: la prima proiezione di una falda che appartiene a un piano inclinato (generico) e le tracce del piano. Richiesta: la seconda e la terza proiezione della falda.
 
@@ -521,7 +527,7 @@ Lo svolgimento ha tre passaggi: si disegnano le tre tracce del piano generico; p
 > 4. Orizzontale o' per C: o'₁ per C₁ parallela a t₁α fino alla LT, si sale a t₂α (T₂ₒ'), o'₂ parallela alla LT; da C₁ si sale fino a o'₂: C₂.
 > 5. Terza proiezione: da ogni punto della prima proiezione in orizzontale fino all'asse, arco fino alla LT a destra e su; dalla seconda proiezione in orizzontale verso destra. A₃B₃ viene parallelo alla LT.
 
-#### Le altre schede (proposte, non fatte a lezione)
+#### 3.3.5 Le altre schede (proposte, non fatte a lezione)
 
 Le schede della docente chiedono anche altri esercizi, che si risolvono con gli stessi strumenti e non hanno un disegno in questa pagina.
 
@@ -538,9 +544,9 @@ La scheda sulle proiezioni dei solidi (PO_proiezioni-solidi_1) chiede, date le p
 - di individuare per ogni solido un piano e una retta, verificando le condizioni di appartenenza: piano frontale anteriore e retta orizzontale; piano di profilo e retta proiettante in prima; piano proiettante in seconda e retta frontale;
 - di fare uno schema assonometrico a mano libera.
 
-### Il piano dato da una figura
+### 3.4 Il piano dato da una figura
 
-#### Un triangolo con un lato orizzontale e uno frontale: le tracce del piano generico (20 ottobre, in aula)
+#### 3.4.1 Un triangolo con un lato orizzontale e uno frontale: le tracce del piano generico (20 ottobre, in aula)
 
 Dati: le due proiezioni di un triangolo ABC con un lato orizzontale, AB (A₂B₂ parallelo alla LT), e un lato frontale, AC (A₁C₁ parallelo alla LT). Richiesta: trovare le tracce del piano generico che contiene la figura.
 
@@ -561,7 +567,7 @@ Prolungando o₂ si trova la seconda traccia dell'orizzontale, e va segnato anch
 > 5. t₁γ passa per T₁f ed è parallela a o₁.
 > 6. Controllo: t₁γ e t₂γ si incontrano sulla LT.
 
-#### La stessa figura nel piano proiettante in prima (20 ottobre, in aula)
+#### 3.4.2 La stessa figura nel piano proiettante in prima (20 ottobre, in aula)
 
 Dati: la stessa seconda proiezione del triangolo dell'esercizio precedente. Richiesta: ridisegnare la figura come se appartenesse a un piano proiettante in prima.
 
@@ -575,9 +581,9 @@ Tutto ciò che sta sul piano proiettante in prima ha la prima proiezione sulla p
 > 3. Con i richiami si portano A, B e C su t₁δ: A₁ e B₁ cadono sulla traccia, e C₁ coincide con B₁.
 > 4. BC diventa una retta proiettante in prima; AB resta orizzontale.
 
-### I solidi
+### 3.5 I solidi
 
-#### In che piano sta la base del solido (20 ottobre, in aula)
+#### 3.5.1 In che piano sta la base del solido (20 ottobre, in aula)
 
 Dati: le due proiezioni di un prisma, con la base inferiore ABC, la base superiore DEF parallela e le facce laterali. Richiesta: dire in che piano sta la base e trovarne le tracce.
 
@@ -594,9 +600,9 @@ Per disegnare la prima traccia del piano servono le prime tracce di due rette: u
 > 4. BC: B₂C₂ parallelo alla LT, quindi orizzontale, con T₁∞ nella direzione di B₁C₁ e T₂ propria.
 > 5. t₁α passa per T₁ di AC ed è parallela a B₁C₁; t₂α passa per T₂ di BC e per il punto in cui t₁α incontra la LT.
 
-### Il ribaltamento
+### 3.6 Il ribaltamento
 
-#### Un punto P sulla retta di profilo, con il ribaltamento (22 ottobre, soluzione della docente, scheda PO_riepilogo_1)
+#### 3.6.1 Un punto P sulla retta di profilo, con il ribaltamento (22 ottobre, soluzione della docente, scheda PO_riepilogo_1)
 
 Dati: la retta r di profilo, con le tracce T₂ᵣ e T₁ᵣ. Richiesta: disegnare un punto P che appartenga a r.
 
@@ -613,6 +619,8 @@ La retta di profilo ha le due proiezioni sovrapposte sulla stessa linea perpendi
 > 6. Da P\* si scende fino alla LT e con il compasso si riporta la distanza dalla verticale sotto la LT: è P₁, perché la distanza dalla cerniera era l'aggetto.
 
 Negli esercizi sul ribaltamento i segmenti uguali vanno segnati sempre con una, due o tre lineette: senza, la docente lo considera un errore.
+
+---
 
 ## Collegamenti
 

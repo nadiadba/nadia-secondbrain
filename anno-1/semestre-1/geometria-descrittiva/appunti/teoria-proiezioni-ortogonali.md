@@ -18,7 +18,7 @@ Questa pagina raccoglie in ordine logico tutta la teoria delle proiezioni ortogo
 
 Si parte dal metodo e dai piani di proiezione, si passa al punto, alla retta e al piano, poi alle relazioni tra questi elementi (appartenenza e perpendicolarità), e si arriva alle figure piane e al ribaltamento, che permette di vederle in vera grandezza.
 
-Gli esercizi e le esercitazioni sono nelle bozze delle singole lezioni.
+Gli esercizi e le esercitazioni sono nella pagina [[esercitazioni|Esercitazioni]].
 
 ---
 
