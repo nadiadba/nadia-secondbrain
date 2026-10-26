@@ -12,7 +12,8 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 
 ## Appunti (i tuoi PDF finiti)
 
-Ancora nessuna.
+- [[teoria-omologia|Teoria: geometria proiettiva e omologia]]: tutta la teoria fino alla traslazione, con i disegni, senza esercizi
+- [[teoria-proiezioni-ortogonali|Teoria: le proiezioni ortogonali]]: tutta la teoria dall'8 al 22 ottobre, ordinata per argomento
 
 ## Sbobine
 
