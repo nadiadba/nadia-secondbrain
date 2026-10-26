@@ -1070,9 +1070,9 @@ omologia_triangoli().salva_in(SB + "02-omologia-centro-asse.svg", BZ + "b02-omol
 esercizio_punto_coppia().salva_in(SB + "02-omologia-esercizio-punto.svg", BZ + "b02-es-punto-coppia.svg")
 omologia_speciale_teoria().salva_in(SB + "02-omologia-speciale.svg")
 omologia_speciale_semplice().salva_in(BZ + "b02-omologia-speciale-foglio.svg")
-affinita_teoria().salva_in(SB + "02-affinita.svg", BZ + "b02-affinita.svg")
-omotetia_teoria().salva_in(SB + "02-omotetia.svg", BZ + "b02-omotetia.svg")
-traslazione_teoria().salva_in(SB + "02-traslazione.svg", BZ + "b02-traslazione.svg")
+affinita_teoria().salva_in(SB + "02-affinita.svg")
+omotetia_teoria().salva_in(SB + "02-omotetia.svg")
+traslazione_teoria().salva_in(SB + "02-traslazione.svg")
 
 es_speciale_punto().salva_in(BZ + "b02-es-speciale-punto.svg")
 es_speciale_figura().salva_in(BZ + "b02-es-speciale-figura.svg")

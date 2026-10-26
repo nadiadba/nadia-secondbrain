@@ -505,13 +505,34 @@ Unendo i punti corrispondenti si ottengono rette tutte parallele a quella direzi
 
 L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'assonometria obliqua; un'affinità compare anche nel ribaltamento, dove il centro dell'omologia è all'infinito nella direzione perpendicolare all'asse.
 
-> [!example] Disegno 15 · Il disegno: affinità ortogonale e obliqua
-> ![[b02-affinita.svg|640]]
+> [!example] Disegno 15 · Il disegno: l'affinità ortogonale sul foglio
+> ![[b02-affinita-ortogonale-foglio.svg|600]]
 >
-> 1. $U_\infty$ si disegna con la lineetta della sua direzione.
-> 2. Le rette $AA'$, $BB'$, $CC'$ sono tutte parallele a quella direzione.
-> 3. I lati corrispondenti si incontrano sull'asse $u$, come nell'omologia classica.
-> 4. Direzione perpendicolare a $u$: affinità ortogonale; direzione inclinata: affinità obliqua.
+> 1. $U_\infty$ si disegna con la lineetta della sua direzione: qui è perpendicolare all'asse.
+> 2. Le rette $AA'$, $BB'$, $CC'$ sono tutte parallele a quella direzione, quindi perpendicolari all'asse: è un'affinità ortogonale.
+> 3. I lati corrispondenti si incontrano sull'asse $u$, come nell'omologia classica (cerchietti).
+
+> [!example] Disegno 16 (proposto, non fatto a lezione): l'affinità ortogonale nello spazio
+> ![[b02-affinita-ortogonale-spazio.svg|660]]
+>
+> 1. I piani sono come nel Disegno 11: il foglio $\alpha$ orizzontale, $\alpha_0$ verticale, l'asse $u$ dove si tagliano. Su $\alpha_0$ c'è il triangolo di partenza $A_0B_0C_0$.
+> 2. $S$ e $S_1$ sono alla stessa altezza: la retta $SS_1$ (rossa) è parallela al foglio e non lo buca mai. Per questo il centro dell'omologia è all'infinito, $U_\infty$, nella direzione di $SS_1$.
+> 3. $S_1$ sta proprio davanti a $S$, nella direzione perpendicolare all'asse: per questo l'affinità è ortogonale.
+> 4. Guardando il foglio dall'alto si vede il disegno precedente: $AA'$, $BB'$, $CC'$ parallele (linee grigie), lati corrispondenti che si incontrano sull'asse.
+
+> [!example] Disegno 17 · Il disegno: l'affinità obliqua sul foglio
+> ![[b02-affinita-obliqua-foglio.svg|600]]
+>
+> 1. La lineetta di $U_\infty$ è inclinata rispetto all'asse.
+> 2. Le rette $AA'$, $BB'$, $CC'$ sono parallele a quella direzione, inclinate: è un'affinità obliqua.
+> 3. I lati corrispondenti si incontrano sull'asse $u$.
+
+> [!example] Disegno 18 (proposto, non fatto a lezione): l'affinità obliqua nello spazio
+> ![[b02-affinita-obliqua-spazio.svg|660]]
+>
+> 1. Come nell'affinità ortogonale, $S$ e $S_1$ sono alla stessa altezza: $SS_1$ è parallela al foglio e $U$ è all'infinito.
+> 2. Questa volta però $S_1$ è spostato anche di lato rispetto a $S$: la direzione di $SS_1$, e quindi di $U_\infty$, è inclinata rispetto all'asse. Per questo l'affinità è obliqua.
+> 3. Guardando il foglio dall'alto si vede il disegno precedente.
 
 #### L'omotetia
 
@@ -521,12 +542,20 @@ Poiché le rette corrispondenti si incontrano sull'asse, che è all'infinito, le
 
 La figura si ingrandisce, come un rettangolo parallelo alla parete illuminato da una lampada, o come la pianta che si allarga nella prospettiva centrale frontale.
 
-> [!example] Disegno 16 · Il disegno: l'omotetia
-> ![[b02-omotetia.svg|620]]
+> [!example] Disegno 19 · Il disegno: l'omotetia sul foglio
+> ![[b02-omotetia-foglio.svg|600]]
 >
 > 1. Asse all'infinito: $u_\infty$ con la crocetta.
 > 2. $A'$, $B'$, $C'$ stanno sui raggi da $U$.
 > 3. I lati corrispondenti sono paralleli: $A'B' \parallel AB$, $B'C' \parallel BC$, $C'A' \parallel CA$.
+
+> [!example] Disegno 20 (proposto, non fatto a lezione): l'omotetia nello spazio
+> ![[b02-omotetia-spazio.svg|660]]
+>
+> 1. Il piano $\alpha_0$, con il triangolo $A_0B_0C_0$, è parallelo al foglio: i due piani non si tagliano mai, quindi l'asse è all'infinito, $u_\infty$.
+> 2. $S$ e $S_1$ sono ad altezze diverse: la retta $SS_1$ (rossa) buca il foglio in un punto, il centro dell'omologia $U$, che è proprio.
+> 3. Da $S$ si ottiene $ABC$ (raggi blu), da $S_1$ si ottiene $A'B'C'$ (raggi verdi): sono due copie di $A_0B_0C_0$ ingrandite in modo diverso, con i lati paralleli.
+> 4. Guardando il foglio dall'alto si vede il disegno precedente: $U$, $A$, $A'$ allineati (linee grigie), lati corrispondenti paralleli.
 
 #### La traslazione
 
@@ -539,12 +568,20 @@ La traslazione è il caso limite, di massima indeterminazione:
 
 La figura viene semplicemente spostata.
 
-> [!example] Disegno 17 · Il disegno: la traslazione
-> ![[b02-traslazione.svg|620]]
+> [!example] Disegno 21 · Il disegno: la traslazione sul foglio
+> ![[b02-traslazione-foglio.svg|600]]
 >
 > 1. Centro e asse impropri: $U_\infty$ con la lineetta, $u_\infty$ con la crocetta.
 > 2. Tutti i punti si spostano nella direzione di $U_\infty$ della stessa quantità.
 > 3. I lati corrispondenti sono paralleli e uguali.
+
+> [!example] Disegno 22 (proposto, non fatto a lezione): la traslazione nello spazio
+> ![[b02-traslazione-spazio.svg|660]]
+>
+> 1. Il piano $\alpha_0$ è parallelo al foglio, come nell'omotetia: asse all'infinito, $u_\infty$.
+> 2. $S$ e $S_1$ sono alla stessa altezza, come nell'affinità: $SS_1$ è parallela al foglio e il centro è all'infinito, $U_\infty$.
+> 3. Da $S$ e da $S_1$ il triangolo viene ingrandito della stessa quantità, perché i due centri sono alla stessa altezza: $ABC$ e $A'B'C'$ sono uguali, uno spostato rispetto all'altro.
+> 4. Guardando il foglio dall'alto si vede il disegno precedente.
 
 > [!abstract] Da ricordare: i casi dell'omologia
 > - Omologia classica: centro $U$ proprio, asse $u$ proprio.
@@ -585,7 +622,7 @@ Alla fine conviene sempre verificare con un'altra coppia di punti: la figura cor
 
 Se invece di un punto è dato un segmento, lo si prolunga fino a ottenere la retta che lo contiene e si ragiona allo stesso modo.
 
-> [!example] Disegno 18 · Il disegno: dati U, u, A e A′, trovare B′
+> [!example] Disegno 23 · Il disegno: dati U, u, A e A′, trovare B′
 > ![[b02-es-punto-coppia.svg|620]]
 >
 > 1. $B'$ è allineato con $U$: si traccia il raggio da $U$ per $B$.
@@ -599,7 +636,7 @@ Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e c
 
 È l'esercizio fatto insieme l'8 ottobre ed è lo stesso tipo del terzo esercizio del foglio «ES.GUIDATA Omologia 01» (dati $U$, $u$, $r$ e $r'$ che si incontrano sull'asse, trovare $M'$).
 
-> [!example] Disegno 19 · Il disegno: dati U, u, r e r′, trovare P′ (lezione dell'8 ottobre)
+> [!example] Disegno 24 · Il disegno: dati U, u, r e r′, trovare P′ (lezione dell'8 ottobre)
 > ![[03-omologia-punto-corrispondente.svg|620]]
 >
 > 1. Si sceglie un punto $A$ su $r$ e si manda il raggio da $U$: dove incontra $r'$ c'è $A'$.
@@ -607,7 +644,7 @@ Quando sono date due rette corrispondenti, si cerca prima la coppia di punti e c
 > 3. $s'$ passa per $W$ e per $A'$.
 > 4. $P'$ sta su $s'$ e sul raggio da $U$ per $P$.
 
-> [!example] Disegno 20 (proposto, non fatto a lezione): esercizio 3 di «ES.GUIDATA Omologia 01»
+> [!example] Disegno 25 (proposto, non fatto a lezione): esercizio 3 di «ES.GUIDATA Omologia 01»
 > ![[b02-es-classica-punto-m.svg|620]]
 >
 > Sono dati il centro $U$, l'asse $u$ e le rette corrispondenti $r$ e $r'$, che si incontrano in un punto unito dell'asse; si chiede il corrispondente $M'$ del punto $M$, che sta tra $U$ e l'asse.
@@ -624,7 +661,7 @@ Il metodo non cambia: l'unica particolarità è che il centro $U$ sta sull'asse 
 
 Il foglio «OMOLOGIA riepilogo» contiene un esercizio di questo tipo con la soluzione della docente; il secondo esercizio del foglio «ES.GUIDATA Omologia 01» è dello stesso tipo, ma senza soluzione.
 
-> [!example] Disegno 21 · Il disegno: dati U sull'asse, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 26 · Il disegno: dati U sull'asse, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-speciale-figura.svg|620]]
 >
 > 1. Si prolunga il lato $AC$ (la retta $r$) fino all'asse: punto unito 1.
@@ -632,7 +669,7 @@ Il foglio «OMOLOGIA riepilogo» contiene un esercizio di questo tipo con la sol
 > 3. Si prolunga $AB$ fino all'asse: punto unito 2. La retta per 2 e $A'$ incontra il raggio da $U$ per $B$ in $B'$.
 > 4. Verifica: $BC$ e $B'C'$ si incontrano sull'asse (punto 3).
 
-> [!example] Disegno 22 (proposto, non fatto a lezione): dati U sull'asse, r e r′, trovare M′ («ES.GUIDATA Omologia 01», esercizio 2)
+> [!example] Disegno 27 (proposto, non fatto a lezione): dati U sull'asse, r e r′, trovare M′ («ES.GUIDATA Omologia 01», esercizio 2)
 > ![[b02-es-speciale-punto.svg|580]]
 >
 > 1. Si sceglie un punto $A$ su $r$ e si manda il raggio da $U$: dove incontra $r'$ c'è $A'$.
@@ -646,7 +683,7 @@ Con l'asse all'infinito le rette corrispondenti sono parallele: non si cerca il 
 
 Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione della docente (trovare $P'$ e trovare la retta $n'$); l'esercizio sulla retta $s'$ del foglio «ES.GUIDATA» è stato corretto in aula il 13 ottobre.
 
-> [!example] Disegno 23 · Il disegno: dati U, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 28 · Il disegno: dati U, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-omotetia-punto.svg|560]]
 >
 > 1. Si sceglie un punto $A$ su $r$ e si manda il raggio da $U$: dove incontra $r'$ c'è $A'$.
@@ -654,7 +691,7 @@ Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione
 > 3. Per $A'$ si traccia la parallela a $PA$ (l'asse è all'infinito).
 > 4. $P'$ sta su questa parallela e sul raggio da $U$ per $P$.
 
-> [!example] Disegno 24 · Il disegno: dati U, u∞, r e r′, trovare s′ (correzione del 13 ottobre)
+> [!example] Disegno 29 · Il disegno: dati U, u∞, r e r′, trovare s′ (correzione del 13 ottobre)
 > ![[04-omologia-retta-corrispondente.svg|620]]
 >
 > 1. Si prolunga $r$ fino a $s$: il punto comune $P$ sta su entrambe le rette.
@@ -662,7 +699,7 @@ Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione
 > 3. $s'$ è la parallela a $s$ per $P'$.
 > 4. Verifica (in blu): con un altro punto $M$ di $s$ si trova $M'$, che cade su $s'$.
 
-> [!example] Disegno 25 (proposto, non fatto a lezione): dati U, u∞, A e A′, trovare A′B′C′D′ («ES.GUIDATA Omologia 01», esercizio 5)
+> [!example] Disegno 30 (proposto, non fatto a lezione): dati U, u∞, A e A′, trovare A′B′C′D′ («ES.GUIDATA Omologia 01», esercizio 5)
 > ![[b02-es-omotetia-figura.svg|580]]
 >
 > 1. Si mandano i raggi da $U$ per tutti i vertici.
@@ -678,7 +715,7 @@ Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione
 
 Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri, propone anche un'omologia affine speciale, in cui la direzione di $U_\infty$ è parallela all'asse.
 
-> [!example] Disegno 26 · Il disegno: dati U∞, u, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 31 · Il disegno: dati U∞, u, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-affinita-figura.svg|580]]
 >
 > 1. La direzione di $U_\infty$ è quella della retta $AA'$: da ogni vertice si tracciano le parallele a questa direzione.
@@ -686,7 +723,7 @@ Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri,
 > 3. Si prolunga $BC$ fino all'asse: punto unito 2. La retta per 2 e $C'$ incontra la parallela per $B$ in $B'$.
 > 4. Si uniscono $A'$, $B'$, $C'$.
 
-> [!example] Disegno 27 · Il disegno: dati U∞, u, r e r′ e la retta m, trovare m′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 32 · Il disegno: dati U∞, u, r e r′ e la retta m, trovare m′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-affinita-retta.svg|600]]
 >
 > 1. Si sceglie $A$ su $r$; la parallela alla direzione di $U_\infty$ incontra $r'$ in $A'$.
@@ -694,7 +731,7 @@ Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri,
 > 3. $n'$ passa per $N$ e per $A'$; la parallela per $B$ alla direzione di $U_\infty$ la incontra in $B'$.
 > 4. $m$ incontra l'asse nel punto unito $Q$: $m'$ passa per $Q$ e per $B'$.
 
-> [!example] Disegno 28 · Il disegno: dati U∞, u, r e r′, trovare la figura corrispondente di ℒ (correzione del 13 ottobre)
+> [!example] Disegno 33 · Il disegno: dati U∞, u, r e r′, trovare la figura corrispondente di ℒ (correzione del 13 ottobre)
 > ![[04-omologia-figura-corrispondente.svg|620]]
 >
 > 1. Il vertice $A$ sta su $r$: andando nella direzione di $U_\infty$ fino a $r'$ si trova $A'$.
@@ -702,7 +739,7 @@ Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri,
 > 3. Allo stesso modo, con $AD$ si trova $D'$ e con $DC$ si trova $C'$.
 > 4. Verifica: i lati corrispondenti si incontrano tutti sull'asse.
 
-> [!example] Disegno 29 · Il disegno: omologia affine speciale, dati il quadrato ABCD e B′ (soluzione della docente, «OMOLOGIA 2 affinità»)
+> [!example] Disegno 34 · Il disegno: omologia affine speciale, dati il quadrato ABCD e B′ (soluzione della docente, «OMOLOGIA 2 affinità»)
 > ![[b02-es-affinita-speciale.svg|640]]
 >
 > 1. La direzione di $U_\infty$ è parallela all'asse: da ogni vertice si tracciano le parallele all'asse.
@@ -719,7 +756,7 @@ Con centro $U$ e asse $u$ all'infinito valgono insieme le due regole:
 
 Il foglio «OMOLOGIA riepilogo» ha un esercizio con la soluzione della docente; il primo esercizio del foglio «ES.GUIDATA» è dello stesso tipo, con un triangolo.
 
-> [!example] Disegno 30 · Il disegno: dati U∞, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
+> [!example] Disegno 35 · Il disegno: dati U∞, u∞, r e r′ e il punto P, trovare P′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-traslazione-punto.svg|560]]
 >
 > 1. Si sceglie $M$ su $r$; la parallela alla direzione di $U_\infty$ incontra $r'$ in $M'$.
@@ -727,7 +764,7 @@ Il foglio «OMOLOGIA riepilogo» ha un esercizio con la soluzione della docente;
 > 3. La parallela per $P$ alla direzione di $U_\infty$ la incontra in $P'$.
 > 4. $PP'$ e $MM'$ risultano uguali e paralleli: è una traslazione.
 
-> [!example] Disegno 31 (proposto, non fatto a lezione): dati U∞, u∞, r e r′ e il triangolo ABC, trovare A′B′C′ («ES.GUIDATA Omologia 01», esercizio 1)
+> [!example] Disegno 36 (proposto, non fatto a lezione): dati U∞, u∞, r e r′ e il triangolo ABC, trovare A′B′C′ («ES.GUIDATA Omologia 01», esercizio 1)
 > ![[b02-es-traslazione-figura.svg|580]]
 >
 > 1. Si sceglie $M$ su $r$ e si trova $M'$ su $r'$ nella direzione di $U_\infty$.
@@ -750,7 +787,7 @@ Si risolve con lo stesso procedimento:
 
 Questa parte della lezione non è registrata, perché in aula si lavorava in silenzio.
 
-> [!example] Disegno 32 · Il disegno: il secondo solido in assonometria (scheda della docente)
+> [!example] Disegno 37 · Il disegno: il secondo solido in assonometria (scheda della docente)
 > ![[b01-esercizio-2-solido-assonometria.png|520]]
 >
 > 1. Si parte dall'origine O, in basso: da lì partono i due spigoli di base (misurati con il modulo b) e lo spigolo verticale (misurato con il modulo a, quattro volte).
