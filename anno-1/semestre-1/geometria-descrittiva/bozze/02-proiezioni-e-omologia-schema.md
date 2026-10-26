@@ -511,6 +511,8 @@ L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'ass
 > 1. $U_\infty$ si disegna con la lineetta della sua direzione: qui è perpendicolare all'asse.
 > 2. Le rette $AA'$, $BB'$, $CC'$ sono tutte parallele a quella direzione, quindi perpendicolari all'asse: è un'affinità ortogonale.
 > 3. I lati corrispondenti si incontrano sull'asse $u$, come nell'omologia classica (cerchietti).
+>
+> Tutorial con un disegno per ogni passaggio: [[02-affinita-ortogonale-passo-passo|il Disegno 15 passo passo]].
 
 > [!example] Disegno 16 (proposto, non fatto a lezione): l'affinità ortogonale nello spazio
 > ![[b02-affinita-ortogonale-spazio.svg|660]]
