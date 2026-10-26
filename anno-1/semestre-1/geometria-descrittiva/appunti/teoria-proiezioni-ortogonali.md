@@ -20,9 +20,11 @@ Si parte dal metodo e dai piani di proiezione, si passa al punto, alla retta e a
 
 Gli esercizi e le esercitazioni sono nelle bozze delle singole lezioni.
 
-## IL METODO DI MONGE
+---
 
-### Proiezioni centrali e proiezioni cilindriche (8 ottobre)
+## 1. IL METODO DI MONGE
+
+### 1.1 Proiezioni centrali e proiezioni cilindriche (8 ottobre)
 
 Ogni metodo di rappresentazione è un processo proiettivo, in cui compaiono sempre tre elementi:
 
@@ -43,7 +45,7 @@ Le proiezioni ortogonali sono proiezioni cilindriche in cui i raggi sono perpend
 > A destra il centro è all'infinito: i raggi sono paralleli e la figura arriva con le stesse dimensioni.
 > Se i raggi sono anche perpendicolari al piano di quadro si hanno le proiezioni ortogonali.
 
-### I tre piani di proiezione e il triedro (8 e 13 ottobre)
+### 1.2 I tre piani di proiezione e il triedro (8 e 13 ottobre)
 
 Per rappresentare un punto nello spazio bisogna prima definire una porzione di spazio, cioè costruire un diedro o un triedro. Monge lavora principalmente con il triedro, e i suoi problemi si risolvono soprattutto su due proiezioni.
 
@@ -64,13 +66,13 @@ Alla lavagna il triedro si disegna con un'assonometria particolare, in cui il pi
 > Dal suo piede partono la LT e lo spigolo tra π₁ e π₃, ad angolo retto, perché π₁ è in vera forma.
 > π₂ sta a sinistra, π₃ a destra, π₁ in basso.
 
-#### La linea di terra (13 ottobre)
+#### 1.2.1 La linea di terra (13 ottobre)
 
 La linea di terra (LT) è la retta di intersezione tra π₁ e π₂. Quando si ribaltano i piani gli uni sugli altri, divide la pianta dal prospetto.
 
 Non divide però lo spazio in modo rigido: le prime proiezioni non stanno per forza sotto la LT e le seconde sopra, perché dipende dal quadrante in cui si trovano i punti. In architettura, naturalmente, le cose stanno tutte nel primo diedro.
 
-### Dallo spazio al foglio (8 e 13 ottobre)
+### 1.3 Dallo spazio al foglio (8 e 13 ottobre)
 
 Il triedro è un modello rigido, con i piani in piedi. Per avere tutte le proiezioni su un unico foglio i piani si ruotano:
 
@@ -93,7 +95,7 @@ Le proiezioni non sono vignette separate dalla linea verticale. Partono dalle li
 > π₃ ruota attorno allo spigolo che ha in comune con π₂ e si mette accanto a π₂; π₁ ruota attorno alla LT e scende sotto π₂.
 > Sul foglio: π₂ in alto a sinistra, π₃ in alto a destra della linea verticale, π₁ sotto la LT.
 
-### La notazione (8, 13, 15 e 22 ottobre)
+### 1.4 La notazione (8, 13, 15 e 22 ottobre)
 
 Nelle proiezioni ortogonali le proiezioni si scrivono con il pedice. L'apice resta all'omologia e alla prospettiva, e tornerà nell'assonometria accanto al pedice.
 
@@ -110,7 +112,7 @@ Per le rette particolari si usano spesso o per l'orizzontale e f per la frontale
 
 Il nome della posizione invece (proiettante in prima, frontale, di profilo...) è importante, perché serve a capirsi.
 
-### Pianta, sezione e prospetti (8 ottobre)
+### 1.5 Pianta, sezione e prospetti (8 ottobre)
 
 La pianta è una sezione orizzontale, fatta con un piano parallelo a π₁. La quota a cui si taglia l'edificio deve intercettare le finestre e comprendere tutti gli elementi che compongono l'edificio, altrimenti la pianta mostrerebbe uno spazio completamente chiuso.
 
@@ -120,7 +122,7 @@ La pianta da sola non basta a dare l'idea della forma. Per stabilire i volumi de
 
 Il prospetto è ciò che si vede guardando l'edificio da fuori, da uno dei suoi lati, come se ci si camminasse intorno.
 
-#### Da che parte si guarda (8 ottobre)
+#### 1.5.1 Da che parte si guarda (8 ottobre)
 
 Il prospetto si guarda sempre da fuori; solo la sezione permette di guardare da dentro.
 
@@ -137,7 +139,7 @@ Se invece si mette la LT subito sopra la pianta e si disegna il prospetto in pie
 > Giusto: la LT sta in alto e il prospetto scende dalla LT verso la pianta, a testa in giù; girando il foglio la rientranza è a destra.
 > Sbagliato: la LT sta subito sopra la pianta e il prospetto è in piedi; la rientranza finisce dalla parte sbagliata.
 
-### Le scale di rappresentazione (8 ottobre)
+### 1.6 Le scale di rappresentazione (8 ottobre)
 
 Si lavora sempre in scala. Le scale possono essere di ingrandimento (10:1, 5:1, 2:1), di riproduzione (1:1) o di riduzione, e in architettura si usano soprattutto quelle di riduzione, fino a quelle delle carte del territorio.
 
@@ -153,9 +155,11 @@ La scala grafica è fondamentale. È la testimonianza delle dimensioni delle cos
 > Lo stesso muro di 50 cm è spesso 1 cm in 1:50, 5 mm in 1:100, 2,5 mm in 1:200.
 > La scala grafica è una barra a tratti alterni, ognuno dei quali vale 1 metro: in 1:100 ogni tratto è lungo 1 cm, in 1:200 è lungo 0,5 cm.
 
-## IL PUNTO (8 ottobre)
+---
 
-### Le proiezioni, l'aggetto e la quota (8 ottobre)
+## 2. IL PUNTO (8 ottobre)
+
+### 2.1 Le proiezioni, l'aggetto e la quota (8 ottobre)
 
 Il punto si rappresenta mediante le sue tre proiezioni. Il punto P si proietta perpendicolarmente su ciascun piano, e dove la perpendicolare incontra il piano c'è la proiezione.
 
@@ -173,7 +177,7 @@ Con aggetto e quota si sa già dove si trova il punto nello spazio.
 > Dal punto P si mandano le perpendicolari ai tre piani: dove li incontrano ci sono P₁, P₂ e P₃.
 > Il segmento tra P e π₂ è l'aggetto (arancione); quello tra P e π₁ è la quota (verde).
 
-### La terza proiezione (8 ottobre)
+### 2.2 La terza proiezione (8 ottobre)
 
 La terza proiezione P₃ si ottiene proiettando il punto sul terzo piano, che nello spazio sta di lato, e costruendo sempre la linea di richiamo.
 
@@ -190,17 +194,19 @@ Sul foglio, quindi:
 > Da P₁ si va in orizzontale fino alla linea verticale; con il compasso puntato nell'incrocio tra LT e linea verticale si gira l'arco fino alla LT, e da lì si sale.
 > Da P₂ si tira l'orizzontale: dove incontra la verticale appena tracciata c'è P₃.
 
-## LA RETTA (8-20 ottobre)
+---
 
-### Il nome, le tracce e le proiezioni (8, 13 e 15 ottobre)
+## 3. LA RETTA (8-20 ottobre)
 
-#### Il nome della retta (8 e 13 ottobre)
+### 3.1 Il nome, le tracce e le proiezioni (8, 13 e 15 ottobre)
+
+#### 3.1.1 Il nome della retta (8 e 13 ottobre)
 
 Il nome di una retta si assegna in base alla posizione che assume rispetto ai primi due piani di proiezione, π₁ orizzontale e π₂ verticale.
 
 Una retta perpendicolare a π₃, per esempio, è anche proiettante in terza, ma si chiama parallela alla linea di terra, perché è parallela a π₁ e a π₂.
 
-#### Le tracce (8 e 13 ottobre)
+#### 3.1.2 Le tracce (8 e 13 ottobre)
 
 La traccia di una retta è il punto in cui la retta incontra un piano di proiezione. Essendo un punto si scrive con la T maiuscola, il numero del piano e il nome della retta: T₁ᵣ su π₁, T₂ᵣ su π₂, T₃ᵣ su π₃.
 
@@ -212,7 +218,7 @@ La traccia all'infinito si scrive (per esempio T₂f∞) e si segna con una line
 
 Una retta passa infatti per due punti propri, ma anche per un punto proprio e un punto improprio, che le dà la direzione.
 
-#### Le proiezioni passano per le proiezioni delle tracce (8, 13 e 15 ottobre)
+#### 3.1.3 Le proiezioni passano per le proiezioni delle tracce (8, 13 e 15 ottobre)
 
 Una proiezione non è la retta: è la proiezione di tutti i suoi punti, comprese le tracce. Siccome le tracce sono punti noti della retta, le proiezioni della retta passano per le proiezioni delle tracce.
 
@@ -224,13 +230,13 @@ Le proiezioni delle tracce cadono sempre sulla linea di terra o sulla linea vert
 
 Le proiezioni della retta si disegnano a tratto continuo. Si tratteggiano solo le parti che passano dietro un piano di proiezione e non si vedono.
 
-### Le rette proiettanti (8 ottobre)
+### 3.2 Le rette proiettanti (8 ottobre)
 
 Le rette proiettanti sono quelle perpendicolari a uno dei primi due piani di proiezione. Si chiamano così perché hanno la stessa direzione dei raggi proiettanti: il centro di proiezione all'infinito è perpendicolare al piano, e la retta è parallela a quei raggi.
 
 In una retta proiettante la traccia nota è sempre quella sul piano a cui la retta è perpendicolare; le altre due sono all'infinito.
 
-#### La retta proiettante in prima (8 ottobre)
+#### 3.2.1 La retta proiettante in prima (8 ottobre)
 
 La retta proiettante in prima è perpendicolare a π₁, cioè verticale.
 
@@ -247,7 +253,7 @@ La seconda e la terza proiezione sono verticali, cioè perpendicolari alla LT. L
 >
 > Nello spazio (schema proposto, non disegnato a lezione): la retta sale verticale da π₁ e lo buca in T₁ᵣ, dove si schiaccia tutta la prima proiezione; un suo punto P ha P₂ e P₃ alla stessa quota.
 
-#### La retta proiettante in seconda (8 ottobre)
+#### 3.2.2 La retta proiettante in seconda (8 ottobre)
 
 La retta proiettante in seconda (qui m) è perpendicolare a π₂.
 
@@ -266,9 +272,9 @@ La retta è parallela a π₁ e a π₃, quindi la prima e la terza traccia sono
 >
 > Nello spazio: la retta esce perpendicolare da π₂ e lo buca in T₂ₘ; non incontra mai π₁ e π₃, quindi le altre due tracce sono all'infinito.
 
-### Le rette parallele a un piano di proiezione (13 ottobre)
+### 3.3 Le rette parallele a un piano di proiezione (13 ottobre)
 
-#### La retta parallela alla linea di terra, cioè proiettante in terza (13 ottobre)
+#### 3.3.1 La retta parallela alla linea di terra, cioè proiettante in terza (13 ottobre)
 
 La retta parallela alla linea di terra è parallela a π₁ e a π₂ e perpendicolare a π₃: per questo si potrebbe dire anche proiettante in terza.
 
@@ -287,7 +293,9 @@ In terza proiezione la retta si riduce a un punto, che coincide con la sua tracc
 >
 > Nello spazio: la retta è fissata su π₃ in T₃ᵣ; le sue proiezioni sul pavimento e sulla parete π₂ sono parallele alla LT.
 
-#### La retta frontale (13 ottobre)
+13-10!!
+
+#### 3.3.2 La retta frontale (13 ottobre)
 
 La retta frontale è parallela a π₂, cioè sta di fronte, a distanza costante da π₂, ma ha una sua inclinazione.
 
@@ -308,7 +316,7 @@ Le sue proiezioni:
 >
 > Nello spazio: f sta di fronte a π₂, a distanza costante; buca il pavimento in T₁f e π₃ in T₃f.
 
-#### La retta orizzontale (13 ottobre)
+#### 3.3.3 La retta orizzontale (13 ottobre)
 
 La retta orizzontale è parallela a π₁ ma inclinata rispetto ai piani verticali; tutti i suoi punti stanno alla stessa altezza.
 
@@ -336,7 +344,7 @@ Riassumendo le due rette più importanti:
 - la frontale ha la prima proiezione parallela alla LT e la seconda traccia all'infinito;
 - l'orizzontale ha la seconda proiezione parallela alla LT e la prima traccia all'infinito.
 
-#### La retta di profilo (13 ottobre)
+#### 3.3.4 La retta di profilo (13 ottobre)
 
 La retta di profilo è parallela a π₃ e inclinata rispetto agli altri due piani. La prima e la seconda traccia hanno la stessa distanza da π₃, e la terza traccia è all'infinito.
 
@@ -353,11 +361,13 @@ Anche un punto della retta di profilo non si individua con le sole prima e secon
 >
 > Nello spazio: la retta scende da π₂ (T₂ᵣ) al pavimento (T₁ᵣ) restando parallela a π₃.
 
-### La retta generica (15 e 20 ottobre)
+15-10!!!
+
+### 3.4 La retta generica (15 e 20 ottobre)
 
 La retta generica non ha condizioni di particolarità: ha tutte le tracce proprie, cioè buca π₁, π₂ e π₃.
 
-#### Le proiezioni dalle tracce (15 ottobre)
+#### 3.4.1 Le proiezioni dalle tracce (15 ottobre)
 
 Le proiezioni si costruiscono a partire dai due punti che si conoscono, la prima e la seconda traccia.
 
@@ -376,7 +386,7 @@ Le parole vanno usate con attenzione: «la seconda proiezione della prima tracci
 >
 > Nello spazio: r₁ è come l'ombra della retta sul pavimento, r₂ la sua immagine sulla parete.
 
-#### Le tracce dalle proiezioni: i punti notevoli sulla LT (20 ottobre)
+#### 3.4.2 Le tracce dalle proiezioni: i punti notevoli sulla LT (20 ottobre)
 
 Il procedimento si può fare anche al contrario, quando sono date le proiezioni della retta e se ne cercano le tracce.
 
@@ -392,7 +402,7 @@ Ogni punto va chiamato con il suo nome: non «il punto sulla linea dove va la pr
 > Si prolunga r₂ fino alla LT, si trova (T₁ᵣ)₂ e si scende fino a r₁: lì c'è T₁ᵣ.
 > Si prolunga r₁ fino alla LT, si trova (T₂ᵣ)₁ e si sale fino a r₂: lì c'è T₂ᵣ.
 
-#### La posizione delle tracce dipende dalla direzione (20 ottobre)
+#### 3.4.3 La posizione delle tracce dipende dalla direzione (20 ottobre)
 
 La retta disegnata finora è quella canonica, ma una retta può avere altre direzioni:
 
@@ -410,7 +420,7 @@ Questa configurazione servirà per le ombre, in cui la luce deve venire da fuori
 > Schema proposto, non disegnato a lezione.
 > I punti notevoli (T₁ᵣ)₂ e (T₂ᵣ)₁ si trovano come prima, ma il richiamo da (T₂ᵣ)₁ verso r₂ questa volta va in giù, e T₂ᵣ cade sotto la LT.
 
-#### La terza traccia (15 ottobre)
+#### 3.4.4 La terza traccia (15 ottobre)
 
 La retta generica ha anche una terza traccia, il punto in cui buca π₃.
 
@@ -422,9 +432,11 @@ Il primo modo è immediato: la terza proiezione passa per la terza traccia, quin
 
 Il secondo modo, più sicuro, usa un piano ausiliario, e si vede più avanti, tra i piani ausiliari.
 
-## IL PIANO (13-20 ottobre)
+---
 
-### Il piano non è una figura (13 ottobre)
+## 4. IL PIANO (13-20 ottobre)
+
+### 4.1 Il piano non è una figura (13 ottobre)
 
 Il piano si considera esteso all'infinito: non è una figura, ma un ente geometrico esteso nelle due dimensioni. Quando nel modello lo si vede come un rettangolo è solo per comodità, e i tratteggi oltre i bordi dicono che prosegue.
 
@@ -449,9 +461,9 @@ Come le rette, anche i piani prendono il nome dalla posizione che assumono rispe
 
 Nei disegni che seguono ogni piano è costruito in modo da contenere la retta dello stesso nome: perché la retta stia sul piano, le sue tracce stanno sulle tracce del piano. È la condizione di appartenenza, spiegata nel capitolo successivo.
 
-### I piani proiettanti (13 e 15 ottobre)
+### 4.2 I piani proiettanti (13 e 15 ottobre)
 
-#### Il piano proiettante in prima (13 ottobre)
+#### 4.2.1 Il piano proiettante in prima (13 ottobre)
 
 Il piano proiettante in prima è perpendicolare a π₁ e forma un angolo con π₂. È un piano verticale, da distinguere dal frontale, e insieme al proiettante in seconda è tra i piani più usati.
 
@@ -475,7 +487,7 @@ La coincidenza c'è solo sulla prima traccia: la quota del punto non cambia tra 
 >
 > Nello spazio: il piano è un cartoncino in piedi, girato rispetto a π₂; visto dall'alto si riduce alla linea t₁α.
 
-#### Il piano proiettante in seconda (15 ottobre)
+#### 4.2.2 Il piano proiettante in seconda (15 ottobre)
 
 Il piano proiettante in seconda è perpendicolare a π₂ e inclinato rispetto a π₁ e a π₃.
 
@@ -496,9 +508,9 @@ Se si guarda di taglio, come lo vedrebbe π₂, un triangolo disegnato sul piano
 >
 > Nello spazio: ogni punto del triangolo, proiettato su π₂, cade su t₂α; per questo A₂ coincide con B₂, perché AB è perpendicolare a π₂.
 
-### I piani paralleli alla linea di terra o a un piano di proiezione (13 ottobre)
+### 4.3 I piani paralleli alla linea di terra o a un piano di proiezione (13 ottobre)
 
-#### Il piano parallelo alla linea di terra (13 ottobre)
+#### 4.3.1 Il piano parallelo alla linea di terra (13 ottobre)
 
 Il piano parallelo alla linea di terra è inclinato rispetto a π₁ e a π₂ e taglia tutti e tre i piani di proiezione, quindi ha tre tracce:
 
@@ -516,7 +528,7 @@ Sul piano ci possono essere tante rette parallele alla linea di terra, figure e 
 >
 > Nello spazio: il piano è un cartoncino inclinato tra il pavimento e la parete π₂; r sta sul cartoncino e buca π₃ sulla traccia t₃α.
 
-#### Il piano frontale (13 ottobre)
+#### 4.3.2 Il piano frontale (13 ottobre)
 
 Il piano frontale è parallelo a π₂ e perpendicolare a π₁ e a π₃. È uno dei piani più usati in architettura: i piani frontali sono infiniti, come le sezioni di un edificio, e dove farli passare dipende da che cosa si vuole far vedere.
 
@@ -537,7 +549,7 @@ Essendo un piano verticale, tutto ciò che vi sta ha la prima proiezione sulla p
 >
 > Nello spazio: il piano è una parete parallela a π₂; T₁f sta su t₁β e T₃f su t₃β.
 
-#### Il piano orizzontale (13 ottobre)
+#### 4.3.3 Il piano orizzontale (13 ottobre)
 
 Il piano orizzontale è parallelo a π₁. Tutte le sezioni orizzontali, tutte le piante, sono fatte con piani orizzontali.
 
@@ -557,7 +569,7 @@ Tutto ciò che sta sul piano orizzontale ha la seconda proiezione sulla seconda 
 >
 > Nello spazio: il piano è un pavimento sollevato, come il piano di sezione di una pianta.
 
-#### Il piano di profilo (13 ottobre)
+#### 4.3.4 Il piano di profilo (13 ottobre)
 
 Il piano di profilo è parallelo a π₃.
 
@@ -577,7 +589,7 @@ Il piano di profilo è verticale, quindi le prime proiezioni dei suoi elementi s
 >
 > Nello spazio: il piano è una parete parallela a π₃; taglia il pavimento e la parete π₂ lungo due tracce perpendicolari alla LT.
 
-### Il piano generico (15 ottobre)
+### 4.4 Il piano generico (15 ottobre)
 
 Il piano generico è in posizione generica rispetto a tutti e tre i piani di proiezione: forma un angolo con ciascuno, e li taglia lungo un triangolo.
 
@@ -594,7 +606,7 @@ Questo triangolo è molto importante, perché in assonometria il piano generico 
 > Il piano taglia π₁, π₂ e π₃ lungo t₁α, t₂α e t₃α, che formano un triangolo.
 > Un'orizzontale o del piano è parallela al pavimento: o₁ è parallela a t₁α.
 
-### Riconoscere il piano dalle proiezioni di una figura (13, 15 e 20 ottobre)
+### 4.5 Riconoscere il piano dalle proiezioni di una figura (13, 15 e 20 ottobre)
 
 Un piano non è generico di per sé: lo è in relazione alla posizione che assume rispetto ai piani di proiezione. Lo stesso triangolo, spostato nel modello, può stare in un piano orizzontale, frontale, proiettante in prima, proiettante in seconda o generico.
 
@@ -623,15 +635,17 @@ Per ogni piano riconosciuto si scrivono tutte e due le tracce, anche quella all'
 > Prima e seconda proiezione sono due rettangoli, con i lati AB e CD paralleli alla LT.
 > In terza proiezione A₃ ≡ B₃ e C₃ ≡ D₃: il quadrato diventa un segmento che sta sulla terza traccia t₃α, inclinata; t₁α e t₂α sono parallele alla LT.
 
-## L'APPARTENENZA (13-20 ottobre)
+---
 
-### Le tre condizioni di appartenenza (13 e 15 ottobre)
+## 5. L'APPARTENENZA (13-20 ottobre)
 
-#### Il punto e la retta (13 ottobre)
+### 5.1 Le tre condizioni di appartenenza (13 e 15 ottobre)
+
+#### 5.1.1 Il punto e la retta (13 ottobre)
 
 Un punto appartiene a una retta quando le proiezioni del punto appartengono alle proiezioni della retta: P₁ sta su r₁ e P₂ sta su r₂.
 
-#### La retta e il piano (13 e 15 ottobre)
+#### 5.1.2 La retta e il piano (13 e 15 ottobre)
 
 Una retta appartiene a un piano quando tutti i suoi punti appartengono al piano. In pratica se ne prendono due, che quando è possibile sono le tracce.
 
@@ -641,7 +655,7 @@ Non basta che una sola traccia della retta stia su una traccia del piano: un pia
 
 Se una traccia della retta è all'infinito, anche quel punto all'infinito deve stare sulla traccia corrispondente del piano. Questo succede solo se la proiezione della retta e la traccia del piano sono parallele.
 
-#### Il punto e il piano (13 e 15 ottobre)
+#### 5.1.3 Il punto e il piano (13 e 15 ottobre)
 
 Un punto appartiene a un piano se appartiene a una retta del piano. È una concatenazione: P ∈ r e r ⊂ α, quindi P ∈ α.
 
@@ -649,7 +663,7 @@ Le condizioni vanno rispettate tutte: il punto sulla retta, e la retta sul piano
 
 Bisogna anche non confondere le tracce con le proiezioni: le condizioni sulla retta e sul piano parlano di tracce, quella sul punto e sulla retta parla di proiezioni.
 
-### Regola e coincidenze (13 e 15 ottobre)
+### 5.2 Regola e coincidenze (13 e 15 ottobre)
 
 Tranne nei piani particolari, la proiezione di un punto del piano non va a finire sulla traccia: la traccia è soltanto l'intersezione del piano con un piano di proiezione.
 
@@ -663,13 +677,13 @@ Queste coincidenze vanno distinte dalla regola. La regola resta una sola: il pun
 
 Nel piano proiettante in prima, per esempio, P₁ cade sulla prima traccia; ma la dimostrazione passa per una retta. La retta verticale r per P ha r₁ ≡ T₁ᵣ ≡ P₁, e T₁ᵣ sta su t₁α: quindi r appartiene ad α, e P, che sta su r, appartiene ad α.
 
-### Le rette ausiliarie: l'orizzontale e la frontale (15 e 20 ottobre)
+### 5.3 Le rette ausiliarie: l'orizzontale e la frontale (15 e 20 ottobre)
 
 Per dimostrare che un punto sta su un piano si può usare qualunque retta del piano, anche una generica. Le rette che aiutano di più sono però le due ausiliarie, l'orizzontale e la frontale, che vanno disegnate in modo immediato, senza esitazioni, perché servono per qualunque cosa.
 
 L'orizzontale e la frontale sono le rette che servono a risolvere i problemi.
 
-#### Le rette che stanno sul piano generico (15 ottobre)
+#### 5.3.1 Le rette che stanno sul piano generico (15 ottobre)
 
 Sul piano generico possono stare:
 
@@ -686,7 +700,7 @@ Non può starci invece una retta proiettante in prima: è verticale, esce dal pi
 > La retta generica r ha T₁ᵣ su t₁α e T₂ᵣ su t₂α; l'orizzontale o è parallela a t₁α; la frontale f è parallela a t₂α.
 > La proiettante in prima v non sta sul piano: lo buca in un punto.
 
-#### L'orizzontale del piano (15 ottobre)
+#### 5.3.2 L'orizzontale del piano (15 ottobre)
 
 L'orizzontale del piano non è la parallela alla linea di terra (anche quella è orizzontale), ma la retta con la seconda proiezione parallela alla LT e la prima variamente inclinata.
 
@@ -704,7 +718,7 @@ Quindi l'orizzontale di un piano ha:
 > o₂ parallela alla LT incontra t₂α in T₂ₒ; scendendo sulla LT si trova (T₂ₒ)₁, e da lì o₁ si traccia parallela a t₁α.
 > o₁ incontra la verticale in (T₃ₒ)₁; con l'arco e salendo all'altezza di o₂ si trova T₃ₒ, che cade su t₃α.
 
-#### La frontale del piano (15 ottobre)
+#### 5.3.3 La frontale del piano (15 ottobre)
 
 Allo stesso modo la frontale, che ha la prima proiezione parallela alla LT, è parallela a π₂ e ha la seconda traccia all'infinito. Per rispettare la condizione di appartenenza deve essere parallela alla seconda traccia del piano.
 
@@ -720,9 +734,9 @@ Quindi la frontale di un piano ha:
 > f₁ parallela alla LT incontra t₁α in T₁f; salendo sulla LT si trova (T₁f)₂, e da lì f₂ si traccia parallela a t₂α.
 > f₃ è verticale; f₂ incontra la verticale in (T₃f)₂, e portando quel punto in orizzontale su f₃ si trova T₃f, che cade su t₃α.
 
-### Disegnare un punto che appartiene a un piano (15 e 20 ottobre)
+### 5.4 Disegnare un punto che appartiene a un piano (15 e 20 ottobre)
 
-#### Nel piano generico, con l'orizzontale (15 e 20 ottobre)
+#### 5.4.1 Nel piano generico, con l'orizzontale (15 e 20 ottobre)
 
 Per disegnare un punto del piano generico α si disegna prima una sua orizzontale, come visto sopra. Su questa orizzontale si sceglie un punto qualunque e se ne disegnano le proiezioni.
 
@@ -732,7 +746,7 @@ Per disegnare un punto del piano generico α si disegna prima una sua orizzontal
 > Si traccia o₂ parallela alla LT: dove incontra t₂α c'è T₂ₒ. Da T₂ₒ si scende alla LT, in (T₂ₒ)₁, e si traccia o₁ parallela a t₁α.
 > Si sceglie P₂ su o₂ e si scende con il richiamo fino a o₁: lì c'è P₁. P sta su una retta di α, quindi P ∈ α.
 
-#### Nel piano generico, con la frontale (15 ottobre)
+#### 5.4.2 Nel piano generico, con la frontale (15 ottobre)
 
 Con la frontale si comincia da f₁, parallela alla LT, che incontra t₁α in T₁f. Poi f₂ deve avere la direzione che porta il suo punto all'infinito sulla traccia del piano, quindi si costruisce parallela a t₂α.
 
@@ -744,7 +758,7 @@ Si dimostra così che P appartiene a f e che f appartiene ad α.
 > f₁ parallela alla LT incontra t₁α in T₁f; da (T₁f)₂ sulla LT si traccia f₂ parallela a t₂α.
 > Si sceglie P₂ su f₂ e si scende fino a f₁: lì c'è P₁. P ∈ f ⊂ α.
 
-#### Nei piani proiettanti (20 ottobre)
+#### 5.4.3 Nei piani proiettanti (20 ottobre)
 
 Nei piani proiettanti vale la stessa regola, con una scorciatoia data dalla coincidenza.
 
@@ -767,7 +781,7 @@ Il punto sta sulla frontale, e quindi sul piano.
 > Il piano β ha t₁β perpendicolare alla LT e t₂β inclinata; P₂ sta su t₂β e P₁ sulla stessa linea di richiamo.
 > La frontale f per P ha f₁ parallela alla LT, che incontra t₁β in T₁f, e f₂ ≡ t₂β, con T₂f∞: P sta su f, f sta su β.
 
-#### Verificare se un punto appartiene a un piano (15 ottobre)
+#### 5.4.4 Verificare se un punto appartiene a un piano (15 ottobre)
 
 Il problema si può porre anche al contrario: date le tracce di α e le due proiezioni P₂ e P₁, il punto P appartiene ad α?
 
@@ -786,13 +800,13 @@ Così si fanno due cose insieme: si verifica la condizione di appartenenza e si 
 > La retta r per P₂ ha T₂ᵣ su t₂α e T₁ᵣ su t₁α, quindi r ⊂ α.
 > Da P₂ si scende con il richiamo: P₁ non cade su r₁, quindi in questo caso P ∉ α.
 
-### I piani ausiliari (15 e 20 ottobre)
+### 5.5 I piani ausiliari (15 e 20 ottobre)
 
 I piani ausiliari sono il piano proiettante in prima e il piano proiettante in seconda. Insieme alle rette ausiliarie, sono i pochi strumenti fatti apposta per risolvere quasi tutti i problemi della geometria descrittiva.
 
 Aiutano grazie alla loro coincidenza: tutto ciò che sta sul proiettante in prima ha la prima proiezione sulla prima traccia, tutto ciò che sta sul proiettante in seconda ha la seconda proiezione sulla seconda traccia.
 
-#### La retta generica nei piani proiettanti (15 ottobre)
+#### 5.5.1 La retta generica nei piani proiettanti (15 ottobre)
 
 Una retta generica appartiene sempre a un piano proiettante: se si appoggia una retta sul cartoncino, ci sta.
 
@@ -811,7 +825,7 @@ In tutti e due i casi le tracce della retta stanno sulle tracce del piano.
 >
 > Nello spazio: il piano verticale α (blu) ha come prima traccia r₁; il piano β (verde), perpendicolare a π₂, ha come seconda traccia r₂.
 
-#### La terza traccia della retta generica (15 ottobre)
+#### 5.5.2 La terza traccia della retta generica (15 ottobre)
 
 Il piano ausiliario dà il modo più sicuro per trovare la terza traccia della retta generica.
 
@@ -833,9 +847,9 @@ Per controllo, r₂ prolungata incontra la verticale in (T₃ᵣ)₂; portando q
 >
 > Nello spazio: oltre T₂ᵣ la retta passa dietro π₂ (tratteggio) e buca π₃ prolungato in T₃ᵣ, proprio sulla traccia t₃α del piano verticale che la contiene.
 
-### I piani che contengono una retta (15 ottobre)
+### 5.6 I piani che contengono una retta (15 ottobre)
 
-#### Il metodo (15 ottobre)
+#### 5.6.1 Il metodo (15 ottobre)
 
 Per una retta passano infiniti piani: per una retta verticale, per esempio, passano infiniti piani verticali, ma solo quelli.
 
@@ -848,7 +862,7 @@ Per questo, nel disegno delle condizioni, contano le tracce della retta più che
 
 Lo schema del triedro che accompagna questi disegni non è propriamente un'assonometria, ma una trasposizione grafica del modello.
 
-#### La retta proiettante in prima (15 ottobre)
+#### 5.6.2 La retta proiettante in prima (15 ottobre)
 
 La retta verticale buca π₁ in T₁ᵣ. Un piano orizzontale non può contenerla, perché la retta lo buca in un solo punto.
 
@@ -866,7 +880,7 @@ La contengono i piani verticali, e in tutti la prima traccia passa per T₁ᵣ:
 >
 > ![[05-spazio-piani-retta-proiettante-in-prima.svg|620]]
 
-#### La retta proiettante in seconda (15 ottobre)
+#### 5.6.3 La retta proiettante in seconda (15 ottobre)
 
 La retta perpendicolare a π₂ lo buca in T₂ᵣ: r₂ è un punto e la prima traccia è all'infinito.
 
@@ -884,7 +898,7 @@ La contengono, e in tutti la seconda traccia passa per T₂ᵣ:
 >
 > ![[05-spazio-piani-retta-proiettante-in-seconda.svg|620]]
 
-#### La retta parallela alla linea di terra (15 ottobre)
+#### 5.6.4 La retta parallela alla linea di terra (15 ottobre)
 
 La retta parallela alla linea di terra non buca né π₁ né π₂, e l'unica traccia propria è la terza, T₃ᵣ, che coincide con r₃.
 
@@ -905,7 +919,7 @@ La contengono:
 >
 > ![[05-spazio-piani-retta-parallela-alla-lt.svg|620]]
 
-#### La retta orizzontale (15 ottobre)
+#### 5.6.5 La retta orizzontale (15 ottobre)
 
 L'orizzontale ha la prima traccia all'infinito e la seconda T₂ₒ.
 
@@ -925,7 +939,7 @@ Nel piano generico si è liberi di scegliere, ma una volta fissati gli elementi 
 >
 > ![[05-spazio-piani-retta-orizzontale.svg|620]]
 
-#### La retta frontale (15 ottobre)
+#### 5.6.6 La retta frontale (15 ottobre)
 
 La frontale ha la seconda traccia all'infinito e la prima T₁f. Conviene disegnare comunque f₁, per essere certi del parallelismo.
 
@@ -943,7 +957,7 @@ La contengono:
 >
 > ![[05-spazio-piani-retta-frontale.svg|620]]
 
-#### La retta di profilo (15 ottobre)
+#### 5.6.7 La retta di profilo (15 ottobre)
 
 La retta di profilo m ha la terza traccia all'infinito.
 
@@ -961,9 +975,9 @@ La contengono:
 >
 > ![[05-spazio-piani-retta-di-profilo.svg|620]]
 
-### Il piano dato da una figura (20 ottobre)
+### 5.7 Il piano dato da una figura (20 ottobre)
 
-#### Forma mongiana e forma tecnica (20 ottobre)
+#### 5.7.1 Forma mongiana e forma tecnica (20 ottobre)
 
 Finora i piani sono stati considerati nella loro estensione, attraverso le tracce. È la forma mongiana, in cui anche la retta è definita dai suoi due punti notevoli, le tracce.
 
@@ -973,7 +987,7 @@ Questa è la forma tecnica, quella del disegno di architettura, in cui non è se
 
 Se si hanno le tracce si possono disegnare le proiezioni della figura, e se si hanno le proiezioni della figura si possono trovare le tracce.
 
-#### Riconoscere le rette dei lati (20 ottobre)
+#### 5.7.2 Riconoscere le rette dei lati (20 ottobre)
 
 Per capire in che piano sta una figura si guardano le rette a cui appartengono i lati.
 
@@ -986,7 +1000,7 @@ Un lato è un segmento, e il segmento appartiene a una retta: se una proiezione 
 
 Se tutti e tre i lati di un triangolo stanno su rette generiche, il piano che contiene la figura è un piano generico.
 
-#### Una retta del piano della figura: l'orizzontale (20 ottobre)
+#### 5.7.3 Una retta del piano della figura: l'orizzontale (20 ottobre)
 
 Per disegnare una retta che appartiene al piano del triangolo, senza tracce, si sceglie un'orizzontale, costruita sfruttando il fatto che la retta passa per punti della figura.
 
@@ -1004,7 +1018,7 @@ Le orizzontali sono importanti anche in architettura: per sapere in che direzion
 > Da A₂ si traccia o₂ parallela alla LT, che incontra B₂C₂ in H₂; scendendo con il richiamo si trova H₁ su B₁C₁, e o₁ passa per A₁ e H₁.
 > Un punto P preso su o appartiene al piano del triangolo.
 
-#### Dalle proiezioni della figura alle tracce del piano (20 ottobre)
+#### 5.7.4 Dalle proiezioni della figura alle tracce del piano (20 ottobre)
 
 Le tracce di un piano contengono le tracce delle rette che compongono la figura, cioè dei lati che la limitano. La prima traccia del piano contiene le prime tracce delle rette dei lati, la seconda traccia ne contiene le seconde tracce.
 
@@ -1026,11 +1040,13 @@ Le tracce non sono però sempre utili, perché spesso finiscono lontano.
 > Per la retta r del lato AB e la retta s del lato BC si trovano le tracce con i punti notevoli sulla LT.
 > t₁α passa per T₁ᵣ e T₁ₛ, t₂α per T₂ᵣ e T₂ₛ, e le due tracce si incontrano sulla LT; le tracce della retta m del lato AC servono da controllo.
 
-## LA PERPENDICOLARITÀ (20 ottobre)
+---
 
-### La retta perpendicolare a un piano (20 ottobre)
+## 6. LA PERPENDICOLARITÀ (20 ottobre)
 
-#### Il teorema di Monge (20 ottobre)
+### 6.1 La retta perpendicolare a un piano (20 ottobre)
+
+#### 6.1.1 Il teorema di Monge (20 ottobre)
 
 Una retta è perpendicolare a un piano se è perpendicolare a due rette del piano.
 
@@ -1047,7 +1063,7 @@ La retta può essere esterna al piano, ma la stessa perpendicolarità vale per r
 >
 > Nello spazio (schema proposto, non disegnato a lezione): la retta r per P incontra α nel punto H ad angolo retto, e le sue proiezioni risultano perpendicolari alle tracce del piano.
 
-#### Senza tracce: con l'orizzontale e la frontale (20 ottobre)
+#### 6.1.2 Senza tracce: con l'orizzontale e la frontale (20 ottobre)
 
 Se il piano è dato da una figura e non si hanno le tracce, si torna alla prima definizione: la retta è perpendicolare al piano quando è perpendicolare a due rette del piano. Le rette che vengono in soccorso sono l'orizzontale e la frontale.
 
@@ -1069,13 +1085,13 @@ Le condizioni sono più facili di quello che sembrano, perché sono tutte colleg
 > Nel triangolo ABC l'orizzontale o passa per A e B (A₂B₂ parallelo alla LT), la frontale f per A e C (A₁C₁ parallelo alla LT).
 > Dal punto Q si traccia r₁ perpendicolare a o₁ e r₂ perpendicolare a f₂: r è perpendicolare a due rette del piano, quindi al piano.
 
-### I piani perpendicolari (20 ottobre)
+### 6.2 I piani perpendicolari (20 ottobre)
 
-#### La condizione (20 ottobre)
+#### 6.2.1 La condizione (20 ottobre)
 
 Due piani sono perpendicolari tra loro se uno dei due contiene una retta perpendicolare all'altro.
 
-#### Due piani proiettanti (20 ottobre)
+#### 6.2.2 Due piani proiettanti (20 ottobre)
 
 Per i piani proiettanti la verifica è immediata. Un quaderno aperto e messo in piedi sul banco dà due piani proiettanti in prima, e le loro tracce sul banco sono le prime tracce: quando le due metà sono ortogonali, l'angolo di 90° sta a terra, su π₁.
 
@@ -1107,7 +1123,7 @@ Si può comunque verificare la condizione, cercando nel piano δ una retta perpe
 > β ed ε hanno le prime tracce perpendicolari alla LT e l'angolo retto tra le seconde tracce.
 > La frontale r di ε, con r₂ ≡ t₂ε e r₁ parallela alla LT, è perpendicolare a β.
 
-#### Un piano perpendicolare a un piano generico (20 ottobre)
+#### 6.2.3 Un piano perpendicolare a un piano generico (20 ottobre)
 
 Si può disegnare un piano generico perpendicolare a un piano generico, ma è abbastanza complicato.
 
@@ -1128,15 +1144,17 @@ Quell'orizzontale è quindi perpendicolare a γ, e i due piani sono perpendicola
 > Il piano γ ha t₁γ ⊥ t₁α (si segnano i 90°) e t₂γ perpendicolare alla LT.
 > L'orizzontale di α ha o₁ ⊥ t₁γ e o₂ ⊥ t₂γ. Nello schema c'è anche la verifica inversa: la retta r di γ, con r₁ ≡ t₁γ e r₂ ⊥ t₂α, è perpendicolare ad α.
 
-## FIGURE PIANE E SOLIDI (13 e 20 ottobre)
+---
 
-### La figura e il suo piano (20 ottobre)
+## 7. FIGURE PIANE E SOLIDI (13 e 20 ottobre)
+
+### 7.1 La figura e il suo piano (20 ottobre)
 
 Una figura non è di per sé un piano generico: è una figura messa in una certa posizione, che appartiene a un piano. A seconda di come la si colloca nel modello, lo stesso triangolo può stare in un piano verticale, frontale, orizzontale, proiettante o generico, e le condizioni di appartenenza restano sempre rispettate.
 
 Come si riconosce il piano dalle proiezioni della figura si è visto nel capitolo sul piano; come si passa dalla figura alle tracce, nel capitolo sull'appartenenza.
 
-### La vera grandezza (13 e 20 ottobre)
+### 7.2 La vera grandezza (13 e 20 ottobre)
 
 Solo in alcune posizioni il disegno corrisponde alle misure vere della figura.
 
@@ -1154,7 +1172,7 @@ Ma non tutto ciò che si disegna è ad angolo retto. Una figura su un piano proi
 > In prima proiezione il quadrato è un segmento su t₁α (A₁ ≡ D₁, B₁ ≡ C₁).
 > In seconda proiezione l'altezza è vera ma la larghezza è ridotta; in terza è ancora più stretto. Nessuna delle tre proiezioni è in vera grandezza.
 
-### I solidi (20 ottobre)
+### 7.3 I solidi (20 ottobre)
 
 I solidi sono delimitati da una serie di facce, che sono figure piane.
 
@@ -1178,9 +1196,11 @@ Per capire in che piano sta una faccia di un solido si ragiona come per qualunqu
 > Nel parallelepipedo rettangolo ogni spigolo è il lato comune di due facce, che formano un diedro.
 > Nel prisma a base triangolare le due basi sono congruenti e parallele.
 
-## IL RIBALTAMENTO (20 e 22 ottobre)
+---
 
-### Perché si ribalta un piano (22 ottobre)
+## 8. IL RIBALTAMENTO (20 e 22 ottobre)
+
+### 8.1 Perché si ribalta un piano (22 ottobre)
 
 Quando una figura sta su un piano proiettante, le sue proiezioni non dicono quanto è grande davvero.
 
@@ -1188,7 +1208,7 @@ Nel piano proiettante in prima, per esempio, un triangolo ABC diventa in prima p
 
 Il ribaltamento è l'operazione con cui si fa ruotare il piano che contiene la figura intorno a una delle sue tracce, finché non si appoggia su un piano di proiezione. Il ribaltamento fa conoscere la vera grandezza e forma della figura.
 
-### Il piano mobile e la cerniera (20 e 22 ottobre)
+### 8.2 Il piano mobile e la cerniera (20 e 22 ottobre)
 
 Nel modello il ribaltamento si vede con un piano proiettante in prima mobile: un cartoncino grande, piegato o tagliato alla base, che resta in piedi ma può ruotare intorno alla sua prima traccia.
 
@@ -1202,7 +1222,7 @@ Le rotazioni avvengono sempre intorno alle tracce. La traccia intorno a cui il p
 > Il piano γ è proiettante in prima e il triangolo ABC ha la prima proiezione su t₁γ.
 > Il piano ruota intorno a t₁γ, che fa da cerniera, fino a stendersi su π₁: il triangolo (A)(B)(C) è in vera forma.
 
-### La rotazione avviene lungo archi di circonferenza (20 e 22 ottobre)
+### 8.3 La rotazione avviene lungo archi di circonferenza (20 e 22 ottobre)
 
 Durante la rotazione ogni punto del piano descrive un arco di circonferenza, e l'arco sta su un piano perpendicolare all'asse di rotazione, cioè alla traccia. È come la spirale del quaderno che, bloccata, lascia ai fogli un solo movimento possibile.
 
@@ -1221,9 +1241,9 @@ Il punto ribaltato si indica con l'asterisco: A\* è il ribaltamento di A.
 > Il piano α, proiettante in prima, ruota intorno a t₁α finché si appoggia su π₁.
 > Ogni vertice descrive un quarto di circonferenza (tratteggio rosso) su un piano perpendicolare a t₁α, con il centro sulla traccia; alla fine A\*B\*C\* sta su π₁ con le sue misure vere.
 
-### Il ribaltamento del piano proiettante in prima (22 ottobre)
+### 8.4 Il ribaltamento del piano proiettante in prima (22 ottobre)
 
-#### Su π₁, intorno alla prima traccia (22 ottobre)
+#### 8.4.1 Su π₁, intorno alla prima traccia (22 ottobre)
 
 Per ribaltare su π₁ un piano proiettante in prima la seconda traccia non serve: tutto avviene sul primo piano di proiezione, e la cerniera è la prima traccia t₁α.
 
@@ -1237,7 +1257,7 @@ Si allontana dalla traccia esattamente quanto era alto, perché il raggio di rot
 > Da A₁ si traccia la perpendicolare a t₁α e vi si riporta la quota di A, cioè la distanza di A₂ dalla LT: si trova A\*.
 > Si fa lo stesso per B e per C, segnando i segmenti uguali con le lineette; A\*B\*C\* è la vera grandezza e forma.
 
-#### Su π₂, intorno alla seconda traccia (22 ottobre)
+#### 8.4.2 Su π₂, intorno alla seconda traccia (22 ottobre)
 
 Lo stesso piano si può ribaltare su π₂. Invece di abbatterlo intorno alla prima traccia, lo si chiude come una porta, facendo cerniera sulla seconda traccia t₂α, che è verticale.
 
@@ -1259,11 +1279,11 @@ Il risultato è lo stesso. Questo ribaltamento è il più facile.
 >
 > Sul foglio: con il centro in K, dove t₂α incontra la LT, l'arco di raggio KA₁ porta A₁ sulla LT; da lì si sale fino all'altezza di A₂ e si trova A\*.
 
-### Il ribaltamento del piano proiettante in seconda (22 ottobre)
+### 8.5 Il ribaltamento del piano proiettante in seconda (22 ottobre)
 
 Nel piano proiettante in seconda la seconda proiezione della figura si riduce a una linea su t₂α, e la prima proiezione non è in vera grandezza. Valgono le stesse due possibilità: si può ribaltare su π₁ o su π₂.
 
-#### Su π₁, intorno alla prima traccia (22 ottobre)
+#### 8.5.1 Su π₁, intorno alla prima traccia (22 ottobre)
 
 Per ribaltare su π₁ si fa ruotare il piano intorno alla prima traccia. A₂, B₂, C₂ compiono degli archi di circonferenza con il centro nel punto in cui la traccia incontra la linea di terra, perché l'asse di rotazione è una traccia.
 
@@ -1284,7 +1304,7 @@ Si trovano così A\*, B\*, C\*.
 >
 > Sul foglio: con il centro in K l'arco di raggio KA₂ porta A₂ sulla LT; da lì si scende fino alla distanza di A₁ dalla LT e si trova A\*.
 
-#### Su π₂, intorno alla seconda traccia (22 ottobre)
+#### 8.5.2 Su π₂, intorno alla seconda traccia (22 ottobre)
 
 Per ribaltare su π₂ si fa ruotare il piano intorno alla seconda traccia. Anche qui la rotazione avviene su piani perpendicolari all'asse: ogni punto ribaltato si trova sulla perpendicolare a t₂α condotta dalla sua seconda proiezione, a una distanza uguale al suo aggetto.
 
@@ -1294,7 +1314,7 @@ Per ribaltare su π₂ si fa ruotare il piano intorno alla seconda traccia. Anch
 > Da A₂ si traccia la perpendicolare a t₂α e vi si riporta l'aggetto di A, cioè la distanza di A₁ dalla LT: si trova A\*.
 > Il triangolo A\*B\*C\* è uguale a quello ribaltato su π₁.
 
-### Una sola figura e le lineette di uguaglianza (22 ottobre)
+### 8.6 Una sola figura e le lineette di uguaglianza (22 ottobre)
 
 I modi per ribaltare un piano proiettante sono due, intorno alla prima traccia o intorno alla seconda. Riassumendo:
 
@@ -1307,9 +1327,9 @@ I due ribaltamenti della stessa figura devono risultare identici. Il ribaltament
 
 Ogni volta che si riporta una misura, i due segmenti uguali si segnano con lo stesso numero di lineette: una per il primo punto, due per il secondo, tre per il terzo. Va fatto sempre, perché chi disegna deve far capire quello che ha fatto.
 
-### L'omologia di ribaltamento (22 ottobre)
+### 8.7 L'omologia di ribaltamento (22 ottobre)
 
-#### Ruotare equivale a proiettare (22 ottobre)
+#### 8.7.1 Ruotare equivale a proiettare (22 ottobre)
 
 Tra la prima proiezione di una figura e il suo ribaltamento si crea una relazione omologica, l'omologia di ribaltamento.
 
@@ -1330,7 +1350,7 @@ Nei piani proiettanti c'è una coincidenza: la prima proiezione della figura non
 > In sezione, su un piano perpendicolare a t₁α, la traccia è un punto, α una linea verticale e π₁ una linea orizzontale.
 > A ruota lungo un quarto di circonferenza fino ad A\*; il segmento AA\* è perpendicolare al piano bisettore, quindi ruotare il punto è come proiettarlo in quella direzione.
 
-#### Il punto unito sulla cerniera (22 ottobre)
+#### 8.7.2 Il punto unito sulla cerniera (22 ottobre)
 
 La proprietà delle rette corrispondenti si può controllare sul ribaltamento del proiettante in prima.
 
@@ -1344,6 +1364,8 @@ Per questo la retta ribaltata A\*C\* deve passare per la prima traccia della ret
 > Schema proposto, non disegnato a lezione.
 > Si prolunga A₂C₂ fino alla LT e si scende fino a t₁α: lì c'è la prima traccia della retta AC. Il lato ribaltato A\*C\*, prolungato, deve passare per quel punto.
 > I segmenti A₁A\* e C₁C\* sono perpendicolari a t₁α: è la direzione del centro all'infinito.
+
+---
 
 ## Collegamenti
 
