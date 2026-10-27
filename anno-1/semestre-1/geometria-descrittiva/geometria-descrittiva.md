@@ -13,7 +13,15 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 ## Appunti (i tuoi PDF finiti)
 
 - [[teoria-omologia|Teoria: geometria proiettiva e omologia]]: tutta la teoria fino alla traslazione, con i disegni, senza esercizi
-- [[teoria-proiezioni-ortogonali|Teoria: le proiezioni ortogonali]]: tutta la teoria dall'8 al 22 ottobre, ordinata per argomento
+- Teoria delle proiezioni ortogonali, in otto pagine:
+	- [[PO 1 - Il metodo di Monge]]
+	- [[PO 2 - Il punto]]
+	- [[PO 3 - La retta]]
+	- [[PO 4 - Il piano]]
+	- [[PO 5 - L'appartenenza]]
+	- [[PO 6 - La perpendicolarità]]
+	- [[PO 7 - Figure piane e solidi]]
+	- [[PO 8 - Il ribaltamento]]
 - [[esercitazioni|Esercitazioni]]: tutti gli esercizi fatti finora, divisi per argomento, con data e provenienza
 
 ## Sbobine

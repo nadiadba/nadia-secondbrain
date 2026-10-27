@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, appunti, teoria]
 > [!info] Note collegate
 > Bozza con gli esercizi: [[02-proiezioni-e-omologia-schema]] · Sbobine: [[02-proiezioni-e-omologia]] (6 ottobre) · [[03-proiettiva-e-proiezioni-ortogonali]] (8 ottobre)
 >
-> Teoria successiva: [[teoria-proiezioni-ortogonali]]
+> Teoria successiva: [[PO 1 - Il metodo di Monge|Proiezioni ortogonali]]
 
 Questa pagina raccoglie tutta la teoria della prima parte del corso, dalle lezioni del 6 e dell'8 ottobre: i richiami di geometria euclidea, la geometria proiettiva, la prospettività e l'omologia con i suoi casi particolari, fino alla traslazione.
 
@@ -615,4 +615,4 @@ Le due proprietà dell'omologia e le condizioni di appartenenza sono gli strumen
 
 Le stesse relazioni tornano più avanti nel corso: l'affinità ortogonale nel [[07-il-ribaltamento|ribaltamento]] delle figure piane e nell'assonometria ortogonale, l'affinità obliqua nell'assonometria obliqua, l'omologia nelle sezioni delle piramidi, l'omotetia nella prospettiva centrale frontale.
 
-Dalla distinzione tra centro proprio e centro improprio nascono i metodi di rappresentazione: le proiezioni cilindriche portano alle [[teoria-proiezioni-ortogonali|proiezioni ortogonali]], dove al posto degli apici si usano i pedici e dove il triedro dei piani $\pi_1$, $\pi_2$, $\pi_3$ diventa il riferimento di tutte le costruzioni ([[03-proiezioni-ortogonali-punto-e-rette]]).
+Dalla distinzione tra centro proprio e centro improprio nascono i metodi di rappresentazione: le proiezioni cilindriche portano alle [[PO 1 - Il metodo di Monge|proiezioni ortogonali]], dove al posto degli apici si usano i pedici e dove il triedro dei piani $\pi_1$, $\pi_2$, $\pi_3$ diventa il riferimento di tutte le costruzioni ([[03-proiezioni-ortogonali-punto-e-rette]]).

@@ -10,13 +10,13 @@ tags: [geometria-descrittiva, appunti, esercizi]
 # Esercitazioni di geometria descrittiva
 
 > [!info] Note collegate
-> Teoria: [[teoria-omologia]] · [[teoria-proiezioni-ortogonali]] · Ripasso per la prova: [[00-ripasso-prova-1]]
+> Teoria: [[teoria-omologia]] · [[PO 1 - Il metodo di Monge|Proiezioni ortogonali]] · Ripasso per la prova: [[00-ripasso-prova-1]]
 >
 > Bozze delle lezioni: [[01-strumenti-materiali-e-regole]] · [[02-proiezioni-e-omologia-schema]] · [[03-proiezioni-ortogonali-punto-e-rette]] · [[04-rette-e-piani-nelle-varie-posizioni]] · [[05-appartenenza-e-rette-ausiliarie]] · [[06-piani-ausiliari-e-perpendicolarita]] · [[07-il-ribaltamento]]
 
 Questa pagina raccoglie tutti gli esercizi e le esercitazioni del corso dal 1 al 22 ottobre: quelli svolti in aula, quelli corretti a lezione, le soluzioni della docente dei fogli di esercizi e gli esercizi proposti dalle schede che a lezione non sono stati svolti.
 
-La teoria che serve per risolverli sta nelle due pagine [[teoria-omologia]] e [[teoria-proiezioni-ortogonali]].
+La teoria che serve per risolverli sta nelle due pagine [[teoria-omologia]] e [[PO 1 - Il metodo di Monge|Proiezioni ortogonali]].
 
 Gli esercizi sono divisi per argomento, nell'ordine del corso. Nel titolo di ogni esercizio, tra parentesi, ci sono la data e la provenienza:
 
@@ -624,7 +624,7 @@ Negli esercizi sul ribaltamento i segmenti uguali vanno segnati sempre con una, 
 
 ## Collegamenti
 
-Gli esercizi di questa pagina mettono in pratica la teoria raccolta in [[teoria-omologia]] e [[teoria-proiezioni-ortogonali]], e seguono le lezioni nell'ordine in cui sono state fatte.
+Gli esercizi di questa pagina mettono in pratica la teoria raccolta in [[teoria-omologia]] e [[PO 1 - Il metodo di Monge|Proiezioni ortogonali]], e seguono le lezioni nell'ordine in cui sono state fatte.
 
 Le piante e i prospetti dei solidi della [[01-strumenti-materiali-e-regole|prima lezione]] sono un primo assaggio delle proiezioni ortogonali: la pianta diventa la prima proiezione e il prospetto la seconda, con la linea di terra che le separa, come si vede nelle [[03-proiezioni-ortogonali-punto-e-rette|proiezioni ortogonali del punto e delle rette]].
 
