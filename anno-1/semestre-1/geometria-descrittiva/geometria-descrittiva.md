@@ -15,6 +15,7 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 - [[teoria-omologia|Teoria: geometria proiettiva e omologia]]: tutta la teoria fino alla traslazione, con i disegni, senza esercizi
 - Teoria delle proiezioni ortogonali, in otto pagine:
 	- [[PO 1 - Il metodo di Monge]]
+	- [[PO 1b - I prospetti, spiegati bene]]
 	- [[PO 2 - Il punto]]
 	- [[PO 3 - La retta]]
 	- [[PO 4 - Il piano]]

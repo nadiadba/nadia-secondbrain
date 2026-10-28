@@ -10,7 +10,7 @@ tags: [geometria-descrittiva, appunti, teoria]
 # PO 1 - Il metodo di Monge
 
 > [!info] Note collegate
-> Precedente: — · Successiva: [[PO 2 - Il punto]]
+> Precedente: — · Successiva: [[PO 2 - Il punto]] · Approfondimento: [[PO 1b - I prospetti, spiegati bene]]
 >
 > Esercizi: [[esercitazioni|Esercitazioni]] · Teoria collegata: [[teoria-omologia]]
 >
@@ -119,6 +119,8 @@ La pianta da sola non basta a dare l'idea della forma. Per stabilire i volumi de
 Il prospetto è ciò che si vede guardando l'edificio da fuori, da uno dei suoi lati, come se ci si camminasse intorno.
 
 ### 1.5.1 Da che parte si guarda (8 ottobre)
+
+Se questa parte non è chiara, c'è una pagina che la spiega passo passo con i disegni: [[PO 1b - I prospetti, spiegati bene]].
 
 Il prospetto si guarda sempre da fuori; solo la sezione permette di guardare da dentro.
 
