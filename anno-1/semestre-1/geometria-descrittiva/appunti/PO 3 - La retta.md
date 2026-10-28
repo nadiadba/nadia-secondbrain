@@ -168,7 +168,9 @@ Frontale e orizzontale sono una lo specchio dell'altra:
 > [!example] Disegno 16 · Una retta con le tracce dall'altra parte
 > ![[b06-retta-tracce-sotto-la-lt.svg|540]]
 >
-> Schema proposto, non disegnato a lezione: i punti notevoli si trovano come prima, ma T₂ᵣ cade sotto la LT.
+> ![[b06-spazio-retta-tracce-sotto-la-lt.svg|560]]
+>
+> Schema proposto, non disegnato a lezione: i punti notevoli si trovano come prima, ma T₂ᵣ cade sotto la LT. In 3D: la retta buca il pavimento in T₁ᵣ, prosegue sotto il pavimento e incontra la parete π₂ solo lì sotto, in T₂ᵣ.
 
 ---
 
