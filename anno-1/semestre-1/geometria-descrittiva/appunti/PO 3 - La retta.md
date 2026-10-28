@@ -26,6 +26,18 @@ Il nome di una retta si assegna in base alla posizione che assume rispetto ai pr
 
 Una retta perpendicolare a π₃, per esempio, è anche proiettante in terza, ma si chiama parallela alla linea di terra, perché è parallela a π₁ e a π₂.
 
+In pratica, per dare il nome a una retta ci si fanno due domande: com'è rispetto a π₁ (il pavimento)? E com'è rispetto a π₂ (la parete di fronte)? Le risposte possibili sono «perpendicolare», «parallela» o «inclinata», e ogni combinazione ha il suo nome:
+
+- perpendicolare a π₁ (in piedi, come un palo): retta proiettante in prima;
+- perpendicolare a π₂ (che esce dalla parete verso di te): retta proiettante in seconda;
+- parallela a π₁ e parallela a π₂ (orizzontale e parallela alla parete): retta parallela alla linea di terra;
+- parallela a π₂ e inclinata rispetto a π₁ (appoggiata alla parete, come una scala a pioli): retta frontale;
+- parallela a π₁ e inclinata rispetto a π₂ (orizzontale, ma storta rispetto alla parete): retta orizzontale;
+- inclinata rispetto a π₁ e a π₂, ma tutta contenuta in un piano perpendicolare alla linea di terra (parallela a π₃, il piano di lato): retta di profilo;
+- inclinata rispetto a tutti e tre i piani: retta generica.
+
+Ognuna di queste rette ha il suo paragrafo più avanti in questa pagina.
+
 ### 3.1.2 Le tracce (8 e 13 ottobre)
 
 La traccia di una retta è il punto in cui la retta incontra un piano di proiezione. Essendo un punto si scrive con la T maiuscola, il numero del piano e il nome della retta: T₁ᵣ su π₁, T₂ᵣ su π₂, T₃ᵣ su π₃.
