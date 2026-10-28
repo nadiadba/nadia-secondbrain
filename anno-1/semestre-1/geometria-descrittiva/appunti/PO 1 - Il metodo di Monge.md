@@ -128,6 +128,13 @@ Se invece si mette la LT subito sopra la pianta e si disegna il prospetto in pie
 
 È come la mano: per vedere il dorso bisogna guardare dalla parte del dorso, non del palmo.
 
+Un modo semplice per non sbagliare è immaginare di camminare intorno all'edificio disegnato in pianta.
+
+1. Per disegnare un prospetto ti metti fuori dall'edificio, davanti al lato che vuoi rappresentare, con le spalle verso l'esterno del foglio.
+2. La linea di terra va tra te e l'edificio: dalla tua parte, cioè dalla parte di quel lato.
+3. Il prospetto si disegna oltre la linea di terra, ancora più lontano dalla pianta, "in piedi" rispetto a te che guardi da lì.
+4. Per il lato in basso nel foglio sei tu che guardi normalmente, quindi il prospetto viene dritto. Per il lato in alto stai guardando dalla parte opposta del foglio, quindi il prospetto, visto da te seduta al tavolo, è a testa in giù. Per leggerlo basta girare il foglio, o girarci intorno.
+
 > [!example] Disegno 4 · Il prospetto giusto e quello sbagliato
 > ![[03-prospetto-giusto-e-sbagliato.svg|660]]
 >
