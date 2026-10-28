@@ -141,6 +141,14 @@ Un modo semplice per non sbagliare è immaginare di camminare intorno all'edific
 > La forma dell'edificio è uno schema: conta solo la rientranza.
 > Giusto: la LT sta in alto e il prospetto scende dalla LT verso la pianta, a testa in giù; girando il foglio la rientranza è a destra.
 > Sbagliato: la LT sta subito sopra la pianta e il prospetto è in piedi; la rientranza finisce dalla parte sbagliata.
+>
+> Lo stesso ragionamento in tre passaggi:
+>
+> ![[b03-prospetto-tre-passi.svg|720]]
+>
+> 1. Chi guarda il lato in alto sta fuori, sopra la pianta, girato verso il basso: per lui la rientranza è a destra (sul foglio sembra a sinistra perché è girato verso di te).
+> 2. Il prospetto si disegna dalla sua parte: LT in alto e prospetto appeso alla LT. Visto da te è a testa in giù.
+> 3. Girando il foglio sei tu al posto suo: il prospetto è dritto e la rientranza è a destra, come la vede lui.
 
 ## 1.6 Le scale di rappresentazione (8 ottobre)
 
