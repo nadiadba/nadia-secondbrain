@@ -28,13 +28,15 @@ Una retta perpendicolare a π₃, per esempio, è anche proiettante in terza, ma
 
 In pratica, per dare il nome a una retta ci si fanno due domande: com'è rispetto a π₁ (il pavimento)? E com'è rispetto a π₂ (la parete di fronte)? Le risposte possibili sono «perpendicolare», «parallela» o «inclinata», e ogni combinazione ha il suo nome:
 
-- perpendicolare a π₁ (in piedi, come un palo): retta proiettante in prima;
-- perpendicolare a π₂ (che esce dalla parete verso di te): retta proiettante in seconda;
-- parallela a π₁ e parallela a π₂ (orizzontale e parallela alla parete): retta parallela alla linea di terra;
-- parallela a π₂ e inclinata rispetto a π₁ (appoggiata alla parete, come una scala a pioli): retta frontale;
-- parallela a π₁ e inclinata rispetto a π₂ (orizzontale, ma storta rispetto alla parete): retta orizzontale;
-- inclinata rispetto a π₁ e a π₂, ma tutta contenuta in un piano perpendicolare alla linea di terra (parallela a π₃, il piano di lato): retta di profilo;
-- inclinata rispetto a tutti e tre i piani: retta generica.
+- perpendicolare a π₁ (in piedi, come un palo): retta proiettante in prima;<br>![[b04-retta-stanza-1.svg|230]]
+- perpendicolare a π₂ (che esce dalla parete verso di te): retta proiettante in seconda;<br>![[b04-retta-stanza-2.svg|230]]
+- parallela a π₁ e parallela a π₂ (orizzontale e parallela alla parete): retta parallela alla linea di terra;<br>![[b04-retta-stanza-3.svg|230]]
+- parallela a π₂ e inclinata rispetto a π₁ (appoggiata alla parete, come una scala a pioli): retta frontale;<br>![[b04-retta-stanza-4.svg|230]]
+- parallela a π₁ e inclinata rispetto a π₂ (orizzontale, ma storta rispetto alla parete): retta orizzontale;<br>![[b04-retta-stanza-5.svg|230]]
+- inclinata rispetto a π₁ e a π₂, ma tutta contenuta in un piano perpendicolare alla linea di terra (parallela a π₃, il piano di lato): retta di profilo;<br>![[b04-retta-stanza-6.svg|230]]
+- inclinata rispetto a tutti e tre i piani: retta generica.<br>![[b04-retta-stanza-7.svg|230]]
+
+Nei disegnini la stanza è il triedro: π₁ è il pavimento, π₂ la parete di fronte, π₃ la parete di lato. La retta è in rosso; la linea grigia tratteggiata sul pavimento è la sua «ombra» dall'alto, cioè la prima proiezione.
 
 Ognuna di queste rette ha il suo paragrafo più avanti in questa pagina.
 
