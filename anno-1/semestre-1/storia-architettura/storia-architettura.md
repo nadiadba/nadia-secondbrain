@@ -45,3 +45,4 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 
 ## Da fare
 
+- [ ] Visita al Celio (mer 28 ottobre): eri assente, chiedere a Marta gli appunti o la registrazione; poi sbobina e bozza (slide: `14_visita Celio.pdf`)
