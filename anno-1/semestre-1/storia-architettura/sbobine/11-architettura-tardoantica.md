@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica di Memo Vocali). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
+> Bozza: [[11-architettura-tardoantica-da-baalbek-a-spalato]]
+>
 > Sbobina precedente: [[10-adriano-pantheon]]
 
 ## Che cosa si intende per architettura tardoantica

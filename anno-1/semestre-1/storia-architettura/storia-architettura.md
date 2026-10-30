@@ -39,6 +39,9 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 - [[06-potere-imperiale-spettacolo-pompei|L'immagine del potere imperiale, teatri e anfiteatri, Pompei e la domus]]
 - [[07-residenza-romana-palatino-domus-aurea|La residenza romana: l'insula, il Palatino, la Domus Aurea]]
 - [[08-terme-di-caracalla|Le Terme di Caracalla]]
+- [[09-villa-romana-e-villa-adriana|La villa romana e Villa Adriana a Tivoli]]: le ville sul lago e sul mare, Adriano committente, gli spazi della villa e i viaggi dell'imperatore.
+- [[10-pantheon-da-agrippa-ad-adriano|Il Pantheon: da Agrippa ad Adriano]]: la storia, il pronao, la rotonda e la cupola; il confronto con il Partenone.
+- [[11-architettura-tardoantica-da-baalbek-a-spalato|L'architettura tardoantica: da Baalbek a Spalato]]: Baalbek e Leptis Magna, la domus tardoantica, l'Arco di Costantino, la Basilica di Massenzio, il Palazzo di Diocleziano.
 
 ## Da fare
 

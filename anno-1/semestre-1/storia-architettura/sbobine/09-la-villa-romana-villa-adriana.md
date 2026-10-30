@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione di una compagna di corso (trascrizione automatica con Whisper). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
 
 > [!info] Note collegate
+> Bozza: [[09-villa-romana-e-villa-adriana]]
+>
 > Sbobina precedente: [[08-visita-terme-caracalla]] · Successiva: [[10-adriano-pantheon]]
 
 ## La villa nel mondo romano: riepilogo

@@ -12,7 +12,7 @@ tags: [storia-architettura, bozza]
 > [!info] Note collegate
 > Sbobina: [[02-grecia-antica-partenone]]
 >
-> Argomenti collegati: [[01-ordini-architettonici]] · [[03-roma-foro-e-fori-imperiali]]
+> Argomenti collegati: [[01-ordini-architettonici]] · [[03-roma-foro-e-fori-imperiali]] · [[10-pantheon-da-agrippa-ad-adriano]]
 
 La civiltà greca si suddivide convenzionalmente in tre fasi: il periodo arcaico (600-480 a.C.), il periodo classico (480-323 a.C.) e il periodo ellenistico, che si chiude con l'affermarsi della supremazia di Roma nel I secolo a.C. Parlare di Grecia classica significa collocarsi nel preciso arco cronologico che va dalla battaglia di Salamina alla morte di Alessandro Magno: non un'idea astratta, dunque, ma il risultato di una produzione artistica, architettonica e culturale situata in quel periodo. Il suo centro è Atene, e il suo luogo simbolo è l'Acropoli, con il Partenone.
 
