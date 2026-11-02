@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="#ffffff"/>
+<polygon points="10.000,10.000 410.000,10.000 410.000,287.000 10.000,287.000" fill="#ffffff" stroke="#000000" stroke-width="0.25"/>
+<text x="16.000" y="19.000" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#000000" text-anchor="start" font-weight="bold">Sezione BB' (facciata nord), scala 1:50</text>
+<text x="16.000" y="25.000" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start">Vista da fuori, guardando verso sud (est a sinistra, ovest a destra). Quote in metri, terreno = -0,40, pavimento = 0,00.</text>
+<text x="404.000" y="283.000" font-family="Helvetica, Arial, sans-serif" font-size="2.4" fill="#8a8a8a" text-anchor="end">Casa ad Arzachena (1962-64), Marco Zanuso. Tavola 6 di 6. Ricostruzione dalla scheda dell'esercizio n. 3.</text>
+<polyline points="396.000,198.000 36.000,198.000" fill="none" stroke="#000000" stroke-width="0.3"/>
+<polyline points="372.000,198.000 367.400,124.000 64.600,124.000 60.000,198.000" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polygon points="256.000,150.000 176.000,150.000 176.000,198.000 256.000,198.000" fill="none" stroke="#000000" stroke-width="0.2"/>
+<polyline points="216.000,150.000 216.000,190.000" fill="none" stroke="#000000" stroke-width="0.15"/>
+<polyline points="256.000,190.000 176.000,190.000" fill="none" stroke="#000000" stroke-width="0.15"/>
+<polyline points="256.000,194.000 176.000,194.000" fill="none" stroke="#000000" stroke-width="0.15"/>
+<polygon points="273.000,141.000 159.000,141.000 159.000,150.000 273.000,150.000" fill="none" stroke="#000000" stroke-width="0.2"/>
+<polygon points="323.000,169.000 313.000,169.000 313.000,156.000 323.000,156.000" fill="none" stroke="#000000" stroke-width="0.2"/>
+<polygon points="112.000,169.000 102.000,169.000 102.000,156.000 112.000,156.000" fill="none" stroke="#000000" stroke-width="0.2"/>
+<polygon points="316.000,124.000 304.000,124.000 304.000,87.000 316.000,87.000" fill="none" stroke="#000000" stroke-width="0.2"/>
+<text x="236.000" y="170.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#8a8a8a" text-anchor="middle">anta</text>
+<text x="196.000" y="170.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#8a8a8a" text-anchor="middle">anta</text>
+<text x="216.000" y="146.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#8a8a8a" text-anchor="middle">architrave</text>
+<text x="310.000" y="81.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#8a8a8a" text-anchor="middle">canna fumaria</text>
+<polyline points="372.000,206.000 323.000,206.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="347.500" y="205.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">2,45</text>
+<polyline points="323.000,206.000 313.000,206.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="318.000" y="205.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">0,50</text>
+<polyline points="313.000,206.000 256.000,206.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="284.500" y="205.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">2,85</text>
+<polyline points="256.000,206.000 176.000,206.000" fill="none" stroke="#000000" stroke-width="0.13"/>
+<text x="216.000" y="205.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle">4,00</text>
+<polyline points="176.000,206.000 112.000,206.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="144.000" y="205.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">3,20</text>
+<polyline points="112.000,206.000 102.000,206.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="107.000" y="205.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">0,50</text>
+<polyline points="102.000,206.000 60.000,206.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="81.000" y="205.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">2,10</text>
+<polyline points="372.000,206.000 372.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="371.300,206.700 372.700,205.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="323.000,206.000 323.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="322.300,206.700 323.700,205.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="313.000,206.000 313.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="312.300,206.700 313.700,205.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="256.000,206.000 256.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="255.300,206.700 256.700,205.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="176.000,206.000 176.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="175.300,206.700 176.700,205.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="112.000,206.000 112.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="111.300,206.700 112.700,205.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="102.000,206.000 102.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="101.300,206.700 102.700,205.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="60.000,206.000 60.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="59.300,206.700 60.700,205.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="372.000,213.000 316.000,213.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="344.000" y="212.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">2,80</text>
+<polyline points="316.000,213.000 304.000,213.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="310.000" y="212.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">0,60</text>
+<polyline points="304.000,213.000 273.000,213.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="288.500" y="212.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">1,55</text>
+<polyline points="273.000,213.000 159.000,213.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="216.000" y="212.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">5,70</text>
+<polyline points="159.000,213.000 60.000,213.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="109.500" y="212.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">4,95</text>
+<polyline points="371.300,213.700 372.700,212.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="315.300,213.700 316.700,212.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="303.300,213.700 304.700,212.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="272.300,213.700 273.700,212.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="158.300,213.700 159.700,212.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="59.300,213.700 60.700,212.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="372.000,219.000 60.000,219.000" fill="none" stroke="#000000" stroke-width="0.13"/>
+<text x="216.000" y="218.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle">15,60</text>
+<polyline points="371.300,219.700 372.700,218.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="59.300,219.700 60.700,218.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="367.400,75.000 316.000,75.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="341.700" y="74.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">2,57</text>
+<polyline points="316.000,75.000 304.000,75.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="310.000" y="74.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">0,60</text>
+<polyline points="304.000,75.000 64.600,75.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="184.300" y="74.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">11,97</text>
+<polyline points="367.400,75.000 367.400,124.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="366.700,75.700 368.100,74.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="316.000,75.000 316.000,124.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="315.300,75.700 316.700,74.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="304.000,75.000 304.000,124.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="303.300,75.700 304.700,74.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="64.600,75.000 64.600,124.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="63.900,75.700 65.300,74.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="367.400,68.000 64.600,68.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="216.000" y="67.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">15,14</text>
+<polyline points="366.700,68.700 368.100,67.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="63.900,68.700 65.300,67.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="33.000,124.000 33.000,141.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="32.300" y="132.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 32.300 132.500)">0,85</text>
+<polyline points="33.000,141.000 33.000,150.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="32.300" y="145.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 32.300 145.500)">0,45</text>
+<polyline points="33.000,150.000 33.000,190.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="32.300" y="170.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 32.300 170.000)">2,00</text>
+<polyline points="33.000,190.000 33.000,194.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="29.600" y="192.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 29.600 192.000)">0,20</text>
+<polyline points="33.000,194.000 33.000,198.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="32.300" y="196.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 32.300 196.000)">0,20</text>
+<polyline points="33.000,124.000 176.000,124.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="32.300,124.700 33.700,123.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="33.000,141.000 176.000,141.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="32.300,141.700 33.700,140.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="33.000,150.000 176.000,150.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="32.300,150.700 33.700,149.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="33.000,190.000 176.000,190.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="32.300,190.700 33.700,189.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="33.000,194.000 176.000,194.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="32.300,194.700 33.700,193.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="33.000,198.000 176.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="32.300,198.700 33.700,197.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="25.000,124.000 25.000,198.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="24.300" y="161.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 24.300 161.000)">3,70</text>
+<polyline points="24.300,124.700 25.700,123.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="24.300,198.700 25.700,197.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="399.000,87.000 399.000,124.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="398.300" y="105.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 398.300 105.500)">1,85</text>
+<polyline points="399.000,124.000 399.000,156.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="398.300" y="140.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 398.300 140.000)">1,60</text>
+<polyline points="399.000,156.000 399.000,169.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="398.300" y="162.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 398.300 162.500)">0,65</text>
+<polyline points="399.000,169.000 399.000,190.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="398.300" y="179.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 398.300 179.500)">1,05</text>
+<polyline points="399.000,190.000 399.000,198.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="398.300" y="194.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 398.300 194.000)">0,40</text>
+<polyline points="399.000,87.000 323.000,87.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="398.300,87.700 399.700,86.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="399.000,124.000 323.000,124.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="398.300,124.700 399.700,123.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="399.000,156.000 323.000,156.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="398.300,156.700 399.700,155.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="399.000,169.000 323.000,169.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="398.300,169.700 399.700,168.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="399.000,190.000 323.000,190.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="398.300,190.700 399.700,189.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="399.000,198.000 323.000,198.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="398.300,198.700 399.700,197.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="407.000,87.000 407.000,198.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="406.300" y="142.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 406.300 142.500)">5,55</text>
+<polyline points="406.300,87.700 407.700,86.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="406.300,198.700 407.700,197.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<text x="16.000" y="240.000" font-family="Helvetica, Arial, sans-serif" font-size="2.8" fill="#000000" text-anchor="start">L'apertura nord è larga 4,00 e ha due ante da 2,00, alte fino a 2,00 sul pavimento.</text>
+<text x="16.000" y="245.000" font-family="Helvetica, Arial, sans-serif" font-size="2.8" fill="#000000" text-anchor="start">Due gradini (0,20 ciascuno) portano dal terreno al pavimento; il gradino basso è profondo 0,60.</text>
+<text x="16.000" y="250.000" font-family="Helvetica, Arial, sans-serif" font-size="2.8" fill="#000000" text-anchor="start">L'architrave di 5,70 sporge 0,85 per parte oltre l'apertura.</text>
+<text x="16.000" y="258.000" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Come leggere le quote (in metri)</text>
+<text x="16.000" y="262.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">nero: scritta sulla scheda del prof</text>
+<text x="16.000" y="266.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#0b5cad" text-anchor="start">blu: misurata sul disegno della scheda (margine circa 5-10 cm)</text>
+<text x="16.000" y="270.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#c62828" text-anchor="start">rosso: ipotesi, la scheda non la dice: da chiedere al prof</text>
+<text x="16.000" y="274.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">Sul plastico in scala 1:100: moltiplica per 10 e leggi millimetri (1,50 m = 15 mm).</text>
+</svg>

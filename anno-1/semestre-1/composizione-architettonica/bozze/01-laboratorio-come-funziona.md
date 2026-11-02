@@ -11,7 +11,7 @@ tags: [composizione-architettonica, bozza]
 Sintesi dei punti utili della lezione introduttiva del laboratorio (martedì 29 settembre): come funziona il corso, quali esercitazioni si fanno e con quale spirito.
 
 > [!info] Note collegate
-> Sbobina: [[01-introduzione-laboratorio]]
+> Sbobina: [[01-introduzione-laboratorio]] · Esercizio: [[esercizio-3-casa-arzachena]]
 >
 > Altri corsi: [[01-strumenti-materiali-e-regole]] e [[02-proiezioni-e-omologia-schema]] (Geometria descrittiva: strumenti, pianta e prospetto)
 
