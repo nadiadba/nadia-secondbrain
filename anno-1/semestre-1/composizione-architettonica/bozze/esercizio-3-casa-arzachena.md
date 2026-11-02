@@ -11,7 +11,7 @@ tags: [composizione-architettonica, bozza]
 Tutte le misure della casa di Marco Zanuso (1962-64), ricavate dalla scheda dell'esercizio n. 3. Per stampare le tavole in A3 usa il PDF: [[esercizio-3-casa-arzachena-tavole.pdf|Tavole in PDF]] (stampa al 100%, senza "adatta alla pagina").
 
 > [!info] Note collegate
-> Sbobina: [[01-introduzione-laboratorio]] · Bozza: [[01-laboratorio-come-funziona]]
+> Sbobina: [[01-introduzione-laboratorio]] · Bozza: [[01-laboratorio-come-funziona]] · Nuova disposizione: [[esercizio-3-nuova-disposizione]]
 
 > [!note] Come leggere le quote
 > **Nero:** scritta sulla scheda del prof. **Blu:** misurata sul disegno della scheda, con un margine di circa 5-10 cm. **Rosso:** ipotesi, perché la scheda non la dice: da chiedere al prof.

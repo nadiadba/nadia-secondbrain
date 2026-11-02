@@ -22,3 +22,4 @@ Ancora nessuna.
 
 - [[01-laboratorio-come-funziona|Introduzione al laboratorio: come funziona il corso e le esercitazioni]]
 - [[esercizio-3-casa-arzachena|Esercizio 3, casa ad Arzachena: pianta e sezioni con tutte le misure]] ([[esercizio-3-casa-arzachena-tavole.pdf|tavole in PDF da stampare]])
+- [[esercizio-3-nuova-disposizione|Esercizio 3, la tua nuova disposizione: pianta quotata]] ([[esercizio-3-nuova-disposizione-tavole.pdf|tavole in PDF da stampare]])
