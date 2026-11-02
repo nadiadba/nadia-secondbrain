@@ -39,12 +39,10 @@
 <polygon points="166.000,164.000 212.000,164.000 212.000,170.000 166.000,170.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
 <polygon points="68.000,170.000 99.000,170.000 99.000,176.000 68.000,176.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
 <polygon points="108.000,185.000 114.000,185.000 114.000,216.000 108.000,216.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
-<polygon points="184.000,185.500 212.000,185.500 212.000,206.500 184.000,206.500" fill="#000000" stroke="#000000" stroke-width="0.2"/>
-<polygon points="222.970,196.000 222.944,196.587 222.868,197.170 222.741,197.743 222.564,198.304 222.339,198.846 222.068,199.368 221.752,199.863 221.394,200.329 220.997,200.762 220.564,201.159 220.098,201.517 219.602,201.833 219.081,202.104 218.539,202.329 217.978,202.506 217.405,202.633 216.822,202.709 216.235,202.735 215.648,202.709 215.065,202.633 214.492,202.506 213.931,202.329 213.389,202.104 212.867,201.833 212.372,201.517 211.906,201.159 211.473,200.762 211.076,200.329 210.718,199.863 210.402,199.368 210.131,198.846 209.906,198.304 209.729,197.743 209.602,197.170 209.526,196.587 209.500,196.000 209.526,195.413 209.602,194.830 209.729,194.257 209.906,193.696 210.131,193.154 210.402,192.632 210.718,192.137 211.076,191.671 211.473,191.238 211.906,190.841 212.372,190.483 212.867,190.167 213.389,189.896 213.931,189.671 214.492,189.494 215.065,189.367 215.648,189.291 216.235,189.265 216.822,189.291 217.405,189.367 217.978,189.494 218.539,189.671 219.081,189.896 219.602,190.167 220.098,190.483 220.564,190.841 220.997,191.238 221.394,191.671 221.752,192.137 222.068,192.632 222.339,193.154 222.564,193.696 222.741,194.257 222.868,194.830 222.944,195.413 222.970,196.000" fill="#ffffff" stroke="#ffffff" stroke-width="0.01"/>
-<polygon points="218.000,189.000 218.300,189.000 218.300,203.000 218.000,203.000" fill="#ffffff" stroke="#ffffff" stroke-width="0.2"/>
-<polygon points="206.000,196.000 205.970,196.697 205.878,197.389 205.727,198.071 205.518,198.736 205.250,199.381 204.928,200.000 204.553,200.589 204.128,201.142 203.657,201.657 203.142,202.128 202.589,202.553 202.000,202.928 201.381,203.250 200.736,203.518 200.071,203.727 199.389,203.878 198.697,203.970 198.000,204.000 197.303,203.970 196.611,203.878 195.929,203.727 195.264,203.518 194.619,203.250 194.000,202.928 193.411,202.553 192.858,202.128 192.343,201.657 191.872,201.142 191.447,200.589 191.072,200.000 190.750,199.381 190.482,198.736 190.273,198.071 190.122,197.389 190.030,196.697 190.000,196.000 190.030,195.303 190.122,194.611 190.273,193.929 190.482,193.264 190.750,192.619 191.072,192.000 191.447,191.411 191.872,190.858 192.343,190.343 192.858,189.872 193.411,189.447 194.000,189.072 194.619,188.750 195.264,188.482 195.929,188.273 196.611,188.122 197.303,188.030 198.000,188.000 198.697,188.030 199.389,188.122 200.071,188.273 200.736,188.482 201.381,188.750 202.000,189.072 202.589,189.447 203.142,189.872 203.657,190.343 204.128,190.858 204.553,191.411 204.928,192.000 205.250,192.619 205.518,193.264 205.727,193.929 205.878,194.611 205.970,195.303 206.000,196.000" fill="#ffffff" stroke="#ffffff" stroke-width="0.01"/>
-<polygon points="189.500,193.000 191.000,193.000 191.000,199.000 189.500,199.000" fill="#ffffff" stroke="#ffffff" stroke-width="0.2"/>
-<polygon points="184.000,191.000 189.500,191.000 189.500,201.000 184.000,201.000" fill="#ffffff" stroke="#ffffff" stroke-width="0.2"/>
+<polygon points="190.000,195.000 212.000,195.000 212.000,216.000 190.000,216.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
+<polygon points="212.000,205.500 211.970,206.197 211.878,206.889 211.727,207.571 211.518,208.236 211.250,208.881 210.928,209.500 210.553,210.089 210.128,210.642 209.657,211.157 209.142,211.628 208.589,212.053 208.000,212.428 207.381,212.750 206.736,213.018 206.071,213.227 205.389,213.378 204.697,213.470 204.000,213.500 203.303,213.470 202.611,213.378 201.929,213.227 201.264,213.018 200.619,212.750 200.000,212.428 199.411,212.053 198.858,211.628 198.343,211.157 197.872,210.642 197.447,210.089 197.072,209.500 196.750,208.881 196.482,208.236 196.273,207.571 196.122,206.889 196.030,206.197 196.000,205.500 196.030,204.803 196.122,204.111 196.273,203.429 196.482,202.764 196.750,202.119 197.072,201.500 197.447,200.911 197.872,200.358 198.343,199.843 198.858,199.372 199.411,198.947 200.000,198.572 200.619,198.250 201.264,197.982 201.929,197.773 202.611,197.622 203.303,197.530 204.000,197.500 204.697,197.530 205.389,197.622 206.071,197.773 206.736,197.982 207.381,198.250 208.000,198.572 208.589,198.947 209.142,199.372 209.657,199.843 210.128,200.358 210.553,200.911 210.928,201.500 211.250,202.119 211.518,202.764 211.727,203.429 211.878,204.111 211.970,204.803 212.000,205.500" fill="#ffffff" stroke="#ffffff" stroke-width="0.01"/>
+<polygon points="195.000,202.500 197.000,202.500 197.000,208.500 195.000,208.500" fill="#ffffff" stroke="#ffffff" stroke-width="0.2"/>
+<polygon points="190.000,200.500 195.500,200.500 195.500,210.500 190.000,210.500" fill="#ffffff" stroke="#ffffff" stroke-width="0.2"/>
 <polyline points="160.000,103.000 160.000,90.272" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="160.000,103.000 151.000,112.000" fill="none" stroke="#8a8a8a" stroke-width="0.13" stroke-dasharray="1 0.8"/>
 <polyline points="151.000,112.000 150.710,111.701 150.431,111.392 150.161,111.075 149.902,110.748 149.654,110.414 149.417,110.071 149.191,109.721 148.977,109.364 148.775,109.000 148.585,108.629 148.407,108.253 148.241,107.871 148.088,107.483 147.948,107.091 147.820,106.695 147.706,106.294 147.605,105.890 147.517,105.483 147.442,105.073 147.381,104.661 147.333,104.248 147.299,103.832 147.279,103.416 147.272,103.000 147.279,102.584 147.299,102.168 147.333,101.752 147.381,101.339 147.442,100.927 147.517,100.517 147.605,100.110 147.706,99.706 147.820,99.305 147.948,98.909 148.088,98.517 148.241,98.129 148.407,97.747 148.585,97.371 148.775,97.000 148.977,96.636 149.191,96.279 149.417,95.929 149.654,95.586 149.902,95.252 150.161,94.925 150.431,94.608 150.710,94.299 151.000,94.000 151.299,93.710 151.608,93.431 151.925,93.161 152.252,92.902 152.586,92.654 152.929,92.417 153.279,92.191 153.636,91.977 154.000,91.775 154.371,91.585 154.747,91.407 155.129,91.241 155.517,91.088 155.909,90.948 156.305,90.820 156.706,90.706 157.110,90.605 157.517,90.517 157.927,90.442 158.339,90.381 158.752,90.333 159.168,90.299 159.584,90.279 160.000,90.272" fill="none" stroke="#8a8a8a" stroke-width="0.13"/>
@@ -62,7 +60,7 @@
 <polyline points="120.000,225.000 160.000,225.000" fill="none" stroke="#000000" stroke-width="0.1"/>
 <polyline points="120.000,196.000 120.000,216.000" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="160.000,196.000 160.000,216.000" fill="none" stroke="#000000" stroke-width="0.25"/>
-<polygon points="184.000,193.000 190.000,193.000 190.000,199.000 184.000,199.000" fill="none" stroke="#c62828" stroke-width="0.25" stroke-dasharray="1 0.6"/>
+<polygon points="190.000,202.500 196.000,202.500 196.000,208.500 190.000,208.500" fill="none" stroke="#c62828" stroke-width="0.25" stroke-dasharray="1 0.6"/>
 <polygon points="64.300,68.300 215.700,68.300 215.700,219.700 64.300,219.700" fill="none" stroke="#8a8a8a" stroke-width="0.13" stroke-dasharray="2 1"/>
 <text x="140.000" y="92.000" font-family="Helvetica, Arial, sans-serif" font-size="2.6" fill="#8a8a8a" text-anchor="middle">stanza</text>
 <text x="140.000" y="95.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle">4,00 × 4,00</text>
@@ -79,7 +77,7 @@
 <text x="166.000" y="119.200" font-family="Helvetica, Arial, sans-serif" font-size="1.9" fill="#8a8a8a" text-anchor="middle">ingresso</text>
 <text x="166.000" y="121.400" font-family="Helvetica, Arial, sans-serif" font-size="1.9" fill="#8a8a8a" text-anchor="middle">comune</text>
 <text x="92.000" y="138.000" font-family="Helvetica, Arial, sans-serif" font-size="2.6" fill="#8a8a8a" text-anchor="middle">vuoto scoperto</text>
-<text x="195.000" y="181.000" font-family="Helvetica, Arial, sans-serif" font-size="2.3" fill="#8a8a8a" text-anchor="middle">camino</text>
+<text x="201.000" y="192.500" font-family="Helvetica, Arial, sans-serif" font-size="2.3" fill="#8a8a8a" text-anchor="middle">camino</text>
 <text x="140.000" y="231.200" font-family="Helvetica, Arial, sans-serif" font-size="2.3" fill="#8a8a8a" text-anchor="middle">ingresso</text>
 <polyline points="62.000,61.000 73.000,61.000" fill="none" stroke="#c62828" stroke-width="0.13"/>
 <text x="67.500" y="60.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="middle">1,10</text>
@@ -172,10 +170,10 @@
 <text x="140.000" y="235.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle">4,00</text>
 <polyline points="160.000,236.000 166.000,236.000" fill="none" stroke="#000000" stroke-width="0.13"/>
 <text x="163.000" y="235.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle">0,60</text>
-<polyline points="166.000,236.000 184.000,236.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
-<text x="175.000" y="235.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">1,80</text>
-<polyline points="184.000,236.000 212.000,236.000" fill="none" stroke="#000000" stroke-width="0.13"/>
-<text x="198.000" y="235.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle">2,80</text>
+<polyline points="166.000,236.000 190.000,236.000" fill="none" stroke="#c62828" stroke-width="0.13"/>
+<text x="178.000" y="235.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="middle">2,40</text>
+<polyline points="190.000,236.000 212.000,236.000" fill="none" stroke="#000000" stroke-width="0.13"/>
+<text x="201.000" y="235.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle">2,20</text>
 <polyline points="212.000,236.000 218.000,236.000" fill="none" stroke="#000000" stroke-width="0.13"/>
 <text x="215.000" y="235.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle">0,60</text>
 <polyline points="62.000,236.000 62.000,222.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
@@ -194,8 +192,8 @@
 <polyline points="159.300,236.700 160.700,235.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="166.000,236.000 166.000,222.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
 <polyline points="165.300,236.700 166.700,235.300" fill="none" stroke="#000000" stroke-width="0.25"/>
-<polyline points="184.000,236.000 184.000,222.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
-<polyline points="183.300,236.700 184.700,235.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="190.000,236.000 190.000,222.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="189.300,236.700 190.700,235.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="212.000,236.000 212.000,222.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
 <polyline points="211.300,236.700 212.700,235.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="218.000,236.000 218.000,222.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
@@ -294,12 +292,10 @@
 <text x="225.300" y="155.250" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="middle" transform="rotate(-90 225.300 155.250)">1,75</text>
 <polyline points="226.000,164.000 226.000,170.000" fill="none" stroke="#000000" stroke-width="0.13"/>
 <text x="225.300" y="167.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle" transform="rotate(-90 225.300 167.000)">0,60</text>
-<polyline points="226.000,170.000 226.000,185.500" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
-<text x="225.300" y="177.750" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 225.300 177.750)">1,55</text>
-<polyline points="226.000,185.500 226.000,206.500" fill="none" stroke="#000000" stroke-width="0.13"/>
-<text x="225.300" y="196.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle" transform="rotate(-90 225.300 196.000)">2,10</text>
-<polyline points="226.000,206.500 226.000,216.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
-<text x="225.300" y="211.250" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 225.300 211.250)">0,95</text>
+<polyline points="226.000,170.000 226.000,195.000" fill="none" stroke="#c62828" stroke-width="0.13"/>
+<text x="225.300" y="182.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="middle" transform="rotate(-90 225.300 182.500)">2,50</text>
+<polyline points="226.000,195.000 226.000,216.000" fill="none" stroke="#000000" stroke-width="0.13"/>
+<text x="225.300" y="205.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle" transform="rotate(-90 225.300 205.500)">2,10</text>
 <polyline points="226.000,216.000 226.000,222.000" fill="none" stroke="#000000" stroke-width="0.13"/>
 <text x="225.300" y="219.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle" transform="rotate(-90 225.300 219.000)">0,60</text>
 <polyline points="226.000,66.000 218.000,66.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
@@ -324,10 +320,8 @@
 <polyline points="225.300,164.700 226.700,163.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="226.000,170.000 218.000,170.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
 <polyline points="225.300,170.700 226.700,169.300" fill="none" stroke="#000000" stroke-width="0.25"/>
-<polyline points="226.000,185.500 218.000,185.500" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
-<polyline points="225.300,186.200 226.700,184.800" fill="none" stroke="#000000" stroke-width="0.25"/>
-<polyline points="226.000,206.500 218.000,206.500" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
-<polyline points="225.300,207.200 226.700,205.800" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="226.000,195.000 218.000,195.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="225.300,195.700 226.700,194.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="226.000,216.000 218.000,216.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
 <polyline points="225.300,216.700 226.700,215.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="226.000,222.000 218.000,222.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>

@@ -62,14 +62,12 @@ def muri(v):
         # stanza in basso a sinistra
         (.6, 10.4, 3.7, 11), (4.6, 11.9, 5.2, 15),
         # blocco del camino
-        (12.2, 11.95, 15, 14.05),
+        (12.8, 12.9, 15, 15),
     ]:
         v.piena(*r)
-    v.cerchio(15.6 - .1765, 13, .6735, B, B, .01)
-    v.piena(15.6, 12.3, 15.63, 13.7, B)
-    v.cerchio(13.6, 13, .8, B, B, .01)
-    v.piena(12.75, 12.7, 12.9, 13.3, B)
-    v.piena(12.2, 12.5, 12.75, 13.5, B)
+    v.cerchio(14.2, 13.95, .8, B, B, .01)
+    v.piena(13.3, 13.65, 13.5, 14.25, B)
+    v.piena(12.8, 13.45, 13.35, 14.45, B)
 
 
 def porte(v):
@@ -83,7 +81,7 @@ def porte(v):
 
 
 def tav_pianta():
-    t = Tavola('arzachena-progetto-1-pianta')
+    t = Tavola('arzachena-progetto-v2-1-pianta')
     intestazione(t, 'Nuova disposizione: pianta quotata, scala 1:100', 'Stessi ambienti e stesso perimetro della casa di Zanuso. Stampa in A3 al 100% e il lato della casa misura 156 mm.', 1)
     v = Vista(t, 10, 62, 66)
     vuoto(v)
@@ -94,7 +92,7 @@ def tav_pianta():
     v.seg((5.8, 15.9), (9.8, 15.9), '#000000', .1)
     v.seg((5.8, 13), (5.8, 15), '#000000', .25)
     v.seg((9.8, 13), (9.8, 15), '#000000', .25)
-    v.rect(12.2, 12.7, 12.8, 13.3, '#c62828', .25, (1, .6))
+    v.rect(12.8, 13.65, 13.4, 14.25, '#c62828', .25, (1, .6))
     v.rect(.23, .23, 15.37, 15.37, GRIGIO, .13, (2, 1))
     for x_, y_ in [(7.8, 2.6), (13, 2.6), (13, 7.8), (2.6, 13)]:
         t.testo(v.x(x_), v.y(y_), 'stanza', 2.6, GRIGIO, 'middle')
@@ -106,7 +104,7 @@ def tav_pianta():
     t.testo(v.x(10.4), v.y(5.32), 'ingresso', 1.9, GRIGIO, 'middle')
     t.testo(v.x(10.4), v.y(5.32) + 2.2, 'comune', 1.9, GRIGIO, 'middle')
     t.testo(v.x(3), v.y(7.2), 'vuoto scoperto', 2.6, GRIGIO, 'middle')
-    t.testo(v.x(13.3), v.y(11.5), 'camino', 2.3, GRIGIO, 'middle')
+    t.testo(v.x(13.9), v.y(12.65), 'camino', 2.3, GRIGIO, 'middle')
     t.testo(v.x(7.8), v.y(16.2) + 3.2, 'ingresso', 2.3, GRIGIO, 'middle')
     ref_n, ref_s = v.y(0), v.y(15.6)
     # catene: nord
@@ -116,7 +114,7 @@ def tav_pianta():
     v.catena_h([0, 15.6], ref_n - 24, 'q')
     # sud
     y0 = v.y(16.2) + 8
-    v.catena_h([0, .6, 3.7, 4.6, 5.2, 5.8, 9.8, 10.4, 12.2, 15, 15.6], y0, 'qqqqqqqmqq', ref_s)
+    v.catena_h([0, .6, 3.7, 4.6, 5.2, 5.8, 9.8, 10.4, 12.8, 15, 15.6], y0, 'qqqqqqqhqq', ref_s)
     v.catena_h([0, 5.2, 10.4, 15.6], y0 + 7, 'qqq')
     v.catena_h([0, 15.6], y0 + 13, 'q')
     # ovest
@@ -125,7 +123,7 @@ def tav_pianta():
     v.catena_v([0, 5.2, 10.4, 15.6], xl - 16, 'qqq')
     v.catena_v([0, 15.6], xl - 23, 'q')
     # est
-    v.catena_v([0, .6, 3.7, 4.6, 5.2, 5.8, 6.7, 7.55, 8.05, 9.8, 10.4, 11.95, 14.05, 15, 15.6], xr + 8, 'qqqqqqhhhqmqmq', xr)
+    v.catena_v([0, .6, 3.7, 4.6, 5.2, 5.8, 6.7, 7.55, 8.05, 9.8, 10.4, 12.9, 15, 15.6], xr + 8, 'qqqqqqhhhqhqq', xr)
     v.catena_v([0, 5.2, 10.4, 15.6], xr + 18, 'qqq')
     t.linea([(44, 48), (41, 58), (44, 56), (47, 58)], '#000000', .25, None, True, '#000000')
     t.testo(44, 63.5, 'N', 3.5, anchor='middle', bold=True)
@@ -160,7 +158,7 @@ def tav_pianta():
 
 
 def tav_dettagli():
-    t = Tavola('arzachena-progetto-2-dettagli')
+    t = Tavola('arzachena-progetto-v2-2-dettagli')
     intestazione(t, 'Nuova disposizione: i dettagli', 'Ingresso comune delle tre stanze 1:25, bagno e cucina 1:50, camino 1:50.', 2)
     # rombo 1:25
     t.testo(16, 36, 'Ingresso comune delle tre stanze, 1:25', 3.2, bold=True)
@@ -216,36 +214,33 @@ def tav_dettagli():
     v.catena_v([0, .6, 2.8, 3.4], v.x(0) - 5, 'qqq', v.x(.6))
 
     # camino 1:50
-    t.testo(232, 160, 'Camino, 1:50 (come quello vero, ribaltato sul muro est)', 3.2, bold=True)
-    c = Vista(t, 20, 252 - 11.8 * 20, 172 - 11.5 * 20)
-    c.piena(11.8, 11.5, 12.2, 14.5, VUOTO)
-    c.piena(12.2, 11.95, 15.6, 14.05)
-    c.piena(15, 11.5, 15.6, 11.95)
-    c.piena(15, 14.05, 15.6, 14.5)
-    c.piena(12.2, 11.5, 15, 11.95, VUOTO)
-    c.piena(12.2, 14.05, 15, 14.5, VUOTO)
-    c.cerchio(15.6 - .1765, 13, .6735, B, B, .01)
-    c.piena(15.6, 12.3, 15.63, 13.7, B)
-    c.cerchio(13.6, 13, .8, B, B, .01)
-    c.piena(12.75, 12.7, 12.9, 13.3, B)
-    c.piena(12.2, 12.5, 12.75, 13.5, B)
-    c.rect(12.2, 12.7, 12.8, 13.3, '#c62828', .3, (2, 1))
-    t.testo(c.x(13.6), c.y(13.05), 'diam. 1,60', 2.3, COL['q'], 'middle')
-    t.testo(c.x(11.98), c.y(13.05), 'vuoto', 2.2, GRIGIO, 'middle', -90)
-    c.catena_h([12.2, 12.75, 12.9, 14.4, 14.75, 15.6], c.y(11.5) - 2.5, 'qqqqq', c.y(11.95))
-    c.catena_h([12.2, 15.6], c.y(14.5) + 5, 'q', c.y(14.05))
-    c.catena_v([11.95, 12.5, 12.7, 13.3, 13.5, 14.05], c.x(15.6) + 6, 'qqqqq', c.x(12.2))
-    c.catena_v([11.95, 13, 14.05], c.x(15.6) + 13, 'mm')
+    t.testo(232, 160, 'Camino, 1:50 (senza la nicchia esterna, nell\'angolo sud-est)', 3.2, bold=True)
+    c = Vista(t, 20, 252 - 12.4 * 20, 172 - 12.5 * 20)
+    c.piena(12.4, 12.5, 15, 12.9, VUOTO)
+    c.piena(12.4, 12.9, 12.8, 15, VUOTO)
+    c.piena(15, 12.5, 15.6, 15.6)
+    c.piena(12.4, 15, 15.6, 15.6)
+    c.piena(12.8, 12.9, 15, 15)
+    c.cerchio(14.2, 13.95, .8, B, B, .01)
+    c.piena(13.3, 13.65, 13.5, 14.25, B)
+    c.piena(12.8, 13.45, 13.35, 14.45, B)
+    c.rect(12.8, 13.65, 13.4, 14.25, '#c62828', .3, (2, 1))
+    t.testo(c.x(14.2), c.y(14.0), 'diam. 1,60', 2.3, COL['q'], 'middle')
+    t.testo(c.x(12.6), c.y(13.95), 'vuoto', 2.2, GRIGIO, 'middle', -90)
+    c.catena_h([12.8, 13.35, 13.4, 15, 15.6], c.y(12.5) - 3, 'qqqq', c.y(12.9))
+    c.catena_h([12.8, 15.6], c.y(15.6) + 5, 'q', c.y(15.6))
+    c.catena_v([12.9, 13.45, 13.65, 14.25, 14.45, 15], c.x(15.6) + 6, 'qqqqq', c.x(12.8))
+    c.catena_v([12.5, 12.9, 15, 15.6], c.x(15.6) + 13, 'qqq')
     y = tabella(t, 348, 176, [('Camino', 28), ('Metri', 19), ('mm', 11)], [
         (['Blocco largo', '2,10', '21'], 'qqq'),
-        (['Sporge dal bordo est', '3,40', '34'], 'qqq'),
+        (['Dal bordo est', '2,80', '28'], 'qhh'),
         (['Altezza blocco', '3,20', '32'], 'qqq'),
         (['Bocca, larga', '1,00', '10'], 'qqq'),
         (['Canna fumaria', '0,60 × 0,60', '6 × 6'], 'qhh'),
         (['Sopra il tetto', '1,85', '18,5'], 'qqq'),
     ])
-    for i, r_ in enumerate(['La bocca guarda a ovest, verso l\'ingresso. Il blocco è centrato sul suo quadrato, a 13,00 m dal bordo nord (130 mm).',
-                            'Le altezze del camino sono nella tavola 4 della casa vera.',
+    for i, r_ in enumerate(['La bocca guarda a ovest, verso l\'ingresso. Il blocco tocca i muri est e sud: da 129 a 150 mm dal bordo nord.',
+                            'Ho tolto nicchia esterna e muro dietro: le altezze restano quelle della tavola 4 della casa vera.',
                             'Bagno e cucina hanno le misure della casa vera. Nel tuo schizzo il bagno era più profondo: con le misure vere',
                             'davanti resta una striscia di vuoto. Il muro est della cucina è spesso 0,85: sul plastico bastano 2 strati di Poliplat.',
                             'Il passaggio tra cucina e stanza è largo 1,00, con altezza 2,10 (scelta mia).']):
