@@ -11,7 +11,7 @@ tags: [composizione-architettonica, bozza]
 La pianta del punto 5 dell'esercizio: stesso perimetro e stessi ambienti della casa di Zanuso, disposti secondo il tuo schizzo. Per stampare in A3 usa il PDF: [[esercizio-3-nuova-disposizione-tavole.pdf|Tavole in PDF]] (stampa al 100%, senza "adatta alla pagina").
 
 > [!info] Note collegate
-> Casa originale: [[esercizio-3-casa-arzachena]] · Bozza: [[01-laboratorio-come-funziona]]
+> Casa originale: [[esercizio-3-casa-arzachena]] · Bozza: [[01-laboratorio-come-funziona]] · Pezzi per il plastico: [[esercizio-3-plastici-pezzi.pdf|PDF dei pezzi]]
 
 > [!note] Come leggere le quote
 > **Nero:** misura della casa vera. **Blu:** posizione presa dal tuo schizzo. **Rosso:** scelta mia, perché nello schizzo non c'è: puoi cambiarla.
