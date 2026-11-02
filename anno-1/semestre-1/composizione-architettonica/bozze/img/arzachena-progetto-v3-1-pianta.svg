@@ -19,7 +19,8 @@
 <polygon points="212.000,146.500 218.000,146.500 218.000,222.000 212.000,222.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
 <polygon points="62.000,216.000 120.000,216.000 120.000,222.000 62.000,222.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
 <polygon points="160.000,216.000 218.000,216.000 218.000,222.000 160.000,222.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
-<polygon points="62.000,66.000 68.000,66.000 68.000,196.000 62.000,196.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
+<polygon points="62.000,66.000 68.000,66.000 68.000,129.000 62.000,129.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
+<polygon points="62.000,159.000 68.000,159.000 68.000,196.000 62.000,196.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
 <polygon points="62.000,202.000 68.000,202.000 68.000,222.000 62.000,222.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
 <polygon points="83.500,72.000 89.500,72.000 89.500,100.000 83.500,100.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
 <polygon points="68.000,94.000 71.500,94.000 71.500,100.000 68.000,100.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
@@ -220,8 +221,12 @@
 <text x="54.300" y="97.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 54.300 97.000)">0,60</text>
 <polyline points="55.000,100.000 55.000,118.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
 <text x="54.300" y="109.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 54.300 109.000)">1,80</text>
-<polyline points="55.000,118.000 55.000,170.000" fill="none" stroke="#000000" stroke-width="0.13"/>
-<text x="54.300" y="144.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle" transform="rotate(-90 54.300 144.000)">5,20</text>
+<polyline points="55.000,118.000 55.000,129.000" fill="none" stroke="#c62828" stroke-width="0.13"/>
+<text x="54.300" y="123.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="middle" transform="rotate(-90 54.300 123.500)">1,10</text>
+<polyline points="55.000,129.000 55.000,159.000" fill="none" stroke="#000000" stroke-width="0.13"/>
+<text x="54.300" y="144.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle" transform="rotate(-90 54.300 144.000)">3,00</text>
+<polyline points="55.000,159.000 55.000,170.000" fill="none" stroke="#c62828" stroke-width="0.13"/>
+<text x="54.300" y="164.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="middle" transform="rotate(-90 54.300 164.500)">1,10</text>
 <polyline points="55.000,170.000 55.000,176.000" fill="none" stroke="#000000" stroke-width="0.13"/>
 <text x="54.300" y="173.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="middle" transform="rotate(-90 54.300 173.000)">0,60</text>
 <polyline points="55.000,176.000 55.000,185.000" fill="none" stroke="#000000" stroke-width="0.13"/>
@@ -244,6 +249,10 @@
 <polyline points="54.300,100.700 55.700,99.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="55.000,118.000 62.000,118.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
 <polyline points="54.300,118.700 55.700,117.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="55.000,129.000 62.000,129.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="54.300,129.700 55.700,128.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="55.000,159.000 62.000,159.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="54.300,159.700 55.700,158.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="55.000,170.000 62.000,170.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
 <polyline points="54.300,170.700 55.700,169.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="55.000,176.000 62.000,176.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
@@ -360,7 +369,7 @@
 <text x="310.000" y="61.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">nord a X = 3,70</text>
 <text x="344.000" y="61.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">est a Y = 11,90</text>
 <text x="374.000" y="61.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">1,27</text>
-<text x="266.000" y="71.500" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Le sei finestre</text>
+<text x="266.000" y="71.500" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Le sette finestre</text>
 <text x="266.000" y="76.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Finestra</text>
 <text x="310.000" y="76.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Posizione</text>
 <text x="352.000" y="76.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Larg.</text>
@@ -390,34 +399,41 @@
 <text x="310.000" y="101.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Y da 13,00 a 13,60</text>
 <text x="352.000" y="101.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">0,60</text>
 <text x="366.000" y="101.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">1,05 - 1,70</text>
-<text x="266.000" y="111.400" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Altezze e ingresso</text>
-<text x="266.000" y="115.900" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Altezze</text>
-<text x="340.000" y="115.900" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Metri</text>
-<text x="364.000" y="115.900" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Plastico (mm)</text>
-<polyline points="266.000,116.900 388.000,116.900" fill="none" stroke="#000000" stroke-width="0.15"/>
-<text x="266.000" y="120.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Muri, sul pavimento</text>
-<text x="340.000" y="120.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">3,30</text>
-<text x="364.000" y="120.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">33</text>
-<text x="266.000" y="124.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Rialzo della casa sul terreno</text>
-<text x="340.000" y="124.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">0,40</text>
-<text x="364.000" y="124.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">4</text>
-<text x="266.000" y="128.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Porte delle stanze</text>
-<text x="340.000" y="128.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">2,10</text>
-<text x="364.000" y="128.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">21</text>
-<text x="266.000" y="132.700" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Ingresso a sud, larghezza × altezza</text>
-<text x="340.000" y="132.700" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">4,00 × 2,00</text>
-<text x="364.000" y="132.700" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">40 × 20</text>
-<text x="266.000" y="136.900" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Architrave dell'ingresso, lungo × alto</text>
-<text x="340.000" y="136.900" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">5,70 × 0,45</text>
-<text x="364.000" y="136.900" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">57 × 4,5</text>
-<text x="266.000" y="141.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Due gradini fuori dall'ingresso, alti e profondi</text>
-<text x="340.000" y="141.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="start">0,20 e 0,30</text>
-<text x="364.000" y="141.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="start">2 e 3</text>
-<text x="266.000" y="153.300" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Come leggere le quote (in metri)</text>
-<text x="266.000" y="157.800" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">nero: misura della casa vera</text>
-<text x="266.000" y="161.800" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#0b5cad" text-anchor="start">blu: posizione presa dal tuo schizzo</text>
-<text x="266.000" y="165.800" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#c62828" text-anchor="start">rosso: scelta mia, nello schizzo non c'è: puoi cambiarla</text>
-<text x="266.000" y="169.800" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">Sul plastico in scala 1:100: moltiplica per 10 e leggi millimetri (1,50 m = 15 mm).</text>
+<text x="266.000" y="105.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Grande, muro ovest sul vuoto</text>
+<text x="310.000" y="105.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="start">Y da 6,30 a 9,30</text>
+<text x="352.000" y="105.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">3,00</text>
+<text x="366.000" y="105.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">1,00 - 2,00</text>
+<text x="266.000" y="115.600" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Altezze e ingresso</text>
+<text x="266.000" y="120.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Altezze</text>
+<text x="340.000" y="120.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Metri</text>
+<text x="364.000" y="120.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Plastico (mm)</text>
+<polyline points="266.000,121.100 388.000,121.100" fill="none" stroke="#000000" stroke-width="0.15"/>
+<text x="266.000" y="124.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Muri, sul pavimento</text>
+<text x="340.000" y="124.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">3,30</text>
+<text x="364.000" y="124.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">33</text>
+<text x="266.000" y="128.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Rialzo della casa sul terreno</text>
+<text x="340.000" y="128.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">0,40</text>
+<text x="364.000" y="128.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">4</text>
+<text x="266.000" y="132.700" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Porte delle stanze</text>
+<text x="340.000" y="132.700" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">2,10</text>
+<text x="364.000" y="132.700" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">21</text>
+<text x="266.000" y="136.900" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Ingresso a sud, larghezza × altezza</text>
+<text x="340.000" y="136.900" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">4,00 × 2,00</text>
+<text x="364.000" y="136.900" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">40 × 20</text>
+<text x="266.000" y="141.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Architrave dell'ingresso, lungo × alto</text>
+<text x="340.000" y="141.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">5,70 × 0,45</text>
+<text x="364.000" y="141.100" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">57 × 4,5</text>
+<text x="266.000" y="145.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Architrave della finestra grande, lungo × alto</text>
+<text x="340.000" y="145.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">4,40 × 0,45</text>
+<text x="364.000" y="145.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">44 × 4,5</text>
+<text x="266.000" y="149.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Due gradini fuori dall'ingresso, alti e profondi</text>
+<text x="340.000" y="149.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="start">0,20 e 0,30</text>
+<text x="364.000" y="149.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="start">2 e 3</text>
+<text x="266.000" y="161.700" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Come leggere le quote (in metri)</text>
+<text x="266.000" y="166.200" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">nero: misura della casa vera</text>
+<text x="266.000" y="170.200" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#0b5cad" text-anchor="start">blu: posizione presa dal tuo schizzo</text>
+<text x="266.000" y="174.200" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#c62828" text-anchor="start">rosso: scelta mia, nello schizzo non c'è: puoi cambiarla</text>
+<text x="266.000" y="178.200" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">Sul plastico in scala 1:100: moltiplica per 10 e leggi millimetri (1,50 m = 15 mm).</text>
 <text x="16.000" y="270.000" font-family="Helvetica, Arial, sans-serif" font-size="2.4" fill="#8a8a8a" text-anchor="start">Tratteggio esterno: filo del muro in cima (i muri esterni sono inclinati). Grigio: vuoto scoperto. Tratteggio rosso sul camino: canna fumaria.</text>
 <text x="16.000" y="274.000" font-family="Helvetica, Arial, sans-serif" font-size="2.4" fill="#8a8a8a" text-anchor="start">I muri tra stanze vicine sono doppi (0,60 + 0,60 = 1,20), perché ogni stanza tiene i suoi muri come nella griglia di Zanuso.</text>
 </svg>

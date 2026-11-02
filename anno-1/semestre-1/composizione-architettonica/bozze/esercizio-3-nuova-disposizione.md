@@ -20,11 +20,11 @@ La pianta del punto 5 dell'esercizio: stesso perimetro e stessi ambienti della c
 
 ## Pianta
 
-![[arzachena-progetto-v2-1-pianta.svg|1000]]
+![[arzachena-progetto-v3-1-pianta.svg|1000]]
 
 ## Dettagli
 
-![[arzachena-progetto-v2-2-dettagli.svg|1000]]
+![[arzachena-progetto-v3-2-dettagli.svg|1000]]
 
 ## Collegamenti
 

@@ -48,7 +48,7 @@ def muri(v):
         (0, 0, 1.1, .6), (1.7, 0, 3.55, .6), (4.15, 0, 7.55, .6), (8.05, 0, 13, .6), (13.5, 0, 15.6, .6),
         (15, 0, 15.6, 7.55), (15, 8.05, 15.6, 15.6),
         (0, 15, 5.8, 15.6), (9.8, 15, 15.6, 15.6),
-        (0, 0, .6, 13), (0, 13.6, .6, 15.6),
+        (0, 0, .6, 6.3), (0, 9.3, .6, 13), (0, 13.6, .6, 15.6),
         # bagno e cucina
         (2.15, .6, 2.75, 3.4), (.6, 2.8, .95, 3.4), (1.8, 2.8, 2.15, 3.4),
         (2.75, 2.15, 3.425, 2.75), (4.275, 2.15, 5.2, 2.75),
@@ -81,7 +81,7 @@ def porte(v):
 
 
 def tav_pianta():
-    t = Tavola('arzachena-progetto-v2-1-pianta')
+    t = Tavola('arzachena-progetto-v3-1-pianta')
     intestazione(t, 'Nuova disposizione: pianta quotata, scala 1:100', 'Stessi ambienti e stesso perimetro della casa di Zanuso. Stampa in A3 al 100% e il lato della casa misura 156 mm.', 1)
     v = Vista(t, 10, 62, 66)
     vuoto(v)
@@ -119,7 +119,7 @@ def tav_pianta():
     v.catena_h([0, 15.6], y0 + 13, 'q')
     # ovest
     xl, xr = v.x(0), v.x(15.6)
-    v.catena_v([0, .6, 2.8, 3.4, 5.2, 10.4, 11, 11.9, 13, 13.6, 15, 15.6], xl - 7, 'qqmmqqqqqqq', xl)
+    v.catena_v([0, .6, 2.8, 3.4, 5.2, 6.3, 9.3, 10.4, 11, 11.9, 13, 13.6, 15, 15.6], xl - 7, 'qqmmhqhqqqqqq', xl)
     v.catena_v([0, 5.2, 10.4, 15.6], xl - 16, 'qqq')
     v.catena_v([0, 15.6], xl - 23, 'q')
     # est
@@ -142,13 +142,15 @@ def tav_pianta():
         (['Stanza in alto a destra, nord', 'X da 13,00 a 13,50', '0,50', '1,05 - 1,70'], 'qqqq'),
         (['Stanza sul lato est, est', 'Y da 7,55 a 8,05', '0,50', '1,05 - 1,70'], 'qhqq'),
         (['Stanza in basso a sin., ovest', 'Y da 13,00 a 13,60', '0,60', '1,05 - 1,70'], 'qqqq'),
-    ], 'Le sei finestre')
+        (['Grande, muro ovest sul vuoto', 'Y da 6,30 a 9,30', '3,00', '1,00 - 2,00'], 'qhqq'),
+    ], 'Le sette finestre')
     y = tabella(t, 266, y + 6, [('Altezze', 74), ('Metri', 24), ('Plastico (mm)', 26)], [
         (['Muri, sul pavimento', '3,30', '33'], 'qqq'),
         (['Rialzo della casa sul terreno', '0,40', '4'], 'qqq'),
         (['Porte delle stanze', '2,10', '21'], 'qqq'),
         (['Ingresso a sud, larghezza × altezza', '4,00 × 2,00', '40 × 20'], 'qqq'),
         (['Architrave dell\'ingresso, lungo × alto', '5,70 × 0,45', '57 × 4,5'], 'qqq'),
+        (['Architrave della finestra grande, lungo × alto', '4,40 × 0,45', '44 × 4,5'], 'qqq'),
         (['Due gradini fuori dall\'ingresso, alti e profondi', '0,20 e 0,30', '2 e 3'], 'qhh'),
     ], 'Altezze e ingresso')
     legenda(t, 266, y + 8)
@@ -158,7 +160,7 @@ def tav_pianta():
 
 
 def tav_dettagli():
-    t = Tavola('arzachena-progetto-v2-2-dettagli')
+    t = Tavola('arzachena-progetto-v3-2-dettagli')
     intestazione(t, 'Nuova disposizione: i dettagli', 'Ingresso comune delle tre stanze 1:25, bagno e cucina 1:50, camino 1:50.', 2)
     # rombo 1:25
     t.testo(16, 36, 'Ingresso comune delle tre stanze, 1:25', 3.2, bold=True)
