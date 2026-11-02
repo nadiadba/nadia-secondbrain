@@ -2,8 +2,8 @@
 <rect width="420" height="297" fill="#ffffff"/>
 <polygon points="10.000,10.000 410.000,10.000 410.000,287.000 10.000,287.000" fill="#ffffff" stroke="#000000" stroke-width="0.25"/>
 <text x="16.000" y="19.000" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#000000" text-anchor="start" font-weight="bold">Fascia ovest e camino, scale 1:50 e 1:25</text>
-<text x="16.000" y="25.000" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start">Cucina, massa del camino, bagno: tutte le misure.</text>
-<text x="404.000" y="283.000" font-family="Helvetica, Arial, sans-serif" font-size="2.4" fill="#8a8a8a" text-anchor="end">Casa ad Arzachena (1962-64), Marco Zanuso. Tavola 2 di 6. Ricostruzione dalla scheda dell'esercizio n. 3.</text>
+<text x="16.000" y="25.000" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start">Dove stanno cucina, camino e bagno, e tutte le misure del camino in pianta. Cucina e bagno nel dettaglio: tavola 3.</text>
+<text x="404.000" y="283.000" font-family="Helvetica, Arial, sans-serif" font-size="2.4" fill="#8a8a8a" text-anchor="end">Casa ad Arzachena (1962-64), Marco Zanuso. Tavola 2 di 7. Ricostruzione dalla scheda dell'esercizio n. 3.</text>
 <text x="16.000" y="38.000" font-family="Helvetica, Arial, sans-serif" font-size="3.2" fill="#000000" text-anchor="start" font-weight="bold">Pianta della fascia ovest, 1:50</text>
 <polygon points="118.000,62.000 154.000,62.000 154.000,198.000 118.000,198.000" fill="#eeeeee" stroke="#eeeeee" stroke-width="0.2"/>
 <polygon points="50.000,62.000 62.000,62.000 62.000,84.000 50.000,84.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
@@ -181,6 +181,13 @@
 <polyline points="308.300,60.700 309.700,59.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="331.000,60.000 331.000,64.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
 <polyline points="330.300,60.700 331.700,59.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="195.000,53.000 275.000,53.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="235.000" y="52.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">2,00</text>
+<polyline points="275.000,53.000 331.000,53.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="303.000" y="52.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">1,40</text>
+<polyline points="194.300,53.700 195.700,52.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="274.300,53.700 275.700,52.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="330.300,53.700 331.700,52.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="307.000,154.000 331.000,154.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
 <text x="319.000" y="153.300" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle">0,60</text>
 <polyline points="307.000,154.000 307.000,148.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
@@ -221,15 +228,69 @@
 <polyline points="188.300,80.700 189.700,79.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="189.000,132.000 195.000,132.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
 <polyline points="188.300,132.700 189.700,131.300" fill="none" stroke="#000000" stroke-width="0.25"/>
-<polyline points="183.000,64.000 183.000,148.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
-<text x="182.300" y="106.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 182.300 106.000)">2,10</text>
-<polyline points="182.300,64.700 183.700,63.300" fill="none" stroke="#000000" stroke-width="0.25"/>
-<polyline points="182.300,148.700 183.700,147.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="182.000,64.000 182.000,74.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="181.300" y="69.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 181.300 69.000)">0,25</text>
+<polyline points="182.000,74.000 182.000,138.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="181.300" y="106.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 181.300 106.000)">1,60</text>
+<polyline points="182.000,138.000 182.000,148.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="181.300" y="143.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 181.300 143.000)">0,25</text>
+<polyline points="182.000,64.000 255.000,64.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="181.300,64.700 182.700,63.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="182.000,74.000 255.000,74.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="181.300,74.700 182.700,73.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="182.000,138.000 255.000,138.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="181.300,138.700 182.700,137.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="182.000,148.000 255.000,148.000" fill="none" stroke="#8a8a8a" stroke-width="0.07"/>
+<polyline points="181.300,148.700 182.700,147.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="175.000,64.000 175.000,148.000" fill="none" stroke="#0b5cad" stroke-width="0.13"/>
+<text x="174.300" y="106.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 174.300 106.000)">2,10</text>
+<polyline points="174.300,64.700 175.700,63.300" fill="none" stroke="#000000" stroke-width="0.25"/>
+<polyline points="174.300,148.700 175.700,147.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <text x="178.000" y="164.000" font-family="Helvetica, Arial, sans-serif" font-size="2.4" fill="#c62828" text-anchor="start">Rosso tratteggiato: canna fumaria in pianta. La scheda la mostra solo da un lato (0,60); la profondità</text>
 <text x="178.000" y="167.500" font-family="Helvetica, Arial, sans-serif" font-size="2.4" fill="#c62828" text-anchor="start">nord-sud 0,60 è un'ipotesi: canna quadrata, centrata sull'asse del camino.</text>
-<text x="178.000" y="205.000" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Come leggere le quote (in metri)</text>
-<text x="178.000" y="209.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">nero: scritta sulla scheda del prof</text>
-<text x="178.000" y="213.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#0b5cad" text-anchor="start">blu: misurata sul disegno della scheda (margine circa 5-10 cm)</text>
-<text x="178.000" y="217.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#c62828" text-anchor="start">rosso: ipotesi, la scheda non la dice: da chiedere al prof</text>
-<text x="178.000" y="221.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">Sul plastico in scala 1:100: moltiplica per 10 e leggi millimetri (1,50 m = 15 mm).</text>
+<text x="178.000" y="176.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Camino: cosa</text>
+<text x="264.000" y="176.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Metri</text>
+<text x="306.000" y="176.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start" font-weight="bold">Plastico (mm)</text>
+<polyline points="178.000,177.000 334.000,177.000" fill="none" stroke="#000000" stroke-width="0.15"/>
+<text x="178.000" y="180.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Blocco, dal filo ovest alla corte × nord-sud</text>
+<text x="264.000" y="180.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">3,40 × 2,10</text>
+<text x="306.000" y="180.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">34 × 21</text>
+<text x="178.000" y="184.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Altezza del blocco sul pavimento</text>
+<text x="264.000" y="184.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">3,20</text>
+<text x="306.000" y="184.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">32</text>
+<text x="178.000" y="188.600" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Muro tra nicchia esterna e camera</text>
+<text x="264.000" y="188.600" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">0,35</text>
+<text x="306.000" y="188.600" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">3,5</text>
+<text x="178.000" y="192.800" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Camera rotonda, diametro (centro a 2,00 dal filo ovest)</text>
+<text x="264.000" y="192.800" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">1,60</text>
+<text x="306.000" y="192.800" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">16</text>
+<text x="178.000" y="197.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Nicchia esterna, larga × profonda</text>
+<text x="264.000" y="197.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">1,30 × 0,85</text>
+<text x="306.000" y="197.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">13 × 8,5</text>
+<text x="178.000" y="201.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Bocca verso la corte, larga × profonda</text>
+<text x="264.000" y="201.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">1,00 × 0,55</text>
+<text x="306.000" y="201.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">10 × 5,5</text>
+<text x="178.000" y="205.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Gola tra bocca e camera, larga × lunga</text>
+<text x="264.000" y="205.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">0,60 × 0,15</text>
+<text x="306.000" y="205.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">6 × 1,5</text>
+<text x="178.000" y="209.600" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Vano sotto il focolare, altezza</text>
+<text x="264.000" y="209.600" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">0,90</text>
+<text x="306.000" y="209.600" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">9</text>
+<text x="178.000" y="213.800" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Soletta del focolare, spessore</text>
+<text x="264.000" y="213.800" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">0,30</text>
+<text x="306.000" y="213.800" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">3</text>
+<text x="178.000" y="218.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Bocca del focolare, da / a sul pavimento</text>
+<text x="264.000" y="218.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">1,20 - 1,46</text>
+<text x="306.000" y="218.000" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">12 - 14,6</text>
+<text x="178.000" y="222.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Canna fumaria, est-ovest × nord-sud</text>
+<text x="264.000" y="222.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="start">0,60 × 0,60</text>
+<text x="306.000" y="222.200" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#c62828" text-anchor="start">6 × 6</text>
+<text x="178.000" y="226.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#000000" text-anchor="start">Canna fumaria, altezza sopra il tetto</text>
+<text x="264.000" y="226.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">1,85</text>
+<text x="306.000" y="226.400" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="start">18,5</text>
+<text x="178.000" y="244.000" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Come leggere le quote (in metri)</text>
+<text x="178.000" y="248.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">nero: scritta sulla scheda del prof</text>
+<text x="178.000" y="252.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#0b5cad" text-anchor="start">blu: misurata sul disegno della scheda (margine circa 5-10 cm)</text>
+<text x="178.000" y="256.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#c62828" text-anchor="start">rosso: ipotesi, la scheda non la dice: da chiedere al prof</text>
+<text x="178.000" y="260.500" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">Sul plastico in scala 1:100: moltiplica per 10 e leggi millimetri (1,50 m = 15 mm).</text>
 </svg>

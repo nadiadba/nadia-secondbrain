@@ -20,27 +20,31 @@ Tutte le misure della casa di Marco Zanuso (1962-64), ricavate dalla scheda dell
 
 ## Pianta
 
-![[arzachena-1-pianta.svg|1000]]
+![[arzachena-v2-1-pianta.svg|1000]]
 
 ## Fascia ovest e camino in pianta
 
-![[arzachena-2-camino.svg|1000]]
+![[arzachena-v2-2-camino-pianta.svg|1000]]
+
+## Cucina e bagno
+
+![[arzachena-v2-3-cucina-bagno.svg|1000]]
 
 ## Camino in sezione
 
-![[arzachena-3-camino-sezione.svg|1000]]
+![[arzachena-v2-4-camino-sezione.svg|1000]]
 
 ## Sezione AA'
 
-![[arzachena-4-sezione-aa.svg|1000]]
+![[arzachena-v2-5-sezione-aa.svg|1000]]
 
 ## Sezione CC'
 
-![[arzachena-5-sezione-cc.svg|1000]]
+![[arzachena-v2-6-sezione-cc.svg|1000]]
 
 ## Sezione BB' (facciata nord)
 
-![[arzachena-6-sezione-bb.svg|1000]]
+![[arzachena-v2-7-sezione-bb.svg|1000]]
 
 ## Misure da chiedere al prof
 
@@ -48,6 +52,7 @@ Tutte le misure della casa di Marco Zanuso (1962-64), ricavate dalla scheda dell
 - L'altezza delle aperture di cucina e bagno verso la corte: nelle tavole è 2,10, come le porte.
 - L'altezza delle finestre sui lati sud e ovest: nelle tavole è da 1,05 a 1,70, come quelle sul lato nord.
 - Lo spessore del tetto delle stanze: la scheda non lo mostra.
+- L'altezza del piano della cucina: la scheda non la mostra.
 
 ## Collegamenti
 

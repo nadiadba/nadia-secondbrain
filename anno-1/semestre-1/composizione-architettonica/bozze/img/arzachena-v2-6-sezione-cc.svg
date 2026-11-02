@@ -3,7 +3,7 @@
 <polygon points="10.000,10.000 410.000,10.000 410.000,287.000 10.000,287.000" fill="#ffffff" stroke="#000000" stroke-width="0.25"/>
 <text x="16.000" y="19.000" font-family="Helvetica, Arial, sans-serif" font-size="5" fill="#000000" text-anchor="start" font-weight="bold">Sezione CC', scala 1:50</text>
 <text x="16.000" y="25.000" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start">Taglio est-ovest lungo l'asse della casa, guardando verso sud (est a sinistra, ovest a destra). Quote in metri, pavimento = 0,00.</text>
-<text x="404.000" y="283.000" font-family="Helvetica, Arial, sans-serif" font-size="2.4" fill="#8a8a8a" text-anchor="end">Casa ad Arzachena (1962-64), Marco Zanuso. Tavola 5 di 6. Ricostruzione dalla scheda dell'esercizio n. 3.</text>
+<text x="404.000" y="283.000" font-family="Helvetica, Arial, sans-serif" font-size="2.4" fill="#8a8a8a" text-anchor="end">Casa ad Arzachena (1962-64), Marco Zanuso. Tavola 6 di 7. Ricostruzione dalla scheda dell'esercizio n. 3.</text>
 <polygon points="355.000,170.000 348.000,170.000 348.000,104.000 355.000,104.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
 <polygon points="348.000,152.000 304.000,152.000 304.000,146.000 348.000,146.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
 <polygon points="348.000,146.000 309.600,146.000 309.600,106.000 348.000,106.000" fill="#000000" stroke="#000000" stroke-width="0.2"/>
@@ -175,7 +175,7 @@
 <text x="406.300" y="122.500" font-family="Helvetica, Arial, sans-serif" font-size="2.5" fill="#0b5cad" text-anchor="middle" transform="rotate(-90 406.300 122.500)">5,55</text>
 <polyline points="406.300,67.700 407.700,66.300" fill="none" stroke="#000000" stroke-width="0.25"/>
 <polyline points="406.300,178.700 407.700,177.300" fill="none" stroke="#000000" stroke-width="0.25"/>
-<text x="16.000" y="232.000" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">Il camino è disegnato con tutte le sue misure nella tavola 3.</text>
+<text x="16.000" y="232.000" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">Il camino è disegnato con tutte le sue misure nella tavola 4.</text>
 <text x="16.000" y="238.000" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">Il muro esterno è inclinato: 0,60 a terra, 0,37 in cima. Sul plastico puoi farlo</text>
 <text x="16.000" y="242.000" font-family="Helvetica, Arial, sans-serif" font-size="2.7" fill="#000000" text-anchor="start">dritto (5-6 mm) e tenere l'altezza totale di 37 mm dal terreno.</text>
 <text x="16.000" y="256.000" font-family="Helvetica, Arial, sans-serif" font-size="3" fill="#000000" text-anchor="start" font-weight="bold">Come leggere le quote (in metri)</text>

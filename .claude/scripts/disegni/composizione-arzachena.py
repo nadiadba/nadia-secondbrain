@@ -210,7 +210,7 @@ def intestazione(t, titolo, sotto, n):
     t.rett(10, 10, 410, 287, '#ffffff', '#000000', 0.25)
     t.testo(16, 19, titolo, 5, bold=True)
     t.testo(16, 25, sotto, 3)
-    t.testo(404, 283, 'Casa ad Arzachena (1962-64), Marco Zanuso. Tavola %d di 6. Ricostruzione dalla scheda dell\'esercizio n. 3.' % n, 2.4, GRIGIO, 'end')
+    t.testo(404, 283, 'Casa ad Arzachena (1962-64), Marco Zanuso. Tavola %d di 7. Ricostruzione dalla scheda dell\'esercizio n. 3.' % n, 2.4, GRIGIO, 'end')
 
 
 def legenda(t, x, y):
@@ -295,7 +295,7 @@ def profilo_esterno(z):
 # ---------------------------------------------------------------- tavola 1
 
 def tav_pianta():
-    t = Tavola('arzachena-1-pianta')
+    t = Tavola('arzachena-v2-1-pianta')
     intestazione(t, 'Pianta quotata, scala 1:100', 'Pianta tagliata all\'altezza delle finestre. Stampa in A3 al 100% e il lato della casa misura 156 mm.', 1)
     v = Vista(t, 10, 62, 72)
     # corte, gradini, pavimentazione e copertura leggera
@@ -418,8 +418,8 @@ def camino_sezione(v):
 
 
 def tav_camino():
-    t = Tavola('arzachena-2-camino')
-    intestazione(t, 'Fascia ovest e camino, scale 1:50 e 1:25', 'Cucina, massa del camino, bagno: tutte le misure.', 2)
+    t = Tavola('arzachena-v2-2-camino-pianta')
+    intestazione(t, 'Fascia ovest e camino, scale 1:50 e 1:25', 'Dove stanno cucina, camino e bagno, e tutte le misure del camino in pianta. Cucina e bagno nel dettaglio: tavola 3.', 2)
     # fascia 1:50
     v = Vista(t, 20, 50, 62 - 4.4 * 20)
     t.testo(16, 38, 'Pianta della fascia ovest, 1:50', 3.2, bold=True)
@@ -473,23 +473,120 @@ def tav_camino():
     t.testo(p.x(.32), p.y(8.05), 'esterna', 2.3, GRIGIO, 'middle')
     ytop, ybot = p.y(6.75), p.y(8.85)
     p.catena_h([0, .85, 1.2, 2.8, 2.85, 3.4], ytop - 4, 'mmmmm', ytop)
+    p.catena_h([0, 2.0, 3.4], ytop - 11, 'mm')
     p.catena_h([2.8, 3.4], ybot + 6, 'm', ybot)
     t.testo(p.x(3.1), ybot + 10, 'canna fumaria', 2.3, GRIGIO, 'middle')
     xr = p.x(3.65)
     p.catena_v([7.3, 7.5, 8.1, 8.3], xr + 7, 'mmm', p.x(3.4))
     p.catena_v([6.75, 7.3, 7.8, 8.3, 8.85], xr + 15, 'mmmm')
     p.catena_v([7.15, 8.45], p.x(0) - 6, 'm', p.x(0))
-    p.catena_v([6.75, 8.85], p.x(0) - 12, 'm')
+    p.catena_v([6.75, 7.0, 8.6, 8.85], p.x(0) - 13, 'mmm', p.x(1.5))
+    p.catena_v([6.75, 8.85], p.x(0) - 20, 'm')
     t.testo(178, ybot + 16, 'Rosso tratteggiato: canna fumaria in pianta. La scheda la mostra solo da un lato (0,60); la profondità', 2.4, COL['h'])
     t.testo(178, ybot + 19.5, 'nord-sud 0,60 è un\'ipotesi: canna quadrata, centrata sull\'asse del camino.', 2.4, COL['h'])
 
-    legenda(t, 178, 205)
+    tabella(t, 178, 176, [('Camino: cosa', 86), ('Metri', 42), ('Plastico (mm)', 30)], [
+        (['Blocco, dal filo ovest alla corte × nord-sud', '3,40 × 2,10', '34 × 21'], 'qmm'),
+        (['Altezza del blocco sul pavimento', '3,20', '32'], 'qmm'),
+        (['Muro tra nicchia esterna e camera', '0,35', '3,5'], 'qmm'),
+        (['Camera rotonda, diametro (centro a 2,00 dal filo ovest)', '1,60', '16'], 'qmm'),
+        (['Nicchia esterna, larga × profonda', '1,30 × 0,85', '13 × 8,5'], 'qmm'),
+        (['Bocca verso la corte, larga × profonda', '1,00 × 0,55', '10 × 5,5'], 'qmm'),
+        (['Gola tra bocca e camera, larga × lunga', '0,60 × 0,15', '6 × 1,5'], 'qmm'),
+        (['Vano sotto il focolare, altezza', '0,90', '9'], 'qmm'),
+        (['Soletta del focolare, spessore', '0,30', '3'], 'qmm'),
+        (['Bocca del focolare, da / a sul pavimento', '1,20 - 1,46', '12 - 14,6'], 'qmm'),
+        (['Canna fumaria, est-ovest × nord-sud', '0,60 × 0,60', '6 × 6'], 'qhh'),
+        (['Canna fumaria, altezza sopra il tetto', '1,85', '18,5'], 'qmm'),
+    ])
+    legenda(t, 178, 244)
+    return t
+
+
+def tav_cucina_bagno():
+    t = Tavola('arzachena-v2-3-cucina-bagno')
+    intestazione(t, 'Cucina e bagno in pianta, scala 1:25', 'Le misure interne, i muri, le aperture, le finestre e gli arredi leggibili sulla scheda. Nord in alto, ovest a sinistra.', 3)
+    b = '#ffffff'
+    # cucina
+    c = Vista(t, 40, 44, 58 - 4.4 * 40)
+    t.testo(16, 36, 'Cucina', 3.4, bold=True)
+    c.piena(3.4, 4.4, 3.7, 6.9, '#eeeeee')
+    c.piena(0, 4.4, .6, 6.9)
+    c.piena(-.02, 5.5, .25, 6.1, b)
+    c.piena(.25, 5.45, .6, 6.15, b)
+    c.piena(.6, 6.75, 3.4, 6.9)
+    c.piena(1.85, 4.6, 3.7, 5.2)
+    c.piena(2.8, 5.2, 3.4, 5.45)
+    c.piena(2.8, 6.3, 3.4, 6.9)
+    c.rect(.6, 6.25, 2.8, 6.75, GRIGIO, .15)
+    t.testo(c.x(1.7), c.y(6.54), 'piano della cucina 2,20 × 0,50', 2.5, COL['m'], 'middle')
+    t.testo(c.x(1.7), c.y(5.85), 'cucina 2,20 × 1,55', 2.8, COL['m'], 'middle')
+    t.testo(c.x(1.2), c.y(4.9), 'stanza NO', 2.5, GRIGIO, 'middle')
+    t.testo(c.x(3.55), c.y(5.85), 'corte', 2.2, GRIGIO, 'middle', -90)
+    c.catena_h([0, .6, 1.85, 3.7], c.y(4.4) - 4, 'qmm', c.y(4.6))
+    c.catena_h([0, .25, .6, 2.8, 3.4], c.y(6.9) + 7, 'mmmm', c.y(6.75))
+    xl, xr = c.x(0), c.x(3.7)
+    c.catena_v([5.2, 5.45, 5.5, 6.1, 6.15, 6.75], xl - 6, 'mmmmm', xl)
+    c.catena_v([5.2, 6.75], xl - 16, 'm')
+    c.catena_v([4.6, 5.2, 5.45, 6.3, 6.75], xr + 6, 'qmmm', c.x(3.4))
+    # bagno
+    v = Vista(t, 40, 244, 58 - 8.6 * 40)
+    t.testo(216, 36, 'Bagno', 3.4, bold=True)
+    v.piena(3.4, 8.6, 3.7, 11, '#eeeeee')
+    v.piena(0, 8.6, .6, 11)
+    v.piena(-.02, 9.4, .25, 10, b)
+    v.piena(.25, 9.3, .6, 10.1, b)
+    v.piena(.6, 8.6, 3.4, 8.85)
+    v.piena(2.8, 8.85, 3.4, 9.3)
+    v.piena(2.8, 10.15, 3.4, 10.4)
+    v.piena(.6, 10.4, 3.7, 11)
+    v.cerchio(1.0, 10.4, .4, b, b, .01, 0, 180)
+    v.cerchio(1.0, 10.55, .2, None, GRIGIO, .15)
+    v.seg((1.4, 8.85), (1.4, 10.4), GRIGIO, .25)
+    t.testo(v.x(2.1), v.y(9.65), 'bagno 2,20 × 1,55', 2.8, COL['m'], 'middle')
+    t.testo(v.x(3.55), v.y(9.7), 'corte', 2.2, GRIGIO, 'middle', -90)
+    v.catena_h([0, .6, 1.4, 2.8, 3.4], v.y(8.6) - 4, 'qmmm', v.y(8.85))
+    v.catena_h([0, .25, .6, 1.4, 2.8, 3.7], v.y(11) + 7, 'mmmmm', v.y(11))
+    xl, xr = v.x(0), v.x(3.7)
+    v.catena_v([8.85, 9.3, 9.4, 10, 10.1, 10.4, 10.8, 11], xl - 6, 'mmmmmmm', xl)
+    v.catena_v([8.85, 10.4], xl - 16, 'm')
+    v.catena_v([8.85, 9.3, 10.15, 10.4, 11], xr + 6, 'mmmq', v.x(3.4))
+    # tabelle
+    tabella(t, 16, 170, [('Cucina: cosa', 84), ('Metri', 40), ('Plastico (mm)', 30)], [
+        (['Interno, est-ovest × nord-sud', '2,20 × 1,55', '22 × 15,5'], 'qmm'),
+        (['Altezza dei muri sul pavimento', '3,30', '33'], 'qmm'),
+        (['Passaggio verso la stanza NO, senza muro né porta', '1,25', '12,5'], 'qmm'),
+        (['Muro verso la stanza NO, lungo × spesso', '1,85 × 0,60', '18,5 × 6'], 'qmm'),
+        (['Muro verso la corte, spessore', '0,60', '6'], 'qmm'),
+        (['Apertura sulla corte, larga', '0,85', '8,5'], 'qmm'),
+        (['Apertura sulla corte, altezza', '2,10', '21'], 'qhh'),
+        (['Muro tra stanza NO e apertura', '0,25', '2,5'], 'qmm'),
+        (['Finestra ovest, larga fuori / dentro', '0,60 / 0,70', '6 / 7'], 'qmm'),
+        (['Finestra ovest, da / a sul pavimento', '1,05 - 1,70', '10,5 - 17'], 'qhh'),
+        (['Piano della cucina, altezza: la scheda non la dà', '-', '-'], 'hqq'),
+    ])
+    tabella(t, 216, 170, [('Bagno: cosa', 84), ('Metri', 40), ('Plastico (mm)', 30)], [
+        (['Interno, est-ovest × nord-sud', '2,20 × 1,55', '22 × 15,5'], 'qmm'),
+        (['Altezza dei muri sul pavimento', '3,30', '33'], 'qmm'),
+        (['Tramezzo sottile a 0,80 dal muro ovest', '0,80 + 1,40', '8 + 14'], 'qmm'),
+        (['Nicchia a sud, larga × profonda', '0,80 × 0,40', '8 × 4'], 'qmm'),
+        (['Elemento rotondo nella nicchia, diametro', '0,40', '4'], 'qmm'),
+        (['Muro verso il camino: massa del blocco', 'vedi tavola 2', ''], 'qqq'),
+        (['Muro verso la stanza SO, spessore', '0,60', '6'], 'qqq'),
+        (['Apertura sulla corte, larga', '0,85', '8,5'], 'qmm'),
+        (['Apertura sulla corte, altezza', '2,10', '21'], 'qhh'),
+        (['Finestra ovest, larga fuori / dentro', '0,60 / 0,80', '6 / 8'], 'qmm'),
+        (['Finestra ovest, da / a sul pavimento', '1,05 - 1,70', '10,5 - 17'], 'qhh'),
+    ])
+    t.testo(216, 233, 'Le linee sottili degli arredi sulla scheda sono sfocate: il tramezzo e il cerchio sono quello', 2.5, GRIGIO)
+    t.testo(216, 237, 'che si riesce a leggere. Sul plastico chiuso non si vedono e puoi non farli.', 2.5, GRIGIO)
+    legenda(t, 16, 240)
     return t
 
 
 def tav_camino_sez():
-    t = Tavola('arzachena-3-camino-sezione')
-    intestazione(t, "Camino in sezione CC', scala 1:30", 'Taglio lungo l\'asse della casa, guardando verso sud (ovest a destra). Quote in metri, pavimento = 0,00.', 3)
+    t = Tavola('arzachena-v2-4-camino-sezione')
+    intestazione(t, "Camino in sezione CC', scala 1:30", 'Taglio lungo l\'asse della casa, guardando verso sud (ovest a destra). Quote in metri, pavimento = 0,00.', 4)
     s = Vista(t, 100 / 3, 290, 228, -1, 1)
     camino_sezione(s)
     s.seg((.23, -3.3), (0, .4), '#000000', .15)
@@ -535,8 +632,8 @@ def tav_camino_sez():
 # ---------------------------------------------------------------- tavole 4-6
 
 def tav_aa():
-    t = Tavola('arzachena-4-sezione-aa')
-    intestazione(t, "Sezione AA', scala 1:50", 'Taglio nord-sud lungo l\'asse della casa, guardando verso est (nord a sinistra). Quote in metri, pavimento = 0,00.', 4)
+    t = Tavola('arzachena-v2-5-sezione-aa')
+    intestazione(t, "Sezione AA', scala 1:50", 'Taglio nord-sud lungo l\'asse della casa, guardando verso est (nord a sinistra). Quote in metri, pavimento = 0,00.', 5)
     v = Vista(t, 20, 54, 118)
     n = '#000000'
     # terreno e pavimento
@@ -619,8 +716,8 @@ def tav_aa():
 
 
 def tav_cc():
-    t = Tavola('arzachena-5-sezione-cc')
-    intestazione(t, "Sezione CC', scala 1:50", 'Taglio est-ovest lungo l\'asse della casa, guardando verso sud (est a sinistra, ovest a destra). Quote in metri, pavimento = 0,00.', 5)
+    t = Tavola('arzachena-v2-6-sezione-cc')
+    intestazione(t, "Sezione CC', scala 1:50", 'Taglio est-ovest lungo l\'asse della casa, guardando verso sud (est a sinistra, ovest a destra). Quote in metri, pavimento = 0,00.', 6)
     v = Vista(t, 20, 372, 170, -1, 1)
     n = '#000000'
     camino_sezione(v)
@@ -668,7 +765,7 @@ def tav_cc():
     xr = v.x(-1.2) + 3
     v.catena_v([-5.15, -3.3, 0, .4], xr, 'mmm', v.x(.23))
     v.catena_v([-5.15, .4], xr + 8, 'm')
-    t.testo(16, 232, 'Il camino è disegnato con tutte le sue misure nella tavola 3.', 2.7)
+    t.testo(16, 232, 'Il camino è disegnato con tutte le sue misure nella tavola 4.', 2.7)
     t.testo(16, 238, 'Il muro esterno è inclinato: 0,60 a terra, 0,37 in cima. Sul plastico puoi farlo', 2.7)
     t.testo(16, 242, 'dritto (5-6 mm) e tenere l\'altezza totale di 37 mm dal terreno.', 2.7)
     legenda(t, 16, 256)
@@ -676,8 +773,8 @@ def tav_cc():
 
 
 def tav_bb():
-    t = Tavola('arzachena-6-sezione-bb')
-    intestazione(t, "Sezione BB' (facciata nord), scala 1:50", 'Vista da fuori, guardando verso sud (est a sinistra, ovest a destra). Quote in metri, terreno = -0,40, pavimento = 0,00.', 6)
+    t = Tavola('arzachena-v2-7-sezione-bb')
+    intestazione(t, "Sezione BB' (facciata nord), scala 1:50", 'Vista da fuori, guardando verso sud (est a sinistra, ovest a destra). Quote in metri, terreno = -0,40, pavimento = 0,00.', 7)
     v = Vista(t, 20, 372, 190, -1, 1)
     n = '#000000'
     v.seg((-1.2, .4), (16.8, .4), n, .3)
@@ -716,7 +813,7 @@ def tav_bb():
 
 if __name__ == '__main__':
     cartella, pdf = sys.argv[1], sys.argv[2]
-    tavole = [tav_pianta(), tav_camino(), tav_camino_sez(), tav_aa(), tav_cc(), tav_bb()]
+    tavole = [tav_pianta(), tav_camino(), tav_cucina_bagno(), tav_camino_sez(), tav_aa(), tav_cc(), tav_bb()]
     for t in tavole:
         t.svg(os.path.join(cartella, t.nome + '.svg'))
     scrivi_pdf(tavole, pdf)
