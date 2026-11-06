@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 646" width="680" height="646">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Ribaltamento del piano generico α su π₁ (forma canonica, con t₁α)</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="165.0" x2="680.0" y2="165.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="159.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="60.0" y1="165.0" x2="603.3" y2="463.8" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="567.3" y="467.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<polygon points="297.8,143.4 396.0,64.2 156.4,165.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="297.8,272.1 396.0,238.9 156.4,218.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<line x1="297.8" y1="143.4" x2="297.8" y2="272.1" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="396.0" y1="64.2" x2="396.0" y2="238.9" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="156.4" y1="165.0" x2="156.4" y2="218.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="417.7" y1="199.5" x2="262.4" y2="481.8" stroke="#2e8b57" stroke-width="2.4" stroke-linecap="round"/>
+<text x="421.7" y="193.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>γ</text>
+<line x1="357.0" y1="328.4" x2="352.7" y2="336.3" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="352.7" y1="336.3" x2="344.8" y2="331.9" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="396.0" y1="238.9" x2="484.3" y2="287.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="401.0" y1="116.6" x2="391.0" y2="116.6" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="401.0" y1="112.6" x2="391.0" y2="112.6" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="436.0" y1="266.6" x2="440.8" y2="257.8" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="439.5" y1="268.5" x2="444.3" y2="259.8" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="403.9" y1="243.2" x2="408.2" y2="235.4" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="408.2" y1="235.4" x2="400.3" y2="231.0" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="349.2" y1="324.0" x2="484.3" y2="287.5" stroke="#2e8b57" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 484.3 287.5 L 485.9 294.1 L 487.2 300.8 L 488.2 307.5 L 488.8 314.3 L 489.1 321.1 L 489.1 328.0 L 488.7 334.8 L 488.1 341.6 L 487.0 348.3 L 485.7 355.0 L 484.0 361.6 L 482.0 368.1 L 479.7 374.5 L 477.1 380.8 L 474.2 387.0 L 471.0 393.0 L 467.5 398.9 L 463.7 404.5 L 459.6 410.0 L 455.3 415.3 L 450.8 420.3 L 446.0 425.2 L 440.9 429.8 L 435.7 434.1 L 430.2 438.2 L 424.5 442.0 L 418.7 445.5 L 412.7 448.8 L 406.6 451.7 L 400.3 454.4 L 393.9 456.7 L 387.4 458.7 L 380.8 460.4 L 374.1 461.8 L 367.3 462.8 L 360.6 463.6 L 353.8 464.0 L 346.9 464.0 L 340.1 463.7 L 333.3 463.1 L 326.6 462.2 L 319.9 460.9 L 313.3 459.4 L 306.7 457.4 L 300.3 455.2 L 293.9 452.7 L 287.7 449.8 L 281.7 446.7" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="396.0" y1="238.9" x2="271.1" y2="281.1" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="271.1" y1="281.1" x2="273.4" y2="316.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="297.8" y1="272.1" x2="273.4" y2="316.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="273.4,316.6 281.7,446.7 156.4,218.0" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<circle cx="297.8" cy="143.4" r="2.8" fill="#2563a8"/>
+<text x="287.8" y="133.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A₂</text>
+<circle cx="297.8" cy="272.1" r="2.8" fill="#2563a8"/>
+<text x="305.8" y="276.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A₁</text>
+<circle cx="396.0" cy="64.2" r="2.8" fill="#2563a8"/>
+<text x="404.0" y="58.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B₂</text>
+<circle cx="396.0" cy="238.9" r="2.8" fill="#2563a8"/>
+<text x="404.0" y="238.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B₁</text>
+<circle cx="156.4" cy="165.0" r="2.8" fill="#2563a8"/>
+<text x="150.4" y="185.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C₂</text>
+<circle cx="156.4" cy="218.0" r="2.8" fill="#2563a8"/>
+<text x="162.4" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C₁</text>
+<circle cx="484.3" cy="287.5" r="2.8" fill="#2e8b57"/>
+<text x="490.3" y="283.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">B̄</text>
+<circle cx="349.2" cy="324.0" r="2.8" fill="#1f1f1f"/>
+<text x="357.2" y="320.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">H</text>
+<circle cx="271.1" cy="281.1" r="2.8" fill="#1f1f1f"/>
+<text x="265.1" y="299.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">U</text>
+<circle cx="273.4" cy="316.6" r="2.8" fill="#c0392b"/>
+<text x="245.4" y="322.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A*</text>
+<circle cx="281.7" cy="446.7" r="2.8" fill="#c0392b"/>
+<text x="289.7" y="456.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B*</text>
+<text x="116.4" y="248.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#c0392b" font-style="italic">≡ C*</text>
+<text x="20" y="520" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">1. t₁γ ⊥ t₁α per B₁ (γ è proiettante in prima e perpendicolare ad α); H = t₁γ ∩ t₁α.</text>
+<text x="20" y="537" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">2. Ribaltamento laterale di γ: da B₁, perpendicolare a t₁γ, la quota di B (due lineette): B̄.</text>
+<text x="20" y="554" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">3. HB̄ è il raggio di rotazione: centro in H, lo si riporta su t₁γ e si trova B*.</text>
+<text x="20" y="571" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">4. Affinità di asse t₁α: la retta A₁B₁ incontra l'asse in U; U-B* incontra in A* la</text>
+<text x="20" y="588" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">    perpendicolare all'asse condotta da A₁. C sta sull'asse e non si muove: C* ≡ C₁.</text>
+</g>
+</svg>

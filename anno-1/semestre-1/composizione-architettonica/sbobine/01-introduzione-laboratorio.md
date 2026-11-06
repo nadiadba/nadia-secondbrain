@@ -13,6 +13,8 @@ tags: [composizione-architettonica, sbobina]
 
 > [!info] Note collegate
 > Bozza: [[01-laboratorio-come-funziona]]
+>
+> Sbobina successiva: [[02-aalto-casa-muuratsalo]]
 
 ## I materiali
 

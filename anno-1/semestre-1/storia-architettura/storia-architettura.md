@@ -27,6 +27,10 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 9. [[09-la-villa-romana-villa-adriana|La villa romana; Adriano committente e Villa Adriana a Tivoli]] (mer 21 ottobre, registrazione di Marta)
 10. [[10-adriano-pantheon|Il Pantheon: da Agrippa ad Adriano, la rotonda e la cupola; Partenone e Pantheon]] (gio 22 ottobre)
 11. [[11-architettura-tardoantica|L'architettura tardoantica: Baalbek, Leptis Magna, Arco di Costantino, Basilica di Massenzio, Palazzo di Diocleziano]] (ven 23 ottobre)
+12. [[12-architettura-paleocristiana|L'architettura paleocristiana: la basilica, San Giovanni in Laterano, San Pietro, Santa Maria Maggiore, San Paolo fuori le mura, il Battistero Lateranense]] (gio 29 ottobre)
+13. [[13-architettura-bizantina|L'architettura bizantina: Costantinopoli, Santa Sofia, Ravenna (Galla Placidia, Battistero degli Ortodossi, Mausoleo di Teodorico)]] (ven 30 ottobre, lezione online)
+14. [[14-san-vitale-longobardi-carolingi|San Vitale a Ravenna, i Longobardi, Carlo Magno e la Cappella Palatina di Aquisgrana]] (gio 5 novembre)
+15. [[15-architettura-romanica-firenze-pisa|Introduzione al romanico; Firenze (Battistero, San Miniato al Monte) e il Duomo di Pisa]] (ven 6 novembre)
 
 ## Bozze
 
@@ -45,4 +49,5 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 
 ## Da fare
 
-- [ ] Visita al Celio (mer 28 ottobre): eri assente, chiedere a Marta gli appunti o la registrazione; poi sbobina e bozza (slide: `14_visita Celio.pdf`)
+- [ ] Visita al Celio (mer 28 ottobre): eri assente e la registrazione non c'è; se serve, una bozza solo dalle slide (`14_visita Celio.pdf`)
+- [ ] Slide delle lezioni 12-15 (paleocristiano, bizantino, Longobardi e Carolingi, romanico): quando la professoressa le carica, mettile in `materiale/`, così ricontrollo i nomi nelle sbobine

@@ -34,6 +34,9 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 5. [[05-piani-rette-e-appartenenza|Piano proiettante in seconda, retta e piano generico, piani che contengono le rette, punto che appartiene a un piano]] (gio 15 ottobre)
 6. [[06-piani-proiettanti-orizzontali-frontali|Piani ausiliari, rette orizzontali e frontali, perpendicolarità]] (mar 20 ottobre)
 7. [[07-ribaltamento-piani-proiettanti|Il ribaltamento dei piani proiettanti in prima e in seconda, su π₁ e su π₂]] (gio 22 ottobre)
+8. [[08-tracce-orizzontale-e-ribaltamento-del-punto|Tracce del piano o orizzontale, ribaltamento del punto (sbobina a frammenti: audio quasi incomprensibile)]] (mar 27 ottobre)
+9. [[09-ribaltamento-piano-generico|Il ribaltamento del piano generico, in forma canonica e intorno a un'orizzontale; squadretta e sviluppo della piramide]] (gio 29 ottobre)
+10. [[10-intersezione-retta-figura-e-sezioni|Intersezione tra una retta e un piano dato con una figura; il segno di sezione a baionetta]] (gio 5 novembre)
 
 ## Bozze
 

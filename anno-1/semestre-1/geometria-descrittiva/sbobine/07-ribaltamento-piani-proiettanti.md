@@ -14,7 +14,7 @@ tags: [geometria-descrittiva, sbobina]
 > [!info] Note collegate
 > Bozza: [[07-il-ribaltamento]]
 >
-> Sbobina precedente: [[06-piani-proiettanti-orizzontali-frontali]]
+> Sbobina precedente: [[06-piani-proiettanti-orizzontali-frontali]] · Successiva: [[08-tracce-orizzontale-e-ribaltamento-del-punto]]
 
 ## La figura nel piano proiettante in prima
 

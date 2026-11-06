@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 536" width="620" height="536">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: le orizzontali di α, fino a quella a quota zero (t₁α)</text>
+<g transform="translate(0,36)">
+<polygon points="36.2,335.0 270.0,200.0 419.4,286.2 185.6,421.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="36.2,335.0 270.0,200.0 270.0,35.0 36.2,170.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="270.0,200.0 419.4,286.2 419.4,121.2 270.0,35.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="36.2" y1="335.0" x2="270.0" y2="200.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="270.0" y1="200.0" x2="419.4" y2="286.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="270.0" y1="200.0" x2="270.0" y2="35.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="196.8" y="377.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="77.2" y="168.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="388.0" y="118.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="14.2" y="339.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="270.0,65.0 36.2,335.0 398.6,274.2" fill="#2563a8" fill-opacity="0.14" stroke="none"/>
+<line x1="36.2" y1="335.0" x2="398.6" y2="274.2" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="221.4" y="300.6" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="36.2" y1="335.0" x2="270.0" y2="65.0" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="157.1" y="196.0" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="398.6" y1="274.2" x2="270.0" y2="65.0" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="338.3" y="165.6" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="244.0" y1="95.0" x2="284.3" y2="88.2" stroke="#2e8b57" stroke-width="2" stroke-linecap="round"/>
+<line x1="244.0" y1="95.0" x2="244.0" y2="215.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="284.3" y1="88.2" x2="284.3" y2="208.2" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="244.0" y1="215.0" x2="284.3" y2="208.2" stroke="#2e8b57" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="192.1" y1="155.0" x2="312.9" y2="134.8" stroke="#d97706" stroke-width="2" stroke-linecap="round"/>
+<line x1="192.1" y1="155.0" x2="192.1" y2="245.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="312.9" y1="134.8" x2="312.9" y2="224.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="192.1" y1="245.0" x2="312.9" y2="224.8" stroke="#d97706" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="114.1" y1="245.0" x2="355.7" y2="204.5" stroke="#7b4fa0" stroke-width="2" stroke-linecap="round"/>
+<line x1="114.1" y1="245.0" x2="114.1" y2="290.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="355.7" y1="204.5" x2="355.7" y2="249.5" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="114.1" y1="290.0" x2="355.7" y2="249.5" stroke="#7b4fa0" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<text x="20" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Le orizzontali sono parallele tra loro e a π₁; le loro prime proiezioni (tratteggiate)</text>
+<text x="20" y="487" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">sono parallele a t₁α. Scendendo, l'ultima orizzontale è la prima traccia stessa.</text>
+</g>
+</svg>

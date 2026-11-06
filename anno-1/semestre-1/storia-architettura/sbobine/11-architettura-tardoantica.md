@@ -14,7 +14,7 @@ tags: [storia-architettura, sbobina]
 > [!info] Note collegate
 > Bozza: [[11-architettura-tardoantica-da-baalbek-a-spalato]]
 >
-> Sbobina precedente: [[10-adriano-pantheon]]
+> Sbobina precedente: [[10-adriano-pantheon]] · Successiva: [[12-architettura-paleocristiana]]
 
 ## Che cosa si intende per architettura tardoantica
 
