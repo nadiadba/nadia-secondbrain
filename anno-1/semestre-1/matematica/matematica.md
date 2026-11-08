@@ -8,5 +8,17 @@ tags: [matematica, indice]
 
 # Matematica
 
-> [!warning] Da completare
-> Questa sezione e' ancora vuota. Quando arrivano le prime lezioni, le sbobine vanno nella cartella `sbobine`, slide e PDF del corso in `materiale`, le bozze in `bozze` e i tuoi appunti finiti (PDF) in `appunti`.
+Istituzioni di Matematiche 1. Esonero (prova in itinere) mercoledì 11 novembre. Fogli di esercizi, capitoli dei libri e programma sono in `materiale/`.
+
+## Appunti (i tuoi PDF finiti)
+
+Ancora nessuno.
+
+## Sbobine
+
+Ancora nessuna.
+
+## Bozze
+
+- [[00-piano-esonero-1|Piano di studio per l'esonero dell'11 novembre]]: giorno per giorno, quali esercizi fare e che cosa portare.
+- [[00-ripasso-esonero-1|Ripasso per l'esonero]]: formule ed esempi svolti su vettori, prodotto scalare, vettoriale e triplo, funzioni, logaritmi e trigonometria.
