@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="290" viewBox="0 0 640 290">
+<rect width="100%" height="100%" fill="white"/>
+<rect x="284.0" y="44.0" width="132.0" height="162.0" rx="8" fill="#666666" fill-opacity="0.08" stroke="#666666" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="93.0" y1="66.0" x2="257.0" y2="184.0" stroke="#2e7d4f" stroke-width="2.4" stroke-linecap="round" opacity="0.75"/>
+<line x1="163.0" y1="66.0" x2="327.0" y2="184.0" stroke="#2e7d4f" stroke-width="2.4" stroke-linecap="round" opacity="0.75"/>
+<line x1="233.0" y1="66.0" x2="397.0" y2="184.0" stroke="#2e7d4f" stroke-width="2.4" stroke-linecap="round" opacity="0.75"/>
+<line x1="93.0" y1="184.0" x2="257.0" y2="66.0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" opacity="0.75" stroke-dasharray="7,4"/>
+<line x1="163.0" y1="184.0" x2="327.0" y2="66.0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" opacity="0.75" stroke-dasharray="7,4"/>
+<line x1="233.0" y1="184.0" x2="397.0" y2="66.0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round" opacity="0.75" stroke-dasharray="7,4"/>
+<text x="105.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₁₁</text>
+<text x="105.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#222">a₁₁</text>
+<text x="175.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₁₂</text>
+<text x="175.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#222">a₁₂</text>
+<text x="245.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₁₃</text>
+<text x="245.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#222">a₁₃</text>
+<text x="315.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₁₁</text>
+<text x="315.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#666666">a₁₁</text>
+<text x="385.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₁₂</text>
+<text x="385.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#666666">a₁₂</text>
+<text x="105.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₂₁</text>
+<text x="105.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#222">a₂₁</text>
+<text x="175.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₂₂</text>
+<text x="175.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#222">a₂₂</text>
+<text x="245.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₂₃</text>
+<text x="245.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#222">a₂₃</text>
+<text x="315.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₂₁</text>
+<text x="315.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#666666">a₂₁</text>
+<text x="385.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₂₂</text>
+<text x="385.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#666666">a₂₂</text>
+<text x="105.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₃₁</text>
+<text x="105.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#222">a₃₁</text>
+<text x="175.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₃₂</text>
+<text x="175.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#222">a₃₂</text>
+<text x="245.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₃₃</text>
+<text x="245.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#222">a₃₃</text>
+<text x="315.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₃₁</text>
+<text x="315.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#666666">a₃₁</text>
+<text x="385.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">a₃₂</text>
+<text x="385.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#666666">a₃₂</text>
+<line x1="66.0" y1="46.0" x2="66.0" y2="204.0" stroke="#222" stroke-width="2" stroke-linecap="round" opacity="1"/>
+<line x1="284.0" y1="46.0" x2="284.0" y2="204.0" stroke="#222" stroke-width="2" stroke-linecap="round" opacity="1"/>
+<text x="350.0" y="36.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666666">prime due colonne ricopiate</text>
+<text x="440.0" y="90.0" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="start" fill="#2e7d4f">+</text>
+<text x="464.0" y="88.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#2e7d4f">verso il basso</text>
+<text x="440.0" y="170.0" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="start" fill="#c0392b">−</text>
+<text x="464.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#c0392b">verso l'alto</text>
+<text x="320.0" y="248.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2e7d4f">det A = a₁₁a₂₂a₃₃ + a₁₂a₂₃a₃₁ + a₁₃a₂₁a₃₂</text>
+<text x="320.0" y="274.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#c0392b">− a₃₁a₂₂a₁₃ − a₃₂a₂₃a₁₁ − a₃₃a₂₁a₁₂</text>
+</svg>

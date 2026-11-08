@@ -12,7 +12,7 @@ tags: [matematica, bozza, ripasso]
 Le formule e i procedimenti di tutti gli argomenti fatti in classe, con un esempio svolto per ogni tipo di esercizio. Il piano dei giorni è in [[00-piano-esonero-1|Piano di studio per l'esonero]].
 
 > [!info] Note collegate
-> Piano: [[00-piano-esonero-1]] · Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]]
+> Piano: [[00-piano-esonero-1]] · Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]]
 
 ## 1. Equazioni e disequazioni
 
@@ -77,7 +77,11 @@ Il risultato è un **numero**, non un vettore.
 - **Vero o falso tipici**: $\mathbf{u}\cdot\mathbf{v}=0$ non vuol dire che uno dei due è nullo (possono essere ortogonali); $\|\mathbf{u}+\mathbf{v}\| = \|\mathbf{u}\|+\|\mathbf{v}\|$ vale solo se sono paralleli e con lo stesso verso.
 - **Distanza di un punto $P$ da una retta** $X = A + s\,\mathbf{d}$: il piede $H = A + s\,\mathbf{d}$ si trova imponendo $\overrightarrow{HP}\cdot\mathbf{d} = 0$; la distanza è $\|\overrightarrow{HP}\|$.
 
-## 5. Determinanti, prodotto vettoriale, prodotto triplo
+## 5. Matrici, determinanti, prodotto vettoriale, prodotto triplo
+
+**Matrici**: $a_{ij}$ è l'elemento nella riga $i$ e nella colonna $j$. Somma: $A+B = (a_{ij}+b_{ij})$. Prodotto riga per colonna: l'elemento di posto $ij$ di $A\cdot B$ è la riga $i$ di $A$ «per» la colonna $j$ di $B$ (prodotto scalare). Esempio della lavagna: $\begin{pmatrix}1&2\\1&0\end{pmatrix}\begin{pmatrix}1&-1\\2&1\end{pmatrix} = \begin{pmatrix}5&1\\1&-1\end{pmatrix}$. Il prodotto è associativo e distributivo ma **non commutativo** ($A\cdot B \neq B\cdot A$ in generale).
+
+**Complemento algebrico**: $A_{ij} = (-1)^{i+j}\cdot$ (determinante che resta togliendo riga $i$ e colonna $j$); segni a scacchiera $+\,-\,+$. Il determinante si sviluppa lungo una riga o colonna (conviene quella con più zeri): somma degli elementi per i loro complementi algebrici.
 
 **Determinante 2×2**:
 $$

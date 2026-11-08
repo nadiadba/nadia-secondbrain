@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Le funzioni elementari sono i mattoni con cui si costruiscono quasi tutte le altre funzioni: la retta, le potenze, le radici, l'iperbole, il valore assoluto, la parabola, l'esponenziale, il logaritmo e le funzioni trigonometriche. In classe ci si è fermati proprio all'inizio di questo argomento, quindi questa pagina serve a prepararsi: per ogni funzione si guarda il grafico e si leggono le stesse informazioni (dominio, immagine, monotonia, parità, zeri, asintoti, inversa), e poi si imparano a risolvere le equazioni e le disequazioni che le contengono. Gli esempi svolti vengono quasi tutti dalla seconda pagina del foglio di esercizi del professore.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## RETTE, POTENZE, RADICI E VALORE ASSOLUTO
 

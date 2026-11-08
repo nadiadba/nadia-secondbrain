@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Un vettore è una freccia: ha una lunghezza, una direzione e un verso, e serve a descrivere tutto ciò che non basta dire "quanto", ma bisogna dire anche "verso dove" (uno spostamento, una forza, il lato di una figura). In questa pagina si parte dalla freccia, si arriva a scriverla con i numeri (le componenti) e si impara a fare i conti: somma, prodotto per un numero, lunghezza. Poi vengono i tre "prodotti" che il professore usa negli esercizi: il prodotto scalare, che misura gli angoli e dice quando due vettori sono perpendicolari; il prodotto vettoriale, che dà un vettore perpendicolare a due vettori e misura le aree; il prodotto triplo, che misura i volumi. Tutti gli esempi svolti vengono dai due fogli di esercizi del professore.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## PUNTI E VETTORI
 
@@ -34,7 +34,25 @@ Questo è il punto che all'inizio sorprende di più: un vettore non "abita" in u
 
 ![[03-vettore-freccia.svg|560]]
 
-Proprio perché si può spostare, conviene quasi sempre disegnare un vettore con la coda nell'origine $O$ degli assi. È questa scelta che permette di descriverlo con i numeri.
+### Vettori applicati, equipollenti e liberi
+
+Alla lavagna il professore ha dato un nome preciso a questa idea, distinguendo la singola freccia dal vettore.
+
+Si lavora nello *spazio ordinario euclideo* $S$: lo spazio della geometria di sempre, quello in cui, per esempio, la somma degli angoli di un triangolo è $180°$.
+
+1. Un *vettore applicato* $[A, B]$ è un segmento orientato: la freccia che parte dal punto $A$ (il punto di applicazione) e arriva al punto $B$. È perfettamente descritto da direzione, verso e modulo, più il punto da cui parte.
+2. Due vettori applicati $[A, B]$ e $[C, D]$ si dicono *equipollenti* se hanno la stessa direzione, lo stesso verso e lo stesso modulo: sono la stessa freccia, traslata. Nella figura qui sopra $[A, B]$ e $[C, D]$ sono equipollenti.
+3. Il *vettore libero* $\vec{v} = \langle A, B \rangle$ è l'insieme di tutti i vettori applicati equipollenti ad $[A, B]$: in termini tecnici, la loro *classe di equivalenza*.
+
+> [!abstract] Definizione: vettore libero
+> $$
+> \vec{v} = \langle A, B \rangle = \{\text{tutti i vettori applicati equipollenti ad } [A, B]\}
+> $$
+> L'insieme di tutti i vettori liberi si indica con $V_g$.
+
+Detto in parole semplici: il vettore libero è "la freccia senza indirizzo". Ognuna delle frecce equipollenti ne è un *rappresentante*, e per fare i conti si può scegliere quella più comoda. Quando in questa pagina si dice "vettore" senza altro, si intende il vettore libero.
+
+Proprio perché si può spostare, conviene quasi sempre disegnare un vettore con la coda nell'origine $O$ degli assi: si sceglie, tra tutte le frecce equipollenti, quella applicata in $O$. È questa scelta che permette di descriverlo con i numeri.
 
 ### Le componenti nel piano e nello spazio
 
@@ -78,6 +96,19 @@ Se la freccia non parte dall'origine ma da un punto $A$ e arriva a un punto $B$,
 Il perché è semplice: le componenti dicono di quanto ci si sposta per andare da $A$ a $B$, e lo spostamento orizzontale è la differenza delle ascisse, quello verticale la differenza delle ordinate.
 
 ![[03-vettore-tra-punti.svg|460]]
+
+Il professore l'ha ricavato alla lavagna con i vettori che partono dall'origine. Siano $P_1 = (x_1, y_1)$ e $P_2 = (x_2, y_2)$. I vettori $\overrightarrow{OP_1}$ e $\overrightarrow{OP_2}$ hanno per componenti proprio le coordinate dei due punti.
+
+1. Per andare da $O$ a $P_2$ si può passare per $P_1$: prima $\overrightarrow{OP_1}$, poi $\overrightarrow{P_1P_2}$. Con la regola punta-coda della somma (vedi più avanti):
+$$
+\overrightarrow{OP_1} + \overrightarrow{P_1P_2} = \overrightarrow{OP_2}.
+$$
+2. Portando $\overrightarrow{OP_1}$ dall'altra parte:
+$$
+\overrightarrow{P_1P_2} = \overrightarrow{OP_2} - \overrightarrow{OP_1} = (x_2, y_2) - (x_1, y_1) = (x_2 - x_1,\ y_2 - y_1).
+$$
+
+![[03-op1-p1p2-op2.svg|460]]
 
 > [!example] Esempio (esercizio 14 del foglio sui vettori)
 > Siano $A = (1, -1)$, $B = (5, 1)$, $C = (2, 4)$.
@@ -161,6 +192,17 @@ In componenti si moltiplica ogni componente per $k$: $k\,(u_1, u_2) = (k u_1,\ k
 
 ![[03-multipli.svg|440]]
 
+Alla lavagna il professore ha elencato le proprietà del prodotto per uno scalare. Dicono che i conti con numeri e vettori si fanno come quelli con i soli numeri: si raccoglie, si distribuisce, si portano fuori i numeri.
+
+> [!abstract] Proprietà del prodotto per uno scalare
+> Per ogni $a, b \in \mathbb{R}$ e ogni $\vec{v}, \vec{w} \in V_g$:
+> 1. $(a + b)\,\vec{v} = a\vec{v} + b\vec{v}$;
+> 2. $a\,(\vec{v} + \vec{w}) = a\vec{v} + a\vec{w}$;
+> 3. $a\,(b\vec{v}) = (ab)\,\vec{v}$;
+> 4. $1\,\vec{v} = \vec{v}$.
+
+Per esempio la 1 dice che $2\vec{v} + 3\vec{v} = 5\vec{v}$: due passi di $\vec{v}$ più tre passi di $\vec{v}$ sono cinque passi. La 2 dice che allungare la somma di due vettori è come allungarli uno per uno e poi sommarli (il parallelogramma della somma si ingrandisce tutto insieme).
+
 > [!example] Esempio (esercizio 1, seconda parte)
 > Con $\mathbf{u} = (2, -1)$ e $\mathbf{v} = (-3, 4)$:
 >
@@ -226,6 +268,14 @@ Due vettori non nulli sono *paralleli* se hanno la stessa direzione, cioè se un
 > $\mathbf{u}$ e $\mathbf{v}$ (non nulli) sono paralleli se esiste un numero $k$ tale che $\mathbf{v} = k\,\mathbf{u}$, cioè se le componenti sono proporzionali.
 > - Se $k > 0$ hanno lo stesso verso.
 > - Se $k < 0$ hanno verso opposto.
+
+Alla lavagna il professore l'ha scritta come *condizione di parallelismo*: due vettori $\vec{v}, \vec{w} \neq \vec{0}$ si dicono paralleli se
+
+$$
+\exists\, \lambda \in \mathbb{R} \setminus \{0\} \ \text{ tale che } \ \vec{v} = \lambda \vec{w}.
+$$
+
+Si legge: "esiste un numero reale $\lambda$ (lambda), diverso da zero, tale che $\vec{v}$ è uguale a $\lambda$ per $\vec{w}$". Il simbolo $\exists$ vuol dire "esiste", e $\mathbb{R} \setminus \{0\}$ sono i numeri reali tolto lo zero. Lo zero si esclude perché $0 \cdot \vec{w}$ è il vettore nullo, che non ha direzione.
 
 > [!example] Esempio (esercizio 16)
 > Per quali $t$ i vettori $\mathbf{u} = (t, 2, -1)$ e $\mathbf{v} = (6, 4, -2)$ sono paralleli?
@@ -553,7 +603,7 @@ La stessa idea serve a calcolare la distanza di un punto da una retta, che è la
 
 ### Il determinante 2×2 e l'area orientata
 
-Un *determinante* è un numero che si calcola a partire da una tabella quadrata di numeri (una *matrice*). Per una tabella 2×2 si fa il prodotto della diagonale principale meno il prodotto dell'altra diagonale:
+Un *determinante* è un numero che si calcola a partire da una tabella quadrata di numeri (una *matrice*; matrici e determinanti sono spiegati per intero, come li ha fatti il professore, in [[06-le-matrici]]). Per una tabella 2×2 si fa il prodotto della diagonale principale meno il prodotto dell'altra diagonale:
 
 > [!abstract] Determinante 2×2
 > $$

@@ -27,6 +27,7 @@ Teoria, nell'ordine in cui il professore ha fatto gli argomenti:
 - [[03-i-vettori|I vettori]]: operazioni, norma, prodotto scalare e proiezioni, determinanti, prodotto vettoriale e prodotto triplo.
 - [[04-le-funzioni|Le funzioni: grafico, dominio, immagine, funzione inversa]]: con tutti gli esercizi della prima pagina del foglio svolti.
 - [[05-funzioni-elementari|Le funzioni elementari]]: potenze, radici, esponenziali, logaritmi, trigonometria (in classe vi siete fermati all'inizio).
+- [[06-le-matrici|Le matrici e il determinante]]: somma e prodotto riga per colonna, determinante 2×2 e 3×3 (Sarrus), complementi algebrici, dalle foto della lavagna.
 
 Per l'esonero:
 

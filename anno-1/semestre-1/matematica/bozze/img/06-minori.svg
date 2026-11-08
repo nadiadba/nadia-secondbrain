@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="300" viewBox="0 0 820 300">
+<rect width="100%" height="100%" fill="white"/>
+<text x="75.0" y="86.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#1f5fa8">1</text>
+<text x="125.0" y="86.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666666">3</text>
+<text x="175.0" y="86.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666666">−5</text>
+<text x="75.0" y="126.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666666">5</text>
+<text x="125.0" y="126.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">0</text>
+<text x="175.0" y="126.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">2</text>
+<text x="75.0" y="166.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666666">−1</text>
+<text x="125.0" y="166.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">0</text>
+<text x="175.0" y="166.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">0</text>
+<path d="M 48.0,58.0 Q 30.0,120.0 48.0,182.0" fill="none" stroke="#222" stroke-width="2"/>
+<path d="M 202.0,58.0 Q 220.0,120.0 202.0,182.0" fill="none" stroke="#222" stroke-width="2"/>
+<line x1="46.0" y1="80.0" x2="204.0" y2="80.0" stroke="#1f5fa8" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+<line x1="75.0" y1="56.0" x2="75.0" y2="184.0" stroke="#1f5fa8" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+<text x="125.0" y="42.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1f5fa8">togli riga 1 e colonna 1</text>
+<text x="242.0" y="106.0" font-family="Helvetica, Arial, sans-serif" font-size="22" text-anchor="middle" fill="#222">→</text>
+<text x="290.0" y="106.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">0</text>
+<text x="330.0" y="106.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">2</text>
+<text x="290.0" y="146.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">0</text>
+<text x="330.0" y="146.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">0</text>
+<line x1="266.0" y1="78.0" x2="266.0" y2="162.0" stroke="#222" stroke-width="2"/>
+<line x1="354.0" y1="78.0" x2="354.0" y2="162.0" stroke="#222" stroke-width="2"/>
+<text x="220.0" y="220.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#222">A₁₁ = (−1)<tspan font-size="75%" dy="-6">1+1</tspan><tspan dy="6">​</tspan> · (0·0 − 2·0)</text>
+<text x="220.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#1f5fa8">A₁₁ = +1 · 0 = 0</text>
+<text x="475.0" y="86.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">1</text>
+<text x="525.0" y="86.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666666">3</text>
+<text x="575.0" y="86.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">−5</text>
+<text x="475.0" y="126.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666666">5</text>
+<text x="525.0" y="126.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#7d3c98">0</text>
+<text x="575.0" y="126.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666666">2</text>
+<text x="475.0" y="166.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">−1</text>
+<text x="525.0" y="166.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666666">0</text>
+<text x="575.0" y="166.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">0</text>
+<path d="M 448.0,58.0 Q 430.0,120.0 448.0,182.0" fill="none" stroke="#222" stroke-width="2"/>
+<path d="M 602.0,58.0 Q 620.0,120.0 602.0,182.0" fill="none" stroke="#222" stroke-width="2"/>
+<line x1="446.0" y1="120.0" x2="604.0" y2="120.0" stroke="#7d3c98" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+<line x1="525.0" y1="56.0" x2="525.0" y2="184.0" stroke="#7d3c98" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+<text x="525.0" y="42.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#7d3c98">togli riga 2 e colonna 2</text>
+<text x="642.0" y="106.0" font-family="Helvetica, Arial, sans-serif" font-size="22" text-anchor="middle" fill="#222">→</text>
+<text x="690.0" y="106.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">1</text>
+<text x="730.0" y="106.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">−5</text>
+<text x="690.0" y="146.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">−1</text>
+<text x="730.0" y="146.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#222">0</text>
+<line x1="666.0" y1="78.0" x2="666.0" y2="162.0" stroke="#222" stroke-width="2"/>
+<line x1="754.0" y1="78.0" x2="754.0" y2="162.0" stroke="#222" stroke-width="2"/>
+<text x="620.0" y="220.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#222">A₂₂ = (−1)<tspan font-size="75%" dy="-6">2+2</tspan><tspan dy="6">​</tspan> · (1·0 − (−5)(−1))</text>
+<text x="620.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#7d3c98">A₂₂ = +1 · (0 − 5) = −5</text>
+</svg>

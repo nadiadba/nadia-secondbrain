@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Equazioni e disequazioni sono il primo argomento del corso e lo strumento che serve in tutti gli altri: per trovare dove una retta incontra una circonferenza, per calcolare il dominio di una funzione, per capire dove un grafico sta sopra o sotto l'asse $x$. Questa pagina parte da che cosa vuol dire "risolvere" e arriva ai tipi che compaiono negli esercizi: primo e secondo grado, frazionarie, con valore assoluto, irrazionali, e poi le disequazioni con i loro metodi (la parabola, la tabella dei segni, i sistemi).
 
 > [!info] Note collegate
-> Teoria: [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## EQUAZIONI
 

@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Una funzione è una regola che a ogni numero di partenza fa corrispondere uno e un solo numero di arrivo. È l'idea più importante di tutto il corso: i limiti, le derivate e gli integrali che verranno dopo sono tutti modi di studiare le funzioni. Questa pagina parte dalla definizione, passa al grafico, al dominio e all'immagine, poi alle proprietà (iniettiva, suriettiva, pari, crescente...) e alla funzione inversa, e chiude con le operazioni che spostano e deformano i grafici. Gli esempi svolti seguono la prima pagina del foglio del professore, `Esercizi_funzioni_e_Logaritmi.pdf`.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[05-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## CHE COS'È UNA FUNZIONE
 
