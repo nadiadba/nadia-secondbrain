@@ -1,253 +1,665 @@
-"""Disegni per la bozza di matematica 06 - Le matrici e il determinante.
+#!/usr/bin/env python3
+"""Disegni per la bozza di matematica 04-le-funzioni.
 
 Uso: python3 -I .claude/scripts/disegni/matematica-06.py
-Scrive gli SVG in anno-1/semestre-1/matematica/bozze/img/ (prefisso 06-).
-Nessuna dipendenza esterna: riusa le primitive di matematica-03.py.
+Le immagini SVG vanno in anno-1/semestre-1/matematica/bozze/img/ (prefisso 06-).
+Nessuna dipendenza esterna.
 """
-import importlib.util
+import math
 import os
 
 QUI = os.path.dirname(os.path.abspath(__file__))
-_spec = importlib.util.spec_from_file_location("m03", os.path.join(QUI, "matematica-03.py"))
-m03 = importlib.util.module_from_spec(_spec)
-_spec.loader.exec_module(m03)
+OUT = os.path.normpath(os.path.join(QUI, "..", "..", "..", "anno-1", "semestre-1",
+                                    "matematica", "bozze", "img"))
+os.makedirs(OUT, exist_ok=True)
 
-Tela, Piano = m03.Tela, m03.Piano
-BLU, ROSSO, VERDE, VIOLA, ARANCIO = m03.BLU, m03.ROSSO, m03.VERDE, m03.VIOLA, m03.ARANCIO
-GRIGIO, GRIGIO_CHIARO = m03.GRIGIO, m03.GRIGIO_CHIARO
-add, mul = m03.add, m03.mul
-
-CELLA_W, CELLA_H = 54, 40
-
-
-def m(s):
-    """Meno tipografico."""
-    return str(s).replace("-", "−")
+BLU = "#1f5fa8"
+ROSSO = "#c0392b"
+VERDE = "#2e8b57"
+ARANCIO = "#d4810f"
+VIOLA = "#7d3c98"
+GRIGIO = "#888888"
+NERO = "#222222"
+FONT = "Helvetica, Arial, sans-serif"
 
 
-def matrice(t, x0, y0, righe, cw=CELLA_W, ch=CELLA_H, size=18, bordi="tonde", col="#222",
-            colori=None, nome=None):
-    """Disegna una matrice con l'angolo in alto a sinistra delle celle in (x0, y0) (pixel).
-    colori: dict {(i, j): colore} per colorare singoli elementi. Ritorna (larghezza, altezza)."""
-    nr, nc = len(righe), len(righe[0])
-    W, H = nc * cw, nr * ch
-    for i, r in enumerate(righe):
-        for j, v in enumerate(r):
-            c = (colori or {}).get((i, j), col)
-            t.testo_px(x0 + (j + 0.5) * cw, y0 + (i + 0.5) * ch + size * 0.36, m(v), col=c, size=size)
-    if bordi == "tonde":
-        for xe, xc in ((x0 - 2, x0 - 20), (x0 + W + 2, x0 + W + 20)):
-            t.el.append('<path d="M %.1f,%.1f Q %.1f,%.1f %.1f,%.1f" fill="none" stroke="#222" stroke-width="2"/>'
-                        % (xe, y0 - 2, xc, y0 + H / 2, xe, y0 + H + 2))
-    elif bordi == "barre":
-        for xb in (x0 - 4, x0 + W + 4):
-            t.el.append('<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="#222" stroke-width="2"/>'
-                        % (xb, y0 - 2, xb, y0 + H + 2))
-    if nome:
-        t.testo_px(x0 - 22, y0 + H / 2 + 7, nome, size=20, anchor="end")
-    return W, H
+def esc(s):
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def rett(t, x, y, w, h, col, op=0.15, sw=2, dash=None, rx=8):
-    d = ' stroke-dasharray="%s"' % dash if dash else ""
-    t.el.append('<rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" rx="%s" fill="%s" fill-opacity="%s" '
-                'stroke="%s" stroke-width="%s"%s/>' % (x, y, w, h, rx, col, op, col, sw, d))
+class SVG:
+    def __init__(self, w, h):
+        self.w, self.h = w, h
+        self.el = []
+        self.nclip = 0
+        self.colori = set()
+
+    def marker(self, color):
+        self.colori.add(color)
+        return f"url(#fr{color[1:]})"
+
+    def add(self, s):
+        self.el.append(s)
+
+    def text(self, x, y, s, color=NERO, size=15, anchor="start", italic=False, bold=False):
+        st = ' font-style="italic"' if italic else ""
+        bw = ' font-weight="bold"' if bold else ""
+        self.add(f'<text x="{x:.1f}" y="{y:.1f}" font-family="{FONT}" font-size="{size}" '
+                 f'fill="{color}" text-anchor="{anchor}"{st}{bw}>{esc(s)}</text>')
+
+    def line(self, x1, y1, x2, y2, color=NERO, width=1.5, dash=None, arrow=False):
+        d = f' stroke-dasharray="{dash}"' if dash else ""
+        m = f' marker-end="{self.marker(color)}"' if arrow else ""
+        self.add(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" '
+                 f'stroke="{color}" stroke-width="{width}"{d}{m}/>')
+
+    def save(self, nome):
+        testa = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w}" height="{self.h}" '
+                 f'viewBox="0 0 {self.w} {self.h}">\n'
+                 '<defs>' + "".join(
+                     f'<marker id="fr{c[1:]}" viewBox="0 0 10 10" refX="9" refY="5" '
+                     'markerWidth="7" markerHeight="7" orient="auto-start-reverse">'
+                     f'<path d="M0,0 L10,5 L0,10 z" fill="{c}"/></marker>' for c in sorted(self.colori))
+                 + '</defs>\n'
+                 f'<rect width="{self.w}" height="{self.h}" fill="white"/>\n')
+        with open(os.path.join(OUT, nome), "w", encoding="utf-8") as f:
+            f.write(testa + "\n".join(self.el) + "\n</svg>\n")
+        print("scritto", nome)
 
 
-def linea_px(t, x1, y1, x2, y2, col, sw=2.2, op=1, dash=None):
-    d = ' stroke-dasharray="%s"' % dash if dash else ""
-    t.el.append('<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" stroke-width="%s" '
-                'stroke-linecap="round" opacity="%s"%s/>' % (x1, y1, x2, y2, col, sw, op, d))
+class Grafico:
+    """Un riquadro con assi cartesiani dentro un SVG."""
+
+    def __init__(self, svg, x0, y0, w, h, xr, yr, titolo=None, passo=1, etich=None,
+                 xlab="x", ylab="y", colore_titolo=NERO):
+        self.s = svg
+        self.x0, self.y0, self.w, self.h = x0, y0, w, h
+        self.xr, self.yr = xr, yr
+        svg.nclip += 1
+        self.clip = f"clip{svg.nclip}"
+        svg.add(f'<clipPath id="{self.clip}"><rect x="{x0}" y="{y0}" width="{w}" height="{h}"/></clipPath>')
+        if titolo:
+            svg.text(x0 + w / 2, y0 - 12, titolo, colore_titolo, 16, "middle", bold=True)
+        # griglia
+        for k in range(math.ceil(xr[0]), math.floor(xr[1]) + 1):
+            if k % passo == 0:
+                svg.line(self.X(k), y0, self.X(k), y0 + h, "#e6e6e6", 1)
+        for k in range(math.ceil(yr[0]), math.floor(yr[1]) + 1):
+            if k % passo == 0:
+                svg.line(x0, self.Y(k), x0 + w, self.Y(k), "#e6e6e6", 1)
+        # assi
+        ya = self.Y(0) if yr[0] <= 0 <= yr[1] else y0 + h
+        xa = self.X(0) if xr[0] <= 0 <= xr[1] else x0
+        svg.line(x0, ya, x0 + w, ya, NERO, 1.4, arrow=True)
+        svg.line(xa, y0 + h, xa, y0, NERO, 1.4, arrow=True)
+        svg.text(x0 + w - 4, ya + 18, xlab, NERO, 15, "end", italic=True)
+        svg.text(xa + 8, y0 + 13, ylab, NERO, 15, "start", italic=True)
+        etich = etich if etich is not None else passo
+        if etich:
+            for k in range(math.ceil(xr[0]), math.floor(xr[1]) + 1):
+                if k != 0 and k % etich == 0 and self.X(k) < x0 + w - 18:
+                    svg.line(self.X(k), ya - 3, self.X(k), ya + 3, NERO, 1)
+                    svg.text(self.X(k), ya + 16, str(k).replace("-", "−"), "#555", 12, "middle")
+            for k in range(math.ceil(yr[0]), math.floor(yr[1]) + 1):
+                if k != 0 and k % etich == 0 and self.Y(k) > y0 + 18:
+                    svg.line(xa - 3, self.Y(k), xa + 3, self.Y(k), NERO, 1)
+                    svg.text(xa - 6, self.Y(k) + 4, str(k).replace("-", "−"), "#555", 12, "end")
+            if xr[0] < 0 < xr[1] and yr[0] < 0 < yr[1]:
+                svg.text(xa - 6, ya + 16, "0", "#555", 12, "end")
+
+    def X(self, x):
+        return self.x0 + (x - self.xr[0]) / (self.xr[1] - self.xr[0]) * self.w
+
+    def Y(self, y):
+        return self.y0 + self.h - (y - self.yr[0]) / (self.yr[1] - self.yr[0]) * self.h
+
+    def curva(self, f, a, b, color=BLU, width=2.6, n=500, dash=None):
+        pezzi, cur = [], []
+        ylim = (self.yr[1] - self.yr[0]) * 3
+        for i in range(n + 1):
+            x = a + (b - a) * i / n
+            try:
+                y = f(x)
+            except (ValueError, ZeroDivisionError):
+                y = None
+            if y is None or abs(y) > ylim + abs(self.yr[0]) + abs(self.yr[1]):
+                if len(cur) > 1:
+                    pezzi.append(cur)
+                cur = []
+                continue
+            cur.append((self.X(x), self.Y(y)))
+        if len(cur) > 1:
+            pezzi.append(cur)
+        d = f' stroke-dasharray="{dash}"' if dash else ""
+        for p in pezzi:
+            pts = " ".join(f"{u:.1f},{v:.1f}" for u, v in p)
+            self.s.add(f'<polyline points="{pts}" fill="none" stroke="{color}" stroke-width="{width}" '
+                       f'stroke-linejoin="round" stroke-linecap="round" clip-path="url(#{self.clip})"{d}/>')
+
+    def spezzata(self, pts, color=BLU, width=2.6, dash=None):
+        d = f' stroke-dasharray="{dash}"' if dash else ""
+        p = " ".join(f"{self.X(x):.1f},{self.Y(y):.1f}" for x, y in pts)
+        self.s.add(f'<polyline points="{p}" fill="none" stroke="{color}" stroke-width="{width}" '
+                   f'stroke-linejoin="round" clip-path="url(#{self.clip})"{d}/>')
+
+    def punto(self, x, y, color=BLU, vuoto=False, r=5):
+        fill = "white" if vuoto else color
+        self.s.add(f'<circle cx="{self.X(x):.1f}" cy="{self.Y(y):.1f}" r="{r}" fill="{fill}" '
+                   f'stroke="{color}" stroke-width="2"/>')
+
+    def scritta(self, x, y, s, color=NERO, anchor="start", dx=0, dy=0, size=14, italic=False,
+                bold=False):
+        self.s.text(self.X(x) + dx, self.Y(y) + dy, s, color, size, anchor, italic, bold)
+
+    def tratteggio(self, x1, y1, x2, y2, color=GRIGIO, width=1.4):
+        self.s.line(self.X(x1), self.Y(y1), self.X(x2), self.Y(y2), color, width, "5,4")
+
+    def segmento(self, x1, y1, x2, y2, color=NERO, width=1.6, freccia=False, dash=None):
+        self.s.line(self.X(x1), self.Y(y1), self.X(x2), self.Y(y2), color, width, dash, freccia)
+
+    def banda_x(self, a, b, color, chiusoa=True, chiusob=True, freccia_b=False, freccia_a=False):
+        """Intervallo evidenziato sull'asse x."""
+        ya = self.Y(0) if self.yr[0] <= 0 <= self.yr[1] else self.y0 + self.h
+        xa, xb = self.X(max(a, self.xr[0])), self.X(min(b, self.xr[1]))
+        self.s.add(f'<line x1="{xa:.1f}" y1="{ya:.1f}" x2="{xb:.1f}" y2="{ya:.1f}" stroke="{color}" '
+                   f'stroke-width="7" stroke-opacity="0.55" stroke-linecap="butt"/>')
+        if a >= self.xr[0] and not freccia_a:
+            self.s.add(f'<circle cx="{xa:.1f}" cy="{ya:.1f}" r="5" fill="{color if chiusoa else "white"}" stroke="{color}" stroke-width="2"/>')
+        if b <= self.xr[1] and not freccia_b:
+            self.s.add(f'<circle cx="{xb:.1f}" cy="{ya:.1f}" r="5" fill="{color if chiusob else "white"}" stroke="{color}" stroke-width="2"/>')
+
+    def banda_y(self, a, b, color, chiusoa=True, chiusob=True, freccia_a=False, freccia_b=False):
+        xa = self.X(0) if self.xr[0] <= 0 <= self.xr[1] else self.x0
+        ya, yb = self.Y(max(a, self.yr[0])), self.Y(min(b, self.yr[1]))
+        self.s.add(f'<line x1="{xa:.1f}" y1="{ya:.1f}" x2="{xa:.1f}" y2="{yb:.1f}" stroke="{color}" '
+                   f'stroke-width="7" stroke-opacity="0.55" stroke-linecap="butt"/>')
+        if a >= self.yr[0] and not freccia_a:
+            self.s.add(f'<circle cx="{xa:.1f}" cy="{ya:.1f}" r="5" fill="{color if chiusoa else "white"}" stroke="{color}" stroke-width="2"/>')
+        if b <= self.yr[1] and not freccia_b:
+            self.s.add(f'<circle cx="{xa:.1f}" cy="{yb:.1f}" r="5" fill="{color if chiusob else "white"}" stroke="{color}" stroke-width="2"/>')
 
 
-# ---------------------------------------------------------------- disegni
-
-def prodotto_riga_colonna():
-    """A·B con 1a riga di A, 2a colonna di B e l'elemento (1,2) del risultato evidenziati."""
-    t = Tela(760, 250)
-    A = [[1, 2], [1, 0]]
-    B = [[1, -1], [2, 1]]
-    C = [[5, 1], [1, -1]]
-    y0 = 60
-    xa, xb, xc = 90, 330, 590
-    # evidenziazioni
-    rett(t, xa - 4, y0 + 2, 2 * CELLA_W + 8, CELLA_H - 4, BLU)
-    rett(t, xb + CELLA_W + 4, y0 - 4, CELLA_W - 8, 2 * CELLA_H + 8, ARANCIO)
-    rett(t, xc + CELLA_W + 4, y0 + 2, CELLA_W - 8, CELLA_H - 4, VIOLA)
-    matrice(t, xa, y0, A, nome="A =", colori={(0, 0): BLU, (0, 1): BLU})
-    matrice(t, xb, y0, B, nome="B =", colori={(0, 1): ARANCIO, (1, 1): ARANCIO})
-    matrice(t, xc, y0, C, nome="A·B =", colori={(0, 1): VIOLA})
-    t.testo_px(xa + CELLA_W, y0 - 16, "1ª riga di A", col=BLU, size=14)
-    t.testo_px(xb + 1.5 * CELLA_W, y0 - 16, "2ª colonna di B", col=ARANCIO, size=14)
-    t.testo_px(xc + 1.5 * CELLA_W, y0 - 16, "riga 1, colonna 2", col=VIOLA, size=14)
-    t.testo_px(380, 190, "1ª riga × 2ª colonna:  1·(−1) + 2·1 = −1 + 2 = 1", col="#222", size=17)
-    t.testo_px(380, 222, "primo con primo, secondo con secondo, poi si somma (come un prodotto scalare)",
-               col=GRIGIO, size=13)
-    t.salva("06-prodotto-riga-colonna.svg")
+def legenda(svg, x, y, voci, size=14):
+    for i, (col, testo, dash) in enumerate(voci):
+        yy = y + i * 22
+        svg.line(x, yy - 5, x + 28, yy - 5, col, 3, dash)
+        svg.text(x + 36, yy, testo, NERO, size)
 
 
-def tipi_prodotto():
-    """(m×n)·(n×p) = m×p: i numeri interni devono coincidere."""
-    t = Tela(620, 190)
+# ---------------------------------------------------------------------------
+# 1. Diagrammi a frecce: funzione e controesempi
+def diagrammi_frecce():
+    s = SVG(1000, 330)
 
-    def blocco(x, y, w, h, col, etichetta):
-        rett(t, x, y, w, h, col, op=0.12, rx=4)
-        t.testo_px(x + w / 2, y + h / 2 + 6, etichetta, col=col, size=17)
+    def insieme(cx, cy, nomi, etich):
+        s.add(f'<ellipse cx="{cx}" cy="{cy}" rx="52" ry="105" fill="#f3f6fb" stroke="{GRIGIO}" stroke-width="1.5"/>')
+        s.text(cx, cy - 115, etich, NERO, 15, "middle", italic=True)
+        pos = []
+        n = len(nomi)
+        for i, nm in enumerate(nomi):
+            y = cy - 60 + i * (120 / (n - 1) if n > 1 else 0)
+            s.add(f'<circle cx="{cx}" cy="{y:.1f}" r="4.5" fill="{NERO}"/>')
+            s.text(cx + (-14 if etich in ("A",) else 14), y + 5, nm, NERO, 15,
+                   "end" if etich == "A" else "start")
+            pos.append((cx, y))
+        return pos
 
-    s = 22
-    # A: 2x3, B: 3x4, AB: 2x4
-    blocco(40, 40, 3 * s, 2 * s, BLU, "A")
-    blocco(160, 40 - s / 2, 4 * s, 3 * s, ARANCIO, "B")
-    t.testo_px(138, 70, "·", size=26)
-    t.testo_px(270, 69, "=", size=22)
-    blocco(300, 40, 4 * s, 2 * s, VIOLA, "A·B")
-    t.testo_px(40 + 1.5 * s, 120, "2 × 3", col=BLU, size=16)
-    t.testo_px(160 + 2 * s, 120, "3 × 4", col=ARANCIO, size=16)
-    t.testo_px(300 + 2 * s, 120, "2 × 4", col=VIOLA, size=16)
-    # archi che legano i numeri interni
-    t.el.append('<path d="M 92,128 Q 141,156 190,128" fill="none" stroke="%s" stroke-width="1.6"/>' % VERDE)
-    t.testo_px(141, 168, "uguali", col=VERDE, size=13)
-    t.testo_px(420, 60, "colonne di A = righe di B", col=VERDE, size=14, anchor="start")
-    t.testo_px(420, 84, "il risultato ha le righe di A", col=VIOLA, size=14, anchor="start")
-    t.testo_px(420, 104, "e le colonne di B", col=VIOLA, size=14, anchor="start")
-    t.salva("06-tipi-prodotto.svg")
+    def freccia(p, q, col=BLU):
+        s.line(p[0] + 7, p[1], q[0] - 9, q[1], col, 2, arrow=True)
 
-
-def sarrus():
-    """Matrice 3x3 con le prime due colonne ricopiate, diagonali + e -."""
-    t = Tela(640, 290)
-    cw, ch = 70, 50
-    x0, y0 = 70, 50
-    el = [["a₁₁", "a₁₂", "a₁₃"], ["a₂₁", "a₂₂", "a₂₃"], ["a₃₁", "a₃₂", "a₃₃"]]
-    righe = [r + r[:2] for r in el]
-    # sfondo colonne ripetute
-    rett(t, x0 + 3 * cw + 4, y0 - 6, 2 * cw - 8, 3 * ch + 12, GRIGIO, op=0.08, sw=1, dash="4,3")
-    centro = lambda i, j: (x0 + (j + 0.5) * cw, y0 + (i + 0.5) * ch)
-    # diagonali discendenti (+)
+    titoli = [("È una funzione", VERDE), ("Non è una funzione", ROSSO), ("Non è una funzione", ROSSO)]
+    sotto = ["ogni elemento di A ha una sola freccia",
+             "1 ha due frecce",
+             "3 non ha nessuna freccia"]
     for k in range(3):
-        a, b = centro(0, k), centro(2, k + 2)
-        linea_px(t, a[0] - 12, a[1] - 9, b[0] + 12, b[1] + 9, VERDE, sw=2.4, op=0.75)
-    # diagonali ascendenti (-)
-    for k in range(3):
-        a, b = centro(2, k), centro(0, k + 2)
-        linea_px(t, a[0] - 12, a[1] + 9, b[0] + 12, b[1] - 9, ROSSO, sw=2.4, op=0.75, dash="7,4")
-    for i, r in enumerate(righe):
-        for j, v in enumerate(r):
-            cx, cy = centro(i, j)
-            # alone bianco per leggere sopra le linee
-            t.el.append('<text x="%.1f" y="%.1f" font-family="%s" font-size="19" text-anchor="middle" '
-                        'stroke="white" stroke-width="6" stroke-linejoin="round" fill="white">%s</text>'
-                        % (cx, cy + 7, m03.FONT, v))
-            t.testo_px(cx, cy + 7, v, size=19, col="#222" if j < 3 else GRIGIO)
-    for xb in (x0 - 4, x0 + 3 * cw + 4):
-        linea_px(t, xb, y0 - 4, xb, y0 + 3 * ch + 4, "#222", sw=2)
-    t.testo_px(x0 + 4 * cw, y0 - 14, "prime due colonne ricopiate", col=GRIGIO, size=13)
-    t.testo_px(x0 + 5 * cw + 20, y0 + 40, "+", col=VERDE, size=26, anchor="start")
-    t.testo_px(x0 + 5 * cw + 44, y0 + 38, "verso il basso", col=VERDE, size=14, anchor="start")
-    t.testo_px(x0 + 5 * cw + 20, y0 + 120, "−", col=ROSSO, size=26, anchor="start")
-    t.testo_px(x0 + 5 * cw + 44, y0 + 118, "verso l'alto", col=ROSSO, size=14, anchor="start")
-    t.testo_px(320, 248, "det A = a₁₁a₂₂a₃₃ + a₁₂a₂₃a₃₁ + a₁₃a₂₁a₃₂", col=VERDE, size=16)
-    t.testo_px(320, 274, "− a₃₁a₂₂a₁₃ − a₃₂a₂₃a₁₁ − a₃₃a₂₁a₁₂", col=ROSSO, size=16)
-    t.salva("06-sarrus.svg")
+        ox = 40 + k * 330
+        s.text(ox + 130, 30, titoli[k][0], titoli[k][1], 17, "middle", bold=True)
+        A = insieme(ox + 50, 175, ["1", "2", "3", "4"], "A")
+        B = insieme(ox + 210, 175, ["a", "b", "c", "d"], "B")
+        if k == 0:
+            for i, j in [(0, 0), (1, 0), (2, 2), (3, 1)]:
+                freccia(A[i], B[j])
+        elif k == 1:
+            for i, j in [(0, 0), (1, 1), (2, 2), (3, 3)]:
+                freccia(A[i], B[j])
+            freccia(A[0], B[2], ROSSO)
+        else:
+            for i, j in [(0, 0), (1, 1), (3, 3)]:
+                freccia(A[i], B[j])
+            s.add(f'<circle cx="{A[2][0]}" cy="{A[2][1]:.1f}" r="11" fill="none" stroke="{ROSSO}" stroke-width="2"/>')
+        s.text(ox + 130, 315, sotto[k], "#444", 13.5, "middle")
+    s.save("06-diagrammi-frecce.svg")
 
 
-def diagonali_2x2():
-    """Determinante 2x2: diagonale principale meno l'altra."""
-    t = Tela(420, 150)
-    cw, ch = 60, 46
-    x0, y0 = 50, 28
-    linea_px(t, x0 + 18, y0 + 12, x0 + 2 * cw - 18, y0 + 2 * ch - 12, VERDE, sw=2.6, op=0.8)
-    linea_px(t, x0 + 18, y0 + 2 * ch - 12, x0 + 2 * cw - 18, y0 + 12, ROSSO, sw=2.6, op=0.8, dash="7,4")
-    for i, r in enumerate([["a", "b"], ["c", "d"]]):
-        for j, v in enumerate(r):
-            cx, cy = x0 + (j + 0.5) * cw, y0 + (i + 0.5) * ch + 7
-            t.el.append('<text x="%.1f" y="%.1f" font-family="%s" font-size="21" font-style="italic" '
-                        'text-anchor="middle" stroke="white" stroke-width="7" fill="white">%s</text>'
-                        % (cx, cy, m03.FONT, v))
-            t.testo_px(cx, cy, v, size=21, italic=True)
-    for xb in (x0 - 2, x0 + 2 * cw + 2):
-        linea_px(t, xb, y0 - 2, xb, y0 + 2 * ch + 2, "#222", sw=2)
-    t.testo_px(x0 + 2 * cw + 24, y0 + ch + 7, "=", size=22, anchor="start")
-    t.testo_px(x0 + 2 * cw + 54, y0 + ch + 7, "a·d", col=VERDE, size=21, anchor="start")
-    t.testo_px(x0 + 2 * cw + 98, y0 + ch + 7, "−", size=21, anchor="start")
-    t.testo_px(x0 + 2 * cw + 120, y0 + ch + 7, "b·c", col=ROSSO, size=21, anchor="start")
-    t.testo_px(210, 140, "diagonale principale meno l'altra diagonale", col=GRIGIO, size=13)
-    t.salva("06-diagonali-2x2.svg")
+# 2. Area del quadrato in funzione del lato
+def area_quadrato():
+    s = SVG(620, 440)
+    g = Grafico(s, 60, 30, 520, 360, (-0.6, 5.6), (-1.5, 18), passo=1, etich=0,
+                xlab="s (m)", ylab="A (m²)")
+    for k in range(1, 5):
+        g.segmento(k, -0.2, k, 0.2, NERO, 1)
+        g.scritta(k, 0, str(k), "#555", "middle", dy=17, size=12)
+    for k in (1, 4, 9, 16):
+        g.segmento(-0.06, k, 0.06, k, NERO, 1)
+        g.scritta(0, k, str(k), "#555", "end", dx=-6, dy=4, size=12)
+    g.curva(lambda x: x * x, 0, 4.6, GRIGIO, 1.6, dash="6,5")
+    g.curva(lambda x: x * x, 1, 4, BLU, 3)
+    g.punto(1, 1, BLU)
+    g.punto(4, 16, BLU)
+    g.tratteggio(4, 0, 4, 16)
+    g.tratteggio(0, 16, 4, 16)
+    g.tratteggio(1, 0, 1, 1)
+    g.tratteggio(0, 1, 1, 1)
+    g.banda_x(1, 4, VERDE)
+    g.banda_y(1, 16, ARANCIO)
+    g.scritta(2.5, 0, "dominio [1, 4] m", VERDE, "middle", dy=36, size=14, bold=True)
+    g.scritta(0, 9, "immagine", ARANCIO, "start", dx=10, dy=-4, size=14, bold=True)
+    g.scritta(0, 9, "[1, 16] m²", ARANCIO, "start", dx=10, dy=14, size=14, bold=True)
+    g.scritta(3.2, 10.24, "A(s) = s²", BLU, "end", dx=-10, dy=-4, size=16, italic=True)
+    s.save("06-area-quadrato.svg")
 
 
-def segni():
-    """Schema dei segni (-1)^(i+j) e posizioni."""
-    t = Tela(560, 230)
-    cw, ch = 62, 50
-    x0, y0 = 60, 40
-    for i in range(3):
-        for j in range(3):
-            pos = (i + j) % 2 == 0
-            col = VERDE if pos else ROSSO
-            rett(t, x0 + j * cw + 3, y0 + i * ch + 3, cw - 6, ch - 6, col, op=0.12, sw=1, rx=6)
-            t.testo_px(x0 + (j + 0.5) * cw, y0 + (i + 0.5) * ch + 9, "+" if pos else "−", col=col, size=26)
-    for j in range(3):
-        t.testo_px(x0 + (j + 0.5) * cw, y0 - 12, "j = %d" % (j + 1), col=GRIGIO, size=12)
-    for i in range(3):
-        t.testo_px(x0 - 10, y0 + (i + 0.5) * ch + 5, "i = %d" % (i + 1), col=GRIGIO, size=12, anchor="end")
-    xt = x0 + 3 * cw + 40
-    t.testo_px(xt, y0 + 20, "segno = (−1)^i+j^", size=17, anchor="start")
-    t.testo_px(xt, y0 + 56, "i + j pari  →  +", col=VERDE, size=15, anchor="start")
-    t.testo_px(xt, y0 + 82, "i + j dispari  →  −", col=ROSSO, size=15, anchor="start")
-    t.testo_px(xt, y0 + 118, "es. posto (1, 2): 1 + 2 = 3", col=GRIGIO, size=14, anchor="start")
-    t.testo_px(xt, y0 + 140, "(−1)^3^ = −1", col=GRIGIO, size=14, anchor="start")
-    t.testo_px(280, 215, "si parte con + in alto a sinistra e si alterna, come una scacchiera", col=GRIGIO, size=13)
-    t.salva("06-schema-segni.svg")
+# 3. Test della retta verticale
+def retta_verticale():
+    s = SVG(900, 400)
+    g1 = Grafico(s, 40, 40, 380, 320, (-3.2, 3.2), (-1.5, 5), "y = x²: è una funzione", colore_titolo=VERDE)
+    g1.curva(lambda x: x * x, -3.2, 3.2, BLU)
+    g1.segmento(1.5, -1.5, 1.5, 5, VERDE, 2, dash="7,5")
+    g1.punto(1.5, 2.25, VERDE)
+    g1.scritta(1.5, 0.6, "un solo punto", VERDE, "start", dx=6, size=13)
+    g2 = Grafico(s, 480, 40, 380, 320, (-3.2, 3.2), (-2.6, 2.6), "x² + y² = 4: non è una funzione",
+                 colore_titolo=ROSSO)
+    g2.curva(lambda t: None, 0, 1)
+    pts = [(2 * math.cos(t * math.pi / 180), 2 * math.sin(t * math.pi / 180)) for t in range(0, 361, 3)]
+    g2.spezzata(pts, BLU)
+    g2.segmento(1, -2.6, 1, 2.6, ROSSO, 2, dash="7,5")
+    g2.punto(1, math.sqrt(3), ROSSO)
+    g2.punto(1, -math.sqrt(3), ROSSO)
+    g2.scritta(1, 2.25, "due punti", ROSSO, "start", dx=6, size=13)
+    s.save("06-retta-verticale.svg")
 
 
-def minori():
-    """Esempio della lavagna: A11 e A22, riga e colonna cancellate."""
-    A = [[1, 3, -5], [5, 0, 2], [-1, 0, 0]]
-    t = Tela(820, 300)
-    cw, ch = 50, 40
-
-    def pannello(x0, y0, ri, cj, titolo, minore, conto, colore):
-        matrice(t, x0, y0, A, cw=cw, ch=ch, colori={(ri, cj): colore,
-                **{(i, j): GRIGIO for i in range(3) for j in range(3) if (i == ri or j == cj) and (i, j) != (ri, cj)}})
-        # barre di cancellazione
-        linea_px(t, x0 - 4, y0 + (ri + 0.5) * ch, x0 + 3 * cw + 4, y0 + (ri + 0.5) * ch, colore, sw=2, op=0.4)
-        linea_px(t, x0 + (cj + 0.5) * cw, y0 - 4, x0 + (cj + 0.5) * cw, y0 + 3 * ch + 4, colore, sw=2, op=0.4)
-        t.testo_px(x0 + 1.5 * cw, y0 - 18, titolo, col=colore, size=15)
-        # minore
-        xm, ym = x0 + 3 * cw + 70, y0 + ch / 2
-        t.testo_px(xm - 28, ym + ch / 2 + 6, "→", size=22)
-        matrice(t, xm, ym, minore, cw=40, ch=ch, bordi="barre", colori=None)
-        for k, riga in enumerate(conto):
-            t.testo_px(x0 + 1.5 * cw + 95, y0 + 3 * ch + 40 + 24 * k, riga, col=colore if k == len(conto) - 1 else "#222",
-                       size=15)
-
-    pannello(50, 60, 0, 0, "togli riga 1 e colonna 1", [[0, 2], [0, 0]],
-             ["A₁₁ = (−1)^1+1^ · (0·0 − 2·0)", "A₁₁ = +1 · 0 = 0"], BLU)
-    pannello(450, 60, 1, 1, "togli riga 2 e colonna 2", [[1, -5], [-1, 0]],
-             ["A₂₂ = (−1)^2+2^ · (1·0 − (−5)(−1))", "A₂₂ = +1 · (0 − 5) = −5"], VIOLA)
-    t.salva("06-minori.svg")
+# 4. Domini: radice e frazione
+def dominio_esempi():
+    s = SVG(900, 400)
+    g1 = Grafico(s, 40, 40, 380, 320, (-4, 4), (-1, 5), "y = √(5 − 2x)")
+    g1.curva(lambda x: math.sqrt(5 - 2 * x) if 5 - 2 * x >= 0 else None, -4, 2.5, BLU, n=2000)
+    g1.punto(2.5, 0, BLU)
+    g1.banda_x(-4, 2.5, VERDE, freccia_a=True)
+    g1.scritta(2.5, 0, "5/2", VERDE, "start", dx=8, dy=-8, size=13, bold=True)
+    g1.scritta(-1.5, 0, "dominio: x ≤ 5/2", VERDE, "middle", dy=36, size=14, bold=True)
+    g2 = Grafico(s, 480, 40, 380, 320, (-6, 6), (-3, 3), "y = 1 / (x² − 9)")
+    f = lambda x: 1 / (x * x - 9)
+    g2.curva(f, -6, -3.0001, BLU, n=800)
+    g2.curva(f, -2.9999, 2.9999, BLU, n=800)
+    g2.curva(f, 3.0001, 6, BLU, n=800)
+    for a in (-3, 3):
+        g2.segmento(a, -3, a, 3, ROSSO, 1.6, dash="6,5")
+        g2.punto(a, 0, ROSSO, vuoto=True)
+    g2.scritta(-3, 2.6, "x = −3", ROSSO, "end", dx=-5, size=13)
+    g2.scritta(3, 2.6, "x = 3", ROSSO, "start", dx=5, size=13)
+    s.text(670, 388, "dominio: x ≠ −3 e x ≠ 3", VERDE, 14, "middle", bold=True)
+    s.save("06-dominio-esempi.svg")
 
 
-def area_determinante():
-    u, v = (3, 1), (1, 2)
-    t = Piano(-2.0, 4.8, -0.6, 3.6, s=60)
-    t.h += 34
-    t.griglia()
-    t.poligono([(0, 0), u, add(u, v), v], fill=BLU, op=0.13, stroke=BLU, sw=1, dash="4,3")
-    t.freccia((0, 0), u, col=BLU)
-    t.freccia((0, 0), v, col=ROSSO)
-    t.testo(u, "*u* = (3, 1)", col=BLU, dx=8, dy=14, anchor="start", size=15)
-    t.testo((0, 1.5), "*v* = (1, 2)", col=ROSSO, dx=-14, dy=5, anchor="end", size=15)
-    t.testo(mul(0.5, add(u, v)), "area = 5", dx=10, dy=6, size=16, bg=True)
-    t.testo_px(t.w / 2, t.h - 14, "det (3 1 ; 1 2) = 3·2 − 1·1 = 5 = area del parallelogramma", size=14)
-    t.salva("06-area-determinante.svg")
+# 5. Immagine della parabola (x+1)^2 - 4
+def immagine_parabola():
+    s = SVG(620, 460)
+    g = Grafico(s, 50, 30, 520, 390, (-5.5, 3.5), (-5, 6))
+    f = lambda x: (x + 1) ** 2 - 4
+    g.banda_y(-4, 6, ARANCIO, freccia_b=True)
+    g.curva(f, -5.5, 3.5, BLU)
+    g.punto(-1, -4, BLU)
+    g.tratteggio(-1, -4, 0, -4, ARANCIO)
+    g.punto(-3, 0, VERDE)
+    g.punto(1, 0, VERDE)
+    g.scritta(-1, -4, "vertice (−1, −4)", BLU, "middle", dy=24, size=14)
+    g.scritta(1.4, f(1.4), "f(x) = (x + 1)² − 4", BLU, "start", dx=12, size=15, italic=True)
+    g.scritta(0, 3.5, "immagine [−4, +∞)", ARANCIO, "end", dx=-24, dy=5, size=14, bold=True)
+    # proiezioni di alcuni punti sull'asse y
+    for x in (-4, 2):
+        g.tratteggio(x, f(x), 0, f(x), GRIGIO)
+        g.punto(x, f(x), BLU, r=3.5)
+    s.save("06-immagine-parabola.svg")
+
+
+# 6. Immagine della radice traslata
+def immagine_radice():
+    s = SVG(620, 420)
+    g = Grafico(s, 50, 30, 520, 350, (-1, 10), (-1, 7))
+    f = lambda x: math.sqrt(x - 2) + 3 if x >= 2 else None
+    g.curva(lambda x: math.sqrt(x) if x >= 0 else None, 0, 10, GRIGIO, 1.6, n=2000, dash="6,5")
+    g.banda_x(2, 10, VERDE, freccia_b=True)
+    g.banda_y(3, 7, ARANCIO, freccia_b=True)
+    g.curva(f, 2, 10, BLU, n=2000)
+    g.punto(2, 3, BLU)
+    g.tratteggio(2, 0, 2, 3)
+    g.tratteggio(0, 3, 2, 3)
+    g.scritta(2, 3, "(2, 3)", BLU, "end", dx=-8, dy=-8, size=14)
+    g.scritta(7, f(7), "g(x) = √(x − 2) + 3", BLU, "middle", dy=-14, size=15, italic=True)
+    g.scritta(8.3, math.sqrt(8.3), "y = √x", GRIGIO, "start", dx=4, dy=18, size=13, italic=True)
+    g.scritta(6, 0, "dominio [2, +∞)", VERDE, "middle", dy=34, size=14, bold=True)
+    g.scritta(0, 5.2, "immagine [3, +∞)", ARANCIO, "start", dx=10, size=14, bold=True)
+    s.save("06-immagine-radice.svg")
+
+
+# 7. h(x) = (x^2-4)/(x-2): retta con un buco
+def retta_bucata():
+    s = SVG(560, 420)
+    g = Grafico(s, 50, 30, 460, 350, (-4, 5), (-2, 7))
+    g.curva(lambda x: x + 2, -4, 5, BLU)
+    g.punto(2, 4, BLU, vuoto=True, r=6)
+    g.tratteggio(2, 0, 2, 3.8)
+    g.tratteggio(0, 4, 1.8, 4)
+    g.punto(0, 4, ARANCIO, vuoto=True, r=5)
+    g.punto(2, 0, VERDE, vuoto=True, r=5)
+    g.scritta(2, 4, "buco in (2, 4)", BLU, "start", dx=12, dy=12, size=14)
+    g.scritta(2.6, 5.6, "y = x + 2", BLU, "end", dx=-10, size=15, italic=True)
+    s.save("06-retta-bucata.svg")
+
+
+# 8. Test della retta orizzontale
+def retta_orizzontale():
+    s = SVG(900, 400)
+    g1 = Grafico(s, 40, 40, 380, 320, (-2.6, 2.6), (-4, 4), "y = x³: iniettiva", colore_titolo=VERDE)
+    g1.curva(lambda x: x ** 3, -2.6, 2.6, BLU)
+    for k in (2, -1):
+        g1.segmento(-2.6, k, 2.6, k, VERDE, 1.8, dash="7,5")
+        g1.punto(math.copysign(abs(k) ** (1 / 3), k), k, VERDE)
+    s.text(230, 390, "ogni retta orizzontale incontra il grafico una volta sola", VERDE, 13, "middle")
+    g2 = Grafico(s, 480, 40, 380, 320, (-2.6, 2.6), (-1, 5), "y = x²: non iniettiva",
+                 colore_titolo=ROSSO)
+    g2.curva(lambda x: x * x, -2.6, 2.6, BLU)
+    g2.segmento(-2.6, 2, 2.6, 2, ROSSO, 1.8, dash="7,5")
+    g2.punto(-math.sqrt(2), 2, ROSSO)
+    g2.punto(math.sqrt(2), 2, ROSSO)
+    g2.scritta(-math.sqrt(2), 2, "−√2", ROSSO, "end", dx=-8, dy=20, size=13)
+    g2.scritta(math.sqrt(2), 2, "√2", ROSSO, "start", dx=8, dy=20, size=13)
+    s.text(670, 390, "la retta y = 2 incontra il grafico in due punti", ROSSO, 13, "middle")
+    s.save("06-retta-orizzontale.svg")
+
+
+# 9. x^2 su R e su [0,+inf)
+def restrizione_x2():
+    s = SVG(900, 400)
+    g1 = Grafico(s, 40, 40, 380, 320, (-2.6, 2.6), (-1, 5), "x²: ℝ → ℝ")
+    g1.curva(lambda x: x * x, -2.6, 2.6, BLU)
+    g1.banda_y(-1, 0, ROSSO, freccia_a=True, chiusob=False)
+    g1.scritta(0, -0.6, "valori negativi mai raggiunti", ROSSO, "start", dx=10, size=13)
+    s.text(230, 390, "non iniettiva e non suriettiva", NERO, 14, "middle")
+    g2 = Grafico(s, 480, 40, 380, 320, (-2.6, 2.6), (-1, 5), "x²: [0, +∞) → [0, +∞)")
+    g2.curva(lambda x: x * x, -2.6, 0, GRIGIO, 1.5, dash="6,5")
+    g2.curva(lambda x: x * x, 0, 2.6, BLU)
+    g2.punto(0, 0, BLU)
+    g2.banda_x(0, 2.6, VERDE, freccia_b=True)
+    g2.banda_y(0, 5, ARANCIO, freccia_b=True)
+    g2.scritta(0.25, 4.4, "biettiva", VERDE, "start", size=14, bold=True)
+    s.text(670, 390, "iniettiva e suriettiva: biettiva", NERO, 14, "middle")
+    s.save("06-restrizione-x2.svg")
+
+
+# 10. Inversa: simmetria rispetto a y = x
+def inversa_bisettrice():
+    s = SVG(900, 420)
+    g1 = Grafico(s, 40, 40, 380, 340, (-2, 6), (-2, 6), "f(x) = 5 − 2x e la sua inversa")
+    g1.curva(lambda x: x, -2, 6, GRIGIO, 1.4, dash="6,5")
+    g1.curva(lambda x: 5 - 2 * x, -2, 6, BLU)
+    g1.curva(lambda x: (5 - x) / 2, -2, 6, ROSSO)
+    g1.punto(1, 3, BLU)
+    g1.punto(3, 1, ROSSO)
+    g1.tratteggio(1, 3, 3, 1, VIOLA)
+    g1.scritta(1, 3, "(1, 3)", BLU, "start", dx=8, dy=-4, size=13)
+    g1.scritta(3, 1, "(3, 1)", ROSSO, "start", dx=4, dy=20, size=13)
+    g1.scritta(5.3, 5.3, "y = x", GRIGIO, "end", dx=-4, dy=-8, size=13, italic=True)
+    legenda(s, 60, 400, [(BLU, "f(x) = 5 − 2x", None)])
+    legenda(s, 250, 400, [(ROSSO, "f⁻¹(x) = (5 − x)/2", None)])
+    g2 = Grafico(s, 480, 40, 380, 340, (-1, 5), (-1, 5), "x² su [0, +∞) e √x")
+    g2.curva(lambda x: x, -1, 5, GRIGIO, 1.4, dash="6,5")
+    g2.curva(lambda x: x * x, 0, 3, BLU)
+    g2.curva(lambda x: math.sqrt(x) if x >= 0 else None, 0, 5, ROSSO, n=2000)
+    g2.punto(2, 4, BLU)
+    g2.punto(4, 2, ROSSO)
+    g2.tratteggio(2, 4, 4, 2, VIOLA)
+    g2.scritta(2, 4, "(2, 4)", BLU, "end", dx=-8, dy=4, size=13)
+    g2.scritta(4, 2, "(4, 2)", ROSSO, "start", dx=4, dy=20, size=13)
+    g2.scritta(4.5, 4.5, "y = x", GRIGIO, "end", dx=-4, dy=-8, size=13, italic=True)
+    legenda(s, 520, 400, [(BLU, "y = x²", None)])
+    legenda(s, 680, 400, [(ROSSO, "y = √x", None)])
+    s.save("06-inversa-bisettrice.svg")
+
+
+# 11. Restrizioni di (x-1)^2
+def restrizione_x_meno_1():
+    s = SVG(900, 400)
+    for k, (a, b, tit, inv) in enumerate([(1, 3.6, "su [1, +∞): inversa 1 + √x", lambda x: 1 + math.sqrt(x)),
+                                          (-1.6, 1, "su (−∞, 1]: inversa 1 − √x", lambda x: 1 - math.sqrt(x))]):
+        g = Grafico(s, 40 + k * 440, 40, 380, 320, (-2, 5), (-2, 5), tit)
+        g.curva(lambda x: x, -2, 5, GRIGIO, 1.4, dash="6,5")
+        g.curva(lambda x: (x - 1) ** 2, -2, 5, GRIGIO, 1.4, dash="2,4")
+        g.curva(lambda x: (x - 1) ** 2, a, b, BLU)
+        g.curva(lambda x: inv(x) if x >= 0 else None, 0, 5, ROSSO, n=2000)
+        g.punto(1, 0, BLU)
+        g.punto(0, 1, ROSSO)
+    legenda(s, 120, 390, [(BLU, "y = (x − 1)² sul pezzo scelto", None)])
+    legenda(s, 520, 390, [(ROSSO, "la sua inversa", None)])
+    s.save("06-restrizione-x-meno-1.svg")
+
+
+# 12. Composizione: due macchine in fila
+def composizione():
+    s = SVG(860, 200)
+
+    def scatola(x, nome, col):
+        s.add(f'<rect x="{x}" y="60" width="130" height="70" rx="10" fill="{col}" fill-opacity="0.12" '
+              f'stroke="{col}" stroke-width="2"/>')
+        s.text(x + 65, 103, nome, col, 22, "middle", italic=True, bold=True)
+
+    s.text(40, 101, "x", NERO, 22, "middle", italic=True)
+    s.line(60, 95, 165, 95, NERO, 2, arrow=True)
+    scatola(170, "g", VERDE)
+    s.line(300, 95, 420, 95, NERO, 2, arrow=True)
+    s.text(360, 82, "g(x)", VERDE, 18, "middle", italic=True)
+    scatola(425, "f", BLU)
+    s.line(555, 95, 660, 95, NERO, 2, arrow=True)
+    s.text(740, 101, "f(g(x))", BLU, 22, "middle", italic=True)
+    s.text(235, 160, "prima g", VERDE, 14, "middle")
+    s.text(490, 160, "poi f", BLU, 14, "middle")
+    s.add(f'<rect x="150" y="30" width="430" height="150" rx="14" fill="none" stroke="{VIOLA}" '
+          f'stroke-width="1.6" stroke-dasharray="7,5"/>')
+    s.text(365, 22, "la macchina composta f ∘ g", VIOLA, 15, "middle", bold=True)
+    s.save("06-composizione.svg")
+
+
+# 13. Pari e dispari
+def pari_dispari():
+    s = SVG(900, 410)
+    g1 = Grafico(s, 40, 40, 380, 330, (-2.4, 2.4), (-2, 4), "pari: x⁴ − 2x²", colore_titolo=BLU)
+    g1.curva(lambda x: x ** 4 - 2 * x * x, -2.4, 2.4, BLU)
+    g1.punto(-1.7, 1.7 ** 4 - 2 * 1.7 ** 2, VIOLA)
+    g1.punto(1.7, 1.7 ** 4 - 2 * 1.7 ** 2, VIOLA)
+    yv = 1.7 ** 4 - 2 * 1.7 ** 2
+    g1.tratteggio(-1.7, yv, 1.7, yv, VIOLA)
+    g1.scritta(-1.7, yv, "(−a, f(a))", VIOLA, "end", dx=-6, dy=-6, size=13)
+    g1.scritta(1.7, yv, "(a, f(a))", VIOLA, "start", dx=6, dy=-6, size=13)
+    s.text(230, 400, "simmetria rispetto all'asse y", NERO, 14, "middle")
+    g2 = Grafico(s, 480, 40, 380, 330, (-2.2, 2.2), (-4, 4), "dispari: x³ + x", colore_titolo=ROSSO)
+    g2.curva(lambda x: x ** 3 + x, -2.2, 2.2, ROSSO)
+    a = 1.1
+    fa = a ** 3 + a
+    g2.punto(a, fa, VIOLA)
+    g2.punto(-a, -fa, VIOLA)
+    g2.tratteggio(-a, -fa, a, fa, VIOLA)
+    g2.punto(0, 0, NERO, r=3.5)
+    g2.scritta(a, fa, "(a, f(a))", VIOLA, "start", dx=8, dy=4, size=13)
+    g2.scritta(-a, -fa, "(−a, −f(a))", VIOLA, "end", dx=-8, dy=4, size=13)
+    s.text(670, 400, "simmetria rispetto all'origine", NERO, 14, "middle")
+    s.save("06-pari-dispari.svg")
+
+
+# 14. Monotonia
+def monotonia():
+    s = SVG(900, 400)
+    g1 = Grafico(s, 40, 40, 380, 320, (-5.5, 2.5), (-1, 6), "(x + 2)²")
+    g1.curva(lambda x: (x + 2) ** 2, -5.5, -2, ROSSO)
+    g1.curva(lambda x: (x + 2) ** 2, -2, 2.5, VERDE)
+    g1.punto(-2, 0, NERO)
+    g1.banda_x(-5.5, -2, ROSSO, freccia_a=True)
+    g1.banda_x(-2, 2.5, VERDE, freccia_b=True)
+    g1.scritta(-4.1, 5.0, "decrescente", ROSSO, "start", dx=10, size=14, bold=True)
+    g1.scritta(0.3, 1.5, "crescente", VERDE, "start", size=14, bold=True)
+    g2 = Grafico(s, 480, 40, 380, 320, (-1, 7), (-1, 5), "|x − 3|")
+    g2.curva(lambda x: abs(x - 3), -1, 3, ROSSO)
+    g2.curva(lambda x: abs(x - 3), 3, 7, VERDE)
+    g2.punto(3, 0, NERO)
+    g2.banda_x(-1, 3, ROSSO, freccia_a=True)
+    g2.banda_x(3, 7, VERDE, freccia_b=True)
+    g2.scritta(0.6, 2.4, "decrescente", ROSSO, "start", dx=10, size=14, bold=True)
+    g2.scritta(5.4, 2.4, "crescente", VERDE, "end", dx=-10, size=14, bold=True)
+    s.save("06-monotonia.svg")
+
+
+# 15. Traslazioni
+def traslazioni():
+    s = SVG(900, 420)
+    q = lambda x: x * x
+    g1 = Grafico(s, 40, 40, 380, 320, (-3, 5), (-1, 6), "orizzontale: f(x − 2)")
+    g1.curva(q, -3, 5, GRIGIO, 2, dash="6,5")
+    g1.curva(lambda x: (x - 2) ** 2, -3, 5, BLU)
+    g1.segmento(2.12, 4, 3.88, 4, VIOLA, 2, freccia=True)
+    g1.scritta(3, 4, "+2", VIOLA, "middle", dy=-8, size=14, bold=True)
+    legenda(s, 60, 395, [(GRIGIO, "y = x²", "6,5")])
+    legenda(s, 220, 395, [(BLU, "y = (x − 2)²", None)])
+    g2 = Grafico(s, 480, 40, 380, 320, (-3, 3), (-3, 4), "verticale: f(x) − 2")
+    g2.curva(q, -3, 3, GRIGIO, 2, dash="6,5")
+    g2.curva(lambda x: x * x - 2, -3, 3, ROSSO)
+    g2.segmento(1.5, 2.25, 1.5, 0.35, VIOLA, 2, freccia=True)
+    g2.scritta(1.5, 1.2, "−2", VIOLA, "end", dx=-5, size=13, bold=True)
+    legenda(s, 500, 395, [(GRIGIO, "y = x²", "6,5")])
+    legenda(s, 660, 395, [(ROSSO, "y = x² − 2", None)])
+    s.save("06-traslazioni.svg")
+
+
+# 16. Riflessioni
+def riflessioni():
+    s = SVG(900, 420)
+    r = lambda x: math.sqrt(x) if x >= 0 else None
+    g1 = Grafico(s, 40, 40, 380, 320, (-5, 5), (-3, 3), "−f(x): ribalta sull'asse x")
+    g1.curva(r, 0, 5, GRIGIO, 2, n=2000, dash="6,5")
+    g1.curva(lambda x: -math.sqrt(x) if x >= 0 else None, 0, 5, BLU, n=2000)
+    legenda(s, 60, 395, [(GRIGIO, "y = √x", "6,5")])
+    legenda(s, 220, 395, [(BLU, "y = −√x", None)])
+    g2 = Grafico(s, 480, 40, 380, 320, (-5, 5), (-3, 3), "f(−x): ribalta sull'asse y")
+    g2.curva(r, 0, 5, GRIGIO, 2, n=2000, dash="6,5")
+    g2.curva(lambda x: math.sqrt(-x) if x <= 0 else None, -5, 0, ROSSO, n=2000)
+    legenda(s, 500, 395, [(GRIGIO, "y = √x", "6,5")])
+    legenda(s, 660, 395, [(ROSSO, "y = √(−x)", None)])
+    s.save("06-riflessioni.svg")
+
+
+# 17. Valore assoluto e dilatazioni
+def valore_assoluto():
+    s = SVG(900, 420)
+    p = lambda x: x * x - 4
+    g1 = Grafico(s, 40, 40, 380, 320, (-3.5, 3.5), (-5, 6), "|f(x)|: la parte sotto sale")
+    g1.curva(p, -3.5, 3.5, GRIGIO, 2, dash="6,5")
+    g1.curva(lambda x: abs(p(x)), -3.5, 3.5, BLU)
+    g1.punto(-2, 0, BLU)
+    g1.punto(2, 0, BLU)
+    legenda(s, 60, 395, [(GRIGIO, "y = x² − 4", "6,5")])
+    legenda(s, 220, 395, [(BLU, "y = |x² − 4|", None)])
+    g2 = Grafico(s, 480, 40, 380, 320, (-3, 3), (-1, 6), "dilatazioni: k·f(x)")
+    g2.curva(lambda x: x * x, -3, 3, GRIGIO, 2, dash="6,5")
+    g2.curva(lambda x: 3 * x * x, -3, 3, ROSSO)
+    g2.curva(lambda x: 0.5 * x * x, -3, 3, VERDE)
+    legenda(s, 495, 395, [(GRIGIO, "x²", "6,5")])
+    legenda(s, 600, 395, [(ROSSO, "3x² (più stretta)", None)])
+    legenda(s, 760, 395, [(VERDE, "x²/2", None)])
+    s.save("06-valore-assoluto-dilatazioni.svg")
+
+
+# 18. Esercizio 11: |x+1| - 2 costruito a passi
+def esercizio_11():
+    s = SVG(960, 360)
+    passi = [("1. y = |x|", lambda x: abs(x), None),
+             ("2. y = |x + 1|", lambda x: abs(x + 1), lambda x: abs(x)),
+             ("3. y = |x + 1| − 2", lambda x: abs(x + 1) - 2, lambda x: abs(x + 1))]
+    for k, (tit, f, prima) in enumerate(passi):
+        g = Grafico(s, 30 + k * 315, 40, 280, 280, (-4.5, 3), (-3, 4.5), tit)
+        if prima:
+            g.curva(prima, -4.5, 3, GRIGIO, 1.8, dash="6,5")
+        g.curva(f, -4.5, 3, BLU)
+        if k == 1:
+            g.segmento(-0.05, -1.5, -0.95, -1.5, VIOLA, 2, freccia=True)
+            g.scritta(-0.95, -1.5, "−1", VIOLA, "end", dx=-6, dy=5, size=13, bold=True)
+        if k == 2:
+            g.segmento(1.8, 2.8, 1.8, 0.9, VIOLA, 2, freccia=True)
+            g.scritta(1.8, 1.9, "−2", VIOLA, "start", dx=6, size=13, bold=True)
+            g.punto(-1, -2, ROSSO)
+            g.punto(-3, 0, VERDE)
+            g.punto(1, 0, VERDE)
+            g.scritta(-1, -2, "V(−1, −2)", ROSSO, "middle", dy=22, size=13)
+    s.save("06-esercizio-11.svg")
+
+
+# 19. Esercizio 12: -(x-1)^2 + 4
+def esercizio_12():
+    s = SVG(560, 420)
+    g = Grafico(s, 50, 30, 460, 350, (-3, 5), (-4, 5.5))
+    f = lambda x: -(x - 1) ** 2 + 4
+    g.banda_y(-4, 4, ARANCIO, freccia_a=True)
+    g.curva(f, -3, 5, BLU)
+    g.punto(1, 4, ROSSO)
+    g.punto(-1, 0, VERDE)
+    g.punto(3, 0, VERDE)
+    g.tratteggio(0, 4, 1, 4, ARANCIO)
+    g.scritta(1, 4, "V(1, 4)", ROSSO, "start", dx=10, dy=-6, size=14)
+    g.scritta(-1, 0, "−1", VERDE, "end", dx=-6, dy=-8, size=13, bold=True)
+    g.scritta(3, 0, "3", VERDE, "start", dx=6, dy=-8, size=13, bold=True)
+    g.scritta(0, -2.2, "immagine (−∞, 4]", ARANCIO, "start", dx=10, size=14, bold=True)
+    g.scritta(3.4, f(3.4), "y = −(x − 1)² + 4", BLU, "start", dx=10, dy=6, size=14, italic=True)
+    s.save("06-esercizio-12.svg")
+
+
+# 20. Tariffa T(t) = 4 + 2t
+def tariffa():
+    s = SVG(620, 440)
+    g = Grafico(s, 60, 30, 500, 360, (-1, 7), (-1, 17), passo=1, etich=2,
+                xlab="t (ore)", ylab="T (euro)")
+    T = lambda t: 4 + 2 * t if t >= 0 else None
+    g.banda_y(4, 17, ARANCIO, freccia_b=True)
+    g.curva(T, 0, 7, BLU)
+    g.punto(0, 4, BLU)
+    g.punto(3, 10, ROSSO)
+    g.tratteggio(0, 10, 3, 10, ROSSO)
+    g.tratteggio(3, 0, 3, 10, ROSSO)
+    g.segmento(0.2, 10, 2.8, 10, ROSSO, 1.6, freccia=True)
+    g.segmento(3, 9.6, 3, 0.5, ROSSO, 1.6, freccia=True)
+    g.scritta(3, 0, "3", ROSSO, "middle", dy=17, size=13, bold=True)
+    g.scritta(3, 10, "T⁻¹(10) = 3", ROSSO, "start", dx=10, dy=14, size=14, bold=True)
+    g.scritta(0, 4, "4 € fissi", BLU, "start", dx=10, dy=18, size=13)
+    g.scritta(5.4, T(5.4), "T(t) = 4 + 2t", BLU, "end", dx=-12, dy=-6, size=15, italic=True)
+    g.scritta(0, 14.5, "immagine [4, +∞)", ARANCIO, "start", dx=10, size=14, bold=True)
+    s.save("06-tariffa.svg")
 
 
 if __name__ == "__main__":
-    prodotto_riga_colonna()
-    tipi_prodotto()
-    diagonali_2x2()
-    sarrus()
-    segni()
-    minori()
-    area_determinante()
+    diagrammi_frecce()
+    area_quadrato()
+    retta_verticale()
+    dominio_esempi()
+    immagine_parabola()
+    immagine_radice()
+    retta_bucata()
+    retta_orizzontale()
+    restrizione_x2()
+    inversa_bisettrice()
+    restrizione_x_meno_1()
+    composizione()
+    pari_dispari()
+    monotonia()
+    traslazioni()
+    riflessioni()
+    valore_assoluto()
+    esercizio_11()
+    esercizio_12()
+    tariffa()

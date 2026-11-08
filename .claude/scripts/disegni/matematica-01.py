@@ -1,16 +1,16 @@
-"""Disegni per la bozza di matematica 01 (equazioni e disequazioni).
+"""Disegni per la bozza di matematica 07 (insiemi, numeri e intervalli).
 
 Script senza dipendenze: python3 -I .claude/scripts/disegni/matematica-01.py
 Le immagini vanno in anno-1/semestre-1/matematica/bozze/img/ con prefisso 01-.
 
 Disegni:
-- 01-retta-reale-intervalli   intervalli aperti, chiusi, illimitati sulla retta reale
-- 01-parabola-discriminante   i tre casi del discriminante (due zeri, uno, nessuno)
-- 01-parabola-segno           segno di x^2 - 5x + 6: positivo fuori, negativo dentro
-- 01-equazione-irrazionale    sqrt(x+3) = x - 3: la soluzione falsa x = 1
-- 01-valore-assoluto          |x - 1| = 3 e |x - 1| < 3 sul grafico
-- 01-tabella-segni            tabella dei segni di (x+2)(x-1)/(x-3)
-- 01-sistema-disequazioni     intersezione delle soluzioni di un sistema
+- 07-appartenenza-inclusione  a in A, a non in A, B contenuto in A (come sugli appunti)
+- 07-operazioni-venn          unione, intersezione, differenza, complementare
+- 07-insiemi-numerici         N dentro Z dentro Q dentro R, con esempi
+- 07-retta-reale              la retta reale con alcuni numeri (interi, razionali, irrazionali)
+- 07-valore-assoluto          |a| e |a - b| come distanze sulla retta
+- 07-intervalli               i tipi di intervallo e la loro notazione
+- 07-esercizio-intervalli     l'esercizio del professore: X, Y, Z e la loro intersezione
 """
 import math
 import os
@@ -25,6 +25,7 @@ ROSSO = "#dc2626"
 VERDE = "#16a34a"
 ARANCIO = "#d97706"
 VIOLA = "#7c3aed"
+RIEMPI = "#bfdbfe"
 FONT = "font-family=\"Helvetica, Arial, sans-serif\""
 
 
@@ -37,6 +38,7 @@ class SVG:
         self.parti.append(s)
 
     def testo(self, x, y, t, size=15, colore=NERO, anchor="middle", peso="normal", stile="normal"):
+        t = str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         self.add(f'<text x="{x:.1f}" y="{y:.1f}" {FONT} font-size="{size}" fill="{colore}" '
                  f'text-anchor="{anchor}" font-weight="{peso}" font-style="{stile}">{t}</text>')
 
@@ -58,9 +60,18 @@ class SVG:
         fill = colore if pieno else "white"
         self.add(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r}" fill="{fill}" stroke="{colore}" stroke-width="2"/>')
 
-    def rett(self, x, y, w, h, fill, opac=1.0, stroke="none"):
-        self.add(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" fill="{fill}" '
-                 f'fill-opacity="{opac}" stroke="{stroke}"/>')
+    def cerchio(self, cx, cy, r, fill="none", stroke=NERO, sp=2, clip=None):
+        c = f' clip-path="url(#{clip})"' if clip else ""
+        self.add(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r:.1f}" fill="{fill}" stroke="{stroke}" '
+                 f'stroke-width="{sp}"{c}/>')
+
+    def ellisse(self, cx, cy, rx, ry, fill="none", stroke=NERO, sp=2):
+        self.add(f'<ellipse cx="{cx:.1f}" cy="{cy:.1f}" rx="{rx:.1f}" ry="{ry:.1f}" fill="{fill}" '
+                 f'stroke="{stroke}" stroke-width="{sp}"/>')
+
+    def rett(self, x, y, w, h, fill, stroke="none", sp=1.5, rx=0):
+        self.add(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="{rx}" fill="{fill}" '
+                 f'stroke="{stroke}" stroke-width="{sp}"/>')
 
     def salva(self, nome):
         os.makedirs(OUT, exist_ok=True)
@@ -72,275 +83,242 @@ class SVG:
         print("scritto", nome)
 
 
-class Piano:
-    """Un riquadro con assi cartesiani dentro un SVG."""
-    n = 0
+# ---------------------------------------------------------------- insiemi
 
-    def __init__(self, svg, x0, y0, w, h, xmin, xmax, ymin, ymax):
-        self.s = svg
-        self.x0, self.y0, self.w, self.h = x0, y0, w, h
-        self.xmin, self.xmax, self.ymin, self.ymax = xmin, xmax, ymin, ymax
-        Piano.n += 1
-        self.clip = f"riquadro{Piano.n}"
-        svg.add(f'<clipPath id="{self.clip}"><rect x="{x0}" y="{y0}" width="{w}" height="{h}"/></clipPath>')
+def appartenenza_inclusione():
+    s = SVG(660, 240)
+    # a in A
+    s.cerchio(110, 110, 70, RIEMPI, BLU)
+    s.pallino(110, 110, True, NERO, 4)
+    s.testo(122, 105, "a", 17, stile="italic", anchor="start")
+    s.testo(50, 50, "A", 18, BLU, stile="italic")
+    s.testo(110, 226, "a ∈ A", 17)
+    # a non in A
+    s.cerchio(320, 110, 70, RIEMPI, BLU)
+    s.pallino(410, 60, True, NERO, 4)
+    s.testo(422, 56, "a", 17, stile="italic", anchor="start")
+    s.testo(262, 50, "A", 18, BLU, stile="italic")
+    s.testo(330, 226, "a ∉ A", 17)
+    # B contenuto in A
+    s.cerchio(550, 110, 80, RIEMPI, BLU)
+    s.cerchio(565, 125, 35, "#fde68a", ARANCIO)
+    s.testo(565, 131, "B", 17, ARANCIO, stile="italic")
+    s.testo(468, 50, "A", 18, BLU, stile="italic")
+    s.testo(550, 226, "B ⊆ A", 17)
+    s.salva("01-appartenenza-inclusione")
 
-    def X(self, x):
-        return self.x0 + (x - self.xmin) / (self.xmax - self.xmin) * self.w
 
-    def Y(self, y):
-        return self.y0 + (self.ymax - y) / (self.ymax - self.ymin) * self.h
+def operazioni_venn():
+    s = SVG(790, 260)
+    r = 52
+    pannelli = [
+        (15, "unione", "A ∪ B"),
+        (210, "intersezione", "A ∩ B"),
+        (405, "differenza", "A \\ B"),
+        (600, "complementare", "Aᶜ (in U)"),
+    ]
+    for i, (x0, tipo, nome) in enumerate(pannelli):
+        cxA, cxB, cy = x0 + 62, x0 + 110, 120
+        if tipo == "complementare":
+            cxA = x0 + 85
+        s.add(f'<clipPath id="clipA{i}"><circle cx="{cxA}" cy="{cy}" r="{r}"/></clipPath>')
+        # riquadro universo
+        s.rett(x0, 40, 170, 160, "white", GRIGIO, 1.2, 6)
+        if tipo == "unione":
+            s.cerchio(cxA, cy, r, RIEMPI, "none")
+            s.cerchio(cxB, cy, r, RIEMPI, "none")
+        elif tipo == "intersezione":
+            s.cerchio(cxB, cy, r, RIEMPI, "none", clip=f"clipA{i}")
+        elif tipo == "differenza":
+            s.cerchio(cxA, cy, r, RIEMPI, "none")
+            s.cerchio(cxB, cy, r, "white", "none")
+        elif tipo == "complementare":
+            s.rett(x0, 40, 170, 160, RIEMPI, GRIGIO, 1.2, 6)
+            s.cerchio(cxA, cy, r, "white", "none")
+        s.cerchio(cxA, cy, r, "none", BLU, 2)
+        if tipo != "complementare":
+            s.cerchio(cxB, cy, r, "none", ARANCIO, 2)
+            s.testo(cxB + 44, cy - 50, "B", 16, ARANCIO, stile="italic")
+        s.testo(cxA - 44, cy - 50, "A", 16, BLU, stile="italic")
+        s.testo(x0 + 157, 192, "U", 13, GRIGIO, stile="italic")
+        s.testo(x0 + 85, 26, tipo, 15, peso="bold")
+        s.testo(x0 + 85, 228, nome, 17)
+    s.salva("01-operazioni-venn")
 
-    def griglia(self, passo=1):
-        x = math.ceil(self.xmin)
-        while x <= self.xmax:
-            self.s.linea(self.X(x), self.y0, self.X(x), self.y0 + self.h, GRIGLIA, 1)
-            x += passo
-        y = math.ceil(self.ymin)
-        while y <= self.ymax:
-            self.s.linea(self.x0, self.Y(y), self.x0 + self.w, self.Y(y), GRIGLIA, 1)
-            y += passo
 
-    def assi(self, tacche_x=(), tacche_y=(), nome_x="x", nome_y="y", size=13):
-        s = self.s
-        s.freccia(self.x0, self.Y(0), self.x0 + self.w + 8, self.Y(0))
-        s.freccia(self.X(0), self.y0 + self.h, self.X(0), self.y0 - 8)
-        s.testo(self.x0 + self.w + 8, self.Y(0) + 20, nome_x, 15, stile="italic")
-        s.testo(self.X(0) + 12, self.y0 - 4, nome_y, 15, stile="italic", anchor="start")
-        for t in tacche_x:
-            s.linea(self.X(t), self.Y(0) - 4, self.X(t), self.Y(0) + 4)
-            s.testo(self.X(t), self.Y(0) + 23, str(t).replace("-", "−"), size)
-        for t in tacche_y:
-            s.linea(self.X(0) - 4, self.Y(t), self.X(0) + 4, self.Y(t))
-            s.testo(self.X(0) - 8, self.Y(t) + 5, str(t).replace("-", "−"), size, anchor="end")
-
-    def curva(self, f, a, b, colore=BLU, sp=2.5, dash=None, n=300):
-        pts = []
-        for i in range(n + 1):
-            x = a + (b - a) * i / n
-            y = f(x)
-            if y is None:
-                continue
-            pts.append(f"{self.X(x):.1f},{self.Y(y):.1f}")
-        d = f' stroke-dasharray="{dash}"' if dash else ""
-        self.s.add(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{colore}" '
-                   f'stroke-width="{sp}" stroke-linejoin="round" clip-path="url(#{self.clip})"{d}/>')
+def insiemi_numerici():
+    s = SVG(640, 350)
+    s.add('<g transform="translate(0,20)">')
+    s.ellisse(320, 170, 300, 150, "#ede9fe", VIOLA)
+    s.ellisse(270, 180, 225, 118, "#dcfce7", VERDE)
+    s.ellisse(225, 190, 150, 88, "#fef3c7", ARANCIO)
+    s.ellisse(185, 200, 80, 55, "#dbeafe", BLU)
+    s.testo(185, 172, "ℕ", 22, BLU, peso="bold")
+    s.testo(185, 205, "0   1   2", 15)
+    s.testo(185, 228, "3   …", 15)
+    s.testo(330, 160, "ℤ", 22, ARANCIO, peso="bold")
+    s.testo(330, 192, "−1", 15)
+    s.testo(325, 222, "−7", 15)
+    s.testo(435, 145, "ℚ", 22, VERDE, peso="bold")
+    s.testo(440, 178, "1/2", 15)
+    s.testo(445, 208, "−0,75", 15)
+    s.testo(425, 242, "5/3", 15)
+    s.testo(560, 130, "ℝ", 22, VIOLA, peso="bold")
+    s.testo(565, 168, "√2", 15)
+    s.testo(565, 200, "π", 15, stile="italic")
+    s.testo(565, 232, "−√3", 15)
+    s.add("</g>")
+    s.testo(320, 24, "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ", 17)
+    s.salva("01-insiemi-numerici")
 
 
 # ---------------------------------------------------------------- retta reale
 
-def retta_reale(s, y, x0, x1, vmin, vmax, tacche, intervalli, colore=BLU, etichetta=None, et_x=None):
-    """Disegna una retta reale con gli intervalli evidenziati.
-    intervalli: lista di (a, b, a_chiuso, b_chiuso); a o b = None per l'infinito."""
+def retta_reale():
+    s = SVG(700, 150)
+    vmin, vmax = -3.5, 4.5
+    x0, x1 = 40, 660
+
     def X(v):
         return x0 + (v - vmin) / (vmax - vmin) * (x1 - x0)
-    s.freccia(x0 - 10, y, x1 + 14, y, GRIGIO, 1.5)
-    for t, nome in tacche:
-        s.linea(X(t), y - 5, X(t), y + 5, GRIGIO, 1.5)
-        s.testo(X(t), y + 22, nome, 15)
-    for a, b, ac, bc in intervalli:
-        xa = X(a) if a is not None else x0 - 6
-        xb = X(b) if b is not None else x1 + 6
-        s.linea(xa, y, xb, y, colore, 5)
+    y = 80
+    s.freccia(x0 - 15, y, x1 + 20, y, NERO, 1.5)
+    s.testo(x1 + 22, y + 22, "ℝ", 16)
+    for k in range(-3, 5):
+        s.linea(X(k), y - 5, X(k), y + 5, NERO, 1.5)
+        s.testo(X(k), y + 24, str(k).replace("-", "−"), 14)
+    punti = [(-math.sqrt(2), "−√2", ROSSO), (0.5, "1/2", VERDE), (-2.5, "−5/2", VERDE),
+             (math.pi, "π", ROSSO), (math.sqrt(2), "√2", ROSSO), (3.5, "7/2", VERDE)]
+    for v, nome, c in punti:
+        s.pallino(X(v), y, True, c, 4.5)
+        s.testo(X(v), y - 14, nome, 15, c)
+    s.testo(40, 140, "verde: razionali (frazioni)", 13, VERDE, anchor="start")
+    s.testo(300, 140, "rosso: irrazionali", 13, ROSSO, anchor="start")
+    s.testo(480, 140, "tacche nere: interi", 13, NERO, anchor="start")
+    s.salva("01-retta-reale")
+
+
+def valore_assoluto():
+    s = SVG(700, 210)
+    vmin, vmax = -5.5, 5.5
+    x0, x1 = 40, 660
+
+    def X(v):
+        return x0 + (v - vmin) / (vmax - vmin) * (x1 - x0)
+    # riga 1: |-3| = |3| = 3
+    y = 70
+    s.freccia(x0 - 15, y, x1 + 20, y, GRIGIO, 1.5)
+    for k in range(-5, 6):
+        s.linea(X(k), y - 4, X(k), y + 4, GRIGIO, 1.2)
+        s.testo(X(k), y + 22, str(k).replace("-", "−"), 13, GRIGIO)
+    s.linea(X(-3), y - 14, X(0), y - 14, ROSSO, 3)
+    s.linea(X(0), y - 14, X(3), y - 14, BLU, 3)
+    s.pallino(X(-3), y, True, ROSSO, 4.5)
+    s.pallino(X(3), y, True, BLU, 4.5)
+    s.pallino(X(0), y, True, NERO, 3.5)
+    s.testo(X(-1.5), y - 24, "|−3| = 3", 15, ROSSO)
+    s.testo(X(1.5), y - 24, "|3| = 3", 15, BLU)
+    # riga 2: |a - b| distanza tra 1 e 4 e tra -2 e 1
+    y = 160
+    s.freccia(x0 - 15, y, x1 + 20, y, GRIGIO, 1.5)
+    for k in range(-5, 6):
+        s.linea(X(k), y - 4, X(k), y + 4, GRIGIO, 1.2)
+        s.testo(X(k), y + 22, str(k).replace("-", "−"), 13, GRIGIO)
+    s.linea(X(1), y - 14, X(4), y - 14, VERDE, 3)
+    s.pallino(X(1), y, True, VERDE, 4.5)
+    s.pallino(X(4), y, True, VERDE, 4.5)
+    s.testo(X(2.5), y - 24, "|4 − 1| = 3", 15, VERDE)
+    s.linea(X(-4), y - 14, X(-1), y - 14, VIOLA, 3)
+    s.pallino(X(-4), y, True, VIOLA, 4.5)
+    s.pallino(X(-1), y, True, VIOLA, 4.5)
+    s.testo(X(-2.5), y - 24, "|−1 − (−4)| = 3", 15, VIOLA)
+    s.salva("01-valore-assoluto-insiemi")
+
+
+def intervalli():
+    righe = [
+        ("[a, b]", "a ≤ x ≤ b", "chiuso", (True, True, False, False)),
+        ("(a, b)", "a < x < b", "aperto", (False, False, False, False)),
+        ("[a, b)", "a ≤ x < b", "chiuso a sinistra, aperto a destra", (True, False, False, False)),
+        ("(a, b]", "a < x ≤ b", "aperto a sinistra, chiuso a destra", (False, True, False, False)),
+        ("[a, +∞)", "x ≥ a", "illimitato a destra", (True, None, False, True)),
+        ("(−∞, b)", "x < b", "illimitato a sinistra", (None, False, True, False)),
+    ]
+    s = SVG(780, 50 + 52 * len(righe))
+    s.testo(60, 28, "notazione", 14, GRIGIO, peso="bold")
+    s.testo(175, 28, "disuguaglianza", 14, GRIGIO, peso="bold")
+    s.testo(625, 28, "sulla retta", 14, GRIGIO, peso="bold")
+    L0, L1 = 495, 760
+    xa, xb = 545, 690
+    for i, (nota, dis, nome, (ac, bc, infs, infd)) in enumerate(righe):
+        y = 70 + 52 * i
+        s.testo(60, y + 5, nota, 17)
+        s.testo(175, y + 5, dis, 16, stile="italic")
+        s.testo(265, y + 5, nome, 12, GRIGIO, anchor="start")
+        s.freccia(L0, y, L1, y, GRIGIO, 1.2)
+        a = L0 + 2 if infs else xa
+        b = L1 - 12 if infd else xb
+        s.linea(a, y, b, y, BLU, 4)
+        if infd:
+            s.add(f'<polygon points="{L1},{y} {L1-14},{y-7} {L1-14},{y+7}" fill="{BLU}"/>')
+        if infs:
+            s.add(f'<polygon points="{L0-4},{y} {L0+10},{y-7} {L0+10},{y+7}" fill="{BLU}"/>')
+        if not infs:
+            s.pallino(xa, y, ac, BLU)
+            s.testo(xa, y + 22, "a", 14, stile="italic")
+        if not infd:
+            s.pallino(xb, y, bc, BLU)
+            s.testo(xb, y + 22, "b", 14, stile="italic")
+    s.salva("01-intervalli")
+
+
+def esercizio_intervalli():
+    s = SVG(720, 300)
+    vmin, vmax = -3, 5.2
+    x0, x1 = 120, 680
+
+    def X(v):
+        return x0 + (v - vmin) / (vmax - vmin) * (x1 - x0)
+    r2, p, s72, r17 = -math.sqrt(2), math.pi, 3.5, math.sqrt(17)
+    # fascia della soluzione
+    s.rett(X(p), 30, X(s72) - X(p), 230, "#dcfce7")
+    # riga dei valori
+    y = 45
+    s.freccia(x0 - 10, y, x1 + 16, y, NERO, 1.5)
+    for v, nome, sotto in [(r2, "−√2 ≈ −1,41", 0), (0, "0", 0), (p, "π ≈ 3,14", 0),
+                           (s72, "7/2 = 3,5", 1), (r17, "√17 ≈ 4,12", 0)]:
+        s.linea(X(v), y - 5, X(v), y + 5, NERO, 1.5)
+        s.testo(X(v), y - 12 if not sotto else y + 22, nome, 13)
+        s.linea(X(v), y + 5, X(v), 250, GRIGIO, 1, "4,4")
+
+    def riga(yy, nome, a, b, ac, bc, col):
+        s.testo(20, yy + 5, nome, 15, col, anchor="start")
+        s.linea(x0 - 10, yy, x1 + 10, yy, GRIGLIA, 1)
+        xa = X(a) if a is not None else x0 - 10
+        xb = X(b) if b is not None else x1 + 10
+        s.linea(xa, yy, xb, yy, col, 4)
         if a is None:
-            s.freccia(xa + 12, y, xa - 4, y, colore, 5)
-        if b is None:
-            s.freccia(xb - 12, y, xb + 4, y, colore, 5)
-        if a is not None:
-            s.pallino(xa, y, ac, colore)
-        if b is not None:
-            s.pallino(xb, y, bc, colore)
-    if etichetta:
-        s.testo(et_x if et_x else x1 + 30, y + 5, etichetta, 15, anchor="start")
-
-
-def fig_intervalli():
-    s = SVG(640, 371)
-    righe = [
-        ("[a, b]", "a ≤ x ≤ b", [(2, 6, True, True)]),
-        ("(a, b)", "a &lt; x &lt; b", [(2, 6, False, False)]),
-        ("[a, b)", "a ≤ x &lt; b", [(2, 6, True, False)]),
-        ("[a, +∞)", "x ≥ a", [(2, None, True, False)]),
-        ("(−∞, b)", "x &lt; b", [(None, 6, False, False)]),
-    ]
-    s.testo(70, 26, "intervallo", 14, GRIGIO, peso="bold")
-    s.testo(195, 26, "disequazione", 14, GRIGIO, peso="bold")
-    s.testo(440, 26, "sulla retta reale", 14, GRIGIO, peso="bold")
-    for i, (nota, dis, iv) in enumerate(righe):
-        y = 66 + i * 58
-        s.testo(70, y + 5, nota, 17, NERO)
-        s.testo(195, y + 5, dis, 16, NERO, stile="italic")
-        retta_reale(s, y, 290, 600, 0, 8, [(2, "a"), (6, "b")], iv)
-    s.add(f'<circle cx="50" cy="352" r="5.5" fill="{BLU}" stroke="{BLU}" stroke-width="2"/>')
-    s.testo(62, 357, "pallino pieno: il numero è compreso", 13, anchor="start")
-    s.add(f'<circle cx="330" cy="352" r="5.5" fill="white" stroke="{BLU}" stroke-width="2"/>')
-    s.testo(342, 357, "pallino vuoto: il numero è escluso", 13, anchor="start")
-    s.salva("01-retta-reale-intervalli")
-
-
-# ---------------------------------------------------------------- parabole
-
-def fig_discriminante():
-    s = SVG(660, 310)
-    casi = [
-        ("Δ &gt; 0: due soluzioni", lambda x: x * x - 4, [-2, 2], "y = x² − 4"),
-        ("Δ = 0: una soluzione", lambda x: (x - 0) ** 2, [0], "y = x²"),
-        ("Δ &lt; 0: nessuna soluzione", lambda x: x * x + 1.5, [], "y = x² + 1,5"),
-    ]
-    for i, (tit, f, zeri, eq) in enumerate(casi):
-        x0 = 20 + i * 215
-        p = Piano(s, x0, 60, 190, 200, -3.2, 3.2, -4.6, 5)
-        p.griglia()
-        p.assi()
-        for z in zeri:
-            if z != 0:
-                s.testo(p.X(z) + (16 if z > 0 else -16), p.Y(0) + 22, str(z).replace("-", "−"), 13)
-        p.curva(f, -3.2, 3.2, BLU)
-        for z in zeri:
-            s.pallino(p.X(z), p.Y(0), True, ROSSO)
-        if 0 in zeri:
-            s.testo(p.X(0) + 14, p.Y(0) + 23, "0", 13)
-        s.testo(x0 + 95, 26, tit, 14, peso="bold")
-        s.testo(x0 + 95, 296, eq, 14, BLU, stile="italic")
-    s.salva("01-parabola-discriminante")
-
-
-def fig_parabola_segno():
-    s = SVG(620, 400)
-    p = Piano(s, 50, 30, 520, 300, -0.6, 6.0, -1.5, 6.0)
-    p.griglia()
-    # fasce sotto l'asse x
-    s.rett(p.X(-0.6), p.Y(0) + 30, p.X(2) - p.X(-0.6), 12, VERDE, 0.8)
-    s.rett(p.X(2), p.Y(0) + 30, p.X(3) - p.X(2), 12, ROSSO, 0.8)
-    s.rett(p.X(3), p.Y(0) + 30, p.X(6.0) - p.X(3), 12, VERDE, 0.8)
-    p.assi(tacche_x=[1, 2, 3, 4, 5], tacche_y=[2, 4])
-    f = lambda x: x * x - 5 * x + 6
-    # parte positiva verde, negativa rossa
-    p.curva(f, -0.35, 2, VERDE, 3)
-    p.curva(f, 2, 3, ROSSO, 3)
-    p.curva(f, 3, 5.35, VERDE, 3)
-    s.pallino(p.X(2), p.Y(0), True, NERO, 4.5)
-    s.pallino(p.X(3), p.Y(0), True, NERO, 4.5)
-    s.testo(p.X(0.8), p.Y(0) + 64, "+  (esterno)", 15, VERDE, peso="bold")
-    s.testo(p.X(2.5), p.Y(0) + 64, "−", 18, ROSSO, peso="bold")
-    s.testo(p.X(2.5), p.Y(0) + 82, "(interno)", 14, ROSSO, peso="bold")
-    s.testo(p.X(4.6), p.Y(0) + 64, "+  (esterno)", 15, VERDE, peso="bold")
-    s.testo(p.X(2.5), p.Y(4.4), "y = x² − 5x + 6", 16, NERO, stile="italic")
-    s.testo(p.X(2.5), p.Y(-0.25) + 22, "", 12)
-    s.testo(310, 392, "La parabola sta sotto l'asse x solo tra le due radici 2 e 3.", 14, NERO)
-    s.salva("01-parabola-segno")
-
-
-def fig_irrazionale():
-    s = SVG(620, 410)
-    p = Piano(s, 50, 30, 520, 330, -3.6, 8, -4.5, 5.2)
-    p.griglia()
-    p.assi(tacche_x=[-3, 1, 3, 6], tacche_y=[-2, 2, 3])
-    p.curva(lambda x: math.sqrt(x + 3) if x >= -3 else None, -3, 8, BLU, 3)
-    p.curva(lambda x: -math.sqrt(x + 3) if x >= -3 else None, -3, 8, BLU, 2, dash="6,5")
-    p.curva(lambda x: x - 3, -1.2, 8, ARANCIO, 3)
-    s.pallino(p.X(6), p.Y(3), True, VERDE, 6)
-    s.pallino(p.X(1), p.Y(-2), True, ROSSO, 6)
-    s.linea(p.X(6), p.Y(3), p.X(6), p.Y(0), GRIGIO, 1.2, "4,3")
-    s.linea(p.X(1), p.Y(-2), p.X(1), p.Y(0), GRIGIO, 1.2, "4,3")
-    s.testo(p.X(6) - 12, p.Y(3) - 14, "x = 6: soluzione vera", 14, VERDE, anchor="end", peso="bold")
-    s.testo(p.X(1.3), p.Y(-3.4), "x = 1: soluzione falsa", 14, ROSSO, anchor="start", peso="bold")
-    s.testo(p.X(-3.4), p.Y(2.6), "y = √(x + 3)", 14, BLU, anchor="start", stile="italic")
-    s.testo(p.X(6.5), p.Y(-4.1), "y = −√(x + 3)", 14, BLU, stile="italic")
-    s.testo(p.X(6.6), p.Y(4.9), "y = x − 3", 15, ARANCIO, stile="italic")
-    s.testo(310, 398, "Elevando al quadrato si trovano anche gli incontri con la curva tratteggiata.", 14)
-    s.salva("01-equazione-irrazionale")
-
-
-def fig_valore_assoluto():
-    s = SVG(620, 400)
-    p = Piano(s, 50, 30, 520, 300, -4, 6.5, -1.4, 5.2)
-    p.griglia()
-    s.rett(p.X(-2), p.Y(0) + 28, p.X(4) - p.X(-2), 12, VERDE, 0.8)
-    p.assi(tacche_x=[-2, 1, 4])
-    p.curva(lambda x: abs(x - 1), -4, 6.2, BLU, 3)
-    p.curva(lambda x: 3, -4, 6.4, ROSSO, 2, dash="7,5")
-    s.pallino(p.X(-2), p.Y(3), True, NERO, 5)
-    s.pallino(p.X(4), p.Y(3), True, NERO, 5)
-    s.linea(p.X(-2), p.Y(3), p.X(-2), p.Y(0), GRIGIO, 1.2, "4,3")
-    s.linea(p.X(4), p.Y(3), p.X(4), p.Y(0), GRIGIO, 1.2, "4,3")
-    s.testo(p.X(-3.2), p.Y(4.6), "y = |x − 1|", 16, BLU, stile="italic", anchor="start")
-    s.testo(p.X(6.4), p.Y(3) - 10, "y = 3", 15, ROSSO, stile="italic", anchor="end")
-    s.testo(p.X(1), 356, "|x − 1| &lt; 3  per  −2 &lt; x &lt; 4", 15, VERDE, peso="bold")
-    s.testo(310, 388, "Il grafico a V sta sotto la retta y = 3 tra i due punti d'incontro.", 14)
-    s.salva("01-valore-assoluto")
-
-
-# ---------------------------------------------------------------- tabella dei segni
-
-def fig_tabella_segni():
-    s = SVG(640, 330)
-    x0, x1 = 170, 610
-    vmin, vmax = -4, 5
-    def X(v):
-        return x0 + (v - vmin) / (vmax - vmin) * (x1 - x0)
-    punti = [(-2, "−2"), (1, "1"), (3, "3")]
-    yr = 40
-    s.freccia(x0, yr, x1 + 10, yr, NERO, 1.5)
-    for v, n in punti:
-        s.testo(X(v), yr - 10, n, 15)
-    s.testo(x1 + 4, yr - 10, "x", 15, stile="italic")
-    for v, n in punti:
-        s.linea(X(v), yr + 8, X(v), 270, GRIGIO, 1, "3,3")
-    righe = [
-        ("x + 2", -2, False),
-        ("x − 1", 1, False),
-        ("x − 3", 3, True),
-    ]
-    for i, (nome, z, denom) in enumerate(righe):
-        y = 90 + i * 50
-        s.testo(20, y + 5, nome + ("  (den.)" if denom else ""), 15, anchor="start", stile="italic")
-        # negativo tratteggiato a sinistra, positivo pieno a destra
-        s.linea(X(vmin) + 4, y, X(z), y, ROSSO, 2.5, "6,5")
-        s.linea(X(z), y, x1, y, VERDE, 3)
-        if denom:
-            s.testo(X(z), y + 6, "×", 20, NERO, peso="bold")
+            s.add(f'<polygon points="{x0-14},{yy} {x0-4},{yy-6} {x0-4},{yy+6}" fill="{col}"/>')
         else:
-            s.pallino(X(z), y, True, NERO, 4.5)
-        # segni negli intervalli
-        bordi = [vmin, -2, 1, 3, vmax]
-        for k in range(4):
-            m = (bordi[k] + bordi[k + 1]) / 2
-            seg = "+" if m > z else "−"
-            s.testo(X(m), y - 9, seg, 17, VERDE if seg == "+" else ROSSO, peso="bold")
-    # riga del risultato
-    y = 270
-    s.linea(20, y - 25, x1, y - 25, NERO, 1)
-    s.testo(20, y + 5, "frazione", 15, anchor="start", peso="bold")
-    bordi = [vmin, -2, 1, 3, vmax]
-    segni = ["−", "+", "−", "+"]
-    for k in range(4):
-        m = (bordi[k] + bordi[k + 1]) / 2
-        col = VERDE if segni[k] == "+" else ROSSO
-        s.testo(X(m), y + 7, segni[k], 22, col, peso="bold")
-    s.testo(330, 316, "Soluzione di  (x + 2)(x − 1) / (x − 3) ≥ 0 :   [−2, 1] ∪ (3, +∞)", 15, NERO)
-    s.salva("01-tabella-segni")
+            s.pallino(X(a), yy, ac, col)
+        if b is None:
+            s.add(f'<polygon points="{x1+14},{yy} {x1+4},{yy-6} {x1+4},{yy+6}" fill="{col}"/>')
+        else:
+            s.pallino(X(b), yy, bc, col)
 
-
-def fig_sistema():
-    s = SVG(640, 265)
-    x0, x1 = 200, 600
-    tacche = [(-1, "−1"), (2, "2"), (4, "4")]
-    s.testo(20, 55, "2x − 4 &gt; 0", 16, anchor="start", stile="italic")
-    retta_reale(s, 50, x0, x1, -3, 6, tacche, [(2, None, False, False)], BLU)
-    s.testo(20, 115, "x² − 3x − 4 ≤ 0", 16, anchor="start", stile="italic")
-    retta_reale(s, 110, x0, x1, -3, 6, tacche, [(-1, 4, True, True)], ARANCIO)
-    s.linea(20, 150, x1 + 20, 150, NERO, 1)
-    s.testo(20, 195, "sistema", 16, anchor="start", peso="bold")
-    retta_reale(s, 190, x0, x1, -3, 6, tacche, [(2, 4, False, True)], VERDE)
-    s.testo(330, 252, "Soluzione del sistema: dove valgono tutte e due, cioè 2 &lt; x ≤ 4.", 14)
-    s.salva("01-sistema-disequazioni")
+    riga(105, "X: x ≥ −√2", r2, None, True, None, BLU)
+    riga(150, "Y: x < 7/2", None, s72, None, False, ARANCIO)
+    riga(195, "Z: π ≤ x < √17", p, r17, True, False, VIOLA)
+    riga(245, "X ∩ Y ∩ Z", p, s72, True, False, VERDE)
+    s.testo(X((p + s72) / 2), 280, "[π, 7/2)", 15, VERDE, peso="bold")
+    s.salva("01-esercizio-intervalli")
 
 
 if __name__ == "__main__":
-    fig_intervalli()
-    fig_discriminante()
-    fig_parabola_segno()
-    fig_irrazionale()
-    fig_valore_assoluto()
-    fig_tabella_segni()
-    fig_sistema()
+    appartenenza_inclusione()
+    operazioni_venn()
+    insiemi_numerici()
+    retta_reale()
+    valore_assoluto()
+    intervalli()
+    esercizio_intervalli()

@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Equazioni e disequazioni sono il primo argomento del corso e lo strumento che serve in tutti gli altri: per trovare dove una retta incontra una circonferenza, per calcolare il dominio di una funzione, per capire dove un grafico sta sopra o sotto l'asse $x$. Questa pagina parte da che cosa vuol dire "risolvere" e arriva ai tipi che compaiono negli esercizi: primo e secondo grado, frazionarie, con valore assoluto, irrazionali, e poi le disequazioni con i loro metodi (la parabola, la tabella dei segni, i sistemi).
 
 > [!info] Note collegate
-> Teoria: [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## POTENZE E RADICALI
 
@@ -83,7 +83,7 @@ Il metodo per semplificare un'espressione con potenze e radici è quindi:
 >
 > Risultato: $3^{\frac{71}{15}}$, cioè $\sqrt[15]{3^{71}}$.
 
-Le potenze e le radici come funzioni, con i loro grafici, sono in [[05-funzioni-elementari]].
+Le potenze e le radici come funzioni, con i loro grafici, sono in [[07-funzioni-elementari]].
 
 ## EQUAZIONI
 
@@ -268,13 +268,13 @@ Il grafico di $y = ax^2 + bx + c$ è una *parabola*: una curva a forma di U, riv
 
 Risolvere $ax^2 + bx + c = 0$ vuol dire cercare i punti della parabola in cui $y = 0$, cioè i punti in cui la parabola incontra l'asse $x$. Per questo i tre casi del discriminante corrispondono a tre figure.
 
-![[01-parabola-discriminante.svg|620]]
+![[02-parabola-discriminante.svg|620]]
 
 - $\Delta > 0$: la parabola taglia l'asse $x$ in due punti, che sono le due soluzioni.
 - $\Delta = 0$: la parabola tocca l'asse $x$ in un solo punto, il suo vertice.
 - $\Delta < 0$: la parabola sta tutta sopra (o tutta sotto) l'asse $x$ e non lo incontra mai.
 
-Questa immagine servirà di nuovo per le disequazioni di secondo grado, e la parabola come grafico di funzione torna in [[04-le-funzioni]].
+Questa immagine servirà di nuovo per le disequazioni di secondo grado, e la parabola come grafico di funzione torna in [[06-le-funzioni]].
 
 ## EQUAZIONI PARTICOLARI
 
@@ -323,7 +323,7 @@ Il caso più frequente è $|A(x)| = k$ con $k$ un numero:
 
 Il perché è la definizione di distanza: $|x - 1| = 3$ chiede quali punti stanno a distanza $3$ dal punto $1$, e sono due, uno a destra e uno a sinistra.
 
-![[01-valore-assoluto.svg|540]]
+![[02-valore-assoluto-equazioni.svg|540]]
 
 Il grafico di $y = |x - 1|$ è una V con la punta in $x = 1$: le soluzioni di $|x - 1| = 3$ sono le ascisse dei due punti in cui la V incontra la retta orizzontale $y = 3$.
 
@@ -376,7 +376,7 @@ Ci sono due modi per non sbagliare.
 
 Il disegno spiega da dove viene la soluzione falsa. Elevando al quadrato si cercano i punti in cui la retta $y = x - 3$ incontra sia $y = \sqrt{x+3}$ sia $y = -\sqrt{x+3}$ (perché entrambe, al quadrato, danno $x + 3$). La soluzione vera è l'incontro con la curva piena; quella falsa è l'incontro con la curva tratteggiata, che non fa parte dell'equazione.
 
-![[01-equazione-irrazionale.svg|540]]
+![[02-equazione-irrazionale.svg|540]]
 
 ## DISEQUAZIONI
 
@@ -394,11 +394,11 @@ Un intervallo si scrive indicando i due estremi tra parentesi:
 
 Sulla retta reale l'intervallo si disegna come un tratto colorato: un pallino pieno all'estremo compreso, un pallino vuoto all'estremo escluso, una freccia se l'intervallo va all'infinito.
 
-![[01-retta-reale-intervalli.svg|600]]
+![[02-retta-reale-intervalli.svg|600]]
 
 Quando le soluzioni sono formate da due pezzi separati si uniscono con il simbolo $\cup$ (si legge "unione"): per esempio $x \leq 2$ oppure $x \geq 3$ si scrive $(-\infty, 2] \cup [3, +\infty)$. L'insieme di tutti i numeri reali si scrive $\mathbb{R}$ oppure $(-\infty, +\infty)$.
 
-Gli intervalli, l'unione e l'intersezione di insiemi, con l'esercizio del professore sull'intersezione di tre intervalli, sono spiegati per esteso in [[07-insiemi-e-intervalli]].
+Gli intervalli, l'unione e l'intersezione di insiemi, con l'esercizio del professore sull'intersezione di tre intervalli, sono spiegati per esteso in [[01-insiemi-e-intervalli]].
 
 ### La regola del verso
 
@@ -439,7 +439,7 @@ Il procedimento:
 2. si risolve l'equazione associata $ax^2 + bx + c = 0$, che dà i punti in cui la parabola incontra l'asse $x$;
 3. si disegna la parabola (con $a > 0$ è rivolta verso l'alto) e si leggono gli intervalli in cui sta sopra o sotto l'asse.
 
-![[01-parabola-segno.svg|540]]
+![[02-parabola-segno.svg|540]]
 
 Con $a > 0$ e $\Delta > 0$ il risultato si ricorda con due parole, *interno* ed *esterno*: la parabola è negativa tra le due radici (valori interni) e positiva fuori (valori esterni).
 
@@ -477,7 +477,7 @@ Il metodo della *tabella dei segni* organizza questo ragionamento.
 4. In ogni intervallo si contano i segni meno e si scrive il segno del risultato nell'ultima riga.
 5. Si scelgono gli intervalli con il segno richiesto, decidendo a parte se gli estremi sono compresi.
 
-![[01-tabella-segni.svg|600]]
+![[02-tabella-segni.svg|600]]
 
 > [!example] Esempio svolto: prodotto
 > Risolvere $(x + 2)(x - 1)(x - 3) \geq 0$.
@@ -560,7 +560,7 @@ Il procedimento è:
 
 La differenza con la tabella dei segni è importante: nella tabella si moltiplicano i segni; nel sistema non si moltiplica nulla, si cerca solo dove valgono tutte le condizioni insieme.
 
-![[01-sistema-disequazioni.svg|600]]
+![[02-sistema-disequazioni.svg|600]]
 
 > [!example] Esempio svolto: sistema
 > Risolvere il sistema scritto sopra.
@@ -573,11 +573,11 @@ La differenza con la tabella dei segni è importante: nella tabella si moltiplic
 >
 > Dagli esercizi del professore (foglio funzioni, es. 1): perché $\dfrac{\sqrt{x - 1}}{x - 4}$ esista servono insieme $x - 1 \geq 0$ (radice) e $x - 4 \neq 0$ (denominatore). Il sistema dà $x \geq 1$ e $x \neq 4$: $[1, 4) \cup (4, +\infty)$.
 
-I sistemi sono il modo in cui si calcola il dominio di una funzione: ogni radice, denominatore o logaritmo aggiunge una condizione, e il dominio è l'insieme dei punti che le rispettano tutte. Se ne parla in [[04-le-funzioni]].
+I sistemi sono il modo in cui si calcola il dominio di una funzione: ogni radice, denominatore o logaritmo aggiunge una condizione, e il dominio è l'insieme dei punti che le rispettano tutte. Se ne parla in [[06-le-funzioni]].
 
 ### Cenni: equazioni e disequazioni esponenziali e logaritmiche
 
-Negli esercizi compaiono anche equazioni e disequazioni in cui la $x$ sta all'esponente ($3^{2x-1} = 27$) o dentro un logaritmo ($\ln(x - 2) = 3$). Si risolvono con le proprietà delle funzioni esponenziale e logaritmo, che sono spiegate in [[05-funzioni-elementari]]. Qui basta l'idea.
+Negli esercizi compaiono anche equazioni e disequazioni in cui la $x$ sta all'esponente ($3^{2x-1} = 27$) o dentro un logaritmo ($\ln(x - 2) = 3$). Si risolvono con le proprietà delle funzioni esponenziale e logaritmo, che sono spiegate in [[07-funzioni-elementari]]. Qui basta l'idea.
 
 - Si cerca di scrivere i due lati come potenze della stessa base, e poi si confrontano gli esponenti: $3^{2x-1} = 27 = 3^3$ dà $2x - 1 = 3$, cioè $x = 2$.
 - Nelle disequazioni conta la base: se è maggiore di $1$ il verso resta, se è tra $0$ e $1$ il verso si inverte. Per esempio $\left(\frac{1}{2}\right)^{x-2} \leq \frac{1}{8} = \left(\frac{1}{2}\right)^3$ dà $x - 2 \geq 3$, cioè $x \geq 5$.
@@ -591,13 +591,13 @@ Negli esercizi compaiono anche equazioni e disequazioni in cui la $x$ sta all'es
 > 3. La base $\frac{1}{3}$ è minore di $1$: il verso si inverte, $2x + 1 > 3$, cioè $x > 1$.
 > 4. Metto insieme con la condizione: $x > 1$.
 >
-> I passaggi sulle basi e sui logaritmi sono spiegati in [[05-funzioni-elementari]].
+> I passaggi sulle basi e sui logaritmi sono spiegati in [[07-funzioni-elementari]].
 
 ## Collegamenti
 
-Equazioni e disequazioni sono la grammatica di tutto il resto del corso. In [[02-retta-e-circonferenza|retta e circonferenza]] un punto appartiene a una retta se le sue coordinate soddisfano un'equazione di primo grado, e trovare dove una retta taglia una circonferenza vuol dire risolvere un'equazione di secondo grado, il cui discriminante dice se la retta è secante, tangente o esterna: è lo stesso schema dei tre casi della parabola. Nei [[03-i-vettori|vettori]] le condizioni di parallelismo e di ortogonalità diventano equazioni nelle componenti, e trovare una combinazione lineare vuol dire risolvere un piccolo sistema di equazioni di primo grado.
+Equazioni e disequazioni sono la grammatica di tutto il resto del corso. In [[03-retta-e-circonferenza|retta e circonferenza]] un punto appartiene a una retta se le sue coordinate soddisfano un'equazione di primo grado, e trovare dove una retta taglia una circonferenza vuol dire risolvere un'equazione di secondo grado, il cui discriminante dice se la retta è secante, tangente o esterna: è lo stesso schema dei tre casi della parabola. Nei [[05-i-vettori|vettori]] le condizioni di parallelismo e di ortogonalità diventano equazioni nelle componenti, e trovare una combinazione lineare vuol dire risolvere un piccolo sistema di equazioni di primo grado.
 
-Nelle [[04-le-funzioni|funzioni]] le disequazioni servono a calcolare il dominio (sistemi di condizioni su radici, denominatori e logaritmi) e a studiare il segno di una funzione, cioè dove il grafico sta sopra o sotto l'asse $x$, con gli stessi metodi della parabola e della tabella dei segni; gli zeri di una funzione sono le soluzioni di un'equazione. Nelle [[05-funzioni-elementari|funzioni elementari]] si completano le equazioni e disequazioni esponenziali e logaritmiche accennate qui.
+Nelle [[06-le-funzioni|funzioni]] le disequazioni servono a calcolare il dominio (sistemi di condizioni su radici, denominatori e logaritmi) e a studiare il segno di una funzione, cioè dove il grafico sta sopra o sotto l'asse $x$, con gli stessi metodi della parabola e della tabella dei segni; gli zeri di una funzione sono le soluzioni di un'equazione. Nelle [[07-funzioni-elementari|funzioni elementari]] si completano le equazioni e disequazioni esponenziali e logaritmiche accennate qui.
 
 ## Per approfondire
 

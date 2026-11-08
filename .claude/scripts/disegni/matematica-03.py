@@ -1,630 +1,676 @@
-"""Disegni per la bozza di matematica 03 - I vettori.
+#!/usr/bin/env python3
+"""Disegni per la bozza di matematica 02-retta-e-circonferenza.
 
-Uso: python3 -I .claude/scripts/disegni/matematica-03.py
-Scrive gli SVG in anno-1/semestre-1/matematica/bozze/img/ (prefisso 03-).
-Nessuna dipendenza esterna.
+Genera gli SVG in anno-1/semestre-1/matematica/bozze/img/ con prefisso 03-.
+Nessuna dipendenza: python3 -I .claude/scripts/disegni/matematica-03.py
 """
 import math
 import os
 
 QUI = os.path.dirname(os.path.abspath(__file__))
-RADICE = os.path.abspath(os.path.join(QUI, "..", "..", ".."))
-OUT = os.path.join(RADICE, "anno-1", "semestre-1", "matematica", "bozze", "img")
+OUT = os.path.normpath(os.path.join(QUI, "..", "..", "..",
+                                    "anno-1", "semestre-1", "matematica", "bozze", "img"))
 
 BLU = "#1f5fa8"
 ROSSO = "#c0392b"
-VERDE = "#2e7d4f"
-VIOLA = "#7d3c98"
+VERDE = "#2e8b57"
 ARANCIO = "#d68910"
+VIOLA = "#7d3c98"
 GRIGIO = "#666666"
-GRIGIO_CHIARO = "#e6e6e6"
+NERO = "#222222"
 FONT = "Helvetica, Arial, sans-serif"
 
 
-def esc(s):
-    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+def esc(t):
+    return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def fmt_label(s):
-    """Markup minimo: *x* = grassetto (vettori), _x_ = pedice, ^x^ = apice."""
-    out = []
-    i = 0
-    while i < len(s):
-        c = s[i]
-        if c == "*":
-            j = s.index("*", i + 1)
-            out.append('<tspan font-weight="bold">%s</tspan>' % esc(s[i + 1:j]))
-            i = j + 1
-        elif c == "_":
-            j = s.index("_", i + 1)
-            out.append('<tspan font-size="75%%" dy="4">%s</tspan><tspan dy="-4">\u200b</tspan>' % esc(s[i + 1:j]))
-            i = j + 1
-        elif c == "^":
-            j = s.index("^", i + 1)
-            out.append('<tspan font-size="75%%" dy="-6">%s</tspan><tspan dy="6">\u200b</tspan>' % esc(s[i + 1:j]))
-            i = j + 1
-        else:
-            out.append(esc(c))
-            i += 1
-    return "".join(out)
+class Piano:
+    """Piano cartesiano: coordinate matematiche -> pixel."""
 
-
-class Tela:
-    """Tela SVG in coordinate schermo (pixel). Le sottoclassi mappano le coordinate."""
-
-    def __init__(self, w, h):
-        self.w, self.h = w, h
+    def __init__(self, xmin, xmax, ymin, ymax, scala=50, margine=40, extra_dx=0):
+        self.xmin, self.xmax, self.ymin, self.ymax = xmin, xmax, ymin, ymax
+        self.s = scala
+        self.m = margine
+        self.w = (xmax - xmin) * scala + 2 * margine + extra_dx
+        self.h = (ymax - ymin) * scala + 2 * margine
         self.el = []
+        self.defs = set()
 
-    def map(self, p):
-        return p
+    def px(self, x, y):
+        return (self.m + (x - self.xmin) * self.s, self.m + (self.ymax - y) * self.s)
 
-    # primitive in coordinate "del mondo"
-    def linea(self, a, b, col=GRIGIO, sw=1.5, dash=None, op=1):
-        (x1, y1), (x2, y2) = self.map(a), self.map(b)
-        d = ' stroke-dasharray="%s"' % dash if dash else ""
-        self.el.append('<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" stroke-width="%s"%s opacity="%s"/>'
-                       % (x1, y1, x2, y2, col, sw, d, op))
+    # --- elementi di base -------------------------------------------------
+    def griglia(self, passo=1):
+        x = math.ceil(self.xmin)
+        while x <= self.xmax:
+            a, b = self.px(x, self.ymin), self.px(x, self.ymax)
+            self.el.append(f'<line x1="{a[0]:.1f}" y1="{a[1]:.1f}" x2="{b[0]:.1f}" y2="{b[1]:.1f}" stroke="#e6e6e6" stroke-width="1"/>')
+            x += passo
+        y = math.ceil(self.ymin)
+        while y <= self.ymax:
+            a, b = self.px(self.xmin, y), self.px(self.xmax, y)
+            self.el.append(f'<line x1="{a[0]:.1f}" y1="{a[1]:.1f}" x2="{b[0]:.1f}" y2="{b[1]:.1f}" stroke="#e6e6e6" stroke-width="1"/>')
+            y += passo
 
-    def poligono(self, pts, fill="none", stroke="none", sw=1, op=1, dash=None):
-        s = " ".join("%.1f,%.1f" % self.map(p) for p in pts)
-        d = ' stroke-dasharray="%s"' % dash if dash else ""
-        self.el.append('<polygon points="%s" fill="%s" fill-opacity="%s" stroke="%s" stroke-width="%s"%s/>'
-                       % (s, fill, op, stroke, sw, d))
+    def freccia(self, x1, y1, x2, y2, colore=NERO, w=1.6, pix=False, testa=10):
+        if not pix:
+            (x1, y1), (x2, y2) = self.px(x1, y1), self.px(x2, y2)
+        ang = math.atan2(y2 - y1, x2 - x1)
+        bx, by = x2 - testa * math.cos(ang), y2 - testa * math.sin(ang)
+        self.el.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{bx:.1f}" y2="{by:.1f}" stroke="{colore}" stroke-width="{w}"/>')
+        p1 = (x2, y2)
+        p2 = (bx + testa * 0.4 * math.sin(ang), by - testa * 0.4 * math.cos(ang))
+        p3 = (bx - testa * 0.4 * math.sin(ang), by + testa * 0.4 * math.cos(ang))
+        self.el.append(f'<polygon points="{p1[0]:.1f},{p1[1]:.1f} {p2[0]:.1f},{p2[1]:.1f} {p3[0]:.1f},{p3[1]:.1f}" fill="{colore}"/>')
 
-    def freccia(self, a, b, col=BLU, sw=2.6, dash=None, testa=12):
-        (x1, y1), (x2, y2) = self.map(a), self.map(b)
-        L = math.hypot(x2 - x1, y2 - y1)
-        if L < 1e-6:
-            return
-        ux, uy = (x2 - x1) / L, (y2 - y1) / L
-        bx, by = x2 - ux * testa, y2 - uy * testa
-        d = ' stroke-dasharray="%s"' % dash if dash else ""
-        self.el.append('<line x1="%.1f" y1="%.1f" x2="%.1f" y2="%.1f" stroke="%s" stroke-width="%s"%s stroke-linecap="round"/>'
-                       % (x1, y1, bx + ux * 2, by + uy * 2, col, sw, d))
-        px, py = -uy, ux
-        w = testa * 0.42
-        self.el.append('<polygon points="%.1f,%.1f %.1f,%.1f %.1f,%.1f" fill="%s"/>'
-                       % (x2, y2, bx + px * w, by + py * w, bx - px * w, by - py * w, col))
+    def assi(self, tacche=True, numeri=True, passo=1, salta=()):
+        o = self.px(0, 0)
+        a = self.px(self.xmin, 0)
+        b = self.px(self.xmax, 0)
+        self.freccia(a[0], a[1], b[0] + 18, b[1], pix=True)
+        a = self.px(0, self.ymin)
+        b = self.px(0, self.ymax)
+        self.freccia(a[0], a[1], b[0], b[1] - 18, pix=True)
+        self.testo_px(self.px(self.xmax, 0)[0] + 14, o[1] + 20, "x", 17, corsivo=True)
+        self.testo_px(o[0] - 16, self.px(0, self.ymax)[1] - 8, "y", 17, corsivo=True)
+        if tacche:
+            x = math.ceil(self.xmin)
+            while x <= self.xmax:
+                if x != 0:
+                    p = self.px(x, 0)
+                    self.el.append(f'<line x1="{p[0]:.1f}" y1="{p[1]-4:.1f}" x2="{p[0]:.1f}" y2="{p[1]+4:.1f}" stroke="{NERO}" stroke-width="1.2"/>')
+                    if numeri and x not in salta and x % passo == 0:
+                        self.testo_px(p[0], p[1] + 18, f"{x:g}".replace("-", "−"), 12, colore=GRIGIO, sfondo=True)
+                x += 1
+            y = math.ceil(self.ymin)
+            while y <= self.ymax:
+                if y != 0:
+                    p = self.px(0, y)
+                    self.el.append(f'<line x1="{p[0]-4:.1f}" y1="{p[1]:.1f}" x2="{p[0]+4:.1f}" y2="{p[1]:.1f}" stroke="{NERO}" stroke-width="1.2"/>')
+                    if numeri and ("y", y) not in salta and y % passo == 0:
+                        self.testo_px(p[0] - 9, p[1] + 4, f"{y:g}".replace("-", "−"), 12, colore=GRIGIO, anc="end", sfondo=True)
+                y += 1
+            self.testo_px(o[0] - 9, o[1] + 17, "O", 13, colore=GRIGIO, anc="end")
 
-    def punto(self, p, col="#222", r=3.6):
-        x, y = self.map(p)
-        self.el.append('<circle cx="%.1f" cy="%.1f" r="%s" fill="%s"/>' % (x, y, r, col))
+    def testo_px(self, x, y, t, size=15, colore=NERO, anc="middle", corsivo=False, peso="normal", sfondo=False):
+        st = ' font-style="italic"' if corsivo else ""
+        halo = (f' stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke"' if sfondo else "")
+        self.el.append(f'<text x="{x:.1f}" y="{y:.1f}" font-family="{FONT}" font-size="{size}" fill="{colore}" text-anchor="{anc}" font-weight="{peso}"{st}{halo}>{esc(t)}</text>')
 
-    def testo(self, p, s, col="#222", size=16, anchor="middle", dx=0, dy=0, italic=False, bg=False):
-        x, y = self.map(p)
-        x += dx
-        y += dy
-        st = ' font-style="italic"' if italic else ""
-        if bg:
-            # alone bianco per leggibilita'
-            self.el.append('<text x="%.1f" y="%.1f" font-family="%s" font-size="%s" text-anchor="%s"%s '
-                           'stroke="white" stroke-width="4" stroke-linejoin="round" fill="white">%s</text>'
-                           % (x, y, FONT, size, anchor, st, fmt_label(s)))
-        self.el.append('<text x="%.1f" y="%.1f" font-family="%s" font-size="%s" text-anchor="%s" fill="%s"%s>%s</text>'
-                       % (x, y, FONT, size, anchor, col, st, fmt_label(s)))
+    def testo(self, x, y, t, size=15, colore=NERO, anc="middle", dx=0, dy=0, **kw):
+        p = self.px(x, y)
+        self.testo_px(p[0] + dx, p[1] + dy, t, size, colore, anc, sfondo=True, **kw)
 
-    def testo_px(self, x, y, s, col="#222", size=16, anchor="middle", italic=False):
-        st = ' font-style="italic"' if italic else ""
-        self.el.append('<text x="%.1f" y="%.1f" font-family="%s" font-size="%s" text-anchor="%s" fill="%s"%s>%s</text>'
-                       % (x, y, FONT, size, anchor, col, st, fmt_label(s)))
+    def segmento(self, x1, y1, x2, y2, colore=NERO, w=2, tratt=False):
+        a, b = self.px(x1, y1), self.px(x2, y2)
+        d = ' stroke-dasharray="6,4"' if tratt else ""
+        self.el.append(f'<line x1="{a[0]:.1f}" y1="{a[1]:.1f}" x2="{b[0]:.1f}" y2="{b[1]:.1f}" stroke="{colore}" stroke-width="{w}"{d} stroke-linecap="round"/>')
 
-    def arco(self, centro, r_px, a1, a2, col=ARANCIO, sw=2, fill=None):
-        """Arco di raggio r_px (pixel) attorno a centro, angoli in gradi (matematici, antiorari) a1->a2."""
-        cx, cy = self.map(centro)
-        n = 40
+    def retta(self, a, b, c, colore=BLU, w=2.2, tratt=False):
+        """Disegna la retta ax + by + c = 0 tagliata al riquadro."""
         pts = []
-        for k in range(n + 1):
-            t = math.radians(a1 + (a2 - a1) * k / n)
-            pts.append((cx + r_px * math.cos(t), cy - r_px * math.sin(t)))
-        d = "M %.1f,%.1f " % pts[0] + " ".join("L %.1f,%.1f" % q for q in pts[1:])
-        if fill:
-            self.el.append('<path d="M %.1f,%.1f %s Z" fill="%s" fill-opacity="0.25" stroke="none"/>'
-                           % (cx, cy, d.replace("M", "L", 1), fill))
-        self.el.append('<path d="%s" fill="none" stroke="%s" stroke-width="%s"/>' % (d, col, sw))
+        X0, X1, Y0, Y1 = self.xmin, self.xmax, self.ymin, self.ymax
+        if b != 0:
+            for x in (X0, X1):
+                y = (-c - a * x) / b
+                if Y0 - 1e-9 <= y <= Y1 + 1e-9:
+                    pts.append((x, y))
+        if a != 0:
+            for y in (Y0, Y1):
+                x = (-c - b * y) / a
+                if X0 - 1e-9 <= x <= X1 + 1e-9:
+                    pts.append((x, y))
+        if len(pts) < 2:
+            return
+        pts.sort()
+        self.segmento(pts[0][0], pts[0][1], pts[-1][0], pts[-1][1], colore, w, tratt)
 
-    def angolo_retto(self, vertice, dir1, dir2, size=12, col=GRIGIO):
-        cx, cy = self.map(vertice)
-        def u(d):
-            x, y = self.map((vertice[0] + d[0], vertice[1] + d[1])) if len(vertice) == 2 else \
-                self.map(tuple(vertice[i] + d[i] for i in range(3)))
-            L = math.hypot(x - cx, y - cy)
-            return (x - cx) / L, (y - cy) / L
-        a, b = u(dir1), u(dir2)
-        p1 = (cx + a[0] * size, cy + a[1] * size)
-        p2 = (cx + (a[0] + b[0]) * size, cy + (a[1] + b[1]) * size)
-        p3 = (cx + b[0] * size, cy + b[1] * size)
-        self.el.append('<polyline points="%.1f,%.1f %.1f,%.1f %.1f,%.1f" fill="none" stroke="%s" stroke-width="1.4"/>'
-                       % (p1 + p2 + p3 + (col,)))
+    def punto(self, x, y, etichetta="", colore=NERO, dx=8, dy=-8, anc="start", size=15, r=4):
+        p = self.px(x, y)
+        self.el.append(f'<circle cx="{p[0]:.1f}" cy="{p[1]:.1f}" r="{r}" fill="{colore}" stroke="white" stroke-width="1"/>')
+        if etichetta:
+            self.testo_px(p[0] + dx, p[1] + dy, etichetta, size, colore, anc, sfondo=True)
+
+    def cerchio(self, cx, cy, r, colore=BLU, w=2.2, riemp="none", tratt=False):
+        p = self.px(cx, cy)
+        d = ' stroke-dasharray="6,4"' if tratt else ""
+        self.el.append(f'<circle cx="{p[0]:.1f}" cy="{p[1]:.1f}" r="{r*self.s:.1f}" fill="{riemp}" stroke="{colore}" stroke-width="{w}"{d}/>')
+
+    def poligono(self, pts, riemp="#dfe9f5", bordo="none", w=1.5, opac=1.0):
+        s = " ".join(f"{self.px(x, y)[0]:.1f},{self.px(x, y)[1]:.1f}" for x, y in pts)
+        self.el.append(f'<polygon points="{s}" fill="{riemp}" fill-opacity="{opac}" stroke="{bordo}" stroke-width="{w}"/>')
+
+    def angolo_retto(self, vx, vy, ux, uy, wx, wy, l=0.3, colore=NERO):
+        """Quadratino nel vertice V tra le direzioni u e w (unita' matematiche)."""
+        nu = math.hypot(ux, uy)
+        nw = math.hypot(wx, wy)
+        ux, uy, wx, wy = ux / nu * l, uy / nu * l, wx / nw * l, wy / nw * l
+        pts = [(vx + ux, vy + uy), (vx + ux + wx, vy + uy + wy), (vx + wx, vy + wy)]
+        s = " ".join(f"{self.px(x, y)[0]:.1f},{self.px(x, y)[1]:.1f}" for x, y in pts)
+        self.el.append(f'<polyline points="{s}" fill="none" stroke="{colore}" stroke-width="1.3"/>')
+
+    def arco(self, cx, cy, r, a1, a2, colore=NERO, w=1.5):
+        """Arco di raggio r (unita') da a1 a a2 gradi, antiorario."""
+        p1 = self.px(cx + r * math.cos(math.radians(a1)), cy + r * math.sin(math.radians(a1)))
+        p2 = self.px(cx + r * math.cos(math.radians(a2)), cy + r * math.sin(math.radians(a2)))
+        large = 1 if (a2 - a1) % 360 > 180 else 0
+        self.el.append(f'<path d="M {p1[0]:.1f} {p1[1]:.1f} A {r*self.s:.1f} {r*self.s:.1f} 0 {large} 0 {p2[0]:.1f} {p2[1]:.1f}" fill="none" stroke="{colore}" stroke-width="{w}"/>')
+
+    def raw(self, s):
+        self.el.append(s)
 
     def salva(self, nome):
-        os.makedirs(OUT, exist_ok=True)
-        svg = ('<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d">\n'
-               '<rect width="100%%" height="100%%" fill="white"/>\n%s\n</svg>\n'
-               % (self.w, self.h, self.w, self.h, "\n".join(self.el)))
+        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w:.0f}" height="{self.h:.0f}" '
+               f'viewBox="0 0 {self.w:.0f} {self.h:.0f}">\n'
+               f'<rect width="100%" height="100%" fill="white"/>\n' + "\n".join(self.el) + "\n</svg>\n")
         with open(os.path.join(OUT, nome), "w", encoding="utf-8") as f:
             f.write(svg)
         print("scritto", nome)
 
 
-class Piano(Tela):
-    """Piano cartesiano: (xmin..xmax) x (ymin..ymax), s pixel per unita', ox/oy = offset."""
+class Spazio:
+    """Assonometria semplice per le figure 3D (x verso chi guarda, y a destra, z in alto)."""
 
-    def __init__(self, xmin, xmax, ymin, ymax, s=50, margine=30, extra_w=0, ox=0):
-        self.xmin, self.xmax, self.ymin, self.ymax, self.s = xmin, xmax, ymin, ymax, s
-        self.m = margine
-        self.ox = ox
-        w = (xmax - xmin) * s + 2 * margine + extra_w
-        h = (ymax - ymin) * s + 2 * margine
-        super().__init__(int(w), int(h))
+    def __init__(self, w, h, ox, oy, s=45):
+        self.w, self.h, self.ox, self.oy, self.s = w, h, ox, oy, s
+        self.el = []
+        self.kx = (-0.62 * s, 0.42 * s)  # direzione dell'asse x sul foglio
 
-    def map(self, p):
-        x, y = p
-        return (self.ox + self.m + (x - self.xmin) * self.s, self.m + (self.ymax - y) * self.s)
+    def px(self, x, y, z):
+        return (self.ox + x * self.kx[0] + y * self.s, self.oy + x * self.kx[1] - z * self.s)
 
-    def griglia(self, assi=True, numeri=True, label=("x", "y")):
-        for i in range(math.ceil(self.xmin), math.floor(self.xmax) + 1):
-            self.linea((i, self.ymin), (i, self.ymax), col=GRIGIO_CHIARO, sw=1)
-        for j in range(math.ceil(self.ymin), math.floor(self.ymax) + 1):
-            self.linea((self.xmin, j), (self.xmax, j), col=GRIGIO_CHIARO, sw=1)
-        if not assi:
-            return
-        e = 18.0 / self.s
-        self.freccia((self.xmin, 0), (self.xmax + e, 0), col="#333", sw=1.4, testa=10)
-        self.freccia((0, self.ymin), (0, self.ymax + e), col="#333", sw=1.4, testa=10)
-        self.testo((self.xmax + e, 0), label[0], dx=-4, dy=20, italic=True)
-        self.testo((0, self.ymax + e), label[1], dx=14, dy=10, italic=True)
-        if numeri:
-            for i in range(math.ceil(self.xmin), math.floor(self.xmax) + 1):
-                if i != 0:
-                    self.testo((i, 0), str(i).replace("-", "−"), size=12, col=GRIGIO, dy=16)
-            for j in range(math.ceil(self.ymin), math.floor(self.ymax) + 1):
-                if j != 0:
-                    self.testo((0, j), str(j).replace("-", "−"), size=12, col=GRIGIO, dx=-8, dy=4, anchor="end")
-            self.testo((0, 0), "O", size=13, col=GRIGIO, dx=-9, dy=16)
+    def seg(self, a, b, colore=NERO, w=1.8, tratt=False):
+        p, q = self.px(*a), self.px(*b)
+        d = ' stroke-dasharray="5,4"' if tratt else ""
+        self.el.append(f'<line x1="{p[0]:.1f}" y1="{p[1]:.1f}" x2="{q[0]:.1f}" y2="{q[1]:.1f}" stroke="{colore}" stroke-width="{w}"{d} stroke-linecap="round"/>')
 
+    def freccia(self, a, b, colore=NERO, w=1.6):
+        (x1, y1), (x2, y2) = self.px(*a), self.px(*b)
+        ang = math.atan2(y2 - y1, x2 - x1)
+        t = 10
+        bx, by = x2 - t * math.cos(ang), y2 - t * math.sin(ang)
+        self.el.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{bx:.1f}" y2="{by:.1f}" stroke="{colore}" stroke-width="{w}"/>')
+        p2 = (bx + 4 * math.sin(ang), by - 4 * math.cos(ang))
+        p3 = (bx - 4 * math.sin(ang), by + 4 * math.cos(ang))
+        self.el.append(f'<polygon points="{x2:.1f},{y2:.1f} {p2[0]:.1f},{p2[1]:.1f} {p3[0]:.1f},{p3[1]:.1f}" fill="{colore}"/>')
 
-class Spazio(Tela):
-    """Assonometria cavaliera: y orizzontale a destra, z verticale in alto, x obliquo verso chi guarda."""
+    def testo(self, P, t, size=15, colore=NERO, anc="middle", dx=0, dy=0, corsivo=False):
+        p = self.px(*P)
+        st = ' font-style="italic"' if corsivo else ""
+        self.el.append(f'<text x="{p[0]+dx:.1f}" y="{p[1]+dy:.1f}" font-family="{FONT}" font-size="{size}" fill="{colore}" text-anchor="{anc}" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke"{st}>{esc(t)}</text>')
 
-    def __init__(self, w, h, origine, s=45, k=0.55, ang=225):
-        super().__init__(w, h)
-        self.o = origine
-        self.s = s
-        a = math.radians(ang)
-        self.ex = (k * math.cos(a), -k * math.sin(a))  # direzione schermo dell'asse x (y schermo in giu')
+    def punto(self, P, colore=NERO, r=4):
+        p = self.px(*P)
+        self.el.append(f'<circle cx="{p[0]:.1f}" cy="{p[1]:.1f}" r="{r}" fill="{colore}" stroke="white" stroke-width="1"/>')
 
-    def map(self, p):
-        x, y, z = p
-        X = self.o[0] + self.s * (y + x * self.ex[0])
-        Y = self.o[1] + self.s * (-z + x * self.ex[1])
-        return (X, Y)
+    def poligono(self, pts, riemp, opac=0.5):
+        s = " ".join(f"{self.px(*P)[0]:.1f},{self.px(*P)[1]:.1f}" for P in pts)
+        self.el.append(f'<polygon points="{s}" fill="{riemp}" fill-opacity="{opac}" stroke="none"/>')
 
-    def assi(self, lx=4, ly=4, lz=4, neg=0.0):
-        self.freccia((-neg, 0, 0), (lx, 0, 0), col="#333", sw=1.4, testa=10)
-        self.freccia((0, -neg, 0), (0, ly, 0), col="#333", sw=1.4, testa=10)
-        self.freccia((0, 0, -neg), (0, 0, lz), col="#333", sw=1.4, testa=10)
-        self.testo((lx, 0, 0), "x", italic=True, dx=-6, dy=18)
-        self.testo((0, ly, 0), "y", italic=True, dx=6, dy=18)
-        self.testo((0, 0, lz), "z", italic=True, dx=-12, dy=6)
-        self.testo((0, 0, 0), "O", size=13, col=GRIGIO, dx=-10, dy=-6)
+    def assi(self, lx, ly, lz):
+        self.freccia((0, 0, 0), (lx, 0, 0))
+        self.freccia((0, 0, 0), (0, ly, 0))
+        self.freccia((0, 0, 0), (0, 0, lz))
+        self.testo((lx, 0, 0), "x", 17, corsivo=True, dx=-8, dy=16)
+        self.testo((0, ly, 0), "y", 17, corsivo=True, dx=12, dy=6)
+        self.testo((0, 0, lz), "z", 17, corsivo=True, dx=-12, dy=4)
+        self.testo((0, 0, 0), "O", 13, GRIGIO, dx=-12, dy=-6)
+
+    def raw(self, s):
+        self.el.append(s)
+
+    def salva(self, nome):
+        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w}" height="{self.h}" viewBox="0 0 {self.w} {self.h}">\n'
+               f'<rect width="100%" height="100%" fill="white"/>\n' + "\n".join(self.el) + "\n</svg>\n")
+        with open(os.path.join(OUT, nome), "w", encoding="utf-8") as f:
+            f.write(svg)
+        print("scritto", nome)
 
 
-def add(a, b):
-    return tuple(x + y for x, y in zip(a, b))
+# ---------------------------------------------------------------------------
+# 1. Piano cartesiano e quadranti
+def piano_cartesiano():
+    p = Piano(-5, 5, -4, 4, scala=46)
+    p.poligono([(0, 0), (5, 0), (5, 4), (0, 4)], "#eaf1fa")
+    p.poligono([(0, 0), (-5, 0), (-5, -4), (0, -4)], "#eaf1fa")
+    p.griglia()
+    p.assi()
+    for (x, y, t, s) in [(3.8, 3.3, "I quadrante", "(+, +)"), (-3.8, 3.3, "II quadrante", "(−, +)"),
+                         (-3.8, -2.7, "III quadrante", "(−, −)"), (3.8, -2.7, "IV quadrante", "(+, −)")]:
+        p.testo(x, y, t, 14, GRIGIO)
+        p.testo(x, y, s, 14, GRIGIO, dy=18)
+    # P(3, 2)
+    p.segmento(3, 0, 3, 2, BLU, 1.4, True)
+    p.segmento(0, 2, 3, 2, BLU, 1.4, True)
+    p.punto(3, 2, "P(3, 2)", BLU)
+    # Q(-2, -1)
+    p.segmento(-2, 0, -2, -1, ROSSO, 1.4, True)
+    p.segmento(0, -1, -2, -1, ROSSO, 1.4, True)
+    p.punto(-2, -1, "Q(−2, −1)", ROSSO, dx=-8, dy=20, anc="end")
+    p.salva("03-piano-cartesiano.svg")
 
 
-def sub(a, b):
-    return tuple(x - y for x, y in zip(a, b))
+# 2. Distanza con Pitagora
+def distanza():
+    p = Piano(-1, 7, -3, 3, scala=55)
+    p.griglia()
+    p.assi()
+    p.poligono([(1, -1), (5, -1), (5, 1)], "#fdf2e0")
+    p.segmento(1, -1, 5, -1, ARANCIO, 2.4)
+    p.segmento(5, -1, 5, 1, VERDE, 2.4)
+    p.segmento(1, -1, 5, 1, BLU, 3)
+    p.angolo_retto(5, -1, -1, 0, 0, 1, 0.3)
+    p.punto(1, -1, "A(1, −1)", NERO, dx=-8, dy=20, anc="end")
+    p.punto(5, 1, "B(5, 1)", NERO, dx=8, dy=-8)
+    p.testo(3, -1, "x_B − x_A = 4".replace("_B", "ʙ"), 14, ARANCIO, dy=22)
+    p.el.pop()  # sostituito sotto con pedici leggibili
+    p.testo(3, -1, "Δx = 5 − 1 = 4", 14, ARANCIO, dy=22)
+    p.testo(5, -0.5, "Δy = 1 − (−1) = 2", 14, VERDE, anc="start", dx=10, dy=5)
+    p.testo(2.6, 0.55, "d = √(4² + 2²) = √20", 15, BLU, anc="middle")
+    p.salva("03-distanza-pitagora.svg")
 
 
-def mul(k, a):
-    return tuple(k * x for x in a)
+# 3. Punto medio
+def punto_medio():
+    p = Piano(-1, 7, -3, 3, scala=55)
+    p.griglia()
+    p.assi()
+    p.segmento(1, -1, 5, 1, BLU, 2.6)
+    for x, y in [(1, -1), (3, 0), (5, 1)]:
+        p.segmento(x, y, x, -2.6, GRIGIO, 1, True)
+    p.punto(1, -1, "A(1, −1)", NERO, dx=-8, dy=-8, anc="end")
+    p.punto(5, 1, "B(5, 1)", NERO, dx=8, dy=-8)
+    p.punto(3, 0, "M(3, 0)", ROSSO, dx=-6, dy=-12, anc="end")
+    p.testo(2, -2.6, "2", 14, ARANCIO, dy=-6)
+    p.testo(4, -2.6, "2", 14, ARANCIO, dy=-6)
+    p.segmento(1, -2.6, 5, -2.6, ARANCIO, 1.6)
+    p.testo(3, -2.6, "x_M = (1 + 5) / 2 = 3".replace("x_M", "xₘ"), 14, ARANCIO, dy=20)
+    p.salva("03-punto-medio.svg")
 
 
-def cross(a, b):
-    return (a[1] * b[2] - a[2] * b[1], a[2] * b[0] - a[0] * b[2], a[0] * b[1] - a[1] * b[0])
+# 4. Valore assoluto come distanza sulla retta dei numeri
+def valore_assoluto():
+    W, H = 760, 230
+    p = Piano(-6, 6, 0, 1, scala=56, margine=40)
+    p.h = H
+    y0 = 95
+    def X(x):
+        return p.px(x, 0)[0]
+    p.freccia(X(-6.2), y0, X(6.2) + 10, y0, pix=True)
+    for x in range(-6, 7):
+        p.raw(f'<line x1="{X(x):.1f}" y1="{y0-5}" x2="{X(x):.1f}" y2="{y0+5}" stroke="{NERO}" stroke-width="1.2"/>')
+        p.testo_px(X(x), y0 + 22, f"{x}".replace("-", "−"), 13, GRIGIO)
+    # |−4| = 4 : distanza da 0
+    p.raw(f'<line x1="{X(-4):.1f}" y1="{y0-30}" x2="{X(0):.1f}" y2="{y0-30}" stroke="{ROSSO}" stroke-width="2.4"/>')
+    for x in (-4, 0):
+        p.raw(f'<line x1="{X(x):.1f}" y1="{y0-36}" x2="{X(x):.1f}" y2="{y0-24}" stroke="{ROSSO}" stroke-width="2"/>')
+    p.testo_px(X(-2), y0 - 42, "|−4| = 4", 15, ROSSO)
+    p.testo_px(X(-2), y0 - 62, "distanza di −4 da 0", 13, ROSSO)
+    # |5 − 2| = 3 : distanza tra 2 e 5
+    p.raw(f'<line x1="{X(2):.1f}" y1="{y0-30}" x2="{X(5):.1f}" y2="{y0-30}" stroke="{BLU}" stroke-width="2.4"/>')
+    for x in (2, 5):
+        p.raw(f'<line x1="{X(x):.1f}" y1="{y0-36}" x2="{X(x):.1f}" y2="{y0-24}" stroke="{BLU}" stroke-width="2"/>')
+    p.testo_px(X(3.5), y0 - 42, "|5 − 2| = 3", 15, BLU)
+    p.testo_px(X(3.5), y0 - 62, "distanza tra 2 e 5", 13, BLU)
+    # |x| < 3 : intervallo
+    yb = y0 + 75
+    p.raw(f'<line x1="{X(-3):.1f}" y1="{yb}" x2="{X(3):.1f}" y2="{yb}" stroke="{VERDE}" stroke-width="5" stroke-linecap="butt"/>')
+    for x in (-3, 3):
+        p.raw(f'<circle cx="{X(x):.1f}" cy="{yb}" r="5" fill="white" stroke="{VERDE}" stroke-width="2"/>')
+    p.testo_px(X(0), yb + 26, "|x| < 3 : i numeri che distano da 0 meno di 3, cioè −3 < x < 3", 14, VERDE)
+    p.salva("03-valore-assoluto-distanza.svg")
 
 
-def dot(a, b):
-    return sum(x * y for x, y in zip(a, b))
+# 5. Coordinate e distanza nello spazio
+def coordinate_spazio():
+    S = Spazio(620, 440, 250, 300, s=50)
+    P = (3, 4, 3)
+    # parallelepipedo tratteggiato
+    x, y, z = P
+    base = [(0, 0, 0), (x, 0, 0), (x, y, 0), (0, y, 0)]
+    S.poligono(base, "#eaf1fa", 0.9)
+    S.assi(4.6, 5.8, 4.4)
+    S.seg((x, 0, 0), (x, y, 0), GRIGIO, 1.2, True)
+    S.seg((0, y, 0), (x, y, 0), GRIGIO, 1.2, True)
+    S.seg((x, y, 0), (x, y, z), ROSSO, 2.2)
+    S.seg((0, 0, 0), (x, y, 0), VERDE, 2.2)
+    S.seg((0, 0, 0), (x, y, z), BLU, 2.8)
+    S.seg((0, y, 0), (0, y, z), GRIGIO, 1.2, True)
+    S.seg((0, y, z), (x, y, z), GRIGIO, 1.2, True)
+    S.seg((0, 0, z), (0, y, z), GRIGIO, 1.2, True)
+    S.seg((x, 0, 0), (x, 0, z), GRIGIO, 1.2, True)
+    S.seg((x, 0, z), (x, y, z), GRIGIO, 1.2, True)
+    S.seg((0, 0, z), (x, 0, z), GRIGIO, 1.2, True)
+    S.punto(P, BLU)
+    S.testo(P, "P(x, y, z)", 15, BLU, anc="start", dx=10, dy=-6)
+    S.punto((x, y, 0), VERDE)
+    S.testo((x, y, 0), "H(x, y, 0)", 14, VERDE, anc="start", dx=8, dy=18)
+    S.testo((x, 0, 0), "x", 15, GRIGIO, dx=-10, dy=14, corsivo=True)
+    S.testo((0, y, 0), "y", 15, GRIGIO, dx=0, dy=20, corsivo=True)
+    S.testo((0, 0, z), "z", 15, GRIGIO, dx=-12, dy=4, corsivo=True)
+    S.testo((x / 2, y / 2, 0), "√(x² + y²)", 14, VERDE, dx=-4, dy=22)
+    S.testo((x, y, z / 2), "z", 15, ROSSO, anc="start", dx=8, corsivo=True)
+    S.testo((x / 2, y / 2, z / 2), "d = √(x² + y² + z²)", 15, BLU, anc="end", dx=-12, dy=-14)
+    S.salva("03-coordinate-spazio.svg")
 
 
-def deg(v):
-    return math.degrees(math.atan2(v[1], v[0]))
+# 6. Pendenza
+def pendenza():
+    p = Piano(-1, 8, -1, 6, scala=55)
+    p.griglia()
+    p.assi()
+    # retta per A(1,1) e B(6,4): m = 3/5
+    m = 3 / 5
+    p.retta(m, -1, 1 - m)
+    p.poligono([(1, 1), (6, 1), (6, 4)], "#fdf2e0", opac=0.8)
+    p.segmento(1, 1, 6, 1, ARANCIO, 2.4)
+    p.segmento(6, 1, 6, 4, VERDE, 2.4)
+    p.angolo_retto(6, 1, -1, 0, 0, 1)
+    p.retta(m, -1, 1 - m)
+    p.punto(1, 1, "A(1, 1)", NERO, dx=-6, dy=-10, anc="end")
+    p.punto(6, 4, "B(6, 4)", NERO, dx=-10, dy=-8, anc="end")
+    p.testo(3.5, 1, "Δx = 6 − 1 = 5", 14, ARANCIO, dy=22)
+    p.testo(6, 2.5, "Δy = 4 − 1 = 3", 14, VERDE, anc="start", dx=10, dy=5)
+    # angolo alfa con l'asse x: la retta taglia l'asse x in x = -2/3
+    x0 = -(1 - m) / m
+    p.arco(1, 1, 1.1, 0, math.degrees(math.atan(m)), ROSSO, 1.8)
+    p.testo(2.25, 1.32, "α", 16, ROSSO)
+    p.testo(4.3, 5.2, "m = Δy / Δx = 3/5 = tg α", 16, BLU)
+    p.salva("03-pendenza.svg")
 
 
-# ---------------------------------------------------------------- disegni
-
-def vettore_freccia():
-    """Freccia da A a B, coda e punta, e lo stesso vettore spostato (CD)."""
-    t = Piano(0, 9, -0.6, 5, s=55)
-    for i in range(0, 10):
-        t.linea((i, 0), (i, 5), col=GRIGIO_CHIARO, sw=1)
-    for j in range(0, 6):
-        t.linea((0, j), (9, j), col=GRIGIO_CHIARO, sw=1)
-    A, B = (1, 1), (4, 3)
-    C, D = (5, 2), (8, 4)
-    t.freccia(A, B, col=BLU)
-    t.freccia(C, D, col=BLU)
-    for p, n, dx, dy in [(A, "A (coda)", -6, 20), (B, "B (punta)", 0, -12), (C, "C", 4, 20), (D, "D", 6, -10)]:
-        t.punto(p)
-        t.testo(p, n, dx=dx, dy=dy, anchor="middle")
-    t.testo((2.5, 2), "*v*", col=BLU, dx=-10, dy=-8, size=18)
-    t.testo((6.5, 3), "*v*", col=BLU, dx=-10, dy=-8, size=18)
-    t.testo((4.5, -0.45), "stessa lunghezza, stessa direzione, stesso verso: è lo stesso vettore", size=14, col=GRIGIO)
-    t.salva("03-vettore-freccia.svg")
+# 7. Rette con pendenze diverse
+def pendenze_confronto():
+    p = Piano(-5, 5, -4, 4, scala=46, extra_dx=0)
+    p.griglia()
+    p.assi(numeri=False)
+    casi = [(2, ROSSO, "m = 2"), (1, ARANCIO, "m = 1"), (0.5, VERDE, "m = 1/2"),
+            (0, GRIGIO, "m = 0"), (-1, VIOLA, "m = −1")]
+    for m, col, t in casi:
+        p.retta(m, -1, 0, col, 2.2)
+    p.testo(2.0, 3.6, "m = 2", 14, ROSSO, anc="start", dx=6)
+    p.testo(4.9, 3.0, "m = 1", 14, ARANCIO, anc="end")
+    p.testo(4.2, 2.1, "m = 1/2", 14, VERDE, anc="end", dy=-10)
+    p.testo(4.9, 0, "m = 0", 14, GRIGIO, anc="end", dy=-8)
+    p.testo(-2.0, 3.6, "m = −1", 14, VIOLA, anc="start")
+    p.testo(-4.9, -2.6, "m > 0: la retta sale", 13, GRIGIO, anc="start")
+    p.testo(-4.9, -2.6, "m < 0: la retta scende", 13, GRIGIO, anc="start", dy=18)
+    p.testo(-4.9, -2.6, "più |m| è grande, più è ripida", 13, GRIGIO, anc="start", dy=36)
+    p.salva("03-pendenze-confronto.svg")
 
 
-def componenti_piano():
-    t = Piano(-1, 6, -1, 4.5, s=55)
-    t.griglia()
-    u = (4, 3)
-    t.linea((u[0], 0), u, col=GRIGIO, dash="5,4")
-    t.linea((0, u[1]), u, col=GRIGIO, dash="5,4")
-    t.freccia((0, 0), (u[0], 0), col=ARANCIO, sw=2, testa=10)
-    t.freccia((u[0], 0), u, col=VERDE, sw=2, testa=10)
-    t.freccia((0, 0), u, col=BLU)
-    t.testo((2, 0), "u_1_ = 4", col=ARANCIO, dy=-8, size=15)
-    t.testo((4, 1.5), "u_2_ = 3", col=VERDE, dx=8, anchor="start", size=15)
-    t.testo((2, 1.5), "*u* = (4, 3)", col=BLU, dx=-12, dy=-8, anchor="end", size=17)
-    t.punto(u)
-    t.testo(u, "punta (4, 3)", dx=6, dy=-10, anchor="start", size=14)
-    t.testo((2, 1.5), "‖*u*‖ = 5", col=BLU, dx=6, dy=30, anchor="start", size=15)
-    t.salva("03-componenti-piano.svg")
+# 8. Rampa
+def rampa():
+    W, H = 760, 300
+    p = Piano(0, 13, -1, 2.8, scala=52, margine=30)
+    el = p.el
+    a = p.px(0.5, 0)
+    b = p.px(12.5, 0)
+    c = p.px(12.5, 1)
+    el.append(f'<polygon points="{a[0]:.1f},{a[1]:.1f} {b[0]:.1f},{b[1]:.1f} {c[0]:.1f},{c[1]:.1f}" fill="#efe6d6" stroke="#8a7a5a" stroke-width="2"/>')
+    # piano rialzato
+    d = p.px(12.5, 1)
+    e = p.px(13, 1)
+    f = p.px(13, 0)
+    el.append(f'<polygon points="{d[0]:.1f},{d[1]:.1f} {e[0]:.1f},{e[1]:.1f} {f[0]:.1f},{f[1]:.1f} {b[0]:.1f},{b[1]:.1f}" fill="#d8ccb4" stroke="#8a7a5a" stroke-width="2"/>')
+    p.segmento(0, 0, 13, 0, NERO, 2)
+    # quote
+    p.segmento(0.5, -0.45, 12.5, -0.45, ARANCIO, 1.4)
+    p.segmento(0.5, -0.3, 0.5, -0.6, ARANCIO, 1.4)
+    p.segmento(12.5, -0.3, 12.5, -0.6, ARANCIO, 1.4)
+    p.testo(6.5, -0.45, "lunghezza in pianta: 12 m (Δx)", 14, ARANCIO, dy=20)
+    p.segmento(12.5, 0, 12.5, 1, VERDE, 2.4)
+    p.testo(12.5, 1.45, "dislivello 1 m (Δy)", 14, VERDE, anc="end")
+    p.arco(0.5, 0, 2.2, 0, math.degrees(math.atan(1 / 12)), ROSSO, 1.6)
+    p.testo(2.95, 0.05, "α", 15, ROSSO, dy=-2)
+    p.testo(6.5, 2.4, "pendenza = 1 / 12 ≈ 0,083 = 8,3%", 16, BLU)
+    p.salva("03-rampa.svg")
 
 
-def componenti_spazio():
-    t = Spazio(600, 420, (200, 300), s=52)
-    u = (3, 4, 3)
-    t.assi(lx=4.3, ly=5.2, lz=4.6)
-    x, y, z = u
-    # scatola tratteggiata
-    P = [(0, 0, 0), (x, 0, 0), (x, y, 0), (0, y, 0)]
-    for a, b in [((x, 0, 0), (x, y, 0)), ((0, y, 0), (x, y, 0)), ((x, y, 0), (x, y, z)),
-                 ((0, 0, z), (x, 0, z)), ((0, 0, z), (0, y, z)), ((x, 0, z), (x, y, z)), ((0, y, z), (x, y, z)),
-                 ((x, 0, 0), (x, 0, z)), ((0, y, 0), (0, y, z))]:
-        t.linea(a, b, col=GRIGIO, dash="5,4", sw=1.2)
-    t.poligono([(0, 0, 0), (x, 0, 0), (x, y, 0), (0, y, 0)], fill=BLU, op=0.07)
-    t.freccia((0, 0, 0), u, col=BLU)
-    t.punto(u)
-    t.testo(u, "(u_1_, u_2_, u_3_) = (3, 4, 3)", dx=8, dy=-10, anchor="start", size=14)
-    t.testo((x, 0, 0), "u_1_", col=ARANCIO, dx=-14, dy=6, size=15)
-    t.testo((0, y, 0), "u_2_", col=VERDE, dx=0, dy=20, size=15)
-    t.testo((0, 0, z), "u_3_", col=VIOLA, dx=-16, dy=5, size=15)
-    t.testo(mul(0.55, u), "*u*", col=BLU, dx=-14, dy=-6, size=18)
-    t.salva("03-componenti-spazio.svg")
+# 9. Il ruolo di q
+def ruolo_q():
+    p = Piano(-5, 5, -4, 4, scala=46)
+    p.griglia()
+    p.assi(numeri=False)
+    for q, col in [(2, ROSSO), (0, BLU), (-3, VERDE)]:
+        p.retta(0.5, -1, q, col)
+        p.punto(0, q, f"q = {q}".replace("-", "−"), col, dx=-8 if q != -3 else 10, dy=-8 if q != -3 else 20, anc="end" if q != -3 else "start")
+    p.testo(2.2, 2.4, "y = ½x + 2", 14, ROSSO, anc="start")
+    p.testo(4.9, 2.5, "y = ½x", 14, BLU, anc="end", dy=-6)
+    p.testo(4.9, -0.5, "y = ½x − 3", 14, VERDE, anc="end", dy=-10)
+    p.testo(-2.6, 3.4, "stessa m = ½: rette parallele", 13, GRIGIO)
+    p.salva("03-ruolo-di-q.svg")
 
 
-def vettore_tra_punti():
-    t = Piano(-1, 6, -2, 3.5, s=55)
-    t.griglia()
-    A, B = (1, -1), (5, 1)
-    v = sub(B, A)
-    t.freccia((0, 0), v, col=BLU, dash="7,5", sw=2)
-    t.freccia(A, B, col=BLU)
-    t.punto(A)
-    t.punto(B)
-    t.testo(A, "A = (1, −1)", dx=0, dy=22)
-    t.testo(B, "B = (5, 1)", dx=6, dy=-10, anchor="start")
-    t.testo((3.2, -1.5), "vettore AB = B − A = (4, 2)", col=BLU, anchor="start", size=15)
-    t.testo(v, "(4, 2)", col=BLU, dx=-8, dy=-10, anchor="end", size=14)
-    t.testo((0.2, 2.9), "la stessa freccia, spostata nell'origine", col=GRIGIO, anchor="start", size=13)
-    t.salva("03-vettore-tra-punti.svg")
+# 10. Rette orizzontali e verticali
+def orizz_vert():
+    p = Piano(-5, 5, -4, 4, scala=46)
+    p.griglia()
+    p.assi()
+    p.retta(0, 1, -2, BLU)       # y = 2
+    p.retta(1, 0, 3, ROSSO)      # x = -3
+    p.testo(4.8, 2, "y = 2  (m = 0)", 15, BLU, anc="end", dy=-10)
+    p.testo(-3, -3.3, "x = −3", 15, ROSSO, anc="start", dx=8)
+    p.testo(-3, -3.3, "(pendenza non definita)", 13, ROSSO, anc="start", dx=8, dy=18)
+    p.punto(-3, 2, "(−3, 2)", NERO, dx=8, dy=-8)
+    p.salva("03-orizzontali-verticali.svg")
 
 
-def somma():
-    """Due pannelli: punta-coda e parallelogramma, con u=(2,-1), v=(-3,4)."""
-    u, v = (2, -1), (-3, 4)
-    s = add(u, v)
-    t = Piano(-4, 3.6, -2, 4.6, s=48, extra_w=7.6 * 48 + 50)
-    # pannello 1: punta-coda
-    t.griglia(numeri=False)
-    t.freccia((0, 0), u, col=BLU)
-    t.freccia(u, s, col=ROSSO)
-    t.freccia((0, 0), s, col=VERDE)
-    t.testo(mul(0.5, u), "*u*", col=BLU, dy=22, size=18)
-    t.testo(add(u, mul(0.5, v)), "*v*", col=ROSSO, dx=14, anchor="start", size=18)
-    t.testo(mul(0.5, s), "*u* + *v*", col=VERDE, dx=-10, anchor="end", size=17)
-    t.testo((-0.2, -2), "regola punta-coda", size=15, col="#222", dy=24)
-    # pannello 2: parallelogramma (spostato a destra)
-    t2 = Piano(-4, 3.6, -2, 4.6, s=48, ox=7.6 * 48 + 50)
-    t2.el = t.el
-    t2.griglia(numeri=False)
-    t2.poligono([(0, 0), u, s, v], fill=VERDE, op=0.08)
-    t2.freccia(u, s, col=ROSSO, dash="6,5", sw=1.8)
-    t2.freccia(v, s, col=BLU, dash="6,5", sw=1.8)
-    t2.freccia((0, 0), u, col=BLU)
-    t2.freccia((0, 0), v, col=ROSSO)
-    t2.freccia((0, 0), s, col=VERDE)
-    t2.testo(mul(0.5, u), "*u*", col=BLU, dy=22, size=18)
-    t2.testo(mul(0.5, v), "*v*", col=ROSSO, dx=-14, anchor="end", size=18)
-    t2.testo(mul(0.5, s), "*u* + *v*", col=VERDE, dx=10, dy=4, anchor="start", size=17, bg=True)
-    t2.punto(s)
-    t2.testo(s, "(−1, 3)", dx=8, dy=-8, anchor="start", size=14)
-    t2.testo((-0.2, -2), "regola del parallelogramma", size=15, col="#222", dy=24)
-    t.salva("03-somma.svg")
+# 11. Retta per due punti
+def retta_due_punti():
+    p = Piano(-2, 7, -3, 3, scala=55)
+    p.griglia()
+    p.assi()
+    p.retta(1, -2, -3, BLU)   # x - 2y - 3 = 0, cioe' y = x/2 - 3/2
+    p.punto(1, -1, "A(1, −1)", NERO, dx=8, dy=20, anc="start")
+    p.punto(5, 1, "B(5, 1)", NERO, dx=-6, dy=-10, anc="end")
+    p.punto(0, -1.5, "q = −3/2", ROSSO, dx=-8, dy=-8, anc="end")
+    p.punto(3, 0, "", GRIGIO)
+    p.testo(6.4, 2.35, "y = ½x − 3/2", 15, BLU, anc="end")
+    p.salva("03-retta-due-punti.svg")
 
 
-def differenza():
-    u, v = (2, -1), (-3, 4)
-    d = sub(u, v)
-    t = Piano(-4, 6, -6, 4.5, s=42)
-    t.griglia(numeri=False)
-    t.freccia((0, 0), u, col=BLU)
-    t.freccia((0, 0), v, col=ROSSO)
-    t.freccia(v, u, col=VIOLA)
-    t.freccia((0, 0), d, col=VIOLA, dash="7,5", sw=2)
-    t.testo(u, "*u*", col=BLU, dx=12, dy=4, anchor="start", size=18)
-    t.testo(mul(0.5, v), "*v*", col=ROSSO, dx=-14, anchor="end", size=18)
-    t.testo(add(v, mul(0.5, d)), "*u* − *v*", col=VIOLA, dx=12, dy=-4, anchor="start", size=17)
-    t.punto(d)
-    t.testo(d, "(5, −5)", dx=8, dy=4, anchor="start", size=14)
-    t.testo((3, 3.8), "*u* − *v* va dalla punta di *v* alla punta di *u*", col=GRIGIO, size=13)
-    t.salva("03-differenza.svg")
+# 12. Parallele e perpendicolari
+def par_perp():
+    p = Piano(-5, 5, -4, 4, scala=46)
+    p.griglia()
+    p.assi(numeri=False)
+    p.retta(2, -1, 1, BLU)       # y = 2x + 1
+    p.retta(2, -1, -3, VERDE)    # y = 2x - 3
+    p.retta(-0.5, -1, 1, ROSSO)  # y = -x/2 + 1
+    # intersezione r e t: 2x+1 = -x/2+1 -> x=0, y=1
+    p.angolo_retto(0, 1, 1, 2, 2, -1, 0.35)
+    p.testo(-2.3, -3.1, "r: y = 2x + 1", 14, BLU, anc="end")
+    p.testo(3.3, 3.4, "s: y = 2x − 3", 14, VERDE, anc="start", dx=6)
+    p.testo(-4.8, 3.4, "t: y = −½x + 1", 14, ROSSO, anc="start", dy=-6)
+    p.testo(2.6, -3.1, "r ∥ s : stessa pendenza 2", 13, GRIGIO, anc="start", dx=-20)
+    p.testo(2.6, -3.1, "r ⊥ t : 2 · (−½) = −1", 13, GRIGIO, anc="start", dx=-20, dy=18)
+    p.salva("03-parallele-perpendicolari.svg")
 
 
-def multipli():
-    u = (2, 1)
-    t = Piano(-3, 5, -2, 3, s=50)
-    t.griglia(numeri=False)
-    t.freccia((0, 0), mul(2, u), col=VERDE, sw=2.2)
-    t.freccia((0, 0), u, col=BLU, sw=3.2)
-    t.freccia((0, 0), mul(-0.5, u), col=ROSSO)
-    t.freccia((0, 0), mul(-1, u), col=VIOLA, dash="6,4", sw=1.8)
-    t.testo(u, "*u*", col=BLU, dx=-6, dy=-12, size=18)
-    t.testo(mul(2, u), "2*u*", col=VERDE, dx=6, dy=-8, anchor="start", size=17)
-    t.testo(mul(-0.5, u), "−½ *u*", col=ROSSO, dx=-4, dy=-14, anchor="end", size=16)
-    t.testo(mul(-1, u), "−*u* (opposto)", col=VIOLA, dx=10, dy=24, anchor="middle", size=15)
-    t.salva("03-multipli.svg")
+# 13. Perche' m1 m2 = -1
+def perche_perp():
+    p = Piano(-3, 4, -1, 4, scala=60)
+    p.griglia()
+    p.assi(numeri=False)
+    m = 2
+    # triangolo 1: da O, 1 a destra, m in su
+    p.poligono([(0, 0), (1, 0), (1, m)], "#dfe9f5", BLU, 1.2, 0.8)
+    p.segmento(0, 0, 1, m, BLU, 2.6)
+    # triangolo ruotato di 90 gradi: (1,0)->(0,1), (1,m)->(-m,1)
+    p.poligono([(0, 0), (0, 1), (-m, 1)], "#f8e0dd", ROSSO, 1.2, 0.8)
+    p.segmento(0, 0, -m, 1, ROSSO, 2.6)
+    p.retta(m, -1, 0, BLU, 1.2, True)
+    p.retta(1, m, 0, ROSSO, 1.2, True)
+    p.angolo_retto(0, 0, 1, m, -m, 1, 0.3)
+    p.testo(0.5, 0, "1", 14, BLU, dy=-6)
+    p.testo(1, 1, "m", 15, BLU, anc="start", dx=8, corsivo=True)
+    p.testo(0, 0.5, "1", 14, ROSSO, anc="end", dx=-6)
+    p.testo(-1, 1, "m", 15, ROSSO, dy=-10, corsivo=True)
+    p.punto(1, m, "(1, m)", BLU, dx=10, dy=0)
+    p.punto(-m, 1, "(−m, 1)", ROSSO, dx=-4, dy=24, anc="end")
+    p.testo(2.6, 2.6, "pendenza m", 14, BLU)
+    p.testo(-1.9, 2.6, "pendenza 1/(−m) = −1/m", 14, ROSSO)
+    p.salva("03-perpendicolari-perche.svg")
 
 
-def base_standard():
-    t = Piano(-1, 8, -6, 2, s=42)
-    t.griglia()
-    a = (7, -5)
-    t.freccia((0, 0), (1, 0), col=ARANCIO, sw=3.2)
-    t.freccia((0, 0), (0, 1), col=VERDE, sw=3.2)
-    t.testo((1, 0), "*e*_1_", col=ARANCIO, dx=-2, dy=-10, size=17)
-    t.testo((0, 1), "*e*_2_", col=VERDE, dx=14, dy=6, anchor="start", size=17)
-    t.freccia((0, 0), (7, 0), col=ARANCIO, sw=1.8, dash="6,4")
-    t.freccia((7, 0), a, col=VERDE, sw=1.8, dash="6,4")
-    t.freccia((0, 0), a, col=BLU)
-    t.testo((3.5, 0), "7*e*_1_", col=ARANCIO, dy=-10, size=15)
-    t.testo((7, -2.5), "−5*e*_2_", col=VERDE, dx=8, anchor="start", size=15)
-    t.testo((3.5, -2.5), "*a* = 7*e*_1_ − 5*e*_2_", col=BLU, dx=-10, dy=10, anchor="end", size=16)
-    t.punto(a)
-    t.testo(a, "(7, −5)", dx=-8, dy=20, anchor="end", size=14)
-    t.salva("03-base-standard.svg")
+# 14. Intersezione di due rette
+def intersezione():
+    p = Piano(-2, 6, -2, 5, scala=52)
+    p.griglia()
+    p.assi()
+    p.retta(1, 1, -5, BLU)     # x + y = 5
+    p.retta(2, -1, -1, ROSSO)  # 2x - y = 1
+    p.punto(2, 3, "P(2, 3)", NERO, dx=10, dy=-4)
+    p.segmento(2, 0, 2, 3, GRIGIO, 1.2, True)
+    p.segmento(0, 3, 2, 3, GRIGIO, 1.2, True)
+    p.testo(4.0, 1.8, "x + y = 5", 14, BLU, anc="start", dx=8)
+    p.testo(3.0, 4.6, "2x − y = 1", 14, ROSSO, anc="start", dx=8)
+    p.salva("03-intersezione.svg")
 
 
-def versore():
-    t = Piano(-1.5, 4.5, -1.5, 4.5, s=60)
-    t.griglia()
-    u = (3, 4)
-    # circonferenza unitaria
-    c = t.map((0, 0))
-    t.el.append('<circle cx="%.1f" cy="%.1f" r="%.1f" fill="none" stroke="%s" stroke-width="1.5" stroke-dasharray="5,4"/>'
-                % (c[0], c[1], t.s, VIOLA))
-    t.freccia((0, 0), u, col=BLU, sw=2.4)
-    t.freccia((0, 0), (0.6, 0.8), col=VIOLA, sw=3.4)
-    t.testo(u, "*u* = (3, 4),  ‖*u*‖ = 5", col=BLU, dx=-8, dy=-12, anchor="end", size=15)
-    t.testo((0.6, 0.8), "(3/5, 4/5)", col=VIOLA, dx=10, dy=6, anchor="start", size=14)
-    t.testo((-0.75, -0.75), "raggio 1", col=VIOLA, dx=-6, dy=14, anchor="end", size=13)
-    t.salva("03-versore.svg")
+# 15. Distanza punto-retta (esercizio 22 del prof)
+def dist_punto_retta():
+    p = Piano(-1, 6, -1, 4, scala=60)
+    p.griglia()
+    p.assi()
+    p.retta(2, -1, -2, BLU)        # 2x - y - 2 = 0
+    p.segmento(4, 1, 2, 2, ROSSO, 2.6)
+    p.angolo_retto(2, 2, 1, 2, 2, -1, 0.25)
+    p.punto(1, 0, "A(1, 0)", NERO, dx=-10, dy=-8, anc="end")
+    p.punto(4, 1, "P(4, 1)", NERO, dx=8, dy=6)
+    p.punto(2, 2, "H(2, 2)", NERO, dx=-10, dy=-4, anc="end")
+    p.testo(3.2, 1.85, "d = √5", 15, ROSSO, anc="start")
+    p.testo(3.1, 3.6, "r: 2x − y − 2 = 0", 14, BLU, anc="start", dx=6)
+    p.salva("03-distanza-punto-retta.svg")
 
 
-def angolo():
-    u, v = (1, 2), (3, 1)
-    t = Piano(-0.5, 3.8, -0.5, 2.8, s=85)
-    t.griglia()
-    t.arco((0, 0), 46, deg(v), deg(u), fill=ARANCIO)
-    t.freccia((0, 0), u, col=BLU)
-    t.freccia((0, 0), v, col=ROSSO)
-    t.testo(u, "*u* = (1, 2)", col=BLU, dx=8, dy=-4, anchor="start", size=16)
-    t.testo(v, "*v* = (3, 1)", col=ROSSO, dx=0, dy=-14, anchor="middle", size=16)
-    m = (deg(u) + deg(v)) / 2
-    t.testo((0, 0), "θ = 45°", col=ARANCIO, dx=62 * math.cos(math.radians(m)) + 4,
-            dy=-62 * math.sin(math.radians(m)) + 6, anchor="start", size=15)
-    t.salva("03-angolo.svg")
+# 16. Circonferenza: definizione
+def circ_definizione():
+    p = Piano(-1, 7, -1, 6, scala=52)
+    p.griglia()
+    p.assi(numeri=False)
+    cx, cy, r = 3, 2.5, 2.5
+    p.cerchio(cx, cy, r, BLU)
+    a = math.radians(37)
+    px_, py_ = cx + r * math.cos(a), cy + r * math.sin(a)
+    p.poligono([(cx, cy), (px_, cy), (px_, py_)], "#fdf2e0", opac=0.8)
+    p.segmento(cx, cy, px_, cy, ARANCIO, 2.2)
+    p.segmento(px_, cy, px_, py_, VERDE, 2.2)
+    p.segmento(cx, cy, px_, py_, ROSSO, 2.6)
+    p.angolo_retto(px_, cy, -1, 0, 0, 1, 0.22)
+    p.punto(cx, cy, "C(x₀, y₀)", NERO, dx=-8, dy=20, anc="end")
+    p.punto(px_, py_, "P(x, y)", NERO, dx=8, dy=-8)
+    p.testo((cx + px_) / 2, cy, "x − x₀", 14, ARANCIO, dy=20)
+    p.testo(px_, (cy + py_) / 2, "y − y₀", 14, VERDE, anc="start", dx=8, dy=5)
+    p.testo((cx + px_) / 2, (cy + py_) / 2, "r", 17, ROSSO, dx=-10, dy=-6, corsivo=True)
+    p.testo(3, 5.6, "(x − x₀)² + (y − y₀)² = r²", 15, BLU)
+    p.salva("03-circonferenza-definizione.svg")
 
 
-def segno_prodotto_scalare():
-    W = 230
-    t = Tela(3 * W, 250)
-    casi = [((2.2, 0), (1.3, 1.4), "acuto", "*u*·*v* > 0", VERDE),
-            ((2.2, 0), (0, 1.9), "retto", "*u*·*v* = 0", GRIGIO),
-            ((2.2, 0), (-1.3, 1.4), "ottuso", "*u*·*v* < 0", ROSSO)]
-    for i, (u, v, nome, f, col) in enumerate(casi):
-        p = Piano(-1.8, 2.6, -0.3, 2.3, s=50, margine=10, ox=i * W)
-        p.el = t.el
-        o = (0, 0)
-        if nome == "retto":
-            p.angolo_retto(o, u, v, size=14)
-        else:
-            p.arco(o, 32, 0, deg(v), fill=col, col=col)
-        p.freccia(o, u, col=BLU)
-        p.freccia(o, v, col=ROSSO)
-        p.testo(u, "*u*", col=BLU, dx=-4, dy=22, size=17)
-        p.testo(v, "*v*", col=ROSSO, dx=10 if v[0] >= 0 else -10, dy=0, anchor="start" if v[0] >= 0 else "end", size=17)
-        p.testo_px(i * W + W / 2, 200, "angolo " + nome, size=15, col=col)
-        p.testo_px(i * W + W / 2, 226, f, size=16, col="#222")
-    t.salva("03-segno-prodotto-scalare.svg")
+# 17. Esempio: x^2 + y^2 - 4x + 2y - 4 = 0
+def circ_esempio():
+    p = Piano(-2, 6, -5, 3, scala=48)
+    p.griglia()
+    p.assi()
+    p.cerchio(2, -1, 3, BLU)
+    p.punto(2, -1, "C(2, −1)", NERO, dx=8, dy=18)
+    p.segmento(2, -1, 5, -1, ROSSO, 2.4)
+    p.testo(3.5, -1, "r = 3", 14, ROSSO, dy=-8)
+    p.testo(2, 2.6, "x² + y² − 4x + 2y − 4 = 0", 14, BLU, dy=4)
+    p.salva("03-circonferenza-esempio.svg")
 
 
-def teorema_coseno():
-    u, v = (1.2, 2.6), (3.6, 0.6)
-    t = Piano(-0.4, 4.2, -0.4, 3.0, s=85)
-    t.el = []
-    t.poligono([(0, 0), u, v], fill=ARANCIO, op=0.08)
-    t.arco((0, 0), 34, deg(v), deg(u), col=ARANCIO)
-    t.freccia((0, 0), u, col=BLU)
-    t.freccia((0, 0), v, col=ROSSO)
-    t.freccia(v, u, col=VIOLA)
-    t.punto((0, 0))
-    t.testo((0, 0), "O", dx=-10, dy=8)
-    t.testo(mul(0.5, u), "*u*", col=BLU, dx=-12, anchor="end", size=18)
-    t.testo(mul(0.5, v), "*v*", col=ROSSO, dy=24, size=18)
-    t.testo(mul(0.5, add(u, v)), "*u* − *v*", col=VIOLA, dx=10, dy=-6, anchor="start", size=17)
-    t.testo((0, 0), "θ", col=ARANCIO, dx=44, dy=-16, size=17)
-    t.salva("03-teorema-coseno.svg")
+# 18. Posizioni retta-circonferenza
+def retta_circ_casi():
+    p = Piano(0, 15, 0, 5.4, scala=48)
+    el = p.el
+    r = 1.6
+    centri = [(2.5, 2.6), (7.5, 2.6), (12.5, 2.6)]
+    titoli = [("secante", "d < r : 2 punti", ROSSO), ("tangente", "d = r : 1 punto", VERDE),
+              ("esterna", "d > r : nessun punto", GRIGIO)]
+    dist = [0.8, 1.6, 2.3]
+    for (cx, cy), (t1, t2, col), d in zip(centri, titoli, dist):
+        p.cerchio(cx, cy, r, BLU)
+        p.punto(cx, cy, "C", NERO, dx=-6, dy=16, anc="end")
+        yl = cy + d
+        p.segmento(cx - 2.3, yl, cx + 2.3, yl, col, 2.4)
+        p.segmento(cx, cy, cx, yl, ARANCIO, 1.8, True)
+        p.angolo_retto(cx, yl, 1, 0, 0, -1, 0.18, ARANCIO)
+        p.testo(cx, cy + d / 2, "d", 15, ARANCIO, anc="start", dx=6, dy=5, corsivo=True)
+        if d < r:
+            h = math.sqrt(r * r - d * d)
+            p.punto(cx - h, yl, "", col)
+            p.punto(cx + h, yl, "", col)
+        elif d == r:
+            p.punto(cx, yl, "", col)
+        p.testo(cx, 0.55, t1, 15, col, peso="bold")
+        p.testo(cx, 0.55, t2, 13, NERO, dy=20)
+    p.h += 10
+    p.salva("03-retta-circonferenza.svg")
 
 
-def proiezione():
-    """Due pannelli: angolo acuto (proiezione concorde a v) e ottuso (discorde)."""
-    W = 470
-    t = Tela(2 * W, 300)
-    casi = [((3, 2.5), (4.5, 0), "angolo acuto: *p* ha il verso di *v*", (-0.6, 5.2)),
-            ((-2.4, 2.5), (3, 0), "angolo ottuso: *p* ha verso opposto a *v*", (-3.4, 3.8))]
-    for i, (u, v, tit, (xa, xb)) in enumerate(casi):
-        p = Piano(xa, xb, -0.9, 3.2, s=60, margine=20, ox=i * W + (W - (xb - xa) * 60 - 40) / 2)
-        p.el = t.el
-        o = (0, 0)
-        pr = mul(dot(u, v) / dot(v, v), v)
-        # retta di v
-        p.linea((xa, 0), (xb, 0), col=GRIGIO_CHIARO, sw=1.5)
-        p.linea(u, pr, col=GRIGIO, dash="5,4", sw=1.4)
-        p.angolo_retto(pr, sub(u, pr), (1, 0) if pr[0] <= 0 else (-1, 0), size=11)
-        p.freccia(o, v, col=ROSSO, sw=2.2)
-        p.freccia(o, pr, col=VERDE, sw=4.2, testa=14)
-        p.freccia(pr, u, col=VIOLA, sw=2)
-        p.freccia(o, u, col=BLU)
-        p.testo(mul(0.55, u), "*u*", col=BLU, dx=-10 if u[0] > 0 else 12, anchor="end" if u[0] > 0 else "start", size=18)
-        p.testo(v, "*v*", col=ROSSO, dx=6, dy=-10, size=18)
-        p.testo(mul(0.5, pr), "*p*", col=VERDE, dy=26, size=18)
-        p.testo(add(pr, mul(0.5, sub(u, pr))), "*q*", col=VIOLA, dx=10 if i == 0 else -10,
-                anchor="start" if i == 0 else "end", size=18)
-        p.testo_px(i * W + W / 2, 288, tit, size=14, col="#222")
-    t.salva("03-proiezione.svg")
+# 19. Esempio secante: x^2+y^2 = 25, y = x + 1
+def esempio_secante():
+    p = Piano(-6, 6, -6, 6, scala=36)
+    p.griglia()
+    p.assi(passo=2)
+    p.cerchio(0, 0, 5, BLU)
+    p.retta(1, -1, 1, ROSSO)
+    p.punto(3, 4, "(3, 4)", NERO, dx=8, dy=-6)
+    p.punto(-4, -3, "(−4, −3)", NERO, dx=-12, dy=-6, anc="end")
+    p.testo(-3.4, 4.6, "x² + y² = 25", 14, BLU, dy=-4)
+    p.testo(5.9, 4.3, "y = x + 1", 14, ROSSO, anc="end")
+    p.salva("03-esempio-secante.svg")
 
 
-def area_orientata():
-    u, v = (4, 1), (2, 3)
-    t = Piano(-0.6, 6.6, -0.6, 4.6, s=55)
-    t.h += 30
-    t.griglia()
-    t.poligono([(0, 0), u, add(u, v), v], fill=BLU, op=0.12, stroke=BLU, sw=1, dash="4,3")
-    t.arco((0, 0), 50, deg(u), deg(v), col=ARANCIO, sw=2)
-    # punta di freccia sull'arco (verso antiorario)
-    a = math.radians(deg(v))
-    c = t.map((0, 0))
-    tip = (c[0] + 50 * math.cos(a), c[1] - 50 * math.sin(a))
-    tang = (-math.sin(a), -math.cos(a))
-    nrm = (math.cos(a), -math.sin(a))
-    b = (tip[0] - tang[0] * 10, tip[1] - tang[1] * 10)
-    t.el.append('<polygon points="%.1f,%.1f %.1f,%.1f %.1f,%.1f" fill="%s"/>'
-                % (tip[0], tip[1], b[0] + nrm[0] * 5, b[1] + nrm[1] * 5, b[0] - nrm[0] * 5, b[1] - nrm[1] * 5, ARANCIO))
-    t.freccia((0, 0), u, col=BLU)
-    t.freccia((0, 0), v, col=ROSSO)
-    t.testo(u, "*u* = (4, 1)", col=BLU, dx=8, dy=14, anchor="start", size=15)
-    t.testo(v, "*v* = (2, 3)", col=ROSSO, dx=-8, dy=-6, anchor="end", size=15)
-    t.testo(mul(0.5, add(u, v)), "area = 10", col="#222", dx=14, dy=6, size=16, bg=True)
-    t.testo_px(t.w / 2, t.h - 14, "per andare da *u* a *v* si gira in senso antiorario: det > 0", col=ARANCIO, size=14)
-    t.salva("03-area-orientata.svg")
-
-
-def prodotto_vettoriale():
-    t = Spazio(560, 470, (250, 300), s=58, k=0.6, ang=215)
-    u = (4, 0.6, 0)
-    v = (0.4, 3.4, 0)
-    w = (0, 0, 3.0)  # direzione di u x v (u, v nel piano xy)
-    t.assi(lx=4.2, ly=4.6, lz=4.4)
-    t.poligono([(0, 0, 0), u, add(u, v), v], fill=BLU, op=0.12, stroke=BLU, sw=1, dash="4,3")
-    t.freccia((0, 0, 0), (0, 0, -2.0), col=VIOLA, dash="6,4", sw=2)
-    t.freccia((0, 0, 0), u, col=BLU)
-    t.freccia((0, 0, 0), v, col=ROSSO)
-    t.freccia((0, 0, 0), w, col=VERDE, sw=3)
-    t.angolo_retto((0, 0, 0), u, w, size=13)
-    t.angolo_retto((0, 0, 0), v, w, size=13)
-    t.testo(u, "*u*", col=BLU, dx=-8, dy=20, size=18)
-    t.testo(v, "*v*", col=ROSSO, dx=0, dy=26, size=18)
-    t.testo(w, "*u* × *v*", col=VERDE, dx=12, dy=4, anchor="start", size=17)
-    t.testo((0, 0, -2.0), "*v* × *u* = −(*u* × *v*)", col=VIOLA, dx=12, dy=4, anchor="start", size=15)
-    t.testo(mul(0.5, add(u, v)), "area = ‖*u* × *v*‖", col="#222", dx=10, dy=6, size=14, bg=True)
-    t.testo_px(20, 28, "la mano destra: dita da *u* verso *v*, il pollice indica *u* × *v*", size=14, anchor="start")
-    t.salva("03-prodotto-vettoriale.svg")
-
-
-def parallelepipedo():
-    """Parallelepipedo generato da a, b, c con il tetraedro evidenziato (esercizio 8)."""
-    a, b, c = (2, 0, 1), (1, 3, 0), (0, 2, 4)
-    t = Spazio(600, 500, (230, 360), s=50, k=0.6, ang=215)
-    O = (0, 0, 0)
-    V = {}
-    for i in (0, 1):
-        for j in (0, 1):
-            for k in (0, 1):
-                V[(i, j, k)] = add(add(mul(i, a), mul(j, b)), mul(k, c))
-    # facce leggermente colorate
-    t.assi(lx=3.6, ly=5.4, lz=5.6)
-    spigoli = []
-    for key in V:
-        for d in range(3):
-            if key[d] == 0:
-                k2 = list(key)
-                k2[d] = 1
-                spigoli.append((V[key], V[tuple(k2)]))
-    for p, q in spigoli:
-        if p == O:
-            continue
-        t.linea(p, q, col="#555", sw=1.3, dash="5,3")
-    # tetraedro
-    t.poligono([a, b, c], fill=ARANCIO, op=0.25, stroke=ARANCIO, sw=1.5)
-    t.poligono([O, b, c], fill=ARANCIO, op=0.10)
-    t.freccia(O, a, col=BLU)
-    t.freccia(O, b, col=ROSSO)
-    t.freccia(O, c, col=VERDE)
-    t.testo(a, "*a*", col=BLU, dx=-12, dy=14, size=18)
-    t.testo(b, "*b*", col=ROSSO, dx=8, dy=20, size=18)
-    t.testo(c, "*c*", col=VERDE, dx=-18, dy=22, size=18, bg=True)
-    t.testo_px(330, 470, "parallelepipedo: V = |*a* · (*b* × *c*)| = 26", size=14, anchor="start")
-    t.testo_px(330, 492, "tetraedro (arancione): V = 26/6 = 13/3", size=14, anchor="start", col="#a0650a")
-    t.h = 505
-    t.salva("03-parallelepipedo.svg")
-
-
-def altezza_parallelepipedo():
-    """Perche' il prodotto triplo e' un volume: base = parallelogramma di b e c, altezza = proiezione di a."""
-    t = Spazio(560, 430, (200, 330), s=55, k=0.6, ang=215)
-    b, c = (3, 0.4, 0), (0.3, 3.4, 0)
-    a = (1.2, 1.0, 3.0)
-    n = (0, 0, 3.6)
-    O = (0, 0, 0)
-    t.poligono([O, b, add(b, c), c], fill=BLU, op=0.15, stroke=BLU, sw=1)
-    top = [a, add(a, b), add(add(a, b), c), add(a, c)]
-    t.poligono(top, fill="none", stroke="#555", sw=1.2, dash="5,3")
-    for p in [b, add(b, c), c]:
-        t.linea(p, add(p, a), col="#555", sw=1.2, dash="5,3")
-    t.freccia(O, n, col=VERDE, sw=2.2)
-    t.linea(a, (0, 0, a[2]), col=GRIGIO, dash="4,3", sw=1.4)
-    t.freccia(O, b, col=ROSSO)
-    t.freccia(O, c, col=ROSSO)
-    t.freccia(O, a, col=BLU)
-    t.linea((0, 0, 0), (0, 0, a[2]), col=ARANCIO, sw=5, op=0.8)
-    t.testo(b, "*b*", col=ROSSO, dx=-6, dy=20, size=18)
-    t.testo(c, "*c*", col=ROSSO, dx=10, dy=16, size=18)
-    t.testo(a, "*a*", col=BLU, dx=8, dy=22, anchor="start", size=18, bg=True)
-    t.testo(n, "*b* × *c*", col=VERDE, dx=10, dy=4, anchor="start", size=16)
-    t.testo((0, 0, a[2] / 2), "h", col=ARANCIO, dx=-12, dy=4, anchor="end", size=18, italic=True)
-    t.testo(mul(0.5, add(b, c)), "base: ‖*b* × *c*‖", dx=0, dy=10, size=14, bg=True)
-    t.salva("03-altezza-parallelepipedo.svg")
+# 20. Sfera nello spazio
+def sfera():
+    S = Spazio(560, 430, 230, 290, s=46)
+    C = (1, 3.4, 2.3)
+    r = 1.7
+    S.assi(4, 6.4, 5)
+    c = S.px(*C)
+    R = r * 46
+    S.raw(f'<defs><radialGradient id="g" cx="0.35" cy="0.35" r="0.75"><stop offset="0" stop-color="#ffffff"/>'
+          f'<stop offset="1" stop-color="#a9c6e8"/></radialGradient></defs>')
+    S.raw(f'<circle cx="{c[0]:.1f}" cy="{c[1]:.1f}" r="{R:.1f}" fill="url(#g)" stroke="{BLU}" stroke-width="2"/>')
+    # equatore (ellisse): meta' dietro tratteggiata
+    S.raw(f'<path d="M {c[0]-R:.1f} {c[1]:.1f} A {R:.1f} {R*0.3:.1f} 0 0 1 {c[0]+R:.1f} {c[1]:.1f}" fill="none" stroke="{BLU}" stroke-width="1.2" stroke-dasharray="5,4"/>')
+    S.raw(f'<path d="M {c[0]-R:.1f} {c[1]:.1f} A {R:.1f} {R*0.3:.1f} 0 0 0 {c[0]+R:.1f} {c[1]:.1f}" fill="none" stroke="{BLU}" stroke-width="1.4"/>')
+    # raggio verso un punto P
+    a = math.radians(40)
+    Pp = (c[0] + R * math.cos(a), c[1] - R * math.sin(a))
+    S.raw(f'<line x1="{c[0]:.1f}" y1="{c[1]:.1f}" x2="{Pp[0]:.1f}" y2="{Pp[1]:.1f}" stroke="{ROSSO}" stroke-width="2.4"/>')
+    S.raw(f'<circle cx="{Pp[0]:.1f}" cy="{Pp[1]:.1f}" r="4" fill="{NERO}"/>')
+    S.raw(f'<text x="{Pp[0]+8:.1f}" y="{Pp[1]-6:.1f}" font-family="{FONT}" font-size="15" fill="{NERO}">P(x, y, z)</text>')
+    S.raw(f'<text x="{(c[0]+Pp[0])/2-4:.1f}" y="{(c[1]+Pp[1])/2-6:.1f}" font-family="{FONT}" font-size="16" font-style="italic" fill="{ROSSO}" text-anchor="end">r</text>')
+    S.punto(C)
+    S.raw(f'<text x="{c[0]:.1f}" y="{c[1]+44:.1f}" font-family="{FONT}" font-size="14" fill="{NERO}" text-anchor="middle">C(x₀, y₀, z₀)</text>')
+    S.raw(f'<text x="{S.w/2:.0f}" y="{S.h-18:.0f}" font-family="{FONT}" font-size="15" fill="{BLU}" text-anchor="middle">(x − x₀)² + (y − y₀)² + (z − z₀)² = r²</text>')
+    S.salva("03-sfera.svg")
 
 
 if __name__ == "__main__":
-    vettore_freccia()
-    componenti_piano()
-    componenti_spazio()
-    vettore_tra_punti()
-    somma()
-    differenza()
-    multipli()
-    base_standard()
-    versore()
-    angolo()
-    segno_prodotto_scalare()
-    teorema_coseno()
-    proiezione()
-    area_orientata()
-    prodotto_vettoriale()
-    parallelepipedo()
-    altezza_parallelepipedo()
+    os.makedirs(OUT, exist_ok=True)
+    piano_cartesiano()
+    distanza()
+    punto_medio()
+    valore_assoluto()
+    coordinate_spazio()
+    pendenza()
+    pendenze_confronto()
+    rampa()
+    ruolo_q()
+    orizz_vert()
+    retta_due_punti()
+    par_perp()
+    perche_perp()
+    intersezione()
+    dist_punto_retta()
+    circ_definizione()
+    circ_esempio()
+    retta_circ_casi()
+    esempio_secante()
+    sfera()

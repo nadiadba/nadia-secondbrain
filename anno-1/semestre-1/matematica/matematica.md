@@ -20,15 +20,15 @@ Ancora nessuna.
 
 ## Bozze
 
-Teoria, più o meno nell'ordine in cui il professore ha fatto gli argomenti (gli insiemi sono stati la prima lezione):
+Teoria, in ordine: ogni pagina usa quello che c'è nelle precedenti, più o meno come ha fatto il professore.
 
-- [[07-insiemi-e-intervalli|Insiemi, numeri e intervalli]]: la prima lezione: insiemi e operazioni, quantificatori, insiemi numerici, intervalli e valore assoluto.
-- [[01-equazioni-e-disequazioni|Equazioni e disequazioni]]: primo e secondo grado, frazionarie, con valore assoluto, irrazionali; intervalli, tabella dei segni, sistemi.
-- [[02-retta-e-circonferenza|Geometria del piano: la retta e la circonferenza]]: distanza e punto medio, pendenza, retta per due punti, parallele e perpendicolari, circonferenza e sue posizioni rispetto a una retta.
-- [[03-i-vettori|I vettori]]: operazioni, norma, prodotto scalare e proiezioni, determinanti, prodotto vettoriale e prodotto triplo.
-- [[04-le-funzioni|Le funzioni: grafico, dominio, immagine, funzione inversa]]: con tutti gli esercizi della prima pagina del foglio svolti.
-- [[05-funzioni-elementari|Le funzioni elementari]]: potenze, radici, esponenziali, logaritmi, trigonometria (in classe vi siete fermati all'inizio).
-- [[06-le-matrici|Le matrici e il determinante]]: somma e prodotto riga per colonna, determinante 2×2 e 3×3 (Sarrus), complementi algebrici, dalle foto della lavagna.
+- [[01-insiemi-e-intervalli|Insiemi, numeri e intervalli]]: insiemi e operazioni, quantificatori, insiemi numerici, intervalli e valore assoluto.
+- [[02-equazioni-e-disequazioni|Equazioni e disequazioni]]: primo e secondo grado, frazionarie, con valore assoluto, irrazionali; intervalli, tabella dei segni, sistemi.
+- [[03-retta-e-circonferenza|Geometria del piano: la retta e la circonferenza]]: distanza e punto medio, pendenza, retta per due punti, parallele e perpendicolari, circonferenza e sue posizioni rispetto a una retta.
+- [[04-le-matrici|Le matrici e il determinante]]: somma e prodotto riga per colonna, determinante 2×2 e 3×3 (Sarrus), complementi algebrici, dalle foto della lavagna.
+- [[05-i-vettori|I vettori]]: operazioni, norma, prodotto scalare e proiezioni, determinanti, prodotto vettoriale e prodotto triplo.
+- [[06-le-funzioni|Le funzioni: grafico, dominio, immagine, funzione inversa]]: con tutti gli esercizi della prima pagina del foglio svolti.
+- [[07-funzioni-elementari|Le funzioni elementari]]: potenze, radici, esponenziali, logaritmi, trigonometria (in classe vi siete fermati all'inizio).
 
 Per l'esonero:
 

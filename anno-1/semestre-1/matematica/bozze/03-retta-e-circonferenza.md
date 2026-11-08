@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 La geometria analitica traduce le figure in numeri e in equazioni. Un punto diventa una coppia di numeri, una retta diventa un'equazione di primo grado, una circonferenza un'equazione di secondo grado. Il vantaggio è che domande geometriche ("queste due rette si incontrano?", "questa retta tocca il cerchio?") si risolvono con i conti, cioè con le equazioni e i sistemi studiati nella pagina precedente. Lo strumento che regge tutto è uno solo: la distanza tra due punti, ricavata dal teorema di Pitagora.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## IL PIANO CARTESIANO E LA DISTANZA
 
@@ -27,7 +27,7 @@ Su ciascun asse si fissa la stessa unità di misura. A destra dell'origine le $x
 
 Ogni punto $P$ del piano si individua con due numeri, le sue *coordinate* $P(x, y)$. Per trovarle si proietta il punto sui due assi con due segmenti perpendicolari: il primo numero è dove cade la proiezione sull'asse $x$, il secondo dove cade quella sull'asse $y$. L'ordine conta: $(3, 2)$ e $(2, 3)$ sono due punti diversi.
 
-![[02-piano-cartesiano.svg|500]]
+![[03-piano-cartesiano.svg|500]]
 
 Gli assi dividono il piano in quattro *quadranti*, numerati in senso antiorario a partire da quello in alto a destra. Il segno delle coordinate dice subito in quale quadrante sta un punto:
 
@@ -53,7 +53,7 @@ Per esempio $|-4| = 4$, perché $-4$ dista 4 passi da zero. E $|5 - 2| = |2 - 5|
 
 Il "meno" della definizione spaventa, ma serve proprio a togliere il segno: se $a = -4$, allora $-a = -(-4) = 4$.
 
-![[02-valore-assoluto.svg|600]]
+![[03-valore-assoluto-distanza.svg|600]]
 
 Leggere il valore assoluto come distanza rende facili le disequazioni. $|x| < 3$ chiede "quali numeri distano da 0 meno di 3?", e la risposta si vede sulla retta: quelli tra $-3$ e $3$.
 
@@ -77,7 +77,7 @@ Il trucco è questo: da $A$ si va in orizzontale fino a sotto $B$, poi si sale i
 
 Per il teorema di Pitagora l'ipotenusa al quadrato è la somma dei quadrati dei cateti. Quando si eleva al quadrato il segno sparisce, quindi i valori assoluti non servono più.
 
-![[02-distanza-pitagora.svg|480]]
+![[03-distanza-pitagora.svg|480]]
 
 > [!abstract] Distanza tra due punti
 > $$
@@ -106,7 +106,7 @@ Il *punto medio* $M$ di un segmento $AB$ è il punto che sta esattamente a metà
 > M = \left( \frac{x_A + x_B}{2}, \; \frac{y_A + y_B}{2} \right)
 > $$
 
-![[02-punto-medio.svg|480]]
+![[03-punto-medio.svg|480]]
 
 > [!example] Esempio: punto medio di $A(1, -1)$ e $B(5, 1)$
 > $$
@@ -126,7 +126,7 @@ Per la distanza si usa Pitagora due volte. Si guardi la figura: dall'origine $O$
 2. Poi si sale in verticale da $H$ a $P$, per un tratto lungo $z$.
 3. Il triangolo $OHP$ è rettangolo in $H$, quindi $OP^2 = OH^2 + z^2 = x^2 + y^2 + z^2$.
 
-![[02-coordinate-spazio.svg|520]]
+![[03-coordinate-spazio.svg|520]]
 
 > [!abstract] Distanza nello spazio
 > $$
@@ -158,7 +158,7 @@ Si prendono due punti qualsiasi della retta, $A$ e $B$, e si guarda di quanto si
 
 Perché il risultato non dipende da quali due punti si scelgono? Perché i triangoli rettangoli costruiti su punti diversi della stessa retta sono tutti simili (hanno gli stessi angoli), quindi il rapporto tra cateto verticale e cateto orizzontale è sempre lo stesso.
 
-![[02-pendenza.svg|500]]
+![[03-pendenza.svg|500]]
 
 C'è anche una lettura con gli angoli. Sia $\alpha$ l'angolo che la retta forma con il verso positivo dell'asse $x$. Nel triangolo rettangolo della figura, il cateto opposto ad $\alpha$ è $\Delta y$ e il cateto adiacente è $\Delta x$. Il loro rapporto è, per definizione, la tangente dell'angolo.
 
@@ -182,13 +182,13 @@ Il segno e la grandezza di $m$ si leggono direttamente nel disegno:
 - $m = 0$: la retta è orizzontale;
 - più $|m|$ è grande, più la retta è ripida.
 
-![[02-pendenze-confronto.svg|480]]
+![[03-pendenze-confronto.svg|480]]
 
 ### Un esempio di architettura: la pendenza di una rampa
 
 In architettura la pendenza si usa tutti i giorni, ma di solito si scrive in percentuale. Una pendenza dell'8% vuol dire $m = 0{,}08$: si sale di 8 cm ogni metro (100 cm) percorso in pianta.
 
-![[02-rampa.svg|620]]
+![[03-rampa.svg|620]]
 
 Le norme sull'accessibilità per le persone in carrozzina fissano di solito per le rampe una pendenza massima dell'8%. La formula della pendenza permette di calcolare quanto deve essere lunga la rampa.
 
@@ -215,7 +215,7 @@ Perché proprio questa forma? Si parte dal punto $(0, q)$ sull'asse $y$. Spostan
 
 Rette con la stessa $m$ e $q$ diversa sono parallele: hanno la stessa inclinazione e sono solo spostate in alto o in basso.
 
-![[02-ruolo-di-q.svg|480]]
+![[03-ruolo-di-q.svg|480]]
 
 > [!abstract] Forma implicita
 > Ogni retta del piano, comprese quelle verticali, ha un'equazione del tipo
@@ -242,7 +242,7 @@ Due casi particolari vanno riconosciuti al volo.
 - Una retta orizzontale ha tutti i punti alla stessa altezza $k$: la sua equazione è $y = k$. La pendenza è $m = 0$, perché $\Delta y = 0$. L'asse $x$ stesso è la retta $y = 0$.
 - Una retta verticale ha tutti i punti con la stessa ascissa $h$: la sua equazione è $x = h$. Qui $\Delta x = 0$ e la frazione $\Delta y / \Delta x$ non si può calcolare (non si divide per zero): la pendenza non è definita. L'asse $y$ è la retta $x = 0$.
 
-![[02-orizzontali-verticali.svg|480]]
+![[03-orizzontali-verticali.svg|480]]
 
 > [!warning] La retta verticale non ha forma esplicita
 > $x = -3$ non si può scrivere come $y = mx + q$, perché nell'equazione la $y$ non compare. Per questo la forma implicita è più generale: $x = -3$ diventa $1 \cdot x + 0 \cdot y + 3 = 0$.
@@ -290,7 +290,7 @@ Per due punti distinti passa una e una sola retta. Per trovarne l'equazione si c
 >
 > In forma implicita (si moltiplica tutto per 2 e si porta a sinistra): $x - 2y - 3 = 0$.
 
-![[02-retta-due-punti.svg|500]]
+![[03-retta-due-punti.svg|500]]
 
 La verifica finale con il secondo punto è un'abitudine da prendere: costa pochi secondi e scopre quasi tutti gli errori di segno.
 
@@ -305,7 +305,7 @@ Due rette parallele hanno la stessa inclinazione, quindi la stessa pendenza. Per
 >
 > La pendenza della perpendicolare è l'opposto del reciproco: si capovolge la frazione e si cambia il segno. Per esempio la perpendicolare a una retta di pendenza $2$ ha pendenza $-\frac{1}{2}$.
 
-![[02-parallele-perpendicolari.svg|480]]
+![[03-parallele-perpendicolari.svg|480]]
 
 Perché $-1$? Si prende la retta di pendenza $m$ passante per l'origine e il triangolo che ha per cateti 1 (in orizzontale) e $m$ (in verticale): arriva al punto $(1, m)$. Si ruota tutto il triangolo di 90° in senso antiorario. Il cateto orizzontale lungo 1 diventa verticale, quello verticale lungo $m$ diventa orizzontale e punta a sinistra: il punto $(1, m)$ va in $(-m, 1)$. La retta ruotata è perpendicolare alla prima e la sua pendenza è
 $$
@@ -313,7 +313,7 @@ $$
 $$
 Moltiplicando le due pendenze: $m \cdot \left(-\frac{1}{m}\right) = -1$.
 
-![[02-perpendicolari-perche.svg|480]]
+![[03-perpendicolari-perche.svg|480]]
 
 > [!example] Esempio: parallela e perpendicolare per un punto
 > Data $r: y = 2x + 1$ e il punto $P(1, 2)$, trovare la parallela e la perpendicolare a $r$ passanti per $P$.
@@ -325,7 +325,7 @@ Moltiplicando le due pendenze: $m \cdot \left(-\frac{1}{m}\right) = -1$.
 > [!warning] Casi da tenere a parte
 > La regola $m_1 m_2 = -1$ non vale se una delle due rette è verticale (non ha pendenza). Una retta orizzontale $y = k$ e una verticale $x = h$ sono comunque perpendicolari.
 >
-> Con le rette in forma implicita $a_1x + b_1y + c_1 = 0$ e $a_2x + b_2y + c_2 = 0$ la condizione di perpendicolarità si scrive $a_1a_2 + b_1b_2 = 0$, e vale in tutti i casi. È un prodotto scalare: si ritrova nella pagina [[03-i-vettori]].
+> Con le rette in forma implicita $a_1x + b_1y + c_1 = 0$ e $a_2x + b_2y + c_2 = 0$ la condizione di perpendicolarità si scrive $a_1a_2 + b_1b_2 = 0$, e vale in tutti i casi. È un prodotto scalare: si ritrova nella pagina [[05-i-vettori]].
 
 ### L'intersezione di due rette
 
@@ -348,7 +348,7 @@ Il punto in cui due rette si incontrano deve stare su entrambe, quindi le sue co
 >
 > Verifica nella seconda: $2 \cdot 2 - 3 = 1$. Giusto.
 
-![[02-intersezione.svg|460]]
+![[03-intersezione.svg|460]]
 
 ### La distanza di un punto da una retta
 
@@ -381,9 +381,9 @@ Il numeratore vale zero esattamente quando $P$ sta sulla retta: in quel caso la 
 > 2. Intersezione con $y = 2x - 2$: $2x - 2 = -\frac{1}{2}x + 3$, cioè $\frac{5}{2}x = 5$, $x = 2$, $y = 2$. Il piede è $H(2, 2)$.
 > 3. $d(P, H) = \sqrt{(4-2)^2 + (1-2)^2} = \sqrt{4 + 1} = \sqrt{5}$.
 >
-> Le due strade danno lo stesso risultato. Nell'esercizio il professore chiede di trovare $H$ con i vettori: si ritrova lo stesso punto nella pagina [[03-i-vettori]].
+> Le due strade danno lo stesso risultato. Nell'esercizio il professore chiede di trovare $H$ con i vettori: si ritrova lo stesso punto nella pagina [[05-i-vettori]].
 
-![[02-distanza-punto-retta.svg|460]]
+![[03-distanza-punto-retta.svg|460]]
 
 ## LA CIRCONFERENZA
 
@@ -400,7 +400,7 @@ $$
 $$
 Entrambi i membri sono positivi, quindi si può elevare al quadrato senza perdere né aggiungere soluzioni.
 
-![[02-circonferenza-definizione.svg|460]]
+![[03-circonferenza-definizione.svg|460]]
 
 > [!abstract] Equazione della circonferenza di centro $C(x_0, y_0)$ e raggio $r$
 > $$
@@ -424,7 +424,7 @@ Se si svolgono i quadrati nell'equazione della circonferenza si ottiene un'equaz
 > 2. Si svolgono i quadrati: $x^2 - 4x + 4 + y^2 + 2y + 1 = 9$.
 > 3. Si porta tutto a sinistra e si ordina: $x^2 + y^2 - 4x + 2y - 4 = 0$.
 
-![[02-circonferenza-esempio.svg|440]]
+![[03-circonferenza-esempio.svg|440]]
 
 > [!abstract] Forma sviluppata
 > Ogni circonferenza ha un'equazione del tipo
@@ -464,7 +464,7 @@ Una retta e una circonferenza possono trovarsi in tre posizioni:
 2. *tangente*: la retta la tocca in un solo punto;
 3. *esterna*: la retta non la tocca.
 
-![[02-retta-circonferenza.svg|620]]
+![[03-retta-circonferenza.svg|620]]
 
 Ci sono due modi per capire in quale caso ci si trova.
 
@@ -474,7 +474,7 @@ Il primo modo è con la distanza dal centro. Si calcola la distanza $d$ del cent
 - $d = r$: tangente;
 - $d > r$: esterna.
 
-Il secondo modo è con il sistema. I punti comuni sono le soluzioni del sistema tra l'equazione della retta e quella della circonferenza. Si ricava $y$ (o $x$) dalla retta, la si sostituisce nella circonferenza e si ottiene un'equazione di secondo grado. Il numero delle soluzioni dipende dal discriminante $\Delta = b^2 - 4ac$ di quell'equazione (vedi [[01-equazioni-e-disequazioni]]):
+Il secondo modo è con il sistema. I punti comuni sono le soluzioni del sistema tra l'equazione della retta e quella della circonferenza. Si ricava $y$ (o $x$) dalla retta, la si sostituisce nella circonferenza e si ottiene un'equazione di secondo grado. Il numero delle soluzioni dipende dal discriminante $\Delta = b^2 - 4ac$ di quell'equazione (vedi [[02-equazioni-e-disequazioni]]):
 
 - $\Delta > 0$: due soluzioni, retta secante;
 - $\Delta = 0$: una soluzione, retta tangente;
@@ -498,7 +498,7 @@ Il metodo della distanza è più veloce se serve solo sapere la posizione; il si
 >
 > Verifica: $9 + 16 = 25$ e $16 + 9 = 25$. Entrambi i punti stanno sulla circonferenza.
 
-![[02-esempio-secante.svg|440]]
+![[03-esempio-secante.svg|440]]
 
 > [!example] Esempio: una retta tangente
 > Circonferenza $x^2 + y^2 = 25$ e retta $3x + 4y - 25 = 0$.
@@ -515,7 +515,7 @@ Il programma chiede anche l'equazione della sfera, che è la sorella tridimensio
 
 Si usa la formula della distanza nello spazio al posto di quella nel piano, e si eleva al quadrato.
 
-![[02-sfera.svg|460]]
+![[03-sfera.svg|460]]
 
 > [!abstract] Equazione della sfera di centro $C(x_0, y_0, z_0)$ e raggio $r$
 > $$
@@ -533,11 +533,11 @@ Anche per la sfera, se l'equazione è data in forma sviluppata ($x^2 + y^2 + z^2
 
 ## Collegamenti
 
-Questa pagina usa continuamente gli strumenti di [[01-equazioni-e-disequazioni|equazioni e disequazioni]]: l'intersezione di due rette è un sistema lineare, la posizione tra retta e circonferenza si decide con il discriminante di un'equazione di secondo grado, e le disequazioni con il valore assoluto diventano facili se lette come distanze sulla retta dei numeri.
+Questa pagina usa continuamente gli strumenti di [[02-equazioni-e-disequazioni|equazioni e disequazioni]]: l'intersezione di due rette è un sistema lineare, la posizione tra retta e circonferenza si decide con il discriminante di un'equazione di secondo grado, e le disequazioni con il valore assoluto diventano facili se lette come distanze sulla retta dei numeri.
 
-La pagina sui [[03-i-vettori|vettori]] riprende quasi tutto in un linguaggio diverso. La distanza tra due punti è la norma del vettore che li unisce, il punto medio è una media di vettori, la direzione $(1, m)$ di una retta è un vettore, e la condizione di perpendicolarità $m_1 m_2 = -1$ diventa "prodotto scalare uguale a zero". L'esercizio 22 del foglio sui vettori, risolto qui con la formula della distanza punto-retta, si risolve lì trovando il piede $H$ con il prodotto scalare.
+La pagina sui [[05-i-vettori|vettori]] riprende quasi tutto in un linguaggio diverso. La distanza tra due punti è la norma del vettore che li unisce, il punto medio è una media di vettori, la direzione $(1, m)$ di una retta è un vettore, e la condizione di perpendicolarità $m_1 m_2 = -1$ diventa "prodotto scalare uguale a zero". L'esercizio 22 del foglio sui vettori, risolto qui con la formula della distanza punto-retta, si risolve lì trovando il piede $H$ con il prodotto scalare.
 
-La retta $y = mx + q$ è anche il primo esempio di funzione: nella pagina sulle [[04-le-funzioni|funzioni]] diventa la funzione lineare $f(x) = mx + q$, il cui grafico è proprio questa retta, e la pendenza $m$ dice se la funzione cresce o decresce. Nelle [[05-funzioni-elementari|funzioni elementari]] ritornano la tangente dell'angolo e il valore assoluto come funzioni vere e proprie. Più avanti nel corso la pendenza diventerà la derivata: la pendenza della retta tangente al grafico di una funzione.
+La retta $y = mx + q$ è anche il primo esempio di funzione: nella pagina sulle [[06-le-funzioni|funzioni]] diventa la funzione lineare $f(x) = mx + q$, il cui grafico è proprio questa retta, e la pendenza $m$ dice se la funzione cresce o decresce. Nelle [[07-funzioni-elementari|funzioni elementari]] ritornano la tangente dell'angolo e il valore assoluto come funzioni vere e proprie. Più avanti nel corso la pendenza diventerà la derivata: la pendenza della retta tangente al grafico di una funzione.
 
 Fuori dalla matematica, le coordinate nello spazio sono le stesse della Geometria descrittiva: il punto $(x, y, z)$ ha una quota e un aggetto, e la sua proiezione sul piano orizzontale corrisponde al punto $H(x, y, 0)$ della figura sulla distanza nello spazio. La pendenza, infine, è un numero che in architettura si usa davvero: per le rampe, le scale, le coperture e lo scolo delle acque si scrive in percentuale, ed è sempre il rapporto tra dislivello e lunghezza in pianta.
 

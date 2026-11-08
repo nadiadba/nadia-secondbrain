@@ -1,14 +1,14 @@
 """Disegni aggiunti alla bozza di matematica 03 - I vettori (dalle foto della lavagna).
 
-Uso: python3 -I .claude/scripts/disegni/matematica-03b.py
-Scrive gli SVG in anno-1/semestre-1/matematica/bozze/img/ (prefisso 03-).
-Nessuna dipendenza esterna: riusa le primitive di matematica-03.py.
+Uso: python3 -I .claude/scripts/disegni/matematica-05b.py
+Scrive gli SVG in anno-1/semestre-1/matematica/bozze/img/ (prefisso 05-).
+Nessuna dipendenza esterna: riusa le primitive di matematica-05.py.
 """
 import importlib.util
 import os
 
 QUI = os.path.dirname(os.path.abspath(__file__))
-_spec = importlib.util.spec_from_file_location("m03", os.path.join(QUI, "matematica-03.py"))
+_spec = importlib.util.spec_from_file_location("m03", os.path.join(QUI, "matematica-05.py"))
 m03 = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(m03)
 
@@ -35,7 +35,7 @@ def op1_p1p2_op2():
     t.testo(mul(0.5, add(P1, P2)), "P_1_P_2_", col=ROSSO, dx=12, dy=0, anchor="start", size=16)
     t.testo_px(t.w / 2, t.h - 14, "OP₁ + P₁P₂ = OP₂, quindi P₁P₂ = OP₂ − OP₁ = (x₂ − x₁, y₂ − y₁)",
                col="#222", size=14)
-    t.salva("03-op1-p1p2-op2.svg")
+    t.salva("05-op1-p1p2-op2.svg")
 
 
 if __name__ == "__main__":

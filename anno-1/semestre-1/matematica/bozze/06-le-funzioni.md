@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Una funzione è una regola che a ogni numero di partenza fa corrispondere uno e un solo numero di arrivo. È l'idea più importante di tutto il corso: i limiti, le derivate e gli integrali che verranno dopo sono tutti modi di studiare le funzioni. Questa pagina parte dalla definizione, passa al grafico, al dominio e all'immagine, poi alle proprietà (iniettiva, suriettiva, pari, crescente...) e alla funzione inversa, e chiude con le operazioni che spostano e deformano i grafici. Gli esempi svolti seguono la prima pagina del foglio del professore, `Esercizi_funzioni_e_Logaritmi.pdf`.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## CHE COS'È UNA FUNZIONE
 
@@ -36,7 +36,7 @@ La parte decisiva della definizione è «uno e un solo». Ogni elemento del domi
 
 Il modo più semplice per vedere se una corrispondenza è una funzione è disegnarla con le frecce: a sinistra gli elementi di $A$, a destra quelli di $B$, e una freccia da ogni $x$ al suo valore.
 
-![[04-diagrammi-frecce.svg|700]]
+![[06-diagrammi-frecce.svg|700]]
 
 - Nel primo disegno ogni elemento di $A$ ha esattamente una freccia. È una funzione, anche se $1$ e $2$ vanno entrambi in $a$ e nessuno va in $d$: questo è permesso.
 - Nel secondo disegno da $1$ partono due frecce. Non è una funzione, perché $f(1)$ non sarebbe un numero solo.
@@ -81,7 +81,7 @@ Ogni coppia «numero di partenza, valore» si può pensare come un punto del pia
 
 Il grafico è un disegno che contiene tutta la funzione. Per leggere un valore, per esempio $f(2)$, si parte da $x = 2$ sull'asse orizzontale, si sale (o si scende) in verticale fino a incontrare il grafico, e poi ci si sposta in orizzontale fino all'asse $y$: il numero che si legge è $f(2)$.
 
-![[04-area-quadrato.svg|500]]
+![[06-area-quadrato.svg|500]]
 
 Nel grafico dell'area del quadrato si vede tutto quello che abbiamo detto. La curva blu è un pezzo di parabola, che parte dal punto $(1, 1)$ e arriva al punto $(4, 16)$. In verde, sull'asse orizzontale, c'è il dominio $[1, 4]$; in arancione, sull'asse verticale, ci sono i valori raggiunti, da $1$ a $16$. La parte tratteggiata della parabola non fa parte del grafico, perché quei lati non sono ammessi.
 
@@ -98,9 +98,9 @@ Dalla definizione segue un controllo molto pratico. Ogni $x$ del dominio ha un s
 > [!abstract] Test della retta verticale
 > Una curva del piano è il grafico di una funzione $y = f(x)$ se e solo se ogni retta verticale la incontra al massimo in un punto.
 
-![[04-retta-verticale.svg|700]]
+![[06-retta-verticale.svg|700]]
 
-La parabola $y = x^2$ supera il test: qualunque retta verticale la tocca una volta sola. La circonferenza $x^2 + y^2 = 4$ (quella di centro l'origine e raggio $2$, vista in [[02-retta-e-circonferenza]]) non lo supera: la retta $x = 1$ la incontra in $(1, \sqrt{3})$ e in $(1, -\sqrt{3})$. Al numero $1$ corrisponderebbero due valori, quindi la circonferenza non è il grafico di una funzione.
+La parabola $y = x^2$ supera il test: qualunque retta verticale la tocca una volta sola. La circonferenza $x^2 + y^2 = 4$ (quella di centro l'origine e raggio $2$, vista in [[03-retta-e-circonferenza]]) non lo supera: la retta $x = 1$ la incontra in $(1, \sqrt{3})$ e in $(1, -\sqrt{3})$. Al numero $1$ corrisponderebbero due valori, quindi la circonferenza non è il grafico di una funzione.
 
 > [!warning] Errore tipico
 > La circonferenza non è una funzione, ma ciascuna delle sue due metà sì. La semicirconferenza superiore è il grafico di $y = \sqrt{4 - x^2}$, quella inferiore di $y = -\sqrt{4 - x^2}$. Una curva che non è un grafico si può spesso spezzare in pezzi che lo sono.
@@ -120,9 +120,9 @@ Trovare il dominio naturale vuol dire cercare le operazioni che non si possono f
 >
 > Le radici di indice dispari ($\sqrt[3]{\;}$) non pongono condizioni: $\sqrt[3]{-8} = -2$. I polinomi sono definiti su tutto $\mathbb{R}$.
 
-Il perché delle prime due regole si vede subito. Dividere $6$ per $0$ vorrebbe dire trovare un numero che moltiplicato per $0$ dia $6$, e non esiste. La radice quadrata di $-4$ dovrebbe essere un numero che al quadrato dà $-4$, ma un quadrato non è mai negativo. Il logaritmo è trattato in [[05-funzioni-elementari]].
+Il perché delle prime due regole si vede subito. Dividere $6$ per $0$ vorrebbe dire trovare un numero che moltiplicato per $0$ dia $6$, e non esiste. La radice quadrata di $-4$ dovrebbe essere un numero che al quadrato dà $-4$, ma un quadrato non è mai negativo. Il logaritmo è trattato in [[07-funzioni-elementari]].
 
-Se nella formula ci sono più operazioni «delicate», le condizioni devono valere tutte insieme: si scrive un sistema e si prendono le $x$ che le soddisfano tutte. Le disequazioni che servono sono quelle di [[01-equazioni-e-disequazioni]].
+Se nella formula ci sono più operazioni «delicate», le condizioni devono valere tutte insieme: si scrive un sistema e si prendono le $x$ che le soddisfano tutte. Le disequazioni che servono sono quelle di [[02-equazioni-e-disequazioni]].
 
 ### Esempi svolti sul dominio
 
@@ -142,7 +142,7 @@ Se nella formula ci sono più operazioni «delicate», le condizioni devono vale
 > 2. $x^2 - 9 = 0 \;\Rightarrow\; x^2 = 9 \;\Rightarrow\; x = 3$ oppure $x = -3$.
 > 3. Questi due valori vanno esclusi. Dominio: $\mathbb{R} \setminus \{-3, 3\}$, cioè $(-\infty, -3) \cup (-3, 3) \cup (3, +\infty)$.
 
-![[04-dominio-esempi.svg|700]]
+![[06-dominio-esempi.svg|700]]
 
 Nel disegno si vede che cosa succede nei punti esclusi. La radice si ferma esattamente in $x = \frac52$: a destra non c'è grafico. La frazione invece ha due «muri» in $x = -3$ e $x = 3$: avvicinandosi a quei valori il denominatore diventa piccolissimo e la frazione schizza verso $+\infty$ o $-\infty$, ma in quei punti non c'è nessun valore.
 
@@ -187,7 +187,7 @@ In pratica si guardano:
 - se il grafico sale o scende senza fermarsi (allora l'immagine arriva a $+\infty$ o a $-\infty$);
 - eventuali buchi o salti.
 
-![[04-immagine-parabola.svg|500]]
+![[06-immagine-parabola.svg|500]]
 
 > [!example] Esempio 4: la parabola $f(x) = (x+1)^2 - 4$
 > (Esercizio 2.)
@@ -217,7 +217,7 @@ In pratica si guardano:
 >
 > Immagine: $[3, +\infty)$.
 
-![[04-immagine-radice.svg|500]]
+![[06-immagine-radice.svg|500]]
 
 Il grafico di $g$ è il grafico di $\sqrt{x}$ (tratteggiato) spostato di $2$ verso destra e di $3$ verso l'alto: il punto di partenza passa da $(0, 0)$ a $(2, 3)$. Queste traslazioni sono spiegate nell'ultima parte della pagina.
 
@@ -236,7 +236,7 @@ Il grafico di $g$ è il grafico di $\sqrt{x}$ (tratteggiato) spostato di $2$ ver
 > 3. Grafico: è la retta $y = x + 2$ senza il punto di ascissa $2$. Su quella retta, sopra $x = 2$, ci sarebbe il punto $(2, 4)$: è il buco.
 > 4. Immagine: la retta $y = x + 2$ raggiunge tutti i numeri reali, tranne il valore che avrebbe preso in $x = 2$, cioè $4$. Immagine: $\mathbb{R} \setminus \{4\}$.
 
-![[04-retta-bucata.svg|460]]
+![[06-retta-bucata.svg|460]]
 
 Nel disegno il buco si indica con un pallino vuoto. Il pallino vuoto verde sull'asse $x$ ricorda che $2$ non è nel dominio, quello arancione sull'asse $y$ che $4$ non è nell'immagine.
 
@@ -260,7 +260,7 @@ Sul grafico c'è un test simile a quello della retta verticale, ma con le rette 
 > [!abstract] Test della retta orizzontale
 > $f$ è iniettiva se e solo se ogni retta orizzontale incontra il suo grafico al massimo in un punto.
 
-![[04-retta-orizzontale.svg|700]]
+![[06-retta-orizzontale.svg|700]]
 
 $x^3$ è iniettiva: ogni retta orizzontale la tocca una volta sola. $x^2$ su tutto $\mathbb{R}$ no: la retta $y = 2$ la tocca in $x = -\sqrt2$ e in $x = \sqrt2$.
 
@@ -291,7 +291,7 @@ Iniettività e suriettività non dipendono solo dalla formula. L'iniettività di
 
 L'esempio da ricordare è $x^2$.
 
-![[04-restrizione-x2.svg|700]]
+![[06-restrizione-x2.svg|700]]
 
 - $x^2: \mathbb{R} \to \mathbb{R}$ non è iniettiva ($(-1)^2 = 1^2$) e non è suriettiva (i numeri negativi del codominio non vengono mai raggiunti).
 - $x^2: \mathbb{R} \to [0, +\infty)$ è suriettiva (ogni $y \ge 0$ è il quadrato di $\sqrt{y}$) ma non iniettiva.
@@ -303,14 +303,14 @@ L'esempio da ricordare è $x^2$.
 > 3. $x^2: [-2, 2] \to [0, 4]$. Non iniettiva: $(-1)^2 = 1^2$, e $-1$ e $1$ stanno entrambi in $[-2, 2]$. Suriettiva: per $x \in [-2, 2]$ i quadrati vanno da $0$ (in $x = 0$) a $4$ (in $x = \pm 2$) e prendono tutti i valori intermedi, quindi l'immagine è $[0, 4]$, uguale al codominio.
 
 > [!example] Esempio: costruire degli esempi (esercizio 13)
-> - Iniettiva ma non suriettiva da $\mathbb{R}$ a $\mathbb{R}$: $f(x) = e^x$. È sempre crescente, quindi iniettiva, ma i suoi valori sono solo positivi: $0$ e i negativi non vengono mai raggiunti (si vede in [[05-funzioni-elementari]]).
+> - Iniettiva ma non suriettiva da $\mathbb{R}$ a $\mathbb{R}$: $f(x) = e^x$. È sempre crescente, quindi iniettiva, ma i suoi valori sono solo positivi: $0$ e i negativi non vengono mai raggiunti (si vede in [[07-funzioni-elementari]]).
 > - Suriettiva ma non iniettiva da $\mathbb{R}$ a $[0, +\infty)$: $f(x) = x^2$ (oppure $|x|$). Raggiunge ogni $y \ge 0$, ma $x$ e $-x$ hanno lo stesso valore.
 
 ### La composizione di funzioni
 
 Due funzioni si possono mettere «in fila», come due macchine: l'uscita della prima diventa l'entrata della seconda.
 
-![[04-composizione.svg|620]]
+![[06-composizione.svg|620]]
 
 > [!abstract] Funzione composta
 > Date $g$ e $f$, la funzione composta $f \circ g$ (si legge «$f$ composto $g$») è
@@ -403,7 +403,7 @@ Per calcolare l'inversa si segue sempre lo stesso procedimento:
 >
 > $T^{-1}(10) = \frac{10 - 4}{2} = 3$. Significato: la funzione $T$ risponde alla domanda «quanto pago per $t$ ore?», l'inversa alla domanda opposta «quante ore ho usato se ho pagato $y$ euro?». Con $10$ euro si sono usate $3$ ore.
 
-![[04-tariffa.svg|500]]
+![[06-tariffa.svg|500]]
 
 Nel grafico l'inversa si legge al contrario: si parte da $10$ sull'asse verticale, si va in orizzontale fino alla retta e si scende sull'asse orizzontale, dove si legge $3$.
 
@@ -416,7 +416,7 @@ Scambiare $x$ e $y$ ha un significato geometrico preciso: i punti $(a, b)$ e $(b
 > [!abstract] Grafico della funzione inversa
 > Il grafico di $f^{-1}$ si ottiene ribaltando il grafico di $f$ rispetto alla retta $y = x$ (come in uno specchio appoggiato su quella retta).
 
-![[04-inversa-bisettrice.svg|700]]
+![[06-inversa-bisettrice.svg|700]]
 
 A sinistra la retta $f(x) = 5 - 2x$ (blu) e la sua inversa (rossa): il punto $(1, 3)$ della prima corrisponde al punto $(3, 1)$ della seconda, e il segmento tratteggiato che li unisce è perpendicolare alla bisettrice. A destra il ramo di parabola $y = x^2$ con $x \ge 0$ e la sua inversa $y = \sqrt{x}$: $(2, 4)$ diventa $(4, 2)$.
 
@@ -442,7 +442,7 @@ Quando una funzione non è iniettiva non ha inversa, ma si può restringere il d
 >
 > Controllo: con la prima scelta $f^{-1}(4) = 1 + 2 = 3$, e infatti $f(3) = (3-1)^2 = 4$. Con la seconda $f^{-1}(4) = 1 - 2 = -1$, e $f(-1) = (-2)^2 = 4$.
 
-![[04-restrizione-x-meno-1.svg|700]]
+![[06-restrizione-x-meno-1.svg|700]]
 
 ### Un esercizio completo del professore: $f(x) = \sqrt{x^2 - x} - x$
 
@@ -473,7 +473,7 @@ bisogna trovare, in quest'ordine:
 > - tutti e due $\ge 0$: $x \ge 0$ e $x \ge 1$, cioè $x \ge 1$;
 > - tutti e due $\le 0$: $x \le 0$ e $x \le 1$, cioè $x \le 0$.
 >
-> Lo stesso risultato si ottiene con la tabella dei segni di [[01-equazioni-e-disequazioni]]: $x$ cambia segno in $0$, $x - 1$ in $1$, e il prodotto è positivo fuori dall'intervallo $(0, 1)$.
+> Lo stesso risultato si ottiene con la tabella dei segni di [[02-equazioni-e-disequazioni]]: $x$ cambia segno in $0$, $x - 1$ in $1$, e il prodotto è positivo fuori dall'intervallo $(0, 1)$.
 >
 > $$
 > D = (-\infty, 0\,] \cup [\,1, +\infty) .
@@ -546,7 +546,7 @@ Per l'immagine il professore usa il metodo «al contrario»: invece di chiedersi
 
 La condizione $x + y \ge 0$ non è un dettaglio. Elevando al quadrato si possono aggiungere soluzioni false, perché anche un numero negativo, elevato al quadrato, diventa positivo. Per esempio con $y = -2$ il punto 6 dà $x = -\frac{4}{-3} = \frac43$; ma $x + y = \frac43 - 2 = -\frac23 < 0$, e infatti $f\left(\frac43\right) = \sqrt{\frac{16}{9} - \frac{4}{3}} - \frac43 = \frac23 - \frac43 = -\frac23$, non $-2$. Senza la condizione si sarebbe concluso, sbagliando, che $-2$ sta nell'immagine.
 
-![[04-esercizio-radice.svg|640]]
+![[06-esercizio-radice.svg|640]]
 
 Il grafico conferma i conti. Il ramo di sinistra parte da $(0, 0)$ e sale senza limite quando $x$ va verso $-\infty$: dà l'immagine $[0, +\infty)$. Il ramo di destra parte da $(1, -1)$ e sale avvicinandosi sempre di più alla retta tratteggiata $y = -\frac12$ senza mai toccarla (una retta così si chiama *asintoto*): dà l'immagine $[-1, -\frac12)$, con $-1$ compreso e $-\frac12$ escluso.
 
@@ -604,7 +604,7 @@ Alcuni grafici sono simmetrici, e la simmetria si riconosce dalla formula confro
 
 Il motivo della simmetria è semplice. Se $f$ è pari, i punti $(a, f(a))$ e $(-a, f(a))$ stanno tutti e due sul grafico: hanno la stessa altezza e sono uno lo specchio dell'altro rispetto all'asse $y$. Se $f$ è dispari, con $(a, f(a))$ c'è anche $(-a, -f(a))$, che è il punto opposto rispetto all'origine.
 
-![[04-pari-dispari.svg|700]]
+![[06-pari-dispari.svg|700]]
 
 > [!example] Esempio: stabilire la parità (esercizio 9)
 > 1. $f(x) = x^4 - 2x^2$. Dominio $\mathbb{R}$, simmetrico. $f(-x) = (-x)^4 - 2(-x)^2 = x^4 - 2x^2 = f(x)$. Pari.
@@ -631,7 +631,7 @@ Il motivo della simmetria è semplice. Se $f$ è pari, i punti $(a, f(a))$ e $(-
 
 Una funzione sempre crescente (o sempre decrescente) su tutto il dominio è iniettiva: se $x_1 < x_2$ allora $f(x_1) < f(x_2)$, quindi i valori sono per forza diversi. È un modo comodo per dimostrare l'iniettività: $x^3$ e $5 - 2x$ sono iniettive perché sono monotone.
 
-![[04-monotonia.svg|700]]
+![[06-monotonia.svg|700]]
 
 > [!example] Esempio: intervalli di monotonia (esercizio 10)
 > 1. $(x + 2)^2$ è una parabola con il vertice in $(-2, 0)$ e i rami verso l'alto. Decrescente su $(-\infty, -2]$, crescente su $[-2, +\infty)$.
@@ -650,7 +650,7 @@ Conoscendo il grafico di poche funzioni di base ($x^2$, $|x|$, $\sqrt{x}$, $x^3$
 > - $y = f(x) + b$: si sposta di $b$ verso l'alto.
 > - $y = f(x) - b$: si sposta di $b$ verso il basso.
 
-![[04-traslazioni.svg|700]]
+![[06-traslazioni.svg|700]]
 
 La traslazione verticale è intuitiva: aggiungere $b$ al valore alza ogni punto di $b$. Quella orizzontale sembra «al contrario» (con il meno si va a destra), ma c'è un motivo. Il grafico di $f(x - 2)$ in $x = 2$ vale $f(0)$: quello che $f$ faceva in $0$, la nuova funzione lo fa in $2$, cioè $2$ passi più a destra. Per $x^2$, il vertice che stava in $x = 0$ si trova ora in $x = 2$, dove $x - 2 = 0$.
 
@@ -666,7 +666,7 @@ La traslazione verticale è intuitiva: aggiungere $b$ al valore alza ogni punto 
 > - $y = -f(x)$: il grafico si ribalta rispetto all'asse $x$ (ciò che stava sopra va sotto e viceversa).
 > - $y = f(-x)$: il grafico si ribalta rispetto all'asse $y$ (destra e sinistra si scambiano).
 
-![[04-riflessioni.svg|700]]
+![[06-riflessioni.svg|700]]
 
 Con $-f(x)$ ogni valore cambia segno, quindi ogni punto $(x, y)$ diventa $(x, -y)$. Con $f(-x)$ quello che $f$ faceva in $3$ la nuova funzione lo fa in $-3$, quindi ogni punto $(x, y)$ diventa $(-x, y)$. Per $\sqrt{x}$: $-\sqrt{x}$ è lo stesso ramo capovolto verso il basso, $\sqrt{-x}$ è lo stesso ramo girato verso sinistra (il dominio diventa $x \le 0$).
 
@@ -682,7 +682,7 @@ Il valore assoluto rende positivo ciò che è negativo: $|5| = 5$, $|-5| = 5$. A
 > - $y = k\,f(x)$ con $0 < k < 1$: il grafico si schiaccia in verticale.
 > - $y = f(kx)$ con $k > 1$: il grafico si stringe in orizzontale verso l'asse $y$; con $0 < k < 1$ si allarga.
 
-![[04-valore-assoluto-dilatazioni.svg|700]]
+![[06-valore-assoluto-dilatazioni.svg|700]]
 
 A sinistra $x^2 - 4$ (tratteggiata) è negativa tra $-2$ e $2$; in $|x^2 - 4|$ quell'arco viene capovolto verso l'alto. A destra $3x^2$ è più stretta di $x^2$ perché ogni altezza è triplicata; $\frac{x^2}{2}$ è più larga perché ogni altezza è dimezzata. Per una parabola allungare in verticale e stringere in orizzontale danno lo stesso effetto: $3x^2 = (\sqrt3\, x)^2$.
 
@@ -702,7 +702,7 @@ Quando la formula contiene più operazioni, si parte dalla funzione di base e si
 > - Immagine: $|x+1| \ge 0$, quindi $|x+1| - 2 \ge -2$. Immagine $[-2, +\infty)$.
 > - Monotonia: decrescente su $(-\infty, -1]$, crescente su $[-1, +\infty)$.
 
-![[04-esercizio-11.svg|720]]
+![[06-esercizio-11.svg|720]]
 
 > [!example] Esempio: $y = -(x - 1)^2 + 4$ (esercizio 12)
 > 1. Si parte da $y = x^2$.
@@ -713,18 +713,18 @@ Quando la formula contiene più operazioni, si parte dalla funzione di base e si
 > - Immagine: $(x-1)^2 \ge 0$, quindi $-(x-1)^2 \le 0$ e $-(x-1)^2 + 4 \le 4$. Il vertice $(1, 4)$ è il punto più alto e i rami scendono senza limite: immagine $(-\infty, 4]$.
 > - Zeri: $-(x-1)^2 + 4 = 0 \Rightarrow (x-1)^2 = 4 \Rightarrow x - 1 = \pm 2$, cioè $x = 3$ e $x = -1$.
 
-![[04-esercizio-12.svg|460]]
+![[06-esercizio-12.svg|460]]
 
 > [!warning] Errore tipico
 > In $f(x - a)$ il segno inganna: $(x - 1)^2$ va a destra, $(x + 1)^2$ va a sinistra. Per non sbagliare, chiediti dove si annulla la parentesi: $(x - 1)$ si annulla in $x = 1$, quindi il vertice è in $x = 1$.
 
 ## Collegamenti
 
-Il dominio naturale si trova risolvendo le equazioni e le disequazioni di [[01-equazioni-e-disequazioni|equazioni e disequazioni]]: ogni condizione (denominatore diverso da zero, radicando non negativo) è una disequazione, e quando le condizioni sono più di una si risolve un sistema. Anche gli zeri di una funzione e il calcolo dell'immagine si riducono a equazioni.
+Il dominio naturale si trova risolvendo le equazioni e le disequazioni di [[02-equazioni-e-disequazioni|equazioni e disequazioni]]: ogni condizione (denominatore diverso da zero, radicando non negativo) è una disequazione, e quando le condizioni sono più di una si risolve un sistema. Anche gli zeri di una funzione e il calcolo dell'immagine si riducono a equazioni.
 
-Molti grafici di questa pagina sono figure già incontrate in [[02-retta-e-circonferenza|retta e circonferenza]]. Le funzioni $f(x) = mx + q$ hanno per grafico una retta, con pendenza $m$; le funzioni di secondo grado hanno per grafico una parabola. La circonferenza invece non supera il test della retta verticale e non è il grafico di una funzione: è il primo esempio di curva descritta da un'equazione in $x$ e $y$ che non si può scrivere come $y = f(x)$. Le traslazioni sono le stesse che portano la circonferenza di centro l'origine in quella di centro $(a, b)$; in termini di [[03-i-vettori|vettori]], traslare un grafico vuol dire spostare ogni suo punto dello stesso vettore $(a, b)$.
+Molti grafici di questa pagina sono figure già incontrate in [[03-retta-e-circonferenza|retta e circonferenza]]. Le funzioni $f(x) = mx + q$ hanno per grafico una retta, con pendenza $m$; le funzioni di secondo grado hanno per grafico una parabola. La circonferenza invece non supera il test della retta verticale e non è il grafico di una funzione: è il primo esempio di curva descritta da un'equazione in $x$ e $y$ che non si può scrivere come $y = f(x)$. Le traslazioni sono le stesse che portano la circonferenza di centro l'origine in quella di centro $(a, b)$; in termini di [[05-i-vettori|vettori]], traslare un grafico vuol dire spostare ogni suo punto dello stesso vettore $(a, b)$.
 
-La pagina successiva, [[05-funzioni-elementari|funzioni elementari]], applica tutti questi strumenti alle funzioni esponenziali, logaritmiche e trigonometriche: il logaritmo è l'inversa dell'esponenziale e le funzioni $\arcsin$, $\arccos$, $\arctan$ sono le inverse di seno, coseno e tangente ristrette a un intervallo, esattamente come $\sqrt{x}$ è l'inversa di $x^2$ ristretta a $[0, +\infty)$.
+La pagina successiva, [[07-funzioni-elementari|funzioni elementari]], applica tutti questi strumenti alle funzioni esponenziali, logaritmiche e trigonometriche: il logaritmo è l'inversa dell'esponenziale e le funzioni $\arcsin$, $\arccos$, $\arctan$ sono le inverse di seno, coseno e tangente ristrette a un intervallo, esattamente come $\sqrt{x}$ è l'inversa di $x^2$ ristretta a $[0, +\infty)$.
 
 Per Architettura le funzioni sono il linguaggio con cui si descrive come una grandezza dipende da un'altra: l'area di un ambiente in funzione del lato, il costo in funzione del tempo, la pendenza di una rampa. In [[03-proiezioni-ortogonali-punto-e-rette|Geometria descrittiva]] la proiezione ortogonale su un piano è una funzione che a ogni punto dello spazio associa un solo punto del foglio, ma non è iniettiva: tutti i punti della stessa retta proiettante hanno la stessa proiezione. È per questo che una sola proiezione non basta a individuare un punto e il metodo di Monge ne usa due.
 

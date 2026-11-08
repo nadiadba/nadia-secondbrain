@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Le funzioni elementari sono i mattoni con cui si costruiscono quasi tutte le altre funzioni: la retta, le potenze, le radici, l'iperbole, il valore assoluto, la parabola, l'esponenziale, il logaritmo e le funzioni trigonometriche. In classe ci si è fermati proprio all'inizio di questo argomento, quindi questa pagina serve a prepararsi: per ogni funzione si guarda il grafico e si leggono le stesse informazioni (dominio, immagine, monotonia, parità, zeri, asintoti, inversa), e poi si imparano a risolvere le equazioni e le disequazioni che le contengono. Gli esempi svolti vengono quasi tutti dalla seconda pagina del foglio di esercizi del professore.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## RETTE, POTENZE, RADICI E VALORE ASSOLUTO
 
@@ -19,7 +19,7 @@ Le funzioni elementari sono i mattoni con cui si costruiscono quasi tutte le alt
 
 Di ogni funzione elementare bisogna saper disegnare il grafico a memoria, almeno a grandi linee. Dal grafico poi si leggono sempre le stesse otto informazioni, che conviene imparare come una scheda fissa.
 
-Le prime tre sono già note dalla pagina [[04-le-funzioni]]:
+Le prime tre sono già note dalla pagina [[06-le-funzioni]]:
 
 - il *dominio*: i valori di $x$ per cui la formula ha senso;
 - l'*immagine*: i valori di $y$ che la funzione raggiunge davvero;
@@ -52,12 +52,12 @@ Infine, una regola che vale per tutte le inverse: il grafico di $f^{-1}$ è il s
 
 ### La retta e la funzione lineare
 
-La funzione più semplice è la *funzione lineare* $f(x) = mx + q$, il cui grafico è una retta (vista nella pagina [[02-retta-e-circonferenza]]).
+La funzione più semplice è la *funzione lineare* $f(x) = mx + q$, il cui grafico è una retta (vista nella pagina [[03-retta-e-circonferenza]]).
 
 - Il numero $m$ è il *coefficiente angolare* (o pendenza): dice di quanto sale $y$ quando $x$ aumenta di $1$.
 - Il numero $q$ è l'*ordinata all'origine*: il punto in cui la retta taglia l'asse $y$, perché $f(0) = q$.
 
-![[05-rette.svg|480]]
+![[07-rette.svg|480]]
 
 Nel disegno, la retta blu $y = 2x - 1$ ha $m = 2$: spostandosi di $1$ verso destra si sale di $2$ (il triangolino tratteggiato). La retta rossa ha $m = -\frac12$, quindi scende. La retta verde $y = 3$ ha $m = 0$ ed è orizzontale.
 
@@ -82,7 +82,7 @@ Nel disegno, la retta blu $y = 2x - 1$ ha $m = 2$: spostandosi di $1$ verso dest
 
 Le funzioni $f(x) = x^n$ con $n$ intero positivo si dividono in due famiglie, a seconda che $n$ sia pari o dispari. Cominciamo dalle pari: $x^2$, $x^4$, $x^6$, ...
 
-![[05-potenze-pari.svg|380]]
+![[07-potenze-pari.svg|380]]
 
 Elevando a una potenza pari il segno sparisce: $(-2)^2 = 4 = 2^2$. Per questo il grafico è simmetrico rispetto all'asse $y$ e sta tutto sopra l'asse $x$.
 
@@ -100,7 +100,7 @@ Tutte le potenze pari passano per gli stessi tre punti: $(-1, 1)$, $(0, 0)$ e $(
 
 Le potenze dispari $x$, $x^3$, $x^5$, ... conservano il segno: $(-2)^3 = -8$. Il grafico quindi scende nel terzo quadrante ed è simmetrico rispetto all'origine.
 
-![[05-potenze-dispari.svg|360]]
+![[07-potenze-dispari.svg|360]]
 
 Passano tutte per $(-1, -1)$, $(0, 0)$ e $(1, 1)$, e anche qui l'esponente più alto schiaccia il grafico vicino all'origine e lo rende più ripido fuori da $[-1, 1]$.
 
@@ -116,7 +116,7 @@ Passano tutte per $(-1, -1)$, $(0, 0)$ e $(1, 1)$, e anche qui l'esponente più 
 
 La radice quadrata $\sqrt{x}$ è il numero non negativo che, elevato al quadrato, dà $x$. Quindi $\sqrt{9} = 3$ (e non $-3$). È l'inversa di $x^2$ ristretta a $[0, +\infty)$, e infatti i due grafici sono simmetrici rispetto alla bisettrice.
 
-![[05-radice-quadrata.svg|430]]
+![[07-radice-quadrata.svg|430]]
 
 > [!abstract] Scheda di $f(x) = \sqrt{x}$
 > - Dominio: $[0, +\infty)$, perché nessun numero reale al quadrato dà un risultato negativo.
@@ -131,7 +131,7 @@ La radice quadrata $\sqrt{x}$ è il numero non negativo che, elevato al quadrato
 
 La radice cubica invece è definita per ogni numero reale, perché anche un numero negativo ha la sua radice cubica: $\sqrt[3]{-8} = -2$, dato che $(-2)^3 = -8$.
 
-![[05-radice-cubica.svg|500]]
+![[07-radice-cubica.svg|500]]
 
 > [!abstract] Scheda di $f(x) = \sqrt[3]{x}$
 > - Dominio: $\mathbb{R}$. Immagine: $\mathbb{R}$.
@@ -149,7 +149,7 @@ La radice cubica invece è definita per ogni numero reale, perché anche un nume
 
 La funzione $f(x) = \dfrac{1}{x}$ associa a ogni numero il suo reciproco. Il grafico è un'*iperbole* (equilatera) formata da due rami separati.
 
-![[05-iperbole.svg|460]]
+![[07-iperbole.svg|460]]
 
 Per capire la forma basta provare qualche valore. Per $x$ grande il reciproco è piccolo ($\frac{1}{100} = 0{,}01$): il grafico si schiaccia sull'asse $x$. Per $x$ vicino a $0$ il reciproco è enorme ($\frac{1}{0{,}01} = 100$): il grafico schizza verso l'alto. E siccome il reciproco di un numero negativo è negativo, il secondo ramo sta nel terzo quadrante.
 
@@ -184,10 +184,10 @@ Il grafico è una «V» con il vertice nell'origine: per $x \geq 0$ è la retta 
 > - Parità: pari.
 > - Inversa: su $\mathbb{R}$ non esiste ($|-2| = |2|$).
 
-Spostando la «V» con le traslazioni (pagina [[04-le-funzioni]]) si ottengono tutte le funzioni del tipo $|x - a| + b$, con il vertice nel punto $(a, b)$.
+Spostando la «V» con le traslazioni (pagina [[06-le-funzioni]]) si ottengono tutte le funzioni del tipo $|x - a| + b$, con il vertice nel punto $(a, b)$.
 
 > [!example] Esempio: $|x+1| - 2$ (esercizio 11, prima pagina)
-> ![[05-valore-assoluto.svg|440]]
+> ![[07-valore-assoluto-grafico.svg|440]]
 >
 > 1. Si parte da $|x|$ (tratteggiata). Il $+1$ dentro il valore assoluto sposta il grafico di $1$ verso sinistra; il $-2$ fuori lo sposta di $2$ verso il basso. Il vertice va in $(-1, -2)$.
 > 2. Zeri: $|x + 1| - 2 = 0$ significa $|x + 1| = 2$, cioè $x + 1 = 2$ oppure $x + 1 = -2$. Quindi $x = 1$ e $x = -3$.
@@ -207,12 +207,12 @@ Il grafico di una funzione di secondo grado $f(x) = ax^2 + bx + c$ (con $a \neq 
 > $$
 > - Se $a > 0$: l'immagine è $[y_V, +\infty)$; decrescente prima del vertice, crescente dopo.
 > - Se $a < 0$: l'immagine è $(-\infty, y_V]$; crescente prima del vertice, decrescente dopo.
-> - Gli zeri sono le soluzioni dell'equazione di secondo grado $ax^2 + bx + c = 0$ (pagina [[01-equazioni-e-disequazioni]]): due, uno o nessuno a seconda del segno del discriminante $\Delta = b^2 - 4ac$.
+> - Gli zeri sono le soluzioni dell'equazione di secondo grado $ax^2 + bx + c = 0$ (pagina [[02-equazioni-e-disequazioni]]): due, uno o nessuno a seconda del segno del discriminante $\Delta = b^2 - 4ac$.
 >
 > Se la funzione è già scritta nella forma $a(x - h)^2 + k$, il vertice si legge subito: è $(h, k)$.
 
 > [!example] Esempio: $-(x-1)^2 + 4$ (esercizio 12, prima pagina)
-> ![[05-parabola.svg|400]]
+> ![[07-parabola.svg|400]]
 >
 > 1. La funzione è nella forma $a(x - h)^2 + k$ con $a = -1$, $h = 1$, $k = 4$. Quindi il vertice è $V(1, 4)$ e, siccome $a < 0$, la parabola è rivolta verso il basso.
 > 2. Immagine: il vertice è il punto più alto, quindi $(-\infty, 4]$.
@@ -242,7 +242,7 @@ La base deve essere positiva perché con una base negativa molte potenze non han
 
 La *funzione esponenziale* di base $a$ (con $a > 0$ e $a \neq 1$) è $f(x) = a^x$.
 
-![[05-esponenziali.svg|460]]
+![[07-esponenziali.svg|460]]
 
 Si capisce la forma con qualche valore di $2^x$: $2^{-2} = \frac14$, $2^{-1} = \frac12$, $2^0 = 1$, $2^1 = 2$, $2^2 = 4$, $2^3 = 8$. Ogni passo verso destra raddoppia il valore: la crescita è lentissima a sinistra e velocissima a destra. Verso sinistra i valori si dimezzano sempre ma non arrivano mai a zero: l'asse $x$ è un asintoto.
 
@@ -294,11 +294,11 @@ L'argomento deve essere positivo per un motivo preciso: $a^y$ è sempre positivo
 
 Il logaritmo è l'inversa dell'esponenziale, quindi i due grafici sono simmetrici rispetto alla bisettrice $y = x$. Nel disegno ogni punto di $2^x$ ha il suo gemello su $\log_2 x$ con le coordinate scambiate: $(2, 4)$ e $(4, 2)$, $(1, 2)$ e $(2, 1)$, $(0, 1)$ e $(1, 0)$.
 
-![[05-esp-log-simmetrici.svg|480]]
+![[07-esp-log-simmetrici.svg|480]]
 
 Tutta la scheda del logaritmo si ricava da quella dell'esponenziale scambiando $x$ con $y$: il dominio del logaritmo è l'immagine dell'esponenziale, l'asintoto orizzontale $y = 0$ diventa l'asintoto verticale $x = 0$, il punto $(0, 1)$ diventa $(1, 0)$.
 
-![[05-logaritmi.svg|460]]
+![[07-logaritmi.svg|460]]
 
 > [!abstract] Scheda di $f(x) = \log_a x$
 > - Dominio: $(0, +\infty)$. Immagine: $\mathbb{R}$.
@@ -421,7 +421,7 @@ Se la base è maggiore di $1$, la funzione è crescente: il numero più grande h
 
 ### I domini con logaritmi e radici
 
-Gli esercizi sul dominio mettono insieme le condizioni già viste nella pagina [[04-le-funzioni]] con quella nuova del logaritmo.
+Gli esercizi sul dominio mettono insieme le condizioni già viste nella pagina [[06-le-funzioni]] con quella nuova del logaritmo.
 
 > [!abstract] Condizioni per il dominio
 > - Denominatore: diverso da $0$.
@@ -436,7 +436,7 @@ Gli esercizi sul dominio mettono insieme le condizioni già viste nella pagina [
 > - $\sqrt{\ln x}$: servono $x > 0$ (logaritmo) e $\ln x \geq 0$ (radice). Il logaritmo naturale è $\geq 0$ quando $x \geq 1$. Dominio $[1, +\infty)$.
 
 > [!example] Esempio: grafici traslati (esercizio 9, seconda pagina)
-> ![[05-esercizio-esp-log.svg|440]]
+> ![[07-esercizio-esp-log.svg|440]]
 >
 > $2^x - 1$ è il grafico di $2^x$ abbassato di $1$:
 > - dominio $\mathbb{R}$, immagine $(-1, +\infty)$;
@@ -474,7 +474,7 @@ Il *tempo di raddoppio* è il tempo che serve perché il valore diventi il doppi
 > [!example] Esempio: la popolazione (esercizio 8, seconda pagina)
 > $N(t) = 200 \, e^{0{,}04\, t}$. Il tempo di raddoppio è $T = \dfrac{\ln 2}{0{,}04} \approx \dfrac{0{,}693}{0{,}04} \approx 17{,}3$ anni.
 >
-> ![[05-crescita-raddoppio.svg|560]]
+> ![[07-crescita-raddoppio.svg|560]]
 >
 > Dopo $17{,}3$ anni la popolazione è $400$, dopo $34{,}7$ anni è $800$, dopo $52$ anni è $1600$.
 
@@ -491,7 +491,7 @@ Il *tempo di raddoppio* è il tempo che serve perché il valore diventi il doppi
 
 In geometria gli angoli si misurano in gradi; in analisi si usano i *radianti*. Un radiante è l'angolo che, in una circonferenza di raggio $r$, stacca un arco lungo esattamente $r$.
 
-![[05-radiante.svg|420]]
+![[07-radiante.svg|420]]
 
 In generale la misura in radianti di un angolo è il rapporto fra la lunghezza dell'arco e il raggio:
 
@@ -513,11 +513,11 @@ Il vantaggio dei radianti è che sono numeri puri (una lunghezza divisa per una 
 
 ### La circonferenza goniometrica: seno, coseno e tangente
 
-La *circonferenza goniometrica* è la circonferenza di centro l'origine e raggio $1$, di equazione $x^2 + y^2 = 1$ (pagina [[02-retta-e-circonferenza]]). Gli angoli si misurano partendo dal semiasse positivo delle $x$ e girando in senso antiorario; un angolo negativo gira in senso orario.
+La *circonferenza goniometrica* è la circonferenza di centro l'origine e raggio $1$, di equazione $x^2 + y^2 = 1$ (pagina [[03-retta-e-circonferenza]]). Gli angoli si misurano partendo dal semiasse positivo delle $x$ e girando in senso antiorario; un angolo negativo gira in senso orario.
 
 Ogni angolo $\alpha$ individua un punto $P$ sulla circonferenza.
 
-![[05-circonferenza-goniometrica.svg|480]]
+![[07-circonferenza-goniometrica.svg|480]]
 
 > [!abstract] Definizione di seno, coseno e tangente
 > Se $P$ è il punto della circonferenza goniometrica corrispondente all'angolo $\alpha$:
@@ -556,7 +556,7 @@ Per alcuni angoli seno e coseno si calcolano esattamente.
 
 Gli angoli negli altri quadranti si ricavano per simmetria dalla circonferenza: hanno gli stessi valori in valore assoluto, e cambia solo il segno.
 
-![[05-angoli-notevoli.svg|500]]
+![[07-angoli-notevoli.svg|500]]
 
 > [!abstract] Simmetrie utili
 > - $\sin(\pi - \alpha) = \sin\alpha$ e $\cos(\pi - \alpha) = -\cos\alpha$ (simmetria rispetto all'asse $y$)
@@ -577,7 +577,7 @@ La tangente si ripete già dopo mezzo giro, perché $P$ e il punto opposto danno
 
 Mettendo l'angolo $x$ sull'asse orizzontale e il valore sull'asse verticale si ottengono i grafici. Il seno parte da $0$, sale fino a $1$ in $\frac{\pi}{2}$, torna a $0$ in $\pi$, scende a $-1$ in $\frac{3\pi}{2}$ e torna a $0$ in $2\pi$. Il coseno ha la stessa forma, spostata di $\frac{\pi}{2}$ verso sinistra.
 
-![[05-seno-coseno.svg|600]]
+![[07-seno-coseno.svg|600]]
 
 > [!abstract] Schede di seno e coseno
 > $f(x) = \sin x$:
@@ -594,7 +594,7 @@ Mettendo l'angolo $x$ sull'asse orizzontale e il valore sull'asse verticale si o
 >
 > Nessuna delle due ha asintoti, e su tutto $\mathbb{R}$ nessuna delle due è invertibile (ogni valore viene ripetuto infinite volte).
 
-![[05-tangente.svg|520]]
+![[07-tangente.svg|520]]
 
 > [!abstract] Scheda della tangente
 > - Dominio: tutti i numeri tranne $\frac{\pi}{2} + k\pi$ (dove il coseno vale $0$).
@@ -624,7 +624,7 @@ Ognuno dei tre numeri ha un effetto preciso sul grafico.
 > Le stesse formule valgono per $A\sin(Bx) + C$.
 
 > [!example] Esempio: $h(x) = 3\cos(2x) + 2$ (esercizio 10, seconda pagina)
-> ![[05-coseno-trasformato.svg|480]]
+> ![[07-coseno-trasformato.svg|480]]
 >
 > 1. Ampiezza: $|A| = 3$.
 > 2. Periodo: $\frac{2\pi}{2} = \pi$. Il grafico compie un'oscillazione completa fra $0$ e $\pi$, cioè due volte più in fretta di $\cos x$ (tratteggiato).
@@ -649,7 +649,7 @@ Per $\cos x = k$ si usa invece la retta verticale $x = k$: i due punti sono simm
 > Qui $k$ nella parte destra indica un numero intero qualunque. Su $[0, 2\pi]$ si prendono solo le soluzioni che cadono in quell'intervallo; su $\mathbb{R}$ si scrivono tutte, con il $+\,2k\pi$ (o $+\,k\pi$ per la tangente).
 
 > [!example] Esempio: su $[0, 2\pi]$ (esercizio 14, seconda pagina)
-> ![[05-equazione-seno.svg|340]] ![[05-equazione-coseno.svg|340]]
+> ![[07-equazione-seno.svg|340]] ![[07-equazione-coseno.svg|340]]
 >
 > $\sin x = \frac{\sqrt3}{2}$:
 > 1. Dalla tabella, $\sin\frac{\pi}{3} = \frac{\sqrt3}{2}$: prima soluzione $x = \frac{\pi}{3}$.
@@ -688,11 +688,11 @@ Seno, coseno e tangente non sono invertibili su tutto $\mathbb{R}$, perché ripe
 
 Come sempre, ogni grafico è il simmetrico della funzione ristretta rispetto alla bisettrice.
 
-![[05-arcoseno.svg|420]]
+![[07-arcoseno.svg|420]]
 
-![[05-arcocoseno.svg|440]]
+![[07-arcocoseno.svg|440]]
 
-![[05-arcotangente.svg|560]]
+![[07-arcotangente.svg|560]]
 
 > [!example] Esempio: calcolare le inverse (esercizio 11, seconda pagina)
 > - $\arcsin\left(-\frac12\right)$: cerco l'angolo in $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$ con seno $-\frac12$. Siccome $\sin\frac{\pi}{6} = \frac12$ e il seno è dispari, è $-\frac{\pi}{6}$.
@@ -736,7 +736,7 @@ Nelle strade, nelle rampe e nelle coperture la pendenza si indica in percentuale
 
 Il rapporto fra dislivello e spostamento orizzontale è proprio la tangente dell'angolo di inclinazione (ed è anche il coefficiente angolare $m$ della retta che rappresenta la rampa).
 
-![[05-pendenza.svg|560]]
+![[07-pendenza.svg|560]]
 
 > [!abstract] Dalla pendenza all'angolo
 > $$
@@ -753,9 +753,9 @@ Il rapporto fra dislivello e spostamento orizzontale è proprio la tangente dell
 
 ## Collegamenti
 
-Questa pagina chiude la serie di teoria e ne usa quasi tutti gli strumenti. Le nozioni di dominio, immagine, iniettività, funzione inversa e traslazione dei grafici vengono da [[04-le-funzioni]]: qui vengono applicate una funzione alla volta, e la regola della simmetria rispetto alla bisettrice spiega in un colpo solo i grafici della radice, del logaritmo e delle funzioni arco. Gli zeri della parabola, i domini e le disequazioni logaritmiche si riducono alle equazioni e disequazioni di primo e secondo grado di [[01-equazioni-e-disequazioni]], con l'unica regola nuova del verso che si inverte quando la base è minore di $1$.
+Questa pagina chiude la serie di teoria e ne usa quasi tutti gli strumenti. Le nozioni di dominio, immagine, iniettività, funzione inversa e traslazione dei grafici vengono da [[06-le-funzioni]]: qui vengono applicate una funzione alla volta, e la regola della simmetria rispetto alla bisettrice spiega in un colpo solo i grafici della radice, del logaritmo e delle funzioni arco. Gli zeri della parabola, i domini e le disequazioni logaritmiche si riducono alle equazioni e disequazioni di primo e secondo grado di [[02-equazioni-e-disequazioni]], con l'unica regola nuova del verso che si inverte quando la base è minore di $1$.
 
-La funzione lineare è la [[02-retta-e-circonferenza|retta]] già studiata in geometria analitica, e la circonferenza goniometrica è la circonferenza $x^2 + y^2 = 1$ della stessa pagina; il legame più utile è che il coefficiente angolare di una retta è la tangente dell'angolo che la retta forma con l'asse $x$, ed è la stessa idea della pendenza in percentuale. Anche i [[03-i-vettori|vettori]] tornano qui: un versore del piano si scrive sempre come $(\cos\theta, \sin\theta)$, e l'angolo fra due vettori si trova con il prodotto scalare e poi con l'arcocoseno, ed è per questo che l'immagine di $\arccos$ è $[0, \pi]$, proprio l'insieme degli angoli possibili fra due vettori.
+La funzione lineare è la [[03-retta-e-circonferenza|retta]] già studiata in geometria analitica, e la circonferenza goniometrica è la circonferenza $x^2 + y^2 = 1$ della stessa pagina; il legame più utile è che il coefficiente angolare di una retta è la tangente dell'angolo che la retta forma con l'asse $x$, ed è la stessa idea della pendenza in percentuale. Anche i [[05-i-vettori|vettori]] tornano qui: un versore del piano si scrive sempre come $(\cos\theta, \sin\theta)$, e l'angolo fra due vettori si trova con il prodotto scalare e poi con l'arcocoseno, ed è per questo che l'immagine di $\arccos$ è $[0, \pi]$, proprio l'insieme degli angoli possibili fra due vettori.
 
 Nel resto del corso queste funzioni diventano la base per i limiti (gli asintoti), per le derivate (il numero $e$ si giustifica lì) e per lo studio di funzione. In Architettura la trigonometria serve ogni volta che si passa da una pendenza a un angolo (rampe, scale, falde dei tetti), e in Geometria descrittiva l'inclinazione di una retta o di un piano rispetto al piano orizzontale è proprio un angolo di cui la pendenza è la tangente.
 

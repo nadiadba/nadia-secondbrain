@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Con gli insiemi il professore ha aperto il corso, nella prima lezione: dopo aver presentato il programma ha introdotto l'appartenenza, l'inclusione, le operazioni tra insiemi con le loro proprietà, e ha chiuso con un esercizio sugli intervalli della retta reale. Questa pagina riprende quella lezione, con la stessa notazione, e la completa con quello che il programma ufficiale mette all'inizio: i quantificatori e i simboli logici, gli insiemi numerici $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, la dimostrazione che $\sqrt{2}$ è irrazionale, il valore assoluto e gli intervalli. È il linguaggio con cui sono scritte tutte le altre pagine: le soluzioni di una disequazione, il dominio di una funzione, la condizione di parallelismo tra vettori.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## PROGRAMMA DEL CORSO
 
@@ -32,7 +32,7 @@ Nella prima lezione il professore ha presentato il corso con uno schema ad alber
 
 Il programma ufficiale del corso (Istituzioni di Matematiche I) comincia con le stesse cose, scritte in modo più tecnico: "Quantificatori. I numeri: naturali, interi, razionali, reali. Assiomi dei numeri reali. Irrazionalità di $\sqrt{2}$", e subito dopo "Valore assoluto. Densità di $\mathbb{Q}$ in $\mathbb{R}$".
 
-Questa pagina copre proprio quella prima parte. Le altre voci dello schema hanno ciascuna la sua pagina: le equazioni e disequazioni in [[01-equazioni-e-disequazioni]], la geometria del piano in [[02-retta-e-circonferenza]], i vettori in [[03-i-vettori]], le funzioni in [[04-le-funzioni]] e [[05-funzioni-elementari]], le matrici in [[06-le-matrici]].
+Questa pagina copre proprio quella prima parte. Le altre voci dello schema hanno ciascuna la sua pagina: le equazioni e disequazioni in [[02-equazioni-e-disequazioni]], la geometria del piano in [[03-retta-e-circonferenza]], i vettori in [[05-i-vettori]], le funzioni in [[06-le-funzioni]] e [[07-funzioni-elementari]], le matrici in [[04-le-matrici]].
 
 ## IL LINGUAGGIO: SIMBOLI LOGICI E QUANTIFICATORI
 
@@ -68,7 +68,7 @@ Il simbolo $\mid$ (oppure i due punti, oppure "t.c." o "t/c") si legge "tale che
 > [!abstract] Simboli da riconoscere
 > $\forall$ per ogni · $\exists$ esiste · $\exists!$ esiste un unico · $\mid$ oppure t/c tale che · $\in$ appartiene · $\notin$ non appartiene · $\Rightarrow$ implica · $\iff$ se e solo se · $\wedge$ e · $\vee$ o · $\neg$ non
 
-Il professore ha usato il quantificatore "esiste" per la condizione di parallelismo tra vettori, che si trova in [[03-i-vettori]]:
+Il professore ha usato il quantificatore "esiste" per la condizione di parallelismo tra vettori, che si trova in [[05-i-vettori]]:
 
 $$
 \vec v \parallel \vec w \iff \exists\, \lambda \in \mathbb{R}^* \text{ t/c } \vec v = \lambda \vec w
@@ -101,7 +101,7 @@ Gli insiemi si indicano di solito con lettere maiuscole ($A$, $B$, $C$) e gli el
 
 Alla lavagna il professore ha accompagnato ogni simbolo con un disegno: l'insieme è una linea chiusa, gli elementi sono punti dentro o fuori. Questi disegni si chiamano *diagrammi di Eulero-Venn*.
 
-![[07-appartenenza-inclusione.svg|560]]
+![[01-appartenenza-inclusione.svg|560]]
 
 ### Come si descrive un insieme
 
@@ -147,7 +147,7 @@ Come con i numeri si fanno somme e prodotti, con gli insiemi si fanno operazioni
 > - *Differenza*: $A \setminus B = \{x \mid x \in A \wedge x \notin B\}$, gli elementi di $A$ che non stanno in $B$ (alla lavagna è stata chiamata "sottrazione").
 > - *Complementare*: fissato un insieme "ambiente" $U$ che contiene tutto (l'*universo*, spesso $\mathbb{R}$), il complementare di $A$ è $A^c = U \setminus A$, cioè tutto ciò che non sta in $A$.
 
-![[07-operazioni-venn.svg|680]]
+![[01-operazioni-venn.svg|680]]
 
 Due insiemi che non hanno elementi in comune, cioè con $A \cap B = \emptyset$, si dicono *disgiunti*.
 
@@ -206,7 +206,7 @@ $$
 \mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}
 $$
 
-![[07-insiemi-numerici.svg|560]]
+![[01-insiemi-numerici.svg|560]]
 
 Il programma parla anche di "assiomi dei numeri reali": sono le regole di base da cui si parte senza dimostrarle. In parole semplici dicono che in $\mathbb{R}$ valgono le solite regole di somma e prodotto (commutativa, associativa, distributiva, esistenza dello zero, dell'uno, dell'opposto e dell'inverso dei numeri non nulli), che i numeri sono ordinati (dati due numeri diversi, uno è più piccolo dell'altro) e che la retta reale non ha "buchi" (*completezza*). È quest'ultima proprietà a distinguere $\mathbb{R}$ da $\mathbb{Q}$: in $\mathbb{Q}$ manca, per esempio, il numero il cui quadrato è $2$.
 
@@ -223,7 +223,7 @@ Perché in $\vec v = \lambda \vec w$ si chiede $\lambda \in \mathbb{R}^*$ e non 
 
 I numeri reali si rappresentano su una retta: si fissano un punto per lo $0$, un verso (di solito verso destra) e un'unità di misura. Allora a ogni numero reale corrisponde un punto, e a ogni punto un numero reale. I numeri più grandi stanno a destra.
 
-![[07-retta-reale.svg|620]]
+![[01-retta-reale.svg|620]]
 
 Sulla retta i razionali sono "dappertutto": tra due numeri reali qualsiasi, per quanto vicini, c'è sempre un razionale (e anzi infiniti). Questa è la *densità di $\mathbb{Q}$ in $\mathbb{R}$*, citata nel programma. Eppure i razionali da soli non riempiono la retta: restano i punti irrazionali, come $\sqrt{2}$.
 
@@ -267,7 +267,7 @@ Il segno meno nella seconda riga spaventa, ma serve proprio a togliere il segno:
 
 Geometricamente $|x|$ è la distanza del punto $x$ dallo $0$ sulla retta reale, e $|a - b|$ è la distanza tra i punti $a$ e $b$. Una distanza non è mai negativa, e infatti $|x| \geq 0$ sempre.
 
-![[07-valore-assoluto.svg|620]]
+![[01-valore-assoluto-insiemi.svg|620]]
 
 > [!abstract] Proprietà del valore assoluto
 > - $|x| \geq 0$, e $|x| = 0 \iff x = 0$
@@ -286,7 +286,7 @@ L'ultima proprietà evita un errore frequente: $\sqrt{(-3)^2} = \sqrt{9} = 3$, n
 > - $\{x \in \mathbb{R} \mid |x| < 2\}$ sono i punti a distanza minore di $2$ dallo zero: $-2 < x < 2$.
 > - $\{x \in \mathbb{R} \mid |x - 1| \leq 3\}$ sono i punti a distanza al massimo $3$ da $1$: $-2 \leq x \leq 4$.
 >
-> Le equazioni e disequazioni con il valore assoluto sono svolte in [[01-equazioni-e-disequazioni]]; la distanza nel piano, che generalizza $|a - b|$, è in [[02-retta-e-circonferenza]].
+> Le equazioni e disequazioni con il valore assoluto sono svolte in [[02-equazioni-e-disequazioni]]; la distanza nel piano, che generalizza $|a - b|$, è in [[03-retta-e-circonferenza]].
 
 ## GLI INTERVALLI
 
@@ -300,7 +300,7 @@ La notazione segue una regola sola:
 - la parentesi tonda $(\;)$ vuol dire che l'estremo è escluso (intervallo *aperto* da quella parte);
 - $+\infty$ e $-\infty$ vogliono sempre la tonda, perché non sono numeri e non possono essere "compresi".
 
-![[07-intervalli.svg|680]]
+![[01-intervalli.svg|680]]
 
 > [!abstract] Intervalli
 > - $[a, b] = \{x \in \mathbb{R} \mid a \leq x \leq b\}$ chiuso
@@ -353,7 +353,7 @@ Alla fine della prima lezione il professore ha proposto un esercizio che mette i
 > X \cap Y \cap Z = \{x \in \mathbb{R} \mid \pi \leq x < \tfrac{7}{2}\} = [\pi, \tfrac{7}{2})
 > $$
 
-![[07-esercizio-intervalli.svg|640]]
+![[01-esercizio-intervalli.svg|640]]
 
 Il metodo vale per ogni intersezione di intervalli: a sinistra vince l'estremo sinistro più grande, a destra l'estremo destro più piccolo; per decidere se un estremo è compreso si guarda l'insieme da cui viene. Se l'estremo sinistro risultasse più grande di quello destro, le righe non si sovrapporrebbero e l'intersezione sarebbe vuota.
 
@@ -362,9 +362,9 @@ Il metodo vale per ogni intersezione di intervalli: a sinistra vince l'estremo s
 
 ## Collegamenti
 
-Il linguaggio degli insiemi e degli intervalli è quello con cui si scrivono i risultati di tutto il corso. In [[01-equazioni-e-disequazioni|equazioni e disequazioni]] le soluzioni di una disequazione sono un intervallo o un'unione di intervalli, la "o" tra due pezzi diventa il simbolo $\cup$ e un sistema di disequazioni è un'intersezione, risolta con lo stesso disegno a righe sovrapposte dell'esercizio del professore; il valore assoluto, introdotto qui come distanza, diventa lo strumento per risolvere equazioni e disequazioni con le sbarrette. In [[02-retta-e-circonferenza|retta e circonferenza]] la distanza $|a - b|$ sulla retta si allarga alla distanza tra due punti del piano, e una circonferenza è l'insieme dei punti $\{P \mid \overline{PC} = r\}$, descritto proprio con una proprietà caratteristica.
+Il linguaggio degli insiemi e degli intervalli è quello con cui si scrivono i risultati di tutto il corso. In [[02-equazioni-e-disequazioni|equazioni e disequazioni]] le soluzioni di una disequazione sono un intervallo o un'unione di intervalli, la "o" tra due pezzi diventa il simbolo $\cup$ e un sistema di disequazioni è un'intersezione, risolta con lo stesso disegno a righe sovrapposte dell'esercizio del professore; il valore assoluto, introdotto qui come distanza, diventa lo strumento per risolvere equazioni e disequazioni con le sbarrette. In [[03-retta-e-circonferenza|retta e circonferenza]] la distanza $|a - b|$ sulla retta si allarga alla distanza tra due punti del piano, e una circonferenza è l'insieme dei punti $\{P \mid \overline{PC} = r\}$, descritto proprio con una proprietà caratteristica.
 
-Nei [[03-i-vettori|vettori]] la condizione di parallelismo $\vec v = \lambda \vec w$ con $\lambda \in \mathbb{R}^*$ usa il quantificatore "esiste" e la notazione dei reali senza lo zero. Nelle [[04-le-funzioni|funzioni]] dominio e insieme immagine sono insiemi, quasi sempre intervalli o unioni di intervalli, e la funzione stessa, che il professore ha disegnato già nella prima lezione come frecce da un insieme a un altro, è una corrispondenza tra insiemi; nelle [[05-funzioni-elementari|funzioni elementari]] si vede che cosa succede alle potenze quando l'esponente passa dai naturali ai razionali e ai reali. Anche le [[06-le-matrici|matrici]] si descrivono come insiemi: le matrici $2 \times 2$ a elementi reali formano un insieme in cui somma e prodotto hanno proprietà simili, ma non identiche, a quelle dei numeri (il prodotto, per esempio, non è commutativo).
+Nei [[05-i-vettori|vettori]] la condizione di parallelismo $\vec v = \lambda \vec w$ con $\lambda \in \mathbb{R}^*$ usa il quantificatore "esiste" e la notazione dei reali senza lo zero. Nelle [[06-le-funzioni|funzioni]] dominio e insieme immagine sono insiemi, quasi sempre intervalli o unioni di intervalli, e la funzione stessa, che il professore ha disegnato già nella prima lezione come frecce da un insieme a un altro, è una corrispondenza tra insiemi; nelle [[07-funzioni-elementari|funzioni elementari]] si vede che cosa succede alle potenze quando l'esponente passa dai naturali ai razionali e ai reali. Anche le [[04-le-matrici|matrici]] si descrivono come insiemi: le matrici $2 \times 2$ a elementi reali formano un insieme in cui somma e prodotto hanno proprietà simili, ma non identiche, a quelle dei numeri (il prodotto, per esempio, non è commutativo).
 
 ## Per approfondire
 

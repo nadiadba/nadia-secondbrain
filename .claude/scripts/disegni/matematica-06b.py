@@ -1,88 +1,62 @@
-"""Disegni aggiunti alla bozza di matematica 06 - Le matrici e il determinante.
+#!/usr/bin/env python3
+"""Disegni aggiunti alla bozza di matematica 04-le-funzioni.
 
-La regola di Sarrus come la fa il professore: linee disegnate direttamente sulla
-matrice 3x3, senza ricopiare le colonne (appunti di Nadia, foto 05).
+L'esercizio del professore f(x) = sqrt(x^2 - x) - x (appunti di Nadia, foto 11):
+grafico con dominio, immagine e asintoto orizzontale.
 
 Uso: python3 -I .claude/scripts/disegni/matematica-06b.py
-Scrive gli SVG in anno-1/semestre-1/matematica/bozze/img/ (prefisso 06-).
+Le immagini SVG vanno in anno-1/semestre-1/matematica/bozze/img/ (prefisso 06-).
 Nessuna dipendenza esterna: riusa le primitive di matematica-06.py.
 """
 import importlib.util
+import math
 import os
 
 QUI = os.path.dirname(os.path.abspath(__file__))
-_spec = importlib.util.spec_from_file_location("m06", os.path.join(QUI, "matematica-06.py"))
-m06 = importlib.util.module_from_spec(_spec)
-_spec.loader.exec_module(m06)
+_spec = importlib.util.spec_from_file_location("m04", os.path.join(QUI, "matematica-06.py"))
+m04 = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(m04)
 
-Tela, linea_px = m06.Tela, m06.linea_px
-FONT = m06.m03.FONT
-ROSA = "#d6336c"
-SCURO = "#34495e"
-
-def nome(i, j):
-    return "a_%d,%d_" % (i, j)
+SVG, Grafico = m04.SVG, m04.Grafico
+BLU, VERDE, ARANCIO, GRIGIO, ROSSO = m04.BLU, m04.VERDE, m04.ARANCIO, m04.GRIGIO, m04.ROSSO
 
 
-def mini_matrice(t, x0, y0, termine, colore, titolo):
-    """Matrice 3x3 di elementi a_ij; i tre elementi del termine sono cerchiati e uniti
-    da linee nell'ordine in cui il professore li scrive (termine = lista di (i, j))."""
-    cw, ch = 66, 50
-    centro = lambda i, j: (x0 + (j - 0.5) * cw, y0 + (i - 0.5) * ch)
-    # linee: spezzata chiusa (triangolo) o retta (diagonale) attraverso i tre elementi
-    pts = [centro(i, j) for i, j in termine]
-    allineati = abs((pts[1][0] - pts[0][0]) * (pts[2][1] - pts[0][1])
-                    - (pts[1][1] - pts[0][1]) * (pts[2][0] - pts[0][0])) < 1e-6
-    if allineati:
-        ordinati = sorted(pts)
-        linea_px(t, ordinati[0][0], ordinati[0][1], ordinati[-1][0], ordinati[-1][1], colore, sw=3, op=0.75)
-    else:
-        p = " ".join("%.1f,%.1f" % q for q in pts)
-        t.el.append('<polygon points="%s" fill="%s" fill-opacity="0.08" stroke="%s" stroke-width="3" '
-                    'stroke-opacity="0.75" stroke-linejoin="round"/>' % (p, colore, colore))
-    scelti = set(termine)
-    for i in (1, 2, 3):
-        for j in (1, 2, 3):
-            cx, cy = centro(i, j)
-            if (i, j) in scelti:
-                t.el.append('<ellipse cx="%.1f" cy="%.1f" rx="26" ry="17" fill="white" stroke="%s" '
-                            'stroke-width="2.4"/>' % (cx, cy, colore))
-                col, peso = colore, ' font-weight="bold"'
-            else:
-                col, peso = "#aaaaaa", ""
-            t.el.append('<text x="%.1f" y="%.1f" font-family="%s" font-size="17" text-anchor="middle" '
-                        'fill="%s"%s>%s</text>' % (cx - 2, cy + 4, FONT, col, peso, m06.m03.fmt_label(nome(i, j))))
-    # parentesi tonde
-    W, H = 3 * cw, 3 * ch
-    for xe, xc in ((x0 - 4, x0 - 20), (x0 + W + 4, x0 + W + 20)):
-        t.el.append('<path d="M %.1f,%.1f Q %.1f,%.1f %.1f,%.1f" fill="none" stroke="#222" stroke-width="2"/>'
-                    % (xe, y0 - 4, xc, y0 + H / 2, xe, y0 + H + 4))
-    t.testo_px(x0 + W / 2, y0 + H + 34, titolo, col=colore, size=17)
+def f(x):
+    r = x * x - x
+    if r < 0:
+        return None
+    return math.sqrt(r) - x
 
 
-def sarrus_sulla_matrice():
-    """Le sei moltiplicazioni di Sarrus disegnate sulla matrice, nell'ordine del professore."""
-    t = Tela(900, 580)
-    piu = [
-        ([(1, 1), (2, 2), (3, 3)], "+ a_1,1_ a_2,2_ a_3,3_"),
-        ([(2, 3), (1, 2), (3, 1)], "+ a_2,3_ a_1,2_ a_3,1_"),
-        ([(2, 1), (3, 2), (1, 3)], "+ a_2,1_ a_3,2_ a_1,3_"),
-    ]
-    meno = [
-        ([(1, 3), (2, 2), (3, 1)], "− a_1,3_ a_2,2_ a_3,1_"),
-        ([(2, 1), (1, 2), (3, 3)], "− a_2,1_ a_1,2_ a_3,3_"),
-        ([(3, 2), (2, 3), (1, 1)], "− a_3,2_ a_2,3_ a_1,1_"),
-    ]
-    t.testo_px(450, 30, "Segno +: la diagonale principale e i due triangoli «paralleli» a lei",
-               col=ROSA, size=17)
-    for k, (term, tit) in enumerate(piu):
-        mini_matrice(t, 70 + k * 290, 55, term, ROSA, tit)
-    t.testo_px(450, 318, "Segno −: l'altra diagonale e i due triangoli «paralleli» a lei",
-               col=SCURO, size=17)
-    for k, (term, tit) in enumerate(meno):
-        mini_matrice(t, 70 + k * 290, 343, term, SCURO, tit)
-    t.salva("06-sarrus-sulla-matrice.svg")
+def esercizio_radice():
+    s = SVG(760, 540)
+    g = Grafico(s, 60, 30, 640, 470, (-3, 6.5), (-1.8, 5.2))
+    # asintoto orizzontale y = -1/2 (solo dove serve, a destra)
+    g.tratteggio(0.4, -0.5, 6.5, -0.5, GRIGIO)
+    g.scritta(6.4, -0.5, "asintoto y = −1/2", GRIGIO, "end", dy=26, size=13, italic=True)
+    # dominio sull'asse x, immagine sull'asse y
+    g.banda_x(-3, 0, VERDE, freccia_a=True)
+    g.banda_x(1, 6.5, VERDE, freccia_b=True)
+    g.banda_y(-1, -0.5, ARANCIO, chiusoa=True, chiusob=False)
+    g.banda_y(0, 5.2, ARANCIO, freccia_b=True)
+    # il grafico
+    g.curva(f, -3, 0, BLU, n=1500)
+    g.curva(f, 1, 6.5, BLU, n=1500)
+    g.punto(0, 0, BLU)
+    g.punto(1, -1, BLU)
+    g.tratteggio(1, 0, 1, -1)
+    g.tratteggio(0, -1, 1, -1)
+    g.scritta(1, -1, "(1, −1)", BLU, "start", dx=8, dy=16, size=14)
+    g.scritta(-1, f(-1), "(−1, 1 + √2)", BLU, "end", dx=-10, dy=8, size=13)
+    g.punto(-1, f(-1), BLU, r=4)
+    g.scritta(2.2, 3.6, "f(x) = √(x² − x) − x", BLU, "start", size=16, italic=True)
+    # didascalie
+    g.scritta(-1.6, 0, "dominio (−∞, 0]", VERDE, "middle", dy=-12, size=13, bold=True)
+    g.scritta(5.2, 0, "dominio [1, +∞)", VERDE, "middle", dy=-12, size=13, bold=True)
+    g.scritta(0, 4.4, "immagine [0, +∞)", ARANCIO, "start", dx=12, size=13, bold=True)
+    g.scritta(0, -0.75, "immagine [−1, −1/2)", ARANCIO, "end", dx=-12, dy=5, size=13, bold=True)
+    s.save("06-esercizio-radice.svg")
 
 
 if __name__ == "__main__":
-    sarrus_sulla_matrice()
+    esercizio_radice()

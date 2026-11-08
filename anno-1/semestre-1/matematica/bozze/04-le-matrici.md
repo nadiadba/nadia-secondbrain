@@ -8,10 +8,10 @@ tags: [matematica, bozza]
 
 # Le matrici e il determinante
 
-Una matrice è una tabella di numeri ordinati in righe e colonne. Il professore l'ha introdotta in classe seguendo questo percorso: prima come si indicano gli elementi, poi la somma, poi il prodotto riga per colonna con le sue proprietà (e un esempio svolto), infine il determinante di una matrice quadrata, calcolato per le matrici 2×2 e 3×3 con la regola di Sarrus e con i complementi algebrici. La pagina segue lo stesso ordine e usa la stessa notazione della lavagna. Qua e là ci sono alcuni complementi (tipi di matrici, proprietà del determinante, significato geometrico), segnalati come tali: servono a capire meglio, e in fondo c'è un cenno a matrice inversa e sistemi lineari per chi vuole andare oltre. Il determinante non è del tutto nuovo: è già comparso in [[03-i-vettori]] per calcolare aree, prodotto vettoriale e volumi.
+Una matrice è una tabella di numeri ordinati in righe e colonne. Il professore l'ha introdotta in classe seguendo questo percorso: prima come si indicano gli elementi, poi la somma, poi il prodotto riga per colonna con le sue proprietà (e un esempio svolto), infine il determinante di una matrice quadrata, calcolato per le matrici 2×2 e 3×3 con la regola di Sarrus e con i complementi algebrici. La pagina segue lo stesso ordine e usa la stessa notazione della lavagna. Qua e là ci sono alcuni complementi (tipi di matrici, proprietà del determinante, significato geometrico), segnalati come tali: servono a capire meglio, e in fondo c'è un cenno a matrice inversa e sistemi lineari per chi vuole andare oltre. Il determinante non è del tutto nuovo: è già comparso in [[05-i-vettori]] per calcolare aree, prodotto vettoriale e volumi.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## LE MATRICI
 
@@ -87,7 +87,7 @@ In formula: $a_{ij} = 0$ ogni volta che $i \neq j$. La matrice identità è la m
 > $$
 > La prima riga $(2, 1, 0)$ è diventata la prima colonna, la seconda riga $(-2, 0, -1)$ la seconda colonna. Le proprietà della trasposta, che coinvolgono anche il prodotto, sono più avanti, alla fine della parte sul prodotto riga per colonna.
 
-Un vettore si può vedere come una matrice con una sola riga, $(1 \ \ 2 \ \ {-1})$, o con una sola colonna. È il legame tra questa pagina e [[03-i-vettori]].
+Un vettore si può vedere come una matrice con una sola riga, $(1 \ \ 2 \ \ {-1})$, o con una sola colonna. È il legame tra questa pagina e [[05-i-vettori]].
 
 ### La somma
 
@@ -130,7 +130,7 @@ Il prodotto tra due matrici non si fa elemento per elemento. Si fa *riga per col
 > 2. si moltiplicano il primo elemento della riga con il primo della colonna, il secondo con il secondo, e così via;
 > 3. si sommano tutti questi prodotti.
 
-Il conto del punto 2 e 3 è lo stesso del prodotto scalare di [[03-i-vettori]]: "primo per primo, più secondo per secondo, più ...". Quindi ogni elemento di $A \cdot B$ è il prodotto scalare di una riga di $A$ per una colonna di $B$.
+Il conto del punto 2 e 3 è lo stesso del prodotto scalare di [[05-i-vettori]]: "primo per primo, più secondo per secondo, più ...". Quindi ogni elemento di $A \cdot B$ è il prodotto scalare di una riga di $A$ per una colonna di $B$.
 
 Per due matrici 2×2 il professore ha scritto lo schema dei quattro posti:
 
@@ -140,7 +140,7 @@ $$
 
 Il numero della riga del risultato è quello della riga di $A$ che si usa; il numero della colonna è quello della colonna di $B$.
 
-![[06-prodotto-riga-colonna.svg|640]]
+![[04-prodotto-riga-colonna.svg|640]]
 
 > [!example] Esempio della lavagna
 > $$
@@ -169,7 +169,7 @@ Perché "primo per primo, secondo per secondo" funzioni, la riga di $A$ e la col
 > $$
 > Il risultato ha tante righe quante $A$ e tante colonne quante $B$.
 
-![[06-tipi-prodotto.svg|560]]
+![[04-tipi-prodotto.svg|560]]
 
 Un modo semplice di ricordarlo: si scrivono i due tipi uno accanto all'altro, $2 \times \underline{3} \cdot \underline{3} \times 4$. I due numeri interni devono essere uguali, i due esterni danno il tipo del risultato ($2 \times 4$).
 
@@ -207,7 +207,7 @@ La matrice identità si comporta come il numero $1$: $A \cdot I = I \cdot A = A$
 
 ### Prodotto uguale a $\Omega$
 
-Tra i numeri vale la *legge di annullamento del prodotto*: se $a \cdot b = 0$, allora $a = 0$ oppure $b = 0$ (è quella che si usa per risolvere le equazioni scomposte, vedi [[01-equazioni-e-disequazioni]]). Con le matrici vale solo in una direzione.
+Tra i numeri vale la *legge di annullamento del prodotto*: se $a \cdot b = 0$, allora $a = 0$ oppure $b = 0$ (è quella che si usa per risolvere le equazioni scomposte, vedi [[02-equazioni-e-disequazioni]]). Con le matrici vale solo in una direzione.
 
 > [!abstract] Prodotto nullo
 > - Se $A = \Omega$ oppure $B = \Omega$, allora $A \cdot B = \Omega$.
@@ -228,7 +228,7 @@ Ci sono cioè due matrici entrambe diverse da $\Omega$ il cui prodotto è la mat
 > Né $A$ né $B$ sono la matrice nulla, eppure il prodotto lo è. Il motivo: ogni riga di $A$, $(1, 1)$, è perpendicolare a ogni colonna di $B$, $(1, -1)$ e $(-1, 1)$, e il loro prodotto scalare è zero.
 
 > [!warning] Non "semplificare" le matrici
-> Da $A \cdot B = \Omega$ non si può concludere che una delle due è nulla, e da $A \cdot B = A \cdot C$ non si può concludere che $B = C$. È lo stesso fenomeno del prodotto scalare in [[03-i-vettori]]: $(1, 0) \cdot (0, 1) = 0$ senza che nessuno dei due vettori sia nullo.
+> Da $A \cdot B = \Omega$ non si può concludere che una delle due è nulla, e da $A \cdot B = A \cdot C$ non si può concludere che $B = C$. È lo stesso fenomeno del prodotto scalare in [[05-i-vettori]]: $(1, 0) \cdot (0, 1) = 0$ senza che nessuno dei due vettori sia nullo.
 
 ### Le proprietà della trasposta
 
@@ -284,7 +284,7 @@ Si costruisce partendo dalle matrici più piccole.
 
 Per la 2×2 il professore ha disegnato l'incrocio delle due diagonali: il prodotto della diagonale principale ($a \cdot d$) meno il prodotto dell'altra diagonale ($b \cdot c$).
 
-![[06-diagonali-2x2.svg|400]]
+![[04-diagonali-2x2.svg|400]]
 
 > [!example] Esempio
 > Per le due matrici dell'esempio del prodotto:
@@ -302,7 +302,7 @@ Per una matrice 3×3 il professore ha usato la *regola di Sarrus*, che estende l
 2. Si moltiplicano gli elementi delle tre diagonali che scendono verso destra e si sommano i tre prodotti (segno $+$).
 3. Si moltiplicano gli elementi delle tre diagonali che salgono verso destra e si sottraggono i tre prodotti (segno $-$).
 
-![[06-sarrus.svg|600]]
+![[04-sarrus.svg|600]]
 
 Scritto per esteso, come alla lavagna:
 
@@ -320,7 +320,7 @@ Negli appunti di lezione c'è anche un secondo modo, quello del professore: le l
 
 Negli appunti le linee del $+$ sono di un colore e quelle del $-$ di un altro, tutte sulla stessa matrice. Qui sotto le sei moltiplicazioni sono separate, per vederle meglio.
 
-![[06-sarrus-sulla-matrice.svg|700]]
+![[04-sarrus-sulla-matrice.svg|700]]
 
 > [!abstract] Sarrus sulla matrice, nell'ordine del professore
 > $$
@@ -361,7 +361,7 @@ Negli appunti le linee del $+$ sono di un colore e quelle del $-$ di un altro, t
 > - $a_{32}a_{23}a_{11} = (-1) \cdot 3 \cdot 1 = -3$;
 > - $a_{33}a_{21}a_{12} = 1 \cdot 0 \cdot 2 = 0$.
 >
-> Risultato: $(1 + 12 + 0) - (0 + (-3) + 0) = 13 + 3 = 16$. È lo stesso determinante calcolato con lo sviluppo lungo la prima riga in [[03-i-vettori]].
+> Risultato: $(1 + 12 + 0) - (0 + (-3) + 0) = 13 + 3 = 16$. È lo stesso determinante calcolato con lo sviluppo lungo la prima riga in [[05-i-vettori]].
 
 > [!warning] Sarrus vale solo per le 3×3
 > Per le matrici 4×4 o più grandi le "diagonali" non danno il determinante. Lì serve lo sviluppo con i complementi algebrici (qui sotto), che vale per tutte le matrici quadrate.
@@ -383,7 +383,7 @@ $$
 (-1)^{i+j}: \qquad \begin{pmatrix} + & - & + \\ - & + & - \\ + & - & + \end{pmatrix}
 $$
 
-![[06-schema-segni.svg|520]]
+![[04-schema-segni.svg|520]]
 
 Per esempio al posto $(1, 2)$ si ha $(-1)^{1+2} = (-1)^3 = -1$, come alla lavagna.
 
@@ -402,7 +402,7 @@ Per esempio al posto $(1, 2)$ si ha $(-1)^{1+2} = (-1)^3 = -1$, come alla lavagn
 > 2. $A_{22}$: si tolgono la riga 2 e la colonna 2, resta $\begin{vmatrix} 1 & -5 \\ -1 & 0 \end{vmatrix} = 1 \cdot 0 - (-5)(-1) = 0 - 5 = -5$. Il segno è $(-1)^{2+2} = +1$, quindi $A_{22} = -5$.
 > 3. $A_{12}$: si tolgono la riga 1 e la colonna 2, resta $\begin{vmatrix} 5 & 2 \\ -1 & 0 \end{vmatrix} = 5 \cdot 0 - 2 \cdot (-1) = 2$. Il segno è $(-1)^{1+2} = -1$, quindi $A_{12} = -2$.
 
-![[06-minori.svg|720]]
+![[04-minori.svg|720]]
 
 ### Lo sviluppo di Laplace
 
@@ -423,7 +423,7 @@ $$
 
 Il simbolo $\sum$ (la lettera greca sigma maiuscola) vuol dire "somma". La formula si legge così: si fissa la riga $i$; si fa variare $j$ da $1$ a $n$, cioè si percorrono tutte le colonne; per ogni posto si moltiplica l'elemento $a_{ij}$ per il suo complemento algebrico $A_{ij}$; si sommano tutti questi prodotti. Per una 3×3 ($n = 3$) e la prima riga ($i = 1$) diventa proprio $a_{11}A_{11} + a_{12}A_{12} + a_{13}A_{13}$.
 
-Lo sviluppo lungo la prima riga è quello già usato in [[03-i-vettori]], con i segni $+\,-\,+$.
+Lo sviluppo lungo la prima riga è quello già usato in [[05-i-vettori]], con i segni $+\,-\,+$.
 
 La libertà di scegliere la riga o la colonna è il vero vantaggio del metodo. Un elemento uguale a zero dà un prodotto uguale a zero, qualunque sia il suo complemento algebrico: non serve nemmeno calcolarlo. Quindi conviene scegliere la riga o la colonna con più zeri.
 
@@ -468,7 +468,7 @@ La libertà di scegliere la riga o la colonna è il vero vantaggio del metodo. U
 
 ### Il determinante simbolico e il prodotto vettoriale
 
-Alla lavagna il professore ha usato la regola di Sarrus anche per il prodotto vettoriale di [[03-i-vettori]]. Si scrive un determinante "simbolico" che nella prima riga ha i versori $\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3$ (nello Stewart $\mathbf{i}, \mathbf{j}, \mathbf{k}$) e nelle altre due le componenti dei vettori:
+Alla lavagna il professore ha usato la regola di Sarrus anche per il prodotto vettoriale di [[05-i-vettori]]. Si scrive un determinante "simbolico" che nella prima riga ha i versori $\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3$ (nello Stewart $\mathbf{i}, \mathbf{j}, \mathbf{k}$) e nelle altre due le componenti dei vettori:
 
 $$
 \mathbf{u} \times \mathbf{v} = \begin{vmatrix} \mathbf{e}_1 & \mathbf{e}_2 & \mathbf{e}_3 \\ u_1 & u_2 & u_3 \\ v_1 & v_2 & v_3 \end{vmatrix}.
@@ -485,7 +485,7 @@ Non è un vero determinante (nella prima riga ci sono vettori, non numeri), ma l
 > - verso il basso: $\mathbf{e}_1 \cdot 2 \cdot 2 + \mathbf{e}_2 \cdot (-1) \cdot 3 + \mathbf{e}_3 \cdot 1 \cdot (-1) = 4\mathbf{e}_1 - 3\mathbf{e}_2 - \mathbf{e}_3$;
 > - verso l'alto: $3 \cdot 2 \cdot \mathbf{e}_3 + (-1) \cdot (-1) \cdot \mathbf{e}_1 + 2 \cdot 1 \cdot \mathbf{e}_2 = 6\mathbf{e}_3 + \mathbf{e}_1 + 2\mathbf{e}_2$.
 >
-> Sottraendo: $(4 - 1)\mathbf{e}_1 + (-3 - 2)\mathbf{e}_2 + (-1 - 6)\mathbf{e}_3 = 3\mathbf{e}_1 - 5\mathbf{e}_2 - 7\mathbf{e}_3$, cioè $\mathbf{u} \times \mathbf{v} = (3, -5, -7)$, come in [[03-i-vettori]].
+> Sottraendo: $(4 - 1)\mathbf{e}_1 + (-3 - 2)\mathbf{e}_2 + (-1 - 6)\mathbf{e}_3 = 3\mathbf{e}_1 - 5\mathbf{e}_2 - 7\mathbf{e}_3$, cioè $\mathbf{u} \times \mathbf{v} = (3, -5, -7)$, come in [[05-i-vettori]].
 
 ### Proprietà utili del determinante (complemento)
 
@@ -516,11 +516,11 @@ Il perché delle prime, in breve:
 
 ### Il significato geometrico: aree e volumi (complemento)
 
-Il determinante misura quanto è "grande" la figura costruita sulle righe della matrice. È ciò che si è visto in [[03-i-vettori]].
+Il determinante misura quanto è "grande" la figura costruita sulle righe della matrice. È ciò che si è visto in [[05-i-vettori]].
 
 Per una 2×2, le due righe sono due vettori del piano $\mathbf{u}$ e $\mathbf{v}$. Il valore assoluto del determinante è l'area del parallelogramma che ha per lati $\mathbf{u}$ e $\mathbf{v}$; il segno dice se per andare da $\mathbf{u}$ a $\mathbf{v}$ si gira in senso antiorario ($+$) o orario ($-$).
 
-![[06-area-determinante.svg|460]]
+![[04-area-determinante.svg|460]]
 
 > [!abstract] Aree e volumi con il determinante
 > - Nel piano: area del parallelogramma di lati $\mathbf{u}, \mathbf{v}$ $= \left|\begin{vmatrix} u_1 & u_2 \\ v_1 & v_2 \end{vmatrix}\right|$.
@@ -592,13 +592,13 @@ La matrice $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ si chiama *matrice dei
 > 3. $D_y = \begin{vmatrix} 2 & 5 \\ 1 & 1 \end{vmatrix} = 2 - 5 = -3$, quindi $y = \frac{-3}{-3} = 1$.
 > 4. Verifica: $2 \cdot 2 + 1 = 5$ e $2 - 1 = 1$.
 
-Il significato geometrico si lega a [[02-retta-e-circonferenza]]: ogni equazione è una retta, e la soluzione è il loro punto d'intersezione. $D = 0$ vuol dire che le righe $(a, b)$ e $(c, d)$ sono proporzionali, cioè che le due rette hanno la stessa pendenza: sono parallele (nessuna soluzione) o coincidenti (infinite soluzioni).
+Il significato geometrico si lega a [[03-retta-e-circonferenza]]: ogni equazione è una retta, e la soluzione è il loro punto d'intersezione. $D = 0$ vuol dire che le righe $(a, b)$ e $(c, d)$ sono proporzionali, cioè che le due rette hanno la stessa pendenza: sono parallele (nessuna soluzione) o coincidenti (infinite soluzioni).
 
 ## Collegamenti
 
-Le matrici riprendono quasi tutto quello che si è visto in [[03-i-vettori]]. La somma di matrici e il prodotto per uno scalare sono le stesse operazioni dei vettori, fatte su una tabella invece che su una riga; ogni elemento del prodotto riga per colonna è un prodotto scalare tra una riga e una colonna. Il determinante era già comparso lì: il determinante 2×2 è l'area orientata del parallelogramma, il determinante simbolico con $\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3$ dà il prodotto vettoriale, e il determinante 3×3 è il prodotto triplo, cioè il volume del parallelepipedo e il criterio di complanarità.
+Le matrici riprendono quasi tutto quello che si è visto in [[05-i-vettori]]. La somma di matrici e il prodotto per uno scalare sono le stesse operazioni dei vettori, fatte su una tabella invece che su una riga; ogni elemento del prodotto riga per colonna è un prodotto scalare tra una riga e una colonna. Il determinante era già comparso lì: il determinante 2×2 è l'area orientata del parallelogramma, il determinante simbolico con $\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3$ dà il prodotto vettoriale, e il determinante 3×3 è il prodotto triplo, cioè il volume del parallelepipedo e il criterio di complanarità.
 
-Il prodotto non commutativo e il prodotto nullo tra matrici non nulle mostrano che le regole dei numeri, usate in [[01-equazioni-e-disequazioni]] (come la legge di annullamento del prodotto), non si possono trasportare alle matrici senza controllare. La regola di Cramer è un altro modo di risolvere i sistemi di due equazioni, e il caso $D = 0$ corrisponde a due rette parallele o coincidenti, come in [[02-retta-e-circonferenza]].
+Il prodotto non commutativo e il prodotto nullo tra matrici non nulle mostrano che le regole dei numeri, usate in [[02-equazioni-e-disequazioni]] (come la legge di annullamento del prodotto), non si possono trasportare alle matrici senza controllare. La regola di Cramer è un altro modo di risolvere i sistemi di due equazioni, e il caso $D = 0$ corrisponde a due rette parallele o coincidenti, come in [[03-retta-e-circonferenza]].
 
 Le matrici sono anche il linguaggio delle trasformazioni geometriche: rotazioni, simmetrie, ingrandimenti del piano e dello spazio si scrivono come prodotti di una matrice per un vettore, e il determinante dice di quanto la trasformazione moltiplica le aree o i volumi. È ciò che fanno, senza mostrarlo, i programmi di disegno e di modellazione 3D che si usano in Architettura; e le proiezioni della Geometria descrittiva, viste come trasformazioni dello spazio sul foglio, hanno determinante zero perché "schiacciano" i volumi su un piano.
 

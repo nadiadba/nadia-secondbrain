@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Un vettore è una freccia: ha una lunghezza, una direzione e un verso, e serve a descrivere tutto ciò che non basta dire "quanto", ma bisogna dire anche "verso dove" (uno spostamento, una forza, il lato di una figura). In questa pagina si parte dalla freccia, si arriva a scriverla con i numeri (le componenti) e si impara a fare i conti: somma, prodotto per un numero, lunghezza. Poi vengono i tre "prodotti" che il professore usa negli esercizi: il prodotto scalare, che misura gli angoli e dice quando due vettori sono perpendicolari; il prodotto vettoriale, che dà un vettore perpendicolare a due vettori e misura le aree; il prodotto triplo, che misura i volumi. Gli esempi svolti vengono dai due fogli di esercizi del professore (con l'indicazione di quelli fatti in classe il 22 e il 23 ottobre) e da un esercizio completo svolto in classe.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## PUNTI E VETTORI
 
@@ -32,7 +32,7 @@ Una freccia è determinata da tre informazioni:
 
 Questo è il punto che all'inizio sorprende di più: un vettore non "abita" in un posto preciso. Se si trasla una freccia (la si sposta parallelamente a se stessa, senza ruotarla e senza allungarla), si ottiene lo stesso vettore. Nella figura, $\overrightarrow{AB}$ e $\overrightarrow{CD}$ sono lo stesso vettore $\mathbf{v}$.
 
-![[03-vettore-freccia.svg|560]]
+![[05-vettore-freccia.svg|560]]
 
 ### Vettori applicati, equipollenti e liberi
 
@@ -64,7 +64,7 @@ $$
 
 La prima componente $u_1$ dice di quanto ci si sposta in orizzontale (lungo l'asse $x$), la seconda $u_2$ di quanto ci si sposta in verticale (lungo l'asse $y$). Il segno conta: una componente negativa vuol dire spostarsi verso sinistra o verso il basso.
 
-![[03-componenti-piano.svg|460]]
+![[05-componenti-piano.svg|460]]
 
 Nella figura $\mathbf{u} = (4, 3)$: quattro passi a destra e tre in alto. Le due componenti e la freccia formano un triangolo rettangolo, e questo tornerà utile per calcolare la lunghezza.
 
@@ -76,7 +76,7 @@ $$
 
 Si immagina una scatola con uno spigolo nell'origine: le tre componenti sono le misure dei tre spigoli lungo gli assi, e il vettore è la diagonale della scatola, dall'origine al vertice opposto.
 
-![[03-componenti-spazio.svg|500]]
+![[05-componenti-spazio.svg|500]]
 
 Gli assi nello spazio si disegnano sempre nello stesso modo: $x$ verso chi guarda (obliquo, in basso a sinistra), $y$ verso destra, $z$ verso l'alto. Questa disposizione si chiama *destrorsa* e servirà per il prodotto vettoriale.
 
@@ -95,7 +95,7 @@ Se la freccia non parte dall'origine ma da un punto $A$ e arriva a un punto $B$,
 
 Il perché è semplice: le componenti dicono di quanto ci si sposta per andare da $A$ a $B$, e lo spostamento orizzontale è la differenza delle ascisse, quello verticale la differenza delle ordinate.
 
-![[03-vettore-tra-punti.svg|460]]
+![[05-vettore-tra-punti.svg|460]]
 
 Il professore l'ha ricavato alla lavagna con i vettori che partono dall'origine. Siano $P_1 = (x_1, y_1)$ e $P_2 = (x_2, y_2)$. I vettori $\overrightarrow{OP_1}$ e $\overrightarrow{OP_2}$ hanno per componenti proprio le coordinate dei due punti.
 
@@ -108,7 +108,7 @@ $$
 \overrightarrow{P_1P_2} = \overrightarrow{OP_2} - \overrightarrow{OP_1} = (x_2, y_2) - (x_1, y_1) = (x_2 - x_1,\ y_2 - y_1).
 $$
 
-![[03-op1-p1p2-op2.svg|460]]
+![[05-op1-p1p2-op2.svg|460]]
 
 > [!example] Esempio (esercizio 14 del foglio sui vettori)
 > Siano $A = (1, -1)$, $B = (5, 1)$, $C = (2, 4)$.
@@ -136,7 +136,7 @@ Alla lavagna e negli esercizi il professore usa alcune scritture abbreviate. Con
 - $\hat{e}_1 = (1, 0)$ e $\hat{e}_2 = (0, 1)$, con il cappello, sono i versori della base standard (vedi più avanti); il professore li chiama anche $\hat{\imath}$ e $\hat{\jmath}$ (e nello spazio $\hat{k}$ per il terzo). Il cappello sopra la lettera indica sempre un vettore lungo 1.
 - $\vec{0}$ è il vettore nullo; $\perp$ vuol dire "perpendicolare" e $\parallel$ vuol dire "parallelo".
 - "t/c" è l'abbreviazione di "tale che"; $\exists$ vuol dire "esiste".
-- $\mathbb{R}^*$ sono i numeri reali tolto lo zero, cioè $\mathbb{R} \setminus \{0\}$ (gli insiemi e queste scritture sono spiegati in [[07-insiemi-e-intervalli]]).
+- $\mathbb{R}^*$ sono i numeri reali tolto lo zero, cioè $\mathbb{R} \setminus \{0\}$ (gli insiemi e queste scritture sono spiegati in [[01-insiemi-e-intervalli]]).
 
 ## LE OPERAZIONI CON I VETTORI
 
@@ -155,7 +155,7 @@ Il professore ha insistito sul perché la regola del triangolo è lecita. Il vet
 
 Per la stessa ragione la regola del triangolo e la regola del parallelogramma sono la stessa regola: il lato del parallelogramma opposto a $\vec{w}$ è proprio la copia equipollente $\vec{w}\,'$, e il triangolo è metà del parallelogramma.
 
-![[03-somma.svg|680]]
+![[05-somma.svg|680]]
 
 Con le componenti la somma è ancora più semplice: si sommano le componenti corrispondenti, la prima con la prima e la seconda con la seconda. Infatti gli spostamenti orizzontali si sommano tra loro, e così quelli verticali.
 
@@ -201,7 +201,7 @@ $$
 
 Graficamente c'è un modo comodo per vederla. Se $\mathbf{u}$ e $\mathbf{v}$ partono dallo stesso punto, $\mathbf{u} - \mathbf{v}$ è la freccia che va dalla punta di $\mathbf{v}$ alla punta di $\mathbf{u}$. Infatti partendo dalla punta di $\mathbf{v}$ e facendo $\mathbf{u} - \mathbf{v}$ si arriva a $\mathbf{v} + (\mathbf{u} - \mathbf{v}) = \mathbf{u}$. È la stessa idea di "punta meno coda" del vettore tra due punti.
 
-![[03-differenza.svg|440]]
+![[05-differenza.svg|440]]
 
 Nel parallelogramma costruito su $\mathbf{u}$ e $\mathbf{v}$, quindi, la somma è una diagonale e la differenza è l'altra.
 
@@ -216,7 +216,7 @@ In questo contesto un numero reale si chiama *scalare*, per distinguerlo dai vet
 
 In componenti si moltiplica ogni componente per $k$: $k\,(u_1, u_2) = (k u_1,\ k u_2)$. Il nome "scalare" viene proprio da qui: il numero cambia la scala del vettore.
 
-![[03-multipli.svg|440]]
+![[05-multipli.svg|440]]
 
 Alla lavagna il professore ha elencato le proprietà del prodotto per uno scalare. Dicono che i conti con numeri e vettori si fanno come quelli con i soli numeri: si raccoglie, si distribuisce, si portano fuori i numeri.
 
@@ -271,7 +271,7 @@ $$
 
 Il motivo si vede nel disegno: per arrivare alla punta di $(u_1, u_2)$ si fanno $u_1$ passi lunghi 1 in orizzontale e $u_2$ passi lunghi 1 in verticale. Nello spazio si aggiunge $\mathbf{e}_3 = (0, 0, 1)$ e vale $(u_1, u_2, u_3) = u_1\mathbf{e}_1 + u_2\mathbf{e}_2 + u_3\mathbf{e}_3$. (Nello Stewart questi tre vettori si chiamano $\mathbf{i}$, $\mathbf{j}$, $\mathbf{k}$.)
 
-![[03-base-standard.svg|440]]
+![[05-base-standard.svg|440]]
 
 > [!example] Esempio (esercizio 3)
 > $\mathbf{a} = (7, -5) = 7\,\mathbf{e}_1 - 5\,\mathbf{e}_2$.
@@ -344,7 +344,7 @@ Alcune conseguenze:
 
 - la norma non è mai negativa, ed è $0$ solo per il vettore nullo;
 - $\|k\,\mathbf{u}\| = |k|\,\|\mathbf{u}\|$: raddoppiando un vettore si raddoppia la lunghezza, e cambiare il verso non la cambia;
-- la *distanza* tra due punti è la norma del vettore che li unisce: $d(A, B) = \|\overrightarrow{AB}\| = \|B - A\|$. È la formula della distanza vista in [[02-retta-e-circonferenza]].
+- la *distanza* tra due punti è la norma del vettore che li unisce: $d(A, B) = \|\overrightarrow{AB}\| = \|B - A\|$. È la formula della distanza vista in [[03-retta-e-circonferenza]].
 
 > [!example] Esempio (esercizio 4, prima parte)
 > - $\|(3, 4)\| = \sqrt{9 + 16} = \sqrt{25} = 5$;
@@ -367,7 +367,7 @@ Da qualunque vettore non nullo si ottiene il versore con la stessa direzione e l
 > $$
 > Funziona perché moltiplicare per il numero positivo $\frac{1}{\|\mathbf{u}\|}$ non cambia direzione e verso, e divide la lunghezza per $\|\mathbf{u}\|$: la nuova lunghezza è $\frac{\|\mathbf{u}\|}{\|\mathbf{u}\|} = 1$.
 
-![[03-versore.svg|400]]
+![[05-versore.svg|400]]
 
 > [!example] Esempio (esercizio 4, seconda parte)
 > Normalizzare $(3, 4)$. La norma è $5$, quindi il versore è
@@ -412,7 +412,7 @@ Le due definizioni danno sempre lo stesso numero: è questo il fatto importante,
 
 Il ponte tra le due definizioni è il *teorema del coseno* (o di Carnot), che generalizza Pitagora ai triangoli qualunque. Si guarda il triangolo che ha per lati $\mathbf{u}$, $\mathbf{v}$ e la differenza $\mathbf{u} - \mathbf{v}$ (che va dalla punta di $\mathbf{v}$ alla punta di $\mathbf{u}$).
 
-![[03-teorema-coseno.svg|400]]
+![[05-teorema-coseno.svg|400]]
 
 1. Il teorema del coseno dice che il lato opposto all'angolo $\theta$ misura:
 $$
@@ -437,9 +437,9 @@ Dalla definizione geometrica si ricava il coseno dell'angolo, e quindi l'angolo:
 > $$
 > con $0 \leq \theta \leq \pi$.
 
-L'arcocoseno, $\arccos$, è la funzione che "torna indietro" dal coseno all'angolo (è la funzione inversa del coseno, vedi [[04-le-funzioni]] e [[05-funzioni-elementari]]). Il professore accetta il risultato in forma esatta, per esempio $\arccos\left(-\frac{1}{\sqrt{78}}\right)$, con un'approssimazione in gradi.
+L'arcocoseno, $\arccos$, è la funzione che "torna indietro" dal coseno all'angolo (è la funzione inversa del coseno, vedi [[06-le-funzioni]] e [[07-funzioni-elementari]]). Il professore accetta il risultato in forma esatta, per esempio $\arccos\left(-\frac{1}{\sqrt{78}}\right)$, con un'approssimazione in gradi.
 
-![[03-angolo.svg|420]]
+![[05-angolo.svg|420]]
 
 > [!example] Esempio (esercizio 5)
 > Siano $\mathbf{u} = (1, 2)$ e $\mathbf{v} = (3, 1)$.
@@ -484,7 +484,7 @@ Nella formula $\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\|\,\|\mathbf{v}\|\cos\
 > - $\mathbf{u} \cdot \mathbf{v} = 0$: angolo retto ($\theta = 90°$), i vettori sono *ortogonali* (perpendicolari);
 > - $\mathbf{u} \cdot \mathbf{v} < 0$: angolo ottuso ($90° < \theta \leq 180°$).
 
-![[03-segno-prodotto-scalare.svg|620]]
+![[05-segno-prodotto-scalare.svg|620]]
 
 Questo è il modo più rapido per riconoscere due vettori perpendicolari: non serve disegnare né calcolare angoli, basta un prodotto scalare. Per convenzione il vettore nullo si considera ortogonale a tutti.
 
@@ -508,7 +508,7 @@ Un trucco utile nel piano: il vettore $(a, b)$ è sempre ortogonale a $(-b, a)$ 
 > - angolo retto se $t = \frac12$;
 > - angolo ottuso se $t < \frac12$.
 >
-> Il problema sui vettori diventa una disequazione di primo grado (vedi [[01-equazioni-e-disequazioni]]).
+> Il problema sui vettori diventa una disequazione di primo grado (vedi [[02-equazioni-e-disequazioni]]).
 
 > [!example] Esempio (esercizio 17, versori ortogonali)
 > Dato $\mathbf{u} = (3, -4)$, si cercano i vettori unitari ortogonali a $\mathbf{u}$.
@@ -599,7 +599,7 @@ Se $\mathbf{u}$ e $\mathbf{v}$ sono ortogonali, il termine di mezzo è zero e re
 
 Proiettare $\mathbf{u}$ sulla direzione di $\mathbf{v}$ vuol dire trovare "l'ombra" di $\mathbf{u}$ sulla retta di $\mathbf{v}$, come se una luce cadesse perpendicolarmente su quella retta. Dalla punta di $\mathbf{u}$ si abbassa la perpendicolare alla retta di $\mathbf{v}$: il piede della perpendicolare individua la proiezione.
 
-![[03-proiezione.svg|700]]
+![[05-proiezione.svg|700]]
 
 Si distinguono due cose.
 
@@ -653,7 +653,7 @@ La stessa idea serve a calcolare la distanza di un punto da una retta, che è la
 
 ### Il determinante 2×2 e l'area orientata
 
-Un *determinante* è un numero che si calcola a partire da una tabella quadrata di numeri (una *matrice*; matrici e determinanti sono spiegati per intero, come li ha fatti il professore, in [[06-le-matrici]]). Per una tabella 2×2 si fa il prodotto della diagonale principale meno il prodotto dell'altra diagonale:
+Un *determinante* è un numero che si calcola a partire da una tabella quadrata di numeri (una *matrice*; matrici e determinanti sono spiegati per intero, come li ha fatti il professore, in [[04-le-matrici]]). Per una tabella 2×2 si fa il prodotto della diagonale principale meno il prodotto dell'altra diagonale:
 
 > [!abstract] Determinante 2×2
 > $$
@@ -676,7 +676,7 @@ e questo numero è l'*area orientata* del parallelogramma costruito su $\mathbf{
 
 Il perché dell'area si vedrà tra poco con il prodotto vettoriale.
 
-![[03-area-orientata.svg|440]]
+![[05-area-orientata.svg|440]]
 
 > [!example] Esempio (esercizio 6 del foglio sul prodotto vettoriale)
 > $\mathbf{u} = (4, 1)$, $\mathbf{v} = (2, 3)$.
@@ -757,7 +757,7 @@ Il vettore $\mathbf{u} \times \mathbf{v}$ è descritto geometricamente da tre pr
 2. verso: è dato dalla *regola della mano destra*. Si mettono le dita della mano destra lungo $\mathbf{u}$ e le si chiude verso $\mathbf{v}$ (dalla parte dell'angolo minore di $180°$): il pollice indica il verso di $\mathbf{u} \times \mathbf{v}$;
 3. modulo: $\|\mathbf{u} \times \mathbf{v}\| = \|\mathbf{u}\|\,\|\mathbf{v}\|\sin\theta$, dove $\theta$ è l'angolo tra $\mathbf{u}$ e $\mathbf{v}$.
 
-![[03-prodotto-vettoriale.svg|500]]
+![[05-prodotto-vettoriale.svg|500]]
 
 Nella figura $\mathbf{u}$ e $\mathbf{v}$ stanno nel piano orizzontale $xy$. Chiudendo la mano destra da $\mathbf{u}$ verso $\mathbf{v}$ il pollice punta in alto: $\mathbf{u} \times \mathbf{v}$ è verticale verso l'alto. Con i vettori scambiati la mano gira al contrario e il pollice punta in basso.
 
@@ -850,7 +850,7 @@ Il motivo: sviluppando il determinante lungo la prima riga, i tre determinanti 2
 
 Tre vettori $\mathbf{a}$, $\mathbf{b}$, $\mathbf{c}$ che partono dallo stesso vertice sono i tre spigoli di un *parallelepipedo* (una "scatola storta", con le facce a forma di parallelogramma). Il prodotto triplo ne misura il volume.
 
-![[03-altezza-parallelepipedo.svg|460]]
+![[05-altezza-parallelepipedo.svg|460]]
 
 Il perché, passo passo:
 
@@ -870,7 +870,7 @@ Il perché, passo passo:
 
 Il $\frac16$ del tetraedro viene da due passaggi: la sua base è il triangolo di lati $\mathbf{b}$ e $\mathbf{c}$, metà del parallelogramma; e il volume di una piramide è un terzo di base per altezza. $\frac12 \cdot \frac13 = \frac16$.
 
-![[03-parallelepipedo.svg|500]]
+![[05-parallelepipedo.svg|500]]
 
 > [!example] Esempio (esercizio 8)
 > $\mathbf{a} = (2, 0, 1)$, $\mathbf{b} = (1, 3, 0)$, $\mathbf{c} = (0, 2, 4)$.
@@ -980,9 +980,9 @@ Questo esercizio, fatto in classe, mette insieme quasi tutta la pagina: combinaz
 
 ## Collegamenti
 
-I vettori riprendono e mettono in ordine molte cose della geometria analitica vista in [[02-retta-e-circonferenza]]. La distanza tra due punti è la norma del vettore $B - A$, il punto medio è la media delle coordinate, e una retta si può scrivere in forma parametrica come $X = A + s\,\mathbf{v}$: un punto di partenza più tutti i multipli di un vettore che dà la direzione. Due rette sono perpendicolari quando i loro vettori direzione hanno prodotto scalare zero, e la distanza di un punto da una retta si trova con la perpendicolare, come nell'esercizio 22.
+I vettori riprendono e mettono in ordine molte cose della geometria analitica vista in [[03-retta-e-circonferenza]]. La distanza tra due punti è la norma del vettore $B - A$, il punto medio è la media delle coordinate, e una retta si può scrivere in forma parametrica come $X = A + s\,\mathbf{v}$: un punto di partenza più tutti i multipli di un vettore che dà la direzione. Due rette sono perpendicolari quando i loro vettori direzione hanno prodotto scalare zero, e la distanza di un punto da una retta si trova con la perpendicolare, come nell'esercizio 22.
 
-Gli esercizi con il parametro ($t$ o $k$) si risolvono sempre riducendoli a un'equazione o a una disequazione, con le tecniche di [[01-equazioni-e-disequazioni]]: una disequazione di primo grado per l'angolo acuto o ottuso, un'equazione di secondo grado per l'angolo assegnato. L'angolo tra due vettori si ricava con l'arcocoseno, che è la funzione inversa del coseno: le funzioni inverse sono in [[04-le-funzioni]], seno, coseno e le loro inverse in [[05-funzioni-elementari]].
+Gli esercizi con il parametro ($t$ o $k$) si risolvono sempre riducendoli a un'equazione o a una disequazione, con le tecniche di [[02-equazioni-e-disequazioni]]: una disequazione di primo grado per l'angolo acuto o ottuso, un'equazione di secondo grado per l'angolo assegnato. L'angolo tra due vettori si ricava con l'arcocoseno, che è la funzione inversa del coseno: le funzioni inverse sono in [[06-le-funzioni]], seno, coseno e le loro inverse in [[07-funzioni-elementari]].
 
 Per un futuro architetto i vettori sono il linguaggio dello spazio. In Geometria descrittiva un punto si dà con tre numeri (distanza, aggetto, quota) e le [[03-proiezioni-ortogonali-punto-e-rette|proiezioni ortogonali]] sui piani del triedro sono proprio proiezioni di vettori, come la proiezione vettoriale di questa pagina, fatta sugli assi e sui piani coordinati. La [[06-piani-ausiliari-e-perpendicolarita|perpendicolarità tra rette e piani]] si traduce nel prodotto scalare nullo, e il prodotto vettoriale dà la direzione perpendicolare a un piano. Anche i disegni nello spazio di questa pagina sono assonometrie cavaliere: un punto $(x, y, z)$ si disegna sommando, con la regola punta-coda, i tre vettori $x\,\mathbf{e}_1$, $y\,\mathbf{e}_2$, $z\,\mathbf{e}_3$ disegnati lungo gli assi.
 
