@@ -593,6 +593,271 @@ Negli esercizi compaiono anche equazioni e disequazioni in cui la $x$ sta all'es
 >
 > I passaggi sulle basi e sui logaritmi sono spiegati in [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]].
 
+## ESERCIZI
+
+Questa sezione serve per allenarsi in vista dell'esonero. Prova ogni esercizio da sola, su carta, fino in fondo; solo dopo apri la soluzione (il riquadro verde si apre con un clic) e confronta i passaggi, non solo il risultato. Se sbagli, torna alla parte di teoria che corrisponde e rifai l'esercizio il giorno dopo. Per controllare un risultato basta quasi sempre sostituire il numero trovato nell'equazione di partenza.
+
+### Gli esercizi del professore
+
+Gli esercizi 16-21 (equazioni di primo grado) il professore non li ha dati in un foglio: li ha fatti svolgere in classe e sono negli appunti di Nadia, nella foto [[appunti-nadia-03.jpeg]] (nella stessa pagina c'è anche la semplificazione di potenze e radicali). Sono svolti tutti e sei in questa pagina: 16, 18, 19 e 20 in [[#Equazioni di primo grado]], 17 e 21 (le due impossibili) subito dopo; la semplificazione $\frac{27^4\sqrt[5]{9}}{3^7\sqrt[6]{81}}$ è svolta in [[#I radicali come potenze con esponente frazionario]].
+
+Un foglio dedicato solo a equazioni e disequazioni il professore non l'ha dato. Equazioni e disequazioni compaiono però dentro gli esercizi del foglio [[Esercizi_funzioni_e_Logaritmi.pdf]]:
+
+- prima pagina, esercizio 1 (tre domini): $\sqrt{5 - 2x}$ è svolto qui in [[#Disequazioni di primo grado]] e $\frac{\sqrt{x-1}}{x-4}$ in [[#Sistemi di disequazioni]]; il terzo, $\frac{1}{x^2 - 9}$, non è svolto qui (si risolve l'equazione $x^2 - 9 = 0$ e si escludono le sue soluzioni) ma è in [[06-le-funzioni]];
+- prima pagina, esercizio 11: gli zeri di $|x + 1| - 2$ sono svolti in [[#Equazioni con il valore assoluto]]; il grafico completo è in [[06-le-funzioni]];
+- prima pagina, esercizio 12: gli zeri di $-(x - 1)^2 + 4$ (cioè l'equazione $(x - 1)^2 = 4$) non sono svolti qui, ma sono in [[06-le-funzioni]];
+- seconda pagina, esercizi 2 e 6: svolti in [[#Cenni: equazioni e disequazioni esponenziali e logaritmiche]]; gli esercizi 3 e 5 (equazioni con $e^{x}$ e $\ln$) non sono svolti qui, ma sono in [[06-le-funzioni]].
+
+### Esercizi per allenarti
+
+Gli esercizi sono nuovi, diversi da quelli svolti nella pagina, e vanno dal più facile al più difficile.
+
+#### Potenze e radicali
+
+> [!question] Esercizio 1
+> Scrivi ciascuna espressione come una sola potenza con esponente frazionario.
+>
+> a) $\dfrac{8^3 \cdot \sqrt[3]{4}}{2^5 \cdot \sqrt{2}}$ (in base $2$)
+>
+> b) $\dfrac{25^2 \cdot \sqrt[4]{125}}{5^3 \cdot \sqrt{5}}$ (in base $5$)
+
+> [!success]- Soluzione
+> a) Scrivo tutto in base $2$: $8 = 2^3$, $4 = 2^2$.
+> $$
+> \frac{(2^3)^3 \cdot 2^{\frac{2}{3}}}{2^5 \cdot 2^{\frac{1}{2}}} = \frac{2^{9 + \frac{2}{3}}}{2^{5 + \frac{1}{2}}} = \frac{2^{\frac{29}{3}}}{2^{\frac{11}{2}}} = 2^{\frac{29}{3} - \frac{11}{2}} = 2^{\frac{58 - 33}{6}} = 2^{\frac{25}{6}}
+> $$
+> Risultato: $2^{\frac{25}{6}}$, cioè $\sqrt[6]{2^{25}}$.
+>
+> b) Scrivo tutto in base $5$: $25 = 5^2$, $125 = 5^3$.
+> $$
+> \frac{(5^2)^2 \cdot 5^{\frac{3}{4}}}{5^3 \cdot 5^{\frac{1}{2}}} = \frac{5^{4 + \frac{3}{4}}}{5^{3 + \frac{1}{2}}} = \frac{5^{\frac{19}{4}}}{5^{\frac{7}{2}}} = 5^{\frac{19}{4} - \frac{14}{4}} = 5^{\frac{5}{4}}
+> $$
+> Risultato: $5^{\frac{5}{4}}$, cioè $\sqrt[4]{5^5}$.
+
+#### Equazioni di primo grado
+
+> [!question] Esercizio 2
+> Risolvi e di' se l'equazione è determinata, impossibile o indeterminata.
+>
+> a) $3(x - 1) - 2(x + 4) = 5 - x$
+>
+> b) $2(x + 3) - x = x + 6$
+
+> [!success]- Soluzione
+> a) Tolgo le parentesi: $3x - 3 - 2x - 8 = 5 - x$, cioè $x - 11 = 5 - x$. Porto la $x$ a sinistra e i numeri a destra: $x + x = 5 + 11$, cioè $2x = 16$, quindi $x = 8$. Determinata.
+>
+> Verifica: a sinistra $3 \cdot 7 - 2 \cdot 12 = 21 - 24 = -3$, a destra $5 - 8 = -3$.
+>
+> b) Tolgo la parentesi: $2x + 6 - x = x + 6$, cioè $x + 6 = x + 6$. Portando tutto a sinistra resta $0 = 0$, sempre vera: l'equazione è indeterminata, ogni numero reale è soluzione. È il caso opposto degli esercizi 17 e 21 del professore, dove restava un'uguaglianza falsa.
+
+> [!question] Esercizio 3
+> Risolvi $\dfrac{x + 1}{3} - \dfrac{x - 2}{4} = 1$.
+
+> [!success]- Soluzione
+> Il minimo comune multiplo di $3$ e $4$ è $12$: moltiplico tutti i termini per $12$.
+> $$
+> 4(x + 1) - 3(x - 2) = 12
+> $$
+> Tolgo le parentesi, attenzione al segno: $-3 \cdot (-2) = +6$. Quindi $4x + 4 - 3x + 6 = 12$, cioè $x + 10 = 12$, e $x = 2$.
+>
+> Verifica: $\frac{3}{3} - \frac{0}{4} = 1$.
+
+#### Equazioni di secondo grado
+
+> [!question] Esercizio 4
+> Risolvi $x^2 - 2x - 15 = 0$ e scomponi il trinomio.
+
+> [!success]- Soluzione
+> Coefficienti: $a = 1$, $b = -2$, $c = -15$. Discriminante: $\Delta = (-2)^2 - 4 \cdot 1 \cdot (-15) = 4 + 60 = 64$, positivo: due soluzioni.
+> $$
+> x = \frac{2 \pm 8}{2} \quad\Rightarrow\quad x_1 = 5, \quad x_2 = -3
+> $$
+> Scomposizione: $x^2 - 2x - 15 = (x - 5)(x + 3)$.
+>
+> Controllo con somma e prodotto: $5 + (-3) = 2 = -\frac{b}{a}$ e $5 \cdot (-3) = -15 = \frac{c}{a}$.
+
+> [!question] Esercizio 5
+> Risolvi $(x + 1)^2 = 3x + 7$.
+
+> [!success]- Soluzione
+> Svolgo il quadrato: $x^2 + 2x + 1 = 3x + 7$. Porto tutto a sinistra per avere la forma normale:
+> $$
+> x^2 + 2x + 1 - 3x - 7 = 0 \quad\Rightarrow\quad x^2 - x - 6 = 0
+> $$
+> $\Delta = 1 + 24 = 25$, quindi $x = \dfrac{1 \pm 5}{2}$: $x = 3$ oppure $x = -2$.
+>
+> Verifica con $x = -2$: a sinistra $(-1)^2 = 1$, a destra $-6 + 7 = 1$.
+
+> [!question] Esercizio 6
+> Risolvi, usando la formula solo quando serve.
+>
+> a) $3x^2 - 12 = 0$
+>
+> b) $2x^2 + 5x = 0$
+>
+> c) $9x^2 - 6x + 1 = 0$
+>
+> d) $x^2 + 2x + 5 = 0$
+
+> [!success]- Soluzione
+> a) Manca $b$: isolo $x^2$. $3x^2 = 12$, $x^2 = 4$, quindi $x = 2$ oppure $x = -2$.
+>
+> b) Manca $c$: raccolgo la $x$. $x(2x + 5) = 0$; per la legge di annullamento del prodotto $x = 0$ oppure $2x + 5 = 0$, cioè $x = -\frac{5}{2}$.
+>
+> c) $\Delta = 36 - 4 \cdot 9 \cdot 1 = 0$: una sola soluzione, $x = -\dfrac{b}{2a} = \dfrac{6}{18} = \dfrac{1}{3}$. Infatti $9x^2 - 6x + 1 = (3x - 1)^2$.
+>
+> d) $\Delta = 4 - 20 = -16 < 0$: nessuna soluzione reale (la parabola sta tutta sopra l'asse $x$).
+
+#### Equazioni frazionarie, con il valore assoluto, irrazionali
+
+> [!question] Esercizio 7
+> Risolvi $\dfrac{x}{x - 3} + \dfrac{2}{x + 3} = \dfrac{18}{x^2 - 9}$.
+
+> [!success]- Soluzione
+> 1. Il denominatore $x^2 - 9$ si scompone: $x^2 - 9 = (x - 3)(x + 3)$. Condizioni di esistenza: $x \neq 3$ e $x \neq -3$.
+> 2. Moltiplico tutto per $(x - 3)(x + 3)$:
+> $$
+> x(x + 3) + 2(x - 3) = 18
+> $$
+> 3. Svolgo: $x^2 + 3x + 2x - 6 - 18 = 0$, cioè $x^2 + 5x - 24 = 0$. $\Delta = 25 + 96 = 121$, quindi $x = \dfrac{-5 \pm 11}{2}$: $x = 3$ oppure $x = -8$.
+> 4. Confronto con le C.E.: $x = 3$ è escluso. Resta $x = -8$.
+>
+> Verifica: $\frac{-8}{-11} + \frac{2}{-5} = \frac{8}{11} - \frac{2}{5} = \frac{40 - 22}{55} = \frac{18}{55}$, e a destra $\frac{18}{64 - 9} = \frac{18}{55}$.
+
+> [!question] Esercizio 8
+> Risolvi.
+>
+> a) $|2x - 1| = 5$
+>
+> b) $|x + 4| = -2$
+
+> [!success]- Soluzione
+> a) Il lato destro è un numero positivo: due possibilità.
+> - $2x - 1 = 5$, cioè $2x = 6$, $x = 3$;
+> - $2x - 1 = -5$, cioè $2x = -4$, $x = -2$.
+>
+> Soluzioni: $x = 3$ e $x = -2$. Verifica: $|5| = 5$ e $|-5| = 5$.
+>
+> b) Un valore assoluto non è mai negativo, quindi non può valere $-2$: l'equazione è impossibile.
+
+> [!question] Esercizio 9
+> Risolvi $|x - 2| = 3x - 10$.
+
+> [!success]- Soluzione
+> A destra c'è un'espressione con la $x$: studio due casi.
+> 1. Se $x - 2 \geq 0$, cioè $x \geq 2$, il valore assoluto si toglie così com'è: $x - 2 = 3x - 10$, quindi $-2x = -8$, $x = 4$. È $\geq 2$: accettato.
+> 2. Se $x - 2 < 0$, cioè $x < 2$, cambio segno: $2 - x = 3x - 10$, quindi $-4x = -12$, $x = 3$. Ma $3$ non è $< 2$: scartato.
+>
+> Soluzione: $x = 4$. Verifica: $|4 - 2| = 2$ e $3 \cdot 4 - 10 = 2$.
+
+> [!question] Esercizio 10
+> Risolvi $\sqrt{2x + 7} = x + 2$.
+
+> [!success]- Soluzione
+> 1. Condizione: il lato destro deve essere positivo o nullo come la radice, $x + 2 \geq 0$, cioè $x \geq -2$.
+> 2. Elevo al quadrato: $2x + 7 = (x + 2)^2 = x^2 + 4x + 4$.
+> 3. Porto tutto a destra: $x^2 + 2x - 3 = 0$. $\Delta = 4 + 12 = 16$, quindi $x = \dfrac{-2 \pm 4}{2}$: $x = 1$ oppure $x = -3$.
+> 4. Confronto con la condizione $x \geq -2$: $x = 1$ va bene, $x = -3$ no.
+>
+> Soluzione: $x = 1$. Verifica: $\sqrt{9} = 3$ e $1 + 2 = 3$. Con $x = -3$ invece $\sqrt{1} = 1$ ma $-3 + 2 = -1$: soluzione estranea.
+
+#### Disequazioni di primo e secondo grado
+
+> [!question] Esercizio 11
+> Risolvi e scrivi la soluzione come intervallo.
+>
+> a) $2(x - 3) - 5x \geq 3$
+>
+> b) $\dfrac{x}{2} - 1 < \dfrac{x + 1}{3}$
+
+> [!success]- Soluzione
+> a) Tolgo la parentesi: $2x - 6 - 5x \geq 3$, cioè $-3x \geq 9$. Divido per $-3$, che è negativo: il verso si inverte, $x \leq -3$. Intervallo: $(-\infty, -3]$.
+>
+> b) Moltiplico per $6$ (positivo, il verso resta): $3x - 6 < 2(x + 1)$, cioè $3x - 6 < 2x + 2$, quindi $x < 8$. Intervallo: $(-\infty, 8)$.
+
+> [!question] Esercizio 12
+> Risolvi.
+>
+> a) $x^2 - x - 12 > 0$
+>
+> b) $-x^2 + 6x - 9 \geq 0$
+
+> [!success]- Soluzione
+> a) Equazione associata: $x^2 - x - 12 = 0$, $\Delta = 1 + 48 = 49$, $x = \dfrac{1 \pm 7}{2}$, cioè $x = 4$ e $x = -3$. Con $a = 1 > 0$ la parabola è rivolta verso l'alto; il segno $>$ chiede dove è positiva: valori esterni, estremi esclusi.
+>
+> Soluzione: $x < -3$ oppure $x > 4$, cioè $(-\infty, -3) \cup (4, +\infty)$.
+>
+> b) $a = -1$: moltiplico per $-1$ e inverto il verso, $x^2 - 6x + 9 \leq 0$. Ma $x^2 - 6x + 9 = (x - 3)^2$ ($\Delta = 0$): un quadrato non è mai negativo, e vale zero solo per $x = 3$.
+>
+> Soluzione: solo $x = 3$.
+
+#### Disequazioni con più fattori, fratte, con il valore assoluto
+
+> [!question] Esercizio 13
+> Risolvi $(x - 1)(4 - x)(x + 3) < 0$.
+
+> [!success]- Soluzione
+> 1. Segno dei fattori: $x - 1 > 0$ per $x > 1$; $4 - x > 0$ per $x < 4$ (attenzione: questo fattore è positivo a sinistra di $4$); $x + 3 > 0$ per $x > -3$.
+> 2. I punti $-3$, $1$, $4$ dividono la retta in quattro intervalli. Conto i fattori negativi:
+>    - per $x < -3$: negativi $x - 1$ e $x + 3$, due: prodotto positivo;
+>    - per $-3 < x < 1$: negativo solo $x - 1$: prodotto negativo;
+>    - per $1 < x < 4$: nessuno: prodotto positivo;
+>    - per $x > 4$: negativo solo $4 - x$: prodotto negativo.
+> 3. Il segno $<$ chiede i tratti negativi, zeri esclusi.
+>
+> Soluzione: $(-3, 1) \cup (4, +\infty)$.
+
+> [!question] Esercizio 14
+> Risolvi $\dfrac{2x - 1}{x + 2} \geq 1$.
+
+> [!success]- Soluzione
+> 1. Non si moltiplica per il denominatore: porto l'$1$ a sinistra e faccio un'unica frazione.
+> $$
+> \frac{2x - 1}{x + 2} - 1 \geq 0 \quad\Rightarrow\quad \frac{2x - 1 - (x + 2)}{x + 2} \geq 0 \quad\Rightarrow\quad \frac{x - 3}{x + 2} \geq 0
+> $$
+> 2. Numeratore: $x - 3 \geq 0$ per $x \geq 3$. Denominatore: $x + 2 > 0$ per $x > -2$, e $x \neq -2$.
+> 3. Tabella:
+>    - per $x < -2$: numeratore negativo, denominatore negativo, frazione positiva;
+>    - per $-2 < x < 3$: numeratore negativo, denominatore positivo, frazione negativa;
+>    - per $x > 3$: entrambi positivi, frazione positiva.
+> 4. Serve $\geq 0$: i tratti positivi, con $x = 3$ compreso (la frazione vale $0$) e $x = -2$ escluso.
+>
+> Soluzione: $(-\infty, -2) \cup [3, +\infty)$. Verifica con $x = 0$, che non è nella soluzione: $\frac{-1}{2} \geq 1$ è falso, giusto.
+
+> [!question] Esercizio 15
+> Risolvi.
+>
+> a) $|3x - 6| \leq 9$
+>
+> b) $|x + 2| > 4$
+
+> [!success]- Soluzione
+> a) Minore: valori interni. $-9 \leq 3x - 6 \leq 9$. Aggiungo $6$ ai tre membri: $-3 \leq 3x \leq 15$. Divido per $3$: $-1 \leq x \leq 5$. Soluzione $[-1, 5]$.
+>
+> b) Maggiore: valori esterni. $x + 2 < -4$ oppure $x + 2 > 4$, cioè $x < -6$ oppure $x > 2$. Soluzione $(-\infty, -6) \cup (2, +\infty)$.
+
+#### Sistemi di disequazioni
+
+> [!question] Esercizio 16
+> a) Risolvi il sistema
+> $$
+> \begin{cases} 5 - 2x > 1 \\ x^2 - x - 6 \leq 0 \end{cases}
+> $$
+> b) Trova per quali $x$ esiste l'espressione $\sqrt{4 - x} + \dfrac{1}{\sqrt{x^2 - 1}}$.
+
+> [!success]- Soluzione
+> a) Prima disequazione: $-2x > -4$, divido per $-2$ e inverto il verso: $x < 2$.
+>
+> Seconda: $x^2 - x - 6 = 0$ ha $\Delta = 1 + 24 = 25$ e radici $x = \frac{1 \pm 5}{2}$, cioè $3$ e $-2$. Con $\leq$ prendo i valori interni, estremi compresi: $-2 \leq x \leq 3$.
+>
+> Dove valgono entrambe: da $-2$ (compreso) fino a $2$ (escluso). Soluzione $[-2, 2)$.
+>
+> b) Le condizioni devono valere insieme, quindi è un sistema:
+> - prima radice: $4 - x \geq 0$, cioè $x \leq 4$;
+> - seconda radice, che sta al denominatore: il radicando deve essere positivo e non zero, $x^2 - 1 > 0$. Le radici di $x^2 - 1 = 0$ sono $\pm 1$; con $>$ si prendono i valori esterni: $x < -1$ oppure $x > 1$.
+>
+> Intersezione: $x < -1$ (che è anche $\leq 4$) oppure $1 < x \leq 4$. Soluzione $(-\infty, -1) \cup (1, 4]$.
+
 ## Collegamenti
 
 Equazioni e disequazioni sono la grammatica di tutto il resto del corso. In [[03-retta-e-circonferenza|retta e circonferenza]] un punto appartiene a una retta se le sue coordinate soddisfano un'equazione di primo grado, e trovare dove una retta taglia una circonferenza vuol dire risolvere un'equazione di secondo grado, il cui discriminante dice se la retta è secante, tangente o esterna: è lo stesso schema dei tre casi della parabola. Nei [[05-i-vettori|vettori]] le condizioni di parallelismo e di ortogonalità diventano equazioni nelle componenti, e trovare una combinazione lineare vuol dire risolvere un piccolo sistema di equazioni di primo grado.

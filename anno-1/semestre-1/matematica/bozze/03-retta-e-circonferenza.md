@@ -531,6 +531,205 @@ Si usa la formula della distanza nello spazio al posto di quella nel piano, e si
 
 Anche per la sfera, se l'equazione è data in forma sviluppata ($x^2 + y^2 + z^2 + \dots = 0$), centro e raggio si trovano completando i quadrati, come per la circonferenza: un esempio svolto è nel capitolo di Stewart (esempio 5 del paragrafo 2.1).
 
+## ESERCIZI
+
+Questa sezione serve per allenarsi in vista dell'esonero. Conviene provare ogni esercizio da sola, su carta e con un piccolo disegno sul piano cartesiano, e solo dopo aprire la soluzione cliccando sul riquadro verde: se il risultato è diverso, si confrontano i passaggi uno per uno per trovare dove ci si è fermati.
+
+### Gli esercizi del professore
+
+Il professore non ha dato un foglio dedicato alla retta e alla circonferenza. Alcuni esercizi del foglio sui vettori ([[Esercizi_vettori.pdf]]) toccano però gli argomenti di questa pagina:
+
+- Esercizio 14 (punti $A(1, -1)$, $B(5, 1)$, $C(2, 4)$): la distanza $AB$ e il punto medio di $AB$ sono svolti in questa pagina, nelle sezioni sulla distanza e sul punto medio. Le parti b e c (il quarto vertice $D$ del parallelogramma e il punto medio delle diagonali) sono svolte nella pagina [[05-i-vettori]], ma sono un buon allenamento sul punto medio: provarle da sola prima di guardare.
+- Esercizio 22 (distanza di $P(4, 1)$ dalla retta per $A(1, 0)$ con direzione $(1, 2)$): svolto in questa pagina con la formula della distanza punto-retta e con la strada geometrica (perpendicolare e piede $H$), e svolto con i vettori nella pagina [[05-i-vettori]].
+- Esercizio 10 (triangolo $A(1, 1)$, $B(5, 2)$, $C(3, 6)$): è svolto con il prodotto scalare nella pagina [[05-i-vettori]]. La parte b si può controllare anche con le distanze di questa pagina: $AB^2 = 17$, $AC^2 = 29$, $BC^2 = 20$; il lato più lungo al quadrato è minore della somma dei quadrati degli altri due ($29 < 37$), quindi il triangolo è acutangolo.
+- Esercizio 11 (Pitagora in forma vettoriale): è il teorema di Pitagora su cui si regge la formula della distanza; è svolto nella pagina [[05-i-vettori]].
+
+Per l'equazione della retta, il parallelismo e la perpendicolarità con le pendenze, l'intersezione di due rette, la circonferenza, la posizione retta-circonferenza e la sfera non ci sono esercizi del professore: per questi argomenti servono gli esercizi qui sotto. Negli appunti presi in classe c'è solo l'esercizio 14 (distanze $AB = \sqrt{20}$ e $AC = \sqrt{26}$, quarto vertice $D = (6, 6)$); attenzione che il punto medio di $AB$ è $(3, 0)$, non $(2, 1)$.
+
+### Esercizi per allenarti
+
+#### Distanza e punto medio
+
+> [!question] Esercizio 1
+> Dati $A(-2, 3)$ e $B(4, -5)$, calcolare la distanza $AB$ e il punto medio $M$ del segmento $AB$.
+
+> [!success]- Soluzione
+> 1. $\Delta x = 4 - (-2) = 6$ e $\Delta y = -5 - 3 = -8$.
+> 2. $AB = \sqrt{6^2 + (-8)^2} = \sqrt{36 + 64} = \sqrt{100} = 10$.
+> 3. $M = \left( \dfrac{-2 + 4}{2}, \dfrac{3 + (-5)}{2} \right) = (1, -1)$.
+>
+> Controllo: $AM = \sqrt{3^2 + 4^2} = 5$, cioè metà di $AB$.
+
+> [!question] Esercizio 2
+> Il punto $M(2, 1)$ è il punto medio del segmento $AB$, con $A(-1, 4)$. Trovare le coordinate di $B$ e la lunghezza di $AB$.
+
+> [!success]- Soluzione
+> 1. Dalla formula del punto medio: $\dfrac{-1 + x_B}{2} = 2$, quindi $-1 + x_B = 4$ e $x_B = 5$.
+> 2. Allo stesso modo $\dfrac{4 + y_B}{2} = 1$, quindi $4 + y_B = 2$ e $y_B = -2$.
+> 3. $B(5, -2)$. Scorciatoia: $B = 2M - A = (4 - (-1),\ 2 - 4) = (5, -2)$.
+> 4. $AB = \sqrt{(5 - (-1))^2 + (-2 - 4)^2} = \sqrt{36 + 36} = \sqrt{72} = 6\sqrt{2}$.
+
+> [!question] Esercizio 3
+> Dati $A(1, 2)$, $B(4, 6)$ e $C(5, -1)$, calcolare i lati del triangolo $ABC$. Che tipo di triangolo è? Calcolarne perimetro e area.
+
+> [!success]- Soluzione
+> 1. $AB = \sqrt{3^2 + 4^2} = \sqrt{25} = 5$.
+> 2. $AC = \sqrt{4^2 + (-3)^2} = \sqrt{25} = 5$.
+> 3. $BC = \sqrt{1^2 + (-7)^2} = \sqrt{50} = 5\sqrt{2}$.
+> 4. Due lati sono uguali, quindi è isoscele. Inoltre $AB^2 + AC^2 = 25 + 25 = 50 = BC^2$: per il teorema di Pitagora (al contrario) è rettangolo in $A$.
+> 5. Perimetro: $5 + 5 + 5\sqrt{2} = 10 + 5\sqrt{2}$.
+> 6. Area: i cateti sono $AB$ e $AC$, quindi $\dfrac{5 \cdot 5}{2} = \dfrac{25}{2}$.
+
+#### Pendenza ed equazione della retta
+
+> [!question] Esercizio 4
+> Scrivere l'equazione della retta passante per $A(-1, 2)$ e $B(3, -6)$, in forma esplicita e in forma implicita. Passa per l'origine?
+
+> [!success]- Soluzione
+> 1. Pendenza: $m = \dfrac{-6 - 2}{3 - (-1)} = \dfrac{-8}{4} = -2$.
+> 2. Retta per $A$ con pendenza $-2$: $y - 2 = -2(x + 1)$, cioè $y = -2x - 2 + 2 = -2x$.
+> 3. Forma implicita: $2x + y = 0$.
+> 4. Il termine noto è $q = 0$, quindi sì, passa per l'origine.
+>
+> Controllo con $B$: $-2 \cdot 3 = -6$.
+
+> [!question] Esercizio 5
+> Una rampa deve superare un dislivello di 60 cm. Quanto deve essere lunga in pianta se la pendenza è del 5%? E se è dell'8%?
+
+> [!success]- Soluzione
+> La pendenza è il rapporto tra dislivello e lunghezza in pianta: $m = \dfrac{\Delta y}{\Delta x}$, quindi $\Delta x = \dfrac{\Delta y}{m}$.
+> 1. Con il 5%: $\Delta x = \dfrac{0{,}60}{0{,}05} = 12$ m.
+> 2. Con l'8%: $\Delta x = \dfrac{0{,}60}{0{,}08} = 7{,}5$ m.
+>
+> Più la pendenza è bassa, più la rampa è lunga.
+
+#### Parallele, perpendicolari e intersezioni
+
+> [!question] Esercizio 6
+> Data la retta $r: 2x - 3y + 1 = 0$ e il punto $P(3, -1)$, scrivere la parallela e la perpendicolare a $r$ passanti per $P$.
+
+> [!success]- Soluzione
+> 1. Si porta $r$ in forma esplicita: $3y = 2x + 1$, cioè $y = \dfrac{2}{3}x + \dfrac{1}{3}$. La pendenza è $m = \dfrac{2}{3}$.
+> 2. Parallela (stessa pendenza): $y + 1 = \dfrac{2}{3}(x - 3)$, cioè $y = \dfrac{2}{3}x - 3$, in forma implicita $2x - 3y - 9 = 0$.
+> 3. Perpendicolare (pendenza $-\dfrac{3}{2}$, opposto del reciproco): $y + 1 = -\dfrac{3}{2}(x - 3)$, cioè $y = -\dfrac{3}{2}x + \dfrac{7}{2}$, in forma implicita $3x + 2y - 7 = 0$.
+>
+> Controllo: $P$ sta su entrambe ($6 + 3 - 9 = 0$ e $9 - 2 - 7 = 0$) e $\dfrac{2}{3} \cdot \left(-\dfrac{3}{2}\right) = -1$.
+
+> [!question] Esercizio 7
+> Per quale valore di $k$ le rette $y = (k - 1)x + 2$ e $y = 3x - 5$ sono parallele? Per quale valore sono perpendicolari?
+
+> [!success]- Soluzione
+> 1. Parallele: pendenze uguali, $k - 1 = 3$, quindi $k = 4$.
+> 2. Perpendicolari: prodotto delle pendenze uguale a $-1$, cioè $3(k - 1) = -1$, quindi $k - 1 = -\dfrac{1}{3}$ e $k = \dfrac{2}{3}$.
+>
+> Controllo: con $k = \dfrac{2}{3}$ la prima pendenza è $-\dfrac{1}{3}$, e $-\dfrac{1}{3} \cdot 3 = -1$.
+
+> [!question] Esercizio 8
+> Trovare il punto di intersezione delle rette $r: 3x + 2y = 7$ e $s: x - 4y = 7$.
+
+> [!success]- Soluzione
+> Si risolve il sistema per sostituzione.
+> 1. Da $s$: $x = 7 + 4y$.
+> 2. In $r$: $3(7 + 4y) + 2y = 7$, cioè $21 + 14y = 7$, quindi $14y = -14$ e $y = -1$.
+> 3. $x = 7 + 4 \cdot (-1) = 3$.
+> 4. Il punto è $(3, -1)$.
+>
+> Controllo: $3 \cdot 3 + 2 \cdot (-1) = 7$ e $3 - 4 \cdot (-1) = 7$.
+
+> [!question] Esercizio 9
+> Dati $A(1, 2)$ e $B(5, 6)$, scrivere l'equazione dell'*asse* del segmento $AB$, cioè la retta perpendicolare ad $AB$ passante per il suo punto medio.
+
+> [!success]- Soluzione
+> 1. Punto medio: $M = \left( \dfrac{1 + 5}{2}, \dfrac{2 + 6}{2} \right) = (3, 4)$.
+> 2. Pendenza di $AB$: $m = \dfrac{6 - 2}{5 - 1} = 1$.
+> 3. Pendenza dell'asse: $-\dfrac{1}{1} = -1$.
+> 4. Asse: $y - 4 = -1(x - 3)$, cioè $y = -x + 7$, in forma implicita $x + y - 7 = 0$.
+>
+> Ogni punto dell'asse è alla stessa distanza da $A$ e da $B$. Controllo con $(0, 7)$: la distanza da $A$ è $\sqrt{1 + 25} = \sqrt{26}$, la distanza da $B$ è $\sqrt{25 + 1} = \sqrt{26}$.
+
+#### Distanza di un punto da una retta
+
+> [!question] Esercizio 10
+> Calcolare la distanza del punto $P(2, -1)$ dalla retta $r: 3x + 4y + 8 = 0$.
+
+> [!success]- Soluzione
+> Con la formula, $a = 3$, $b = 4$, $c = 8$:
+> $$
+> d = \frac{|3 \cdot 2 + 4 \cdot (-1) + 8|}{\sqrt{3^2 + 4^2}} = \frac{|6 - 4 + 8|}{\sqrt{25}} = \frac{10}{5} = 2
+> $$
+
+> [!question] Esercizio 11
+> Dati $A(1, 0)$, $B(4, 4)$ e $C(5, -2)$, calcolare la lunghezza di $AB$, l'altezza del triangolo $ABC$ relativa al lato $AB$ e l'area del triangolo.
+
+> [!success]- Soluzione
+> 1. Base: $AB = \sqrt{3^2 + 4^2} = 5$.
+> 2. Retta $AB$: pendenza $\dfrac{4 - 0}{4 - 1} = \dfrac{4}{3}$, quindi $y = \dfrac{4}{3}(x - 1)$. Moltiplicando per 3: $3y = 4x - 4$, in forma implicita $4x - 3y - 4 = 0$.
+> 3. L'altezza relativa ad $AB$ è la distanza di $C$ dalla retta $AB$:
+> $$
+> h = \frac{|4 \cdot 5 - 3 \cdot (-2) - 4|}{\sqrt{16 + 9}} = \frac{|20 + 6 - 4|}{5} = \frac{22}{5}
+> $$
+> 4. Area: $\dfrac{AB \cdot h}{2} = \dfrac{5 \cdot \frac{22}{5}}{2} = \dfrac{22}{2} = 11$.
+
+#### La circonferenza
+
+> [!question] Esercizio 12
+> Scrivere l'equazione della circonferenza di centro $C(-1, 2)$ passante per il punto $P(2, 6)$, prima nella forma con il centro e poi nella forma sviluppata.
+
+> [!success]- Soluzione
+> 1. Il raggio è la distanza tra centro e punto: $r = \sqrt{(2 + 1)^2 + (6 - 2)^2} = \sqrt{9 + 16} = 5$.
+> 2. Equazione: $(x + 1)^2 + (y - 2)^2 = 25$.
+> 3. Si svolgono i quadrati: $x^2 + 2x + 1 + y^2 - 4y + 4 = 25$.
+> 4. Forma sviluppata: $x^2 + y^2 + 2x - 4y - 20 = 0$.
+
+> [!question] Esercizio 13
+> L'equazione $2x^2 + 2y^2 - 8x + 4y - 10 = 0$ rappresenta una circonferenza? Se sì, trovare centro e raggio.
+
+> [!success]- Soluzione
+> 1. $x^2$ e $y^2$ hanno lo stesso coefficiente e non c'è il termine $xy$: si divide tutto per 2, $x^2 + y^2 - 4x + 2y - 5 = 0$.
+> 2. Si raggruppa: $(x^2 - 4x) + (y^2 + 2y) = 5$.
+> 3. Si completano i quadrati: metà di $-4$ è $-2$, e $(-2)^2 = 4$; metà di $2$ è $1$, e $1^2 = 1$. Si aggiunge $4 + 1$ a entrambi i membri.
+> 4. $(x - 2)^2 + (y + 1)^2 = 5 + 4 + 1 = 10$.
+> 5. Il numero a destra è positivo, quindi è una circonferenza: centro $C(2, -1)$, raggio $r = \sqrt{10}$.
+>
+> Con le formule ($a = -4$, $b = 2$, $c = -5$): $C = (2, -1)$ e $r = \sqrt{4 + 1 + 5} = \sqrt{10}$.
+
+> [!question] Esercizio 14
+> Trovare i punti di intersezione della circonferenza $x^2 + y^2 = 10$ con la retta $x - y + 2 = 0$ e la lunghezza della corda che li unisce.
+
+> [!success]- Soluzione
+> 1. Dalla retta: $y = x + 2$.
+> 2. Si sostituisce: $x^2 + (x + 2)^2 = 10$, cioè $x^2 + x^2 + 4x + 4 = 10$, cioè $2x^2 + 4x - 6 = 0$, e dividendo per 2: $x^2 + 2x - 3 = 0$.
+> 3. $\Delta = 4 + 12 = 16 > 0$: la retta è secante. $x = \dfrac{-2 \pm 4}{2}$, cioè $x = 1$ oppure $x = -3$.
+> 4. Con $y = x + 2$: i punti sono $(1, 3)$ e $(-3, -1)$.
+> 5. Corda: $\sqrt{(1 + 3)^2 + (3 + 1)^2} = \sqrt{16 + 16} = \sqrt{32} = 4\sqrt{2}$.
+>
+> Controllo: $1 + 9 = 10$ e $9 + 1 = 10$.
+
+> [!question] Esercizio 15
+> Data la circonferenza $x^2 + y^2 - 2x - 4y - 20 = 0$, stabilire la posizione rispetto a essa delle rette $a: 3x + 4y + 14 = 0$, $b: x = 4$, $c: y = 8$. Per la retta tangente trovare il punto di contatto.
+
+> [!success]- Soluzione
+> 1. Centro e raggio: $(x - 1)^2 + (y - 2)^2 = 20 + 1 + 4 = 25$, quindi $C(1, 2)$ e $r = 5$.
+> 2. Retta $a$: $d = \dfrac{|3 + 8 + 14|}{\sqrt{9 + 16}} = \dfrac{25}{5} = 5 = r$: tangente.
+> 3. Retta $b$ (verticale): la distanza di $C$ è la differenza delle ascisse, $|4 - 1| = 3 < 5$: secante.
+> 4. Retta $c$ (orizzontale): la distanza di $C$ è la differenza delle ordinate, $|8 - 2| = 6 > 5$: esterna.
+> 5. Punto di contatto di $a$: da $a$, $y = \dfrac{-14 - 3x}{4}$, quindi $y - 2 = \dfrac{-22 - 3x}{4}$. Si sostituisce in $(x - 1)^2 + (y - 2)^2 = 25$ e si moltiplica per 16: $16(x - 1)^2 + (3x + 22)^2 = 400$, cioè $25x^2 + 100x + 100 = 0$, cioè $x^2 + 4x + 4 = 0$, cioè $(x + 2)^2 = 0$.
+> 6. $x = -2$ e $y = \dfrac{-14 + 6}{4} = -2$: il punto di contatto è $(-2, -2)$.
+>
+> Controllo: il raggio da $C(1, 2)$ a $(-2, -2)$ ha pendenza $\dfrac{4}{3}$, la retta $a$ ha pendenza $-\dfrac{3}{4}$: sono perpendicolari, come deve essere.
+
+#### La sfera
+
+> [!question] Esercizio 16
+> Trovare centro e raggio della sfera $x^2 + y^2 + z^2 + 4x - 2y - 8z + 12 = 0$. Il punto $P(0, 2, 2)$ sta sulla sfera? L'origine è dentro o fuori?
+
+> [!success]- Soluzione
+> 1. Si raggruppa: $(x^2 + 4x) + (y^2 - 2y) + (z^2 - 8z) = -12$.
+> 2. Si completano i quadrati aggiungendo $4$, $1$ e $16$ a entrambi i membri: $(x + 2)^2 + (y - 1)^2 + (z - 4)^2 = -12 + 4 + 1 + 16 = 9$.
+> 3. Centro $C(-2, 1, 4)$, raggio $r = 3$.
+> 4. $P$: $(0 + 2)^2 + (2 - 1)^2 + (2 - 4)^2 = 4 + 1 + 4 = 9$: sì, sta sulla sfera.
+> 5. Origine: la distanza dal centro è $\sqrt{4 + 1 + 16} = \sqrt{21} \approx 4{,}58 > 3$: è fuori.
+
 ## Collegamenti
 
 Questa pagina usa continuamente gli strumenti di [[02-equazioni-e-disequazioni|equazioni e disequazioni]]: l'intersezione di due rette è un sistema lineare, la posizione tra retta e circonferenza si decide con il discriminante di un'equazione di secondo grado, e le disequazioni con il valore assoluto diventano facili se lette come distanze sulla retta dei numeri.
@@ -547,4 +746,5 @@ Fuori dalla matematica, le coordinate nello spazio sono le stesse della Geometri
 - Stewart, capitolo sui vettori (`Capitolo_Vettori.pdf`), paragrafo 2.1 "Sistemi tridimensionali di coordinate", pagine 58-63 del libro (pagine 1-6 del PDF): piani coordinati, formula della distanza in tre dimensioni con la dimostrazione con Pitagora, equazione della sfera ed esempio del completamento dei quadrati.
 - Paxia, *Lezioni di geometria* (`paxia_libro.pdf`), capitolo 2 "Geometria lineare nel piano", pagine 31-50 del libro: equazioni della retta (2.2), mutua posizione e intersezione di due rette (2.3 e 2.4), coefficiente angolare (2.5), distanze (2.7) ed esempi (2.8). Il paragrafo 4.8 "Circonferenze" (pagina 88) e il 4.9 "Tangenti" (pagina 90) trattano la circonferenza. Il testo è più formale di quanto serve per l'esonero: usarlo per gli esempi.
 - Esercizi del professore (`Esercizi_vettori.pdf`): esercizio 14 (punti, distanza e punto medio) ed esercizio 22 (distanza di un punto da una retta), svolti in questa pagina.
+- Esercizi per allenarsi, con le soluzioni: sezione [[#ESERCIZI]] di questa pagina.
 - Per il ripasso veloce delle formule: [[00-ripasso-esonero-1]].

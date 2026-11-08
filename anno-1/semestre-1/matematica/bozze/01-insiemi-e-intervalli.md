@@ -360,6 +360,210 @@ Il metodo vale per ogni intersezione di intervalli: a sinistra vince l'estremo s
 > [!warning] Errore tipico
 > Confrontare gli irrazionali "a occhio". Per sapere se $\sqrt{17}$ sta prima o dopo $\tfrac{7}{2}$ conviene confrontare i quadrati, che sono numeri semplici: $(\sqrt{17})^2 = 17$ e $(\tfrac{7}{2})^2 = \tfrac{49}{4} = 12{,}25$. Poiché $17 > 12{,}25$ (e sono numeri positivi), $\sqrt{17} > \tfrac{7}{2}$.
 
+## ESERCIZI
+
+Questa sezione serve per allenarsi in vista dell'esonero. Conviene fare ogni esercizio da sola, su carta, disegnando la retta quando ci sono intervalli; solo dopo si apre la soluzione (il riquadro verde si apre con un clic) e si confrontano i passaggi, non solo il risultato.
+
+### Gli esercizi del professore
+
+Per questo argomento il professore non ha dato un foglio di esercizi: i fogli in `materiale/` riguardano i vettori ([[Esercizi_vettori.pdf]] ed [[esercizi prodotto vettoriale e prodotto triplo.pdf]]) e le funzioni, gli esponenziali, i logaritmi e la trigonometria ([[Esercizi_funzioni_e_Logaritmi.pdf]]).
+
+L'unico esercizio dato dal professore su insiemi e intervalli è quello della prima lezione, negli appunti di Nadia ([[appunti-nadia-02.jpeg]]): l'intersezione $X \cap Y \cap Z$ con $-\sqrt{2}$, $\tfrac{7}{2}$, $\pi$ e $\sqrt{17}$. È già svolto in questa pagina, nella sezione [[#L'esercizio del professore]].
+
+La notazione degli intervalli torna però nel foglio [[Esercizi_funzioni_e_Logaritmi.pdf]], pagina 1: negli esercizi 1 e 2 (il dominio e l'immagine si scrivono come intervalli), nell'esercizio 10 (gli intervalli di monotonia, anche di $|x - 3|$) e nell'esercizio 11 (il grafico di $|x + 1| - 2$). Sono esercizi sulle funzioni e si trovano in [[06-le-funzioni]]; per farli bene servono gli esercizi qui sotto sugli intervalli e sul valore assoluto.
+
+### Esercizi per allenarti
+
+#### Insiemi e operazioni
+
+> [!question] Esercizio 1
+> Nell'universo $U = \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}$ sono dati $A = \{1, 2, 3, 4, 5, 6\}$ e $B = \{2, 4, 6, 8\}$. Calcolare $A \cup B$, $A \cap B$, $A \setminus B$, $B \setminus A$ e il complementare $B^c$.
+
+> [!success]- Soluzione
+> 1. Unione: tutti gli elementi di $A$ più quelli di $B$ che mancano (solo l'$8$): $A \cup B = \{1, 2, 3, 4, 5, 6, 8\}$.
+> 2. Intersezione: gli elementi comuni: $A \cap B = \{2, 4, 6\}$.
+> 3. $A \setminus B$: tolgo da $A$ gli elementi che stanno anche in $B$ ($2, 4, 6$): $A \setminus B = \{1, 3, 5\}$.
+> 4. $B \setminus A$: tolgo da $B$ gli elementi che stanno in $A$: resta $B \setminus A = \{8\}$. Le due differenze sono diverse.
+> 5. Complementare: gli elementi di $U$ che non stanno in $B$: $B^c = \{1, 3, 5, 7, 9, 10\}$.
+
+> [!question] Esercizio 2
+> Con gli insiemi $A$ e $B$ dell'esercizio 1 e $C = \{1, 4, 9\}$, calcolare $(A \cap B) \cup C$, $A \cap (B \cup C)$ e $(A \cap B) \cup (A \cap C)$. Quali due risultati coincidono, e perché?
+
+> [!success]- Soluzione
+> 1. $A \cap B = \{2, 4, 6\}$, quindi $(A \cap B) \cup C = \{2, 4, 6\} \cup \{1, 4, 9\} = \{1, 2, 4, 6, 9\}$.
+> 2. $B \cup C = \{1, 2, 4, 6, 8, 9\}$, quindi $A \cap (B \cup C) = \{1, 2, 4, 6\}$ (l'$8$ e il $9$ non stanno in $A$).
+> 3. $A \cap C = \{1, 4\}$, quindi $(A \cap B) \cup (A \cap C) = \{2, 4, 6\} \cup \{1, 4\} = \{1, 2, 4, 6\}$.
+>
+> Coincidono il secondo e il terzo: è la proprietà distributiva $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$. Il primo è diverso: le parentesi contano, perché unione e intersezione insieme non si possono spostare a piacere.
+
+> [!question] Esercizio 3
+> Nell'universo $U = \{1, 2, 3, 4, 5, 6, 7, 8\}$ sono dati $A = \{1, 2, 3, 4\}$ e $B = \{3, 4, 5, 6\}$. Verificare le due leggi di De Morgan calcolando separatamente i due membri di $(A \cup B)^c = A^c \cap B^c$ e di $(A \cap B)^c = A^c \cup B^c$.
+
+> [!success]- Soluzione
+> 1. $A \cup B = \{1, 2, 3, 4, 5, 6\}$, quindi $(A \cup B)^c = \{7, 8\}$.
+> 2. $A^c = \{5, 6, 7, 8\}$ e $B^c = \{1, 2, 7, 8\}$, quindi $A^c \cap B^c = \{7, 8\}$. La prima legge è verificata.
+> 3. $A \cap B = \{3, 4\}$, quindi $(A \cap B)^c = \{1, 2, 5, 6, 7, 8\}$.
+> 4. $A^c \cup B^c = \{5, 6, 7, 8\} \cup \{1, 2, 7, 8\} = \{1, 2, 5, 6, 7, 8\}$. Anche la seconda è verificata.
+
+> [!question] Esercizio 4
+> Scrivere per elencazione i seguenti insiemi:
+> $$
+> A = \{n \in \mathbb{N} \mid n^2 < 20\} \qquad B = \{x \in \mathbb{Z} \mid -2 \leq x < 3\} \qquad C = \{x \in \mathbb{R} \mid x^2 - 4x + 3 = 0\} \qquad D = \{x \in \mathbb{R} \mid x^2 + 4 = 0\}
+> $$
+
+> [!success]- Soluzione
+> 1. $A$: provo i naturali a partire da $0$: $0, 1, 4, 9, 16$ sono minori di $20$, $5^2 = 25$ no. $A = \{0, 1, 2, 3, 4\}$.
+> 2. $B$: gli interi da $-2$ compreso a $3$ escluso: $B = \{-2, -1, 0, 1, 2\}$.
+> 3. $C$: risolvo l'equazione. Due numeri con somma $4$ e prodotto $3$ sono $1$ e $3$, quindi $x^2 - 4x + 3 = (x - 1)(x - 3)$ e $C = \{1, 3\}$.
+> 4. $D$: $x^2 = -4$ non ha soluzioni reali, perché un quadrato non è mai negativo. $D = \emptyset$.
+
+#### Quantificatori
+
+> [!question] Esercizio 5
+> Dire se ciascuna proposizione è vera o falsa, motivando:
+> 1. $\forall x \in \mathbb{R},\ x^2 > 0$
+> 2. $\exists x \in \mathbb{N} \mid x + 5 = 2$
+> 3. $\forall x \in \mathbb{R},\ |x| \geq x$
+> 4. $\exists!\, x \in \mathbb{R} \mid x^2 = 9$
+
+> [!success]- Soluzione
+> 1. Falsa. Basta un controesempio: per $x = 0$ si ha $x^2 = 0$, che non è maggiore di $0$. (Con $\geq$ al posto di $>$ sarebbe vera.)
+> 2. Falsa. L'unica soluzione è $x = -3$, che non è un numero naturale. In $\mathbb{Z}$ invece sarebbe vera.
+> 3. Vera. Se $x \geq 0$ allora $|x| = x$; se $x < 0$ allora $|x|$ è positivo e quindi maggiore di $x$, che è negativo.
+> 4. Falsa. Esistono soluzioni, ma non una sola: $x = 3$ e $x = -3$.
+
+> [!question] Esercizio 6
+> Scrivere la negazione di ciascuna proposizione, e dire quale tra la proposizione e la sua negazione è vera:
+> 1. $\forall n \in \mathbb{N},\ n \geq 1$
+> 2. $\exists x \in \mathbb{R} \mid x^2 = -4$
+> 3. $\forall x \in \mathbb{R},\ x > 2 \Rightarrow x^2 > 4$
+
+> [!success]- Soluzione
+> Negando, $\forall$ diventa $\exists$ e viceversa, e la condizione si nega.
+>
+> 1. Negazione: $\exists n \in \mathbb{N} \mid n < 1$. È vera la negazione: $n = 0$ è un naturale minore di $1$.
+> 2. Negazione: $\forall x \in \mathbb{R},\ x^2 \neq -4$. È vera la negazione: nessun quadrato è negativo.
+> 3. La negazione di "se $P$ allora $Q$" è "$P$ e non $Q$". Negazione: $\exists x \in \mathbb{R} \mid x > 2 \wedge x^2 \leq 4$. È vera la proposizione di partenza: se $x > 2$, moltiplicando $x > 2$ per $x$ (positivo) si ha $x^2 > 2x > 4$.
+
+#### Insiemi numerici
+
+> [!question] Esercizio 7
+> Per ciascun numero dire qual è il più piccolo tra gli insiemi $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$ a cui appartiene, poi metterli in ordine crescente:
+> $$
+> 7 \qquad -4 \qquad \tfrac{3}{4} \qquad 0{,}333\ldots \qquad \sqrt{9} \qquad \sqrt{5} \qquad \pi
+> $$
+
+> [!success]- Soluzione
+> 1. $7 \in \mathbb{N}$; $-4 \in \mathbb{Z}$ (è negativo, non è naturale); $\sqrt{9} = 3 \in \mathbb{N}$ (la radice si calcola esattamente).
+> 2. $\tfrac{3}{4} \in \mathbb{Q}$; $0{,}333\ldots = \tfrac{1}{3} \in \mathbb{Q}$ (ha un periodo, quindi è una frazione).
+> 3. $\sqrt{5}$ e $\pi$ sono irrazionali: stanno solo in $\mathbb{R}$.
+> 4. Ordine, con $\sqrt{5} \approx 2{,}24$ e $\pi \approx 3{,}14$:
+> $$
+> -4 < 0{,}333\ldots < \tfrac{3}{4} < \sqrt{5} < \sqrt{9} < \pi < 7
+> $$
+
+> [!question] Esercizio 8
+> Senza calcolatrice, confrontare (dire quale è il maggiore):
+> 1. $\sqrt{10}$ e $\tfrac{16}{5}$
+> 2. $2\sqrt{3}$ e $\tfrac{7}{2}$
+> 3. $3\sqrt{2}$ e $2\sqrt{5}$
+
+> [!success]- Soluzione
+> Sono tutti numeri positivi, quindi confrontare i numeri equivale a confrontare i loro quadrati.
+>
+> 1. $(\sqrt{10})^2 = 10$ e $\left(\tfrac{16}{5}\right)^2 = \tfrac{256}{25} = 10{,}24$. Quindi $\sqrt{10} < \tfrac{16}{5}$.
+> 2. $(2\sqrt{3})^2 = 4 \cdot 3 = 12$ e $\left(\tfrac{7}{2}\right)^2 = \tfrac{49}{4} = 12{,}25$. Quindi $2\sqrt{3} < \tfrac{7}{2}$.
+> 3. $(3\sqrt{2})^2 = 9 \cdot 2 = 18$ e $(2\sqrt{5})^2 = 4 \cdot 5 = 20$. Quindi $3\sqrt{2} < 2\sqrt{5}$.
+
+> [!question] Esercizio 9
+> Trovare due numeri razionali compresi tra $\tfrac{2}{5}$ e $\tfrac{1}{2}$.
+
+> [!success]- Soluzione
+> 1. Uso la media dei due numeri: $\dfrac{\frac{2}{5} + \frac{1}{2}}{2} = \dfrac{\frac{4}{10} + \frac{5}{10}}{2} = \dfrac{9}{20}$.
+> 2. Ripeto tra $\tfrac{2}{5} = \tfrac{16}{40}$ e $\tfrac{9}{20} = \tfrac{18}{40}$: la media è $\tfrac{17}{40}$.
+>
+> Quindi $\tfrac{2}{5} < \tfrac{17}{40} < \tfrac{9}{20} < \tfrac{1}{2}$ (in decimali: $0{,}4 < 0{,}425 < 0{,}45 < 0{,}5$). Si può continuare all'infinito: è la densità di $\mathbb{Q}$.
+
+#### Valore assoluto
+
+> [!question] Esercizio 10
+> Calcolare, togliendo le sbarrette:
+> 1. $|-7| + |3 - 10|$
+> 2. $|2 - \sqrt{5}|$
+> 3. $|\pi - 4|$
+> 4. $\sqrt{(-6)^2}$
+
+> [!success]- Soluzione
+> 1. $|-7| = 7$ e $|3 - 10| = |-7| = 7$: il risultato è $14$.
+> 2. $\sqrt{5} \approx 2{,}24 > 2$, quindi $2 - \sqrt{5}$ è negativo e il valore assoluto ne cambia il segno: $|2 - \sqrt{5}| = \sqrt{5} - 2$.
+> 3. $\pi \approx 3{,}14 < 4$, quindi $\pi - 4 < 0$ e $|\pi - 4| = 4 - \pi$.
+> 4. $\sqrt{(-6)^2} = \sqrt{36} = 6 = |-6|$, non $-6$.
+
+> [!question] Esercizio 11
+> Scrivere come intervallo, o unione di intervalli, l'insieme dei numeri reali che soddisfano:
+> 1. $|x| \leq 3$
+> 2. $|x - 2| < 5$
+> 3. $|x + 1| \geq 4$
+> 4. $|x - 4| > 0$
+
+> [!success]- Soluzione
+> 1. $-3 \leq x \leq 3$, cioè $[-3, 3]$.
+> 2. $-5 < x - 2 < 5$; sommo $2$ a tutti i membri: $-3 < x < 7$, cioè $(-3, 7)$. Sono i punti a distanza meno di $5$ da $2$.
+> 3. $x + 1 \leq -4 \ \vee\ x + 1 \geq 4$, cioè $x \leq -5 \ \vee\ x \geq 3$: $(-\infty, -5] \cup [3, +\infty)$. Sono i punti a distanza almeno $4$ da $-1$.
+> 4. Il valore assoluto è sempre $\geq 0$ e vale $0$ solo per $x = 4$: l'insieme è $\mathbb{R} \setminus \{4\} = (-\infty, 4) \cup (4, +\infty)$.
+
+> [!question] Esercizio 12
+> 1. Calcolare la distanza sulla retta tra $-3$ e $5$, e tra $-\tfrac{1}{2}$ e $\tfrac{5}{2}$.
+> 2. Trovare i numeri reali che distano $3$ da $-1$, scrivendo la condizione con il valore assoluto.
+
+> [!success]- Soluzione
+> 1. $|5 - (-3)| = |8| = 8$; $\left|\tfrac{5}{2} - \left(-\tfrac{1}{2}\right)\right| = \left|\tfrac{6}{2}\right| = 3$.
+> 2. La condizione è $|x - (-1)| = 3$, cioè $|x + 1| = 3$. Quindi $x + 1 = 3$ oppure $x + 1 = -3$: $x = 2$ oppure $x = -4$. L'insieme è $\{-4, 2\}$ (sulla retta: tre passi a destra e tre a sinistra di $-1$).
+
+#### Intervalli
+
+> [!question] Esercizio 13
+> Sono dati $I = [-2, 4)$, $J = (1, 6]$ e $K = (-\infty, 0]$. Calcolare $I \cap J$, $I \cup J$, $I \cap K$, $J \cap K$ e $I \setminus J$.
+
+> [!success]- Soluzione
+> Disegno i tre intervalli uno sotto l'altro sulla stessa retta.
+>
+> 1. $I \cap J$: a sinistra vince l'estremo più grande, $1$ (escluso, perché $1 \notin J$); a destra il più piccolo, $4$ (escluso, perché $4 \notin I$): $I \cap J = (1, 4)$.
+> 2. $I \cup J$: si sovrappongono, quindi coprono senza buchi da $-2$ (compreso) a $6$ (compreso): $I \cup J = [-2, 6]$.
+> 3. $I \cap K$: da $-2$ (compreso in $I$) a $0$ (compreso in $K$): $I \cap K = [-2, 0]$.
+> 4. $J \cap K$: $J$ comincia dopo $1$, $K$ finisce in $0$: non si sovrappongono, $J \cap K = \emptyset$.
+> 5. $I \setminus J$: tolgo da $I$ la parte da $1$ in poi; l'$1$ resta, perché non sta in $J$: $I \setminus J = [-2, 1]$.
+
+> [!question] Esercizio 14
+> Dati
+> $$
+> X = \{x \in \mathbb{R} \mid x \geq -\sqrt{3}\} \qquad Y = \{x \in \mathbb{R} \mid x < \sqrt{10}\} \qquad Z = \{x \in \mathbb{R} \mid \tfrac{5}{2} < x \leq 4\}
+> $$
+> trovare $X \cap Y \cap Z$.
+
+> [!success]- Soluzione
+> 1. Come intervalli: $X = [-\sqrt{3}, +\infty)$, $Y = (-\infty, \sqrt{10})$, $Z = (\tfrac{5}{2}, 4]$.
+> 2. Valori approssimati per il disegno: $-\sqrt{3} \approx -1{,}73$; $\tfrac{5}{2} = 2{,}5$; $\sqrt{10} \approx 3{,}16$; $4$.
+> 3. Controllo con i quadrati dove cade $\sqrt{10}$: $\left(\tfrac{5}{2}\right)^2 = 6{,}25 < 10 < 16 = 4^2$, quindi $\tfrac{5}{2} < \sqrt{10} < 4$.
+> 4. A sinistra vince l'estremo più grande, $\tfrac{5}{2}$, che viene da $Z$ ed è escluso.
+> 5. A destra vince l'estremo più piccolo, $\sqrt{10}$, che viene da $Y$ ed è escluso.
+> $$
+> X \cap Y \cap Z = \{x \in \mathbb{R} \mid \tfrac{5}{2} < x < \sqrt{10}\} = \left(\tfrac{5}{2}, \sqrt{10}\right)
+> $$
+
+> [!question] Esercizio 15
+> Calcolare, scrivendo il risultato come intervallo o unione di intervalli:
+> 1. il complementare in $\mathbb{R}$ di $[1, 5]$
+> 2. $\mathbb{R} \setminus (-2, 3]$
+> 3. $[0, 6] \setminus (2, 4)$
+
+> [!success]- Soluzione
+> Quando si toglie un intervallo, gli estremi si scambiano: quelli che erano compresi diventano esclusi e viceversa.
+>
+> 1. Restano i numeri prima di $1$ e dopo $5$; $1$ e $5$ stavano nell'intervallo tolto, quindi ora sono esclusi: $(-\infty, 1) \cup (5, +\infty)$.
+> 2. $-2$ non stava in $(-2, 3]$, quindi resta; $3$ stava, quindi se ne va: $(-\infty, -2] \cup (3, +\infty)$.
+> 3. Da $[0, 6]$ tolgo la parte tra $2$ e $4$, estremi esclusi: $2$ e $4$ restano. Risultato: $[0, 2] \cup [4, 6]$.
+
 ## Collegamenti
 
 Il linguaggio degli insiemi e degli intervalli è quello con cui si scrivono i risultati di tutto il corso. In [[02-equazioni-e-disequazioni|equazioni e disequazioni]] le soluzioni di una disequazione sono un intervallo o un'unione di intervalli, la "o" tra due pezzi diventa il simbolo $\cup$ e un sistema di disequazioni è un'intersezione, risolta con lo stesso disegno a righe sovrapposte dell'esercizio del professore; il valore assoluto, introdotto qui come distanza, diventa lo strumento per risolvere equazioni e disequazioni con le sbarrette. In [[03-retta-e-circonferenza|retta e circonferenza]] la distanza $|a - b|$ sulla retta si allarga alla distanza tra due punti del piano, e una circonferenza è l'insieme dei punti $\{P \mid \overline{PC} = r\}$, descritto proprio con una proprietà caratteristica.
@@ -371,3 +575,4 @@ Nei [[05-i-vettori|vettori]] la condizione di parallelismo $\vec v = \lambda \ve
 - [[appunti-nadia-01.jpeg]] e [[appunti-nadia-02.jpeg]]: gli appunti della prima lezione (programma, insiemi, operazioni e proprietà, esercizio sugli intervalli).
 - [[Programma del corso_Istituzioni_di_matematiche_1_canale_1.pdf]]: pagina 1, prima parte del programma (quantificatori, numeri naturali, interi, razionali e reali, assiomi dei reali, irrazionalità di $\sqrt{2}$, valore assoluto, densità di $\mathbb{Q}$ in $\mathbb{R}$).
 - [[Giuffrida - Ragusa Cap 1_compressed.pdf]]: capitolo 1, insiemi, operazioni tra insiemi e insiemi numerici.
+- Per allenarsi: la sezione [[#ESERCIZI]] di questa pagina (il professore non ha dato un foglio di esercizi su questo argomento).

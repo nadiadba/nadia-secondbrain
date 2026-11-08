@@ -978,6 +978,209 @@ Questo esercizio, fatto in classe, mette insieme quasi tutta la pagina: combinaz
 > - Il volume di un parallelepipedo si calcola con tre vettori (il prodotto triplo), non con quattro.
 > - Nei vero o falso, "se $\mathbf{u} \cdot \mathbf{v} < 0$ l'angolo è ottuso" è vero: il segno del prodotto scalare è il segno del coseno.
 
+## ESERCIZI
+
+Questa sezione serve ad allenarsi per l'esonero. Per ogni esercizio prova prima da sola, su carta, fino al risultato; solo dopo apri la soluzione (clicca sulla riga "Soluzione" per aprirla) e confronta i passaggi, non solo il numero finale. Se un esercizio non viene, torna alla parte di teoria che gli corrisponde e poi riprova senza guardare.
+
+### Gli esercizi del professore
+
+Il professore ha dato due fogli su questo argomento, entrambi nella cartella del materiale.
+
+Il primo è [[Esercizi_vettori.pdf]], "Esercizi su vettori e prodotto scalare", in due pagine: gli esercizi 1-12 nella prima pagina e gli esercizi 13-24 nella seconda ("Seconda parte: ulteriori esercizi"). Riguardano tutti questa pagina, e sono tutti e 24 già svolti come esempi qui sopra:
+
+- operazioni e vettori tra due punti: 1 (in due parti, somma e poi differenza e multipli), 2, 3, 13, 14;
+- combinazioni lineari e parallelismo: 15, 16;
+- norma e versore: 4 (in due parti);
+- prodotto scalare, angolo e ortogonalità: 5, 6, 7, 9, 10, 17, 18, 19, 20;
+- proprietà del prodotto scalare e calcoli senza coordinate: 11, 12 (vero o falso), 23, 24;
+- proiezioni e distanza punto-retta: 8, 21, 22.
+
+Il secondo è [[esercizi prodotto vettoriale e prodotto triplo.pdf]], con gli esercizi 1-12 su determinanti, prodotto vettoriale e prodotto triplo. Anche questi sono tutti e 12 svolti come esempi nella sezione "Determinanti, prodotto vettoriale e prodotto triplo": l'esercizio 6 con il determinante 2×2, il 7 sia con il determinante 3×3 sia come prodotto triplo, l'1 per la definizione, il 2 e il 3 per aree e angoli, il 4 e il 5 per il parallelismo, l'8 per i volumi, il 9, il 10 e l'11 per complanarità e orientazione, il 12 come esercizio di sintesi.
+
+Negli appunti presi in classe ci sono gli esercizi 1, 2, 3, 4 e 5 del primo foglio (22 ottobre), poi il 9, l'11, il vero o falso 12, il 13 e il 14 (23 ottobre), e un esercizio con tre vettori nello spazio che non è sul foglio: è svolto per intero qui sopra, in "Un esercizio completo svolto in classe". Per allenarti sui fogli del professore, quindi, coprili e rifalli da sola, poi confrontali con gli esempi della pagina. Gli esercizi qui sotto sono invece nuovi.
+
+### Esercizi per allenarti
+
+#### Operazioni, norma e parallelismo
+
+> [!question] Esercizio 1
+> Siano $\mathbf{u} = (3, -2)$ e $\mathbf{v} = (-1, 4)$. Calcolare $\mathbf{u} + \mathbf{v}$, $2\mathbf{u} - 3\mathbf{v}$ e $\|\mathbf{u} + \mathbf{v}\|$.
+
+> [!success]- Soluzione
+> 1. Si somma componente per componente: $\mathbf{u} + \mathbf{v} = (3 + (-1),\ -2 + 4) = (2, 2)$.
+> 2. $2\mathbf{u} = (6, -4)$ e $3\mathbf{v} = (-3, 12)$, quindi $2\mathbf{u} - 3\mathbf{v} = (6 - (-3),\ -4 - 12) = (9, -16)$.
+> 3. $\|\mathbf{u} + \mathbf{v}\| = \|(2, 2)\| = \sqrt{4 + 4} = \sqrt8 = 2\sqrt2$.
+
+> [!question] Esercizio 2
+> Sia $\mathbf{a} = (2, -1, 2)$. Calcolare la norma di $\mathbf{a}$ e il suo versore. Trovare poi il vettore di norma $6$ che ha la stessa direzione di $\mathbf{a}$ e verso opposto.
+
+> [!success]- Soluzione
+> 1. $\|\mathbf{a}\| = \sqrt{4 + 1 + 4} = \sqrt9 = 3$.
+> 2. Versore: $\dfrac{\mathbf{a}}{\|\mathbf{a}\|} = \dfrac13 (2, -1, 2) = \left(\dfrac23, -\dfrac13, \dfrac23\right)$. Controllo: $\frac49 + \frac19 + \frac49 = 1$.
+> 3. Un vettore di norma $6$ e verso opposto si ottiene moltiplicando il versore per $-6$ (cioè $\mathbf{a}$ per $-2$):
+> $$
+> -6 \cdot \left(\frac23, -\frac13, \frac23\right) = (-4, 2, -4).
+> $$
+> Controllo: $\sqrt{16 + 4 + 16} = \sqrt{36} = 6$.
+
+> [!question] Esercizio 3
+> Siano $A = (2, 1)$ e $B = (6, 4)$. Calcolare il vettore $\overrightarrow{AB}$, la distanza tra $A$ e $B$, il punto medio di $AB$ e il versore di $\overrightarrow{AB}$.
+
+> [!success]- Soluzione
+> 1. Punta meno coda: $\overrightarrow{AB} = B - A = (6 - 2,\ 4 - 1) = (4, 3)$.
+> 2. La distanza è la norma del vettore: $AB = \sqrt{16 + 9} = \sqrt{25} = 5$.
+> 3. Il punto medio è la media delle coordinate: $M = \left(\dfrac{2 + 6}{2}, \dfrac{1 + 4}{2}\right) = \left(4, \dfrac52\right)$.
+> 4. Versore: $\dfrac15 (4, 3) = \left(\dfrac45, \dfrac35\right)$.
+
+> [!question] Esercizio 4
+> Siano $\mathbf{u} = (1, 2)$, $\mathbf{v} = (1, -1)$ e $\mathbf{a} = (1, 8)$. Trovare $\alpha, \beta \in \mathbb{R}$ tali che $\mathbf{a} = \alpha\mathbf{u} + \beta\mathbf{v}$.
+
+> [!success]- Soluzione
+> 1. $\alpha(1, 2) + \beta(1, -1) = (\alpha + \beta,\ 2\alpha - \beta)$.
+> 2. Uguagliando a $(1, 8)$ componente per componente si ha il sistema $\alpha + \beta = 1$ e $2\alpha - \beta = 8$.
+> 3. Sommando le due equazioni: $3\alpha = 9$, quindi $\alpha = 3$; poi $\beta = 1 - \alpha = -2$.
+> 4. Verifica: $3(1, 2) - 2(1, -1) = (3 - 2,\ 6 + 2) = (1, 8)$.
+>
+> La coppia è unica perché $\mathbf{u}$ e $\mathbf{v}$ non sono paralleli.
+
+> [!question] Esercizio 5
+> Per quale $k \in \mathbb{R}$ i vettori $\mathbf{u} = (2, k, -4)$ e $\mathbf{v} = (-1, 3, 2)$ sono paralleli? Per quel valore, hanno lo stesso verso o verso opposto?
+
+> [!success]- Soluzione
+> 1. Si cerca un numero $\lambda$ tale che $\mathbf{v} = \lambda\mathbf{u}$. Le componenti senza $k$ lo fissano: dalla prima $-1 = 2\lambda$, cioè $\lambda = -\frac12$; dalla terza $2 = -4\lambda$, cioè di nuovo $\lambda = -\frac12$.
+> 2. Anche la seconda componente deve rispettarlo: $3 = -\frac12 k$, quindi $k = -6$.
+> 3. Per $k = -6$ si ha $\mathbf{u} = (2, -6, -4) = -2\,\mathbf{v}$: il numero è negativo, quindi i due vettori hanno verso opposto.
+
+#### Prodotto scalare, angoli e proiezioni
+
+> [!question] Esercizio 6
+> Calcolare l'angolo tra i vettori:
+> 1. $\mathbf{u} = (2, 1, -2)$ e $\mathbf{v} = (0, 3, -3)$;
+> 2. $\mathbf{a} = (-1, 1)$ e $\mathbf{b} = (2, 0)$.
+
+> [!success]- Soluzione
+> 1. $\mathbf{u} \cdot \mathbf{v} = 0 + 3 + 6 = 9$; $\|\mathbf{u}\| = \sqrt{4 + 1 + 4} = 3$ e $\|\mathbf{v}\| = \sqrt{0 + 9 + 9} = \sqrt{18} = 3\sqrt2$. Quindi
+> $$
+> \cos\theta = \frac{9}{3 \cdot 3\sqrt2} = \frac{1}{\sqrt2} = \frac{\sqrt2}{2}, \qquad \theta = 45° = \frac{\pi}{4}.
+> $$
+> 2. $\mathbf{a} \cdot \mathbf{b} = -2 + 0 = -2$; $\|\mathbf{a}\| = \sqrt2$ e $\|\mathbf{b}\| = 2$. Quindi
+> $$
+> \cos\theta = \frac{-2}{2\sqrt2} = -\frac{\sqrt2}{2}, \qquad \theta = 135° = \frac{3\pi}{4}.
+> $$
+> Il coseno è negativo: l'angolo è ottuso.
+
+> [!question] Esercizio 7
+> Siano $\mathbf{u} = (k, 1, 3)$ e $\mathbf{v} = (k, -4, 1)$. Per quali $k \in \mathbb{R}$ i due vettori sono ortogonali? Per quali formano un angolo acuto?
+
+> [!success]- Soluzione
+> 1. $\mathbf{u} \cdot \mathbf{v} = k \cdot k + 1 \cdot (-4) + 3 \cdot 1 = k^2 - 1$.
+> 2. Ortogonali se $k^2 - 1 = 0$, cioè $k = 1$ oppure $k = -1$.
+> 3. Angolo acuto se il prodotto scalare è positivo: $k^2 - 1 > 0$, cioè $k < -1$ oppure $k > 1$.
+> 4. Di conseguenza l'angolo è ottuso per $-1 < k < 1$ (per esempio con $k = 0$ il prodotto scalare vale $-1$).
+
+> [!question] Esercizio 8
+> Siano $A = (1, 2)$, $B = (4, 3)$, $C = (0, 5)$. Dimostrare con il prodotto scalare che il triangolo $ABC$ è rettangolo in $A$, e calcolarne l'area. Quanto misura l'angolo in $B$?
+
+> [!success]- Soluzione
+> 1. I vettori che partono da $A$: $\overrightarrow{AB} = (3, 1)$ e $\overrightarrow{AC} = (-1, 3)$.
+> 2. $\overrightarrow{AB} \cdot \overrightarrow{AC} = -3 + 3 = 0$: sono ortogonali, quindi l'angolo in $A$ è retto.
+> 3. $\|\overrightarrow{AB}\| = \sqrt{9 + 1} = \sqrt{10}$ e $\|\overrightarrow{AC}\| = \sqrt{1 + 9} = \sqrt{10}$. I cateti sono uguali, e l'area è $\dfrac12 \cdot \sqrt{10} \cdot \sqrt{10} = 5$.
+> 4. Il triangolo è rettangolo e isoscele, quindi gli altri due angoli sono di $45°$. Con i vettori: $\overrightarrow{BA} = (-3, -1)$, $\overrightarrow{BC} = (-4, 2)$, $\overrightarrow{BA} \cdot \overrightarrow{BC} = 12 - 2 = 10$, $\|\overrightarrow{BC}\| = \sqrt{20}$, e $\cos\widehat{B} = \dfrac{10}{\sqrt{10}\,\sqrt{20}} = \dfrac{10}{10\sqrt2} = \dfrac{\sqrt2}{2}$, cioè $\widehat{B} = 45°$.
+
+> [!question] Esercizio 9
+> Siano $\mathbf{u} = (1, 2, 3)$ e $\mathbf{v} = (1, 0, 1)$. Calcolare la proiezione scalare e la proiezione vettoriale $\mathbf{p}$ di $\mathbf{u}$ nella direzione di $\mathbf{v}$. Posto $\mathbf{q} = \mathbf{u} - \mathbf{p}$, verificare che $\mathbf{q}$ è ortogonale a $\mathbf{v}$.
+
+> [!success]- Soluzione
+> 1. $\mathbf{u} \cdot \mathbf{v} = 1 + 0 + 3 = 4$ e $\|\mathbf{v}\| = \sqrt2$, quindi $\|\mathbf{v}\|^2 = 2$.
+> 2. Proiezione scalare: $\dfrac{4}{\sqrt2} = 2\sqrt2$.
+> 3. Proiezione vettoriale: $\mathbf{p} = \dfrac{4}{2}(1, 0, 1) = (2, 0, 2)$.
+> 4. $\mathbf{q} = (1, 2, 3) - (2, 0, 2) = (-1, 2, 1)$, e $\mathbf{q} \cdot \mathbf{v} = -1 + 0 + 1 = 0$: è ortogonale.
+> 5. Controllo con Pitagora: $\|\mathbf{u}\|^2 = 1 + 4 + 9 = 14$ e $\|\mathbf{p}\|^2 + \|\mathbf{q}\|^2 = 8 + 6 = 14$.
+
+> [!question] Esercizio 10
+> Due vettori hanno $\|\mathbf{u}\| = 2$, $\|\mathbf{v}\| = 3$ e formano un angolo di $120°$. Calcolare $\mathbf{u} \cdot \mathbf{v}$, $\|\mathbf{u} + \mathbf{v}\|$, $\|\mathbf{u} - \mathbf{v}\|$ e $(\mathbf{u} + 2\mathbf{v}) \cdot (\mathbf{u} - \mathbf{v})$.
+
+> [!success]- Soluzione
+> 1. Con la definizione geometrica: $\mathbf{u} \cdot \mathbf{v} = 2 \cdot 3 \cdot \cos 120° = 6 \cdot \left(-\frac12\right) = -3$.
+> 2. $\|\mathbf{u} + \mathbf{v}\|^2 = \|\mathbf{u}\|^2 + 2\,\mathbf{u} \cdot \mathbf{v} + \|\mathbf{v}\|^2 = 4 - 6 + 9 = 7$, quindi $\|\mathbf{u} + \mathbf{v}\| = \sqrt7$.
+> 3. $\|\mathbf{u} - \mathbf{v}\|^2 = 4 + 6 + 9 = 19$, quindi $\|\mathbf{u} - \mathbf{v}\| = \sqrt{19}$.
+> 4. Si sviluppa come un prodotto tra parentesi:
+> $$
+> (\mathbf{u} + 2\mathbf{v}) \cdot (\mathbf{u} - \mathbf{v}) = \mathbf{u} \cdot \mathbf{u} - \mathbf{u} \cdot \mathbf{v} + 2\,\mathbf{v} \cdot \mathbf{u} - 2\,\mathbf{v} \cdot \mathbf{v} = 4 + 3 - 6 - 18 = -17.
+> $$
+
+#### Prodotto vettoriale, aree e volumi
+
+> [!question] Esercizio 11
+> Siano $\mathbf{u} = (2, -1, 3)$ e $\mathbf{v} = (1, 0, -2)$. Calcolare $\mathbf{u} \times \mathbf{v}$, verificare che è ortogonale a entrambi e calcolare l'area del parallelogramma di lati $\mathbf{u}$ e $\mathbf{v}$.
+
+> [!success]- Soluzione
+> 1. Prima componente: $u_2 v_3 - u_3 v_2 = (-1)(-2) - 3 \cdot 0 = 2$.
+> 2. Seconda componente: $u_3 v_1 - u_1 v_3 = 3 \cdot 1 - 2 \cdot (-2) = 3 + 4 = 7$.
+> 3. Terza componente: $u_1 v_2 - u_2 v_1 = 2 \cdot 0 - (-1) \cdot 1 = 1$.
+> 4. Quindi $\mathbf{u} \times \mathbf{v} = (2, 7, 1)$. Controllo: $(2, 7, 1) \cdot \mathbf{u} = 4 - 7 + 3 = 0$ e $(2, 7, 1) \cdot \mathbf{v} = 2 + 0 - 2 = 0$.
+> 5. Area del parallelogramma: $\|(2, 7, 1)\| = \sqrt{4 + 49 + 1} = \sqrt{54} = 3\sqrt6$.
+
+> [!question] Esercizio 12
+> Siano $A = (1, 0, 2)$, $B = (3, 1, 2)$, $C = (1, 2, 4)$. Calcolare l'area del triangolo $ABC$ e un versore perpendicolare al piano del triangolo.
+
+> [!success]- Soluzione
+> 1. $\overrightarrow{AB} = (2, 1, 0)$ e $\overrightarrow{AC} = (0, 2, 2)$.
+> 2. $\overrightarrow{AB} \times \overrightarrow{AC} = (1 \cdot 2 - 0 \cdot 2,\ \ 0 \cdot 0 - 2 \cdot 2,\ \ 2 \cdot 2 - 1 \cdot 0) = (2, -4, 4)$.
+> 3. $\|(2, -4, 4)\| = \sqrt{4 + 16 + 16} = \sqrt{36} = 6$: è l'area del parallelogramma su $\overrightarrow{AB}$ e $\overrightarrow{AC}$. Il triangolo ne è la metà: area $3$.
+> 4. Il prodotto vettoriale è perpendicolare al piano del triangolo; normalizzandolo si ha il versore $\dfrac16 (2, -4, 4) = \left(\dfrac13, -\dfrac23, \dfrac23\right)$ (va bene anche il suo opposto).
+
+> [!question] Esercizio 13
+> Trovare i versori ortogonali sia a $\mathbf{u} = (1, 0, 2)$ sia a $\mathbf{v} = (0, 1, -2)$.
+
+> [!success]- Soluzione
+> 1. Il prodotto vettoriale è ortogonale a entrambi:
+> $$
+> \mathbf{u} \times \mathbf{v} = \big(0 \cdot (-2) - 2 \cdot 1,\ \ 2 \cdot 0 - 1 \cdot (-2),\ \ 1 \cdot 1 - 0 \cdot 0\big) = (-2, 2, 1).
+> $$
+> 2. Controllo: $(-2, 2, 1) \cdot \mathbf{u} = -2 + 0 + 2 = 0$ e $(-2, 2, 1) \cdot \mathbf{v} = 0 + 2 - 2 = 0$.
+> 3. $\|(-2, 2, 1)\| = \sqrt{4 + 4 + 1} = 3$, quindi i versori sono due, uno per verso:
+> $$
+> \left(-\frac23, \frac23, \frac13\right) \quad \text{e} \quad \left(\frac23, -\frac23, -\frac13\right).
+> $$
+
+> [!question] Esercizio 14
+> Siano $\mathbf{a} = (1, 1, 0)$, $\mathbf{b} = (0, 2, 1)$, $\mathbf{c} = (1, 0, 3)$. Calcolare il prodotto triplo $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})$, il volume del parallelepipedo e quello del tetraedro con spigoli $\mathbf{a}$, $\mathbf{b}$, $\mathbf{c}$. Quanto vale $\mathbf{b} \cdot (\mathbf{a} \times \mathbf{c})$?
+
+> [!success]- Soluzione
+> 1. Con i due prodotti: $\mathbf{b} \times \mathbf{c} = (2 \cdot 3 - 1 \cdot 0,\ \ 1 \cdot 1 - 0 \cdot 3,\ \ 0 \cdot 0 - 2 \cdot 1) = (6, 1, -2)$, e $\mathbf{a} \cdot (6, 1, -2) = 6 + 1 + 0 = 7$.
+> 2. Con il determinante, sviluppato lungo la prima riga:
+> $$
+> \begin{vmatrix} 1 & 1 & 0 \\ 0 & 2 & 1 \\ 1 & 0 & 3 \end{vmatrix} = 1 \cdot (6 - 0) - 1 \cdot (0 - 1) + 0 = 6 + 1 = 7.
+> $$
+> 3. Volume del parallelepipedo: $|7| = 7$. Volume del tetraedro: $\dfrac76$.
+> 4. $\mathbf{b} \cdot (\mathbf{a} \times \mathbf{c})$ è il determinante con le prime due righe scambiate: cambia segno e vale $-7$. Il volume resta $7$.
+
+> [!question] Esercizio 15
+> Per quale $k \in \mathbb{R}$ i vettori $\mathbf{u} = (1, 2, k)$, $\mathbf{v} = (0, 1, 1)$, $\mathbf{w} = (2, 1, -1)$ sono complanari?
+
+> [!success]- Soluzione
+> 1. Sono complanari se il prodotto triplo è zero. Sviluppando il determinante lungo la prima riga:
+> $$
+> \begin{vmatrix} 1 & 2 & k \\ 0 & 1 & 1 \\ 2 & 1 & -1 \end{vmatrix} = 1 \cdot (-1 - 1) - 2 \cdot (0 - 2) + k \cdot (0 - 2) = -2 + 4 - 2k = 2 - 2k.
+> $$
+> 2. $2 - 2k = 0$ per $k = 1$.
+> 3. Controllo: per $k = 1$, $\mathbf{u} = (1, 2, 1) = \frac32\,\mathbf{v} + \frac12\,\mathbf{w}$, quindi $\mathbf{u}$ sta nel piano di $\mathbf{v}$ e $\mathbf{w}$.
+
+> [!question] Esercizio 16
+> Siano $A = (1, 1, 0)$, $B = (2, 1, 1)$, $C = (1, 3, 1)$, $D = (0, 2, 4)$.
+> 1. Calcolare l'area del triangolo $ABC$.
+> 2. Stabilire se i quattro punti sono complanari.
+> 3. Calcolare il volume del tetraedro $ABCD$.
+> 4. Calcolare la distanza di $D$ dal piano del triangolo $ABC$.
+
+> [!success]- Soluzione
+> 1. $\overrightarrow{AB} = (1, 0, 1)$, $\overrightarrow{AC} = (0, 2, 1)$, $\overrightarrow{AD} = (-1, 1, 4)$.
+> 2. $\overrightarrow{AB} \times \overrightarrow{AC} = (0 \cdot 1 - 1 \cdot 2,\ \ 1 \cdot 0 - 1 \cdot 1,\ \ 1 \cdot 2 - 0 \cdot 0) = (-2, -1, 2)$, di norma $\sqrt{4 + 1 + 4} = 3$. Area del triangolo: $\dfrac32$.
+> 3. Prodotto triplo: $\overrightarrow{AD} \cdot (\overrightarrow{AB} \times \overrightarrow{AC}) = (-1)(-2) + 1 \cdot (-1) + 4 \cdot 2 = 2 - 1 + 8 = 9$. Non è zero, quindi i quattro punti non sono complanari.
+> 4. Volume del tetraedro: $\dfrac16 \cdot 9 = \dfrac32$.
+> 5. La distanza di $D$ dal piano è l'altezza del tetraedro. Da $V = \dfrac13 \cdot \text{area di base} \cdot h$ si ha $\dfrac32 = \dfrac13 \cdot \dfrac32 \cdot h$, quindi $h = 3$. (Allo stesso modo: il parallelepipedo ha volume $9$ e base $3$, e $9 = 3 \cdot h$.)
+
 ## Collegamenti
 
 I vettori riprendono e mettono in ordine molte cose della geometria analitica vista in [[03-retta-e-circonferenza]]. La distanza tra due punti è la norma del vettore $B - A$, il punto medio è la media delle coordinate, e una retta si può scrivere in forma parametrica come $X = A + s\,\mathbf{v}$: un punto di partenza più tutti i multipli di un vettore che dà la direzione. Due rette sono perpendicolari quando i loro vettori direzione hanno prodotto scalare zero, e la distanza di un punto da una retta si trova con la perpendicolare, come nell'esercizio 22.
@@ -992,4 +1195,5 @@ Per un futuro architetto i vettori sono il linguaggio dello spazio. In Geometria
 - [[Esercizi_vettori.pdf]]: i due fogli del professore su vettori e prodotto scalare (esercizi 1-24), usati per gli esempi di questa pagina.
 - [[esercizi prodotto vettoriale e prodotto triplo.pdf]]: il foglio del professore su determinanti, prodotto vettoriale e prodotto triplo (esercizi 1-12), con le formule utili in alto.
 - [[Giuffrida Ragusa - Determinanti_compressed.pdf]]: per chi vuole vedere i determinanti in modo più completo.
+- Per allenarti: la sezione [[#ESERCIZI]] di questa pagina, con 16 esercizi nuovi e le soluzioni.
 - Ripasso veloce delle formule: [[00-ripasso-esonero-1]], sezioni 1-3.
