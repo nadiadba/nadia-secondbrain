@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Con gli insiemi il professore ha aperto il corso, nella prima lezione: dopo aver presentato il programma ha introdotto l'appartenenza, l'inclusione, le operazioni tra insiemi con le loro proprietà, e ha chiuso con un esercizio sugli intervalli della retta reale. Questa pagina riprende quella lezione, con la stessa notazione, e la completa con quello che il programma ufficiale mette all'inizio: i quantificatori e i simboli logici, gli insiemi numerici $\mathbb{N}$, $\mathbb{Z}$, $\mathbb{Q}$, $\mathbb{R}$, la dimostrazione che $\sqrt{2}$ è irrazionale, il valore assoluto e gli intervalli. È il linguaggio con cui sono scritte tutte le altre pagine: le soluzioni di una disequazione, il dominio di una funzione, la condizione di parallelismo tra vettori.
 
 > [!info] Note collegate
-> Teoria: [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## PROGRAMMA DEL CORSO
 
@@ -32,7 +32,7 @@ Nella prima lezione il professore ha presentato il corso con uno schema ad alber
 
 Il programma ufficiale del corso (Istituzioni di Matematiche I) comincia con le stesse cose, scritte in modo più tecnico: "Quantificatori. I numeri: naturali, interi, razionali, reali. Assiomi dei numeri reali. Irrazionalità di $\sqrt{2}$", e subito dopo "Valore assoluto. Densità di $\mathbb{Q}$ in $\mathbb{R}$".
 
-Questa pagina copre proprio quella prima parte. Le altre voci dello schema hanno ciascuna la sua pagina: le equazioni e disequazioni in [[02-equazioni-e-disequazioni]], la geometria del piano in [[03-retta-e-circonferenza]], i vettori in [[05-i-vettori]], le funzioni in [[06-le-funzioni]] e [[07-funzioni-elementari]], le matrici in [[04-le-matrici]].
+Questa pagina copre proprio quella prima parte. Le altre voci dello schema hanno ciascuna la sua pagina: le equazioni e disequazioni in [[02-equazioni-e-disequazioni]], la geometria del piano in [[03-retta-e-circonferenza]], i vettori in [[05-i-vettori]], le funzioni in [[06-le-funzioni]] e [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]], le matrici in [[04-le-matrici]].
 
 ## IL LINGUAGGIO: SIMBOLI LOGICI E QUANTIFICATORI
 
@@ -364,7 +364,7 @@ Il metodo vale per ogni intersezione di intervalli: a sinistra vince l'estremo s
 
 Il linguaggio degli insiemi e degli intervalli è quello con cui si scrivono i risultati di tutto il corso. In [[02-equazioni-e-disequazioni|equazioni e disequazioni]] le soluzioni di una disequazione sono un intervallo o un'unione di intervalli, la "o" tra due pezzi diventa il simbolo $\cup$ e un sistema di disequazioni è un'intersezione, risolta con lo stesso disegno a righe sovrapposte dell'esercizio del professore; il valore assoluto, introdotto qui come distanza, diventa lo strumento per risolvere equazioni e disequazioni con le sbarrette. In [[03-retta-e-circonferenza|retta e circonferenza]] la distanza $|a - b|$ sulla retta si allarga alla distanza tra due punti del piano, e una circonferenza è l'insieme dei punti $\{P \mid \overline{PC} = r\}$, descritto proprio con una proprietà caratteristica.
 
-Nei [[05-i-vettori|vettori]] la condizione di parallelismo $\vec v = \lambda \vec w$ con $\lambda \in \mathbb{R}^*$ usa il quantificatore "esiste" e la notazione dei reali senza lo zero. Nelle [[06-le-funzioni|funzioni]] dominio e insieme immagine sono insiemi, quasi sempre intervalli o unioni di intervalli, e la funzione stessa, che il professore ha disegnato già nella prima lezione come frecce da un insieme a un altro, è una corrispondenza tra insiemi; nelle [[07-funzioni-elementari|funzioni elementari]] si vede che cosa succede alle potenze quando l'esponente passa dai naturali ai razionali e ai reali. Anche le [[04-le-matrici|matrici]] si descrivono come insiemi: le matrici $2 \times 2$ a elementi reali formano un insieme in cui somma e prodotto hanno proprietà simili, ma non identiche, a quelle dei numeri (il prodotto, per esempio, non è commutativo).
+Nei [[05-i-vettori|vettori]] la condizione di parallelismo $\vec v = \lambda \vec w$ con $\lambda \in \mathbb{R}^*$ usa il quantificatore "esiste" e la notazione dei reali senza lo zero. Nelle [[06-le-funzioni|funzioni]] dominio e insieme immagine sono insiemi, quasi sempre intervalli o unioni di intervalli, e la funzione stessa, che il professore ha disegnato già nella prima lezione come frecce da un insieme a un altro, è una corrispondenza tra insiemi; nelle [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]] si vede che cosa succede alle potenze quando l'esponente passa dai naturali ai razionali e ai reali. Anche le [[04-le-matrici|matrici]] si descrivono come insiemi: le matrici $2 \times 2$ a elementi reali formano un insieme in cui somma e prodotto hanno proprietà simili, ma non identiche, a quelle dei numeri (il prodotto, per esempio, non è commutativo).
 
 ## Per approfondire
 

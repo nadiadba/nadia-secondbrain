@@ -1,7 +1,7 @@
 """Grafici per la bozza di matematica 05 (Le funzioni elementari).
 
-Senza dipendenze: python3 -I .claude/scripts/disegni/matematica-07.py
-Le immagini vanno in anno-1/semestre-1/matematica/bozze/img/ con prefisso 07-.
+Senza dipendenze: python3 -I .claude/scripts/disegni/matematica-06c.py
+Le immagini vanno in anno-1/semestre-1/matematica/bozze/img/ con prefisso 06-.
 """
 import math
 import os
@@ -216,7 +216,7 @@ g.punto(0, 2, "rosso"); g.etichetta("q = 2", 0, 2, "rosso", dx=-10, dy=20, ancho
 g.segmento((1, 1), (2, 1), "blu", 1.4, "4,3"); g.segmento((2, 1), (2, 3), "blu", 1.4, "4,3")
 g.etichetta("+1", 1.5, 1, "blu", size=13, anchor="middle", dy=16)
 g.etichetta("+2", 2, 2, "blu", size=13, dx=6, dy=4)
-g.salva("07-rette.svg")
+g.salva("06-rette.svg")
 
 # ===================== 2. POTENZE PARI =====================
 g = Grafico(-2.2, 2.2, -0.8, 4.6, ux=70)
@@ -233,7 +233,7 @@ g.etichetta("y = x⁴", 1.42, 0.92, "rosso", dy=5)
 g.etichetta("y = x⁶", 1.42, 0.59, "verde", dy=5)
 g.etichetta("(1, 1)", 1, 1, dx=-12, dy=-8, anchor="end")
 g.etichetta("(−1, 1)", -1, 1, dx=12, dy=-8)
-g.salva("07-potenze-pari.svg")
+g.salva("06-potenze-pari.svg")
 
 # ===================== 3. POTENZE DISPARI =====================
 g = Grafico(-2.2, 2.2, -3.4, 3.4, ux=60)
@@ -249,7 +249,7 @@ g.etichetta("y = x³", 1.45, 3.1, "blu", anchor="start", dx=8)
 g.etichetta("y = x⁵", 1.25, 3.1, "rosso", anchor="end", dx=-6)
 g.etichetta("(1, 1)", 1, 1, dx=10, dy=18)
 g.etichetta("(−1, −1)", -1, -1, dx=-10, dy=-8, anchor="end")
-g.salva("07-potenze-dispari.svg")
+g.salva("06-potenze-dispari.svg")
 
 # ===================== 4. RADICE QUADRATA =====================
 g = Grafico(-0.8, 4.6, -0.8, 4.6, ux=70)
@@ -264,7 +264,7 @@ g.etichetta("y = x²  (x ≥ 0)", 2.12, 4.3, "rosso", anchor="start", dx=6)
 g.etichetta("y = x", 3.6, 3.3, "grigio", anchor="start")
 g.etichetta("(4, 2)", 4, 2, "blu", dy=22, anchor="middle")
 g.etichetta("(2, 4)", 2, 4, "rosso", dx=-10, anchor="end")
-g.salva("07-radice-quadrata.svg")
+g.salva("06-radice-quadrata.svg")
 
 # ===================== 5. RADICE CUBICA =====================
 cbrt = lambda x: math.copysign(abs(x) ** (1 / 3), x)
@@ -277,7 +277,7 @@ for p in ((1, 1), (-1, -1), (0, 0)):
 g.etichetta("y = ∛x", 3.0, 1.44, "blu", dy=-14, anchor="middle")
 g.etichetta("(1, 1)", 1, 1, dx=-4, dy=-12, anchor="end")
 g.etichetta("(−1, −1)", -1, -1, dx=6, dy=20)
-g.salva("07-radice-cubica.svg")
+g.salva("06-radice-cubica.svg")
 
 # ===================== 6. IPERBOLE 1/x =====================
 g = Grafico(-4.5, 4.5, -4.5, 4.5, ux=50)
@@ -290,7 +290,7 @@ g.etichetta("y = 1/x", 2.2, 0.45, "blu", dy=-14)
 g.etichetta("(1, 1)", 1, 1, dx=8, dy=-6)
 g.etichetta("(−1, −1)", -1, -1, dx=-8, dy=18, anchor="end")
 g.etichetta("non tocca mai gli assi", 0.35, 3.6, "grigio", size=13)
-g.salva("07-iperbole.svg")
+g.salva("06-iperbole.svg")
 
 # ===================== 7. VALORE ASSOLUTO =====================
 g = Grafico(-4.5, 3.5, -2.8, 4.3, ux=50)
@@ -304,7 +304,7 @@ g.etichetta("y = |x + 1| − 2", -4.4, -1.6, "blu")
 g.etichetta("vertice (−1, −2)", -1, -2, "blu", dx=10, dy=4)
 g.etichetta("zero", -3, 0, "rosso", dy=-10, dx=8)
 g.etichetta("zero", 1, 0, "rosso", dy=-10, dx=-8, anchor="end")
-g.salva("07-valore-assoluto-grafico.svg")
+g.salva("06-valore-assoluto-grafico.svg")
 
 # ===================== 8. PARABOLA (esercizio 12) =====================
 g = Grafico(-2.5, 4.5, -2.8, 5.0, ux=50)
@@ -317,7 +317,7 @@ g.etichetta("vertice V(1, 4)", 1, 4, "rosso", dx=10, dy=-8)
 g.etichetta("(0, 3)", 0, 3, dx=10, dy=18, size=13)
 g.etichetta("asse x = 1", 1, -2.4, "grigio", dx=6, size=13)
 g.etichetta("y = −(x − 1)² + 4", 2.6, 2.0, "blu", dx=8)
-g.salva("07-parabola.svg")
+g.salva("06-parabola.svg")
 
 # ===================== 9. ESPONENZIALI =====================
 g = Grafico(-3.5, 3.5, -0.8, 5.5, ux=60)
@@ -335,7 +335,7 @@ g.etichetta("(1, 2)", 1, 2, "blu", dx=10, dy=8)
 g.etichetta("(1, e)", 1, math.e, "verde", dx=-8, dy=-4, anchor="end")
 g.etichetta("(−1, 2)", -1, 2, "rosso", dx=-8, dy=-6, anchor="end")
 g.etichetta("asintoto y = 0", 2.2, 0, "grigio", dy=40, size=13, anchor="middle")
-g.salva("07-esponenziali.svg")
+g.salva("06-esponenziali.svg")
 
 # ===================== 10. ESPONENZIALE E LOGARITMO SIMMETRICI =====================
 g = Grafico(-3.3, 5.3, -3.3, 5.3, ux=52)
@@ -354,7 +354,7 @@ g.etichetta("y = x", 5.2, 5.2, "grigio", anchor="end", dx=-6, dy=4)
 g.etichetta("(2, 4)", 2, 4, "blu", dx=-8, anchor="end")
 g.etichetta("(4, 2)", 4, 2, "rosso", dy=22, anchor="middle")
 g.etichetta("(0, 1)", 0, 1, "blu", dx=-8, dy=-4, anchor="end", size=13)
-g.salva("07-esp-log-simmetrici.svg")
+g.salva("06-esp-log-simmetrici.svg")
 
 # ===================== 11. LOGARITMI CON BASI DIVERSE =====================
 g = Grafico(-0.8, 6.5, -3.3, 3.3, ux=60)
@@ -369,7 +369,7 @@ g.etichetta("y = ln x", 6.4, math.log(6.4), "verde", anchor="end", dy=20)
 g.etichetta("y = log½ x", 6.4, math.log(6.4, 0.5), "rosso", anchor="end", dy=24)
 g.etichetta("(e, 1)", math.e, 1, "verde", dx=8, dy=18, size=13)
 g.etichetta("asintoto x = 0", 0, -2.9, "grigio", dx=8, size=13)
-g.salva("07-logaritmi.svg")
+g.salva("06-logaritmi.svg")
 
 # ===================== 12. ESERCIZIO 9: 2^x - 1 e ln(x+2) =====================
 g = Grafico(-3.3, 3.5, -2.8, 3.8, ux=58)
@@ -387,7 +387,7 @@ g.etichetta("y = −1", -3.2, -1, "blu", dy=18, size=13)
 g.etichetta("x = −2", -2, -2.6, "rosso", dx=-6, anchor="end", size=13)
 g.etichetta("(0, ln 2)", 0, math.log(2), "rosso", dx=-8, dy=-6, anchor="end", size=13)
 g.etichetta("(−1, 0)", -1, 0, "rosso", dx=-8, dy=-10, anchor="end", size=13)
-g.salva("07-esercizio-esp-log.svg")
+g.salva("06-esercizio-esp-log.svg")
 
 # ===================== 13. CRESCITA ESPONENZIALE =====================
 g = Grafico(0, 60, 0, 2200, ux=8.5, uy=0.17, margine=55, xlab="t (anni)", ylab="N")
@@ -406,7 +406,7 @@ g.etichetta("ogni 17,3 anni la popolazione raddoppia", 31, 300, "rosso", size=13
 g.etichetta("17,3", T, 0, "rosso", dy=-6, dx=4, size=12)
 g.etichetta("34,7", 2 * T, 0, "rosso", dy=-6, dx=4, size=12)
 g.etichetta("52,0", 3 * T, 0, "rosso", dy=-6, dx=4, size=12)
-g.salva("07-crescita-raddoppio.svg")
+g.salva("06-crescita-raddoppio.svg")
 
 
 # ===================== TRIGONOMETRIA: circonferenze =====================
@@ -426,7 +426,7 @@ g.etichetta("r", 0.5, 0, "blu", dy=20, anchor="middle", size=17, stile="italic")
 g.etichetta("r", 0.5 * math.cos(1), 0.5 * math.sin(1), "blu", dx=-14, dy=0, size=17, stile="italic")
 g.etichetta("arco lungo r", math.cos(0.5), math.sin(0.5), "rosso", dx=12, size=15)
 g.etichetta("1 rad ≈ 57,3°", 0.27, 0.13, dx=4, size=14)
-g.salva("07-radiante.svg")
+g.salva("06-radiante.svg")
 
 # 15. circonferenza goniometrica: seno, coseno, tangente
 a = 0.85
@@ -451,7 +451,7 @@ g.etichetta("sin α", c, s / 2, "rosso", dx=-8, dy=5, anchor="end")
 g.etichetta("cos α", c / 2, 0, "blu", dy=22, anchor="middle")
 g.etichetta("tan α", 1, math.tan(a) * 0.55, "verde", dx=8)
 g.etichetta("α", 0.3, 0.13, size=16, stile="italic")
-g.salva("07-circonferenza-goniometrica.svg")
+g.salva("06-circonferenza-goniometrica.svg")
 
 # 16. angoli notevoli sulla circonferenza
 g = Grafico(-1.75, 1.75, -1.55, 1.55, ux=150)
@@ -475,7 +475,7 @@ g.etichetta("(0°)", 1.16, 0, "grigio", size=11, dy=20)
 g.etichetta("(90°)", 0, 1.16, "grigio", size=11, dx=26, dy=5)
 g.etichetta("(180°)", -1.16, 0, "grigio", size=11, anchor="end", dy=20)
 g.etichetta("(270°)", 0, -1.16, "grigio", size=11, dx=30, dy=5)
-g.salva("07-angoli-notevoli.svg")
+g.salva("06-angoli-notevoli.svg")
 
 # ===================== 17. SENO E COSENO =====================
 g = Grafico(-2 * PI - 0.3, 2 * PI + 0.5, -1.6, 1.8, ux=42, uy=80)
@@ -487,7 +487,7 @@ g.etichetta("y = sin x", PI / 2, 1, "rosso", dy=-10, anchor="middle")
 g.etichetta("y = cos x", -2 * PI, 1, "blu", dx=6, dy=-10)
 g.segmento((0, -1.45), (2 * PI, -1.45), "viola", 1.6, None)
 g.etichetta("un periodo: 2π", PI, -1.45, "viola", dy=-6, size=13, anchor="middle")
-g.salva("07-seno-coseno.svg")
+g.salva("06-seno-coseno.svg")
 
 # ===================== 18. TANGENTE =====================
 g = Grafico(-3 * PI / 2 - 0.3, 3 * PI / 2 + 0.5, -4, 4, ux=48, uy=40)
@@ -498,7 +498,7 @@ for k in (-3, -1, 1, 3):
     g.asintoto_v(k * PI / 2)
 g.etichetta("y = tan x", PI / 4, 1, "verde", dx=10, dy=6)
 g.etichetta("asintoti x = π/2 + kπ", PI / 2, 3.6, "grigio", dx=6, size=13)
-g.salva("07-tangente.svg")
+g.salva("06-tangente.svg")
 
 # ===================== 19. A cos(Bx) + C =====================
 g = Grafico(-0.4, 2 * PI + 0.5, -1.7, 5.6, ux=60, uy=45)
@@ -514,7 +514,7 @@ g.etichetta("y = cos x", 2 * PI, 1, "grigio", anchor="end", dx=-8, dy=-6, size=1
 g.etichetta("y = 2", 2 * PI + 0.45, 2, "viola", dy=-6, anchor="end", size=13)
 g.etichetta("ampiezza 3", PI, 3.5, "rosso", dx=8, size=13)
 g.etichetta("periodo π", PI / 2, 5.3, "verde", dy=-6, anchor="middle", size=13)
-g.salva("07-coseno-trasformato.svg")
+g.salva("06-coseno-trasformato.svg")
 
 # ===================== 20. EQUAZIONI sin x = k e cos x = k sulla circonferenza =====================
 g = Grafico(-1.6, 1.6, -1.45, 1.55, ux=140)
@@ -529,7 +529,7 @@ for ang, lab, anc, dx in ((PI / 3, "π/3", "start", 8), (2 * PI / 3, "2π/3", "e
     g.etichetta(lab, c, s, "blu", dx=dx, dy=-10, anchor=anc, size=15)
 g.etichetta("y = √3/2", 1.58, k, "rosso", anchor="end", dy=20, size=13)
 g.etichetta("sin x = √3/2", -1.5, -1.25, "nero", size=15)
-g.salva("07-equazione-seno.svg")
+g.salva("06-equazione-seno.svg")
 
 g = Grafico(-1.6, 1.6, -1.45, 1.55, ux=140)
 g.assi([], [])
@@ -542,7 +542,7 @@ for ang, lab, dy in ((2 * PI / 3, "2π/3", -10), (4 * PI / 3, "4π/3", 22)):
     g.etichetta(lab, c, s, "blu", dx=-10, dy=dy, anchor="end", size=15)
 g.etichetta("x = −1/2", -0.5, -1.3, "rosso", dx=8, size=13)
 g.etichetta("cos x = −1/2", 0.55, -1.25, "nero", size=15)
-g.salva("07-equazione-coseno.svg")
+g.salva("06-equazione-coseno.svg")
 
 # ===================== 21. ARCOSENO =====================
 g = Grafico(-2.0, 2.0, -2.0, 2.0, ux=100)
@@ -557,7 +557,7 @@ g.punto(PI / 2, 1, "rosso"); g.punto(-PI / 2, -1, "rosso")
 g.etichetta("y = arcsin x", 1, PI / 2, "blu", dx=-10, anchor="end", dy=4)
 g.etichetta("y = sin x", PI / 2, 1, "rosso", anchor="middle", dy=26)
 g.etichetta("y = x", 1.9, 1.9, "grigio", anchor="end", dx=-6, dy=4, size=13)
-g.salva("07-arcoseno.svg")
+g.salva("06-arcoseno.svg")
 
 # ===================== 22. ARCOCOSENO =====================
 g = Grafico(-1.6, 3.6, -1.5, 3.6, ux=90)
@@ -572,7 +572,7 @@ g.punto(PI, -1, "rosso"); g.punto(0, 1, "rosso")
 g.etichetta("y = arccos x", 0.15, 2.6, "blu")
 g.etichetta("y = cos x", PI, -1, "rosso", anchor="end", dx=-4, dy=24)
 g.etichetta("y = x", 3.5, 3.5, "grigio", anchor="end", dx=-6, dy=4, size=13)
-g.salva("07-arcocoseno.svg")
+g.salva("06-arcocoseno.svg")
 
 # ===================== 23. ARCOTANGENTE =====================
 g = Grafico(-6.3, 6.3, -2.2, 2.2, ux=50, uy=80)
@@ -585,7 +585,7 @@ g.etichetta("y = arctan x", 3.5, math.atan(3.5), "blu", dy=24, anchor="middle")
 g.etichetta("(1, π/4)", 1, PI / 4, "blu", dx=10, dy=22, size=13)
 g.etichetta("y = π/2 (mai raggiunto)", -6.1, PI / 2, "grigio", dy=-7, size=13)
 g.etichetta("y = −π/2", 6.1, -PI / 2, "grigio", dy=18, anchor="end", size=13)
-g.salva("07-arcotangente.svg")
+g.salva("06-arcotangente.svg")
 
 # ===================== 24. PENDENZA =====================
 g = Grafico(-0.5, 11.6, -1.0, 2.6, ux=55)
@@ -598,4 +598,4 @@ g.etichetta("α", 2.3, 0.13, size=16, dx=4, stile="italic")
 g.etichetta("100 m in orizzontale", 5, 0, dy=22, anchor="middle", size=14)
 g.etichetta("12 m", 10, 0.6, dx=8, size=14)
 g.etichetta("pendenza 12% = 12/100 = tan α", 4.6, 1.75, "arancio", anchor="middle", size=15)
-g.salva("07-pendenza.svg")
+g.salva("06-pendenza.svg")

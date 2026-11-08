@@ -12,7 +12,7 @@ tags: [matematica, bozza, ripasso]
 Le formule e i procedimenti di tutti gli argomenti fatti in classe, con un esempio svolto per ogni tipo di esercizio. Il piano dei giorni è in [[00-piano-esonero-1|Piano di studio per l'esonero]].
 
 > [!info] Note collegate
-> Piano: [[00-piano-esonero-1]] · Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]]
+> Piano: [[00-piano-esonero-1]] · Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]]
 
 ## 1. Equazioni e disequazioni
 

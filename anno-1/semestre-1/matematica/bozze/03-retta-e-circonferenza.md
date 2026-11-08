@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 La geometria analitica traduce le figure in numeri e in equazioni. Un punto diventa una coppia di numeri, una retta diventa un'equazione di primo grado, una circonferenza un'equazione di secondo grado. Il vantaggio è che domande geometriche ("queste due rette si incontrano?", "questa retta tocca il cerchio?") si risolvono con i conti, cioè con le equazioni e i sistemi studiati nella pagina precedente. Lo strumento che regge tutto è uno solo: la distanza tra due punti, ricavata dal teorema di Pitagora.
 
 > [!info] Note collegate
-> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## IL PIANO CARTESIANO E LA DISTANZA
 
@@ -537,7 +537,7 @@ Questa pagina usa continuamente gli strumenti di [[02-equazioni-e-disequazioni|e
 
 La pagina sui [[05-i-vettori|vettori]] riprende quasi tutto in un linguaggio diverso. La distanza tra due punti è la norma del vettore che li unisce, il punto medio è una media di vettori, la direzione $(1, m)$ di una retta è un vettore, e la condizione di perpendicolarità $m_1 m_2 = -1$ diventa "prodotto scalare uguale a zero". L'esercizio 22 del foglio sui vettori, risolto qui con la formula della distanza punto-retta, si risolve lì trovando il piede $H$ con il prodotto scalare.
 
-La retta $y = mx + q$ è anche il primo esempio di funzione: nella pagina sulle [[06-le-funzioni|funzioni]] diventa la funzione lineare $f(x) = mx + q$, il cui grafico è proprio questa retta, e la pendenza $m$ dice se la funzione cresce o decresce. Nelle [[07-funzioni-elementari|funzioni elementari]] ritornano la tangente dell'angolo e il valore assoluto come funzioni vere e proprie. Più avanti nel corso la pendenza diventerà la derivata: la pendenza della retta tangente al grafico di una funzione.
+La retta $y = mx + q$ è anche il primo esempio di funzione: nella pagina sulle [[06-le-funzioni|funzioni]] diventa la funzione lineare $f(x) = mx + q$, il cui grafico è proprio questa retta, e la pendenza $m$ dice se la funzione cresce o decresce. Nelle [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]] ritornano la tangente dell'angolo e il valore assoluto come funzioni vere e proprie. Più avanti nel corso la pendenza diventerà la derivata: la pendenza della retta tangente al grafico di una funzione.
 
 Fuori dalla matematica, le coordinate nello spazio sono le stesse della Geometria descrittiva: il punto $(x, y, z)$ ha una quota e un aggetto, e la sua proiezione sul piano orizzontale corrisponde al punto $H(x, y, 0)$ della figura sulla distanza nello spazio. La pendenza, infine, è un numero che in architettura si usa davvero: per le rampe, le scale, le coperture e lo scolo delle acque si scrive in percentuale, ed è sempre il rapporto tra dislivello e lunghezza in pianta.
 

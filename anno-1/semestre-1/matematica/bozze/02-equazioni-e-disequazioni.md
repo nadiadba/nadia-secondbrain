@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Equazioni e disequazioni sono il primo argomento del corso e lo strumento che serve in tutti gli altri: per trovare dove una retta incontra una circonferenza, per calcolare il dominio di una funzione, per capire dove un grafico sta sopra o sotto l'asse $x$. Questa pagina parte da che cosa vuol dire "risolvere" e arriva ai tipi che compaiono negli esercizi: primo e secondo grado, frazionarie, con valore assoluto, irrazionali, e poi le disequazioni con i loro metodi (la parabola, la tabella dei segni, i sistemi).
 
 > [!info] Note collegate
-> Teoria: [[01-insiemi-e-intervalli]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## POTENZE E RADICALI
 
@@ -83,7 +83,7 @@ Il metodo per semplificare un'espressione con potenze e radici è quindi:
 >
 > Risultato: $3^{\frac{71}{15}}$, cioè $\sqrt[15]{3^{71}}$.
 
-Le potenze e le radici come funzioni, con i loro grafici, sono in [[07-funzioni-elementari]].
+Le potenze e le radici come funzioni, con i loro grafici, sono in [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]].
 
 ## EQUAZIONI
 
@@ -577,7 +577,7 @@ I sistemi sono il modo in cui si calcola il dominio di una funzione: ogni radice
 
 ### Cenni: equazioni e disequazioni esponenziali e logaritmiche
 
-Negli esercizi compaiono anche equazioni e disequazioni in cui la $x$ sta all'esponente ($3^{2x-1} = 27$) o dentro un logaritmo ($\ln(x - 2) = 3$). Si risolvono con le proprietà delle funzioni esponenziale e logaritmo, che sono spiegate in [[07-funzioni-elementari]]. Qui basta l'idea.
+Negli esercizi compaiono anche equazioni e disequazioni in cui la $x$ sta all'esponente ($3^{2x-1} = 27$) o dentro un logaritmo ($\ln(x - 2) = 3$). Si risolvono con le proprietà delle funzioni esponenziale e logaritmo, che sono spiegate in [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]]. Qui basta l'idea.
 
 - Si cerca di scrivere i due lati come potenze della stessa base, e poi si confrontano gli esponenti: $3^{2x-1} = 27 = 3^3$ dà $2x - 1 = 3$, cioè $x = 2$.
 - Nelle disequazioni conta la base: se è maggiore di $1$ il verso resta, se è tra $0$ e $1$ il verso si inverte. Per esempio $\left(\frac{1}{2}\right)^{x-2} \leq \frac{1}{8} = \left(\frac{1}{2}\right)^3$ dà $x - 2 \geq 3$, cioè $x \geq 5$.
@@ -591,13 +591,13 @@ Negli esercizi compaiono anche equazioni e disequazioni in cui la $x$ sta all'es
 > 3. La base $\frac{1}{3}$ è minore di $1$: il verso si inverte, $2x + 1 > 3$, cioè $x > 1$.
 > 4. Metto insieme con la condizione: $x > 1$.
 >
-> I passaggi sulle basi e sui logaritmi sono spiegati in [[07-funzioni-elementari]].
+> I passaggi sulle basi e sui logaritmi sono spiegati in [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]].
 
 ## Collegamenti
 
 Equazioni e disequazioni sono la grammatica di tutto il resto del corso. In [[03-retta-e-circonferenza|retta e circonferenza]] un punto appartiene a una retta se le sue coordinate soddisfano un'equazione di primo grado, e trovare dove una retta taglia una circonferenza vuol dire risolvere un'equazione di secondo grado, il cui discriminante dice se la retta è secante, tangente o esterna: è lo stesso schema dei tre casi della parabola. Nei [[05-i-vettori|vettori]] le condizioni di parallelismo e di ortogonalità diventano equazioni nelle componenti, e trovare una combinazione lineare vuol dire risolvere un piccolo sistema di equazioni di primo grado.
 
-Nelle [[06-le-funzioni|funzioni]] le disequazioni servono a calcolare il dominio (sistemi di condizioni su radici, denominatori e logaritmi) e a studiare il segno di una funzione, cioè dove il grafico sta sopra o sotto l'asse $x$, con gli stessi metodi della parabola e della tabella dei segni; gli zeri di una funzione sono le soluzioni di un'equazione. Nelle [[07-funzioni-elementari|funzioni elementari]] si completano le equazioni e disequazioni esponenziali e logaritmiche accennate qui.
+Nelle [[06-le-funzioni|funzioni]] le disequazioni servono a calcolare il dominio (sistemi di condizioni su radici, denominatori e logaritmi) e a studiare il segno di una funzione, cioè dove il grafico sta sopra o sotto l'asse $x$, con gli stessi metodi della parabola e della tabella dei segni; gli zeri di una funzione sono le soluzioni di un'equazione. Nelle [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]] si completano le equazioni e disequazioni esponenziali e logaritmiche accennate qui.
 
 ## Per approfondire
 

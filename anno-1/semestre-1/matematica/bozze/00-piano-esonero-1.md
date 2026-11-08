@@ -9,10 +9,10 @@ tags: [matematica, bozza, ripasso]
 
 # Piano di studio per l'esonero di mercoledì 11 novembre
 
-Tre giorni, da domenica 8 a martedì 10 novembre, per arrivare all'esonero di Istituzioni di Matematiche 1 avendo studiato la teoria di tutti gli argomenti fatti in classe e fatto almeno una volta gli esercizi dei fogli del professore. La teoria è nelle pagine 01-07, le formule in breve nella scheda [[00-ripasso-esonero-1|Ripasso per l'esonero]].
+Tre giorni, da domenica 8 a martedì 10 novembre, per arrivare all'esonero di Istituzioni di Matematiche 1 avendo studiato la teoria di tutti gli argomenti fatti in classe e fatto almeno una volta gli esercizi dei fogli del professore. La teoria è nelle pagine 01-06, le formule in breve nella scheda [[00-ripasso-esonero-1|Ripasso per l'esonero]].
 
 > [!info] Note collegate
-> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[05-i-vettori]] · [[06-le-funzioni]] · Ripasso: [[00-ripasso-esonero-1]]
 
 > [!question] Che cosa chiede l'esonero?
 > Gli argomenti fatti in classe sono: insiemi e intervalli, equazioni e disequazioni, geometria del piano (la retta per due punti, la circonferenza), i vettori, le matrici e il determinante, le funzioni (grafico, dominio, insieme immagine, funzione inversa). Il professore si è fermato all'inizio delle funzioni elementari: esponenziali, logaritmi e trigonometria vanno guardati per ultimi, se resta tempo. Lo scritto finale ha 5 o 6 quesiti in 1,5-2 ore: l'esonero sarà probabilmente simile ma più breve.
@@ -50,9 +50,9 @@ Ogni giorno: prima leggi la pagina di teoria, poi fai gli esercizi su carta senz
 
 ### Martedì 10 novembre: le funzioni
 
-- [ ] Teoria: [[06-le-funzioni]]
+- [ ] Teoria: [[06-le-funzioni]], prima parte (fino a «Simmetrie, monotonia e operazioni sui grafici»)
 - [ ] Foglio funzioni, prima pagina, esercizi 1-15 (dominio, immagine, iniettiva e suriettiva, inversa, composizione, grafici)
-- [ ] Se resta tempo: [[07-funzioni-elementari]] e la seconda pagina del foglio (esponenziali, logaritmi, trigonometria)
+- [ ] Se resta tempo: la seconda parte della stessa pagina, [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|le funzioni elementari]], e la seconda pagina del foglio (esponenziali, logaritmi, trigonometria)
 - [ ] La sera: rifare gli esercizi segnati con la crocetta, preparare lo zaino (vedi sotto), dormire presto
 
 ### Mercoledì 11 novembre: esonero

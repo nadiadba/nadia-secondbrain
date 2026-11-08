@@ -27,8 +27,7 @@ Teoria, in ordine: ogni pagina usa quello che c'è nelle precedenti, più o meno
 - [[03-retta-e-circonferenza|Geometria del piano: la retta e la circonferenza]]: distanza e punto medio, pendenza, retta per due punti, parallele e perpendicolari, circonferenza e sue posizioni rispetto a una retta.
 - [[04-le-matrici|Le matrici e il determinante]]: somma e prodotto riga per colonna, determinante 2×2 e 3×3 (Sarrus), complementi algebrici, dalle foto della lavagna.
 - [[05-i-vettori|I vettori]]: operazioni, norma, prodotto scalare e proiezioni, determinanti, prodotto vettoriale e prodotto triplo.
-- [[06-le-funzioni|Le funzioni: grafico, dominio, immagine, funzione inversa]]: con tutti gli esercizi della prima pagina del foglio svolti.
-- [[07-funzioni-elementari|Le funzioni elementari]]: potenze, radici, esponenziali, logaritmi, trigonometria (in classe vi siete fermati all'inizio).
+- [[06-le-funzioni|Le funzioni]]: grafico, dominio, immagine, funzione inversa, operazioni sui grafici; poi le funzioni elementari (potenze, radici, esponenziali, logaritmi, trigonometria: in classe vi siete fermati all'inizio). Con tutti gli esercizi delle due pagine del foglio svolti.
 
 Per l'esonero:
 

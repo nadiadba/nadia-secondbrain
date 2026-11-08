@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Una matrice è una tabella di numeri ordinati in righe e colonne. Il professore l'ha introdotta in classe seguendo questo percorso: prima come si indicano gli elementi, poi la somma, poi il prodotto riga per colonna con le sue proprietà (e un esempio svolto), infine il determinante di una matrice quadrata, calcolato per le matrici 2×2 e 3×3 con la regola di Sarrus e con i complementi algebrici. La pagina segue lo stesso ordine e usa la stessa notazione della lavagna. Qua e là ci sono alcuni complementi (tipi di matrici, proprietà del determinante, significato geometrico), segnalati come tali: servono a capire meglio, e in fondo c'è un cenno a matrice inversa e sistemi lineari per chi vuole andare oltre. Il determinante non è del tutto nuovo: è già comparso in [[05-i-vettori]] per calcolare aree, prodotto vettoriale e volumi.
 
 > [!info] Note collegate
-> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[05-i-vettori]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[05-i-vettori]] · [[06-le-funzioni]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## LE MATRICI
 

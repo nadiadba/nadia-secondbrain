@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Un vettore è una freccia: ha una lunghezza, una direzione e un verso, e serve a descrivere tutto ciò che non basta dire "quanto", ma bisogna dire anche "verso dove" (uno spostamento, una forza, il lato di una figura). In questa pagina si parte dalla freccia, si arriva a scriverla con i numeri (le componenti) e si impara a fare i conti: somma, prodotto per un numero, lunghezza. Poi vengono i tre "prodotti" che il professore usa negli esercizi: il prodotto scalare, che misura gli angoli e dice quando due vettori sono perpendicolari; il prodotto vettoriale, che dà un vettore perpendicolare a due vettori e misura le aree; il prodotto triplo, che misura i volumi. Gli esempi svolti vengono dai due fogli di esercizi del professore (con l'indicazione di quelli fatti in classe il 22 e il 23 ottobre) e da un esercizio completo svolto in classe.
 
 > [!info] Note collegate
-> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[06-le-funzioni]] · [[07-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-insiemi-e-intervalli]] · [[02-equazioni-e-disequazioni]] · [[03-retta-e-circonferenza]] · [[04-le-matrici]] · [[06-le-funzioni]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## PUNTI E VETTORI
 
@@ -437,7 +437,7 @@ Dalla definizione geometrica si ricava il coseno dell'angolo, e quindi l'angolo:
 > $$
 > con $0 \leq \theta \leq \pi$.
 
-L'arcocoseno, $\arccos$, è la funzione che "torna indietro" dal coseno all'angolo (è la funzione inversa del coseno, vedi [[06-le-funzioni]] e [[07-funzioni-elementari]]). Il professore accetta il risultato in forma esatta, per esempio $\arccos\left(-\frac{1}{\sqrt{78}}\right)$, con un'approssimazione in gradi.
+L'arcocoseno, $\arccos$, è la funzione che "torna indietro" dal coseno all'angolo (è la funzione inversa del coseno, vedi [[06-le-funzioni]] e [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]]). Il professore accetta il risultato in forma esatta, per esempio $\arccos\left(-\frac{1}{\sqrt{78}}\right)$, con un'approssimazione in gradi.
 
 ![[05-angolo.svg|420]]
 
@@ -982,7 +982,7 @@ Questo esercizio, fatto in classe, mette insieme quasi tutta la pagina: combinaz
 
 I vettori riprendono e mettono in ordine molte cose della geometria analitica vista in [[03-retta-e-circonferenza]]. La distanza tra due punti è la norma del vettore $B - A$, il punto medio è la media delle coordinate, e una retta si può scrivere in forma parametrica come $X = A + s\,\mathbf{v}$: un punto di partenza più tutti i multipli di un vettore che dà la direzione. Due rette sono perpendicolari quando i loro vettori direzione hanno prodotto scalare zero, e la distanza di un punto da una retta si trova con la perpendicolare, come nell'esercizio 22.
 
-Gli esercizi con il parametro ($t$ o $k$) si risolvono sempre riducendoli a un'equazione o a una disequazione, con le tecniche di [[02-equazioni-e-disequazioni]]: una disequazione di primo grado per l'angolo acuto o ottuso, un'equazione di secondo grado per l'angolo assegnato. L'angolo tra due vettori si ricava con l'arcocoseno, che è la funzione inversa del coseno: le funzioni inverse sono in [[06-le-funzioni]], seno, coseno e le loro inverse in [[07-funzioni-elementari]].
+Gli esercizi con il parametro ($t$ o $k$) si risolvono sempre riducendoli a un'equazione o a una disequazione, con le tecniche di [[02-equazioni-e-disequazioni]]: una disequazione di primo grado per l'angolo acuto o ottuso, un'equazione di secondo grado per l'angolo assegnato. L'angolo tra due vettori si ricava con l'arcocoseno, che è la funzione inversa del coseno: le funzioni inverse sono in [[06-le-funzioni]], seno, coseno e le loro inverse in [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]].
 
 Per un futuro architetto i vettori sono il linguaggio dello spazio. In Geometria descrittiva un punto si dà con tre numeri (distanza, aggetto, quota) e le [[03-proiezioni-ortogonali-punto-e-rette|proiezioni ortogonali]] sui piani del triedro sono proprio proiezioni di vettori, come la proiezione vettoriale di questa pagina, fatta sugli assi e sui piani coordinati. La [[06-piani-ausiliari-e-perpendicolarita|perpendicolarità tra rette e piani]] si traduce nel prodotto scalare nullo, e il prodotto vettoriale dà la direzione perpendicolare a un piano. Anche i disegni nello spazio di questa pagina sono assonometrie cavaliere: un punto $(x, y, z)$ si disegna sommando, con la regola punta-coda, i tre vettori $x\,\mathbf{e}_1$, $y\,\mathbf{e}_2$, $z\,\mathbf{e}_3$ disegnati lungo gli assi.
 
