@@ -12,10 +12,10 @@ tags: [matematica, bozza, ripasso]
 Tre giorni, da domenica 8 a martedì 10 novembre, per arrivare all'esonero di Istituzioni di Matematiche 1 avendo studiato la teoria di tutti gli argomenti fatti in classe e fatto almeno una volta gli esercizi dei fogli del professore. La teoria è nelle pagine 01-05, le formule in breve nella scheda [[00-ripasso-esonero-1|Ripasso per l'esonero]].
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
 
 > [!question] Che cosa chiede l'esonero?
-> Gli argomenti fatti in classe sono: equazioni e disequazioni, geometria del piano (la retta per due punti, la circonferenza), i vettori, le matrici e il determinante, le funzioni (grafico, dominio, insieme immagine, funzione inversa). Il professore si è fermato all'inizio delle funzioni elementari: esponenziali, logaritmi e trigonometria vanno guardati per ultimi, se resta tempo. Lo scritto finale ha 5 o 6 quesiti in 1,5-2 ore: l'esonero sarà probabilmente simile ma più breve.
+> Gli argomenti fatti in classe sono: insiemi e intervalli, equazioni e disequazioni, geometria del piano (la retta per due punti, la circonferenza), i vettori, le matrici e il determinante, le funzioni (grafico, dominio, insieme immagine, funzione inversa). Il professore si è fermato all'inizio delle funzioni elementari: esponenziali, logaritmi e trigonometria vanno guardati per ultimi, se resta tempo. Lo scritto finale ha 5 o 6 quesiti in 1,5-2 ore: l'esonero sarà probabilmente simile ma più breve.
 
 ## Il materiale (in `materiale/`)
 
@@ -36,6 +36,7 @@ Ogni giorno: prima leggi la pagina di teoria, poi fai gli esercizi su carta senz
 
 ### Domenica 8 novembre: equazioni, disequazioni, retta e circonferenza
 
+- [ ] Teoria: [[07-insiemi-e-intervalli]] (veloce: insiemi, intervalli, valore assoluto)
 - [ ] Teoria: [[01-equazioni-e-disequazioni]]
 - [ ] Teoria: [[02-retta-e-circonferenza]]
 - [ ] Per questi argomenti non c'è un foglio di esercizi: rifai su carta gli esempi delle due pagine coprendo la soluzione, poi controlla

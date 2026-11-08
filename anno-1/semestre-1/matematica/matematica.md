@@ -20,8 +20,9 @@ Ancora nessuna.
 
 ## Bozze
 
-Teoria, nell'ordine in cui il professore ha fatto gli argomenti:
+Teoria, più o meno nell'ordine in cui il professore ha fatto gli argomenti (gli insiemi sono stati la prima lezione):
 
+- [[07-insiemi-e-intervalli|Insiemi, numeri e intervalli]]: la prima lezione: insiemi e operazioni, quantificatori, insiemi numerici, intervalli e valore assoluto.
 - [[01-equazioni-e-disequazioni|Equazioni e disequazioni]]: primo e secondo grado, frazionarie, con valore assoluto, irrazionali; intervalli, tabella dei segni, sistemi.
 - [[02-retta-e-circonferenza|Geometria del piano: la retta e la circonferenza]]: distanza e punto medio, pendenza, retta per due punti, parallele e perpendicolari, circonferenza e sue posizioni rispetto a una retta.
 - [[03-i-vettori|I vettori]]: operazioni, norma, prodotto scalare e proiezioni, determinanti, prodotto vettoriale e prodotto triplo.

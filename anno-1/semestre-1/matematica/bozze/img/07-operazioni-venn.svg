@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="260" viewBox="0 0 790 260">
+<rect width="790" height="260" fill="white"/>
+<clipPath id="clipA0"><circle cx="77" cy="120" r="52"/></clipPath>
+<rect x="15.0" y="40.0" width="170.0" height="160.0" rx="6" fill="white" stroke="#9ca3af" stroke-width="1.2"/>
+<circle cx="77.0" cy="120.0" r="52.0" fill="#bfdbfe" stroke="none" stroke-width="2"/>
+<circle cx="125.0" cy="120.0" r="52.0" fill="#bfdbfe" stroke="none" stroke-width="2"/>
+<circle cx="77.0" cy="120.0" r="52.0" fill="none" stroke="#2563eb" stroke-width="2"/>
+<circle cx="125.0" cy="120.0" r="52.0" fill="none" stroke="#d97706" stroke-width="2"/>
+<text x="169.0" y="70.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d97706" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+<text x="33.0" y="70.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+<text x="172.0" y="192.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9ca3af" text-anchor="middle" font-weight="normal" font-style="italic">U</text>
+<text x="100.0" y="26.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold" font-style="normal">unione</text>
+<text x="100.0" y="228.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">A ∪ B</text>
+<clipPath id="clipA1"><circle cx="272" cy="120" r="52"/></clipPath>
+<rect x="210.0" y="40.0" width="170.0" height="160.0" rx="6" fill="white" stroke="#9ca3af" stroke-width="1.2"/>
+<circle cx="320.0" cy="120.0" r="52.0" fill="#bfdbfe" stroke="none" stroke-width="2" clip-path="url(#clipA1)"/>
+<circle cx="272.0" cy="120.0" r="52.0" fill="none" stroke="#2563eb" stroke-width="2"/>
+<circle cx="320.0" cy="120.0" r="52.0" fill="none" stroke="#d97706" stroke-width="2"/>
+<text x="364.0" y="70.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d97706" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+<text x="228.0" y="70.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+<text x="367.0" y="192.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9ca3af" text-anchor="middle" font-weight="normal" font-style="italic">U</text>
+<text x="295.0" y="26.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold" font-style="normal">intersezione</text>
+<text x="295.0" y="228.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">A ∩ B</text>
+<clipPath id="clipA2"><circle cx="467" cy="120" r="52"/></clipPath>
+<rect x="405.0" y="40.0" width="170.0" height="160.0" rx="6" fill="white" stroke="#9ca3af" stroke-width="1.2"/>
+<circle cx="467.0" cy="120.0" r="52.0" fill="#bfdbfe" stroke="none" stroke-width="2"/>
+<circle cx="515.0" cy="120.0" r="52.0" fill="white" stroke="none" stroke-width="2"/>
+<circle cx="467.0" cy="120.0" r="52.0" fill="none" stroke="#2563eb" stroke-width="2"/>
+<circle cx="515.0" cy="120.0" r="52.0" fill="none" stroke="#d97706" stroke-width="2"/>
+<text x="559.0" y="70.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#d97706" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+<text x="423.0" y="70.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+<text x="562.0" y="192.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9ca3af" text-anchor="middle" font-weight="normal" font-style="italic">U</text>
+<text x="490.0" y="26.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold" font-style="normal">differenza</text>
+<text x="490.0" y="228.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">A \ B</text>
+<clipPath id="clipA3"><circle cx="685" cy="120" r="52"/></clipPath>
+<rect x="600.0" y="40.0" width="170.0" height="160.0" rx="6" fill="white" stroke="#9ca3af" stroke-width="1.2"/>
+<rect x="600.0" y="40.0" width="170.0" height="160.0" rx="6" fill="#bfdbfe" stroke="#9ca3af" stroke-width="1.2"/>
+<circle cx="685.0" cy="120.0" r="52.0" fill="white" stroke="none" stroke-width="2"/>
+<circle cx="685.0" cy="120.0" r="52.0" fill="none" stroke="#2563eb" stroke-width="2"/>
+<text x="641.0" y="70.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#2563eb" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+<text x="757.0" y="192.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#9ca3af" text-anchor="middle" font-weight="normal" font-style="italic">U</text>
+<text x="685.0" y="26.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold" font-style="normal">complementare</text>
+<text x="685.0" y="228.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">Aᶜ (in U)</text>
+</svg>

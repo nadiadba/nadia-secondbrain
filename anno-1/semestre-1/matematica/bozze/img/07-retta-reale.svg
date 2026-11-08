@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="150" viewBox="0 0 700 150">
+<rect width="700" height="150" fill="white"/>
+<line x1="25.0" y1="80.0" x2="680.0" y2="80.0" stroke="#1f2937" stroke-width="1.5"/>
+<polygon points="680.0,80.0 670.8,83.9 670.8,76.1" fill="#1f2937"/>
+<text x="682.0" y="102.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">ℝ</text>
+<line x1="78.8" y1="75.0" x2="78.8" y2="85.0" stroke="#1f2937" stroke-width="1.5"/>
+<text x="78.8" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−3</text>
+<line x1="156.2" y1="75.0" x2="156.2" y2="85.0" stroke="#1f2937" stroke-width="1.5"/>
+<text x="156.2" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−2</text>
+<line x1="233.8" y1="75.0" x2="233.8" y2="85.0" stroke="#1f2937" stroke-width="1.5"/>
+<text x="233.8" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−1</text>
+<line x1="311.2" y1="75.0" x2="311.2" y2="85.0" stroke="#1f2937" stroke-width="1.5"/>
+<text x="311.2" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">0</text>
+<line x1="388.8" y1="75.0" x2="388.8" y2="85.0" stroke="#1f2937" stroke-width="1.5"/>
+<text x="388.8" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">1</text>
+<line x1="466.2" y1="75.0" x2="466.2" y2="85.0" stroke="#1f2937" stroke-width="1.5"/>
+<text x="466.2" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">2</text>
+<line x1="543.8" y1="75.0" x2="543.8" y2="85.0" stroke="#1f2937" stroke-width="1.5"/>
+<text x="543.8" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">3</text>
+<line x1="621.2" y1="75.0" x2="621.2" y2="85.0" stroke="#1f2937" stroke-width="1.5"/>
+<text x="621.2" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">4</text>
+<circle cx="201.6" cy="80.0" r="4.5" fill="#dc2626" stroke="#dc2626" stroke-width="2"/>
+<text x="201.6" y="66.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="normal" font-style="normal">−√2</text>
+<circle cx="350.0" cy="80.0" r="4.5" fill="#16a34a" stroke="#16a34a" stroke-width="2"/>
+<text x="350.0" y="66.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#16a34a" text-anchor="middle" font-weight="normal" font-style="normal">1/2</text>
+<circle cx="117.5" cy="80.0" r="4.5" fill="#16a34a" stroke="#16a34a" stroke-width="2"/>
+<text x="117.5" y="66.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#16a34a" text-anchor="middle" font-weight="normal" font-style="normal">−5/2</text>
+<circle cx="554.7" cy="80.0" r="4.5" fill="#dc2626" stroke="#dc2626" stroke-width="2"/>
+<text x="554.7" y="66.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="normal" font-style="normal">π</text>
+<circle cx="420.9" cy="80.0" r="4.5" fill="#dc2626" stroke="#dc2626" stroke-width="2"/>
+<text x="420.9" y="66.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#dc2626" text-anchor="middle" font-weight="normal" font-style="normal">√2</text>
+<circle cx="582.5" cy="80.0" r="4.5" fill="#16a34a" stroke="#16a34a" stroke-width="2"/>
+<text x="582.5" y="66.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#16a34a" text-anchor="middle" font-weight="normal" font-style="normal">7/2</text>
+<text x="40.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#16a34a" text-anchor="start" font-weight="normal" font-style="normal">verde: razionali (frazioni)</text>
+<text x="300.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#dc2626" text-anchor="start" font-weight="normal" font-style="normal">rosso: irrazionali</text>
+<text x="480.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="normal" font-style="normal">tacche nere: interi</text>
+</svg>

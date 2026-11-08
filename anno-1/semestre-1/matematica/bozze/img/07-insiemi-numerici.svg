@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="350" viewBox="0 0 640 350">
+<rect width="640" height="350" fill="white"/>
+<g transform="translate(0,20)">
+<ellipse cx="320.0" cy="170.0" rx="300.0" ry="150.0" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<ellipse cx="270.0" cy="180.0" rx="225.0" ry="118.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<ellipse cx="225.0" cy="190.0" rx="150.0" ry="88.0" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<ellipse cx="185.0" cy="200.0" rx="80.0" ry="55.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="185.0" y="172.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2563eb" text-anchor="middle" font-weight="bold" font-style="normal">ℕ</text>
+<text x="185.0" y="205.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">0   1   2</text>
+<text x="185.0" y="228.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">3   …</text>
+<text x="330.0" y="160.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#d97706" text-anchor="middle" font-weight="bold" font-style="normal">ℤ</text>
+<text x="330.0" y="192.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−1</text>
+<text x="325.0" y="222.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−7</text>
+<text x="435.0" y="145.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#16a34a" text-anchor="middle" font-weight="bold" font-style="normal">ℚ</text>
+<text x="440.0" y="178.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">1/2</text>
+<text x="445.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−0,75</text>
+<text x="425.0" y="242.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">5/3</text>
+<text x="560.0" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#7c3aed" text-anchor="middle" font-weight="bold" font-style="normal">ℝ</text>
+<text x="565.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">√2</text>
+<text x="565.0" y="200.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="italic">π</text>
+<text x="565.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−√3</text>
+</g>
+<text x="320.0" y="24.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ</text>
+</svg>

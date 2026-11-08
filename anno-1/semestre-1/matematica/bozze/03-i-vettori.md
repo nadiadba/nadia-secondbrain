@@ -8,10 +8,10 @@ tags: [matematica, bozza]
 
 # I vettori
 
-Un vettore è una freccia: ha una lunghezza, una direzione e un verso, e serve a descrivere tutto ciò che non basta dire "quanto", ma bisogna dire anche "verso dove" (uno spostamento, una forza, il lato di una figura). In questa pagina si parte dalla freccia, si arriva a scriverla con i numeri (le componenti) e si impara a fare i conti: somma, prodotto per un numero, lunghezza. Poi vengono i tre "prodotti" che il professore usa negli esercizi: il prodotto scalare, che misura gli angoli e dice quando due vettori sono perpendicolari; il prodotto vettoriale, che dà un vettore perpendicolare a due vettori e misura le aree; il prodotto triplo, che misura i volumi. Tutti gli esempi svolti vengono dai due fogli di esercizi del professore.
+Un vettore è una freccia: ha una lunghezza, una direzione e un verso, e serve a descrivere tutto ciò che non basta dire "quanto", ma bisogna dire anche "verso dove" (uno spostamento, una forza, il lato di una figura). In questa pagina si parte dalla freccia, si arriva a scriverla con i numeri (le componenti) e si impara a fare i conti: somma, prodotto per un numero, lunghezza. Poi vengono i tre "prodotti" che il professore usa negli esercizi: il prodotto scalare, che misura gli angoli e dice quando due vettori sono perpendicolari; il prodotto vettoriale, che dà un vettore perpendicolare a due vettori e misura le aree; il prodotto triplo, che misura i volumi. Gli esempi svolti vengono dai due fogli di esercizi del professore (con l'indicazione di quelli fatti in classe il 22 e il 23 ottobre) e da un esercizio completo svolto in classe.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## PUNTI E VETTORI
 
@@ -118,9 +118,25 @@ $$
 > 3. Il punto medio di $AB$ si trova facendo la media delle coordinate: $M = \left(\frac{1+5}{2}, \frac{-1+1}{2}\right) = (3, 0)$.
 > 4. Si cerca $D$ tale che $A, B, D, C$, in quest'ordine, siano i vertici di un parallelogramma. In un parallelogramma i lati opposti sono lo stesso vettore: il lato $AB$ e il lato $CD$ sono uguali e con lo stesso verso, quindi $\overrightarrow{AB} = \overrightarrow{CD}$, cioè $B - A = D - C$. Da qui $D = C + (B - A) = (2, 4) + (4, 2) = (6, 6)$.
 > 5. Le diagonali sono $AD$ e $BC$. Punto medio di $AD$: $\left(\frac{1+6}{2}, \frac{-1+6}{2}\right) = \left(\frac72, \frac52\right)$. Punto medio di $BC$: $\left(\frac{5+2}{2}, \frac{1+4}{2}\right) = \left(\frac72, \frac52\right)$. È lo stesso punto: le diagonali di un parallelogramma si tagliano a metà.
+>
+> In classe (23/10) si sono calcolate anche le lunghezze dei lati: $AB = \sqrt{4^2 + 2^2} = \sqrt{20}$ e $AC = \sqrt{1^2 + 5^2} = \sqrt{26}$. Il punto medio si può trovare anche partendo da $A$ e facendo metà del vettore: $M_{(AB)} = A + \frac12\overrightarrow{AB} = (1, -1) + (2, 1) = (3, 0)$. Metà del vettore da sola, $(2, 1)$, non è il punto medio.
 
 > [!warning] Attenzione all'ordine
 > $\overrightarrow{AB}$ e $\overrightarrow{BA}$ non sono lo stesso vettore: hanno la stessa lunghezza e la stessa direzione, ma verso opposto. $\overrightarrow{BA} = A - B = -\overrightarrow{AB}$. Si fa sempre punta meno coda.
+
+### Le notazioni del professore
+
+Alla lavagna e negli esercizi il professore usa alcune scritture abbreviate. Conviene riconoscerle subito, perché nel testo di un esercizio d'esame compaiono senza spiegazione.
+
+- $\vec{u}$, con la freccetta sopra: è il vettore (in questa pagina, quando è stampato, si scrive anche in grassetto, $\mathbf{u}$). Spesso la freccia viene omessa, e si capisce dal contesto che $u = (2, -1)$ è un vettore.
+- $\vec{u}(1, 0, -1)$, senza il segno uguale: vuol dire semplicemente $\vec{u} = (1, 0, -1)$.
+- $\overrightarrow{AB}$, con la freccia, è il vettore che va da $A$ a $B$; $AB$, senza freccia, è un numero: la lunghezza del segmento, cioè la distanza tra i due punti. Per esempio con $A = (1, -1)$ e $B = (5, 1)$ si ha $\overrightarrow{AB} = (4, 2)$ ma $AB = \sqrt{20}$.
+- $M_{(AB)}$ è il punto medio del segmento $AB$.
+- $|\vec{u}|$, con le barre singole, è la norma (la lunghezza) del vettore: è la stessa cosa di $\|\mathbf{u}\|$, con le barre doppie, usata più avanti in questa pagina e nei fogli di esercizi.
+- $\hat{e}_1 = (1, 0)$ e $\hat{e}_2 = (0, 1)$, con il cappello, sono i versori della base standard (vedi più avanti); il professore li chiama anche $\hat{\imath}$ e $\hat{\jmath}$ (e nello spazio $\hat{k}$ per il terzo). Il cappello sopra la lettera indica sempre un vettore lungo 1.
+- $\vec{0}$ è il vettore nullo; $\perp$ vuol dire "perpendicolare" e $\parallel$ vuol dire "parallelo".
+- "t/c" è l'abbreviazione di "tale che"; $\exists$ vuol dire "esiste".
+- $\mathbb{R}^*$ sono i numeri reali tolto lo zero, cioè $\mathbb{R} \setminus \{0\}$ (gli insiemi e queste scritture sono spiegati in [[07-insiemi-e-intervalli]]).
 
 ## LE OPERAZIONI CON I VETTORI
 
@@ -134,6 +150,10 @@ Graficamente ci sono due modi equivalenti di costruirlo.
 2. Regola del *parallelogramma*: si disegnano $\mathbf{u}$ e $\mathbf{v}$ con la coda nello stesso punto e si completa il parallelogramma che hanno come lati; la somma è la diagonale che parte dalla coda comune.
 
 Le due regole danno lo stesso risultato: nel parallelogramma, il lato opposto a $\mathbf{u}$ è una copia di $\mathbf{u}$ e il lato opposto a $\mathbf{v}$ è una copia di $\mathbf{v}$, quindi la diagonale si raggiunge sia facendo "prima $\mathbf{u}$ poi $\mathbf{v}$", sia facendo "prima $\mathbf{v}$ poi $\mathbf{u}$". Questo mostra anche che $\mathbf{u} + \mathbf{v} = \mathbf{v} + \mathbf{u}$: l'ordine non conta.
+
+Il professore ha insistito sul perché la regola del triangolo è lecita. Il vettore $\vec{w}$ di partenza è applicato in un certo punto; per sommarlo a $\vec{v}$ se ne disegna una copia $\vec{w}\,'$ con la coda sulla punta di $\vec{v}$. Questo si può fare perché $\vec{w}\,'$ è equipollente a $\vec{w}$: ha la stessa direzione, lo stesso verso e lo stesso modulo, cambia solo il punto di partenza. Quindi $\vec{w}\,'$ e $\vec{w}$ sono lo stesso vettore libero, e la freccia che chiude il triangolo è davvero $\vec{v} + \vec{w}$.
+
+Per la stessa ragione la regola del triangolo e la regola del parallelogramma sono la stessa regola: il lato del parallelogramma opposto a $\vec{w}$ è proprio la copia equipollente $\vec{w}\,'$, e il triangolo è metà del parallelogramma.
 
 ![[03-somma.svg|680]]
 
@@ -151,6 +171,8 @@ Con le componenti la somma è ancora più semplice: si sommano le componenti cor
 > $\mathbf{u} + \mathbf{v} = (2 + (-3),\ -1 + 4) = (-1, 3)$.
 >
 > È proprio il vettore disegnato nella figura sopra: la diagonale del parallelogramma arriva nel punto $(-1, 3)$.
+>
+> Fatto in classe il 22/10, con tutte le frecce disegnate sullo stesso piano cartesiano.
 
 ### Il vettore nullo e l'opposto
 
@@ -158,12 +180,16 @@ Il *vettore nullo* $\mathbf{0} = (0, 0)$ (nello spazio $(0, 0, 0)$) è lo sposta
 
 L'*opposto* di $\mathbf{u}$, scritto $-\mathbf{u}$, è il vettore che annulla $\mathbf{u}$: ha la stessa lunghezza e la stessa direzione, ma verso opposto. In componenti si cambia segno a tutte le componenti, e vale $\mathbf{u} + (-\mathbf{u}) = \mathbf{0}$: andare e tornare indietro è come stare fermi.
 
+Due vettori così si dicono *vettori opposti*: stessa direzione, stesso modulo, verso opposto, e somma uguale al vettore nullo. Con la regola del triangolo si vede subito: attaccando $-\mathbf{u}$ sulla punta di $\mathbf{u}$ si torna al punto di partenza, e la freccia che chiude il "triangolo" ha lunghezza zero. L'esempio più semplice è la coppia $\overrightarrow{AB}$ e $\overrightarrow{BA}$: $\overrightarrow{AB} + \overrightarrow{BA} = \overrightarrow{AA} = \vec{0}$.
+
 > [!example] Esempio (esercizio 2)
 > Si cerca $\mathbf{w}$ tale che $\mathbf{w} + (5, -2) = \mathbf{0}$.
 >
 > $\mathbf{w}$ deve essere l'opposto di $(5, -2)$, quindi $\mathbf{w} = (-5, 2)$.
 >
 > Verifica: $(5, -2) + (-5, 2) = (0, 0) = \mathbf{0}$.
+>
+> Fatto in classe il 22/10 scrivendo $\mathbf{w} = (x, y)$: da $(x + 5,\ y - 2) = (0, 0)$ viene $x = -5$ e $y = 2$.
 
 ### La differenza
 
@@ -209,12 +235,16 @@ Per esempio la 1 dice che $2\vec{v} + 3\vec{v} = 5\vec{v}$: due passi di $\vec{v
 > - $\mathbf{u} - \mathbf{v} = (2 - (-3),\ -1 - 4) = (5, -5)$;
 > - $2\mathbf{u} = (4, -2)$;
 > - $-\frac12\mathbf{v} = \left(-\frac12 \cdot (-3),\ -\frac12 \cdot 4\right) = \left(\frac32, -2\right)$.
+>
+> In classe (22/10) si è calcolato $\frac12\mathbf{v}$ invece di $-\frac12\mathbf{v}$: $\frac12\mathbf{v} = \left(-\frac32, 2\right)$, che è l'opposto del risultato qui sopra.
 
 > [!example] Esempio (esercizio 13)
 > Siano $\mathbf{u} = (1, -2, 3)$ e $\mathbf{v} = (2, 1, -1)$.
 >
 > 1. $2\mathbf{u} - 3\mathbf{v} = (2, -4, 6) - (6, 3, -3) = (-4, -7, 9)$.
 > 2. Si cerca $\mathbf{w}$ tale che $2\mathbf{w} + \mathbf{u} = \mathbf{v}$. Si risolve come un'equazione: $2\mathbf{w} = \mathbf{v} - \mathbf{u} = (1, 3, -4)$, quindi $\mathbf{w} = \frac12 (1, 3, -4) = \left(\frac12, \frac32, -2\right)$.
+>
+> Fatto in classe il 23/10. Le norme qui non servono: $2\mathbf{u} - 3\mathbf{v}$ è un vettore e si calcola componente per componente.
 
 ### Combinazioni lineari e base standard
 
@@ -247,6 +277,8 @@ Il motivo si vede nel disegno: per arrivare alla punta di $(u_1, u_2)$ si fanno 
 > $\mathbf{a} = (7, -5) = 7\,\mathbf{e}_1 - 5\,\mathbf{e}_2$.
 >
 > Al contrario, $3\mathbf{e}_1 - 4\mathbf{e}_2 = (3, 0) + (0, -4) = (3, -4)$.
+>
+> In classe (22/10) si è usato $\mathbf{a} = (7, 5)$: $(7, 5) = 7\hat{e}_1 + 5\hat{e}_2 = 7\hat{\imath} + 5\hat{\jmath}$. Le due scritture sono la stessa cosa con due nomi diversi per i versori.
 
 Il problema diventa più interessante quando i due vettori non sono quelli della base standard. Allora si scrive l'uguaglianza componente per componente e si risolve un sistema.
 
@@ -276,6 +308,14 @@ $$
 $$
 
 Si legge: "esiste un numero reale $\lambda$ (lambda), diverso da zero, tale che $\vec{v}$ è uguale a $\lambda$ per $\vec{w}$". Il simbolo $\exists$ vuol dire "esiste", e $\mathbb{R} \setminus \{0\}$ sono i numeri reali tolto lo zero. Lo zero si esclude perché $0 \cdot \vec{w}$ è il vettore nullo, che non ha direzione.
+
+Nella forma abbreviata che il professore ha incorniciato alla lavagna:
+
+$$
+\vec{v} \parallel \vec{w} \iff \exists\, \lambda \in \mathbb{R}^* \ \text{t/c}\ \vec{v} = \lambda \vec{w}.
+$$
+
+Il simbolo $\iff$ vuol dire "se e solo se": la condizione basta a dire che i vettori sono paralleli, e d'altra parte due vettori paralleli la soddisfano sempre.
 
 > [!example] Esempio (esercizio 16)
 > Per quali $t$ i vettori $\mathbf{u} = (t, 2, -1)$ e $\mathbf{v} = (6, 4, -2)$ sono paralleli?
@@ -312,6 +352,8 @@ Alcune conseguenze:
 > - $\|(1, 2, 2)\| = \sqrt{1 + 4 + 4} = \sqrt9 = 3$.
 >
 > Nessuno dei tre è unitario (cioè lungo 1).
+>
+> Fatto in classe il 22/10. Per $(1, 2, 2)$ si può anche usare Pitagora due volte, come nella scatola: la diagonale della base è $\sqrt{1^2 + 2^2} = \sqrt5$, poi $\sqrt{(\sqrt5)^2 + 2^2} = \sqrt{5 + 4} = 3$. La radice interna va elevata al quadrato: il risultato non è $\sqrt{\sqrt5 + 4}$.
 
 ### Il versore e la normalizzazione
 
@@ -406,6 +448,8 @@ L'arcocoseno, $\arccos$, è la funzione che "torna indietro" dal coseno all'ango
 > 2. $\|\mathbf{u}\| = \sqrt{1 + 4} = \sqrt5$ e $\|\mathbf{v}\| = \sqrt{9 + 1} = \sqrt{10}$.
 > 3. $\cos\theta = \dfrac{5}{\sqrt5\,\sqrt{10}} = \dfrac{5}{\sqrt{50}} = \dfrac{5}{5\sqrt2} = \dfrac{1}{\sqrt2}$.
 > 4. L'angolo con coseno $\frac{1}{\sqrt2} = \frac{\sqrt2}{2}$ è $\theta = \frac{\pi}{4}$, cioè $45°$, come nella figura.
+>
+> Fatto in classe il 22/10. Nel calcolo dell'arcocoseno, al numeratore va il numero $5$: non un vettore come $(3, 2)$, né la sua norma $\sqrt{13}$.
 
 > [!example] Esempio (esercizio 9, nello spazio)
 > Siano $\mathbf{a} = (1, 2, -1)$ e $\mathbf{b} = (2, 0, 3)$.
@@ -415,6 +459,8 @@ L'arcocoseno, $\arccos$, è la funzione che "torna indietro" dal coseno all'ango
 > 3. $\cos\theta = \dfrac{-1}{\sqrt6\,\sqrt{13}} = -\dfrac{1}{\sqrt{78}}$, quindi $\theta = \arccos\left(-\frac{1}{\sqrt{78}}\right) \approx 96{,}5°$.
 >
 > Il coseno è negativo, quindi l'angolo è (di poco) ottuso.
+>
+> Iniziato in classe il 23/10: il prodotto scalare è il numero $-1$, non il vettore $(2, 0, -3)$ dei prodotti delle componenti, che vanno sommati.
 
 > [!example] Esempio (esercizio 10, problema geometrico)
 > Siano $A = (1, 1)$, $B = (5, 2)$, $C = (3, 6)$. L'angolo $\widehat{BAC}$ del triangolo è l'angolo tra i vettori che partono da $A$:
@@ -525,6 +571,8 @@ Se $\mathbf{u}$ e $\mathbf{v}$ sono ortogonali, il termine di mezzo è zero e re
 > $\|\mathbf{u} + \mathbf{v}\|^2 = 36 + 64 = 100$, quindi $\|\mathbf{u} + \mathbf{v}\| = 10$.
 >
 > Geometricamente è il rettangolo di lati 6 e 8: la sua diagonale è lunga 10.
+>
+> Fatto in classe il 23/10.
 
 > [!example] Esempio (esercizio 23, calcoli senza coordinate)
 > $\|\mathbf{u}\| = 3$, $\|\mathbf{v}\| = 4$, $\mathbf{u} \cdot \mathbf{v} = 6$.
@@ -544,6 +592,8 @@ Se $\mathbf{u}$ e $\mathbf{v}$ sono ortogonali, il termine di mezzo è zero e re
 > - "$\mathbf{u} \cdot \mathbf{u} = \|\mathbf{u}\|^2$": vero (vedi sopra).
 > - "Se $\mathbf{u} \cdot \mathbf{v} < 0$, l'angolo è ottuso": vero, perché il segno è quello di $\cos\theta$.
 > - "$\|\mathbf{u} + \mathbf{v}\| = \|\mathbf{u}\| + \|\mathbf{v}\|$ sempre": falso. Vale solo se i due vettori sono paralleli e con lo stesso verso (o uno è nullo). Per esempio $\|(1, 0) + (0, 1)\| = \sqrt2$, mentre $1 + 1 = 2$. In generale vale solo $\|\mathbf{u} + \mathbf{v}\| \leq \|\mathbf{u}\| + \|\mathbf{v}\|$ (*disuguaglianza triangolare*: in un triangolo un lato è più corto della somma degli altri due).
+>
+> Fatto in classe il 23/10. Le risposte giuste sono: a) falso, b) vero, c) vero, d) falso (vero solo se i vettori hanno stessa direzione e stesso verso).
 
 ### Proiezione scalare e proiezione vettoriale
 
@@ -883,6 +933,50 @@ Il segno del prodotto triplo, invece, dice l'*orientazione* della terna:
 > 4. $\overrightarrow{AC} \times \overrightarrow{AD} = (4 \cdot 5 - 1 \cdot 2,\ \ 1 \cdot 3 - 1 \cdot 5,\ \ 1 \cdot 2 - 4 \cdot 3) = (18, -2, -10)$, e $\overrightarrow{AB} \cdot (18, -2, -10) = 36 - 2 - 20 = 14$.
 > 5. Volume del parallelepipedo generato dai tre vettori: $|14| = 14$.
 > 6. Il prodotto triplo non è zero, quindi i quattro punti non sono complanari (formano un tetraedro, di volume $\frac{14}{6} = \frac73$).
+
+### Un esercizio completo svolto in classe
+
+Questo esercizio, fatto in classe, mette insieme quasi tutta la pagina: combinazioni lineari, angolo, vettore perpendicolare a due vettori, volume. È un buon modello di esercizio d'esame.
+
+> [!example] Esempio (esercizio in classe: tre vettori nello spazio)
+> Siano $\vec{u}(1, 0, -1)$, $\vec{w}(0, -2, 1)$, $\vec{v}(0, 3, 2)$. Calcolare:
+> 1. $\vec{u} + 2\vec{w}$ e $2\vec{u} - 3\vec{w}$;
+> 2. l'angolo tra $\vec{u}$ e $\vec{w}$;
+> 3. un vettore $\vec{p}$ t/c $\vec{p} \perp \vec{u}$ e $\vec{p} \perp \vec{w}$;
+> 4. il volume del parallelepipedo che ha per spigoli $\vec{u}$, $\vec{w}$, $\vec{v}$.
+>
+> Punto 1, combinazioni lineari (componente per componente):
+> - $2\vec{w} = (0, -4, 2)$, quindi $\vec{u} + 2\vec{w} = (1 + 0,\ 0 - 4,\ -1 + 2) = (1, -4, 1)$;
+> - $2\vec{u} = (2, 0, -2)$ e $-3\vec{w} = (0, 6, -3)$, quindi $2\vec{u} - 3\vec{w} = (2, 6, -5)$.
+>
+> Punto 2, angolo. Prima di tutto il prodotto scalare:
+> - $\vec{u} \cdot \vec{w} = 1 \cdot 0 + 0 \cdot (-2) + (-1) \cdot 1 = -1$. Non è zero, quindi i due vettori non sono perpendicolari: l'angolo non è $90°$;
+> - $|\vec{u}| = \sqrt{1 + 0 + 1} = \sqrt2$ e $|\vec{w}| = \sqrt{0 + 4 + 1} = \sqrt5$;
+> - $\cos\theta = \dfrac{-1}{\sqrt2\,\sqrt5} = -\dfrac{1}{\sqrt{10}}$, quindi $\theta = \arccos\left(-\frac{1}{\sqrt{10}}\right) \approx 108{,}4°$. Il coseno è negativo: angolo ottuso.
+>
+> Punto 3, vettore perpendicolare a entrambi. È esattamente il compito del prodotto vettoriale:
+> - $\vec{u} \times \vec{w} = \big(0 \cdot 1 - (-1)(-2),\ \ (-1) \cdot 0 - 1 \cdot 1,\ \ 1 \cdot (-2) - 0 \cdot 0\big) = (-2, -1, -2)$;
+> - controllo: $(-2, -1, -2) \cdot \vec{u} = -2 + 0 + 2 = 0$ e $(-2, -1, -2) \cdot \vec{w} = 0 + 2 - 2 = 0$;
+> - quindi $\vec{p} = (-2, -1, -2)$ va bene, e vanno bene anche tutti i suoi multipli non nulli, per esempio l'opposto $(2, 1, 2)$.
+>
+> Punto 4, volume. È il valore assoluto del prodotto triplo dei tre vettori. Il prodotto vettoriale $\vec{u} \times \vec{w}$ è già pronto, quindi:
+> $$
+> \vec{v} \cdot (\vec{u} \times \vec{w}) = 0 \cdot (-2) + 3 \cdot (-1) + 2 \cdot (-2) = -3 - 4 = -7.
+> $$
+> Lo stesso numero viene dal determinante $\begin{vmatrix} 1 & 0 & -1 \\ 0 & -2 & 1 \\ 0 & 3 & 2 \end{vmatrix} = 1 \cdot (-4 - 3) = -7$. Il volume è $|-7| = 7$.
+>
+> Nel testo copiato in classe il volume è chiesto per "$\vec{p}, \vec{u}, \vec{w}, \vec{v}$", ma un parallelepipedo ha tre spigoli uscenti da un vertice: si usano tre vettori, qui $\vec{u}$, $\vec{w}$, $\vec{v}$. (Con $\vec{p}, \vec{u}, \vec{w}$ si otterrebbe $|\vec{p} \cdot (\vec{u} \times \vec{w})| = |\vec{u} \times \vec{w}|^2 = 9$.)
+
+> [!warning] Errori tipici negli esercizi sui vettori
+> Sono gli sbagli più comuni che saltano fuori facendo gli esercizi di questa pagina.
+> - Il prodotto scalare è un numero, non un vettore: $(1, 2) \cdot (3, 1) = 3 + 2 = 5$, non $(3, 2)$. I prodotti delle componenti vanno sommati.
+> - La norma si calcola sommando i quadrati di tutte le componenti sotto un'unica radice: $|(1, 2, 2)| = \sqrt{1 + 4 + 4} = 3$, non $\sqrt{\sqrt5 + 4}$. E i segni spariscono con il quadrato: $|(1, -2, 3)| = \sqrt{1 + 4 + 9} = \sqrt{14}$.
+> - Una combinazione come $2\vec{u} - 3\vec{v}$ è un vettore: si calcola sulle componenti, non con le norme ($2|\vec{u}| - 3|\vec{v}|$ è un'altra cosa, un numero).
+> - Il punto medio è la media delle coordinate dei due punti, non metà del vettore: con $A = (1, -1)$ e $B = (5, 1)$, $M_{(AB)} = (3, 0)$, mentre $\frac12\overrightarrow{AB} = (2, 1)$. Attenzione anche all'ordine delle coordinate: il punto medio di $AD$ con $D = (6, 6)$ è $\left(\frac72, \frac52\right)$, non $\left(\frac52, \frac72\right)$.
+> - Prima di dire che un angolo è di $90°$, si fa il prodotto scalare: deve venire $0$. Con $\vec{u}(1, 0, -1)$ e $\vec{w}(0, -2, 1)$ viene $-1$, quindi l'angolo è circa $108{,}4°$.
+> - Non si divide per un vettore: scritture come $\frac{1}{\vec{p}}$ non hanno senso. Per un vettore perpendicolare a due vettori dati si usa il prodotto vettoriale, e poi si controlla che i due prodotti scalari vengano $0$.
+> - Il volume di un parallelepipedo si calcola con tre vettori (il prodotto triplo), non con quattro.
+> - Nei vero o falso, "se $\mathbf{u} \cdot \mathbf{v} < 0$ l'angolo è ottuso" è vero: il segno del prodotto scalare è il segno del coseno.
 
 ## Collegamenti
 

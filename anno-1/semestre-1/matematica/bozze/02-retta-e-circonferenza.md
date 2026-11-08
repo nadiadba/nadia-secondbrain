@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 La geometria analitica traduce le figure in numeri e in equazioni. Un punto diventa una coppia di numeri, una retta diventa un'equazione di primo grado, una circonferenza un'equazione di secondo grado. Il vantaggio è che domande geometriche ("queste due rette si incontrano?", "questa retta tocca il cerchio?") si risolvono con i conti, cioè con le equazioni e i sistemi studiati nella pagina precedente. Lo strumento che regge tutto è uno solo: la distanza tra due punti, ricavata dal teorema di Pitagora.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-equazioni-e-disequazioni]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## IL PIANO CARTESIANO E LA DISTANZA
 

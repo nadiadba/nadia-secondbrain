@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="240" viewBox="0 0 660 240">
+<rect width="660" height="240" fill="white"/>
+<circle cx="110.0" cy="110.0" r="70.0" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="110.0" cy="110.0" r="4" fill="#1f2937" stroke="#1f2937" stroke-width="2"/>
+<text x="122.0" y="105.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="start" font-weight="normal" font-style="italic">a</text>
+<text x="50.0" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2563eb" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+<text x="110.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">a ∈ A</text>
+<circle cx="320.0" cy="110.0" r="70.0" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="410.0" cy="60.0" r="4" fill="#1f2937" stroke="#1f2937" stroke-width="2"/>
+<text x="422.0" y="56.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="start" font-weight="normal" font-style="italic">a</text>
+<text x="262.0" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2563eb" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+<text x="330.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">a ∉ A</text>
+<circle cx="550.0" cy="110.0" r="80.0" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="565.0" cy="125.0" r="35.0" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+<text x="565.0" y="131.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#d97706" text-anchor="middle" font-weight="normal" font-style="italic">B</text>
+<text x="468.0" y="50.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2563eb" text-anchor="middle" font-weight="normal" font-style="italic">A</text>
+<text x="550.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">B ⊆ A</text>
+</svg>

@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Una matrice è una tabella di numeri ordinati in righe e colonne. Il professore l'ha introdotta in classe seguendo questo percorso: prima come si indicano gli elementi, poi la somma, poi il prodotto riga per colonna con le sue proprietà (e un esempio svolto), infine il determinante di una matrice quadrata, calcolato per le matrici 2×2 e 3×3 con la regola di Sarrus e con i complementi algebrici. La pagina segue lo stesso ordine e usa la stessa notazione della lavagna. Qua e là ci sono alcuni complementi (tipi di matrici, proprietà del determinante, significato geometrico), segnalati come tali: servono a capire meglio, e in fondo c'è un cenno a matrice inversa e sistemi lineari per chi vuole andare oltre. Il determinante non è del tutto nuovo: è già comparso in [[03-i-vettori]] per calcolare aree, prodotto vettoriale e volumi.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## LE MATRICI
 
@@ -29,6 +29,8 @@ Il professore l'ha scritto così alla lavagna:
 - il secondo indice, $j$, dice la colonna (si contano da sinistra: $j = 1, \dots, n$).
 
 Quindi $a_{21}$ è l'elemento che sta nella seconda riga e nella prima colonna. L'ordine conta sempre: prima la riga, poi la colonna.
+
+Nella lezione del 15 ottobre il professore ha separato i due indici con una virgola: $a_{1,1}$, $a_{2,3}$, $a_{3,1}$. È la stessa cosa, scritta in modo più chiaro: $a_{2,3}$ e $a_{23}$ indicano entrambi l'elemento della seconda riga e della terza colonna. La virgola diventa indispensabile nelle matrici grandi, dove senza di essa $a_{123}$ potrebbe voler dire riga 12 e colonna 3 oppure riga 1 e colonna 23.
 
 Una matrice con due righe e due colonne si scrive
 
@@ -63,13 +65,27 @@ $$
 I = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \qquad I = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix};
 $$
 
-- la *trasposta* di $A$, scritta $A^T$ (in alcuni libri ${}^tA$), si ottiene scambiando le righe con le colonne: la prima riga di $A$ diventa la prima colonna di $A^T$, e così via. Se $A$ è $m \times n$, $A^T$ è $n \times m$.
+- la *matrice diagonale* (il professore l'ha scritta il 15 ottobre) è una matrice quadrata che ha zeri dappertutto tranne, al più, sulla diagonale principale. Gli elementi della diagonale, $a_{1,1}, a_{2,2}, a_{3,3}$, possono essere numeri qualsiasi (anche zero):
+
+$$
+A = \begin{pmatrix} a_{1,1} & 0 & 0 \\ 0 & a_{2,2} & 0 \\ 0 & 0 & a_{3,3} \end{pmatrix}, \qquad \text{per esempio} \quad \begin{pmatrix} 2 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 5 \end{pmatrix}.
+$$
+
+In formula: $a_{ij} = 0$ ogni volta che $i \neq j$. La matrice identità è la matrice diagonale con tutti $1$ sulla diagonale.
+
+- la *trasposta* di $A$, che il professore scrive ${}^{T}\!A$ con la $T$ in alto a sinistra (in molti libri si trova $A^T$, a destra: è la stessa cosa), si ottiene scambiando le righe con le colonne: la prima riga di $A$ diventa la prima colonna di ${}^{T}\!A$, e così via. Se $A$ è $m \times n$, ${}^{T}\!A$ è $n \times m$.
 
 > [!example] Esempio: la trasposta
 > $$
 > A = \begin{pmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \end{pmatrix} \quad\Longrightarrow\quad A^T = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}
 > $$
 > In formula: l'elemento al posto $(i, j)$ di $A^T$ è l'elemento al posto $(j, i)$ di $A$.
+
+> [!example] Esempio del professore (15 ottobre)
+> $$
+> A = \begin{pmatrix} 2 & 1 & 0 \\ -2 & 0 & -1 \end{pmatrix} \ (2 \times 3) \quad\Longrightarrow\quad {}^{T}\!A = \begin{pmatrix} 2 & -2 \\ 1 & 0 \\ 0 & -1 \end{pmatrix} \ (3 \times 2)
+> $$
+> La prima riga $(2, 1, 0)$ è diventata la prima colonna, la seconda riga $(-2, 0, -1)$ la seconda colonna. Le proprietà della trasposta, che coinvolgono anche il prodotto, sono più avanti, alla fine della parte sul prodotto riga per colonna.
 
 Un vettore si può vedere come una matrice con una sola riga, $(1 \ \ 2 \ \ {-1})$, o con una sola colonna. È il legame tra questa pagina e [[03-i-vettori]].
 
@@ -214,6 +230,37 @@ Ci sono cioè due matrici entrambe diverse da $\Omega$ il cui prodotto è la mat
 > [!warning] Non "semplificare" le matrici
 > Da $A \cdot B = \Omega$ non si può concludere che una delle due è nulla, e da $A \cdot B = A \cdot C$ non si può concludere che $B = C$. È lo stesso fenomeno del prodotto scalare in [[03-i-vettori]]: $(1, 0) \cdot (0, 1) = 0$ senza che nessuno dei due vettori sia nullo.
 
+### Le proprietà della trasposta
+
+Il 15 ottobre, dopo aver definito la trasposta ${}^{T}\!A$ (vedi i tipi di matrici, all'inizio della pagina), il professore ne ha scritto tre proprietà.
+
+> [!abstract] Proprietà della trasposta
+> 1. ${}^{T}({}^{T}\!A) = A$: trasponendo due volte si torna alla matrice di partenza.
+> 2. ${}^{T}(A + B) = {}^{T}\!A + {}^{T}\!B$: la trasposta di una somma è la somma delle trasposte.
+> 3. ${}^{T}(A \cdot B) = {}^{T}\!B \cdot {}^{T}\!A$: la trasposta di un prodotto è il prodotto delle trasposte, ma in ordine inverso.
+
+Le prime due si capiscono subito. Scambiare righe e colonne due volte rimette ogni elemento al suo posto. E siccome la somma si fa posto per posto, non importa se si scambiano righe e colonne prima o dopo aver sommato.
+
+La terza è quella da ricordare bene, perché l'ordine si inverte. Il motivo si vede dai tipi: se $A$ è $2 \times 3$ e $B$ è $3 \times 4$, allora ${}^{T}\!B$ è $4 \times 3$ e ${}^{T}\!A$ è $3 \times 2$. Il prodotto ${}^{T}\!B \cdot {}^{T}\!A$ si può fare ($4 \times \underline{3} \cdot \underline{3} \times 2$), mentre ${}^{T}\!A \cdot {}^{T}\!B$ in generale no ($3 \times \underline{2} \cdot \underline{4} \times 3$).
+
+> [!example] Esempio: la proprietà 3 con le matrici della lavagna
+> $A = \begin{pmatrix} 1 & 2 \\ 1 & 0 \end{pmatrix}$, $B = \begin{pmatrix} 1 & -1 \\ 2 & 1 \end{pmatrix}$, e si è calcolato $A \cdot B = \begin{pmatrix} 5 & 1 \\ 1 & -1 \end{pmatrix}$.
+>
+> 1. Le trasposte: ${}^{T}\!A = \begin{pmatrix} 1 & 1 \\ 2 & 0 \end{pmatrix}$, ${}^{T}\!B = \begin{pmatrix} 1 & 2 \\ -1 & 1 \end{pmatrix}$.
+> 2. Nell'ordine giusto:
+>
+> $$
+> {}^{T}\!B \cdot {}^{T}\!A = \begin{pmatrix} 1 \cdot 1 + 2 \cdot 2 & 1 \cdot 1 + 2 \cdot 0 \\ -1 \cdot 1 + 1 \cdot 2 & -1 \cdot 1 + 1 \cdot 0 \end{pmatrix} = \begin{pmatrix} 5 & 1 \\ 1 & -1 \end{pmatrix} = {}^{T}(A \cdot B).
+> $$
+>
+> 3. Nell'ordine sbagliato:
+>
+> $$
+> {}^{T}\!A \cdot {}^{T}\!B = \begin{pmatrix} 1 \cdot 1 + 1 \cdot (-1) & 1 \cdot 2 + 1 \cdot 1 \\ 2 \cdot 1 + 0 & 2 \cdot 2 + 0 \end{pmatrix} = \begin{pmatrix} 0 & 3 \\ 2 & 4 \end{pmatrix},
+> $$
+>
+> che non è ${}^{T}(A \cdot B)$: è invece la trasposta di $B \cdot A = \begin{pmatrix} 0 & 2 \\ 3 & 4 \end{pmatrix}$.
+
 ## IL DETERMINANTE
 
 ### Che cos'è; le matrici 1×1 e 2×2
@@ -265,6 +312,40 @@ Scritto per esteso, come alla lavagna:
 > $$
 
 Si osservi che in ogni prodotto c'è esattamente un elemento per ogni riga e uno per ogni colonna. È questo che rende il determinante "equilibrato" e che sta dietro alle sue proprietà.
+
+Negli appunti di lezione c'è anche un secondo modo, quello del professore: le linee si tracciano direttamente sulla matrice, senza ricopiare le due colonne. Le diagonali che con le colonne ricopiate "uscivano" dalla matrice qui diventano dei triangoli.
+
+- Segno $+$: la diagonale principale ($a_{1,1}$, $a_{2,2}$, $a_{3,3}$) e i due triangoli che hanno un lato parallelo a lei. Il primo unisce $a_{1,2}$ e $a_{2,3}$ (un lato parallelo alla diagonale, appena sopra) con l'angolo opposto $a_{3,1}$; il secondo unisce $a_{2,1}$ e $a_{3,2}$ (appena sotto) con l'angolo opposto $a_{1,3}$.
+- Segno $-$: l'altra diagonale ($a_{1,3}$, $a_{2,2}$, $a_{3,1}$) e i due triangoli con un lato parallelo a questa. Il primo unisce $a_{1,2}$ e $a_{2,1}$ con l'angolo $a_{3,3}$; il secondo unisce $a_{2,3}$ e $a_{3,2}$ con l'angolo $a_{1,1}$.
+
+Negli appunti le linee del $+$ sono di un colore e quelle del $-$ di un altro, tutte sulla stessa matrice. Qui sotto le sei moltiplicazioni sono separate, per vederle meglio.
+
+![[06-sarrus-sulla-matrice.svg|700]]
+
+> [!abstract] Sarrus sulla matrice, nell'ordine del professore
+> $$
+> \det A = (a_{1,1}a_{2,2}a_{3,3}) + (a_{2,3}a_{1,2}a_{3,1}) + (a_{2,1}a_{3,2}a_{1,3}) - (a_{1,3}a_{2,2}a_{3,1}) - (a_{2,1}a_{1,2}a_{3,3}) - (a_{3,2}a_{2,3}a_{1,1})
+> $$
+> I sei prodotti sono gli stessi della regola con le colonne ricopiate, solo scritti in un altro ordine (nella moltiplicazione l'ordine dei fattori non conta): il risultato è identico.
+
+> [!example] Esempio: Sarrus sulla matrice della lavagna
+> $$
+> A = \begin{pmatrix} 1 & 3 & -5 \\ 5 & 0 & 2 \\ -1 & 0 & 0 \end{pmatrix}
+> $$
+> Segno $+$:
+> - $a_{1,1}a_{2,2}a_{3,3} = 1 \cdot 0 \cdot 0 = 0$;
+> - $a_{2,3}a_{1,2}a_{3,1} = 2 \cdot 3 \cdot (-1) = -6$;
+> - $a_{2,1}a_{3,2}a_{1,3} = 5 \cdot 0 \cdot (-5) = 0$.
+>
+> Segno $-$:
+> - $a_{1,3}a_{2,2}a_{3,1} = (-5) \cdot 0 \cdot (-1) = 0$;
+> - $a_{2,1}a_{1,2}a_{3,3} = 5 \cdot 3 \cdot 0 = 0$;
+> - $a_{3,2}a_{2,3}a_{1,1} = 0 \cdot 2 \cdot 1 = 0$.
+>
+> $\det A = (0 - 6 + 0) - (0 + 0 + 0) = -6$, lo stesso risultato che si trova più avanti con Laplace.
+
+> [!warning] Copiare bene i segni degli elementi
+> Se nel ricopiare la matrice si perdono i segni meno, scrivendo $5$ al posto di $-5$ e $1$ al posto di $-1$, il prodotto $a_{2,3}a_{1,2}a_{3,1}$ diventa $2 \cdot 3 \cdot 1 = +6$ e il determinante viene $+6$ invece di $-6$. Prima di cominciare i conti conviene controllare la matrice elemento per elemento, e nei prodotti mettere sempre tra parentesi i numeri negativi.
 
 > [!example] Esempio
 > $$
@@ -334,6 +415,14 @@ Con i complementi algebrici il determinante si calcola così.
 > $$
 > Lungo la colonna $j$: $\det A = a_{1j}A_{1j} + a_{2j}A_{2j} + a_{3j}A_{3j}$. Qualunque riga o colonna si scelga, il risultato è lo stesso.
 
+Il professore ha scritto lo stesso teorema, che chiama *teorema di Laplace*, in forma compatta:
+
+$$
+\det A = \sum_{j=1}^{n} a_{ij}A_{ij} .
+$$
+
+Il simbolo $\sum$ (la lettera greca sigma maiuscola) vuol dire "somma". La formula si legge così: si fissa la riga $i$; si fa variare $j$ da $1$ a $n$, cioè si percorrono tutte le colonne; per ogni posto si moltiplica l'elemento $a_{ij}$ per il suo complemento algebrico $A_{ij}$; si sommano tutti questi prodotti. Per una 3×3 ($n = 3$) e la prima riga ($i = 1$) diventa proprio $a_{11}A_{11} + a_{12}A_{12} + a_{13}A_{13}$.
+
 Lo sviluppo lungo la prima riga è quello già usato in [[03-i-vettori]], con i segni $+\,-\,+$.
 
 La libertà di scegliere la riga o la colonna è il vero vantaggio del metodo. Un elemento uguale a zero dà un prodotto uguale a zero, qualunque sia il suo complemento algebrico: non serve nemmeno calcolarlo. Quindi conviene scegliere la riga o la colonna con più zeri.
@@ -349,6 +438,23 @@ La libertà di scegliere la riga o la colonna è il vero vantaggio del metodo. U
 > Si è calcolato prima $A_{12} = -2$, quindi $\det A = 3 \cdot (-2) = -6$.
 >
 > Anche la terza riga, $(-1, 0, 0)$, ha due zeri: $\det A = a_{31}A_{31} = (-1) \cdot (-1)^{3+1}\begin{vmatrix} 3 & -5 \\ 0 & 2 \end{vmatrix} = (-1) \cdot (+1) \cdot 6 = -6$. Stesso risultato.
+
+> [!example] Esempio degli appunti: Laplace lungo la prima riga
+> Negli appunti lo sviluppo è fatto lungo la prima riga, scrivendo il segno della scacchiera in piccolo accanto a ogni elemento:
+>
+> $$
+> \begin{vmatrix} 1^{+} & 3^{-} & -5^{+} \\ 5^{-} & 0^{+} & 2^{-} \\ -1^{+} & 0^{-} & 0^{+} \end{vmatrix}
+> $$
+>
+> 1. $a_{1,1} = 1$, segno $+$: si tolgono la riga 1 e la colonna 1, resta $\begin{vmatrix} 0 & 2 \\ 0 & 0 \end{vmatrix} = 0$.
+> 2. $a_{1,2} = 3$, segno $-$: resta $\begin{vmatrix} 5 & 2 \\ -1 & 0 \end{vmatrix} = 5 \cdot 0 - 2 \cdot (-1) = 2$.
+> 3. $a_{1,3} = -5$, segno $+$: resta $\begin{vmatrix} 5 & 0 \\ -1 & 0 \end{vmatrix} = 0$.
+>
+> $$
+> \det A = +1 \cdot 0 \; - \; 3 \cdot 2 \; + \; (-5) \cdot 0 = 0 - 6 + 0 = -6 .
+> $$
+>
+> Attenzione al terzo termine: il segno della scacchiera è $+$ e l'elemento è $-5$, quindi si scrive $+(-5)$, cioè $-5$. Qui non cambia nulla perché il minore è zero, ma in generale è un punto dove si sbaglia facilmente.
 
 > [!example] Verifica con la regola di Sarrus
 > Con la stessa matrice:
@@ -502,3 +608,4 @@ Le matrici sono anche il linguaggio delle trasformazioni geometriche: rotazioni,
 - [[esercizi prodotto vettoriale e prodotto triplo.pdf]]: il foglio del professore con le formule dei determinanti 2×2 e 3×3 e gli esercizi su prodotto vettoriale e prodotto triplo.
 - [[Capitolo_Vettori.pdf]] (Stewart, capitolo 2): i determinanti 2×2 e 3×3 e il determinante simbolico per il prodotto vettoriale, a pagina 82.
 - Le foto della lavagna in `materiale/` (da `lavagna-04` a `lavagna-08`): somma, prodotto riga per colonna, determinante, Sarrus, complementi algebrici.
+- I tuoi appunti in `materiale/`: `appunti-nadia-04.jpeg` (15 ottobre: prodotto, matrice nulla, diagonale, trasposta e sue proprietà) e `appunti-nadia-05.jpeg` (Sarrus sulla matrice, complemento algebrico, teorema di Laplace).

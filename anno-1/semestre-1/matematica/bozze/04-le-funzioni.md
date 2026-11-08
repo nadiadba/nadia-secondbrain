@@ -11,7 +11,7 @@ tags: [matematica, bozza]
 Una funzione è una regola che a ogni numero di partenza fa corrispondere uno e un solo numero di arrivo. È l'idea più importante di tutto il corso: i limiti, le derivate e gli integrali che verranno dopo sono tutti modi di studiare le funzioni. Questa pagina parte dalla definizione, passa al grafico, al dominio e all'immagine, poi alle proprietà (iniettiva, suriettiva, pari, crescente...) e alla funzione inversa, e chiude con le operazioni che spostano e deformano i grafici. Gli esempi svolti seguono la prima pagina del foglio del professore, `Esercizi_funzioni_e_Logaritmi.pdf`.
 
 > [!info] Note collegate
-> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
 
 ## CHE COS'È UNA FUNZIONE
 
@@ -444,6 +444,150 @@ Quando una funzione non è iniettiva non ha inversa, ma si può restringere il d
 
 ![[04-restrizione-x-meno-1.svg|700]]
 
+### Un esercizio completo del professore: $f(x) = \sqrt{x^2 - x} - x$
+
+In classe il professore ha svolto un esercizio che mette insieme tutto quello che si è visto finora. Data la funzione
+
+$$
+f(x) = \sqrt{x^2 - x} - x
+$$
+
+bisogna trovare, in quest'ordine:
+
+1. il dominio, che il professore indica con $D$;
+2. l'immagine, che scrive semplicemente $\operatorname{Im} f$ (o anche solo $\operatorname{Im}$): è lo stesso insieme $\operatorname{Im}(f)$ definito sopra;
+3. la funzione inversa $f^{-1}$;
+4. la verifica $f \circ f^{-1}$, cioè che applicando prima $f^{-1}$ e poi $f$ si torna al punto di partenza.
+
+È un esercizio tipico d'esame, quindi conviene seguirlo passo per passo.
+
+> [!example] Passo 1: il dominio
+> C'è una radice quadrata, quindi il radicando deve essere maggiore o uguale a zero:
+>
+> $$
+> x^2 - x \ge 0 \quad\Longrightarrow\quad x\,(x - 1) \ge 0 .
+> $$
+>
+> È il prodotto di due fattori, $x$ e $x - 1$. Un prodotto è positivo (o nullo) quando i due fattori hanno lo stesso segno. Ci sono quindi due casi:
+>
+> - tutti e due $\ge 0$: $x \ge 0$ e $x \ge 1$, cioè $x \ge 1$;
+> - tutti e due $\le 0$: $x \le 0$ e $x \le 1$, cioè $x \le 0$.
+>
+> Lo stesso risultato si ottiene con la tabella dei segni di [[01-equazioni-e-disequazioni]]: $x$ cambia segno in $0$, $x - 1$ in $1$, e il prodotto è positivo fuori dall'intervallo $(0, 1)$.
+>
+> $$
+> D = (-\infty, 0\,] \cup [\,1, +\infty) .
+> $$
+>
+> Controllo con un numero: per $x = -1$ il radicando vale $1 + 1 = 2 \ge 0$, e infatti $f(-1) = \sqrt{2} + 1$ esiste.
+
+> [!warning] Errore tipico: la disequazione prodotto
+> $x\,(x - 1) \ge 0$ non si risolve facendo l'intersezione di «$x \ge 0$» e «$x \ge 1$» (che darebbe $D = [1, +\infty)$). Quelle due condizioni dicono solo quando ciascun fattore è positivo; il prodotto è positivo anche quando i due fattori sono entrambi negativi, cioè per $x \le 0$. Una disequazione prodotto si risolve sempre con lo studio del segno di ogni fattore (la tabella dei segni).
+>
+> Attenzione anche a dove si mette la condizione: si impone che il radicando sia $\ge 0$, cioè $x^2 - x \ge 0$. Scrivere $\sqrt{x^2 - x} \ge 0$ non dice niente, perché una radice, quando esiste, è sempre $\ge 0$.
+
+Per l'immagine il professore usa il metodo «al contrario»: invece di chiedersi dove arriva $f$ partendo dalle $x$, si fissa un valore $y$ e ci si chiede se esiste una $x$ del dominio con $f(x) = y$. I valori $y$ per cui la risposta è sì formano l'immagine.
+
+> [!example] Passo 2: l'immagine con il metodo del professore
+> 1. Si pone $f(x) = y$:
+>
+> $$
+> \sqrt{x^2 - x} - x = y .
+> $$
+>
+> 2. Si isola la radice, lasciandola da sola a sinistra:
+>
+> $$
+> \sqrt{x^2 - x} = x + y .
+> $$
+>
+> 3. Si scrive la condizione. A sinistra c'è una radice, che è sempre $\ge 0$; quindi anche il membro di destra deve esserlo:
+>
+> $$
+> x + y \ge 0 .
+> $$
+>
+> 4. Ora i due membri sono entrambi $\ge 0$ e si può elevare al quadrato:
+>
+> $$
+> x^2 - x = x^2 + 2xy + y^2 .
+> $$
+>
+> 5. Gli $x^2$ si semplificano. Portando tutto a destra si ottiene $y^2 + 2xy + x = 0$, e raccogliendo la $x$:
+>
+> $$
+> x\,(2y + 1) = -y^2 .
+> $$
+>
+> 6. Se $y = -\frac12$ l'equazione diventa $0 = -\frac14$, impossibile: il valore $-\frac12$ non è nell'immagine. Per ogni altro $y$ si divide:
+>
+> $$
+> x = -\frac{y^2}{2y + 1} .
+> $$
+>
+> 7. Si impone la condizione del punto 3, sostituendo questa $x$:
+>
+> $$
+> x + y = -\frac{y^2}{2y + 1} + y = \frac{-y^2 + 2y^2 + y}{2y + 1} = \frac{y\,(y + 1)}{2y + 1} \ge 0 .
+> $$
+>
+> 8. Si studia il segno della frazione. Il numeratore si annulla in $y = -1$ e $y = 0$, il denominatore in $y = -\frac12$:
+>
+> - per $y < -1$: numeratore $+$, denominatore $-$, frazione negativa (no);
+> - per $-1 \le y < -\frac12$: numeratore $\le 0$, denominatore $-$, frazione $\ge 0$ (sì);
+> - per $-\frac12 < y < 0$: numeratore $-$, denominatore $+$, frazione negativa (no);
+> - per $y \ge 0$: numeratore $\ge 0$, denominatore $+$, frazione $\ge 0$ (sì).
+>
+> 9. La condizione sul radicando è già a posto: dopo il punto 4 il radicando vale $x^2 - x = (x + y)^2$, che è un quadrato e quindi non è mai negativo.
+>
+> $$
+> \operatorname{Im} f = [\,-1, -\tfrac12\,) \cup [\,0, +\infty) .
+> $$
+
+La condizione $x + y \ge 0$ non è un dettaglio. Elevando al quadrato si possono aggiungere soluzioni false, perché anche un numero negativo, elevato al quadrato, diventa positivo. Per esempio con $y = -2$ il punto 6 dà $x = -\frac{4}{-3} = \frac43$; ma $x + y = \frac43 - 2 = -\frac23 < 0$, e infatti $f\left(\frac43\right) = \sqrt{\frac{16}{9} - \frac{4}{3}} - \frac43 = \frac23 - \frac43 = -\frac23$, non $-2$. Senza la condizione si sarebbe concluso, sbagliando, che $-2$ sta nell'immagine.
+
+![[04-esercizio-radice.svg|640]]
+
+Il grafico conferma i conti. Il ramo di sinistra parte da $(0, 0)$ e sale senza limite quando $x$ va verso $-\infty$: dà l'immagine $[0, +\infty)$. Il ramo di destra parte da $(1, -1)$ e sale avvicinandosi sempre di più alla retta tratteggiata $y = -\frac12$ senza mai toccarla (una retta così si chiama *asintoto*): dà l'immagine $[-1, -\frac12)$, con $-1$ compreso e $-\frac12$ escluso.
+
+> [!example] Passo 3: la funzione inversa
+> Al punto 6 si è visto che per ogni $y$ dell'immagine c'è una sola $x$ che ci arriva: la funzione è iniettiva. Presa con codominio uguale all'immagine, $f: D \to \operatorname{Im} f$ è biettiva e quindi invertibile.
+>
+> La formula dell'inversa l'abbiamo già trovata: è proprio $x = -\frac{y^2}{2y+1}$. Scambiando i nomi delle lettere:
+>
+> $$
+> f^{-1}(x) = -\frac{x^2}{2x + 1}, \qquad x \in [\,-1, -\tfrac12\,) \cup [\,0, +\infty) .
+> $$
+>
+> Il dominio di $f^{-1}$ è l'immagine di $f$, e l'immagine di $f^{-1}$ è il dominio di $f$, cioè $(-\infty, 0\,] \cup [\,1, +\infty)$.
+>
+> Controllo con due numeri:
+>
+> - $f^{-1}(-1) = -\frac{1}{-1} = 1$, e infatti $f(1) = \sqrt{0} - 1 = -1$;
+> - $f^{-1}(1) = -\frac13$, e infatti $f\left(-\frac13\right) = \sqrt{\frac19 + \frac13} + \frac13 = \frac23 + \frac13 = 1$.
+
+> [!example] Passo 4: la verifica $f \circ f^{-1}$
+> Bisogna controllare che $f(f^{-1}(x)) = x$ per ogni $x$ del dominio di $f^{-1}$. Per comodità si chiama $t = f^{-1}(x) = -\frac{x^2}{2x+1}$.
+>
+> 1. Il radicando:
+>
+> $$
+> t^2 - t = \frac{x^4}{(2x+1)^2} + \frac{x^2}{2x+1} = \frac{x^4 + x^2(2x+1)}{(2x+1)^2} = \frac{x^2(x^2 + 2x + 1)}{(2x+1)^2} = \left(\frac{x\,(x+1)}{2x+1}\right)^2 .
+> $$
+>
+> 2. La radice di un quadrato è il valore assoluto: $\sqrt{t^2 - t} = \left|\dfrac{x\,(x+1)}{2x+1}\right|$.
+> 3. Sul dominio di $f^{-1}$ la frazione $\frac{x(x+1)}{2x+1}$ è $\ge 0$: è proprio la condizione trovata al punto 8 del passo 2. Quindi il valore assoluto si può togliere.
+> 4. Si mette tutto insieme:
+>
+> $$
+> f(f^{-1}(x)) = \frac{x\,(x+1)}{2x+1} - \left(-\frac{x^2}{2x+1}\right) = \frac{x^2 + x + x^2}{2x+1} = \frac{x\,(2x+1)}{2x+1} = x .
+> $$
+>
+> La composizione dà $x$: l'inversa è giusta. Si vede anche perché la condizione $x + y \ge 0$ era indispensabile: senza di essa il valore assoluto non sparirebbe e la verifica non tornerebbe.
+
+> [!warning] Il segno quando si raccoglie
+> Da $y^2 + 2xy + x = 0$ si porta $y^2$ dall'altra parte e si raccoglie la $x$: $x\,(2y + 1) = -y^2$. Il segno meno davanti a $y^2$ si perde facilmente (scrivendo $y^2 = x(2y+1)$), e con il segno sbagliato tutta l'immagine e l'inversa vengono sbagliate. Un controllo veloce: con $y = -1$ deve tornare $x = 1$, perché $f(1) = -1$.
+
 ## SIMMETRIE, MONOTONIA E OPERAZIONI SUI GRAFICI
 
 ### Funzioni pari e dispari
@@ -587,5 +731,6 @@ Per Architettura le funzioni sono il linguaggio con cui si descrive come una gra
 ## Per approfondire
 
 - `Esercizi_funzioni_e_Logaritmi.pdf` (in `materiale/`), prima pagina, «Funzioni e funzioni elementari»: esercizi 1-4 su dominio e immagine, 5-10 su proprietà e operazioni, 11-15 su grafici e ragionamento. Quasi tutti sono svolti in questa pagina come esempi.
+- I tuoi appunti in `materiale/`: `appunti-nadia-11.jpeg` (l'esercizio del professore su $\sqrt{x^2 - x} - x$, svolto per intero in questa pagina) e `appunti-nadia-02.jpeg` (la prima idea di funzione con il diagramma a frecce).
 - [[00-ripasso-esonero-1]], sezione 4 «Funzioni»: le formule e i procedimenti in forma breve, per il ripasso finale.
 - James Stewart, *Calcolo. Funzioni di una variabile*, primo testo del programma del corso: il capitolo iniziale sulle funzioni tratta definizione, grafici, funzioni pari e dispari, trasformazioni dei grafici, composizione e funzioni inverse. Nella cartella `materiale/` del libro c'è solo il capitolo sui vettori, quindi questa parte va consultata sul libro.

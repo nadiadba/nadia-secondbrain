@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c">Segno +: la diagonale principale e i due triangoli «paralleli» a lei</text>
+<line x1="103.0" y1="80.0" x2="235.0" y2="180.0" stroke="#d6336c" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+<ellipse cx="103.0" cy="80.0" rx="26" ry="17" fill="white" stroke="#d6336c" stroke-width="2.4"/>
+<text x="101.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c" font-weight="bold">a<tspan font-size="75%" dy="4">1,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="167.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="233.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,3</tspan><tspan dy="-4">​</tspan></text>
+<text x="101.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,1</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="169.0" cy="130.0" rx="26" ry="17" fill="white" stroke="#d6336c" stroke-width="2.4"/>
+<text x="167.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c" font-weight="bold">a<tspan font-size="75%" dy="4">2,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="233.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,3</tspan><tspan dy="-4">​</tspan></text>
+<text x="101.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="167.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,2</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="235.0" cy="180.0" rx="26" ry="17" fill="white" stroke="#d6336c" stroke-width="2.4"/>
+<text x="233.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c" font-weight="bold">a<tspan font-size="75%" dy="4">3,3</tspan><tspan dy="-4">​</tspan></text>
+<path d="M 66.0,51.0 Q 50.0,130.0 66.0,209.0" fill="none" stroke="#222" stroke-width="2"/>
+<path d="M 272.0,51.0 Q 288.0,130.0 272.0,209.0" fill="none" stroke="#222" stroke-width="2"/>
+<text x="169.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c">+ a<tspan font-size="75%" dy="4">1,1</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">2,2</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">3,3</tspan><tspan dy="-4">​</tspan></text>
+<polygon points="525.0,130.0 459.0,80.0 393.0,180.0" fill="#d6336c" fill-opacity="0.08" stroke="#d6336c" stroke-width="3" stroke-opacity="0.75" stroke-linejoin="round"/>
+<text x="391.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,1</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="459.0" cy="80.0" rx="26" ry="17" fill="white" stroke="#d6336c" stroke-width="2.4"/>
+<text x="457.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c" font-weight="bold">a<tspan font-size="75%" dy="4">1,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="523.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,3</tspan><tspan dy="-4">​</tspan></text>
+<text x="391.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="457.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,2</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="525.0" cy="130.0" rx="26" ry="17" fill="white" stroke="#d6336c" stroke-width="2.4"/>
+<text x="523.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c" font-weight="bold">a<tspan font-size="75%" dy="4">2,3</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="393.0" cy="180.0" rx="26" ry="17" fill="white" stroke="#d6336c" stroke-width="2.4"/>
+<text x="391.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c" font-weight="bold">a<tspan font-size="75%" dy="4">3,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="457.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="523.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,3</tspan><tspan dy="-4">​</tspan></text>
+<path d="M 356.0,51.0 Q 340.0,130.0 356.0,209.0" fill="none" stroke="#222" stroke-width="2"/>
+<path d="M 562.0,51.0 Q 578.0,130.0 562.0,209.0" fill="none" stroke="#222" stroke-width="2"/>
+<text x="459.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c">+ a<tspan font-size="75%" dy="4">2,3</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">1,2</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">3,1</tspan><tspan dy="-4">​</tspan></text>
+<polygon points="683.0,130.0 749.0,180.0 815.0,80.0" fill="#d6336c" fill-opacity="0.08" stroke="#d6336c" stroke-width="3" stroke-opacity="0.75" stroke-linejoin="round"/>
+<text x="681.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="747.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,2</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="815.0" cy="80.0" rx="26" ry="17" fill="white" stroke="#d6336c" stroke-width="2.4"/>
+<text x="813.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c" font-weight="bold">a<tspan font-size="75%" dy="4">1,3</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="683.0" cy="130.0" rx="26" ry="17" fill="white" stroke="#d6336c" stroke-width="2.4"/>
+<text x="681.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c" font-weight="bold">a<tspan font-size="75%" dy="4">2,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="747.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="813.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,3</tspan><tspan dy="-4">​</tspan></text>
+<text x="681.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,1</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="749.0" cy="180.0" rx="26" ry="17" fill="white" stroke="#d6336c" stroke-width="2.4"/>
+<text x="747.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c" font-weight="bold">a<tspan font-size="75%" dy="4">3,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="813.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,3</tspan><tspan dy="-4">​</tspan></text>
+<path d="M 646.0,51.0 Q 630.0,130.0 646.0,209.0" fill="none" stroke="#222" stroke-width="2"/>
+<path d="M 852.0,51.0 Q 868.0,130.0 852.0,209.0" fill="none" stroke="#222" stroke-width="2"/>
+<text x="749.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d6336c">+ a<tspan font-size="75%" dy="4">2,1</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">3,2</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">1,3</tspan><tspan dy="-4">​</tspan></text>
+<text x="450.0" y="318.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e">Segno −: l'altra diagonale e i due triangoli «paralleli» a lei</text>
+<line x1="103.0" y1="468.0" x2="235.0" y2="368.0" stroke="#34495e" stroke-width="3" stroke-linecap="round" opacity="0.75"/>
+<text x="101.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="167.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,2</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="235.0" cy="368.0" rx="26" ry="17" fill="white" stroke="#34495e" stroke-width="2.4"/>
+<text x="233.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e" font-weight="bold">a<tspan font-size="75%" dy="4">1,3</tspan><tspan dy="-4">​</tspan></text>
+<text x="101.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,1</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="169.0" cy="418.0" rx="26" ry="17" fill="white" stroke="#34495e" stroke-width="2.4"/>
+<text x="167.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e" font-weight="bold">a<tspan font-size="75%" dy="4">2,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="233.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,3</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="103.0" cy="468.0" rx="26" ry="17" fill="white" stroke="#34495e" stroke-width="2.4"/>
+<text x="101.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e" font-weight="bold">a<tspan font-size="75%" dy="4">3,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="167.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="233.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,3</tspan><tspan dy="-4">​</tspan></text>
+<path d="M 66.0,339.0 Q 50.0,418.0 66.0,497.0" fill="none" stroke="#222" stroke-width="2"/>
+<path d="M 272.0,339.0 Q 288.0,418.0 272.0,497.0" fill="none" stroke="#222" stroke-width="2"/>
+<text x="169.0" y="527.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e">− a<tspan font-size="75%" dy="4">1,3</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">2,2</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">3,1</tspan><tspan dy="-4">​</tspan></text>
+<polygon points="393.0,418.0 459.0,368.0 525.0,468.0" fill="#34495e" fill-opacity="0.08" stroke="#34495e" stroke-width="3" stroke-opacity="0.75" stroke-linejoin="round"/>
+<text x="391.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,1</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="459.0" cy="368.0" rx="26" ry="17" fill="white" stroke="#34495e" stroke-width="2.4"/>
+<text x="457.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e" font-weight="bold">a<tspan font-size="75%" dy="4">1,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="523.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,3</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="393.0" cy="418.0" rx="26" ry="17" fill="white" stroke="#34495e" stroke-width="2.4"/>
+<text x="391.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e" font-weight="bold">a<tspan font-size="75%" dy="4">2,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="457.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="523.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,3</tspan><tspan dy="-4">​</tspan></text>
+<text x="391.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="457.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,2</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="525.0" cy="468.0" rx="26" ry="17" fill="white" stroke="#34495e" stroke-width="2.4"/>
+<text x="523.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e" font-weight="bold">a<tspan font-size="75%" dy="4">3,3</tspan><tspan dy="-4">​</tspan></text>
+<path d="M 356.0,339.0 Q 340.0,418.0 356.0,497.0" fill="none" stroke="#222" stroke-width="2"/>
+<path d="M 562.0,339.0 Q 578.0,418.0 562.0,497.0" fill="none" stroke="#222" stroke-width="2"/>
+<text x="459.0" y="527.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e">− a<tspan font-size="75%" dy="4">2,1</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">1,2</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">3,3</tspan><tspan dy="-4">​</tspan></text>
+<polygon points="749.0,468.0 815.0,418.0 683.0,368.0" fill="#34495e" fill-opacity="0.08" stroke="#34495e" stroke-width="3" stroke-opacity="0.75" stroke-linejoin="round"/>
+<ellipse cx="683.0" cy="368.0" rx="26" ry="17" fill="white" stroke="#34495e" stroke-width="2.4"/>
+<text x="681.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e" font-weight="bold">a<tspan font-size="75%" dy="4">1,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="747.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="813.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">1,3</tspan><tspan dy="-4">​</tspan></text>
+<text x="681.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,1</tspan><tspan dy="-4">​</tspan></text>
+<text x="747.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">2,2</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="815.0" cy="418.0" rx="26" ry="17" fill="white" stroke="#34495e" stroke-width="2.4"/>
+<text x="813.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e" font-weight="bold">a<tspan font-size="75%" dy="4">2,3</tspan><tspan dy="-4">​</tspan></text>
+<text x="681.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,1</tspan><tspan dy="-4">​</tspan></text>
+<ellipse cx="749.0" cy="468.0" rx="26" ry="17" fill="white" stroke="#34495e" stroke-width="2.4"/>
+<text x="747.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e" font-weight="bold">a<tspan font-size="75%" dy="4">3,2</tspan><tspan dy="-4">​</tspan></text>
+<text x="813.0" y="472.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#aaaaaa">a<tspan font-size="75%" dy="4">3,3</tspan><tspan dy="-4">​</tspan></text>
+<path d="M 646.0,339.0 Q 630.0,418.0 646.0,497.0" fill="none" stroke="#222" stroke-width="2"/>
+<path d="M 852.0,339.0 Q 868.0,418.0 852.0,497.0" fill="none" stroke="#222" stroke-width="2"/>
+<text x="749.0" y="527.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#34495e">− a<tspan font-size="75%" dy="4">3,2</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">2,3</tspan><tspan dy="-4">​</tspan> a<tspan font-size="75%" dy="4">1,1</tspan><tspan dy="-4">​</tspan></text>
+</svg>

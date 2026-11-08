@@ -11,7 +11,79 @@ tags: [matematica, bozza]
 Equazioni e disequazioni sono il primo argomento del corso e lo strumento che serve in tutti gli altri: per trovare dove una retta incontra una circonferenza, per calcolare il dominio di una funzione, per capire dove un grafico sta sopra o sotto l'asse $x$. Questa pagina parte da che cosa vuol dire "risolvere" e arriva ai tipi che compaiono negli esercizi: primo e secondo grado, frazionarie, con valore assoluto, irrazionali, e poi le disequazioni con i loro metodi (la parabola, la tabella dei segni, i sistemi).
 
 > [!info] Note collegate
-> Teoria: [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · [[06-le-matrici]] · [[07-insiemi-e-intervalli]] · Ripasso: [[00-ripasso-esonero-1]]
+
+## POTENZE E RADICALI
+
+Prima delle equazioni il professore ha ripassato il calcolo con potenze e radici, che serve continuamente per semplificare le espressioni prima di risolverle.
+
+### Le proprietà delle potenze
+
+Una *potenza* $a^n$ è il prodotto di $n$ fattori uguali ad $a$: $3^4 = 3 \cdot 3 \cdot 3 \cdot 3 = 81$. Il numero $a$ si chiama *base*, $n$ *esponente*.
+
+Tutte le proprietà vengono da questa definizione: basta contare i fattori. Per esempio $3^2 \cdot 3^3 = (3 \cdot 3) \cdot (3 \cdot 3 \cdot 3) = 3^5$, perché in tutto i fattori $3$ sono cinque.
+
+> [!abstract] Proprietà delle potenze (con la stessa base)
+> - Prodotto: $a^m \cdot a^n = a^{m+n}$ (gli esponenti si sommano). Esempio: $3^2 \cdot 3^3 = 3^5$.
+> - Quoziente: $\dfrac{a^m}{a^n} = a^{m-n}$ (gli esponenti si sottraggono). Esempio: $\dfrac{3^7}{3^4} = 3^3$.
+> - Potenza di potenza: $(a^m)^n = a^{m \cdot n}$ (gli esponenti si moltiplicano). Esempio: $(3^3)^4 = 3^{12}$.
+> - Esponente zero: $a^0 = 1$ (con $a \neq 0$). Esempio: $3^0 = 1$.
+> - Esponente negativo: $a^{-n} = \dfrac{1}{a^n}$. Esempio: $3^{-2} = \dfrac{1}{9}$.
+
+Le ultime due regole non sono arbitrarie: seguono dalla regola del quoziente. Infatti $\frac{3^4}{3^4} = 1$, ma per la regola è anche $3^{4-4} = 3^0$; e $\frac{3^2}{3^4} = \frac{1}{3^2}$, ma per la regola è anche $3^{2-4} = 3^{-2}$.
+
+> [!warning] Errore tipico
+> Le regole valgono solo per prodotti e quozienti con la stessa base. Non esiste una regola per la somma: $3^2 + 3^3 = 9 + 27 = 36$, che non è $3^5 = 243$.
+
+### I radicali come potenze con esponente frazionario
+
+La *radice* $n$-esima di un numero, $\sqrt[n]{a}$, è il numero che elevato alla $n$ dà $a$: $\sqrt[3]{27} = 3$ perché $3^3 = 27$.
+
+Il passaggio chiave, quello che il professore ha usato alla lavagna, è che ogni radice si può scrivere come una potenza con esponente frazionario.
+
+> [!abstract] Radicali e potenze
+> $$
+> \sqrt[n]{a^m} = a^{\frac{m}{n}} \qquad (a > 0)
+> $$
+> L'esponente che sta dentro la radice va al numeratore, l'indice della radice al denominatore. Esempi: $\sqrt[5]{3^2} = 3^{\frac{2}{5}}$, $\sqrt[6]{3^4} = 3^{\frac{4}{6}} = 3^{\frac{2}{3}}$.
+
+Perché proprio così? Per la regola della potenza di potenza: $\left(3^{\frac{1}{2}}\right)^2 = 3^{\frac{1}{2} \cdot 2} = 3^1 = 3$, quindi $3^{\frac{1}{2}}$ è il numero che al quadrato dà $3$, cioè $\sqrt{3}$.
+
+Il vantaggio è che, scritti come potenze, i radicali obbediscono alle stesse regole delle potenze: per moltiplicarli o dividerli basta sommare o sottrarre gli esponenti, anche se le radici hanno indici diversi.
+
+Il metodo per semplificare un'espressione con potenze e radici è quindi:
+
+1. scrivere ogni numero come potenza della stessa base (qui $27 = 3^3$, $9 = 3^2$, $81 = 3^4$);
+2. trasformare le radici in potenze con esponente frazionario;
+3. applicare le regole degli esponenti;
+4. se serve, tornare alla scrittura con la radice.
+
+> [!example] Esempio svolto dal professore
+> Semplificare
+> $$
+> \frac{27^4 \cdot \sqrt[5]{9}}{3^7 \cdot \sqrt[6]{81}}
+> $$
+>
+> 1. Scrivo tutto in base $3$: $27 = 3^3$, $9 = 3^2$, $81 = 3^4$:
+> $$
+> \frac{(3^3)^4 \cdot \sqrt[5]{3^2}}{3^7 \cdot \sqrt[6]{3^4}}
+> $$
+> 2. Potenza di potenza e radici come potenze: $(3^3)^4 = 3^{12}$, $\sqrt[5]{3^2} = 3^{\frac{2}{5}}$, $\sqrt[6]{3^4} = 3^{\frac{4}{6}} = 3^{\frac{2}{3}}$:
+> $$
+> \frac{3^{12} \cdot 3^{\frac{2}{5}}}{3^7 \cdot 3^{\frac{2}{3}}}
+> $$
+> 3. Prodotto di potenze, sopra e sotto: al numeratore $12 + \frac{2}{5} = \frac{62}{5}$, al denominatore $7 + \frac{2}{3} = \frac{23}{3}$:
+> $$
+> \frac{3^{\frac{62}{5}}}{3^{\frac{23}{3}}} = \frac{\sqrt[5]{3^{62}}}{\sqrt[3]{3^{23}}}
+> $$
+> 4. Quoziente di potenze: sottraggo gli esponenti, con denominatore comune $15$:
+> $$
+> 3^{\frac{62}{5} - \frac{23}{3}} = 3^{\frac{186 - 115}{15}} = 3^{\frac{71}{15}}
+> $$
+>
+> Risultato: $3^{\frac{71}{15}}$, cioè $\sqrt[15]{3^{71}}$.
+
+Le potenze e le radici come funzioni, con i loro grafici, sono in [[05-funzioni-elementari]].
 
 ## EQUAZIONI
 
@@ -84,6 +156,35 @@ Alla fine ci sono tre possibilità, a seconda dei numeri $a$ e $b$:
 >
 > Con le frazioni: $\dfrac{x - 1}{2} + \dfrac{x}{3} = 2$. Il minimo comune multiplo di $2$ e $3$ è $6$; moltiplico tutto per $6$: $3(x - 1) + 2x = 12$, cioè $5x - 3 = 12$, $5x = 15$, $x = 3$.
 
+In classe il professore ha fatto svolgere una serie di equazioni di primo grado, numerate dal 16 al 21. Sono tutte dello stesso tipo: si tolgono le parentesi, si porta la $x$ da una parte e i numeri dall'altra, si divide. Due di queste però sono impossibili, e conviene capire perché.
+
+> [!example] Esercizi del professore 16, 18, 19, 20 (una soluzione)
+> - Esercizio 16: $5x + 2(x + 1) - 3x = 4x - 3 + x$
+>     - Tolgo la parentesi: $5x + 2x + 2 - 3x = 4x - 3 + x$, cioè $4x + 2 = 5x - 3$.
+>     - Porto tutto a sinistra: $4x - 5x + 2 + 3 = 0$, cioè $-x + 5 = 0$.
+>     - Soluzione: $x = 5$.
+> - Esercizio 18: $2(5 + x) = 5x + 1$
+>     - $10 + 2x = 5x + 1$, quindi $2x - 5x = 1 - 10$, cioè $-3x = -9$.
+>     - Divido per $-3$: $x = 3$.
+> - Esercizio 19: $3(3 + x) - x = 5x + 14$
+>     - $9 + 3x - x = 5x + 14$, quindi $3x - x - 5x = 14 - 9$, cioè $-3x = 5$.
+>     - Divido per $-3$: $x = -\dfrac{5}{3}$.
+> - Esercizio 20: $4(x - 3) - 3(x - 5) = 3(x + 1)$
+>     - $4x - 12 - 3x + 15 = 3x + 3$ (attenzione al segno: $-3 \cdot (-5) = +15$).
+>     - $4x - 3x - 3x = 3 + 12 - 15$, cioè $-2x = 0$.
+>     - Soluzione: $x = 0$. Una soluzione uguale a zero è una soluzione come le altre: l'equazione non è impossibile.
+
+> [!example] Esercizi del professore 17 e 21 (impossibili)
+> - Esercizio 17: $3x - 5 + 2(x - 3) = 1 + 5x$
+>     - Tolgo la parentesi: $3x - 5 + 2x - 6 = 1 + 5x$, cioè $5x - 11 = 5x + 1$.
+>     - Porto tutto a sinistra: $5x - 5x - 11 - 1 = 0$, cioè $-12 = 0$.
+> - Esercizio 21: $8(x + 3) = 8x - 24$
+>     - $8x + 24 = 8x - 24$, quindi $8x - 8x = -24 - 24$, cioè $0 = -48$.
+>
+> In tutti e due i casi i termini con la $x$ si cancellano, perché a sinistra e a destra c'è lo stesso numero di $x$ ($5x$ e $5x$, $8x$ e $8x$). Resta un'uguaglianza tra numeri falsa ($-12 = 0$, $0 = -48$). Nella forma $ax = b$ siamo nel caso $a = 0$, $b \neq 0$: qualunque numero si metta al posto di $x$, i due lati differiscono sempre della stessa quantità e non diventano mai uguali. Per esempio in 21 il lato sinistro supera il destro di $48$ per ogni $x$. L'equazione è impossibile: nessuna soluzione (negli appunti si scrive "IMP.").
+>
+> Se invece fosse rimasto $0 = 0$, l'equazione sarebbe stata indeterminata: vera per ogni $x$.
+
 ### Equazioni di secondo grado
 
 Un'equazione è di *secondo grado* quando, dopo i calcoli, la potenza più alta della $x$ è $x^2$. Si porta tutto a sinistra e la si scrive nella *forma normale*
@@ -137,6 +238,27 @@ ax^2 + bx + c = a(x - x_1)(x - x_2)
 $$
 
 Per esempio $x^2 - 5x + 6$ ha soluzioni $2$ e $3$ (infatti $\Delta = 25 - 24 = 1$ e $x = \frac{5 \pm 1}{2}$), quindi $x^2 - 5x + 6 = (x - 2)(x - 3)$. La scomposizione si può anche fare al contrario: se si riconosce subito che due numeri hanno somma $5$ e prodotto $6$, si scrive la scomposizione e la legge di annullamento dà le soluzioni senza formula.
+
+Quest'ultima osservazione è una regola generale, che il professore ha scritto alla lavagna subito dopo la scomposizione: somma e prodotto delle due soluzioni si leggono direttamente nei coefficienti, senza calcolarle.
+
+> [!abstract] Somma e prodotto delle radici
+> Se $x_1$ e $x_2$ sono le soluzioni di $ax^2 + bx + c = 0$, allora
+> $$
+> \begin{cases} x_1 + x_2 = -\dfrac{b}{a} \\[2mm] x_1 \cdot x_2 = \dfrac{c}{a} \end{cases}
+> $$
+
+Il perché viene dalla scomposizione. Svolgendo il prodotto $a(x - x_1)(x - x_2)$ si ottiene $a x^2 - a(x_1 + x_2)\,x + a\,x_1 x_2$. Questo deve essere lo stesso polinomio di $ax^2 + bx + c$, quindi i coefficienti devono coincidere:
+
+- coefficiente di $x$: $-a(x_1 + x_2) = b$, cioè $x_1 + x_2 = -\dfrac{b}{a}$;
+- termine noto: $a\,x_1 x_2 = c$, cioè $x_1 x_2 = \dfrac{c}{a}$.
+
+> [!example] Esempio: controllare le soluzioni con somma e prodotto
+> Per $2x^2 + 3x - 2 = 0$ (l'esempio svolto sopra) le soluzioni erano $\frac{1}{2}$ e $-2$.
+>
+> - Somma: $\frac{1}{2} + (-2) = -\frac{3}{2}$, e infatti $-\frac{b}{a} = -\frac{3}{2}$.
+> - Prodotto: $\frac{1}{2} \cdot (-2) = -1$, e infatti $\frac{c}{a} = \frac{-2}{2} = -1$.
+>
+> Al contrario, per $x^2 - 7x + 10 = 0$ (qui $a = 1$) si cercano due numeri con somma $7$ e prodotto $10$: sono $2$ e $5$. Quindi $x^2 - 7x + 10 = (x - 2)(x - 5)$ e le soluzioni sono $x = 2$ e $x = 5$.
 
 ### Il legame con la parabola
 
@@ -275,6 +397,8 @@ Sulla retta reale l'intervallo si disegna come un tratto colorato: un pallino pi
 ![[01-retta-reale-intervalli.svg|600]]
 
 Quando le soluzioni sono formate da due pezzi separati si uniscono con il simbolo $\cup$ (si legge "unione"): per esempio $x \leq 2$ oppure $x \geq 3$ si scrive $(-\infty, 2] \cup [3, +\infty)$. L'insieme di tutti i numeri reali si scrive $\mathbb{R}$ oppure $(-\infty, +\infty)$.
+
+Gli intervalli, l'unione e l'intersezione di insiemi, con l'esercizio del professore sull'intersezione di tre intervalli, sono spiegati per esteso in [[07-insiemi-e-intervalli]].
 
 ### La regola del verso
 
