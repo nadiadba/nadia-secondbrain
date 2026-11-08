@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="575" height="410" viewBox="0 0 575 410">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="40.0" y1="370.0" x2="40.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="95.0" y1="370.0" x2="95.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="150.0" y1="370.0" x2="150.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="205.0" y1="370.0" x2="205.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="260.0" y1="370.0" x2="260.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="315.0" y1="370.0" x2="315.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="370.0" y1="370.0" x2="370.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="425.0" y1="370.0" x2="425.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="480.0" y1="370.0" x2="480.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="535.0" y1="370.0" x2="535.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="40.0" y1="370.0" x2="535.0" y2="370.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="40.0" y1="315.0" x2="535.0" y2="315.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="40.0" y1="260.0" x2="535.0" y2="260.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="40.0" y1="205.0" x2="535.0" y2="205.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="40.0" y1="150.0" x2="535.0" y2="150.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="40.0" y1="95.0" x2="535.0" y2="95.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="40.0" y1="40.0" x2="535.0" y2="40.0" stroke="#e6e6e6" stroke-width="1"/>
+<line x1="40.0" y1="205.0" x2="543.0" y2="205.0" stroke="#222222" stroke-width="1.6"/>
+<polygon points="553.0,205.0 543.0,201.0 543.0,209.0" fill="#222222"/>
+<line x1="150.0" y1="370.0" x2="150.0" y2="32.0" stroke="#222222" stroke-width="1.6"/>
+<polygon points="150.0,22.0 146.0,32.0 154.0,32.0" fill="#222222"/>
+<text x="549.0" y="225.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" font-weight="normal" font-style="italic">x</text>
+<text x="134.0" y="32.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" font-weight="normal" font-style="italic">y</text>
+<line x1="40.0" y1="201.0" x2="40.0" y2="209.0" stroke="#222222" stroke-width="1.2"/>
+<text x="40.0" y="223.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">−2</text>
+<line x1="95.0" y1="201.0" x2="95.0" y2="209.0" stroke="#222222" stroke-width="1.2"/>
+<text x="95.0" y="223.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">−1</text>
+<line x1="205.0" y1="201.0" x2="205.0" y2="209.0" stroke="#222222" stroke-width="1.2"/>
+<text x="205.0" y="223.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<line x1="260.0" y1="201.0" x2="260.0" y2="209.0" stroke="#222222" stroke-width="1.2"/>
+<text x="260.0" y="223.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">2</text>
+<line x1="315.0" y1="201.0" x2="315.0" y2="209.0" stroke="#222222" stroke-width="1.2"/>
+<text x="315.0" y="223.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">3</text>
+<line x1="370.0" y1="201.0" x2="370.0" y2="209.0" stroke="#222222" stroke-width="1.2"/>
+<text x="370.0" y="223.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">4</text>
+<line x1="425.0" y1="201.0" x2="425.0" y2="209.0" stroke="#222222" stroke-width="1.2"/>
+<text x="425.0" y="223.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">5</text>
+<line x1="480.0" y1="201.0" x2="480.0" y2="209.0" stroke="#222222" stroke-width="1.2"/>
+<text x="480.0" y="223.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">6</text>
+<line x1="535.0" y1="201.0" x2="535.0" y2="209.0" stroke="#222222" stroke-width="1.2"/>
+<text x="535.0" y="223.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">7</text>
+<line x1="146.0" y1="370.0" x2="154.0" y2="370.0" stroke="#222222" stroke-width="1.2"/>
+<text x="141.0" y="374.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">−3</text>
+<line x1="146.0" y1="315.0" x2="154.0" y2="315.0" stroke="#222222" stroke-width="1.2"/>
+<text x="141.0" y="319.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">−2</text>
+<line x1="146.0" y1="260.0" x2="154.0" y2="260.0" stroke="#222222" stroke-width="1.2"/>
+<text x="141.0" y="264.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">−1</text>
+<line x1="146.0" y1="150.0" x2="154.0" y2="150.0" stroke="#222222" stroke-width="1.2"/>
+<text x="141.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">1</text>
+<line x1="146.0" y1="95.0" x2="154.0" y2="95.0" stroke="#222222" stroke-width="1.2"/>
+<text x="141.0" y="99.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">2</text>
+<line x1="146.0" y1="40.0" x2="154.0" y2="40.0" stroke="#222222" stroke-width="1.2"/>
+<text x="141.0" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666666" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">3</text>
+<text x="141.0" y="222.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#666666" text-anchor="end" font-weight="normal">O</text>
+<line x1="40.0" y1="342.5" x2="535.0" y2="95.0" stroke="#1f5fa8" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="205.0" cy="260.0" r="4" fill="#222222" stroke="white" stroke-width="1"/>
+<text x="213.0" y="280.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="start" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">A(1, −1)</text>
+<circle cx="425.0" cy="150.0" r="4" fill="#222222" stroke="white" stroke-width="1"/>
+<text x="419.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">B(5, 1)</text>
+<circle cx="150.0" cy="287.5" r="4" fill="#c0392b" stroke="white" stroke-width="1"/>
+<text x="142.0" y="279.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">q = −3/2</text>
+<circle cx="315.0" cy="205.0" r="4" fill="#666666" stroke="white" stroke-width="1"/>
+<text x="502.0" y="75.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f5fa8" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">y = ½x − 3/2</text>
+</svg>

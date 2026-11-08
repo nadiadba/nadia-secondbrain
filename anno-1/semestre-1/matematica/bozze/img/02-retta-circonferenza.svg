@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="349" viewBox="0 0 800 349">
+<rect width="100%" height="100%" fill="white"/>
+<circle cx="160.0" cy="174.4" r="76.8" fill="none" stroke="#1f5fa8" stroke-width="2.2"/>
+<circle cx="160.0" cy="174.4" r="4" fill="#222222" stroke="white" stroke-width="1"/>
+<text x="154.0" y="190.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">C</text>
+<line x1="49.6" y1="136.0" x2="270.4" y2="136.0" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="160.0" y1="174.4" x2="160.0" y2="136.0" stroke="#d68910" stroke-width="1.8" stroke-dasharray="6,4" stroke-linecap="round"/>
+<polyline points="168.6,136.0 168.6,144.6 160.0,144.6" fill="none" stroke="#d68910" stroke-width="1.3"/>
+<text x="166.0" y="160.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#d68910" text-anchor="start" font-weight="normal" font-style="italic" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">d</text>
+<circle cx="93.5" cy="136.0" r="4" fill="#c0392b" stroke="white" stroke-width="1"/>
+<circle cx="226.5" cy="136.0" r="4" fill="#c0392b" stroke="white" stroke-width="1"/>
+<text x="160.0" y="272.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" text-anchor="middle" font-weight="bold" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">secante</text>
+<text x="160.0" y="292.8" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">d &lt; r : 2 punti</text>
+<circle cx="400.0" cy="174.4" r="76.8" fill="none" stroke="#1f5fa8" stroke-width="2.2"/>
+<circle cx="400.0" cy="174.4" r="4" fill="#222222" stroke="white" stroke-width="1"/>
+<text x="394.0" y="190.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">C</text>
+<line x1="289.6" y1="97.6" x2="510.4" y2="97.6" stroke="#2e8b57" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="400.0" y1="174.4" x2="400.0" y2="97.6" stroke="#d68910" stroke-width="1.8" stroke-dasharray="6,4" stroke-linecap="round"/>
+<polyline points="408.6,97.6 408.6,106.2 400.0,106.2" fill="none" stroke="#d68910" stroke-width="1.3"/>
+<text x="406.0" y="141.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#d68910" text-anchor="start" font-weight="normal" font-style="italic" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">d</text>
+<circle cx="400.0" cy="97.6" r="4" fill="#2e8b57" stroke="white" stroke-width="1"/>
+<text x="400.0" y="272.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" text-anchor="middle" font-weight="bold" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">tangente</text>
+<text x="400.0" y="292.8" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">d = r : 1 punto</text>
+<circle cx="640.0" cy="174.4" r="76.8" fill="none" stroke="#1f5fa8" stroke-width="2.2"/>
+<circle cx="640.0" cy="174.4" r="4" fill="#222222" stroke="white" stroke-width="1"/>
+<text x="634.0" y="190.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="end" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">C</text>
+<line x1="529.6" y1="64.0" x2="750.4" y2="64.0" stroke="#666666" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="640.0" y1="174.4" x2="640.0" y2="64.0" stroke="#d68910" stroke-width="1.8" stroke-dasharray="6,4" stroke-linecap="round"/>
+<polyline points="648.6,64.0 648.6,72.6 640.0,72.6" fill="none" stroke="#d68910" stroke-width="1.3"/>
+<text x="646.0" y="124.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#d68910" text-anchor="start" font-weight="normal" font-style="italic" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">d</text>
+<text x="640.0" y="272.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#666666" text-anchor="middle" font-weight="bold" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">esterna</text>
+<text x="640.0" y="292.8" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" font-weight="normal" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">d &gt; r : nessun punto</text>
+</svg>

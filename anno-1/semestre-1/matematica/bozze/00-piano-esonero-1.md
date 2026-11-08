@@ -9,13 +9,13 @@ tags: [matematica, bozza, ripasso]
 
 # Piano di studio per l'esonero di mercoledì 11 novembre
 
-Tre giorni, da domenica 8 a martedì 10 novembre, per arrivare all'esonero di Istituzioni di Matematiche 1 avendo fatto almeno una volta tutti gli esercizi dei fogli del professore. Le formule da sapere sono raccolte nella scheda [[00-ripasso-esonero-1|Ripasso per l'esonero]].
+Tre giorni, da domenica 8 a martedì 10 novembre, per arrivare all'esonero di Istituzioni di Matematiche 1 avendo studiato la teoria di tutti gli argomenti fatti in classe e fatto almeno una volta gli esercizi dei fogli del professore. La teoria è nelle pagine 01-05, le formule in breve nella scheda [[00-ripasso-esonero-1|Ripasso per l'esonero]].
 
 > [!info] Note collegate
-> Ripasso: [[00-ripasso-esonero-1]]
+> Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]] · Ripasso: [[00-ripasso-esonero-1]]
 
 > [!question] Che cosa chiede l'esonero?
-> Il programma non dice quali argomenti entrano nella prima prova in itinere, e sul sito del corso (formulas.it) non ci sono testi degli anni passati. Questo piano segue i fogli di esercizi che il professore ha distribuito finora: vettori e prodotto scalare, prodotto vettoriale e prodotto triplo, funzioni, esponenziali, logaritmi e trigonometria. Se a lezione è stato detto che cosa porta l'esonero, togli o aggiungi giorni di conseguenza. Lo scritto finale ha 5 o 6 quesiti in 1,5-2 ore: l'esonero sarà probabilmente simile ma più breve.
+> Gli argomenti fatti in classe sono: equazioni e disequazioni, geometria del piano (la retta per due punti, la circonferenza), i vettori, le funzioni (grafico, dominio, insieme immagine, funzione inversa). Il professore si è fermato all'inizio delle funzioni elementari: esponenziali, logaritmi e trigonometria vanno guardati per ultimi, se resta tempo. Lo scritto finale ha 5 o 6 quesiti in 1,5-2 ore: l'esonero sarà probabilmente simile ma più breve.
 
 ## Il materiale (in `materiale/`)
 
@@ -32,25 +32,25 @@ Tre giorni, da domenica 8 a martedì 10 novembre, per arrivare all'esonero di Is
 
 ## Giorno per giorno
 
-Ogni giorno: prima rileggi la parte della scheda di ripasso, poi fai gli esercizi su carta senza guardare le soluzioni. Segna con una crocetta quelli sbagliati o non capiti: martedì li rifai.
+Ogni giorno: prima leggi la pagina di teoria, poi fai gli esercizi su carta senza guardare le soluzioni. Segna con una crocetta quelli sbagliati o non capiti: martedì li rifai.
 
-### Domenica 8 novembre: vettori e prodotto scalare
+### Domenica 8 novembre: equazioni, disequazioni, retta e circonferenza
 
-- [ ] Ripasso, sezioni 1 e 2
-- [ ] Stewart 2.2 e 2.3 (pag. 7-21 del PDF): leggere solo gli esempi svolti
-- [ ] Foglio vettori, esercizi 1-24 (se il tempo non basta: 1-12 oggi, 13-24 lunedì mattina)
+- [ ] Teoria: [[01-equazioni-e-disequazioni]]
+- [ ] Teoria: [[02-retta-e-circonferenza]]
+- [ ] Per questi argomenti non c'è un foglio di esercizi: rifai su carta gli esempi delle due pagine coprendo la soluzione, poi controlla
 
-### Lunedì 9 novembre: prodotto vettoriale, prodotto triplo, determinanti
+### Lunedì 9 novembre: i vettori
 
-- [ ] Ripasso, sezione 3; determinanti 2×2 e 3×3 (Giuffrida-Ragusa, prime pagine)
-- [ ] Stewart 2.4 (pag. 22-29 del PDF): gli esempi svolti
-- [ ] Foglio prodotto vettoriale, esercizi 1-12 (il 12 è un esercizio di sintesi: è il più simile a un compito)
+- [ ] Teoria: [[03-i-vettori]]
+- [ ] Foglio vettori, esercizi 1-24
+- [ ] Foglio prodotto vettoriale e prodotto triplo, esercizi 1-12 (il 12 è un esercizio di sintesi: è il più simile a un compito)
 
-### Martedì 10 novembre: funzioni, esponenziali, logaritmi, trigonometria
+### Martedì 10 novembre: le funzioni
 
-- [ ] Ripasso, sezioni 4 e 5
-- [ ] Foglio funzioni, prima pagina, esercizi 1-15
-- [ ] Foglio funzioni, seconda pagina, esercizi 1-20
+- [ ] Teoria: [[04-le-funzioni]]
+- [ ] Foglio funzioni, prima pagina, esercizi 1-15 (dominio, immagine, iniettiva e suriettiva, inversa, composizione, grafici)
+- [ ] Se resta tempo: [[05-funzioni-elementari]] e la seconda pagina del foglio (esponenziali, logaritmi, trigonometria)
 - [ ] La sera: rifare gli esercizi segnati con la crocetta, preparare lo zaino (vedi sotto), dormire presto
 
 ### Mercoledì 11 novembre: esonero

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="451" height="349" viewBox="0 0 451 349">
+<rect width="100%" height="100%" fill="white"/>
+<polygon points="64.0,285.0 166.0,64.0 370.0,234.0" fill="#d68910" fill-opacity="0.08" stroke="none" stroke-width="1"/>
+<path d="M 97.5,279.4 L 97.4,278.6 L 97.2,277.8 L 97.0,277.0 L 96.8,276.2 L 96.6,275.4 L 96.4,274.6 L 96.1,273.8 L 95.8,273.0 L 95.5,272.3 L 95.2,271.5 L 94.9,270.7 L 94.5,270.0 L 94.1,269.3 L 93.7,268.5 L 93.3,267.8 L 92.9,267.1 L 92.5,266.4 L 92.0,265.7 L 91.5,265.0 L 91.0,264.4 L 90.5,263.7 L 90.0,263.1 L 89.5,262.5 L 88.9,261.8 L 88.3,261.2 L 87.7,260.7 L 87.1,260.1 L 86.5,259.5 L 85.9,259.0 L 85.3,258.5 L 84.6,258.0 L 83.9,257.5 L 83.3,257.0 L 82.6,256.5 L 81.9,256.1 L 81.2,255.7 L 80.5,255.3 L 79.7,254.9 L 79.0,254.5 L 78.2,254.1" fill="none" stroke="#d68910" stroke-width="2"/>
+<line x1="64.0" y1="285.0" x2="161.8" y2="73.1" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="166.0,64.0 165.5,77.0 156.4,72.8" fill="#1f5fa8"/>
+<line x1="64.0" y1="285.0" x2="360.1" y2="235.6" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="370.0,234.0 359.0,240.9 357.3,231.0" fill="#c0392b"/>
+<line x1="370.0" y1="234.0" x2="173.7" y2="70.4" stroke="#7d3c98" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="166.0,64.0 178.4,67.8 172.0,75.6" fill="#7d3c98"/>
+<circle cx="64.0" cy="285.0" r="3.6" fill="#222"/>
+<text x="54.0" y="293.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222">O</text>
+<text x="103.0" y="174.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="end" fill="#1f5fa8"><tspan font-weight="bold">u</tspan></text>
+<text x="217.0" y="283.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#c0392b"><tspan font-weight="bold">v</tspan></text>
+<text x="278.0" y="143.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="start" fill="#7d3c98"><tspan font-weight="bold">u</tspan> − <tspan font-weight="bold">v</tspan></text>
+<text x="108.0" y="269.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#d68910">θ</text>
+</svg>

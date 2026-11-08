@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="371" viewBox="0 0 640 371">
+<rect width="640" height="371" fill="white"/>
+<text x="70.0" y="26.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9ca3af" text-anchor="middle" font-weight="bold" font-style="normal">intervallo</text>
+<text x="195.0" y="26.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9ca3af" text-anchor="middle" font-weight="bold" font-style="normal">disequazione</text>
+<text x="440.0" y="26.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#9ca3af" text-anchor="middle" font-weight="bold" font-style="normal">sulla retta reale</text>
+<text x="70.0" y="71.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">[a, b]</text>
+<text x="195.0" y="71.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="italic">a ≤ x ≤ b</text>
+<line x1="280.0" y1="66.0" x2="614.0" y2="66.0" stroke="#9ca3af" stroke-width="1.5"/>
+<polygon points="614.0,66.0 604.8,69.9 604.8,62.1" fill="#9ca3af"/>
+<line x1="367.5" y1="61.0" x2="367.5" y2="71.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="367.5" y="88.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">a</text>
+<line x1="522.5" y1="61.0" x2="522.5" y2="71.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="522.5" y="88.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">b</text>
+<line x1="367.5" y1="66.0" x2="522.5" y2="66.0" stroke="#2563eb" stroke-width="5"/>
+<circle cx="367.5" cy="66.0" r="5.5" fill="#2563eb" stroke="#2563eb" stroke-width="2"/>
+<circle cx="522.5" cy="66.0" r="5.5" fill="#2563eb" stroke="#2563eb" stroke-width="2"/>
+<text x="70.0" y="129.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">(a, b)</text>
+<text x="195.0" y="129.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="italic">a &lt; x &lt; b</text>
+<line x1="280.0" y1="124.0" x2="614.0" y2="124.0" stroke="#9ca3af" stroke-width="1.5"/>
+<polygon points="614.0,124.0 604.8,127.9 604.8,120.1" fill="#9ca3af"/>
+<line x1="367.5" y1="119.0" x2="367.5" y2="129.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="367.5" y="146.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">a</text>
+<line x1="522.5" y1="119.0" x2="522.5" y2="129.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="522.5" y="146.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">b</text>
+<line x1="367.5" y1="124.0" x2="522.5" y2="124.0" stroke="#2563eb" stroke-width="5"/>
+<circle cx="367.5" cy="124.0" r="5.5" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="522.5" cy="124.0" r="5.5" fill="white" stroke="#2563eb" stroke-width="2"/>
+<text x="70.0" y="187.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">[a, b)</text>
+<text x="195.0" y="187.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="italic">a ≤ x &lt; b</text>
+<line x1="280.0" y1="182.0" x2="614.0" y2="182.0" stroke="#9ca3af" stroke-width="1.5"/>
+<polygon points="614.0,182.0 604.8,185.9 604.8,178.1" fill="#9ca3af"/>
+<line x1="367.5" y1="177.0" x2="367.5" y2="187.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="367.5" y="204.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">a</text>
+<line x1="522.5" y1="177.0" x2="522.5" y2="187.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="522.5" y="204.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">b</text>
+<line x1="367.5" y1="182.0" x2="522.5" y2="182.0" stroke="#2563eb" stroke-width="5"/>
+<circle cx="367.5" cy="182.0" r="5.5" fill="#2563eb" stroke="#2563eb" stroke-width="2"/>
+<circle cx="522.5" cy="182.0" r="5.5" fill="white" stroke="#2563eb" stroke-width="2"/>
+<text x="70.0" y="245.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">[a, +∞)</text>
+<text x="195.0" y="245.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="italic">x ≥ a</text>
+<line x1="280.0" y1="240.0" x2="614.0" y2="240.0" stroke="#9ca3af" stroke-width="1.5"/>
+<polygon points="614.0,240.0 604.8,243.9 604.8,236.1" fill="#9ca3af"/>
+<line x1="367.5" y1="235.0" x2="367.5" y2="245.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="367.5" y="262.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">a</text>
+<line x1="522.5" y1="235.0" x2="522.5" y2="245.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="522.5" y="262.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">b</text>
+<line x1="367.5" y1="240.0" x2="606.0" y2="240.0" stroke="#2563eb" stroke-width="5"/>
+<line x1="594.0" y1="240.0" x2="610.0" y2="240.0" stroke="#2563eb" stroke-width="5"/>
+<polygon points="610.0,240.0 600.8,243.9 600.8,236.1" fill="#2563eb"/>
+<circle cx="367.5" cy="240.0" r="5.5" fill="#2563eb" stroke="#2563eb" stroke-width="2"/>
+<text x="70.0" y="303.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">(−∞, b)</text>
+<text x="195.0" y="303.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="italic">x &lt; b</text>
+<line x1="280.0" y1="298.0" x2="614.0" y2="298.0" stroke="#9ca3af" stroke-width="1.5"/>
+<polygon points="614.0,298.0 604.8,301.9 604.8,294.1" fill="#9ca3af"/>
+<line x1="367.5" y1="293.0" x2="367.5" y2="303.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="367.5" y="320.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">a</text>
+<line x1="522.5" y1="293.0" x2="522.5" y2="303.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="522.5" y="320.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">b</text>
+<line x1="284.0" y1="298.0" x2="522.5" y2="298.0" stroke="#2563eb" stroke-width="5"/>
+<line x1="296.0" y1="298.0" x2="280.0" y2="298.0" stroke="#2563eb" stroke-width="5"/>
+<polygon points="280.0,298.0 289.2,294.1 289.2,301.9" fill="#2563eb"/>
+<circle cx="522.5" cy="298.0" r="5.5" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="50" cy="352" r="5.5" fill="#2563eb" stroke="#2563eb" stroke-width="2"/>
+<text x="62.0" y="357.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="normal" font-style="normal">pallino pieno: il numero è compreso</text>
+<circle cx="330" cy="352" r="5.5" fill="white" stroke="#2563eb" stroke-width="2"/>
+<text x="342.0" y="357.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="normal" font-style="normal">pallino vuoto: il numero è escluso</text>
+</svg>

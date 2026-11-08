@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="470" viewBox="0 0 560 470">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="250.0" y1="300.0" x2="136.8" y2="379.2" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="130.3,383.8 136.1,374.7 140.9,381.5" fill="#333"/>
+<line x1="250.0" y1="300.0" x2="508.8" y2="300.0" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="516.8,300.0 506.8,304.2 506.8,295.8" fill="#333"/>
+<line x1="250.0" y1="300.0" x2="250.0" y2="52.8" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="250.0,44.8 254.2,54.8 245.8,54.8" fill="#333"/>
+<text x="124.3" y="401.8" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222" font-style="italic">x</text>
+<text x="522.8" y="318.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222" font-style="italic">y</text>
+<text x="238.0" y="50.8" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222" font-style="italic">z</text>
+<text x="240.0" y="294.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666666">O</text>
+<polygon points="250.0,300.0 170.8,379.8 356.6,387.8 435.8,308.0" fill="#1f5fa8" fill-opacity="0.12" stroke="#1f5fa8" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="250.0" y1="300.0" x2="250.0" y2="406.0" stroke="#7d3c98" stroke-width="2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<polygon points="250.0,416.0 245.0,404.0 255.0,404.0" fill="#7d3c98"/>
+<line x1="250.0" y1="300.0" x2="177.8" y2="372.7" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="170.8,379.8 175.6,367.8 182.8,374.9" fill="#1f5fa8"/>
+<line x1="250.0" y1="300.0" x2="425.8" y2="307.6" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="435.8,308.0 423.6,312.5 424.0,302.4" fill="#c0392b"/>
+<line x1="250.0" y1="300.0" x2="250.0" y2="136.0" stroke="#2e7d4f" stroke-width="3" stroke-linecap="round"/>
+<polygon points="250.0,126.0 255.0,138.0 245.0,138.0" fill="#2e7d4f"/>
+<polyline points="240.8,309.2 240.8,296.2 250.0,287.0" fill="none" stroke="#666666" stroke-width="1.4"/>
+<polyline points="263.0,300.6 263.0,287.6 250.0,287.0" fill="none" stroke="#666666" stroke-width="1.4"/>
+<text x="162.8" y="399.8" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#1f5fa8"><tspan font-weight="bold">u</tspan></text>
+<text x="435.8" y="334.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#c0392b"><tspan font-weight="bold">v</tspan></text>
+<text x="262.0" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="start" fill="#2e7d4f"><tspan font-weight="bold">u</tspan> × <tspan font-weight="bold">v</tspan></text>
+<text x="262.0" y="420.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="start" fill="#7d3c98"><tspan font-weight="bold">v</tspan> × <tspan font-weight="bold">u</tspan> = −(<tspan font-weight="bold">u</tspan> × <tspan font-weight="bold">v</tspan>)</text>
+<text x="313.3" y="349.9" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" fill="white">area = ‖<tspan font-weight="bold">u</tspan> × <tspan font-weight="bold">v</tspan>‖</text>
+<text x="313.3" y="349.9" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#222">area = ‖<tspan font-weight="bold">u</tspan> × <tspan font-weight="bold">v</tspan>‖</text>
+<text x="20.0" y="28.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">la mano destra: dita da <tspan font-weight="bold">u</tspan> verso <tspan font-weight="bold">v</tspan>, il pollice indica <tspan font-weight="bold">u</tspan> × <tspan font-weight="bold">v</tspan></text>
+</svg>

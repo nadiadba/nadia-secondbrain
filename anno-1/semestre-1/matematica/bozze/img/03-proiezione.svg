@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="300" viewBox="0 0 940 300">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="61.0" y1="212.0" x2="409.0" y2="212.0" stroke="#e6e6e6" stroke-width="1.5" opacity="1"/>
+<line x1="277.0" y1="62.0" x2="277.0" y2="212.0" stroke="#666666" stroke-width="1.4" stroke-dasharray="5,4" opacity="1"/>
+<polyline points="277.0,201.0 266.0,201.0 266.0,212.0" fill="none" stroke="#666666" stroke-width="1.4"/>
+<line x1="97.0" y1="212.0" x2="357.0" y2="212.0" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="367.0,212.0 355.0,217.0 355.0,207.0" fill="#c0392b"/>
+<line x1="97.0" y1="212.0" x2="265.0" y2="212.0" stroke="#2e7d4f" stroke-width="4.2" stroke-linecap="round"/>
+<polygon points="277.0,212.0 263.0,217.9 263.0,206.1" fill="#2e7d4f"/>
+<line x1="277.0" y1="212.0" x2="277.0" y2="72.0" stroke="#7d3c98" stroke-width="2" stroke-linecap="round"/>
+<polygon points="277.0,62.0 282.0,74.0 272.0,74.0" fill="#7d3c98"/>
+<line x1="97.0" y1="212.0" x2="269.3" y2="68.4" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="277.0,62.0 271.0,73.6 264.6,65.8" fill="#1f5fa8"/>
+<text x="186.0" y="129.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="end" fill="#1f5fa8"><tspan font-weight="bold">u</tspan></text>
+<text x="373.0" y="202.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#c0392b"><tspan font-weight="bold">v</tspan></text>
+<text x="187.0" y="238.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#2e7d4f"><tspan font-weight="bold">p</tspan></text>
+<text x="287.0" y="137.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="start" fill="#7d3c98"><tspan font-weight="bold">q</tspan></text>
+<text x="235.0" y="288.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#222">angolo acuto: <tspan font-weight="bold">p</tspan> ha il verso di <tspan font-weight="bold">v</tspan></text>
+<line x1="489.0" y1="212.0" x2="921.0" y2="212.0" stroke="#e6e6e6" stroke-width="1.5" opacity="1"/>
+<line x1="549.0" y1="62.0" x2="549.0" y2="212.0" stroke="#666666" stroke-width="1.4" stroke-dasharray="5,4" opacity="1"/>
+<polyline points="549.0,201.0 560.0,201.0 560.0,212.0" fill="none" stroke="#666666" stroke-width="1.4"/>
+<line x1="693.0" y1="212.0" x2="863.0" y2="212.0" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="873.0,212.0 861.0,217.0 861.0,207.0" fill="#c0392b"/>
+<line x1="693.0" y1="212.0" x2="561.0" y2="212.0" stroke="#2e7d4f" stroke-width="4.2" stroke-linecap="round"/>
+<polygon points="549.0,212.0 563.0,206.1 563.0,217.9" fill="#2e7d4f"/>
+<line x1="549.0" y1="212.0" x2="549.0" y2="72.0" stroke="#7d3c98" stroke-width="2" stroke-linecap="round"/>
+<polygon points="549.0,62.0 554.0,74.0 544.0,74.0" fill="#7d3c98"/>
+<line x1="693.0" y1="212.0" x2="555.9" y2="69.2" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="549.0,62.0 560.9,67.2 553.7,74.1" fill="#1f5fa8"/>
+<text x="625.8" y="129.5" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="start" fill="#1f5fa8"><tspan font-weight="bold">u</tspan></text>
+<text x="879.0" y="202.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#c0392b"><tspan font-weight="bold">v</tspan></text>
+<text x="621.0" y="238.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="middle" fill="#2e7d4f"><tspan font-weight="bold">p</tspan></text>
+<text x="539.0" y="137.0" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="end" fill="#7d3c98"><tspan font-weight="bold">q</tspan></text>
+<text x="705.0" y="288.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#222">angolo ottuso: <tspan font-weight="bold">p</tspan> ha verso opposto a <tspan font-weight="bold">v</tspan></text>
+</svg>

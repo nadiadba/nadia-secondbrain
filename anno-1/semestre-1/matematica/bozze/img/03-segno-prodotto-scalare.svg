@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="250" viewBox="0 0 690 250">
+<rect width="100%" height="100%" fill="white"/>
+<path d="M 100.0,125.0 L 132.0,125.0 L 132.0,124.3 L 132.0,123.7 L 131.9,123.0 L 131.9,122.4 L 131.8,121.7 L 131.8,121.1 L 131.7,120.4 L 131.6,119.8 L 131.5,119.1 L 131.3,118.5 L 131.2,117.8 L 131.0,117.2 L 130.9,116.5 L 130.7,115.9 L 130.5,115.3 L 130.3,114.7 L 130.1,114.0 L 129.8,113.4 L 129.6,112.8 L 129.3,112.2 L 129.1,111.6 L 128.8,111.0 L 128.5,110.4 L 128.2,109.8 L 127.9,109.3 L 127.5,108.7 L 127.2,108.1 L 126.8,107.6 L 126.5,107.0 L 126.1,106.5 L 125.7,106.0 L 125.3,105.4 L 124.9,104.9 L 124.5,104.4 L 124.1,103.9 L 123.6,103.4 L 123.2,102.9 L 122.7,102.5 L 122.3,102.0 L 121.8,101.6 Z" fill="#2e7d4f" fill-opacity="0.25" stroke="none"/>
+<path d="M 132.0,125.0 L 132.0,124.3 L 132.0,123.7 L 131.9,123.0 L 131.9,122.4 L 131.8,121.7 L 131.8,121.1 L 131.7,120.4 L 131.6,119.8 L 131.5,119.1 L 131.3,118.5 L 131.2,117.8 L 131.0,117.2 L 130.9,116.5 L 130.7,115.9 L 130.5,115.3 L 130.3,114.7 L 130.1,114.0 L 129.8,113.4 L 129.6,112.8 L 129.3,112.2 L 129.1,111.6 L 128.8,111.0 L 128.5,110.4 L 128.2,109.8 L 127.9,109.3 L 127.5,108.7 L 127.2,108.1 L 126.8,107.6 L 126.5,107.0 L 126.1,106.5 L 125.7,106.0 L 125.3,105.4 L 124.9,104.9 L 124.5,104.4 L 124.1,103.9 L 123.6,103.4 L 123.2,102.9 L 122.7,102.5 L 122.3,102.0 L 121.8,101.6" fill="none" stroke="#2e7d4f" stroke-width="2"/>
+<line x1="100.0" y1="125.0" x2="200.0" y2="125.0" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="210.0,125.0 198.0,130.0 198.0,120.0" fill="#1f5fa8"/>
+<line x1="100.0" y1="125.0" x2="158.2" y2="62.3" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="165.0,55.0 160.5,67.2 153.1,60.4" fill="#c0392b"/>
+<text x="206.0" y="147.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#1f5fa8"><tspan font-weight="bold">u</tspan></text>
+<text x="175.0" y="55.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="start" fill="#c0392b"><tspan font-weight="bold">v</tspan></text>
+<text x="115.0" y="200.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#2e7d4f">angolo acuto</text>
+<text x="115.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222"><tspan font-weight="bold">u</tspan>·<tspan font-weight="bold">v</tspan> &gt; 0</text>
+<polyline points="344.0,125.0 344.0,111.0 330.0,111.0" fill="none" stroke="#666666" stroke-width="1.4"/>
+<line x1="330.0" y1="125.0" x2="430.0" y2="125.0" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="440.0,125.0 428.0,130.0 428.0,120.0" fill="#1f5fa8"/>
+<line x1="330.0" y1="125.0" x2="330.0" y2="40.0" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="330.0,30.0 335.0,42.0 325.0,42.0" fill="#c0392b"/>
+<text x="436.0" y="147.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#1f5fa8"><tspan font-weight="bold">u</tspan></text>
+<text x="340.0" y="30.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="start" fill="#c0392b"><tspan font-weight="bold">v</tspan></text>
+<text x="345.0" y="200.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#666666">angolo retto</text>
+<text x="345.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222"><tspan font-weight="bold">u</tspan>·<tspan font-weight="bold">v</tspan> = 0</text>
+<path d="M 560.0,125.0 L 592.0,125.0 L 591.9,123.1 L 591.8,121.3 L 591.5,119.5 L 591.1,117.6 L 590.7,115.9 L 590.1,114.1 L 589.4,112.4 L 588.6,110.7 L 587.7,109.0 L 586.8,107.5 L 585.7,105.9 L 584.6,104.5 L 583.3,103.1 L 582.0,101.8 L 580.6,100.5 L 579.2,99.4 L 577.7,98.3 L 576.1,97.3 L 574.5,96.5 L 572.8,95.7 L 571.1,95.0 L 569.3,94.4 L 567.5,93.9 L 565.7,93.5 L 563.9,93.2 L 562.0,93.1 L 560.2,93.0 L 558.3,93.0 L 556.5,93.2 L 554.6,93.5 L 552.8,93.8 L 551.0,94.3 L 549.3,94.9 L 547.5,95.5 L 545.8,96.3 L 544.2,97.2 L 542.6,98.1 L 541.1,99.2 L 539.6,100.3 L 538.2,101.6 Z" fill="#c0392b" fill-opacity="0.25" stroke="none"/>
+<path d="M 592.0,125.0 L 591.9,123.1 L 591.8,121.3 L 591.5,119.5 L 591.1,117.6 L 590.7,115.9 L 590.1,114.1 L 589.4,112.4 L 588.6,110.7 L 587.7,109.0 L 586.8,107.5 L 585.7,105.9 L 584.6,104.5 L 583.3,103.1 L 582.0,101.8 L 580.6,100.5 L 579.2,99.4 L 577.7,98.3 L 576.1,97.3 L 574.5,96.5 L 572.8,95.7 L 571.1,95.0 L 569.3,94.4 L 567.5,93.9 L 565.7,93.5 L 563.9,93.2 L 562.0,93.1 L 560.2,93.0 L 558.3,93.0 L 556.5,93.2 L 554.6,93.5 L 552.8,93.8 L 551.0,94.3 L 549.3,94.9 L 547.5,95.5 L 545.8,96.3 L 544.2,97.2 L 542.6,98.1 L 541.1,99.2 L 539.6,100.3 L 538.2,101.6" fill="none" stroke="#c0392b" stroke-width="2"/>
+<line x1="560.0" y1="125.0" x2="660.0" y2="125.0" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="670.0,125.0 658.0,130.0 658.0,120.0" fill="#1f5fa8"/>
+<line x1="560.0" y1="125.0" x2="501.8" y2="62.3" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="495.0,55.0 506.9,60.4 499.5,67.2" fill="#c0392b"/>
+<text x="666.0" y="147.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#1f5fa8"><tspan font-weight="bold">u</tspan></text>
+<text x="485.0" y="55.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="end" fill="#c0392b"><tspan font-weight="bold">v</tspan></text>
+<text x="575.0" y="200.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#c0392b">angolo ottuso</text>
+<text x="575.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222"><tspan font-weight="bold">u</tspan>·<tspan font-weight="bold">v</tspan> &lt; 0</text>
+</svg>

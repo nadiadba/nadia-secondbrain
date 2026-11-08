@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="440" viewBox="0 0 620 440">
+<rect width="100%" height="100%" fill="white"/>
+<polygon points="250.0,300.0 157.0,363.0 357.0,363.0 450.0,300.0" fill="#eaf1fa" fill-opacity="0.9" stroke="none"/>
+<line x1="250.0" y1="300.0" x2="115.7" y2="391.0" stroke="#222222" stroke-width="1.6"/>
+<polygon points="107.4,396.6 117.9,394.3 113.4,387.7" fill="#222222"/>
+<line x1="250.0" y1="300.0" x2="530.0" y2="300.0" stroke="#222222" stroke-width="1.6"/>
+<polygon points="540.0,300.0 530.0,296.0 530.0,304.0" fill="#222222"/>
+<line x1="250.0" y1="300.0" x2="250.0" y2="90.0" stroke="#222222" stroke-width="1.6"/>
+<polygon points="250.0,80.0 246.0,90.0 254.0,90.0" fill="#222222"/>
+<text x="99.4" y="412.6" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke" font-style="italic">x</text>
+<text x="552.0" y="306.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke" font-style="italic">y</text>
+<text x="238.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke" font-style="italic">z</text>
+<text x="238.0" y="294.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#666666" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">O</text>
+<line x1="157.0" y1="363.0" x2="357.0" y2="363.0" stroke="#666666" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="450.0" y1="300.0" x2="357.0" y2="363.0" stroke="#666666" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="357.0" y1="363.0" x2="357.0" y2="213.0" stroke="#c0392b" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="250.0" y1="300.0" x2="357.0" y2="363.0" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="250.0" y1="300.0" x2="357.0" y2="213.0" stroke="#1f5fa8" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="450.0" y1="300.0" x2="450.0" y2="150.0" stroke="#666666" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="450.0" y1="150.0" x2="357.0" y2="213.0" stroke="#666666" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="250.0" y1="150.0" x2="450.0" y2="150.0" stroke="#666666" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="157.0" y1="363.0" x2="157.0" y2="213.0" stroke="#666666" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="157.0" y1="213.0" x2="357.0" y2="213.0" stroke="#666666" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="250.0" y1="150.0" x2="157.0" y2="213.0" stroke="#666666" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<circle cx="357.0" cy="213.0" r="4" fill="#1f5fa8" stroke="white" stroke-width="1"/>
+<text x="367.0" y="207.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f5fa8" text-anchor="start" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">P(x, y, z)</text>
+<circle cx="357.0" cy="363.0" r="4" fill="#2e8b57" stroke="white" stroke-width="1"/>
+<text x="365.0" y="381.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2e8b57" text-anchor="start" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">H(x, y, 0)</text>
+<text x="147.0" y="377.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#666666" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke" font-style="italic">x</text>
+<text x="450.0" y="320.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#666666" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke" font-style="italic">y</text>
+<text x="238.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#666666" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke" font-style="italic">z</text>
+<text x="299.5" y="353.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2e8b57" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">√(x² + y²)</text>
+<text x="365.0" y="288.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" text-anchor="start" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke" font-style="italic">z</text>
+<text x="291.5" y="242.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f5fa8" text-anchor="end" stroke="white" stroke-width="4" stroke-linejoin="round" paint-order="stroke">d = √(x² + y² + z²)</text>
+</svg>

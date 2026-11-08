@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="425" height="340" viewBox="0 0 425 340">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="72.5" y1="310.5" x2="72.5" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="157.5" y1="310.5" x2="157.5" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="242.5" y1="310.5" x2="242.5" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="327.5" y1="310.5" x2="327.5" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="268.0" x2="395.5" y2="268.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="183.0" x2="395.5" y2="183.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="98.0" x2="395.5" y2="98.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="268.0" x2="405.5" y2="268.0" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="413.5,268.0 403.5,272.2 403.5,263.8" fill="#333"/>
+<line x1="72.5" y1="310.5" x2="72.5" y2="20.0" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="72.5,12.0 76.7,22.0 68.3,22.0" fill="#333"/>
+<text x="409.5" y="288.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222" font-style="italic">x</text>
+<text x="86.5" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222" font-style="italic">y</text>
+<text x="157.5" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">1</text>
+<text x="242.5" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">2</text>
+<text x="327.5" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">3</text>
+<text x="64.5" y="187.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">1</text>
+<text x="64.5" y="102.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">2</text>
+<text x="63.5" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666666">O</text>
+<path d="M 72.5,268.0 L 116.1,253.5 L 115.8,252.6 L 115.5,251.8 L 115.2,250.9 L 114.9,250.1 L 114.5,249.2 L 114.1,248.4 L 113.7,247.6 L 113.3,246.8 L 112.9,246.0 L 112.5,245.2 L 112.0,244.4 L 111.5,243.7 L 111.1,242.9 L 110.6,242.2 L 110.0,241.4 L 109.5,240.7 L 109.0,240.0 L 108.4,239.2 L 107.8,238.5 L 107.3,237.9 L 106.7,237.2 L 106.0,236.5 L 105.4,235.9 L 104.8,235.2 L 104.1,234.6 L 103.5,234.0 L 102.8,233.4 L 102.1,232.8 L 101.4,232.2 L 100.7,231.7 L 100.0,231.1 L 99.3,230.6 L 98.5,230.1 L 97.8,229.6 L 97.0,229.1 L 96.2,228.6 L 95.5,228.1 L 94.7,227.7 L 93.9,227.3 L 93.1,226.9 Z" fill="#d68910" fill-opacity="0.25" stroke="none"/>
+<path d="M 116.1,253.5 L 115.8,252.6 L 115.5,251.8 L 115.2,250.9 L 114.9,250.1 L 114.5,249.2 L 114.1,248.4 L 113.7,247.6 L 113.3,246.8 L 112.9,246.0 L 112.5,245.2 L 112.0,244.4 L 111.5,243.7 L 111.1,242.9 L 110.6,242.2 L 110.0,241.4 L 109.5,240.7 L 109.0,240.0 L 108.4,239.2 L 107.8,238.5 L 107.3,237.9 L 106.7,237.2 L 106.0,236.5 L 105.4,235.9 L 104.8,235.2 L 104.1,234.6 L 103.5,234.0 L 102.8,233.4 L 102.1,232.8 L 101.4,232.2 L 100.7,231.7 L 100.0,231.1 L 99.3,230.6 L 98.5,230.1 L 97.8,229.6 L 97.0,229.1 L 96.2,228.6 L 95.5,228.1 L 94.7,227.7 L 93.9,227.3 L 93.1,226.9" fill="none" stroke="#d68910" stroke-width="2"/>
+<line x1="72.5" y1="268.0" x2="153.0" y2="106.9" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="157.5,98.0 156.6,111.0 147.6,106.5" fill="#1f5fa8"/>
+<line x1="72.5" y1="268.0" x2="318.0" y2="186.2" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="327.5,183.0 317.7,191.6 314.5,182.0" fill="#c0392b"/>
+<text x="165.5" y="94.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="start" fill="#1f5fa8"><tspan font-weight="bold">u</tspan> = (1, 2)</text>
+<text x="327.5" y="169.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#c0392b"><tspan font-weight="bold">v</tspan> = (3, 1)</text>
+<text x="123.3" y="233.4" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="start" fill="#d68910">θ = 45°</text>
+</svg>

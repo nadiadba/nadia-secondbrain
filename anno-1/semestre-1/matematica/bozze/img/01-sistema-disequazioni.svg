@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="265" viewBox="0 0 640 265">
+<rect width="640" height="265" fill="white"/>
+<text x="20.0" y="55.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal" font-style="italic">2x − 4 &gt; 0</text>
+<line x1="190.0" y1="50.0" x2="614.0" y2="50.0" stroke="#9ca3af" stroke-width="1.5"/>
+<polygon points="614.0,50.0 604.8,53.9 604.8,46.1" fill="#9ca3af"/>
+<line x1="288.9" y1="45.0" x2="288.9" y2="55.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="288.9" y="72.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−1</text>
+<line x1="422.2" y1="45.0" x2="422.2" y2="55.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="422.2" y="72.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">2</text>
+<line x1="511.1" y1="45.0" x2="511.1" y2="55.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="511.1" y="72.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">4</text>
+<line x1="422.2" y1="50.0" x2="606.0" y2="50.0" stroke="#2563eb" stroke-width="5"/>
+<line x1="594.0" y1="50.0" x2="610.0" y2="50.0" stroke="#2563eb" stroke-width="5"/>
+<polygon points="610.0,50.0 600.8,53.9 600.8,46.1" fill="#2563eb"/>
+<circle cx="422.2" cy="50.0" r="5.5" fill="white" stroke="#2563eb" stroke-width="2"/>
+<text x="20.0" y="115.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" font-weight="normal" font-style="italic">x² − 3x − 4 ≤ 0</text>
+<line x1="190.0" y1="110.0" x2="614.0" y2="110.0" stroke="#9ca3af" stroke-width="1.5"/>
+<polygon points="614.0,110.0 604.8,113.9 604.8,106.1" fill="#9ca3af"/>
+<line x1="288.9" y1="105.0" x2="288.9" y2="115.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="288.9" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−1</text>
+<line x1="422.2" y1="105.0" x2="422.2" y2="115.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="422.2" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">2</text>
+<line x1="511.1" y1="105.0" x2="511.1" y2="115.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="511.1" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">4</text>
+<line x1="288.9" y1="110.0" x2="511.1" y2="110.0" stroke="#d97706" stroke-width="5"/>
+<circle cx="288.9" cy="110.0" r="5.5" fill="#d97706" stroke="#d97706" stroke-width="2"/>
+<circle cx="511.1" cy="110.0" r="5.5" fill="#d97706" stroke="#d97706" stroke-width="2"/>
+<line x1="20.0" y1="150.0" x2="620.0" y2="150.0" stroke="#1f2937" stroke-width="1"/>
+<text x="20.0" y="195.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="start" font-weight="bold" font-style="normal">sistema</text>
+<line x1="190.0" y1="190.0" x2="614.0" y2="190.0" stroke="#9ca3af" stroke-width="1.5"/>
+<polygon points="614.0,190.0 604.8,193.9 604.8,186.1" fill="#9ca3af"/>
+<line x1="288.9" y1="185.0" x2="288.9" y2="195.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="288.9" y="212.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">−1</text>
+<line x1="422.2" y1="185.0" x2="422.2" y2="195.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="422.2" y="212.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">2</text>
+<line x1="511.1" y1="185.0" x2="511.1" y2="195.0" stroke="#9ca3af" stroke-width="1.5"/>
+<text x="511.1" y="212.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">4</text>
+<line x1="422.2" y1="190.0" x2="511.1" y2="190.0" stroke="#16a34a" stroke-width="5"/>
+<circle cx="422.2" cy="190.0" r="5.5" fill="white" stroke="#16a34a" stroke-width="2"/>
+<circle cx="511.1" cy="190.0" r="5.5" fill="#16a34a" stroke="#16a34a" stroke-width="2"/>
+<text x="330.0" y="252.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" font-style="normal">Soluzione del sistema: dove valgono tutte e due, cioè 2 &lt; x ≤ 4.</text>
+</svg>

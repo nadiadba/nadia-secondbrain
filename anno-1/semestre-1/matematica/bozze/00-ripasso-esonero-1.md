@@ -9,12 +9,39 @@ tags: [matematica, bozza, ripasso]
 
 # Ripasso per l'esonero di matematica (11 novembre)
 
-Le formule e i procedimenti che servono per i tre fogli di esercizi del professore, con un esempio svolto per ogni tipo di esercizio. Il piano dei giorni è in [[00-piano-esonero-1|Piano di studio per l'esonero]].
+Le formule e i procedimenti di tutti gli argomenti fatti in classe, con un esempio svolto per ogni tipo di esercizio. Il piano dei giorni è in [[00-piano-esonero-1|Piano di studio per l'esonero]].
 
 > [!info] Note collegate
-> Piano: [[00-piano-esonero-1]]
+> Piano: [[00-piano-esonero-1]] · Teoria: [[01-equazioni-e-disequazioni]] · [[02-retta-e-circonferenza]] · [[03-i-vettori]] · [[04-le-funzioni]] · [[05-funzioni-elementari]]
 
-## 1. Vettori
+## 1. Equazioni e disequazioni
+
+- **Secondo grado** $ax^2+bx+c=0$: $\Delta = b^2-4ac$; se $\Delta>0$ due soluzioni $x = \dfrac{-b\pm\sqrt{\Delta}}{2a}$, se $\Delta=0$ una sola, se $\Delta<0$ nessuna (reale).
+- **Frazionarie**: prima le condizioni di esistenza (denominatori $\neq 0$), alla fine si scartano le soluzioni che le violano.
+- **Irrazionali** $\sqrt{A(x)} = B(x)$: servono $A(x)\geq 0$ e $B(x)\geq 0$, poi si eleva al quadrato; verificare le soluzioni.
+- **Valore assoluto**: $|A(x)| = k$ con $k\geq0$ dà $A(x) = k$ oppure $A(x) = -k$; $|A(x)| < k$ dà $-k < A(x) < k$; $|A(x)| > k$ dà $A(x) < -k$ oppure $A(x) > k$.
+- **Disequazioni**: moltiplicando o dividendo per un numero negativo il verso **si inverte**.
+- **Secondo grado** $ax^2+bx+c>0$ con $a>0$ e $\Delta>0$: soluzioni **esterne** alle radici ($x<x_1$ o $x>x_2$); per $<0$ soluzioni **interne** ($x_1<x<x_2$). Disegna la parabola e guarda dove sta sopra o sotto l'asse $x$.
+- **Prodotti e frazioni**: si studia il segno di ogni fattore e si fa la tabella dei segni. Nelle fratte il denominatore non è mai $=0$.
+- **Sistemi di disequazioni**: si risolve ognuna e si prende la parte comune (intersezione).
+
+## 2. Retta e circonferenza
+
+- **Distanza** tra $A=(x_1,y_1)$ e $B=(x_2,y_2)$: $d = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$. **Punto medio**: $\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$.
+- **Pendenza** (coefficiente angolare) della retta per $A$ e $B$: $m = \dfrac{y_2-y_1}{x_2-x_1}$ (se $x_1 = x_2$ la retta è verticale, $x = x_1$).
+- **Retta per un punto con pendenza $m$**: $y - y_1 = m(x - x_1)$. **Retta per due punti**: si calcola $m$ e si usa la formula precedente, oppure $\dfrac{y-y_1}{y_2-y_1} = \dfrac{x-x_1}{x_2-x_1}$.
+  Esempio: $A=(1,2)$, $B=(3,6)$: $m = \frac{4}{2} = 2$, retta $y - 2 = 2(x-1)$, cioè $y = 2x$.
+- **Forma esplicita** $y = mx+q$ ($q$ = dove taglia l'asse $y$); **forma implicita** $ax+by+c = 0$, con $m = -\frac{a}{b}$.
+- **Parallele**: $m_1 = m_2$. **Perpendicolari**: $m_1\cdot m_2 = -1$.
+- **Intersezione di due rette**: si mette a sistema le due equazioni.
+- **Distanza di un punto** $(x_0,y_0)$ dalla retta $ax+by+c=0$: $d = \dfrac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$.
+- **Circonferenza** di centro $(a,b)$ e raggio $r$: $(x-a)^2+(y-b)^2 = r^2$.
+- **Forma sviluppata** $x^2+y^2+\alpha x+\beta y+\gamma = 0$: centro $\left(-\frac{\alpha}{2}, -\frac{\beta}{2}\right)$, raggio $r = \sqrt{\frac{\alpha^2}{4}+\frac{\beta^2}{4}-\gamma}$ (esiste solo se sotto radice c'è un numero $>0$).
+  Esempio: $x^2+y^2-4x+6y-3=0$: centro $(2,-3)$, $r = \sqrt{4+9+3} = 4$.
+- **Retta e circonferenza**: se la distanza del centro dalla retta è minore di $r$ la retta è secante (2 punti), uguale a $r$ tangente (1 punto), maggiore di $r$ esterna (nessun punto).
+- **Nello spazio**: distanza $\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$; sfera $(x-a)^2+(y-b)^2+(z-c)^2 = r^2$.
+
+## 3. Vettori
 
 Un vettore nel piano è una coppia $\mathbf{u} = (u_1, u_2)$, nello spazio una terna $\mathbf{u} = (u_1, u_2, u_3)$. Si disegna come una freccia che parte dall'origine.
 
@@ -29,7 +56,7 @@ Un vettore nel piano è una coppia $\mathbf{u} = (u_1, u_2)$, nello spazio una t
 - **Parallelogramma**: conta l'ordine dei vertici. Se il giro è $A, B, D, C$ (come nell'esercizio 14), i lati opposti $AB$ e $CD$ sono vettori uguali: $\overrightarrow{AB} = \overrightarrow{CD}$, cioè $B - A = D - C$, quindi $D = B + C - A$. Le diagonali ($AD$ e $BC$) hanno lo stesso punto medio.
 - **Paralleli**: $\mathbf{u}$ e $\mathbf{v}$ sono paralleli se uno è multiplo dell'altro, cioè se le componenti sono proporzionali. Stesso verso se il multiplo è positivo, verso opposto se è negativo.
 
-## 2. Prodotto scalare
+## 4. Prodotto scalare
 
 $$
 \mathbf{u}\cdot\mathbf{v} = u_1v_1 + u_2v_2 \;(+\,u_3v_3) = \|\mathbf{u}\|\,\|\mathbf{v}\|\cos\theta
@@ -50,7 +77,7 @@ Il risultato è un **numero**, non un vettore.
 - **Vero o falso tipici**: $\mathbf{u}\cdot\mathbf{v}=0$ non vuol dire che uno dei due è nullo (possono essere ortogonali); $\|\mathbf{u}+\mathbf{v}\| = \|\mathbf{u}\|+\|\mathbf{v}\|$ vale solo se sono paralleli e con lo stesso verso.
 - **Distanza di un punto $P$ da una retta** $X = A + s\,\mathbf{d}$: il piede $H = A + s\,\mathbf{d}$ si trova imponendo $\overrightarrow{HP}\cdot\mathbf{d} = 0$; la distanza è $\|\overrightarrow{HP}\|$.
 
-## 3. Determinanti, prodotto vettoriale, prodotto triplo
+## 5. Determinanti, prodotto vettoriale, prodotto triplo
 
 **Determinante 2×2**:
 $$
@@ -84,7 +111,7 @@ $$
 - Scambiando due vettori il segno cambia (cambia l'orientazione), il valore assoluto no.
 - Esercizi con il parametro ($t$ o $k$): si scrive il determinante con il parametro e si pone uguale a $0$ (complanari) oppure si pone il prodotto vettoriale uguale a $\mathbf{0}$ (paralleli).
 
-## 4. Funzioni
+## 6. Funzioni
 
 - **Dominio naturale**: i valori di $x$ per cui la formula ha senso.
   - denominatore $\neq 0$
@@ -100,7 +127,7 @@ $$
 - **Traslazioni dei grafici**: $f(x - a)$ sposta a destra di $a$; $f(x) + b$ sposta in alto di $b$; $-f(x)$ ribalta rispetto all'asse $x$; $|f(x)|$ ribalta in su le parti negative.
   Esempio: $|x+1| - 2$ è la «V» di $|x|$ spostata a sinistra di 1 e in basso di 2: vertice $(-1,-2)$, zeri $x=-3$ e $x=1$, immagine $[-2,+\infty)$.
 
-## 5. Esponenziali, logaritmi, trigonometria
+## 7. Esponenziali, logaritmi, trigonometria
 
 **Esponenziale e logaritmo** sono l'una l'inversa dell'altro: $\log_a b = c \iff a^c = b$. Il logaritmo naturale $\ln$ ha base $e \approx 2{,}718$.
 

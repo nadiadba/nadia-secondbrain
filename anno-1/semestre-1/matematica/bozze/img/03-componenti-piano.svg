@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="445" height="362" viewBox="0 0 445 362">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="30.0" y1="332.5" x2="30.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="85.0" y1="332.5" x2="85.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="140.0" y1="332.5" x2="140.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="195.0" y1="332.5" x2="195.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="250.0" y1="332.5" x2="250.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="305.0" y1="332.5" x2="305.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="360.0" y1="332.5" x2="360.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="415.0" y1="332.5" x2="415.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="332.5" x2="415.0" y2="332.5" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="277.5" x2="415.0" y2="277.5" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="222.5" x2="415.0" y2="222.5" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="167.5" x2="415.0" y2="167.5" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="112.5" x2="415.0" y2="112.5" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="57.5" x2="415.0" y2="57.5" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="277.5" x2="425.0" y2="277.5" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="433.0,277.5 423.0,281.7 423.0,273.3" fill="#333"/>
+<line x1="85.0" y1="332.5" x2="85.0" y2="20.0" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="85.0,12.0 89.2,22.0 80.8,22.0" fill="#333"/>
+<text x="429.0" y="297.5" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222" font-style="italic">x</text>
+<text x="99.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222" font-style="italic">y</text>
+<text x="30.0" y="293.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">−1</text>
+<text x="140.0" y="293.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">1</text>
+<text x="195.0" y="293.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">2</text>
+<text x="250.0" y="293.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">3</text>
+<text x="305.0" y="293.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">4</text>
+<text x="360.0" y="293.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">5</text>
+<text x="415.0" y="293.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">6</text>
+<text x="77.0" y="336.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">−1</text>
+<text x="77.0" y="226.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">1</text>
+<text x="77.0" y="171.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">2</text>
+<text x="77.0" y="116.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">3</text>
+<text x="77.0" y="61.5" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">4</text>
+<text x="76.0" y="293.5" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666666">O</text>
+<line x1="305.0" y1="277.5" x2="305.0" y2="112.5" stroke="#666666" stroke-width="1.5" stroke-dasharray="5,4" opacity="1"/>
+<line x1="85.0" y1="112.5" x2="305.0" y2="112.5" stroke="#666666" stroke-width="1.5" stroke-dasharray="5,4" opacity="1"/>
+<line x1="85.0" y1="277.5" x2="297.0" y2="277.5" stroke="#d68910" stroke-width="2" stroke-linecap="round"/>
+<polygon points="305.0,277.5 295.0,281.7 295.0,273.3" fill="#d68910"/>
+<line x1="305.0" y1="277.5" x2="305.0" y2="120.5" stroke="#2e7d4f" stroke-width="2" stroke-linecap="round"/>
+<polygon points="305.0,112.5 309.2,122.5 300.8,122.5" fill="#2e7d4f"/>
+<line x1="85.0" y1="277.5" x2="297.0" y2="118.5" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="305.0,112.5 298.4,123.7 292.4,115.7" fill="#1f5fa8"/>
+<text x="195.0" y="269.5" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" fill="#d68910">u<tspan font-size="75%" dy="4">1</tspan><tspan dy="-4">​</tspan> = 4</text>
+<text x="313.0" y="195.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="start" fill="#2e7d4f">u<tspan font-size="75%" dy="4">2</tspan><tspan dy="-4">​</tspan> = 3</text>
+<text x="183.0" y="187.0" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="end" fill="#1f5fa8"><tspan font-weight="bold">u</tspan> = (4, 3)</text>
+<circle cx="305.0" cy="112.5" r="3.6" fill="#222"/>
+<text x="311.0" y="102.5" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" fill="#222">punta (4, 3)</text>
+<text x="201.0" y="225.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="start" fill="#1f5fa8">‖<tspan font-weight="bold">u</tspan>‖ = 5</text>
+</svg>

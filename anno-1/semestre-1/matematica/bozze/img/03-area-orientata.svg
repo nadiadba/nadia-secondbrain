@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="455" height="375" viewBox="0 0 455 375">
+<rect width="100%" height="100%" fill="white"/>
+<line x1="63.0" y1="316.0" x2="63.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="118.0" y1="316.0" x2="118.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="173.0" y1="316.0" x2="173.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="228.0" y1="316.0" x2="228.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="283.0" y1="316.0" x2="283.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="338.0" y1="316.0" x2="338.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="393.0" y1="316.0" x2="393.0" y2="30.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="283.0" x2="426.0" y2="283.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="228.0" x2="426.0" y2="228.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="173.0" x2="426.0" y2="173.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="118.0" x2="426.0" y2="118.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="63.0" x2="426.0" y2="63.0" stroke="#e6e6e6" stroke-width="1" opacity="1"/>
+<line x1="30.0" y1="283.0" x2="436.0" y2="283.0" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="444.0,283.0 434.0,287.2 434.0,278.8" fill="#333"/>
+<line x1="63.0" y1="316.0" x2="63.0" y2="20.0" stroke="#333" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="63.0,12.0 67.2,22.0 58.8,22.0" fill="#333"/>
+<text x="440.0" y="303.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222" font-style="italic">x</text>
+<text x="77.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222" font-style="italic">y</text>
+<text x="118.0" y="299.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">1</text>
+<text x="173.0" y="299.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">2</text>
+<text x="228.0" y="299.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">3</text>
+<text x="283.0" y="299.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">4</text>
+<text x="338.0" y="299.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">5</text>
+<text x="393.0" y="299.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666666">6</text>
+<text x="55.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">1</text>
+<text x="55.0" y="177.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">2</text>
+<text x="55.0" y="122.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">3</text>
+<text x="55.0" y="67.0" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="end" fill="#666666">4</text>
+<text x="54.0" y="299.0" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#666666">O</text>
+<polygon points="63.0,283.0 283.0,228.0 393.0,63.0 173.0,118.0" fill="#1f5fa8" fill-opacity="0.12" stroke="#1f5fa8" stroke-width="1" stroke-dasharray="4,3"/>
+<path d="M 111.5,270.9 L 111.3,270.0 L 111.0,269.1 L 110.8,268.2 L 110.5,267.3 L 110.2,266.5 L 109.9,265.6 L 109.5,264.7 L 109.2,263.9 L 108.8,263.0 L 108.5,262.2 L 108.1,261.3 L 107.7,260.5 L 107.2,259.7 L 106.8,258.9 L 106.3,258.1 L 105.9,257.3 L 105.4,256.5 L 104.9,255.7 L 104.4,255.0 L 103.9,254.2 L 103.3,253.4 L 102.8,252.7 L 102.2,252.0 L 101.6,251.3 L 101.0,250.6 L 100.4,249.9 L 99.8,249.2 L 99.2,248.5 L 98.5,247.8 L 97.9,247.2 L 97.2,246.6 L 96.6,245.9 L 95.9,245.3 L 95.2,244.7 L 94.4,244.1 L 93.7,243.6 L 93.0,243.0 L 92.3,242.4 L 91.5,241.9 L 90.7,241.4" fill="none" stroke="#d68910" stroke-width="2"/>
+<polygon points="90.7,241.4 101.8,242.8 96.3,251.1" fill="#d68910"/>
+<line x1="63.0" y1="283.0" x2="273.3" y2="230.4" stroke="#1f5fa8" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="283.0,228.0 272.6,235.8 270.1,226.0" fill="#1f5fa8"/>
+<line x1="63.0" y1="283.0" x2="167.5" y2="126.3" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="173.0,118.0 170.5,130.8 162.2,125.2" fill="#c0392b"/>
+<text x="291.0" y="242.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="start" fill="#1f5fa8"><tspan font-weight="bold">u</tspan> = (4, 1)</text>
+<text x="165.0" y="112.0" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="end" fill="#c0392b"><tspan font-weight="bold">v</tspan> = (2, 3)</text>
+<text x="242.0" y="179.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" stroke="white" stroke-width="4" stroke-linejoin="round" fill="white">area = 10</text>
+<text x="242.0" y="179.0" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#222">area = 10</text>
+<text x="227.5" y="361.0" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#d68910">per andare da <tspan font-weight="bold">u</tspan> a <tspan font-weight="bold">v</tspan> si gira in senso antiorario: det &gt; 0</text>
+</svg>

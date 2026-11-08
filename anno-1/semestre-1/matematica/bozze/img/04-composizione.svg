@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="200" viewBox="0 0 860 200">
+<defs><marker id="fr222222" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222222"/></marker></defs>
+<rect width="860" height="200" fill="white"/>
+<text x="40.0" y="101.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="middle" font-style="italic">x</text>
+<line x1="60.0" y1="95.0" x2="165.0" y2="95.0" stroke="#222222" stroke-width="2" marker-end="url(#fr222222)"/>
+<rect x="170" y="60" width="130" height="70" rx="10" fill="#2e8b57" fill-opacity="0.12" stroke="#2e8b57" stroke-width="2"/>
+<text x="235.0" y="103.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2e8b57" text-anchor="middle" font-style="italic" font-weight="bold">g</text>
+<line x1="300.0" y1="95.0" x2="420.0" y2="95.0" stroke="#222222" stroke-width="2" marker-end="url(#fr222222)"/>
+<text x="360.0" y="82.0" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2e8b57" text-anchor="middle" font-style="italic">g(x)</text>
+<rect x="425" y="60" width="130" height="70" rx="10" fill="#1f5fa8" fill-opacity="0.12" stroke="#1f5fa8" stroke-width="2"/>
+<text x="490.0" y="103.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f5fa8" text-anchor="middle" font-style="italic" font-weight="bold">f</text>
+<line x1="555.0" y1="95.0" x2="660.0" y2="95.0" stroke="#222222" stroke-width="2" marker-end="url(#fr222222)"/>
+<text x="740.0" y="101.0" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f5fa8" text-anchor="middle" font-style="italic">f(g(x))</text>
+<text x="235.0" y="160.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2e8b57" text-anchor="middle">prima g</text>
+<text x="490.0" y="160.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f5fa8" text-anchor="middle">poi f</text>
+<rect x="150" y="30" width="430" height="150" rx="14" fill="none" stroke="#7d3c98" stroke-width="1.6" stroke-dasharray="7,5"/>
+<text x="365.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7d3c98" text-anchor="middle" font-weight="bold">la macchina composta f ∘ g</text>
+</svg>
