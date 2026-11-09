@@ -554,31 +554,39 @@ Per l'equazione della retta, il parallelismo e la perpendicolarità con le pende
 > Dati $A(-2, 3)$ e $B(4, -5)$, calcolare la distanza $AB$ e il punto medio $M$ del segmento $AB$.
 
 > [!success]- Soluzione
-> 1. $\Delta x = 4 - (-2) = 6$ e $\Delta y = -5 - 3 = -8$.
-> 2. $AB = \sqrt{6^2 + (-8)^2} = \sqrt{36 + 64} = \sqrt{100} = 10$.
-> 3. $M = \left( \dfrac{-2 + 4}{2}, \dfrac{3 + (-5)}{2} \right) = (1, -1)$.
+> Risultato: $AB = 10$ e $M = (1, -1)$.
 >
-> Controllo: $AM = \sqrt{3^2 + 4^2} = 5$, cioè metà di $AB$.
+> Come si arriva:
+> 1. Si calcolano le differenze delle coordinate, che servono nella formula della distanza: $\Delta x = 4 - (-2) = 6$ e $\Delta y = -5 - 3 = -8$.
+> 2. Distanza: è la radice della somma dei quadrati delle differenze (teorema di Pitagora), $AB = \sqrt{6^2 + (-8)^2} = \sqrt{36 + 64} = \sqrt{100} = 10$.
+> 3. Punto medio: ogni coordinata è la media delle coordinate di $A$ e $B$, $M = \left( \dfrac{-2 + 4}{2}, \dfrac{3 + (-5)}{2} \right) = (1, -1)$.
+> 4. Controllo: $AM = \sqrt{3^2 + 4^2} = 5$, cioè metà di $AB$.
 
 > [!question] Esercizio 2
 > Il punto $M(2, 1)$ è il punto medio del segmento $AB$, con $A(-1, 4)$. Trovare le coordinate di $B$ e la lunghezza di $AB$.
 
 > [!success]- Soluzione
-> 1. Dalla formula del punto medio: $\dfrac{-1 + x_B}{2} = 2$, quindi $-1 + x_B = 4$ e $x_B = 5$.
-> 2. Allo stesso modo $\dfrac{4 + y_B}{2} = 1$, quindi $4 + y_B = 2$ e $y_B = -2$.
-> 3. $B(5, -2)$. Scorciatoia: $B = 2M - A = (4 - (-1),\ 2 - 4) = (5, -2)$.
-> 4. $AB = \sqrt{(5 - (-1))^2 + (-2 - 4)^2} = \sqrt{36 + 36} = \sqrt{72} = 6\sqrt{2}$.
+> Risultato: $B = (5, -2)$ e $AB = \sqrt{72} = 6\sqrt{2}$.
+>
+> Come si arriva:
+> 1. Ascissa di $B$: nella formula del punto medio l'incognita è $x_B$, quindi $\dfrac{-1 + x_B}{2} = 2$, cioè $-1 + x_B = 4$ e $x_B = 5$.
+> 2. Ordinata di $B$: allo stesso modo $\dfrac{4 + y_B}{2} = 1$, cioè $4 + y_B = 2$ e $y_B = -2$.
+> 3. Quindi $B(5, -2)$. Scorciatoia: $B = 2M - A = (4 - (-1),\ 2 - 4) = (5, -2)$.
+> 4. Lunghezza: si usa la formula della distanza tra $A$ e $B$, $AB = \sqrt{(5 - (-1))^2 + (-2 - 4)^2} = \sqrt{36 + 36} = \sqrt{72} = 6\sqrt{2}$.
 
 > [!question] Esercizio 3
 > Dati $A(1, 2)$, $B(4, 6)$ e $C(5, -1)$, calcolare i lati del triangolo $ABC$. Che tipo di triangolo è? Calcolarne perimetro e area.
 
 > [!success]- Soluzione
-> 1. $AB = \sqrt{3^2 + 4^2} = \sqrt{25} = 5$.
-> 2. $AC = \sqrt{4^2 + (-3)^2} = \sqrt{25} = 5$.
-> 3. $BC = \sqrt{1^2 + (-7)^2} = \sqrt{50} = 5\sqrt{2}$.
-> 4. Due lati sono uguali, quindi è isoscele. Inoltre $AB^2 + AC^2 = 25 + 25 = 50 = BC^2$: per il teorema di Pitagora (al contrario) è rettangolo in $A$.
-> 5. Perimetro: $5 + 5 + 5\sqrt{2} = 10 + 5\sqrt{2}$.
-> 6. Area: i cateti sono $AB$ e $AC$, quindi $\dfrac{5 \cdot 5}{2} = \dfrac{25}{2}$.
+> Risultato: $AB = 5$, $AC = 5$, $BC = 5\sqrt{2}$; il triangolo è rettangolo isoscele (angolo retto in $A$); perimetro $10 + 5\sqrt{2}$, area $\dfrac{25}{2}$.
+>
+> Come si arriva:
+> 1. Lato $AB$ con la formula della distanza: $AB = \sqrt{3^2 + 4^2} = \sqrt{25} = 5$.
+> 2. Lato $AC$: $AC = \sqrt{4^2 + (-3)^2} = \sqrt{25} = 5$.
+> 3. Lato $BC$: $BC = \sqrt{1^2 + (-7)^2} = \sqrt{50} = 5\sqrt{2}$.
+> 4. Tipo: due lati sono uguali, quindi è isoscele. Inoltre $AB^2 + AC^2 = 25 + 25 = 50 = BC^2$: per il teorema di Pitagora (al contrario) è rettangolo in $A$.
+> 5. Perimetro: è la somma dei tre lati, $5 + 5 + 5\sqrt{2} = 10 + 5\sqrt{2}$.
+> 6. Area: in un triangolo rettangolo i cateti fanno da base e altezza; i cateti sono $AB$ e $AC$, quindi $\dfrac{5 \cdot 5}{2} = \dfrac{25}{2}$.
 
 #### Pendenza ed equazione della retta
 
@@ -586,22 +594,26 @@ Per l'equazione della retta, il parallelismo e la perpendicolarità con le pende
 > Scrivere l'equazione della retta passante per $A(-1, 2)$ e $B(3, -6)$, in forma esplicita e in forma implicita. Passa per l'origine?
 
 > [!success]- Soluzione
-> 1. Pendenza: $m = \dfrac{-6 - 2}{3 - (-1)} = \dfrac{-8}{4} = -2$.
-> 2. Retta per $A$ con pendenza $-2$: $y - 2 = -2(x + 1)$, cioè $y = -2x - 2 + 2 = -2x$.
-> 3. Forma implicita: $2x + y = 0$.
-> 4. Il termine noto è $q = 0$, quindi sì, passa per l'origine.
+> Risultato: forma esplicita $y = -2x$, forma implicita $2x + y = 0$; sì, passa per l'origine.
 >
-> Controllo con $B$: $-2 \cdot 3 = -6$.
+> Come si arriva:
+> 1. Pendenza: è il rapporto tra la differenza delle $y$ e la differenza delle $x$, $m = \dfrac{-6 - 2}{3 - (-1)} = \dfrac{-8}{4} = -2$.
+> 2. Retta per $A$ con pendenza $-2$: $y - 2 = -2(x + 1)$, cioè $y = -2x - 2 + 2 = -2x$.
+> 3. Forma implicita: si porta tutto a sinistra, $2x + y = 0$.
+> 4. Origine: il termine noto è $q = 0$, quindi sì, la retta passa per l'origine.
+> 5. Controllo con $B$: $-2 \cdot 3 = -6$.
 
 > [!question] Esercizio 5
 > Una rampa deve superare un dislivello di 60 cm. Quanto deve essere lunga in pianta se la pendenza è del 5%? E se è dell'8%?
 
 > [!success]- Soluzione
-> La pendenza è il rapporto tra dislivello e lunghezza in pianta: $m = \dfrac{\Delta y}{\Delta x}$, quindi $\Delta x = \dfrac{\Delta y}{m}$.
-> 1. Con il 5%: $\Delta x = \dfrac{0{,}60}{0{,}05} = 12$ m.
-> 2. Con l'8%: $\Delta x = \dfrac{0{,}60}{0{,}08} = 7{,}5$ m.
+> Risultato: con il 5% la rampa è lunga 12 m in pianta; con l'8% è lunga 7,5 m.
 >
-> Più la pendenza è bassa, più la rampa è lunga.
+> Come si arriva:
+> 1. La pendenza è il rapporto tra dislivello e lunghezza in pianta: $m = \dfrac{\Delta y}{\Delta x}$, quindi la lunghezza è $\Delta x = \dfrac{\Delta y}{m}$ (con il dislivello in metri, $0{,}60$ m).
+> 2. Con il 5%: $\Delta x = \dfrac{0{,}60}{0{,}05} = 12$ m.
+> 3. Con l'8%: $\Delta x = \dfrac{0{,}60}{0{,}08} = 7{,}5$ m.
+> 4. Più la pendenza è bassa, più la rampa è lunga.
 
 #### Parallele, perpendicolari e intersezioni
 
@@ -609,43 +621,49 @@ Per l'equazione della retta, il parallelismo e la perpendicolarità con le pende
 > Data la retta $r: 2x - 3y + 1 = 0$ e il punto $P(3, -1)$, scrivere la parallela e la perpendicolare a $r$ passanti per $P$.
 
 > [!success]- Soluzione
-> 1. Si porta $r$ in forma esplicita: $3y = 2x + 1$, cioè $y = \dfrac{2}{3}x + \dfrac{1}{3}$. La pendenza è $m = \dfrac{2}{3}$.
-> 2. Parallela (stessa pendenza): $y + 1 = \dfrac{2}{3}(x - 3)$, cioè $y = \dfrac{2}{3}x - 3$, in forma implicita $2x - 3y - 9 = 0$.
-> 3. Perpendicolare (pendenza $-\dfrac{3}{2}$, opposto del reciproco): $y + 1 = -\dfrac{3}{2}(x - 3)$, cioè $y = -\dfrac{3}{2}x + \dfrac{7}{2}$, in forma implicita $3x + 2y - 7 = 0$.
+> Risultato: parallela $y = \dfrac{2}{3}x - 3$ (cioè $2x - 3y - 9 = 0$); perpendicolare $y = -\dfrac{3}{2}x + \dfrac{7}{2}$ (cioè $3x + 2y - 7 = 0$).
 >
-> Controllo: $P$ sta su entrambe ($6 + 3 - 9 = 0$ e $9 - 2 - 7 = 0$) e $\dfrac{2}{3} \cdot \left(-\dfrac{3}{2}\right) = -1$.
+> Come si arriva:
+> 1. Per leggere la pendenza si porta $r$ in forma esplicita: $3y = 2x + 1$, cioè $y = \dfrac{2}{3}x + \dfrac{1}{3}$. La pendenza è $m = \dfrac{2}{3}$.
+> 2. Parallela: ha la stessa pendenza, $y + 1 = \dfrac{2}{3}(x - 3)$, cioè $y = \dfrac{2}{3}x - 3$, in forma implicita $2x - 3y - 9 = 0$.
+> 3. Perpendicolare: la pendenza è l'opposto del reciproco, $-\dfrac{3}{2}$, quindi $y + 1 = -\dfrac{3}{2}(x - 3)$, cioè $y = -\dfrac{3}{2}x + \dfrac{7}{2}$, in forma implicita $3x + 2y - 7 = 0$.
+> 4. Controllo: $P$ sta su entrambe ($6 + 3 - 9 = 0$ e $9 - 2 - 7 = 0$) e $\dfrac{2}{3} \cdot \left(-\dfrac{3}{2}\right) = -1$.
 
 > [!question] Esercizio 7
 > Per quale valore di $k$ le rette $y = (k - 1)x + 2$ e $y = 3x - 5$ sono parallele? Per quale valore sono perpendicolari?
 
 > [!success]- Soluzione
-> 1. Parallele: pendenze uguali, $k - 1 = 3$, quindi $k = 4$.
-> 2. Perpendicolari: prodotto delle pendenze uguale a $-1$, cioè $3(k - 1) = -1$, quindi $k - 1 = -\dfrac{1}{3}$ e $k = \dfrac{2}{3}$.
+> Risultato: parallele per $k = 4$; perpendicolari per $k = \dfrac{2}{3}$.
 >
-> Controllo: con $k = \dfrac{2}{3}$ la prima pendenza è $-\dfrac{1}{3}$, e $-\dfrac{1}{3} \cdot 3 = -1$.
+> Come si arriva:
+> 1. Parallele: le pendenze devono essere uguali, $k - 1 = 3$, quindi $k = 4$.
+> 2. Perpendicolari: il prodotto delle pendenze deve essere $-1$, cioè $3(k - 1) = -1$, quindi $k - 1 = -\dfrac{1}{3}$ e $k = \dfrac{2}{3}$.
+> 3. Controllo: con $k = \dfrac{2}{3}$ la prima pendenza è $-\dfrac{1}{3}$, e $-\dfrac{1}{3} \cdot 3 = -1$.
 
 > [!question] Esercizio 8
 > Trovare il punto di intersezione delle rette $r: 3x + 2y = 7$ e $s: x - 4y = 7$.
 
 > [!success]- Soluzione
-> Si risolve il sistema per sostituzione.
-> 1. Da $s$: $x = 7 + 4y$.
-> 2. In $r$: $3(7 + 4y) + 2y = 7$, cioè $21 + 14y = 7$, quindi $14y = -14$ e $y = -1$.
-> 3. $x = 7 + 4 \cdot (-1) = 3$.
-> 4. Il punto è $(3, -1)$.
+> Risultato: il punto di intersezione è $(3, -1)$.
 >
-> Controllo: $3 \cdot 3 + 2 \cdot (-1) = 7$ e $3 - 4 \cdot (-1) = 7$.
+> Come si arriva:
+> 1. Il punto comune deve soddisfare tutte e due le equazioni: si risolve il sistema per sostituzione, ricavando $x$ da $s$: $x = 7 + 4y$.
+> 2. Si sostituisce in $r$: $3(7 + 4y) + 2y = 7$, cioè $21 + 14y = 7$, quindi $14y = -14$ e $y = -1$.
+> 3. Si torna a $x$: $x = 7 + 4 \cdot (-1) = 3$.
+> 4. Controllo: $3 \cdot 3 + 2 \cdot (-1) = 7$ e $3 - 4 \cdot (-1) = 7$.
 
 > [!question] Esercizio 9
 > Dati $A(1, 2)$ e $B(5, 6)$, scrivere l'equazione dell'*asse* del segmento $AB$, cioè la retta perpendicolare ad $AB$ passante per il suo punto medio.
 
 > [!success]- Soluzione
-> 1. Punto medio: $M = \left( \dfrac{1 + 5}{2}, \dfrac{2 + 6}{2} \right) = (3, 4)$.
-> 2. Pendenza di $AB$: $m = \dfrac{6 - 2}{5 - 1} = 1$.
-> 3. Pendenza dell'asse: $-\dfrac{1}{1} = -1$.
-> 4. Asse: $y - 4 = -1(x - 3)$, cioè $y = -x + 7$, in forma implicita $x + y - 7 = 0$.
+> Risultato: l'asse è $y = -x + 7$, in forma implicita $x + y - 7 = 0$.
 >
-> Ogni punto dell'asse è alla stessa distanza da $A$ e da $B$. Controllo con $(0, 7)$: la distanza da $A$ è $\sqrt{1 + 25} = \sqrt{26}$, la distanza da $B$ è $\sqrt{25 + 1} = \sqrt{26}$.
+> Come si arriva:
+> 1. L'asse passa per il punto medio: $M = \left( \dfrac{1 + 5}{2}, \dfrac{2 + 6}{2} \right) = (3, 4)$.
+> 2. Pendenza di $AB$: $m = \dfrac{6 - 2}{5 - 1} = 1$.
+> 3. L'asse è perpendicolare ad $AB$, quindi la sua pendenza è l'opposto del reciproco: $-\dfrac{1}{1} = -1$.
+> 4. Retta per $M$ con pendenza $-1$: $y - 4 = -1(x - 3)$, cioè $y = -x + 7$, in forma implicita $x + y - 7 = 0$.
+> 5. Controllo: ogni punto dell'asse è alla stessa distanza da $A$ e da $B$. Con $(0, 7)$: la distanza da $A$ è $\sqrt{1 + 25} = \sqrt{26}$, la distanza da $B$ è $\sqrt{25 + 1} = \sqrt{26}$.
 
 #### Distanza di un punto da una retta
 
@@ -653,7 +671,11 @@ Per l'equazione della retta, il parallelismo e la perpendicolarità con le pende
 > Calcolare la distanza del punto $P(2, -1)$ dalla retta $r: 3x + 4y + 8 = 0$.
 
 > [!success]- Soluzione
-> Con la formula, $a = 3$, $b = 4$, $c = 8$:
+> Risultato: $d = 2$.
+>
+> Come si arriva:
+> 1. Si leggono i coefficienti della retta in forma implicita: $a = 3$, $b = 4$, $c = 8$.
+> 2. Si mettono nella formula della distanza punto-retta, con le coordinate di $P$ al posto di $x$ e $y$:
 > $$
 > d = \frac{|3 \cdot 2 + 4 \cdot (-1) + 8|}{\sqrt{3^2 + 4^2}} = \frac{|6 - 4 + 8|}{\sqrt{25}} = \frac{10}{5} = 2
 > $$
@@ -662,13 +684,16 @@ Per l'equazione della retta, il parallelismo e la perpendicolarità con le pende
 > Dati $A(1, 0)$, $B(4, 4)$ e $C(5, -2)$, calcolare la lunghezza di $AB$, l'altezza del triangolo $ABC$ relativa al lato $AB$ e l'area del triangolo.
 
 > [!success]- Soluzione
-> 1. Base: $AB = \sqrt{3^2 + 4^2} = 5$.
-> 2. Retta $AB$: pendenza $\dfrac{4 - 0}{4 - 1} = \dfrac{4}{3}$, quindi $y = \dfrac{4}{3}(x - 1)$. Moltiplicando per 3: $3y = 4x - 4$, in forma implicita $4x - 3y - 4 = 0$.
+> Risultato: $AB = 5$, altezza $h = \dfrac{22}{5}$, area $11$.
+>
+> Come si arriva:
+> 1. Base: con la formula della distanza, $AB = \sqrt{3^2 + 4^2} = 5$.
+> 2. Per l'altezza serve l'equazione della retta $AB$: pendenza $\dfrac{4 - 0}{4 - 1} = \dfrac{4}{3}$, quindi $y = \dfrac{4}{3}(x - 1)$. Moltiplicando per 3: $3y = 4x - 4$, in forma implicita $4x - 3y - 4 = 0$.
 > 3. L'altezza relativa ad $AB$ è la distanza di $C$ dalla retta $AB$:
 > $$
 > h = \frac{|4 \cdot 5 - 3 \cdot (-2) - 4|}{\sqrt{16 + 9}} = \frac{|20 + 6 - 4|}{5} = \frac{22}{5}
 > $$
-> 4. Area: $\dfrac{AB \cdot h}{2} = \dfrac{5 \cdot \frac{22}{5}}{2} = \dfrac{22}{2} = 11$.
+> 4. Area: base per altezza diviso 2, $\dfrac{AB \cdot h}{2} = \dfrac{5 \cdot \frac{22}{5}}{2} = \dfrac{22}{2} = 11$.
 
 #### La circonferenza
 
@@ -676,47 +701,59 @@ Per l'equazione della retta, il parallelismo e la perpendicolarità con le pende
 > Scrivere l'equazione della circonferenza di centro $C(-1, 2)$ passante per il punto $P(2, 6)$, prima nella forma con il centro e poi nella forma sviluppata.
 
 > [!success]- Soluzione
+> Risultato: forma con il centro $(x + 1)^2 + (y - 2)^2 = 25$; forma sviluppata $x^2 + y^2 + 2x - 4y - 20 = 0$.
+>
+> Come si arriva:
 > 1. Il raggio è la distanza tra centro e punto: $r = \sqrt{(2 + 1)^2 + (6 - 2)^2} = \sqrt{9 + 16} = 5$.
-> 2. Equazione: $(x + 1)^2 + (y - 2)^2 = 25$.
-> 3. Si svolgono i quadrati: $x^2 + 2x + 1 + y^2 - 4y + 4 = 25$.
-> 4. Forma sviluppata: $x^2 + y^2 + 2x - 4y - 20 = 0$.
+> 2. Equazione con centro $(-1, 2)$ e $r^2 = 25$: $(x + 1)^2 + (y - 2)^2 = 25$.
+> 3. Per la forma sviluppata si svolgono i quadrati: $x^2 + 2x + 1 + y^2 - 4y + 4 = 25$.
+> 4. Si porta tutto a sinistra: $x^2 + y^2 + 2x - 4y - 20 = 0$.
 
 > [!question] Esercizio 13
 > L'equazione $2x^2 + 2y^2 - 8x + 4y - 10 = 0$ rappresenta una circonferenza? Se sì, trovare centro e raggio.
 
 > [!success]- Soluzione
-> 1. $x^2$ e $y^2$ hanno lo stesso coefficiente e non c'è il termine $xy$: si divide tutto per 2, $x^2 + y^2 - 4x + 2y - 5 = 0$.
-> 2. Si raggruppa: $(x^2 - 4x) + (y^2 + 2y) = 5$.
-> 3. Si completano i quadrati: metà di $-4$ è $-2$, e $(-2)^2 = 4$; metà di $2$ è $1$, e $1^2 = 1$. Si aggiunge $4 + 1$ a entrambi i membri.
-> 4. $(x - 2)^2 + (y + 1)^2 = 5 + 4 + 1 = 10$.
-> 5. Il numero a destra è positivo, quindi è una circonferenza: centro $C(2, -1)$, raggio $r = \sqrt{10}$.
+> Risultato: sì, è una circonferenza di centro $C(2, -1)$ e raggio $r = \sqrt{10}$.
 >
-> Con le formule ($a = -4$, $b = 2$, $c = -5$): $C = (2, -1)$ e $r = \sqrt{4 + 1 + 5} = \sqrt{10}$.
+> Come si arriva:
+> 1. $x^2$ e $y^2$ hanno lo stesso coefficiente e non c'è il termine $xy$, quindi può essere una circonferenza: si divide tutto per 2, $x^2 + y^2 - 4x + 2y - 5 = 0$.
+> 2. Si raggruppano i termini in $x$ e quelli in $y$: $(x^2 - 4x) + (y^2 + 2y) = 5$.
+> 3. Si completano i quadrati: metà di $-4$ è $-2$, e $(-2)^2 = 4$; metà di $2$ è $1$, e $1^2 = 1$. Si aggiunge $4 + 1$ a entrambi i membri.
+> 4. Si ottiene $(x - 2)^2 + (y + 1)^2 = 5 + 4 + 1 = 10$.
+> 5. Il numero a destra è positivo, quindi è una circonferenza: centro $C(2, -1)$, raggio $r = \sqrt{10}$.
+> 6. Controllo con le formule ($a = -4$, $b = 2$, $c = -5$): $C = (2, -1)$ e $r = \sqrt{4 + 1 + 5} = \sqrt{10}$.
 
 > [!question] Esercizio 14
 > Trovare i punti di intersezione della circonferenza $x^2 + y^2 = 10$ con la retta $x - y + 2 = 0$ e la lunghezza della corda che li unisce.
 
 > [!success]- Soluzione
-> 1. Dalla retta: $y = x + 2$.
-> 2. Si sostituisce: $x^2 + (x + 2)^2 = 10$, cioè $x^2 + x^2 + 4x + 4 = 10$, cioè $2x^2 + 4x - 6 = 0$, e dividendo per 2: $x^2 + 2x - 3 = 0$.
-> 3. $\Delta = 4 + 12 = 16 > 0$: la retta è secante. $x = \dfrac{-2 \pm 4}{2}$, cioè $x = 1$ oppure $x = -3$.
-> 4. Con $y = x + 2$: i punti sono $(1, 3)$ e $(-3, -1)$.
-> 5. Corda: $\sqrt{(1 + 3)^2 + (3 + 1)^2} = \sqrt{16 + 16} = \sqrt{32} = 4\sqrt{2}$.
+> Risultato: i punti sono $(1, 3)$ e $(-3, -1)$; la corda è lunga $\sqrt{32} = 4\sqrt{2}$.
 >
-> Controllo: $1 + 9 = 10$ e $9 + 1 = 10$.
+> Come si arriva:
+> 1. Si ricava $y$ dalla retta: $y = x + 2$.
+> 2. Si sostituisce nella circonferenza: $x^2 + (x + 2)^2 = 10$, cioè $x^2 + x^2 + 4x + 4 = 10$, cioè $2x^2 + 4x - 6 = 0$, e dividendo per 2: $x^2 + 2x - 3 = 0$.
+> 3. Si risolve l'equazione di secondo grado: $\Delta = 4 + 12 = 16 > 0$, quindi la retta è secante. $x = \dfrac{-2 \pm 4}{2}$, cioè $x = 1$ oppure $x = -3$.
+> 4. Con $y = x + 2$ si trovano le ordinate: i punti sono $(1, 3)$ e $(-3, -1)$.
+> 5. La corda è la distanza tra i due punti: $\sqrt{(1 + 3)^2 + (3 + 1)^2} = \sqrt{16 + 16} = \sqrt{32} = 4\sqrt{2}$.
+> 6. Controllo: $1 + 9 = 10$ e $9 + 1 = 10$.
 
 > [!question] Esercizio 15
 > Data la circonferenza $x^2 + y^2 - 2x - 4y - 20 = 0$, stabilire la posizione rispetto a essa delle rette $a: 3x + 4y + 14 = 0$, $b: x = 4$, $c: y = 8$. Per la retta tangente trovare il punto di contatto.
 
 > [!success]- Soluzione
-> 1. Centro e raggio: $(x - 1)^2 + (y - 2)^2 = 20 + 1 + 4 = 25$, quindi $C(1, 2)$ e $r = 5$.
-> 2. Retta $a$: $d = \dfrac{|3 + 8 + 14|}{\sqrt{9 + 16}} = \dfrac{25}{5} = 5 = r$: tangente.
+> Risultato: $a$ è tangente, con punto di contatto $(-2, -2)$; $b$ è secante; $c$ è esterna.
+>
+> Come si arriva:
+> 1. Per confrontare le distanze con il raggio si trovano centro e raggio: $(x - 1)^2 + (y - 2)^2 = 20 + 1 + 4 = 25$, quindi $C(1, 2)$ e $r = 5$.
+> 2. Retta $a$: distanza di $C$ con la formula punto-retta, $d = \dfrac{|3 + 8 + 14|}{\sqrt{9 + 16}} = \dfrac{25}{5} = 5 = r$: tangente.
 > 3. Retta $b$ (verticale): la distanza di $C$ è la differenza delle ascisse, $|4 - 1| = 3 < 5$: secante.
 > 4. Retta $c$ (orizzontale): la distanza di $C$ è la differenza delle ordinate, $|8 - 2| = 6 > 5$: esterna.
-> 5. Punto di contatto di $a$: da $a$, $y = \dfrac{-14 - 3x}{4}$, quindi $y - 2 = \dfrac{-22 - 3x}{4}$. Si sostituisce in $(x - 1)^2 + (y - 2)^2 = 25$ e si moltiplica per 16: $16(x - 1)^2 + (3x + 22)^2 = 400$, cioè $25x^2 + 100x + 100 = 0$, cioè $x^2 + 4x + 4 = 0$, cioè $(x + 2)^2 = 0$.
-> 6. $x = -2$ e $y = \dfrac{-14 + 6}{4} = -2$: il punto di contatto è $(-2, -2)$.
->
-> Controllo: il raggio da $C(1, 2)$ a $(-2, -2)$ ha pendenza $\dfrac{4}{3}$, la retta $a$ ha pendenza $-\dfrac{3}{4}$: sono perpendicolari, come deve essere.
+> 5. Punto di contatto di $a$: si mette a sistema la retta con la circonferenza. Da $a$, $y = \dfrac{-14 - 3x}{4}$, quindi $y - 2 = \dfrac{-22 - 3x}{4}$. Si sostituisce in $(x - 1)^2 + (y - 2)^2 = 25$ e si moltiplica per 16:
+> $$
+> 16(x - 1)^2 + (3x + 22)^2 = 400 \quad\Rightarrow\quad 25x^2 + 100x + 100 = 0 \quad\Rightarrow\quad x^2 + 4x + 4 = 0 \quad\Rightarrow\quad (x + 2)^2 = 0
+> $$
+> 6. L'unica soluzione è $x = -2$ (è tangente, quindi un solo punto), e $y = \dfrac{-14 + 6}{4} = -2$: il punto di contatto è $(-2, -2)$.
+> 7. Controllo: il raggio da $C(1, 2)$ a $(-2, -2)$ ha pendenza $\dfrac{4}{3}$, la retta $a$ ha pendenza $-\dfrac{3}{4}$: sono perpendicolari, come deve essere.
 
 #### La sfera
 
@@ -724,11 +761,14 @@ Per l'equazione della retta, il parallelismo e la perpendicolarità con le pende
 > Trovare centro e raggio della sfera $x^2 + y^2 + z^2 + 4x - 2y - 8z + 12 = 0$. Il punto $P(0, 2, 2)$ sta sulla sfera? L'origine è dentro o fuori?
 
 > [!success]- Soluzione
-> 1. Si raggruppa: $(x^2 + 4x) + (y^2 - 2y) + (z^2 - 8z) = -12$.
+> Risultato: centro $C(-2, 1, 4)$ e raggio $r = 3$; $P$ sta sulla sfera; l'origine è fuori.
+>
+> Come si arriva:
+> 1. Si raggruppano i termini di ogni variabile: $(x^2 + 4x) + (y^2 - 2y) + (z^2 - 8z) = -12$.
 > 2. Si completano i quadrati aggiungendo $4$, $1$ e $16$ a entrambi i membri: $(x + 2)^2 + (y - 1)^2 + (z - 4)^2 = -12 + 4 + 1 + 16 = 9$.
-> 3. Centro $C(-2, 1, 4)$, raggio $r = 3$.
-> 4. $P$: $(0 + 2)^2 + (2 - 1)^2 + (2 - 4)^2 = 4 + 1 + 4 = 9$: sì, sta sulla sfera.
-> 5. Origine: la distanza dal centro è $\sqrt{4 + 1 + 16} = \sqrt{21} \approx 4{,}58 > 3$: è fuori.
+> 3. Si leggono centro e raggio: $C(-2, 1, 4)$, $r = \sqrt{9} = 3$.
+> 4. $P$: si sostituiscono le sue coordinate, $(0 + 2)^2 + (2 - 1)^2 + (2 - 4)^2 = 4 + 1 + 4 = 9$, che è proprio $r^2$: sì, sta sulla sfera.
+> 5. Origine: la distanza dal centro è $\sqrt{4 + 1 + 16} = \sqrt{21} \approx 4{,}58 > 3$, maggiore del raggio: è fuori.
 
 ## Collegamenti
 

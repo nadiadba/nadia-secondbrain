@@ -1007,49 +1007,65 @@ Negli appunti presi in classe ci sono gli esercizi 1, 2, 3, 4 e 5 del primo fogl
 > Siano $\mathbf{u} = (3, -2)$ e $\mathbf{v} = (-1, 4)$. Calcolare $\mathbf{u} + \mathbf{v}$, $2\mathbf{u} - 3\mathbf{v}$ e $\|\mathbf{u} + \mathbf{v}\|$.
 
 > [!success]- Soluzione
-> 1. Si somma componente per componente: $\mathbf{u} + \mathbf{v} = (3 + (-1),\ -2 + 4) = (2, 2)$.
-> 2. $2\mathbf{u} = (6, -4)$ e $3\mathbf{v} = (-3, 12)$, quindi $2\mathbf{u} - 3\mathbf{v} = (6 - (-3),\ -4 - 12) = (9, -16)$.
-> 3. $\|\mathbf{u} + \mathbf{v}\| = \|(2, 2)\| = \sqrt{4 + 4} = \sqrt8 = 2\sqrt2$.
+> Risultato: $\mathbf{u} + \mathbf{v} = (2, 2)$; $2\mathbf{u} - 3\mathbf{v} = (9, -16)$; $\|\mathbf{u} + \mathbf{v}\| = 2\sqrt2$.
+>
+> Come si arriva:
+> 1. Somma: si sommano le componenti corrispondenti, $\mathbf{u} + \mathbf{v} = (3 + (-1),\ -2 + 4) = (2, 2)$.
+> 2. Multipli: si moltiplica ogni componente per il numero, $2\mathbf{u} = (6, -4)$ e $3\mathbf{v} = (-3, 12)$.
+> 3. Differenza: si sottraggono le componenti, $2\mathbf{u} - 3\mathbf{v} = (6 - (-3),\ -4 - 12) = (9, -16)$.
+> 4. Norma: si usa Pitagora sul vettore somma, $\|(2, 2)\| = \sqrt{4 + 4} = \sqrt8 = 2\sqrt2$.
 
 > [!question] Esercizio 2
 > Sia $\mathbf{a} = (2, -1, 2)$. Calcolare la norma di $\mathbf{a}$ e il suo versore. Trovare poi il vettore di norma $6$ che ha la stessa direzione di $\mathbf{a}$ e verso opposto.
 
 > [!success]- Soluzione
-> 1. $\|\mathbf{a}\| = \sqrt{4 + 1 + 4} = \sqrt9 = 3$.
-> 2. Versore: $\dfrac{\mathbf{a}}{\|\mathbf{a}\|} = \dfrac13 (2, -1, 2) = \left(\dfrac23, -\dfrac13, \dfrac23\right)$. Controllo: $\frac49 + \frac19 + \frac49 = 1$.
-> 3. Un vettore di norma $6$ e verso opposto si ottiene moltiplicando il versore per $-6$ (cioè $\mathbf{a}$ per $-2$):
+> Risultato: $\|\mathbf{a}\| = 3$; versore $\left(\frac23, -\frac13, \frac23\right)$; vettore cercato $(-4, 2, -4)$.
+>
+> Come si arriva:
+> 1. Norma: radice della somma dei quadrati delle componenti, $\|\mathbf{a}\| = \sqrt{4 + 1 + 4} = \sqrt9 = 3$.
+> 2. Versore: si divide il vettore per la sua norma, $\dfrac{\mathbf{a}}{\|\mathbf{a}\|} = \dfrac13 (2, -1, 2) = \left(\dfrac23, -\dfrac13, \dfrac23\right)$. Controllo: $\frac49 + \frac19 + \frac49 = 1$.
+> 3. Vettore di norma $6$ e verso opposto: si moltiplica il versore (lungo 1) per $-6$, perché $6$ dà la lunghezza e il segno meno inverte il verso (è come moltiplicare $\mathbf{a}$ per $-2$):
 > $$
 > -6 \cdot \left(\frac23, -\frac13, \frac23\right) = (-4, 2, -4).
 > $$
-> Controllo: $\sqrt{16 + 4 + 16} = \sqrt{36} = 6$.
+> 4. Controllo: $\sqrt{16 + 4 + 16} = \sqrt{36} = 6$.
 
 > [!question] Esercizio 3
 > Siano $A = (2, 1)$ e $B = (6, 4)$. Calcolare il vettore $\overrightarrow{AB}$, la distanza tra $A$ e $B$, il punto medio di $AB$ e il versore di $\overrightarrow{AB}$.
 
 > [!success]- Soluzione
-> 1. Punta meno coda: $\overrightarrow{AB} = B - A = (6 - 2,\ 4 - 1) = (4, 3)$.
-> 2. La distanza è la norma del vettore: $AB = \sqrt{16 + 9} = \sqrt{25} = 5$.
-> 3. Il punto medio è la media delle coordinate: $M = \left(\dfrac{2 + 6}{2}, \dfrac{1 + 4}{2}\right) = \left(4, \dfrac52\right)$.
-> 4. Versore: $\dfrac15 (4, 3) = \left(\dfrac45, \dfrac35\right)$.
+> Risultato: $\overrightarrow{AB} = (4, 3)$; $AB = 5$; $M = \left(4, \frac52\right)$; versore $\left(\frac45, \frac35\right)$.
+>
+> Come si arriva:
+> 1. Vettore: punta meno coda, $\overrightarrow{AB} = B - A = (6 - 2,\ 4 - 1) = (4, 3)$.
+> 2. Distanza: è la norma del vettore che unisce i due punti, $AB = \sqrt{16 + 9} = \sqrt{25} = 5$.
+> 3. Punto medio: si fa la media delle coordinate, $M = \left(\dfrac{2 + 6}{2}, \dfrac{1 + 4}{2}\right) = \left(4, \dfrac52\right)$.
+> 4. Versore: si divide il vettore per la sua norma, $\dfrac15 (4, 3) = \left(\dfrac45, \dfrac35\right)$.
 
 > [!question] Esercizio 4
 > Siano $\mathbf{u} = (1, 2)$, $\mathbf{v} = (1, -1)$ e $\mathbf{a} = (1, 8)$. Trovare $\alpha, \beta \in \mathbb{R}$ tali che $\mathbf{a} = \alpha\mathbf{u} + \beta\mathbf{v}$.
 
 > [!success]- Soluzione
-> 1. $\alpha(1, 2) + \beta(1, -1) = (\alpha + \beta,\ 2\alpha - \beta)$.
-> 2. Uguagliando a $(1, 8)$ componente per componente si ha il sistema $\alpha + \beta = 1$ e $2\alpha - \beta = 8$.
-> 3. Sommando le due equazioni: $3\alpha = 9$, quindi $\alpha = 3$; poi $\beta = 1 - \alpha = -2$.
-> 4. Verifica: $3(1, 2) - 2(1, -1) = (3 - 2,\ 6 + 2) = (1, 8)$.
+> Risultato: $\alpha = 3$, $\beta = -2$, cioè $\mathbf{a} = 3\mathbf{u} - 2\mathbf{v}$ (ed è l'unica coppia possibile).
 >
-> La coppia è unica perché $\mathbf{u}$ e $\mathbf{v}$ non sono paralleli.
+> Come si arriva:
+> 1. Si scrive la combinazione in componenti: $\alpha(1, 2) + \beta(1, -1) = (\alpha + \beta,\ 2\alpha - \beta)$.
+> 2. Si uguaglia a $(1, 8)$ componente per componente, e si ottiene il sistema $\alpha + \beta = 1$ e $2\alpha - \beta = 8$.
+> 3. Si sommano le due equazioni, così $\beta$ sparisce: $3\alpha = 9$, quindi $\alpha = 3$; poi $\beta = 1 - \alpha = -2$.
+> 4. Verifica: $3(1, 2) - 2(1, -1) = (3 - 2,\ 6 + 2) = (1, 8)$.
+> 5. La coppia è unica perché $\mathbf{u}$ e $\mathbf{v}$ non sono paralleli.
 
 > [!question] Esercizio 5
 > Per quale $k \in \mathbb{R}$ i vettori $\mathbf{u} = (2, k, -4)$ e $\mathbf{v} = (-1, 3, 2)$ sono paralleli? Per quel valore, hanno lo stesso verso o verso opposto?
 
 > [!success]- Soluzione
-> 1. Si cerca un numero $\lambda$ tale che $\mathbf{v} = \lambda\mathbf{u}$. Le componenti senza $k$ lo fissano: dalla prima $-1 = 2\lambda$, cioè $\lambda = -\frac12$; dalla terza $2 = -4\lambda$, cioè di nuovo $\lambda = -\frac12$.
-> 2. Anche la seconda componente deve rispettarlo: $3 = -\frac12 k$, quindi $k = -6$.
-> 3. Per $k = -6$ si ha $\mathbf{u} = (2, -6, -4) = -2\,\mathbf{v}$: il numero è negativo, quindi i due vettori hanno verso opposto.
+> Risultato: $k = -6$; per questo valore i due vettori hanno verso opposto ($\mathbf{u} = -2\,\mathbf{v}$).
+>
+> Come si arriva:
+> 1. Paralleli vuol dire che esiste un numero $\lambda$ tale che $\mathbf{v} = \lambda\mathbf{u}$: si cerca quel numero.
+> 2. Le componenti senza $k$ lo fissano: dalla prima $-1 = 2\lambda$, cioè $\lambda = -\frac12$; dalla terza $2 = -4\lambda$, cioè di nuovo $\lambda = -\frac12$.
+> 3. Anche la seconda componente deve rispettarlo: $3 = -\frac12 k$, quindi $k = -6$.
+> 4. Verso: per $k = -6$ si ha $\mathbf{u} = (2, -6, -4) = -2\,\mathbf{v}$; il numero è negativo, quindi i due vettori hanno verso opposto.
 
 #### Prodotto scalare, angoli e proiezioni
 
@@ -1059,52 +1075,68 @@ Negli appunti presi in classe ci sono gli esercizi 1, 2, 3, 4 e 5 del primo fogl
 > 2. $\mathbf{a} = (-1, 1)$ e $\mathbf{b} = (2, 0)$.
 
 > [!success]- Soluzione
-> 1. $\mathbf{u} \cdot \mathbf{v} = 0 + 3 + 6 = 9$; $\|\mathbf{u}\| = \sqrt{4 + 1 + 4} = 3$ e $\|\mathbf{v}\| = \sqrt{0 + 9 + 9} = \sqrt{18} = 3\sqrt2$. Quindi
+> Risultato: 1) $\theta = 45° = \frac{\pi}{4}$; 2) $\theta = 135° = \frac{3\pi}{4}$ (angolo ottuso).
+>
+> Come si arriva (per ogni coppia: prodotto scalare, norme, poi $\cos\theta = \frac{\text{prodotto scalare}}{\text{prodotto delle norme}}$):
+> 1. Prima coppia: $\mathbf{u} \cdot \mathbf{v} = 0 + 3 + 6 = 9$; $\|\mathbf{u}\| = \sqrt{4 + 1 + 4} = 3$ e $\|\mathbf{v}\| = \sqrt{0 + 9 + 9} = \sqrt{18} = 3\sqrt2$. Quindi
 > $$
 > \cos\theta = \frac{9}{3 \cdot 3\sqrt2} = \frac{1}{\sqrt2} = \frac{\sqrt2}{2}, \qquad \theta = 45° = \frac{\pi}{4}.
 > $$
-> 2. $\mathbf{a} \cdot \mathbf{b} = -2 + 0 = -2$; $\|\mathbf{a}\| = \sqrt2$ e $\|\mathbf{b}\| = 2$. Quindi
+> 2. Seconda coppia: $\mathbf{a} \cdot \mathbf{b} = -2 + 0 = -2$; $\|\mathbf{a}\| = \sqrt2$ e $\|\mathbf{b}\| = 2$. Quindi
 > $$
 > \cos\theta = \frac{-2}{2\sqrt2} = -\frac{\sqrt2}{2}, \qquad \theta = 135° = \frac{3\pi}{4}.
 > $$
-> Il coseno è negativo: l'angolo è ottuso.
+> 3. Il coseno è negativo: l'angolo è ottuso.
 
 > [!question] Esercizio 7
 > Siano $\mathbf{u} = (k, 1, 3)$ e $\mathbf{v} = (k, -4, 1)$. Per quali $k \in \mathbb{R}$ i due vettori sono ortogonali? Per quali formano un angolo acuto?
 
 > [!success]- Soluzione
-> 1. $\mathbf{u} \cdot \mathbf{v} = k \cdot k + 1 \cdot (-4) + 3 \cdot 1 = k^2 - 1$.
-> 2. Ortogonali se $k^2 - 1 = 0$, cioè $k = 1$ oppure $k = -1$.
-> 3. Angolo acuto se il prodotto scalare è positivo: $k^2 - 1 > 0$, cioè $k < -1$ oppure $k > 1$.
+> Risultato: ortogonali per $k = 1$ oppure $k = -1$; angolo acuto per $k < -1$ oppure $k > 1$, cioè $(-\infty, -1) \cup (1, +\infty)$; (angolo ottuso per $-1 < k < 1$).
+>
+> Come si arriva:
+> 1. Si calcola il prodotto scalare, perché il suo segno dice com'è l'angolo: $\mathbf{u} \cdot \mathbf{v} = k \cdot k + 1 \cdot (-4) + 3 \cdot 1 = k^2 - 1$.
+> 2. Ortogonali: il prodotto scalare deve essere zero, $k^2 - 1 = 0$, cioè $k = 1$ oppure $k = -1$.
+> 3. Angolo acuto: il prodotto scalare deve essere positivo, $k^2 - 1 > 0$, cioè $k < -1$ oppure $k > 1$.
 > 4. Di conseguenza l'angolo è ottuso per $-1 < k < 1$ (per esempio con $k = 0$ il prodotto scalare vale $-1$).
 
 > [!question] Esercizio 8
 > Siano $A = (1, 2)$, $B = (4, 3)$, $C = (0, 5)$. Dimostrare con il prodotto scalare che il triangolo $ABC$ è rettangolo in $A$, e calcolarne l'area. Quanto misura l'angolo in $B$?
 
 > [!success]- Soluzione
-> 1. I vettori che partono da $A$: $\overrightarrow{AB} = (3, 1)$ e $\overrightarrow{AC} = (-1, 3)$.
-> 2. $\overrightarrow{AB} \cdot \overrightarrow{AC} = -3 + 3 = 0$: sono ortogonali, quindi l'angolo in $A$ è retto.
-> 3. $\|\overrightarrow{AB}\| = \sqrt{9 + 1} = \sqrt{10}$ e $\|\overrightarrow{AC}\| = \sqrt{1 + 9} = \sqrt{10}$. I cateti sono uguali, e l'area è $\dfrac12 \cdot \sqrt{10} \cdot \sqrt{10} = 5$.
-> 4. Il triangolo è rettangolo e isoscele, quindi gli altri due angoli sono di $45°$. Con i vettori: $\overrightarrow{BA} = (-3, -1)$, $\overrightarrow{BC} = (-4, 2)$, $\overrightarrow{BA} \cdot \overrightarrow{BC} = 12 - 2 = 10$, $\|\overrightarrow{BC}\| = \sqrt{20}$, e $\cos\widehat{B} = \dfrac{10}{\sqrt{10}\,\sqrt{20}} = \dfrac{10}{10\sqrt2} = \dfrac{\sqrt2}{2}$, cioè $\widehat{B} = 45°$.
+> Risultato: $\overrightarrow{AB} \cdot \overrightarrow{AC} = 0$, quindi il triangolo è rettangolo in $A$; area $5$; angolo in $B$ di $45°$.
+>
+> Come si arriva:
+> 1. Per l'angolo in $A$ servono i vettori che partono da $A$: $\overrightarrow{AB} = (3, 1)$ e $\overrightarrow{AC} = (-1, 3)$.
+> 2. Prodotto scalare: $\overrightarrow{AB} \cdot \overrightarrow{AC} = -3 + 3 = 0$; sono ortogonali, quindi l'angolo in $A$ è retto.
+> 3. Area: i due cateti sono $\|\overrightarrow{AB}\| = \sqrt{9 + 1} = \sqrt{10}$ e $\|\overrightarrow{AC}\| = \sqrt{1 + 9} = \sqrt{10}$, uguali; l'area è $\dfrac12 \cdot \sqrt{10} \cdot \sqrt{10} = 5$.
+> 4. Angolo in $B$: il triangolo è rettangolo e isoscele, quindi gli altri due angoli sono di $45°$.
+> 5. Controllo con i vettori che partono da $B$: $\overrightarrow{BA} = (-3, -1)$, $\overrightarrow{BC} = (-4, 2)$, $\overrightarrow{BA} \cdot \overrightarrow{BC} = 12 - 2 = 10$, $\|\overrightarrow{BC}\| = \sqrt{20}$, e $\cos\widehat{B} = \dfrac{10}{\sqrt{10}\,\sqrt{20}} = \dfrac{10}{10\sqrt2} = \dfrac{\sqrt2}{2}$, cioè $\widehat{B} = 45°$.
 
 > [!question] Esercizio 9
 > Siano $\mathbf{u} = (1, 2, 3)$ e $\mathbf{v} = (1, 0, 1)$. Calcolare la proiezione scalare e la proiezione vettoriale $\mathbf{p}$ di $\mathbf{u}$ nella direzione di $\mathbf{v}$. Posto $\mathbf{q} = \mathbf{u} - \mathbf{p}$, verificare che $\mathbf{q}$ è ortogonale a $\mathbf{v}$.
 
 > [!success]- Soluzione
-> 1. $\mathbf{u} \cdot \mathbf{v} = 1 + 0 + 3 = 4$ e $\|\mathbf{v}\| = \sqrt2$, quindi $\|\mathbf{v}\|^2 = 2$.
-> 2. Proiezione scalare: $\dfrac{4}{\sqrt2} = 2\sqrt2$.
-> 3. Proiezione vettoriale: $\mathbf{p} = \dfrac{4}{2}(1, 0, 1) = (2, 0, 2)$.
-> 4. $\mathbf{q} = (1, 2, 3) - (2, 0, 2) = (-1, 2, 1)$, e $\mathbf{q} \cdot \mathbf{v} = -1 + 0 + 1 = 0$: è ortogonale.
+> Risultato: proiezione scalare $2\sqrt2$; proiezione vettoriale $\mathbf{p} = (2, 0, 2)$; $\mathbf{q} = (-1, 2, 1)$ e $\mathbf{q} \cdot \mathbf{v} = 0$, quindi $\mathbf{q}$ è ortogonale a $\mathbf{v}$.
+>
+> Come si arriva:
+> 1. Gli ingredienti: $\mathbf{u} \cdot \mathbf{v} = 1 + 0 + 3 = 4$ e $\|\mathbf{v}\| = \sqrt2$, quindi $\|\mathbf{v}\|^2 = 2$.
+> 2. Proiezione scalare: prodotto scalare diviso la norma di $\mathbf{v}$, $\dfrac{4}{\sqrt2} = 2\sqrt2$.
+> 3. Proiezione vettoriale: prodotto scalare diviso la norma al quadrato, per $\mathbf{v}$, $\mathbf{p} = \dfrac{4}{2}(1, 0, 1) = (2, 0, 2)$.
+> 4. Ortogonalità: $\mathbf{q} = (1, 2, 3) - (2, 0, 2) = (-1, 2, 1)$, e $\mathbf{q} \cdot \mathbf{v} = -1 + 0 + 1 = 0$: è ortogonale.
 > 5. Controllo con Pitagora: $\|\mathbf{u}\|^2 = 1 + 4 + 9 = 14$ e $\|\mathbf{p}\|^2 + \|\mathbf{q}\|^2 = 8 + 6 = 14$.
 
 > [!question] Esercizio 10
 > Due vettori hanno $\|\mathbf{u}\| = 2$, $\|\mathbf{v}\| = 3$ e formano un angolo di $120°$. Calcolare $\mathbf{u} \cdot \mathbf{v}$, $\|\mathbf{u} + \mathbf{v}\|$, $\|\mathbf{u} - \mathbf{v}\|$ e $(\mathbf{u} + 2\mathbf{v}) \cdot (\mathbf{u} - \mathbf{v})$.
 
 > [!success]- Soluzione
-> 1. Con la definizione geometrica: $\mathbf{u} \cdot \mathbf{v} = 2 \cdot 3 \cdot \cos 120° = 6 \cdot \left(-\frac12\right) = -3$.
-> 2. $\|\mathbf{u} + \mathbf{v}\|^2 = \|\mathbf{u}\|^2 + 2\,\mathbf{u} \cdot \mathbf{v} + \|\mathbf{v}\|^2 = 4 - 6 + 9 = 7$, quindi $\|\mathbf{u} + \mathbf{v}\| = \sqrt7$.
-> 3. $\|\mathbf{u} - \mathbf{v}\|^2 = 4 + 6 + 9 = 19$, quindi $\|\mathbf{u} - \mathbf{v}\| = \sqrt{19}$.
-> 4. Si sviluppa come un prodotto tra parentesi:
+> Risultato: $\mathbf{u} \cdot \mathbf{v} = -3$; $\|\mathbf{u} + \mathbf{v}\| = \sqrt7$; $\|\mathbf{u} - \mathbf{v}\| = \sqrt{19}$; $(\mathbf{u} + 2\mathbf{v}) \cdot (\mathbf{u} - \mathbf{v}) = -17$.
+>
+> Come si arriva:
+> 1. Prodotto scalare: non ci sono componenti, quindi si usa la definizione geometrica, $\mathbf{u} \cdot \mathbf{v} = 2 \cdot 3 \cdot \cos 120° = 6 \cdot \left(-\frac12\right) = -3$.
+> 2. Norma della somma: si calcola il quadrato, $\|\mathbf{u} + \mathbf{v}\|^2 = \|\mathbf{u}\|^2 + 2\,\mathbf{u} \cdot \mathbf{v} + \|\mathbf{v}\|^2 = 4 - 6 + 9 = 7$, quindi $\|\mathbf{u} + \mathbf{v}\| = \sqrt7$.
+> 3. Norma della differenza: stesso conto con il segno meno davanti a $2\,\mathbf{u} \cdot \mathbf{v}$, $\|\mathbf{u} - \mathbf{v}\|^2 = 4 + 6 + 9 = 19$, quindi $\|\mathbf{u} - \mathbf{v}\| = \sqrt{19}$.
+> 4. Ultimo prodotto: si sviluppa come un prodotto tra parentesi, ricordando che $\mathbf{u} \cdot \mathbf{u} = \|\mathbf{u}\|^2 = 4$ e $\mathbf{v} \cdot \mathbf{v} = \|\mathbf{v}\|^2 = 9$:
 > $$
 > (\mathbf{u} + 2\mathbf{v}) \cdot (\mathbf{u} - \mathbf{v}) = \mathbf{u} \cdot \mathbf{u} - \mathbf{u} \cdot \mathbf{v} + 2\,\mathbf{v} \cdot \mathbf{u} - 2\,\mathbf{v} \cdot \mathbf{v} = 4 + 3 - 6 - 18 = -17.
 > $$
@@ -1115,31 +1147,40 @@ Negli appunti presi in classe ci sono gli esercizi 1, 2, 3, 4 e 5 del primo fogl
 > Siano $\mathbf{u} = (2, -1, 3)$ e $\mathbf{v} = (1, 0, -2)$. Calcolare $\mathbf{u} \times \mathbf{v}$, verificare che è ortogonale a entrambi e calcolare l'area del parallelogramma di lati $\mathbf{u}$ e $\mathbf{v}$.
 
 > [!success]- Soluzione
+> Risultato: $\mathbf{u} \times \mathbf{v} = (2, 7, 1)$, ortogonale a $\mathbf{u}$ e a $\mathbf{v}$ (i prodotti scalari valgono $0$); area del parallelogramma $3\sqrt6$.
+>
+> Come si arriva:
 > 1. Prima componente: $u_2 v_3 - u_3 v_2 = (-1)(-2) - 3 \cdot 0 = 2$.
 > 2. Seconda componente: $u_3 v_1 - u_1 v_3 = 3 \cdot 1 - 2 \cdot (-2) = 3 + 4 = 7$.
 > 3. Terza componente: $u_1 v_2 - u_2 v_1 = 2 \cdot 0 - (-1) \cdot 1 = 1$.
-> 4. Quindi $\mathbf{u} \times \mathbf{v} = (2, 7, 1)$. Controllo: $(2, 7, 1) \cdot \mathbf{u} = 4 - 7 + 3 = 0$ e $(2, 7, 1) \cdot \mathbf{v} = 2 + 0 - 2 = 0$.
-> 5. Area del parallelogramma: $\|(2, 7, 1)\| = \sqrt{4 + 49 + 1} = \sqrt{54} = 3\sqrt6$.
+> 4. Quindi $\mathbf{u} \times \mathbf{v} = (2, 7, 1)$. Controllo dell'ortogonalità con i prodotti scalari: $(2, 7, 1) \cdot \mathbf{u} = 4 - 7 + 3 = 0$ e $(2, 7, 1) \cdot \mathbf{v} = 2 + 0 - 2 = 0$.
+> 5. Area: è la norma del prodotto vettoriale, $\|(2, 7, 1)\| = \sqrt{4 + 49 + 1} = \sqrt{54} = 3\sqrt6$.
 
 > [!question] Esercizio 12
 > Siano $A = (1, 0, 2)$, $B = (3, 1, 2)$, $C = (1, 2, 4)$. Calcolare l'area del triangolo $ABC$ e un versore perpendicolare al piano del triangolo.
 
 > [!success]- Soluzione
-> 1. $\overrightarrow{AB} = (2, 1, 0)$ e $\overrightarrow{AC} = (0, 2, 2)$.
-> 2. $\overrightarrow{AB} \times \overrightarrow{AC} = (1 \cdot 2 - 0 \cdot 2,\ \ 0 \cdot 0 - 2 \cdot 2,\ \ 2 \cdot 2 - 1 \cdot 0) = (2, -4, 4)$.
-> 3. $\|(2, -4, 4)\| = \sqrt{4 + 16 + 16} = \sqrt{36} = 6$: è l'area del parallelogramma su $\overrightarrow{AB}$ e $\overrightarrow{AC}$. Il triangolo ne è la metà: area $3$.
-> 4. Il prodotto vettoriale è perpendicolare al piano del triangolo; normalizzandolo si ha il versore $\dfrac16 (2, -4, 4) = \left(\dfrac13, -\dfrac23, \dfrac23\right)$ (va bene anche il suo opposto).
+> Risultato: area del triangolo $3$; versore perpendicolare $\left(\frac13, -\frac23, \frac23\right)$ (va bene anche il suo opposto).
+>
+> Come si arriva:
+> 1. I due lati che partono da $A$: $\overrightarrow{AB} = (2, 1, 0)$ e $\overrightarrow{AC} = (0, 2, 2)$.
+> 2. Prodotto vettoriale: $\overrightarrow{AB} \times \overrightarrow{AC} = (1 \cdot 2 - 0 \cdot 2,\ \ 0 \cdot 0 - 2 \cdot 2,\ \ 2 \cdot 2 - 1 \cdot 0) = (2, -4, 4)$.
+> 3. Area: la norma $\|(2, -4, 4)\| = \sqrt{4 + 16 + 16} = \sqrt{36} = 6$ è l'area del parallelogramma su $\overrightarrow{AB}$ e $\overrightarrow{AC}$; il triangolo ne è la metà, area $3$.
+> 4. Versore: il prodotto vettoriale è perpendicolare al piano del triangolo; normalizzandolo si ha $\dfrac16 (2, -4, 4) = \left(\dfrac13, -\dfrac23, \dfrac23\right)$ (va bene anche il suo opposto).
 
 > [!question] Esercizio 13
 > Trovare i versori ortogonali sia a $\mathbf{u} = (1, 0, 2)$ sia a $\mathbf{v} = (0, 1, -2)$.
 
 > [!success]- Soluzione
-> 1. Il prodotto vettoriale è ortogonale a entrambi:
+> Risultato: $\left(-\frac23, \frac23, \frac13\right)$ e $\left(\frac23, -\frac23, -\frac13\right)$ (due versori, uno per verso).
+>
+> Come si arriva:
+> 1. Il prodotto vettoriale è ortogonale a entrambi, quindi si calcola quello:
 > $$
 > \mathbf{u} \times \mathbf{v} = \big(0 \cdot (-2) - 2 \cdot 1,\ \ 2 \cdot 0 - 1 \cdot (-2),\ \ 1 \cdot 1 - 0 \cdot 0\big) = (-2, 2, 1).
 > $$
 > 2. Controllo: $(-2, 2, 1) \cdot \mathbf{u} = -2 + 0 + 2 = 0$ e $(-2, 2, 1) \cdot \mathbf{v} = 0 + 2 - 2 = 0$.
-> 3. $\|(-2, 2, 1)\| = \sqrt{4 + 4 + 1} = 3$, quindi i versori sono due, uno per verso:
+> 3. Si normalizza: $\|(-2, 2, 1)\| = \sqrt{4 + 4 + 1} = 3$, quindi i versori sono due, uno per verso:
 > $$
 > \left(-\frac23, \frac23, \frac13\right) \quad \text{e} \quad \left(\frac23, -\frac23, -\frac13\right).
 > $$
@@ -1148,23 +1189,29 @@ Negli appunti presi in classe ci sono gli esercizi 1, 2, 3, 4 e 5 del primo fogl
 > Siano $\mathbf{a} = (1, 1, 0)$, $\mathbf{b} = (0, 2, 1)$, $\mathbf{c} = (1, 0, 3)$. Calcolare il prodotto triplo $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})$, il volume del parallelepipedo e quello del tetraedro con spigoli $\mathbf{a}$, $\mathbf{b}$, $\mathbf{c}$. Quanto vale $\mathbf{b} \cdot (\mathbf{a} \times \mathbf{c})$?
 
 > [!success]- Soluzione
-> 1. Con i due prodotti: $\mathbf{b} \times \mathbf{c} = (2 \cdot 3 - 1 \cdot 0,\ \ 1 \cdot 1 - 0 \cdot 3,\ \ 0 \cdot 0 - 2 \cdot 1) = (6, 1, -2)$, e $\mathbf{a} \cdot (6, 1, -2) = 6 + 1 + 0 = 7$.
-> 2. Con il determinante, sviluppato lungo la prima riga:
+> Risultato: $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c}) = 7$; volume del parallelepipedo $7$; volume del tetraedro $\frac76$; $\mathbf{b} \cdot (\mathbf{a} \times \mathbf{c}) = -7$.
+>
+> Come si arriva:
+> 1. Con i due prodotti: prima $\mathbf{b} \times \mathbf{c} = (2 \cdot 3 - 1 \cdot 0,\ \ 1 \cdot 1 - 0 \cdot 3,\ \ 0 \cdot 0 - 2 \cdot 1) = (6, 1, -2)$, poi $\mathbf{a} \cdot (6, 1, -2) = 6 + 1 + 0 = 7$.
+> 2. Lo stesso numero con il determinante, sviluppato lungo la prima riga:
 > $$
 > \begin{vmatrix} 1 & 1 & 0 \\ 0 & 2 & 1 \\ 1 & 0 & 3 \end{vmatrix} = 1 \cdot (6 - 0) - 1 \cdot (0 - 1) + 0 = 6 + 1 = 7.
 > $$
-> 3. Volume del parallelepipedo: $|7| = 7$. Volume del tetraedro: $\dfrac76$.
+> 3. Volumi: il parallelepipedo ha volume uguale al valore assoluto del prodotto triplo, $|7| = 7$; il tetraedro ne è un sesto, $\dfrac76$.
 > 4. $\mathbf{b} \cdot (\mathbf{a} \times \mathbf{c})$ è il determinante con le prime due righe scambiate: cambia segno e vale $-7$. Il volume resta $7$.
 
 > [!question] Esercizio 15
 > Per quale $k \in \mathbb{R}$ i vettori $\mathbf{u} = (1, 2, k)$, $\mathbf{v} = (0, 1, 1)$, $\mathbf{w} = (2, 1, -1)$ sono complanari?
 
 > [!success]- Soluzione
-> 1. Sono complanari se il prodotto triplo è zero. Sviluppando il determinante lungo la prima riga:
+> Risultato: $k = 1$.
+>
+> Come si arriva:
+> 1. Tre vettori sono complanari se il prodotto triplo è zero; lo si calcola con il determinante, sviluppato lungo la prima riga:
 > $$
 > \begin{vmatrix} 1 & 2 & k \\ 0 & 1 & 1 \\ 2 & 1 & -1 \end{vmatrix} = 1 \cdot (-1 - 1) - 2 \cdot (0 - 2) + k \cdot (0 - 2) = -2 + 4 - 2k = 2 - 2k.
 > $$
-> 2. $2 - 2k = 0$ per $k = 1$.
+> 2. Si pone uguale a zero: $2 - 2k = 0$ per $k = 1$.
 > 3. Controllo: per $k = 1$, $\mathbf{u} = (1, 2, 1) = \frac32\,\mathbf{v} + \frac12\,\mathbf{w}$, quindi $\mathbf{u}$ sta nel piano di $\mathbf{v}$ e $\mathbf{w}$.
 
 > [!question] Esercizio 16
@@ -1175,11 +1222,14 @@ Negli appunti presi in classe ci sono gli esercizi 1, 2, 3, 4 e 5 del primo fogl
 > 4. Calcolare la distanza di $D$ dal piano del triangolo $ABC$.
 
 > [!success]- Soluzione
-> 1. $\overrightarrow{AB} = (1, 0, 1)$, $\overrightarrow{AC} = (0, 2, 1)$, $\overrightarrow{AD} = (-1, 1, 4)$.
-> 2. $\overrightarrow{AB} \times \overrightarrow{AC} = (0 \cdot 1 - 1 \cdot 2,\ \ 1 \cdot 0 - 1 \cdot 1,\ \ 1 \cdot 2 - 0 \cdot 0) = (-2, -1, 2)$, di norma $\sqrt{4 + 1 + 4} = 3$. Area del triangolo: $\dfrac32$.
-> 3. Prodotto triplo: $\overrightarrow{AD} \cdot (\overrightarrow{AB} \times \overrightarrow{AC}) = (-1)(-2) + 1 \cdot (-1) + 4 \cdot 2 = 2 - 1 + 8 = 9$. Non è zero, quindi i quattro punti non sono complanari.
-> 4. Volume del tetraedro: $\dfrac16 \cdot 9 = \dfrac32$.
-> 5. La distanza di $D$ dal piano è l'altezza del tetraedro. Da $V = \dfrac13 \cdot \text{area di base} \cdot h$ si ha $\dfrac32 = \dfrac13 \cdot \dfrac32 \cdot h$, quindi $h = 3$. (Allo stesso modo: il parallelepipedo ha volume $9$ e base $3$, e $9 = 3 \cdot h$.)
+> Risultato: 1) area $\frac32$; 2) non sono complanari (prodotto triplo $9 \neq 0$); 3) volume $\frac32$; 4) distanza $3$.
+>
+> Come si arriva:
+> 1. I vettori che partono da $A$: $\overrightarrow{AB} = (1, 0, 1)$, $\overrightarrow{AC} = (0, 2, 1)$, $\overrightarrow{AD} = (-1, 1, 4)$.
+> 2. Area: $\overrightarrow{AB} \times \overrightarrow{AC} = (0 \cdot 1 - 1 \cdot 2,\ \ 1 \cdot 0 - 1 \cdot 1,\ \ 1 \cdot 2 - 0 \cdot 0) = (-2, -1, 2)$, di norma $\sqrt{4 + 1 + 4} = 3$; il triangolo è metà del parallelogramma, area $\dfrac32$.
+> 3. Complanarità: prodotto triplo $\overrightarrow{AD} \cdot (\overrightarrow{AB} \times \overrightarrow{AC}) = (-1)(-2) + 1 \cdot (-1) + 4 \cdot 2 = 2 - 1 + 8 = 9$. Non è zero, quindi i quattro punti non sono complanari.
+> 4. Volume del tetraedro: un sesto del prodotto triplo, $\dfrac16 \cdot 9 = \dfrac32$.
+> 5. Distanza: la distanza di $D$ dal piano è l'altezza del tetraedro. Da $V = \dfrac13 \cdot \text{area di base} \cdot h$ si ha $\dfrac32 = \dfrac13 \cdot \dfrac32 \cdot h$, quindi $h = 3$. (Allo stesso modo: il parallelepipedo ha volume $9$ e base $3$, e $9 = 3 \cdot h$.)
 
 ## Collegamenti
 

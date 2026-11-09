@@ -618,8 +618,11 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > Date $A = \begin{pmatrix} 2 & -1 \\ 0 & 3 \end{pmatrix}$ e $B = \begin{pmatrix} 1 & 4 \\ -2 & 1 \end{pmatrix}$, calcola $2A - B$.
 
 > [!success]- Soluzione
-> 1. Prima il prodotto per lo scalare: $2A = \begin{pmatrix} 4 & -2 \\ 0 & 6 \end{pmatrix}$.
-> 2. Poi la differenza, posto per posto:
+> Risultato: $2A - B = \begin{pmatrix} 3 & -6 \\ 2 & 5 \end{pmatrix}$.
+>
+> Come si arriva:
+> 1. Prima il prodotto per lo scalare, perché va fatto prima della sottrazione: si moltiplica per $2$ ogni elemento di $A$, e $2A = \begin{pmatrix} 4 & -2 \\ 0 & 6 \end{pmatrix}$.
+> 2. Poi la differenza, posto per posto, perché $2A$ e $B$ sono dello stesso tipo ($2 \times 2$):
 > $$
 > 2A - B = \begin{pmatrix} 4 - 1 & -2 - 4 \\ 0 - (-2) & 6 - 1 \end{pmatrix} = \begin{pmatrix} 3 & -6 \\ 2 & 5 \end{pmatrix}.
 > $$
@@ -628,11 +631,14 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > Date $A = \begin{pmatrix} 1 & 0 & -2 \\ 3 & 1 & 4 \end{pmatrix}$ e $B = \begin{pmatrix} 2 & 1 & 1 \\ -1 & 0 & 2 \end{pmatrix}$, calcola $A + B$ e la sua trasposta ${}^{T}(A + B)$. Di che tipo sono le due matrici?
 
 > [!success]- Soluzione
-> 1. $A$ e $B$ sono entrambe $2 \times 3$, quindi si possono sommare:
+> Risultato: $A + B = \begin{pmatrix} 3 & 1 & -1 \\ 2 & 1 & 6 \end{pmatrix}$, di tipo $2 \times 3$; ${}^{T}(A + B) = \begin{pmatrix} 3 & 2 \\ 1 & 1 \\ -1 & 6 \end{pmatrix}$, di tipo $3 \times 2$.
+>
+> Come si arriva:
+> 1. Si controlla che la somma si possa fare: $A$ e $B$ sono entrambe $2 \times 3$, quindi si sommano posto per posto:
 > $$
 > A + B = \begin{pmatrix} 1+2 & 0+1 & -2+1 \\ 3-1 & 1+0 & 4+2 \end{pmatrix} = \begin{pmatrix} 3 & 1 & -1 \\ 2 & 1 & 6 \end{pmatrix} \quad (2 \times 3).
 > $$
-> 2. La trasposta si ottiene facendo diventare la prima riga la prima colonna e la seconda riga la seconda colonna:
+> 2. La trasposta si ottiene facendo diventare la prima riga la prima colonna e la seconda riga la seconda colonna, quindi il tipo si scambia da $2 \times 3$ a $3 \times 2$:
 > $$
 > {}^{T}(A + B) = \begin{pmatrix} 3 & 2 \\ 1 & 1 \\ -1 & 6 \end{pmatrix} \quad (3 \times 2).
 > $$
@@ -644,7 +650,10 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > Date $A = \begin{pmatrix} 2 & 1 \\ -1 & 3 \end{pmatrix}$ e $B = \begin{pmatrix} 1 & 0 \\ 2 & -1 \end{pmatrix}$, calcola $A \cdot B$ e $B \cdot A$. Sono uguali?
 
 > [!success]- Soluzione
-> 1. $A \cdot B$, riga per colonna:
+> Risultato: $A \cdot B = \begin{pmatrix} 4 & -1 \\ 5 & -3 \end{pmatrix}$ e $B \cdot A = \begin{pmatrix} 2 & 1 \\ 5 & -1 \end{pmatrix}$. Non sono uguali: il prodotto di matrici non è commutativo.
+>
+> Come si arriva:
+> 1. $A \cdot B$, riga per colonna: ogni elemento è una riga di $A$ per una colonna di $B$.
 >     - 1ª riga × 1ª colonna: $2 \cdot 1 + 1 \cdot 2 = 4$;
 >     - 1ª riga × 2ª colonna: $2 \cdot 0 + 1 \cdot (-1) = -1$;
 >     - 2ª riga × 1ª colonna: $(-1) \cdot 1 + 3 \cdot 2 = 5$;
@@ -652,7 +661,7 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 > A \cdot B = \begin{pmatrix} 4 & -1 \\ 5 & -3 \end{pmatrix}
 > $$
-> 2. $B \cdot A$:
+> 2. $B \cdot A$: ora le righe sono quelle di $B$ e le colonne quelle di $A$.
 >     - 1ª riga × 1ª colonna: $1 \cdot 2 + 0 \cdot (-1) = 2$;
 >     - 1ª riga × 2ª colonna: $1 \cdot 1 + 0 \cdot 3 = 1$;
 >     - 2ª riga × 1ª colonna: $2 \cdot 2 + (-1) \cdot (-1) = 5$;
@@ -660,18 +669,21 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 > B \cdot A = \begin{pmatrix} 2 & 1 \\ 5 & -1 \end{pmatrix}
 > $$
-> 3. Le due matrici sono diverse: il prodotto di matrici non è commutativo.
+> 3. Si confrontano: le due matrici sono diverse, quindi il prodotto di matrici non è commutativo.
 
 > [!question] Esercizio 4
 > Date $A = \begin{pmatrix} 1 & 2 & 0 \\ 0 & 1 & -1 \end{pmatrix}$ e $B = \begin{pmatrix} 1 & 0 \\ 2 & 1 \\ -1 & 3 \end{pmatrix}$, di che tipo sono $A \cdot B$ e $B \cdot A$? Calcolale entrambe.
 
 > [!success]- Soluzione
-> 1. I tipi: $A$ è $2 \times 3$ e $B$ è $3 \times 2$. Per $A \cdot B$ i numeri interni sono uguali ($2 \times \underline{3} \cdot \underline{3} \times 2$), il prodotto si può fare ed è $2 \times 2$. Per $B \cdot A$ si ha $3 \times \underline{2} \cdot \underline{2} \times 3$: si può fare ed è $3 \times 3$.
-> 2. $A \cdot B$:
+> Risultato: $A \cdot B$ è $2 \times 2$ e vale $\begin{pmatrix} 5 & 2 \\ 3 & -2 \end{pmatrix}$; $B \cdot A$ è $3 \times 3$ e vale $\begin{pmatrix} 1 & 2 & 0 \\ 2 & 5 & -1 \\ -1 & 1 & -3 \end{pmatrix}$.
+>
+> Come si arriva:
+> 1. I tipi, per sapere se il prodotto si può fare: $A$ è $2 \times 3$ e $B$ è $3 \times 2$. Per $A \cdot B$ i numeri interni sono uguali ($2 \times \underline{3} \cdot \underline{3} \times 2$), il prodotto si può fare ed è $2 \times 2$. Per $B \cdot A$ si ha $3 \times \underline{2} \cdot \underline{2} \times 3$: si può fare ed è $3 \times 3$.
+> 2. $A \cdot B$, riga di $A$ per colonna di $B$:
 > $$
 > A \cdot B = \begin{pmatrix} 1 \cdot 1 + 2 \cdot 2 + 0 \cdot (-1) & 1 \cdot 0 + 2 \cdot 1 + 0 \cdot 3 \\ 0 \cdot 1 + 1 \cdot 2 + (-1) \cdot (-1) & 0 \cdot 0 + 1 \cdot 1 + (-1) \cdot 3 \end{pmatrix} = \begin{pmatrix} 5 & 2 \\ 3 & -2 \end{pmatrix}.
 > $$
-> 3. $B \cdot A$: ogni riga di $B$ ha due elementi, ogni colonna di $A$ anche.
+> 3. $B \cdot A$: ogni riga di $B$ ha due elementi, ogni colonna di $A$ anche, quindi ogni elemento è una somma di due prodotti.
 >     - 1ª riga $(1, 0)$: con le colonne $(1, 0)$, $(2, 1)$, $(0, -1)$ dà $1$, $2$, $0$;
 >     - 2ª riga $(2, 1)$: dà $2 \cdot 1 + 1 \cdot 0 = 2$, $2 \cdot 2 + 1 \cdot 1 = 5$, $2 \cdot 0 + 1 \cdot (-1) = -1$;
 >     - 3ª riga $(-1, 3)$: dà $-1 + 0 = -1$, $-2 + 3 = 1$, $0 - 3 = -3$.
@@ -684,7 +696,10 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > Calcola il prodotto della matrice $\begin{pmatrix} 1 & 2 & -1 \\ 0 & 3 & 1 \\ 2 & 0 & 1 \end{pmatrix}$ per la colonna $\begin{pmatrix} 1 \\ -1 \\ 2 \end{pmatrix}$.
 
 > [!success]- Soluzione
-> 1. Una matrice $3 \times 3$ per una $3 \times 1$ dà una $3 \times 1$, cioè una colonna.
+> Risultato: la colonna $\begin{pmatrix} -3 \\ -1 \\ 4 \end{pmatrix}$.
+>
+> Come si arriva:
+> 1. Il tipo del risultato: una matrice $3 \times 3$ per una $3 \times 1$ dà una $3 \times 1$, cioè una colonna.
 > 2. Ogni elemento è il prodotto scalare di una riga per la colonna $(1, -1, 2)$:
 >     - 1ª riga: $1 \cdot 1 + 2 \cdot (-1) + (-1) \cdot 2 = 1 - 2 - 2 = -3$;
 >     - 2ª riga: $0 \cdot 1 + 3 \cdot (-1) + 1 \cdot 2 = -3 + 2 = -1$;
@@ -697,8 +712,11 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > Sia $A = \begin{pmatrix} 1 & 2 & 0 \\ -1 & 1 & 3 \end{pmatrix}$. Scrivi ${}^{T}\!A$, di' di che tipo sono $A \cdot {}^{T}\!A$ e ${}^{T}\!A \cdot A$ e calcola $A \cdot {}^{T}\!A$.
 
 > [!success]- Soluzione
-> 1. ${}^{T}\!A = \begin{pmatrix} 1 & -1 \\ 2 & 1 \\ 0 & 3 \end{pmatrix}$ è $3 \times 2$.
-> 2. $A \cdot {}^{T}\!A$ è $2 \times \underline{3} \cdot \underline{3} \times 2$, quindi $2 \times 2$; ${}^{T}\!A \cdot A$ è $3 \times \underline{2} \cdot \underline{2} \times 3$, quindi $3 \times 3$.
+> Risultato: ${}^{T}\!A = \begin{pmatrix} 1 & -1 \\ 2 & 1 \\ 0 & 3 \end{pmatrix}$ ($3 \times 2$); $A \cdot {}^{T}\!A$ è $2 \times 2$ e ${}^{T}\!A \cdot A$ è $3 \times 3$; $A \cdot {}^{T}\!A = \begin{pmatrix} 5 & 1 \\ 1 & 11 \end{pmatrix}$.
+>
+> Come si arriva:
+> 1. La trasposta: le righe di $A$ diventano colonne, quindi ${}^{T}\!A = \begin{pmatrix} 1 & -1 \\ 2 & 1 \\ 0 & 3 \end{pmatrix}$, che è $3 \times 2$.
+> 2. I tipi dei prodotti, guardando i numeri esterni: $A \cdot {}^{T}\!A$ è $2 \times \underline{3} \cdot \underline{3} \times 2$, quindi $2 \times 2$; ${}^{T}\!A \cdot A$ è $3 \times \underline{2} \cdot \underline{2} \times 3$, quindi $3 \times 3$.
 > 3. Le colonne di ${}^{T}\!A$ sono le righe di $A$, quindi ogni elemento di $A \cdot {}^{T}\!A$ è il prodotto scalare di due righe di $A$:
 >     - 1ª riga per 1ª riga: $1 + 4 + 0 = 5$;
 >     - 1ª riga per 2ª riga: $1 \cdot (-1) + 2 \cdot 1 + 0 \cdot 3 = 1$;
@@ -707,7 +725,7 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 > A \cdot {}^{T}\!A = \begin{pmatrix} 5 & 1 \\ 1 & 11 \end{pmatrix}
 > $$
-> 4. Il risultato è uguale alla sua trasposta (è *simmetrico*). Infatti, per le proprietà 3 e 1, ${}^{T}(A \cdot {}^{T}\!A) = {}^{T}({}^{T}\!A) \cdot {}^{T}\!A = A \cdot {}^{T}\!A$.
+> 4. Osservazione: il risultato è uguale alla sua trasposta (è *simmetrico*). Infatti, per le proprietà 3 e 1, ${}^{T}(A \cdot {}^{T}\!A) = {}^{T}({}^{T}\!A) \cdot {}^{T}\!A = A \cdot {}^{T}\!A$.
 
 > [!question] Esercizio 7
 > Trova il numero $k$ per cui
@@ -716,12 +734,15 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 
 > [!success]- Soluzione
-> 1. Si calcola il prodotto lasciando $k$ come lettera:
+> Risultato: $k = 2$.
+>
+> Come si arriva:
+> 1. Si calcola il prodotto lasciando $k$ come lettera, perché non lo conosciamo ancora:
 > $$
 > \begin{pmatrix} 1 \cdot k + 2 \cdot (-1) & 1 \cdot 2 + 2 \cdot (-1) \\ 2 \cdot k + 4 \cdot (-1) & 2 \cdot 2 + 4 \cdot (-1) \end{pmatrix} = \begin{pmatrix} k - 2 & 0 \\ 2k - 4 & 0 \end{pmatrix}.
 > $$
-> 2. Perché sia la matrice nulla servono $k - 2 = 0$ e $2k - 4 = 0$: entrambe danno $k = 2$.
-> 3. Con $k = 2$ due matrici non nulle hanno prodotto nullo, come nel paragrafo "Prodotto uguale a $\Omega$".
+> 2. Perché sia la matrice nulla tutti gli elementi devono essere zero: servono $k - 2 = 0$ e $2k - 4 = 0$, ed entrambe danno $k = 2$.
+> 3. Osservazione: con $k = 2$ due matrici non nulle hanno prodotto nullo, come nel paragrafo "Prodotto uguale a $\Omega$".
 
 #### Il determinante 2×2
 
@@ -732,7 +753,9 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 
 > [!success]- Soluzione
-> Sempre $ad - bc$, con i numeri negativi tra parentesi:
+> Risultato: $11$, $1$ e $-1$.
+>
+> Come si arriva (sempre $ad - bc$, con i numeri negativi tra parentesi per non perdere i segni):
 > 1. $3 \cdot 1 - (-2) \cdot 4 = 3 + 8 = 11$;
 > 2. $(-2) \cdot (-3) - 5 \cdot 1 = 6 - 5 = 1$;
 > 3. $\frac{1}{2} \cdot 4 - 3 \cdot 1 = 2 - 3 = -1$.
@@ -741,8 +764,11 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > Per quali valori di $k$ il determinante $\begin{vmatrix} k & 3 \\ 2 & k - 1 \end{vmatrix}$ è uguale a zero?
 
 > [!success]- Soluzione
-> 1. $\begin{vmatrix} k & 3 \\ 2 & k - 1 \end{vmatrix} = k(k - 1) - 3 \cdot 2 = k^2 - k - 6$.
-> 2. Si risolve l'equazione di secondo grado $k^2 - k - 6 = 0$:
+> Risultato: $k = 3$ oppure $k = -2$.
+>
+> Come si arriva:
+> 1. Si calcola il determinante con $ad - bc$, lasciando $k$ come lettera: $\begin{vmatrix} k & 3 \\ 2 & k - 1 \end{vmatrix} = k(k - 1) - 3 \cdot 2 = k^2 - k - 6$.
+> 2. Si pone uguale a zero e si risolve l'equazione di secondo grado $k^2 - k - 6 = 0$:
 > $$
 > k = \frac{1 \pm \sqrt{1 + 24}}{2} = \frac{1 \pm 5}{2}, \qquad k = 3 \ \text{oppure} \ k = -2 .
 > $$
@@ -757,6 +783,9 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 
 > [!success]- Soluzione
+> Risultato: $\det = -13$.
+>
+> Come si arriva:
 > 1. Prodotti con il segno $+$ (diagonale principale e sue parallele):
 >     - $a_{11}a_{22}a_{33} = 2 \cdot (-1) \cdot 1 = -2$;
 >     - $a_{12}a_{23}a_{31} = 1 \cdot 2 \cdot 1 = 2$;
@@ -765,7 +794,7 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 >     - $a_{13}a_{22}a_{31} = 3 \cdot (-1) \cdot 1 = -3$;
 >     - $a_{11}a_{23}a_{32} = 2 \cdot 2 \cdot 4 = 16$;
 >     - $a_{12}a_{21}a_{33} = 1 \cdot 0 \cdot 1 = 0$.
-> 3. $\det = (-2 + 2 + 0) - (-3 + 16 + 0) = 0 - 13 = -13$.
+> 3. Si sottrae la seconda somma dalla prima: $\det = (-2 + 2 + 0) - (-3 + 16 + 0) = 0 - 13 = -13$.
 
 > [!question] Esercizio 11
 > Calcola con la regola di Sarrus
@@ -774,15 +803,18 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 
 > [!success]- Soluzione
-> 1. Segno $+$:
+> Risultato: $\det = 7$.
+>
+> Come si arriva:
+> 1. Prodotti con il segno $+$ (diagonale principale e sue parallele):
 >     - $1 \cdot 1 \cdot 2 = 2$;
 >     - $(-2) \cdot (-1) \cdot 3 = 6$;
 >     - $3 \cdot 2 \cdot 0 = 0$.
-> 2. Segno $-$:
+> 2. Prodotti con il segno $-$ (l'altra diagonale e sue parallele):
 >     - $a_{13}a_{22}a_{31} = 3 \cdot 1 \cdot 3 = 9$;
 >     - $a_{11}a_{23}a_{32} = 1 \cdot (-1) \cdot 0 = 0$;
 >     - $a_{12}a_{21}a_{33} = (-2) \cdot 2 \cdot 2 = -8$.
-> 3. $\det = (2 + 6 + 0) - (9 + 0 - 8) = 8 - 1 = 7$.
+> 3. Si sottrae la seconda somma dalla prima: $\det = (2 + 6 + 0) - (9 + 0 - 8) = 8 - 1 = 7$.
 
 #### Complementi algebrici e sviluppo di Laplace
 
@@ -790,9 +822,12 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > Sia $A = \begin{pmatrix} 2 & 0 & 1 \\ 3 & -1 & 4 \\ 1 & 0 & 5 \end{pmatrix}$. Calcola i complementi algebrici $A_{21}$ e $A_{22}$, poi $\det A$ con lo sviluppo di Laplace scegliendo la colonna più comoda.
 
 > [!success]- Soluzione
+> Risultato: $A_{21} = 0$, $A_{22} = 9$, $\det A = -9$ (sviluppando lungo la seconda colonna).
+>
+> Come si arriva:
 > 1. $A_{21}$: si tolgono la riga 2 e la colonna 1, resta $\begin{vmatrix} 0 & 1 \\ 0 & 5 \end{vmatrix} = 0 \cdot 5 - 1 \cdot 0 = 0$; con il segno $(-1)^{2+1} = -1$ si ha $A_{21} = 0$.
 > 2. $A_{22}$: si tolgono la riga 2 e la colonna 2, resta $\begin{vmatrix} 2 & 1 \\ 1 & 5 \end{vmatrix} = 10 - 1 = 9$; il segno è $(-1)^{2+2} = +1$, quindi $A_{22} = 9$.
-> 3. La colonna più comoda è la seconda, $(0, -1, 0)$, che ha due zeri:
+> 3. Si sceglie la colonna con più zeri, perché i termini con lo zero spariscono: è la seconda, $(0, -1, 0)$, che ha due zeri:
 > $$
 > \det A = 0 \cdot A_{12} + (-1) \cdot A_{22} + 0 \cdot A_{32} = (-1) \cdot 9 = -9 .
 > $$
@@ -805,10 +840,13 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 
 > [!success]- Soluzione
-> 1. Con Sarrus, segno $+$: $1 \cdot k \cdot 1 + 1 \cdot 2 \cdot k + 1 \cdot 2 \cdot 1 = k + 2k + 2 = 3k + 2$.
-> 2. Segno $-$: $a_{13}a_{22}a_{31} = 1 \cdot k \cdot k = k^2$; $a_{11}a_{23}a_{32} = 1 \cdot 2 \cdot 1 = 2$; $a_{12}a_{21}a_{33} = 1 \cdot 2 \cdot 1 = 2$. In tutto $k^2 + 4$.
-> 3. $\det = (3k + 2) - (k^2 + 4) = -k^2 + 3k - 2$.
-> 4. Si pone uguale a zero e si cambia segno: $k^2 - 3k + 2 = 0$, cioè $(k - 1)(k - 2) = 0$, quindi $k = 1$ oppure $k = 2$.
+> Risultato: $k = 1$ oppure $k = 2$.
+>
+> Come si arriva:
+> 1. Con Sarrus, i prodotti con il segno $+$: $1 \cdot k \cdot 1 + 1 \cdot 2 \cdot k + 1 \cdot 2 \cdot 1 = k + 2k + 2 = 3k + 2$.
+> 2. I prodotti con il segno $-$: $a_{13}a_{22}a_{31} = 1 \cdot k \cdot k = k^2$; $a_{11}a_{23}a_{32} = 1 \cdot 2 \cdot 1 = 2$; $a_{12}a_{21}a_{33} = 1 \cdot 2 \cdot 1 = 2$. In tutto $k^2 + 4$.
+> 3. Si sottrae la seconda somma dalla prima: $\det = (3k + 2) - (k^2 + 4) = -k^2 + 3k - 2$.
+> 4. Si pone uguale a zero e si cambia segno a tutto, per avere $k^2$ positivo: $k^2 - 3k + 2 = 0$, cioè $(k - 1)(k - 2) = 0$, quindi $k = 1$ oppure $k = 2$.
 > 5. Controllo con le proprietà: per $k = 1$ la terza riga $(1, 1, 1)$ è uguale alla prima; per $k = 2$ la seconda riga $(2, 2, 2)$ è il doppio della prima. In entrambi i casi due righe sono proporzionali e il determinante è zero.
 
 > [!question] Esercizio 14
@@ -818,13 +856,16 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 
 > [!success]- Soluzione
-> 1. Sarrus vale solo per le $3 \times 3$; Laplace invece vale per ogni matrice quadrata. Si sceglie la quarta colonna, $(0, 0, 0, 2)$, che ha tre zeri: resta solo $a_{44} = 2$, con segno $(-1)^{4+4} = +1$.
-> 2. Togliendo la riga 4 e la colonna 4:
+> Risultato: $\det = 4$.
+>
+> Come si arriva:
+> 1. Si usa Laplace perché Sarrus vale solo per le $3 \times 3$, mentre Laplace vale per ogni matrice quadrata. Si sceglie la quarta colonna, $(0, 0, 0, 2)$, che ha tre zeri: resta solo $a_{44} = 2$, con segno $(-1)^{4+4} = +1$.
+> 2. Togliendo la riga 4 e la colonna 4 resta una $3 \times 3$:
 > $$
 > \det = 2 \cdot \begin{vmatrix} 1 & 0 & 2 \\ 3 & 2 & 1 \\ 0 & 0 & 1 \end{vmatrix}.
 > $$
-> 3. Nella $3 \times 3$ la terza riga $(0, 0, 1)$ ha due zeri: resta $a_{33} = 1$ con segno $+$, per il minore $\begin{vmatrix} 1 & 0 \\ 3 & 2 \end{vmatrix} = 2 - 0 = 2$. Quindi la $3 \times 3$ vale $1 \cdot 2 = 2$.
-> 4. $\det = 2 \cdot 2 = 4$.
+> 3. Nella $3 \times 3$ si sviluppa lungo la terza riga $(0, 0, 1)$, che ha due zeri: resta $a_{33} = 1$ con segno $+$, per il minore $\begin{vmatrix} 1 & 0 \\ 3 & 2 \end{vmatrix} = 2 - 0 = 2$. Quindi la $3 \times 3$ vale $1 \cdot 2 = 2$.
+> 4. Si moltiplica: $\det = 2 \cdot 2 = 4$.
 
 #### Le proprietà del determinante
 
@@ -835,6 +876,9 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > $$
 
 > [!success]- Soluzione
+> Risultato: a) $13$; b) $-26$; c) $-13$; d) $0$.
+>
+> Come si arriva:
 > 1. a) La seconda e la terza riga sono scambiate: il determinante cambia segno e vale $13$.
 > 2. b) La prima riga è moltiplicata per $2$: il determinante si moltiplica per $2$ e vale $-26$.
 > 3. c) È la trasposta (le righe sono diventate colonne): il determinante non cambia e vale $-13$.
@@ -844,10 +888,13 @@ In questa pagina è svolto solo l'esercizio 1, nel paragrafo sul determinante si
 > Con le matrici dell'esercizio 3, $A = \begin{pmatrix} 2 & 1 \\ -1 & 3 \end{pmatrix}$ e $B = \begin{pmatrix} 1 & 0 \\ 2 & -1 \end{pmatrix}$, calcola $\det A$, $\det B$ e $\det(A \cdot B)$ e verifica il teorema di Binet. Poi confronta $\det(A + B)$ con $\det A + \det B$.
 
 > [!success]- Soluzione
-> 1. $\det A = 2 \cdot 3 - 1 \cdot (-1) = 6 + 1 = 7$; $\det B = 1 \cdot (-1) - 0 \cdot 2 = -1$.
-> 2. Dall'esercizio 3, $A \cdot B = \begin{pmatrix} 4 & -1 \\ 5 & -3 \end{pmatrix}$, quindi $\det(A \cdot B) = 4 \cdot (-3) - (-1) \cdot 5 = -12 + 5 = -7$.
-> 3. Binet: $\det A \cdot \det B = 7 \cdot (-1) = -7$. Torna.
-> 4. $A + B = \begin{pmatrix} 3 & 1 \\ 1 & 2 \end{pmatrix}$, con $\det(A + B) = 6 - 1 = 5$, mentre $\det A + \det B = 7 - 1 = 6$. Sono diversi: il determinante non si comporta bene con la somma.
+> Risultato: $\det A = 7$, $\det B = -1$, $\det(A \cdot B) = -7 = \det A \cdot \det B$ (Binet torna); $\det(A + B) = 5$, mentre $\det A + \det B = 6$: sono diversi.
+>
+> Come si arriva:
+> 1. I due determinanti con $ad - bc$: $\det A = 2 \cdot 3 - 1 \cdot (-1) = 6 + 1 = 7$; $\det B = 1 \cdot (-1) - 0 \cdot 2 = -1$.
+> 2. Il prodotto si prende dall'esercizio 3, $A \cdot B = \begin{pmatrix} 4 & -1 \\ 5 & -3 \end{pmatrix}$, quindi $\det(A \cdot B) = 4 \cdot (-3) - (-1) \cdot 5 = -12 + 5 = -7$.
+> 3. Binet dice che il determinante del prodotto è il prodotto dei determinanti: $\det A \cdot \det B = 7 \cdot (-1) = -7$. Torna.
+> 4. La somma: $A + B = \begin{pmatrix} 3 & 1 \\ 1 & 2 \end{pmatrix}$, con $\det(A + B) = 6 - 1 = 5$, mentre $\det A + \det B = 7 - 1 = 6$. Sono diversi: il determinante non si comporta bene con la somma.
 
 ## Collegamenti
 

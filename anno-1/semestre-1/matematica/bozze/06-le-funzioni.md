@@ -1490,15 +1490,18 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > $$
 
 > [!success]- Soluzione
-> Ci sono una radice quadrata e un denominatore, quindi due condizioni che devono valere insieme:
+> Risultato: $D = [-3, 0) \cup (0, 4) \cup (4, +\infty)$.
+>
+> Come si arriva:
+> 1. Ci sono una radice quadrata e un denominatore, quindi servono due condizioni che devono valere insieme:
 >
 > $$
 > \begin{cases} x + 3 \ge 0 & \text{(radice)} \\ x^2 - 4x \neq 0 & \text{(denominatore)} \end{cases}
 > $$
 >
-> 1. Radice: $x \ge -3$.
-> 2. Denominatore: $x^2 - 4x = x(x - 4) = 0$ per $x = 0$ e per $x = 4$, che vanno esclusi.
-> 3. Si parte da $-3$ (compreso) e si saltano $0$ e $4$:
+> 2. Radice: il radicando non può essere negativo, quindi $x + 3 \ge 0$, cioè $x \ge -3$.
+> 3. Denominatore: non può essere zero. $x^2 - 4x = x(x - 4) = 0$ per $x = 0$ e per $x = 4$, che vanno esclusi.
+> 4. Si mettono insieme: si parte da $-3$ (compreso) e si saltano $0$ e $4$:
 >
 > $$
 > D = [-3, 0) \cup (0, 4) \cup (4, +\infty) .
@@ -1512,24 +1515,24 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > $$
 
 > [!success]- Soluzione
-> Il radicando deve essere $\ge 0$ e, essendo una frazione, il suo denominatore deve essere $\neq 0$:
+> Risultato: $D = [1, 3)$.
+>
+> Come si arriva:
+> 1. Il radicando deve essere $\ge 0$ e, siccome è una frazione, il suo denominatore deve essere $\neq 0$:
 >
 > $$
 > \frac{x - 1}{3 - x} \ge 0, \qquad x \neq 3 .
 > $$
 >
-> Si studia il segno dei due pezzi:
->
-> - numeratore $x - 1 \ge 0$ per $x \ge 1$;
-> - denominatore $3 - x > 0$ per $x < 3$.
->
-> Con la tabella dei segni:
+> 2. Segno del numeratore: $x - 1 \ge 0$ per $x \ge 1$.
+> 3. Segno del denominatore: $3 - x > 0$ per $x < 3$.
+> 4. Tabella dei segni, intervallo per intervallo:
 >
 > - per $x < 1$: numeratore $-$, denominatore $+$, frazione negativa (no);
 > - per $1 \le x < 3$: numeratore $\ge 0$, denominatore $+$, frazione $\ge 0$ (sì);
 > - per $x > 3$: numeratore $+$, denominatore $-$, frazione negativa (no).
 >
-> $x = 1$ è compreso (la frazione vale $0$ e $\sqrt{0} = 0$), $x = 3$ no (denominatore nullo).
+> 5. Estremi: $x = 1$ è compreso (la frazione vale $0$ e $\sqrt{0} = 0$), $x = 3$ no (denominatore nullo). Quindi:
 >
 > $$
 > D = [1, 3) .
@@ -1543,21 +1546,17 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > $$
 
 > [!success]- Soluzione
-> Funzione $f$.
+> Risultato: $f$ ha dominio $\mathbb{R}$ e immagine $(-\infty, 2]$; $g$ ha dominio $[-4, +\infty)$ e immagine $(-\infty, 1]$.
 >
-> 1. È un polinomio: dominio $\mathbb{R}$.
-> 2. $(x - 3)^2 \ge 0$, quindi $-(x - 3)^2 \le 0$ e $2 - (x - 3)^2 \le 2$. Il valore $2$ si raggiunge in $x = 3$.
-> 3. È una parabola con il vertice in $(3, 2)$ rivolta verso il basso: i rami scendono senza limite, quindi si raggiungono tutti i valori sotto $2$.
+> Come si arriva, funzione $f$:
+> 1. Dominio: $f$ è un polinomio, quindi è definita ovunque: dominio $\mathbb{R}$.
+> 2. Valore massimo: $(x - 3)^2 \ge 0$, quindi $-(x - 3)^2 \le 0$ e $2 - (x - 3)^2 \le 2$. Il valore $2$ si raggiunge in $x = 3$.
+> 3. Valori sotto: è una parabola con il vertice in $(3, 2)$ rivolta verso il basso; i rami scendono senza limite, quindi si raggiungono tutti i valori sotto $2$. Immagine $(-\infty, 2]$.
 >
-> Dominio $\mathbb{R}$, immagine $(-\infty, 2]$.
->
-> Funzione $g$.
->
-> 1. Radicando $x + 4 \ge 0$: dominio $[-4, +\infty)$.
-> 2. $\sqrt{x + 4} \ge 0$, quindi $-\sqrt{x + 4} \le 0$ e $g(x) \le 1$, con $g(-4) = 1$.
-> 3. Quando $x$ cresce la radice cresce senza limite e $g$ scende senza limite (per esempio $g(12) = 1 - 4 = -3$).
->
-> Dominio $[-4, +\infty)$, immagine $(-\infty, 1]$.
+> Come si arriva, funzione $g$:
+> 1. Dominio: il radicando non può essere negativo, $x + 4 \ge 0$: dominio $[-4, +\infty)$.
+> 2. Valore massimo: $\sqrt{x + 4} \ge 0$, quindi $-\sqrt{x + 4} \le 0$ e $g(x) \le 1$, con $g(-4) = 1$.
+> 3. Valori sotto: quando $x$ cresce la radice cresce senza limite e $g$ scende senza limite (per esempio $g(12) = 1 - 4 = -3$). Immagine $(-\infty, 1]$.
 
 #### Primo gruppo: iniettività, composizione e inversa
 
@@ -1569,80 +1568,90 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > 3. $h(x) = x^2$, da $[0, 2]$ a $[0, 5]$.
 
 > [!success]- Soluzione
-> 1. $f$ è una retta non orizzontale, sempre crescente: iniettiva. Ogni $y$ reale si raggiunge con $x = \frac{y - 1}{2}$: suriettiva. Quindi biettiva.
-> 2. $g$ non è iniettiva: $g(-1) = g(1) = 0$. È suriettiva: $x^2 \ge 0$ dà $g(x) \ge -1$, e ogni $y \ge -1$ si raggiunge con $x = \sqrt{y + 1}$. Suriettiva ma non iniettiva.
-> 3. Su $[0, 2]$ la funzione $x^2$ è crescente, quindi iniettiva. L'immagine va da $h(0) = 0$ a $h(2) = 4$, cioè $[0, 4]$, che è più piccola del codominio $[0, 5]$: il valore $5$ non viene mai raggiunto. Iniettiva ma non suriettiva.
+> Risultato: 1) $f$ è biettiva (iniettiva e suriettiva); 2) $g$ è suriettiva ma non iniettiva; 3) $h$ è iniettiva ma non suriettiva.
+>
+> Come si arriva:
+> 1. $f(x) = 2x + 1$ è una retta non orizzontale, sempre crescente: valori diversi di $x$ danno valori diversi, quindi è iniettiva. Ogni $y$ reale si raggiunge con $x = \frac{y - 1}{2}$, quindi è suriettiva. Essendo tutte e due le cose, è biettiva.
+> 2. $g(x) = x^2 - 1$ non è iniettiva, perché due $x$ diverse danno lo stesso valore: $g(-1) = g(1) = 0$. È suriettiva su $[-1, +\infty)$: $x^2 \ge 0$ dà $g(x) \ge -1$, e ogni $y \ge -1$ si raggiunge con $x = \sqrt{y + 1}$.
+> 3. Su $[0, 2]$ la funzione $h(x) = x^2$ è crescente, quindi iniettiva. Non è suriettiva perché l'immagine va da $h(0) = 0$ a $h(2) = 4$, cioè $[0, 4]$, che è più piccola del codominio $[0, 5]$: il valore $5$ non viene mai raggiunto.
 
 > [!question] Esercizio 5
 > Date $f(x) = \dfrac{1}{x - 1}$ e $g(x) = x^2$, scrivere $f \circ g$ e $g \circ f$ con i loro domini, e calcolare $(f \circ g)(2)$ e $(g \circ f)(3)$.
 
 > [!success]- Soluzione
-> $f \circ g$: prima $g$, poi $f$. Al posto della $x$ di $f$ si mette $x^2$:
+> Risultato: $(f \circ g)(x) = \dfrac{1}{x^2 - 1}$ con dominio $\mathbb{R} \setminus \{-1, 1\}$; $(g \circ f)(x) = \dfrac{1}{(x - 1)^2}$ con dominio $\mathbb{R} \setminus \{1\}$; $(f \circ g)(2) = \frac13$ e $(g \circ f)(3) = \frac14$.
+>
+> Come si arriva:
+> 1. $f \circ g$ vuol dire prima $g$, poi $f$: al posto della $x$ di $f$ si mette $x^2$:
 >
 > $$
 > (f \circ g)(x) = f(x^2) = \frac{1}{x^2 - 1} .
 > $$
 >
-> Dominio: $x^2 - 1 \neq 0$, cioè $x \neq 1$ e $x \neq -1$. Dominio $\mathbb{R} \setminus \{-1, 1\}$.
->
-> $g \circ f$: prima $f$, poi $g$. Si eleva al quadrato tutta la $f$:
+> 2. Dominio di $f \circ g$: il denominatore non può essere zero, $x^2 - 1 \neq 0$, cioè $x \neq 1$ e $x \neq -1$. Dominio $\mathbb{R} \setminus \{-1, 1\}$.
+> 3. $g \circ f$ vuol dire prima $f$, poi $g$: si eleva al quadrato tutta la $f$:
 >
 > $$
 > (g \circ f)(x) = \left(\frac{1}{x - 1}\right)^2 = \frac{1}{(x - 1)^2} .
 > $$
 >
-> Dominio: il primo passo $f$ richiede $x \neq 1$, poi $g$ non pone condizioni. Dominio $\mathbb{R} \setminus \{1\}$.
->
-> Valori: $(f \circ g)(2) = \frac{1}{4 - 1} = \frac13$ e $(g \circ f)(3) = \frac{1}{(3 - 1)^2} = \frac14$. Le due composte sono diverse: l'ordine conta.
+> 4. Dominio di $g \circ f$: il primo passo, $f$, richiede $x \neq 1$; poi $g$ non pone condizioni. Dominio $\mathbb{R} \setminus \{1\}$.
+> 5. Valori: si sostituisce il numero nella formula trovata. $(f \circ g)(2) = \frac{1}{4 - 1} = \frac13$ e $(g \circ f)(3) = \frac{1}{(3 - 1)^2} = \frac14$. Le due composte sono diverse: l'ordine conta.
 
 > [!question] Esercizio 6
 > Sia $f(x) = \dfrac{x + 1}{x - 2}$. Trovare dominio e immagine, la funzione inversa, e verificare che $f(f^{-1}(x)) = x$.
 
 > [!success]- Soluzione
-> 1. Dominio: $x - 2 \neq 0$, cioè $\mathbb{R} \setminus \{2\}$.
-> 2. Si pone $f(x) = y$ e si ricava $x$:
+> Risultato: dominio $\mathbb{R} \setminus \{2\}$, immagine $\mathbb{R} \setminus \{1\}$, inversa $f^{-1}(x) = \dfrac{2x + 1}{x - 1}$ con $x \neq 1$; la verifica dà $f(f^{-1}(x)) = x$.
+>
+> Come si arriva:
+> 1. Dominio: il denominatore non può essere zero, $x - 2 \neq 0$, cioè $\mathbb{R} \setminus \{2\}$.
+> 2. Per trovare immagine e inversa si pone $f(x) = y$ e si ricava $x$:
 >
 > $$
 > \frac{x + 1}{x - 2} = y \;\Rightarrow\; x + 1 = y(x - 2) \;\Rightarrow\; x + 1 = xy - 2y \;\Rightarrow\; x - xy = -2y - 1 .
 > $$
 >
-> 3. Raccogliendo la $x$: $x(1 - y) = -(2y + 1)$, cioè
+> 3. Si raccoglie la $x$: $x(1 - y) = -(2y + 1)$, cioè
 >
 > $$
 > x = \frac{2y + 1}{y - 1} \qquad (y \neq 1) .
 > $$
 >
-> 4. Per $y = 1$ l'equazione diventa $x + 1 = x - 2$, impossibile: il valore $1$ non viene raggiunto. Per ogni altro $y$ c'è una e una sola $x$ (ed è $\neq 2$, perché sostituendo $x = 2$ si avrebbe $2y + 1 = 2y - 2$, impossibile). Immagine $\mathbb{R} \setminus \{1\}$, e la funzione è iniettiva.
-> 5. Scambiando le lettere:
+> 4. Immagine: per $y = 1$ l'equazione diventa $x + 1 = x - 2$, impossibile, quindi il valore $1$ non viene raggiunto. Per ogni altro $y$ c'è una e una sola $x$ (ed è $\neq 2$, perché sostituendo $x = 2$ si avrebbe $2y + 1 = 2y - 2$, impossibile). Immagine $\mathbb{R} \setminus \{1\}$, e la funzione è iniettiva.
+> 5. Inversa: si scambiano le lettere $x$ e $y$:
 >
 > $$
 > f^{-1}(x) = \frac{2x + 1}{x - 1}, \qquad x \neq 1 .
 > $$
 >
-> 6. Verifica:
+> 6. Verifica: si mette $f^{-1}(x)$ al posto della $x$ di $f$:
 >
 > $$
 > f(f^{-1}(x)) = \frac{\frac{2x + 1}{x - 1} + 1}{\frac{2x + 1}{x - 1} - 2} = \frac{\frac{2x + 1 + x - 1}{x - 1}}{\frac{2x + 1 - 2x + 2}{x - 1}} = \frac{3x}{3} = x .
 > $$
 >
-> Controllo con un numero: $f(0) = \frac{1}{-2} = -\frac12$, e infatti $f^{-1}\left(-\frac12\right) = \frac{-1 + 1}{-\frac32} = 0$.
+> 7. Controllo con un numero: $f(0) = \frac{1}{-2} = -\frac12$, e infatti $f^{-1}\left(-\frac12\right) = \frac{-1 + 1}{-\frac32} = 0$.
 
 > [!question] Esercizio 7
 > La funzione $f(x) = x^2 + 4x + 1$ non è iniettiva su $\mathbb{R}$. Restringere il dominio per ottenere una biezione con la sua immagine e scrivere l'inversa. Quale sarebbe l'inversa scegliendo l'altro ramo?
 
 > [!success]- Soluzione
-> 1. Si completa il quadrato: $x^2 + 4x + 1 = (x^2 + 4x + 4) - 3 = (x + 2)^2 - 3$. È una parabola con il vertice in $(-2, -3)$ rivolta verso l'alto. Non è iniettiva: per esempio $f(-4) = f(0) = 1$. L'immagine è $[-3, +\infty)$.
-> 2. Ramo destro, $x \ge -2$: qui la funzione è crescente, quindi $f: [-2, +\infty) \to [-3, +\infty)$ è biettiva.
-> 3. Da $y = (x + 2)^2 - 3$ si ha $(x + 2)^2 = y + 3$; siccome $x + 2 \ge 0$ si prende la radice positiva: $x + 2 = \sqrt{y + 3}$, cioè $x = -2 + \sqrt{y + 3}$.
-> 4. Inversa:
+> Risultato: restringendo a $[-2, +\infty)$ si ha la biezione $f: [-2, +\infty) \to [-3, +\infty)$ con inversa $f^{-1}(x) = -2 + \sqrt{x + 3}$, $x \ge -3$. Con l'altro ramo, $(-\infty, -2]$, l'inversa è $f^{-1}(x) = -2 - \sqrt{x + 3}$, $x \ge -3$.
+>
+> Come si arriva:
+> 1. Si completa il quadrato per trovare il vertice: $x^2 + 4x + 1 = (x^2 + 4x + 4) - 3 = (x + 2)^2 - 3$. È una parabola con il vertice in $(-2, -3)$ rivolta verso l'alto, quindi l'immagine è $[-3, +\infty)$.
+> 2. Non è iniettiva perché è simmetrica rispetto al vertice: per esempio $f(-4) = f(0) = 1$.
+> 3. Si sceglie il ramo destro, $x \ge -2$: qui la funzione è crescente, quindi $f: [-2, +\infty) \to [-3, +\infty)$ è biettiva.
+> 4. Si ricava $x$: da $y = (x + 2)^2 - 3$ si ha $(x + 2)^2 = y + 3$; siccome sul ramo destro $x + 2 \ge 0$, si prende la radice positiva: $x + 2 = \sqrt{y + 3}$, cioè $x = -2 + \sqrt{y + 3}$.
+> 5. Si scambiano le lettere e si ottiene l'inversa:
 >
 > $$
 > f^{-1}(x) = -2 + \sqrt{x + 3}, \qquad x \ge -3 .
 > $$
 >
-> 5. Ramo sinistro, $x \le -2$: ora $x + 2 \le 0$, quindi $x + 2 = -\sqrt{y + 3}$ e l'inversa è $f^{-1}(x) = -2 - \sqrt{x + 3}$, sempre per $x \ge -3$.
->
-> Controllo: con il ramo destro $f^{-1}(6) = -2 + 3 = 1$ e $f(1) = 1 + 4 + 1 = 6$; con il sinistro $f^{-1}(6) = -2 - 3 = -5$ e $f(-5) = 25 - 20 + 1 = 6$.
+> 6. Ramo sinistro, $x \le -2$: ora $x + 2 \le 0$, quindi si prende la radice negativa, $x + 2 = -\sqrt{y + 3}$, e l'inversa è $f^{-1}(x) = -2 - \sqrt{x + 3}$, sempre per $x \ge -3$.
+> 7. Controllo: con il ramo destro $f^{-1}(6) = -2 + 3 = 1$ e $f(1) = 1 + 4 + 1 = 6$; con il sinistro $f^{-1}(6) = -2 - 3 = -5$ e $f(-5) = 25 - 20 + 1 = 6$.
 
 #### Primo gruppo: parità e grafici
 
@@ -1654,43 +1663,42 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > $$
 
 > [!success]- Soluzione
-> 1. $f$: dominio $\mathbb{R}$, simmetrico. $f(-x) = (-x)^3 - 4(-x) = -x^3 + 4x = -(x^3 - 4x) = -f(x)$. Dispari (ci sono solo potenze dispari).
-> 2. $g$: il denominatore $x^2 + 1$ non è mai zero, dominio $\mathbb{R}$. $g(-x) = \frac{(-x)^2}{(-x)^2 + 1} = \frac{x^2}{x^2 + 1} = g(x)$. Pari.
-> 3. $h$: dominio $\mathbb{R}$. $h(-x) = (1 - x)^2$, che in generale non è né $h(x)$ né $-h(x)$. Con un numero: $h(1) = 4$ e $h(-1) = 0$, né uguali né opposti. Né pari né dispari. (Sviluppando, $h(x) = x^2 + 2x + 1$ mescola potenze pari e dispari.)
-> 4. $k$: dominio $\mathbb{R} \setminus \{1\}$, che non è simmetrico: $-1$ c'è ma $1$ no. Né pari né dispari, senza bisogno di fare conti.
+> Risultato: $f$ è dispari; $g$ è pari; $h$ non è né pari né dispari; $k$ non è né pari né dispari.
+>
+> Come si arriva (per ogni funzione si controlla che il dominio sia simmetrico e poi si calcola $f(-x)$):
+> 1. $f$: dominio $\mathbb{R}$, simmetrico. $f(-x) = (-x)^3 - 4(-x) = -x^3 + 4x = -(x^3 - 4x) = -f(x)$, quindi è dispari (ci sono solo potenze dispari).
+> 2. $g$: il denominatore $x^2 + 1$ non è mai zero, dominio $\mathbb{R}$. $g(-x) = \frac{(-x)^2}{(-x)^2 + 1} = \frac{x^2}{x^2 + 1} = g(x)$, quindi è pari.
+> 3. $h$: dominio $\mathbb{R}$. $h(-x) = (1 - x)^2$, che in generale non è né $h(x)$ né $-h(x)$. Con un numero: $h(1) = 4$ e $h(-1) = 0$, né uguali né opposti. Quindi né pari né dispari. (Sviluppando, $h(x) = x^2 + 2x + 1$ mescola potenze pari e dispari.)
+> 4. $k$: dominio $\mathbb{R} \setminus \{1\}$, che non è simmetrico: $-1$ c'è ma $1$ no. Quindi né pari né dispari, senza bisogno di fare conti.
 
 > [!question] Esercizio 9
 > Disegnare $y = 2 - |x + 1|$ a partire da $y = |x|$, indicando vertice, zeri, immagine e intervalli di monotonia.
 
 > [!success]- Soluzione
-> Passaggi:
+> Risultato: è una «V» capovolta con il vertice in $(-1, 2)$ (il punto più alto); zeri $x = -3$ e $x = 1$; immagine $(-\infty, 2]$; crescente su $(-\infty, -1]$ e decrescente su $[-1, +\infty)$.
 >
-> 1. $|x|$: una «V» con il vertice nell'origine.
-> 2. $|x + 1|$: traslazione di $1$ verso sinistra, vertice in $(-1, 0)$.
-> 3. $-|x + 1|$: riflessione rispetto all'asse $x$, la «V» si capovolge e si apre verso il basso.
-> 4. $2 - |x + 1|$: traslazione di $2$ verso l'alto, vertice in $(-1, 2)$.
->
-> Informazioni:
->
-> - Vertice: $(-1, 2)$, che è il punto più alto.
-> - Zeri: $2 - |x + 1| = 0 \Rightarrow |x + 1| = 2 \Rightarrow x + 1 = 2$ oppure $x + 1 = -2$, cioè $x = 1$ e $x = -3$.
-> - Immagine: $|x + 1| \ge 0$, quindi $2 - |x + 1| \le 2$. Immagine $(-\infty, 2]$.
-> - Monotonia: crescente su $(-\infty, -1]$, decrescente su $[-1, +\infty)$.
+> Come si arriva (il grafico si costruisce per passi):
+> 1. Si parte da $|x|$: una «V» con il vertice nell'origine.
+> 2. $|x + 1|$: il $+1$ dentro sposta il grafico di $1$ verso sinistra, vertice in $(-1, 0)$.
+> 3. $-|x + 1|$: il segno meno davanti riflette rispetto all'asse $x$, la «V» si capovolge e si apre verso il basso.
+> 4. $2 - |x + 1|$: il $+2$ fuori sposta di $2$ verso l'alto, vertice in $(-1, 2)$, che è il punto più alto.
+> 5. Zeri: si pone $y = 0$. $2 - |x + 1| = 0 \Rightarrow |x + 1| = 2 \Rightarrow x + 1 = 2$ oppure $x + 1 = -2$, cioè $x = 1$ e $x = -3$.
+> 6. Immagine: $|x + 1| \ge 0$, quindi $2 - |x + 1| \le 2$, e i rami scendono senza limite. Immagine $(-\infty, 2]$.
+> 7. Monotonia: a sinistra del vertice il grafico sale, a destra scende: crescente su $(-\infty, -1]$, decrescente su $[-1, +\infty)$.
 
 > [!question] Esercizio 10
 > Disegnare $y = |x^2 - 4x|$ e indicarne zeri, immagine e intervalli di monotonia.
 
 > [!success]- Soluzione
+> Risultato: zeri $x = 0$ e $x = 4$; immagine $[0, +\infty)$; decrescente su $(-\infty, 0]$, crescente su $[0, 2]$, decrescente su $[2, 4]$, crescente su $[4, +\infty)$.
+>
+> Come si arriva:
 > 1. Si parte da $x^2 - 4x$. Completando il quadrato: $x^2 - 4x = (x - 2)^2 - 4$, parabola con il vertice in $(2, -4)$, rivolta verso l'alto, che taglia l'asse $x$ dove $x(x - 4) = 0$, cioè in $x = 0$ e $x = 4$.
-> 2. Tra $0$ e $4$ la parabola sta sotto l'asse $x$. Il valore assoluto ribalta quell'arco verso l'alto: il vertice $(2, -4)$ diventa $(2, 4)$. Fuori da $[0, 4]$ il grafico non cambia.
->
-> Informazioni:
->
-> - Zeri: $x = 0$ e $x = 4$.
-> - Immagine: un valore assoluto non è mai negativo, vale $0$ negli zeri e i rami esterni salgono senza limite. Immagine $[0, +\infty)$.
-> - Monotonia: decrescente su $(-\infty, 0]$, crescente su $[0, 2]$, decrescente su $[2, 4]$, crescente su $[4, +\infty)$.
->
-> Il punto $(2, 4)$ è il più alto dell'arco centrale, ma non di tutto il grafico: i rami esterni vanno più in alto.
+> 2. Il valore assoluto rende positivi i valori negativi: tra $0$ e $4$ la parabola sta sotto l'asse $x$, e quell'arco viene ribaltato verso l'alto; il vertice $(2, -4)$ diventa $(2, 4)$. Fuori da $[0, 4]$ il grafico non cambia.
+> 3. Zeri: sono gli stessi della parabola, $x = 0$ e $x = 4$.
+> 4. Immagine: un valore assoluto non è mai negativo, vale $0$ negli zeri e i rami esterni salgono senza limite. Immagine $[0, +\infty)$.
+> 5. Monotonia: si legge dal grafico, da sinistra a destra: decrescente su $(-\infty, 0]$, crescente su $[0, 2]$, decrescente su $[2, 4]$, crescente su $[4, +\infty)$.
+> 6. Il punto $(2, 4)$ è il più alto dell'arco centrale, ma non di tutto il grafico: i rami esterni vanno più in alto.
 
 #### Primo gruppo: un esercizio completo come quello del professore
 
@@ -1698,15 +1706,17 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > Data $f(x) = \sqrt{x^2 + 1} - x$, trovare il dominio, l'immagine, la funzione inversa e verificare che $f(f^{-1}(x)) = x$.
 
 > [!success]- Soluzione
-> Dominio. Il radicando $x^2 + 1$ è sempre $\ge 1 > 0$, quindi $D = \mathbb{R}$.
+> Risultato: dominio $\mathbb{R}$; immagine $(0, +\infty)$; inversa $f^{-1}(x) = \dfrac{1 - x^2}{2x}$ con $x > 0$; la verifica dà $f(f^{-1}(x)) = x$.
 >
-> Immagine, con il metodo del professore.
+> Come si arriva, dominio:
+> 1. Il radicando $x^2 + 1$ è sempre $\ge 1 > 0$, quindi non ci sono condizioni: $D = \mathbb{R}$.
 >
+> Come si arriva, immagine (con il metodo del professore):
 > 1. Si pone $f(x) = y$ e si isola la radice: $\sqrt{x^2 + 1} = x + y$.
 > 2. Condizione: la radice è $\ge 0$, quindi anche $x + y \ge 0$.
-> 3. Si eleva al quadrato: $x^2 + 1 = x^2 + 2xy + y^2$.
+> 3. Si eleva al quadrato per togliere la radice: $x^2 + 1 = x^2 + 2xy + y^2$.
 > 4. Gli $x^2$ si semplificano: $1 = 2xy + y^2$, cioè $2xy = 1 - y^2$.
-> 5. Se $y = 0$ si ottiene $0 = 1$, impossibile. Per $y \neq 0$:
+> 5. Si ricava $x$. Se $y = 0$ si ottiene $0 = 1$, impossibile. Per $y \neq 0$:
 >
 > $$
 > x = \frac{1 - y^2}{2y} .
@@ -1724,19 +1734,20 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > \operatorname{Im} f = (0, +\infty) .
 > $$
 >
-> Senza la condizione si sbaglierebbe: con $y = -1$ il punto 5 darebbe $x = 0$, ma $f(0) = 1$, non $-1$.
+> 8. Senza la condizione si sbaglierebbe: con $y = -1$ il punto 5 darebbe $x = 0$, ma $f(0) = 1$, non $-1$.
 >
-> Inversa. Per ogni $y > 0$ c'è una sola $x$, quindi $f: \mathbb{R} \to (0, +\infty)$ è biettiva. Scambiando le lettere:
+> Come si arriva, inversa:
+> 1. Per ogni $y > 0$ c'è una sola $x$, quindi $f: \mathbb{R} \to (0, +\infty)$ è biettiva.
+> 2. Si scambiano le lettere nella formula del punto 5:
 >
 > $$
 > f^{-1}(x) = \frac{1 - x^2}{2x}, \qquad x > 0 .
 > $$
 >
-> Controllo: $f^{-1}(1) = 0$ e $f(0) = 1$; $f^{-1}(2) = -\frac34$ e $f\left(-\frac34\right) = \sqrt{\frac{9}{16} + 1} + \frac34 = \frac54 + \frac34 = 2$.
+> 3. Controllo: $f^{-1}(1) = 0$ e $f(0) = 1$; $f^{-1}(2) = -\frac34$ e $f\left(-\frac34\right) = \sqrt{\frac{9}{16} + 1} + \frac34 = \frac54 + \frac34 = 2$.
 >
-> Verifica $f \circ f^{-1}$. Si chiama $t = \frac{1 - x^2}{2x}$, con $x > 0$.
->
-> 1. Il radicando:
+> Come si arriva, verifica di $f \circ f^{-1}$ (si chiama $t = \frac{1 - x^2}{2x}$, con $x > 0$):
+> 1. Si calcola il radicando:
 >
 > $$
 > t^2 + 1 = \frac{(1 - x^2)^2 + 4x^2}{4x^2} = \frac{1 + 2x^2 + x^4}{4x^2} = \left(\frac{1 + x^2}{2x}\right)^2 .
@@ -1759,10 +1770,13 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > $$
 
 > [!success]- Soluzione
+> Risultato: $\log_2 \frac18 = -3$; $\log_9 27 = \frac32$; $\ln \frac{1}{e^2} = -2$; $e^{2 \ln 3} = 9$.
+>
+> Come si arriva (il logaritmo è l'esponente da dare alla base, quindi si scrive l'argomento come potenza della base):
 > 1. $\frac18 = 2^{-3}$, quindi $\log_2 \frac18 = -3$.
 > 2. Si scrivono $9$ e $27$ come potenze di $3$: $9 = 3^2$, $27 = 3^3$. Si cerca $a$ con $9^a = 27$, cioè $3^{2a} = 3^3$: $2a = 3$, $a = \frac32$. Quindi $\log_9 27 = \frac32$.
 > 3. $\frac{1}{e^2} = e^{-2}$, quindi $\ln \frac{1}{e^2} = -2$.
-> 4. $2 \ln 3 = \ln 3^2 = \ln 9$, e $e^{\ln 9} = 9$.
+> 4. Si porta il $2$ dentro il logaritmo: $2 \ln 3 = \ln 3^2 = \ln 9$, e $e^{\ln 9} = 9$ perché esponenziale e logaritmo si annullano.
 
 > [!question] Esercizio 13
 > Risolvere:
@@ -1772,17 +1786,20 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > 3. $\log_2(x + 1) + \log_2(x - 1) = 3$, indicando prima il dominio.
 
 > [!success]- Soluzione
-> 1. $16 = 2^4$, quindi $2^{x + 1} = 2^4$ e $x + 1 = 4$: $x = 3$.
-> 2. Si porta tutto in base $2$: $4^x = (2^2)^x = 2^{2x}$ e $8 = 2^3$. Quindi $2x = 3$: $x = \frac32$.
-> 3. Dominio: $x + 1 > 0$ e $x - 1 > 0$, cioè $x > 1$.
+> Risultato: 1) $x = 3$; 2) $x = \frac32$; 3) dominio $x > 1$, soluzione $x = 3$ ($x = -3$ si scarta).
 >
-> Con la proprietà del prodotto:
+> Come si arriva:
+> 1. Si scrive $16$ come potenza di $2$: $16 = 2^4$, quindi $2^{x + 1} = 2^4$; con la stessa base gli esponenti sono uguali, $x + 1 = 4$: $x = 3$.
+> 2. Si porta tutto in base $2$: $4^x = (2^2)^x = 2^{2x}$ e $8 = 2^3$. Quindi $2x = 3$: $x = \frac32$.
+> 3. Dominio: gli argomenti dei logaritmi devono essere positivi, $x + 1 > 0$ e $x - 1 > 0$, cioè $x > 1$.
+> 4. Con la proprietà del prodotto si uniscono i due logaritmi e si toglie il logaritmo:
 >
 > $$
 > \log_2\big((x + 1)(x - 1)\big) = 3 \;\Rightarrow\; x^2 - 1 = 2^3 = 8 \;\Rightarrow\; x^2 = 9 \;\Rightarrow\; x = \pm 3 .
 > $$
 >
-> $x = -3$ non è nel dominio e si scarta. Soluzione $x = 3$. Controllo: $\log_2 4 + \log_2 2 = 2 + 1 = 3$.
+> 5. Si confronta con il dominio: $x = -3$ non è nel dominio e si scarta. Soluzione $x = 3$.
+> 6. Controllo: $\log_2 4 + \log_2 2 = 2 + 1 = 3$.
 
 > [!question] Esercizio 14
 > Risolvere le disequazioni
@@ -1792,25 +1809,37 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > $$
 
 > [!success]- Soluzione
-> 1. $9 = 3^2 = \left(\frac13\right)^{-2}$, quindi $\left(\frac13\right)^x > \left(\frac13\right)^{-2}$. La base $\frac13$ è minore di $1$, la funzione è decrescente e il verso si gira: $x < -2$.
-> 2. Dominio: $2x - 1 > 0$, cioè $x > \frac12$. Poi $0 = \ln 1$, quindi $\ln(2x - 1) \le \ln 1$; la base $e$ è maggiore di $1$ e il verso resta: $2x - 1 \le 1$, cioè $x \le 1$. Mettendo insieme dominio e disequazione: $\frac12 < x \le 1$, cioè $\left(\frac12, 1\right]$.
+> Risultato: la prima ha soluzione $x < -2$, cioè $(-\infty, -2)$; la seconda ha soluzione $\frac12 < x \le 1$, cioè $\left(\frac12, 1\right]$.
+>
+> Come si arriva, prima disequazione:
+> 1. Si scrive $9$ come potenza di $\frac13$: $9 = 3^2 = \left(\frac13\right)^{-2}$, quindi $\left(\frac13\right)^x > \left(\frac13\right)^{-2}$.
+> 2. La base $\frac13$ è minore di $1$, la funzione è decrescente e il verso si gira: $x < -2$.
+>
+> Come si arriva, seconda disequazione:
+> 1. Dominio: l'argomento del logaritmo deve essere positivo, $2x - 1 > 0$, cioè $x > \frac12$.
+> 2. Si scrive $0$ come logaritmo: $0 = \ln 1$, quindi $\ln(2x - 1) \le \ln 1$.
+> 3. La base $e$ è maggiore di $1$ e il verso resta: $2x - 1 \le 1$, cioè $x \le 1$.
+> 4. Si mettono insieme dominio e disequazione: $\frac12 < x \le 1$, cioè $\left(\frac12, 1\right]$.
 
 > [!question] Esercizio 15
 > Per $f(x) = 2 + e^{x - 1}$ determinare dominio, immagine, monotonia, asintoto e la funzione inversa.
 
 > [!success]- Soluzione
-> 1. Dominio: l'esponenziale è definito ovunque, $\mathbb{R}$.
-> 2. È il grafico di $e^x$ traslato di $1$ verso destra e di $2$ verso l'alto.
+> Risultato: dominio $\mathbb{R}$; immagine $(2, +\infty)$; crescente su tutto $\mathbb{R}$; asintoto orizzontale $y = 2$ per $x \to -\infty$; inversa $f^{-1}(x) = 1 + \ln(x - 2)$ con $x > 2$.
+>
+> Come si arriva:
+> 1. Dominio: l'esponenziale è definito ovunque, quindi $\mathbb{R}$.
+> 2. Grafico: è quello di $e^x$ traslato di $1$ verso destra e di $2$ verso l'alto.
 > 3. Immagine: $e^{x - 1} > 0$ per ogni $x$, quindi $f(x) > 2$, e si raggiungono tutti i valori sopra $2$. Immagine $(2, +\infty)$.
 > 4. Monotonia: $e^x$ è crescente e le traslazioni non cambiano la monotonia, quindi $f$ è crescente su tutto $\mathbb{R}$ (e dunque iniettiva).
 > 5. Asintoto orizzontale: per $x \to -\infty$ l'esponenziale tende a $0$ e il grafico si avvicina alla retta $y = 2$.
-> 6. Inversa: $y = 2 + e^{x - 1} \Rightarrow e^{x - 1} = y - 2 \Rightarrow x - 1 = \ln(y - 2) \Rightarrow x = 1 + \ln(y - 2)$. Scambiando le lettere:
+> 6. Inversa: si pone $f(x) = y$ e si ricava $x$, togliendo l'esponenziale con il logaritmo: $y = 2 + e^{x - 1} \Rightarrow e^{x - 1} = y - 2 \Rightarrow x - 1 = \ln(y - 2) \Rightarrow x = 1 + \ln(y - 2)$. Scambiando le lettere:
 >
 > $$
 > f^{-1}(x) = 1 + \ln(x - 2), \qquad x > 2 .
 > $$
 >
-> Controllo: $f(1) = 2 + e^0 = 3$ e $f^{-1}(3) = 1 + \ln 1 = 1$.
+> 7. Controllo: $f(1) = 2 + e^0 = 3$ e $f^{-1}(3) = 1 + \ln 1 = 1$.
 
 #### Secondo gruppo: trigonometria
 
@@ -1819,7 +1848,10 @@ Gli esercizi sono divisi in due gruppi. Il primo (esercizi 1-11) riguarda le fun
 > 2. Calcolare $\arcsin \dfrac{\sqrt3}{2}$ e $\arctan(-1)$.
 
 > [!success]- Soluzione
-> 1. $2\cos x - 1 = 0$ vuol dire $\cos x = \frac12$. Sulla circonferenza goniometrica il coseno vale $\frac12$ nel primo quadrante, in $x = \frac{\pi}{3}$, e nel quarto, nel punto simmetrico rispetto all'asse $x$: $x = 2\pi - \frac{\pi}{3} = \frac{5\pi}{3}$. Soluzioni $\frac{\pi}{3}$ e $\frac{5\pi}{3}$.
+> Risultato: 1) $2\cos x - 1 = 0$ ha soluzioni $x = \frac{\pi}{3}$ e $x = \frac{5\pi}{3}$; $\sin x = -\frac{\sqrt2}{2}$ ha soluzioni $x = \frac{5\pi}{4}$ e $x = \frac{7\pi}{4}$. 2) $\arcsin \frac{\sqrt3}{2} = \frac{\pi}{3}$ e $\arctan(-1) = -\frac{\pi}{4}$.
+>
+> Come si arriva:
+> 1. $2\cos x - 1 = 0$ vuol dire $\cos x = \frac12$. Sulla circonferenza goniometrica il coseno vale $\frac12$ nel primo quadrante, in $x = \frac{\pi}{3}$, e nel quarto, nel punto simmetrico rispetto all'asse $x$: $x = 2\pi - \frac{\pi}{3} = \frac{5\pi}{3}$.
 > 2. $\sin x = -\frac{\sqrt2}{2}$: il seno è negativo nel terzo e nel quarto quadrante, e l'angolo di riferimento è $\frac{\pi}{4}$. Soluzioni $x = \pi + \frac{\pi}{4} = \frac{5\pi}{4}$ e $x = 2\pi - \frac{\pi}{4} = \frac{7\pi}{4}$.
 > 3. $\arcsin \frac{\sqrt3}{2}$ è l'angolo di $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$ con seno $\frac{\sqrt3}{2}$: $\frac{\pi}{3}$.
 > 4. $\arctan(-1)$ è l'angolo di $\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$ con tangente $-1$: $-\frac{\pi}{4}$ (non $\frac{3\pi}{4}$, che ha anch'esso tangente $-1$ ma sta fuori dall'intervallo).
