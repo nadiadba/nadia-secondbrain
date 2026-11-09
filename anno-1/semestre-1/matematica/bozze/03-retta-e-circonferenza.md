@@ -531,6 +531,46 @@ Si usa la formula della distanza nello spazio al posto di quella nel piano, e si
 
 Anche per la sfera, se l'equazione è data in forma sviluppata ($x^2 + y^2 + z^2 + \dots = 0$), centro e raggio si trovano completando i quadrati, come per la circonferenza: un esempio svolto è nel capitolo di Stewart (esempio 5 del paragrafo 2.1).
 
+## FORMULARIO
+
+### Piano cartesiano e distanza
+
+- Valore assoluto: $|a| = a$ se $a \geq 0$, $|a| = -a$ se $a < 0$
+- Distanza tra due numeri: $|a - b|$
+- Variazioni: $\Delta x = x_B - x_A$, $\Delta y = y_B - y_A$
+- Distanza tra due punti: $d(A, B) = \sqrt{(x_B - x_A)^2 + (y_B - y_A)^2}$
+- Punto medio: $M = \left( \dfrac{x_A + x_B}{2}, \dfrac{y_A + y_B}{2} \right)$
+- Distanza nello spazio: $d(A, B) = \sqrt{(x_B - x_A)^2 + (y_B - y_A)^2 + (z_B - z_A)^2}$
+
+### Retta
+
+- Pendenza: $m = \dfrac{\Delta y}{\Delta x} = \dfrac{y_B - y_A}{x_B - x_A}$
+- Pendenza e angolo: $m = \operatorname{tg} \alpha$
+- Pendenza in percentuale: $8\% \Rightarrow m = 0{,}08$
+- Forma esplicita: $y = mx + q$
+- Forma implicita: $ax + by + c = 0$, con $m = -\dfrac{a}{b}$, $q = -\dfrac{c}{b}$
+- Retta orizzontale: $y = k$ ($m = 0$)
+- Retta verticale: $x = h$ ($m$ non definita)
+- Retta per un punto con pendenza $m$: $y - y_0 = m\,(x - x_0)$
+- Retta per due punti: $\dfrac{y - y_A}{y_B - y_A} = \dfrac{x - x_A}{x_B - x_A}$
+- Parallele: $m_1 = m_2$
+- Perpendicolari: $m_1 \cdot m_2 = -1$, cioè $m_2 = -\dfrac{1}{m_1}$
+- Perpendicolari in forma implicita: $a_1a_2 + b_1b_2 = 0$
+- Intersezione: sistema $\begin{cases} a_1x + b_1y + c_1 = 0 \\ a_2x + b_2y + c_2 = 0 \end{cases}$
+- Distanza punto-retta: $d(P, r) = \dfrac{|a x_0 + b y_0 + c|}{\sqrt{a^2 + b^2}}$
+
+### Circonferenza e sfera
+
+- Circonferenza di centro $C(x_0, y_0)$: $(x - x_0)^2 + (y - y_0)^2 = r^2$
+- Centro nell'origine: $x^2 + y^2 = r^2$
+- Forma sviluppata: $x^2 + y^2 + ax + by + c = 0$
+- Centro dalla forma sviluppata: $C = \left( -\dfrac{a}{2}, -\dfrac{b}{2} \right)$
+- Raggio dalla forma sviluppata: $r = \sqrt{\dfrac{a^2}{4} + \dfrac{b^2}{4} - c}$, con $\dfrac{a^2}{4} + \dfrac{b^2}{4} - c > 0$
+- Completamento del quadrato: $x^2 + ax = \left( x + \dfrac{a}{2} \right)^2 - \dfrac{a^2}{4}$
+- Retta e circonferenza (distanza dal centro): $d < r$ secante, $d = r$ tangente, $d > r$ esterna
+- Retta e circonferenza (sistema): $\Delta > 0$ secante, $\Delta = 0$ tangente, $\Delta < 0$ esterna
+- Sfera di centro $C(x_0, y_0, z_0)$: $(x - x_0)^2 + (y - y_0)^2 + (z - z_0)^2 = r^2$
+
 ## ESERCIZI
 
 Questa sezione serve per allenarsi in vista dell'esonero. Conviene provare ogni esercizio da sola, su carta e con un piccolo disegno sul piano cartesiano, e solo dopo aprire la soluzione cliccando sul riquadro verde: se il risultato è diverso, si confrontano i passaggi uno per uno per trovare dove ci si è fermati.

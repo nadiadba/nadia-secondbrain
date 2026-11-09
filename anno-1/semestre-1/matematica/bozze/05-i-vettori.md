@@ -978,6 +978,66 @@ Questo esercizio, fatto in classe, mette insieme quasi tutta la pagina: combinaz
 > - Il volume di un parallelepipedo si calcola con tre vettori (il prodotto triplo), non con quattro.
 > - Nei vero o falso, "se $\mathbf{u} \cdot \mathbf{v} < 0$ l'angolo è ottuso" è vero: il segno del prodotto scalare è il segno del coseno.
 
+## FORMULARIO
+
+### Punti e vettori
+
+- Vettore da $A$ a $B$: $\overrightarrow{AB} = B - A = (b_1 - a_1,\ b_2 - a_2)$
+- Vettore opposto: $\overrightarrow{BA} = -\overrightarrow{AB}$
+- Punto medio: $M_{(AB)} = \left(\dfrac{a_1 + b_1}{2}, \dfrac{a_2 + b_2}{2}\right) = A + \tfrac12\overrightarrow{AB}$
+
+### Operazioni
+
+- Somma: $(u_1, u_2) + (v_1, v_2) = (u_1 + v_1,\ u_2 + v_2)$
+- Differenza: $(u_1, u_2) - (v_1, v_2) = (u_1 - v_1,\ u_2 - v_2)$
+- Prodotto per uno scalare: $k\,(u_1, u_2) = (k u_1,\ k u_2)$
+- Base standard: $(u_1, u_2, u_3) = u_1\mathbf{e}_1 + u_2\mathbf{e}_2 + u_3\mathbf{e}_3$
+- Parallelismo: $\vec{v} \parallel \vec{w} \iff \exists\, \lambda \in \mathbb{R}^* \ \text{t/c}\ \vec{v} = \lambda \vec{w}$
+
+### Norma e versore
+
+- Norma: $\|\mathbf{u}\| = \sqrt{u_1^2 + u_2^2 + u_3^2}$
+- Norma di un multiplo: $\|k\,\mathbf{u}\| = |k|\,\|\mathbf{u}\|$
+- Distanza tra due punti: $d(A, B) = \|B - A\|$
+- Versore: $\dfrac{\mathbf{u}}{\|\mathbf{u}\|}$
+
+### Prodotto scalare
+
+- In coordinate: $\mathbf{u} \cdot \mathbf{v} = u_1 v_1 + u_2 v_2 + u_3 v_3$
+- Geometrico: $\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\|\,\|\mathbf{v}\|\cos\theta$
+- Angolo: $\cos\theta = \dfrac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|\,\|\mathbf{v}\|}$, con $0 \leq \theta \leq \pi$
+- Segno: $\mathbf{u} \cdot \mathbf{v} > 0$ acuto, $= 0$ retto ($\mathbf{u} \perp \mathbf{v}$), $< 0$ ottuso
+- Ortogonale nel piano: $(a, b) \perp (-b, a)$
+- Con se stesso: $\mathbf{u} \cdot \mathbf{u} = \|\mathbf{u}\|^2$
+- Norma della somma: $\|\mathbf{u} \pm \mathbf{v}\|^2 = \|\mathbf{u}\|^2 \pm 2\,\mathbf{u} \cdot \mathbf{v} + \|\mathbf{v}\|^2$
+- Pitagora: $\mathbf{u} \cdot \mathbf{v} = 0 \Rightarrow \|\mathbf{u} + \mathbf{v}\|^2 = \|\mathbf{u}\|^2 + \|\mathbf{v}\|^2$
+- Proiezione scalare: $\dfrac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{v}\|}$
+- Proiezione vettoriale: $\mathbf{p} = \dfrac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{v}\|^2}\,\mathbf{v}$, e $\mathbf{q} = \mathbf{u} - \mathbf{p} \perp \mathbf{v}$
+
+### Determinanti
+
+- Determinante 2×2: $\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$
+- Area nel piano: $|u_1 v_2 - u_2 v_1|$
+- Determinante 3×3: $a_1 \begin{vmatrix} b_2 & b_3 \\ c_2 & c_3 \end{vmatrix} - a_2 \begin{vmatrix} b_1 & b_3 \\ c_1 & c_3 \end{vmatrix} + a_3 \begin{vmatrix} b_1 & b_2 \\ c_1 & c_2 \end{vmatrix}$
+
+### Prodotto vettoriale
+
+- In coordinate: $\mathbf{u} \times \mathbf{v} = \big(u_2 v_3 - u_3 v_2,\ u_3 v_1 - u_1 v_3,\ u_1 v_2 - u_2 v_1\big)$
+- Modulo: $\|\mathbf{u} \times \mathbf{v}\| = \|\mathbf{u}\|\,\|\mathbf{v}\|\sin\theta$
+- Versori: $\mathbf{e}_1 \times \mathbf{e}_2 = \mathbf{e}_3$, $\mathbf{e}_2 \times \mathbf{e}_3 = \mathbf{e}_1$, $\mathbf{e}_3 \times \mathbf{e}_1 = \mathbf{e}_2$
+- Area del parallelogramma: $\|\mathbf{u} \times \mathbf{v}\|$
+- Area del triangolo: $\tfrac12\,\|\mathbf{u} \times \mathbf{v}\|$
+- Anticommutatività: $\mathbf{v} \times \mathbf{u} = -(\mathbf{u} \times \mathbf{v})$
+- Parallelismo: $\mathbf{u} \times \mathbf{v} = \mathbf{0} \iff \mathbf{u} \parallel \mathbf{v}$
+
+### Prodotto triplo
+
+- Definizione: $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = \det(\mathbf{u}, \mathbf{v}, \mathbf{w})$
+- Volume del parallelepipedo: $V = |\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})|$
+- Volume del tetraedro: $V = \tfrac16\,|\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})|$
+- Complanarità: $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = 0$
+- Quattro punti complanari: $\overrightarrow{AB} \cdot (\overrightarrow{AC} \times \overrightarrow{AD}) = 0$
+
 ## ESERCIZI
 
 Questa sezione serve ad allenarsi per l'esonero. Per ogni esercizio prova prima da sola, su carta, fino al risultato; solo dopo apri la soluzione (clicca sulla riga "Soluzione" per aprirla) e confronta i passaggi, non solo il numero finale. Se un esercizio non viene, torna alla parte di teoria che gli corrisponde e poi riprova senza guardare.

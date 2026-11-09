@@ -360,6 +360,67 @@ Il metodo vale per ogni intersezione di intervalli: a sinistra vince l'estremo s
 > [!warning] Errore tipico
 > Confrontare gli irrazionali "a occhio". Per sapere se $\sqrt{17}$ sta prima o dopo $\tfrac{7}{2}$ conviene confrontare i quadrati, che sono numeri semplici: $(\sqrt{17})^2 = 17$ e $(\tfrac{7}{2})^2 = \tfrac{49}{4} = 12{,}25$. Poiché $17 > 12{,}25$ (e sono numeri positivi), $\sqrt{17} > \tfrac{7}{2}$.
 
+## FORMULARIO
+
+### Logica e quantificatori
+
+- Negazione di "per ogni": $\neg\,(\forall x,\ P(x)) \iff \exists x \mid \neg P(x)$
+- Negazione di "esiste": $\neg\,(\exists x \mid P(x)) \iff \forall x,\ \neg P(x)$
+- Negazione dell'implicazione: $\neg\,(P \Rightarrow Q) \iff P \wedge \neg Q$
+
+### Insiemi e operazioni
+
+- Inclusione: $B \subseteq A \iff \forall x\, (x \in B \Rightarrow x \in A)$
+- Uguaglianza: $A = B \iff A \subseteq B \wedge B \subseteq A$
+- Unione: $A \cup B = \{x \mid x \in A \vee x \in B\}$
+- Intersezione: $A \cap B = \{x \mid x \in A \wedge x \in B\}$
+- Differenza: $A \setminus B = \{x \mid x \in A \wedge x \notin B\}$
+- Complementare: $A^c = U \setminus A$
+- Disgiunti: $A \cap B = \emptyset$
+
+### Proprietà delle operazioni
+
+- Con il vuoto: $A \cap \emptyset = \emptyset$, $A \cup \emptyset = A$
+- Commutativa: $A \cap B = B \cap A$, $A \cup B = B \cup A$
+- Associativa: $(A \cap B) \cap C = (A \cap C) \cap B$, $(A \cup B) \cup C = (A \cup C) \cup B$
+- Con l'inclusione: $A \subseteq B \Rightarrow A \cap B = A$, $A \cup B = B$
+- Distributiva: $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
+- De Morgan: $(A \cup B)^c = A^c \cap B^c$, $(A \cap B)^c = A^c \cup B^c$
+
+### Insiemi numerici
+
+- Inclusioni: $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$
+- Razionali: $\mathbb{Q} = \left\{\frac{p}{q} \mid p, q \in \mathbb{Z},\ q \neq 0\right\}$
+- Senza lo zero: $\mathbb{R}^* = \mathbb{R} \setminus \{0\}$
+- Positivi: $\mathbb{R}^+ = \{x \in \mathbb{R} \mid x > 0\}$
+- Irrazionalità: $\sqrt{2} \notin \mathbb{Q}$
+
+### Valore assoluto
+
+- Definizione: $|x| = x$ se $x \geq 0$, $|x| = -x$ se $x < 0$
+- Distanza tra $a$ e $b$: $|a - b|$
+- Segno: $|x| \geq 0$, $|x| = 0 \iff x = 0$
+- Opposto: $|-x| = |x|$
+- Prodotto: $|x \cdot y| = |x| \cdot |y|$
+- Disuguaglianza triangolare: $|x + y| \leq |x| + |y|$
+- Minore ($r > 0$): $|x| < r \iff -r < x < r$
+- Maggiore ($r > 0$): $|x| > r \iff x < -r \vee x > r$
+- Radice del quadrato: $\sqrt{x^2} = |x|$
+
+### Intervalli
+
+| Intervallo | Condizione |
+|---|---|
+| $[a, b]$ | $a \leq x \leq b$ |
+| $(a, b)$ | $a < x < b$ |
+| $[a, b)$ | $a \leq x < b$ |
+| $(a, b]$ | $a < x \leq b$ |
+| $[a, +\infty)$ | $x \geq a$ |
+| $(a, +\infty)$ | $x > a$ |
+| $(-\infty, b]$ | $x \leq b$ |
+| $(-\infty, b)$ | $x < b$ |
+| $(-\infty, +\infty)$ | $\mathbb{R}$ |
+
 ## ESERCIZI
 
 Questa sezione serve per allenarsi in vista dell'esonero. Conviene fare ogni esercizio da sola, su carta, disegnando la retta quando ci sono intervalli; solo dopo si apre la soluzione (il riquadro verde si apre con un clic) e si confrontano i passaggi, non solo il risultato.

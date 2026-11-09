@@ -593,6 +593,56 @@ Negli esercizi compaiono anche equazioni e disequazioni in cui la $x$ sta all'es
 >
 > I passaggi sulle basi e sui logaritmi sono spiegati in [[06-le-funzioni#LE FUNZIONI ELEMENTARI: RETTE, POTENZE, RADICI E VALORE ASSOLUTO|funzioni elementari]].
 
+## FORMULARIO
+
+### Potenze e radicali
+
+- Prodotto: $a^m \cdot a^n = a^{m+n}$
+- Quoziente: $\dfrac{a^m}{a^n} = a^{m-n}$
+- Potenza di potenza: $(a^m)^n = a^{m \cdot n}$
+- Esponente zero: $a^0 = 1 \quad (a \neq 0)$
+- Esponente negativo: $a^{-n} = \dfrac{1}{a^n}$
+- Radice come potenza: $\sqrt[n]{a^m} = a^{\frac{m}{n}} \quad (a > 0)$
+
+### Equazioni di primo e secondo grado
+
+- Primo grado: $ax = b \;\Rightarrow\; x = \dfrac{b}{a} \quad (a \neq 0)$
+- Impossibile: $a = 0,\; b \neq 0$; indeterminata: $a = 0,\; b = 0$
+- Forma normale: $ax^2 + bx + c = 0 \quad (a \neq 0)$
+- Discriminante: $\Delta = b^2 - 4ac$
+- Soluzioni: $x_{1,2} = \dfrac{-b \pm \sqrt{\Delta}}{2a}$
+- Casi: $\Delta > 0$ due soluzioni; $\Delta = 0$ una, $x = -\dfrac{b}{2a}$; $\Delta < 0$ nessuna
+- Annullamento del prodotto: $A \cdot B = 0 \iff A = 0 \text{ oppure } B = 0$
+- Scomposizione: $ax^2 + bx + c = a(x - x_1)(x - x_2)$
+- Somma delle radici: $x_1 + x_2 = -\dfrac{b}{a}$
+- Prodotto delle radici: $x_1 \cdot x_2 = \dfrac{c}{a}$
+
+### Equazioni particolari
+
+- Frazionarie, C.E.: denominatore $\neq 0$
+- Valore assoluto: $|A| = A$ se $A \geq 0$; $|A| = -A$ se $A < 0$
+- $|A| = k$, $k > 0$: $A = k$ oppure $A = -k$
+- $|A| = k$, $k < 0$: impossibile
+- Irrazionale: $\sqrt{A} = B \iff \begin{cases} B \geq 0 \\ A = B^2 \end{cases}$
+
+### Disequazioni
+
+- Per un numero negativo: si inverte il verso ($<$ diventa $>$, $\leq$ diventa $\geq$)
+- Secondo grado, $a > 0$, $\Delta > 0$: $ax^2 + bx + c < 0 \iff x_1 < x < x_2$ (interni)
+- Secondo grado, $a > 0$, $\Delta > 0$: $ax^2 + bx + c > 0 \iff x < x_1 \text{ oppure } x > x_2$ (esterni)
+- $\Delta = 0$: $ax^2 + bx + c > 0$ per ogni $x \neq x_0$
+- $\Delta < 0$: $ax^2 + bx + c > 0$ per ogni $x$
+- Fratte: denominatore $\neq 0$, estremo sempre escluso
+- Valore assoluto ($k > 0$): $|A| < k \iff -k < A < k$
+- Valore assoluto ($k > 0$): $|A| > k \iff A < -k \text{ oppure } A > k$
+- Sistemi: intersezione $\cap$ delle soluzioni
+
+### Esponenziali e logaritmi
+
+- Stessa base: $a^{f(x)} = a^{g(x)} \iff f(x) = g(x)$
+- Base $a > 1$: il verso resta; base $0 < a < 1$: il verso si inverte
+- Logaritmo: argomento $> 0$
+
 ## ESERCIZI
 
 Questa sezione serve per allenarsi in vista dell'esonero. Prova ogni esercizio da sola, su carta, fino in fondo; solo dopo apri la soluzione (il riquadro verde si apre con un clic) e confronta i passaggi, non solo il risultato. Se sbagli, torna alla parte di teoria che corrisponde e rifai l'esercizio il giorno dopo. Per controllare un risultato basta quasi sempre sostituire il numero trovato nell'equazione di partenza.

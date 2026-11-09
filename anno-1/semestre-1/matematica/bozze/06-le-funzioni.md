@@ -1458,6 +1458,103 @@ Il rapporto fra dislivello e spostamento orizzontale è proprio la tangente dell
 > [!warning] Il 100% non è un muro verticale
 > Una pendenza del $100\%$ vuol dire $\tan\alpha = 1$, cioè $\alpha = 45°$. Una parete verticale avrebbe pendenza infinita, perché $\tan\frac{\pi}{2}$ non esiste. E la pendenza non è proporzionale all'angolo: raddoppiando la pendenza l'angolo non raddoppia: il $24\%$ corrisponde a circa $13{,}5°$, mentre il doppio di $6{,}8°$ sarebbe $13{,}7°$. Con le pendenze alte la differenza diventa grande: il $200\%$ non è $90°$, ma circa $63{,}4°$.
 
+## FORMULARIO
+
+### Funzione, grafico, dominio e immagine
+
+- Funzione: $f: A \to B$, $\; x \mapsto f(x)$
+- Grafico: $G_f = \{\, (x, f(x)) : x \in A \,\}$
+- Immagine: $\operatorname{Im}(f) = f(A) = \{\, f(x) : x \in A \,\}$
+- Dominio naturale: denominatore $\neq 0$; $\;$ radicando (indice pari) $\ge 0$; $\;$ argomento del logaritmo $> 0$
+
+### Iniettiva, suriettiva, composta, inversa
+
+- Iniettiva: $f(x_1) = f(x_2) \Rightarrow x_1 = x_2$
+- Suriettiva: $\operatorname{Im}(f) = B$
+- Composta: $(f \circ g)(x) = f(g(x))$
+- Inversa: $f^{-1}(y) = x \iff f(x) = y$
+- Verifica dell'inversa: $f^{-1}(f(x)) = x$, $\; f(f^{-1}(y)) = y$
+
+### Simmetrie e monotonia
+
+- Pari: $f(-x) = f(x)$
+- Dispari: $f(-x) = -f(x)$
+- Crescente: $x_1 < x_2 \Rightarrow f(x_1) < f(x_2)$
+- Decrescente: $x_1 < x_2 \Rightarrow f(x_1) > f(x_2)$
+
+### Trasformazioni dei grafici ($a, b > 0$)
+
+- Destra / sinistra di $a$: $f(x - a)$ / $f(x + a)$
+- Su / giù di $b$: $f(x) + b$ / $f(x) - b$
+- Ribaltamento sull'asse $x$ / sull'asse $y$: $-f(x)$ / $f(-x)$
+- Parti negative ribaltate sopra: $|f(x)|$
+- Allungo verticale ($k > 1$) o schiacciamento ($0 < k < 1$): $k\,f(x)$
+- Stringimento orizzontale ($k > 1$) o allargamento ($0 < k < 1$): $f(kx)$
+
+### Retta, valore assoluto, parabola
+
+- Retta: $f(x) = mx + q$, $\;$ zero $x = -\frac{q}{m}$, $\;$ inversa $f^{-1}(y) = \frac{y - q}{m}$
+- Valore assoluto: $|x| = x$ se $x \ge 0$, $\; |x| = -x$ se $x < 0$
+- Radice di un quadrato: $\sqrt{x^2} = |x|$
+- Vertice: $x_V = -\dfrac{b}{2a}$, $\; y_V = f(x_V)$
+- Forma con il vertice: $a(x - h)^2 + k \;\Rightarrow\; V(h, k)$
+- Discriminante: $\Delta = b^2 - 4ac$
+
+### Potenze ed esponenziali ($a > 0$, $a \neq 1$)
+
+- $a^0 = 1$, $\; a^{-x} = \dfrac{1}{a^x}$, $\; a^{\frac1n} = \sqrt[n]{a}$
+- $a^x \cdot a^y = a^{x+y}$, $\; \dfrac{a^x}{a^y} = a^{x-y}$, $\; (a^x)^y = a^{x \cdot y}$
+- Stessa base: $a^{x_1} = a^{x_2} \iff x_1 = x_2$
+- Numero di Nepero: $e \approx 2{,}718$
+
+### Logaritmi (argomenti positivi)
+
+- Definizione: $\log_a x = y \iff a^y = x$
+- Valori fissi: $\log_a 1 = 0$, $\; \log_a a = 1$
+- Inversa dell'esponenziale: $\log_a(a^x) = x$, $\; a^{\log_a x} = x$
+- Prodotto: $\log_a(x \cdot y) = \log_a x + \log_a y$
+- Quoziente: $\log_a \dfrac{x}{y} = \log_a x - \log_a y$
+- Potenza: $\log_a(x^k) = k \cdot \log_a x$
+- Reciproco: $\log_a \dfrac1x = -\log_a x$
+- Quadrato: $\ln(x^2) = 2 \ln |x|$
+- Logaritmo naturale: $\ln x = \log_e x$
+- Cambio di base: $\log_a x = \dfrac{\ln x}{\ln a}$
+
+### Disequazioni, crescita, raddoppio
+
+- Base $a > 1$ (verso uguale): $a^{f(x)} < a^{g(x)} \iff f(x) < g(x)$; $\; \log_a f(x) < \log_a g(x) \iff f(x) < g(x)$
+- Base $0 < a < 1$ (verso inverso): $a^{f(x)} < a^{g(x)} \iff f(x) > g(x)$; $\; \log_a f(x) < \log_a g(x) \iff f(x) > g(x)$
+- Crescita esponenziale: $N(t) = N_0 \, e^{kt}$
+- Tempo di raddoppio: $T = \dfrac{\ln 2}{k}$
+
+### Trigonometria
+
+- Gradi e radianti: $180° = \pi$, $\; \alpha_{\text{rad}} = \alpha_{\text{gradi}} \cdot \dfrac{\pi}{180}$
+- Tangente: $\tan\alpha = \dfrac{\sin\alpha}{\cos\alpha}$
+- Relazione fondamentale: $\sin^2\alpha + \cos^2\alpha = 1$
+
+| angolo | $0$ | $\frac{\pi}{6}$ | $\frac{\pi}{4}$ | $\frac{\pi}{3}$ | $\frac{\pi}{2}$ | $\pi$ | $\frac{3\pi}{2}$ |
+|---|---|---|---|---|---|---|---|
+| gradi | $0°$ | $30°$ | $45°$ | $60°$ | $90°$ | $180°$ | $270°$ |
+| $\sin$ | $0$ | $\frac12$ | $\frac{\sqrt2}{2}$ | $\frac{\sqrt3}{2}$ | $1$ | $0$ | $-1$ |
+| $\cos$ | $1$ | $\frac{\sqrt3}{2}$ | $\frac{\sqrt2}{2}$ | $\frac12$ | $0$ | $-1$ | $0$ |
+| $\tan$ | $0$ | $\frac{\sqrt3}{3}$ | $1$ | $\sqrt3$ | non esiste | $0$ | non esiste |
+
+- Angoli supplementari: $\sin(\pi - \alpha) = \sin\alpha$, $\; \cos(\pi - \alpha) = -\cos\alpha$
+- Angoli opposti: $\sin(-\alpha) = -\sin\alpha$, $\; \cos(-\alpha) = \cos\alpha$
+- Mezzo giro: $\sin(\alpha + \pi) = -\sin\alpha$, $\; \cos(\alpha + \pi) = -\cos\alpha$
+- Periodi: $\sin(x + 2\pi) = \sin x$, $\; \cos(x + 2\pi) = \cos x$, $\; \tan(x + \pi) = \tan x$
+- Zeri ($k$ intero): $\sin x = 0 \iff x = k\pi$; $\; \cos x = 0 \iff x = \frac{\pi}{2} + k\pi$
+- $A\cos(Bx) + C$: ampiezza $|A|$, $\;$ periodo $\dfrac{2\pi}{|B|}$, $\;$ immagine $[\,C - |A|,\; C + |A|\,]$
+- Equazione con il seno ($k$ intero): $\sin x = \sin\alpha \iff x = \alpha + 2k\pi$ oppure $x = \pi - \alpha + 2k\pi$
+- Equazione con il coseno: $\cos x = \cos\alpha \iff x = \alpha + 2k\pi$ oppure $x = -\alpha + 2k\pi$
+- Equazione con la tangente: $\tan x = \tan\alpha \iff x = \alpha + k\pi$
+- Arcoseno: $\arcsin: [-1, 1] \to \left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$
+- Arcocoseno: $\arccos: [-1, 1] \to [0, \pi]$, $\; \arccos(-x) = \pi - \arccos x$
+- Arcotangente: $\arctan: \mathbb{R} \to \left(-\frac{\pi}{2}, \frac{\pi}{2}\right)$
+- Funzione e inversa: $\sin(\arcsin y) = y$; $\; \arcsin(\sin x) = x$ solo se $x \in \left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$
+- Pendenza: $\tan\alpha = \dfrac{p}{100}$, $\; \alpha = \arctan\dfrac{p}{100}$
+
 ## ESERCIZI
 
 Questa sezione serve per allenarsi in vista dell'esonero. Prima rifai da sola, su carta, gli esercizi del professore, che in questa pagina sono già svolti come esempi: copri la soluzione e confronta solo alla fine. Poi passa agli esercizi nuovi: leggi il testo, risolvilo per intero sul foglio e solo dopo apri la soluzione cliccando sul riquadro verde chiuso. Se il risultato non torna, cerca il passaggio in cui ti sei separata dalla soluzione e rileggi la parte di teoria corrispondente.

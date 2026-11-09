@@ -594,6 +594,57 @@ La matrice $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ si chiama *matrice dei
 
 Il significato geometrico si lega a [[03-retta-e-circonferenza]]: ogni equazione è una retta, e la soluzione è il loro punto d'intersezione. $D = 0$ vuol dire che le righe $(a, b)$ e $(c, d)$ sono proporzionali, cioè che le due rette hanno la stessa pendenza: sono parallele (nessuna soluzione) o coincidenti (infinite soluzioni).
 
+## FORMULARIO
+
+### Matrici, somma, scalare
+
+- Elemento (riga $i$, colonna $j$): $a_{ij} = a_{i,j}$
+- Somma (stesso tipo): $A + B = (a_{ij} + b_{ij})$
+- Prodotto per uno scalare: $k\,A = (k\,a_{ij})$
+- Matrice nulla: $A + \Omega = A$
+- Diagonale: $a_{ij} = 0$ per $i \neq j$
+
+### Prodotto riga per colonna
+
+- Elemento di $A \cdot B$: (riga $i$ di $A$) $\cdot$ (colonna $j$ di $B$)
+- Tipi: $(m \times n) \cdot (n \times p) = (m \times p)$
+- Associativa: $(A \cdot B) \cdot C = A \cdot (B \cdot C)$
+- Distributiva: $A \cdot (B + C) = A \cdot B + A \cdot C$, $\ (A + B) \cdot C = A \cdot C + B \cdot C$
+- Non commutativa: $A \cdot B \neq B \cdot A$
+- Identità e nulla: $A \cdot I = I \cdot A = A$, $\ A \cdot \Omega = \Omega \cdot A = \Omega$
+- Prodotto nullo: $A \cdot B = \Omega \not\Longrightarrow A = \Omega$ oppure $B = \Omega$
+
+### Trasposta
+
+- Tipo: $A$ di tipo $m \times n \Rightarrow {}^{T}\!A$ di tipo $n \times m$
+- ${}^{T}({}^{T}\!A) = A$
+- ${}^{T}(A + B) = {}^{T}\!A + {}^{T}\!B$
+- ${}^{T}(A \cdot B) = {}^{T}\!B \cdot {}^{T}\!A$
+
+### Determinante
+
+- 1×1: $\det(a) = a$
+- 2×2: $\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$
+- 3×3 (Sarrus): $\det A = a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32} - a_{31}a_{22}a_{13} - a_{32}a_{23}a_{11} - a_{33}a_{21}a_{12}$
+- Segno della scacchiera: $(-1)^{i+j}$, cioè $\begin{pmatrix} + & - & + \\ - & + & - \\ + & - & + \end{pmatrix}$
+- Complemento algebrico: $A_{ij} = (-1)^{i+j} \cdot$ (determinante senza riga $i$ e colonna $j$)
+- Laplace (riga $i$): $\det A = \sum_{j=1}^{n} a_{ij}A_{ij}$
+- Prodotto vettoriale: $\mathbf{u} \times \mathbf{v} = \begin{vmatrix} \mathbf{e}_1 & \mathbf{e}_2 & \mathbf{e}_3 \\ u_1 & u_2 & u_3 \\ v_1 & v_2 & v_3 \end{vmatrix}$
+- Trasposta: $\det {}^{T}\!A = \det A$
+- Scambio di due righe: il determinante cambia segno
+- Riga nulla, o due righe uguali o proporzionali: $\det A = 0$
+- Riga moltiplicata per $k$: determinante moltiplicato per $k$
+- Binet: $\det(A \cdot B) = \det A \cdot \det B$
+- Somma: $\det(A + B) \neq \det A + \det B$
+- Area del parallelogramma: $\left|\begin{vmatrix} u_1 & u_2 \\ v_1 & v_2 \end{vmatrix}\right|$
+- Volume del parallelepipedo: $\left|\begin{vmatrix} u_1 & u_2 & u_3 \\ v_1 & v_2 & v_3 \\ w_1 & w_2 & w_3 \end{vmatrix}\right| = |\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w})|$
+
+### Inversa e Cramer
+
+- Inversa: $A \cdot A^{-1} = A^{-1} \cdot A = I$, esiste se $\det A \neq 0$
+- Inversa 2×2: $\begin{pmatrix} a & b \\ c & d \end{pmatrix}^{-1} = \dfrac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$
+- Cramer ($D \neq 0$): $x = \dfrac{D_x}{D} = \dfrac{\begin{vmatrix} e & b \\ f & d \end{vmatrix}}{D}$, $\ y = \dfrac{D_y}{D} = \dfrac{\begin{vmatrix} a & e \\ c & f \end{vmatrix}}{D}$
+
 ## ESERCIZI
 
 Questa sezione serve per allenarsi in vista dell'esonero. Prova ogni esercizio da sola, su carta, prima di aprire la soluzione: la soluzione è chiusa e si apre cliccando sul riquadro verde. Se il risultato non torna, confronta i passaggi uno per uno per trovare dove si è perso un segno. Gli esercizi vanno dal più facile al più difficile.
