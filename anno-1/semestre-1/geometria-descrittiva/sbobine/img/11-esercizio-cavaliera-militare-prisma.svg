@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 580" width="620" height="580">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Esercizio: pianta 4 × 2 cm, altezza 5 cm</text>
+<g transform="translate(0,36)">
+<text x="18" y="472" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">La pianta resta in vera forma (lati 4 e 2 cm) e fa da base al solido.</text>
+<text x="18" y="494" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Le altezze si prendono su z* (5 cm) e si riducono su z′ con la parallela a s*.</text>
+<text x="18" y="516" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Prospetti assonometrici: la pianta si proietta su x′ e su y′ e si alza fino a h′.</text>
+<line x1="296.1" y1="208.3" x2="72.3" y2="337.5" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="296.1" y1="208.3" x2="394.7" y2="379.1" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="296.1" y1="208.3" x2="296.1" y2="40.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="296.1" y1="208.3" x2="547.7" y2="208.3" stroke="#c0392b" stroke-width="1.2" stroke-linecap="round"/>
+<text x="32.3" y="359.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">x′ ≡ x*</text>
+<text x="402.7" y="385.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">y′ ≡ y*</text>
+<text x="302.1" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">z′</text>
+<text x="543.7" y="228.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">z*</text>
+<circle cx="296.1" cy="208.3" r="2.8" fill="#1f1f1f"/>
+<text x="302.1" y="200.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O′</text>
+<circle cx="237.2" cy="242.3" r="2.8" fill="#1f1f1f"/>
+<text x="221.2" y="262.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">u</text>
+<circle cx="330.1" cy="267.2" r="2.8" fill="#1f1f1f"/>
+<text x="338.1" y="267.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">u</text>
+<circle cx="364.1" cy="208.3" r="2.8" fill="#c0392b"/>
+<text x="360.1" y="228.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">u</text>
+<circle cx="296.1" cy="157.3" r="2.8" fill="#2e8b57"/>
+<text x="304.1" y="151.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">u′<tspan dy="4" font-size="70%">z</tspan><tspan dy="-4"></tspan></text>
+<path d="M 237.2 242.3 A 68.0 68.0 0 0 0 364.1 208.3" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4"/>
+<line x1="364.1" y1="208.3" x2="296.1" y2="157.3" stroke="#2e8b57" stroke-width="1.6" stroke-linecap="round"/>
+<text x="330.1" y="200.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">s*</text>
+<circle cx="466.1" cy="208.3" r="2.8" fill="#c0392b"/>
+<text x="440.1" y="228.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">h = 5 cm</text>
+<circle cx="296.1" cy="80.8" r="2.8" fill="#2e8b57"/>
+<text x="272.1" y="84.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">h′</text>
+<line x1="466.1" y1="208.3" x2="296.1" y2="80.8" stroke="#2e8b57" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="237.2,242.3 119.4,310.3 119.4,182.8 237.2,114.8" fill="#d97706" fill-opacity="0.12" stroke="#d97706" stroke-width="1.8"/>
+<polygon points="330.1,267.2 364.1,326.1 364.1,198.6 330.1,139.7" fill="#7b4fa0" fill-opacity="0.12" stroke="#7b4fa0" stroke-width="1.8"/>
+<line x1="271.2" y1="301.2" x2="237.2" y2="242.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="153.4" y1="369.2" x2="119.4" y2="310.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="271.2" y1="301.2" x2="330.1" y2="267.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="305.2" y1="360.1" x2="364.1" y2="326.1" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="296.1" y1="80.8" x2="237.2" y2="114.8" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="296.1" y1="80.8" x2="330.1" y2="139.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<text x="113.4" y="174.8" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#d97706" font-style="italic">2ª proiezione</text>
+<text x="370.1" y="194.6" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#7b4fa0" font-style="italic">3ª proiezione</text>
+<polygon points="271.2,173.7 153.4,241.7 187.4,300.6 305.2,232.6" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<line x1="271.2" y1="301.2" x2="153.4" y2="369.2" stroke="#2563a8" stroke-width="1.3" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="153.4" y1="369.2" x2="187.4" y2="428.1" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="187.4" y1="428.1" x2="305.2" y2="360.1" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="305.2" y1="360.1" x2="271.2" y2="301.2" stroke="#2563a8" stroke-width="1.3" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="271.2" y1="173.7" x2="153.4" y2="241.7" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="153.4" y1="241.7" x2="187.4" y2="300.6" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="187.4" y1="300.6" x2="305.2" y2="232.6" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="305.2" y1="232.6" x2="271.2" y2="173.7" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="271.2" y1="301.2" x2="271.2" y2="173.7" stroke="#2563a8" stroke-width="1.3" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="153.4" y1="369.2" x2="153.4" y2="241.7" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="187.4" y1="428.1" x2="187.4" y2="300.6" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="305.2" y1="360.1" x2="305.2" y2="232.6" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<text x="236.3" y="420.1" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2563a8" font-style="italic">pianta (1ª proiezione)</text>
+</g>
+</svg>

@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica con Whisper; l'audio dura 1 ora e 16 minuti, ma il parlato della docente è circa mezz'ora). L'audio era di qualità bassa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema o incomprensibili, in particolare le conversazioni tra studenti durante il lavoro sul progetto, senza aggiungere contenuti. Le parole tra parentesi quadre servono solo a rendere leggibile la frase. Nella seconda parte la docente commenta le piante di un progetto distribuito in aula, che non abbiamo: senza il foglio alcuni passaggi restano poco chiari. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
-> Sbobina precedente: [[09-ribaltamento-piano-generico]]
+> Sbobina precedente: [[09-ribaltamento-piano-generico]] · Successiva: [[11-assonometria-obliqua-cavaliera-militare]]
 
 ## Il punto di intersezione tra una retta e un piano dato con una figura
 
