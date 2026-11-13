@@ -37,7 +37,7 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 8. [[08-tracce-orizzontale-e-ribaltamento-del-punto|Tracce del piano o orizzontale, ribaltamento del punto (sbobina a frammenti: audio quasi incomprensibile)]] (mar 27 ottobre)
 9. [[09-ribaltamento-piano-generico|Il ribaltamento del piano generico, in forma canonica e intorno a un'orizzontale; squadretta e sviluppo della piramide]] (gio 29 ottobre)
 10. [[10-intersezione-retta-figura-e-sezioni|Intersezione tra una retta e un piano dato con una figura; il segno di sezione a baionetta]] (gio 5 novembre)
-11. [[11-assonometria-obliqua-cavaliera-militare|Ripasso dell'assonometria ortogonale; l'assonometria obliqua cavaliera militare, il ribaltamento dell'asse z, l'esercizio del solido con pianta 4 × 2]] (mar 10 novembre)
+11. [[11-assonometria-obliqua-cavaliera-militare|Ripasso dell'assonometria ortogonale; l'assonometria obliqua cavaliera militare, il ribaltamento dell'asse z, l'esercizio del solido con pianta 4 × 2; le sezioni dei solidi con un piano parallelo alla LT e con un piano verticale]] (mar 10 novembre, due registrazioni)
 
 ## Bozze
 

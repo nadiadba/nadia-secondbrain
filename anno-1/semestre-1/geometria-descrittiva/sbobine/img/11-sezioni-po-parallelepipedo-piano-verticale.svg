@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 579" width="560" height="579">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Sezione di un parallelepipedo con un piano verticale</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="205.0" x2="510.0" y2="205.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="199.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<text x="24.0" y="22.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="24.0" y="443.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="18" y="461" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">β (faccia anteriore) e γ (faccia posteriore) sono proiettanti in prima, come il piano secante α.</text>
+<text x="18" y="483" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">r = α ∩ β è verticale: r₁ ≡ T₁r, r₂ ⊥ LT (T₂r all'infinito); taglia gli spigoli orizzontali in 1 e 2.</text>
+<text x="18" y="505" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Lo stesso con γ: m₁ ≡ T₁m, m₂ ⊥ LT, punti 3 e 4.</text>
+<text x="18" y="527" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">In pianta la sezione è il segmento r₁m₁ su t₁α, rinforzato; qui si tiene la parte destra del solido.</text>
+<line x1="166.5" y1="205.0" x2="300.4" y2="437.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="306.4" y="443.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="166.5" y1="205.0" x2="166.5" y2="25.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="132.5" y="29.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="71.4" y1="269.6" x2="339.9" y2="424.6" stroke="#d97706" stroke-width="1.6" stroke-linecap="round"/>
+<text x="345.9" y="428.6" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d97706" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>β</text>
+<line x1="111.4" y1="200.4" x2="379.9" y2="355.4" stroke="#7b4fa0" stroke-width="1.6" stroke-linecap="round"/>
+<text x="385.9" y="359.4" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7b4fa0" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>γ</text>
+<line x1="270.0" y1="384.3" x2="123.4" y2="299.6" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="123.4" y1="299.6" x2="163.4" y2="230.4" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="163.4" y1="230.4" x2="190.0" y2="245.7" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="123.4" y1="205.0" x2="123.4" y2="55.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="163.4" y1="205.0" x2="163.4" y2="55.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="123.4" y1="55.0" x2="190.0" y2="55.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="123.4" y1="205.0" x2="190.0" y2="205.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="270.0,384.3 296.6,399.6 336.6,330.4 190.0,245.7" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<line x1="270.0" y1="384.3" x2="190.0" y2="245.7" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<polygon points="190.0,205.0 336.6,205.0 336.6,55.0 190.0,55.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<line x1="296.6" y1="205.0" x2="296.6" y2="55.0" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<polygon points="190.0,205.0 270.0,205.0 270.0,55.0 190.0,55.0" fill="#c0392b" fill-opacity="0.10" stroke="none"/>
+<line x1="194.0" y1="55.0" x2="190.0" y2="59.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="201.0" y1="55.0" x2="190.0" y2="66.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="208.0" y1="55.0" x2="190.0" y2="73.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="215.0" y1="55.0" x2="190.0" y2="80.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="222.0" y1="55.0" x2="190.0" y2="87.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="229.0" y1="55.0" x2="190.0" y2="94.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="236.0" y1="55.0" x2="190.0" y2="101.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="243.0" y1="55.0" x2="190.0" y2="108.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="250.0" y1="55.0" x2="190.0" y2="115.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="257.0" y1="55.0" x2="190.0" y2="122.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="264.0" y1="55.0" x2="190.0" y2="129.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="56.0" x2="190.0" y2="136.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="63.0" x2="190.0" y2="143.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="70.0" x2="190.0" y2="150.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="77.0" x2="190.0" y2="157.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="84.0" x2="190.0" y2="164.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="91.0" x2="190.0" y2="171.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="98.0" x2="190.0" y2="178.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="105.0" x2="190.0" y2="185.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="112.0" x2="190.0" y2="192.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="270.0" y1="119.0" x2="190.0" y2="199.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="191.0" y1="205.0" x2="270.0" y2="126.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="198.0" y1="205.0" x2="270.0" y2="133.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="205.0" y1="205.0" x2="270.0" y2="140.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="212.0" y1="205.0" x2="270.0" y2="147.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="219.0" y1="205.0" x2="270.0" y2="154.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="226.0" y1="205.0" x2="270.0" y2="161.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="233.0" y1="205.0" x2="270.0" y2="168.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="240.0" y1="205.0" x2="270.0" y2="175.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="247.0" y1="205.0" x2="270.0" y2="182.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="254.0" y1="205.0" x2="270.0" y2="189.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="261.0" y1="205.0" x2="270.0" y2="196.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="268.0" y1="205.0" x2="270.0" y2="203.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<polygon points="190.0,205.0 270.0,205.0 270.0,55.0 190.0,55.0" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<line x1="270.0" y1="205.0" x2="270.0" y2="384.3" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="270.0" y1="205.0" x2="270.0" y2="27.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="264.0" y="21.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<line x1="190.0" y1="205.0" x2="190.0" y2="245.7" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="190.0" y1="205.0" x2="190.0" y2="27.0" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="184.0" y="21.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">m<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="270.0" cy="384.3" r="2.8" fill="#c0392b"/>
+<text x="178.0" y="400.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan> ≡ T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="190.0" cy="245.7" r="2.8" fill="#c0392b"/>
+<text x="98.0" y="241.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">m<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan> ≡ T<tspan dy="4" font-size="70%">1m</tspan><tspan dy="-4"></tspan></text>
+<circle cx="270.0" cy="205.0" r="2.8" fill="#1f1f1f"/>
+<text x="276.0" y="221.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan>)<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="190.0" cy="205.0" r="2.8" fill="#1f1f1f"/>
+<text x="196.0" y="221.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">(T<tspan dy="4" font-size="70%">1m</tspan><tspan dy="-4"></tspan>)<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<line x1="296.6" y1="55.0" x2="296.6" y2="399.6" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="336.6" y1="55.0" x2="336.6" y2="330.4" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="270.0" cy="55.0" r="2.8" fill="#1f1f1f"/>
+<text x="276.0" y="71.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">1<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="270.0" cy="205.0" r="2.8" fill="#1f1f1f"/>
+<text x="276.0" y="199.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">2<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="190.0" cy="205.0" r="2.8" fill="#1f1f1f"/>
+<text x="196.0" y="199.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">3<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="190.0" cy="55.0" r="2.8" fill="#1f1f1f"/>
+<text x="196.0" y="73.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">4<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+</g>
+</svg>

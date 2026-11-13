@@ -18,6 +18,7 @@ Ancora nessuna.
 
 1. [[01-introduzione-laboratorio|Lezione introduttiva al laboratorio]] (mar 29 settembre)
 2. [[02-aalto-casa-muuratsalo|Chiusura dell'esercizio 3 (foto dei plastici); Alvar Aalto e la casa sperimentale di Muuratsalo, nuova esercitazione]] (mar 3 novembre)
+3. [[03-muuratsalo-esercitazione|Aalto e il Movimento Moderno, la casa sperimentale di Muuratsalo; il testo della nuova esercitazione e le domande sulla riprogettazione]] (mar 10 novembre)
 
 ## Bozze
 

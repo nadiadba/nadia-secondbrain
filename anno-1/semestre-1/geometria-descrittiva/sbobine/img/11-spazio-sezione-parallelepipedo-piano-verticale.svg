@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 522" width="620" height="522">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Il secondo caso nello spazio</text>
+<g transform="translate(0,36)">
+<text x="18" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Il solido ha le facce laterali verticali: il piano secante α, anch'esso verticale, le taglia</text>
+<text x="18" y="442" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">lungo rette verticali (r sulla faccia anteriore β, m su quella posteriore γ).</text>
+<text x="18" y="464" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">I punti della sezione stanno dove r e m incontrano gli spigoli orizzontali: 1, 2, 3, 4.</text>
+<polygon points="39.5,342.7 330.0,175.0 498.9,272.5 208.4,440.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="39.5,342.7 330.0,175.0 330.0,-12.2 39.5,155.5" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="330.0,175.0 498.9,272.5 498.9,85.3 330.0,-12.2" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="39.5" y1="342.7" x2="330.0" y2="175.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="330.0" y1="175.0" x2="498.9" y2="272.5" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="330.0" y1="175.0" x2="330.0" y2="-12.2" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="224.2" y="389.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="89.1" y="152.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="462.7" y="83.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="17.5" y="346.7" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="152.0,90.6 152.0,277.8 418.4,319.0 418.4,131.8" fill="#c0392b" fill-opacity="0.1" stroke="none"/>
+<line x1="152.0" y1="277.8" x2="418.4" y2="319.0" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="289.2" y="294.4" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="152.0" y1="277.8" x2="152.0" y2="90.6" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="156.0" y="180.2" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#1f1f1f">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="343.0" y1="307.3" x2="186.8" y2="331.5" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="343.0" y1="190.3" x2="186.8" y2="214.5" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="186.8" y1="331.5" x2="167.0" y2="288.9" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="186.8" y1="214.5" x2="167.0" y2="171.9" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="167.0" y1="288.9" x2="195.4" y2="284.5" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="167.0" y1="171.9" x2="195.4" y2="167.5" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="186.8" y1="331.5" x2="186.8" y2="214.5" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="167.0" y1="288.9" x2="167.0" y2="171.9" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="343.0" y1="190.3" x2="371.4" y2="185.9" stroke="#2563a8" stroke-width="2" stroke-linecap="round"/>
+<line x1="371.4" y1="185.9" x2="351.6" y2="143.3" stroke="#2563a8" stroke-width="2" stroke-linecap="round"/>
+<line x1="351.6" y1="143.3" x2="195.4" y2="167.5" stroke="#2563a8" stroke-width="2" stroke-linecap="round"/>
+<line x1="195.4" y1="167.5" x2="343.0" y2="190.3" stroke="#2563a8" stroke-width="2" stroke-linecap="round"/>
+<line x1="343.0" y1="307.3" x2="371.4" y2="302.9" stroke="#2563a8" stroke-width="2" stroke-linecap="round"/>
+<line x1="371.4" y1="302.9" x2="351.6" y2="260.3" stroke="#2563a8" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="351.6" y1="260.3" x2="195.4" y2="284.5" stroke="#2563a8" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="371.4" y1="302.9" x2="371.4" y2="185.9" stroke="#2563a8" stroke-width="2" stroke-linecap="round"/>
+<line x1="351.6" y1="260.3" x2="351.6" y2="143.3" stroke="#2563a8" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<polygon points="343.0,190.3 343.0,307.3 195.4,284.5 195.4,167.5" fill="#c0392b" fill-opacity="0.28" stroke="none"/>
+<line x1="343.0" y1="190.3" x2="343.0" y2="307.3" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="343.0" y1="307.3" x2="195.4" y2="284.5" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="195.4" y1="284.5" x2="195.4" y2="167.5" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="195.4" y1="167.5" x2="343.0" y2="190.3" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="343.0" y1="190.3" x2="343.0" y2="143.5" stroke="#c0392b" stroke-width="1.3" stroke-linecap="round"/>
+<text x="347.0" y="143.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">r</text>
+<line x1="195.4" y1="167.5" x2="195.4" y2="120.7" stroke="#c0392b" stroke-width="1.3" stroke-linecap="round"/>
+<text x="199.4" y="120.7" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">m</text>
+<circle cx="343.0" cy="307.3" r="2.8" fill="#c0392b"/>
+<circle cx="195.4" cy="284.5" r="2.8" fill="#c0392b"/>
+<text x="347.0" y="333.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">2 ≡ T<tspan dy="4" font-size="70%">1r</tspan><tspan dy="-4"></tspan></text>
+<text x="109.4" y="288.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">3 ≡ T<tspan dy="4" font-size="70%">1m</tspan><tspan dy="-4"></tspan></text>
+<circle cx="343.0" cy="190.3" r="2.8" fill="#1f1f1f"/>
+<text x="329.0" y="186.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">1</text>
+<circle cx="195.4" cy="167.5" r="2.8" fill="#1f1f1f"/>
+<text x="201.4" y="163.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">4</text>
+<text x="351.2" y="252.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#d97706">β</text>
+<text x="318.7" y="141.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#7b4fa0">γ</text>
+</g>
+</svg>

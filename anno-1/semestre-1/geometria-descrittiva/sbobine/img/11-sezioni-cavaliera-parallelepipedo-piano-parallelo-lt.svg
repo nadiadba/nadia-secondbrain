@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 691" width="620" height="691">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">La stessa sezione in cavaliera militare</text>
+<g transform="translate(0,36)">
+<text x="18" y="561" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">1. Il piano β della faccia anteriore: t₁′β ∥ x′ e t₃′β ∥ z′.</text>
+<text x="18" y="583" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">2. La retta r = α ∩ β: parte da t₃′α ∩ t₃′β ed è parallela a x′ (cioè alla LT).</text>
+<text x="18" y="605" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">3. I punti dove r′ taglia gli spigoli della faccia anteriore: 1 e 2.</text>
+<text x="18" y="627" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Lo stesso con il piano γ della faccia posteriore: m′, punti 3 e 4. Sul fianco basta unire 4 e 1.</text>
+<line x1="345.1" y1="254.2" x2="138.9" y2="373.2" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="345.1" y1="254.2" x2="481.1" y2="489.8" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="345.1" y1="254.2" x2="345.1" y2="40.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="336.4" y1="259.2" x2="341.4" y2="267.9" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="341.4" y1="267.9" x2="350.1" y2="262.9" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<text x="122.9" y="391.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">x′</text>
+<text x="489.1" y="495.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">y′</text>
+<text x="351.1" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">z′</text>
+<circle cx="345.1" cy="254.2" r="2.8" fill="#1f1f1f"/>
+<text x="319.1" y="248.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O′</text>
+<line x1="438.6" y1="416.1" x2="253.1" y2="523.2" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="209.1" y="539.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>′α</text>
+<line x1="345.1" y1="67.2" x2="159.6" y2="174.3" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="119.6" y="166.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>′α</text>
+<line x1="345.1" y1="67.2" x2="438.6" y2="416.1" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="381.1" y="167.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>′α</text>
+<line x1="413.1" y1="372.0" x2="227.6" y2="479.1" stroke="#d97706" stroke-width="1.4" stroke-linecap="round"/>
+<text x="187.6" y="495.1" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d97706" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>′β</text>
+<line x1="413.1" y1="372.0" x2="413.1" y2="174.8" stroke="#d97706" stroke-width="1.4" stroke-linecap="round"/>
+<text x="419.1" y="174.8" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d97706" font-style="italic">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>′β</text>
+<line x1="362.1" y1="283.6" x2="176.6" y2="390.7" stroke="#7b4fa0" stroke-width="1.4" stroke-linecap="round"/>
+<text x="136.6" y="406.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7b4fa0" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>′γ</text>
+<line x1="362.1" y1="283.6" x2="362.1" y2="86.4" stroke="#7b4fa0" stroke-width="1.4" stroke-linecap="round"/>
+<text x="368.1" y="86.4" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7b4fa0" font-style="italic">t<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan>′γ</text>
+<line x1="413.1" y1="321.0" x2="227.6" y2="428.1" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="211.6" y="442.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<line x1="362.1" y1="130.6" x2="176.6" y2="237.7" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<text x="154.6" y="233.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">m′</text>
+<circle cx="413.1" cy="321.0" r="2.8" fill="#c0392b"/>
+<circle cx="362.1" cy="130.6" r="2.8" fill="#c0392b"/>
+<line x1="332.6" y1="130.6" x2="214.8" y2="198.6" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="214.8" y1="198.6" x2="265.8" y2="287.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="265.8" y1="287.0" x2="383.6" y2="219.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="383.6" y1="219.0" x2="332.6" y2="130.6" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="383.6" y1="338.0" x2="383.6" y2="219.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="265.8" y1="406.0" x2="265.8" y2="287.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="332.6" y1="147.6" x2="332.6" y2="130.6" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="214.8" y1="215.6" x2="214.8" y2="198.6" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<polygon points="265.8,406.0 383.6,338.0 332.6,147.6 214.8,215.6" fill="#c0392b" fill-opacity="0.10" stroke="none"/>
+<line x1="216.7" y1="214.6" x2="215.0" y2="216.3" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="230.9" y1="206.4" x2="216.3" y2="221.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="245.1" y1="198.2" x2="217.5" y2="225.7" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="259.3" y1="190.0" x2="218.8" y2="230.5" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="273.5" y1="181.8" x2="220.1" y2="235.2" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="287.7" y1="173.6" x2="221.3" y2="239.9" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="301.9" y1="165.4" x2="222.6" y2="244.7" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="316.0" y1="157.2" x2="223.9" y2="249.4" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="330.2" y1="149.0" x2="225.1" y2="254.1" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="333.7" y1="151.6" x2="226.4" y2="258.8" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="334.9" y1="156.3" x2="227.7" y2="263.6" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="336.2" y1="161.1" x2="228.9" y2="268.3" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="337.5" y1="165.8" x2="230.2" y2="273.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="338.7" y1="170.5" x2="231.5" y2="277.8" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="340.0" y1="175.2" x2="232.7" y2="282.5" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="341.3" y1="180.0" x2="234.0" y2="287.2" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="342.5" y1="184.7" x2="235.3" y2="292.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="343.8" y1="189.4" x2="236.6" y2="296.7" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="345.1" y1="194.2" x2="237.8" y2="301.4" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="346.3" y1="198.9" x2="239.1" y2="306.2" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="347.6" y1="203.6" x2="240.4" y2="310.9" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="348.9" y1="208.4" x2="241.6" y2="315.6" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="350.2" y1="213.1" x2="242.9" y2="320.4" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="351.4" y1="217.8" x2="244.2" y2="325.1" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="352.7" y1="222.6" x2="245.4" y2="329.8" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="354.0" y1="227.3" x2="246.7" y2="334.6" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="355.2" y1="232.0" x2="248.0" y2="339.3" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="356.5" y1="236.8" x2="249.2" y2="344.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="357.8" y1="241.5" x2="250.5" y2="348.8" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="359.0" y1="246.2" x2="251.8" y2="353.5" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="360.3" y1="251.0" x2="253.0" y2="358.2" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="361.6" y1="255.7" x2="254.3" y2="363.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="362.8" y1="260.4" x2="255.6" y2="367.7" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="364.1" y1="265.2" x2="256.8" y2="372.4" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="365.4" y1="269.9" x2="258.1" y2="377.1" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="366.6" y1="274.6" x2="259.4" y2="381.9" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="367.9" y1="279.4" x2="260.6" y2="386.6" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="369.2" y1="284.1" x2="261.9" y2="391.3" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="370.4" y1="288.8" x2="263.2" y2="396.1" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="371.7" y1="293.5" x2="264.4" y2="400.8" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="373.0" y1="298.3" x2="265.7" y2="405.5" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="278.7" y1="398.5" x2="374.2" y2="303.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="292.9" y1="390.3" x2="375.5" y2="307.7" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="307.1" y1="382.1" x2="376.8" y2="312.5" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="321.3" y1="374.0" x2="378.0" y2="317.2" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="335.5" y1="365.8" x2="379.3" y2="321.9" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="349.7" y1="357.6" x2="380.6" y2="326.7" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="363.9" y1="349.4" x2="381.9" y2="331.4" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="378.1" y1="341.2" x2="383.1" y2="336.1" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="332.6" y1="300.6" x2="214.8" y2="368.6" stroke="#2563a8" stroke-width="1.3" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="214.8" y1="368.6" x2="265.8" y2="457.0" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="265.8" y1="457.0" x2="383.6" y2="389.0" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="383.6" y1="389.0" x2="332.6" y2="300.6" stroke="#2563a8" stroke-width="1.3" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="265.8" y1="457.0" x2="265.8" y2="406.0" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="383.6" y1="389.0" x2="383.6" y2="338.0" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="332.6" y1="300.6" x2="332.6" y2="147.6" stroke="#2563a8" stroke-width="1.3" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="214.8" y1="368.6" x2="214.8" y2="215.6" stroke="#2563a8" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="265.8" y1="406.0" x2="383.6" y2="338.0" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="383.6" y1="338.0" x2="332.6" y2="147.6" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="332.6" y1="147.6" x2="214.8" y2="215.6" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="214.8" y1="215.6" x2="265.8" y2="406.0" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="265.8" cy="406.0" r="2.8" fill="#1f1f1f"/>
+<text x="251.8" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">1</text>
+<circle cx="383.6" cy="338.0" r="2.8" fill="#1f1f1f"/>
+<text x="389.6" y="354.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">2</text>
+<circle cx="332.6" cy="147.6" r="2.8" fill="#1f1f1f"/>
+<text x="338.6" y="141.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">3</text>
+<circle cx="214.8" cy="215.6" r="2.8" fill="#1f1f1f"/>
+<text x="200.8" y="209.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">4</text>
+</g>
+</svg>

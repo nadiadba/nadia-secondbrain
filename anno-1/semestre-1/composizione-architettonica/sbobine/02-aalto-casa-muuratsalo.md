@@ -12,7 +12,7 @@ tags: [composizione-architettonica, sbobina]
 > Trascrizione automatica con Whisper della registrazione della lezione (prof. V. Palmieri), tenuta dopo la consegna e la revisione dell'esercizio 3 sulla casa ad Arzachena di Marco Zanuso. Sono stati corretti gli errori di trascrizione (soprattutto nomi di architetti, luoghi e termini tecnici) e tolte le parti fuori tema o incomprensibili, senza aggiungere contenuti; i tagli sono segnati con [...]. La registrazione inizia mentre il docente sistema il proiettore e si interrompe alla fine della lezione, che continuerà la volta successiva.
 
 > [!info] Note collegate
-> Sbobina precedente: [[01-introduzione-laboratorio]]
+> Sbobina precedente: [[01-introduzione-laboratorio]] · Successiva: [[03-muuratsalo-esercitazione]]
 >
 > Esercizio: [[esercizio-3-casa-arzachena]] · [[esercizio-3-nuova-disposizione]]
 
