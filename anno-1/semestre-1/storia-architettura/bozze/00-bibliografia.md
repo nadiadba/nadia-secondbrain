@@ -123,3 +123,12 @@ Per ogni bozza, i testi su cui approfondire l'argomento, in ordine di lezione. L
 - P. Veyne, *Quando l'Europa è diventata cristiana (312-394). Costantino, la conversione, l'impero*, Milano, Garzanti
 - A. Carandini (a cura di), *Atlante di Roma antica*, Milano, Electa 2012 (le tavole del cosiddetto tempio di Minerva Medica)
 - Fonti citate a lezione e nelle slide: Cassio Dione, *Storia romana* (l'«impero di ferro arrugginito»); S. Serlio, il trattato di architettura; Pirro Ligorio, pianta della Basilica di Massenzio (Oxford, ms. Canon. ital. 138, c. 38); A. Choisy, il sistema costruttivo della Basilica di Massenzio; H.-M.-D. d'Espouy, ricostruzione della Basilica di Massenzio, 1889; R. Adam, *Ruins of the Palace of the Emperor Diocletian at Spalato in Dalmatia*, Londra 1764; E. Hébrard, J. Zeiller, *Spalato, le Palais de Dioclétien*, Parigi 1912.
+
+## Visita a Ostia antica
+
+*Visita di sabato 7 novembre* · Bozza: [[16-visita-ostia-antica]] · Sbobina: non c'è (visita senza registrazione)
+
+- C. Bozzoni, V. Franchetti Pardo, G. Ortolani, A. Viscogliosi, *L'architettura del mondo antico*, Roma, Laterza 2006
+- *Architettura romana: i grandi monumenti*, a cura di H. von Hesberg, P. Zanker, Milano, Electa 2009
+- J.-P. Adam, *L'arte di costruire presso i Romani. Materiali e tecniche*, Milano, Longanesi 1989
+- Le slide della visita non citano testi. Fonti iconografiche mostrate nelle slide: la pianta degli scavi di Pietro Holl, 1804 (scavi sotto Pio VII); il «Plan d'Ostie et de Porto»; pianta e prospetti del *Capitolium* di C. Albo; le piante del Parco Archeologico di Ostia Antica; foto della Tomba degli Archetti di Klaus Heese.
