@@ -124,6 +124,51 @@ Per ogni bozza, i testi su cui approfondire l'argomento, in ordine di lezione. L
 - A. Carandini (a cura di), *Atlante di Roma antica*, Milano, Electa 2012 (le tavole del cosiddetto tempio di Minerva Medica)
 - Fonti citate a lezione e nelle slide: Cassio Dione, *Storia romana* (l'«impero di ferro arrugginito»); S. Serlio, il trattato di architettura; Pirro Ligorio, pianta della Basilica di Massenzio (Oxford, ms. Canon. ital. 138, c. 38); A. Choisy, il sistema costruttivo della Basilica di Massenzio; H.-M.-D. d'Espouy, ricostruzione della Basilica di Massenzio, 1889; R. Adam, *Ruins of the Palace of the Emperor Diocletian at Spalato in Dalmatia*, Londra 1764; E. Hébrard, J. Zeiller, *Spalato, le Palais de Dioclétien*, Parigi 1912.
 
+## L'architettura paleocristiana a Roma
+
+*Lezione di giovedì 29 ottobre* · Bozza: [[12-architettura-paleocristiana-a-roma]] · Sbobina: [[12-architettura-paleocristiana]]
+
+- R. Krautheimer, *Tre capitali cristiane. Topografia e politica*, Torino, Einaudi, varie edizioni (testo di riferimento della lezione; bibliografia nelle slide)
+- *Da Costantino a Carlo Magno*, a cura di S. de Blaauw, Milano, Electa 2010 (bibliografia della lezione nelle slide)
+- P. Veyne, *Quando l'Europa è diventata cristiana (312-394). Costantino, la conversione, l'impero*, Milano, Garzanti
+- C. Bozzoni, V. Franchetti Pardo, G. Ortolani, A. Viscogliosi, *L'architettura del mondo antico*, Roma, Laterza 2006
+- Fonti citate a lezione e nelle slide: Isidoro di Siviglia, *Etimologie* (il passo sugli edifici sacri: basilica, *martyrium*, ara, altare, pulpito, tribuna); la pianta di San Pietro di Tiberio Alfarano (XVI secolo); i codici con l'interno e il quadriportico dell'antica basilica vaticana; B. Peruzzi, le colonne della basilica paleocristiana di San Pietro (Uffizi, 108 Ar).
+- Fonti iconografiche mostrate nelle slide: Piero della Francesca e aiuti, *Il sogno di Costantino*, 1458-1466 (San Francesco ad Arezzo); F. Gagliardi, l'interno di San Giovanni in Laterano (1650) e quello di San Pietro (SS. Silvestro e Martino ai Monti); L. Rossini, *L'incendio della Basilica di San Paolo fuori le mura* (1823); Raffaello e Giulio Romano, *Battesimo di Costantino*, Sala di Costantino, 1520-1524; la pianta di Roma verso il 500 da Krautheimer; A. Palladio, *I quattro libri dell'architettura* (il Battistero Lateranense, citato a lezione).
+
+## L'architettura bizantina: Costantinopoli e Ravenna
+
+*Lezione di venerdì 30 ottobre (online)* · Bozza: [[13-architettura-bizantina-costantinopoli-e-ravenna]] · Sbobina: [[13-architettura-bizantina]]
+
+- R. Krautheimer, *Tre capitali cristiane. Topografia e politica*, Torino, Einaudi, varie edizioni (bibliografia della lezione nelle slide)
+- *Da Costantino a Carlo Magno*, a cura di S. de Blaauw, Milano, Electa 2010 (bibliografia della lezione nelle slide)
+- R. Bonelli, C. Bozzoni, V. Franchetti Pardo, *Storia dell'architettura medievale*, Roma, Laterza 2012 (testo di riferimento generale del programma)
+- Fonti citate a lezione e nelle slide: Procopio di Cesarea, *De aedificiis*; Manuele Crisolora, elogio di Santa Sofia (1350 circa); D. Fontana, il libro sulla «trasportazione» dell'Obelisco Vaticano (fine XVI secolo); Codice Vaticano greco 1162 (i Santi Apostoli); C. Buondelmonti, veduta di Costantinopoli (1481); Giuliano da Sangallo, disegni di Santa Sofia e del Mausoleo di Teodorico («Tenpio di Ravena anticho»); le ricostruzioni digitali del sito byzantium1200.com.
+
+## San Vitale a Ravenna, i Longobardi e Carlo Magno
+
+*Lezione di giovedì 5 novembre* · Bozza: [[14-san-vitale-longobardi-e-carlo-magno]] · Sbobina: [[14-san-vitale-longobardi-carolingi]]
+
+- *Da Costantino a Carlo Magno*, a cura di S. de Blaauw, Milano, Electa 2010 (bibliografia della lezione nelle slide)
+- M. Luchterhandt, *Rinascita a Roma, nell'Italia carolingia e meridionale*, in *Da Costantino a Carlo Magno*, a cura di S. de Blaauw, Milano, Electa 2010, tomo II, pp. 322-373 (dalle slide)
+- C. Jäggi, *San Salvatore di Spoleto: una chiesa di corte longobarda del VII secolo?*, in *La Basilica di San Salvatore di Spoleto*, a cura di M. Bassetti et al., Spoleto 2012, pp. 573-598 (dalle slide)
+- R. Krautheimer, *Tre capitali cristiane. Topografia e politica*, Torino, Einaudi, varie edizioni (dalle slide; in biblioteca di Storia dell'arte)
+- S. Bettini, la definizione di «spazio agitato» per l'architettura bizantina (citato a lezione per San Vitale)
+- Fonti citate a lezione e nelle slide: Paolo Diacono, *Storia dei Longobardi*; Eginardo, *Vita di Carlo Magno* (i brani su Aquisgrana); Vitruvio, *De architectura*, nel manoscritto carolingio di Sélestat, Bibliothèque Humaniste, ms. 360; A. Palladio, *I quattro libri dell'architettura*, Venezia 1570 (libro IV, il portale di San Salvatore a Spoleto) e il disegno del Tempietto del Clitunno; Francesco di Giorgio Martini, disegno di San Salvatore a Spoleto (XV secolo); Procopio di Cesarea e Svetonio (citati come biografi di Giustiniano e di Augusto).
+- Fonti iconografiche mostrate nelle slide: *Codex Legum Langobardorum*, XI secolo (miniatura del duca Arechi II); A. Dürer, *Ritratto di Carlo Magno*; Raffaello, *Incoronazione di Carlo Magno* (Stanze Vaticane); Evangeliario di Godescalco, 781-783; B. Peruzzi, il portale della Villa Chigi alla Lungara.
+
+## L'architettura romanica: introduzione, Firenze e Pisa
+
+*Lezione di venerdì 6 novembre* · Bozza: [[15-introduzione-al-romanico-firenze-e-pisa]] · Sbobina: [[15-architettura-romanica-firenze-pisa]]
+
+- C. Tosco, *L'architettura medievale in Italia: 600-1200*, Bologna, il Mulino 2016 (capitoli corrispondenti agli argomenti trattati; nel programma e nella bibliografia della lezione nelle slide)
+- AAVV, *Lineamenti di storia dell'architettura: architettura romanica* (premessa storica e l'architettura romanica in Italia; dalla bibliografia della lezione nelle slide), cioè A. Bruschi et al., *Lineamenti di storia dell'architettura per i corsi di storia dell'architettura*, Roma, Sovera 1994 (o edizioni successive)
+- X. Barral i Altet, *Contro l'arte romanica? Saggio su un passato reinventato*, Milano 2009 o edizioni successive (in particolare introduzione, fonti e letture; dalla bibliografia della lezione nelle slide)
+- R. Bonelli, C. Bozzoni, V. Franchetti Pardo, *Storia dell'architettura medievale*, Roma, Laterza 2012
+- A. Naser Eslami, M.R. Nobile, *Storia dell'architettura in Italia. Tra Mediterraneo e Europa (VII-XVIII secolo)*, Milano, Pearson 2022
+- G. Tigler, *Toscana romanica* (citato a lezione per l'ipotesi del legame tra la pianta del Duomo di Pisa e San Simeone Stilita)
+- *L'architettura del Rinascimento. Storia e geografia*, a cura di F. Mattei, Roma, Carocci 2026 (il libro da cui si sceglie il capitolo per l'esercitazione d'esame, citato a lezione)
+- Fonti citate a lezione e nelle slide: Rodolfo il Glabro, la terra che «si rivestisse tutta di un candido manto di chiese» (inizio XI secolo); un codice miniato del XIII secolo con un cantiere medievale; l'epigrafe del sepolcro di Buscheto sulla facciata del Duomo di Pisa (Buscheto paragonato a Dedalo); l'iscrizione araba con la firma dello scultore Fath sul capitello del Museo dell'Opera del Duomo di Pisa.
+
 ## Visita a Ostia antica
 
 *Visita di sabato 7 novembre* · Bozza: [[16-visita-ostia-antica]] · Sbobina: non c'è (visita senza registrazione)

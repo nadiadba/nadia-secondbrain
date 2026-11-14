@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica con Whisper). La lezione si è svolta a distanza, online: per questo nel testo la professoressa parla della chat e della condivisione dello schermo. Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I nomi propri e i termini sono stati controllati sulle slide della lezione («17_architettuza bizantina_Costantinopoli e Ravenna.pdf»).
 
 > [!info] Note collegate
+> Bozza: [[13-architettura-bizantina-costantinopoli-e-ravenna]]
+>
 > Sbobina precedente: [[12-architettura-paleocristiana]] · Successiva: [[14-san-vitale-longobardi-carolingi]]
 
 ## Che cosa si intende per architettura bizantina

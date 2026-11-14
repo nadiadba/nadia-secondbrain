@@ -46,6 +46,10 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 - [[09-villa-romana-e-villa-adriana|La villa romana e Villa Adriana a Tivoli]]: le ville sul lago e sul mare, Adriano committente, gli spazi della villa e i viaggi dell'imperatore.
 - [[10-pantheon-da-agrippa-ad-adriano|Il Pantheon: da Agrippa ad Adriano]]: la storia, il pronao, la rotonda e la cupola; il confronto con il Partenone.
 - [[11-architettura-tardoantica-da-baalbek-a-spalato|L'architettura tardoantica: da Baalbek a Spalato]]: Baalbek e Leptis Magna, la domus tardoantica, l'Arco di Costantino, la Basilica di Massenzio, il Palazzo di Diocleziano.
+- [[12-architettura-paleocristiana-a-roma|L'architettura paleocristiana a Roma]]: la cristianizzazione dell'impero, la *domus ecclesiae*, la basilica cristiana (Laterano, San Pietro, Santa Maria Maggiore, San Paolo fuori le mura) e il Battistero Lateranense.
+- [[13-architettura-bizantina-costantinopoli-e-ravenna|L'architettura bizantina: Costantinopoli e Ravenna]]: la città di Costantino e dei Teodosiani, Giustiniano e Santa Sofia, la cupola su pennacchi; Galla Placidia, il Battistero degli Ortodossi, il Mausoleo di Teodorico.
+- [[14-san-vitale-longobardi-e-carlo-magno|San Vitale, i Longobardi e Carlo Magno]]: lo «spazio agitato» di San Vitale, le chiese longobarde e i materiali di spoglio, la Cappella Palatina di Aquisgrana, Santa Prassede e il Westwerk.
+- [[15-introduzione-al-romanico-firenze-e-pisa|L'architettura romanica: introduzione, Firenze e Pisa]]: il «candido manto di chiese», la volta a crociera e la chiesa romanica, Spira, il Battistero di Firenze, San Miniato al Monte, il Duomo di Pisa.
 - [[16-visita-ostia-antica|Visita a Ostia antica: scaletta degli argomenti]] (sab 7 novembre): senza registrazione, ricostruita dalle slide e dalle tue foto; necropoli, Porta Romana, Terme di Nettuno, teatro e Piazzale delle Corporazioni, Capitolium e Foro, Caseggiato del Larario e di Diana.
 
 ## Da fare

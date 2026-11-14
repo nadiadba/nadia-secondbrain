@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica con Whisper). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. La registrazione comincia a lezione già iniziata. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I nomi propri sono stati controllati sulle slide della lezione («20_architettura romanica.pdf», slide 1-32).
 
 > [!info] Note collegate
+> Bozza: [[15-introduzione-al-romanico-firenze-e-pisa]]
+>
 > Sbobina precedente: [[14-san-vitale-longobardi-carolingi]]
 
 ## Rodolfo il Glabro e il "candido manto di chiese"

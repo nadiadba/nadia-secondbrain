@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione (trascrizione automatica con Whisper). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. La prima parte della lezione, dedicata alle istruzioni per la prova intermedia del 4 novembre, è riassunta nel riquadro «Avvisi» in fondo. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I nomi sono stati controllati sulle slide della lezione (*16_architettura paleocristiana_Roma.pdf*).
 
 > [!info] Note collegate
+> Bozza: [[12-architettura-paleocristiana-a-roma]]
+>
 > Sbobina precedente: [[11-architettura-tardoantica]] · Successiva: [[13-architettura-bizantina]]
 
 ## Una lezione improvvisata
