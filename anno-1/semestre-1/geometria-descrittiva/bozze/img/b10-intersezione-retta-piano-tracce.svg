@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 586" width="600" height="586">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Forma canonica: dove la retta r buca il piano α (dato con le tracce)</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="250.0" x2="580.0" y2="250.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="60.0" y1="250.0" x2="495.0" y2="32.5" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="499.0" y="36.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="60.0" y1="250.0" x2="495.0" y2="489.2" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="499.0" y="501.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="92.5" y1="327.5" x2="480.0" y2="250.0" stroke="#7b4fa0" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="480.0" y1="250.0" x2="480.0" y2="10.0" stroke="#7b4fa0" stroke-width="2.4" stroke-linecap="round"/>
+<text x="446.0" y="18.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>γ</text>
+<line x1="160.0" y1="314.0" x2="400.0" y2="266.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="160.0" y1="136.4" x2="400.0" y2="216.4" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="138.0" y="136.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂</text>
+<text x="327.5" y="304.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">r₁ ≡ t₁γ ≡ n₁</text>
+<line x1="172.0" y1="250.0" x2="172.0" y2="311.6" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="172.0" y1="250.0" x2="480.0" y2="40.0" stroke="#7b4fa0" stroke-width="1.8" stroke-linecap="round"/>
+<text x="426.4" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">n₂</text>
+<circle cx="172.0" cy="311.6" r="2.8" fill="#7b4fa0"/>
+<text x="162.0" y="337.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">T<tspan dy="4" font-size="70%">1n</tspan><tspan dy="-4"></tspan></text>
+<circle cx="172.0" cy="250.0" r="2.8" fill="#7b4fa0"/>
+<text x="100.0" y="242.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">(T<tspan dy="4" font-size="70%">1n</tspan><tspan dy="-4"></tspan>)₂</text>
+<circle cx="480.0" cy="40.0" r="2.8" fill="#7b4fa0"/>
+<text x="488.0" y="60.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">T<tspan dy="4" font-size="70%">2n</tspan><tspan dy="-4"></tspan></text>
+<circle cx="480.0" cy="250.0" r="2.8" fill="#7b4fa0"/>
+<text x="486.0" y="268.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">(T<tspan dy="4" font-size="70%">2n</tspan><tspan dy="-4"></tspan>)₁</text>
+<line x1="280.0" y1="176.4" x2="280.0" y2="290.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="280.0" cy="176.4" r="2.8" fill="#1f1f1f"/>
+<text x="275.0" y="160.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">P₂</text>
+<circle cx="280.0" cy="290.0" r="2.8" fill="#1f1f1f"/>
+<text x="272.0" y="312.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">P₁</text>
+<text x="16" y="518" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">γ proiettante in prima per r: t₁γ ≡ r₁. n = α ∩ γ: T₁ₙ = t₁α ∩ t₁γ, T₂ₙ = t₂α ∩ t₂γ, n₁ ≡ t₁γ.</text>
+<text x="16" y="535" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">n₂ unisce T₂ₙ e (T₁ₙ)₂. Dove n₂ incontra r₂ c'è P₂; P₁ sta su r₁, sulla linea di richiamo.</text>
+</g>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 616" width="620" height="616">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">La distanza del punto P dal piano α (forma canonica)</text>
+<g transform="translate(0,36)">
+<line x1="10.0" y1="250.0" x2="600.0" y2="250.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="12.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="50.0" y1="250.0" x2="570.0" y2="120.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="560.0" y="110.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="50.0" y1="250.0" x2="200.0" y2="475.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="164.0" y="479.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="146.1" y1="439.3" x2="430.0" y2="250.0" stroke="#7b4fa0" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="430.0" y1="250.0" x2="430.0" y2="100.0" stroke="#7b4fa0" stroke-width="2.4" stroke-linecap="round"/>
+<text x="436.0" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>γ</text>
+<text x="106.1" y="461.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">r₁ ≡ t₁γ ≡ n₁</text>
+<line x1="332.7" y1="20.9" x2="382.4" y2="219.8" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="338.7" y="24.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r₂</text>
+<line x1="367.8" y1="161.3" x2="376.5" y2="159.1" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="376.5" y1="159.1" x2="378.7" y2="167.8" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="174.4" y1="420.4" x2="179.4" y2="427.9" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="179.4" y1="427.9" x2="171.9" y2="432.9" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="166.9" y1="250.0" x2="166.9" y2="425.4" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="166.9" y1="250.0" x2="430.0" y2="155.0" stroke="#7b4fa0" stroke-width="1.8" stroke-linecap="round"/>
+<text x="279.3" y="197.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">n₂</text>
+<circle cx="166.9" cy="425.4" r="2.8" fill="#7b4fa0"/>
+<text x="176.9" y="431.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">T<tspan dy="4" font-size="70%">1n</tspan><tspan dy="-4"></tspan></text>
+<circle cx="166.9" cy="250.0" r="2.8" fill="#7b4fa0"/>
+<text x="126.9" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">(T<tspan dy="4" font-size="70%">1n</tspan><tspan dy="-4"></tspan>)₂</text>
+<circle cx="430.0" cy="155.0" r="2.8" fill="#7b4fa0"/>
+<text x="438.0" y="173.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">T<tspan dy="4" font-size="70%">2n</tspan><tspan dy="-4"></tspan></text>
+<circle cx="430.0" cy="250.0" r="2.8" fill="#7b4fa0"/>
+<line x1="340.0" y1="50.0" x2="340.0" y2="310.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="371.5" y1="176.1" x2="371.5" y2="289.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="340.0" y1="50.0" x2="371.5" y2="176.1" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round"/>
+<line x1="340.0" y1="310.0" x2="371.5" y2="289.0" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round"/>
+<circle cx="340.0" cy="50.0" r="2.8" fill="#1f1f1f"/>
+<text x="348.0" y="46.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">P₂</text>
+<circle cx="340.0" cy="310.0" r="2.8" fill="#1f1f1f"/>
+<text x="314.0" y="306.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">P₁</text>
+<circle cx="371.5" cy="176.1" r="2.8" fill="#1f1f1f"/>
+<text x="385.5" y="196.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">H₂</text>
+<circle cx="371.5" cy="289.0" r="2.8" fill="#1f1f1f"/>
+<text x="345.5" y="283.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">H₁</text>
+<line x1="340.0" y1="310.0" x2="450.9" y2="476.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="391.3" y1="396.0" x2="399.6" y2="390.4" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="335.0" y1="120.0" x2="345.0" y2="120.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="347.5" y1="305.0" x2="352.5" y2="312.5" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="352.5" y1="312.5" x2="345.0" y2="317.5" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="371.5" y1="289.0" x2="412.5" y2="350.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="386.8" y1="320.8" x2="395.1" y2="315.3" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="389.0" y1="324.2" x2="397.3" y2="318.6" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="366.5" y1="200.0" x2="376.5" y2="200.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="366.5" y1="204.0" x2="376.5" y2="204.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="379.0" y1="284.0" x2="384.0" y2="291.5" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="384.0" y1="291.5" x2="376.5" y2="296.5" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="450.9" y1="476.4" x2="412.5" y2="350.5" stroke="#2e8b57" stroke-width="3.2" stroke-linecap="round"/>
+<circle cx="450.9" cy="476.4" r="2.8" fill="#2e8b57"/>
+<text x="458.9" y="480.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">P*</text>
+<circle cx="412.5" cy="350.5" r="2.8" fill="#2e8b57"/>
+<text x="420.5" y="354.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">H*</text>
+<text x="443.7" y="417.4" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57">distanza vera</text>
+<text x="16" y="528" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">1. r per P: r₁ ⊥ t₁α, r₂ ⊥ t₂α.  2. γ proiettante in prima per r (t₁γ ≡ r₁): n = α ∩ γ, H₂ = n₂ ∩ r₂.</text>
+<text x="16" y="545" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">3. γ si ribalta su π₁ intorno a t₁γ: P* e H* stanno sulle perpendicolari a t₁γ, alla distanza</text>
+<text x="16" y="562" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">della quota (una e due lineette). P*H* è la distanza di P da α in vera grandezza.</text>
+</g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 516" width="620" height="516">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Proposto, nello spazio: la faccia DEV si abbatte su π₁ intorno a DE</text>
+<g transform="translate(0,36)">
+<polygon points="68.1,243.5 230.0,150.0 539.2,328.5 377.2,422.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="68.1,243.5 230.0,150.0 230.0,22.5 68.1,116.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="230.0,150.0 539.2,328.5 539.2,201.0 230.0,22.5" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="68.1" y1="243.5" x2="230.0" y2="150.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="230.0" y1="150.0" x2="539.2" y2="328.5" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="230.0" y1="150.0" x2="230.0" y2="22.5" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="345.7" y="366.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="98.3" y="115.1" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="467.9" y="169.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="46.1" y="247.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<line x1="382.1" y1="295.8" x2="294.0" y2="314.3" stroke="#2563a8" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="382.1" y1="295.8" x2="322.0" y2="177.6" stroke="#2563a8" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="294.0" y1="314.3" x2="262.0" y2="263.5" stroke="#2563a8" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="294.0" y1="314.3" x2="322.0" y2="177.6" stroke="#2563a8" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="262.0" y1="263.5" x2="350.0" y2="245.0" stroke="#2563a8" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="262.0" y1="263.5" x2="322.0" y2="177.6" stroke="#2563a8" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="350.0" y1="245.0" x2="382.1" y2="295.8" stroke="#2563a8" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="350.0" y1="245.0" x2="322.0" y2="177.6" stroke="#2563a8" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="382.1,295.8 294.0,314.3 322.0,177.6" fill="#2563a8" fill-opacity="0.3" stroke="#2563a8" stroke-width="1"/>
+<polygon points="382.1,295.8 294.0,314.3 383.7,377.4" fill="#c0392b" fill-opacity="0.22" stroke="#c0392b" stroke-width="1"/>
+<path d="M 322.0 177.6 L 324.1 179.2 L 326.2 181.1 L 328.3 183.2 L 330.5 185.7 L 332.7 188.4 L 334.9 191.4 L 337.1 194.6 L 339.3 198.1 L 341.5 201.9 L 343.7 205.9 L 345.8 210.1 L 348.0 214.5 L 350.1 219.2 L 352.2 224.1 L 354.3 229.1 L 356.4 234.3 L 358.3 239.7 L 360.3 245.2 L 362.2 250.9 L 364.0 256.7 L 365.8 262.7 L 367.5 268.7 L 369.2 274.8 L 370.7 280.9 L 372.2 287.2 L 373.7 293.4 L 375.0 299.7 L 376.2 306.0 L 377.4 312.3 L 378.5 318.6 L 379.4 324.9 L 380.3 331.1 L 381.1 337.2 L 381.8 343.3 L 382.3 349.3 L 382.8 355.2 L 383.2 361.0 L 383.5 366.6 L 383.6 372.1 L 383.7 377.4" fill="none" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="5,3"/>
+<line x1="322.0" y1="177.6" x2="322.0" y2="279.6" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="338.0" y1="305.0" x2="322.0" y2="177.6" stroke="#2e8b57" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="338.0" y1="305.0" x2="322.0" y2="279.6" stroke="#2e8b57" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="322.0" cy="177.6" r="2.8" fill="#2563a8"/>
+<text x="328.0" y="171.6" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">V</text>
+<circle cx="322.0" cy="279.6" r="2.8" fill="#1f1f1f"/>
+<text x="330.0" y="283.6" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">V₁</text>
+<circle cx="382.1" cy="295.8" r="2.8" fill="#2563a8"/>
+<text x="390.1" y="301.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">D</text>
+<circle cx="294.0" cy="314.3" r="2.8" fill="#2563a8"/>
+<text x="278.0" y="330.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">E</text>
+<circle cx="338.0" cy="305.0" r="2.8" fill="#1f1f1f"/>
+<text x="334.0" y="323.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">H</text>
+<circle cx="383.7" cy="377.4" r="2.8" fill="#c0392b"/>
+<text x="389.7" y="391.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">V*</text>
+<text x="20" y="446" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">La faccia DEV ruota intorno al lato DE, che sta su π₁: V descrive un arco su un piano verticale</text>
+<text x="20" y="463" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">perpendicolare a DE, con centro H. Il triangolo HV₁V è il triangolo di rotazione.</text>
+</g>
+</svg>

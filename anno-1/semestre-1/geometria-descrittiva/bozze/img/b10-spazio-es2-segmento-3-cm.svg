@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 536" width="620" height="536">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: il segmento QE esce dal triangolo, perpendicolare, lungo 3 cm</text>
+<g transform="translate(0,36)">
+<polygon points="80.6,374.0 330.0,230.0 489.3,322.0 239.9,466.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="80.6,374.0 330.0,230.0 330.0,22.0 80.6,166.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="330.0,230.0 489.3,322.0 489.3,114.0 330.0,22.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="80.6" y1="374.0" x2="330.0" y2="230.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="330.0" y1="230.0" x2="489.3" y2="322.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="330.0" y1="230.0" x2="330.0" y2="22.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="251.5" y="420.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="124.0" y="169.6" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="455.5" y="116.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="58.6" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<polygon points="401.9,372.5 123.0,349.5 123.0,141.5 401.9,164.5" fill="#7b4fa0" fill-opacity="0.1" stroke="none"/>
+<line x1="123.0" y1="349.5" x2="401.9" y2="372.5" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="123.0" y1="349.5" x2="123.0" y2="141.5" stroke="#7b4fa0" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="142.9,334.8 316.1,127.6 302.3,215.6" fill="#2563a8" fill-opacity="0.3" stroke="#2563a8" stroke-width="1"/>
+<circle cx="142.9" cy="334.8" r="2.8" fill="#2563a8"/>
+<text x="126.9" y="338.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">A</text>
+<circle cx="316.1" cy="127.6" r="2.8" fill="#2563a8"/>
+<text x="324.1" y="133.6" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">B</text>
+<circle cx="302.3" cy="215.6" r="2.8" fill="#2563a8"/>
+<text x="288.3" y="231.6" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">C</text>
+<line x1="236.2" y1="265.0" x2="250.9" y2="205.6" stroke="#d97706" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="178.9" y1="191.2" x2="154.9" y2="169.4" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="240.6" y1="247.2" x2="178.9" y2="191.2" stroke="#2e8b57" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="233.8" y1="241.0" x2="235.2" y2="235.4" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="235.2" y1="235.4" x2="242.0" y2="241.6" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="240.6" y1="247.2" x2="240.6" y2="359.2" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="178.9" y1="191.2" x2="178.9" y2="354.1" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="240.6" cy="359.2" r="2.8" fill="#1f1f1f"/>
+<text x="246.6" y="375.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">Q₁</text>
+<circle cx="178.9" cy="354.1" r="2.8" fill="#1f1f1f"/>
+<text x="156.9" y="350.1" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">E₁</text>
+<line x1="240.6" y1="359.2" x2="178.9" y2="354.1" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="240.6" cy="247.2" r="2.8" fill="#1f1f1f"/>
+<text x="248.6" y="261.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">Q</text>
+<circle cx="178.9" cy="191.2" r="2.8" fill="#2e8b57"/>
+<text x="186.9" y="187.2" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2e8b57">E</text>
+<text x="169.8" y="219.2" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#2e8b57">3 cm</text>
+<text x="160.9" y="169.4" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#c0392b">r</text>
+<text x="256.9" y="209.6" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#d97706">o</text>
+<text x="16" y="480" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">QE è perpendicolare al triangolo (e quindi anche alla sua orizzontale o). La prima proiezione</text>
+<text x="16" y="497" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Q₁E₁ sta sulla traccia del piano verticale γ ed è più corta di 3 cm: per misurare serve il ribaltamento.</text>
+</g>
+</svg>

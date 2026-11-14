@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 526" width="620" height="526">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: la squadretta appoggiata su π₁ con il lato AB</text>
+<g transform="translate(0,36)">
+<polygon points="71.6,336.5 360.0,170.0 531.5,269.0 243.1,435.5" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="71.6,336.5 360.0,170.0 360.0,35.0 71.6,201.5" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<polygon points="360.0,170.0 531.5,269.0 531.5,134.0 360.0,35.0" fill="#9aa5b1" fill-opacity="0.1" stroke="#b7bfc8" stroke-width="1"/>
+<line x1="71.6" y1="336.5" x2="360.0" y2="170.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="360.0" y1="170.0" x2="531.5" y2="269.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="360.0" y1="170.0" x2="360.0" y2="35.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="258.0" y="384.7" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="120.9" y="190.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<text x="494.6" y="123.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#8a8a8a">π<tspan dy="4" font-size="70%">3</tspan><tspan dy="-4"></tspan></text>
+<text x="49.6" y="340.5" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">LT</text>
+<line x1="79.4" y1="332.0" x2="514.3" y2="259.1" stroke="#8a8a8a" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="79.4" y1="332.0" x2="313.2" y2="62.0" stroke="#8a8a8a" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="514.3" y1="259.1" x2="385.7" y2="49.8" stroke="#8a8a8a" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="259.4,301.8 428.7,273.4 239.7,202.8" fill="#2563a8" fill-opacity="0.35" stroke="#2563a8" stroke-width="1"/>
+<line x1="239.7" y1="202.8" x2="239.7" y2="262.7" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<polygon points="259.4,301.8 428.7,273.4 287.8,358.3" fill="#c0392b" fill-opacity="0.2" stroke="#c0392b" stroke-width="1"/>
+<path d="M 239.7 202.8 L 240.9 202.0 L 242.2 201.5 L 243.5 201.3 L 244.9 201.5 L 246.4 202.1 L 247.9 203.0 L 249.4 204.2 L 251.0 205.7 L 252.6 207.6 L 254.2 209.8 L 255.8 212.3 L 257.5 215.2 L 259.2 218.3 L 260.8 221.7 L 262.5 225.4 L 264.1 229.3 L 265.7 233.5 L 267.3 237.9 L 268.9 242.6 L 270.5 247.4 L 272.0 252.4 L 273.4 257.6 L 274.9 263.0 L 276.2 268.5 L 277.5 274.1 L 278.8 279.7 L 279.9 285.5 L 281.1 291.3 L 282.1 297.2 L 283.0 303.1 L 283.9 308.9 L 284.7 314.8 L 285.4 320.6 L 286.0 326.3 L 286.5 331.9 L 287.0 337.5 L 287.3 342.9 L 287.6 348.2 L 287.7 353.3 L 287.8 358.3" fill="none" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="5,3"/>
+<circle cx="259.4" cy="301.8" r="2.8" fill="#2563a8"/>
+<text x="209.4" y="323.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">A ≡ A*</text>
+<circle cx="428.7" cy="273.4" r="2.8" fill="#2563a8"/>
+<text x="432.7" y="293.4" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">B ≡ B*</text>
+<circle cx="239.7" cy="202.8" r="2.8" fill="#2563a8"/>
+<text x="245.7" y="196.8" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#2563a8">C</text>
+<circle cx="239.7" cy="262.7" r="2.8" fill="#1f1f1f"/>
+<text x="215.7" y="266.7" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#1f1f1f">C₁</text>
+<circle cx="287.8" cy="358.3" r="2.8" fill="#c0392b"/>
+<text x="281.8" y="378.3" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#c0392b">C*</text>
+<text x="20" y="456" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Il lato AB sta già su π₁: è la cerniera. A e B non si muovono; si ribalta solo C.</text>
+<text x="20" y="473" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">C ruota intorno ad AB (arco rosso) e arriva in C*: A*B*C* è la squadretta in vera forma.</text>
+</g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 536" width="620" height="536">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">La squadretta appoggiata con il lato AB su π₁: l'asse è il lato stesso</text>
+<g transform="translate(0,36)">
+<line x1="20.0" y1="175.0" x2="600.0" y2="175.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="22.0" y="169.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="70.0" y1="175.0" x2="508.1" y2="416.0" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="472.1" y="420.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<polygon points="219.0,175.0 359.2,175.0 249.9,108.5" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="219.0,256.9 359.2,334.0 249.9,200.8" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<line x1="219.0" y1="175.0" x2="219.0" y2="256.9" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="359.2" y1="175.0" x2="359.2" y2="334.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="249.9" y1="108.5" x2="249.9" y2="200.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="264.3" y1="174.5" x2="160.0" y2="364.2" stroke="#2e8b57" stroke-width="1.8" stroke-linecap="round"/>
+<text x="130.0" y="368.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>γ</text>
+<line x1="249.9" y1="200.8" x2="308.1" y2="232.8" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="254.9" y1="143.7" x2="244.9" y2="143.7" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="254.9" y1="139.7" x2="244.9" y2="139.7" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="274.8" y1="220.2" x2="279.6" y2="211.4" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="278.3" y1="222.1" x2="283.2" y2="213.4" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="219.0" y1="256.9" x2="308.1" y2="232.8" stroke="#2e8b57" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M 308.1 232.8 L 309.2 237.2 L 310.1 241.6 L 310.7 246.0 L 311.1 250.5 L 311.3 255.0 L 311.3 259.5 L 311.1 264.0 L 310.6 268.5 L 309.9 272.9 L 309.0 277.3 L 307.9 281.7 L 306.6 286.0 L 305.1 290.2 L 303.4 294.4 L 301.5 298.5 L 299.3 302.4 L 297.0 306.3 L 294.5 310.0 L 291.9 313.7 L 289.0 317.1 L 286.0 320.5 L 282.8 323.7 L 279.5 326.7 L 276.0 329.6 L 272.4 332.3 L 268.7 334.8 L 264.9 337.1 L 260.9 339.2 L 256.8 341.2 L 252.7 342.9 L 248.5 344.5 L 244.2 345.8 L 239.8 346.9 L 235.4 347.8 L 231.0 348.5 L 226.5 349.0 L 222.0 349.3 L 217.5 349.3 L 213.0 349.1 L 208.5 348.7 L 204.1 348.1 L 199.6 347.3 L 195.3 346.2 L 191.0 345.0 L 186.7 343.5 L 182.5 341.8 L 178.4 339.9 L 174.4 337.9" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<polygon points="219.0,256.9 359.2,334.0 174.4,337.9" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<circle cx="219.0" cy="175.0" r="2.8" fill="#2563a8"/>
+<text x="209.0" y="193.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A₂</text>
+<circle cx="359.2" cy="175.0" r="2.8" fill="#2563a8"/>
+<text x="359.2" y="193.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B₂</text>
+<circle cx="249.9" cy="108.5" r="2.8" fill="#2563a8"/>
+<text x="243.9" y="100.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C₂</text>
+<circle cx="219.0" cy="256.9" r="2.8" fill="#2563a8"/>
+<text x="115.0" y="254.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A₁ ≡ A* ≡ H</text>
+<circle cx="359.2" cy="334.0" r="2.8" fill="#2563a8"/>
+<text x="369.2" y="332.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B₁ ≡ B*</text>
+<circle cx="249.9" cy="200.8" r="2.8" fill="#2563a8"/>
+<text x="257.9" y="194.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C₁</text>
+<circle cx="308.1" cy="232.8" r="2.8" fill="#2e8b57"/>
+<text x="314.1" y="228.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">C̄</text>
+<circle cx="174.4" cy="337.9" r="2.8" fill="#c0392b"/>
+<text x="146.4" y="343.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C*</text>
+<text x="20" y="450" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">A e B stanno su π₁: A₂ e B₂ sono sulla LT, A₁B₁ sta sulla prima traccia ed è l'asse di rotazione.</text>
+<text x="20" y="467" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Si ribalta solo C (stessa costruzione: γ, C̄ con la quota di C, raggio HC̄): A*B*C* è la</text>
+<text x="20" y="484" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">squadretta in vera forma: angolo retto in A, 30° in B, 60° in C.</text>
+</g>
+</svg>

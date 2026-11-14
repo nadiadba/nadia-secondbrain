@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della lezione, registrata in due audio (trascrizione automatica con Whisper). Il primo audio dura 1 ora e 41 minuti, con circa 33 minuti di parlato della docente, e arriva fino all'esercizio sulla cavaliera militare; il secondo dura 1 ora e 20 minuti, con circa 34 minuti di parlato, ed è la «Seconda parte della lezione», dedicata alle sezioni dei solidi. L'audio era di qualità molto bassa: sono stati corretti gli errori evidenti di trascrizione e tolte le parti fuori tema o incomprensibili, in particolare le conversazioni tra studenti durante l'esercizio in aula, senza aggiungere contenuti. Le parole tra parentesi quadre servono solo a rendere leggibile la frase: dove la trascrizione era troppo rovinata sono una ricostruzione, da controllare sugli appunti. La docente lavora alla lavagna e con il modellino degli assi: senza il disegno alcuni passaggi restano poco chiari. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
+> Bozza: [[11-assonometria-cavaliera-e-sezioni-dei-solidi]]
+>
 > Sbobina precedente: [[10-intersezione-retta-figura-e-sezioni]]
 
 ## L'assonometria ortogonale: il triangolo delle tracce

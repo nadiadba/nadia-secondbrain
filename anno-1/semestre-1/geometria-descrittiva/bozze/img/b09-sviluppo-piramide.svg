@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 686" width="620" height="686">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Proposto: lo sviluppo della piramide sul foglio</text>
+<g transform="translate(0,36)">
+<line x1="10.0" y1="150.0" x2="610.0" y2="150.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="12.0" y="144.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="331.8" y1="150.0" x2="331.8" y2="424.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="250.2" y1="150.0" x2="250.2" y2="386.8" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="288.2" y1="150.0" x2="288.2" y2="305.2" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="369.8" y1="150.0" x2="369.8" y2="343.2" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="310.0" y1="30.0" x2="310.0" y2="365.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="331.8" y1="150.0" x2="310.0" y2="30.0" stroke="#2563a8" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="250.2" y1="150.0" x2="310.0" y2="30.0" stroke="#2563a8" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="288.2" y1="150.0" x2="310.0" y2="30.0" stroke="#2563a8" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="369.8" y1="150.0" x2="310.0" y2="30.0" stroke="#2563a8" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="250.2" y1="150.0" x2="369.8" y2="150.0" stroke="#2563a8" stroke-width="2" stroke-linecap="round"/>
+<line x1="315.0" y1="104.0" x2="305.0" y2="104.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="315.0" y1="100.0" x2="305.0" y2="100.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="310.0" cy="30.0" r="2.8" fill="#2563a8"/>
+<text x="316.0" y="24.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">V₂</text>
+<polygon points="331.8,424.8 250.2,386.8 236.8,521.9" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<polygon points="250.2,386.8 288.2,305.2 153.1,291.8" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<polygon points="288.2,305.2 369.8,343.2 383.2,208.1" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<polygon points="369.8,343.2 331.8,424.8 466.9,438.2" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<polygon points="331.8,424.8 250.2,386.8 288.2,305.2 369.8,343.2" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<line x1="331.8" y1="424.8" x2="310.0" y2="365.0" stroke="#2563a8" stroke-width="1" stroke-linecap="round"/>
+<line x1="250.2" y1="386.8" x2="310.0" y2="365.0" stroke="#2563a8" stroke-width="1" stroke-linecap="round"/>
+<line x1="288.2" y1="305.2" x2="310.0" y2="365.0" stroke="#2563a8" stroke-width="1" stroke-linecap="round"/>
+<line x1="369.8" y1="343.2" x2="310.0" y2="365.0" stroke="#2563a8" stroke-width="1" stroke-linecap="round"/>
+<line x1="322.7" y1="337.8" x2="226.3" y2="544.6" stroke="#2e8b57" stroke-width="1.6" stroke-linecap="round"/>
+<text x="274.6" y="462.1" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>γ</text>
+<line x1="310.0" y1="365.0" x2="201.2" y2="314.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="259.5" y1="336.0" x2="255.3" y2="345.0" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="255.9" y1="334.3" x2="251.7" y2="343.3" stroke="#1f1f1f" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="291.0" y1="405.8" x2="201.2" y2="314.3" stroke="#2e8b57" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M 201.2 314.3 L 197.6 318.0 L 194.2 321.8 L 190.9 325.7 L 187.8 329.8 L 184.8 334.0 L 182.0 338.4 L 179.4 342.8 L 176.9 347.3 L 174.7 352.0 L 172.6 356.7 L 170.7 361.5 L 169.0 366.4 L 167.6 371.3 L 166.3 376.3 L 165.2 381.3 L 164.3 386.4 L 163.6 391.5 L 163.1 396.6 L 162.9 401.8 L 162.8 406.9 L 163.0 412.1 L 163.3 417.2 L 163.9 422.3 L 164.7 427.4 L 165.6 432.5 L 166.8 437.5 L 168.2 442.5 L 169.8 447.4 L 171.5 452.2 L 173.5 457.0 L 175.6 461.7 L 178.0 466.2 L 180.5 470.7 L 183.2 475.1 L 186.1 479.4 L 189.1 483.6 L 192.3 487.6 L 195.7 491.5 L 199.2 495.2 L 202.9 498.9 L 206.7 502.3 L 210.6 505.6 L 214.7 508.8 L 218.9 511.8 L 223.2 514.6 L 227.7 517.2 L 232.2 519.7 L 236.8 521.9" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<circle cx="201.2" cy="314.3" r="2.8" fill="#2e8b57"/>
+<text x="183.2" y="308.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">V̄</text>
+<circle cx="291.0" cy="405.8" r="2.8" fill="#1f1f1f"/>
+<text x="274.3" y="413.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">H</text>
+<circle cx="310.0" cy="365.0" r="2.8" fill="#2563a8"/>
+<text x="316.0" y="379.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">V₁</text>
+<circle cx="236.8" cy="521.9" r="2.8" fill="#c0392b"/>
+<text x="222.1" y="541.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">V*</text>
+<circle cx="153.1" cy="291.8" r="2.8" fill="#c0392b"/>
+<text x="130.6" y="290.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">V*</text>
+<circle cx="383.2" cy="208.1" r="2.8" fill="#c0392b"/>
+<text x="381.9" y="198.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">V*</text>
+<circle cx="466.9" cy="438.2" r="2.8" fill="#c0392b"/>
+<text x="473.4" y="449.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">V*</text>
+<circle cx="331.8" cy="424.8" r="2.8" fill="#2563a8"/>
+<text x="329.9" y="446.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">D₁</text>
+<circle cx="250.2" cy="386.8" r="2.8" fill="#2563a8"/>
+<text x="225.3" y="397.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">E₁</text>
+<circle cx="288.2" cy="305.2" r="2.8" fill="#2563a8"/>
+<text x="274.1" y="293.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">F₁</text>
+<circle cx="369.8" cy="343.2" r="2.8" fill="#2563a8"/>
+<text x="378.7" y="342.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">G₁</text>
+<text x="20" y="585" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Ogni faccia ha il lato di base su π₁, come la squadretta: si ribalta solo V, intorno a quel lato.</text>
+<text x="20" y="602" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Per la faccia DE: t₁γ ⊥ DE per V₁; V̄ con l'altezza h (due lineette); centro H, raggio HV̄: V*.</text>
+<text x="20" y="619" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Facendo lo stesso per le altre facce, verso l'esterno, si ottiene lo sviluppo: base + 4 facce.</text>
+<text x="20" y="636" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">(Schema proposto: le misure della piramide sono scelte qui.)</text>
+</g>
+</svg>

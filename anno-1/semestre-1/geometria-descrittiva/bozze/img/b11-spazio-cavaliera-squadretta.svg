@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 501" width="620" height="501">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Cavaliera militare nello spazio: il quadro è π₁, la squadretta è verticale</text>
+<g transform="translate(0,36)">
+<polygon points="10.2,281.5 228.4,376.0 581.8,223.0 363.5,128.5" fill="#9aa5b1" fill-opacity="0.12" stroke="#b7bfc8" stroke-width="1" stroke-linejoin="round"/>
+<text x="371.5" y="128.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8a8a" font-style="italic">π₁ = quadro</text>
+<line x1="270.0" y1="250.0" x2="119.3" y2="315.2" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="270.0" y1="250.0" x2="410.3" y2="310.8" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="270.0" y1="250.0" x2="270.0" y2="64.0" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<text x="69.3" y="317.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">x ≡ x′</text>
+<text x="418.3" y="322.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">y ≡ y′</text>
+<text x="278.0" y="68.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">z</text>
+<circle cx="166.1" cy="295.0" r="2.8" fill="#1f1f1f"/>
+<text x="160.1" y="317.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" font-style="italic">u</text>
+<circle cx="373.9" cy="295.0" r="2.8" fill="#1f1f1f"/>
+<text x="369.9" y="317.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" font-style="italic">u</text>
+<polyline points="259.9,254.4 270.0,258.7 280.1,254.4" fill="none" stroke="#1f1f1f" stroke-width="1"/>
+<line x1="270.0" y1="250.0" x2="451.6" y2="149.9" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<text x="457.6" y="153.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">z′</text>
+<polygon points="270.0,250.0 270.0,130.0 360.8,200.0" fill="#2e8b57" fill-opacity="0.16" stroke="none" stroke-linejoin="round"/>
+<line x1="270.0" y1="130.0" x2="319.9" y2="222.5" stroke="#d97706" stroke-width="2" stroke-linecap="round"/>
+<circle cx="319.9" cy="222.5" r="2.8" fill="#d97706"/>
+<line x1="319.9" y1="222.5" x2="275.9" y2="278.5" stroke="#d97706" stroke-width="0.8" stroke-linecap="round"/>
+<text x="259.9" y="292.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#d97706" font-style="italic">u′<tspan dy="4" font-size="70%">z</tspan><tspan dy="-4"></tspan> &lt; u</text>
+<line x1="270.0" y1="130.0" x2="360.8" y2="200.0" stroke="#2e8b57" stroke-width="2" stroke-linecap="round"/>
+<circle cx="360.8" cy="200.0" r="2.8" fill="#2e8b57"/>
+<line x1="360.8" y1="200.0" x2="366.8" y2="252.0" stroke="#2e8b57" stroke-width="0.8" stroke-linecap="round"/>
+<text x="350.8" y="266.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2e8b57" font-style="italic">45°: u′<tspan dy="4" font-size="70%">z</tspan><tspan dy="-4"></tspan> = u</text>
+<line x1="270.0" y1="130.0" x2="415.3" y2="169.9" stroke="#7b4fa0" stroke-width="2" stroke-linecap="round"/>
+<circle cx="415.3" cy="169.9" r="2.8" fill="#7b4fa0"/>
+<line x1="415.3" y1="169.9" x2="421.3" y2="187.9" stroke="#7b4fa0" stroke-width="0.8" stroke-linecap="round"/>
+<text x="405.3" y="201.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#7b4fa0" font-style="italic">u′<tspan dy="4" font-size="70%">z</tspan><tspan dy="-4"></tspan> &gt; u</text>
+<polyline points="270.0,240.0 278.8,235.2 278.8,245.2" fill="none" stroke="#1f1f1f" stroke-width="1"/>
+<circle cx="270.0" cy="130.0" r="2.8" fill="#1f1f1f"/>
+<text x="238.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">U<tspan dy="4" font-size="70%">z</tspan><tspan dy="-4"></tspan></text>
+<circle cx="270.0" cy="250.0" r="2.8" fill="#1f1f1f"/>
+<text x="206.0" y="242.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O ≡ O′</text>
+<text x="254.0" y="194.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" font-style="italic">u</text>
+<text x="16" y="405" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Il triangolo verde è la squadretta: un cateto è l'unità u sull'asse z, l'altro è u′z sul quadro,</text>
+<text x="16" y="425" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">l'ipotenusa è la direzione di proiezione. A 45° i cateti sono uguali (u′z = u);</text>
+<text x="16" y="445" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">con una direzione più ripida u′z si accorcia (arancio), con una più inclinata si allunga (viola).</text>
+</g>
+</svg>

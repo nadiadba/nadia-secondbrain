@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, bozza]
 > [!info] Note collegate
 > Sbobina: [[07-ribaltamento-piani-proiettanti]]
 >
-> Bozza precedente: [[06-piani-ausiliari-e-perpendicolarita]]
+> Bozza precedente: [[06-piani-ausiliari-e-perpendicolarita]] · Successiva: [[08-il-ribaltamento-del-punto]]
 
 Quando una figura sta su un piano proiettante, le sue proiezioni non dicono quanto è grande davvero:
 

@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione automatica con Whisper di due registrazioni della stessa lezione, fatte da due telefoni diversi e poi unite in un testo unico, in ordine di lezione. La registrazione di Nadia (47 minuti, la più chiara) copre la parte centrale; l'altra (un'ora e venti, ma solo mezz'ora di parlato e più confusa) aggiunge l'inizio, con le consegne, e la parte finale, dopo la fine della registrazione di Nadia. Dove le due registrazioni si sovrappongono è stata usata la versione più chiara. Sono stati corretti gli errori evidenti di trascrizione e tolte le chiacchiere in aula e le parti incomprensibili, senza aggiungere contenuti. Le parole tra parentesi quadre sono integrazioni per rendere leggibile la frase; quelle con il punto di domanda sono incerte. I segni […] indicano parti che mancano. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni fatte alla lavagna con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
+> Bozza: [[09-ribaltamento-del-piano-generico]]
+>
 > Sbobina precedente: [[08-tracce-orizzontale-e-ribaltamento-del-punto]] · Successiva: [[10-intersezione-retta-figura-e-sezioni]]
 
 ## Le consegne
@@ -199,7 +201,7 @@ Guardate, dovete ascoltarmi senza disegnare. Guardate questa figura: la squadret
 […] Sono cinque volte che vediamo il ribaltamento del piano generico. […] Ribalto la quota di C, quindi questo è il piano, e vado a utilizzare il raggio di rotazione. Quindi, una volta utilizzato il raggio di rotazione, mi serve solo [ribaltare] C, e la figura è questa. [Gli altri punti] non si sono mossi.
 
 > [!example] Il disegno alla lavagna
-> ![[09-squadretta-con-un-lato-su-pi1.svg|620]]
+> ![[09-squadretta-con-un-lato-su-pi1-v2.svg|620]]
 >
 > 1. La squadretta da 60 è appoggiata su π₁ con un lato, AB, ed è inclinata: A₂ e B₂ stanno sulla LT, e A₁B₁ sta sulla prima traccia del piano.
 > 2. L'asse di rotazione è il lato stesso A₁B₁: A e B non si muovono (A\* ≡ A₁, B\* ≡ B₁). Non serve cercare altre tracce.

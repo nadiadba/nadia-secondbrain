@@ -404,7 +404,7 @@ f.salva(OUT + "09-ribaltamento-intorno-a-orizzontale.svg")
 # 7. La squadretta da 60 appoggiata con un lato su pi1: l'asse e' il lato stesso
 # =========================================================================================
 # A e B su t1alfa; la vera forma e' un triangolo 30-60-90 (la squadretta)
-sA, sB = 90.0, 250.0                  # distanze lungo t1alfa da K
+sA, sB = 170.0, 330.0                 # distanze lungo t1alfa da K
 L = sB - sA
 A7 = (K3[0] + d1[0] * sA, -d1[1] * sA, 0)
 B7 = (K3[0] + d1[0] * sB, -d1[1] * sB, 0)
@@ -454,5 +454,5 @@ f.punto(Cst7, "C*", -28, 6, "rosso")
 nota_righe(f, 450, ["A e B stanno su π₁: A₂ e B₂ sono sulla LT, A₁B₁ sta sulla prima traccia ed è l'asse di rotazione.",
                     "Si ribalta solo C (stessa costruzione: γ, C̄ con la quota di C, raggio HC̄): A*B*C* è la",
                     "squadretta in vera forma: angolo retto in A, 30° in B, 60° in C."])
-f.salva(OUT + "09-squadretta-con-un-lato-su-pi1.svg")
+f.salva(OUT + "09-squadretta-con-un-lato-su-pi1-v2.svg")
 print("ok")

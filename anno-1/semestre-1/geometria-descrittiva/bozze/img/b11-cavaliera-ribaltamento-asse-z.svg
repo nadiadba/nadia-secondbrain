@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 498" width="600" height="498">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Cavaliera militare: il ribaltamento dell'asse z</text>
+<g transform="translate(0,36)">
+<line x1="240.0" y1="220.0" x2="68.5" y2="319.0" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="240.0" y1="220.0" x2="321.0" y2="360.3" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="240.0" y1="220.0" x2="240.0" y2="28.0" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="240.0" y1="220.0" x2="576.0" y2="220.0" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round"/>
+<polyline points="231.3,225.0 236.3,233.7 245.0,228.7" fill="none" stroke="#1f1f1f" stroke-width="1"/>
+<polyline points="240.0,210.0 250.0,210.0 250.0,220.0" fill="none" stroke="#1f1f1f" stroke-width="1"/>
+<text x="18.5" y="339.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">x′ ≡ x*</text>
+<text x="327.0" y="376.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">y′ ≡ y*</text>
+<text x="248.0" y="32.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">z′</text>
+<text x="568.0" y="242.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">z*</text>
+<circle cx="240.0" cy="220.0" r="2.8" fill="#1f1f1f"/>
+<text x="212.0" y="212.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O′</text>
+<path d="M 188.0 250.0 A 60.0 60.0 0 0 0 300.0 220.0" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4"/>
+<circle cx="188.0" cy="250.0" r="2.8" fill="#1f1f1f"/>
+<text x="182.0" y="240.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" font-style="italic">u</text>
+<circle cx="270.0" cy="272.0" r="2.8" fill="#1f1f1f"/>
+<text x="278.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" font-style="italic">u</text>
+<circle cx="300.0" cy="220.0" r="2.8" fill="#c0392b"/>
+<text x="304.0" y="240.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c0392b" font-style="italic">u</text>
+<line x1="300.0" y1="220.0" x2="240.0" y2="175.0" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="396.0" y1="220.0" x2="240.0" y2="103.0" stroke="#2e8b57" stroke-width="1.4" stroke-dasharray="7,4" stroke-linecap="round"/>
+<circle cx="240.0" cy="175.0" r="2.8" fill="#2e8b57"/>
+<text x="200.0" y="181.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2e8b57" font-style="italic">u′<tspan dy="4" font-size="70%">z</tspan><tspan dy="-4"></tspan></text>
+<circle cx="396.0" cy="220.0" r="2.8" fill="#c0392b"/>
+<text x="392.0" y="242.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">h</text>
+<circle cx="240.0" cy="103.0" r="2.8" fill="#2e8b57"/>
+<text x="212.0" y="107.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">h′</text>
+<text x="274.0" y="191.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">s*</text>
+<text x="318.2" y="149.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">parallela a s*</text>
+<line x1="217.0" y1="240.2" x2="211.0" y2="229.8" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="260.2" y1="243.0" x2="249.8" y2="249.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="270.0" y1="214.0" x2="270.0" y2="226.0" stroke="#1f1f1f" stroke-width="1.2" stroke-linecap="round"/>
+<text x="16" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">u è la stessa su x′, y′ e z* (una lineetta: misure uguali, riportate col compasso); u′z su z′ si sceglie.</text>
+<text x="16" y="440" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">s* unisce u su z* con u′z su z′; un'altezza vera h presa su z* va su z′ con la parallela a s*: è h′.</text>
+</g>
+</svg>

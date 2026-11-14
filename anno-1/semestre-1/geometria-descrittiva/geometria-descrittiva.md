@@ -52,3 +52,7 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 - [[05-appartenenza-e-rette-ausiliarie|Appartenenza di rette e punti a un piano, rette ausiliarie]] (15 ottobre)
 - [[06-piani-ausiliari-e-perpendicolarita|Piani ausiliari, rette orizzontali e frontali, perpendicolarità]] (20 ottobre)
 - [[07-il-ribaltamento|Il ribaltamento dei piani proiettanti]] (22 ottobre)
+- [[08-il-ribaltamento-del-punto|Tracce, orizzontale e ribaltamento del punto]] (27 ottobre): bozza breve, perché la registrazione era quasi incomprensibile
+- [[09-ribaltamento-del-piano-generico|Il ribaltamento del piano generico]] (29 ottobre): forma canonica e forma tecnica passo per passo, la squadretta e lo sviluppo della piramide
+- [[10-intersezione-retta-piano-e-segno-di-sezione|Intersezione retta-piano e segno di sezione]] (5 novembre): piano ausiliario, distanza punto-piano, segmento perpendicolare di 3 cm a ritroso, scala e segno di sezione in pianta
+- [[11-assonometria-cavaliera-e-sezioni-dei-solidi|L'assonometria cavaliera militare e le sezioni dei solidi]] (10 novembre): ripasso dell'ortogonale, cavaliera militare, esercizio del prisma, sezioni con piano parallelo alla LT e con piano verticale

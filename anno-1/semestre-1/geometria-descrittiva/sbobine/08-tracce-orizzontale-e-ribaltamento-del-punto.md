@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione automatica con Whisper della registrazione, poi sistemata. L'audio dura circa un'ora e mezza, ma la voce della docente era lontana: solo una decina di minuti si sono potuti trascrivere, e anche quelli in modo molto confuso. Questa sbobina è quindi breve e fatta di frammenti: sono rimaste solo le frasi che si capiscono davvero; sono state tolte le chiacchiere in aula e le parti incomprensibili, senza aggiungere contenuti. Le parole tra parentesi quadre sono integrazioni per rendere leggibile la frase; quelle con il punto di domanda sono incerte. I segni […] indicano parti che mancano. Non ci sono riquadri «Il disegno» (che sarebbero ricostruzioni, non parole della docente): dall'audio nessuna costruzione si capisce con sicurezza. È la lezione prima della prova n. 1 del 29 ottobre.
 
 > [!info] Note collegate
+> Bozza: [[08-il-ribaltamento-del-punto]]
+>
 > Sbobina precedente: [[07-ribaltamento-piani-proiettanti]] · Successiva: [[09-ribaltamento-piano-generico]]
 
 ## Il metodo di studio e il libro
