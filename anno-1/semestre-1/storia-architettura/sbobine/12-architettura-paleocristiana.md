@@ -9,7 +9,7 @@ tags: [storia-architettura, sbobina]
 
 # Storia dell'architettura 1 — Lezione di giovedì 29 ottobre
 
-> Trascrizione sistemata della registrazione (trascrizione automatica con Whisper). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. La prima parte della lezione, dedicata alle istruzioni per la prova intermedia del 4 novembre, è riassunta nel riquadro «Avvisi» in fondo. I titoli servono per ritrovare gli argomenti a colpo d'occhio.
+> Trascrizione sistemata della registrazione (trascrizione automatica con Whisper). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. La prima parte della lezione, dedicata alle istruzioni per la prova intermedia del 4 novembre, è riassunta nel riquadro «Avvisi» in fondo. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I nomi sono stati controllati sulle slide della lezione (*16_architettura paleocristiana_Roma.pdf*).
 
 > [!info] Note collegate
 > Sbobina precedente: [[11-architettura-tardoantica]] · Successiva: [[13-architettura-bizantina]]
@@ -84,7 +84,7 @@ Questa come introduzione di carattere generale. Adesso quello che dobbiamo capir
 
 Isidoro di Siviglia, che è uno storico che vive nel V secolo d.C., e quindi osserva ormai questi fatti con una prospettiva storica diversa, successiva, in uno dei suoi testi tratta appunto delle etimologie degli edifici sacri e spiega in qualche modo quali sono questi edifici sacri che cominciano ad essere realizzati nel periodo paleocristiano:
 
-"Sono chiamate basiliche i templi divini, perché in esse si rende culto e si offrono sacrifici a Dio, re di tutte le cose. *Martyrium* è vocabolo di derivazione greca che significa luogo dei martiri. Il martirio è stato così chiamato in quanto edificato in memoria di un martire, ovvero perché in esso si trovano i sepolcri dei santi martiri. L'ara, secondo alcuni, è stata così chiamata in quanto in essa ardono le vittime; altri dicono che il nome ara deriva dalle preghiere, che i Greci chiamano *arai*. Il nome dell'altare deriva chiaramente da altitudine, quasi a dire alta ara. Il pulpito è stato così chiamato perché il lettore o il salmista, posto in pubblico, possano essere visti dal popolo. La tribuna è stata così chiamata in quanto luogo dal quale il sacerdote tribuisce, ossia impartisce, i precetti di vita."
+"Sono chiamate basiliche i templi divini, perché in esse si rende culto e si offrono sacrifici a Dio, re di tutte le cose. *Martyrium* è vocabolo di derivazione greca che significa luogo dei martiri. Il martirio è stato così chiamato in quanto edificato in memoria di un martire, ovvero perché in esso si trovano i sepolcri dei santi martiri. L'ara, secondo alcuni, è stata così chiamata in quanto in essa ardono le vittime; altri dicono che il nome ara deriva dalle preghiere, che i Greci chiamano *arai*. Il nome dell'altare deriva chiaramente da altitudine, quasi a dire alta ara. Il pulpito è stato così chiamato perché il lettore o il salmista, posto in pubblico, possano essere visti dal popolo. La tribuna è stata così chiamata in quanto luogo dal quale il sacerdote *tribuit*, ossia impartisce, i precetti di vita."
 
 In tutto questo discorso, per il momento, ci soffermiamo sulle prime due parole che vi ho evidenziato in grassetto, cioè basiliche e *martyrium*, per capire quali sono queste esigenze. Le basiliche sono i templi divini, e adesso torneremo su questo concetto e anche su questa parola; i *martyria* sono gli edifici che vengono costruiti in memoria di un martire: la persecuzione dei cristiani, che aveva portato spesso al loro martirio, produce la necessità di costruire degli edifici che ricordassero questi martiri. D'altro canto, la necessità di praticare il culto cristiano era legata all'esigenza di realizzare degli edifici in cui si potessero offrire sacrifici a Dio, praticare il culto.
 
@@ -235,7 +235,7 @@ Il riferimento per la lezione di oggi è il volume di Krautheimer che vi ho fatt
 - Paul Veyne, *Quando l'Europa è diventata cristiana*.
 - Richard Krautheimer, *Tre capitali cristiane. Topografia e politica* (Roma, Ravenna e Milano): è il testo di riferimento per la lezione.
 - Isidoro di Siviglia, il passo sulle etimologie degli edifici sacri (basilica, *martyrium*, ara, altare, pulpito, tribuna).
-- Un altro volume indicato alla fine della lezione (dalla registrazione non si capisce il titolo).
+- *Da Costantino a Carlo Magno*, a cura di Sible de Blaauw, Milano, Electa, 2010: l'altro volume indicato alla fine della lezione.
 
 > [!tip] Avvisi
 > - **Prova intermedia (facoltativa): mercoledì 4 novembre 2026**, in aula libera, dalle 9. All'inizio identificazione (circa mezz'ora): portare un documento d'identità e il numero di matricola, da scrivere sul foglio insieme a nome e cognome. Chi arriva tardi non può fare la prova. Nessuna iscrizione.

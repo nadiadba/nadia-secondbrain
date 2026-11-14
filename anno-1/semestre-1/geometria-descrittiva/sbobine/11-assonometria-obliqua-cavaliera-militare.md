@@ -209,4 +209,4 @@ Quindi, per la prossima volta, oltre a ripassare l'assonometria, che è fondamen
 > - Conviene tenere l'angolo di 90 gradi tra x′ e y′: con le squadre si lavora più facilmente.
 > - Gli esercizi sulle sezioni sono sempre accoppiati, in assonometria e in proiezioni ortogonali: conviene studiarle prima in assonometria.
 > - Per la prossima volta: ripassare l'assonometria e guardare nel PDF le sezioni, cominciando da quelle con i piani verticali.
-> - La docente ha comunicato che una scadenza è spostata di almeno una settimana. Dall'audio non si capisce quale: secondo il calendario la prossima è la Prova n. 2 di giovedì 19 novembre. Da controllare su Teams.
+> - La docente ha comunicato che una scadenza è spostata di almeno una settimana. Dall'audio non si capisce quale, ma il calendario aggiornato (`2agg_Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf`) conferma: la Prova n. 2 passa da giovedì 19 a giovedì 26 novembre. La Prova n. 3 resta il 17 dicembre; la consegna di menabò, tavole e taccuino è il 22 dicembre.

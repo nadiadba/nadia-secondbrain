@@ -15,6 +15,8 @@ tags: [composizione-architettonica, sbobina]
 > Sbobina precedente: [[02-aalto-casa-muuratsalo]]
 >
 > Esercizio precedente: [[esercizio-3-casa-arzachena]] · [[esercizio-3-nuova-disposizione]]
+>
+> Materiale dell'esercizio 4: [[AALTO_SCHEDA CASA A MUURATSALO.pdf|scheda della casa]] · [[ESERCIZIO 4.pdf|testo dell'esercizio 4]]
 
 ## Perché lavoriamo sul quadrato
 

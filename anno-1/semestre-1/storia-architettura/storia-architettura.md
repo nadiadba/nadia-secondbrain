@@ -51,4 +51,4 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 ## Da fare
 
 - [ ] Visita al Celio (mer 28 ottobre): eri assente e la registrazione non c'è; se serve, una bozza solo dalle slide (`14_visita Celio.pdf`)
-- [ ] Slide delle lezioni 12-15 (paleocristiano, bizantino, Longobardi e Carolingi, romanico): quando la professoressa le carica, mettile in `materiale/`, così ricontrollo i nomi nelle sbobine
+- [x] Slide delle lezioni 12-15 (paleocristiano, bizantino, Longobardi e Carolingi, romanico): arrivate il 14 novembre, nomi delle sbobine ricontrollati
