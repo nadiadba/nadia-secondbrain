@@ -65,7 +65,9 @@ def wikilink(testo):
             if not p:
                 return f'[immagine mancante: {html.escape(parti[0])}]'
             didascalia = html.escape(parti[2]) if len(parti) > 2 else ''
-            return (f'<figure class="{parti[1]}"><img decoding="sync" src="file://{p}">'
+            # quarto campo facoltativo: larghezza della figura in mm (es. ![[x.svg|margine|Testo|45]])
+            larg = f' style="width:{parti[3]}mm"' if len(parti) > 3 and parti[3].isdigit() else ''
+            return (f'<figure class="{parti[1]}"{larg}><img decoding="sync" src="file://{p}">'
                     f'<figcaption>{didascalia}</figcaption></figure>')
         nome, lato, larg = parti[0], '', ''
         for x in parti[1:]:
@@ -174,28 +176,28 @@ h2, h3 { clear: both; }
 .tieni { page-break-inside: avoid; break-inside: avoid; }
 """
 
-# Stile «manuale» per gli appunti di storia: testo in una colonna, figure al tratto
-# in bianco e nero nel margine destro accanto al capoverso, numerate con didascalia
+# Stile «manuale» per gli appunti di storia: testo a tutta pagina, figure al tratto
+# in bianco e nero a destra con il testo che gira attorno, numerate con didascalia
 CSS_MANUALE = """
-@page { size: A4; margin: 18mm 14mm 18mm 20mm; }
-body { counter-reset: fig; font-family: 'Charter', 'Iowan Old Style', Georgia, serif; font-size: 9.6pt;
-       line-height: 1.5; color: #000; padding-right: 58mm; hyphens: auto; -webkit-hyphens: auto; }
-h1 { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 20pt;
-     letter-spacing: -0.2pt; line-height: 1.15; margin: 0 -58mm 4pt 0; padding-bottom: 8pt; border-bottom: 1.2pt solid #000; }
-h2 { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 10.5pt;
-     text-transform: uppercase; letter-spacing: 1.2pt; margin: 20pt 0 6pt 0; padding-bottom: 3pt;
-     border-bottom: 0.5pt solid #000; page-break-after: avoid; }
-h3 { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 9.8pt;
+@page { size: A4; margin: 20mm 20mm 20mm 20mm; }
+body { counter-reset: fig; font-family: 'Charter', 'Iowan Old Style', Georgia, serif; font-size: 10pt;
+       line-height: 1.5; color: #000; hyphens: auto; -webkit-hyphens: auto; }
+h1 { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 19pt;
+     line-height: 1.15; margin: 0 0 4pt; padding-bottom: 7pt; border-bottom: 1.2pt solid #000; }
+h2 { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 11pt;
+     text-transform: uppercase; letter-spacing: 1pt; margin: 20pt 0 6pt; padding-bottom: 3pt;
+     border-bottom: 0.5pt solid #000; page-break-after: avoid; overflow: hidden; }
+h3 { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 10pt;
      margin: 12pt 0 3pt; page-break-after: avoid; }
 h2 + .tieni h3, h2 + h3 { margin-top: 6pt; }
 p { margin: 0 0 5pt; text-align: justify; } em { font-style: italic; }
 figure { margin: 0; page-break-inside: avoid; break-inside: avoid; }
 figure img { display: block; width: 100%; }
-figure.margine { float: right; clear: right; width: 52mm; margin: 2pt -58mm 8pt 0; }
-figure.larga { margin: 8pt -58mm 10pt 0; }
+figure.margine { float: right; clear: right; width: 58mm; margin: 3pt 0 6pt 7mm; }
+figure.larga { clear: both; margin: 8pt 0 10pt; text-align: center; }
 figure.larga img { max-height: 95mm; width: auto; max-width: 100%; margin: 0 auto; }
-figcaption { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-size: 7.2pt; line-height: 1.3;
-             margin-top: 3pt; color: #000; }
+figcaption { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-size: 7.5pt; line-height: 1.3;
+             margin-top: 3pt; color: #000; text-align: left; }
 figcaption::before { counter-increment: fig; content: "Fig. " counter(fig) "  "; font-weight: 600; }
 .tieni { page-break-inside: avoid; break-inside: avoid; }
 """
