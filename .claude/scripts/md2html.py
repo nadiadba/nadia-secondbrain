@@ -3,7 +3,9 @@
 
 Uso (serve il pacchetto markdown, installato nell'ambiente di sbobine-whisper):
   "$HOME/Library/Application Support/sbobine-whisper/.venv/bin/python" \
-      .claude/scripts/md2html.py NOTA.md USCITA.html PERCORSO/tex-svg.js
+      .claude/scripts/md2html.py NOTA.md USCITA.html PERCORSO/tex-svg.js [appunti]
+
+Con «appunti» usa lo stile dei PDF di appunti di Nadia (titoli sobri, immagini in bianco e nero).
 
 Gestisce: proprieta' iniziali (tolte), callout > [!tipo] (anche richiudibili: nel PDF
 restano aperti), wikilink (diventano testo), immagini ![[nome.svg|larghezza]] cercate
@@ -53,12 +55,22 @@ def proteggi_formule(testo, deposito):
 
 def wikilink(testo):
     def immagine(m):
-        nome, _, larg = m.group(1).partition('|')
-        p = trova(nome.strip())
+        # ![[nome.png|300]], ![[nome.png|dx|300]] (a destra, il testo gira attorno),
+        # ![[nome.png|sx|300]] (a sinistra)
+        parti = [x.strip() for x in m.group(1).split('|')]
+        nome, lato, larg = parti[0], '', ''
+        for x in parti[1:]:
+            if x in ('dx', 'sx'):
+                lato = x
+            elif x.isdigit():
+                larg = x
+        p = trova(nome)
         if not p:
             return f'[immagine mancante: {html.escape(nome)}]'
-        stile = f' style="width:{int(larg)}px;max-width:100%"' if larg.strip().isdigit() else ''
-        return f'<img class="fig" src="file://{p}"{stile}>'
+        stile = f' style="width:{int(larg)}px;max-width:100%"' if larg else ''
+        classe = f'fig {lato}' if lato else 'fig'
+        # decoding="sync": altrimenti WebKit stampa vuote le immagini non ancora decodificate
+        return f'<img decoding="sync" class="{classe}" src="file://{p}"{stile}>'
     testo = re.sub(r'!\[\[([^\]]+)\]\]', immagine, testo)
 
     def link(m):
@@ -134,18 +146,40 @@ table { border-collapse: collapse; margin: 6pt 0; font-size: 9.5pt; } th, td { b
 img.fig { display: block; margin: 8pt auto; max-width: 100%; page-break-inside: avoid; }
 code { background: #f0f0f0; padding: 0 3px; border-radius: 2px; font-size: 9pt; }
 mjx-container[display="true"] { margin: 6pt 0 !important; } mjx-container { page-break-inside: avoid; }
+img.fig.dx { float: right; margin: 2pt 0 6pt 12pt; } img.fig.sx { float: left; margin: 2pt 12pt 6pt 0; }
+"""
+
+# Stile degli appunti di Nadia (come «01 - Il tempio e gli ordini.pdf»): carattere sottile,
+# titoli senza colore, immagini in bianco e nero accanto al testo
+CSS_APPUNTI = """
+@page { size: A4; margin: 22mm 20mm 22mm 20mm; }
+body { font-family: 'Arial Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 300; font-size: 11pt; line-height: 1.55; color: #222; }
+h1 { font-weight: 400; font-size: 17pt; margin: 0 0 10pt; }
+h2 { font-weight: 400; font-size: 14pt; margin: 20pt 0 6pt; text-transform: uppercase; page-break-after: avoid; }
+h3 { font-weight: 400; font-size: 11.5pt; margin: 14pt 0 4pt; page-break-after: avoid; }
+h2 + h3 { margin-top: 6pt; }
+p { margin: 0 0 7pt; } em { font-style: italic; }
+img.fig { filter: grayscale(100%) contrast(1.12); display: block; margin: 10pt auto; max-width: 100%; page-break-inside: avoid; }
+img.fig.dx { float: right; margin: 3pt 0 6pt 17pt; } img.fig.sx { float: left; margin: 3pt 17pt 6pt 0; }
+h2, h3 { clear: both; }
+.tieni { page-break-inside: avoid; break-inside: avoid; }
 """
 
 
 def main():
     nota, uscita, mathjax = sys.argv[1], sys.argv[2], sys.argv[3]
+    appunti = len(sys.argv) > 4 and sys.argv[4] == 'appunti'
     testo = open(nota, encoding='utf-8').read()
     corso = re.search(r'^corso:\s*(.+)$', testo, re.M)
     testo = re.sub(r'\A---\n.*?\n---\n', '', testo, flags=re.S)
     corpo = rendi(testo)
-    sotto = f'{corso.group(1).strip() if corso else ""} · Second brain di Nadia'
-    corpo = re.sub(r'(</h1>)', r'\1<div class="sotto">' + html.escape(sotto) + '</div>', corpo, count=1)
-    pagina = f"""<!doctype html><html lang="it"><head><meta charset="utf-8"><style>{CSS}</style>
+    if appunti:
+        # WebKit non rispetta page-break-after sui titoli: il titolo si tiene insieme al primo capoverso
+        corpo = re.sub(r'((?:<h[23][^>]*>.*?</h[23]>\s*)+<p>.*?</p>)', r'<div class="tieni">\1</div>', corpo, flags=re.S)
+    if not appunti:
+        sotto = f'{corso.group(1).strip() if corso else ""} · Second brain di Nadia'
+        corpo = re.sub(r'(</h1>)', r'\1<div class="sotto">' + html.escape(sotto) + '</div>', corpo, count=1)
+    pagina = f"""<!doctype html><html lang="it"><head><meta charset="utf-8"><style>{CSS_APPUNTI if appunti else CSS}</style>
 <script>window.MathJax = {{ tex: {{ inlineMath: [['$','$']], displayMath: [['$$','$$']] }}, svg: {{ fontCache: 'global' }},
 startup: {{ pageReady: () => MathJax.startup.defaultPageReady().then(() => {{ document.title = 'PRONTO'; }}) }} }};</script>
 <script src="file://{mathjax}"></script></head><body>{corpo}</body></html>"""
