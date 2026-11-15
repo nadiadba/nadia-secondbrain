@@ -176,6 +176,12 @@ h2, h3 { clear: both; }
 .tieni { page-break-inside: avoid; break-inside: avoid; }
 """
 
+# Stile «nadia»: come gli appunti di Nadia, con le sue immagini a colori invariati
+CSS_NADIA = CSS_APPUNTI.replace('filter: grayscale(100%) contrast(1.12); ', '') + ('h2, h3 { break-inside: avoid; page-break-inside: avoid; }\n'
+     # il titolo «si porta dietro» 4 righe di spazio: se sotto non ci stanno, va alla pagina dopo
+     'h2::after, h3::after { content: ""; display: block; height: 5em; margin-bottom: -5em; }\n'
+     'p { orphans: 3; widows: 3; }\n')
+
 # Stile «manuale» per gli appunti di storia: testo a tutta pagina, figure al tratto
 # in bianco e nero a destra con il testo che gira attorno, numerate con didascalia
 CSS_MANUALE = """
@@ -206,12 +212,12 @@ figcaption::before { counter-increment: fig; content: "Fig. " counter(fig) "  ";
 def main():
     nota, uscita, mathjax = sys.argv[1], sys.argv[2], sys.argv[3]
     stile = sys.argv[4] if len(sys.argv) > 4 else ''
-    appunti = stile in ('appunti', 'manuale')
+    appunti = stile in ('appunti', 'manuale', 'nadia')
     testo = open(nota, encoding='utf-8').read()
     corso = re.search(r'^corso:\s*(.+)$', testo, re.M)
     testo = re.sub(r'\A---\n.*?\n---\n', '', testo, flags=re.S)
     corpo = rendi(testo)
-    if appunti:
+    if appunti and stile != 'nadia':
         # WebKit non rispetta page-break-after sui titoli: il titolo si tiene insieme al primo capoverso
         # (il titolo non deve «scavalcare» i titoli successivi: [^<]|<(?!/h) al posto di .*?;
         # tra titolo e capoverso puo' esserci una figura dello stile «manuale»)
@@ -220,7 +226,7 @@ def main():
     if not appunti:
         sotto = f'{corso.group(1).strip() if corso else ""} · Second brain di Nadia'
         corpo = re.sub(r'(</h1>)', r'\1<div class="sotto">' + html.escape(sotto) + '</div>', corpo, count=1)
-    pagina = f"""<!doctype html><html lang="it"><head><meta charset="utf-8"><style>{CSS_MANUALE if stile == 'manuale' else CSS_APPUNTI if appunti else CSS}</style>
+    pagina = f"""<!doctype html><html lang="it"><head><meta charset="utf-8"><style>{CSS_MANUALE if stile == 'manuale' else CSS_NADIA if stile == 'nadia' else CSS_APPUNTI if appunti else CSS}</style>
 <script>window.MathJax = {{ tex: {{ inlineMath: [['$','$']], displayMath: [['$$','$$']] }}, svg: {{ fontCache: 'global' }},
 startup: {{ pageReady: () => MathJax.startup.defaultPageReady().then(() => {{ document.title = 'PRONTO'; }}) }} }};</script>
 <script src="file://{mathjax}"></script></head><body>{corpo}</body></html>"""
