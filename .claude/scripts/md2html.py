@@ -56,8 +56,17 @@ def proteggi_formule(testo, deposito):
 def wikilink(testo):
     def immagine(m):
         # ![[nome.png|300]], ![[nome.png|dx|300]] (a destra, il testo gira attorno),
-        # ![[nome.png|sx|300]] (a sinistra)
+        # ![[nome.png|sx|300]] (a sinistra);
+        # stile «manuale»: ![[nome.svg|margine|Didascalia]] (figura nel margine accanto al
+        # capoverso) e ![[nome.svg|larga|Didascalia]] (figura a tutta larghezza), numerate
         parti = [x.strip() for x in m.group(1).split('|')]
+        if len(parti) >= 2 and parti[1] in ('margine', 'larga'):
+            p = trova(parti[0])
+            if not p:
+                return f'[immagine mancante: {html.escape(parti[0])}]'
+            didascalia = html.escape(parti[2]) if len(parti) > 2 else ''
+            return (f'<figure class="{parti[1]}"><img decoding="sync" src="file://{p}">'
+                    f'<figcaption>{didascalia}</figcaption></figure>')
         nome, lato, larg = parti[0], '', ''
         for x in parti[1:]:
             if x in ('dx', 'sx'):
@@ -165,21 +174,51 @@ h2, h3 { clear: both; }
 .tieni { page-break-inside: avoid; break-inside: avoid; }
 """
 
+# Stile «manuale» per gli appunti di storia: testo in una colonna, figure al tratto
+# in bianco e nero nel margine destro accanto al capoverso, numerate con didascalia
+CSS_MANUALE = """
+@page { size: A4; margin: 18mm 14mm 18mm 20mm; }
+body { counter-reset: fig; font-family: 'Charter', 'Iowan Old Style', Georgia, serif; font-size: 9.6pt;
+       line-height: 1.5; color: #000; padding-right: 58mm; hyphens: auto; -webkit-hyphens: auto; }
+h1 { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 20pt;
+     letter-spacing: -0.2pt; line-height: 1.15; margin: 0 -58mm 4pt 0; padding-bottom: 8pt; border-bottom: 1.2pt solid #000; }
+h2 { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 10.5pt;
+     text-transform: uppercase; letter-spacing: 1.2pt; margin: 20pt 0 6pt 0; padding-bottom: 3pt;
+     border-bottom: 0.5pt solid #000; page-break-after: avoid; }
+h3 { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 9.8pt;
+     margin: 12pt 0 3pt; page-break-after: avoid; }
+h2 + .tieni h3, h2 + h3 { margin-top: 6pt; }
+p { margin: 0 0 5pt; text-align: justify; } em { font-style: italic; }
+figure { margin: 0; page-break-inside: avoid; break-inside: avoid; }
+figure img { display: block; width: 100%; }
+figure.margine { float: right; clear: right; width: 52mm; margin: 2pt -58mm 8pt 0; }
+figure.larga { margin: 8pt -58mm 10pt 0; }
+figure.larga img { max-height: 95mm; width: auto; max-width: 100%; margin: 0 auto; }
+figcaption { font-family: 'Avenir Next', 'Helvetica Neue', sans-serif; font-size: 7.2pt; line-height: 1.3;
+             margin-top: 3pt; color: #000; }
+figcaption::before { counter-increment: fig; content: "Fig. " counter(fig) "  "; font-weight: 600; }
+.tieni { page-break-inside: avoid; break-inside: avoid; }
+"""
+
 
 def main():
     nota, uscita, mathjax = sys.argv[1], sys.argv[2], sys.argv[3]
-    appunti = len(sys.argv) > 4 and sys.argv[4] == 'appunti'
+    stile = sys.argv[4] if len(sys.argv) > 4 else ''
+    appunti = stile in ('appunti', 'manuale')
     testo = open(nota, encoding='utf-8').read()
     corso = re.search(r'^corso:\s*(.+)$', testo, re.M)
     testo = re.sub(r'\A---\n.*?\n---\n', '', testo, flags=re.S)
     corpo = rendi(testo)
     if appunti:
         # WebKit non rispetta page-break-after sui titoli: il titolo si tiene insieme al primo capoverso
-        corpo = re.sub(r'((?:<h[23][^>]*>.*?</h[23]>\s*)+<p>.*?</p>)', r'<div class="tieni">\1</div>', corpo, flags=re.S)
+        # (il titolo non deve «scavalcare» i titoli successivi: [^<]|<(?!/h) al posto di .*?;
+        # tra titolo e capoverso puo' esserci una figura dello stile «manuale»)
+        corpo = re.sub(r'((?:<h[23][^>]*>(?:[^<]|<(?!/h[23]>))*</h[23]>\s*)+(?:<figure[^>]*>.*?</figure>\s*)?<p>.*?</p>)',
+                       r'<div class="tieni">\1</div>', corpo, flags=re.S)
     if not appunti:
         sotto = f'{corso.group(1).strip() if corso else ""} · Second brain di Nadia'
         corpo = re.sub(r'(</h1>)', r'\1<div class="sotto">' + html.escape(sotto) + '</div>', corpo, count=1)
-    pagina = f"""<!doctype html><html lang="it"><head><meta charset="utf-8"><style>{CSS_APPUNTI if appunti else CSS}</style>
+    pagina = f"""<!doctype html><html lang="it"><head><meta charset="utf-8"><style>{CSS_MANUALE if stile == 'manuale' else CSS_APPUNTI if appunti else CSS}</style>
 <script>window.MathJax = {{ tex: {{ inlineMath: [['$','$']], displayMath: [['$$','$$']] }}, svg: {{ fontCache: 'global' }},
 startup: {{ pageReady: () => MathJax.startup.defaultPageReady().then(() => {{ document.title = 'PRONTO'; }}) }} }};</script>
 <script src="file://{mathjax}"></script></head><body>{corpo}</body></html>"""
