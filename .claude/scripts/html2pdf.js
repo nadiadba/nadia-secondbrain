@@ -14,7 +14,7 @@ function run(argv) {
   $.NSFileManager.defaultManager.removeItemAtPathError(pdf, null);
   $.NSApplication.sharedApplication;
   var conf = $.WKWebViewConfiguration.alloc.init;
-  var vista = $.WKWebView.alloc.initWithFrameConfiguration($.NSMakeRect(0, 0, 800, 1100), conf);
+  var vista = $.WKWebView.alloc.initWithFrameConfiguration($.NSMakeRect(0, 0, 794, 1123), conf);
   vista.loadFileURLAllowingReadAccessToURL($.NSURL.fileURLWithPath(html), $.NSURL.fileURLWithPath('/'));
   var t = 0;
   while (t < 120) {
@@ -35,9 +35,9 @@ function run(argv) {
   var op = vista.printOperationWithPrintInfo(info);
   op.showsPrintPanel = false;
   op.showsProgressPanel = false;
-  var finestra = $.NSWindow.alloc.initWithContentRectStyleMaskBackingDefer($.NSMakeRect(0, 0, 800, 1100), 0, $.NSBackingStoreBuffered, false);
+  var finestra = $.NSWindow.alloc.initWithContentRectStyleMaskBackingDefer($.NSMakeRect(0, 0, 794, 1123), 0, $.NSBackingStoreBuffered, false);
   finestra.contentView = vista;
-  op.view.frame = $.NSMakeRect(0, 0, 800, 1100);
+  op.view.frame = $.NSMakeRect(0, 0, 794, 1123);
   op.runOperationModalForWindowDelegateDidRunSelectorContextInfo(finestra, undefined, undefined, undefined);
   var t2 = 0;
   while (t2 < 60 && !$.NSFileManager.defaultManager.fileExistsAtPath(pdf)) { aspetta(0.5); t2 += 0.5; }

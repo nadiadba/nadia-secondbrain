@@ -31,6 +31,9 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 13. [[13-architettura-bizantina|L'architettura bizantina: Costantinopoli, Santa Sofia, Ravenna (Galla Placidia, Battistero degli Ortodossi, Mausoleo di Teodorico)]] (ven 30 ottobre, lezione online)
 14. [[14-san-vitale-longobardi-carolingi|San Vitale a Ravenna, i Longobardi, Carlo Magno e la Cappella Palatina di Aquisgrana]] (gio 5 novembre)
 15. [[15-architettura-romanica-firenze-pisa|Introduzione al romanico; Firenze (Battistero, San Miniato al Monte) e il Duomo di Pisa]] (ven 6 novembre)
+17. [[17-romanico-venezia-modena-puglia-sicilia-roma|Il romanico in Italia: San Marco a Venezia, il Duomo di Modena, Puglia e Sicilia, Roma e Tuscania]] (mer 11 novembre, registrazione di Giulia)
+18. [[18-architettura-gotica-francia|L'architettura gotica in Francia: la struttura della chiesa gotica, Saint-Denis, Notre-Dame, Villard de Honnecourt]] (gio 12 novembre, registrazione di Giulia)
+19. [[19-gotico-in-italia-e-inizio-del-rinascimento|Il gotico in Italia (cistercensi, Assisi, Orvieto), Federico II e Castel del Monte; l'inizio del Rinascimento e Brunelleschi]] (ven 13 novembre, registrazione di Giulia)
 
 ## Bozze
 

@@ -69,16 +69,25 @@ def wikilink(testo):
             larg = f' style="width:{parti[3]}mm"' if len(parti) > 3 and parti[3].isdigit() else ''
             return (f'<figure class="{parti[1]}"{larg}><img decoding="sync" src="file://{p}">'
                     f'<figcaption>{didascalia}</figcaption></figure>')
-        nome, lato, larg = parti[0], '', ''
+        nome, lato, larg, fuori = parti[0], '', '', ''
         for x in parti[1:]:
             if x in ('dx', 'sx'):
                 lato = x
             elif x.isdigit():
+                larg = x + 'px'
+            elif re.fullmatch(r'[\d.]+pt', x):
                 larg = x
+            elif re.fullmatch(r'fuori[\d.]+', x):
+                fuori = x[5:]   # punti di sporgenza nel margine (come le immagini di Word)
         p = trova(nome)
         if not p:
             return f'[immagine mancante: {html.escape(nome)}]'
-        stile = f' style="width:{int(larg)}px;max-width:100%"' if larg else ''
+        regole = [f'width:{larg}'] if larg else []
+        if larg and not fuori:
+            regole.append('max-width:100%')
+        if fuori:
+            regole.append(f"margin-{'right' if lato == 'dx' else 'left'}:-{fuori}pt")
+        stile = f' style="{";".join(regole)}"' if regole else ''
         classe = f'fig {lato}' if lato else 'fig'
         # decoding="sync": altrimenti WebKit stampa vuote le immagini non ancora decodificate
         return f'<img decoding="sync" class="{classe}" src="file://{p}"{stile}>'
@@ -177,10 +186,24 @@ h2, h3 { clear: both; }
 """
 
 # Stile «nadia»: come gli appunti di Nadia, con le sue immagini a colori invariati
-CSS_NADIA = CSS_APPUNTI.replace('filter: grayscale(100%) contrast(1.12); ', '') + ('h2, h3 { break-inside: avoid; page-break-inside: avoid; }\n'
-     # il titolo «si porta dietro» 4 righe di spazio: se sotto non ci stanno, va alla pagina dopo
-     'h2::after, h3::after { content: ""; display: block; height: 5em; margin-bottom: -5em; }\n'
-     'p { orphans: 3; widows: 3; }\n')
+# Misure prese dal PDF di Nadia (Word): A4, margini 2,5 / 2 cm, Arial Nova Light 12 pt con
+# interlinea 16,8 pt e 8 pt dopo ogni capoverso, titoli da 14 pt. Il carattere viene estratto dal
+# suo PDF (cartella materiale/appunti-pdf/font, fuori da git perche' e' un font con licenza)
+FONT_NADIA = os.path.join(VAULT, 'anno-1', 'semestre-1', 'storia-architettura', 'materiale', 'appunti-pdf', 'font')
+CSS_NADIA = """
+@font-face { font-family: 'NadiaTesto'; src: url('file://%(f)s/nadia-testo.ttf'); font-style: normal; }
+@font-face { font-family: 'NadiaTesto'; src: url('file://%(f)s/nadia-testo-corsivo.ttf'); font-style: italic; }
+@page { size: 595.32pt 841.92pt; margin: 70.9pt 56.7pt 56.7pt 56.7pt; }
+body { font-family: 'NadiaTesto', 'Helvetica Neue', sans-serif; font-weight: normal; font-size: 12pt;
+       line-height: 16.8pt; color: #000; }
+p { margin: 0 0 8pt; }
+h1 { font-weight: normal; font-size: 14.04pt; line-height: 19.66pt; margin: 0 0 6.6pt; }
+h2 { font-weight: normal; font-size: 14.04pt; line-height: 19.66pt; margin: 0 0 6.5pt; text-transform: uppercase; }
+h3 { font-weight: normal; font-size: 12pt; line-height: 16.8pt; margin: 0 0 8pt; }
+.tieni { break-inside: avoid; page-break-inside: avoid; } .spazio { height: 50pt; } .dopo { margin-top: -50pt; height: 0; }
+img.fig { display: block; margin: 0 auto 8pt; max-width: 100%%; }
+img.fig.dx { float: right; margin: 2pt 0 4pt 9pt; } img.fig.sx { float: left; margin: 2pt 9pt 4pt 0; }
+""" % {"f": FONT_NADIA}
 
 # Stile «manuale» per gli appunti di storia: testo a tutta pagina, figure al tratto
 # in bianco e nero a destra con il testo che gira attorno, numerate con didascalia
@@ -217,6 +240,11 @@ def main():
     corso = re.search(r'^corso:\s*(.+)$', testo, re.M)
     testo = re.sub(r'\A---\n.*?\n---\n', '', testo, flags=re.S)
     corpo = rendi(testo)
+    if stile == 'nadia':
+        # come «mantieni con il successivo» di Word: i titoli (anche due di fila) si portano dietro
+        # uno spazio di tre righe; se non ci sta, vanno alla pagina dopo. Lo spazio poi si annulla.
+        corpo = re.sub(r'((?:<h[123][^>]*>(?:[^<]|<(?!/h[123]>))*</h[123]>\s*)+)',
+                       r'<div class="tieni">\1<div class="spazio"></div></div><div class="dopo"></div>', corpo)
     if appunti and stile != 'nadia':
         # WebKit non rispetta page-break-after sui titoli: il titolo si tiene insieme al primo capoverso
         # (il titolo non deve «scavalcare» i titoli successivi: [^<]|<(?!/h) al posto di .*?;

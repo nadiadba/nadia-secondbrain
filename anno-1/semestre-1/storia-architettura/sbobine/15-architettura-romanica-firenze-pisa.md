@@ -14,7 +14,7 @@ tags: [storia-architettura, sbobina]
 > [!info] Note collegate
 > Bozza: [[15-introduzione-al-romanico-firenze-e-pisa]]
 >
-> Sbobina precedente: [[14-san-vitale-longobardi-carolingi]]
+> Sbobina precedente: [[14-san-vitale-longobardi-carolingi]] · Successiva: [[17-romanico-venezia-modena-puglia-sicilia-roma]]
 
 ## Rodolfo il Glabro e il "candido manto di chiese"
 
