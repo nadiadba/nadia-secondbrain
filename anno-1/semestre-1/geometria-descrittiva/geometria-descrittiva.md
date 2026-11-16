@@ -38,6 +38,7 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 9. [[09-ribaltamento-piano-generico|Il ribaltamento del piano generico, in forma canonica e intorno a un'orizzontale; squadretta e sviluppo della piramide]] (gio 29 ottobre)
 10. [[10-intersezione-retta-figura-e-sezioni|Intersezione tra una retta e un piano dato con una figura; il segno di sezione a baionetta]] (gio 5 novembre)
 11. [[11-assonometria-obliqua-cavaliera-militare|Ripasso dell'assonometria ortogonale; l'assonometria obliqua cavaliera militare, il ribaltamento dell'asse z, l'esercizio del solido con pianta 4 × 2; le sezioni dei solidi con un piano parallelo alla LT e con un piano verticale]] (mar 10 novembre, due registrazioni)
+12. [[12-correzione-prova-1-e-assonometria-obliqua|Avvisi sull'esame, correzione della Prova n. 1 (omologia, ribaltamenti, tracce, perpendicolare) e assonometria obliqua con il quadro verticale]] (gio 12 novembre, registrazione di una compagna)
 
 ## Bozze
 

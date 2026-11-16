@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 596" width="640" height="596">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Prova: tracce del piano da un'orizzontale e una frontale</text>
+<g transform="translate(0,36)">
+<line x1="0.0" y1="230.0" x2="620.0" y2="230.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="2.0" y="224.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<polygon points="150.0,180.0 200.0,90.0 319.0,90.0 290.0,180.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<polygon points="150.0,270.0 200.0,270.0 319.0,321.0 290.0,330.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<line x1="150.0" y1="180.0" x2="150.0" y2="270.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="200.0" y1="90.0" x2="200.0" y2="270.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="319.0" y1="90.0" x2="319.0" y2="321.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="290.0" y1="180.0" x2="290.0" y2="330.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="150.0" y1="180.0" x2="122.2" y2="230.0" stroke="#2e8b57" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="150.0" y1="270.0" x2="122.2" y2="270.0" stroke="#2e8b57" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="122.2" y1="230.0" x2="122.2" y2="270.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<text x="144.1" y="209.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">f<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<line x1="150.0" y1="270.0" x2="56.7" y2="230.0" stroke="#2e8b57" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="150.0" y1="180.0" x2="56.7" y2="180.0" stroke="#2e8b57" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="56.7" y1="230.0" x2="56.7" y2="230.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<text x="99.3" y="242.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#2e8b57" font-style="italic">o<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<line x1="28.9" y1="230.0" x2="396.5" y2="387.6" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="28.9" y1="230.0" x2="150.3" y2="11.5" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="400.5" y="401.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α</text>
+<text x="156.3" y="15.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan>α</text>
+<line x1="295.4" y1="376.1" x2="354.5" y2="238.3" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="397.7" y1="133.7" x2="266.6" y2="60.9" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="314.3" y1="352.3" x2="311.1" y2="359.7" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="311.1" y1="359.7" x2="303.8" y2="356.5" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<text x="360.5" y="242.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">p<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<text x="403.7" y="137.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">p<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="150.0" cy="180.0" r="2.8" fill="#2563a8"/>
+<text x="130.0" y="176.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="150.0" cy="270.0" r="2.8" fill="#2563a8"/>
+<text x="130.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<circle cx="200.0" cy="90.0" r="2.8" fill="#2563a8"/>
+<text x="196.0" y="80.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="200.0" cy="270.0" r="2.8" fill="#2563a8"/>
+<text x="196.0" y="262.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<circle cx="319.0" cy="90.0" r="2.8" fill="#2563a8"/>
+<text x="327.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="319.0" cy="321.0" r="2.8" fill="#2563a8"/>
+<text x="327.0" y="333.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<circle cx="290.0" cy="180.0" r="2.8" fill="#2563a8"/>
+<text x="298.0" y="194.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">D<tspan dy="4" font-size="70%">2</tspan><tspan dy="-4"></tspan></text>
+<circle cx="290.0" cy="330.0" r="2.8" fill="#2563a8"/>
+<text x="260.0" y="344.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">D<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<circle cx="122.2" cy="270.0" r="2.8" fill="#2e8b57"/>
+<text x="84.2" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">T<tspan dy="4" font-size="70%">1f</tspan><tspan dy="-4"></tspan></text>
+<circle cx="56.7" cy="180.0" r="2.8" fill="#2e8b57"/>
+<text x="26.7" y="172.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">T<tspan dy="4" font-size="70%">2o</tspan><tspan dy="-4"></tspan></text>
+<text x="20" y="418" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">1. AD è un'orizzontale (A₂D₂ parallela alla LT), AB è una frontale (A₁B₁ parallela alla LT).</text>
+<text x="20" y="435" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">2. t₁α passa per la prima traccia della frontale T₁f ed è parallela a o₁ (non a un lato qualunque).</text>
+<text x="20" y="452" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">3. t₂α passa per la seconda traccia dell'orizzontale T₂o ed è parallela a f₂. Le tracce si</text>
+<text x="20" y="469" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">    incontrano sulla LT.</text>
+<text x="20" y="486" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">4. Retta p perpendicolare al piano (qui per C): p₁ perpendicolare a t₁α e a tutte le orizzontali,</text>
+<text x="20" y="503" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">    p₂ perpendicolare a t₂α e a tutte le frontali. Vanno fatte tutte e due le proiezioni.</text>
+</g>
+</svg>

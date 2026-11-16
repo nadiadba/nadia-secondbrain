@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 576" width="640" height="576">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Omologia: l'esercizio «madre» (trovare B′ dati A, A′, asse e centro)</text>
+<g transform="translate(0,36)">
+<line x1="5.0" y1="403.0" x2="620.0" y2="324.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="560.0" y="346.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">u (asse)</text>
+<line x1="360.0" y1="40.0" x2="34.5" y2="195.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="360.0" y1="40.0" x2="319.1" y2="312.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="507.3" y1="338.5" x2="115.0" y2="120.6" stroke="#2563a8" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="507.3" y1="338.5" x2="15.4" y2="189.2" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round"/>
+<text x="109.0" y="112.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">s</text>
+<text x="11.4" y="207.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">s′</text>
+<circle cx="360.0" cy="40.0" r="2.8" fill="#1f1f1f"/>
+<text x="368.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">U (centro)</text>
+<circle cx="150.0" cy="140.0" r="2.8" fill="#2563a8"/>
+<text x="132.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="330.0" cy="240.0" r="2.8" fill="#2563a8"/>
+<text x="336.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<circle cx="34.5" cy="195.0" r="2.8" fill="#c0392b"/>
+<text x="40.5" y="213.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A′</text>
+<circle cx="323.6" cy="282.7" r="2.8" fill="#c0392b"/>
+<text x="329.6" y="300.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′</text>
+<circle cx="507.3" cy="338.5" r="2.8" fill="#1f1f1f"/>
+<text x="501.3" y="358.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">M</text>
+<text x="20" y="470" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">1. Raggio da U per B: B′ starà su questa retta (i punti corrispondenti sono allineati con il centro).</text>
+<text x="20" y="487" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">2. La retta s per A e B incontra l'asse in M; la corrispondente s′ passa per M e per A′.</text>
+<text x="20" y="504" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">3. Dove s′ incontra il raggio UB c'è B′.</text>
+</g>
+</svg>

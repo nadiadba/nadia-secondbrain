@@ -14,7 +14,7 @@ tags: [geometria-descrittiva, sbobina]
 > [!info] Note collegate
 > Bozza: [[11-assonometria-cavaliera-e-sezioni-dei-solidi]]
 >
-> Sbobina precedente: [[10-intersezione-retta-figura-e-sezioni]]
+> Sbobina precedente: [[10-intersezione-retta-figura-e-sezioni]] · Successiva: [[12-correzione-prova-1-e-assonometria-obliqua]]
 
 ## L'assonometria ortogonale: il triangolo delle tracce
 
