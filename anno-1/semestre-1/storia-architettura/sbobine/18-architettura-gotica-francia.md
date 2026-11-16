@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione di una compagna di corso, Giulia (trascrizione automatica con Whisper, in una sola parte). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema. La registrazione comincia a lezione già iniziata. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I nomi propri sono stati controllati sulle slide della lezione («21_architettura gotica_Francia_Italia.pdf», slide 2-39).
 
 > [!info] Note collegate
+> Bozza: [[18-architettura-gotica-in-francia]]
+>
 > Sbobina precedente: [[17-romanico-venezia-modena-puglia-sicilia-roma]] · Successiva: [[19-gotico-in-italia-e-inizio-del-rinascimento]]
 
 ## L'ultimo modulo del corso

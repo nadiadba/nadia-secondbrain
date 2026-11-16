@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione sistemata della registrazione di una compagna di corso, Giulia (trascrizione automatica con Whisper, in quattro parti). Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema o incomprensibili; manca un breve tratto dopo la pausa, all'inizio della parte su Puglia e Sicilia. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I nomi propri sono stati controllati sulle slide della lezione («20_architettura romanica.pdf», slide 33-110).
 
 > [!info] Note collegate
+> Bozza: [[17-romanico-in-italia-da-venezia-a-tuscania]]
+>
 > Sbobina precedente: [[15-architettura-romanica-firenze-pisa]] · Successiva: [[18-architettura-gotica-francia]]
 
 ## Riepilogo della lezione di venerdì

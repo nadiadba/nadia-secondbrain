@@ -54,6 +54,9 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 - [[14-san-vitale-longobardi-e-carlo-magno|San Vitale, i Longobardi e Carlo Magno]]: lo «spazio agitato» di San Vitale, le chiese longobarde e i materiali di spoglio, la Cappella Palatina di Aquisgrana, Santa Prassede e il Westwerk.
 - [[15-introduzione-al-romanico-firenze-e-pisa|L'architettura romanica: introduzione, Firenze e Pisa]]: il «candido manto di chiese», la volta a crociera e la chiesa romanica, Spira, il Battistero di Firenze, San Miniato al Monte, il Duomo di Pisa.
 - [[16-visita-ostia-antica|Visita a Ostia antica: scaletta degli argomenti]] (sab 7 novembre): senza registrazione, ricostruita dalle slide e dalle tue foto; necropoli, Porta Romana, Terme di Nettuno, teatro e Piazzale delle Corporazioni, Capitolium e Foro, Caseggiato del Larario e di Diana.
+- [[17-romanico-in-italia-da-venezia-a-tuscania|Il romanico in Italia: da Venezia a Tuscania]]: San Marco a Venezia, il Duomo di Modena, lo schema cassinese in Puglia, San Cataldo a Palermo e la stereotomia, Santa Maria in Trastevere, San Lorenzo fuori le Mura, San Pietro a Tuscania.
+- [[18-architettura-gotica-in-francia|L'architettura gotica in Francia]]: il termine gotico, Cluny III, lo schema e la struttura della cattedrale gotica, Saint-Denis e Suger, Notre-Dame, Villard de Honnecourt.
+- [[19-gotico-italiano-federico-ii-e-primo-rinascimento|Il gotico in Italia, Federico II e il primo Rinascimento]]: le abbazie cistercensi, Assisi e Giotto, il Duomo di Orvieto, Castel del Monte, Vasari e Brunelleschi.
 
 ## Da fare
 

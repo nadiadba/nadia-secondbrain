@@ -177,3 +177,40 @@ Per ogni bozza, i testi su cui approfondire l'argomento, in ordine di lezione. L
 - *Architettura romana: i grandi monumenti*, a cura di H. von Hesberg, P. Zanker, Milano, Electa 2009
 - J.-P. Adam, *L'arte di costruire presso i Romani. Materiali e tecniche*, Milano, Longanesi 1989
 - Le slide della visita non citano testi. Fonti iconografiche mostrate nelle slide: la pianta degli scavi di Pietro Holl, 1804 (scavi sotto Pio VII); il «Plan d'Ostie et de Porto»; pianta e prospetti del *Capitolium* di C. Albo; le piante del Parco Archeologico di Ostia Antica; foto della Tomba degli Archetti di Klaus Heese.
+
+## Il romanico in Italia: Venezia, Modena, Puglia e Sicilia, Roma e Tuscania
+
+*Lezione di mercoledì 11 novembre* · Bozza: [[17-romanico-in-italia-da-venezia-a-tuscania]] · Sbobina: [[17-romanico-venezia-modena-puglia-sicilia-roma]]
+
+- C. Tosco, *L'architettura medievale in Italia: 600-1200*, Bologna, il Mulino 2016 (capitoli corrispondenti agli argomenti trattati; dalla bibliografia della lezione nelle slide)
+- AAVV, *Lineamenti di storia dell'architettura: architettura romanica* (premessa storica e l'architettura romanica in Italia; dalla bibliografia della lezione nelle slide), cioè A. Bruschi et al., *Lineamenti di storia dell'architettura per i corsi di storia dell'architettura*, Roma, Sovera 1994 (o edizioni successive)
+- X. Barral i Altet, *Contro l'arte romanica? Saggio su un passato reinventato*, Milano 2009 o edizioni successive (dalla bibliografia della lezione nelle slide)
+- R. Bonelli, C. Bozzoni, V. Franchetti Pardo, *Storia dell'architettura medievale*, Roma, Laterza 2012 (testo di riferimento generale del programma)
+- J. Ruskin, *The Seven Lamps of Architecture*, 1849 (le tavole dei «quattro ordini floreali di Venezia»; citato a lezione e nelle slide)
+- *Le pietre di San Marco* (il volume sui materiali e le forme della basilica, citato a lezione)
+- *Enciclopedia dell'Arte Medievale*, Treccani, voce «protiro» (citata nelle slide)
+- Fonti citate a lezione e nelle slide: la lapide di Lanfranco sull'abside del Duomo di Modena (26 maggio 1099) e le unità di misura incise nella muratura; *Relatio de innovatione ecclesiae Sancti Geminiani* (inizi del XIII secolo, Archivio Capitolare di Modena); l'epigrafe dell'architetto Nicolò nella cattedrale di Ferrara; Plinio il Vecchio, *Naturalis historia* (l'aneddoto di Sauro e Batraco); Alonso de Vandelvira, il trattato sul taglio della pietra; Philibert de l'Orme; Marco Polo, *Il Milione*.
+- Fonti iconografiche mostrate nelle slide: la stampa *Entrée triomphale des monuments des sciences et arts en France*; A. Lafrery, *Speculum Romanae Magnificentiae*, 1589 (le sette chiese); la ricostruzione digitale dell'Apostoleion; la pianta dell'antica Tuscania e di Toscanella; il rilievo «Tuscania 1974, Colle San Pietro».
+
+## L'architettura gotica in Francia: Cluny, Saint-Denis e Notre-Dame
+
+*Lezione di giovedì 12 novembre* · Bozza: [[18-architettura-gotica-in-francia]] · Sbobina: [[18-architettura-gotica-francia]]
+
+- R. Bonelli, C. Bozzoni, V. Franchetti Pardo, *Storia dell'architettura medievale*, Roma, Laterza 2012 (testo di riferimento generale del programma per l'architettura medievale)
+- A. Naser Eslami, M.R. Nobile, *Storia dell'architettura in Italia. Tra Mediterraneo e Europa (VII-XVIII secolo)*, Milano, Pearson 2022
+- E. Panofsky, *Suger, abate di Saint-Denis*, traduzione di R. Federici, Milano, Abscondita (collana Miniature, 117) (lo scritto di Suger sulla costruzione e la decorazione di Saint-Denis, mostrato nelle slide e citato a lezione)
+- Enciclopedia dell'Arte Treccani, voce «Gotico» (citata a lezione per la definizione del termine)
+- Fonti citate a lezione e nelle slide: J. Soane, lezioni alla Royal Academy di Londra, 1819 (la frase sui viali di alberi e la cattedrale gotica); la formula «Questa maniera fu trovata dai Goti»; Suger, il racconto della costruzione e decorazione di Saint-Denis (capitoli XXIV-XXV); E.-E. Viollet-le-Duc, gli elementi strutturali della cattedrale gotica (riferiti ad Amiens), il progetto per la facciata di Saint-Denis e i «Plans et dessins»; Plinio il Vecchio, l'aneddoto dei due architetti che firmano il capitello con la rana e la lucertola; Villard de Honnecourt, *Livre de portraiture*, Parigi, Bibliothèque nationale de France, fr. 19093.
+- Fonti iconografiche mostrate nelle slide: la pianta anonima del complesso di Cluny (1700 circa) e la ricostruzione di Cluny III; la miniatura del *Roman de Girart de Roussillon* con un cantiere gotico; la veduta di Saint-Denis da sud, incisione di Chatillon (Musée d'Art et d'Histoire, Saint-Denis).
+
+## Il gotico in Italia, Federico II e l'inizio del Rinascimento
+
+*Lezione di venerdì 13 novembre* · Bozza: [[19-gotico-italiano-federico-ii-e-primo-rinascimento]] · Sbobina: [[19-gotico-in-italia-e-inizio-del-rinascimento]]
+
+- R. Bonelli, C. Bozzoni, V. Franchetti Pardo, *Storia dell'architettura medievale*, Roma, Laterza 2012 (testo di riferimento generale del programma)
+- A. Naser Eslami, M.R. Nobile, *Storia dell'architettura in Italia. Tra Mediterraneo e Europa (VII-XVIII secolo)*, Milano, Pearson 2022
+- *L'architettura del Rinascimento. Storia e geografia*, a cura di F. Mattei, Roma, Carocci 2026 (il volume del racconto per storia e geografia, citato a lezione)
+- G. Vasari, *Le vite de' più eccellenti pittori, scultori e architettori italiani, da Cimabue insino a' tempi nostri*, Firenze 1550 (prima edizione); in particolare la vita di Filippo Brunelleschi, letta a lezione
+- A. Manetti, *Vita di Filippo Brunelleschi* (citata a lezione come seconda biografia dell'architetto)
+- Fonti citate a lezione e nelle slide: Federico II di Svevia, *De arte venandi cum avibus* (Biblioteca Apostolica Vaticana, Pal. Lat. 1071, f. 16r); Vitruvio, *De architectura*, riletto e tradotto in volgare nel Quattrocento; l'esemplare delle *Vite* di Vasari postillato da Federico Zuccari; i disegni di Villard de Honnecourt; le piante dei castelli federiciani rielaborate da Romanini.
+- Fonti iconografiche mostrate nelle slide: Giotto, *Storie di San Francesco*, circa 1292-1296 (Assisi, chiesa superiore; particolare del *Dono del mantello*); Giotto, gli affreschi della cappella degli Scrovegni a Padova (citati a lezione); busto di Federico II, metà del XIII secolo (Barletta, Museo civico); la carta dei castelli e delle residenze fortificate di Federico II; la carta delle principali abbazie cistercensi in Italia nel XII secolo.

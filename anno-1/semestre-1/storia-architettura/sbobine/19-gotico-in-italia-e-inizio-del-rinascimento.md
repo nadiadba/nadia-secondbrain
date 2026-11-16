@@ -12,6 +12,8 @@ tags: [storia-architettura, sbobina]
 > Trascrizione automatica con Whisper della registrazione di una compagna di corso (Giulia), in due parti. Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione e tolte le parti fuori tema; dove la registrazione è incomprensibile il testo è stato lasciato più breve. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I nomi propri sono stati controllati sulle slide della lezione («21_architettura gotica_Francia_Italia.pdf», slide 40-69); la parte sul Rinascimento non ha slide nel materiale.
 
 > [!info] Note collegate
+> Bozza: [[19-gotico-italiano-federico-ii-e-primo-rinascimento]]
+>
 > Sbobina precedente: [[18-architettura-gotica-francia]]
 
 ## Il gotico in Italia: un problema storiografico
