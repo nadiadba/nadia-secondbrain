@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della lezione, registrata da una compagna di corso in due audio (trascrizione automatica con Whisper) e unita qui in un testo unico, nell'ordine in cui si è svolta la lezione. Il primo audio dura 44 minuti, con circa 37 minuti di parlato, e contiene gli avvisi sull'esame e la correzione della Prova n. 1 (omologia e proiezioni ortogonali); finisce quando la docente fa raccogliere i compiti per «continuare la lezione». Il secondo dura 1 ora e 22 minuti, con circa 29 minuti di parlato, ed è la seconda parte, sull'assonometria obliqua con il quadro verticale (seguito della lezione del 10 novembre). L'audio era di qualità molto bassa, soprattutto nel secondo file: sono stati corretti gli errori evidenti di trascrizione e tolte le parti fuori tema o incomprensibili (le conversazioni tra studenti, la raccolta dei compiti, la pausa), senza aggiungere contenuti. Le parole tra parentesi quadre servono solo a rendere leggibile la frase: dove la trascrizione era troppo rovinata sono una ricostruzione, da controllare sugli appunti. La docente lavora alla lavagna, sui fogli della prova e con il modellino degli assi: senza il disegno alcuni passaggi restano poco chiari. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
+> Bozza: [[12-errori-della-prova-1-e-quadro-verticale]]
+>
 > Sbobina precedente: [[11-assonometria-obliqua-cavaliera-militare]]
 
 ## La sessione di settembre e le revisioni

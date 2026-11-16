@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, bozza]
 > [!info] Note collegate
 > Sbobina: [[11-assonometria-obliqua-cavaliera-militare]]
 >
-> Bozza precedente: [[10-intersezione-retta-piano-e-segno-di-sezione]]
+> Bozza precedente: [[10-intersezione-retta-piano-e-segno-di-sezione]] · Successiva: [[12-errori-della-prova-1-e-quadro-verticale]]
 >
 > Argomenti collegati: [[07-il-ribaltamento]] · [[04-rette-e-piani-nelle-varie-posizioni]] · [[02-affinita-ortogonale-passo-passo]] · [[PO 7 - Figure piane e solidi]]
 
