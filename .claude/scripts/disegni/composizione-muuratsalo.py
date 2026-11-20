@@ -483,10 +483,11 @@ def _dallalto(items, R, Hmax, pre=()):
 
 
 def impacca(lista, W=70.0, H=50.0):
-    """La base va nell'angolo in alto a sinistra. A destra della base, la coppia M02 + M10 in piedi
-    nell'angolo in alto a destra (le parti da buttare verso l'esterno); tra la base e la coppia i
-    pezzi rettangolari, impilati dall'alto senza spazi. Cerca la striscia piu' corta senza buchi,
-    provando molti ordini e migliorandoli con scambi successivi."""
+    """La base va nell'angolo in alto a sinistra. Gli altri pezzi occupano tutta la larghezza del
+    foglio a destra della base, appoggiati al bordo in alto: cosi' la fila e' la meno profonda
+    possibile e i bordi del foglio fanno da lato ai pezzi. La coppia M02 + M10 va nell'angolo in
+    alto a destra, con le parti da buttare contro il bordo del foglio. Tra i pezzi niente buchi:
+    il vuoto resta solo sul fondo, attaccato all'avanzo."""
     import random
     base = [p for p in lista if p.cod == "M01"][0]
     bw, bh = base.bbox()
@@ -495,14 +496,17 @@ def impacca(lista, W=70.0, H=50.0):
     altri = [p for p in lista if p not in (base, m02, m10)]
     COPPIA = "coppia"
     elementi = [(p, *p.bbox(), True) for p in altri]
-    area = sum(w * h for _, w, h, _ in elementi) + Hc * Lc
+    R = W - bw
     rnd = random.Random(11)
+    modi = {"in piedi": (COPPIA, R - Hc, 0.0, Hc, Lc, False),     # scarti verso il bordo destro
+            "sdraiata": (COPPIA, R - Lc, 0.0, Lc, Hc, True)}     # scarti verso il bordo in alto
 
-    def migliora(R, giri, fondo_conta):
-        """fondo_conta=False: cerca solo di non lasciare buchi. True: tiene zero buchi e rende
-        il fondo il piu' regolare possibile."""
-        pre = [(COPPIA, R - Hc, 0.0, Hc, Lc, False)]
-        voto = (lambda r: (round(r[0], 4), r[1])) if fondo_conta else (lambda r: (round(r[0], 4), 0))
+    def prof(r):
+        return max(y + h for _, x, y, w, h, _ in r[2])
+
+    voto = lambda r: (round(r[0], 3), round(prof(r), 2), round(r[1], 1))
+    migliore = None
+    for nome, pre in modi.items():
         chiavi = [lambda t: -max(t[1], t[2]), lambda t: -(t[1] * t[2]), lambda t: -min(t[1], t[2])]
         partenze = [sorted(elementi, key=k) for k in chiavi]
         for _ in range(150):
@@ -511,49 +515,32 @@ def impacca(lista, W=70.0, H=50.0):
             partenze.append(l)
         cand = []
         for l in partenze:
-            r = _dallalto(l, R, bh, pre)
+            r = _dallalto(l, R, bh, [pre])
             if r is not None:
                 cand.append((voto(r), l, r))
-        if not cand:
-            return None
         cand.sort(key=lambda t: t[0])
-        migliore = None
         for v, l, r in cand[:4]:
-            for _ in range(giri):
-                if not fondo_conta and v[0] < 1e-6:
-                    break
+            for _ in range(3000):
                 m = l[:]
                 a, b = rnd.randrange(len(m)), rnd.randrange(len(m))
                 if rnd.random() < 0.5:
                     m[a], m[b] = m[b], m[a]
                 else:
                     m.insert(b, m.pop(a))
-                r2 = _dallalto(m, R, bh, pre)
+                r2 = _dallalto(m, R, bh, [pre])
                 if r2 is not None and voto(r2) <= v:
                     v, l, r = voto(r2), m, r2
             if migliore is None or v < migliore[0]:
-                migliore = (v, r)
-        return migliore
-
-    # 1. la striscia piu' stretta senza buchi, a passi di 1 mm
-    R = math.ceil(area / bh * 10) / 10
-    m = None
-    while R <= W - bw:
-        m = migliora(R, 1500, False)
-        if m is not None and m[0][0] < 0.05:
-            break
-        R = round(R + 0.1, 1)
-    # 2. a quella larghezza, il fondo piu' regolare (senza fessure tra i pezzi)
-    m2 = migliora(R, 4000, True)
-    if m2 is not None and m2[0][0] < 0.05:
-        m = m2
-    trovato = m
-    vuoto, prof, r = trovato[1]
+                migliore = (v, r, nome)
+    (vuoto, D, fondo), r, nome = migliore
     posti = [(base, (lambda u, v: (u, bh - v)), (0.0, 0.0, bw, bh))]
-    for p, x, y, w, h, rot in r:
+    for p, x, y, w, h, rot in r[2]:
         X, Y = bw + x, y
         if p == COPPIA:
-            blocco = (lambda X, Y: lambda u, v: (X + v, Y + u))(X, Y)
+            if rot:   # sdraiata, scarti in alto
+                blocco = (lambda X, Y: lambda u, v: (X + u, Y + Hc - v))(X, Y)
+            else:     # in piedi, scarti a destra
+                blocco = (lambda X, Y: lambda u, v: (X + v, Y + u))(X, Y)
             posti.append((m02, (lambda b: lambda u, v: b(*f02(u, v)))(blocco), (X, Y, w, h)))
             posti.append((m10, (lambda b: lambda u, v: b(*f10(u, v)))(blocco), None))
             continue
@@ -563,30 +550,33 @@ def impacca(lista, W=70.0, H=50.0):
         else:
             fn = (lambda X, Y, h0: lambda u, v: (X + u, Y + h0 - v))(X, Y, h0)
         posti.append((p, fn, (X, Y, w, h)))
-    print("buchi tra i pezzi: %.2f cm2, fondo %.0f, striscia larga %.1f" % (vuoto, prof, R))
-    return posti, bh, bw + R
+    print("coppia %s; buchi tra i pezzi %.2f cm2; fila profonda %.2f cm" % (nome, vuoto, D))
+    return posti, D
+
+
+def _txt(x, y, t, size=11, bold=False, col="#7a0000", rot=0, anchor="middle"):
+    w = ' font-weight="bold"' if bold else ""
+    r = f' transform="rotate({rot} {x:.1f} {y:.1f})"' if rot else ""
+    return (f'<text x="{x:.1f}" y="{y:.1f}" {FONT} font-size="{size}"{w} fill="{col}" text-anchor="{anchor}" '
+            f'stroke="#fff" stroke-width="2.5" paint-order="stroke"{r}>{t}</text>')
 
 
 def schema_taglio(P, path):
-    posti, usato, largo = impacca(P)
-    s = 13.5
-    W, H = 70 * s + 60, 50 * s + 150
-    o = (30, 70)
+    posti, D = impacca(P)
+    s = 20.0
+    o = (40, 96)
+    W, H = 70 * s + 80, 50 * s + 150
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" width="{W:.0f}" height="{H:.0f}">',
            '<rect width="100%" height="100%" fill="#ffffff"/>',
-           f'<text x="16" y="28" {FONT} font-size="17" font-weight="bold" fill="#333">Il foglio di Poliplat 70 × 50 cm: dove tagliare i pezzi</text>',
-           f'<text x="16" y="50" {FONT} font-size="13" fill="#555">Misure in cm. Il rosa è il pezzo; le parti a righe si buttano, comprese quelle dentro i pezzi (finestre e porte).</text>',
-           f'<rect x="{o[0]}" y="{o[1]}" width="{70 * s}" height="{50 * s}" fill="#eef5ea" stroke="#333" stroke-width="1.5"/>']
-    out.append('<defs><pattern id="righe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
-               '<line x1="0" y1="0" x2="0" y2="6" stroke="#bbb" stroke-width="2"/></pattern></defs>')
-    # parti libere per il secondo plastico
-    out.append(f'<rect x="{o[0]}" y="{o[1] + usato * s}" width="{70 * s}" height="{(50 - usato) * s}" fill="#eef5ea" stroke="#7aa56a" stroke-dasharray="6,4"/>')
-    out.append(f'<text x="{o[0] + 35 * s}" y="{o[1] + (usato + 50) / 2 * s + 6}" {FONT} font-size="16" fill="#4c7a3d" text-anchor="middle">'
-               f'avanza una striscia di 70 × {num(50 - usato, 1)} cm: tienila per il plastico della tua nuova disposizione</text>')
-    if 70 - largo > 0.5:
-        out.append(f'<rect x="{o[0] + largo * s}" y="{o[1]}" width="{(70 - largo) * s}" height="{usato * s}" fill="#eef5ea" stroke="#7aa56a" stroke-dasharray="6,4"/>')
-        out.append(f'<text x="{o[0] + (largo + 70) / 2 * s}" y="{o[1] + usato / 2 * s}" {FONT} font-size="13" fill="#4c7a3d" text-anchor="middle">avanza</text>')
-        out.append(f'<text x="{o[0] + (largo + 70) / 2 * s}" y="{o[1] + usato / 2 * s + 17}" {FONT} font-size="13" fill="#4c7a3d" text-anchor="middle">{num(70 - largo, 1)} × {num(usato, 1)}</text>')
+           f'<text x="16" y="30" {FONT} font-size="20" font-weight="bold" fill="#333">Il foglio di Poliplat 70 × 50 cm: dove tagliare i pezzi (misure in cm)</text>',
+           f'<text x="16" y="54" {FONT} font-size="14" fill="#555">Dentro ogni pezzo: il codice e le misure come sta nel foglio (larghezza × altezza). '
+           f'Le parti a righe si buttano. Finestre, porte e bordi inclinati sono quotati nell\'immagine dei pezzi con le aperture.</text>',
+           '<defs><pattern id="righe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
+           '<line x1="0" y1="0" x2="0" y2="6" stroke="#bbb" stroke-width="2"/></pattern></defs>',
+           f'<rect x="{o[0]}" y="{o[1]}" width="{70 * s}" height="{50 * s}" fill="#eef5ea" stroke="#333" stroke-width="2"/>']
+    # quote del foglio
+    out.append(_txt(o[0] + 35 * s, o[1] - 10, "70", 14, True, "#333"))
+    out.append(_txt(o[0] - 14, o[1] + 25 * s, "50", 14, True, "#333", -90))
     for p, fn, box in posti:
         if box:
             bx, by, bw_, bh_ = box
@@ -596,20 +586,123 @@ def schema_taglio(P, path):
         d = "M " + " L ".join("%.1f %.1f" % T2(u, v) for u, v in p.piatto()) + " Z"
         for u1, v1, u2, v2 in p.buchi:
             d += " M " + " L ".join("%.1f %.1f" % T2(u, v) for u, v in [(u1, v1), (u2, v1), (u2, v2), (u1, v2)]) + " Z"
-        out.append(f'<path d="{d}" fill="#f6c9c9" fill-rule="evenodd" stroke="{ROSSO}" stroke-width="1.2"/>')
-        pts = [T2(u, v) for u, v in p.piatto()]
-        cx, cy = sum(a for a, _ in pts) / len(pts), sum(b for _, b in pts) / len(pts)
+        out.append(f'<path d="{d}" fill="#f6c9c9" fill-rule="evenodd" stroke="{ROSSO}" stroke-width="1.3"/>')
+    # etichette: codice e misure, nel verso in cui c'e' piu' posto
+    for p, fn, box in posti:
+        if p.cod in ("M02", "M10"):
+            pts = [fn(u, v) for u, v in p.piatto()]
+            xs, ys = [a for a, _ in pts], [b for _, b in pts]
+            bx, by, bw_, bh_ = min(xs), min(ys), max(xs) - min(xs), max(ys) - min(ys)
+        else:
+            bx, by, bw_, bh_ = box
         w0, h0 = p.bbox()
-        fs = 12 if min(w0, h0) * s > 26 else 9
-        out.append(f'<text x="{cx:.0f}" y="{cy + 4:.0f}" {FONT} font-size="{fs}" font-weight="bold" fill="#7a0000" '
-                   f'text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">{p.cod}</text>')
+        dims = "%s × %s" % (num(bw_), num(bh_))
+        cx, cy = o[0] + (bx + bw_ / 2) * s, o[1] + (by + bh_ / 2) * s
+        if p.cod in ("M02", "M10"):
+            cx += (-0.25 if p.cod == "M02" else 0.25) * bw_ * s
+        lw, lh = bw_ * s, bh_ * s
+        need = len(dims) * 6.2
+        if lw >= need and lh >= 30:
+            out.append(_txt(cx, cy - 3, p.cod, 13, True))
+            out.append(_txt(cx, cy + 12, dims, 11, False, "#333"))
+        elif lh >= need and lw >= 30:
+            out.append(_txt(cx - 3, cy, p.cod, 13, True, rot=-90))
+            out.append(_txt(cx + 12, cy, dims, 11, False, "#333", -90))
+        elif min(lw, lh) >= 22:      # due righe piccole, nel verso piu' lungo
+            r = 0 if lw >= lh else -90
+            if r == 0:
+                out.append(_txt(cx, cy - 1, p.cod, 9, True))
+                out.append(_txt(cx, cy + 9, dims.replace(" ", ""), 8, False, "#333"))
+            else:
+                out.append(_txt(cx - 1, cy, p.cod, 9, True, rot=-90))
+                out.append(_txt(cx + 9, cy, dims.replace(" ", ""), 8, False, "#333", -90))
+        elif lw >= lh:
+            out.append(_txt(cx, cy + 3, p.cod + " " + dims.replace(" ", ""), 7.5, True))
+        else:
+            out.append(_txt(cx + 3, cy, p.cod + " " + dims.replace(" ", ""), 7.5, True, rot=-90))
+    # l'avanzo
+    out.append(_txt(o[0] + 35 * s, o[1] + 36 * s, "avanza tutta la parte verde: tienila per il plastico della tua nuova disposizione", 18, False, "#4c7a3d"))
+    out.append(_txt(o[0] + 35 * s, o[1] + 36 * s + 24, "(sotto la base resta una striscia intera di 70 × 28 cm)", 14, False, "#4c7a3d"))
     yb = o[1] + 50 * s + 30
-    out.append(f'<text x="16" y="{yb}" {FONT} font-size="13" fill="#555">Lo schema è in scala; le misure esatte sono nella tabella.</text>')
-    out.append(f'<text x="16" y="{yb + 18}" {FONT} font-size="13" fill="#555">Tra i pezzi non c\'è spazio: due pezzi vicini hanno la linea di taglio in comune, e un taglio solo li separa.</text>')
+    out.append(f'<text x="16" y="{yb}" {FONT} font-size="14" fill="#555">Tra i pezzi non c\'è spazio: due pezzi vicini hanno la linea di taglio in comune. '
+               f'I pezzi a destra della base usano come lati il bordo in alto e il bordo destro del foglio.</text>')
     out.append("</svg>")
     with open(path, "w") as fh:
         fh.write("\n".join(out))
-    return posti, usato, largo
+    return posti, D
+
+
+def pezzi_quotati(P, path):
+    """I pezzi con finestre, porte o bordo inclinato, ognuno con le sue quote, come in pianta."""
+    codici = ["M02", "M10", "M04", "M05", "M09", "M03", "M07", "M08", "M25", "M26"]
+    sel = [p for c in codici for p in P if p.cod == c]
+    s = 34.0
+    col_w = 640
+    out_parti = []
+    x0, y0, riga_h, colonna = 0, 70, 0, 0
+    pos = []
+    for p in sel:
+        w, h = p.bbox()
+        pw, ph = w * s + 130, h * s + 120
+        if colonna == 1 and pw > col_w:
+            colonna, x0, y0 = 0, 0, y0 + riga_h
+            riga_h = 0
+        pos.append((p, x0 + 70, y0 + 40, pw, ph))
+        riga_h = max(riga_h, ph)
+        if pw > col_w or colonna == 1:
+            colonna, x0, y0, riga_h = 0, 0, y0 + riga_h, 0
+        else:
+            colonna, x0 = 1, col_w
+    W = 2 * col_w + 40
+    H = y0 + riga_h + 30
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" width="{W:.0f}" height="{H:.0f}">',
+           '<rect width="100%" height="100%" fill="#ffffff"/>',
+           f'<text x="16" y="30" {FONT} font-size="20" font-weight="bold" fill="#333">I pezzi con finestre, porte o bordo inclinato (misure in cm)</text>',
+           f'<text x="16" y="54" {FONT} font-size="14" fill="#555">Ogni pezzo è disegnato in piedi, come sarà nel plastico: le misure in basso si contano da sinistra, quelle di lato dal basso.</text>']
+    for p, px, py, pw, ph in pos:
+        w, h = p.bbox()
+        forma = p.piatto()
+        T2 = lambda u, v: (px + u * s, py + 26 + (h - v) * s)
+        out.append(f'<text x="{px - 50}" y="{py + 6}" {FONT} font-size="15" font-weight="bold" fill="#7a0000">{p.cod}  {p.nome}</text>')
+        d = "M " + " L ".join("%.1f %.1f" % T2(u, v) for u, v in forma) + " Z"
+        for u1, v1, u2, v2 in p.buchi:
+            d += " M " + " L ".join("%.1f %.1f" % T2(u, v) for u, v in [(u1, v1), (u2, v1), (u2, v2), (u1, v2)]) + " Z"
+        out.append(f'<path d="{d}" fill="#f6c9c9" fill-rule="evenodd" stroke="{ROSSO}" stroke-width="1.5"/>')
+        # catena orizzontale sotto: bordi del pezzo, delle aperture e degli spigoli in alto
+        xs = sorted({0.0, round(w, 3)} | {round(a, 3) for b in p.buchi for a in (b[0], b[2])} |
+                    {round(u, 3) for u, v in forma if 0 < u < w})
+        yq = py + 26 + h * s + 26
+        for a, b in zip(xs, xs[1:]):
+            A, B = T2(a, 0)[0], T2(b, 0)[0]
+            out.append(f'<line x1="{A:.1f}" y1="{yq}" x2="{B:.1f}" y2="{yq}" stroke="#888" stroke-width="0.8"/>')
+            # se il tratto e' corto la misura va sotto la linea
+            out.append(_txt((A + B) / 2, yq - 5 if B - A > 24 else yq + 15, num(b - a), 11, False, BLU))
+        for a in xs:
+            A = T2(a, 0)[0]
+            out.append(f'<line x1="{A - 4:.1f}" y1="{yq + 4}" x2="{A + 4:.1f}" y2="{yq - 4}" stroke="#333" stroke-width="1.2"/>')
+            out.append(f'<line x1="{A:.1f}" y1="{yq - 9}" x2="{A:.1f}" y2="{T2(0, 0)[1] + 4:.1f}" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>')
+        out.append(_txt((T2(0, 0)[0] + T2(w, 0)[0]) / 2, yq + 20, "totale " + num(w), 12, True, "#333"))
+        # catena verticale a sinistra: davanzali e architravi, e l'altezza del lato sinistro
+        hs = sorted({0.0} | {round(v, 3) for b in p.buchi for v in (b[1], b[3])} |
+                    {round(v, 3) for u, v in forma if abs(u) < 1e-6})
+        xq = px - 22
+        for a, b in zip(hs, hs[1:]):
+            A, B = T2(0, a)[1], T2(0, b)[1]
+            out.append(f'<line x1="{xq}" y1="{A:.1f}" x2="{xq}" y2="{B:.1f}" stroke="#888" stroke-width="0.8"/>')
+            out.append(_txt(xq - 6 if A - B > 24 else xq - 20, (A + B) / 2, num(b - a), 11, False, BLU, -90))
+        for a in hs:
+            A = T2(0, a)[1]
+            out.append(f'<line x1="{xq - 4}" y1="{A + 4:.1f}" x2="{xq + 4}" y2="{A - 4:.1f}" stroke="#333" stroke-width="1.2"/>')
+        # altezze dei vertici in alto (bordo inclinato o a gradino)
+        for u, v in forma:
+            if v > 0:
+                X, Y = T2(u, v)
+                anchor = "start" if u >= w - 1e-6 else ("end" if u <= 1e-6 else "middle")
+                dx = 6 if anchor == "start" else (-6 if anchor == "end" else 0)
+                out.append(_txt(X + dx, Y - 6, "h " + num(v), 11, True, "#333", anchor=anchor))
+    out.append("</svg>")
+    with open(path, "w") as fh:
+        fh.write("\n".join(out))
 
 
 # =====================================================================================
@@ -831,7 +924,8 @@ def main():
             assert 0 <= u1 < u2 <= w and 0 <= v1 < v2 <= h, (p.cod, u1, v1, u2, v2)
     pianta_quotata(OUT + "muuratsalo-1-pianta-quotata.svg")
     sezioni(OUT + "muuratsalo-2-altezze.svg")
-    posti, usato, largo = schema_taglio(P, OUT + "muuratsalo-3-taglio-foglio.svg")
+    posti, D = schema_taglio(P, OUT + "muuratsalo-3-taglio-foglio.svg")
+    pezzi_quotati(P, OUT + "muuratsalo-4-pezzi-quotati.svg")
     titoli = {1: "Passo 1: la base", 2: "Passo 2: i muri esterni nord, ovest ed est", 3: "Passo 3: il recinto del patio",
               4: "Passo 4: l'ala delle camere", 5: "Passo 5: il muro dell'atelier sul patio e il camino",
               6: "Passo 6: le pareti interne", 7: "Passo 7: il soppalco", 8: "Passo 8: l'ingresso",
@@ -841,7 +935,6 @@ def main():
     # tabella per la pagina
     for p in P:
         print("| %s | %s | %s | %s |" % (p.cod, p.nome, p.misura(), p.passo))
-    print("usato:", round(largo, 2), "x", round(usato, 2))
 
 
 if __name__ == "__main__":

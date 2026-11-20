@@ -48,66 +48,24 @@ Il tetto della zona giorno è a «farfalla»: parte da 6,05 m sul lato ovest, sc
 
 ![[muuratsalo-3-taglio-foglio.svg|1000]]
 
-I 37 pezzi sono accostati senza spazi tra loro e stanno tutti in un rettangolo di 55,8 × 22 cm nell'angolo in alto a sinistra del foglio. Avanzano una striscia intera di 70 × 28 cm e un rettangolo di 14,2 × 22 cm: tienili per il plastico della nuova disposizione (il punto 5).
+Dentro ogni pezzo ci sono il codice e le misure in cm, come il pezzo sta nel foglio (larghezza × altezza). Le finestre, le porte e i bordi inclinati sono quotati nell'immagine qui sotto.
 
-I pezzi rettangolari sono tutti accostati alla base M01. M02 e M10 hanno il bordo in alto inclinato con la stessa pendenza, perché seguono tutti e due il tetto: M10 è capovolto e si incastra contro M02, così il bordo inclinato è un taglio solo. La coppia sta in alto a destra, in piedi, con le due parti da buttare rivolte verso l'avanzo. Gli altri pezzi sono impilati dall'alto senza buchi tra loro: il poco spazio che resta è tutto sul bordo in basso, attaccato alla striscia che avanza.
+La base M01 sta nell'angolo in alto a sinistra. Tutti gli altri pezzi stanno in una fila accanto alla base, larga fino al bordo destro del foglio e profonda al massimo 14,55 cm: così il bordo in alto e il bordo destro del foglio fanno da lato a molti pezzi, e quei lati non vanno tagliati. Tra i pezzi non ci sono buchi; il poco spazio vuoto resta solo sul fondo della fila, attaccato all'avanzo. M02 e M10 hanno il bordo inclinato con la stessa pendenza, perché seguono tutti e due il tetto: M10 è capovolto e si incastra contro M02, così il bordo inclinato è un taglio solo. La coppia sta nell'angolo in alto a destra, e le due parti da buttare toccano il bordo del foglio.
+
+Avanza tutta la parte verde: una striscia intera di 70 × 28 cm sotto la base e, sotto la fila dei pezzi, un altro pezzo di almeno 43 × 7,45 cm. Tienili per il plastico della nuova disposizione (il punto 5).
+
+![[muuratsalo-4-pezzi-quotati.svg|1000]]
 
 Come procedere:
 
-1. Disegna i pezzi sul foglio a matita, con la squadretta, seguendo lo schema e le misure della tabella. Tra un pezzo e l'altro non c'è spazio: la linea che separa due pezzi è il bordo di tutti e due, quindi disegnala sottile e precisa, e misura ogni pezzo partendo dai bordi dei pezzi già disegnati.
-2. Taglia prima la striscia di 22 cm e poi, da questa, il rettangolo di 14,2 cm a destra: così gli avanzi restano interi.
+1. Disegna i pezzi sul foglio a matita, con la squadretta, seguendo lo schema e le misure scritte dentro i pezzi; le finestre e le porte con l'immagine dei pezzi quotati. Tra un pezzo e l'altro non c'è spazio: la linea che separa due pezzi è il bordo di tutti e due, quindi disegnala sottile e precisa, e misura ogni pezzo partendo dai bordi dei pezzi già disegnati.
+2. Taglia prima, per tutta la larghezza, la striscia alta 22 cm con la base e i pezzi: sotto resta intera la striscia di 70 × 28. Poi stacca la base, e infine taglia la fila dei pezzi a 14,55 cm dal bordo in alto: sotto avanza un altro pezzo intero.
 3. Poi taglia i pezzi grandi e alla fine quelli piccoli. Il taglierino va passato più volte, senza premere troppo, contro la squadretta di metallo.
 4. Le finestre e le porte si tagliano prima di staccare il pezzo dal foglio: così il pezzo non si rompe.
 5. Scrivi a matita il codice (M01, M02...) sul retro di ogni pezzo.
 
 > [!tip] Lo spessore dei muri
 > Il Poliplat è spesso 0,5 cm, cioè 50 cm in scala: i muri veri sono di 30-40 cm, quindi sul plastico sono tutti un po' più spessi. Il filo esterno, e quello verso il patio, resta al suo posto; lo spessore in più va dentro le stanze. È la stessa regola dell'esercizio 3.
-
-### I pezzi
-
-Misure in cm: larghezza × altezza del pezzo (per i tetti e il soppalco, lunghezza × profondità).
-
-| Pezzo | Nome | Misura | Passo |
-|---|---|---|---|
-| M01 | Base del plastico | 27 × 22 | 1 |
-| M02 | Muro nord (bordo alto inclinato: 5,55 a ovest, 2,1 a 12,25 cm, 2,75 a est) | 14,4 × 5,55 | 2 |
-| M03 | Muro ovest dell'atelier | 4,5 × 5,55 | 2 |
-| M04 | Muro est (2,75 per i primi 4,5 cm, poi 2,1) | 13,4 × 2,75 | 2 |
-| M05 | Recinto ovest | 8,9 × 6,05 | 3 |
-| M06 | Recinto sud, pezzo ovest | 2,45 × 6,05 | 3 |
-| M07 | Recinto sud, pezzo est (3,23 a ovest, 2,85 a est) | 2,5 × 3,23 | 3 |
-| M08 | Muro sud delle camere (2,85 a ovest, 2,1 a est) | 4,95 × 2,85 | 4 |
-| M09 | Muro tra patio e corridoio | 8,9 × 2,85 | 4 |
-| M10 | Muro tra atelier e patio (5,41 a ovest, 2,75 a est) | 9,45 × 5,41 | 5 |
-| M11 | Muro tra pranzo e cucina | 3,1 × 2,75 | 5 |
-| M12 | Camino | 1,65 × 2,2 | 5 |
-| M13 | Parete della cucina, pezzo ovest | 2,15 × 2,05 | 6 |
-| M14 | Parete della cucina, pezzo est | 1 × 2,05 | 6 |
-| M15 | Parete nord del bagno | 2,35 × 2,05 | 6 |
-| M16 | Parete tra bagno e guardaroba | 3,15 × 2,1 | 6 |
-| M17 | Corridoio, pezzo nord | 1,9 × 2,1 | 6 |
-| M18 | Corridoio, pezzo sud | 1,2 × 2,1 | 6 |
-| M19 | Parete tra le due camere | 2,65 × 2,1 | 6 |
-| M20 | Parete della camera sud | 3,15 × 2,1 | 6 |
-| M21 | Soppalco dello studio | 3,2 × 4 | 7 |
-| M22 | Ingresso, muro ovest | 1,3 × 2,6 | 8 |
-| M23 | Ingresso, muro est | 3,45 × 2,6 | 8 |
-| M24 | Ingresso, muro sud | 1,7 × 2,6 | 8 |
-| M25 | Annesso, muro nord | 7,3 × 2,6 | 9 |
-| M26 | Annesso, muro sud | 7,3 × 2,6 | 9 |
-| M27 | Annesso, muro ovest | 1,7 × 2,6 | 9 |
-| M28 | Annesso, muro est | 2,65 × 2,6 | 9 |
-| M29 | Annesso, parete del bagno | 2,15 × 2,6 | 9 |
-| M30 | Annesso, parete tra le camere | 2,15 × 2,6 | 9 |
-| M31 | Annesso, parete sud del bagno | 0,55 × 2,6 | 9 |
-| M32 | Tetto grande (falda ovest) | 12,73 × 5 | 10 |
-| M33 | Tetto piccolo (falda est) | 2,25 × 5 | 10 |
-| M34 | Tetto dell'ala delle camere | 5,01 × 9,4 | 10 |
-| M35 | Tetto dell'ingresso | 1,7 × 6,5 | 10 |
-| M36 | Tetto dell'annesso | 7,3 × 3,65 | 10 |
-| M37 | Comignolo | 0,6 × 2,4 | 10 |
-
-Le finestre e le porte da togliere sono disegnate dentro i pezzi nello schema del foglio. Le loro misure sono quelle della pianta quotata; in altezza, finestre a nord da 1,10 a 2,10, finestra alta dello studio da 3,30 a 4,40, finestre delle camere da 0,90 a 1,80, porte alte 2,10-2,20.
 
 ## Montare il plastico, passo per passo
 
@@ -205,6 +163,51 @@ Le pareti interne sono più basse dei muri, così il tetto ci passa sopra.
 
 > [!tip] Il tetto si può togliere?
 > In aula una studentessa ha chiesto se il tetto va incollato o se si deve poter togliere, ma la risposta nella registrazione non si sente. Nel dubbio, appoggia i tetti senza colla e fissali con un puntino di attaccatutto: per le foto restano fermi, e se il prof vuole vedere dentro si tolgono.
+
+## Riassunto dei pezzi
+
+Misure in cm: larghezza × altezza del pezzo (per i tetti e il soppalco, lunghezza × profondità).
+
+| Pezzo | Nome | Misura | Passo |
+|---|---|---|---|
+| M01 | Base del plastico | 27 × 22 | 1 |
+| M02 | Muro nord (bordo alto inclinato: 5,55 a ovest, 2,1 a 12,25 cm, 2,75 a est) | 14,4 × 5,55 | 2 |
+| M03 | Muro ovest dell'atelier | 4,5 × 5,55 | 2 |
+| M04 | Muro est (2,75 per i primi 4,5 cm, poi 2,1) | 13,4 × 2,75 | 2 |
+| M05 | Recinto ovest | 8,9 × 6,05 | 3 |
+| M06 | Recinto sud, pezzo ovest | 2,45 × 6,05 | 3 |
+| M07 | Recinto sud, pezzo est (3,23 a ovest, 2,85 a est) | 2,5 × 3,23 | 3 |
+| M08 | Muro sud delle camere (2,85 a ovest, 2,1 a est) | 4,95 × 2,85 | 4 |
+| M09 | Muro tra patio e corridoio | 8,9 × 2,85 | 4 |
+| M10 | Muro tra atelier e patio (5,41 a ovest, 2,75 a est) | 9,45 × 5,41 | 5 |
+| M11 | Muro tra pranzo e cucina | 3,1 × 2,75 | 5 |
+| M12 | Camino | 1,65 × 2,2 | 5 |
+| M13 | Parete della cucina, pezzo ovest | 2,15 × 2,05 | 6 |
+| M14 | Parete della cucina, pezzo est | 1 × 2,05 | 6 |
+| M15 | Parete nord del bagno | 2,35 × 2,05 | 6 |
+| M16 | Parete tra bagno e guardaroba | 3,15 × 2,1 | 6 |
+| M17 | Corridoio, pezzo nord | 1,9 × 2,1 | 6 |
+| M18 | Corridoio, pezzo sud | 1,2 × 2,1 | 6 |
+| M19 | Parete tra le due camere | 2,65 × 2,1 | 6 |
+| M20 | Parete della camera sud | 3,15 × 2,1 | 6 |
+| M21 | Soppalco dello studio | 3,2 × 4 | 7 |
+| M22 | Ingresso, muro ovest | 1,3 × 2,6 | 8 |
+| M23 | Ingresso, muro est | 3,45 × 2,6 | 8 |
+| M24 | Ingresso, muro sud | 1,7 × 2,6 | 8 |
+| M25 | Annesso, muro nord | 7,3 × 2,6 | 9 |
+| M26 | Annesso, muro sud | 7,3 × 2,6 | 9 |
+| M27 | Annesso, muro ovest | 1,7 × 2,6 | 9 |
+| M28 | Annesso, muro est | 2,65 × 2,6 | 9 |
+| M29 | Annesso, parete del bagno | 2,15 × 2,6 | 9 |
+| M30 | Annesso, parete tra le camere | 2,15 × 2,6 | 9 |
+| M31 | Annesso, parete sud del bagno | 0,55 × 2,6 | 9 |
+| M32 | Tetto grande (falda ovest) | 12,73 × 5 | 10 |
+| M33 | Tetto piccolo (falda est) | 2,25 × 5 | 10 |
+| M34 | Tetto dell'ala delle camere | 5,01 × 9,4 | 10 |
+| M35 | Tetto dell'ingresso | 1,7 × 6,5 | 10 |
+| M36 | Tetto dell'annesso | 7,3 × 3,65 | 10 |
+| M37 | Comignolo | 0,6 × 2,4 | 10 |
+
 
 ## Misure da chiedere al prof
 
