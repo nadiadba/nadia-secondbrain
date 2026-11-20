@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 889 608" width="889" height="608">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="16" y="28" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#333">Passo 1: la base</text>
+<path d="M 314.2 60.0 L 858.5 288.1 L 574.3 567.7 L 30.0 339.6 Z" fill="rgb(211,87,87)" fill-rule="evenodd" stroke="#555" stroke-width="0.7" stroke-linejoin="round"/>
+<path d="M 858.5 298.1 L 574.3 577.6 L 574.3 567.7 L 858.5 288.1 Z" fill="rgb(159,65,65)" fill-rule="evenodd" stroke="#555" stroke-width="0.7" stroke-linejoin="round"/>
+<path d="M 574.3 577.6 L 30.0 349.6 L 30.0 339.6 L 574.3 567.7 Z" fill="rgb(180,74,74)" fill-rule="evenodd" stroke="#555" stroke-width="0.7" stroke-linejoin="round"/>
+<text x="488" y="406" font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="3" paint-order="stroke">M01</text>
+<text x="873" y="28" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#555" text-anchor="end">vista da sud-est</text>
+</svg>

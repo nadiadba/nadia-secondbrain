@@ -13,6 +13,8 @@ import math
 import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
+# Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
+VER = "v3"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -95,8 +97,8 @@ def pezzi():
     P = []
     # --- 1. base
     P.append(piano("M01", "Base del plastico", 1,
-                   [(-1.8, -5.55, -T), (25.2, -5.55, -T), (25.2, 16.45, -T), (-1.8, 16.45, -T)], (27, 22),
-                   "Misura libera: lascia circa 2 cm di bordo intorno a casa e annesso."))
+                   [(-0.8, -4.55, -T), (24.2, -4.55, -T), (24.2, 15.45, -T), (-0.8, 15.45, -T)], (25, 20),
+                   "Misura libera: lascia circa 1 cm di bordo intorno a casa e annesso."))
     # --- 2. muri esterni della casa
     hN = lambda x: h_tetto(x) - T
     P.append(muro_x("M02", "Muro nord", 2, 0, 14.40, 0, 0,
@@ -645,7 +647,7 @@ def schema_taglio(P, path):
             out.append(_txt(cx + 3, cy, p.cod + " " + dims.replace(" ", ""), 7.5, True, rot=-90))
     # l'avanzo
     out.append(_txt(o[0] + 35 * s, o[1] + 36 * s, "avanza tutta la parte verde: tienila per il plastico della tua nuova disposizione", 18, False, "#4c7a3d"))
-    out.append(_txt(o[0] + 35 * s, o[1] + 36 * s + 24, "(sotto la base resta una striscia intera di 70 × 28 cm)", 14, False, "#4c7a3d"))
+    out.append(_txt(o[0] + 35 * s, o[1] + 36 * s + 24, "(sotto la base resta una striscia intera di 70 × %s cm)" % num(50 - [q for q, _, _ in posti if q.cod == "M01"][0].bbox()[1]), 14, False, "#4c7a3d"))
     yb = o[1] + 50 * s + 30
     out.append(f'<text x="16" y="{yb}" {FONT} font-size="14" fill="#555">Tra i pezzi non c\'è spazio: due pezzi vicini hanno la linea di taglio in comune. '
                f'I pezzi a destra della base usano come lati il bordo in alto e il bordo destro del foglio.</text>')
@@ -945,16 +947,16 @@ def main():
         assert w <= 70 and h <= 50, p.cod
         for u1, v1, u2, v2 in p.buchi:
             assert 0 <= u1 < u2 <= w and 0 <= v1 < v2 <= h, (p.cod, u1, v1, u2, v2)
-    pianta_quotata(OUT + "muuratsalo-1-pianta-quotata.svg")
-    sezioni(OUT + "muuratsalo-2-altezze.svg")
-    posti, D = schema_taglio(P, OUT + "muuratsalo-3-taglio-foglio.svg")
-    pezzi_quotati(P, OUT + "muuratsalo-4-pezzi-quotati.svg")
+    pianta_quotata(OUT + "muuratsalo-%s-1-pianta-quotata.svg" % VER)
+    sezioni(OUT + "muuratsalo-%s-2-altezze.svg" % VER)
+    posti, D = schema_taglio(P, OUT + "muuratsalo-%s-3-taglio-foglio.svg" % VER)
+    pezzi_quotati(P, OUT + "muuratsalo-%s-4-pezzi-quotati.svg" % VER)
     titoli = {1: "Passo 1: la base", 2: "Passo 2: i muri esterni nord, ovest ed est", 3: "Passo 3: il recinto del patio",
               4: "Passo 4: l'ala delle camere", 5: "Passo 5: il muro dell'atelier sul patio e il camino",
               6: "Passo 6: le pareti interne", 7: "Passo 7: il soppalco", 8: "Passo 8: l'ingresso",
               9: "Passo 9: l'annesso degli ospiti", 10: "Passo 10: i tetti e il comignolo"}
     for k, t in titoli.items():
-        vista3d(P, k, t, OUT + "muuratsalo-passo-%02d.svg" % k)
+        vista3d(P, k, t, OUT + "muuratsalo-%s-passo-%02d.svg" % (VER, k))
     # tabella per la pagina
     for p in P:
         if getattr(p, "poliplat", True):
