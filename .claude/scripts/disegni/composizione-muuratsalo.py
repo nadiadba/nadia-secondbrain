@@ -116,8 +116,8 @@ def pezzi():
     P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, 2.85,
                     buchi=[(6.40, 0.45, 8.50, 2.10), (10.95, 0, 11.55, 2.20)]))
     # --- 5. il muro dell'atelier sul patio e il camino
-    P.append(muro_x("M10", "Muro tra atelier e patio", 5, 0.5, 9.45, 4.5, 0,
-                    forma=[(0, 0), (8.95, 0), (8.95, hN(9.45)), (0, hN(0.5))],
+    P.append(muro_x("M10", "Muro tra atelier e patio", 5, 0.5, 9.95, 4.5, 0,
+                    forma=[(0, 0), (9.45, 0), (9.45, hN(9.95)), (0, hN(0.5))],
                     buchi=[(2.20, 0.50, 6.10, 2.10), (5.05, 0, 6.10, 0.50)],
                     nota="Il bordo in alto è inclinato come il tetto."))
     P.append(muro_y("M11", "Muro tra pranzo e cucina", 5, 0.5, 3.60, 9.45, 2.75))
@@ -285,9 +285,9 @@ def vista3d(tutti, passo, titolo, path, scala=26):
 # =====================================================================================
 # Schema di taglio: il foglio 70 x 50 (MaxRects, il lato lungo dei pezzi in orizzontale)
 # =====================================================================================
-def _maxrects(items, W, H, regola):
+def _maxrects(items, W, H, regola, liberi=None):
     """Mette i rettangoli (p, w, h) nel riquadro W x H senza spazi tra loro. Ruota se serve."""
-    liberi = [(0.0, 0.0, W, H)]
+    liberi = list(liberi) if liberi else [(0.0, 0.0, W, H)]
     posti = []
     e = 1e-9
     for p, w0, h0 in items:
@@ -340,44 +340,79 @@ def _maxrects(items, W, H, regola):
     return posti
 
 
+def coppia_inclinata(P):
+    """M02 e M10 hanno il bordo in alto con la stessa pendenza (quella del tetto): capovolgendo M10
+    si incastra contro M02 e il taglio inclinato e' uno solo. Restituisce l'altezza del blocco e
+    le due trasformazioni dal pezzo al blocco (U lungo 14,4, V verso l'alto)."""
+    m02 = [p for p in P if p.cod == "M02"][0]
+    m10 = [p for p in P if p.cod == "M10"][0]
+    xe = 12.25                                       # M10 finisce dove M02 smette di scendere
+    top02 = lambda u: h_tetto(u) - T
+    alt10 = lambda u: h_tetto(0.5 + u) - T           # altezza di M10 al punto u (da ovest)
+    H = top02(xe) + alt10(0)
+    for u in (3.5, 6.0, 9.0, 12.0):                  # controllo: i due bordi combaciano
+        assert abs(top02(u) + alt10(xe - u) - H) < 1e-9
+    return m02, m10, H, (lambda u, v: (u, v)), (lambda u, v: (xe - u, H - v))
+
+
 def impacca(lista, W=70.0, H=50.0):
-    """La base va nell'angolo in alto a sinistra; gli altri pezzi le si mettono accanto, alti al
-    massimo quanto la base, senza spazi, nel modo che occupa la striscia piu' corta.
-    Prova molti ordini e regole e tiene il migliore."""
+    """La base va nell'angolo in alto a sinistra. Accanto a lei, senza spazi, i pezzi rettangolari;
+    in fondo a destra, in piedi, la coppia M02 + M10, con le parti da buttare verso l'esterno.
+    Cerca la striscia piu' corta, provando molti ordini e regole."""
     import random
     base = [p for p in lista if p.cod == "M01"][0]
     bw, bh = base.bbox()
-    altri = [p for p in lista if p is not base]
-    ordini = [
-        lambda q: -(q.bbox()[0] * q.bbox()[1]),
-        lambda q: -max(q.bbox()),
-        lambda q: -min(q.bbox()),
-        lambda q: -(q.bbox()[0] + q.bbox()[1]),
-    ]
+    m02, m10, Hc, f02, f10 = coppia_inclinata(lista)
+    Lc = m02.bbox()[0]                               # 14,4: la coppia in piedi e' larga Hc e alta Lc
+    altri = [p for p in lista if p not in (base, m02, m10)]
+    ordini = [lambda q: -(q.bbox()[0] * q.bbox()[1]), lambda q: -max(q.bbox()),
+              lambda q: -min(q.bbox()), lambda q: -(q.bbox()[0] + q.bbox()[1])]
     prove = [sorted(altri, key=k) for k in ordini]
     rnd = random.Random(4)
-    for _ in range(400):
+    for _ in range(150):
         l = sorted(altri, key=ordini[rnd.randrange(4)])
-        for _ in range(rnd.randrange(1, 6)):        # piccoli scambi nell'ordine
+        for _ in range(rnd.randrange(1, 6)):
             a, b = rnd.randrange(len(l)), rnd.randrange(len(l))
             l[a], l[b] = l[b], l[a]
         prove.append(l)
-    migliore = None
-    for l in prove:
-        items = [(p, *p.bbox()) for p in l]
-        for regola in ("sinistra", "lato", "area", "contatto"):
-            r = _maxrects(items, W - bw, bh, regola)
-            if r is None:
-                continue
-            larg = max(x + w for _, x, _, w, _ in r)
-            if migliore is None or larg < migliore[0] - 1e-9:
-                migliore = (larg, r)
-    larg, r = migliore
-    posti = [(base, 0.0, 0.0, False)]
-    for p, x, y, w, h in r:
-        rot = abs(w - p.bbox()[0]) > 1e-9 or abs(h - p.bbox()[1]) > 1e-9
-        posti.append((p, bw + x, y, rot))
-    return posti, bh, bw + larg
+
+    def prova(R):
+        liberi = [(0.0, 0.0, R - Hc, bh), (R - Hc, Lc, Hc, bh - Lc)]
+        for l in prove:
+            items = [(p, *p.bbox()) for p in l]
+            for regola in ("sinistra", "contatto", "lato", "area"):
+                r = _maxrects(items, R, bh, regola, liberi)
+                if r is not None:
+                    return r
+        return None
+
+    lo, hi = sum(p.bbox()[0] * p.bbox()[1] for p in altri) / bh, W - bw
+    best = prova(hi)
+    assert best is not None
+    for _ in range(14):
+        mid = (lo + hi) / 2
+        r = prova(mid)
+        if r is None:
+            lo = mid
+        else:
+            hi, best = mid, r
+    R = hi
+    posti = [(base, (lambda u, v: (u, bh - v)), (0.0, 0.0, bw, bh))]
+    for p, x, y, w, h in best:
+        w0, h0 = p.bbox()
+        rot = abs(w - w0) > 1e-9
+        X, Y = bw + x, y
+        if rot:
+            fn = (lambda X, Y: lambda u, v: (X + v, Y + u))(X, Y)
+        else:
+            fn = (lambda X, Y, h0: lambda u, v: (X + u, Y + h0 - v))(X, Y, h0)
+        posti.append((p, fn, (X, Y, w, h)))
+    # la coppia: in piedi, il lato con le parti da buttare (V alto) verso destra
+    X0 = bw + R - Hc
+    blocco = lambda u, v: (X0 + v, u)
+    posti.append((m02, (lambda u, v: blocco(*f02(u, v))), (X0, 0.0, Hc, Lc)))
+    posti.append((m10, (lambda u, v: blocco(*f10(u, v))), None))
+    return posti, bh, bw + R
 
 
 def schema_taglio(P, path):
@@ -400,21 +435,20 @@ def schema_taglio(P, path):
         out.append(f'<rect x="{o[0] + largo * s}" y="{o[1]}" width="{(70 - largo) * s}" height="{usato * s}" fill="#eef5ea" stroke="#7aa56a" stroke-dasharray="6,4"/>')
         out.append(f'<text x="{o[0] + (largo + 70) / 2 * s}" y="{o[1] + usato / 2 * s}" {FONT} font-size="13" fill="#4c7a3d" text-anchor="middle">avanza</text>')
         out.append(f'<text x="{o[0] + (largo + 70) / 2 * s}" y="{o[1] + usato / 2 * s + 17}" {FONT} font-size="13" fill="#4c7a3d" text-anchor="middle">{num(70 - largo, 1)} × {num(usato, 1)}</text>')
-    for p, x, y, rot in posti:
-        w0, h0 = p.bbox()
-        def T2(u, v):
-            # v verso l'alto nel pezzo: nel foglio l'alto del pezzo e' verso l'alto
-            if rot:
-                return (o[0] + (x + v) * s, o[1] + (y + u) * s)
-            return (o[0] + (x + u) * s, o[1] + (y + h0 - v) * s)
-        bw, bh = (h0, w0) if rot else (w0, h0)
-        out.append(f'<rect x="{o[0] + x * s:.1f}" y="{o[1] + y * s:.1f}" width="{bw * s:.1f}" height="{bh * s:.1f}" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>')
+    for p, fn, box in posti:
+        if box:
+            bx, by, bw_, bh_ = box
+            out.append(f'<rect x="{o[0] + bx * s:.1f}" y="{o[1] + by * s:.1f}" width="{bw_ * s:.1f}" height="{bh_ * s:.1f}" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>')
+    for p, fn, box in posti:
+        T2 = lambda u, v: (o[0] + fn(u, v)[0] * s, o[1] + fn(u, v)[1] * s)
         d = "M " + " L ".join("%.1f %.1f" % T2(u, v) for u, v in p.piatto()) + " Z"
         for u1, v1, u2, v2 in p.buchi:
             d += " M " + " L ".join("%.1f %.1f" % T2(u, v) for u, v in [(u1, v1), (u2, v1), (u2, v2), (u1, v2)]) + " Z"
         out.append(f'<path d="{d}" fill="#f6c9c9" fill-rule="evenodd" stroke="{ROSSO}" stroke-width="1.2"/>')
-        cx, cy = o[0] + (x + bw / 2) * s, o[1] + (y + bh / 2) * s
-        fs = 12 if min(bw, bh) * s > 26 else 9
+        pts = [T2(u, v) for u, v in p.piatto()]
+        cx, cy = sum(a for a, _ in pts) / len(pts), sum(b for _, b in pts) / len(pts)
+        w0, h0 = p.bbox()
+        fs = 12 if min(w0, h0) * s > 26 else 9
         out.append(f'<text x="{cx:.0f}" y="{cy + 4:.0f}" {FONT} font-size="{fs}" font-weight="bold" fill="#7a0000" '
                    f'text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">{p.cod}</text>')
     yb = o[1] + 50 * s + 30
@@ -514,7 +548,7 @@ def pianta_quotata(path):
     muro(d, 0, 0.35, 0.40, 14.00, [(0.75, 2.60), (7.70, 12.60)], "y")
     muro(d, 14.10, 0.35, 14.40, 14.00, [(1.55, 2.50), (3.60, 4.70), (6.30, 7.25), (8.90, 9.85), (11.50, 12.45)], "y")
     muro(d, 0, 14.00, 14.40, 14.40, [(2.45, 6.95), (9.95, 10.85)])
-    muro(d, 0.40, 4.70, 9.45, 5.00, [(2.20, 5.05), (5.05, 6.10)])
+    muro(d, 0.40, 4.70, 9.75, 5.00, [(2.20, 5.05), (5.05, 6.10)])
     muro(d, 9.45, 5.00, 9.75, 14.00, [(6.40, 8.50), (10.95, 11.55)], "y")
     muro(d, 9.45, 0.35, 9.75, 3.60, [], "y")
     d.rect(9.00, 1.95, 9.45, 3.60, "#444")
@@ -656,8 +690,6 @@ def main():
     for p in P:
         print("| %s | %s | %s | %s |" % (p.cod, p.nome, p.misura(), p.passo))
     print("usato:", round(largo, 2), "x", round(usato, 2))
-    for p, x, y, rot in posti:
-        print(p.cod, round(x, 2), round(y, 2), "ruotato" if rot else "")
 
 
 if __name__ == "__main__":

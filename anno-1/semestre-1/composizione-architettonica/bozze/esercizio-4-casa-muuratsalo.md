@@ -48,12 +48,14 @@ Il tetto della zona giorno è a «farfalla»: parte da 6,05 m sul lato ovest, sc
 
 ![[muuratsalo-3-taglio-foglio.svg|1000]]
 
-I 37 pezzi sono accostati senza spazi tra loro e stanno tutti in un rettangolo di 55,7 × 22 cm nell'angolo in alto a sinistra del foglio. Avanzano una striscia intera di 70 × 28 cm e un rettangolo di 14,3 × 22 cm: tienili per il plastico della nuova disposizione (il punto 5).
+I 37 pezzi sono accostati senza spazi tra loro e stanno tutti in un rettangolo di 54,8 × 22 cm nell'angolo in alto a sinistra del foglio. Avanzano una striscia intera di 70 × 28 cm e un rettangolo di 15,2 × 22 cm: tienili per il plastico della nuova disposizione (il punto 5).
+
+I pezzi rettangolari sono tutti accostati alla base M01. M02 e M10 hanno il bordo in alto inclinato con la stessa pendenza, perché seguono tutti e due il tetto: M10 è capovolto e si incastra contro M02, così il bordo inclinato è un taglio solo. La coppia sta in fondo a destra, in piedi, con le due parti da buttare rivolte verso l'avanzo.
 
 Come procedere:
 
 1. Disegna i pezzi sul foglio a matita, con la squadretta, seguendo lo schema e le misure della tabella. Tra un pezzo e l'altro non c'è spazio: la linea che separa due pezzi è il bordo di tutti e due, quindi disegnala sottile e precisa, e misura ogni pezzo partendo dai bordi dei pezzi già disegnati.
-2. Taglia prima la striscia di 22 cm e poi, da questa, il rettangolo di 14,3 cm a destra: così gli avanzi restano interi.
+2. Taglia prima la striscia di 22 cm e poi, da questa, il rettangolo di 15,2 cm a destra: così gli avanzi restano interi.
 3. Poi taglia i pezzi grandi e alla fine quelli piccoli. Il taglierino va passato più volte, senza premere troppo, contro la squadretta di metallo.
 4. Le finestre e le porte si tagliano prima di staccare il pezzo dal foglio: così il pezzo non si rompe.
 5. Scrivi a matita il codice (M01, M02...) sul retro di ogni pezzo.
@@ -76,7 +78,7 @@ Misure in cm: larghezza × altezza del pezzo (per i tetti e il soppalco, lunghez
 | M07 | Recinto sud, pezzo est | 2,5 × 4,5 | 3 |
 | M08 | Muro sud delle camere (2,85 a ovest, 2,1 a est) | 4,95 × 2,85 | 4 |
 | M09 | Muro tra patio e corridoio | 8,9 × 2,85 | 4 |
-| M10 | Muro tra atelier e patio (5,41 a ovest, 2,89 a est) | 8,95 × 5,41 | 5 |
+| M10 | Muro tra atelier e patio (5,41 a ovest, 2,75 a est) | 9,45 × 5,41 | 5 |
 | M11 | Muro tra pranzo e cucina | 3,1 × 2,75 | 5 |
 | M12 | Camino | 1,65 × 2,2 | 5 |
 | M13 | Parete della cucina, pezzo ovest | 2,15 × 2,05 | 6 |
@@ -148,7 +150,7 @@ In ogni disegno i pezzi rossi sono quelli da incollare in quel passo, i grigi qu
 
 ![[muuratsalo-passo-05.svg|700]]
 
-1. M10 (muro tra atelier e patio) chiude il patio a nord: la faccia verso il patio sta a 5 cm dal filo nord, e il pezzo va da M03 fino a M09. La parte alta va a ovest. La finestra grande e la porta danno sul patio.
+1. M10 (muro tra atelier e patio) chiude il patio a nord: la faccia verso il patio sta a 5 cm dal filo nord. Il pezzo va da M03 fino al lato est di M09: copre la testa di M09 e chiude l'angolo del patio in alto a destra. La parte alta va a ovest. La finestra grande e la porta danno sul patio.
 2. M11 (muro tra pranzo e cucina) è in linea con M09, a 9,45 cm dal filo ovest. Parte da M02 e scende per 3,1 cm.
 3. M12 (camino) va contro M11 dal lato ovest, cioè dalla parte del pranzo, da 1,95 a 3,6 cm dal filo nord.
 

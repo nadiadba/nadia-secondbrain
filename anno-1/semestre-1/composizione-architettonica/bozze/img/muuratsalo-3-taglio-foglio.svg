@@ -6,120 +6,119 @@
 <defs><pattern id="righe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#bbb" stroke-width="2"/></pattern></defs>
 <rect x="30" y="367.0" width="945.0" height="378.0" fill="#eef5ea" stroke="#7aa56a" stroke-dasharray="6,4"/>
 <text x="502.5" y="562.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4c7a3d" text-anchor="middle">avanza una striscia di 70 × 28 cm: tienila per il plastico della tua nuova disposizione</text>
-<rect x="781.2750000000001" y="70" width="193.7249999999999" height="297.0" fill="#eef5ea" stroke="#7aa56a" stroke-dasharray="6,4"/>
-<text x="878.1375" y="218.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4c7a3d" text-anchor="middle">avanza</text>
-<text x="878.1375" y="235.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4c7a3d" text-anchor="middle">14,3 × 22</text>
+<rect x="769.9257429074374" y="70" width="205.07425709256256" height="297.0" fill="#eef5ea" stroke="#7aa56a" stroke-dasharray="6,4"/>
+<text x="872.4628714537188" y="218.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4c7a3d" text-anchor="middle">avanza</text>
+<text x="872.4628714537188" y="235.5" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4c7a3d" text-anchor="middle">15,2 × 22</text>
 <rect x="30.0" y="70.0" width="364.5" height="297.0" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="394.5" y="70.0" width="171.9" height="67.5" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="394.5" y="137.5" width="37.1" height="180.9" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="431.6" y="137.5" width="120.2" height="81.7" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="431.6" y="219.2" width="126.9" height="67.6" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="431.6" y="286.8" width="120.2" height="38.5" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="566.4" y="70.0" width="98.5" height="49.3" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="566.4" y="119.3" width="74.9" height="60.8" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="551.8" y="180.0" width="98.5" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="558.5" y="215.1" width="98.5" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="558.5" y="250.2" width="87.8" height="22.9" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="558.5" y="273.2" width="66.8" height="38.5" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="551.8" y="311.6" width="67.5" height="30.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="625.4" y="273.2" width="43.2" height="54.0" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="394.5" y="325.3" width="60.8" height="33.7" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="455.2" y="325.3" width="60.8" height="33.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="619.3" y="327.2" width="46.6" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="668.6" y="264.4" width="41.9" height="37.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="668.6" y="301.5" width="42.5" height="28.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="668.6" y="329.9" width="42.5" height="28.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="516.0" y="325.3" width="35.8" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="710.4" y="264.4" width="28.4" height="35.8" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="711.1" y="300.2" width="29.0" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="641.3" y="119.3" width="25.6" height="28.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="711.1" y="335.3" width="27.7" height="31.7" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="551.8" y="342.0" width="35.1" height="23.0" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="738.8" y="264.4" width="22.9" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="740.1" y="299.5" width="27.7" height="29.0" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="740.1" y="328.5" width="29.0" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="650.3" y="147.6" width="17.6" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="586.9" y="342.0" width="29.7" height="22.3" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="650.3" y="182.7" width="16.2" height="28.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="394.5" y="359.0" width="35.1" height="7.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="551.8" y="137.5" width="13.5" height="27.7" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="641.3" y="147.6" width="8.1" height="32.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
+<rect x="668.6" y="70.0" width="101.4" height="194.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
 <path d="M 30.0 367.0 L 394.5 367.0 L 394.5 70.0 L 30.0 70.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
 <text x="212" y="222" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M01</text>
-<rect x="394.5" y="70.0" width="74.9" height="194.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 394.5 70.0 L 394.5 264.4 L 431.6 264.4 L 422.9 235.4 L 469.4 70.0 Z M 409.4 101.7 L 409.4 114.5 L 422.9 114.5 L 422.9 101.7 Z M 409.4 140.9 L 409.4 153.7 L 422.9 153.7 L 422.9 140.9 Z M 409.4 203.0 L 409.4 225.2 L 422.9 225.2 L 422.9 203.0 Z M 439.1 97.0 L 439.1 120.0 L 453.9 120.0 L 453.9 97.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="432" y="171" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M02</text>
-<rect x="394.5" y="264.4" width="171.9" height="67.5" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 394.5 331.9 L 566.4 331.9 L 566.4 264.4 L 394.5 264.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="480" y="302" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M32</text>
-<rect x="469.4" y="70.0" width="37.1" height="180.9" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 469.4 70.0 L 469.4 250.9 L 497.8 250.9 L 497.8 130.8 L 506.5 130.8 L 506.5 70.0 Z M 484.3 84.2 L 484.3 97.0 L 497.8 97.0 L 497.8 84.2 Z M 469.4 111.8 L 469.4 126.7 L 499.1 126.7 L 499.1 111.8 Z M 481.6 148.3 L 481.6 161.1 L 493.7 161.1 L 493.7 148.3 Z M 481.6 183.4 L 481.6 196.2 L 493.7 196.2 L 493.7 183.4 Z M 481.6 218.5 L 481.6 231.3 L 493.7 231.3 L 493.7 218.5 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="488" y="164" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M04</text>
-<rect x="506.5" y="70.0" width="81.7" height="120.2" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 506.5 70.0 L 506.5 190.2 L 588.2 190.2 L 588.2 70.0 Z M 514.6 106.5 L 514.6 172.6 L 536.2 172.6 L 536.2 106.5 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="547" y="134" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M05</text>
-<rect x="506.5" y="190.2" width="126.9" height="67.6" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 506.5 190.2 L 506.5 257.8 L 633.4 257.8 L 633.4 190.2 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="570" y="228" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M34</text>
-<rect x="566.4" y="257.8" width="120.8" height="73.0" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 566.4 330.8 L 687.2 330.8 L 687.2 291.8 L 566.4 257.8 Z M 589.3 324.1 L 642.0 324.1 L 642.0 302.5 L 589.3 302.5 Z M 627.8 330.8 L 642.0 330.8 L 642.0 324.1 L 627.8 324.1 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="627" y="298" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M10</text>
-<rect x="588.2" y="70.0" width="38.5" height="120.2" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 588.2 70.0 L 588.2 190.2 L 626.7 190.2 L 626.7 70.0 Z M 594.3 88.9 L 594.3 117.2 L 616.6 117.2 L 616.6 88.9 Z M 588.2 150.3 L 588.2 158.4 L 617.9 158.4 L 617.9 150.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="607" y="134" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M09</text>
-<rect x="626.7" y="70.0" width="49.3" height="98.5" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 626.7 70.0 L 626.7 168.6 L 676.0 168.6 L 676.0 70.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="651" y="123" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M36</text>
-<rect x="566.4" y="330.8" width="67.5" height="30.4" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 566.4 330.8 L 566.4 361.2 L 633.9 361.2 L 633.9 330.8 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="600" y="350" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M33</text>
-<rect x="394.5" y="331.9" width="98.5" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 394.5 367.0 L 493.0 367.0 L 493.0 331.9 L 394.5 331.9 Z M 412.0 353.5 L 437.7 353.5 L 437.7 341.4 L 412.0 341.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="444" y="353" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M25</text>
-<rect x="633.9" y="330.8" width="98.5" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 633.9 365.9 L 732.4 365.9 L 732.4 330.8 L 633.9 330.8 Z M 667.6 352.4 L 678.4 352.4 L 678.4 340.3 L 667.6 340.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="683" y="352" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M26</text>
-<rect x="633.5" y="168.6" width="22.9" height="87.8" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 633.5 256.3 L 656.4 256.3 L 656.4 168.6 L 633.5 168.6 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="645" y="216" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M35</text>
-<rect x="656.4" y="168.6" width="38.5" height="66.8" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 656.4 168.6 L 656.4 235.4 L 684.8 235.4 L 694.9 168.6 Z M 668.6 175.3 L 668.6 187.4 L 680.7 187.4 L 680.7 175.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="676" y="206" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M08</text>
-<rect x="687.2" y="235.4" width="60.8" height="74.9" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 687.2 310.3 L 747.9 310.3 L 747.9 235.4 L 687.2 235.4 Z M 690.6 295.4 L 715.5 295.4 L 715.5 282.0 L 690.6 282.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="718" y="277" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M03</text>
-<rect x="732.4" y="310.3" width="43.2" height="54.0" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 732.4 364.3 L 775.6 364.3 L 775.6 310.3 L 732.4 310.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="754" y="341" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M21</text>
-<rect x="493.0" y="331.9" width="60.8" height="33.7" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 493.0 331.9 L 493.0 365.6 L 553.8 365.6 L 553.8 331.9 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="523" y="353" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M07</text>
-<rect x="676.0" y="70.0" width="33.1" height="60.8" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 676.0 130.8 L 709.1 130.8 L 709.1 70.0 L 676.0 70.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="693" y="104" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M06</text>
-<rect x="676.0" y="130.8" width="46.6" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 676.0 165.8 L 722.6 165.8 L 722.6 130.8 L 676.0 130.8 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="699" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M23</text>
-<rect x="709.0" y="70.0" width="37.1" height="41.9" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 709.0 70.0 L 709.0 111.8 L 746.2 111.8 L 746.2 70.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="728" y="95" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M11</text>
-<rect x="694.9" y="165.8" width="28.4" height="42.5" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 694.9 165.8 L 694.9 208.4 L 723.2 208.4 L 723.2 165.8 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="709" y="191" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M16</text>
-<rect x="722.5" y="111.8" width="28.4" height="42.5" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 722.5 111.8 L 722.5 154.4 L 750.9 154.4 L 750.9 111.8 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="737" y="137" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M20</text>
-<rect x="746.2" y="70.0" width="35.1" height="35.8" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 746.2 70.0 L 746.2 105.8 L 781.3 105.8 L 781.3 70.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="764" y="92" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M28</text>
-<rect x="723.2" y="154.4" width="28.4" height="35.8" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 723.2 154.4 L 723.2 190.2 L 751.6 190.2 L 751.6 154.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="737" y="176" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M19</text>
-<rect x="750.9" y="105.8" width="29.0" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 750.9 140.9 L 779.9 140.9 L 779.9 105.8 L 750.9 105.8 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="765" y="127" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M29</text>
-<rect x="723.2" y="190.2" width="29.0" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 723.2 225.2 L 752.3 225.2 L 752.3 190.2 L 723.2 190.2 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="738" y="212" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M30</text>
-<rect x="751.6" y="140.9" width="27.7" height="31.7" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 751.6 140.9 L 751.6 172.6 L 779.2 172.6 L 779.2 140.9 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="765" y="161" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M15</text>
-<rect x="747.9" y="225.2" width="23.0" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 747.9 260.4 L 770.9 260.4 L 770.9 225.2 L 747.9 225.2 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="759" y="247" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M24</text>
-<rect x="747.9" y="260.4" width="22.9" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 747.9 295.4 L 770.9 295.4 L 770.9 260.4 L 747.9 260.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="759" y="282" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M27</text>
-<rect x="752.2" y="172.6" width="27.7" height="29.0" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 752.2 172.6 L 752.2 201.6 L 779.9 201.6 L 779.9 172.6 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="766" y="191" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M13</text>
-<rect x="694.9" y="208.4" width="28.4" height="25.6" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 694.9 208.4 L 694.9 234.0 L 723.2 234.0 L 723.2 208.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="709" y="225" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M17</text>
-<rect x="687.2" y="310.3" width="35.1" height="17.6" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 687.2 310.3 L 687.2 327.9 L 722.3 327.9 L 722.3 310.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="705" y="323" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M22</text>
-<rect x="656.4" y="235.4" width="29.7" height="22.3" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 656.4 235.4 L 656.4 257.6 L 686.1 257.6 L 686.1 235.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="671" y="251" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M12</text>
-<rect x="752.2" y="201.6" width="28.4" height="16.2" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 752.2 201.6 L 752.2 217.8 L 780.6 217.8 L 780.6 201.6 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="766" y="214" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M18</text>
-<rect x="553.8" y="331.9" width="7.4" height="35.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 553.8 367.0 L 561.2 367.0 L 561.2 331.9 L 553.8 331.9 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="558" y="353" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M31</text>
-<rect x="469.4" y="250.9" width="27.7" height="13.5" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 469.4 250.9 L 469.4 264.4 L 497.1 264.4 L 497.1 250.9 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="483" y="262" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M14</text>
-<rect x="747.9" y="295.4" width="32.4" height="8.1" fill="url(#righe)" stroke="#999" stroke-width="0.6"/>
-<path d="M 747.9 295.4 L 747.9 303.6 L 780.3 303.6 L 780.3 295.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
-<text x="764" y="304" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M37</text>
+<path d="M 394.5 137.5 L 566.4 137.5 L 566.4 70.0 L 394.5 70.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="480" y="108" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M32</text>
+<path d="M 394.5 137.5 L 394.5 318.4 L 422.9 318.4 L 422.9 198.2 L 431.6 198.2 L 431.6 137.5 Z M 409.4 151.7 L 409.4 164.5 L 422.9 164.5 L 422.9 151.7 Z M 394.5 179.3 L 394.5 194.2 L 424.2 194.2 L 424.2 179.3 Z M 406.6 215.8 L 406.6 228.6 L 418.8 228.6 L 418.8 215.8 Z M 406.6 250.9 L 406.6 263.7 L 418.8 263.7 L 418.8 250.9 Z M 406.6 286.0 L 406.6 298.8 L 418.8 298.8 L 418.8 286.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="416" y="222" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M04</text>
+<path d="M 431.6 219.2 L 551.8 219.2 L 551.8 137.5 L 431.6 137.5 Z M 468.1 211.1 L 534.2 211.1 L 534.2 189.5 L 468.1 189.5 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="492" y="182" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M05</text>
+<path d="M 431.6 219.2 L 431.6 286.8 L 558.5 286.8 L 558.5 219.2 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="495" y="257" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M34</text>
+<path d="M 431.6 325.3 L 551.8 325.3 L 551.8 286.8 L 431.6 286.8 Z M 450.5 319.2 L 478.9 319.2 L 478.9 296.9 L 450.5 296.9 Z M 512.0 325.3 L 520.0 325.3 L 520.0 295.6 L 512.0 295.6 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="492" y="310" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M09</text>
+<path d="M 566.4 119.3 L 664.9 119.3 L 664.9 70.0 L 566.4 70.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="616" y="99" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M36</text>
+<path d="M 566.4 119.3 L 566.4 180.0 L 641.3 180.0 L 641.3 119.3 Z M 581.2 122.7 L 581.2 147.6 L 594.7 147.6 L 594.7 122.7 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="604" y="154" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M03</text>
+<path d="M 551.8 215.1 L 650.3 215.1 L 650.3 180.0 L 551.8 180.0 Z M 569.3 201.6 L 595.0 201.6 L 595.0 189.5 L 569.3 189.5 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="601" y="202" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M25</text>
+<path d="M 558.5 250.2 L 657.1 250.2 L 657.1 215.1 L 558.5 215.1 Z M 592.3 236.7 L 603.1 236.7 L 603.1 224.6 L 592.3 224.6 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="608" y="237" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M26</text>
+<path d="M 558.5 250.2 L 558.5 273.2 L 646.3 273.2 L 646.3 250.2 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="602" y="266" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M35</text>
+<path d="M 558.5 311.6 L 625.4 311.6 L 625.4 283.3 L 558.5 273.2 Z M 565.3 299.5 L 577.4 299.5 L 577.4 287.3 L 565.3 287.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="592" y="299" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M08</text>
+<path d="M 551.8 311.6 L 551.8 342.0 L 619.3 342.0 L 619.3 311.6 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="586" y="331" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M33</text>
+<path d="M 625.4 327.2 L 668.6 327.2 L 668.6 273.2 L 625.4 273.2 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="647" y="304" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M21</text>
+<path d="M 394.5 325.3 L 394.5 359.0 L 455.2 359.0 L 455.2 325.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="425" y="346" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M07</text>
+<path d="M 455.2 325.3 L 455.2 358.4 L 516.0 358.4 L 516.0 325.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="486" y="346" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M06</text>
+<path d="M 619.3 362.3 L 665.9 362.3 L 665.9 327.2 L 619.3 327.2 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="643" y="349" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M23</text>
+<path d="M 668.6 301.5 L 710.4 301.5 L 710.4 264.4 L 668.6 264.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="689" y="287" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M11</text>
+<path d="M 668.6 329.9 L 711.1 329.9 L 711.1 301.5 L 668.6 301.5 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="690" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M16</text>
+<path d="M 668.6 358.2 L 711.1 358.2 L 711.1 329.9 L 668.6 329.9 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="690" y="348" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M20</text>
+<path d="M 516.0 360.4 L 551.8 360.4 L 551.8 325.3 L 516.0 325.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="534" y="347" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M28</text>
+<path d="M 710.4 264.4 L 710.4 300.2 L 738.8 300.2 L 738.8 264.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="725" y="286" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M19</text>
+<path d="M 711.1 335.3 L 740.1 335.3 L 740.1 300.2 L 711.1 300.2 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="726" y="322" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M29</text>
+<path d="M 641.3 147.6 L 666.9 147.6 L 666.9 119.3 L 641.3 119.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="654" y="137" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M17</text>
+<path d="M 711.1 335.3 L 711.1 367.0 L 738.8 367.0 L 738.8 335.3 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="725" y="355" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M15</text>
+<path d="M 551.8 342.0 L 551.8 365.0 L 586.9 365.0 L 586.9 342.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="569" y="358" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M24</text>
+<path d="M 738.8 299.5 L 761.7 299.5 L 761.7 264.4 L 738.8 264.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="750" y="286" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M27</text>
+<path d="M 740.1 299.5 L 740.1 328.5 L 767.8 328.5 L 767.8 299.5 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="754" y="318" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M13</text>
+<path d="M 740.1 363.6 L 769.1 363.6 L 769.1 328.5 L 740.1 328.5 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="755" y="350" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M30</text>
+<path d="M 650.3 182.7 L 667.9 182.7 L 667.9 147.6 L 650.3 147.6 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="659" y="169" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M22</text>
+<path d="M 586.9 342.0 L 586.9 364.3 L 616.6 364.3 L 616.6 342.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="602" y="357" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M12</text>
+<path d="M 650.3 211.1 L 666.5 211.1 L 666.5 182.7 L 650.3 182.7 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="658" y="201" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M18</text>
+<path d="M 394.5 359.0 L 394.5 366.5 L 429.6 366.5 L 429.6 359.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="412" y="367" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M31</text>
+<path d="M 551.8 165.2 L 565.3 165.2 L 565.3 137.5 L 551.8 137.5 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="559" y="155" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M14</text>
+<path d="M 641.3 180.0 L 649.4 180.0 L 649.4 147.6 L 641.3 147.6 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="645" y="168" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M37</text>
+<path d="M 668.6 70.0 L 668.6 264.4 L 705.7 264.4 L 696.9 235.4 L 743.5 70.0 Z M 683.4 101.7 L 683.4 114.5 L 696.9 114.5 L 696.9 101.7 Z M 683.4 140.9 L 683.4 153.7 L 696.9 153.7 L 696.9 140.9 Z M 683.4 203.0 L 683.4 225.2 L 696.9 225.2 L 696.9 203.0 Z M 713.1 97.0 L 713.1 120.0 L 728.0 120.0 L 728.0 97.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="697" y="185" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M02</text>
+<path d="M 769.9 235.4 L 769.9 107.8 L 732.8 107.8 L 696.9 235.4 Z M 763.2 212.4 L 763.2 159.8 L 741.6 159.8 L 741.6 212.4 Z M 769.9 173.9 L 769.9 159.8 L 763.2 159.8 L 763.2 173.9 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.2"/>
+<text x="742" y="176" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#7a0000" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">M10</text>
 <text x="16" y="775.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#555">Lo schema è in scala; le misure esatte sono nella tabella.</text>
 <text x="16" y="793.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#555">Tra i pezzi non c'è spazio: due pezzi vicini hanno la linea di taglio in comune, e un taglio solo li separa.</text>
 </svg>

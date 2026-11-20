@@ -61,7 +61,7 @@
 <line x1="351.9" y1="520.7" x2="400.2" y2="520.7" stroke="#777" stroke-width="0.8"/>
 <line x1="351.9" y1="513.8" x2="400.2" y2="513.8" stroke="#777" stroke-width="0.6"/>
 <line x1="351.9" y1="527.6" x2="400.2" y2="527.6" stroke="#777" stroke-width="0.6"/>
-<rect x="400.2" y="513.8" width="154.1" height="13.8" fill="#1f1f1f" stroke="none" stroke-width="1" />
+<rect x="400.2" y="513.8" width="167.9" height="13.8" fill="#1f1f1f" stroke="none" stroke-width="1" />
 <rect x="554.3" y="527.6" width="13.8" height="64.4" fill="#1f1f1f" stroke="none" stroke-width="1" />
 <line x1="561.2" y1="592.0" x2="561.2" y2="688.6" stroke="#777" stroke-width="0.8"/>
 <line x1="554.3" y1="592.0" x2="554.3" y2="688.6" stroke="#777" stroke-width="0.6"/>
