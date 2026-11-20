@@ -26,3 +26,4 @@ Ancora nessuna.
 - [[esercizio-3-casa-arzachena|Esercizio 3, casa ad Arzachena: pianta e sezioni con tutte le misure]] ([[esercizio-3-casa-arzachena-tavole.pdf|tavole in PDF da stampare]])
 - [[esercizio-3-nuova-disposizione|Esercizio 3, la tua nuova disposizione: pianta quotata]] ([[esercizio-3-nuova-disposizione-tavole.pdf|tavole in PDF da stampare]])
 - [[esercizio-3-plastici-pezzi.pdf|Esercizio 3, i pezzi di Poliplat per i due plastici (PDF)]]
+- [[esercizio-4-casa-muuratsalo|Esercizio 4, casa di Aalto a Muuratsalo: pianta quotata, altezze, taglio del foglio di Poliplat 50 × 70 e montaggio del plastico passo per passo]]

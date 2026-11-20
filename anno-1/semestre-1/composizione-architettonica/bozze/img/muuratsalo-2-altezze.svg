@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 728" width="990" height="728">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="14" y="26" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#333">Le altezze: due sezioni da ovest (a sinistra) a est</text>
+<text x="14" y="62" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">1. Fascia nord: atelier, pranzo, cucina (sezione ovest-est della scheda)</text>
+<line x1="28.0" y1="342.0" x2="668.0" y2="342.0" stroke="#333" stroke-width="1.5"/>
+<path d="M 60.0 342.0 L 76.0 342.0 L 76.0 120.0 L 60.0 120.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 624.0 342.0 L 636.0 342.0 L 636.0 232.0 L 624.0 232.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 438.0 342.0 L 450.0 342.0 L 450.0 232.0 L 438.0 232.0 Z" fill="#999" stroke="#333" stroke-width="1"/>
+<path d="M 60.0 100.0 L 550.0 238.0 L 636.0 212.0 L 636.0 232.0 L 550.0 258.0 L 60.0 120.0 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
+<path d="M 76.0 248.0 L 208.0 248.0 L 208.0 228.0 L 76.0 228.0 Z" fill="#9cc0e8" stroke="#333" stroke-width="1"/>
+<line x1="55" y1="100.0" x2="65" y2="100.0" stroke="#1f1f1f" stroke-width="1.2"/>
+<text x="67" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+6,05</text>
+<line x1="545.0" y1="238.0" x2="555.0" y2="238.0" stroke="#1f5fae" stroke-width="1.2"/>
+<text x="557.0" y="242.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+2,60 (punto più basso, a 12,25)</text>
+<line x1="631.0" y1="212.0" x2="641.0" y2="212.0" stroke="#1f1f1f" stroke-width="1.2"/>
+<text x="643.0" y="216.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+3,25</text>
+<line x1="203.0" y1="228.0" x2="213.0" y2="228.0" stroke="#1f1f1f" stroke-width="1.2"/>
+<text x="215.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+2,85 soppalco</text>
+<line x1="71.0" y1="342.0" x2="81.0" y2="342.0" stroke="#1f1f1f" stroke-width="1.2"/>
+<text x="83.0" y="346.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">±0,00 pavimento</text>
+<text x="684.0" y="94" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Il tetto è a «farfalla»:</text>
+<text x="684.0" y="111" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">scende da ovest a est fino</text>
+<text x="684.0" y="128" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">a 12,25 m e poi risale.</text>
+<text x="684.0" y="145" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Lo spessore del tetto è 0,50</text>
+<text x="684.0" y="162" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">(il Poliplat).</text>
+<text x="14" y="394" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">2. Patio e ala delle camere (sezione sul patio della scheda)</text>
+<line x1="28.0" y1="674.0" x2="668.0" y2="674.0" stroke="#333" stroke-width="1.5"/>
+<path d="M 60.0 674.0 L 76.0 674.0 L 76.0 432.0 L 60.0 432.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 438.0 674.0 L 450.0 674.0 L 450.0 560.0 L 438.0 560.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 624.0 674.0 L 636.0 674.0 L 636.0 590.0 L 624.0 590.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 438.0 560.0 L 636.0 590.0 L 636.0 570.0 L 438.0 540.0 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
+<line x1="55" y1="432.0" x2="65" y2="432.0" stroke="#1f5fae" stroke-width="1.2"/>
+<text x="67" y="436.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+6,05 recinto ovest</text>
+<line x1="433.0" y1="540.0" x2="443.0" y2="540.0" stroke="#1f5fae" stroke-width="1.2"/>
+<text x="445.0" y="544.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+3,35</text>
+<line x1="631.0" y1="570.0" x2="641.0" y2="570.0" stroke="#1f5fae" stroke-width="1.2"/>
+<text x="643.0" y="574.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+2,60</text>
+<line x1="631.0" y1="590.0" x2="641.0" y2="590.0" stroke="#1f5fae" stroke-width="1.2"/>
+<text x="643.0" y="594.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+2,10</text>
+<line x1="445.0" y1="560.0" x2="455.0" y2="560.0" stroke="#1f5fae" stroke-width="1.2"/>
+<text x="457.0" y="564.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+2,85</text>
+<text x="684.0" y="426" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Il recinto sud (con la grande</text>
+<text x="684.0" y="443" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">apertura) non si vede nelle</text>
+<text x="684.0" y="460" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">sezioni: l'ho fatto alto 4,50</text>
+<text x="684.0" y="477" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">(ipotesi da chiedere al prof).</text>
+<text x="684.0" y="494" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Le camere hanno il tetto che</text>
+<text x="684.0" y="511" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">scende verso est.</text>
+</svg>
