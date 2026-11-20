@@ -108,8 +108,12 @@ def pezzi():
     # --- 3. il recinto del patio
     P.append(muro_y("M05", "Recinto ovest", 3, 5.0, 13.90, 0, 6.05,
                     buchi=[(7.70, 0.60, 12.60, 2.20)], nota="La grande «finestra» sul lago."))
-    P.append(muro_x("M06", "Recinto sud, pezzo ovest", 3, 0, 2.45, 13.90, 4.50))
-    P.append(muro_x("M07", "Recinto sud, pezzo est", 3, 6.95, 9.45, 13.90, 4.50))
+    P.append(muro_x("M06", "Recinto sud, pezzo ovest", 3, 0, 2.45, 13.90, 6.05,
+                    nota="Alto come il recinto ovest: insieme fanno l'angolo sud-ovest."))
+    k_sud = 0.75 / 4.95                               # pendenza del muro sud delle camere
+    P.append(muro_x("M07", "Recinto sud, pezzo est", 3, 6.95, 9.45, 13.90, 0,
+                    forma=[(0, 0), (2.50, 0), (2.50, 2.85), (0, 2.85 + k_sud * 2.50)],
+                    nota="Il bordo in alto continua la pendenza del muro sud delle camere (M08)."))
     # --- 4. l'ala delle camere
     P.append(muro_x("M08", "Muro sud delle camere", 4, 9.45, 14.40, 13.90, 0,
                     forma=[(0, 0), (4.95, 0), (4.95, 2.10), (0, 2.85)], buchi=[(9.95, 0.90, 10.85, 1.80)]))
@@ -245,7 +249,9 @@ def vista3d(tutti, passo, titolo, path, scala=26):
         allv = [v for f in fs for v in f[0]]
         cen = [(min(v[i] for v in allv) + max(v[i] for v in allv)) / 2 for i in range(3)]
         # la base sempre per prima; poi un pezzo dopo l'altro, dal piu' lontano al piu' vicino
-        kp = -1e9 if p.cod == "M01" else dot(cen, V)
+        # prima la base, poi muri e soppalco, poi i tetti (che stanno sopra), per ultimo il comignolo
+        strato = 0 if p.cod == "M01" else 3 if p.cod == "M37" else 2 if p.passo == 10 else 1
+        kp = (strato, dot(cen, V))
         for verts, buchi, n in fs:
             if dot(n, V) <= 1e-6:
                 continue
@@ -355,63 +361,209 @@ def coppia_inclinata(P):
     return m02, m10, H, (lambda u, v: (u, v)), (lambda u, v: (xe - u, H - v))
 
 
+def _skyline(items, H):
+    """Appoggia i pezzi uno alla volta contro la base (a sinistra) e contro quelli gia' messi.
+    Il profilo (skyline) dice, per ogni tratto di altezza y, fin dove arriva la fila di pezzi.
+    Ogni pezzo va dove lascia meno vuoto dietro di se'. items: (p, w, h, girabile).
+    Restituisce (vuoti, larghezza, posti) oppure None."""
+    sky = [[0.0, H, 0.0]]            # tratti [y1, y2, x]
+    posti = []
+    vuoto = 0.0
+    e = 1e-9
+    for p, w0, h0, gira in items:
+        best = None
+        for w, h, rot in ((w0, h0, False), (h0, w0, True)) if gira else ((w0, h0, False),):
+            if h > H + e:
+                continue
+            for i in range(len(sky)):
+                y1 = sky[i][0]
+                if y1 + h > H + e:
+                    break
+                y2 = y1 + h
+                xs, v = 0.0, 0.0
+                for a, b, x in sky:
+                    if b > y1 + e and a < y2 - e:
+                        xs = max(xs, x)
+                for a, b, x in sky:
+                    if b > y1 + e and a < y2 - e:
+                        v += (xs - x) * (min(b, y2) - max(a, y1))
+                sc = (round(v, 6), xs + w, y1)
+                if best is None or sc < best[0]:
+                    best = (sc, y1, xs, w, h, rot)
+        if best is None:
+            return None
+        (v, _, _), y1, xs, w, h, rot = best
+        vuoto += v
+        posti.append((p, xs, y1, w, h, rot))
+        y2 = y1 + h
+        nuovo = []
+        for a, b, x in sky:
+            if b <= y1 + e or a >= y2 - e:
+                nuovo.append([a, b, x])
+            else:
+                if a < y1 - e:
+                    nuovo.append([a, y1, x])
+                if b > y2 + e:
+                    nuovo.append([y2, b, x])
+        nuovo.append([y1, y2, xs + w])
+        nuovo.sort()
+        sky = []
+        for t in nuovo:                  # unisce i tratti vicini alla stessa x
+            if sky and abs(sky[-1][2] - t[2]) < e and abs(sky[-1][1] - t[0]) < e:
+                sky[-1][1] = t[1]
+            else:
+                sky.append(t)
+    larg = max(x for _, _, x in sky)
+    return vuoto, larg, posti
+
+
+def _dallalto(items, R, Hmax, pre=()):
+    """Impila i pezzi dall'alto verso il basso in una striscia larga R: ogni pezzo sale finche'
+    tocca il bordo in alto o un pezzo gia' messo, nel posto che lascia meno vuoto sopra di se'.
+    Il vuoto che resta in fondo non e' un buco: tocca la striscia che avanza.
+    items: (p, w, h, girabile); pre: pezzi gia' fissati (p, x, y, w, h, rot).
+    Restituisce (vuoti, profondita', posti) oppure None."""
+    e = 1e-9
+    sky = [[0.0, R, 0.0]]                # tratti [x1, x2, y]: fin dove arrivano i pezzi
+    posti = []
+    vuoto = 0.0
+
+    def metti(x1, w, y):
+        nonlocal sky
+        x2 = x1 + w
+        nuovo = []
+        for a, b, yy in sky:
+            if b <= x1 + e or a >= x2 - e:
+                nuovo.append([a, b, yy])
+            else:
+                if a < x1 - e:
+                    nuovo.append([a, x1, yy])
+                if b > x2 + e:
+                    nuovo.append([x2, b, yy])
+        nuovo.append([x1, x2, y])
+        nuovo.sort()
+        sky = []
+        for t in nuovo:
+            if sky and abs(sky[-1][2] - t[2]) < e and abs(sky[-1][1] - t[0]) < e:
+                sky[-1][1] = t[1]
+            else:
+                sky.append(t)
+
+    for p, x, y, w, h, rot in pre:
+        metti(x, w, y + h)
+        posti.append((p, x, y, w, h, rot))
+    for p, w0, h0, gira in items:
+        best = None
+        for w, h, rot in ((w0, h0, False), (h0, w0, True)) if gira else ((w0, h0, False),):
+            # il pezzo puo' cominciare all'inizio di un tratto o finire alla fine di un tratto
+            inizi = set()
+            for a, b, _ in sky:
+                inizi.add(a)
+                inizi.add(b - w)
+            for x1 in inizi:
+                if x1 < -e or x1 + w > R + e:
+                    continue
+                x2 = x1 + w
+                ys = max(yy for a, b, yy in sky if b > x1 + e and a < x2 - e)
+                if ys + h > Hmax + e:
+                    continue
+                v = sum((ys - yy) * (min(b, x2) - max(a, x1)) for a, b, yy in sky if b > x1 + e and a < x2 - e)
+                sc = (round(v, 6), ys + h, x1)
+                if best is None or sc < best[0]:
+                    best = (sc, x1, ys, w, h, rot)
+        if best is None:
+            return None
+        (v, _, _), x1, ys, w, h, rot = best
+        vuoto += v
+        posti.append((p, x1, ys, w, h, rot))
+        metti(x1, w, ys + h)
+    # quanto e' irregolare il fondo: le fessure profonde tra i pezzi pesano molto
+    fondo = sum((Hmax - yy) ** 2 * (b - a) for a, b, yy in sky)
+    return vuoto, fondo, posti
+
+
 def impacca(lista, W=70.0, H=50.0):
-    """La base va nell'angolo in alto a sinistra. Accanto a lei, senza spazi, i pezzi rettangolari;
-    in fondo a destra, in piedi, la coppia M02 + M10, con le parti da buttare verso l'esterno.
-    Cerca la striscia piu' corta, provando molti ordini e regole."""
+    """La base va nell'angolo in alto a sinistra. A destra della base, la coppia M02 + M10 in piedi
+    nell'angolo in alto a destra (le parti da buttare verso l'esterno); tra la base e la coppia i
+    pezzi rettangolari, impilati dall'alto senza spazi. Cerca la striscia piu' corta senza buchi,
+    provando molti ordini e migliorandoli con scambi successivi."""
     import random
     base = [p for p in lista if p.cod == "M01"][0]
     bw, bh = base.bbox()
     m02, m10, Hc, f02, f10 = coppia_inclinata(lista)
-    Lc = m02.bbox()[0]                               # 14,4: la coppia in piedi e' larga Hc e alta Lc
+    Lc = m02.bbox()[0]
     altri = [p for p in lista if p not in (base, m02, m10)]
-    ordini = [lambda q: -(q.bbox()[0] * q.bbox()[1]), lambda q: -max(q.bbox()),
-              lambda q: -min(q.bbox()), lambda q: -(q.bbox()[0] + q.bbox()[1])]
-    prove = [sorted(altri, key=k) for k in ordini]
-    rnd = random.Random(4)
-    for _ in range(150):
-        l = sorted(altri, key=ordini[rnd.randrange(4)])
-        for _ in range(rnd.randrange(1, 6)):
-            a, b = rnd.randrange(len(l)), rnd.randrange(len(l))
-            l[a], l[b] = l[b], l[a]
-        prove.append(l)
+    COPPIA = "coppia"
+    elementi = [(p, *p.bbox(), True) for p in altri]
+    area = sum(w * h for _, w, h, _ in elementi) + Hc * Lc
+    rnd = random.Random(11)
 
-    def prova(R):
-        liberi = [(0.0, 0.0, R - Hc, bh), (R - Hc, Lc, Hc, bh - Lc)]
-        for l in prove:
-            items = [(p, *p.bbox()) for p in l]
-            for regola in ("sinistra", "contatto", "lato", "area"):
-                r = _maxrects(items, R, bh, regola, liberi)
-                if r is not None:
-                    return r
-        return None
+    def migliora(R, giri, fondo_conta):
+        """fondo_conta=False: cerca solo di non lasciare buchi. True: tiene zero buchi e rende
+        il fondo il piu' regolare possibile."""
+        pre = [(COPPIA, R - Hc, 0.0, Hc, Lc, False)]
+        voto = (lambda r: (round(r[0], 4), r[1])) if fondo_conta else (lambda r: (round(r[0], 4), 0))
+        chiavi = [lambda t: -max(t[1], t[2]), lambda t: -(t[1] * t[2]), lambda t: -min(t[1], t[2])]
+        partenze = [sorted(elementi, key=k) for k in chiavi]
+        for _ in range(150):
+            l = elementi[:]
+            rnd.shuffle(l)
+            partenze.append(l)
+        cand = []
+        for l in partenze:
+            r = _dallalto(l, R, bh, pre)
+            if r is not None:
+                cand.append((voto(r), l, r))
+        if not cand:
+            return None
+        cand.sort(key=lambda t: t[0])
+        migliore = None
+        for v, l, r in cand[:4]:
+            for _ in range(giri):
+                if not fondo_conta and v[0] < 1e-6:
+                    break
+                m = l[:]
+                a, b = rnd.randrange(len(m)), rnd.randrange(len(m))
+                if rnd.random() < 0.5:
+                    m[a], m[b] = m[b], m[a]
+                else:
+                    m.insert(b, m.pop(a))
+                r2 = _dallalto(m, R, bh, pre)
+                if r2 is not None and voto(r2) <= v:
+                    v, l, r = voto(r2), m, r2
+            if migliore is None or v < migliore[0]:
+                migliore = (v, r)
+        return migliore
 
-    lo, hi = sum(p.bbox()[0] * p.bbox()[1] for p in altri) / bh, W - bw
-    best = prova(hi)
-    assert best is not None
-    for _ in range(14):
-        mid = (lo + hi) / 2
-        r = prova(mid)
-        if r is None:
-            lo = mid
-        else:
-            hi, best = mid, r
-    R = hi
+    # 1. la striscia piu' stretta senza buchi, a passi di 1 mm
+    R = math.ceil(area / bh * 10) / 10
+    m = None
+    while R <= W - bw:
+        m = migliora(R, 1500, False)
+        if m is not None and m[0][0] < 0.05:
+            break
+        R = round(R + 0.1, 1)
+    # 2. a quella larghezza, il fondo piu' regolare (senza fessure tra i pezzi)
+    m2 = migliora(R, 4000, True)
+    if m2 is not None and m2[0][0] < 0.05:
+        m = m2
+    trovato = m
+    vuoto, prof, r = trovato[1]
     posti = [(base, (lambda u, v: (u, bh - v)), (0.0, 0.0, bw, bh))]
-    for p, x, y, w, h in best:
-        w0, h0 = p.bbox()
-        rot = abs(w - w0) > 1e-9
+    for p, x, y, w, h, rot in r:
         X, Y = bw + x, y
+        if p == COPPIA:
+            blocco = (lambda X, Y: lambda u, v: (X + v, Y + u))(X, Y)
+            posti.append((m02, (lambda b: lambda u, v: b(*f02(u, v)))(blocco), (X, Y, w, h)))
+            posti.append((m10, (lambda b: lambda u, v: b(*f10(u, v)))(blocco), None))
+            continue
+        h0 = p.bbox()[1]
         if rot:
             fn = (lambda X, Y: lambda u, v: (X + v, Y + u))(X, Y)
         else:
             fn = (lambda X, Y, h0: lambda u, v: (X + u, Y + h0 - v))(X, Y, h0)
         posti.append((p, fn, (X, Y, w, h)))
-    # la coppia: in piedi, il lato con le parti da buttare (V alto) verso destra
-    X0 = bw + R - Hc
-    blocco = lambda u, v: (X0 + v, u)
-    posti.append((m02, (lambda u, v: blocco(*f02(u, v))), (X0, 0.0, Hc, Lc)))
-    posti.append((m10, (lambda u, v: blocco(*f10(u, v))), None))
+    print("buchi tra i pezzi: %.2f cm2, fondo %.0f, striscia larga %.1f" % (vuoto, prof, R))
     return posti, bh, bw + R
 
 
@@ -424,7 +576,7 @@ def schema_taglio(P, path):
            '<rect width="100%" height="100%" fill="#ffffff"/>',
            f'<text x="16" y="28" {FONT} font-size="17" font-weight="bold" fill="#333">Il foglio di Poliplat 70 × 50 cm: dove tagliare i pezzi</text>',
            f'<text x="16" y="50" {FONT} font-size="13" fill="#555">Misure in cm. Il rosa è il pezzo; le parti a righe si buttano, comprese quelle dentro i pezzi (finestre e porte).</text>',
-           f'<rect x="{o[0]}" y="{o[1]}" width="{70 * s}" height="{50 * s}" fill="#fafafa" stroke="#333" stroke-width="1.5"/>']
+           f'<rect x="{o[0]}" y="{o[1]}" width="{70 * s}" height="{50 * s}" fill="#eef5ea" stroke="#333" stroke-width="1.5"/>']
     out.append('<defs><pattern id="righe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
                '<line x1="0" y1="0" x2="0" y2="6" stroke="#bbb" stroke-width="2"/></pattern></defs>')
     # parti libere per il secondo plastico
@@ -661,8 +813,8 @@ def sezioni(path):
             ([(9.45, 2.85), (14.40, 2.10), (14.40, 2.60), (9.45, 3.35)], "#bbb")],
            [(0, 6.05, "+6,05 recinto ovest", BLU), (9.45, 3.35, "+3,35", BLU), (14.40, 2.60, "+2,60", BLU),
             (14.40, 2.10, "+2,10", BLU), (9.75, 2.85, "+2,85", BLU)],
-           ["Il recinto sud (con la grande", "apertura) non si vede nelle", "sezioni: l'ho fatto alto 4,50", "(ipotesi da chiedere al prof).",
-            "Le camere hanno il tetto che", "scende verso est."])
+           ["Il recinto sud non si vede nelle", "sezioni: il pezzo ovest è alto", "come il recinto ovest (6,05), il", "pezzo est continua la pendenza",
+            "del muro sud delle camere.", "Le camere hanno il tetto che", "scende verso est."])
     out.append("</svg>")
     with open(path, "w") as fh:
         fh.write("\n".join(out))

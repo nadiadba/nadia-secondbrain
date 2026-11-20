@@ -48,14 +48,14 @@ Il tetto della zona giorno è a «farfalla»: parte da 6,05 m sul lato ovest, sc
 
 ![[muuratsalo-3-taglio-foglio.svg|1000]]
 
-I 37 pezzi sono accostati senza spazi tra loro e stanno tutti in un rettangolo di 54,8 × 22 cm nell'angolo in alto a sinistra del foglio. Avanzano una striscia intera di 70 × 28 cm e un rettangolo di 15,2 × 22 cm: tienili per il plastico della nuova disposizione (il punto 5).
+I 37 pezzi sono accostati senza spazi tra loro e stanno tutti in un rettangolo di 55,8 × 22 cm nell'angolo in alto a sinistra del foglio. Avanzano una striscia intera di 70 × 28 cm e un rettangolo di 14,2 × 22 cm: tienili per il plastico della nuova disposizione (il punto 5).
 
-I pezzi rettangolari sono tutti accostati alla base M01. M02 e M10 hanno il bordo in alto inclinato con la stessa pendenza, perché seguono tutti e due il tetto: M10 è capovolto e si incastra contro M02, così il bordo inclinato è un taglio solo. La coppia sta in fondo a destra, in piedi, con le due parti da buttare rivolte verso l'avanzo.
+I pezzi rettangolari sono tutti accostati alla base M01. M02 e M10 hanno il bordo in alto inclinato con la stessa pendenza, perché seguono tutti e due il tetto: M10 è capovolto e si incastra contro M02, così il bordo inclinato è un taglio solo. La coppia sta in alto a destra, in piedi, con le due parti da buttare rivolte verso l'avanzo. Gli altri pezzi sono impilati dall'alto senza buchi tra loro: il poco spazio che resta è tutto sul bordo in basso, attaccato alla striscia che avanza.
 
 Come procedere:
 
 1. Disegna i pezzi sul foglio a matita, con la squadretta, seguendo lo schema e le misure della tabella. Tra un pezzo e l'altro non c'è spazio: la linea che separa due pezzi è il bordo di tutti e due, quindi disegnala sottile e precisa, e misura ogni pezzo partendo dai bordi dei pezzi già disegnati.
-2. Taglia prima la striscia di 22 cm e poi, da questa, il rettangolo di 15,2 cm a destra: così gli avanzi restano interi.
+2. Taglia prima la striscia di 22 cm e poi, da questa, il rettangolo di 14,2 cm a destra: così gli avanzi restano interi.
 3. Poi taglia i pezzi grandi e alla fine quelli piccoli. Il taglierino va passato più volte, senza premere troppo, contro la squadretta di metallo.
 4. Le finestre e le porte si tagliano prima di staccare il pezzo dal foglio: così il pezzo non si rompe.
 5. Scrivi a matita il codice (M01, M02...) sul retro di ogni pezzo.
@@ -74,8 +74,8 @@ Misure in cm: larghezza × altezza del pezzo (per i tetti e il soppalco, lunghez
 | M03 | Muro ovest dell'atelier | 4,5 × 5,55 | 2 |
 | M04 | Muro est (2,75 per i primi 4,5 cm, poi 2,1) | 13,4 × 2,75 | 2 |
 | M05 | Recinto ovest | 8,9 × 6,05 | 3 |
-| M06 | Recinto sud, pezzo ovest | 2,45 × 4,5 | 3 |
-| M07 | Recinto sud, pezzo est | 2,5 × 4,5 | 3 |
+| M06 | Recinto sud, pezzo ovest | 2,45 × 6,05 | 3 |
+| M07 | Recinto sud, pezzo est (3,23 a ovest, 2,85 a est) | 2,5 × 3,23 | 3 |
 | M08 | Muro sud delle camere (2,85 a ovest, 2,1 a est) | 4,95 × 2,85 | 4 |
 | M09 | Muro tra patio e corridoio | 8,9 × 2,85 | 4 |
 | M10 | Muro tra atelier e patio (5,41 a ovest, 2,75 a est) | 9,45 × 5,41 | 5 |
@@ -136,14 +136,14 @@ In ogni disegno i pezzi rossi sono quelli da incollare in quel passo, i grigi qu
 ![[muuratsalo-passo-03.svg|700]]
 
 1. M05 (recinto ovest, il pezzo più alto) va sul filo ovest e continua M03 fino a 0,5 cm dal filo sud. La grande «finestra» sta verso sud.
-2. M06 va sul filo sud, nell'angolo sud-ovest: copre la testa di M05.
-3. M07 va sul filo sud, da 6,95 a 9,45 cm dal filo ovest. Tra M06 e M07 resta la grande apertura del recinto, larga 4,5 cm.
+2. M06 va sul filo sud, nell'angolo sud-ovest: copre la testa di M05 ed è alto come lui, così l'angolo diventa un unico blocco alto.
+3. M07 va sul filo sud, da 6,95 a 9,45 cm dal filo ovest, con la parte alta verso ovest: il suo bordo inclinato continuerà quello di M08 al passo 4. Tra M06 e M07 resta la grande apertura del recinto, larga 4,5 cm.
 
 ### Passo 4: l'ala delle camere
 
 ![[muuratsalo-passo-04.svg|700]]
 
-1. M08 (muro sud delle camere) va sul filo sud, da M07 fino all'angolo sud-est, dove copre la testa di M04. La parte alta va verso ovest (verso il patio).
+1. M08 (muro sud delle camere) va sul filo sud, da M07 fino all'angolo sud-est, dove copre la testa di M04. La parte alta va verso ovest: il bordo inclinato di M07 e quello di M08 devono formare una linea unica.
 2. M09 (muro tra patio e corridoio) sta a 9,45 cm dal filo ovest, con la faccia verso il patio su questa linea. Va da 5 cm dal filo nord fino a M08. La finestra larga sta verso nord, la porta verso sud.
 
 ### Passo 5: il muro dell'atelier sul patio e il camino
@@ -208,7 +208,7 @@ Le pareti interne sono più basse dei muri, così il tetto ci passa sopra.
 
 ## Misure da chiedere al prof
 
-- L'altezza del recinto sud: nelle sezioni non si vede. Nel plastico è 4,50, perché nelle foto sembra alto quasi come quello ovest.
+- L'altezza del recinto sud: nelle sezioni non si vede. Nel plastico il pezzo ovest (M06) è alto come il recinto ovest e il pezzo est (M07) continua la pendenza del muro sud delle camere, come in un plastico di studenti trovato online e come nella foto 1 della scheda.
 - L'altezza della «finestra» nel recinto ovest: nel plastico va da 0,60 a 2,20.
 - L'altezza dell'ingresso e dell'annesso, che nel plastico hanno il tetto piano a 2,60: la scheda non ha sezioni di queste parti.
 - L'altezza delle finestre a ovest e a est: nel plastico sono come quelle a nord, che si leggono nella sezione.

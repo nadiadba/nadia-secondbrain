@@ -39,10 +39,11 @@
 <text x="643.0" y="594.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+2,10</text>
 <line x1="445.0" y1="560.0" x2="455.0" y2="560.0" stroke="#1f5fae" stroke-width="1.2"/>
 <text x="457.0" y="564.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+2,85</text>
-<text x="684.0" y="426" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Il recinto sud (con la grande</text>
-<text x="684.0" y="443" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">apertura) non si vede nelle</text>
-<text x="684.0" y="460" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">sezioni: l'ho fatto alto 4,50</text>
-<text x="684.0" y="477" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">(ipotesi da chiedere al prof).</text>
-<text x="684.0" y="494" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Le camere hanno il tetto che</text>
-<text x="684.0" y="511" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">scende verso est.</text>
+<text x="684.0" y="426" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Il recinto sud non si vede nelle</text>
+<text x="684.0" y="443" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">sezioni: il pezzo ovest è alto</text>
+<text x="684.0" y="460" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">come il recinto ovest (6,05), il</text>
+<text x="684.0" y="477" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">pezzo est continua la pendenza</text>
+<text x="684.0" y="494" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">del muro sud delle camere.</text>
+<text x="684.0" y="511" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Le camere hanno il tetto che</text>
+<text x="684.0" y="528" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">scende verso est.</text>
 </svg>
