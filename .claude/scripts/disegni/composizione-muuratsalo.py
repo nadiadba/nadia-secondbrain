@@ -285,47 +285,103 @@ def vista3d(tutti, passo, titolo, path, scala=26):
 # =====================================================================================
 # Schema di taglio: il foglio 70 x 50 (MaxRects, il lato lungo dei pezzi in orizzontale)
 # =====================================================================================
-def impacca(lista, W=70.0, H=50.0, g=0.3):
+def _maxrects(items, W, H, regola):
+    """Mette i rettangoli (p, w, h) nel riquadro W x H senza spazi tra loro. Ruota se serve."""
     liberi = [(0.0, 0.0, W, H)]
     posti = []
-    for p in sorted(lista, key=lambda q: -(q.bbox()[0] * q.bbox()[1])):
-        w0, h0 = p.bbox()
+    e = 1e-9
+    for p, w0, h0 in items:
         best = None
         for rot in (False, True):
             w, h = (h0, w0) if rot else (w0, h0)
             for (fx, fy, fw, fh) in liberi:
-                if w + g <= fw + 1e-9 and h + g <= fh + 1e-9:
-                    score = (fy, fx)          # in alto a sinistra: lascia libera la parte bassa del foglio
-                    if best is None or score < best[0]:
-                        best = (score, fx, fy, w, h, rot)
+                if w <= fw + e and h <= fh + e:
+                    if regola == "sinistra":
+                        sc = (fx + w, fy)
+                    elif regola == "lato":
+                        sc = (min(fw - w, fh - h), max(fw - w, fh - h))
+                    elif regola == "area":
+                        sc = (fw * fh - w * h, min(fw - w, fh - h))
+                    else:   # contatto: quanto bordo tocca gli altri pezzi o il riquadro
+                        c = 0.0
+                        if abs(fx) < e or abs(fx + w - W) < e:
+                            c += h
+                        if abs(fy) < e or abs(fy + h - H) < e:
+                            c += w
+                        for q, qx, qy, qw, qh in posti:
+                            if abs(qx + qw - fx) < e or abs(fx + w - qx) < e:
+                                c += max(0, min(fy + h, qy + qh) - max(fy, qy))
+                            if abs(qy + qh - fy) < e or abs(fy + h - qy) < e:
+                                c += max(0, min(fx + w, qx + qw) - max(fx, qx))
+                        sc = (-c, fx)
+                    if best is None or sc < best[0]:
+                        best = (sc, fx, fy, w, h, rot)
         if best is None:
-            raise SystemExit("non entra: " + p.cod)
+            return None
         _, x, y, w, h, rot = best
-        posti.append((p, x, y, rot))
-        r = (x, y, w + g, h + g)
+        posti.append((p, x, y, w, h))
         nuovi = []
         for f in liberi:
             fx, fy, fw, fh = f
-            if r[0] >= fx + fw or r[0] + r[2] <= fx or r[1] >= fy + fh or r[1] + r[3] <= fy:
+            if x >= fx + fw - e or x + w <= fx + e or y >= fy + fh - e or y + h <= fy + e:
                 nuovi.append(f)
                 continue
-            if r[0] > fx:
-                nuovi.append((fx, fy, r[0] - fx, fh))
-            if r[0] + r[2] < fx + fw:
-                nuovi.append((r[0] + r[2], fy, fx + fw - r[0] - r[2], fh))
-            if r[1] > fy:
-                nuovi.append((fx, fy, fw, r[1] - fy))
-            if r[1] + r[3] < fy + fh:
-                nuovi.append((fx, r[1] + r[3], fw, fy + fh - r[1] - r[3]))
-        liberi = [a for a in nuovi if not any(a != b and a[0] >= b[0] and a[1] >= b[1] and
-                                              a[0] + a[2] <= b[0] + b[2] and a[1] + a[3] <= b[1] + b[3]
+            if x > fx + e:
+                nuovi.append((fx, fy, x - fx, fh))
+            if x + w < fx + fw - e:
+                nuovi.append((x + w, fy, fx + fw - x - w, fh))
+            if y > fy + e:
+                nuovi.append((fx, fy, fw, y - fy))
+            if y + h < fy + fh - e:
+                nuovi.append((fx, y + h, fw, fy + fh - y - h))
+        liberi = [a for a in nuovi if not any(a != b and a[0] >= b[0] - e and a[1] >= b[1] - e and
+                                              a[0] + a[2] <= b[0] + b[2] + e and a[1] + a[3] <= b[1] + b[3] + e
                                               for b in nuovi)]
-    usato = max(y + (p.bbox()[0] if rot else p.bbox()[1]) for p, x, y, rot in posti)
-    return posti, usato
+    return posti
+
+
+def impacca(lista, W=70.0, H=50.0):
+    """La base va nell'angolo in alto a sinistra; gli altri pezzi le si mettono accanto, alti al
+    massimo quanto la base, senza spazi, nel modo che occupa la striscia piu' corta.
+    Prova molti ordini e regole e tiene il migliore."""
+    import random
+    base = [p for p in lista if p.cod == "M01"][0]
+    bw, bh = base.bbox()
+    altri = [p for p in lista if p is not base]
+    ordini = [
+        lambda q: -(q.bbox()[0] * q.bbox()[1]),
+        lambda q: -max(q.bbox()),
+        lambda q: -min(q.bbox()),
+        lambda q: -(q.bbox()[0] + q.bbox()[1]),
+    ]
+    prove = [sorted(altri, key=k) for k in ordini]
+    rnd = random.Random(4)
+    for _ in range(400):
+        l = sorted(altri, key=ordini[rnd.randrange(4)])
+        for _ in range(rnd.randrange(1, 6)):        # piccoli scambi nell'ordine
+            a, b = rnd.randrange(len(l)), rnd.randrange(len(l))
+            l[a], l[b] = l[b], l[a]
+        prove.append(l)
+    migliore = None
+    for l in prove:
+        items = [(p, *p.bbox()) for p in l]
+        for regola in ("sinistra", "lato", "area", "contatto"):
+            r = _maxrects(items, W - bw, bh, regola)
+            if r is None:
+                continue
+            larg = max(x + w for _, x, _, w, _ in r)
+            if migliore is None or larg < migliore[0] - 1e-9:
+                migliore = (larg, r)
+    larg, r = migliore
+    posti = [(base, 0.0, 0.0, False)]
+    for p, x, y, w, h in r:
+        rot = abs(w - p.bbox()[0]) > 1e-9 or abs(h - p.bbox()[1]) > 1e-9
+        posti.append((p, bw + x, y, rot))
+    return posti, bh, bw + larg
 
 
 def schema_taglio(P, path):
-    posti, usato = impacca(P)
+    posti, usato, largo = impacca(P)
     s = 13.5
     W, H = 70 * s + 60, 50 * s + 150
     o = (30, 70)
@@ -336,10 +392,14 @@ def schema_taglio(P, path):
            f'<rect x="{o[0]}" y="{o[1]}" width="{70 * s}" height="{50 * s}" fill="#fafafa" stroke="#333" stroke-width="1.5"/>']
     out.append('<defs><pattern id="righe" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
                '<line x1="0" y1="0" x2="0" y2="6" stroke="#bbb" stroke-width="2"/></pattern></defs>')
-    # parte libera per il secondo plastico
-    out.append(f'<rect x="{o[0]}" y="{o[1] + usato * s + 4}" width="{70 * s}" height="{(50 - usato) * s - 4}" fill="#eef5ea" stroke="#7aa56a" stroke-dasharray="6,4"/>')
+    # parti libere per il secondo plastico
+    out.append(f'<rect x="{o[0]}" y="{o[1] + usato * s}" width="{70 * s}" height="{(50 - usato) * s}" fill="#eef5ea" stroke="#7aa56a" stroke-dasharray="6,4"/>')
     out.append(f'<text x="{o[0] + 35 * s}" y="{o[1] + (usato + 50) / 2 * s + 6}" {FONT} font-size="16" fill="#4c7a3d" text-anchor="middle">'
                f'avanza una striscia di 70 × {num(50 - usato, 1)} cm: tienila per il plastico della tua nuova disposizione</text>')
+    if 70 - largo > 0.5:
+        out.append(f'<rect x="{o[0] + largo * s}" y="{o[1]}" width="{(70 - largo) * s}" height="{usato * s}" fill="#eef5ea" stroke="#7aa56a" stroke-dasharray="6,4"/>')
+        out.append(f'<text x="{o[0] + (largo + 70) / 2 * s}" y="{o[1] + usato / 2 * s}" {FONT} font-size="13" fill="#4c7a3d" text-anchor="middle">avanza</text>')
+        out.append(f'<text x="{o[0] + (largo + 70) / 2 * s}" y="{o[1] + usato / 2 * s + 17}" {FONT} font-size="13" fill="#4c7a3d" text-anchor="middle">{num(70 - largo, 1)} × {num(usato, 1)}</text>')
     for p, x, y, rot in posti:
         w0, h0 = p.bbox()
         def T2(u, v):
@@ -358,12 +418,12 @@ def schema_taglio(P, path):
         out.append(f'<text x="{cx:.0f}" y="{cy + 4:.0f}" {FONT} font-size="{fs}" font-weight="bold" fill="#7a0000" '
                    f'text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">{p.cod}</text>')
     yb = o[1] + 50 * s + 30
-    out.append(f'<text x="16" y="{yb}" {FONT} font-size="13" fill="#555">Lo schema è in scala: 1 cm del foglio vero è uguale per tutti i pezzi. Le misure esatte sono nella tabella. '
-               f'Tra un pezzo e l\'altro ci sono 3 mm per la lama.</text>')
+    out.append(f'<text x="16" y="{yb}" {FONT} font-size="13" fill="#555">Lo schema è in scala; le misure esatte sono nella tabella.</text>')
+    out.append(f'<text x="16" y="{yb + 18}" {FONT} font-size="13" fill="#555">Tra i pezzi non c\'è spazio: due pezzi vicini hanno la linea di taglio in comune, e un taglio solo li separa.</text>')
     out.append("</svg>")
     with open(path, "w") as fh:
         fh.write("\n".join(out))
-    return posti, usato
+    return posti, usato, largo
 
 
 # =====================================================================================
@@ -585,7 +645,7 @@ def main():
             assert 0 <= u1 < u2 <= w and 0 <= v1 < v2 <= h, (p.cod, u1, v1, u2, v2)
     pianta_quotata(OUT + "muuratsalo-1-pianta-quotata.svg")
     sezioni(OUT + "muuratsalo-2-altezze.svg")
-    posti, usato = schema_taglio(P, OUT + "muuratsalo-3-taglio-foglio.svg")
+    posti, usato, largo = schema_taglio(P, OUT + "muuratsalo-3-taglio-foglio.svg")
     titoli = {1: "Passo 1: la base", 2: "Passo 2: i muri esterni nord, ovest ed est", 3: "Passo 3: il recinto del patio",
               4: "Passo 4: l'ala delle camere", 5: "Passo 5: il muro dell'atelier sul patio e il camino",
               6: "Passo 6: le pareti interne", 7: "Passo 7: il soppalco", 8: "Passo 8: l'ingresso",
@@ -595,7 +655,7 @@ def main():
     # tabella per la pagina
     for p in P:
         print("| %s | %s | %s | %s |" % (p.cod, p.nome, p.misura(), p.passo))
-    print("usato in altezza:", round(usato, 2))
+    print("usato:", round(largo, 2), "x", round(usato, 2))
     for p, x, y, rot in posti:
         print(p.cod, round(x, 2), round(y, 2), "ruotato" if rot else "")
 

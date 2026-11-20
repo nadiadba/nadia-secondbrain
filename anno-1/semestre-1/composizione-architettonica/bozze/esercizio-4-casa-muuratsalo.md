@@ -48,12 +48,12 @@ Il tetto della zona giorno è a «farfalla»: parte da 6,05 m sul lato ovest, sc
 
 ![[muuratsalo-3-taglio-foglio.svg|1000]]
 
-Tutti i 37 pezzi stanno in una striscia di 70 × 22 cm in cima al foglio: avanza una striscia intera di 70 × 28 cm per il plastico della nuova disposizione (il punto 5).
+I 37 pezzi sono accostati senza spazi tra loro e stanno tutti in un rettangolo di 55,7 × 22 cm nell'angolo in alto a sinistra del foglio. Avanzano una striscia intera di 70 × 28 cm e un rettangolo di 14,3 × 22 cm: tienili per il plastico della nuova disposizione (il punto 5).
 
 Come procedere:
 
-1. Disegna i pezzi sul foglio a matita, con la squadretta, seguendo lo schema e le misure della tabella. Tra un pezzo e l'altro lascia 3 mm.
-2. Taglia prima la striscia di 22 cm, così il resto del foglio resta intero.
+1. Disegna i pezzi sul foglio a matita, con la squadretta, seguendo lo schema e le misure della tabella. Tra un pezzo e l'altro non c'è spazio: la linea che separa due pezzi è il bordo di tutti e due, quindi disegnala sottile e precisa, e misura ogni pezzo partendo dai bordi dei pezzi già disegnati.
+2. Taglia prima la striscia di 22 cm e poi, da questa, il rettangolo di 14,3 cm a destra: così gli avanzi restano interi.
 3. Poi taglia i pezzi grandi e alla fine quelli piccoli. Il taglierino va passato più volte, senza premere troppo, contro la squadretta di metallo.
 4. Le finestre e le porte si tagliano prima di staccare il pezzo dal foglio: così il pezzo non si rompe.
 5. Scrivi a matita il codice (M01, M02...) sul retro di ogni pezzo.
