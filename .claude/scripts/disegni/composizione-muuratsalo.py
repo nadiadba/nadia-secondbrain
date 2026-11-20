@@ -29,8 +29,9 @@ def h_tetto(x):
 
 
 def h_ala(x):
-    """Estradosso del tetto dell'ala delle camere: da 3,35 sul patio a 2,60 a est."""
-    return 3.35 - 0.75 / 4.95 * (x - 9.45)
+    """Estradosso del tetto dell'ala delle camere: da 3,50 sul patio (foto del patio e sezione
+    sul patio) a 2,60 a est."""
+    return 3.50 - 0.90 / 4.95 * (x - 9.45)
 
 
 # =====================================================================================
@@ -69,15 +70,21 @@ def rett(w, h):
     return [(0, 0), (w, 0), (w, h), (0, h)]
 
 
-def muro_x(cod, nome, passo, x1, x2, y0, h, buchi=(), forma=None, nota=""):
+def muro_x(cod, nome, passo, x1, x2, y0, h, buchi=(), forma=None, nota="", poliplat=True):
     """Muro lungo x da x1 a x2; buchi in coordinate assolute (xa, za, xb, zb)."""
     b = [(a - x1, za, c - x1, zb) for a, za, c, zb in buchi]
-    return Pezzo(cod, nome, "x", passo, x0=x1, y0=y0, forma=forma or rett(x2 - x1, h), buchi=b, nota=nota)
+    p = Pezzo(cod, nome, "x", passo, x0=x1, y0=y0, forma=forma or rett(x2 - x1, h), buchi=b, nota=nota)
+    p.poliplat = poliplat
+    return p
 
 
-def muro_y(cod, nome, passo, y1, y2, x0, h, buchi=(), forma=None, nota=""):
+def muro_y(cod, nome, passo, y1, y2, x0, h, buchi=(), forma=None, nota="", poliplat=True):
     b = [(a - y1, za, c - y1, zb) for a, za, c, zb in buchi]
-    return Pezzo(cod, nome, "y", passo, x0=x0, y0=y1, forma=forma or rett(y2 - y1, h), buchi=b, nota=nota)
+    p = Pezzo(cod, nome, "y", passo, x0=x0, y0=y1, forma=forma or rett(y2 - y1, h), buchi=b, nota=nota)
+    p.poliplat = poliplat
+    if not poliplat:
+        p.t = 0.15
+    return p
 
 
 def piano(cod, nome, passo, pts, dim, nota=""):
@@ -106,18 +113,33 @@ def pezzi():
                            (8.90, 0.90, 9.85, 1.80), (11.50, 0.90, 12.45, 1.80)],
                     nota="Il gradino in alto sta a 4,5 cm dal bordo nord: la parte alta va verso nord."))
     # --- 3. il recinto del patio
-    P.append(muro_y("M05", "Recinto ovest", 3, 5.0, 13.90, 0, 6.05,
-                    buchi=[(7.70, 0.60, 12.60, 2.20)], nota="La grande «finestra» sul lago."))
-    P.append(muro_x("M06", "Recinto sud, pezzo ovest", 3, 0, 2.45, 13.90, 6.05,
-                    nota="Alto come il recinto ovest: insieme fanno l'angolo sud-ovest."))
-    k_sud = 0.75 / 4.95                               # pendenza del muro sud delle camere
+    # Altezze del recinto ricavate dalla foto del patio verso il lago (apertura larga 4,5 m come
+    # riferimento) e dalla sezione sul patio della scheda: sono stime, con un margine di 20-30 cm.
+    HR, PAR = 6.60, 1.80
+    P.append(muro_y("M05A", "Recinto ovest, parte alta a nord", 3, 5.0, 7.70, 0, HR))
+    P.append(muro_y("M05B", "Recinto ovest, muretto sotto il graticcio", 3, 7.70, 12.60, 0, PAR))
+    P.append(muro_y("M05C", "Recinto ovest, parte alta nell'angolo", 3, 12.60, 13.90, 0, HR))
+    P.append(muro_x("M06", "Recinto sud, pezzo ovest", 3, 0, 2.45, 13.90, 0,
+                    forma=[(0, 0), (2.45, 0), (2.45, 5.30), (0, HR)],
+                    nota="Inclinato: alto nell'angolo con M05, più basso verso l'apertura."))
     P.append(muro_x("M07", "Recinto sud, pezzo est", 3, 6.95, 9.45, 13.90, 0,
-                    forma=[(0, 0), (2.50, 0), (2.50, 2.85), (0, 2.85 + k_sud * 2.50)],
-                    nota="Il bordo in alto continua la pendenza del muro sud delle camere (M08)."))
+                    forma=[(0, 0), (2.50, 0), (2.50, 3.50), (0, 4.25)],
+                    nota="Inclinato: alto verso l'apertura, più basso verso le camere."))
+    # il graticcio di legno bianco sopra il muretto di M05: montanti ogni 0,6 e due traversi.
+    # Non e' di Poliplat (sarebbe troppo spesso): stuzzicadenti o listelli di balsa da 2 mm.
+    for k in range(8):
+        y = 7.70 + 0.6 * (k + 1) - 0.05
+        g = muro_y("G01", "Graticcio, montanti (8 stuzzicadenti)", 3, y, y + 0.15, 0.17, HR - PAR, poliplat=False)
+        g.z0 = PAR
+        P.append(g)
+    for zt in (2.60, 5.90):
+        g = muro_y("G02", "Graticcio, traversi (2 stuzzicadenti)", 3, 7.70, 12.60, 0.02, 0.15, poliplat=False)
+        g.z0 = zt
+        P.append(g)
     # --- 4. l'ala delle camere
     P.append(muro_x("M08", "Muro sud delle camere", 4, 9.45, 14.40, 13.90, 0,
-                    forma=[(0, 0), (4.95, 0), (4.95, 2.10), (0, 2.85)], buchi=[(9.95, 0.90, 10.85, 1.80)]))
-    P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, 2.85,
+                    forma=[(0, 0), (4.95, 0), (4.95, 2.10), (0, h_ala(9.45) - T)], buchi=[(9.95, 0.90, 10.85, 1.80)]))
+    P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, h_ala(9.45) - T,
                     buchi=[(6.40, 0.45, 8.50, 2.10), (10.95, 0, 11.55, 2.20)]))
     # --- 5. il muro dell'atelier sul patio e il camino
     P.append(muro_x("M10", "Muro tra atelier e patio", 5, 0.5, 9.95, 4.5, 0,
@@ -154,7 +176,7 @@ def pezzi():
     # --- 10. i tetti
     la = math.hypot(12.25, 3.45)
     lb = math.hypot(2.15, 0.65)
-    lw = math.hypot(4.95, 0.75)
+    lw = math.hypot(4.95, 0.90)
     P.append(piano("M32", "Tetto grande (falda ovest)", 10,
                    [(0, 0, hN(0)), (12.25, 0, hN(12.25)), (12.25, 5.0, hN(12.25)), (0, 5.0, hN(0))],
                    (round(la, 2), 5.0), "Scende da ovest a est fino alla linea più bassa (a 12,25 cm)."))
@@ -202,13 +224,14 @@ def facce(p):
         n1, n2 = (-1, 0, 0), (1, 0, 0)
     forma = p.piatto()
     A = [f(u, v, 0) for u, v in forma]
-    B = [f(u, v, T) for u, v in forma]
+    t = getattr(p, "t", T)
+    B = [f(u, v, t) for u, v in forma]
     hb = lambda s: [[f(u1, v1, s), f(u2, v1, s), f(u2, v2, s), f(u1, v2, s)] for u1, v1, u2, v2 in p.buchi]
-    out = [(A, hb(0), n1), (B, hb(T), n2)]
+    out = [(A, hb(0), n1), (B, hb(t), n2)]
     n = len(forma)
     for i in range(n):
         (u1, v1), (u2, v2) = forma[i], forma[(i + 1) % n]
-        q = [f(u1, v1, 0), f(u2, v2, 0), f(u2, v2, T), f(u1, v1, T)]
+        q = [f(u1, v1, 0), f(u2, v2, 0), f(u2, v2, t), f(u1, v1, t)]
         du, dv = u2 - u1, v2 - v1
         nu, nv = dv, -du                       # normale verso l'esterno del poligono (antiorario)
         l = math.hypot(nu, nv) or 1
@@ -493,7 +516,7 @@ def impacca(lista, W=70.0, H=50.0):
     bw, bh = base.bbox()
     m02, m10, Hc, f02, f10 = coppia_inclinata(lista)
     Lc = m02.bbox()[0]
-    altri = [p for p in lista if p not in (base, m02, m10)]
+    altri = [p for p in lista if p not in (base, m02, m10) and getattr(p, "poliplat", True)]
     COPPIA = "coppia"
     elementi = [(p, *p.bbox(), True) for p in altri]
     R = W - bw
@@ -634,7 +657,7 @@ def schema_taglio(P, path):
 
 def pezzi_quotati(P, path):
     """I pezzi con finestre, porte o bordo inclinato, ognuno con le sue quote, come in pianta."""
-    codici = ["M02", "M10", "M04", "M05", "M09", "M03", "M07", "M08", "M25", "M26"]
+    codici = ["M02", "M10", "M04", "M09", "M03", "M06", "M07", "M08", "M25", "M26"]
     sel = [p for c in codici for p in P if p.cod == c]
     s = 34.0
     col_w = 640
@@ -835,7 +858,7 @@ def pianta_quotata(path):
         d.text(x, y, t, "#333", 12 if t not in ("PATIO",) else 15, bold=t.isupper())
     d.text(15.25, -1.75, "entrata", "#333", 10)
     d.text(4.7, 14.85, "apertura del recinto", "#333", 11)
-    d.text(-0.55, 10.15, "«finestra»", "#333", 11, rot=-90)
+    d.text(-0.55, 10.15, "graticcio di legno", "#333", 11, rot=-90)
     # quote: lato nord (sopra)
     d.catena([0, 2.35, 3.30, 5.25, 6.20, 9.85, 11.50, 14.40], None, "x", -0.55,
              [BLU] * 7)
@@ -900,14 +923,14 @@ def sezioni(path):
            ["Il tetto è a «farfalla»:", "scende da ovest a est fino", "a 12,25 m e poi risale.", "Lo spessore del tetto è 0,50", "(il Poliplat)."])
     # 2. ala delle camere e recinto ovest
     blocco(2 * 7.3 * s + 90, "2. Patio e ala delle camere (sezione sul patio della scheda)",
-           [([(0, 0), (0.40, 0), (0.40, 6.05), (0, 6.05)], "#555"),
-            ([(9.45, 0), (9.75, 0), (9.75, 2.85), (9.45, 2.85)], "#555"),
+           [([(0, 0), (0.40, 0), (0.40, 6.60), (0, 6.60)], "#555"),
+            ([(9.45, 0), (9.75, 0), (9.75, 3.00), (9.45, 3.00)], "#555"),
             ([(14.10, 0), (14.40, 0), (14.40, 2.10), (14.10, 2.10)], "#555"),
-            ([(9.45, 2.85), (14.40, 2.10), (14.40, 2.60), (9.45, 3.35)], "#bbb")],
-           [(0, 6.05, "+6,05 recinto ovest", BLU), (9.45, 3.35, "+3,35", BLU), (14.40, 2.60, "+2,60", BLU),
-            (14.40, 2.10, "+2,10", BLU), (9.75, 2.85, "+2,85", BLU)],
-           ["Il recinto sud non si vede nelle", "sezioni: il pezzo ovest è alto", "come il recinto ovest (6,05), il", "pezzo est continua la pendenza",
-            "del muro sud delle camere.", "Le camere hanno il tetto che", "scende verso est."])
+            ([(9.45, 3.00), (14.40, 2.10), (14.40, 2.60), (9.45, 3.50)], "#bbb")],
+           [(0, 6.60, "+6,60 recinto ovest (muretto 1,80 nel tratto del graticcio)", BLU), (9.45, 3.50, "+3,50", BLU),
+            (14.40, 2.60, "+2,60", BLU), (14.40, 2.10, "+2,10", BLU), (9.75, 3.00, "+3,00", BLU)],
+           ["Recinto sud (dalla foto del patio):", "pezzo ovest da 6,60 nell'angolo", "a 5,30 verso l'apertura;", "pezzo est da 4,25 verso",
+            "l'apertura a 3,50 verso le camere.", "Le camere hanno il tetto che", "scende verso est."])
     out.append("</svg>")
     with open(path, "w") as fh:
         fh.write("\n".join(out))
@@ -934,7 +957,8 @@ def main():
         vista3d(P, k, t, OUT + "muuratsalo-passo-%02d.svg" % k)
     # tabella per la pagina
     for p in P:
-        print("| %s | %s | %s | %s |" % (p.cod, p.nome, p.misura(), p.passo))
+        if getattr(p, "poliplat", True):
+            print("| %s | %s | %s | %s |" % (p.cod, p.nome, p.misura(), p.passo))
 
 
 if __name__ == "__main__":

@@ -36,13 +36,15 @@ Da consegnare: i 2 plastici, 4 foto (dall'alto e d'insieme) e i disegni su fogli
 
 ![[muuratsalo-1-pianta-quotata.svg|1000]]
 
-La casa è un quadrato di 14,40 m. La parte costruita forma una L lungo i lati nord ed est; il resto è il patio, chiuso dal recinto, con la grande apertura a sud e la «finestra» a ovest. A nord c'è la zona giorno (atelier e soggiorno con il soppalco dello studio, pranzo, camino e cucina); a est il corridoio, il bagno, il guardaroba e le camere. Fuori dal quadrato, a est, c'è l'ingresso in legno, che porta all'annesso degli ospiti (un bagno e due camere).
+La casa è un quadrato di 14,40 m. La parte costruita forma una L lungo i lati nord ed est; il resto è il patio, chiuso dal recinto, con la grande apertura a sud e, a ovest, un muretto con sopra un graticcio di legno. A nord c'è la zona giorno (atelier e soggiorno con il soppalco dello studio, pranzo, camino e cucina); a est il corridoio, il bagno, il guardaroba e le camere. Fuori dal quadrato, a est, c'è l'ingresso in legno, che porta all'annesso degli ospiti (un bagno e due camere).
 
 ## Le altezze
 
 ![[muuratsalo-2-altezze.svg|1000]]
 
-Il tetto della zona giorno è a «farfalla»: parte da 6,05 m sul lato ovest, scende fino a 2,60 m a 12,25 m dal filo ovest e risale a 3,25 m sul lato est. Il tetto delle camere scende verso est, da 3,35 a 2,60 m. Il soppalco dello studio è a +2,85.
+Il tetto della zona giorno è a «farfalla»: parte da 6,05 m sul lato ovest, scende fino a 2,60 m a 12,25 m dal filo ovest e risale a 3,25 m sul lato est. Il tetto delle camere scende verso est, da 3,50 a 2,60 m. Il soppalco dello studio è a +2,85.
+
+Le altezze del recinto del patio non sono in nessun disegno della scheda, e online non ci sono quote. Le ho ricavate dalla foto del patio verso il lago, usando come riferimento l'apertura larga 4,5 m, e dalla sezione sul patio; il margine è di 20-30 cm. Il recinto ovest è alto 6,60 m alle due estremità; nel mezzo c'è un muretto di 1,80 m con sopra un graticcio di montanti di legno bianco. Il recinto sud è inclinato in due pezzi: a ovest dell'apertura scende da 6,60 m nell'angolo a 5,30 m; a est dell'apertura scende da 4,25 m a 3,50 m verso le camere.
 
 ## Tagliare il foglio
 
@@ -93,15 +95,20 @@ In ogni disegno i pezzi rossi sono quelli da incollare in quel passo, i grigi qu
 
 ![[muuratsalo-passo-03.svg|700]]
 
-1. M05 (recinto ovest, il pezzo più alto) va sul filo ovest e continua M03 fino a 0,5 cm dal filo sud. La grande «finestra» sta verso sud.
-2. M06 va sul filo sud, nell'angolo sud-ovest: copre la testa di M05 ed è alto come lui, così l'angolo diventa un unico blocco alto.
-3. M07 va sul filo sud, da 6,95 a 9,45 cm dal filo ovest, con la parte alta verso ovest: il suo bordo inclinato continuerà quello di M08 al passo 4. Tra M06 e M07 resta la grande apertura del recinto, larga 4,5 cm.
+1. M05A, M05B e M05C formano il recinto ovest: vanno sul filo ovest, uno dopo l'altro, dopo M03. M05A (alto) va da 5 a 7,7 cm dal filo nord; M05B (il muretto basso, 1,8 cm) da 7,7 a 12,6; M05C (alto) da 12,6 fino a 0,5 cm dal filo sud.
+2. M06 va sul filo sud, nell'angolo sud-ovest, e copre la testa di M05C. È inclinato: la parte alta (6,6 cm) va nell'angolo, contro M05C, e scende a 5,3 cm verso l'apertura.
+3. M07 va sul filo sud, da 6,95 a 9,45 cm dal filo ovest. Anche lui è inclinato: la parte alta (4,25 cm) va verso l'apertura, quella bassa (3,5 cm) verso le camere, dove al passo 4 si attacca a M08. Tra M06 e M07 resta la grande apertura del recinto, larga 4,5 cm.
+4. Il graticcio sopra il muretto M05B non si fa con il Poliplat: un montante vero è spesso 10-15 cm, cioè 1-1,5 mm nel plastico, mentre il Poliplat è 5 mm. Usa stuzzicadenti lisci, o listelli di balsa da 2 mm, dipinti di bianco o lasciati chiari:
+   - 8 montanti (G01), lunghi 4,8 cm: si incollano in piedi sul muretto, uno ogni 6 mm, e arrivano in alto all'altezza di M05A e M05C (6,6 cm);
+   - 2 traversi (G02), lunghi 4,9 cm: si incollano orizzontali sui montanti, dal lato del patio, a 2,6 cm e a 5,9 cm dal pavimento, da M05A a M05C.
+
+   Taglia gli stuzzicadenti con il taglierino premendo sul tappetino, e incollali con una goccia di vinilica. Il graticcio è delicato: conviene farlo per ultimo, dopo i tetti.
 
 ### Passo 4: l'ala delle camere
 
 ![[muuratsalo-passo-04.svg|700]]
 
-1. M08 (muro sud delle camere) va sul filo sud, da M07 fino all'angolo sud-est, dove copre la testa di M04. La parte alta va verso ovest: il bordo inclinato di M07 e quello di M08 devono formare una linea unica.
+1. M08 (muro sud delle camere) va sul filo sud, da M07 fino all'angolo sud-est, dove copre la testa di M04. La parte alta va verso ovest. Contro M07 è più basso di 0,5 cm: è lo spessore del tetto M34, che al passo 10 lo porta alla stessa altezza.
 2. M09 (muro tra patio e corridoio) sta a 9,45 cm dal filo ovest, con la faccia verso il patio su questa linea. Va da 5 cm dal filo nord fino a M08. La finestra larga sta verso nord, la porta verso sud.
 
 ### Passo 5: il muro dell'atelier sul patio e il camino
@@ -174,11 +181,13 @@ Misure in cm: larghezza × altezza del pezzo (per i tetti e il soppalco, lunghez
 | M02 | Muro nord (bordo alto inclinato: 5,55 a ovest, 2,1 a 12,25 cm, 2,75 a est) | 14,4 × 5,55 | 2 |
 | M03 | Muro ovest dell'atelier | 4,5 × 5,55 | 2 |
 | M04 | Muro est (2,75 per i primi 4,5 cm, poi 2,1) | 13,4 × 2,75 | 2 |
-| M05 | Recinto ovest | 8,9 × 6,05 | 3 |
-| M06 | Recinto sud, pezzo ovest | 2,45 × 6,05 | 3 |
-| M07 | Recinto sud, pezzo est (3,23 a ovest, 2,85 a est) | 2,5 × 3,23 | 3 |
-| M08 | Muro sud delle camere (2,85 a ovest, 2,1 a est) | 4,95 × 2,85 | 4 |
-| M09 | Muro tra patio e corridoio | 8,9 × 2,85 | 4 |
+| M05A | Recinto ovest, parte alta a nord | 2,7 × 6,6 | 3 |
+| M05B | Recinto ovest, muretto sotto il graticcio | 4,9 × 1,8 | 3 |
+| M05C | Recinto ovest, parte alta nell'angolo | 1,3 × 6,6 | 3 |
+| M06 | Recinto sud, pezzo ovest (6,6 nell'angolo, 5,3 verso l'apertura) | 2,45 × 6,6 | 3 |
+| M07 | Recinto sud, pezzo est (4,25 verso l'apertura, 3,5 verso le camere) | 2,5 × 4,25 | 3 |
+| M08 | Muro sud delle camere (3 a ovest, 2,1 a est) | 4,95 × 3 | 4 |
+| M09 | Muro tra patio e corridoio | 8,9 × 3 | 4 |
 | M10 | Muro tra atelier e patio (5,41 a ovest, 2,75 a est) | 9,45 × 5,41 | 5 |
 | M11 | Muro tra pranzo e cucina | 3,1 × 2,75 | 5 |
 | M12 | Camino | 1,65 × 2,2 | 5 |
@@ -203,16 +212,17 @@ Misure in cm: larghezza × altezza del pezzo (per i tetti e il soppalco, lunghez
 | M31 | Annesso, parete sud del bagno | 0,55 × 2,6 | 9 |
 | M32 | Tetto grande (falda ovest) | 12,73 × 5 | 10 |
 | M33 | Tetto piccolo (falda est) | 2,25 × 5 | 10 |
-| M34 | Tetto dell'ala delle camere | 5,01 × 9,4 | 10 |
+| M34 | Tetto dell'ala delle camere | 5,03 × 9,4 | 10 |
 | M35 | Tetto dell'ingresso | 1,7 × 6,5 | 10 |
 | M36 | Tetto dell'annesso | 7,3 × 3,65 | 10 |
 | M37 | Comignolo | 0,6 × 2,4 | 10 |
+| G01 | Graticcio, 8 montanti (stuzzicadenti, non Poliplat) | 4,8 di lunghezza | 3 |
+| G02 | Graticcio, 2 traversi (stuzzicadenti, non Poliplat) | 4,9 di lunghezza | 3 |
 
 
 ## Misure da chiedere al prof
 
-- L'altezza del recinto sud: nelle sezioni non si vede. Nel plastico il pezzo ovest (M06) è alto come il recinto ovest e il pezzo est (M07) continua la pendenza del muro sud delle camere, come in un plastico di studenti trovato online e come nella foto 1 della scheda.
-- L'altezza della «finestra» nel recinto ovest: nel plastico va da 0,60 a 2,20.
+- Le altezze del recinto sud e ovest e del graticcio: nel plastico le ho ricavate dalla foto del patio, ma nella scheda non ci sono. Chiedi se vanno bene o se c'è un disegno con le quote.
 - L'altezza dell'ingresso e dell'annesso, che nel plastico hanno il tetto piano a 2,60: la scheda non ha sezioni di queste parti.
 - L'altezza delle finestre a ovest e a est: nel plastico sono come quelle a nord, che si leggono nella sezione.
 - Se il tetto va incollato o lasciato staccato.

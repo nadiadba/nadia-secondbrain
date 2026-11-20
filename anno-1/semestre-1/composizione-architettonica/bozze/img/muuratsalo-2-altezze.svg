@@ -25,25 +25,25 @@
 <text x="684.0" y="162" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">(il Poliplat).</text>
 <text x="14" y="394" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">2. Patio e ala delle camere (sezione sul patio della scheda)</text>
 <line x1="28.0" y1="674.0" x2="668.0" y2="674.0" stroke="#333" stroke-width="1.5"/>
-<path d="M 60.0 674.0 L 76.0 674.0 L 76.0 432.0 L 60.0 432.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
-<path d="M 438.0 674.0 L 450.0 674.0 L 450.0 560.0 L 438.0 560.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 60.0 674.0 L 76.0 674.0 L 76.0 410.0 L 60.0 410.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 438.0 674.0 L 450.0 674.0 L 450.0 554.0 L 438.0 554.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 624.0 674.0 L 636.0 674.0 L 636.0 590.0 L 624.0 590.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
-<path d="M 438.0 560.0 L 636.0 590.0 L 636.0 570.0 L 438.0 540.0 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
-<line x1="55" y1="432.0" x2="65" y2="432.0" stroke="#1f5fae" stroke-width="1.2"/>
-<text x="67" y="436.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+6,05 recinto ovest</text>
-<line x1="433.0" y1="540.0" x2="443.0" y2="540.0" stroke="#1f5fae" stroke-width="1.2"/>
-<text x="445.0" y="544.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+3,35</text>
+<path d="M 438.0 554.0 L 636.0 590.0 L 636.0 570.0 L 438.0 534.0 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
+<line x1="55" y1="410.0" x2="65" y2="410.0" stroke="#1f5fae" stroke-width="1.2"/>
+<text x="67" y="414.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+6,60 recinto ovest (muretto 1,80 nel tratto del graticcio)</text>
+<line x1="433.0" y1="534.0" x2="443.0" y2="534.0" stroke="#1f5fae" stroke-width="1.2"/>
+<text x="445.0" y="538.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+3,50</text>
 <line x1="631.0" y1="570.0" x2="641.0" y2="570.0" stroke="#1f5fae" stroke-width="1.2"/>
 <text x="643.0" y="574.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+2,60</text>
 <line x1="631.0" y1="590.0" x2="641.0" y2="590.0" stroke="#1f5fae" stroke-width="1.2"/>
 <text x="643.0" y="594.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+2,10</text>
-<line x1="445.0" y1="560.0" x2="455.0" y2="560.0" stroke="#1f5fae" stroke-width="1.2"/>
-<text x="457.0" y="564.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+2,85</text>
-<text x="684.0" y="426" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Il recinto sud non si vede nelle</text>
-<text x="684.0" y="443" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">sezioni: il pezzo ovest è alto</text>
-<text x="684.0" y="460" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">come il recinto ovest (6,05), il</text>
-<text x="684.0" y="477" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">pezzo est continua la pendenza</text>
-<text x="684.0" y="494" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">del muro sud delle camere.</text>
+<line x1="445.0" y1="554.0" x2="455.0" y2="554.0" stroke="#1f5fae" stroke-width="1.2"/>
+<text x="457.0" y="558.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f5fae">+3,00</text>
+<text x="684.0" y="426" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Recinto sud (dalla foto del patio):</text>
+<text x="684.0" y="443" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">pezzo ovest da 6,60 nell'angolo</text>
+<text x="684.0" y="460" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">a 5,30 verso l'apertura;</text>
+<text x="684.0" y="477" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">pezzo est da 4,25 verso</text>
+<text x="684.0" y="494" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">l'apertura a 3,50 verso le camere.</text>
 <text x="684.0" y="511" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Le camere hanno il tetto che</text>
 <text x="684.0" y="528" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">scende verso est.</text>
 </svg>
