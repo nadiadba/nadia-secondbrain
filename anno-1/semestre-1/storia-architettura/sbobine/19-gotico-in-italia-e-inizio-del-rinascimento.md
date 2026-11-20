@@ -14,7 +14,7 @@ tags: [storia-architettura, sbobina]
 > [!info] Note collegate
 > Bozza: [[19-gotico-italiano-federico-ii-e-primo-rinascimento]]
 >
-> Sbobina precedente: [[18-architettura-gotica-francia]]
+> Sbobina precedente: [[18-architettura-gotica-francia]] · Successiva: [[20-leon-battista-alberti]]
 
 ## Il gotico in Italia: un problema storiografico
 

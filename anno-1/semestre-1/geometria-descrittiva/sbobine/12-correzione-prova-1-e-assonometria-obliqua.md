@@ -14,7 +14,7 @@ tags: [geometria-descrittiva, sbobina]
 > [!info] Note collegate
 > Bozza: [[12-errori-della-prova-1-e-quadro-verticale]]
 >
-> Sbobina precedente: [[11-assonometria-obliqua-cavaliera-militare]]
+> Sbobina precedente: [[11-assonometria-obliqua-cavaliera-militare]] · Successiva: [[13-prospettiva-metodo-della-pianta]]
 
 ## La sessione di settembre e le revisioni
 

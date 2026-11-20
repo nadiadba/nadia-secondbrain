@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 456" width="760" height="456">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Il metodo con la pianta: A, B sul quadro, la retta r e il punto C</text>
+<g transform="translate(0,36)">
+<line x1="10.0" y1="160.0" x2="740.0" y2="160.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="570.0" y="152.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f">orizzonte = quadro in pianta</text>
+<line x1="10.0" y1="230.0" x2="740.0" y2="230.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="12.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f">fondamentale</text>
+<path d="M 100.0 160.0 L 100.3 170.5 L 101.1 180.9 L 102.5 191.3 L 104.4 201.6 L 106.8 211.8 L 109.8 221.8 L 113.3 231.7 L 117.3 241.3 L 121.8 250.8 L 126.8 260.0 L 132.3 268.9 L 138.2 277.6 L 144.6 285.9 L 151.4 293.8 L 158.6 301.4 L 166.2 308.6 L 174.1 315.4 L 182.4 321.8 L 191.1 327.7 L 200.0 333.2 L 209.2 338.2 L 218.7 342.7 L 228.3 346.7 L 238.2 350.2 L 248.2 353.2 L 258.4 355.6 L 268.7 357.5 L 279.1 358.9 L 289.5 359.7 L 300.0 360.0 L 310.5 359.7 L 320.9 358.9 L 331.3 357.5 L 341.6 355.6 L 351.8 353.2 L 361.8 350.2 L 371.7 346.7 L 381.3 342.7 L 390.8 338.2 L 400.0 333.2 L 408.9 327.7 L 417.6 321.8 L 425.9 315.4 L 433.8 308.6 L 441.4 301.4 L 448.6 293.8 L 455.4 285.9 L 461.8 277.6 L 467.7 268.9 L 473.2 260.0 L 478.2 250.8 L 482.7 241.3 L 486.7 231.7 L 490.2 221.8 L 493.2 211.8 L 495.6 201.6 L 497.5 191.3 L 498.9 180.9 L 499.7 170.5 L 500.0 160.0" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2,4"/>
+<circle cx="300.0" cy="160.0" r="2.8" fill="#1f1f1f"/>
+<text x="292.0" y="178.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<circle cx="300.0" cy="360.0" r="2.8" fill="#1f1f1f"/>
+<text x="308.0" y="364.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O ≡ O*</text>
+<text x="136.0" y="304.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">cerchio di distanza</text>
+<polygon points="260.0,160.0 360.0,160.0 360.0,60.0 260.0,60.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<circle cx="260.0" cy="160.0" r="2.8" fill="#2563a8"/>
+<text x="246.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="360.0" cy="160.0" r="2.8" fill="#2563a8"/>
+<text x="364.0" y="154.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<circle cx="360.0" cy="60.0" r="2.8" fill="#2563a8"/>
+<text x="366.0" y="56.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
+<circle cx="260.0" cy="60.0" r="2.8" fill="#2563a8"/>
+<text x="244.0" y="56.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">D</text>
+<text x="366.0" y="114.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">r</text>
+<line x1="260.0" y1="160.0" x2="260.0" y2="230.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="360.0" y1="160.0" x2="360.0" y2="230.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<line x1="300.0" y1="360.0" x2="360.0" y2="60.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<circle cx="340.0" cy="160.0" r="2.8" fill="#1f1f1f"/>
+<line x1="340.0" y1="160.0" x2="340.0" y2="220.0" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="360.0" y1="230.0" x2="300.0" y2="160.0" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="260.0" cy="230.0" r="2.8" fill="#c0392b"/>
+<text x="246.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A′</text>
+<circle cx="360.0" cy="230.0" r="2.8" fill="#c0392b"/>
+<text x="366.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′ ≡ T<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan>′</text>
+<circle cx="340.0" cy="206.7" r="2.8" fill="#c0392b"/>
+<text x="348.0" y="216.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C′</text>
+<text x="351.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<text x="470" y="360" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">r è perpendicolare al quadro:</text>
+<text x="470" y="378" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">la sua fuga è O₀ (punto principale)</text>
+</g>
+</svg>

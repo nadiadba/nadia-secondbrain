@@ -39,6 +39,8 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 10. [[10-intersezione-retta-figura-e-sezioni|Intersezione tra una retta e un piano dato con una figura; il segno di sezione a baionetta]] (gio 5 novembre)
 11. [[11-assonometria-obliqua-cavaliera-militare|Ripasso dell'assonometria ortogonale; l'assonometria obliqua cavaliera militare, il ribaltamento dell'asse z, l'esercizio del solido con pianta 4 × 2; le sezioni dei solidi con un piano parallelo alla LT e con un piano verticale]] (mar 10 novembre, due registrazioni)
 12. [[12-correzione-prova-1-e-assonometria-obliqua|Avvisi sull'esame, correzione della Prova n. 1 (omologia, ribaltamenti, tracce, perpendicolare) e assonometria obliqua con il quadro verticale]] (gio 12 novembre, registrazione di una compagna)
+13. [[13-prospettiva-metodo-della-pianta|La prospettiva con la pianta: orizzonte, fondamentale, O e O*, cerchio di distanza; traccia e fuga delle rette perpendicolari, parallele e a 45° rispetto al quadro (audio molto rovinato, registrata in parte)]] (mar 17 novembre, due registrazioni)
+14. [[14-prospettiva-altezze-e-punto-di-misura|La costruzione del punto in prospettiva, le altezze con lo schema laterale, l'angolo vero in O*; la prospettiva senza pianta con il punto di misura (quasi tutta esercitazione, poco parlato)]] (gio 19 novembre, quattro registrazioni)
 
 ## Bozze
 

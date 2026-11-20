@@ -17,6 +17,7 @@ Se e' la prima volta che usi Obsidian, leggi la [[guida-obsidian|guida a Obsidia
 - [[geometria-descrittiva|Geometria descrittiva]]: proiezioni, omologia, disegno e strumenti.
 - [[composizione-architettonica|Fondamenti di composizione architettonica]]: il laboratorio, le esercitazioni e i plastici.
 - [[matematica|Matematica]]: ancora da riempire.
+- [[accademie|Accademie]]: ciclo di conferenze da 1 CFU (solo sbobine, elaborato a fine anno).
 
 ### Secondo semestre
 

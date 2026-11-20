@@ -13,6 +13,7 @@ tags: [indice]
 - [[geometria-descrittiva|Geometria descrittiva]]
 - [[composizione-architettonica|Fondamenti di composizione architettonica]]
 - [[matematica|Matematica]]
+- [[accademie|Accademie]]
 
 ## Esami e scadenze
 

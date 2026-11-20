@@ -61,6 +61,7 @@ Regole sulla struttura:
 | `geometria-descrittiva` | Geometria descrittiva | lezioni registrate, esercizi grafici (proiezioni, omologia) |
 | `composizione-architettonica` | Fondamenti di composizione architettonica (laboratorio) | lezioni introduttive, esercitazioni con plastici |
 | `matematica` | Matematica | ancora nulla |
+| `accademie` | Accademie (1 CFU, 6 conferenze di circa 2 ore il martedi', elaborato a fine anno) | solo le sbobine degli incontri: per volere di Nadia la cartella ha solo la nota indice e `sbobine/`, niente bozze, appunti o materiale |
 
 ## Il flusso di lavoro
 

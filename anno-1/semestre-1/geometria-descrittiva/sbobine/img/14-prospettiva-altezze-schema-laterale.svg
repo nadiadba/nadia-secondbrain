@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 336" width="820" height="336">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Le altezze: lo schema laterale e lo spigolo in prospettiva</text>
+<g transform="translate(0,36)">
+<line x1="10.0" y1="200.0" x2="360.0" y2="200.0" stroke="#1f1f1f" stroke-width="1.4" stroke-linecap="round"/>
+<text x="10.0" y="216.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">geometrale</text>
+<line x1="220.0" y1="210.0" x2="220.0" y2="30.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="196.0" y="24.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">quadro</text>
+<line x1="20.0" y1="200.0" x2="20.0" y2="130.0" stroke="#8a8a8a" stroke-width="3" stroke-linecap="round"/>
+<circle cx="20.0" cy="130.0" r="2.8" fill="#1f1f1f"/>
+<text x="6.0" y="124.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O</text>
+<polygon points="220.0,200.0 320.0,200.0 320.0,140.0 220.0,140.0" fill="#2563a8" fill-opacity="0.12" stroke="#2563a8" stroke-width="1.8"/>
+<text x="324.0" y="216.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">C</text>
+<text x="224.0" y="216.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">B</text>
+<line x1="20.0" y1="130.0" x2="320.0" y2="140.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="20.0" y1="130.0" x2="320.0" y2="200.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="220.0" y1="176.7" x2="220.0" y2="136.7" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<text x="228.0" y="106.7" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b">altezza sul quadro</text>
+<circle cx="220.0" cy="136.7" r="2.8" fill="#c0392b"/>
+<circle cx="220.0" cy="176.7" r="2.8" fill="#c0392b"/>
+<line x1="430.0" y1="130.0" x2="800.0" y2="130.0" stroke="#1f1f1f" stroke-width="1.4" stroke-linecap="round"/>
+<text x="430.0" y="124.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">orizzonte</text>
+<line x1="430.0" y1="200.0" x2="800.0" y2="200.0" stroke="#1f1f1f" stroke-width="1.4" stroke-linecap="round"/>
+<text x="430.0" y="216.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">fondamentale</text>
+<circle cx="600.0" cy="130.0" r="2.8" fill="#1f1f1f"/>
+<text x="604.0" y="122.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<line x1="560.0" y1="200.0" x2="660.0" y2="200.0" stroke="#2563a8" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="660.0" y1="200.0" x2="640.0" y2="176.7" stroke="#2563a8" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="640.0" y1="176.7" x2="573.3" y2="176.7" stroke="#2563a8" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="573.3" y1="176.7" x2="560.0" y2="200.0" stroke="#2563a8" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="200.0" x2="560.0" y2="140.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="660.0" y1="200.0" x2="660.0" y2="140.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="640.0" y1="176.7" x2="640.0" y2="136.7" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="560.0" y1="140.0" x2="660.0" y2="140.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="660.0" y1="140.0" x2="640.0" y2="136.7" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="560.0" y1="140.0" x2="573.3" y2="136.7" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="640.0" y1="136.7" x2="573.3" y2="136.7" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="573.3" y1="176.7" x2="573.3" y2="136.7" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="750.0" y1="176.7" x2="750.0" y2="136.7" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<line x1="750.0" y1="136.7" x2="640.0" y2="136.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="750.0" y1="176.7" x2="640.0" y2="176.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<circle cx="640.0" cy="136.7" r="2.8" fill="#c0392b"/>
+<circle cx="640.0" cy="176.7" r="2.8" fill="#c0392b"/>
+<text x="616.0" y="180.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">C′</text>
+<circle cx="660.0" cy="200.0" r="2.8" fill="#c0392b"/>
+<text x="664.0" y="216.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">B′</text>
+<text x="668.0" y="170.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b">H vera</text>
+<text x="20" y="270" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Lo spigolo per B sta sul quadro: la sua altezza è vera. Per lo spigolo per C si legge sullo schema laterale</text>
+<text x="20" y="288" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">il tratto rosso sul quadro, dalla fondamentale in su, e lo si porta in orizzontale sulla verticale di C′.</text>
+</g>
+</svg>

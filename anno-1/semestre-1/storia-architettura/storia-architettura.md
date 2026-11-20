@@ -34,6 +34,7 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 17. [[17-romanico-venezia-modena-puglia-sicilia-roma|Il romanico in Italia: San Marco a Venezia, il Duomo di Modena, Puglia e Sicilia, Roma e Tuscania]] (mer 11 novembre, registrazione di Giulia)
 18. [[18-architettura-gotica-francia|L'architettura gotica in Francia: la struttura della chiesa gotica, Saint-Denis, Notre-Dame, Villard de Honnecourt]] (gio 12 novembre, registrazione di Giulia)
 19. [[19-gotico-in-italia-e-inizio-del-rinascimento|Il gotico in Italia (cistercensi, Assisi, Orvieto), Federico II e Castel del Monte; l'inizio del Rinascimento e Brunelleschi]] (ven 13 novembre, registrazione di Giulia)
+20. [[20-leon-battista-alberti|Leon Battista Alberti: il De re aedificatoria, Roma e Palazzo Venezia, il Tempio Malatestiano a Rimini, Santa Maria Novella e Palazzo Rucellai a Firenze, Mantova e i Gonzaga]] (mer 18 novembre, registrazione parziale: manca la prima parte su Brunelleschi)
 
 ## Bozze
 
