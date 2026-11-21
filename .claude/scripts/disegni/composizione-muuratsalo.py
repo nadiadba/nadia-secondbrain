@@ -14,7 +14,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v3"
+VER = "v4"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -831,6 +831,12 @@ def pianta_quotata(path):
                                  (10.85, 8.15, 14.10, 8.25, [], "x"),
                                  (10.75, 10.95, 14.10, 11.05, [], "x")]:
         muro(d, x1, y1, x2, y2, b, a, "#555")
+    # il focolare al centro del patio (il quadrato della scheda, circa 1,40 di lato)
+    d.rect(4.25, 8.75, 5.65, 10.15, "none", "#333", 1.4)
+    d.rect(4.45, 8.95, 5.45, 9.95, "none", "#333", 0.7)
+    d.text(4.95, 10.55, "focolare", "#333", 10)
+    d.catena([4.25, 5.65], None, "x", 8.45, [BLU], 10)
+    d.catena([8.75, 10.15], None, "y", 3.95, [BLU], 10)
     # soppalco e scala
     d.rect(0.40, 0.35, 3.70, 4.70, "none", BLU, 1.2, 'stroke-dasharray="6,4"')
     d.text(2.05, 1.30, "soppalco (studio)", BLU, 11)
@@ -853,7 +859,7 @@ def pianta_quotata(path):
     muro(d, 16.20, -1.70, 17.15, -1.60, [], "x", L)
     # nomi delle stanze
     for x, y, t in [(5.0, 2.6, "atelier e soggiorno"), (7.6, 1.6, "pranzo"), (11.6, 1.8, "cucina"),
-                    (4.7, 9.3, "PATIO"), (12.3, 5.6, "bagno"), (12.0, 7.3, "guardaroba"),
+                    (4.7, 6.9, "PATIO"), (12.3, 5.6, "bagno"), (12.0, 7.3, "guardaroba"),
                     (12.1, 9.6, "camera"), (11.9, 12.6, "camera"), (10.25, 8.8, "corr."),
                     (15.25, 2.0, "ingresso"), (16.65, -2.6, "wc"), (18.9, -1.9, "camera"), (22.0, -1.9, "camera"),
                     (19.7, -4.6, "ANNESSO DEGLI OSPITI (in legno)")]:
