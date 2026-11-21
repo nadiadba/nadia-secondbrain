@@ -14,7 +14,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v4"
+VER = "v5"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -657,6 +657,63 @@ def schema_taglio(P, path):
     return posti, D
 
 
+def schema_taglio_nadia(path_json, path):
+    """Lo schema di taglio con la disposizione fatta da Nadia nella pagina interattiva
+    (i contorni e i buchi dei pezzi sono gia' nelle coordinate del foglio, in cm)."""
+    import json
+    pezzi = json.load(open(path_json))
+    s = 20.0
+    o = (40, 96)
+    W, H = 70 * s + 80, 50 * s + 150
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" width="{W:.0f}" height="{H:.0f}">',
+           '<rect width="100%" height="100%" fill="#ffffff"/>',
+           f'<text x="16" y="30" {FONT} font-size="20" font-weight="bold" fill="#333">Il foglio di Poliplat 70 × 50 cm: la disposizione di Nadia (misure in cm)</text>',
+           f'<text x="16" y="54" {FONT} font-size="14" fill="#555">Dentro ogni pezzo: il codice e le misure come sta nel foglio (larghezza × altezza). '
+           f'I buchi dentro i pezzi sono finestre e porte. Il verde avanza.</text>',
+           f'<rect x="{o[0]}" y="{o[1]}" width="{70 * s}" height="{50 * s}" fill="#eef5ea" stroke="#333" stroke-width="2"/>']
+    for x in range(0, 71, 5):
+        out.append(_txt(o[0] + x * s, o[1] - 10, str(x), 12, False, "#666"))
+    for y in range(0, 51, 5):
+        out.append(_txt(o[0] - 8, o[1] + y * s + 4, str(y), 12, False, "#666", anchor="end"))
+    for p in pezzi:
+        T2 = lambda q: (o[0] + q[0] * s, o[1] + q[1] * s)
+        d = "M " + " L ".join("%.1f %.1f" % T2(q) for q in p["outline"]) + " Z"
+        for hl in p["holes"]:
+            d += " M " + " L ".join("%.1f %.1f" % T2(q) for q in hl) + " Z"
+        out.append(f'<path d="{d}" fill="#f6c9c9" fill-rule="evenodd" stroke="{ROSSO}" stroke-width="1.3"/>')
+    for p in pezzi:
+        xs = [a for a, _ in p["outline"]]
+        ys = [b for _, b in p["outline"]]
+        bw_, bh_ = max(xs) - min(xs), max(ys) - min(ys)
+        cx = o[0] + sum(xs) / len(xs) * s
+        cy = o[1] + sum(ys) / len(ys) * s
+        dims = "%s × %s" % (num(bw_), num(bh_))
+        lw, lh = bw_ * s, bh_ * s
+        need = len(dims) * 6.2
+        if lw >= need and lh >= 30:
+            out.append(_txt(cx, cy - 3, p["cod"], 13, True))
+            out.append(_txt(cx, cy + 12, dims, 11, False, "#333"))
+        elif lh >= need and lw >= 30:
+            out.append(_txt(cx - 3, cy, p["cod"], 13, True, rot=-90))
+            out.append(_txt(cx + 12, cy, dims, 11, False, "#333", -90))
+        elif min(lw, lh) >= 22:
+            if lw >= lh:
+                out.append(_txt(cx, cy - 1, p["cod"], 9, True))
+                out.append(_txt(cx, cy + 9, dims.replace(" ", ""), 8, False, "#333"))
+            else:
+                out.append(_txt(cx - 1, cy, p["cod"], 9, True, rot=-90))
+                out.append(_txt(cx + 9, cy, dims.replace(" ", ""), 8, False, "#333", -90))
+        elif lw >= lh:
+            out.append(_txt(cx, cy + 3, p["cod"] + " " + dims.replace(" ", ""), 7.5, True))
+        else:
+            out.append(_txt(cx + 3, cy, p["cod"] + " " + dims.replace(" ", ""), 7.5, True, rot=-90))
+    out.append(_txt(o[0] + 35 * s, o[1] + 40 * s, "avanza tutta la parte verde: tienila per il plastico della tua nuova disposizione", 18, False, "#4c7a3d"))
+    out.append(_txt(o[0] + 35 * s, o[1] + 40 * s + 24, "(in basso resta una striscia intera di 70 × 20 cm)", 14, False, "#4c7a3d"))
+    out.append("</svg>")
+    with open(path, "w") as fh:
+        fh.write("\n".join(out))
+
+
 def pezzi_quotati(P, path):
     """I pezzi con finestre, porte o bordo inclinato, ognuno con le sue quote, come in pianta."""
     codici = ["M02", "M10", "M04", "M09", "M03", "M06", "M07", "M08", "M25", "M26"]
@@ -955,7 +1012,11 @@ def main():
             assert 0 <= u1 < u2 <= w and 0 <= v1 < v2 <= h, (p.cod, u1, v1, u2, v2)
     pianta_quotata(OUT + "muuratsalo-%s-1-pianta-quotata.svg" % VER)
     sezioni(OUT + "muuratsalo-%s-2-altezze.svg" % VER)
-    posti, D = schema_taglio(P, OUT + "muuratsalo-%s-3-taglio-foglio.svg" % VER)
+    nadia = os.path.join(os.path.dirname(os.path.abspath(__file__)), "composizione-muuratsalo-taglio-nadia.json")
+    if os.path.exists(nadia):     # la disposizione scelta da Nadia nella pagina interattiva
+        schema_taglio_nadia(nadia, OUT + "muuratsalo-%s-3-taglio-foglio.svg" % VER)
+    else:
+        schema_taglio(P, OUT + "muuratsalo-%s-3-taglio-foglio.svg" % VER)
     pezzi_quotati(P, OUT + "muuratsalo-%s-4-pezzi-quotati.svg" % VER)
     titoli = {1: "Passo 1: la base", 2: "Passo 2: i muri esterni nord, ovest ed est", 3: "Passo 3: il recinto del patio",
               4: "Passo 4: l'ala delle camere", 5: "Passo 5: il muro dell'atelier sul patio e il camino",
