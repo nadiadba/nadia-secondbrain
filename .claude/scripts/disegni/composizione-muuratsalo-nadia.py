@@ -118,7 +118,7 @@ MURI = [
     # muri della casa sul patio (0,30)
     M("x", 0.40, 4.30, 2.90, 3.20, ap=[F(1.40, 3.40, 0.9, 2.1)], nome="camera grande sul patio"),
     M("y", 2.90, 7.88, 4.30, 4.60, ap=[P(3.13, 3.93, "W", "a", tipo="portafinestra")], nome="ovest soggiorno"),
-    M("y", 7.88, 10.23, 4.30, 4.60, top=1.10, pianta="finestra", nome="finestra d'angolo, ovest"),
+    M("y", 7.88, 10.23, 4.30, 4.60, top=0.50, pianta="finestra", nome="finestra d'angolo, ovest"),
     M("y", 7.88, 10.23, 4.30, 4.60, z0=2.10, pianta="no"),
     M("x", 4.30, 6.95, 10.23, 10.53, top=0.50, pianta="finestra", nome="finestra d'angolo, sud"),
     M("x", 4.30, 6.95, 10.23, 10.53, z0=2.10, pianta="no"),
