@@ -4,12 +4,12 @@
 <text x="14" y="66" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">1. Sezione nord-sud (a 9 m dal filo ovest): la falda scende verso il lago</text>
 <line x1="28.0" y1="354.0" x2="820.0" y2="354.0" stroke="#333" stroke-width="1.5"/>
 <path d="M 60.0 354.0 L 76.0 354.0 L 76.0 318.0 L 60.0 318.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
-<path d="M 60.0 270.0 L 76.0 270.0 L 76.0 114.0 L 60.0 114.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 60.0 270.0 L 76.0 270.0 L 76.0 102.0 L 60.0 102.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 180.0 354.0 L 184.0 354.0 L 184.0 135.2 L 180.0 134.5 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 218.0 354.0 L 222.0 354.0 L 222.0 141.7 L 218.0 141.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 469.2 270.0 L 481.2 270.0 L 481.2 186.0 L 469.2 183.9 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 620.0 354.0 L 636.0 354.0 L 636.0 159.8 L 620.0 159.8 Z" fill="#555" stroke="#333" stroke-width="1"/>
-<path d="M 60.0 102.0 L 481.2 174.0 L 481.2 186.0 L 60.0 114.0 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
+<path d="M 76.0 104.7 L 481.2 174.0 L 481.2 186.0 L 76.0 116.7 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
 <path d="M 222.0 266.0 L 373.6 266.0 L 373.6 258.0 L 222.0 258.0 Z" fill="#9cc0e8" stroke="#333" stroke-width="1"/>
 <line x1="55" y1="102.0" x2="65" y2="102.0" stroke="#1f1f1f" stroke-width="1.2"/>
 <text x="67" y="106.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+6,30</text>
@@ -45,9 +45,9 @@
 <path d="M 60.0 708.0 L 76.0 708.0 L 76.0 499.1 L 60.0 499.1 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 232.0 708.0 L 244.0 708.0 L 244.0 511.1 L 232.0 511.1 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 492.0 620.0 L 496.0 620.0 L 496.0 511.1 L 492.0 511.1 Z" fill="#555" stroke="#333" stroke-width="1"/>
-<path d="M 620.0 708.0 L 636.0 708.0 L 636.0 511.1 L 620.0 511.1 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 620.0 708.0 L 636.0 708.0 L 636.0 499.1 L 620.0 499.1 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 702.0 708.0 L 706.0 708.0 L 706.0 604.0 L 702.0 604.0 Z" fill="#8d6e4f" stroke="#333" stroke-width="1"/>
-<path d="M 232.0 511.1 L 636.0 511.1 L 636.0 499.1 L 232.0 499.1 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
+<path d="M 232.0 511.1 L 620.0 511.1 L 620.0 499.1 L 232.0 499.1 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
 <path d="M 636.0 604.0 L 706.0 604.0 L 706.0 598.0 L 636.0 598.0 Z" fill="#c9b49a" stroke="#333" stroke-width="1"/>
 <path d="M 340.4 620.0 L 492.0 620.0 L 492.0 612.0 L 340.4 612.0 Z" fill="#9cc0e8" stroke="#333" stroke-width="1"/>
 <line x1="55" y1="499.0769230769231" x2="65" y2="499.0769230769231" stroke="#1f1f1f" stroke-width="1.2"/>

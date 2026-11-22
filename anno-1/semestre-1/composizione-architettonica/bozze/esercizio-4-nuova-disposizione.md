@@ -22,7 +22,7 @@ La pianta del punto 5 dell'esercizio: lo stesso quadrato di 14,40 m e le stesse 
 
 ## Pianta quotata
 
-![[muuratsalo-nadia-v4-1-pianta-quotata.svg|1000]]
+![[muuratsalo-nadia-v5-1-pianta-quotata.svg|1000]]
 
 Le camere e il guardaroba stanno in fila lungo il lato nord, con il bagno nell'angolo nord-est. Sotto corre il corridoio, che finisce verso ovest con una portafinestra sul patio e verso est si apre sul disimpegno, dove si entra dall'ingresso in legno. Dal disimpegno si va nel bagno e in cucina. Il soggiorno, con pranzo e atelier, è un quadrato di 6,40 × 6,38 m: lo studio sul soppalco sta sopra la sua parte nord-est, e la scaletta sale lungo il muro della cucina. La cucina si apre sul soggiorno con un varco senza porta.
 
@@ -32,7 +32,7 @@ Le superfici, misurate sugli assi, sono quasi uguali a quelle di Aalto: camera g
 
 ## Le altezze
 
-![[muuratsalo-nadia-v4-2-altezze.svg|1000]]
+![[muuratsalo-nadia-v5-2-altezze.svg|1000]]
 
 Il tetto è alto 6,30 m sul lato nord, sopra le camere, e scende verso il lago fino a 4,50 m sul muro sud del soggiorno; è spesso 0,30 m. Come in Aalto, il profilo non è tutto spiovente: prima scende e poi risale. Il punto più basso sta alla stessa distanza dal perimetro di quello di Aalto, cioè a 2,15 m: lì era a 12,25 m dal filo ovest, qui a 12,25 m dal filo nord, perché la falda scende da nord verso sud. Il tetto della casa finisce prima, a 10,53 m, quindi il profilo continua sui muri del perimetro: scende fino a 4,21 m a 2,15 m dal filo sud e risale di 0,65 m, come in Aalto (da 2,60 a 3,25), fino a 4,86 m sul perimetro. La pendenza della parte che scende è stata scelta per il soppalco, che il prof vuole con almeno 2,20 m sotto e sopra. Il pavimento del soppalco è a +2,40 (sotto restano 2,20 m) e nel suo punto più basso, il bordo verso sud, sopra la testa restano 2,26 m. Se il tetto scendesse di più, sul soppalco si batterebbe la testa.
 

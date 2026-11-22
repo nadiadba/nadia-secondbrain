@@ -21,7 +21,7 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v4"
+VER = "v5"
 LEGNO = "#6d4c2f"
 
 # ---- il tetto: alto a nord sopra le camere, scende verso il lago. Come in Aalto il profilo
@@ -107,13 +107,13 @@ def V(s1, s2, z2=2.20):
 MURI = [
     # perimetro della casa e recinto (spessore 0,40)
     M("x", 0, 14.40, 0, 0.40, ap=[F(2.35, 3.30, 1.1, 2.1), F(6.10, 7.05, 1.1, 2.1), F(9.00, 10.20, 0.9, 2.1),
-                                 F(12.25, 13.20, 1.4, 2.1)], nome="nord"),
-    M("y", 0.40, 3.20, 0, 0.40, nome="ovest casa"),
+                                 F(12.25, 13.20, 1.4, 2.1)], top="F", nome="nord"),
+    M("y", 0.40, 3.20, 0, 0.40, top="F", nome="ovest casa"),
     M("y", 3.20, 9.30, 0, 0.40, top="E", nome="recinto ovest"),
     M("y", 9.30, 11.75, 0, 0.40, top=MURETTO, pianta="muretto", nome="graticcio ovest"),
     M("x", 2.65, 5.10, 14.00, 14.40, top=MURETTO, pianta="muretto", nome="graticcio sud"),
     M("x", 5.10, 14.00, 14.00, 14.40, top="E", nome="recinto sud"),
-    M("y", 0.40, 8.27, 14.00, 14.40, ap=[P(2.80, 3.90, "E", "b", 2.2)], nome="est casa"),
+    M("y", 0.40, 8.27, 14.00, 14.40, ap=[P(2.80, 3.90, "E", "b", 2.2)], top="F", nome="est casa"),
     M("y", 8.27, 14.40, 14.00, 14.40, top="E", nome="recinto est"),
     # muri della casa sul patio (0,30)
     M("x", 0.40, 4.30, 2.90, 3.20, ap=[F(1.40, 3.40, 0.9, 2.1)], nome="camera grande sul patio"),
@@ -141,7 +141,9 @@ MURI = [
     M("x", 14.40, 18.65, 14.24, 14.34, top=2.60, legno=True, ap=[F(15.30, 17.20, 1.0, 1.9)]),
 ]
 
-TETTI = [(0, 0, 14.40, 3.20), (4.30, 3.20, 14.40, 8.27), (4.30, 8.27, 11.00, 10.53)]
+# i muri del perimetro della casa salgono fino all'estradosso, a filo con il tetto e con il recinto:
+# il tetto sta tra i loro fili interni
+TETTI = [(0.40, 0.40, 14.00, 3.20), (4.30, 3.20, 14.00, 8.27), (4.30, 8.27, 11.00, 10.53)]
 TETTI_LEGNO = [(14.40, 2.24, 16.15, 8.12), (14.40, 8.12, 18.65, 14.34)]
 
 
@@ -154,6 +156,8 @@ RECINTO = rec(14.40)                   # recinto sud
 
 
 def top_at(m, y):
+    if m["top"] == "F":
+        return ze(m["c1"]) if m["asse"] == "x" else ze(y)
     if m["top"] == "E":
         return rec(14.40) if m["asse"] == "x" else rec(y)
     return zi(y) if m["top"] == "T" else m["top"]
@@ -340,9 +344,9 @@ def sezioni(path):
 
     MW, MT, LG = "#555", "#bbb", "#9cc0e8"
     # 1. nord-sud a x = 9,00: camera, corridoio, soggiorno con il soppalco, patio, recinto sud
-    tetto = [(0, ze(0)), (Y_S, ze(Y_S)), (Y_S, zi(Y_S)), (0, zi(0))]
+    tetto = [(0.40, ze(0.40)), (Y_S, ze(Y_S)), (Y_S, zi(Y_S)), (0.40, zi(0.40))]
     blocco(7.6 * s + 50, "1. Sezione nord-sud (a 9 m dal filo ovest): la falda scende verso il lago",
-           [([(0, 0), (0.40, 0), (0.40, 0.9), (0, 0.9)], MW), ([(0, 2.1), (0.40, 2.1), (0.40, zi(0)), (0, zi(0))], MW),
+           [([(0, 0), (0.40, 0), (0.40, 0.9), (0, 0.9)], MW), ([(0, 2.1), (0.40, 2.1), (0.40, ze(0)), (0, ze(0))], MW),
             ([(3.00, 0), (3.10, 0), (3.10, zi(3.10)), (3.00, zi(3.0))], MW),
             ([(3.95, 0), (4.05, 0), (4.05, zi(4.05)), (3.95, zi(3.95))], MW),
             ([(10.23, 2.1), (10.53, 2.1), (10.53, zi(10.53)), (10.23, zi(10.23))], MW),
@@ -365,9 +369,9 @@ def sezioni(path):
            [([(0, 0), (0.40, 0), (0.40, rec(y0)), (0, rec(y0))], MW),
             ([(4.30, 0), (4.60, 0), (4.60, zi(y0)), (4.30, zi(y0))], MW),
             ([(10.80, 2.2), (10.90, 2.2), (10.90, zi(y0)), (10.80, zi(y0))], MW),
-            ([(14.00, 0), (14.40, 0), (14.40, zi(y0)), (14.00, zi(y0))], MW),
+            ([(14.00, 0), (14.40, 0), (14.40, ze(y0)), (14.00, ze(y0))], MW),
             ([(16.05, 0), (16.15, 0), (16.15, 2.60), (16.05, 2.60)], "#8d6e4f"),
-            ([(4.30, zi(y0)), (14.40, zi(y0)), (14.40, ze(y0)), (4.30, ze(y0))], MT),
+            ([(4.30, zi(y0)), (14.00, zi(y0)), (14.00, ze(y0)), (4.30, ze(y0))], MT),
             ([(14.40, 2.60), (16.15, 2.60), (16.15, 2.75), (14.40, 2.75)], "#c9b49a"),
             ([(SOPP[0], SOPP_SOTTO), (SOPP[2], SOPP_SOTTO), (SOPP[2], SOPP_SOTTO + SOPP_SP), (SOPP[0], SOPP_SOTTO + SOPP_SP)], LG)],
            [(0, rec(y0), "+%s recinto" % f2(rec(y0)), NERO), (4.30, ze(y0), "+%s" % f2(ze(y0)), NERO),
@@ -387,7 +391,7 @@ def sezioni(path):
 def spigolo(m):
     """Lato alto di un muro nord-sud sotto il tetto: [fine, (punto di cambio pendenza)], in coordinate del pezzo."""
     L = m["a2"] - m["a1"]
-    h = zi if m["top"] == "T" else rec
+    h = {"T": zi, "F": ze}.get(m["top"], rec)
     out = [[L, h(m["a2"]) - m["z0"]]]
     if m["asse"] == "y" and m["a1"] < Y_B < m["a2"]:
         out.append([Y_B - m["a1"], h(Y_B) - m["z0"]])
@@ -416,7 +420,7 @@ def pezzi3d():
                     fondo += [[u1, 0], [u1, z2], [u2, z2], [u2, 0]]
                 else:
                     buchi.append([u1, z1, u2, z2])
-            forma = fondo + [[L, 0], [L, h2]] + (spigolo(m)[1:] if m["top"] in ("T", "E") else []) + [[0, h1]]
+            forma = fondo + [[L, 0], [L, h2]] + (spigolo(m)[1:] if m["top"] in ("T", "E", "F") else []) + [[0, h1]]
         p = {"cod": m["nome"] or "muro", "kind": m["asse"], "passo": 1, "t": t, "z0": m["z0"], "forma": forma,
              "buchi": [] if m["z0"] else buchi, "legno": m["legno"]}
         if m["asse"] == "x":
