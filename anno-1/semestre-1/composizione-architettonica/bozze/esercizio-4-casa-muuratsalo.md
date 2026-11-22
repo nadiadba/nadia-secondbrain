@@ -15,7 +15,7 @@ La casa che Alvar Aalto costruì per sé a Muuratsalo (1952-53). In questa pagin
 >
 > Esercizio precedente: [[esercizio-3-casa-arzachena]] · [[esercizio-3-nuova-disposizione]]
 >
-> Nuova disposizione: [[esercizio-4-proposte-ingresso-angolo.pdf|quattro proposte con l'ingresso nell'angolo (PDF)]] · [[esercizio-4-proposte-geometrie.pdf|altre quattro proposte con geometrie diverse (PDF)]]
+> Nuova disposizione: [[esercizio-4-proposte-ingresso-angolo.pdf|quattro proposte con l'ingresso nell'angolo (PDF)]] · [[esercizio-4-proposte-geometrie.pdf|altre quattro proposte con geometrie diverse (PDF)]] · [[esercizio-4-disposizioni.pdf|30 disposizioni semplici (PDF)]]
 
 ## Cosa chiede l'esercizio
 
