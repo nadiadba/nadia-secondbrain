@@ -30,3 +30,4 @@ Ancora nessuna.
 - [[esercizio-4-proposte-ingresso-angolo.pdf|Esercizio 4, nuova disposizione: quattro proposte con l'ingresso nell'angolo (PDF)]]
 - [[esercizio-4-proposte-geometrie.pdf|Esercizio 4, nuova disposizione: altre quattro proposte con geometrie diverse, patio rotondo, denti di sega, onda e diagonale (PDF)]]
 - [[esercizio-4-disposizioni.pdf|Esercizio 4, nuova disposizione: 30 piante semplici, solo le stanze (PDF)]]
+- [[esercizio-4-nuova-disposizione|Esercizio 4, la tua nuova disposizione: pianta quotata, altezze e link al modello 3D]]
