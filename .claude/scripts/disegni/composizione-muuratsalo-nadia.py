@@ -21,7 +21,7 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v1"
+VER = "v2"
 LEGNO = "#6d4c2f"
 
 # ---- il tetto: un'unica falda, alta a nord sopra le camere, che scende verso il lago ----------
@@ -41,7 +41,7 @@ def zi(y):
     return ze(y) - SP_TETTO
 
 
-RECINTO = 4.00                         # altezza dei muri del recinto del patio
+# i muri del recinto (ovest, est e sud) continuano la linea della falda fino al filo sud
 MURETTO = 1.80                         # muretto sotto il graticcio
 SOPP_SOTTO, SOPP_SP = 2.20, 0.20       # intradosso del soppalco e spessore del solaio
 SOPP = (7.01, 4.05, 10.80, 7.84)       # soppalco dello studio (3,79 x 3,79)
@@ -98,12 +98,12 @@ MURI = [
     M("x", 0, 14.40, 0, 0.40, ap=[F(2.35, 3.30, 1.1, 2.1), F(6.10, 7.05, 1.1, 2.1), F(9.00, 10.20, 0.9, 2.1),
                                  F(12.25, 13.20, 1.4, 2.1)], nome="nord"),
     M("y", 0.40, 3.20, 0, 0.40, nome="ovest casa"),
-    M("y", 3.20, 9.30, 0, 0.40, top=RECINTO, nome="recinto ovest"),
+    M("y", 3.20, 9.30, 0, 0.40, top="E", nome="recinto ovest"),
     M("y", 9.30, 11.75, 0, 0.40, top=MURETTO, pianta="muretto", nome="graticcio ovest"),
     M("x", 2.65, 5.10, 14.00, 14.40, top=MURETTO, pianta="muretto", nome="graticcio sud"),
-    M("x", 5.10, 14.40, 14.00, 14.40, top=RECINTO, nome="recinto sud"),
+    M("x", 5.10, 14.40, 14.00, 14.40, top="E", nome="recinto sud"),
     M("y", 0.40, 8.27, 14.00, 14.40, ap=[P(2.80, 3.90, "E", "b", 2.2)], nome="est casa"),
-    M("y", 8.27, 14.00, 14.00, 14.40, top=RECINTO, nome="recinto est"),
+    M("y", 8.27, 14.00, 14.00, 14.40, top="E", nome="recinto est"),
     # muri della casa sul patio (0,30)
     M("x", 0.40, 4.30, 2.90, 3.20, ap=[F(1.40, 3.40, 0.9, 2.1)], nome="camera grande sul patio"),
     M("y", 2.90, 7.88, 4.30, 4.60, ap=[P(3.13, 3.93, "W", "a", tipo="portafinestra")], nome="ovest soggiorno"),
@@ -134,8 +134,16 @@ TETTI = [(0, 0, 14.40, 3.20), (4.30, 3.20, 14.40, 8.27), (4.30, 8.27, 11.00, 10.
 TETTI_LEGNO = [(14.40, 2.24, 16.15, 8.12), (14.40, 8.12, 18.65, 14.34)]
 
 
+def rec(y):
+    """Altezza del recinto: prosegue l'estradosso del tetto, fino al filo interno sud (14,00)."""
+    return ze(min(y, 14.0))
+
+
+RECINTO = rec(14.0)                    # recinto sud
+
+
 def top_at(m, y):
-    return zi(y) if m["top"] == "T" else m["top"]
+    return zi(y) if m["top"] == "T" else rec(y) if m["top"] == "E" else m["top"]
 
 
 # =====================================================================================
@@ -323,19 +331,21 @@ def sezioni(path):
             ([(10.23, 2.1), (10.53, 2.1), (10.53, zi(10.53)), (10.23, zi(10.23))], MW),
             ([(14.00, 0), (14.40, 0), (14.40, RECINTO), (14.00, RECINTO)], MW),
             (tetto, MT),
+            ([(Y_S, ze(Y_S)), (14.0, ze(14.0)), (14.0, ze(14.0) - 0.02), (Y_S, ze(Y_S) - 0.02)], "#999"),
             ([(SOPP[1], SOPP_SOTTO), (SOPP[3], SOPP_SOTTO), (SOPP[3], SOPP_SOTTO + SOPP_SP), (SOPP[1], SOPP_SOTTO + SOPP_SP)], LG)],
            [(0, ze(0), "+%s" % f2(ze(0)), NERO), (Y_S, ze(Y_S), "+%s" % f2(ze(Y_S)), NERO),
             (SOPP[3], SOPP_SOTTO + SOPP_SP, "+%s" % f2(SOPP_SOTTO + SOPP_SP), NERO),
-            (14.40, RECINTO, "+%s recinto" % f2(RECINTO), NERO), (0.40, 0, "±0,00", NERO)],
+            (14.40, RECINTO, "+%s recinto sud" % f2(RECINTO), NERO), (0.40, 0, "±0,00", NERO)],
            ["Il tetto è un'unica falda:", "alto %s sopra le camere," % f2(ze(0)), "scende fino a %s sul muro" % f2(ze(Y_S)),
-            "del soggiorno verso il patio.", "Spessore del tetto 0,30.", "Nel punto più basso del soppalco", "restano %s m sopra la testa." % f2(zi(SOPP[3]) - SOPP_SOTTO - SOPP_SP)],
+            "del soggiorno verso il patio.", "Spessore del tetto 0,30.", "Nel punto più basso del soppalco", "restano %s m sopra la testa." % f2(zi(SOPP[3]) - SOPP_SOTTO - SOPP_SP),
+            "", "I muri del recinto a ovest e a est", "proseguono la stessa inclinazione", "(linea grigia sopra il patio)", "fino a %s sul recinto sud." % f2(RECINTO)],
            sinistra="nord (camera)", destra="sud (lago)",
            altezze=[(SOPP[3] - 0.25, SOPP_SOTTO + SOPP_SP, zi(SOPP[3] - 0.25), "%s sopra il soppalco" % f2(zi(SOPP[3]) - SOPP_SOTTO - SOPP_SP)),
                     (SOPP[3] - 0.25, 0, SOPP_SOTTO, "%s sotto" % f2(SOPP_SOTTO))])
     # 2. ovest-est a y = 6,30: patio, soggiorno con il soppalco, cucina, ingresso
     y0 = 6.30
     blocco(2 * 7.6 * s + 100, "2. Sezione ovest-est (a 6,30 m dal filo nord): patio, soggiorno, cucina, ingresso",
-           [([(0, 0), (0.40, 0), (0.40, RECINTO), (0, RECINTO)], MW),
+           [([(0, 0), (0.40, 0), (0.40, rec(y0)), (0, rec(y0))], MW),
             ([(4.30, 0), (4.60, 0), (4.60, zi(y0)), (4.30, zi(y0))], MW),
             ([(10.80, 2.2), (10.90, 2.2), (10.90, zi(y0)), (10.80, zi(y0))], MW),
             ([(14.00, 0), (14.40, 0), (14.40, zi(y0)), (14.00, zi(y0))], MW),
@@ -343,7 +353,7 @@ def sezioni(path):
             ([(4.30, zi(y0)), (14.40, zi(y0)), (14.40, ze(y0)), (4.30, ze(y0))], MT),
             ([(14.40, 2.60), (16.15, 2.60), (16.15, 2.75), (14.40, 2.75)], "#c9b49a"),
             ([(SOPP[0], SOPP_SOTTO), (SOPP[2], SOPP_SOTTO), (SOPP[2], SOPP_SOTTO + SOPP_SP), (SOPP[0], SOPP_SOTTO + SOPP_SP)], LG)],
-           [(0, RECINTO, "+%s recinto" % f2(RECINTO), NERO), (4.30, ze(y0), "+%s" % f2(ze(y0)), NERO),
+           [(0, rec(y0), "+%s recinto" % f2(rec(y0)), NERO), (4.30, ze(y0), "+%s" % f2(ze(y0)), NERO),
             (SOPP[0] - 2.2, SOPP_SOTTO + SOPP_SP + 0.15, "soppalco +%s" % f2(SOPP_SOTTO + SOPP_SP), NERO),
             (16.15, 2.75, "+2,75 legno", NERO), (0.40, 0, "±0,00", NERO)],
            ["Qui il tetto è orizzontale:", "la falda scende solo", "da nord verso sud.", "L'ingresso in legno è basso,",
@@ -394,16 +404,18 @@ def pezzi3d():
         cm = (m["c1"] + m["c2"]) / 2
         for i in range(n + 1):
             s = m["a1"] + 0.12 + i * (m["a2"] - m["a1"] - 0.24) / n
+            hz = rec(s if m["asse"] == "y" else m["c1"]) - MURETTO
             q = {"cod": "G", "kind": m["asse"], "passo": 1, "t": 0.12, "z0": MURETTO, "legno": True, "buchi": [],
-                 "forma": [[0, 0], [0.12, 0], [0.12, RECINTO - MURETTO], [0, RECINTO - MURETTO]]}
+                 "forma": [[0, 0], [0.12, 0], [0.12, hz], [0, hz]]}
             if m["asse"] == "x":
                 q.update(x0=s - 0.06, y0=cm - 0.06)
             else:
                 q.update(x0=cm - 0.06, y0=s - 0.06)
             out.append(q)
-        for z in (2.90, RECINTO - 0.12):
-            q = {"cod": "G", "kind": m["asse"], "passo": 1, "t": 0.12, "z0": z, "legno": True, "buchi": [],
-                 "forma": [[0, 0], [m["a2"] - m["a1"], 0], [m["a2"] - m["a1"], 0.12], [0, 0.12]]}
+        L = m["a2"] - m["a1"]
+        r1, r2 = (rec(m["a1"]), rec(m["a2"])) if m["asse"] == "y" else (rec(m["c1"]),) * 2
+        for forma in ([[0, 2.90], [L, 2.90], [L, 3.02], [0, 3.02]], [[0, r1 - 0.12], [L, r2 - 0.12], [L, r2], [0, r1]]):
+            q = {"cod": "G", "kind": m["asse"], "passo": 1, "t": 0.12, "z0": 0.0, "legno": True, "buchi": [], "forma": forma}
             if m["asse"] == "x":
                 q.update(x0=m["a1"], y0=cm + 0.06)
             else:

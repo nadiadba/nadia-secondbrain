@@ -8,8 +8,9 @@
 <path d="M 180.0 354.0 L 184.0 354.0 L 184.0 135.2 L 180.0 134.5 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 218.0 354.0 L 222.0 354.0 L 222.0 141.7 L 218.0 141.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 469.2 270.0 L 481.2 270.0 L 481.2 186.0 L 469.2 183.9 Z" fill="#555" stroke="#333" stroke-width="1"/>
-<path d="M 620.0 354.0 L 636.0 354.0 L 636.0 194.0 L 620.0 194.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 620.0 354.0 L 636.0 354.0 L 636.0 197.7 L 620.0 197.7 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 60.0 102.0 L 481.2 174.0 L 481.2 186.0 L 60.0 114.0 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
+<path d="M 481.2 174.0 L 620.0 197.7 L 620.0 198.5 L 481.2 174.8 Z" fill="#999" stroke="#333" stroke-width="1"/>
 <path d="M 222.0 266.0 L 373.6 266.0 L 373.6 258.0 L 222.0 258.0 Z" fill="#9cc0e8" stroke="#333" stroke-width="1"/>
 <line x1="55" y1="102.0" x2="65" y2="102.0" stroke="#1f1f1f" stroke-width="1.2"/>
 <text x="67" y="106.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+6,30</text>
@@ -17,8 +18,8 @@
 <text x="488.2" y="178.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+4,50</text>
 <line x1="368.6" y1="258.0" x2="378.6" y2="258.0" stroke="#1f1f1f" stroke-width="1.2"/>
 <text x="380.6" y="262.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+2,40</text>
-<line x1="631.0" y1="194.0" x2="641.0" y2="194.0" stroke="#1f1f1f" stroke-width="1.2"/>
-<text x="643.0" y="198.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+4,00 recinto</text>
+<line x1="631.0" y1="197.72649572649573" x2="641.0" y2="197.72649572649573" stroke="#1f1f1f" stroke-width="1.2"/>
+<text x="643.0" y="201.72649572649573" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+3,91 recinto sud</text>
 <line x1="71.0" y1="354.0" x2="81.0" y2="354.0" stroke="#1f1f1f" stroke-width="1.2"/>
 <text x="83.0" y="358.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">±0,00</text>
 <line x1="363.6" y1="258.0" x2="363.6" y2="165.89743589743588" stroke="#c62828" stroke-width="1.2" stroke-dasharray="4,3"/>
@@ -32,11 +33,16 @@
 <text x="750.0" y="166" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Spessore del tetto 0,30.</text>
 <text x="750.0" y="183" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">Nel punto più basso del soppalco</text>
 <text x="750.0" y="200" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">restano 2,26 m sopra la testa.</text>
+<text x="750.0" y="217" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444"></text>
+<text x="750.0" y="234" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">I muri del recinto a ovest e a est</text>
+<text x="750.0" y="251" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">proseguono la stessa inclinazione</text>
+<text x="750.0" y="268" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">(linea grigia sopra il patio)</text>
+<text x="750.0" y="285" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444">fino a 3,91 sul recinto sud.</text>
 <text x="28.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666">nord (camera)</text>
 <text x="636.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#666" text-anchor="end">sud (lago)</text>
 <text x="14" y="420" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">2. Sezione ovest-est (a 6,30 m dal filo nord): patio, soggiorno, cucina, ingresso</text>
 <line x1="28.0" y1="708.0" x2="820.0" y2="708.0" stroke="#333" stroke-width="1.5"/>
-<path d="M 60.0 708.0 L 76.0 708.0 L 76.0 548.0 L 60.0 548.0 Z" fill="#555" stroke="#333" stroke-width="1"/>
+<path d="M 60.0 708.0 L 76.0 708.0 L 76.0 499.1 L 60.0 499.1 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 232.0 708.0 L 244.0 708.0 L 244.0 511.1 L 232.0 511.1 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 492.0 620.0 L 496.0 620.0 L 496.0 511.1 L 492.0 511.1 Z" fill="#555" stroke="#333" stroke-width="1"/>
 <path d="M 620.0 708.0 L 636.0 708.0 L 636.0 511.1 L 620.0 511.1 Z" fill="#555" stroke="#333" stroke-width="1"/>
@@ -44,8 +50,8 @@
 <path d="M 232.0 511.1 L 636.0 511.1 L 636.0 499.1 L 232.0 499.1 Z" fill="#bbb" stroke="#333" stroke-width="1"/>
 <path d="M 636.0 604.0 L 706.0 604.0 L 706.0 598.0 L 636.0 598.0 Z" fill="#c9b49a" stroke="#333" stroke-width="1"/>
 <path d="M 340.4 620.0 L 492.0 620.0 L 492.0 612.0 L 340.4 612.0 Z" fill="#9cc0e8" stroke="#333" stroke-width="1"/>
-<line x1="55" y1="548.0" x2="65" y2="548.0" stroke="#1f1f1f" stroke-width="1.2"/>
-<text x="67" y="552.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+4,00 recinto</text>
+<line x1="55" y1="499.0769230769231" x2="65" y2="499.0769230769231" stroke="#1f1f1f" stroke-width="1.2"/>
+<text x="67" y="503.0769230769231" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+5,22 recinto</text>
 <line x1="227.0" y1="499.0769230769231" x2="237.0" y2="499.0769230769231" stroke="#1f1f1f" stroke-width="1.2"/>
 <text x="239.0" y="503.0769230769231" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f1f1f">+5,22</text>
 <line x1="247.39999999999998" y1="606.0" x2="257.4" y2="606.0" stroke="#1f1f1f" stroke-width="1.2"/>
