@@ -21,11 +21,15 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v2"
+VER = "v3"
 LEGNO = "#6d4c2f"
 
-# ---- il tetto: un'unica falda, alta a nord sopra le camere, che scende verso il lago ----------
-H_N, H_S, Y_S = 6.30, 4.50, 10.53     # estradosso sul filo nord e sul filo sud del soggiorno
+# ---- il tetto: alto a nord sopra le camere, scende verso il lago fino al filo sud della cucina
+# (Y_B) e nell'ultimo pezzo, sopra la fascia sud del soggiorno, risale come quello di Aalto ------
+H_N, Y_S = 6.30, 10.53                # estradosso sul filo nord; filo esterno sud del soggiorno
+K_GIU = (6.30 - 4.50) / 10.53         # pendenza della falda che scende (come prima)
+Y_B = 8.27                            # punto piu' basso: filo sud della cucina
+RISALITA = 0.65                       # come Aalto: +0,65 nell'ultimo pezzo (2,15 m da lui, 2,26 qui)
 SP_TETTO = 0.30
 
 
@@ -33,8 +37,13 @@ def f2(v):
     return ("%.2f" % v).replace(".", ",")
 
 
+def falda(y):
+    """La linea della falda che scende, prolungata (serve anche per il recinto)."""
+    return H_N - K_GIU * y
+
+
 def ze(y):
-    return H_N - (H_N - H_S) / Y_S * y
+    return falda(y) if y <= Y_B else falda(Y_B) + RISALITA / (Y_S - Y_B) * (y - Y_B)
 
 
 def zi(y):
@@ -136,7 +145,7 @@ TETTI_LEGNO = [(14.40, 2.24, 16.15, 8.12), (14.40, 8.12, 18.65, 14.34)]
 
 def rec(y):
     """Altezza del recinto: prosegue l'estradosso del tetto, fino al filo interno sud (14,00)."""
-    return ze(min(y, 14.0))
+    return falda(min(y, 14.0))
 
 
 RECINTO = rec(14.0)                    # recinto sud
@@ -296,7 +305,7 @@ def sezioni(path):
            '<rect width="100%" height="100%" fill="#ffffff"/>',
            f'<text x="14" y="26" {FONT} font-size="17" font-weight="bold" fill="#333">Le altezze: due sezioni della nuova casa</text>']
 
-    def blocco(oy, titolo, poligoni, quote, note, lx=-0.8, rx=19.0, sinistra="", destra="", altezze=()):
+    def blocco(oy, titolo, poligoni, quote, note, lx=-0.8, rx=19.0, sinistra="", destra="", altezze=(), linee=()):
         Pt = lambda u, z: (60 + u * s, oy - z * s)
         out.append(f'<text x="14" y="{oy - 7.2 * s:.0f}" {FONT} font-size="14" font-weight="bold" fill="#333">{titolo}</text>')
         a, b = Pt(lx, 0)
@@ -309,6 +318,10 @@ def sezioni(path):
             a, b = Pt(u, z)
             out.append(f'<line x1="{a - 5}" y1="{b}" x2="{a + 5}" y2="{b}" stroke="{col}" stroke-width="1.2"/>')
             out.append(f'<text x="{a + 7}" y="{b + 4}" {FONT} font-size="12" fill="{col}">{t}</text>')
+        for u1, z1, u2, z2 in linee:
+            a, b = Pt(u1, z1)
+            c, e = Pt(u2, z2)
+            out.append(f'<line x1="{a}" y1="{b}" x2="{c}" y2="{e}" stroke="#777" stroke-width="1.2" stroke-dasharray="6,4"/>')
         for u, za, zb, t in altezze:
             a, b = Pt(u, za)
             _, c = Pt(u, zb)
@@ -323,7 +336,7 @@ def sezioni(path):
 
     MW, MT, LG = "#555", "#bbb", "#9cc0e8"
     # 1. nord-sud a x = 9,00: camera, corridoio, soggiorno con il soppalco, patio, recinto sud
-    tetto = [(0, ze(0)), (Y_S, ze(Y_S)), (Y_S, zi(Y_S)), (0, zi(0))]
+    tetto = [(0, ze(0)), (Y_B, ze(Y_B)), (Y_S, ze(Y_S)), (Y_S, zi(Y_S)), (Y_B, zi(Y_B)), (0, zi(0))]
     blocco(7.6 * s + 50, "1. Sezione nord-sud (a 9 m dal filo ovest): la falda scende verso il lago",
            [([(0, 0), (0.40, 0), (0.40, 0.9), (0, 0.9)], MW), ([(0, 2.1), (0.40, 2.1), (0.40, zi(0)), (0, zi(0))], MW),
             ([(3.00, 0), (3.10, 0), (3.10, zi(3.10)), (3.00, zi(3.0))], MW),
@@ -331,15 +344,14 @@ def sezioni(path):
             ([(10.23, 2.1), (10.53, 2.1), (10.53, zi(10.53)), (10.23, zi(10.23))], MW),
             ([(14.00, 0), (14.40, 0), (14.40, RECINTO), (14.00, RECINTO)], MW),
             (tetto, MT),
-            ([(Y_S, ze(Y_S)), (14.0, ze(14.0)), (14.0, ze(14.0) - 0.02), (Y_S, ze(Y_S) - 0.02)], "#999"),
             ([(SOPP[1], SOPP_SOTTO), (SOPP[3], SOPP_SOTTO), (SOPP[3], SOPP_SOTTO + SOPP_SP), (SOPP[1], SOPP_SOTTO + SOPP_SP)], LG)],
-           [(0, ze(0), "+%s" % f2(ze(0)), NERO), (Y_S, ze(Y_S), "+%s" % f2(ze(Y_S)), NERO),
+           [(0, ze(0), "+%s" % f2(ze(0)), NERO), (Y_S, ze(Y_S), "+%s" % f2(ze(Y_S)), NERO), (Y_B, zi(Y_B), "+%s" % f2(ze(Y_B)), NERO),
             (SOPP[3], SOPP_SOTTO + SOPP_SP, "+%s" % f2(SOPP_SOTTO + SOPP_SP), NERO),
             (14.40, RECINTO, "+%s recinto sud" % f2(RECINTO), NERO), (0.40, 0, "±0,00", NERO)],
-           ["Il tetto è un'unica falda:", "alto %s sopra le camere," % f2(ze(0)), "scende fino a %s sul muro" % f2(ze(Y_S)),
-            "del soggiorno verso il patio.", "Spessore del tetto 0,30.", "Nel punto più basso del soppalco", "restano %s m sopra la testa." % f2(zi(SOPP[3]) - SOPP_SOTTO - SOPP_SP),
-            "", "I muri del recinto a ovest e a est", "proseguono la stessa inclinazione", "(linea grigia sopra il patio)", "fino a %s sul recinto sud." % f2(RECINTO)],
-           sinistra="nord (camera)", destra="sud (lago)",
+           ["Il tetto è alto %s sopra le camere," % f2(ze(0)), "scende fino a %s sul filo sud" % f2(ze(Y_B)),
+            "della cucina e nell'ultimo pezzo", "risale a %s, come quello di Aalto." % f2(ze(Y_S)), "Spessore del tetto 0,30.", "Nel punto più basso del soppalco", "restano %s m sopra la testa." % f2(zi(SOPP[3]) - SOPP_SOTTO - SOPP_SP),
+            "", "I muri del recinto a ovest e a est", "proseguono la falda che scende", "(tratteggio grigio sopra il patio)", "fino a %s sul recinto sud." % f2(RECINTO)],
+           sinistra="nord (camera)", destra="sud (lago)", linee=[(Y_S, rec(Y_S), 14.0, rec(14.0))],
            altezze=[(SOPP[3] - 0.25, SOPP_SOTTO + SOPP_SP, zi(SOPP[3] - 0.25), "%s sopra il soppalco" % f2(zi(SOPP[3]) - SOPP_SOTTO - SOPP_SP)),
                     (SOPP[3] - 0.25, 0, SOPP_SOTTO, "%s sotto" % f2(SOPP_SOTTO))])
     # 2. ovest-est a y = 6,30: patio, soggiorno con il soppalco, cucina, ingresso
@@ -367,6 +379,15 @@ def sezioni(path):
 # =====================================================================================
 # Pezzi per la pagina 3D (stessa forma dei pezzi del plastico di Aalto)
 # =====================================================================================
+def spigolo(m):
+    """Lato alto di un muro nord-sud sotto il tetto: [fine, (punto di cambio pendenza)], in coordinate del pezzo."""
+    L = m["a2"] - m["a1"]
+    out = [[L, zi(m["a2"]) - m["z0"]]]
+    if m["asse"] == "y" and m["a1"] < Y_B < m["a2"]:
+        out.append([Y_B - m["a1"], zi(Y_B) - m["z0"]])
+    return out
+
+
 def pezzi3d():
     out = []
     for m in MURI:
@@ -376,7 +397,8 @@ def pezzi3d():
             if m["asse"] == "x":
                 forma = [[0, 0], [L, 0], [L, zi(m["c1"]) - m["z0"]], [0, zi(m["c1"]) - m["z0"]]]
             else:
-                forma = [[0, 0], [L, 0], [L, zi(m["a2"]) - m["z0"]], [0, zi(m["a1"]) - m["z0"]]]
+                forma = [[0, 0], [L, 0]] + spigolo(m) + [[0, zi(m["a1"]) - m["z0"]]]
+                forma[2][1] = zi(m["a2"]) - m["z0"]
         else:
             h1 = top_at(m, m["c1"] if m["asse"] == "x" else m["a1"])
             h2 = top_at(m, m["c1"] if m["asse"] == "x" else m["a2"])
@@ -388,7 +410,7 @@ def pezzi3d():
                     fondo += [[u1, 0], [u1, z2], [u2, z2], [u2, 0]]
                 else:
                     buchi.append([u1, z1, u2, z2])
-            forma = fondo + [[L, 0], [L, h2], [0, h1]]
+            forma = fondo + [[L, 0], [L, h2]] + (spigolo(m)[1:] if m["top"] == "T" else []) + [[0, h1]]
         p = {"cod": m["nome"] or "muro", "kind": m["asse"], "passo": 1, "t": t, "z0": m["z0"], "forma": forma,
              "buchi": [] if m["z0"] else buchi, "legno": m["legno"]}
         if m["asse"] == "x":
