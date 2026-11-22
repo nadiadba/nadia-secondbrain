@@ -14,6 +14,8 @@ La casa che Alvar Aalto costruì per sé a Muuratsalo (1952-53). In questa pagin
 > Lezioni: [[02-aalto-casa-muuratsalo]] · [[03-muuratsalo-esercitazione]] · Materiale: [[ESERCIZIO 4.pdf|testo dell'esercizio 4]] · [[AALTO_SCHEDA CASA A MUURATSALO.pdf|scheda della casa]]
 >
 > Esercizio precedente: [[esercizio-3-casa-arzachena]] · [[esercizio-3-nuova-disposizione]]
+>
+> Nuova disposizione: [[esercizio-4-proposte-ingresso-angolo.pdf|quattro proposte con l'ingresso nell'angolo (PDF)]]
 
 ## Cosa chiede l'esercizio
 
@@ -23,7 +25,7 @@ Dal testo dell'esercizio e dalla lezione del 10 novembre:
 2. Disegnare le matrici geometriche della pianta in scala 1:200 su un A4.
 3. Disegnare lo schema pieni/vuoti in scala 1:200.
 4. Costruire il plastico in scala 1:100 a partire da pianta e sezioni: è quello di questa pagina. Il prof chiede di metterlo su un piano, senza il terreno, prendendo come riferimento il solaio. I volumi devono essere giusti e le finestre messe «con garbo»; i mattoni non servono.
-5. Riprogettare la casa in una nuova disposizione dentro lo stesso quadrato, con un vuoto della stessa superficie, in pianta e con un secondo plastico. Il recinto non si tocca e il soppalco dello studio resta con la stessa superficie (se cambi il tetto puoi spostarlo; sotto e sopra servono almeno 2,20 m). L'annesso degli ospiti si può lasciare fuori.
+5. Riprogettare la casa in una nuova disposizione dentro lo stesso quadrato, con un vuoto della stessa superficie, in pianta e con un secondo plastico. Il recinto non si tocca e il soppalco dello studio resta con la stessa superficie (se cambi il tetto puoi spostarlo; sotto e sopra servono almeno 2,20 m). L'annesso degli ospiti si può lasciare fuori. Quattro proposte già controllate, con l'ingresso principale in un angolo: [[esercizio-4-proposte-ingresso-angolo.pdf|PDF delle proposte]].
 
 Da consegnare: i 2 plastici, 4 foto (dall'alto e d'insieme) e i disegni su fogli A4 con nome, cognome e corso.
 
