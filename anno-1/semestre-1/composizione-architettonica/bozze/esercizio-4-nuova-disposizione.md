@@ -40,7 +40,7 @@ Sul perimetro il profilo si legge così: il muro del recinto a est parte da 4,89
 
 ## Porte e finestre
 
-La finestra d'angolo del soggiorno è rimasta come l'hai disegnata tu: 2,50 m sul muro ovest e 2,50 m sul muro sud, senza pilastro nell'angolo. Il davanzale è a 0,50 m su tutti e due i lati, così ci si può sedere, come sulla panchetta della finestra di Aalto verso il lago; la finestra arriva a 2,10 m. Le altre le ho sistemate io:
+La finestra d'angolo del soggiorno è rimasta come l'hai disegnata tu: 2,50 m sul muro ovest e 2,50 m sul muro sud, senza pilastro nell'angolo. Il davanzale è a 0,90 m su tutti e due i lati e la finestra arriva a 2,60 m: è alta 1,70 m, più delle altre finestre della casa. Le altre le ho sistemate io:
 
 - camere e guardaroba: una finestra a nord ciascuna; la camera grande ne ha anche una larga sul patio;
 - bagno: una finestra alta a nord;
