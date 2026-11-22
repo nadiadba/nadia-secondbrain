@@ -21,7 +21,7 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v5"
+VER = "v6"
 LEGNO = "#6d4c2f"
 
 # ---- il tetto: alto a nord sopra le camere, scende verso il lago. Come in Aalto il profilo
@@ -106,8 +106,8 @@ def V(s1, s2, z2=2.20):
 
 MURI = [
     # perimetro della casa e recinto (spessore 0,40)
-    M("x", 0, 14.40, 0, 0.40, ap=[F(2.35, 3.30, 1.1, 2.1), F(6.10, 7.05, 1.1, 2.1), F(9.00, 10.20, 0.9, 2.1),
-                                 F(12.25, 13.20, 1.4, 2.1)], top="F", nome="nord"),
+    M("x", 0, 14.40, 0, 0.40, ap=[F(2.30, 3.50, 0.9, 2.1), F(6.00, 7.20, 0.9, 2.1), F(9.00, 10.20, 0.9, 2.1),
+                                 F(12.05, 13.25, 0.9, 2.1)], top="F", nome="nord"),
     M("y", 0.40, 3.20, 0, 0.40, top="F", nome="ovest casa"),
     M("y", 3.20, 9.30, 0, 0.40, top="E", nome="recinto ovest"),
     M("y", 9.30, 11.75, 0, 0.40, top=MURETTO, pianta="muretto", nome="graticcio ovest"),
@@ -279,7 +279,7 @@ def pianta_quotata(path):
     d.text(3.9, 15.25, "graticcio", "#333", 11)
     d.text(-0.75, 13.1, "porta del patio", "#333", 11, rot=-90)
     # quote esterne
-    d.catena([0, 2.35, 3.30, 6.10, 7.05, 9.00, 10.20, 12.25, 13.20, 14.40], None, "x", -0.55, [BLU] * 9)
+    d.catena([0, 2.30, 3.50, 6.00, 7.20, 9.00, 10.20, 12.05, 13.25, 14.40], None, "x", -0.55, [BLU] * 9)
     d.catena([0, 14.40], None, "x", -1.25, [NERO])
     d.catena([0, 2.65, 5.10, 14.40], None, "x", 15.85, [BLU] * 3)
     d.catena([0, 3.20, 9.30, 11.75, 14.40], None, "y", -1.45, [BLU] * 4)
