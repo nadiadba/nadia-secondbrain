@@ -862,7 +862,7 @@ def schema_taglio_nadia(path_json, path):
 
 def pezzi_quotati(P, path, codici=None, colore=("#f6c9c9", None)):
     """I pezzi con finestre, porte o bordo inclinato, ognuno con le sue quote, come in pianta."""
-    codici = codici or ["M02", "M10", "M04", "M09", "M03", "M06", "M07", "M25", "M26", "M32"]
+    codici = codici or ["M02", "M10", "M04", "M09", "M03", "M06", "M07", "M25", "M26", "M11", "M32"]
     colore = (colore[0], colore[1] or ROSSO)
     sel = [p for c in codici for p in P if p.cod == c]
     s = 34.0
