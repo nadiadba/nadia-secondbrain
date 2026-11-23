@@ -15,7 +15,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v10"
+VER = "v11"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -32,10 +32,11 @@ def h_tetto(x):
 
 
 def h_ala(x):
-    """Estradosso del tetto dell'ala delle camere: da 3,50 sul patio (foto del patio e sezione
-    sul patio) scende fino alla stessa linea bassa della fascia nord (2,60 a 12,25) e poi risale a
-    3,25 sul filo est, come la fascia nord (le foto dall'alto lo mostrano)."""
-    return 3.50 - 0.90 / 2.80 * (x - 9.45) if x <= 12.25 else 2.60 + 0.65 / 2.15 * (x - 12.25)
+    """Estradosso del tetto dell'ala delle camere: sta sullo stesso piano del tetto della fascia
+    nord (scende fino a 2,60 a 12,25 e poi risale a 3,25 sul filo est), cosi' M32 e M33 coprono
+    tutte e due le ali con un pezzo solo ciascuno (scelta di Nadia). Sul patio viene 3,39 (la foto
+    del patio dava circa 3,50: siamo dentro il margine della stima)."""
+    return h_tetto(x)
 
 
 # =====================================================================================
@@ -198,6 +199,10 @@ def pezzi():
     P.append(muro_x("M13", "Parete sud della cucina (porta)", 6, 9.95, 13.90, 3.35, 0, forma=sotto_nord(9.95, 13.90),
                     buchi=[(12.10, 0, 12.90, 1.90)]))
     P.append(muro_x("M15", "Parete nord del bagno", 6, 11.55, 13.90, 4.70, 0, forma=sotto_nord(11.55, 13.90)))
+    # la parete ovest del bagno: e' quasi tutta porta (la porta, alta 1,9 sotto il tetto basso, e
+    # un pezzetto di muro di 2 mm verso sud)
+    P.append(muro_y("M39", "Parete ovest del bagno (porta)", 6, 5.20, 6.20, 11.55, h_ala(12.05) - T,
+                    buchi=[(5.20, 0, 6.00, 1.90)]))
     P.append(muro_x("M16", "Parete tra bagno e guardaroba", 6, 10.75, 13.90, 6.20, 0, forma=sotto_ala(10.75, 13.90)))
     P.append(muro_y("M17", "Parete del corridoio (porte del guardaroba e della camera)", 6, 6.70, 10.95, 10.75,
                     h_ala(11.25) - T, buchi=[(6.70, 0, 7.30, PD), (9.20, 0, 9.75, PD)]))
@@ -223,20 +228,18 @@ def pezzi():
     la = math.hypot(12.25, 3.45)
     lb = math.hypot(2.15, 0.65)
     lw = math.hypot(2.80, 0.90)
-    P.append(piano("M32", "Tetto grande (falda ovest)", 10,
-                   [(0, 0, hN(0)), (12.25, 0, hN(12.25)), (12.25, 5.0, hN(12.25)), (0, 5.0, hN(0))],
-                   (round(la, 2), 5.0), "Scende da ovest a est fino alla linea più bassa (a 12,25 cm)."))
-    P.append(piano("M33", "Tetto piccolo (falda est)", 10,
-                   [(12.25, 0, hN(12.25)), (14.40, 0, hN(14.40)), (14.40, 5.0, hN(14.40)), (12.25, 5.0, hN(12.25))],
-                   (round(lb, 2), 5.0), "Risale verso est: con M32 fa la «farfalla» della sezione."))
-    P.append(piano("M34", "Tetto delle camere (falda ovest)", 10,
-                   [(9.45, 5.0, h_ala(9.45) - T), (12.25, 5.0, h_ala(12.25) - T),
-                    (12.25, 13.90, h_ala(12.25) - T), (9.45, 13.90, h_ala(9.45) - T)],
-                   (round(lw, 2), 8.90), "Scende dal patio verso est fino alla linea più bassa (a 12,25 cm)."))
-    P.append(piano("M38", "Tetto delle camere (falda est)", 10,
-                   [(12.25, 5.0, h_ala(12.25) - T), (14.40, 5.0, h_ala(14.40) - T),
-                    (14.40, 13.90, h_ala(14.40) - T), (12.25, 13.90, h_ala(12.25) - T)],
-                   (round(lb, 2), 8.90), "Risale verso est, come M33 sulla fascia nord."))
+    # un pezzo per falda, che copre la fascia nord e l'ala delle camere (scelta di Nadia)
+    ka = la / 12.25                       # allungamento lungo la falda che scende
+    m32 = piano("M32", "Tetto, falda che scende (fascia nord e camere, a L)", 10,
+                [(0, 0, hN(0)), (12.25, 0, hN(12.25)), (12.25, 13.90, hN(12.25)), (9.45, 13.90, hN(9.45)),
+                 (9.45, 5.0, hN(9.45)), (0, 5.0, hN(0))], (round(la, 2), 13.90),
+                "Un pezzo a L: scende da ovest a est fino alla linea più bassa (a 12,25 cm); il braccio lungo copre le camere.")
+    m32.forma = [(0, 0), (round(la, 3), 0), (round(la, 3), 13.90), (round(9.45 * ka, 3), 13.90),
+                 (round(9.45 * ka, 3), 5.0), (0, 5.0)]
+    P.append(m32)
+    P.append(piano("M33", "Tetto, falda che risale (fascia nord e camere)", 10,
+                   [(12.25, 0, hN(12.25)), (14.40, 0, hN(14.40)), (14.40, 13.90, hN(14.40)), (12.25, 13.90, hN(12.25))],
+                   (round(lb, 2), 13.90), "Risale verso est per tutta la lunghezza della casa: con M32 fa la «farfalla»."))
     P.append(piano("M35", "Tetto dell'ingresso", 10,
                    [(14.40, -1.30, 2.60), (16.10, -1.30, 2.60), (16.10, 5.20, 2.60), (14.40, 5.20, 2.60)], (1.70, 6.50)))
     P.append(piano("M36", "Tetto dell'annesso", 10,
@@ -401,8 +404,15 @@ def vista3d_png(tutti, passo, titolo, path, scala=52, ss=2):
         # profondita' del piano della faccia in ogni pixel: p = X R - Y U + t V
         X = (xx[y0:y1 + 1, x0:x1 + 1] - ox) / k + minx
         Y = (yy[y0:y1 + 1, x0:x1 + 1] - oy) / k + miny
-        c = dot(n, verts[0])
-        t = (c - X * dot(n, R) + Y * dot(n, U)) / dot(n, V)
+        # normale vera del piano della faccia (metodo di Newell): i tetti sono inclinati
+        nx = sum((verts[j][1] - verts[(j + 1) % len(verts)][1]) * (verts[j][2] + verts[(j + 1) % len(verts)][2]) for j in range(len(verts)))
+        ny = sum((verts[j][2] - verts[(j + 1) % len(verts)][2]) * (verts[j][0] + verts[(j + 1) % len(verts)][0]) for j in range(len(verts)))
+        nz = sum((verts[j][0] - verts[(j + 1) % len(verts)][0]) * (verts[j][1] + verts[(j + 1) % len(verts)][1]) for j in range(len(verts)))
+        nv = (nx, ny, nz)
+        if abs(dot(nv, V)) < 1e-9:
+            continue
+        c = dot(nv, verts[0])
+        t = (c - X * dot(nv, R) + Y * dot(nv, U)) / dot(nv, V)
         zb = zbuf[y0:y1 + 1, x0:x1 + 1]
         ok = mask & (t > zb + 1e-4)
         zb[ok] = t[ok]
@@ -1115,13 +1125,13 @@ def sezioni(path):
     # 2. ala delle camere e recinto ovest
     blocco(2 * 7.3 * s + 90, "2. Patio e ala delle camere (sezione sul patio della scheda)",
            [([(0, 0), (0.40, 0), (0.40, 6.60), (0, 6.60)], "#555"),
-            ([(9.45, 0), (9.75, 0), (9.75, 3.00), (9.45, 3.00)], "#555"),
+            ([(9.45, 0), (9.75, 0), (9.75, h_ala(9.45) - 0.5), (9.45, h_ala(9.45) - 0.5)], "#555"),
             ([(14.10, 0), (14.40, 0), (14.40, 2.75), (14.10, 2.75)], "#555"),
-            ([(9.45, 3.00), (12.25, 2.10), (14.40, 2.75), (14.40, 3.25), (12.25, 2.60), (9.45, 3.50)], "#bbb")],
-           [(0, 6.60, "+6,60 recinto ovest (muretto 1,80 nel tratto del graticcio)", BLU), (9.45, 3.50, "+3,50", BLU),
-            (14.40, 3.25, "+3,25", BLU), (12.25, 2.10, "+2,10 / +2,60", BLU), (9.75, 3.00, "+3,00", BLU)],
+            ([(9.45, h_ala(9.45) - 0.5), (12.25, 2.10), (14.40, 2.75), (14.40, 3.25), (12.25, 2.60), (9.45, h_ala(9.45))], "#bbb")],
+           [(0, 6.60, "+6,60 recinto ovest (muretto 1,80 nel tratto del graticcio)", BLU), (9.45, h_ala(9.45), "+" + num(h_ala(9.45)), BLU),
+            (14.40, 3.25, "+3,25", BLU), (12.25, 2.10, "+2,10 / +2,60", BLU), (9.75, h_ala(9.45) - 0.5, "+" + num(h_ala(9.45) - 0.5), BLU)],
            ["Recinto sud (dalla foto del patio):", "pezzo ovest da 6,60 nell'angolo", "a 5,30 verso l'apertura;", "pezzo est da 4,25 verso",
-            "l'apertura a 3,50 verso le camere.", "Anche il tetto delle camere", "scende e poi risale verso est."])
+            "l'apertura a %s verso le camere." % num(h_ala(9.45)), "Il tetto delle camere sta sullo", "stesso piano di quello della fascia nord."])
     out.append("</svg>")
     with open(path, "w") as fh:
         fh.write("\n".join(out))
