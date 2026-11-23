@@ -15,7 +15,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v18"
+VER = "v19"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -179,7 +179,7 @@ def pezzi():
         g.z0 = zt
         P.append(g)
     # --- 4. l'ala delle camere
-    P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, h_tetto(9.95),
+    P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, h_ala(9.45) - T,
                     buchi=[(6.40, 0.45, 8.50, 2.10), (10.95, 0, 11.55, 2.20)]))
     # --- 5. il muro dell'atelier sul patio e il camino
     P.append(muro_x("M10", "Muro tra atelier e patio", 5, 0.5, 9.95, 4.5, 0,
@@ -187,10 +187,10 @@ def pezzi():
                     forma=[(0, 0), (4.55, 0), (4.55, 0.50), (1.70, 0.50), (1.70, 2.10), (5.60, 2.10), (5.60, 0),
                            (9.45, 0), (9.45, h_tetto(9.95)), (0, h_tetto(0.5))],
                     nota="Il bordo in alto segue il filo di sopra del tetto: il tetto sta dentro, contro la sua faccia interna."))
-    # M11 va da M02 a M10, alto fino al filo di sopra del tetto anche sopra la porta (3,6 - 4,5)
-    P.append(muro_y("M11", "Muro tra pranzo e cucina (porta fino a M10)", 5, 0.5, 4.50, 9.45, h_tetto(9.95),
+    # M11 va da M02 a M10, alto come M09 (sotto il tetto, che ci si appoggia sopra) anche sopra la porta (3,6 - 4,5)
+    P.append(muro_y("M11", "Muro tra pranzo e cucina (porta fino a M10)", 5, 0.5, 4.50, 9.45, h_ala(9.45) - T,
                     buchi=[(3.60, 0, 4.50, 2.10)],
-                    nota="Alto 3,25 per tutta la lunghezza, anche sopra la porta, che arriva fino a M10."))
+                    nota="Alto 2,89 per tutta la lunghezza, anche sopra la porta, che arriva fino a M10: il tetto ci si appoggia sopra."))
     # --- 6. le pareti interne
     # i tramezzi arrivano sotto il tetto (bordo alto inclinato come il tetto); le porte sono buchi
     # alti 2,1 dentro un muro unico (scelta di Nadia)
@@ -206,13 +206,8 @@ def pezzi():
             pts.append((12.25 - x1, h_ala(12.25) - T))
         return pts + [(0, h_ala(x1) - T)]
     PD = 2.10
-    def sopra_nord(x1, x2):
-        pts = [(0, 0), (x2 - x1, 0), (x2 - x1, h_tetto(x2))]
-        if x1 < 12.25 < x2:
-            pts.append((12.25 - x1, h_tetto(12.25)))
-        return pts + [(0, h_tetto(x1))]
-    P.append(muro_x("M13", "Parete sud della cucina (porta), fino al filo di sopra del tetto", 6, 9.95, 13.90, 3.10, 0,
-                    forma=sopra_nord(9.95, 13.90), buchi=[(12.10, 0, 12.90, PD)]))
+    P.append(muro_x("M13", "Parete sud della cucina (porta)", 6, 9.95, 13.90, 3.10, 0,
+                    forma=sotto_nord(9.95, 13.90), buchi=[(12.10, 0, 12.90, 1.90)]))
     P.append(muro_x("M15", "Parete nord del bagno", 6, 11.55, 13.90, 4.70, 0, forma=sotto_nord(11.55, 13.90)))
     # la parete ovest del bagno: e' quasi tutta porta (la porta, alta 1,9 sotto il tetto basso, e
     # un pezzetto di muro di 2 mm verso sud)
@@ -245,23 +240,19 @@ def pezzi():
     lw = math.hypot(2.80, 0.90)
     # un pezzo per falda, che copre la fascia nord e l'ala delle camere (scelta di Nadia)
     ka = la / 12.25                       # allungamento lungo la falda che scende
-    # M11 e M13 arrivano al filo di sopra del tetto: il tetto non ci passa sopra e si divide in cinque pezzi
-    # (atelier; cucina e camere, ognuna con la falda che scende e quella che risale)
-    P.append(piano("M32", "Tetto dell'atelier (falda che scende)", 10,
-                   [(0.5, 0.5, hN(0.5)), (9.45, 0.5, hN(9.45)), (9.45, 4.5, hN(9.45)), (0.5, 4.5, hN(0.5))],
-                   (round(8.95 * ka, 2), 4.0), "Sta dentro M02, M03, M10 e M11, contro le loro facce interne."))
-    P.append(piano("M38", "Tetto della cucina (falda che scende)", 10,
-                   [(9.95, 0.5, hN(9.95)), (12.25, 0.5, hN(12.25)), (12.25, 3.1, hN(12.25)), (9.95, 3.1, hN(9.95))],
-                   (round(2.30 * ka, 2), 2.6), "Tra M11, M02 e M13; con M40 fa la «farfalla» della cucina."))
-    P.append(piano("M40", "Tetto della cucina (falda che risale)", 10,
-                   [(12.25, 0.5, hN(12.25)), (13.90, 0.5, hN(13.90)), (13.90, 3.1, hN(13.90)), (12.25, 3.1, hN(12.25))],
-                   (round(lb, 2), 2.6), "Risale verso est, contro M04."))
-    P.append(piano("M34", "Tetto delle camere e del disimpegno (falda che scende)", 10,
-                   [(9.95, 3.6, hN(9.95)), (12.25, 3.6, hN(12.25)), (12.25, 13.90, hN(12.25)), (9.95, 13.90, hN(9.95))],
-                   (round(2.30 * ka, 2), 10.3), "Tra M13, M09, M10 e M07."))
-    P.append(piano("M33", "Tetto delle camere e del disimpegno (falda che risale)", 10,
-                   [(12.25, 3.6, hN(12.25)), (13.90, 3.6, hN(13.90)), (13.90, 13.90, hN(13.90)), (12.25, 13.90, hN(12.25))],
-                   (round(lb, 2), 10.3), "Risale verso est, contro M04: con M34 fa la «farfalla»."))
+    # il tetto si appoggia sopra M09, M11, M13 e le pareti interne, e sta dentro i muri del perimetro
+    # (M02, M03, M04, M07, M10): due pezzi, la falda che scende (a L) e quella che risale
+    m32 = piano("M32", "Tetto, falda che scende (fascia nord e camere, a L)", 10,
+                [(x, y, hN(x)) for x, y in [(0.5, 0.5), (12.25, 0.5), (12.25, 13.90), (9.45, 13.90),
+                                            (9.45, 5.0), (9.95, 5.0), (9.95, 4.5), (0.5, 4.5)]],
+                (round(11.75 * ka, 2), 13.40),
+                "Un pezzo a L: scende da ovest a est fino alla linea più bassa (a 12,25 cm); il braccio lungo copre le camere. Si appoggia sopra M09, M11, M13 e le pareti interne.")
+    m32.forma = [(round(a * ka, 3), b) for a, b in
+                 [(0, 0), (11.75, 0), (11.75, 13.40), (8.95, 13.40), (8.95, 4.50), (9.45, 4.50), (9.45, 4.0), (0, 4.0)]]
+    P.append(m32)
+    P.append(piano("M33", "Tetto, falda che risale (fascia nord e camere)", 10,
+                   [(12.25, 0.5, hN(12.25)), (13.90, 0.5, hN(13.90)), (13.90, 13.90, hN(13.90)), (12.25, 13.90, hN(12.25))],
+                   (round(lb, 2), 13.40), "Risale verso est per tutta la lunghezza della casa: con M32 fa la «farfalla»."))
     P.append(piano("M35", "Tetto dell'ingresso", 10,
                    [(14.40, -1.30, 2.60), (16.10, -1.30, 2.60), (16.10, 5.20, 2.60), (14.40, 5.20, 2.60)], (1.70, 6.50)))
     P.append(piano("M36", "Tetto dell'annesso", 10,
