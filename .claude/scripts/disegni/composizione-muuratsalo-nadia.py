@@ -21,7 +21,7 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v8"
+VER = "v9"
 LEGNO = "#6d4c2f"
 
 # ---- il tetto: alto a nord sopra le camere, scende verso il lago. Come in Aalto il profilo
@@ -575,8 +575,10 @@ def pezzi_progetto():
     P.append(porte_di(mk("S04", "Muro est, casa e recinto (scende e poi risale; porta dell'ingresso)", 2, "y", 13.9, 0.5,
                          muro_ns(0.5, 14.40, zu, porte=[(2.80, 3.90, 2.2)])), [(2.80, 3.90, 2.2)], 0.5))
     # --- 3. il recinto del patio
-    P.append(mk("S05", "Recinto sud, a est della porta", 3, "x", 7.55, 13.9, muro_eo(7.55, 13.90, zu(14.15))))
-    P.append(mk("S06", "Muretto sotto il graticcio (sud)", 3, "x", 2.65, 13.9, muro_eo(2.65, 7.55, MURETTO)))
+    # un pezzo solo: il muretto sotto il graticcio (a ovest, alto 1,8) e il recinto (a est)
+    hr = zu(14.15)
+    P.append(mk("S05", "Recinto sud: muretto sotto il graticcio a ovest, recinto a est (un pezzo)", 3, "x", 2.65, 13.9,
+                ([[0, 0], [11.25, 0], [11.25, hr], [4.9, hr], [4.9, MURETTO], [0, MURETTO]], [])))
     # --- 4. i muri della casa sul patio
     P.append(mk("S07", "Camera grande, muro sul patio (finestra)", 4, "x", 0.5, 2.7,
                 muro_eo(0.5, 4.30, zu(2.95), finestre=[(1.40, 3.40, 0.9, 2.1)])))
@@ -584,9 +586,11 @@ def pezzi_progetto():
                          muro_ns(2.70, 10.53, zu, porte=[(3.13, 3.93, 2.1)], finestre=[(7.88, 10.53, 0.9, 2.1)])), [(3.13, 3.93, 2.1)], 2.7))
     P.append(porte_di(mk("S09", "Soggiorno, muro sud (finestra d'angolo, portafinestra)", 4, "x", 4.8, 10.03,
                          muro_eo(4.80, 11.00, zu(10.28), porte=[(8.30, 9.50, 2.1)], finestre=[(4.80, 6.95, 0.9, 2.1)])), [(8.30, 9.50, 2.1)], 4.8))
-    P.append(mk("S10", "Soggiorno, muro est sul patio", 4, "y", 10.5, 8.27, muro_ns(8.27, 10.03, zu)))
-    P.append(mk("S11", "Cucina, muro sul patio (finestra)", 4, "x", 10.5, 7.77,
-                muro_eo(10.50, 13.90, zu(8.02), finestre=[(11.60, 13.20, 1.0, 2.1)])))
+    # S10 e' un pezzo solo: muro est del soggiorno sul patio e parete tra soggiorno e cucina (con il varco)
+    P.append(porte_di(mk("S10", "Soggiorno, muro est sul patio e parete verso la cucina (varco)", 4, "y", 10.5, 4.25,
+                         muro_ns(4.25, 10.03, zu, porte=[(5.70, 6.80, 2.2)])), [(5.70, 6.80, 2.2)], 4.25))
+    P.append(mk("S11", "Cucina, muro sul patio (finestra)", 4, "x", 11.0, 7.77,
+                muro_eo(11.00, 13.90, zu(8.02), finestre=[(11.60, 13.20, 1.0, 2.1)])))
     # --- 5. le pareti interne (sotto il tetto, con le porte come buchi)
     P.append(mk("S12", "Parete camera grande / guardaroba", 5, "y", 5.12, 0.5, muro_ns(0.5, 2.80, zu)))
     P.append(mk("S13", "Parete guardaroba / camera", 5, "y", 7.57, 0.5, muro_ns(0.5, 2.80, zu)))
@@ -599,11 +603,9 @@ def pezzi_progetto():
     P.append(porte_di(mk("S17", "Parete corridoio e disimpegno / soggiorno e cucina (varco, porta)", 5, "x", 4.8, 3.75,
                          muro_eo(4.80, 13.90, zu(4.0), porte=[(5.10, 6.30, 2.2), (12.50, 13.30, 2.1)])),
                       [(5.10, 6.30, 2.2), (12.50, 13.30, 2.1)], 4.8))
-    P.append(porte_di(mk("S18", "Parete soggiorno / cucina (varco)", 5, "y", 10.6, 4.25,
-                         muro_ns(4.25, 7.77, zu, porte=[(5.70, 6.80, 2.2)])), [(5.70, 6.80, 2.2)], 4.25))
     # --- 6. il soppalco (il piano di sopra sta a +2,40)
     P.append(X.piano("S19", "Soppalco dello studio (piano di sopra a 2,4 cm)", 6,
-                     [(6.81, 4.25, 1.9), (10.60, 4.25, 1.9), (10.60, 8.04, 1.9), (6.81, 8.04, 1.9)], (3.79, 3.79)))
+                     [(6.71, 4.25, 1.9), (10.50, 4.25, 1.9), (10.50, 8.04, 1.9), (6.71, 8.04, 1.9)], (3.79, 3.79)))
     # --- 7. l'ingresso e l'annesso degli ospiti (in legno)
     P.append(porte_di(mk("S20", "Ingresso in legno, muro nord (porta)", 7, "x", 14.4, 2.24,
                          muro_eo(14.40, 16.15, 2.60, porte=[(14.85, 15.85, 2.1)])), [(14.85, 15.85, 2.1)], 14.4))
@@ -655,7 +657,7 @@ def passi_png():
 
 def pezzi_quotati_s():
     P = pezzi_progetto()
-    cod = ["S02", "S03", "S04", "S07", "S08", "S09", "S11", "S15", "S16", "S17", "S18", "S22"]
+    cod = ["S02", "S03", "S04", "S05", "S07", "S08", "S09", "S10", "S11", "S15", "S16", "S17", "S22"]
     aalto.pezzi_quotati(P, OUT + "muuratsalo-nadia-%s-4-pezzi-quotati.svg" % VER, codici=cod, colore=("#c4dcf2", "#2f5f8f"))
 
 
