@@ -15,7 +15,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v16"
+VER = "v17"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -187,7 +187,11 @@ def pezzi():
                     forma=[(0, 0), (4.55, 0), (4.55, 0.50), (1.70, 0.50), (1.70, 2.10), (5.60, 2.10), (5.60, 0),
                            (9.45, 0), (9.45, h_tetto(9.95)), (0, h_tetto(0.5))],
                     nota="Il bordo in alto segue il filo di sopra del tetto: il tetto sta dentro, contro la sua faccia interna."))
-    P.append(muro_y("M11", "Muro tra pranzo e cucina", 5, 0.5, 3.60, 9.45, h_tetto(9.95)))
+    # M11 va da M02 a M10: sopra la porta (3,6 - 4,5) c'e' l'architrave, che tocca M10 e arriva sotto il tetto
+    h11 = h_tetto(9.95)
+    P.append(muro_y("M11", "Muro tra pranzo e cucina (porta e architrave fino a M10)", 5, 0.5, 4.50, 9.45, h11,
+                    forma=[(0, 0), (3.1, 0), (3.1, 2.1), (4.0, 2.1), (4.0, h11 - T), (3.1, h11 - T), (3.1, h11), (0, h11)],
+                    nota="Alto fino al filo di sopra del tetto (3,25) tra M02 e la porta; sopra la porta l'architrave arriva a 2,75, sotto il tetto."))
     # --- 6. le pareti interne
     # i tramezzi arrivano sotto il tetto (bordo alto inclinato come il tetto); le porte sono buchi
     # alti 2,1 dentro un muro unico (scelta di Nadia)
@@ -203,18 +207,18 @@ def pezzi():
             pts.append((12.25 - x1, h_ala(12.25) - T))
         return pts + [(0, h_ala(x1) - T)]
     PD = 2.10
-    P.append(muro_x("M13", "Parete sud della cucina (porta)", 6, 9.95, 13.90, 3.35, 0, forma=sotto_nord(9.95, 13.90),
+    P.append(muro_x("M13", "Parete sud della cucina (porta)", 6, 9.95, 13.90, 3.10, 0, forma=sotto_nord(9.95, 13.90),
                     buchi=[(12.10, 0, 12.90, 1.90)]))
     P.append(muro_x("M15", "Parete nord del bagno", 6, 11.55, 13.90, 4.70, 0, forma=sotto_nord(11.55, 13.90)))
     # la parete ovest del bagno: e' quasi tutta porta (la porta, alta 1,9 sotto il tetto basso, e
     # un pezzetto di muro di 2 mm verso sud)
     P.append(muro_y("M39", "Parete ovest del bagno (porta)", 6, 5.20, 6.20, 11.55, h_ala(12.05) - T,
                     buchi=[(5.20, 0, 6.00, 1.90)]))
-    P.append(muro_x("M16", "Parete tra bagno e guardaroba", 6, 10.75, 13.90, 6.20, 0, forma=sotto_ala(10.75, 13.90)))
-    P.append(muro_y("M17", "Parete del corridoio (porte del guardaroba e della camera)", 6, 6.70, 10.95, 10.75,
+    P.append(muro_x("M16", "Parete tra bagno e guardaroba", 6, 11.25, 13.90, 6.20, 0, forma=sotto_ala(11.25, 13.90)))
+    P.append(muro_y("M17", "Parete del corridoio (porte del guardaroba e della camera)", 6, 6.20, 11.45, 10.75,
                     h_ala(11.25) - T, buchi=[(6.70, 0, 7.30, PD), (9.20, 0, 9.75, PD)]))
     P.append(muro_x("M19", "Parete tra le due camere", 6, 11.25, 13.90, 8.15, 0, forma=sotto_ala(11.25, 13.90)))
-    P.append(muro_x("M20", "Parete della camera sud", 6, 10.75, 13.90, 10.95, 0, forma=sotto_ala(10.75, 13.90)))
+    P.append(muro_x("M20", "Parete della camera sud", 6, 11.25, 13.90, 10.95, 0, forma=sotto_ala(11.25, 13.90)))
     # --- 7. il soppalco
     P.append(piano("M21", "Soppalco dello studio", 7,
                    [(0.5, 0.5, 2.35), (3.70, 0.5, 2.35), (3.70, 4.5, 2.35), (0.5, 4.5, 2.35)], (3.20, 4.00),
