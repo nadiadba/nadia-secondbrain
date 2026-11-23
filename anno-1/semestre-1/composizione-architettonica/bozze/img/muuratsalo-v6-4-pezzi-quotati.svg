@@ -100,7 +100,7 @@
 <text x="1037.3" y="220.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,75</text>
 <text x="704.0" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,41</text>
 <text x="20" y="424.7" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">M04  Muro est</text>
-<path d="M 70.0 538.2 L 525.6 538.2 L 525.6 466.8 L 223.0 466.8 L 223.0 444.7 L 70.0 444.7 Z M 105.7 500.8 L 138.0 500.8 L 138.0 466.8 L 105.7 466.8 Z M 175.4 538.2 L 212.8 538.2 L 212.8 463.4 L 175.4 463.4 Z M 267.2 507.6 L 299.5 507.6 L 299.5 477.0 L 267.2 477.0 Z M 355.6 507.6 L 387.9 507.6 L 387.9 477.0 L 355.6 477.0 Z M 444.0 507.6 L 476.3 507.6 L 476.3 477.0 L 444.0 477.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.5"/>
+<path d="M 70.0 538.2 L 525.6 538.2 L 525.6 444.7 L 70.0 444.7 Z M 105.7 500.8 L 138.0 500.8 L 138.0 466.8 L 105.7 466.8 Z M 175.4 538.2 L 212.8 538.2 L 212.8 463.4 L 175.4 463.4 Z M 267.2 507.6 L 299.5 507.6 L 299.5 477.0 L 267.2 477.0 Z M 355.6 507.6 L 387.9 507.6 L 387.9 477.0 L 355.6 477.0 Z M 444.0 507.6 L 476.3 507.6 L 476.3 477.0 L 444.0 477.0 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.5"/>
 <line x1="70.0" y1="564.2" x2="105.7" y2="564.2" stroke="#888" stroke-width="0.8"/>
 <text x="87.8" y="559.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,05</text>
 <line x1="105.7" y1="564.2" x2="138.0" y2="564.2" stroke="#888" stroke-width="0.8"/>
@@ -109,10 +109,8 @@
 <text x="156.7" y="559.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,1</text>
 <line x1="175.4" y1="564.2" x2="212.8" y2="564.2" stroke="#888" stroke-width="0.8"/>
 <text x="194.1" y="559.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,1</text>
-<line x1="212.8" y1="564.2" x2="223.0" y2="564.2" stroke="#888" stroke-width="0.8"/>
-<text x="217.9" y="579.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,3</text>
-<line x1="223.0" y1="564.2" x2="267.2" y2="564.2" stroke="#888" stroke-width="0.8"/>
-<text x="245.1" y="559.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,3</text>
+<line x1="212.8" y1="564.2" x2="267.2" y2="564.2" stroke="#888" stroke-width="0.8"/>
+<text x="240.0" y="559.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,6</text>
 <line x1="267.2" y1="564.2" x2="299.5" y2="564.2" stroke="#888" stroke-width="0.8"/>
 <text x="283.4" y="559.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,95</text>
 <line x1="299.5" y1="564.2" x2="355.6" y2="564.2" stroke="#888" stroke-width="0.8"/>
@@ -135,8 +133,6 @@
 <line x1="175.4" y1="555.2" x2="175.4" y2="542.2" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
 <line x1="208.8" y1="568.2" x2="216.8" y2="560.2" stroke="#333" stroke-width="1.2"/>
 <line x1="212.8" y1="555.2" x2="212.8" y2="542.2" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
-<line x1="219.0" y1="568.2" x2="227.0" y2="560.2" stroke="#333" stroke-width="1.2"/>
-<line x1="223.0" y1="555.2" x2="223.0" y2="542.2" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
 <line x1="263.2" y1="568.2" x2="271.2" y2="560.2" stroke="#333" stroke-width="1.2"/>
 <line x1="267.2" y1="555.2" x2="267.2" y2="542.2" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
 <line x1="295.5" y1="568.2" x2="303.5" y2="560.2" stroke="#333" stroke-width="1.2"/>
@@ -171,9 +167,7 @@
 <line x1="44" y1="470.8" x2="52" y2="462.8" stroke="#333" stroke-width="1.2"/>
 <line x1="44" y1="467.4" x2="52" y2="459.4" stroke="#333" stroke-width="1.2"/>
 <line x1="44" y1="448.7" x2="52" y2="440.7" stroke="#333" stroke-width="1.2"/>
-<text x="531.6" y="460.8" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
-<text x="223.0" y="460.8" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
-<text x="223.0" y="438.7" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,75</text>
+<text x="531.6" y="438.7" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,75</text>
 <text x="64.0" y="438.7" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,75</text>
 <text x="660" y="424.7" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">M09  Muro tra patio e corridoio</text>
 <path d="M 710.0 546.7 L 1012.6 546.7 L 1012.6 444.7 L 710.0 444.7 Z M 757.6 531.4 L 829.0 531.4 L 829.0 475.3 L 757.6 475.3 Z M 912.3 546.7 L 932.7 546.7 L 932.7 471.9 L 912.3 471.9 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.5"/>
@@ -275,19 +269,23 @@
 <text x="161.0" y="1030.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 3,5</text>
 <text x="64.0" y="1005.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 4,25</text>
 <text x="660" y="991.1" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">M08  Muro sud delle camere</text>
-<path d="M 710.0 1113.1 L 878.3 1113.1 L 878.3 1041.7 L 710.0 1011.1 Z M 727.0 1082.5 L 757.6 1082.5 L 757.6 1051.9 L 727.0 1051.9 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.5"/>
+<path d="M 710.0 1113.1 L 878.3 1113.1 L 878.3 1019.6 L 805.2 1041.7 L 710.0 1011.1 Z M 727.0 1082.5 L 757.6 1082.5 L 757.6 1051.9 L 727.0 1051.9 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.5"/>
 <line x1="710.0" y1="1139.1" x2="727.0" y2="1139.1" stroke="#888" stroke-width="0.8"/>
 <text x="718.5" y="1154.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,5</text>
 <line x1="727.0" y1="1139.1" x2="757.6" y2="1139.1" stroke="#888" stroke-width="0.8"/>
 <text x="742.3" y="1134.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,9</text>
-<line x1="757.6" y1="1139.1" x2="878.3" y2="1139.1" stroke="#888" stroke-width="0.8"/>
-<text x="818.0" y="1134.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">3,55</text>
+<line x1="757.6" y1="1139.1" x2="805.2" y2="1139.1" stroke="#888" stroke-width="0.8"/>
+<text x="781.4" y="1134.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,4</text>
+<line x1="805.2" y1="1139.1" x2="878.3" y2="1139.1" stroke="#888" stroke-width="0.8"/>
+<text x="841.8" y="1134.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">2,15</text>
 <line x1="706.0" y1="1143.1" x2="714.0" y2="1135.1" stroke="#333" stroke-width="1.2"/>
 <line x1="710.0" y1="1130.1" x2="710.0" y2="1117.1" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
 <line x1="723.0" y1="1143.1" x2="731.0" y2="1135.1" stroke="#333" stroke-width="1.2"/>
 <line x1="727.0" y1="1130.1" x2="727.0" y2="1117.1" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
 <line x1="753.6" y1="1143.1" x2="761.6" y2="1135.1" stroke="#333" stroke-width="1.2"/>
 <line x1="757.6" y1="1130.1" x2="757.6" y2="1117.1" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="801.2" y1="1143.1" x2="809.2" y2="1135.1" stroke="#333" stroke-width="1.2"/>
+<line x1="805.2" y1="1130.1" x2="805.2" y2="1117.1" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
 <line x1="874.3" y1="1143.1" x2="882.3" y2="1135.1" stroke="#333" stroke-width="1.2"/>
 <line x1="878.3" y1="1130.1" x2="878.3" y2="1117.1" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
 <text x="794.1" y="1159.1" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 4,95</text>
@@ -301,7 +299,8 @@
 <line x1="684" y1="1086.5" x2="692" y2="1078.5" stroke="#333" stroke-width="1.2"/>
 <line x1="684" y1="1055.9" x2="692" y2="1047.9" stroke="#333" stroke-width="1.2"/>
 <line x1="684" y1="1015.1" x2="692" y2="1007.1" stroke="#333" stroke-width="1.2"/>
-<text x="884.3" y="1035.7" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="884.3" y="1013.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,75</text>
+<text x="805.2" y="1035.7" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
 <text x="704.0" y="1005.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 3</text>
 <text x="20" y="1255.6" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">M25  Annesso, muro nord</text>
 <path d="M 70.0 1364.0 L 318.2 1364.0 L 318.2 1275.6 L 70.0 1275.6 Z M 114.2 1330.0 L 178.8 1330.0 L 178.8 1299.4 L 114.2 1299.4 Z" fill="#f6c9c9" fill-rule="evenodd" stroke="#c62828" stroke-width="1.5"/>

@@ -52,7 +52,7 @@ La finestra d'angolo del soggiorno è rimasta come l'hai disegnata tu: 2,50 m su
 
 I pezzi del secondo plastico hanno la lettera N, per distinguerli da quelli della casa di Aalto (M). Le regole sono quelle del primo plastico: Poliplat spesso 0,5 cm, scala 1:100, il filo esterno e quello verso il patio restano fermi e lo spessore in più va dentro le stanze. Il graticcio si fa con gli stuzzicadenti sopra il muretto N06, come nel primo.
 
-Nella [pagina del taglio dei due plastici](https://claude.ai/artifact/R1t92qYk3TydPJoFQ6Sjxq) i pezzi M e N stanno sullo stesso foglio 70 × 50, mescolati e stretti nell'angolo in alto a sinistra: occupano 70 × 33,3 cm e in basso resta una striscia intera di 70 × 16,7 cm. Dove si può, i pezzi della stessa altezza stanno vicini. Puoi spostarli come vuoi. La tua disposizione del primo plastico resta salvata ed è quella dello schema di taglio in [[esercizio-4-casa-muuratsalo]].
+Nella [pagina del taglio dei due plastici](https://claude.ai/artifact/R1t92qYk3TydPJoFQ6Sjxq) i pezzi M e N stanno sullo stesso foglio 70 × 50, mescolati e stretti nell'angolo in alto a sinistra: occupano 70 × 33,2 cm e in basso resta una striscia intera di 70 × 16,8 cm. Dove si può, i pezzi della stessa altezza stanno vicini. Puoi spostarli come vuoi. La tua disposizione del primo plastico resta salvata ed è quella dello schema di taglio in [[esercizio-4-casa-muuratsalo]].
 
 | Pezzo | Cos'è | Misure (cm) |
 |---|---|---|
