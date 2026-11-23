@@ -21,7 +21,7 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v9"
+VER = "v10"
 LEGNO = "#6d4c2f"
 
 # ---- il tetto: alto a nord sopra le camere, scende verso il lago. Come in Aalto il profilo
@@ -565,7 +565,7 @@ def pezzi_progetto():
         p.porte = [(a - x1, 0, b - x1, v) for a, b, v in porte]
         return p
     base = X.piano("S01", "Base del secondo plastico", 1,
-                   [(-0.9, -0.8, -X.T), (19.6, -0.8, -X.T), (19.6, 15.2, -X.T), (-0.9, 15.2, -X.T)], (20.5, 16.0),
+                   [(-0.6, -0.8, -X.T), (19.4, -0.8, -X.T), (19.4, 15.2, -X.T), (-0.6, 15.2, -X.T)], (20.0, 16.0),
                    "Misura libera: lascia circa 1 cm di bordo intorno a casa e annesso.")
     P.append(base)
     # --- 2. i muri esterni della casa (il muro nord e' il piu' lungo, da angolo ad angolo)
