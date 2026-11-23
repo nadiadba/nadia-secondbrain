@@ -15,7 +15,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v12"
+VER = "v13"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -31,7 +31,7 @@ def h_tetto(x):
     return 6.05 - 3.45 / 12.25 * x if x <= 12.25 else 2.60 + 0.65 / 2.15 * (x - 12.25)
 
 
-HRECINTO = 6.05     # recinto ovest e sud-ovest alti come il filo di sopra del tetto all'angolo (prima 6,60)
+HRECINTO = h_tetto(0.5) - T     # recinto ovest e sud-ovest alti come M02 nell'angolo (5,41): niente gradino con il muro nord
 
 
 def h_ala(x):
@@ -150,7 +150,7 @@ def pezzi():
     # riferimento) e dalla sezione sul patio della scheda: sono stime, con un margine di 20-30 cm.
     HR, PAR = HRECINTO, 1.80
     # muro ovest dell'atelier e recinto ovest: un pezzo solo, dall'angolo nord-ovest all'angolo sud-ovest,
-    # tutto alla stessa altezza del filo di sopra del tetto all'angolo (scelta di Nadia: niente gradino)
+    # tutto alla stessa altezza di M02 nell'angolo (scelta di Nadia: niente gradino)
     P.append(muro_y("M03", "Muro ovest, atelier e recinto (un pezzo, tacca del muretto)", 2, 0, 13.90, 0, HR,
                     forma=[(0, 0), (13.90, 0), (13.90, HR), (12.60, HR), (12.60, PAR), (7.70, PAR), (7.70, HR), (0, HR)],
                     buchi=[(0.75, 1.10, 2.60, 2.10)],
