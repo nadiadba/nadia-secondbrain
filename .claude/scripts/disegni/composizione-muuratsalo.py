@@ -14,7 +14,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v8"
+VER = "v9"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -126,9 +126,11 @@ def pezzi():
     P.append(muro_x("M06", "Recinto sud, pezzo ovest", 3, 0, 2.45, 13.90, 0,
                     forma=[(0, 0), (2.45, 0), (2.45, 5.30), (0, HR)],
                     nota="Inclinato: alto nell'angolo con M05, più basso verso l'apertura."))
-    P.append(muro_x("M07", "Recinto sud, pezzo est", 3, 6.95, 9.45, 13.90, 0,
-                    forma=[(0, 0), (2.50, 0), (2.50, 3.50), (0, 4.25)],
-                    nota="Inclinato: alto verso l'apertura, più basso verso le camere."))
+    # recinto sud a est dell'apertura e muro sud delle camere: un pezzo solo (scelta di Nadia)
+    P.append(muro_x("M07", "Recinto sud est e muro sud delle camere (un pezzo)", 3, 6.95, 14.40, 13.90, 0,
+                    forma=[(0, 0), (7.45, 0), (7.45, h_ala(14.40)), (5.30, h_ala(12.25)), (2.50, h_ala(9.45)), (0, 4.25)],
+                    buchi=[(9.95, 0.90, 10.85, 1.80)],
+                    nota="Un pezzo solo dall'apertura all'angolo sud-est: scende da 4,25 a 3,5 (recinto), poi segue il tetto delle camere."))
     # il graticcio di legno bianco sopra il muretto di M05: montanti ogni 0,6 e due traversi.
     # Non e' di Poliplat (sarebbe troppo spesso): stuzzicadenti o listelli di balsa da 2 mm.
     for k in range(8):
@@ -141,10 +143,6 @@ def pezzi():
         g.z0 = zt
         P.append(g)
     # --- 4. l'ala delle camere
-    P.append(muro_x("M08", "Muro sud delle camere", 4, 9.45, 14.40, 13.90, 0,
-                    forma=[(0, 0), (4.95, 0), (4.95, h_ala(14.40)), (2.80, h_ala(12.25)), (0, h_ala(9.45))],
-                    buchi=[(9.95, 0.90, 10.85, 1.80)],
-                    nota="Arriva al filo di sopra del tetto (3,5 come M07, senza gradino): i tetti M34 e M38 stanno dentro."))
     P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, h_ala(9.45) - T,
                     buchi=[(6.40, 0.45, 8.50, 2.10), (10.95, 0, 11.55, 2.20)]))
     # --- 5. il muro dell'atelier sul patio e il camino
@@ -724,7 +722,7 @@ def schema_taglio_nadia(path_json, path):
 
 def pezzi_quotati(P, path):
     """I pezzi con finestre, porte o bordo inclinato, ognuno con le sue quote, come in pianta."""
-    codici = ["M02", "M10", "M04", "M09", "M03", "M06", "M07", "M08", "M25", "M26"]
+    codici = ["M02", "M10", "M04", "M09", "M03", "M06", "M07", "M05", "M25", "M26"]
     sel = [p for c in codici for p in P if p.cod == c]
     s = 34.0
     col_w = 640
