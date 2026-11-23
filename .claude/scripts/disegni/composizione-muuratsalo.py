@@ -15,7 +15,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v15"
+VER = "v16"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -179,7 +179,7 @@ def pezzi():
         g.z0 = zt
         P.append(g)
     # --- 4. l'ala delle camere
-    P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, h_ala(9.45) - T,
+    P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, h_tetto(9.95),
                     buchi=[(6.40, 0.45, 8.50, 2.10), (10.95, 0, 11.55, 2.20)]))
     # --- 5. il muro dell'atelier sul patio e il camino
     P.append(muro_x("M10", "Muro tra atelier e patio", 5, 0.5, 9.95, 4.5, 0,
@@ -187,7 +187,7 @@ def pezzi():
                     forma=[(0, 0), (4.55, 0), (4.55, 0.50), (1.70, 0.50), (1.70, 2.10), (5.60, 2.10), (5.60, 0),
                            (9.45, 0), (9.45, h_tetto(9.95)), (0, h_tetto(0.5))],
                     nota="Il bordo in alto segue il filo di sopra del tetto: il tetto sta dentro, contro la sua faccia interna."))
-    P.append(muro_y("M11", "Muro tra pranzo e cucina", 5, 0.5, 3.60, 9.45, 2.75))
+    P.append(muro_y("M11", "Muro tra pranzo e cucina", 5, 0.5, 3.60, 9.45, h_tetto(9.95)))
     # --- 6. le pareti interne
     # i tramezzi arrivano sotto il tetto (bordo alto inclinato come il tetto); le porte sono buchi
     # alti 2,1 dentro un muro unico (scelta di Nadia)
@@ -238,12 +238,13 @@ def pezzi():
     # un pezzo per falda, che copre la fascia nord e l'ala delle camere (scelta di Nadia)
     ka = la / 12.25                       # allungamento lungo la falda che scende
     m32 = piano("M32", "Tetto, falda che scende (fascia nord e camere, a L)", 10,
-                [(0.5, 0.5, hN(0.5)), (12.25, 0.5, hN(12.25)), (12.25, 13.90, hN(12.25)), (9.45, 13.90, hN(9.45)),
-                 (9.45, 5.0, hN(9.45)), (9.95, 5.0, hN(9.95)), (9.95, 4.5, hN(9.95)), (0.5, 4.5, hN(0.5))],
+                [(x, y, hN(x)) for x, y in [(0.5, 0.5), (9.45, 0.5), (9.45, 3.6), (9.95, 3.6), (9.95, 0.5), (12.25, 0.5),
+                                            (12.25, 13.90), (9.95, 13.90), (9.95, 4.5), (0.5, 4.5)]],
                 (round(11.75 * ka, 2), 13.40),
                 "Un pezzo a L: scende da ovest a est fino alla linea più bassa (a 12,25 cm); il braccio lungo copre le camere.")
     m32.forma = [(round(a * ka, 3), b) for a, b in
-                 [(0, 0), (11.75, 0), (11.75, 13.40), (8.95, 13.40), (8.95, 4.50), (9.45, 4.50), (9.45, 4.0), (0, 4.0)]]
+                 [(0, 0), (8.95, 0), (8.95, 3.1), (9.45, 3.1), (9.45, 0), (11.75, 0), (11.75, 13.40), (9.45, 13.40),
+                  (9.45, 4.0), (0, 4.0)]]
     P.append(m32)
     P.append(piano("M33", "Tetto, falda che risale (fascia nord e camere)", 10,
                    [(12.25, 0.5, hN(12.25)), (13.90, 0.5, hN(13.90)), (13.90, 13.90, hN(13.90)), (12.25, 13.90, hN(12.25))],
@@ -252,10 +253,10 @@ def pezzi():
                    [(14.40, -1.30, 2.60), (16.10, -1.30, 2.60), (16.10, 5.20, 2.60), (14.40, 5.20, 2.60)], (1.70, 6.50)))
     P.append(piano("M36", "Tetto dell'annesso", 10,
                    [(16.10, -3.50, 2.60), (23.40, -3.50, 2.60), (23.40, 0.15, 2.60), (16.10, 0.15, 2.60)], (7.30, 3.65)))
-    P.append(muro_x("M37", "Comignolo", 10, 9.0, 9.60, 2.45, 0, forma=rett(0.60, 2.40),
+    P.append(muro_x("M37", "Comignolo", 10, 8.8, 9.40, 2.45, 0, forma=rett(0.60, 2.40),
                     nota="Va in piedi sul tetto grande, sopra il camino."))
     # il comignolo parte dal tetto: lo alzo in 3D
-    P[-1].z0 = h_tetto(9.3)
+    P[-1].z0 = h_tetto(9.1)
     return P
 
 
