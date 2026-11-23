@@ -21,7 +21,7 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v10"
+VER = "v11"
 LEGNO = "#6d4c2f"
 
 # ---- il tetto: alto a nord sopra le camere, scende verso il lago. Come in Aalto il profilo
