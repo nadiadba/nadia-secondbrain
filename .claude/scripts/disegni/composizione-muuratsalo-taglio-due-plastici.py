@@ -1,3 +1,5 @@
+"""Taglio dei due plastici di Muuratsalo (pezzi M e N) sullo stesso foglio 70 x 50: MaxRects,
+pezzi stretti in alto a sinistra. Legge pezzi.json (plastico di Aalto) e pezzi-n.json (secondo plastico)."""
 import json, sys
 M = json.load(open("pezzi.json")); N = json.load(open("pezzi-n.json"))
 W, H, GAP = 70.0, 50.0, 0.0
@@ -11,33 +13,55 @@ def ruota(p):  # 90 gradi: (x,y) -> (h-y, x)
     return dict(p,outline=g(p["outline"]),holes=[g(h) for h in p["holes"]],w=p["h"],h=p["w"])
 P=[norm(p) for p in M+N]
 P=[ruota(p) if p["h"]>p["w"] else p for p in P]
-# altezze arrotondate al mm per raggruppare
-P.sort(key=lambda p:(-round(p["h"],1), -p["w"]))
-shelves=[]  # [y, h, x_libero, pezzi]
-y=0
-for p in P:
-    for s in shelves:
-        if s[2]+p["w"]<=W+1e-9 and p["h"]<=s[1]+1e-9:
-            p["x"],p["y"]=s[2],s[0]; s[2]+=p["w"]+GAP; s[3].append(p); break
-    else:
-        s=[y,p["h"],p["w"]+GAP,[p]]; p["x"],p["y"]=0,y; shelves.append(s); y+=p["h"]+GAP
-print("altezza usata",round(y,2), "ripiani",len(shelves))
-for s in shelves: print(round(s[0],2), round(s[1],2), round(s[2],2), [q["cod"] for q in s[3]])
+E=1e-9
+def pack(items, W, H, ordine):
+    free=[(0,0,W,H)]; placed=[]
+    for p in ordine(items):
+        best=None
+        for rot in (0,1):
+            w,h=(p["w"],p["h"]) if not rot else (p["h"],p["w"])
+            for fx,fy,fw,fh in free:
+                if w<=fw+E and h<=fh+E:
+                    # in alto a sinistra; a parita', accanto a un pezzo della stessa altezza
+                    vic=any(abs(q[1]-fy)<E and abs(q[3]-h)<0.06 and abs(q[0]+q[2]-fx)<E for q in placed)
+                    key=(round(fy+h,3)*0+round(fy,3), 0 if vic else 1, round(fx,3), rot)
+                    if best is None or key<best[0]: best=(key,fx,fy,w,h,rot)
+        if best is None: return None
+        _,x,y,w,h,rot=best
+        placed.append((x,y,w,h,p,rot))
+        nf=[]
+        for fx,fy,fw,fh in free:
+            if x>=fx+fw-E or x+w<=fx+E or y>=fy+fh-E or y+h<=fy+E: nf.append((fx,fy,fw,fh)); continue
+            if x>fx+E: nf.append((fx,fy,x-fx,fh))
+            if x+w<fx+fw-E: nf.append((x+w,fy,fx+fw-x-w,fh))
+            if y>fy+E: nf.append((fx,fy,fw,y-fy))
+            if y+h<fy+fh-E: nf.append((fx,y+h,fw,fy+fh-y-h))
+        free=[a for a in nf if not any(b!=a and b[0]<=a[0]+E and b[1]<=a[1]+E and b[0]+b[2]>=a[0]+a[2]-E and b[1]+b[3]>=a[1]+a[3]-E for b in nf)]
+        free=list(dict.fromkeys(free))
+    return placed
+ordini={
+ "altezza": lambda it: sorted(it,key=lambda p:(-round(p["h"],1),-p["w"])),
+ "area": lambda it: sorted(it,key=lambda p:(-p["w"]*p["h"])),
+ "lato": lambda it: sorted(it,key=lambda p:(-max(p["w"],p["h"]),-min(p["w"],p["h"]))),
+}
+best=None
+for nome,o in ordini.items():
+    for Wt in [70]:
+        for H in [x/4 for x in range(100,201)]:
+            r=pack(P,Wt,H,o)
+            if r:
+                used_h=max(y+h for x,y,w,h,p,rot in r); used_w=max(x+w for x,y,w,h,p,rot in r)
+                print(nome,H,round(used_h,2),round(used_w,2))
+                if best is None or used_h<best[0]: best=(used_h,nome,r)
+                break
+used_h,nome,r=best
+print("scelto",nome,used_h)
+def ruota(p):
+    g=lambda pts:[[p["h"]-y,x] for x,y in pts]
+    return dict(p,outline=g(p["outline"]),holes=[g(h) for h in p["holes"]],w=p["h"],h=p["w"])
 DATI=[]
-for p in P:
-    sh=lambda pts:[[round(x+p["x"],3),round(y+p["y"],3)] for x,y in pts]
-    DATI.append({"cod":p["cod"],"nome":p["nome"],"outline":sh(p["outline"]),"holes":[sh(h) for h in p["holes"]]})
-T=open("template.html").read()
-def R(a,b):
-    global T
-    assert T.count(a)==1,a[:50]; T=T.replace(a,b)
-R("<title>Taglio del Poliplat</title>","<title>Taglio dei due plastici</title>")
-R("<h1>Taglio del Poliplat · casa di Muuratsalo</h1>","<h1>Taglio del Poliplat · i due plastici di Muuratsalo</h1>")
-R("Trascina i pezzi rosa sul foglio verde 70 × 50 cm.","Sullo stesso foglio verde 70 × 50 cm ci sono i pezzi del plastico della casa di Aalto (rosa, codici M) e quelli del tuo progetto (azzurri, codici N), mescolati: i pezzi della stessa altezza stanno nella stessa fila, così si tagliano con una sola linea lunga. Trascinali dove vuoi.")
-R('.pezzo.bad path.forma {','.pezzo.n path.forma { fill: #c4dcf2; stroke: #2f5f8f; }\n.pezzo.bad path.forma {')
-R('const DATI = __DATI__;','const DATI = '+json.dumps(DATI)+';')
-R('CHIAVE = "muuratsalo-taglio-v1"','CHIAVE = "muuratsalo-taglio-due-plastici-v1"')
-R('  g.dataset.i = i;','  g.dataset.i = i; if (p.cod.startsWith("N")) g.classList.add("n");')
-R('aria-label="Foglio di Poliplat 70 per 50 centimetri con i pezzi del plastico"','aria-label="Foglio di Poliplat 70 per 50 centimetri con i pezzi dei due plastici"')
-open("taglio-due-plastici.html","w").write(T)
+for x,y,w,h,p,rot in r:
+    q=ruota(p) if rot else p
+    sh=lambda pts:[[round(a+x,3),round(b+y,3)] for a,b in pts]
+    DATI.append({"cod":q["cod"],"nome":q["nome"],"outline":sh(q["outline"]),"holes":[sh(hh) for hh in q["holes"]]})
 json.dump(DATI,open("dati-due-plastici.json","w"))
