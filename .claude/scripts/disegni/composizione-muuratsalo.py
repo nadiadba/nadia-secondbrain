@@ -15,7 +15,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v19"
+VER = "v20"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -31,7 +31,7 @@ def h_tetto(x):
     return 6.05 - 3.45 / 12.25 * x if x <= 12.25 else 2.60 + 0.65 / 2.15 * (x - 12.25)
 
 
-HRECINTO = h_tetto(0.5)     # recinto ovest e sud-ovest alti come M02 e M10 nell'angolo (5,91): niente gradino
+HRECINTO = h_tetto(0.5) - T     # recinto ovest e sud-ovest alti come M02 e M10 nell'angolo (5,41): niente gradino
 
 
 def h_ala(x):
@@ -42,7 +42,7 @@ def h_ala(x):
     return h_tetto(x)
 
 
-H4 = h_tetto(13.90)
+H4 = h_tetto(13.90) - T      # muro est: alto come M02 contro la sua faccia interna (2,6)
 
 
 # =====================================================================================
@@ -138,17 +138,17 @@ def pezzi():
     # --- 2. muri esterni della casa
     hN = lambda x: h_tetto(x) - T
     P.append(muro_x("M02", "Muro nord", 2, 0.5, 13.90, 0, 0,
-                    forma=[(0, 0), (13.40, 0), (13.40, h_tetto(13.90)), (11.75, h_tetto(12.25)), (0, h_tetto(0.5))],
+                    forma=[(0, 0), (13.40, 0), (13.40, hN(13.90)), (11.75, hN(12.25)), (0, hN(0.5))],
                     buchi=[(2.35, 1.10, 3.30, 2.10), (5.25, 1.10, 6.20, 2.10), (9.85, 1.10, 11.50, 2.10),
                            (2.00, 3.30, 3.70, 4.40)],
-                    nota="Il bordo in alto segue il filo di sopra del tetto (giù fino a 12,25 cm, poi risale): il tetto sta dentro, contro la sua faccia interna."))
+                    nota="Il bordo in alto è inclinato come il tetto (giù fino a 12,25 cm, poi risale): il tetto ci si appoggia sopra, come un coperchio."))
     eN = hN(14.40)
     # M03 e M04 sono i due muri lunghi, da angolo ad angolo; M02, M06 e M07 si fermano contro di loro
     P.append(muro_y("M04", "Muro est", 2, 0, 14.40, 13.90, 0,
                     forma=rett(14.40, H4),
                     buchi=[(1.55, 1.10, 2.50, 2.10), (3.60, 0, 4.70, 2.20), (6.30, 0.90, 7.25, 1.80),
                            (8.90, 0.90, 9.85, 1.80), (11.50, 0.90, 12.45, 1.80)],
-                    nota="Da angolo ad angolo, alto 3,1 (come il tetto a 13,9 cm dal bordo ovest): M02, M07 e i tetti finiscono contro la sua faccia interna."))
+                    nota="Da angolo ad angolo, alto 2,6 come la testa di M02: il tetto ci si appoggia sopra."))
     # --- 3. il recinto del patio
     # Altezze del recinto ricavate dalla foto del patio verso il lago (apertura larga 4,5 m come
     # riferimento) e dalla sezione sul patio della scheda: sono stime, con un margine di 20-30 cm.
@@ -164,9 +164,9 @@ def pezzi():
                     nota="Inclinato: alto 5,91 contro M03, 4,88 verso l'apertura."))
     # recinto sud a est dell'apertura e muro sud delle camere: un pezzo solo (scelta di Nadia)
     P.append(muro_x("M07", "Recinto sud est e muro sud delle camere (un pezzo)", 3, 6.95, 13.90, 13.90, 0,
-                    forma=[(0, 0), (6.95, 0), (6.95, H4), (5.30, h_ala(12.25)), (2.50, h_ala(9.45)), (0, 4.25)],
+                    forma=[(0, 0), (6.95, 0), (6.95, H4), (5.30, hN(12.25)), (2.50, hN(9.45)), (0, 4.25)],
                     buchi=[(9.95, 0.90, 10.85, 1.80)],
-                    nota="Un pezzo solo dall'apertura fino a M04: scende da 4,25 a 3,39 (recinto), poi segue il tetto delle camere."))
+                    nota="Un pezzo solo dall'apertura fino a M04: scende da 4,25 a 2,89 (recinto), poi segue il tetto delle camere, che ci si appoggia sopra."))
     # il graticcio di legno bianco sopra il muretto di M03: montanti ogni 0,6 e due traversi.
     # Non e' di Poliplat (sarebbe troppo spesso): stuzzicadenti o listelli di balsa da 2 mm.
     for k in range(8):
@@ -179,18 +179,18 @@ def pezzi():
         g.z0 = zt
         P.append(g)
     # --- 4. l'ala delle camere
-    P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, h_ala(9.45) - T,
+    P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, hN(9.70),
                     buchi=[(6.40, 0.45, 8.50, 2.10), (10.95, 0, 11.55, 2.20)]))
     # --- 5. il muro dell'atelier sul patio e il camino
     P.append(muro_x("M10", "Muro tra atelier e patio", 5, 0.5, 9.95, 4.5, 0,
                     # finestra lunga e portafinestra insieme: un'unica tacca dal pavimento
                     forma=[(0, 0), (4.55, 0), (4.55, 0.50), (1.70, 0.50), (1.70, 2.10), (5.60, 2.10), (5.60, 0),
-                           (9.45, 0), (9.45, h_tetto(9.95)), (0, h_tetto(0.5))],
-                    nota="Il bordo in alto segue il filo di sopra del tetto: il tetto sta dentro, contro la sua faccia interna."))
+                           (9.45, 0), (9.45, hN(9.95)), (0, hN(0.5))],
+                    nota="Il bordo in alto è inclinato come il tetto, che ci si appoggia sopra."))
     # M11 va da M02 a M10, alto come M09 (sotto il tetto, che ci si appoggia sopra) anche sopra la porta (3,6 - 4,5)
-    P.append(muro_y("M11", "Muro tra pranzo e cucina (porta fino a M10)", 5, 0.5, 4.50, 9.45, h_ala(9.45) - T,
+    P.append(muro_y("M11", "Muro tra pranzo e cucina (porta fino a M10)", 5, 0.5, 4.50, 9.45, hN(9.70),
                     buchi=[(3.60, 0, 4.50, 2.10)],
-                    nota="Alto 2,89 per tutta la lunghezza, anche sopra la porta, che arriva fino a M10: il tetto ci si appoggia sopra."))
+                    nota="Alto 2,82 per tutta la lunghezza, anche sopra la porta, che arriva fino a M10: il tetto ci si appoggia sopra."))
     # --- 6. le pareti interne
     # i tramezzi arrivano sotto il tetto (bordo alto inclinato come il tetto); le porte sono buchi
     # alti 2,1 dentro un muro unico (scelta di Nadia)
@@ -240,19 +240,17 @@ def pezzi():
     lw = math.hypot(2.80, 0.90)
     # un pezzo per falda, che copre la fascia nord e l'ala delle camere (scelta di Nadia)
     ka = la / 12.25                       # allungamento lungo la falda che scende
-    # il tetto si appoggia sopra M09, M11, M13 e le pareti interne, e sta dentro i muri del perimetro
-    # (M02, M03, M04, M07, M10): due pezzi, la falda che scende (a L) e quella che risale
+    # il tetto e' un coperchio: si appoggia sopra TUTTI i muri (anche quelli del perimetro) e copre tutta la
+    # pianta, spessore dei muri compreso. Due pezzi: la falda che scende (a L) e quella che risale
     m32 = piano("M32", "Tetto, falda che scende (fascia nord e camere, a L)", 10,
-                [(x, y, hN(x)) for x, y in [(0.5, 0.5), (12.25, 0.5), (12.25, 13.90), (9.45, 13.90),
-                                            (9.45, 5.0), (9.95, 5.0), (9.95, 4.5), (0.5, 4.5)]],
-                (round(11.75 * ka, 2), 13.40),
-                "Un pezzo a L: scende da ovest a est fino alla linea più bassa (a 12,25 cm); il braccio lungo copre le camere. Si appoggia sopra M09, M11, M13 e le pareti interne.")
-    m32.forma = [(round(a * ka, 3), b) for a, b in
-                 [(0, 0), (11.75, 0), (11.75, 13.40), (8.95, 13.40), (8.95, 4.50), (9.45, 4.50), (9.45, 4.0), (0, 4.0)]]
+                [(x, y, hN(x)) for x, y in [(0, 0), (12.25, 0), (12.25, 14.40), (9.45, 14.40), (9.45, 5.0), (0, 5.0)]],
+                (round(12.25 * ka, 2), 14.40),
+                "Un pezzo a L, appoggiato sopra i muri come un coperchio: scende da ovest a est fino alla linea più bassa (a 12,25 cm); il braccio lungo copre le camere.")
+    m32.forma = [(round(a * ka, 3), b) for a, b in [(0, 0), (12.25, 0), (12.25, 14.40), (9.45, 14.40), (9.45, 5.0), (0, 5.0)]]
     P.append(m32)
     P.append(piano("M33", "Tetto, falda che risale (fascia nord e camere)", 10,
-                   [(12.25, 0.5, hN(12.25)), (13.90, 0.5, hN(13.90)), (13.90, 13.90, hN(13.90)), (12.25, 13.90, hN(12.25))],
-                   (round(lb, 2), 13.40), "Risale verso est per tutta la lunghezza della casa: con M32 fa la «farfalla»."))
+                   [(12.25, 0, hN(12.25)), (14.40, 0, hN(14.40)), (14.40, 14.40, hN(14.40)), (12.25, 14.40, hN(12.25))],
+                   (round(math.hypot(2.15, 0.65), 2), 14.40), "Appoggiata sopra i muri, risale verso est: con M32 fa la «farfalla»."))
     P.append(piano("M35", "Tetto dell'ingresso", 10,
                    [(14.40, -1.30, 2.60), (16.10, -1.30, 2.60), (16.10, 5.20, 2.60), (14.40, 5.20, 2.60)], (1.70, 6.50)))
     P.append(piano("M36", "Tetto dell'annesso", 10,
@@ -1125,7 +1123,7 @@ def sezioni(path):
 
     # 1. fascia nord (atelier, pranzo, cucina): il tetto a farfalla
     prof = [(x, h_tetto(x)) for x in (0, 12.25, 14.40)]
-    tetto = [(0, 6.05), (12.25, 2.60), (13.90, H4), (13.90, H4 - 0.5), (12.25, 2.10), (0, HRECINTO - 0.5)]
+    tetto = [(0, 6.05), (12.25, 2.60), (14.40, 3.25), (14.40, 2.75), (12.25, 2.10), (0, 5.55)]
     blocco(7.3 * s + 50, "1. Fascia nord: atelier, pranzo, cucina (sezione ovest-est della scheda)",
            [([(0, 0), (0.40, 0), (0.40, HRECINTO), (0, HRECINTO)], "#555"),
             ([(14.10, 0), (14.40, 0), (14.40, H4), (14.10, H4)], "#555"),
@@ -1140,7 +1138,7 @@ def sezioni(path):
            [([(0, 0), (0.40, 0), (0.40, HRECINTO), (0, HRECINTO)], "#555"),
             ([(9.45, 0), (9.75, 0), (9.75, h_ala(9.45) - 0.5), (9.45, h_ala(9.45) - 0.5)], "#555"),
             ([(14.10, 0), (14.40, 0), (14.40, H4), (14.10, H4)], "#555"),
-            ([(9.45, h_ala(9.45) - 0.5), (12.25, 2.10), (13.90, H4 - 0.5), (13.90, H4), (12.25, 2.60), (9.45, h_ala(9.45))], "#bbb")],
+            ([(9.45, h_ala(9.45) - 0.5), (12.25, 2.10), (14.40, 2.75), (14.40, 3.25), (12.25, 2.60), (9.45, h_ala(9.45))], "#bbb")],
            [(0, HRECINTO, "+%s recinto ovest (muretto 1,80 nel tratto del graticcio)" % num(HRECINTO), BLU), (9.45, h_ala(9.45), "+" + num(h_ala(9.45)), BLU),
             (14.40, 3.25, "+3,25", BLU), (12.25, 2.10, "+2,10 / +2,60", BLU), (9.75, h_ala(9.45) - 0.5, "+" + num(h_ala(9.45) - 0.5), BLU)],
            ["Recinto sud (dalla foto del patio):", "pezzo ovest da %s nell'angolo" % num(HRECINTO), "a %s verso l'apertura;" % num(HRECINTO - 1.03), "pezzo est da 4,25 verso",
