@@ -36,13 +36,13 @@ Da consegnare: i 2 plastici, 4 foto (dall'alto e d'insieme) e i disegni su fogli
 
 ## Pianta quotata
 
-![[muuratsalo-v9-1-pianta-quotata.svg|1000]]
+![[muuratsalo-v10-1-pianta-quotata.svg|1000]]
 
 La casa è un quadrato di 14,40 m. La parte costruita forma una L lungo i lati nord ed est; il resto è il patio, chiuso dal recinto, con la grande apertura a sud e, a ovest, un muretto con sopra un graticcio di legno. A nord c'è la zona giorno (atelier e soggiorno con il soppalco dello studio, pranzo, camino e cucina); a est il corridoio, il bagno, il guardaroba e le camere. Fuori dal quadrato, a est, c'è l'ingresso in legno, che porta all'annesso degli ospiti (un bagno e due camere).
 
 ## Le altezze
 
-![[muuratsalo-v9-2-altezze.svg|1000]]
+![[muuratsalo-v10-2-altezze.svg|1000]]
 
 Il tetto della zona giorno è a «farfalla»: parte da 6,05 m sul lato ovest, scende fino a 2,60 m a 12,25 m dal filo ovest e risale a 3,25 m sul lato est. Anche il tetto delle camere scende e poi risale, come si vede nelle foto della casa dall'alto: da 3,50 m sul patio scende fino a 2,60 m sulla stessa linea della zona giorno (12,25 m dal filo ovest) e risale a 3,25 m sul lato est. Il soppalco dello studio è a +2,85.
 
@@ -50,15 +50,15 @@ Le altezze del recinto del patio non sono in nessun disegno della scheda, e onli
 
 ## Tagliare il foglio
 
-![[muuratsalo-v9-3-taglio-foglio.svg|1000]]
+![[muuratsalo-v10-3-taglio-foglio.svg|1000]]
 
 Dentro ogni pezzo ci sono il codice e le misure in cm, come il pezzo sta nel foglio (larghezza × altezza). Le finestre, le porte e i bordi inclinati sono quotati nell'immagine qui sotto.
 
-Questa è la disposizione che hai fatto tu nella [pagina per spostare i pezzi](https://claude.ai/artifact/BJPHNZmNPnvrxgMAHp9qZ5). Il 24 novembre il tetto delle camere è diventato di due pezzi, come quello della zona giorno: M34 resta al suo posto (ora è più piccolo, 2,94 × 8,9 cm) e il nuovo M38 sta subito a destra di M32. Poi M05A, M05B e M05C sono diventati un pezzo solo, M05: sta in orizzontale sotto M21, e dove c'erano i tre pezzi ora c'è spazio libero. Infine M04, che ora è alto 2,75 cm per tutta la lunghezza, nel suo posto in alto avrebbe toccato M26 e M27: l'ho spostato subito sotto M05; Poi M07 e M08 sono diventati un pezzo solo, M07, che sta quasi dove stavano i due pezzi. Ho controllato che nessun pezzo si sovrapponga a un altro e che nessuno esca dal foglio. La base M01 sta in piedi nell'angolo in alto a sinistra (20 × 25), con M32 sotto. Gli altri pezzi stanno in una fila accanto alla base, appoggiati al bordo in alto: i pezzi della stessa altezza sono vicini, così si tagliano con una sola linea lunga. M02 e M10 sono incastrati nell'angolo in alto a destra. Alcuni pezzi sono specchiati o ruotati: il Poliplat è uguale dai due lati, quindi quando li incolli li giri come nella pianta.
+Questa è la disposizione che hai fatto tu nella [pagina per spostare i pezzi](https://claude.ai/artifact/BJPHNZmNPnvrxgMAHp9qZ5). Il 24 novembre il tetto delle camere è diventato di due pezzi, come quello della zona giorno: M34 resta al suo posto (ora è più piccolo, 2,94 × 8,9 cm) e il nuovo M38 sta subito a destra di M32. Poi M05A, M05B e M05C sono diventati un pezzo solo, M05: sta in orizzontale sotto M21, e dove c'erano i tre pezzi ora c'è spazio libero. Infine M04, che ora è alto 2,75 cm per tutta la lunghezza, nel suo posto in alto avrebbe toccato M26 e M27: l'ho spostato subito sotto M05; Poi M07 e M08 sono diventati un pezzo solo, M07, che sta quasi dove stavano i due pezzi. Il 24 novembre sera: niente camino (M12 tolto), e le pareti interne sono diventate muri interi fino al tetto con le porte come buchi (M13 con M14, M17 con M18); M13, M16, M17, M19 e M20 sono più alti e li ho spostati in posti liberi, gli altri pezzi sono rimasti dov'erano. Ho controllato che nessun pezzo si sovrapponga a un altro e che nessuno esca dal foglio. La base M01 sta in piedi nell'angolo in alto a sinistra (20 × 25), con M32 sotto. Gli altri pezzi stanno in una fila accanto alla base, appoggiati al bordo in alto: i pezzi della stessa altezza sono vicini, così si tagliano con una sola linea lunga. M02 e M10 sono incastrati nell'angolo in alto a destra. Alcuni pezzi sono specchiati o ruotati: il Poliplat è uguale dai due lati, quindi quando li incolli li giri come nella pianta.
 
 Avanza tutta la parte verde: una striscia intera di 70 × 20 cm in basso e, sopra, un grande pezzo a destra della base, sotto la fila dei pezzi. Tienili per il plastico della nuova disposizione (il punto 5).
 
-![[muuratsalo-v9-4-pezzi-quotati.svg|1000]]
+![[muuratsalo-v10-4-pezzi-quotati.svg|1000]]
 
 Come procedere:
 
@@ -77,7 +77,7 @@ In ogni disegno i pezzi rossi sono quelli da incollare in quel passo, i grigi qu
 
 ### Passo 1: la base
 
-![[muuratsalo-v9-passo-01.png|700]]
+![[muuratsalo-v10-passo-01.png|700]]
 
 1. Prendi la base M01 (25 × 20 cm) e mettila con il lato lungo in orizzontale: il nord è in alto.
 2. Disegna a matita il quadrato della casa, 14,4 × 14,4 cm. L'angolo in alto a sinistra (nord-ovest) sta a 0,8 cm dal bordo sinistro e a 4,55 cm dal bordo in alto. Intorno a casa e annesso resta circa 1 cm di bordo.
@@ -88,7 +88,7 @@ In ogni disegno i pezzi rossi sono quelli da incollare in quel passo, i grigi qu
 
 ### Passo 2: i muri esterni nord, ovest ed est
 
-![[muuratsalo-v9-passo-02.png|700]]
+![[muuratsalo-v10-passo-02.png|700]]
 
 1. M02 (muro nord) va sul filo nord, per tutta la lunghezza del quadrato. La parte alta va a sinistra (ovest); le finestre stanno in basso.
 2. M03 (muro ovest dell'atelier) va sul filo ovest, attaccato alla faccia interna di M02, e arriva a 5 cm dal filo nord. La sua finestra sta vicino a M02.
@@ -96,7 +96,7 @@ In ogni disegno i pezzi rossi sono quelli da incollare in quel passo, i grigi qu
 
 ### Passo 3: il recinto del patio
 
-![[muuratsalo-v9-passo-03.png|700]]
+![[muuratsalo-v10-passo-03.png|700]]
 
 1. M05 è il recinto ovest, in un pezzo solo: va sul filo ovest dopo M03, da 5 cm dal filo nord fino a 0,5 cm dal filo sud. È alto 6,6 cm ai due lati e in mezzo ha una tacca larga 4,9 cm che scende fino a 1,8 cm: è il muretto del graticcio, da 7,7 a 12,6 cm dal filo nord.
 2. M06 va sul filo sud, nell'angolo sud-ovest, e copre la testa di M05. È inclinato: la parte alta (6,6 cm) va nell'angolo, contro M05, e scende a 5,3 cm verso l'apertura.
@@ -109,35 +109,34 @@ In ogni disegno i pezzi rossi sono quelli da incollare in quel passo, i grigi qu
 
 ### Passo 4: l'ala delle camere
 
-![[muuratsalo-v9-passo-04.png|700]]
+![[muuratsalo-v10-passo-04.png|700]]
 
 1. Il muro sud delle camere è già al suo posto: è la parte est di M07, montata al passo 3.
 2. M09 (muro tra patio e corridoio) sta a 9,45 cm dal filo ovest, con la faccia verso il patio su questa linea. Va da 5 cm dal filo nord fino a M07. La finestra larga sta verso nord, la porta verso sud.
 
 ### Passo 5: il muro dell'atelier sul patio e il camino
 
-![[muuratsalo-v9-passo-05.png|700]]
+![[muuratsalo-v10-passo-05.png|700]]
 
 1. M10 (muro tra atelier e patio) chiude il patio a nord: la faccia verso il patio sta a 5 cm dal filo nord. Il pezzo va da M03 fino al lato est di M09: copre la testa di M09 e chiude l'angolo del patio in alto a destra. La parte alta va a ovest. La finestra grande e la porta danno sul patio.
-2. M11 (muro tra pranzo e cucina) è in linea con M09, a 9,45 cm dal filo ovest. Parte da M02 e scende per 3,1 cm.
-3. M12 (camino) va contro M11 dal lato ovest, cioè dalla parte del pranzo, da 1,95 a 3,6 cm dal filo nord.
+2. M11 (muro tra pranzo e cucina) è in linea con M09, a 9,45 cm dal filo ovest. Parte da M02 e scende per 3,1 cm. Il camino non si fa.
 
 ### Passo 6: le pareti interne
 
-![[muuratsalo-v9-passo-06.png|700]]
+![[muuratsalo-v10-passo-06.png|700]]
 
-Le pareti interne sono più basse dei muri, così il tetto ci passa sopra.
+Le pareti interne arrivano fino sotto il tetto: il bordo in alto è inclinato come il tetto, e le porte sono buchi alti 2,1 cm (1,9 quella della cucina, che sta sotto il punto più basso del tetto) dentro un muro unico.
 
-1. M13 e M14 chiudono la cucina a sud, a 3,35 cm dal filo nord. M13 parte da M11; tra M13 e M14 c'è la porta della cucina (8 mm), e M14 arriva a M04.
+1. M13 chiude la cucina a sud, a 3,35 cm dal filo nord: va da M11 fino a M04, con la porta della cucina (8 mm) verso est.
 2. M15 è la parete nord del bagno, a 4,7 cm dal filo nord: va da 11,55 cm dal filo ovest fino a M04. Il lato ovest del bagno resta aperto, perché è quasi tutto porta.
 3. M16 separa il bagno dal guardaroba, a 6,2 cm dal filo nord: va da 10,75 cm dal filo ovest fino a M04.
-4. M17 e M18 sono la parete del corridoio, a 10,75 cm dal filo ovest. M17 va da 7,3 a 9,2 cm dal filo nord e M18 da 9,75 a 10,95; i vuoti tra i pezzi sono le porte delle camere.
+4. M17 è la parete del corridoio, a 10,75 cm dal filo ovest: va da M16 (6,7 cm dal filo nord) fino a 10,95. Ha due porte: quella del guardaroba, all'inizio, contro M16, e quella della camera, da 9,2 a 9,75 cm dal filo nord.
 5. M19 separa le due camere, a 8,15 cm dal filo nord, da M17 fino a M04.
 6. M20 chiude la camera sud, a 10,95 cm dal filo nord, da 10,75 cm dal filo ovest fino a M04.
 
 ### Passo 7: il soppalco
 
-![[muuratsalo-v9-passo-07.png|700]]
+![[muuratsalo-v10-passo-07.png|700]]
 
 1. Su M02, M03 e M10 segna a matita una linea a 2,35 cm dal pavimento.
 2. Incolla il soppalco M21 appoggiato su questa linea, nell'angolo nord-ovest: tocca M02, M03 e M10. Il bordo libero, verso est, sta a 3,7 cm dal filo ovest.
@@ -145,7 +144,7 @@ Le pareti interne sono più basse dei muri, così il tetto ci passa sopra.
 
 ### Passo 8: l'ingresso
 
-![[muuratsalo-v9-passo-08.png|700]]
+![[muuratsalo-v10-passo-08.png|700]]
 
 1. M22 continua il filo est della casa verso nord: va da M02 fino a 1,3 cm sopra il filo nord.
 2. M23 è il muro est dell'ingresso, parallelo a M04 e a 1,2 cm da lui (tra le facce esterne ci sono 1,7 cm). Va da 0,15 a 3,6 cm sotto il filo nord: sotto c'è la porta d'ingresso a est, sopra il passaggio verso l'annesso.
@@ -153,7 +152,7 @@ Le pareti interne sono più basse dei muri, così il tetto ci passa sopra.
 
 ### Passo 9: l'annesso degli ospiti
 
-![[muuratsalo-v9-passo-09.png|700]]
+![[muuratsalo-v10-passo-09.png|700]]
 
 1. M25 (muro nord) e M26 (muro sud) sono i due muri lunghi, sulle linee del rettangolo disegnato al passo 1. La finestra di M25 sta verso ovest; M26 tocca l'ingresso.
 2. M27 chiude il lato ovest, ma solo per 1,7 cm a partire da M25: il resto del lato è il passaggio dall'ingresso.
@@ -163,7 +162,7 @@ Le pareti interne sono più basse dei muri, così il tetto ci passa sopra.
 
 ### Passo 10: i tetti e il comignolo
 
-![[muuratsalo-v9-passo-10.png|700]]
+![[muuratsalo-v10-passo-10.png|700]]
 
 1. M32 appoggia sul bordo inclinato di M02 e di M10, da ovest fino alla linea più bassa (a 12,25 cm dal filo ovest).
 2. M33 continua da lì fino al filo est e risale: insieme a M32 fa la «farfalla».
@@ -190,15 +189,12 @@ Misure in cm: larghezza × altezza del pezzo (per i tetti e il soppalco, lunghez
 | M09 | Muro tra patio e corridoio | 8,9 × 3 | 4 |
 | M10 | Muro tra atelier e patio (5,41 a ovest, 2,75 a est) | 9,45 × 5,41 | 5 |
 | M11 | Muro tra pranzo e cucina | 3,1 × 2,75 | 5 |
-| M12 | Camino | 1,65 × 2,2 | 5 |
-| M13 | Parete della cucina, pezzo ovest | 2,15 × 2,05 | 6 |
-| M14 | Parete della cucina, pezzo est | 1 × 2,05 | 6 |
-| M15 | Parete nord del bagno | 2,35 × 2,05 | 6 |
-| M16 | Parete tra bagno e guardaroba | 3,15 × 2,1 | 6 |
-| M17 | Corridoio, pezzo nord | 1,9 × 2,1 | 6 |
-| M18 | Corridoio, pezzo sud | 1,2 × 2,1 | 6 |
-| M19 | Parete tra le due camere | 2,65 × 2,1 | 6 |
-| M20 | Parete della camera sud | 3,15 × 2,1 | 6 |
+| M13 | Parete sud della cucina, con la porta (bordo alto inclinato) | 3,95 × 2,75 | 6 |
+| M15 | Parete nord del bagno (bordo alto inclinato) | 2,35 × 2,6 | 6 |
+| M16 | Parete tra bagno e guardaroba (bordo alto inclinato) | 3,15 × 2,6 | 6 |
+| M17 | Parete del corridoio, con le porte del guardaroba e della camera | 4,25 × 2,42 | 6 |
+| M19 | Parete tra le due camere (bordo alto inclinato) | 2,65 × 2,6 | 6 |
+| M20 | Parete della camera sud (bordo alto inclinato) | 3,15 × 2,6 | 6 |
 | M21 | Soppalco dello studio | 3,2 × 4 | 7 |
 | M22 | Ingresso, muro ovest | 1,3 × 2,6 | 8 |
 | M23 | Ingresso, muro est | 3,45 × 2,6 | 8 |

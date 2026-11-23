@@ -2,7 +2,8 @@
 """Casa sperimentale di Aalto a Muuratsalo (esercizio 4 di composizione): pianta quotata,
 altezze, schema di taglio del foglio di Poliplat 50 x 70 x 0,5 cm e passaggi di montaggio in 3D.
 
-Uso: python3 -I composizione-muuratsalo.py
+Uso: python3 -I composizione-muuratsalo.py (con numpy e PIL, per esempio il python di
+~/Library/Application Support/sbobine-whisper/.venv, i passi del montaggio escono in PNG)
 Coordinate in metri sulla casa (= cm sul plastico 1:100): x verso est dal filo esterno ovest,
 y verso sud dal filo esterno nord, z dal pavimento. Le misure in pianta sono prese dalla
 scala grafica della scheda (pianta misurata 14,25 m, riportata al 14,40 detto dal prof).
@@ -14,7 +15,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v9"
+VER = "v10"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -73,12 +74,39 @@ def rett(w, h):
     return [(0, 0), (w, 0), (w, h), (0, h)]
 
 
+def tacche(p):
+    """Le porte (buchi che partono dal pavimento) diventano tacche nel contorno del pezzo:
+    cosi' il pezzo resta un poligono semplice, senza buchi aperti sul bordo."""
+    porte = sorted(b for b in p.buchi if b[1] <= 1e-9)
+    p.porte = porte
+    if not porte:
+        return p
+    p.buchi = [b for b in p.buchi if b[1] > 1e-9]
+    f = list(p.forma)
+    assert f[0] == (0, 0) and f[1][1] == 0, p.cod
+    L = f[1][0]
+    fondo = []
+    for k, (u1, v1, u2, v2) in enumerate(porte):
+        if u1 <= 1e-9:
+            fondo += [(0, v2), (u2, v2), (u2, 0)]
+        elif u2 >= L - 1e-9:
+            fondo += [(u1, 0), (u1, v2), (L, v2)]
+        else:
+            fondo += [(u1, 0), (u1, v2), (u2, v2), (u2, 0)]
+    if porte[0][0] > 1e-9:
+        fondo = [(0, 0)] + fondo
+    if porte[-1][2] < L - 1e-9:
+        fondo = fondo + [(L, 0)]
+    p.forma = fondo + f[2:]
+    return p
+
+
 def muro_x(cod, nome, passo, x1, x2, y0, h, buchi=(), forma=None, nota="", poliplat=True):
     """Muro lungo x da x1 a x2; buchi in coordinate assolute (xa, za, xb, zb)."""
     b = [(a - x1, za, c - x1, zb) for a, za, c, zb in buchi]
     p = Pezzo(cod, nome, "x", passo, x0=x1, y0=y0, forma=forma or rett(x2 - x1, h), buchi=b, nota=nota)
     p.poliplat = poliplat
-    return p
+    return tacche(p)
 
 
 def muro_y(cod, nome, passo, y1, y2, x0, h, buchi=(), forma=None, nota="", poliplat=True):
@@ -87,7 +115,7 @@ def muro_y(cod, nome, passo, y1, y2, x0, h, buchi=(), forma=None, nota="", polip
     p.poliplat = poliplat
     if not poliplat:
         p.t = 0.15
-    return p
+    return tacche(p)
 
 
 def piano(cod, nome, passo, pts, dim, nota=""):
@@ -147,20 +175,34 @@ def pezzi():
                     buchi=[(6.40, 0.45, 8.50, 2.10), (10.95, 0, 11.55, 2.20)]))
     # --- 5. il muro dell'atelier sul patio e il camino
     P.append(muro_x("M10", "Muro tra atelier e patio", 5, 0.5, 9.95, 4.5, 0,
-                    forma=[(0, 0), (9.45, 0), (9.45, hN(9.95)), (0, hN(0.5))],
-                    buchi=[(2.20, 0.50, 6.10, 2.10), (5.05, 0, 6.10, 0.50)],
+                    # finestra lunga e portafinestra insieme: un'unica tacca dal pavimento
+                    forma=[(0, 0), (4.55, 0), (4.55, 0.50), (1.70, 0.50), (1.70, 2.10), (5.60, 2.10), (5.60, 0),
+                           (9.45, 0), (9.45, hN(9.95)), (0, hN(0.5))],
                     nota="Il bordo in alto è inclinato come il tetto."))
     P.append(muro_y("M11", "Muro tra pranzo e cucina", 5, 0.5, 3.60, 9.45, 2.75))
-    P.append(muro_y("M12", "Camino", 5, 1.95, 3.60, 8.95, 2.20))
     # --- 6. le pareti interne
-    P.append(muro_x("M13", "Parete della cucina, pezzo ovest", 6, 9.95, 12.10, 3.35, 2.05))
-    P.append(muro_x("M14", "Parete della cucina, pezzo est", 6, 12.90, 13.90, 3.35, 2.05))
-    P.append(muro_x("M15", "Parete nord del bagno", 6, 11.55, 13.90, 4.70, 2.05))
-    P.append(muro_x("M16", "Parete tra bagno e guardaroba", 6, 10.75, 13.90, 6.20, 2.10))
-    P.append(muro_y("M17", "Corridoio, pezzo nord", 6, 7.30, 9.20, 10.75, 2.10))
-    P.append(muro_y("M18", "Corridoio, pezzo sud", 6, 9.75, 10.95, 10.75, 2.10))
-    P.append(muro_x("M19", "Parete tra le due camere", 6, 11.25, 13.90, 8.15, 2.10))
-    P.append(muro_x("M20", "Parete della camera sud", 6, 10.75, 13.90, 10.95, 2.10))
+    # i tramezzi arrivano sotto il tetto (bordo alto inclinato come il tetto); le porte sono buchi
+    # alti 2,1 dentro un muro unico (scelta di Nadia)
+    def sotto_nord(x1, x2):
+        pts = [(0, 0), (x2 - x1, 0), (x2 - x1, hN(x2))]
+        if x1 < 12.25 < x2:
+            pts.append((12.25 - x1, hN(12.25)))
+        return pts + [(0, hN(x1))]
+
+    def sotto_ala(x1, x2):
+        pts = [(0, 0), (x2 - x1, 0), (x2 - x1, h_ala(x2) - T)]
+        if x1 < 12.25 < x2:
+            pts.append((12.25 - x1, h_ala(12.25) - T))
+        return pts + [(0, h_ala(x1) - T)]
+    PD = 2.10
+    P.append(muro_x("M13", "Parete sud della cucina (porta)", 6, 9.95, 13.90, 3.35, 0, forma=sotto_nord(9.95, 13.90),
+                    buchi=[(12.10, 0, 12.90, 1.90)]))
+    P.append(muro_x("M15", "Parete nord del bagno", 6, 11.55, 13.90, 4.70, 0, forma=sotto_nord(11.55, 13.90)))
+    P.append(muro_x("M16", "Parete tra bagno e guardaroba", 6, 10.75, 13.90, 6.20, 0, forma=sotto_ala(10.75, 13.90)))
+    P.append(muro_y("M17", "Parete del corridoio (porte del guardaroba e della camera)", 6, 6.70, 10.95, 10.75,
+                    h_ala(11.25) - T, buchi=[(6.70, 0, 7.30, PD), (9.20, 0, 9.75, PD)]))
+    P.append(muro_x("M19", "Parete tra le due camere", 6, 11.25, 13.90, 8.15, 0, forma=sotto_ala(11.25, 13.90)))
+    P.append(muro_x("M20", "Parete della camera sud", 6, 10.75, 13.90, 10.95, 0, forma=sotto_ala(10.75, 13.90)))
     # --- 7. il soppalco
     P.append(piano("M21", "Soppalco dello studio", 7,
                    [(0.5, 0.5, 2.35), (3.70, 0.5, 2.35), (3.70, 4.5, 2.35), (0.5, 4.5, 2.35)], (3.20, 4.00),
@@ -317,6 +359,83 @@ def vista3d(tutti, passo, titolo, path, scala=26):
     out.append("</svg>")
     with open(path, "w") as fh:
         fh.write("\n".join(out))
+
+
+def vista3d_png(tutti, passo, titolo, path, scala=52, ss=2):
+    """Come vista3d, ma disegnata con lo z-buffer (numpy + PIL): ogni pixel mostra la faccia piu'
+    vicina, quindi i pezzi non si sovrappongono mai nel modo sbagliato. Esce un PNG leggero."""
+    import numpy as np
+    from PIL import Image, ImageDraw, ImageFont
+    facc = []
+    for p in tutti:
+        if p.passo > passo:
+            continue
+        for verts, buchi, n in facce(p):
+            if dot(n, V) <= 1e-6:
+                continue
+            luce = 0.55 + 0.45 * max(0, dot(n, (0.3, 0.5, 0.8)) / math.sqrt(0.98))
+            facc.append((verts, buchi, n, p.passo == passo, luce, p.cod))
+    pts = [proj(v) for f in facc for v in f[0]]
+    minx, maxx = min(a for a, _ in pts), max(a for a, _ in pts)
+    miny, maxy = min(b for _, b in pts), max(b for _, b in pts)
+    k = scala * ss
+    ox, oy = 30 * ss, 90 * ss
+    W, H = int((maxx - minx) * k + 60 * ss), int((maxy - miny) * k + 120 * ss)
+    tr = lambda q: ((q[0] - minx) * k + ox, (q[1] - miny) * k + oy)
+    zbuf = np.full((H, W), -1e9)
+    ids = np.full((H, W), -1, dtype=np.int32)
+    col = np.full((H, W, 3), 255, dtype=np.uint8)
+    yy, xx = np.mgrid[0:H, 0:W]
+    for i, (verts, buchi, n, nuovo, luce, cod) in enumerate(facc):
+        poly = [tr(proj(v)) for v in verts]
+        x0, x1 = int(max(0, min(a for a, _ in poly))), int(min(W - 1, max(a for a, _ in poly) + 1))
+        y0, y1 = int(max(0, min(b for _, b in poly))), int(min(H - 1, max(b for _, b in poly) + 1))
+        if x1 <= x0 or y1 <= y0:
+            continue
+        m = Image.new("L", (x1 - x0 + 1, y1 - y0 + 1), 0)
+        d = ImageDraw.Draw(m)
+        d.polygon([(a - x0, b - y0) for a, b in poly], fill=1)
+        for b in buchi:
+            d.polygon([(a - x0, c - y0) for a, c in (tr(proj(v)) for v in b)], fill=0)
+        mask = np.array(m, dtype=bool)
+        # profondita' del piano della faccia in ogni pixel: p = X R - Y U + t V
+        X = (xx[y0:y1 + 1, x0:x1 + 1] - ox) / k + minx
+        Y = (yy[y0:y1 + 1, x0:x1 + 1] - oy) / k + miny
+        c = dot(n, verts[0])
+        t = (c - X * dot(n, R) + Y * dot(n, U)) / dot(n, V)
+        zb = zbuf[y0:y1 + 1, x0:x1 + 1]
+        ok = mask & (t > zb + 1e-4)
+        zb[ok] = t[ok]
+        ids[y0:y1 + 1, x0:x1 + 1][ok] = i
+        base = (232, 96, 96) if nuovo else (236, 236, 236)
+        col[y0:y1 + 1, x0:x1 + 1][ok] = [int(cc * luce) for cc in base]
+    # contorni dove cambia la faccia
+    e = np.zeros((H, W), dtype=bool)
+    e[:, 1:] |= ids[:, 1:] != ids[:, :-1]
+    e[1:, :] |= ids[1:, :] != ids[:-1, :]
+    e2 = e.copy()
+    e2[:, 1:] |= e[:, :-1]
+    e2[1:, :] |= e[:-1, :]
+    col[e2] = (85, 85, 85)
+    im = Image.fromarray(col).resize((W // ss, H // ss), Image.LANCZOS)
+    d = ImageDraw.Draw(im)
+    try:
+        fb = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 30, index=1)
+        fn = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 20)
+        fl = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", 22, index=1)
+    except OSError:
+        fb = fn = fl = ImageFont.load_default()
+    d.text((20, 18), titolo, fill=(51, 51, 51), font=fb)
+    d.text((im.width - 20, 24), "vista da sud-est", fill=(85, 85, 85), font=fn, anchor="ra")
+    # etichette dei pezzi nuovi, al centro della parte che si vede
+    for cod in sorted({f[5] for f in facc if f[3]}):
+        sel = np.isin(ids, [i for i, f in enumerate(facc) if f[5] == cod])
+        if not sel.any():
+            continue
+        ys, xs = np.nonzero(sel)
+        cx, cy = xs.mean() / ss, ys.mean() / ss
+        d.text((cx, cy), cod, fill=(122, 0, 0), font=fl, anchor="mm", stroke_width=3, stroke_fill=(255, 255, 255))
+    im.save(path, optimize=True)
 
 
 # =====================================================================================
@@ -757,7 +876,8 @@ def pezzi_quotati(P, path):
             d += " M " + " L ".join("%.1f %.1f" % T2(u, v) for u, v in [(u1, v1), (u2, v1), (u2, v2), (u1, v2)]) + " Z"
         out.append(f'<path d="{d}" fill="#f6c9c9" fill-rule="evenodd" stroke="{ROSSO}" stroke-width="1.5"/>')
         # catena orizzontale sotto: bordi del pezzo, delle aperture e degli spigoli in alto
-        xs = sorted({0.0, round(w, 3)} | {round(a, 3) for b in p.buchi for a in (b[0], b[2])} |
+        tutti_b = p.buchi + getattr(p, "porte", [])
+        xs = sorted({0.0, round(w, 3)} | {round(a, 3) for b in tutti_b for a in (b[0], b[2])} |
                     {round(u, 3) for u, v in forma if 0 < u < w})
         yq = py + 26 + h * s + 26
         for a, b in zip(xs, xs[1:]):
@@ -771,7 +891,7 @@ def pezzi_quotati(P, path):
             out.append(f'<line x1="{A:.1f}" y1="{yq - 9}" x2="{A:.1f}" y2="{T2(0, 0)[1] + 4:.1f}" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>')
         out.append(_txt((T2(0, 0)[0] + T2(w, 0)[0]) / 2, yq + 20, "totale " + num(w), 12, True, "#333"))
         # catena verticale a sinistra: davanzali e architravi, e l'altezza del lato sinistro
-        hs = sorted({0.0} | {round(v, 3) for b in p.buchi for v in (b[1], b[3])} |
+        hs = sorted({0.0} | {round(v, 3) for b in tutti_b for v in (b[1], b[3])} |
                     {round(v, 3) for u, v in forma if abs(u) < 1e-6})
         xq = px - 22
         for a, b in zip(hs, hs[1:]):
@@ -1029,7 +1149,10 @@ def main():
               6: "Passo 6: le pareti interne", 7: "Passo 7: il soppalco", 8: "Passo 8: l'ingresso",
               9: "Passo 9: l'annesso degli ospiti", 10: "Passo 10: i tetti e il comignolo"}
     for k, t in titoli.items():
-        vista3d(P, k, t, OUT + "muuratsalo-%s-passo-%02d.svg" % (VER, k))
+        try:
+            vista3d_png(P, k, t, OUT + "muuratsalo-%s-passo-%02d.png" % (VER, k))
+        except ImportError:      # senza numpy e PIL: il disegno vettoriale di prima
+            vista3d(P, k, t, OUT + "muuratsalo-%s-passo-%02d.svg" % (VER, k))
     # tabella per la pagina
     for p in P:
         if getattr(p, "poliplat", True):
