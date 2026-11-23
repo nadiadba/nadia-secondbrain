@@ -476,6 +476,118 @@ def vetri():
     return out
 
 
+# =====================================================================================
+# I pezzi del secondo plastico (Poliplat 0,5 cm, scala 1:100: i metri diventano cm)
+# Come nel primo: tutti i muri spessi 0,5; il filo esterno e quello sul patio restano fermi,
+# lo spessore in piu' va dentro le stanze. I tramezzi stanno a cavallo dell'asse.
+# =====================================================================================
+TP = 0.5          # spessore del Poliplat
+
+
+def zp(y):
+    """Sotto il tetto di Poliplat (spesso 0,5) nel punto y."""
+    return ze(y) - TP
+
+
+def sagoma(L, alto, porte=(), finestre=()):
+    """Profilo di un muro visto di fronte: u lungo il muro, v in alto.
+    alto: punti del bordo alto da u = L a u = 0; porte: (u1, u2, v2) dal basso;
+    finestre: (u1, u2, v1, v2); se toccano un'estremita' diventano tacche sul fianco."""
+    sx = [f for f in finestre if f[0] <= 1e-9]
+    dx = [f for f in finestre if f[1] >= L - 1e-9]
+    buchi = [f for f in finestre if f not in sx and f not in dx]
+    pl = [p for p in porte if p[0] <= 1e-9]
+    pr = [p for p in porte if p[1] >= L - 1e-9]
+    pm = sorted(p for p in porte if p not in pl and p not in pr)
+    out = []
+    if pl:
+        u1, u2, v2 = pl[0]
+        out += [[u2, 0]]
+    else:
+        out += [[0, 0]]
+    for u1, u2, v2 in pm:
+        out += [[u1, 0], [u1, v2], [u2, v2], [u2, 0]]
+    if pr:
+        u1, u2, v2 = pr[0]
+        out += [[u1, 0], [u1, v2], [L, v2]]
+    else:
+        out += [[L, 0]]
+    for u1, u2, v1, v2 in dx:
+        out += [[L, v1], [u1, v1], [u1, v2], [L, v2]]
+    out += [list(q) for q in alto]
+    for u1, u2, v1, v2 in sx:
+        out += [[0, v2], [u2, v2], [u2, v1], [0, v1]]
+    if pl:
+        u1, u2, v2 = pl[0]
+        out += [[0, v2], [u2, v2]]
+    holes = [[[u1, v1], [u2, v1], [u2, v2], [u1, v2]] for u1, u2, v1, v2 in buchi]
+    return out, holes
+
+
+def muro_ns(y1, y2, f, porte=(), finestre=(), rompi=True):
+    """Muro nord-sud da y1 a y2 con il bordo alto f(y); aperture in coordinate y."""
+    L = y2 - y1
+    alto = [[L, f(y2)]]
+    if rompi and y1 < Y_B < y2:
+        alto.append([Y_B - y1, f(Y_B)])
+    alto.append([0, f(y1)])
+    return sagoma(L, alto, [(a - y1, b - y1, v) for a, b, v in porte],
+                  [(a - y1, b - y1, v1, v2) for a, b, v1, v2 in finestre])
+
+
+def muro_eo(x1, x2, h, porte=(), finestre=()):
+    L = x2 - x1
+    return sagoma(L, [[L, h], [0, h]], [(a - x1, b - x1, v) for a, b, v in porte],
+                  [(a - x1, b - x1, v1, v2) for a, b, v1, v2 in finestre])
+
+
+def pezzi_plastico():
+    W = [  # codice, nome, (profilo, buchi)
+        ("N02", "Muro nord (6,3 di altezza, 4 finestre)",
+         muro_eo(0, 14.40, ze(0), finestre=[(2.30, 3.50, 0.9, 2.1), (6.00, 7.20, 0.9, 2.1), (9.00, 10.20, 0.9, 2.1), (12.05, 13.25, 0.9, 2.1)])),
+        ("N03", "Muro ovest, casa e recinto (bordo inclinato)", muro_ns(0.5, 11.75, ze)),
+        ("N04", "Muro est, casa e recinto (scende e poi risale; porta dell'ingresso)",
+         muro_ns(0.5, 14.40, ze, porte=[(2.80, 3.90, 2.2)])),
+        ("N05", "Recinto sud", muro_eo(7.55, 13.90, rec(14.40))),
+        ("N06", "Muretto sotto il graticcio (sud)", muro_eo(2.65, 7.55, MURETTO)),
+        ("N07", "Camera grande, muro sul patio (finestra)", muro_eo(0.5, 4.30, zp(3.20), finestre=[(1.40, 3.40, 0.9, 2.1)])),
+        ("N08", "Soggiorno, muro ovest (portafinestra del corridoio, finestra d'angolo)",
+         muro_ns(2.70, 10.53, zp, porte=[(3.13, 3.93, 2.1)], finestre=[(7.88, 10.53, 0.9, 2.1)])),
+        ("N09", "Soggiorno, muro sud (finestra d'angolo, portafinestra)",
+         muro_eo(4.80, 11.00, zp(10.53), porte=[(8.30, 9.50, 2.1)], finestre=[(4.80, 6.95, 0.9, 2.1)])),
+        ("N10", "Soggiorno, muro est sul patio", muro_ns(8.27, 10.03, zp)),
+        ("N11", "Cucina, muro sul patio (finestra)", muro_eo(10.50, 13.90, zp(8.27), finestre=[(11.60, 13.20, 1.0, 2.1)])),
+        ("N12", "Tramezzo camera grande / guardaroba", muro_ns(0.5, 2.80, zp)),
+        ("N13", "Tramezzo guardaroba / camera", muro_ns(0.5, 2.80, zp)),
+        ("N14", "Tramezzo camera / bagno e disimpegno", muro_ns(0.5, 3.30, zp)),
+        ("N15", "Tramezzo tra camere e corridoio (3 porte)",
+         muro_eo(4.80, 11.08, zp(3.30), porte=[(4.80, 5.35, 2.1), (6.20, 6.90, 2.1), (9.60, 10.40, 2.1)])),
+        ("N16", "Tramezzo bagno / disimpegno (porta)", muro_eo(11.58, 13.90, zp(2.49), porte=[(13.20, 13.90, 2.1)])),
+        ("N17", "Tramezzo corridoio e disimpegno / soggiorno e cucina (varco, porta)",
+         muro_eo(4.80, 13.90, zp(4.25), porte=[(5.10, 6.30, 2.2), (12.50, 13.30, 2.1)])),
+        ("N18", "Tramezzo soggiorno / cucina (varco)", muro_ns(4.25, 7.77, zp, porte=[(5.70, 6.80, 2.2)])),
+        ("N19", "Ingresso in legno, muro nord (porta)", muro_eo(14.40, 16.15, 2.60, porte=[(14.85, 15.85, 2.1)])),
+        ("N20", "Ingresso in legno, muro est (finestra)", muro_ns(2.74, 8.07, lambda y: 2.60, finestre=[(4.50, 6.00, 0.9, 2.0)])),
+        ("N21", "Annesso, muro nord (porta dall'ingresso)", muro_eo(14.40, 18.65, 2.60, porte=[(14.70, 15.60, 2.1)])),
+        ("N22", "Annesso, muro est (finestra)", muro_ns(8.57, 14.34, lambda y: 2.60, finestre=[(10.50, 11.70, 1.0, 1.9)])),
+        ("N23", "Annesso, muro sud (finestra)", muro_eo(14.40, 18.15, 2.60, finestre=[(15.30, 17.20, 1.0, 1.9)])),
+    ]
+    out = [{"cod": "N01", "nome": "Base del secondo plastico", "outline": [[0, 0], [20, 0], [20, 16], [0, 16]], "holes": []}]
+    for cod, nome, (o, h) in W:
+        vmax = max(v for u, v in o)
+        flip = lambda pts: [[round(u, 3), round(vmax - v, 3)] for u, v in pts]
+        out.append({"cod": cod, "nome": nome, "outline": flip(o), "holes": [flip(q) for q in h]})
+    # il tetto e' un'unica falda: un solo pezzo, con le lunghezze nord-sud vere (inclinate)
+    k = math.hypot(1, K_GIU)
+    tetto = [(0.5, 0.5), (13.9, 0.5), (13.9, 8.27), (11.0, 8.27), (11.0, 10.53), (4.3, 10.53), (4.3, 3.2), (0.5, 3.2)]
+    out.append({"cod": "N24", "nome": "Tetto della casa (un pezzo solo; nord in alto)",
+                "outline": [[round(x - 0.5, 3), round((y - 0.5) * k, 3)] for x, y in tetto], "holes": []})
+    out.append({"cod": "N25", "nome": "Tetto dell'ingresso in legno", "outline": [[0, 0], [1.75, 0], [1.75, 5.83], [0, 5.83]], "holes": []})
+    out.append({"cod": "N26", "nome": "Tetto dell'annesso", "outline": [[0, 0], [4.25, 0], [4.25, 6.27], [0, 6.27]], "holes": []})
+    out.append({"cod": "N27", "nome": "Soppalco dello studio (a 2,2 cm dalla base)", "outline": [[0, 0], [3.79, 0], [3.79, 3.79], [0, 3.79]], "holes": []})
+    return out
+
+
 def controlli():
     print("patio %.2f m2 (Aalto 86,5, -5%% = 82,2)" % patio_area())
     for n, z, x1, y1, x2, y2 in STANZE:
@@ -497,3 +609,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 2:
         with open(sys.argv[2], "w") as fh:
             json.dump(vetri(), fh)
+    if len(sys.argv) > 3:
+        with open(sys.argv[3], "w") as fh:
+            json.dump(pezzi_plastico(), fh)

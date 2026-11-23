@@ -48,6 +48,44 @@ La finestra d'angolo del soggiorno è rimasta come l'hai disegnata tu: 2,50 m su
 - corridoio: una portafinestra sul patio in fondo, verso ovest;
 - ingresso in legno: la porta d'entrata sul lato nord, la porta per entrare in casa e quella per l'annesso.
 
+## Il plastico
+
+I pezzi del secondo plastico hanno la lettera N, per distinguerli da quelli della casa di Aalto (M). Le regole sono quelle del primo plastico: Poliplat spesso 0,5 cm, scala 1:100, il filo esterno e quello verso il patio restano fermi e lo spessore in più va dentro le stanze. Il graticcio si fa con gli stuzzicadenti sopra il muretto N06, come nel primo.
+
+Nella [pagina del taglio dei due plastici](https://claude.ai/artifact/R1t92qYk3TydPJoFQ6Sjxq) i pezzi M e N stanno sullo stesso foglio 70 × 50, mescolati: quelli della stessa altezza sono nella stessa fila, così si tagliano con una sola linea lunga. Puoi spostarli come vuoi. La tua disposizione del primo plastico resta salvata ed è quella dello schema di taglio in [[esercizio-4-casa-muuratsalo]].
+
+| Pezzo | Cos'è | Misure (cm) |
+|---|---|---|
+| N01 | Base del secondo plastico | 20 × 16 |
+| N02 | Muro nord (6,3 di altezza, 4 finestre) | 14,4 × 6,3 |
+| N03 | Muro ovest, casa e recinto (bordo inclinato) | 11,25 × 6,21 |
+| N04 | Muro est, casa e recinto (scende e poi risale; porta dell'ingresso) | 13,9 × 6,21 |
+| N05 | Recinto sud | 6,35 × 4,86 |
+| N06 | Muretto sotto il graticcio (sud) | 4,9 × 1,8 |
+| N07 | Camera grande, muro sul patio (finestra) | 3,8 × 5,25 |
+| N08 | Soggiorno, muro ovest (portafinestra del corridoio, finestra d'angolo) | 7,83 × 5,34 |
+| N09 | Soggiorno, muro sud (finestra d'angolo, portafinestra) | 6,2 × 4 |
+| N10 | Soggiorno, muro est sul patio | 1,76 × 4,39 |
+| N11 | Cucina, muro sul patio (finestra) | 3,4 × 4,39 |
+| N12 | Tramezzo camera grande / guardaroba | 2,3 × 5,71 |
+| N13 | Tramezzo guardaroba / camera | 2,3 × 5,71 |
+| N14 | Tramezzo camera / bagno e disimpegno | 2,8 × 5,71 |
+| N15 | Tramezzo tra camere e corridoio (3 porte) | 6,28 × 5,24 |
+| N16 | Tramezzo bagno / disimpegno (porta) | 2,32 × 5,37 |
+| N17 | Tramezzo corridoio e disimpegno / soggiorno e cucina (varco, porta) | 9,1 × 5,07 |
+| N18 | Tramezzo soggiorno / cucina (varco) | 3,52 × 5,07 |
+| N19 | Ingresso in legno, muro nord (porta) | 1,75 × 2,6 |
+| N20 | Ingresso in legno, muro est (finestra) | 5,33 × 2,6 |
+| N21 | Annesso, muro nord (porta dall'ingresso) | 4,25 × 2,6 |
+| N22 | Annesso, muro est (finestra) | 5,77 × 2,6 |
+| N23 | Annesso, muro sud (finestra) | 3,75 × 2,6 |
+| N24 | Tetto della casa (un pezzo solo; nord in alto) | 13,4 × 10,18 |
+| N25 | Tetto dell'ingresso in legno | 1,75 × 5,83 |
+| N26 | Tetto dell'annesso | 4,25 × 6,27 |
+| N27 | Soppalco dello studio (a 2,2 cm dalla base) | 3,79 × 3,79 |
+
+Le misure sono larghezza × altezza del pezzo; per i muri con il bordo inclinato l'altezza è quella del punto più alto. Il tetto della casa (N24) è un pezzo solo perché è un'unica falda; le sue misure nord-sud sono già allungate per la pendenza.
+
 ## Collegamenti
 
 La nuova casa tiene le regole che il prof ha dato nella [[03-muuratsalo-esercitazione|lezione del 10 novembre]]: le stanze hanno le superfici di quelle della [[esercizio-4-casa-muuratsalo|casa di Aalto]], il patio ha lo stesso vuoto e il soppalco ha almeno 2,20 m sotto e sopra. Come nella casa di Aalto, l'ingresso dà sul distributivo, camere e bagno si raggiungono dal corridoio e la cucina sta accanto al soggiorno. La differenza con Aalto è nella sezione: lì il tetto a farfalla è alto sopra l'atelier, a ovest; qui la parte alta sta sopra le camere e la falda scende verso il lago, aprendo la casa verso il patio. La porta nell'angolo, con il graticcio accanto sul muro sud, sposta l'apertura del recinto sulla diagonale del quadrato, verso il lago. Anche nella [[esercizio-3-nuova-disposizione|nuova disposizione della casa di Arzachena]] il recinto restava fermo e cambiava solo il modo di abitarlo.
