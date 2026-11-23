@@ -602,29 +602,6 @@
 ]
 },
 {
-"cod": "M05A",
-"nome": "Recinto ovest, parte alta a nord",
-"outline": [
-[
-31.1,
-13.65
-],
-[
-31.1,
-10.95
-],
-[
-24.5,
-10.95
-],
-[
-24.5,
-13.65
-]
-],
-"holes": []
-},
-{
 "cod": "M06",
 "nome": "Recinto sud, pezzo ovest (6,6 nell'angolo, 5,3 verso l'apertura)",
 "outline": [
@@ -759,29 +736,6 @@
 "holes": []
 },
 {
-"cod": "M05B",
-"nome": "Recinto ovest, muretto sotto il graticcio",
-"outline": [
-[
-43.65,
-2.1
-],
-[
-43.65,
-7.0
-],
-[
-45.45,
-7.0
-],
-[
-45.45,
-2.1
-]
-],
-"holes": []
-},
-{
 "cod": "M08",
 "nome": "Muro sud delle camere",
 "outline": [
@@ -869,29 +823,6 @@
 [
 23.2,
 15.05
-]
-],
-"holes": []
-},
-{
-"cod": "M05C",
-"nome": "Recinto ovest, parte alta nell'angolo",
-"outline": [
-[
-23.2,
-14.9
-],
-[
-24.5,
-14.9
-],
-[
-24.5,
-8.3
-],
-[
-23.2,
-8.3
 ]
 ],
 "holes": []
@@ -1237,6 +1168,45 @@
 [
 12.73,
 25.0
+]
+],
+"holes": []
+},
+{
+"cod": "M05",
+"nome": "Recinto ovest (un pezzo: alto ai due lati, muretto basso in mezzo)",
+"outline": [
+[
+20.0,
+21.65
+],
+[
+28.9,
+21.65
+],
+[
+28.9,
+15.05
+],
+[
+27.6,
+15.05
+],
+[
+27.6,
+19.85
+],
+[
+22.7,
+19.85
+],
+[
+22.7,
+15.05
+],
+[
+20.0,
+15.05
 ]
 ],
 "holes": []

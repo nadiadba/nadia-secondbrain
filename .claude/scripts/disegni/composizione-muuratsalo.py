@@ -14,7 +14,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v6"
+VER = "v7"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -119,9 +119,10 @@ def pezzi():
     # Altezze del recinto ricavate dalla foto del patio verso il lago (apertura larga 4,5 m come
     # riferimento) e dalla sezione sul patio della scheda: sono stime, con un margine di 20-30 cm.
     HR, PAR = 6.60, 1.80
-    P.append(muro_y("M05A", "Recinto ovest, parte alta a nord", 3, 5.0, 7.70, 0, HR))
-    P.append(muro_y("M05B", "Recinto ovest, muretto sotto il graticcio", 3, 7.70, 12.60, 0, PAR))
-    P.append(muro_y("M05C", "Recinto ovest, parte alta nell'angolo", 3, 12.60, 13.90, 0, HR))
+    # un pezzo solo (scelta di Nadia): alto alle due estremita', basso nel tratto del graticcio
+    P.append(muro_y("M05", "Recinto ovest (un pezzo: alto ai due lati, muretto basso in mezzo)", 3, 5.0, 13.90, 0, HR,
+                    forma=[(0, 0), (8.90, 0), (8.90, HR), (7.60, HR), (7.60, PAR), (2.70, PAR), (2.70, HR), (0, HR)],
+                    nota="Un pezzo solo: la tacca in alto (4,9 cm, giù fino a 1,8) è il muretto del graticcio."))
     P.append(muro_x("M06", "Recinto sud, pezzo ovest", 3, 0, 2.45, 13.90, 0,
                     forma=[(0, 0), (2.45, 0), (2.45, 5.30), (0, HR)],
                     nota="Inclinato: alto nell'angolo con M05, più basso verso l'apertura."))
