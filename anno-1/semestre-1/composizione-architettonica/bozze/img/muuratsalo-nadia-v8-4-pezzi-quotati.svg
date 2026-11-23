@@ -1,0 +1,404 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1320 1928" width="1320" height="1928">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="16" y="30" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">I pezzi con finestre, porte o bordo inclinato (misure in cm)</text>
+<text x="16" y="54" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#555">Ogni pezzo è disegnato in piedi, come sarà nel plastico: le misure in basso si contano da sinistra, quelle di lato dal basso.</text>
+<text x="20" y="116" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S02  Muro nord (4 finestre)</text>
+<path d="M 70.0 331.7 L 559.6 331.7 L 559.6 136.0 L 70.0 136.0 Z M 148.2 301.1 L 189.0 301.1 L 189.0 260.3 L 148.2 260.3 Z M 274.0 301.1 L 314.8 301.1 L 314.8 260.3 L 274.0 260.3 Z M 376.0 301.1 L 416.8 301.1 L 416.8 260.3 L 376.0 260.3 Z M 479.7 301.1 L 520.5 301.1 L 520.5 260.3 L 479.7 260.3 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="70.0" y1="357.74700854700853" x2="148.2" y2="357.74700854700853" stroke="#888" stroke-width="0.8"/>
+<text x="109.1" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">2,3</text>
+<line x1="148.2" y1="357.74700854700853" x2="189.0" y2="357.74700854700853" stroke="#888" stroke-width="0.8"/>
+<text x="168.6" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,2</text>
+<line x1="189.0" y1="357.74700854700853" x2="274.0" y2="357.74700854700853" stroke="#888" stroke-width="0.8"/>
+<text x="231.5" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">2,5</text>
+<line x1="274.0" y1="357.74700854700853" x2="314.8" y2="357.74700854700853" stroke="#888" stroke-width="0.8"/>
+<text x="294.4" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,2</text>
+<line x1="314.8" y1="357.74700854700853" x2="376.0" y2="357.74700854700853" stroke="#888" stroke-width="0.8"/>
+<text x="345.4" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,8</text>
+<line x1="376.0" y1="357.74700854700853" x2="416.8" y2="357.74700854700853" stroke="#888" stroke-width="0.8"/>
+<text x="396.4" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,2</text>
+<line x1="416.8" y1="357.74700854700853" x2="479.7" y2="357.74700854700853" stroke="#888" stroke-width="0.8"/>
+<text x="448.2" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,85</text>
+<line x1="479.7" y1="357.74700854700853" x2="520.5" y2="357.74700854700853" stroke="#888" stroke-width="0.8"/>
+<text x="500.1" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,2</text>
+<line x1="520.5" y1="357.74700854700853" x2="559.6" y2="357.74700854700853" stroke="#888" stroke-width="0.8"/>
+<text x="540.0" y="352.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,15</text>
+<line x1="66.0" y1="361.74700854700853" x2="74.0" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="70.0" y1="348.74700854700853" x2="70.0" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="144.2" y1="361.74700854700853" x2="152.2" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="148.2" y1="348.74700854700853" x2="148.2" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="185.0" y1="361.74700854700853" x2="193.0" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="189.0" y1="348.74700854700853" x2="189.0" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="270.0" y1="361.74700854700853" x2="278.0" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="274.0" y1="348.74700854700853" x2="274.0" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="310.8" y1="361.74700854700853" x2="318.8" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="314.8" y1="348.74700854700853" x2="314.8" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="372.0" y1="361.74700854700853" x2="380.0" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="376.0" y1="348.74700854700853" x2="376.0" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="412.8" y1="361.74700854700853" x2="420.8" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="416.8" y1="348.74700854700853" x2="416.8" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="475.7" y1="361.74700854700853" x2="483.7" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="479.7" y1="348.74700854700853" x2="479.7" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="516.5" y1="361.74700854700853" x2="524.5" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="520.5" y1="348.74700854700853" x2="520.5" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="555.6" y1="361.74700854700853" x2="563.6" y2="353.74700854700853" stroke="#333" stroke-width="1.2"/>
+<line x1="559.6" y1="348.74700854700853" x2="559.6" y2="335.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="314.8" y="377.7" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 14,4</text>
+<line x1="48" y1="331.7" x2="48" y2="301.1" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="316.4" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 316.4)">0,9</text>
+<line x1="48" y1="301.1" x2="48" y2="260.3" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="280.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 280.7)">1,2</text>
+<line x1="48" y1="260.3" x2="48" y2="136.0" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="198.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 198.2)">3,66</text>
+<line x1="44" y1="335.7" x2="52" y2="327.7" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="305.1" x2="52" y2="297.1" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="264.3" x2="52" y2="256.3" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="140.0" x2="52" y2="132.0" stroke="#333" stroke-width="1.2"/>
+<text x="565.6" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,76</text>
+<text x="64.0" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,76</text>
+<text x="660" y="116" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S03  Muro ovest, casa e recinto (bordo inclinato)</text>
+<path d="M 710.0 330.3 L 1092.5 330.3 L 1092.5 201.4 L 710.0 136.0 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="710.0" y1="356.29401709401714" x2="1092.5" y2="356.29401709401714" stroke="#888" stroke-width="0.8"/>
+<text x="901.2" y="351.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">11,25</text>
+<line x1="706.0" y1="360.29401709401714" x2="714.0" y2="352.29401709401714" stroke="#333" stroke-width="1.2"/>
+<line x1="710.0" y1="347.29401709401714" x2="710.0" y2="334.3" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="1088.5" y1="360.29401709401714" x2="1096.5" y2="352.29401709401714" stroke="#333" stroke-width="1.2"/>
+<line x1="1092.5" y1="347.29401709401714" x2="1092.5" y2="334.3" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="901.2" y="376.3" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 11,25</text>
+<line x1="688" y1="330.3" x2="688" y2="136.0" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="233.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 233.1)">5,71</text>
+<line x1="684" y1="334.3" x2="692" y2="326.3" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="140.0" x2="692" y2="132.0" stroke="#333" stroke-width="1.2"/>
+<text x="1098.5" y="195.4" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 3,79</text>
+<text x="704.0" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,71</text>
+<text x="20" y="431.74700854700853" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S04  Muro est, casa e recinto (scende e poi risale; porta dell'ingresso)</text>
+<path d="M 70.0 646.0 L 148.2 646.0 L 148.2 571.2 L 185.6 571.2 L 185.6 646.0 L 542.6 646.0 L 542.6 497.9 L 469.5 520.0 L 70.0 451.7 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="70.0" y1="672.0410256410256" x2="148.2" y2="672.0410256410256" stroke="#888" stroke-width="0.8"/>
+<text x="109.1" y="667.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">2,3</text>
+<line x1="148.2" y1="672.0410256410256" x2="185.6" y2="672.0410256410256" stroke="#888" stroke-width="0.8"/>
+<text x="166.9" y="667.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,1</text>
+<line x1="185.6" y1="672.0410256410256" x2="469.5" y2="672.0410256410256" stroke="#888" stroke-width="0.8"/>
+<text x="327.6" y="667.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">8,35</text>
+<line x1="469.5" y1="672.0410256410256" x2="542.6" y2="672.0410256410256" stroke="#888" stroke-width="0.8"/>
+<text x="506.1" y="667.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">2,15</text>
+<line x1="66.0" y1="676.0410256410256" x2="74.0" y2="668.0410256410256" stroke="#333" stroke-width="1.2"/>
+<line x1="70.0" y1="663.0410256410256" x2="70.0" y2="650.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="144.2" y1="676.0410256410256" x2="152.2" y2="668.0410256410256" stroke="#333" stroke-width="1.2"/>
+<line x1="148.2" y1="663.0410256410256" x2="148.2" y2="650.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="181.6" y1="676.0410256410256" x2="189.6" y2="668.0410256410256" stroke="#333" stroke-width="1.2"/>
+<line x1="185.6" y1="663.0410256410256" x2="185.6" y2="650.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="465.5" y1="676.0410256410256" x2="473.5" y2="668.0410256410256" stroke="#333" stroke-width="1.2"/>
+<line x1="469.5" y1="663.0410256410256" x2="469.5" y2="650.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="538.6" y1="676.0410256410256" x2="546.6" y2="668.0410256410256" stroke="#333" stroke-width="1.2"/>
+<line x1="542.6" y1="663.0410256410256" x2="542.6" y2="650.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="306.3" y="692.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 13,9</text>
+<line x1="48" y1="646.0" x2="48" y2="571.2" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="608.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 608.6)">2,2</text>
+<line x1="48" y1="571.2" x2="48" y2="451.7" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="511.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 511.5)">3,51</text>
+<line x1="44" y1="650.0" x2="52" y2="642.0" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="575.2" x2="52" y2="567.2" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="455.7" x2="52" y2="447.7" stroke="#333" stroke-width="1.2"/>
+<text x="148.2" y="565.2" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,2</text>
+<text x="185.6" y="565.2" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,2</text>
+<text x="548.6" y="491.9" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 4,36</text>
+<text x="469.5" y="514.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 3,71</text>
+<text x="64.0" y="445.7" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,71</text>
+<text x="660" y="431.74700854700853" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S07  Camera grande, muro sul patio (finestra)</text>
+<path d="M 710.0 631.8 L 839.2 631.8 L 839.2 451.7 L 710.0 451.7 Z M 740.6 601.2 L 808.6 601.2 L 808.6 560.4 L 740.6 560.4 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="710.0" y1="657.8017094017093" x2="740.6" y2="657.8017094017093" stroke="#888" stroke-width="0.8"/>
+<text x="725.3" y="652.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,9</text>
+<line x1="740.6" y1="657.8017094017093" x2="808.6" y2="657.8017094017093" stroke="#888" stroke-width="0.8"/>
+<text x="774.6" y="652.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">2</text>
+<line x1="808.6" y1="657.8017094017093" x2="839.2" y2="657.8017094017093" stroke="#888" stroke-width="0.8"/>
+<text x="823.9" y="652.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,9</text>
+<line x1="706.0" y1="661.8017094017093" x2="714.0" y2="653.8017094017093" stroke="#333" stroke-width="1.2"/>
+<line x1="710.0" y1="648.8017094017093" x2="710.0" y2="635.8" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="736.6" y1="661.8017094017093" x2="744.6" y2="653.8017094017093" stroke="#333" stroke-width="1.2"/>
+<line x1="740.6" y1="648.8017094017093" x2="740.6" y2="635.8" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="804.6" y1="661.8017094017093" x2="812.6" y2="653.8017094017093" stroke="#333" stroke-width="1.2"/>
+<line x1="808.6" y1="648.8017094017093" x2="808.6" y2="635.8" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="835.2" y1="661.8017094017093" x2="843.2" y2="653.8017094017093" stroke="#333" stroke-width="1.2"/>
+<line x1="839.2" y1="648.8017094017093" x2="839.2" y2="635.8" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="774.6" y="677.8" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 3,8</text>
+<line x1="688" y1="631.8" x2="688" y2="601.2" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="616.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 616.5)">0,9</text>
+<line x1="688" y1="601.2" x2="688" y2="560.4" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="580.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 580.8)">1,2</text>
+<line x1="688" y1="560.4" x2="688" y2="451.7" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="506.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 506.1)">3,2</text>
+<line x1="684" y1="635.8" x2="692" y2="627.8" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="605.2" x2="692" y2="597.2" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="564.4" x2="692" y2="556.4" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="455.7" x2="692" y2="447.7" stroke="#333" stroke-width="1.2"/>
+<text x="845.2" y="445.7" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,3</text>
+<text x="704.0" y="445.7" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,3</text>
+<text x="20" y="746.0410256410257" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S08  Soggiorno, muro ovest (portafinestra del corridoio, finestra d'angolo)</text>
+<path d="M 70.0 947.5 L 84.6 947.5 L 84.6 876.1 L 111.8 876.1 L 111.8 947.5 L 336.2 947.5 L 336.2 916.9 L 246.1 916.9 L 246.1 876.1 L 336.2 876.1 L 336.2 811.5 L 70.0 766.0 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="70.0" y1="973.548717948718" x2="84.6" y2="973.548717948718" stroke="#888" stroke-width="0.8"/>
+<text x="77.3" y="988.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,43</text>
+<line x1="84.6" y1="973.548717948718" x2="111.8" y2="973.548717948718" stroke="#888" stroke-width="0.8"/>
+<text x="98.2" y="968.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,8</text>
+<line x1="111.8" y1="973.548717948718" x2="246.1" y2="973.548717948718" stroke="#888" stroke-width="0.8"/>
+<text x="179.0" y="968.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">3,95</text>
+<line x1="246.1" y1="973.548717948718" x2="336.2" y2="973.548717948718" stroke="#888" stroke-width="0.8"/>
+<text x="291.2" y="968.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">2,65</text>
+<line x1="66.0" y1="977.548717948718" x2="74.0" y2="969.548717948718" stroke="#333" stroke-width="1.2"/>
+<line x1="70.0" y1="964.548717948718" x2="70.0" y2="951.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="80.6" y1="977.548717948718" x2="88.6" y2="969.548717948718" stroke="#333" stroke-width="1.2"/>
+<line x1="84.6" y1="964.548717948718" x2="84.6" y2="951.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="107.8" y1="977.548717948718" x2="115.8" y2="969.548717948718" stroke="#333" stroke-width="1.2"/>
+<line x1="111.8" y1="964.548717948718" x2="111.8" y2="951.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="242.1" y1="977.548717948718" x2="250.1" y2="969.548717948718" stroke="#333" stroke-width="1.2"/>
+<line x1="246.1" y1="964.548717948718" x2="246.1" y2="951.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="332.2" y1="977.548717948718" x2="340.2" y2="969.548717948718" stroke="#333" stroke-width="1.2"/>
+<line x1="336.2" y1="964.548717948718" x2="336.2" y2="951.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="203.1" y="993.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 7,83</text>
+<line x1="48" y1="947.5" x2="48" y2="876.1" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="911.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 911.8)">2,1</text>
+<line x1="48" y1="876.1" x2="48" y2="766.1" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="821.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 821.1)">3,24</text>
+<line x1="44" y1="951.5" x2="52" y2="943.5" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="880.1" x2="52" y2="872.1" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="770.1" x2="52" y2="762.1" stroke="#333" stroke-width="1.2"/>
+<text x="84.6" y="870.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="111.8" y="870.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="342.2" y="910.9" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 0,9</text>
+<text x="246.1" y="910.9" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 0,9</text>
+<text x="246.1" y="870.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="342.2" y="870.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="342.2" y="805.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 4</text>
+<text x="64.0" y="760.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,34</text>
+<text x="660" y="746.0410256410257" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S09  Soggiorno, muro sud (finestra d'angolo, portafinestra)</text>
+<path d="M 710.0 903.5 L 829.0 903.5 L 829.0 832.1 L 869.8 832.1 L 869.8 903.5 L 920.8 903.5 L 920.8 766.0 L 710.0 766.0 L 710.0 832.1 L 783.1 832.1 L 783.1 872.9 L 710.0 872.9 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="710.0" y1="929.4940170940172" x2="783.1" y2="929.4940170940172" stroke="#888" stroke-width="0.8"/>
+<text x="746.5" y="924.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">2,15</text>
+<line x1="783.1" y1="929.4940170940172" x2="829.0" y2="929.4940170940172" stroke="#888" stroke-width="0.8"/>
+<text x="806.0" y="924.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,35</text>
+<line x1="829.0" y1="929.4940170940172" x2="869.8" y2="929.4940170940172" stroke="#888" stroke-width="0.8"/>
+<text x="849.4" y="924.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,2</text>
+<line x1="869.8" y1="929.4940170940172" x2="920.8" y2="929.4940170940172" stroke="#888" stroke-width="0.8"/>
+<text x="895.3" y="924.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,5</text>
+<line x1="706.0" y1="933.4940170940172" x2="714.0" y2="925.4940170940172" stroke="#333" stroke-width="1.2"/>
+<line x1="710.0" y1="920.4940170940172" x2="710.0" y2="907.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="779.1" y1="933.4940170940172" x2="787.1" y2="925.4940170940172" stroke="#333" stroke-width="1.2"/>
+<line x1="783.1" y1="920.4940170940172" x2="783.1" y2="907.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="825.0" y1="933.4940170940172" x2="833.0" y2="925.4940170940172" stroke="#333" stroke-width="1.2"/>
+<line x1="829.0" y1="920.4940170940172" x2="829.0" y2="907.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="865.8" y1="933.4940170940172" x2="873.8" y2="925.4940170940172" stroke="#333" stroke-width="1.2"/>
+<line x1="869.8" y1="920.4940170940172" x2="869.8" y2="907.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="916.8" y1="933.4940170940172" x2="924.8" y2="925.4940170940172" stroke="#333" stroke-width="1.2"/>
+<line x1="920.8" y1="920.4940170940172" x2="920.8" y2="907.5" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="815.4" y="949.5" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 6,2</text>
+<line x1="688" y1="903.5" x2="688" y2="872.9" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="888.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 888.2)">0,9</text>
+<line x1="688" y1="872.9" x2="688" y2="832.1" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="852.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 852.5)">1,2</text>
+<line x1="688" y1="832.1" x2="688" y2="766.0" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="799.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 799.1)">1,94</text>
+<line x1="684" y1="907.5" x2="692" y2="899.5" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="876.9" x2="692" y2="868.9" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="836.1" x2="692" y2="828.1" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="770.0" x2="692" y2="762.0" stroke="#333" stroke-width="1.2"/>
+<text x="829.0" y="826.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="869.8" y="826.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="926.8" y="760.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 4,04</text>
+<text x="704.0" y="760.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 4,04</text>
+<text x="704.0" y="826.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="783.1" y="826.1" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="783.1" y="866.9" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 0,9</text>
+<text x="704.0" y="866.9" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 0,9</text>
+<text x="20" y="1047.5487179487181" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S11  Cucina, muro sul patio (finestra)</text>
+<path d="M 70.0 1218.1 L 185.6 1218.1 L 185.6 1067.5 L 70.0 1067.5 Z M 107.4 1184.1 L 161.8 1184.1 L 161.8 1146.7 L 107.4 1146.7 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="70.0" y1="1244.1367521367524" x2="107.4" y2="1244.1367521367524" stroke="#888" stroke-width="0.8"/>
+<text x="88.7" y="1239.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,1</text>
+<line x1="107.4" y1="1244.1367521367524" x2="161.8" y2="1244.1367521367524" stroke="#888" stroke-width="0.8"/>
+<text x="134.6" y="1239.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,6</text>
+<line x1="161.8" y1="1244.1367521367524" x2="185.6" y2="1244.1367521367524" stroke="#888" stroke-width="0.8"/>
+<text x="173.7" y="1259.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,7</text>
+<line x1="66.0" y1="1248.1367521367524" x2="74.0" y2="1240.1367521367524" stroke="#333" stroke-width="1.2"/>
+<line x1="70.0" y1="1235.1367521367524" x2="70.0" y2="1222.1" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="103.4" y1="1248.1367521367524" x2="111.4" y2="1240.1367521367524" stroke="#333" stroke-width="1.2"/>
+<line x1="107.4" y1="1235.1367521367524" x2="107.4" y2="1222.1" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="157.8" y1="1248.1367521367524" x2="165.8" y2="1240.1367521367524" stroke="#333" stroke-width="1.2"/>
+<line x1="161.8" y1="1235.1367521367524" x2="161.8" y2="1222.1" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="181.6" y1="1248.1367521367524" x2="189.6" y2="1240.1367521367524" stroke="#333" stroke-width="1.2"/>
+<line x1="185.6" y1="1235.1367521367524" x2="185.6" y2="1222.1" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="127.8" y="1264.1" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 3,4</text>
+<line x1="48" y1="1218.1" x2="48" y2="1184.1" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="1201.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 1201.1)">1</text>
+<line x1="48" y1="1184.1" x2="48" y2="1146.7" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="1165.4" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 1165.4)">1,1</text>
+<line x1="48" y1="1146.7" x2="48" y2="1067.6" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="1107.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 1107.1)">2,33</text>
+<line x1="44" y1="1222.1" x2="52" y2="1214.1" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="1188.1" x2="52" y2="1180.1" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="1150.7" x2="52" y2="1142.7" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="1071.6" x2="52" y2="1063.6" stroke="#333" stroke-width="1.2"/>
+<text x="191.6" y="1061.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 4,43</text>
+<text x="64.0" y="1061.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 4,43</text>
+<text x="660" y="1047.5487179487181" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S15  Parete tra camere e corridoio (3 porte)</text>
+<path d="M 728.7 1247.0 L 757.6 1247.0 L 757.6 1175.6 L 781.4 1175.6 L 781.4 1247.0 L 873.2 1247.0 L 873.2 1175.6 L 900.4 1175.6 L 900.4 1247.0 L 923.5 1247.0 L 923.5 1067.5 L 710.0 1067.5 L 710.0 1175.6 L 728.7 1175.6 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="710.0" y1="1273.0222222222224" x2="728.7" y2="1273.0222222222224" stroke="#888" stroke-width="0.8"/>
+<text x="719.4" y="1288.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,55</text>
+<line x1="728.7" y1="1273.0222222222224" x2="757.6" y2="1273.0222222222224" stroke="#888" stroke-width="0.8"/>
+<text x="743.2" y="1268.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,85</text>
+<line x1="757.6" y1="1273.0222222222224" x2="781.4" y2="1273.0222222222224" stroke="#888" stroke-width="0.8"/>
+<text x="769.5" y="1288.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,7</text>
+<line x1="781.4" y1="1273.0222222222224" x2="873.2" y2="1273.0222222222224" stroke="#888" stroke-width="0.8"/>
+<text x="827.3" y="1268.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">2,7</text>
+<line x1="873.2" y1="1273.0222222222224" x2="900.4" y2="1273.0222222222224" stroke="#888" stroke-width="0.8"/>
+<text x="886.8" y="1268.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,8</text>
+<line x1="900.4" y1="1273.0222222222224" x2="923.5" y2="1273.0222222222224" stroke="#888" stroke-width="0.8"/>
+<text x="912.0" y="1288.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,68</text>
+<line x1="706.0" y1="1277.0222222222224" x2="714.0" y2="1269.0222222222224" stroke="#333" stroke-width="1.2"/>
+<line x1="710.0" y1="1264.0222222222224" x2="710.0" y2="1251.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="724.7" y1="1277.0222222222224" x2="732.7" y2="1269.0222222222224" stroke="#333" stroke-width="1.2"/>
+<line x1="728.7" y1="1264.0222222222224" x2="728.7" y2="1251.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="753.6" y1="1277.0222222222224" x2="761.6" y2="1269.0222222222224" stroke="#333" stroke-width="1.2"/>
+<line x1="757.6" y1="1264.0222222222224" x2="757.6" y2="1251.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="777.4" y1="1277.0222222222224" x2="785.4" y2="1269.0222222222224" stroke="#333" stroke-width="1.2"/>
+<line x1="781.4" y1="1264.0222222222224" x2="781.4" y2="1251.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="869.2" y1="1277.0222222222224" x2="877.2" y2="1269.0222222222224" stroke="#333" stroke-width="1.2"/>
+<line x1="873.2" y1="1264.0222222222224" x2="873.2" y2="1251.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="896.4" y1="1277.0222222222224" x2="904.4" y2="1269.0222222222224" stroke="#333" stroke-width="1.2"/>
+<line x1="900.4" y1="1264.0222222222224" x2="900.4" y2="1251.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="919.5" y1="1277.0222222222224" x2="927.5" y2="1269.0222222222224" stroke="#333" stroke-width="1.2"/>
+<line x1="923.5" y1="1264.0222222222224" x2="923.5" y2="1251.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="816.8" y="1293.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 6,28</text>
+<line x1="688" y1="1247.0" x2="688" y2="1175.6" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="1211.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 1211.3)">2,1</text>
+<line x1="688" y1="1175.6" x2="688" y2="1067.5" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="1121.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 1121.6)">3,18</text>
+<line x1="684" y1="1251.0" x2="692" y2="1243.0" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="1179.6" x2="692" y2="1171.6" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="1071.5" x2="692" y2="1063.5" stroke="#333" stroke-width="1.2"/>
+<text x="757.6" y="1169.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="781.4" y="1169.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="873.2" y="1169.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="900.4" y="1169.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="929.5" y="1061.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,28</text>
+<text x="704.0" y="1061.5" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,28</text>
+<text x="704.0" y="1169.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="728.7" y="1169.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="20" y="1347.0222222222224" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S16  Parete bagno / disimpegno (porta)</text>
+<path d="M 70.0 1551.2 L 125.1 1551.2 L 125.1 1479.8 L 148.9 1479.8 L 148.9 1367.0 L 70.0 1367.0 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="70.0" y1="1577.203418803419" x2="125.1" y2="1577.203418803419" stroke="#888" stroke-width="0.8"/>
+<text x="97.5" y="1572.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,62</text>
+<line x1="125.1" y1="1577.203418803419" x2="148.9" y2="1577.203418803419" stroke="#888" stroke-width="0.8"/>
+<text x="137.0" y="1592.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,7</text>
+<line x1="66.0" y1="1581.203418803419" x2="74.0" y2="1573.203418803419" stroke="#333" stroke-width="1.2"/>
+<line x1="70.0" y1="1568.203418803419" x2="70.0" y2="1555.2" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="121.1" y1="1581.203418803419" x2="129.1" y2="1573.203418803419" stroke="#333" stroke-width="1.2"/>
+<line x1="125.1" y1="1568.203418803419" x2="125.1" y2="1555.2" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="144.9" y1="1581.203418803419" x2="152.9" y2="1573.203418803419" stroke="#333" stroke-width="1.2"/>
+<line x1="148.9" y1="1568.203418803419" x2="148.9" y2="1555.2" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="109.4" y="1597.2" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 2,32</text>
+<line x1="48" y1="1551.2" x2="48" y2="1479.8" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="1515.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 1515.5)">2,1</text>
+<line x1="48" y1="1479.8" x2="48" y2="1367.0" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="1423.4" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 1423.4)">3,32</text>
+<line x1="44" y1="1555.2" x2="52" y2="1547.2" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="1483.8" x2="52" y2="1475.8" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="1371.0" x2="52" y2="1363.0" stroke="#333" stroke-width="1.2"/>
+<text x="125.1" y="1473.8" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="154.9" y="1473.8" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="154.9" y="1361.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,42</text>
+<text x="64.0" y="1361.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,42</text>
+<text x="660" y="1347.0222222222224" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S17  Parete corridoio e disimpegno / soggiorno e cucina (varco, porta)</text>
+<path d="M 710.0 1541.0 L 720.2 1541.0 L 720.2 1466.2 L 761.0 1466.2 L 761.0 1541.0 L 971.8 1541.0 L 971.8 1469.6 L 999.0 1469.6 L 999.0 1541.0 L 1019.4 1541.0 L 1019.4 1367.0 L 710.0 1367.0 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="710.0" y1="1566.9743589743591" x2="720.2" y2="1566.9743589743591" stroke="#888" stroke-width="0.8"/>
+<text x="715.1" y="1582.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,3</text>
+<line x1="720.2" y1="1566.9743589743591" x2="761.0" y2="1566.9743589743591" stroke="#888" stroke-width="0.8"/>
+<text x="740.6" y="1562.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,2</text>
+<line x1="761.0" y1="1566.9743589743591" x2="971.8" y2="1566.9743589743591" stroke="#888" stroke-width="0.8"/>
+<text x="866.4" y="1562.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">6,2</text>
+<line x1="971.8" y1="1566.9743589743591" x2="999.0" y2="1566.9743589743591" stroke="#888" stroke-width="0.8"/>
+<text x="985.4" y="1562.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,8</text>
+<line x1="999.0" y1="1566.9743589743591" x2="1019.4" y2="1566.9743589743591" stroke="#888" stroke-width="0.8"/>
+<text x="1009.2" y="1582.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,6</text>
+<line x1="706.0" y1="1570.9743589743591" x2="714.0" y2="1562.9743589743591" stroke="#333" stroke-width="1.2"/>
+<line x1="710.0" y1="1557.9743589743591" x2="710.0" y2="1545.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="716.2" y1="1570.9743589743591" x2="724.2" y2="1562.9743589743591" stroke="#333" stroke-width="1.2"/>
+<line x1="720.2" y1="1557.9743589743591" x2="720.2" y2="1545.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="757.0" y1="1570.9743589743591" x2="765.0" y2="1562.9743589743591" stroke="#333" stroke-width="1.2"/>
+<line x1="761.0" y1="1557.9743589743591" x2="761.0" y2="1545.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="967.8" y1="1570.9743589743591" x2="975.8" y2="1562.9743589743591" stroke="#333" stroke-width="1.2"/>
+<line x1="971.8" y1="1557.9743589743591" x2="971.8" y2="1545.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="995.0" y1="1570.9743589743591" x2="1003.0" y2="1562.9743589743591" stroke="#333" stroke-width="1.2"/>
+<line x1="999.0" y1="1557.9743589743591" x2="999.0" y2="1545.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="1015.4" y1="1570.9743589743591" x2="1023.4" y2="1562.9743589743591" stroke="#333" stroke-width="1.2"/>
+<line x1="1019.4" y1="1557.9743589743591" x2="1019.4" y2="1545.0" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="864.7" y="1587.0" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 9,1</text>
+<line x1="688" y1="1541.0" x2="688" y2="1469.6" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="1505.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 1505.3)">2,1</text>
+<line x1="688" y1="1469.6" x2="688" y2="1466.2" stroke="#888" stroke-width="0.8"/>
+<text x="668.0" y="1467.9" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 668.0 1467.9)">0,1</text>
+<line x1="688" y1="1466.2" x2="688" y2="1367.0" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="1416.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 1416.6)">2,92</text>
+<line x1="684" y1="1545.0" x2="692" y2="1537.0" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="1473.6" x2="692" y2="1465.6" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="1470.2" x2="692" y2="1462.2" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="1371.0" x2="692" y2="1363.0" stroke="#333" stroke-width="1.2"/>
+<text x="720.2" y="1460.2" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,2</text>
+<text x="761.0" y="1460.2" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,2</text>
+<text x="971.8" y="1463.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="999.0" y="1463.6" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="1025.4" y="1361.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,12</text>
+<text x="704.0" y="1361.0" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,12</text>
+<text x="20" y="1651.203418803419" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S18  Parete soggiorno / cucina (varco)</text>
+<path d="M 70.0 1843.7 L 119.3 1843.7 L 119.3 1768.9 L 156.7 1768.9 L 156.7 1843.7 L 189.7 1843.7 L 189.7 1691.7 L 70.0 1671.2 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="70.0" y1="1869.7025641025643" x2="119.3" y2="1869.7025641025643" stroke="#888" stroke-width="0.8"/>
+<text x="94.7" y="1864.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,45</text>
+<line x1="119.3" y1="1869.7025641025643" x2="156.7" y2="1869.7025641025643" stroke="#888" stroke-width="0.8"/>
+<text x="138.0" y="1864.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">1,1</text>
+<line x1="156.7" y1="1869.7025641025643" x2="189.7" y2="1869.7025641025643" stroke="#888" stroke-width="0.8"/>
+<text x="173.2" y="1864.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,97</text>
+<line x1="66.0" y1="1873.7025641025643" x2="74.0" y2="1865.7025641025643" stroke="#333" stroke-width="1.2"/>
+<line x1="70.0" y1="1860.7025641025643" x2="70.0" y2="1847.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="115.3" y1="1873.7025641025643" x2="123.3" y2="1865.7025641025643" stroke="#333" stroke-width="1.2"/>
+<line x1="119.3" y1="1860.7025641025643" x2="119.3" y2="1847.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="152.7" y1="1873.7025641025643" x2="160.7" y2="1865.7025641025643" stroke="#333" stroke-width="1.2"/>
+<line x1="156.7" y1="1860.7025641025643" x2="156.7" y2="1847.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="185.7" y1="1873.7025641025643" x2="193.7" y2="1865.7025641025643" stroke="#333" stroke-width="1.2"/>
+<line x1="189.7" y1="1860.7025641025643" x2="189.7" y2="1847.7" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="129.8" y="1889.7" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 3,52</text>
+<line x1="48" y1="1843.7" x2="48" y2="1768.9" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="1806.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 1806.3)">2,2</text>
+<line x1="48" y1="1768.9" x2="48" y2="1671.2" stroke="#888" stroke-width="0.8"/>
+<text x="42.0" y="1720.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 42.0 1720.0)">2,87</text>
+<line x1="44" y1="1847.7" x2="52" y2="1839.7" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="1772.9" x2="52" y2="1764.9" stroke="#333" stroke-width="1.2"/>
+<line x1="44" y1="1675.2" x2="52" y2="1667.2" stroke="#333" stroke-width="1.2"/>
+<text x="119.3" y="1762.9" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,2</text>
+<text x="156.7" y="1762.9" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,2</text>
+<text x="195.7" y="1685.7" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 4,47</text>
+<text x="64.0" y="1665.2" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 5,07</text>
+<text x="660" y="1651.203418803419" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#7a0000">S22  Annesso, muro nord (porta dall'ingresso)</text>
+<path d="M 710.0 1759.6 L 720.2 1759.6 L 720.2 1688.2 L 750.8 1688.2 L 750.8 1759.6 L 854.5 1759.6 L 854.5 1671.2 L 710.0 1671.2 Z" fill="#c4dcf2" fill-rule="evenodd" stroke="#2f5f8f" stroke-width="1.5"/>
+<line x1="710.0" y1="1785.6034188034191" x2="720.2" y2="1785.6034188034191" stroke="#888" stroke-width="0.8"/>
+<text x="715.1" y="1800.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,3</text>
+<line x1="720.2" y1="1785.6034188034191" x2="750.8" y2="1785.6034188034191" stroke="#888" stroke-width="0.8"/>
+<text x="735.5" y="1780.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">0,9</text>
+<line x1="750.8" y1="1785.6034188034191" x2="854.5" y2="1785.6034188034191" stroke="#888" stroke-width="0.8"/>
+<text x="802.6" y="1780.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">3,05</text>
+<line x1="706.0" y1="1789.6034188034191" x2="714.0" y2="1781.6034188034191" stroke="#333" stroke-width="1.2"/>
+<line x1="710.0" y1="1776.6034188034191" x2="710.0" y2="1763.6" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="716.2" y1="1789.6034188034191" x2="724.2" y2="1781.6034188034191" stroke="#333" stroke-width="1.2"/>
+<line x1="720.2" y1="1776.6034188034191" x2="720.2" y2="1763.6" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="746.8" y1="1789.6034188034191" x2="754.8" y2="1781.6034188034191" stroke="#333" stroke-width="1.2"/>
+<line x1="750.8" y1="1776.6034188034191" x2="750.8" y2="1763.6" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<line x1="850.5" y1="1789.6034188034191" x2="858.5" y2="1781.6034188034191" stroke="#333" stroke-width="1.2"/>
+<line x1="854.5" y1="1776.6034188034191" x2="854.5" y2="1763.6" stroke="#bbb" stroke-width="0.6" stroke-dasharray="2,2"/>
+<text x="782.2" y="1805.6" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">totale 4,25</text>
+<line x1="688" y1="1759.6" x2="688" y2="1688.2" stroke="#888" stroke-width="0.8"/>
+<text x="682.0" y="1723.9" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 682.0 1723.9)">2,1</text>
+<line x1="688" y1="1688.2" x2="688" y2="1671.2" stroke="#888" stroke-width="0.8"/>
+<text x="668.0" y="1679.7" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke" transform="rotate(-90 668.0 1679.7)">0,5</text>
+<line x1="684" y1="1763.6" x2="692" y2="1755.6" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="1692.2" x2="692" y2="1684.2" stroke="#333" stroke-width="1.2"/>
+<line x1="684" y1="1675.2" x2="692" y2="1667.2" stroke="#333" stroke-width="1.2"/>
+<text x="720.2" y="1682.2" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="750.8" y="1682.2" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="middle" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,1</text>
+<text x="860.5" y="1665.2" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="start" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,6</text>
+<text x="704.0" y="1665.2" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#333" text-anchor="end" stroke="#fff" stroke-width="2.5" paint-order="stroke">h 2,6</text>
+</svg>

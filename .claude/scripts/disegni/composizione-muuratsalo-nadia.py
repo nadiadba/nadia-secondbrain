@@ -21,7 +21,7 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v7"
+VER = "v8"
 LEGNO = "#6d4c2f"
 
 # ---- il tetto: alto a nord sopra le camere, scende verso il lago. Come in Aalto il profilo
@@ -541,51 +541,176 @@ def muro_eo(x1, x2, h, porte=(), finestre=()):
                   [(a - x1, b - x1, v1, v2) for a, b, v1, v2 in finestre])
 
 
-def pezzi_plastico():
-    W = [  # codice, nome, (profilo, buchi)
-        ("N02", "Muro nord (6,3 di altezza, 4 finestre)",
-         muro_eo(0, 14.40, ze(0), finestre=[(2.30, 3.50, 0.9, 2.1), (6.00, 7.20, 0.9, 2.1), (9.00, 10.20, 0.9, 2.1), (12.05, 13.25, 0.9, 2.1)])),
-        ("N03", "Muro ovest, casa e recinto (bordo inclinato)", muro_ns(0.5, 11.75, ze)),
-        ("N04", "Muro est, casa e recinto (scende e poi risale; porta dell'ingresso)",
-         muro_ns(0.5, 14.40, ze, porte=[(2.80, 3.90, 2.2)])),
-        ("N05", "Recinto sud", muro_eo(7.55, 13.90, rec(14.40))),
-        ("N06", "Muretto sotto il graticcio (sud)", muro_eo(2.65, 7.55, MURETTO)),
-        ("N07", "Camera grande, muro sul patio (finestra)", muro_eo(0.5, 4.30, zp(3.20), finestre=[(1.40, 3.40, 0.9, 2.1)])),
-        ("N08", "Soggiorno, muro ovest (portafinestra del corridoio, finestra d'angolo)",
-         muro_ns(2.70, 10.53, zp, porte=[(3.13, 3.93, 2.1)], finestre=[(7.88, 10.53, 0.9, 2.1)])),
-        ("N09", "Soggiorno, muro sud (finestra d'angolo, portafinestra)",
-         muro_eo(4.80, 11.00, zp(10.53), porte=[(8.30, 9.50, 2.1)], finestre=[(4.80, 6.95, 0.9, 2.1)])),
-        ("N10", "Soggiorno, muro est sul patio", muro_ns(8.27, 10.03, zp)),
-        ("N11", "Cucina, muro sul patio (finestra)", muro_eo(10.50, 13.90, zp(8.27), finestre=[(11.60, 13.20, 1.0, 2.1)])),
-        ("N12", "Tramezzo camera grande / guardaroba", muro_ns(0.5, 2.80, zp)),
-        ("N13", "Tramezzo guardaroba / camera", muro_ns(0.5, 2.80, zp)),
-        ("N14", "Tramezzo camera / bagno e disimpegno", muro_ns(0.5, 3.30, zp)),
-        ("N15", "Tramezzo tra camere e corridoio (3 porte)",
-         muro_eo(4.80, 11.08, zp(3.30), porte=[(4.80, 5.35, 2.1), (6.20, 6.90, 2.1), (9.60, 10.40, 2.1)])),
-        ("N16", "Tramezzo bagno / disimpegno (porta)", muro_eo(11.58, 13.90, zp(2.49), porte=[(13.20, 13.90, 2.1)])),
-        ("N17", "Tramezzo corridoio e disimpegno / soggiorno e cucina (varco, porta)",
-         muro_eo(4.80, 13.90, zp(4.25), porte=[(5.10, 6.30, 2.2), (12.50, 13.30, 2.1)])),
-        ("N18", "Tramezzo soggiorno / cucina (varco)", muro_ns(4.25, 7.77, zp, porte=[(5.70, 6.80, 2.2)])),
-        ("N19", "Ingresso in legno, muro nord (porta)", muro_eo(14.40, 16.15, 2.60, porte=[(14.85, 15.85, 2.1)])),
-        ("N20", "Ingresso in legno, muro est (finestra)", muro_ns(2.74, 8.07, lambda y: 2.60, finestre=[(4.50, 6.00, 0.9, 2.0)])),
-        ("N21", "Annesso, muro nord (porta dall'ingresso)", muro_eo(14.40, 18.65, 2.60, porte=[(14.70, 15.60, 2.1)])),
-        ("N22", "Annesso, muro est (finestra)", muro_ns(8.57, 14.34, lambda y: 2.60, finestre=[(10.50, 11.70, 1.0, 1.9)])),
-        ("N23", "Annesso, muro sud (finestra)", muro_eo(14.40, 18.15, 2.60, finestre=[(15.30, 17.20, 1.0, 1.9)])),
-    ]
-    out = [{"cod": "N01", "nome": "Base del secondo plastico", "outline": [[0, 0], [20, 0], [20, 16], [0, 16]], "holes": []}]
-    for cod, nome, (o, h) in W:
-        vmax = max(v for u, v in o)
-        flip = lambda pts: [[round(u, 3), round(vmax - v, 3)] for u, v in pts]
-        out.append({"cod": cod, "nome": nome, "outline": flip(o), "holes": [flip(q) for q in h]})
-    # il tetto e' un'unica falda: un solo pezzo, con le lunghezze nord-sud vere (inclinate)
+def zu(y):
+    """Sotto il tetto (il tetto e' un coperchio spesso 0,5 appoggiato sopra tutti i muri)."""
+    return ze(y) - TP
+
+
+def pezzi_progetto():
+    """I pezzi del secondo plastico (codici S) come oggetti 3D: posizione, forma, aperture e passo."""
+    X = aalto
+    P = []
+
+    def mk(cod, nome, passo, kind, x0, y0, res, nota=""):
+        o, h = res
+        buchi = [(min(q[0] for q in c), min(q[1] for q in c), max(q[0] for q in c), max(q[1] for q in c)) for c in h]
+        p = X.Pezzo(cod, nome, kind, passo, x0=x0, y0=y0, forma=[tuple(q) for q in o], buchi=buchi, nota=nota)
+        p.poliplat = True
+        # le porte (aperture che partono dal pavimento) sono tacche nel bordo: servono alle quote
+        L = max(q[0] for q in o)
+        p.porte = []
+        return p
+
+    def porte_di(p, porte, x1):
+        p.porte = [(a - x1, 0, b - x1, v) for a, b, v in porte]
+        return p
+    base = X.piano("S01", "Base del secondo plastico", 1,
+                   [(-0.9, -0.8, -X.T), (19.6, -0.8, -X.T), (19.6, 15.2, -X.T), (-0.9, 15.2, -X.T)], (20.5, 16.0),
+                   "Misura libera: lascia circa 1 cm di bordo intorno a casa e annesso.")
+    P.append(base)
+    # --- 2. i muri esterni della casa (il muro nord e' il piu' lungo, da angolo ad angolo)
+    P.append(mk("S02", "Muro nord (4 finestre)", 2, "x", 0, 0,
+                muro_eo(0, 14.40, zu(0.25), finestre=[(2.30, 3.50, 0.9, 2.1), (6.00, 7.20, 0.9, 2.1), (9.00, 10.20, 0.9, 2.1), (12.05, 13.25, 0.9, 2.1)])))
+    P.append(mk("S03", "Muro ovest, casa e recinto (bordo inclinato)", 2, "y", 0, 0.5, muro_ns(0.5, 11.75, zu)))
+    P.append(porte_di(mk("S04", "Muro est, casa e recinto (scende e poi risale; porta dell'ingresso)", 2, "y", 13.9, 0.5,
+                         muro_ns(0.5, 14.40, zu, porte=[(2.80, 3.90, 2.2)])), [(2.80, 3.90, 2.2)], 0.5))
+    # --- 3. il recinto del patio
+    P.append(mk("S05", "Recinto sud, a est della porta", 3, "x", 7.55, 13.9, muro_eo(7.55, 13.90, zu(14.15))))
+    P.append(mk("S06", "Muretto sotto il graticcio (sud)", 3, "x", 2.65, 13.9, muro_eo(2.65, 7.55, MURETTO)))
+    # --- 4. i muri della casa sul patio
+    P.append(mk("S07", "Camera grande, muro sul patio (finestra)", 4, "x", 0.5, 2.7,
+                muro_eo(0.5, 4.30, zu(2.95), finestre=[(1.40, 3.40, 0.9, 2.1)])))
+    P.append(porte_di(mk("S08", "Soggiorno, muro ovest (portafinestra del corridoio, finestra d'angolo)", 4, "y", 4.3, 2.7,
+                         muro_ns(2.70, 10.53, zu, porte=[(3.13, 3.93, 2.1)], finestre=[(7.88, 10.53, 0.9, 2.1)])), [(3.13, 3.93, 2.1)], 2.7))
+    P.append(porte_di(mk("S09", "Soggiorno, muro sud (finestra d'angolo, portafinestra)", 4, "x", 4.8, 10.03,
+                         muro_eo(4.80, 11.00, zu(10.28), porte=[(8.30, 9.50, 2.1)], finestre=[(4.80, 6.95, 0.9, 2.1)])), [(8.30, 9.50, 2.1)], 4.8))
+    P.append(mk("S10", "Soggiorno, muro est sul patio", 4, "y", 10.5, 8.27, muro_ns(8.27, 10.03, zu)))
+    P.append(mk("S11", "Cucina, muro sul patio (finestra)", 4, "x", 10.5, 7.77,
+                muro_eo(10.50, 13.90, zu(8.02), finestre=[(11.60, 13.20, 1.0, 2.1)])))
+    # --- 5. le pareti interne (sotto il tetto, con le porte come buchi)
+    P.append(mk("S12", "Parete camera grande / guardaroba", 5, "y", 5.12, 0.5, muro_ns(0.5, 2.80, zu)))
+    P.append(mk("S13", "Parete guardaroba / camera", 5, "y", 7.57, 0.5, muro_ns(0.5, 2.80, zu)))
+    P.append(mk("S14", "Parete camera / bagno e disimpegno", 5, "y", 11.08, 0.5, muro_ns(0.5, 3.30, zu)))
+    P.append(porte_di(mk("S15", "Parete tra camere e corridoio (3 porte)", 5, "x", 4.8, 2.8,
+                         muro_eo(4.80, 11.08, zu(3.05), porte=[(4.80, 5.35, 2.1), (6.20, 6.90, 2.1), (9.60, 10.40, 2.1)])),
+                      [(4.80, 5.35, 2.1), (6.20, 6.90, 2.1), (9.60, 10.40, 2.1)], 4.8))
+    P.append(porte_di(mk("S16", "Parete bagno / disimpegno (porta)", 5, "x", 11.58, 1.99,
+                         muro_eo(11.58, 13.90, zu(2.24), porte=[(13.20, 13.90, 2.1)])), [(13.20, 13.90, 2.1)], 11.58))
+    P.append(porte_di(mk("S17", "Parete corridoio e disimpegno / soggiorno e cucina (varco, porta)", 5, "x", 4.8, 3.75,
+                         muro_eo(4.80, 13.90, zu(4.0), porte=[(5.10, 6.30, 2.2), (12.50, 13.30, 2.1)])),
+                      [(5.10, 6.30, 2.2), (12.50, 13.30, 2.1)], 4.8))
+    P.append(porte_di(mk("S18", "Parete soggiorno / cucina (varco)", 5, "y", 10.6, 4.25,
+                         muro_ns(4.25, 7.77, zu, porte=[(5.70, 6.80, 2.2)])), [(5.70, 6.80, 2.2)], 4.25))
+    # --- 6. il soppalco (il piano di sopra sta a +2,40)
+    P.append(X.piano("S19", "Soppalco dello studio (piano di sopra a 2,4 cm)", 6,
+                     [(6.81, 4.25, 1.9), (10.60, 4.25, 1.9), (10.60, 8.04, 1.9), (6.81, 8.04, 1.9)], (3.79, 3.79)))
+    # --- 7. l'ingresso e l'annesso degli ospiti (in legno)
+    P.append(porte_di(mk("S20", "Ingresso in legno, muro nord (porta)", 7, "x", 14.4, 2.24,
+                         muro_eo(14.40, 16.15, 2.60, porte=[(14.85, 15.85, 2.1)])), [(14.85, 15.85, 2.1)], 14.4))
+    P.append(mk("S21", "Ingresso in legno, muro est (finestra)", 7, "y", 15.65, 2.74,
+                muro_ns(2.74, 8.07, lambda y: 2.60, finestre=[(4.50, 6.00, 0.9, 2.0)])))
+    P.append(porte_di(mk("S22", "Annesso, muro nord (porta dall'ingresso)", 7, "x", 14.4, 8.07,
+                         muro_eo(14.40, 18.65, 2.60, porte=[(14.70, 15.60, 2.1)])), [(14.70, 15.60, 2.1)], 14.4))
+    P.append(mk("S23", "Annesso, muro est (finestra)", 7, "y", 18.15, 8.57,
+                muro_ns(8.57, 14.34, lambda y: 2.60, finestre=[(10.50, 11.70, 1.0, 1.9)])))
+    P.append(mk("S24", "Annesso, muro sud (finestra)", 7, "x", 14.4, 13.84,
+                muro_eo(14.40, 18.15, 2.60, finestre=[(15.30, 17.20, 1.0, 1.9)])))
+    # --- 8. i tetti: coperchi appoggiati sopra i muri, che coprono tutta la pianta
     k = math.hypot(1, K_GIU)
-    tetto = [(0.5, 0.5), (13.9, 0.5), (13.9, 8.27), (11.0, 8.27), (11.0, 10.53), (4.3, 10.53), (4.3, 3.2), (0.5, 3.2)]
-    out.append({"cod": "N24", "nome": "Tetto della casa (un pezzo solo; nord in alto)",
-                "outline": [[round(x - 0.5, 3), round((y - 0.5) * k, 3)] for x, y in tetto], "holes": []})
-    out.append({"cod": "N25", "nome": "Tetto dell'ingresso in legno", "outline": [[0, 0], [1.75, 0], [1.75, 5.83], [0, 5.83]], "holes": []})
-    out.append({"cod": "N26", "nome": "Tetto dell'annesso", "outline": [[0, 0], [4.25, 0], [4.25, 6.27], [0, 6.27]], "holes": []})
-    out.append({"cod": "N27", "nome": "Soppalco dello studio (a 2,2 cm dalla base)", "outline": [[0, 0], [3.79, 0], [3.79, 3.79], [0, 3.79]], "holes": []})
-    return out
+    foot = [(0, 0), (14.4, 0), (14.4, 8.27), (11.0, 8.27), (11.0, 10.53), (4.3, 10.53), (4.3, 3.2), (0, 3.2)]
+    t = X.piano("S25", "Tetto della casa (un pezzo solo, appoggiato sopra tutti i muri; nord in alto)", 8,
+                [(x, y, zu(y)) for x, y in foot], (14.4, round(10.53 * k, 2)),
+                "Un coperchio: si appoggia sopra tutti i muri, anche quelli del perimetro.")
+    t.forma = [(round(x, 3), round(y * k, 3)) for x, y in foot]
+    P.append(t)
+    P.append(X.piano("S26", "Tetto dell'ingresso in legno", 8,
+                     [(14.4, 2.24, 2.6), (16.15, 2.24, 2.6), (16.15, 8.07, 2.6), (14.4, 8.07, 2.6)], (1.75, 5.83)))
+    P.append(X.piano("S27", "Tetto dell'annesso", 8,
+                     [(14.4, 8.07, 2.6), (18.65, 8.07, 2.6), (18.65, 14.34, 2.6), (14.4, 14.34, 2.6)], (4.25, 6.27)))
+    return P
+
+
+def pezzi_plastico():
+    """I pezzi piatti per il foglio (y verso il basso), come quelli del primo plastico."""
+    out = []
+    for p in pezzi_progetto():
+        f = p.piatto()
+        H = max(v for u, v in f)
+        flip = lambda pts: [[round(u, 3), round(H - v, 3)] for u, v in pts]
+        holes = [flip([(u1, v1), (u2, v1), (u2, v2), (u1, v2)]) for u1, v1, u2, v2 in p.buchi]
+        out.append({"cod": p.cod, "nome": p.nome, "outline": flip(f), "holes": holes})
+    return sorted(out, key=lambda q: q["cod"])
+
+
+TITOLI_PASSI = {1: "Passo 1: la base", 2: "Passo 2: i muri esterni della casa", 3: "Passo 3: il recinto del patio",
+                4: "Passo 4: i muri della casa sul patio", 5: "Passo 5: le pareti interne", 6: "Passo 6: il soppalco",
+                7: "Passo 7: l'ingresso e l'annesso degli ospiti", 8: "Passo 8: i tetti"}
+
+
+def passi_png():
+    P = pezzi_progetto()
+    for k, t in TITOLI_PASSI.items():
+        aalto.vista3d_png(P, k, t, OUT + "muuratsalo-nadia-%s-passo-%02d.png" % (VER, k))
+
+
+def pezzi_quotati_s():
+    P = pezzi_progetto()
+    cod = ["S02", "S03", "S04", "S07", "S08", "S09", "S11", "S15", "S16", "S17", "S18", "S22"]
+    aalto.pezzi_quotati(P, OUT + "muuratsalo-nadia-%s-4-pezzi-quotati.svg" % VER, codici=cod, colore=("#c4dcf2", "#2f5f8f"))
+
+
+def taglio_foglio(path_json, path):
+    """Il foglio 70 x 50 con i pezzi dei due plastici: M (primo) rosa, S (secondo) azzurri."""
+    pezzi = json.load(open(path_json))
+    s = 20.0
+    o = (40, 96)
+    W, H = 70 * s + 80, 50 * s + 130
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" width="{W:.0f}" height="{H:.0f}">',
+           '<rect width="100%" height="100%" fill="#ffffff"/>',
+           f'<text x="16" y="30" {FONT} font-size="20" font-weight="bold" fill="#333">Il foglio di Poliplat 70 × 50 cm: i pezzi dei due plastici (misure in cm)</text>',
+           f'<text x="16" y="54" {FONT} font-size="14" fill="#555">Rosa: pezzi M della casa di Aalto. Azzurro: pezzi S del tuo progetto. Dentro ogni pezzo: codice e misure come sta nel foglio (larghezza × altezza). I buchi sono finestre.</text>',
+           f'<rect x="{o[0]}" y="{o[1]}" width="{70 * s}" height="{50 * s}" fill="#eef5ea" stroke="#333" stroke-width="2"/>']
+    for x in range(0, 71, 5):
+        out.append(aalto._txt(o[0] + x * s, o[1] - 10, str(x), 12, False, "#666"))
+    for y in range(0, 51, 5):
+        out.append(aalto._txt(o[0] - 8, o[1] + y * s + 4, str(y), 12, False, "#666", anchor="end"))
+    for p in pezzi:
+        T2 = lambda q: (o[0] + q[0] * s, o[1] + q[1] * s)
+        d = "M " + " L ".join("%.1f %.1f" % T2(q) for q in p["outline"]) + " Z"
+        for hl in p["holes"]:
+            d += " M " + " L ".join("%.1f %.1f" % T2(q) for q in hl) + " Z"
+        mio = p["cod"].startswith("S")
+        out.append(f'<path d="{d}" fill="{"#c4dcf2" if mio else "#f6c9c9"}" fill-rule="evenodd" stroke="{"#2f5f8f" if mio else ROSSO}" stroke-width="1.3"/>')
+    for p in pezzi:
+        xs = [a for a, _ in p["outline"]]
+        ys = [b for _, b in p["outline"]]
+        bw_, bh_ = max(xs) - min(xs), max(ys) - min(ys)
+        cx = o[0] + (min(xs) + max(xs)) / 2 * s
+        cy = o[1] + (min(ys) + max(ys)) / 2 * s
+        dims = "%s × %s" % (num(bw_), num(bh_))
+        lw, lh = bw_ * s, bh_ * s
+        col = "#1d3f66" if p["cod"].startswith("S") else "#7a0000"
+        need = len(dims) * 6.2
+        if lw >= need and lh >= 30:
+            out.append(aalto._txt(cx, cy - 3, p["cod"], 13, True, col))
+            out.append(aalto._txt(cx, cy + 12, dims, 11, False, "#333"))
+        elif lh >= need and lw >= 30:
+            out.append(aalto._txt(cx - 3, cy, p["cod"], 13, True, col, rot=-90))
+            out.append(aalto._txt(cx + 12, cy, dims, 11, False, "#333", -90))
+        elif min(lw, lh) >= 22:
+            if lw >= lh:
+                out.append(aalto._txt(cx, cy - 1, p["cod"], 9, True, col))
+                out.append(aalto._txt(cx, cy + 9, dims.replace(" ", ""), 8, False, "#333"))
+            else:
+                out.append(aalto._txt(cx - 1, cy, p["cod"], 9, True, col, rot=-90))
+                out.append(aalto._txt(cx + 9, cy, dims.replace(" ", ""), 8, False, "#333", -90))
+        elif lw >= lh:
+            out.append(aalto._txt(cx, cy + 3, p["cod"] + " " + dims.replace(" ", ""), 7.5, True, col))
+        else:
+            out.append(aalto._txt(cx + 3, cy, p["cod"] + " " + dims.replace(" ", ""), 7.5, True, col, rot=-90))
+    out.append("</svg>")
+    with open(path, "w") as fh:
+        fh.write("\n".join(out))
 
 
 def controlli():
@@ -612,3 +737,7 @@ if __name__ == "__main__":
     if len(sys.argv) > 3:
         with open(sys.argv[3], "w") as fh:
             json.dump(pezzi_plastico(), fh)
+    if len(sys.argv) > 4:        # passi del montaggio, pezzi quotati e foglio di taglio (serve numpy + PIL)
+        passi_png()
+        pezzi_quotati_s()
+        taglio_foglio(sys.argv[4], OUT + "muuratsalo-nadia-%s-3-taglio-foglio.svg" % VER)

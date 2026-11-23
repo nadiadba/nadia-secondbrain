@@ -860,9 +860,10 @@ def schema_taglio_nadia(path_json, path):
         fh.write("\n".join(out))
 
 
-def pezzi_quotati(P, path):
+def pezzi_quotati(P, path, codici=None, colore=("#f6c9c9", None)):
     """I pezzi con finestre, porte o bordo inclinato, ognuno con le sue quote, come in pianta."""
-    codici = ["M02", "M10", "M04", "M09", "M03", "M06", "M07", "M25", "M26"]
+    codici = codici or ["M02", "M10", "M04", "M09", "M03", "M06", "M07", "M25", "M26"]
+    colore = (colore[0], colore[1] or ROSSO)
     sel = [p for c in codici for p in P if p.cod == c]
     s = 34.0
     col_w = 640
@@ -895,7 +896,7 @@ def pezzi_quotati(P, path):
         d = "M " + " L ".join("%.1f %.1f" % T2(u, v) for u, v in forma) + " Z"
         for u1, v1, u2, v2 in p.buchi:
             d += " M " + " L ".join("%.1f %.1f" % T2(u, v) for u, v in [(u1, v1), (u2, v1), (u2, v2), (u1, v2)]) + " Z"
-        out.append(f'<path d="{d}" fill="#f6c9c9" fill-rule="evenodd" stroke="{ROSSO}" stroke-width="1.5"/>')
+        out.append(f'<path d="{d}" fill="{colore[0]}" fill-rule="evenodd" stroke="{colore[1]}" stroke-width="1.5"/>')
         # catena orizzontale sotto: bordi del pezzo, delle aperture e degli spigoli in alto
         tutti_b = p.buchi + getattr(p, "porte", [])
         xs = sorted({0.0, round(w, 3)} | {round(a, 3) for b in tutti_b for a in (b[0], b[2])} |
