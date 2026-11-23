@@ -44,20 +44,19 @@
 <line x1="683.1" y1="164.2" x2="738.3" y2="164.2" stroke="#777" stroke-width="0.9"/>
 <rect x="738.3" y="155.0" width="52.9" height="18.4" fill="#1f1f1f" stroke="none" stroke-width="1" />
 <rect x="128.8" y="173.4" width="18.4" height="128.8" fill="#1f1f1f" stroke="none" stroke-width="1" />
-<rect x="128.8" y="302.2" width="18.4" height="280.6" fill="#1f1f1f" stroke="none" stroke-width="1" />
-<rect x="128.8" y="582.8" width="18.4" height="112.7" fill="#d9d4cc" stroke="none" stroke-width="1" />
-<rect x="128.8" y="585.6" width="18.4" height="5.5" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="128.8" y="611.0" width="18.4" height="5.5" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="128.8" y="636.4" width="18.4" height="5.5" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="128.8" y="661.8" width="18.4" height="5.5" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="128.8" y="687.2" width="18.4" height="5.5" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="250.7" y="799.0" width="112.7" height="18.4" fill="#d9d4cc" stroke="none" stroke-width="1" />
+<rect x="128.8" y="302.2" width="18.4" height="393.3" fill="#1f1f1f" stroke="none" stroke-width="1" />
+<rect x="250.7" y="799.0" width="225.4" height="18.4" fill="#d9d4cc" stroke="none" stroke-width="1" />
 <rect x="253.5" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="278.9" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="304.3" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="329.7" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="355.1" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
-<rect x="363.4" y="799.0" width="409.4" height="18.4" fill="#1f1f1f" stroke="none" stroke-width="1" />
+<rect x="277.3" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
+<rect x="301.1" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
+<rect x="324.9" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
+<rect x="348.7" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
+<rect x="372.5" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
+<rect x="396.4" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
+<rect x="420.2" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
+<rect x="444.0" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
+<rect x="467.8" y="799.0" width="5.5" height="18.4" fill="#6d4c2f" stroke="none" stroke-width="1" />
+<rect x="476.1" y="799.0" width="296.7" height="18.4" fill="#1f1f1f" stroke="none" stroke-width="1" />
 <rect x="772.8" y="173.4" width="18.4" height="110.4" fill="#1f1f1f" stroke="none" stroke-width="1" />
 <line x1="791.2" y1="334.4" x2="841.8" y2="334.4" stroke="#555" stroke-width="1.0"/>
 <path d="M 841.8 334.4 A 50.6 50.6 0 0 0 791.2 283.8" fill="none" stroke="#777" stroke-width="0.8"/>
@@ -169,8 +168,7 @@
 <text x="239.2" y="504.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#333" text-anchor="middle" font-weight="bold">PATIO</text>
 <text x="239.2" y="525.3" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#444" text-anchor="middle">86 m² (Aalto 86,5)</text>
 <text x="188.6" y="856.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle">porta del patio</text>
-<text x="94.3" y="640.3" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle" transform="rotate(-90 94.3 640.3)">graticcio</text>
-<text x="308.2" y="856.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle">graticcio</text>
+<text x="363.4" y="856.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle">graticcio</text>
 <text x="94.3" y="757.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle" transform="rotate(-90 94.3 757.6)">porta del patio</text>
 <line x1="128.8" y1="129.7" x2="234.6" y2="129.7" stroke="#8a8a8a" stroke-width="0.8"/>
 <text x="181.7" y="124.2" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle">2,3</text>
@@ -218,32 +216,28 @@
 <line x1="791.2" y1="86.0" x2="791.2" y2="109.0" stroke="#8a8a8a" stroke-width="0.6"/>
 <line x1="128.8" y1="884.1" x2="250.7" y2="884.1" stroke="#8a8a8a" stroke-width="0.8"/>
 <text x="189.8" y="878.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle">2,65</text>
-<line x1="250.7" y1="884.1" x2="363.4" y2="884.1" stroke="#8a8a8a" stroke-width="0.8"/>
-<text x="307.1" y="878.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle">2,45</text>
-<line x1="363.4" y1="884.1" x2="791.2" y2="884.1" stroke="#8a8a8a" stroke-width="0.8"/>
-<text x="577.3" y="878.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle">9,3</text>
+<line x1="250.7" y1="884.1" x2="476.1" y2="884.1" stroke="#8a8a8a" stroke-width="0.8"/>
+<text x="363.4" y="878.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle">4,9</text>
+<line x1="476.1" y1="884.1" x2="791.2" y2="884.1" stroke="#8a8a8a" stroke-width="0.8"/>
+<text x="633.6" y="878.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle">6,85</text>
 <line x1="124.2" y1="888.7" x2="133.4" y2="879.5" stroke="#1f1f1f" stroke-width="1.2"/>
 <line x1="128.8" y1="872.6" x2="128.8" y2="895.6" stroke="#8a8a8a" stroke-width="0.6"/>
 <line x1="246.1" y1="888.7" x2="255.3" y2="879.5" stroke="#1f1f1f" stroke-width="1.2"/>
 <line x1="250.7" y1="872.6" x2="250.7" y2="895.6" stroke="#8a8a8a" stroke-width="0.6"/>
-<line x1="358.8" y1="888.7" x2="368.0" y2="879.5" stroke="#1f1f1f" stroke-width="1.2"/>
-<line x1="363.4" y1="872.6" x2="363.4" y2="895.6" stroke="#8a8a8a" stroke-width="0.6"/>
+<line x1="471.5" y1="888.7" x2="480.7" y2="879.5" stroke="#1f1f1f" stroke-width="1.2"/>
+<line x1="476.1" y1="872.6" x2="476.1" y2="895.6" stroke="#8a8a8a" stroke-width="0.6"/>
 <line x1="786.6" y1="888.7" x2="795.8" y2="879.5" stroke="#1f1f1f" stroke-width="1.2"/>
 <line x1="791.2" y1="872.6" x2="791.2" y2="895.6" stroke="#8a8a8a" stroke-width="0.6"/>
 <line x1="62.1" y1="155.0" x2="62.1" y2="302.2" stroke="#8a8a8a" stroke-width="0.8"/>
 <text x="56.6" y="228.6" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" transform="rotate(-90 56.6 228.6)">3,2</text>
-<line x1="62.1" y1="302.2" x2="62.1" y2="582.8" stroke="#8a8a8a" stroke-width="0.8"/>
-<text x="56.6" y="442.5" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" transform="rotate(-90 56.6 442.5)">6,1</text>
-<line x1="62.1" y1="582.8" x2="62.1" y2="695.5" stroke="#8a8a8a" stroke-width="0.8"/>
-<text x="56.6" y="639.1" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" transform="rotate(-90 56.6 639.1)">2,45</text>
+<line x1="62.1" y1="302.2" x2="62.1" y2="695.5" stroke="#8a8a8a" stroke-width="0.8"/>
+<text x="56.6" y="498.8" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" transform="rotate(-90 56.6 498.8)">8,55</text>
 <line x1="62.1" y1="695.5" x2="62.1" y2="817.4" stroke="#8a8a8a" stroke-width="0.8"/>
 <text x="56.6" y="756.4" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1f5fae" text-anchor="middle" transform="rotate(-90 56.6 756.4)">2,65</text>
 <line x1="57.5" y1="159.6" x2="66.7" y2="150.4" stroke="#1f1f1f" stroke-width="1.2"/>
 <line x1="50.6" y1="155.0" x2="73.6" y2="155.0" stroke="#8a8a8a" stroke-width="0.6"/>
 <line x1="57.5" y1="306.8" x2="66.7" y2="297.6" stroke="#1f1f1f" stroke-width="1.2"/>
 <line x1="50.6" y1="302.2" x2="73.6" y2="302.2" stroke="#8a8a8a" stroke-width="0.6"/>
-<line x1="57.5" y1="587.4" x2="66.7" y2="578.2" stroke="#1f1f1f" stroke-width="1.2"/>
-<line x1="50.6" y1="582.8" x2="73.6" y2="582.8" stroke="#8a8a8a" stroke-width="0.6"/>
 <line x1="57.5" y1="700.1" x2="66.7" y2="690.9" stroke="#1f1f1f" stroke-width="1.2"/>
 <line x1="50.6" y1="695.5" x2="73.6" y2="695.5" stroke="#8a8a8a" stroke-width="0.6"/>
 <line x1="57.5" y1="822.0" x2="66.7" y2="812.8" stroke="#1f1f1f" stroke-width="1.2"/>

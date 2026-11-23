@@ -21,7 +21,7 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v6"
+VER = "v7"
 LEGNO = "#6d4c2f"
 
 # ---- il tetto: alto a nord sopra le camere, scende verso il lago. Come in Aalto il profilo
@@ -109,10 +109,9 @@ MURI = [
     M("x", 0, 14.40, 0, 0.40, ap=[F(2.30, 3.50, 0.9, 2.1), F(6.00, 7.20, 0.9, 2.1), F(9.00, 10.20, 0.9, 2.1),
                                  F(12.05, 13.25, 0.9, 2.1)], top="F", nome="nord"),
     M("y", 0.40, 3.20, 0, 0.40, top="F", nome="ovest casa"),
-    M("y", 3.20, 9.30, 0, 0.40, top="E", nome="recinto ovest"),
-    M("y", 9.30, 11.75, 0, 0.40, top=MURETTO, pianta="muretto", nome="graticcio ovest"),
-    M("x", 2.65, 5.10, 14.00, 14.40, top=MURETTO, pianta="muretto", nome="graticcio sud"),
-    M("x", 5.10, 14.00, 14.00, 14.40, top="E", nome="recinto sud"),
+    M("y", 3.20, 11.75, 0, 0.40, top="E", nome="recinto ovest"),
+    M("x", 2.65, 7.55, 14.00, 14.40, top=MURETTO, pianta="muretto", nome="graticcio sud"),
+    M("x", 7.55, 14.00, 14.00, 14.40, top="E", nome="recinto sud"),
     M("y", 0.40, 8.27, 14.00, 14.40, ap=[P(2.80, 3.90, "E", "b", 2.2)], top="F", nome="est casa"),
     M("y", 8.27, 14.40, 14.00, 14.40, top="E", nome="recinto est"),
     # muri della casa sul patio (0,30)
@@ -275,14 +274,13 @@ def pianta_quotata(path):
     d.text(2.4, 7.6, "PATIO", "#333", 15, bold=True)
     d.text(2.4, 8.05, "%s m² (Aalto 86,5)" % num(patio_area(), 1), "#444", 10)
     d.text(1.3, 15.25, "porta del patio", "#333", 11)
-    d.text(-0.75, 10.55, "graticcio", "#333", 11, rot=-90)
-    d.text(3.9, 15.25, "graticcio", "#333", 11)
+    d.text(5.1, 15.25, "graticcio", "#333", 11)
     d.text(-0.75, 13.1, "porta del patio", "#333", 11, rot=-90)
     # quote esterne
     d.catena([0, 2.30, 3.50, 6.00, 7.20, 9.00, 10.20, 12.05, 13.25, 14.40], None, "x", -0.55, [BLU] * 9)
     d.catena([0, 14.40], None, "x", -1.25, [NERO])
-    d.catena([0, 2.65, 5.10, 14.40], None, "x", 15.85, [BLU] * 3)
-    d.catena([0, 3.20, 9.30, 11.75, 14.40], None, "y", -1.45, [BLU] * 4)
+    d.catena([0, 2.65, 7.55, 14.40], None, "x", 15.85, [BLU] * 3)
+    d.catena([0, 3.20, 11.75, 14.40], None, "y", -1.45, [BLU] * 3)
     d.catena([0, 14.40], None, "y", -2.15, [NERO])
     d.catena([0, 2.80, 3.90, 8.27], None, "y", 17.0, [BLU] * 3)
     d.catena([0, 2.24, 8.07, 14.34], None, "y", 19.5, [BLU] * 3)
@@ -465,6 +463,19 @@ def pezzi3d():
     return out
 
 
+def vetri():
+    """Rettangoli dei vetri (x1, y1, x2, y2, z1, z2) nel piano medio dei muri, per il render."""
+    out = []
+    for m in MURI:
+        cm = (m["c1"] + m["c2"]) / 2
+        lista = [(s1, s2, z1, z2) for s1, s2, t, z1, z2, a, c in m["ap"] if t in ("finestra", "portafinestra")]
+        if m["pianta"] == "finestra":
+            lista.append((m["a1"], m["a2"], m["top"], 2.10))
+        for s1, s2, z1, z2 in lista:
+            out.append([s1, cm, s2, cm, z1, z2] if m["asse"] == "x" else [cm, s1, cm, s2, z1, z2])
+    return out
+
+
 def controlli():
     print("patio %.2f m2 (Aalto 86,5, -5%% = 82,2)" % patio_area())
     for n, z, x1, y1, x2, y2 in STANZE:
@@ -483,3 +494,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         with open(sys.argv[1], "w") as fh:
             json.dump(pezzi3d(), fh)
+    if len(sys.argv) > 2:
+        with open(sys.argv[2], "w") as fh:
+            json.dump(vetri(), fh)
