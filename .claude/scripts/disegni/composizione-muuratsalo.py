@@ -14,7 +14,7 @@ import os
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
 # Obsidian non ricarica un SVG rifatto con lo stesso nome: a ogni modifica si cambia la versione
-VER = "v7"
+VER = "v8"
 T = 0.5
 FONT = 'font-family="Helvetica, Arial, sans-serif"'
 NERO, BLU, ROSSO, GRIGIO = "#1f1f1f", "#1f5fae", "#c62828", "#8a8a8a"
@@ -142,9 +142,9 @@ def pezzi():
         P.append(g)
     # --- 4. l'ala delle camere
     P.append(muro_x("M08", "Muro sud delle camere", 4, 9.45, 14.40, 13.90, 0,
-                    forma=[(0, 0), (4.95, 0), (4.95, h_ala(14.40) - T), (2.80, h_ala(12.25) - T), (0, h_ala(9.45) - T)],
+                    forma=[(0, 0), (4.95, 0), (4.95, h_ala(14.40)), (2.80, h_ala(12.25)), (0, h_ala(9.45))],
                     buchi=[(9.95, 0.90, 10.85, 1.80)],
-                    nota="Il bordo in alto scende fino a 2,8 cm dal bordo ovest e poi risale, come il tetto."))
+                    nota="Arriva al filo di sopra del tetto (3,5 come M07, senza gradino): i tetti M34 e M38 stanno dentro."))
     P.append(muro_y("M09", "Muro tra patio e corridoio", 4, 5.0, 13.90, 9.45, h_ala(9.45) - T,
                     buchi=[(6.40, 0.45, 8.50, 2.10), (10.95, 0, 11.55, 2.20)]))
     # --- 5. il muro dell'atelier sul patio e il camino
@@ -191,12 +191,12 @@ def pezzi():
                    (round(lb, 2), 5.0), "Risale verso est: con M32 fa la «farfalla» della sezione."))
     P.append(piano("M34", "Tetto delle camere (falda ovest)", 10,
                    [(9.45, 5.0, h_ala(9.45) - T), (12.25, 5.0, h_ala(12.25) - T),
-                    (12.25, 14.40, h_ala(12.25) - T), (9.45, 14.40, h_ala(9.45) - T)],
-                   (round(lw, 2), 9.40), "Scende dal patio verso est fino alla linea più bassa (a 12,25 cm)."))
+                    (12.25, 13.90, h_ala(12.25) - T), (9.45, 13.90, h_ala(9.45) - T)],
+                   (round(lw, 2), 8.90), "Scende dal patio verso est fino alla linea più bassa (a 12,25 cm)."))
     P.append(piano("M38", "Tetto delle camere (falda est)", 10,
                    [(12.25, 5.0, h_ala(12.25) - T), (14.40, 5.0, h_ala(14.40) - T),
-                    (14.40, 14.40, h_ala(14.40) - T), (12.25, 14.40, h_ala(12.25) - T)],
-                   (round(lb, 2), 9.40), "Risale verso est, come M33 sulla fascia nord."))
+                    (14.40, 13.90, h_ala(14.40) - T), (12.25, 13.90, h_ala(12.25) - T)],
+                   (round(lb, 2), 8.90), "Risale verso est, come M33 sulla fascia nord."))
     P.append(piano("M35", "Tetto dell'ingresso", 10,
                    [(14.40, -1.30, 2.60), (16.10, -1.30, 2.60), (16.10, 5.20, 2.60), (14.40, 5.20, 2.60)], (1.70, 6.50)))
     P.append(piano("M36", "Tetto dell'annesso", 10,
