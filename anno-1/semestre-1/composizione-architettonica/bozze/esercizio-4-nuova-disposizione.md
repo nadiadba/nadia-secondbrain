@@ -64,6 +64,12 @@ Dentro ogni pezzo ci sono il codice e le misure in cm, come il pezzo sta nel fog
 
 ![[muuratsalo-nadia-v12-4-pezzi-quotati.svg|1000]]
 
+### Il tetto dell'annesso degli ospiti (S27)
+
+Un rettangolo piano di 4,25 × 6,27 cm, spesso 0,5 cm, che si appoggia sopra i muri dell'annesso (a 2,6 cm dalla base).
+
+![[muuratsalo-nadia-s27-tetto-annesso.png|400]]
+
 ### Montare il plastico, un passo alla volta
 
 Prima di incollare, disegna a matita sulla base la pianta: il quadrato di 14,4 cm con l'angolo nord-ovest a 0,6 cm dal bordo ovest e a 0,8 cm dal bordo nord, e a est l'ingresso e l'annesso. Tutte le misure qui sotto si contano dal filo nord e dal filo ovest del quadrato.
