@@ -22,7 +22,7 @@ La pianta del punto 5 dell'esercizio: lo stesso quadrato di 14,40 m e le stesse 
 
 ## Pianta quotata
 
-![[muuratsalo-nadia-v11-1-pianta-quotata.svg|1000]]
+![[muuratsalo-nadia-v13-1-pianta-quotata.svg|1000]]
 
 Le camere e il guardaroba stanno in fila lungo il lato nord, con il bagno nell'angolo nord-est. Sotto corre il corridoio, che finisce verso ovest con una portafinestra sul patio e verso est si apre sul disimpegno, dove si entra dall'ingresso in legno. Dal disimpegno si va nel bagno e in cucina. Il soggiorno, con pranzo e atelier, è un quadrato di 6,40 × 6,38 m: lo studio sul soppalco sta sopra la sua parte nord-est, e la scaletta sale lungo il muro della cucina. La cucina si apre sul soggiorno con un varco senza porta.
 
@@ -32,7 +32,7 @@ Le superfici, misurate sugli assi, sono quasi uguali a quelle di Aalto: camera g
 
 ## Le altezze
 
-![[muuratsalo-nadia-v11-2-altezze.svg|1000]]
+![[muuratsalo-nadia-v13-2-altezze.svg|1000]]
 
 Il tetto è alto 6,30 m sul lato nord, sopra le camere, e scende verso il lago fino a 4,50 m sul muro sud del soggiorno; è spesso 0,30 m. Come in Aalto, il profilo non è tutto spiovente: prima scende e poi risale. Il punto più basso sta alla stessa distanza dal perimetro di quello di Aalto, cioè a 2,15 m: lì era a 12,25 m dal filo ovest, qui a 12,25 m dal filo nord, perché la falda scende da nord verso sud. Il tetto della casa finisce prima, a 10,53 m, quindi il profilo continua sui muri del perimetro: scende fino a 4,21 m a 2,15 m dal filo sud e risale di 0,65 m, come in Aalto (da 2,60 a 3,25), fino a 4,86 m sul perimetro. La pendenza della parte che scende è stata scelta per il soppalco, che il prof vuole con almeno 2,20 m sotto e sopra. Il pavimento del soppalco è a +2,40 (sotto restano 2,20 m) e nel suo punto più basso, il bordo verso sud, sopra la testa restano 2,26 m. Se il tetto scendesse di più, sul soppalco si batterebbe la testa.
 
@@ -54,7 +54,7 @@ I pezzi del secondo plastico hanno la lettera S, per distinguerli da quelli dell
 
 ### Tagliare il foglio
 
-![[muuratsalo-nadia-v11-3-taglio-foglio.svg|1000]]
+![[muuratsalo-nadia-v13-3-taglio-foglio.svg|1000]]
 
 I pezzi M (rosa) e S (azzurri) stanno sullo stesso foglio 70 × 50, mescolati, nella disposizione che hai scelto tu nella [pagina del taglio dei due plastici](https://claude.ai/artifact/R1t92qYk3TydPJoFQ6Sjxq) (la pagina si apre con questa disposizione e puoi spostare i pezzi come vuoi). I pezzi riempiono tutto il foglio, dall'angolo in alto a sinistra fino all'angolo in basso a destra: sono circa 2000 cm² su 3500, e nessun pezzo ne tocca un altro. I pezzi piccoli, alti 2,6 cm, stanno in fila lungo il bordo in basso e si tagliano con una sola linea. La tua disposizione del primo plastico resta salvata ed è quella dello schema di taglio in [[esercizio-4-casa-muuratsalo]].
 
@@ -62,13 +62,13 @@ Dentro ogni pezzo ci sono il codice e le misure in cm, come il pezzo sta nel fog
 
 ### I pezzi con le aperture
 
-![[muuratsalo-nadia-v12-4-pezzi-quotati.svg|1000]]
+![[muuratsalo-nadia-v13-4-pezzi-quotati.svg|1000]]
 
-### Il tetto dell'annesso degli ospiti (S27)
+### Il tetto dell'ingresso e dell'annesso (S27)
 
-Un rettangolo piano di 4,25 × 6,27 cm, spesso 0,5 cm, che si appoggia sopra i muri dell'annesso (a 2,6 cm dalla base).
+Un pezzo solo a L, spesso 0,5 cm: la parte stretta (1,75 × 5,83 cm) copre l'ingresso in legno, la parte larga (4,25 × 6,27 cm) copre l'annesso degli ospiti. Il pezzo intero è alto 12,1 cm e largo 4,25 cm e si appoggia sopra i muri a 2,6 cm dalla base.
 
-![[muuratsalo-nadia-s27-tetto-annesso.png|400]]
+![[muuratsalo-nadia-s27-tetto-ingresso-annesso.png|400]]
 
 ### Montare il plastico, un passo alla volta
 
@@ -76,13 +76,13 @@ Prima di incollare, disegna a matita sulla base la pianta: il quadrato di 14,4 c
 
 #### Passo 1: la base
 
-![[muuratsalo-nadia-v11-passo-01.png|700]]
+![[muuratsalo-nadia-v13-passo-01.png|700]]
 
 1. S01 è la base di 20 × 16 cm: lascia circa 1 cm di bordo intorno a casa e annesso.
 
 #### Passo 2: i muri esterni della casa
 
-![[muuratsalo-nadia-v11-passo-02.png|700]]
+![[muuratsalo-nadia-v13-passo-02.png|700]]
 
 1. S02 (muro nord) va sul filo nord, da angolo ad angolo: è il più lungo (14,4 cm). Ha quattro finestre.
 2. S03 (muro ovest) va sul filo ovest, da 0,5 a 11,75 cm dal filo nord, attaccato alla faccia interna di S02. Il bordo in alto è inclinato come il tetto.
@@ -90,14 +90,14 @@ Prima di incollare, disegna a matita sulla base la pianta: il quadrato di 14,4 c
 
 #### Passo 3: il recinto del patio
 
-![[muuratsalo-nadia-v11-passo-03.png|700]]
+![[muuratsalo-nadia-v13-passo-03.png|700]]
 
 1. S05 è un pezzo solo: il muretto sotto il graticcio e il recinto. Va sul filo sud (da 13,9 a 14,4 cm dal filo nord), da 2,65 cm dal filo ovest fino a S04. A ovest, per 4,9 cm, è alto 1,8 cm (il muretto); poi sale e fino a S04 è alto 4,28 cm. Tra il filo ovest e S05 (2,65 cm) resta la porta del patio, nell'angolo.
 2. Il graticcio sopra il muretto di S05 non si fa con il Poliplat: usa stuzzicadenti lisci, o listelli di balsa da 2 mm. Servono 9 montanti lunghi 2,5 cm (uno ogni 5,5 mm, in piedi sul muretto, fino all'altezza della parte alta di S05) e 2 traversi di 4,9 cm, incollati sui montanti dal lato del patio, a 2,6 e a 3,6 cm dal pavimento. Fai il graticcio per ultimo, dopo i tetti.
 
 #### Passo 4: i muri della casa sul patio
 
-![[muuratsalo-nadia-v11-passo-04.png|700]]
+![[muuratsalo-nadia-v13-passo-04.png|700]]
 
 1. S07 chiude la camera grande verso il patio: va da 0,5 a 4,3 cm dal filo ovest, con la faccia verso il patio a 3,2 cm dal filo nord. Ha una finestra.
 2. S08 è il muro ovest del soggiorno: sta a 4,3 cm dal filo ovest (faccia verso il patio), da 2,7 a 10,53 cm dal filo nord. Ha la portafinestra del corridoio (vicino a S07) e la finestra d'angolo, che arriva fino al bordo in basso del pezzo.
@@ -107,7 +107,7 @@ Prima di incollare, disegna a matita sulla base la pianta: il quadrato di 14,4 c
 
 #### Passo 5: le pareti interne
 
-![[muuratsalo-nadia-v11-passo-05.png|700]]
+![[muuratsalo-nadia-v13-passo-05.png|700]]
 
 Le pareti interne arrivano sotto il tetto, con il bordo in alto inclinato come il tetto; le porte sono buchi dentro un muro unico.
 
@@ -118,13 +118,13 @@ Le pareti interne arrivano sotto il tetto, con il bordo in alto inclinato come i
 
 #### Passo 6: il soppalco
 
-![[muuratsalo-nadia-v11-passo-06.png|700]]
+![[muuratsalo-nadia-v13-passo-06.png|700]]
 
 1. S19 è il soppalco dello studio: 3,79 × 3,79 cm, nell'angolo tra S17 (a nord) e S10 (a est). Segna a matita su S17 e S10 una linea a 1,9 cm dal pavimento e incolla il soppalco appoggiato su questa linea: il piano di sopra sta a 2,4 cm. La scaletta non c'è tra i pezzi: se vuoi farla, una striscia di cartoncino piegata a gradini va bene, lungo S10.
 
 #### Passo 7: l'ingresso e l'annesso degli ospiti
 
-![[muuratsalo-nadia-v11-passo-07.png|700]]
+![[muuratsalo-nadia-v13-passo-07.png|700]]
 
 1. S20 è il muro nord dell'ingresso in legno: va da 14,4 a 16,15 cm dal filo ovest, a 2,24 cm dal filo nord. Ha la porta d'entrata.
 2. S21 è il muro est dell'ingresso: sta a 16,15 cm dal filo ovest (faccia verso est), da 2,74 a 8,07 cm dal filo nord. Ha una finestra.
@@ -134,10 +134,10 @@ Le pareti interne arrivano sotto il tetto, con il bordo in alto inclinato come i
 
 #### Passo 8: i tetti
 
-![[muuratsalo-nadia-v11-passo-08.png|700]]
+![[muuratsalo-nadia-v13-passo-08.png|700]]
 
 1. S25 è il tetto della casa, un coperchio di un pezzo solo: si appoggia sopra tutti i muri e copre tutta la pianta, anche lo spessore dei muri, dal filo nord fino al filo sud del soggiorno (10,53 cm). Parte alto a nord e scende verso il lago; sta con il lato lungo (14,4 cm) lungo il muro nord. Non ha incastri.
-2. S26 copre l'ingresso, S27 l'annesso, tutti e due appoggiati sopra i muri.
+2. S27 copre l'ingresso e l'annesso in un pezzo solo a L, appoggiato sopra i muri.
 
 > [!tip] Il tetto si può togliere?
 > Come nel plastico di Aalto: appoggia i tetti senza colla e fissali con un puntino di attaccatutto, così per le foto restano fermi e per vedere dentro si tolgono.
@@ -169,8 +169,7 @@ Le pareti interne arrivano sotto il tetto, con il bordo in alto inclinato come i
 | S23 | Annesso, muro est (finestra) | 5,77 × 2,6 |
 | S24 | Annesso, muro sud (finestra) | 3,75 × 2,6 |
 | S25 | Tetto della casa (un pezzo solo, appoggiato sopra tutti i muri; nord in alto) | 14,4 × 10,68 |
-| S26 | Tetto dell'ingresso in legno | 1,75 × 5,83 |
-| S27 | Tetto dell'annesso | 4,25 × 6,27 |
+| S27 | Tetto dell'ingresso e dell'annesso (pezzo a L) | 4,25 × 12,1 |
 
 Le misure sono larghezza × altezza del pezzo; per i muri con il bordo inclinato l'altezza è quella del punto più alto. Il tetto della casa (S25) è un pezzo solo perché ha una sola falda; le sue misure nord-sud sono già allungate per la pendenza.
 

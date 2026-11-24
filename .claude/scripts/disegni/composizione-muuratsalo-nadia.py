@@ -21,7 +21,7 @@ Disegno, num, FONT = aalto.Disegno, aalto.num, aalto.FONT
 NERO, BLU, ROSSO, GRIGIO = aalto.NERO, aalto.BLU, aalto.ROSSO, aalto.GRIGIO
 
 OUT = "/Users/nadia/Documents/GitHub/nadia-secondbrain/anno-1/semestre-1/composizione-architettonica/bozze/img/"
-VER = "v11"
+VER = "v13"
 LEGNO = "#6d4c2f"
 
 # ---- il tetto: alto a nord sopra le camere, scende verso il lago. Come in Aalto il profilo
@@ -625,10 +625,13 @@ def pezzi_progetto():
                 "Un coperchio: si appoggia sopra tutti i muri, anche quelli del perimetro.")
     t.forma = [(round(x, 3), round(y * k, 3)) for x, y in foot]
     P.append(t)
-    P.append(X.piano("S26", "Tetto dell'ingresso in legno", 8,
-                     [(14.4, 2.24, 2.6), (16.15, 2.24, 2.6), (16.15, 8.07, 2.6), (14.4, 8.07, 2.6)], (1.75, 5.83)))
-    P.append(X.piano("S27", "Tetto dell'annesso", 8,
-                     [(14.4, 8.07, 2.6), (18.65, 8.07, 2.6), (18.65, 14.34, 2.6), (14.4, 14.34, 2.6)], (4.25, 6.27)))
+    # il tetto dell'ingresso e dell'annesso e' un solo pezzo a L (scelta di Nadia)
+    foot2 = [(14.4, 2.24), (16.15, 2.24), (16.15, 8.07), (18.65, 8.07), (18.65, 14.34), (14.4, 14.34)]
+    t2 = X.piano("S27", "Tetto dell'ingresso e dell'annesso (un pezzo solo, a L)", 8,
+                 [(x, y, 2.6) for x, y in foot2], (4.25, 12.1),
+                 "Un coperchio a L: copre l'ingresso in legno e l'annesso degli ospiti.")
+    t2.forma = [(round(x - 14.4, 3), round(y - 2.24, 3)) for x, y in foot2]
+    P.append(t2)
     return P
 
 
