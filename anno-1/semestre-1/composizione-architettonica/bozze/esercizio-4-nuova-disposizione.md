@@ -68,7 +68,7 @@ Dentro ogni pezzo ci sono il codice e le misure in cm, come il pezzo sta nel fog
 
 Un pezzo solo a L, spesso 0,5 cm: la parte stretta (1,75 × 5,83 cm) copre l'ingresso in legno, la parte larga (4,25 × 6,27 cm) copre l'annesso degli ospiti. Il pezzo intero è alto 12,1 cm e largo 4,25 cm e si appoggia sopra i muri a 2,6 cm dalla base.
 
-![[muuratsalo-nadia-s27-tetto-ingresso-annesso.png|400]]
+![[muuratsalo-nadia-s27-tetto-ingresso-annesso-quote.png|450]]
 
 ### Montare il plastico, un passo alla volta
 
