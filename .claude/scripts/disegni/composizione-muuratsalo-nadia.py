@@ -657,7 +657,7 @@ def passi_png():
 
 def pezzi_quotati_s():
     P = pezzi_progetto()
-    cod = ["S02", "S03", "S04", "S05", "S07", "S08", "S09", "S10", "S11", "S15", "S16", "S17", "S22"]
+    cod = ["S02", "S03", "S04", "S05", "S07", "S08", "S09", "S10", "S11", "S15", "S16", "S17", "S22", "S27"]
     aalto.pezzi_quotati(P, OUT + "muuratsalo-nadia-%s-4-pezzi-quotati.svg" % VER, codici=cod, colore=("#c4dcf2", "#2f5f8f"))
 
 

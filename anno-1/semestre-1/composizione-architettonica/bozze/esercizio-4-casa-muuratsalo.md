@@ -58,7 +58,7 @@ Questa è la disposizione che hai fatto tu nella [pagina per spostare i pezzi](h
 
 Avanza tutta la parte verde: una striscia intera di 70 × 20 cm in basso e, sopra, un grande pezzo a destra della base, sotto la fila dei pezzi. Tienili per il plastico della nuova disposizione (il punto 5).
 
-![[muuratsalo-v22-4-pezzi-quotati.svg|1000]]
+![[muuratsalo-v23-4-pezzi-quotati.svg|1000]]
 
 Come procedere:
 

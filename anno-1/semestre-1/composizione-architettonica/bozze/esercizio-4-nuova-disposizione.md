@@ -62,7 +62,7 @@ Dentro ogni pezzo ci sono il codice e le misure in cm, come il pezzo sta nel fog
 
 ### I pezzi con le aperture
 
-![[muuratsalo-nadia-v11-4-pezzi-quotati.svg|1000]]
+![[muuratsalo-nadia-v12-4-pezzi-quotati.svg|1000]]
 
 ### Montare il plastico, un passo alla volta
 
