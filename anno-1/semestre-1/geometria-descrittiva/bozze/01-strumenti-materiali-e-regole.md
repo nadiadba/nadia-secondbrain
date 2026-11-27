@@ -418,3 +418,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[esercit_01_esecuzione.pdf]]: come si esegue l'esercizio, passo per passo
 - [[004b_scale di rappresentazione.jpg]]: tabella delle scale
 - [[007_Scale grafiche_M2.jpg]]: scale grafiche
+- [[566_3.pdf]]: libro della prof (allegato multimediale), p. 29: un solido nel triedro con le sue proiezioni (pianta e due prospetti, con le campiture) e come i piani si aprono sul foglio, cioè lo stesso legame tra pianta e prospetti di questo esercizio, visto con il metodo di Monge

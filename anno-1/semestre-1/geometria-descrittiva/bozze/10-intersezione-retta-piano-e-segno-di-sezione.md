@@ -98,6 +98,10 @@ Su γ₁ coincidono r₁ e n₁, la prima proiezione della retta n di intersezio
 5. il punto di intersezione sta dove si incontrano n₂ ed r₂: lì c'è P₂, esattamente come sul manuale;
 6. con la linea di richiamo si trova anche P₁ su r₁.
 
+Sul libro della docente lo stesso esercizio è l'applicazione 18, «Punto di intersezione retta-piano» (pp. 108-111), risolto sopra in forma tecnica e sotto in forma canonica. Cambiano solo i nomi: la retta data si chiama m, il piano ausiliario proiettante in prima si chiama α in forma tecnica (m₁ ≡ α₁ ≡ n₁) e β in forma canonica (t₁β ≡ m₁ ≡ n₁), e i punti in cui n₁ taglia i lati sono L₁ e S₁.
+
+Nella forma canonica il libro parte proprio dalla figura: prima costruisce le tracce del piano che contiene il triangolo, cercando le tracce di due sue rette (r e q, che passano per i vertici), e poi procede con le tracce come nel caso del piano dato con le tracce.
+
 > [!example] Disegno 3 · Il disegno
 > ![[10-intersezione-retta-figura-piana.svg|620]]
 >
@@ -122,6 +126,8 @@ Trovato il punto P, il disegno va concluso: la retta attraversa la figura, e da 
 Dove la figura la copre, quindi, la retta si tratteggia.
 
 In seconda proiezione è nascosta la parte di r che ha l'aggetto minore di quello del piano, cioè che sta dietro il triangolo rispetto a chi guarda π₂; in prima proiezione è nascosta la parte che ha la quota minore, cioè che sta sotto il triangolo rispetto a chi guarda dall'alto.
+
+Nell'ultima pagina dell'applicazione 18 il libro chiama questo passaggio «disegnare le viste virtuali della retta m rispetto alla figura ABC»: in tutte e due le proiezioni il tratto di m coperto dal triangolo, da P fino al bordo della figura, è tratteggiato. Accanto c'è il modello nello spazio, che fa vedere da quale parte la retta passa sotto o dietro il triangolo.
 
 ### La retta n e la retta di massima pendenza
 
@@ -159,6 +165,10 @@ Con il piano dato con le tracce l'esercizio era già stato assegnato: bastava tr
 Per trovare H si fa passare per r il piano γ proiettante in prima. Siccome t₁γ coincide con r₁, che è perpendicolare a t₁α, il piano γ è perpendicolare ad α: la retta n = α ∩ γ è quindi una retta di massima pendenza di α. H₂ sta dove n₂ incontra r₂, e H₁ sta su r₁.
 
 Per la vera grandezza si ribalta γ su π₁ intorno alla sua prima traccia, come nel ribaltamento dei piani proiettanti in prima: ogni punto si porta sulla perpendicolare a t₁γ condotta dalla sua prima proiezione, a una distanza uguale alla sua quota. Il segmento P\*H\* che si ottiene è la distanza vera.
+
+Il libro della docente svolge questo esercizio nell'applicazione 20, «Distanza punto-piano» (pp. 114-117), in forma tecnica e in forma canonica. Il piede della perpendicolare lì si chiama M, la retta di intersezione q, e i punti ribaltati si scrivono con il trattino sopra, P̄ e M̄, perché γ (nel libro β) è un piano ausiliario ribaltato lateralmente; la distanza vera è indicata con d.
+
+Il libro aggiunge un'osservazione utile come controllo: nello spazio il segmento PM è perpendicolare alla retta di massimo pendio del piano, e questa perpendicolarità si vede nel ribaltamento laterale. Se insieme a P e M si ribalta anche la retta q (che qui è la retta di massimo pendio), la distanza ribaltata P̄M̄ deve formare un angolo retto con q̄.
 
 > [!example] Disegno 5 (proposto, non fatto a lezione) · Il disegno: la distanza di P da α in forma canonica
 > ![[b10-distanza-punto-piano-tracce.svg|620]]
@@ -201,6 +211,8 @@ Poi si cerca il piede H esattamente come nell'esercizio in aula: γ₁ coincide 
 Per la vera grandezza di PH si può ribaltare γ in forma tecnica, come nel ribaltamento del piano generico fatto con un'orizzontale (sbobina [[09-ribaltamento-piano-generico]]): l'asse di rotazione è l'orizzontale di γ che passa per H.
 
 Così il punto H sta sull'asse e non si muove, e per P si riporta, sulla perpendicolare a γ₁ condotta da P₁, non la quota intera ma la differenza di quota tra P e H, cioè la distanza di P₂ dalla parallela alla linea di terra condotta per H₂.
+
+Nella forma tecnica dell'applicazione 20 il libro fa una scelta diversa, ma con lo stesso principio: ribalta il segmento rispetto al piano orizzontale che contiene l'orizzontale o del triangolo, e quindi misura la quota di P e la quota del piede M tutte e due a partire da o₂, riportandole sulla perpendicolare a γ₁ (nel libro β₁) condotta da P₁ e da M₁. Il segmento P̄M̄ è la distanza d. Il libro lo spiega così: per conoscere la lunghezza di un segmento occorre ribaltarlo su uno dei piani di proiezione o su un piano a essi parallelo.
 
 > [!example] Disegno 8 (proposto, non fatto a lezione) · Esercizio 1: la distanza in vera grandezza
 > ![[b10-es1-distanza-vera-grandezza.svg|620]]
@@ -265,6 +277,26 @@ Come controllo, la distanza di E\* da E₁ deve essere uguale alla quota di E, c
 > 1. Il segmento QE esce dal triangolo ad angolo retto, ed è perpendicolare anche all'orizzontale o della figura.
 > 2. Il piano verticale γ contiene QE: la sua traccia su π₁ contiene la prima proiezione Q₁E₁.
 > 3. Q₁E₁ è più corto di 3 cm: per misurare il segmento bisogna ribaltare γ.
+
+### Lo stesso procedimento a ritroso nel libro
+
+Il libro della docente usa questo procedimento a ritroso nell'applicazione 7, «Costruzione di un solido su un piano generico» (pp. 71-74): sul piano α, dato con le tracce, si deve alzare un prisma la cui altezza h è perpendicolare al piano. Il libro osserva che l'altezza del solido è un segmento perpendicolare al piano, e quindi perpendicolare alla retta di massimo pendio del piano.
+
+Da qui viene una variante della costruzione, che non ha bisogno del punto ausiliario S:
+
+1. si costruisce un piano proiettante in prima β perpendicolare ad α, con t₁β perpendicolare a t₁α: β taglia α lungo una retta di massimo pendio m;
+2. si ribalta lateralmente β su π₁, e con lui la retta m, che diventa m̄;
+3. il punto A si porta su β lungo la sua orizzontale: da A₁ si traccia la parallela a t₁α fino a t₁β e, siccome nel ribaltamento laterale di β ogni punto si sposta perpendicolarmente a t₁β, cioè sulla stessa parallela, la si prolunga riportando la quota di A; si trova Ā, che sta su m̄;
+4. nel ribaltamento le misure e gli angoli sono veri: da Ā si traccia la perpendicolare a m̄ e su di essa si misura la lunghezza h;
+5. a ritroso, dall'estremo trovato si torna con una parallela a t₁α fino alla perpendicolare a t₁α condotta da A₁: lì c'è l'estremo della prima proiezione h₁;
+6. la seconda proiezione h₂ è perpendicolare a t₂α e il suo estremo si trova con la linea di richiamo, sfruttando le condizioni di appartenenza.
+
+Lo spostamento lungo le parallele a t₁α funziona perché tutte le perpendicolari al piano sono parallele tra loro: misurare il segmento in un punto di β e riportarlo in A, lungo un'orizzontale del piano, non cambia né la sua lunghezza né la sua direzione. Nel libro gli spigoli del solido che escono dal piano risultano così, nelle due proiezioni, perpendicolari alle tracce del piano.
+
+Applicata al triangolo dell'esercizio 2, la variante diventa ancora più semplice se si sceglie β passante per Q: allora β è proprio il piano γ dell'esercizio (γ₁ coincide con r₁), lo spostamento lungo l'orizzontale non serve, e nel ribaltamento di γ basta ribaltare Q e la retta di massimo pendio per Q, poi tracciare da Q\* la perpendicolare a quella retta ribaltata e misurarci i 3 cm.
+
+![[b10-libro-p74-perpendicolare-di-lunghezza-data.png|420]]
+*Il segmento h perpendicolare al piano α nel punto A, misurato nel ribaltamento laterale e riportato a ritroso nelle due proiezioni h₁ e h₂ (dal libro della prof, allegato, applicazione 7, p. 74).*
 
 > [!abstract] Da ricordare
 > - Distanza punto–piano: perpendicolare per il punto, piede H con il piano ausiliario, vera grandezza con il ribaltamento.
@@ -385,3 +417,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[il-disegno-della-scala.pdf]]: la scala in pianta e in sezione, con uno o due segni di interruzione
 - [[linee guida per lo studio delle architetture proposte _2026-2027.pdf]]: sezioni, scale e dettagli da ridisegnare per la casa scelta
 - [[2agg_Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: data della Prova n. 2 (26 novembre)
+- [[566_3.pdf]]: allegato multimediale del libro della docente. Teoria: «Condizioni di perpendicolarità retta-piano» e «tra rette» (p. 43), «Il ribaltamento dei piani proiettanti» (p. 44). Esercizi utili: applicazione 18, punto di intersezione retta-piano in forma tecnica e canonica, con le viste nascoste (pp. 108-111); applicazione 19, perpendicolare a una falda per un punto dato, anche nel caso del piano parallelo alla linea di terra (pp. 112-113); applicazione 20, distanza punto-piano nelle due forme (pp. 114-117); applicazione 7, solido alzato perpendicolarmente a un piano generico, cioè il procedimento a ritroso dell'esercizio 2 (pp. 71-74); applicazione 21, intersezione tra piani (pp. 118-119)

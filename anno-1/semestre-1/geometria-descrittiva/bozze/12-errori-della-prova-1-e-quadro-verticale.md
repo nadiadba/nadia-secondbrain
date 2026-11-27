@@ -131,6 +131,8 @@ Le lettere, invece, si mettono sempre.
 
 Un esercizio di omologia, se le regole sono chiare, non richiede più di 10 minuti.
 
+Per allenarsi, il libro della docente ha dodici esercizi di omologia piana con la traccia e la soluzione (allegato, applicazioni 1-12, pp. 16-27): omotetia, affinità parallela, ortogonale e obliqua, omologia, omologia speciale e traslazione.
+
 ## GLI ERRORI DA EVITARE NELLE PROIEZIONI ORTOGONALI
 
 ### Il modello del diedro
@@ -298,6 +300,8 @@ Una retta è perpendicolare a un piano se:
 
 La seconda traccia, del resto, è la frontale ad aggetto zero, come la prima traccia è l'orizzontale a quota zero.
 
+Il libro della docente lo scrive nella pagina sulla rappresentazione dei piani (allegato, p. 34): nel piano generico la prima traccia rappresenta l'orizzontale del piano a quota zero e la seconda traccia ne rappresenta la frontale ad aggetto zero, e queste considerazioni tornano utili negli esercizi in forma tecnica. Nella pagina sulla perpendicolarità retta-piano (p. 43) aggiunge che la prima proiezione della retta perpendicolare al piano è perpendicolare alla prima proiezione delle orizzontali del piano, e la seconda proiezione alla seconda proiezione delle frontali.
+
 Per questo non c'era bisogno di trovare le tracce del piano: bastava fare la prima proiezione della perpendicolare perpendicolare all'orizzontale o₁, e la seconda perpendicolare alla frontale f₂. Ma le proiezioni da disegnare sono sempre due.
 
 > [!example] Disegno 9 · Il disegno nello spazio: la retta perpendicolare al piano
@@ -322,6 +326,8 @@ Nel terzo caso bisogna avere cura che ogni lato della figura ribaltata sia ugual
 In particolare, il lato perpendicolare a π₂ in seconda proiezione è un punto, mentre in pianta è già in vera lunghezza. Quando lo si ribalta deve restare lungo uguale. Quando si ruota una mano, il palmo non diventa più piccolo: la larghezza rimane quella.
 
 Si possono prendere le distanze da una parte o dall'altra, ma bisogna sempre controllare che graficamente le cose tornino. Il ribaltamento è una rotazione, non una trasformazione che deforma: la figura ruota e non si restringe.
+
+Il terzo modo è quello disegnato nel libro della docente per il piano proiettante in seconda (allegato, p. 44, fig. 48) e per la falda di un tetto in un piano proiettante in seconda (applicazione 5, p. 65): nel ribaltamento su π₂, spiega il libro, basta considerare la distanza da π₂ dei singoli vertici della falda, cioè il loro aggetto. Nella stessa applicazione c'è anche la falda in un piano parallelo alla linea di terra, che si ribalta sul terzo piano di proiezione considerando la distanza da questo dei singoli vertici.
 
 > [!example] Disegno 10 · Il disegno nello spazio: il piano proiettante in seconda ruota su π₂
 > ![[b12-spazio-proiettante-in-seconda-su-pi2.svg|620]]
@@ -364,6 +370,8 @@ L'assonometria è obliqua, e nelle oblique le misure possono ridursi o anche aum
 
 Il risultato è che sul quadro il prospetto resta in vera forma, mentre la profondità si disegna lungo y′.
 
+Nel libro della docente questa assonometria si chiama assonometria obliqua cavaliera frontale, o cavaliera propriamente detta (allegato, pp. 155 e 158-159): è quella in cui il piano di quadro coincide con il piano verticale π₂, così come nella cavaliera militare coincide con il piano orizzontale π₁.
+
 > [!example] Disegno 12 · Il disegno nello spazio: il quadro verticale
 > ![[12-spazio-assonometria-quadro-verticale.svg|620]]
 >
@@ -393,6 +401,10 @@ Nel ribaltamento l'asse y, ribaltato, si dispone a 90 gradi rispetto a y′: è 
 Nello spazio l'unità di misura è uguale su tutti e tre gli assi. Quindi su y\*, che è l'asse ribaltato sul quadro, si colloca la stessa unità di misura degli altri assi, riportandola col compasso. L'uguaglianza delle unità si segna sempre: non bisogna mai dimenticare questo segno.
 
 Il segmento che unisce l'unità su y\* con l'unità scelta su y′ è l'ipotenusa del triangolo, cioè la direzione di proiezione assonometrica ribaltata. La docente la chiama s all'infinito e la disegna in azzurro.
+
+Il libro della docente fa la stessa costruzione nella pagina «Cavaliera frontale. Ribaltamento della direzione di proiezione» (allegato, p. 158, fig. 14): la direzione di proiezione assonometrica, indicata S∞, si trova congiungendo l'unità di misura u′y con u\*y. Le profondità vere dei punti si prendono su y\* e si chiamano d\*, per esempio d\*(P) e d\*(Q); con le parallele alla direzione ribaltata si portano su y′.
+
+Il libro ricorda anche un caso particolare (p. 159): se la direzione di proiezione è a 45° rispetto al quadro, l'unità su y′ resta uguale a quella vera, e né le lunghezze della pianta né le altezze del prospetto cambiano; pianta e alzato però si sovrappongono l'una all'altro.
 
 Prima di disegnare l'oggetto, quindi, si disegna e si scrive che cosa avviene nello spazio; poi si fa il disegno su un'altra terna.
 
@@ -461,6 +473,15 @@ Infine si alzano dai vertici della pianta assonometrica gli spigoli verticali, p
 
 Questa assonometria è molto usata.
 
+Nel libro della docente questo secondo metodo è la pagina «Cavaliera frontale. Omologia di ribaltamento del piano π₁» (allegato, p. 159, fig. 15). Il libro scrive che la direzione dell'affinità obliqua, U∞, che lega la pianta ribaltata sul quadro alla sua immagine assonometrica, si trova unendo l'unità di misura assonometrica u′y con quella ribaltata u\*y.
+
+Conviene fare attenzione a una cosa: nei due metodi y\* non è la stessa retta.
+
+- Nel primo metodo si ribalta il triangolo della squadretta intorno a y′, e y\* è perpendicolare a y′.
+- Nel secondo metodo si ribalta la pianta, cioè il piano orizzontale, intorno a x′, e y\* è perpendicolare a x′: è la y\* della pianta ribaltata sotto il prospetto. In questo caso il segmento che unisce u\*y e u′y non è più la direzione di proiezione S∞, ma la direzione U∞ dell'affinità.
+
+Nella prima figura della p. 159 il libro mostra la stessa costruzione con il quadro che contiene gli assi y e z, e quindi con l'asse x proiettato obliquamente: cambiano solo i nomi, la pianta si ribalta intorno a y′ e l'asse ribaltato è x\*, perpendicolare a y′.
+
 > [!example] Disegno 14 · Il disegno: il metodo con la pianta
 > ![[12-assonometria-quadro-verticale-metodo-pianta.svg|620]]
 >
@@ -499,3 +520,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 
 - [[ES.GUIDATA_Omologia_01.pdf]]: l'esercizio guidato di omologia citato nella correzione, con il caso della coppia di punti corrispondenti (l'esercizio «madre») e quello della retta s con l'asse all'infinito
 - [[2agg_Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: calendario aggiornato, con la Prova n. 2 il 26 novembre
+- [[566_3.pdf]]: allegato multimediale del libro della docente. Per la correzione della prova: le applicazioni 1-12 di omologia piana (pp. 16-27); «Rappresentazione di piani» (p. 34), «Condizioni di perpendicolarità retta-piano» (p. 43), «Il ribaltamento dei piani proiettanti» (p. 44); applicazioni 4 e 5, vera grandezza di figure e falde in piani generici, proiettanti in seconda e paralleli alla linea di terra (pp. 59-65); applicazione 19, perpendicolare a una falda (pp. 112-113). Per l'assonometria: «Cavaliera frontale. Ribaltamento della direzione di proiezione» (p. 158) e «Omologia di ribaltamento del piano π₁» (p. 159); applicazioni 10 e 12, assonometria cavaliera frontale (pp. 197-199 e 204-206); applicazione 11, assonometria cavaliera associata alle proiezioni ortogonali (pp. 200-203)

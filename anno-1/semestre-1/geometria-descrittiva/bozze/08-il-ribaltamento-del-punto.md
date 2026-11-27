@@ -43,6 +43,13 @@ Sul libro ci sono degli esercizi disegnati, ed è lì che si impara la procedura
 
 Nella bibliografia del programma il primo testo è G. Spadafora, *Fondamenti e applicazioni di geometria descrittiva. Le proiezioni parallele. Principi teorici e applicazioni* (Franco Angeli, 2019), con un allegato multimediale. Come la docente ripeterà il 29 ottobre, il PDF degli esercizi si scarica con il codice del libro, ma non basta da solo: nel libro è spiegato il metodo, nel PDF è svolto l'esercizio.
 
+L'allegato multimediale (il file [[566_3.pdf]]) ha tre parti, una per capitolo del libro: elementi di geometria proiettiva, proiezioni ortogonali, proiezioni assonometriche. In ognuna ci sono:
+
+- i modelli e i disegni dei principi teorici, con il rimando alla pagina del testo a stampa;
+- le applicazioni grafiche, cioè gli esercizi: per ognuno c'è prima la traccia e poi la soluzione, costruita in più pagine, con una fascia laterale che spiega ogni passaggio e i collegamenti alla teoria.
+
+Il libro raccomanda di provare a svolgere l'esercizio sulla traccia e solo dopo confrontarlo con la soluzione. Siccome la registrazione di questa lezione è quasi incomprensibile, le parti sul ribaltamento del punto qui sotto sono integrate con le pagine dell'allegato che trattano gli stessi argomenti.
+
 ### L'esercizio del tetto a falde
 
 In aula è stato commentato un esercizio con un tetto a falde.
@@ -52,6 +59,8 @@ Le due falde non hanno la stessa dimensione: una è più stretta dell'altra. Nel
 Prima di disegnare, bisogna vedere come è messo l'oggetto rispetto ai piani di proiezione. Ogni falda è una figura piana, e la posizione del suo piano decide come si presentano le proiezioni: un piano parallelo a un piano di proiezione mostra la falda in vera grandezza, un piano proiettante la riduce a un segmento, un piano inclinato la deforma.
 
 È lo stesso ragionamento delle [[04-rette-e-piani-nelle-varie-posizioni|rette e dei piani nelle varie posizioni]], applicato a un oggetto di architettura; un esercizio simile, sulla falda di un tetto in un piano inclinato, è svolto nella bozza [[05-appartenenza-e-rette-ausiliarie]].
+
+Nel libro della docente ci sono esercizi dello stesso tipo. Il più vicino è l'applicazione 16 (pp. 101-105): un volume del Gaoligong Museum a Tengchong, in Cina, coperto da due falde di forma diversa, di cui si cerca la vera grandezza e forma per poterle ridisegnare e costruire il plastico in cartoncino. Il libro spiega che, quando di un edificio a falde si hanno pianta e prospetto, ribaltare ogni falda su un piano di proiezione è indispensabile per conoscerne le misure vere (p. 40). Anche l'applicazione 5 (pp. 64-65) mostra lo stesso solido con la falda in tre posizioni diverse: in un piano proiettante in seconda, in un piano generico, in un piano parallelo alla linea di terra.
 
 ## LA FIGURA PIANA: LE TRACCE DEL PIANO O UN'ORIZZONTALE
 
@@ -149,9 +158,20 @@ Con questa condizione γ è perpendicolare ad α. Due piani, infatti, sono perpe
 
 Il punto in cui t₁γ incontra t₁α si chiama H: è il centro dell'arco che P descrive.
 
+Nel libro della docente il piano ausiliario ha nomi diversi a seconda della figura: si chiama β nella teoria del ribaltamento dei piani generici (allegato, p. 45, fig. 49) e γ negli esercizi (applicazione 4, pp. 59-63). Il ruolo è sempre lo stesso: è il piano proiettante in prima, perpendicolare al piano dato, su cui il punto compie la sua rotazione.
+
 ### Si ribalta la quota insieme alla retta
 
 I due piani α e γ si tagliano lungo una retta m, che passa per P e per H. È la retta di α perpendicolare alla traccia, cioè la retta di massima pendenza che passa per P.
+
+Il libro la chiama retta di massimo pendio del piano rispetto a π₁ (p. 45): è perpendicolare alla prima traccia del piano, e quindi a tutte le rette orizzontali del piano. Si trova sempre così, come retta di intersezione tra il piano dato e un piano a esso perpendicolare (applicazione 8, pp. 75-76):
+
+- in forma canonica la sua prima proiezione è perpendicolare alla prima traccia del piano;
+- in forma tecnica è perpendicolare alla prima proiezione delle orizzontali del piano.
+
+Negli esercizi il libro chiede di disegnare in prima proiezione, parallela alla retta di massimo pendio, la freccia che indica la pendenza del piano, come si fa per le falde dei tetti.
+
+Siccome m è una retta di α, la sua prima traccia sta su t₁α, ed è proprio il punto H: nel libro, infatti, H si chiama T₁ₘ (o T₁ᵣ, se la retta si chiama r).
 
 Il segmento HP è il raggio della rotazione, ma nelle proiezioni non si vede in vera lunghezza. Per vederlo si ribalta lateralmente il piano γ su π₁, facendolo ruotare intorno a t₁γ: γ è un piano proiettante in prima, e il suo ribaltamento si fa come il 22 ottobre.
 
@@ -166,6 +186,16 @@ In pratica:
 Il segmento HP̄ è la retta m ribaltata, e la sua lunghezza è la distanza vera di P dalla traccia: il raggio della rotazione.
 
 I segmenti P₁H, P₁P̄ e HP̄ formano il triangolo di rotazione: un cateto sta su π₁, l'altro è la quota ribaltata, l'ipotenusa è il raggio.
+
+Il libro fa la stessa costruzione ribaltando tutta la retta m insieme a γ (p. 45, fig. 49; applicazione 4, p. 63):
+
+1. la prima traccia di m, cioè H, sta sulla cerniera t₁γ e non si muove;
+2. la seconda traccia T₂ₘ sta su t₂γ, che è perpendicolare alla linea di terra; ribaltando γ su π₁, t₂γ si dispone perpendicolare a t₁γ (nel libro t̄₂γ), partendo dal punto in cui t₁γ incontra la linea di terra, e T₂ₘ arriva su di essa in T̄₂ₘ, a una distanza da quel punto uguale alla sua quota;
+3. la retta HT̄₂ₘ è m̄, la retta m ribaltata, e P̄ deve stare su di essa.
+
+È un buon controllo: se P̄, trovato riportando la quota, non cade su m̄, c'è un errore nelle misure.
+
+Il triangolo di rotazione dice anche un'altra cosa. L'angolo in H, tra HP₁ e HP̄, è l'angolo che la retta di massimo pendio forma con π₁, cioè l'angolo che il piano α forma con π₁: il libro lo misura proprio così, nel ribaltamento laterale della retta di massimo pendio (applicazione 10, pp. 79-81). Per leggerlo, osserva il libro, basterebbe ribaltare la quota di un solo punto.
 
 ### La rotazione intorno alla prima traccia
 
@@ -193,6 +223,11 @@ A questo punto il piano α ruota intorno a t₁α fino ad appoggiarsi su π₁, 
 > 5. Centro del compasso in H, raggio HP̄: l'arco porta P̄ su t₁γ, dalla parte opposta a P₁. Lì c'è P\*.
 > 6. La seconda traccia di γ non serve: si ribalta su π₁.
 
+La stessa costruzione nel libro della docente, dove il piano ausiliario si chiama β, la retta di massimo pendio r e il centro della rotazione T₁ᵣ: ribaltando β intorno a t₁β, T₂ᵣ va in T̄₂ᵣ sulla traccia ribaltata t̄₂β, la retta ribaltata r̄ unisce T₁ᵣ e T̄₂ᵣ e P̄ sta su di essa; poi l'arco con centro in T₁ᵣ porta P̄ in P\* su t₁β.
+
+![[b08-libro-p45-ribaltamento-del-punto.png|480]]
+*Il ribaltamento di un punto P del piano generico α (dal libro della prof, allegato, «Il ribaltamento dei piani generici», p. 45, fig. 49).*
+
 ## DAL PUNTO ALLA FIGURA
 
 ### Si ribalta un punto, il resto con l'affinità
@@ -205,6 +240,8 @@ Non serve ripetere la costruzione per ogni vertice. Tra la prima proiezione dell
 - il centro è all'infinito, nella direzione perpendicolare all'asse;
 - i punti corrispondenti stanno quindi sulle perpendicolari all'asse;
 - e le rette corrispondenti si incontrano sull'asse.
+
+Il libro della docente lo dice con le stesse parole: l'omologia che si instaura tra le proiezioni ortogonali dei punti e il loro ribaltamento è un'affinità ortogonale (p. 45). Nelle sue soluzioni l'asse si scrive u (per esempio t₁α ≡ u) e la direzione del centro all'infinito U∞, con un trattino nella sua direzione.
 
 Ribaltato un vertice, gli altri si trovano così:
 
@@ -232,6 +269,20 @@ Gli altri punti della figura si trovano con rette che partono da un punto unito 
 - se il punto ribaltato è il più lontano, gli altri punti cadono tra l'asse e lui, e l'errore su di loro diventa più piccolo.
 
 Per questo, ripete la docente, dal punto di vista grafico conviene ribaltare il punto più lontano: così si è più precisi. Il primo passo è allora costruire il piano proiettante in prima passante per quel punto, come si è fatto per P.
+
+È anche l'indicazione scritta nelle soluzioni del libro: «costruire un piano proiettante ortogonale al piano e passante per il punto della figura più lontano dall'asse di rotazione» (applicazione 4, p. 61).
+
+### La stessa costruzione intorno a un'orizzontale
+
+Il libro chiude la teoria del ribaltamento dei piani generici con l'osservazione che lega le due parti di questa lezione (p. 45). La retta di massimo pendio è perpendicolare alla prima traccia del piano e quindi a tutte le orizzontali del piano. Perciò, lavorando in forma tecnica, come asse di rotazione si può usare una qualunque orizzontale del piano invece della prima traccia.
+
+Nell'applicazione 4 (pp. 59-63) il libro risolve lo stesso triangolo nei due modi, sopra in forma tecnica e sotto in forma canonica:
+
+- in forma tecnica l'asse è l'orizzontale o costruita da C₂, e la sua seconda proiezione è anche la seconda proiezione del piano orizzontale ω che la contiene (o₂ ≡ ω₂);
+- la quota del punto da ribaltare, B, si misura rispetto a questo piano orizzontale, cioè dalla retta o₂, e non dalla linea di terra;
+- il triangolo ribaltato sta sul piano orizzontale ω, e l'affinità ha per asse o₁ (o₁ ≡ u).
+
+Il ribaltamento completo intorno all'orizzontale è l'argomento della lezione successiva.
 
 > [!example] Disegno 6 (proposto, non fatto a lezione): lo stesso piccolo errore, sul punto vicino o su quello lontano
 > ![[b08-punto-vicino-o-lontano.svg|640]]
@@ -263,3 +314,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 
 - [[PROGRAMMA_26-27.pdf]]: bibliografia del corso, con il libro e il suo allegato multimediale
 - [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: data della prova n. 1
+- [[566_3.pdf]]: allegato multimediale del libro della docente, usato per colmare le parti che la registrazione non fa capire. Teoria: «Il ribaltamento di un punto» (p. 41), «Condizioni di perpendicolarità tra piani» (p. 42), «Il ribaltamento dei piani generici» (p. 45), «Ricapitolando: forma canonica e forma tecnica» (p. 47). Esercizi utili: applicazione 4, vera grandezza e forma di un triangolo in forma tecnica e canonica (pp. 59-63); applicazione 8, retta di massimo pendio (pp. 75-76); applicazione 10, angolo di un piano con π₁ (pp. 79-81); applicazioni 5 e 16 sulle falde dei tetti (pp. 64-65 e 101-105)

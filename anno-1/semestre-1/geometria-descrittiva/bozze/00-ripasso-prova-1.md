@@ -74,7 +74,7 @@ Scheda da ripassare in 30-40 minuti prima della Prova n.1 di giovedì 29 ottobre
 1. La direzione di U∞ è quella di AA′ (o quella data con la lineetta).
 2. Lato prolungato fino all'asse → punto unito → unisci con il vertice già trovato.
 3. Il nuovo vertice sta sulla parallela alla direzione di U∞ condotta dal vertice di partenza.
-4. Se la direzione di U∞ è parallela all'asse (omologia affine speciale) si procede uguale.
+4. Se la direzione di U∞ è parallela all'asse (omologia affine speciale, nel libro della prof «affinità parallela») si procede uguale.
 
 *Omotetia* (U proprio, u∞) ([[02-proiezioni-e-omologia-schema#L'omotetia|bozza 02]]; [[07-il-ribaltamento#L'esercitazione guidata sulle omologie|bozza 07, es. 2 e 4]])
 1. Trova la coppia A, A′ sul raggio da U (A su r, A′ su r′).
@@ -92,6 +92,7 @@ Scheda da ripassare in 30-40 minuti prima della Prova n.1 di giovedì 29 ottobre
 
 - Piani di proiezione: π₁ orizzontale, π₂ verticale di fronte, π₃ verticale di lato. Dopo il ribaltamento dei piani: π₁ ≡ π₂ ≡ π₃.
 - LT = intersezione tra π₁ e π₂; linea verticale = intersezione tra π₂ e π₃.
+- **Quattro diedri** (libro della prof, p. 30): I davanti a π₂ e sopra π₁ (P₂ sopra la LT, P₁ sotto) · II dietro e sopra (tutte e due sopra) · III dietro e sotto (P₂ sotto, P₁ sopra) · IV davanti e sotto (tutte e due sotto) ([[04-rette-e-piani-nelle-varie-posizioni#Lo schema del triedro|bozza 04]]).
 - **Notazione**: proiezioni con i pedici P₁ P₂ P₃, r₁ r₂ r₃. Gli apici (P′) solo per omologia e prospettiva; P₁′ per l'assonometria.
 - **Aggetto** = distanza del punto da π₂ (P₁ dalla LT). **Quota** = distanza da π₁ (P₂ dalla LT). P₁ e P₂ sulla stessa linea di richiamo, perpendicolare alla LT ([[03-proiezioni-ortogonali-punto-e-rette#Aggetto, quota e linea di richiamo|bozza 03]]).
 - Prospetto: si guarda sempre da fuori. Per il lato in alto della pianta la LT va in alto e il prospetto si disegna a testa in giù ([[03-proiezioni-ortogonali-punto-e-rette#LE PROIEZIONI ORTOGONALI|bozza 03]]).
@@ -189,7 +190,7 @@ Scheda da ripassare in 30-40 minuti prima della Prova n.1 di giovedì 29 ottobre
 ## 6. Piani ausiliari, figure piane e perpendicolarità (20 ottobre)
 
 - Strumenti per tutto: due piani ausiliari (proiettante in prima e in seconda) e due rette ausiliarie (orizzontale e frontale), da disegnare subito, senza esitare.
-- Forma mongiana (con le tracce) e forma tecnica (il piano dato da una figura, senza tracce): è indifferente.
+- Forma mongiana (con le tracce; nel libro della prof si chiama forma canonica) e forma tecnica (il piano dato da una figura, senza tracce): è indifferente.
 - Lati della figura: se una proiezione contiene due lettere, l'altra contiene le stesse. Due proiezioni inclinate → retta generica.
 
 > [!abstract] Da sapere a memoria: riconoscere il piano di una figura
@@ -289,3 +290,7 @@ Scheda da ripassare in 30-40 minuti prima della Prova n.1 di giovedì 29 ottobre
 ## Collegamenti
 
 La prova mette insieme le due anime della prima parte del corso. L'[[02-proiezioni-e-omologia-schema|omologia]] fornisce le regole (punti allineati con il centro, rette che si incontrano sull'asse) che tornano nel [[07-il-ribaltamento|ribaltamento]] come affinità tra proiezione e figura ribaltata. Il metodo di Monge, dal [[03-proiezioni-ortogonali-punto-e-rette|punto e le rette proiettanti]] alle [[04-rette-e-piani-nelle-varie-posizioni|rette e i piani nelle varie posizioni]], si regge sulle [[05-appartenenza-e-rette-ausiliarie|condizioni di appartenenza]] e sulle rette ausiliarie, che a loro volta risolvono la [[06-piani-ausiliari-e-perpendicolarita|perpendicolarità]]. Le [[01-strumenti-materiali-e-regole|regole del segno]] valgono per ogni esercizio: lettere, lineette e costruzioni visibili fanno parte della risposta.
+
+## Materiale usato
+
+- [[566_3.pdf]]: libro della prof (allegato multimediale). Teoria con i modelli 3D: omologia e casi particolari pp. 9-13; punti, rette e piani pp. 29-35; appartenenza pp. 36-39; perpendicolarità pp. 42-43; forma canonica e forma tecnica p. 47. Esercizi con traccia e soluzione buoni per la prova: omologia piana applicazione_1-12, pp. 16-27 (pagina pari la traccia, dispari la soluzione); appartenenza punto-piano applicazione_2, pp. 52-53, e applicazione_3 (la falda), pp. 54-58; vera lunghezza di segmenti con il ribaltamento dei piani proiettanti applicazione_1, pp. 50-51; perpendicolare alle falde applicazione_19, pp. 112-113

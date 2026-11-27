@@ -109,6 +109,10 @@ Questa è la forma tecnica, quella del disegno di architettura, in cui una retta
 
 Le due forme non sono due cose diverse: si può lavorare con le tracce o senza, è indifferente.
 
+Nel libro della docente la forma con le tracce, che a lezione si chiama mongiana, si chiama forma canonica; l'altra si chiama, anche lì, forma tecnica.
+
+Nel libro si vede anche come la forma tecnica rappresenta i piani particolari: un piano frontale è dato dalla sola prima proiezione α₁, una retta parallela alla linea di terra, e un piano orizzontale dalla sola seconda proiezione β₂, anch'essa parallela alla linea di terra. Una retta, in forma tecnica, è data da una coppia di punti, cioè da un segmento, invece che dalle tracce.
+
 Per disegnare un punto che appartiene alla figura si ragiona come prima, senza inventare procedimenti propri: serve una retta che stia sul piano, e le rette che aiutano sono l'orizzontale e la frontale.
 
 ### Riconoscere le rette dei lati
@@ -176,6 +180,16 @@ Per disegnare rapidamente una retta che appartiene al piano del triangolo si sce
 
 Qualunque punto preso sull'orizzontale appartiene al piano. Allo stesso modo si può costruire una frontale.
 
+Il libro della docente generalizza il procedimento: in forma tecnica una retta appartiene al piano della figura se passa per due punti noti della figura, per esempio due punti L e M presi sui lati. Non deve essere per forza un'orizzontale o una frontale.
+
+Con questa regola si risolve anche il problema al contrario, cioè verificare se un punto P dato appartiene al piano del triangolo:
+
+1. si disegna una retta qualunque con la prima proiezione r₁ passante per P₁;
+2. r₁ incontra due lati della figura in L₁ e M₁;
+3. con i richiami si trovano L₂ e M₂ sulle seconde proiezioni degli stessi lati;
+4. r₂ è la retta per L₂ e M₂;
+5. se P₂ sta su r₂, P appartiene al piano; se no, non ci appartiene.
+
 > [!example] Disegno 5 · Il disegno
 > ![[06-orizzontale-nel-triangolo.svg|560]]
 >
@@ -188,6 +202,15 @@ Qualunque punto preso sull'orizzontale appartiene al piano. Allo stesso modo si 
 Le orizzontali sono importanti anche in architettura. Per sapere qual è la pendenza di un piano, per esempio in che direzione mettere le tegole di una falda, bisogna trovare le orizzontali: le tegole sono perpendicolari alla gronda, che di solito è orizzontale, e la parte più bassa del piano dipende dalla sua inclinazione.
 
 Si trova quindi un'orizzontale del piano e poi la perpendicolare, argomento ripreso nella lezione successiva.
+
+Nel libro della docente questa retta ha un nome: è la retta di massimo pendio del piano rispetto a π₁. Si ottiene come retta di intersezione tra il piano dato e un piano perpendicolare a esso (il proiettante in prima con la prima traccia perpendicolare a t₁α, che si vede più avanti in questa bozza).
+
+Ne risulta che:
+
+- in forma canonica la prima proiezione della retta di massimo pendio è perpendicolare alla prima traccia del piano;
+- in forma tecnica è perpendicolare alla prima proiezione delle orizzontali del piano.
+
+La freccia che indica la pendenza si disegna in prima proiezione, parallela alla retta di massimo pendio.
 
 ### Dalle proiezioni della figura alle tracce del piano
 
@@ -494,6 +517,19 @@ Il disegno va fatto a colori e riguardato, perché sarà ripreso per il ribaltam
 > 3. Traccia r₂ perpendicolare a f₂.
 > 4. r è perpendicolare a due rette del piano, quindi al piano. Usa colori diversi per o, f e r.
 
+Il libro della docente applica questa regola alle falde dei tetti (applicazione_19): dato un solido in pianta e prospetto, si costruisce la perpendicolare alla falda inclinata per un punto M della falda, con r₁ perpendicolare a o₁ e r₂ perpendicolare a f₂.
+
+Nello stesso esercizio c'è un caso particolare: una falda che sta in un piano parallelo alla linea di terra.
+
+- Le orizzontali di quel piano sono parallele alla linea di terra, quindi la retta perpendicolare al piano ha tutte e due le proiezioni perpendicolari alla linea di terra.
+- È quindi una retta di profilo, e la sua inclinazione si vede solo nella terza proiezione, dove risulta perpendicolare alla terza traccia della falda.
+
+### Due rette perpendicolari
+
+Dalle stesse condizioni il libro della docente ricava la perpendicolarità tra due rette: due rette sono perpendicolari tra loro se per una delle due passa un piano perpendicolare all'altra.
+
+Per esempio, se una retta r è perpendicolare al piano α, è perpendicolare anche all'orizzontale o e alla frontale f del piano, perché per entrambe passa il piano α, che è perpendicolare a r.
+
 > [!abstract] Da ricordare
 > - Teorema di Monge: r ⊥ α se r₁ ⊥ t₁α e r₂ ⊥ t₂α.
 > - Due piani sono perpendicolari se uno contiene una retta perpendicolare all'altro.
@@ -640,3 +676,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[3_Villa Le Lac_Le Corbusier.pdf]]: la seconda casa proposta
 - [[3_Pianta casa a Le Lac.jpg]]: pianta di Villa Le Lac
 - [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: date delle prove e delle consegne
+- [[566_3.pdf]]: libro della prof (allegato multimediale): appartenenza in forma tecnica pp. 37-38 (Fig. 29 e 31); perpendicolarità tra piani p. 42 (Fig. 40-43: due proiettanti in prima, la retta perpendicolare al piano, il proiettante in prima perpendicolare al generico); perpendicolarità retta-piano e tra rette p. 43 (Fig. 44-46, anche in forma tecnica); forma canonica e forma tecnica p. 47; ribaltamento di un punto con il piano mobile p. 41. Per esercitarsi: applicazione_2, pp. 52-53 (un punto appartiene al piano del triangolo? forma tecnica e canonica); applicazione_8, pp. 75-76 (retta di massimo pendio in forma tecnica e canonica); applicazione_19, pp. 112-113 (perpendicolare a due falde inclinate in forma tecnica)

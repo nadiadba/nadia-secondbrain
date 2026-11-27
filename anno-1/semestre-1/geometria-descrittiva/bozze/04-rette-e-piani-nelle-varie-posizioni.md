@@ -56,6 +56,29 @@ Non divide però lo spazio in modo rigido: le prime proiezioni non stanno per fo
 
 In architettura, naturalmente, le cose stanno tutte nel primo diedro.
 
+Il libro della docente chiama queste porzioni di spazio diedri, e li numera così. π₁ e π₂, prolungati all'infinito, si tagliano lungo la LT e dividono lo spazio in quattro diedri, numerati in senso antiorario guardando il triedro di profilo:
+
+- I diedro: davanti a π₂ e sopra π₁ (è quello del modello);
+- II diedro: dietro π₂ e sopra π₁;
+- III diedro: dietro π₂ e sotto π₁;
+- IV diedro: davanti a π₂ e sotto π₁.
+
+Dopo la rotazione di π₂ su π₁, a seconda del diedro in cui sta il punto, le sue proiezioni cadono sopra o sotto la linea di terra:
+
+- nel I diedro P₂ sta sopra la LT e P₁ sotto;
+- nel II diedro stanno tutte e due sopra;
+- nel III diedro P₂ sta sotto e P₁ sopra;
+- nel IV diedro stanno tutte e due sotto.
+
+Per questo la sola posizione sopra o sotto la LT non dice quale proiezione è la prima e quale la seconda: lo dicono i pedici.
+
+> [!example] Disegno 1a (dal libro della prof, allegato, p. 30): i punti nei quattro diedri
+> ![[b04-libro-punti-nei-quattro-diedri.png|660]]
+>
+> 1. A sinistra il modello: i punti M, N, P e Q stanno in quattro diedri diversi, e le loro proiezioni su π₁ e π₂ sono in rosso.
+> 2. In alto a destra la vista di profilo: π₂ verticale, π₁ orizzontale, la LT è il punto in cui si incontrano; la freccia indica la rotazione antioraria di π₂ su π₁. M sta nel I diedro, N nel II, P nel III, Q nel IV.
+> 3. In basso a destra il foglio: M₂ sopra e M₁ sotto la LT (I diedro); N₂ e N₁ tutte e due sopra (II); P₁ sopra e P₂ sotto (III); Q₁ e Q₂ tutte e due sotto (IV).
+
 > [!example] Disegno 1 · Il disegno: il triedro come alla lavagna
 > ![[04-triedro-come-alla-lavagna.svg|560]]
 >
@@ -209,6 +232,8 @@ La terza traccia è all'infinito.
 
 Proprio perché r₁ e r₂ stanno sulla stessa linea, anche un punto della retta di profilo non si individua con le sole due proiezioni: come dirà la docente a proposito del piano di profilo, per vedere a cosa corrisponde una figura serve la terza proiezione.
 
+Il libro della docente lo mostra con due punti A e B (allegato, p. 36, Fig. 26): nello spazio è evidente che B non sta sulla retta di profilo, ma nel disegno A₁, A₂, B₁ e B₂ stanno tutti sulla linea di p₁ ≡ p₂, e solo la terza proiezione fa vedere che A₃ sta su p₃ e B₃ no.
+
 > [!example] Disegno 6 (proposto, non fatto a lezione): un punto P sulla retta di profilo
 > ![[b04-punto-sulla-retta-di-profilo.svg|620]]
 >
@@ -245,6 +270,12 @@ Si scrive con la t minuscola (perché è una retta), il numero del piano e la le
 Conviene scrivere il nome vicino alla traccia, così si riconosce subito il piano; se il piano è parallelo a un piano di proiezione, la traccia corrispondente è all'infinito e si scrive anche quella (per esempio t₂β∞).
 
 Come le rette, anche i piani prendono il nome dalla posizione rispetto ai piani di proiezione.
+
+Il libro della docente aggiunge un'osservazione che tornerà utile negli esercizi. Le tracce di un piano sono le sue rette di intersezione con i piani di riferimento, quindi sono rette del piano, e rette particolari:
+
+- la prima traccia di un piano frontale è, di fatto, la retta orizzontale del piano a quota zero (qui parallela alla linea di terra);
+- la seconda traccia di un piano orizzontale è la sua retta orizzontale ad aggetto zero, parallela alla linea di terra;
+- nel piano generico, la prima traccia è l'orizzontale del piano a quota zero e la seconda traccia è la frontale del piano ad aggetto zero.
 
 > [!example] Disegno 7 · Il disegno: il piano frontale non è una figura
 > ![[04-spazio-piano-non-e-una-figura.svg|560]]
@@ -396,6 +427,36 @@ Le figure, a seconda di come sono disposte, appartengono a piani diversi.
 > 1. In prima proiezione il quadrato è un segmento su t₁α (A₁ ≡ D₁, B₁ ≡ C₁).
 > 2. In seconda proiezione si sale da A₁ e B₁ con le linee di richiamo: l'altezza è vera, la larghezza è ridotta.
 > 3. In terza proiezione si portano gli aggetti con gli archi e si riportano le quote: il rettangolo è ancora più stretto.
+
+### Due casi in più dal libro: la retta incidente la LT e il piano bisettore
+
+Nel libro della docente, tra le rette e i piani nelle posizioni particolari, compaiono anche due casi che a lezione non sono stati disegnati. Si costruiscono con le stesse regole.
+
+La retta incidente la linea di terra incontra la LT in un punto. Quel punto sta sia su π₁ sia su π₂, quindi è insieme la prima e la seconda traccia della retta: T₁ᵣ ≡ T₂ᵣ, sulla LT.
+
+Nell'esempio del libro la retta, indicata con b, è anche parallela a π₃:
+
+- la prima e la seconda proiezione stanno sulla stessa perpendicolare alla LT (b₁ ≡ b₂), come nella retta di profilo;
+- la terza proiezione b₃ parte dall'incrocio tra la LT e la linea verticale e mostra l'inclinazione della retta;
+- la terza traccia è all'infinito (T₃b∞).
+
+> [!example] Disegno 13a (dal libro della prof, allegato, p. 31, Fig. 10): la retta incidente la LT
+> ![[b04-libro-retta-incidente-la-lt.png|560]]
+>
+> 1. Nel modello la retta b (in blu) parte da un punto della LT e sale restando parallela a π₃.
+> 2. Sul foglio T₁b ≡ T₂b sta sulla LT; b₁ ≡ b₂ è perpendicolare alla LT.
+> 3. b₃ passa per l'incrocio tra LT e linea verticale; T₃b∞ ha la lineetta nella direzione di b₃.
+
+Il piano bisettore passa per la linea di terra e divide a metà l'angolo tra π₁ e π₂. Siccome contiene la LT, la sua prima e la sua seconda traccia coincidono con la linea di terra: t₁δ ≡ t₂δ ≡ LT.
+
+Si riconosce solo dalla terza traccia t₃δ, che parte dall'incrocio tra LT e linea verticale ed è inclinata a 45°. Nell'esempio del libro il piano attraversa il I diedro (e, prolungato, il III).
+
+> [!example] Disegno 13b (dal libro della prof, allegato, p. 35, Fig. 23): il piano bisettore
+> ![[b04-libro-piano-bisettore.png|560]]
+>
+> 1. Nel modello il piano δ (in blu) passa per la LT e sta a metà tra π₁ e π₂.
+> 2. Sul foglio t₁δ ≡ t₂δ coincidono con la LT.
+> 3. t₃δ parte dall'incrocio tra LT e linea verticale, a 45°.
 
 > [!abstract] Da ricordare: i piani nelle varie posizioni
 > | Piano | Posizione | t₁ | t₂ | t₃ |
@@ -584,3 +645,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[assegno su rette e piani e modello.pdf]]: il compito con il modello (sette fogli)
 - [[taccuino-marta-07-rette-orizzontale-frontale-di-profilo.jpg]]: foto del taccuino di Marta
 - [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: data della Prova n. 1
+- [[566_3.pdf]]: libro della prof (allegato multimediale): il triedro e i quattro diedri pp. 29-30; tutte le rette nelle posizioni particolari pp. 31-32 (proiettanti, parallela e incidente la LT, frontale, orizzontale, di profilo, generica) e la retta generica nei quattro diedri p. 33; tutti i piani pp. 34-35 (frontale, orizzontale, di profilo, generico, proiettanti, bisettore, parallelo alla LT); appartenenza punto-retta p. 36 (il punto sulla retta di profilo, Fig. 26), retta-piano p. 37 e punto-piano nei piani particolari p. 38 (Fig. 32-34) e nei piani proiettanti p. 39. Per esercitarsi: applicazione_2, pp. 52-53, esercizi in basso (punto nel piano parallelo alla LT e nel piano di profilo, risolti con la terza proiezione). Attenzione: a p. 34 la didascalia della Fig. 18 dice «prima traccia» per il piano orizzontale, ma il disegno mostra giustamente la seconda traccia parallela alla LT e la prima all'infinito

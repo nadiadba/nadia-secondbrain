@@ -199,7 +199,7 @@ Guardando tutto dall'alto:
 > 2. Il piano α proiettante in prima contiene r: t₁α ≡ r₁, che prolungata arriva in (T₃ᵣ)₁ dietro π₂.
 > 3. Da (T₃ᵣ)₁ sale t₃α, e la retta buca π₃ prolungato in T₃ᵣ, proprio su t₃α.
 
-Rispetto ai quattro quadranti (primo, secondo, terzo e quarto), la terza traccia di questa retta sta dietro: non è uno spazio occulto, ma una posizione dello spazio.
+Rispetto ai quattro quadranti (primo, secondo, terzo e quarto), la terza traccia di questa retta sta dietro: non è uno spazio occulto, ma una posizione dello spazio. Nel libro della docente questi quadranti si chiamano diedri (vedi [[04-rette-e-piani-nelle-varie-posizioni|bozza 04]]), e a p. 33 dell'allegato ci sono quattro rette generiche, una per diedro, con le loro tracce.
 
 Per esercitarsi a trovarla si può costruire anche un modello apposito, meglio in plexiglass che in cartoncino, perché si vede di più.
 
@@ -270,6 +270,8 @@ Quindi l'orizzontale del piano è parallela alla prima traccia, e la sua prima p
 Allo stesso modo ci può stare la frontale, che ha la prima proiezione parallela alla LT e la seconda inclinata.
 
 È parallela a π₂, ha la seconda traccia all'infinito, e per rispettare la condizione di appartenenza deve essere parallela alla seconda traccia del piano: f₂ si disegna parallela a t₂α.
+
+Il libro della docente offre un altro modo di vederlo: la prima traccia t₁α è essa stessa l'orizzontale del piano a quota zero, e la seconda traccia t₂α è la frontale del piano ad aggetto zero. Le altre orizzontali del piano sono parallele a quella a quota zero, quindi a t₁α; le altre frontali sono parallele a quella ad aggetto zero, quindi a t₂α.
 
 Infine sul piano generico può stare anche una retta di profilo.
 
@@ -637,6 +639,13 @@ La scheda «data la prima proiezione della falda appartenente a un piano inclina
 > 4. Orizzontale o' per C: o'₁ per C₁ parallela a t₁α fino alla LT, si sale a t₂α (T₂ₒ'), o'₂ parallela alla LT; da C₁ si sale fino a o'₂: C₂.
 > 5. Terza proiezione: da ogni punto della prima proiezione in orizzontale fino all'asse, arco fino alla LT a destra e su; dalla seconda proiezione in orizzontale verso destra. A₃B₃ viene parallelo alla LT.
 
+Il libro della docente ha un esercizio dello stesso tipo, preso da un edificio vero (applicazione_3, pp. 54-58 dell'allegato): data la pianta di un solido coperto con una falda inclinata e le altezze di tre dei quattro vertici, si chiede l'altezza del vertice mancante, prima in forma canonica e poi in forma tecnica.
+
+- In forma canonica si trovano prima le tracce del piano della falda con due rette del piano, la generica r del lato AB e l'orizzontale o del lato AD, applicando le condizioni di appartenenza (le tracce delle rette stanno sulle tracce del piano). Poi si prende la retta m del lato CD: si disegna m₁ prolungando C₁D₁, si trovano le sue tracce sulle tracce del piano, si disegna m₂, e C₂ sta su m₂, sul richiamo di C₁.
+- In forma tecnica la soluzione è immediata: le rette dei lati AD e BC stanno sullo stesso piano, quindi si incontrano. Dove si incontrano le prime proiezioni c'è K₁; salendo con il richiamo si trova K₂ sul prolungamento di A₂D₂, e la retta per B₂ e K₂ dà, sul richiamo di C₁, il punto C₂.
+
+Il libro fa notare che in forma tecnica non serve nemmeno la linea di terra: basta che le due proiezioni siano allineate.
+
 ### Le altre schede
 
 La scheda di riepilogo chiede anche:
@@ -694,3 +703,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[taccuino-marta-07-rette-orizzontale-frontale-di-profilo.jpg]]: foto del taccuino di Marta
 - [[taccuino-marta-08-punto-che-appartiene-a-un-piano.jpg]]: foto del taccuino di Marta
 - [[taccuino-marta-09-esercizio-punto-nel-piano.jpg]]: foto del taccuino di Marta
+- [[566_3.pdf]]: libro della prof (allegato multimediale): retta generica p. 32 (Fig. 14) e nei quattro diedri p. 33; piano generico p. 34 (Fig. 20, con la nota sulle tracce come orizzontale a quota zero e frontale ad aggetto zero) e proiettante in seconda p. 35 (Fig. 21); appartenenza retta-piano p. 37 (Fig. 27: generica, orizzontale, frontale e di profilo nel piano generico; Fig. 28: la proiettante in prima che non ci sta), punto-piano p. 38, figure nei piani proiettanti p. 39. Per esercitarsi: applicazione_2, pp. 52-53 (verificare se un punto appartiene al piano, quattro casi) e applicazione_3, pp. 54-58 (la falda: altezza del quarto vertice)

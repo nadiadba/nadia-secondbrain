@@ -356,6 +356,10 @@ Per portare tutto sul foglio, che va interpretato come il piano $\alpha$ coincid
 
 L'asse è sempre la retta di intersezione tra i piani considerati.
 
+Nel libro della docente il secondo centro si chiama $S'$ invece di $S_1$; la sostanza non cambia.
+
+Il piano $\alpha_0$ non deve per forza essere verticale: può formare con i piani sovrapposti $\alpha$ e $\alpha'$ un angolo qualsiasi, diverso da 90°, oppure disporsi parallelamente a essi, e in quel caso si ottiene l'omotetia (vedi più avanti).
+
 L'omologia è dunque la relazione tra due figure generate dalla proiezione della stessa figura da due centri di proiezione diversi: è il prodotto di due prospettività.
 
 - Nell'omografia c'è un solo centro di proiezione che proietta da un piano a un altro;
@@ -406,6 +410,10 @@ Con questi dati la figura corrispondente di qualunque figura è una sola: per un
 La corrispondenza conserva le proprietà proiettive: a rette corrispondono rette, a rette incidenti rette incidenti. Non è invece una corrispondenza di forma, come quella tra due triangoli simili.
 
 Per risolvere gli esercizi non serve altro che le due proprietà dell'omologia e le condizioni di appartenenza. Saperle a memoria non basta: bisogna saperle applicare.
+
+Nel libro della docente questa relazione tra due triangoli è presentata come teorema di Desargues: due figure che stanno sui piani sovrapposti $\alpha$ e $\alpha'$, considerate come la proiezione di una stessa figura di un piano $\alpha_0$ da due centri distinti, sono legate da un'omologia, e il disegno sui piani sovrapposti permette di operare direttamente sul foglio.
+
+Il teorema tornerà molto utile, per esempio, per trovare la prima proiezione delle sezioni delle piramidi, sia nelle proiezioni ortogonali sia in assonometria.
 
 Il Disegno 12 è come guardare dall'alto il piano $\alpha$ del Disegno 11: lo spazio sparisce e sul foglio restano solo il centro $U$, l'asse $u$ e le figure corrispondenti. Nel Disegno 11 le figure erano i due segmenti $AB$ e $A'B'$; qui sono due triangoli, $ABC$ e $A'B'C'$, ma le regole sono le stesse.
 
@@ -503,7 +511,14 @@ Unendo i punti corrispondenti si ottengono rette tutte parallele a quella direzi
 - se la direzione è perpendicolare all'asse l'affinità è ortogonale,
 - se è inclinata è obliqua.
 
+Nel libro della docente la genesi spaziale è descritta così:
+
+- nell'affinità ortogonale i due centri di proiezione stanno su una retta parallela ai piani sovrapposti e perpendicolare all'asse;
+- nell'affinità obliqua stanno su una retta parallela ai piani sovrapposti e obliqua rispetto all'asse.
+
 L'affinità ortogonale servirà nell'assonometria ortogonale, l'obliqua nell'assonometria obliqua; un'affinità compare anche nel ribaltamento, dove il centro dell'omologia è all'infinito nella direzione perpendicolare all'asse.
+
+Nel libro questa si chiama omologia di ribaltamento: i due centri di proiezione sono tutti e due impropri, $S_\infty$ (la direzione perpendicolare al piano su cui si ribalta) e $S'_\infty$, e il centro dell'omologia $U_\infty$ che ne risulta ha la direzione perpendicolare all'asse.
 
 > [!example] Disegno 15 · Il disegno: l'affinità ortogonale sul foglio
 > ![[b02-affinita-ortogonale-foglio-2.svg|600]]
@@ -723,7 +738,7 @@ Con il centro $U$ all'infinito i corrispondenti stanno su rette parallele alla d
 
 Il foglio «OMOLOGIA riepilogo» ha due esercizi di questo tipo con la soluzione della docente; l'esercizio della figura ℒ del foglio «ES.GUIDATA» è stato corretto in aula il 13 ottobre.
 
-Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri, propone anche un'omologia affine speciale, in cui la direzione di $U_\infty$ è parallela all'asse.
+Il foglio «OMOLOGIA 2 affinità», tratto dal libro di Docci, Gaiani e Maestri, propone anche un'omologia affine speciale, in cui la direzione di $U_\infty$ è parallela all'asse. Nel libro della docente lo stesso caso si chiama affinità parallela (applicazione_2).
 
 > [!example] Disegno 31 · Il disegno: dati U∞, u, ABC e A′, trovare A′B′C′ (soluzione della docente, «OMOLOGIA riepilogo»)
 > ![[b02-es-affinita-figura.svg|580]]
@@ -836,3 +851,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[OMOLOGIA_2_affinità_soluzione.pdf]]: soluzione della docente
 - [[esrcit_02.pdf]]: il secondo solido in assonometria, esercitazione in aula
 - [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: data della Prova n. 1
+- [[566_3.pdf]]: libro della prof (allegato multimediale), modelli e disegni di geometria proiettiva pp. 6-13 (proiezione, enti impropri, prospettività, omologia e omologia speciale p. 9, affinità p. 10, omotetia e traslazione p. 11, teorema di Desargues p. 12, omologia di ribaltamento p. 13); esercizi di omologia piana con traccia e soluzione, applicazione_1-12 alle pp. 16-27 (le pagine pari hanno la traccia, le dispari la soluzione): omologia classica 3, 5 e 11; omologia speciale 7; affinità ortogonale 9 e 12; affinità obliqua 4 e 10; affinità parallela 2; omotetia 1; traslazione 6 e 8

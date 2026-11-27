@@ -179,6 +179,8 @@ Ora si conoscono i due cateti della squadretta ribaltata: l'unità vera su z\* e
 
 Il segmento che li unisce è la direzione di proiezione ribaltata, che si chiama s. Negli schemi è segnata s\*, con l'asterisco degli elementi ribaltati.
 
+Nel libro della docente la stessa costruzione si chiama «ribaltamento della direzione di proiezione» (allegato, p. 156, fig. 12). La direzione di proiezione è indicata come un centro di proiezione all'infinito, S∞, e quella ribaltata S\*∞; le altezze vere prese su z\* si scrivono h\*, per esempio h\*(P) per l'altezza del punto P. Il libro conferma che l'unità segnata su z\* è uguale a quella sugli assi x e y.
+
 Negli esercizi si lavora sempre con questa direzione ribaltata, che sta sul foglio, e non con quella che sta in aria.
 
 Con s tutte le altezze si riducono allo stesso modo:
@@ -281,6 +283,24 @@ Anche con un angolo diverso da 90 gradi non succederebbe niente: sarebbe semplic
 
 La cavaliera militare ha due metodi di soluzione. Si può scegliere quale usare, ma bisogna mostrare di saperli usare entrambi; nelle tavole che la docente fa vedere si usa il prospetto assonometrico.
 
+### Il secondo metodo: l'affinità tra il prospetto ribaltato e il prospetto assonometrico
+
+A lezione il secondo metodo è stato solo nominato. Il libro della docente lo spiega nella pagina «Cavaliera militare. Omologia di ribaltamento del piano π₂» (allegato, p. 157, fig. 13) e lo applica nelle applicazioni 7, 8 e 9 delle proiezioni assonometriche.
+
+Il primo metodo riduce le altezze una per una con la direzione s\*. Il secondo usa invece tutto il prospetto in una volta:
+
+1. si considera un piano verticale di riferimento, per esempio quello che contiene gli assi z e x (o z e y): il prospetto del solido su quel piano è la sua proiezione ortogonale, in vera forma;
+2. questo piano verticale si ribalta sul quadro, cioè sul piano della pianta, facendolo ruotare intorno all'asse che sta sul quadro (x′ oppure y′); nel ribaltamento l'asse z va in z\*, perpendicolare all'asse di rotazione, e il prospetto si disegna in vera forma accanto alla pianta;
+3. su z\* si segna l'unità vera u\*z, uguale a quella su x e su y;
+4. tra il prospetto ribaltato e la sua immagine assonometrica c'è un'affinità obliqua: l'asse è la retta intorno a cui si è ribaltato (nel libro u, per esempio y′ ≡ u), e la direzione dell'affinità, U∞, si trova unendo l'unità ribaltata u\*z con l'unità assonometrica u′z;
+5. ogni punto del prospetto ribaltato si porta nell'assonometria con una parallela a U∞, e si ottiene il prospetto assonometrico, cioè la seconda (o terza) proiezione assonometrica del solido;
+6. le altezze trovate nel prospetto assonometrico si riportano sul solido, alzando dai vertici della pianta le verticali parallele a z′.
+
+Il libro fa notare che, al variare della direzione di affinità, varia anche l'altezza del solido; e consiglia, per i solidi composti, di cominciare la costruzione dai solidi in primo piano (applicazione 7, pp. 186-188).
+
+![[b11-libro-p186-cavaliera-metodo-del-prospetto.png|560]]
+*Il secondo metodo della cavaliera militare: il prospetto ribaltato F\* (in rosso) intorno a y′ ≡ u, con z\* perpendicolare a y′, e la direzione di affinità U∞ che unisce u\*z e u′z; sotto, la pianta in vera forma F′₁ (dal libro della prof, allegato, applicazione 7, p. 186).*
+
 ## LE SEZIONI DEI SOLIDI
 
 ### La regola
@@ -320,6 +340,8 @@ I punti della sezione sono quelli in cui r incontra gli spigoli della faccia che
 La stessa cosa si fa con il piano frontale posteriore γ: si trova un'altra retta, m, con i punti 3 e 4. La prima proiezione di m coincide con t₁γ.
 
 Si potrebbe fare lo stesso con i piani di profilo delle facce laterali, ma in questo caso non aiuta molto.
+
+Nel libro della docente lo stesso caso è risolto con un ribaltamento laterale (applicazione 22, pp. 120-121): si prende un piano di profilo e lo si ribalta su uno dei piani di proiezione, e il piano secante si vede di taglio come una retta. È la stessa operazione della terza proiezione, fatta con un piano di profilo qualunque. Il libro spiega che il ribaltamento laterale consente di vedere come il piano di sezione tagli il solido, e torna utile con i piani paralleli alla linea di terra, con i piani frontali e di profilo, e in tutti i casi in cui nelle due proiezioni non si riescono a vedere i punti di intersezione tra i piani.
 
 Quando il solido è disposto parallelamente ai piani coordinati, le rette di intersezione sulle due facce opposte sono necessariamente parallele tra loro, perché sono parallele le due facce: succede alle due rette orizzontali r ed m, e succede anche alle rette che si trovano sui piani di profilo.
 
@@ -378,7 +400,7 @@ Il piano secante, in realtà, non preoccupa: il solido è circondato da piani ve
 
 Per la faccia anteriore si usa il piano verticale che la contiene, β, proiettante in prima. Non serve nemmeno la sua seconda traccia, perché non interessa.
 
-Due piani verticali si incontrano in una retta verticale. La retta r = α ∩ β ha quindi:
+Due piani verticali si incontrano in una retta verticale (è anche la prima regola scritta accanto all'applicazione 22 del libro, p. 121). La retta r = α ∩ β ha quindi:
 
 - la prima proiezione r₁ ridotta a un punto, che coincide con la sua prima traccia T₁ᵣ, dove t₁α incontra t₁β;
 - la seconda proiezione r₂ perpendicolare alla linea di terra, che si trova con la linea di richiamo; la seconda traccia T₂ᵣ è all'infinito.
@@ -441,3 +463,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 
 - [[Esercizio guidato ASSONOMETRIA_ORTOGONALE_.pdf]]: la scheda della docente con il triangolo delle tracce e i ribaltamenti delle facce del triedro (O\*, x\*, y\*, z\* e le unità u\*)
 - [[2agg_Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: calendario aggiornato, con la Prova n. 2 spostata al 26 novembre
+- [[566_3.pdf]]: allegato multimediale del libro della docente. Teoria: «Gli elementi di riferimento», «Assonometria ortogonale», «Assonometria obliqua generica» (pp. 152-154); «Assonometrie oblique: cavaliera militare e cavaliera frontale» (p. 155); «Cavaliera militare. Ribaltamento della direzione di proiezione» (p. 156) e «Omologia di ribaltamento del piano π₂» (p. 157). Esercizi utili per l'assonometria: applicazioni 7 e 8, cavaliera militare di un solido composto con il metodo del prospetto (pp. 185-193); applicazione 9, cavaliera militare dal basso (pp. 194-196); applicazioni 13 e 14, assonometria ortogonale dimetrica e trimetrica (pp. 207-216). Esercizi utili per le sezioni: applicazioni 22 e 23 delle proiezioni ortogonali, sezioni di solidi con piani verticali, frontali, orizzontali, proiettanti e paralleli alla linea di terra (pp. 120-123); applicazioni 24-27, sezioni con un piano generico (pp. 124-140); applicazioni 3 e 4 delle proiezioni assonometriche, le stesse sezioni in assonometria (pp. 166-173)

@@ -162,6 +162,8 @@ Qualcuno potrebbe chiedere come si trova la retta di massima pendenza. Ma la ret
 
 È vero che la retta di massima pendenza di un piano si trova costruendo un piano perpendicolare al piano dato (la retta di intersezione tra i due è la retta di massima pendenza), e che costruendo il piano perpendicolare se ne costruisce in pratica la prima proiezione. Ma se non serve, non si disegna.
 
+Nel libro della docente questa retta si chiama retta di massimo pendio (allegato, p. 45, e applicazione 8, pp. 75-76). Nella soluzione dell'applicazione 4 il libro la disegna e la chiama m: è la retta di intersezione tra α e il piano γ del passo 1, e la sua prima proiezione m₁ coincide con t₁γ.
+
 Quello che si deve ribaltare è il punto più lontano dall'asse di rotazione. Come si era visto nella lezione del 27 ottobre, dal punto di vista grafico conviene ribaltare il punto lontano, perché così si è più precisi: con un punto vicino all'asse l'errore aumenta.
 
 In questo esercizio l'asse di rotazione è t₁α, e il punto più lontano è B.
@@ -211,6 +213,8 @@ Non è ancora il punto ribaltato. Il triangolo che ha i vertici in B₁, H e B̄
 - un cateto è B₁H, su π₁;
 - l'altro cateto è la quota di B, qui stesa su π₁ come B₁B̄;
 - l'ipotenusa HB̄ è il raggio di rotazione.
+
+Nella soluzione in forma canonica del libro (applicazione 4, p. 63) si vede anche la retta m ribaltata insieme a γ: H, che nel libro si chiama T₁ₘ, resta fermo; la seconda traccia T₂ₘ si ribalta in T̄₂ₘ, sulla seconda traccia ribaltata t̄₂γ, perpendicolare a t₁γ. B̄ deve stare sulla retta m̄ che unisce T₁ₘ e T̄₂ₘ: è un controllo della quota riportata. L'angolo in H del triangolo di rotazione è l'angolo che il piano α forma con π₁ (applicazione 10, pp. 79-81).
 
 > [!example] Disegno 5 · Il disegno: passo 2
 > ![[b09-canonica-passo-2.svg|620]]
@@ -337,6 +341,8 @@ M₁ deve appartenere a o₁: o₁ è quindi la retta che passa per C₁ e per M
 
 o₁ è l'asse di rotazione. È come se si ribaltasse il piano non rispetto alla sua traccia, ma rispetto a un piano orizzontale un po' più su: o è un'orizzontale del piano generico a una quota un po' più alta, quella di C.
 
+Il libro della docente lo spiega così (applicazione 4, p. 60): la figura può essere ribaltata individuando, alla quota più opportuna, un'orizzontale del piano come cerniera, e questa retta è di fatto la retta di intersezione tra il piano della figura e il piano orizzontale costruito alla quota scelta. Nelle soluzioni del libro questo piano orizzontale si chiama ω, e la sua seconda proiezione coincide con quella dell'orizzontale: o₂ ≡ ω₂.
+
 > [!example] Disegno 10 · Il disegno: forma tecnica, passo 1
 > ![[b09-tecnica-passo-1.svg|620]]
 >
@@ -447,6 +453,19 @@ La registrazione di questa parte è quasi incomprensibile. Lo schema qui sotto p
 
 Ogni faccia si ribalta quindi intorno al suo lato di base, e si ribalta solo il vertice V, usando come quota l'altezza della piramide. Facendo ruotare ogni faccia verso l'esterno della base, le quattro facce ribaltate e la base formano lo sviluppo.
 
+È il procedimento che il libro della docente usa nell'applicazione 11, «Sviluppo planare di una piramide» (pp. 82-85), per una piramide a base triangolare ABC appoggiata su π₁, di cui è assegnata l'altezza hV:
+
+1. ogni faccia sta su un piano diverso, e la prima traccia di quel piano è il lato di base della faccia (per la faccia ABV è t₁α, che passa per A₁ e B₁);
+2. nello spazio il ribaltamento della faccia porta il vertice V lungo un arco di circonferenza, che sta su un piano perpendicolare al piano della faccia; il raggio dell'arco è l'altezza della faccia triangolare, cioè il segmento che va da V al piede M della perpendicolare al lato di base;
+3. sul foglio questo comporta un ribaltamento laterale preliminare, proprio per trovare l'altezza della faccia: si costruisce il piano proiettante β per V, con t₁β perpendicolare ad A₁B₁, che incontra il lato in M₁; da V₁, perpendicolarmente a t₁β, si riporta l'altezza hV e si trova V̄;
+4. l'ipotenusa V̄M₁ del triangolo V̄V₁M₁ è l'altezza vera della faccia: con centro in M₁ e raggio M₁V̄ si porta il punto su t₁β, dalla parte esterna della base, e si trova V\*;
+5. il triangolo A₁B₁V\* è la faccia ABV in vera grandezza e forma.
+
+Il libro osserva che due ribaltamenti sono sufficienti per disegnare la vera grandezza e forma di tutte e tre le facce: dopo due facce si conoscono già le vere lunghezze di tutti gli spigoli laterali, VA, VB e VC, e la terza faccia si può costruire con il compasso. Accanto lo sviluppo è ridisegnato in pianta e in un piccolo schema assonometrico.
+
+![[b09-libro-p85-sviluppo-piramide.png|560]]
+*Lo sviluppo della piramide a base triangolare: le tre facce ribaltate intorno ai lati di base (dal libro della prof, allegato, applicazione 11, p. 85).*
+
 > [!example] Disegno 16 (proposto, non fatto a lezione): una faccia della piramide si abbatte su π₁
 > ![[b09-spazio-piramide.svg|620]]
 >
@@ -494,3 +513,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[2agg_Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: calendario aggiornato, con la data della Prova n. 2
 - [[il-disegno-della-scala.pdf]]: il PDF di esempio su come disegnare la scala, citato a lezione per lo studio della casa
 - [[linee guida per lo studio delle architetture proposte _2026-2027.pdf]]: le indicazioni su come studiare la casa, richiamate all'inizio della lezione
+- [[566_3.pdf]]: allegato multimediale del libro della docente, il «PDF degli esercizi» citato a lezione. Teoria: «Condizioni di perpendicolarità tra piani» (p. 42), «Il ribaltamento dei piani generici» (p. 45), «Ricapitolando: forma canonica e forma tecnica» (p. 47). Esercizi utili: applicazione 4, il triangolo ribaltato in forma tecnica intorno a un'orizzontale e in forma canonica intorno alla prima traccia, cioè l'esercizio di questa lezione (pp. 59-63); applicazione 6, dati le tracce del piano e la sola seconda proiezione di un triangolo, trovare la prima proiezione con le condizioni di appartenenza e poi la vera grandezza e forma (pp. 66-70); applicazione 10, angolo di un piano con π₁ (pp. 79-81); applicazione 11, sviluppo planare di una piramide (pp. 82-85); applicazione 16, vera grandezza delle falde di un tetto in forma tecnica (pp. 101-105)

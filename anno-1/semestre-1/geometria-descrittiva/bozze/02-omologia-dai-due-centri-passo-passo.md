@@ -171,3 +171,7 @@ Più si alza $A'$ rispetto ad $A$, più $U$ si allontana, finché esce dal fogli
 ## Collegamenti
 
 È la costruzione con cui la docente spiega da dove nasce l'omologia nella [[02-proiezioni-e-omologia-schema|bozza 02]]: una stessa figura proiettata da due centri sullo stesso piano, con il centro dell'omologia U dove la retta dei due centri buca il piano.
+
+## Materiale usato
+
+- [[566_3.pdf]]: libro della prof (allegato multimediale), p. 9, Fig. 12: lo stesso modello nello spazio (la retta $r_0$ del piano $\alpha_0$ proiettata da due centri sui piani sovrapposti $\alpha \equiv \alpha'$), con accanto il disegno sul foglio; nel libro il secondo centro si chiama $S'$ invece di $S_1$. A p. 12, Fig. 18, il teorema di Desargues, che garantisce la verifica del passo 23; per esercitarsi, applicazione_3, 5 e 11 (omologia), pp. 18-21 e 26-27

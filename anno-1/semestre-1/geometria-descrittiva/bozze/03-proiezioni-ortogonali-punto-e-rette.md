@@ -150,6 +150,8 @@ I piani su cui si proietta l'immagine sono paralleli, quindi è come se si faces
 
 Monge lavora principalmente con il triedro, e i suoi esercizi si svolgono soprattutto su due proiezioni.
 
+Il libro della docente lo dice in modo esplicito: nelle proiezioni ortogonali la proiezione sul terzo piano di riferimento è ausiliaria, e infatti di solito si parla di doppie proiezioni ortogonali.
+
 ### Pianta, sezione e prospetti
 
 La pianta è una sezione orizzontale, ottenuta con un piano parallelo al piano orizzontale di proiezione.
@@ -259,6 +261,8 @@ i due piani verticali si sovrappongono, il piano orizzontale si ribalta, e le tr
 
 Per questo si scrive $\pi_1 \equiv \pi_2 \equiv \pi_3$: dopo le rotazioni i tre piani coincidono.
 
+Nel libro della docente la stessa operazione è descritta come rotazione dei piani verticali $\pi_2$ e $\pi_3$ sul piano orizzontale $\pi_1$: il risultato sul foglio è identico, cambia solo il piano che si tiene fermo.
+
 Le proiezioni restano legate da due rette:
 
 - la linea di terra, che è la retta orizzontale di intersezione tra i piani,
@@ -282,6 +286,8 @@ Il punto $P$ si proietta perpendicolarmente su ciascun piano.
 $P_1$ e $P_2$ non si possono mettere dove si vuole: devono stare sulla stessa linea di richiamo, la linea di costruzione perpendicolare alla LT che le collega.
 
 Con aggetto e quota si sa già dove si trova il punto nello spazio.
+
+Questo vale per i punti del primo diedro, quello davanti a $\pi_2$ e sopra $\pi_1$, dove stanno le architetture. I piani però sono infiniti e dividono lo spazio in quattro diedri: per un punto che sta in un altro diedro le proiezioni possono cadere tutte e due sopra la LT o tutte e due sotto, come si vede nella [[04-rette-e-piani-nelle-varie-posizioni|bozza 04]].
 
 > [!example] Disegno 7 · Il disegno: il punto nel triedro
 > ![[03-punto-nel-triedro.svg|620]]
@@ -408,3 +414,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[taccuino-marta-01-proiezioni-ortogonali-pianta-prospetti-scale.jpg]]: foto del taccuino di Marta
 - [[taccuino-marta-02-sezione-verticale-e-proiezioni-del-punto.jpg]]: foto del taccuino di Marta
 - [[taccuino-marta-03-retta-proiettante-in-seconda.jpg]]: foto del taccuino di Marta
+- [[566_3.pdf]]: libro della prof (allegato multimediale): omologia e sue varianti pp. 9-11; i piani triortogonali, un solido con le sue proiezioni e la rotazione dei piani sul foglio p. 29; i punti nei quattro diedri p. 30; la retta proiettante in prima e in seconda p. 31 (Fig. 7 e 8, con il modello nello spazio accanto al disegno)

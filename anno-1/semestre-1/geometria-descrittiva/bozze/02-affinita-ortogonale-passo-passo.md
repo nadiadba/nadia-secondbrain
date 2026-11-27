@@ -102,3 +102,7 @@ Verifica: prolungati, i lati BC e B′C′ si incontrano anche loro sull'asse (V
 ## Collegamenti
 
 È la costruzione dell'affinità ortogonale della [[02-proiezioni-e-omologia-schema|bozza 02]]: lo stesso procedimento serve per l'affinità obliqua (cambia solo la direzione delle parallele) e tornerà nel [[07-il-ribaltamento|ribaltamento]], dove tra la prima proiezione e la figura ribaltata c'è proprio un'affinità ortogonale.
+
+## Materiale usato
+
+- [[566_3.pdf]]: libro della prof (allegato multimediale), p. 10, Fig. 14: l'affinità ortogonale nello spazio (i due centri su una retta parallela ai piani sovrapposti e perpendicolare all'asse) e sul foglio; per esercitarsi, applicazione_9 e 12 (affinità ortogonale), pp. 24-27, e applicazione_4 e 10 (affinità obliqua), pp. 18-19 e 24-25

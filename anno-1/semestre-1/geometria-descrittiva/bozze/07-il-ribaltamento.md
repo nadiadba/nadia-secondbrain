@@ -66,6 +66,10 @@ Il centro dell'arco sta sulla traccia, e il raggio è la distanza del punto dall
 
 Il punto ribaltato si indica con l'asterisco: A\* è il ribaltamento di A. Il ribaltamento fa conoscere la vera grandezza e forma della figura ribaltata sul piano di proiezione.
 
+Nel libro della docente il piano su cui sta l'arco si chiama γ (allegato, p. 41, fig. 38). γ è perpendicolare alla traccia intorno a cui si ruota, e quindi è perpendicolare anche al piano α che contiene il punto: per questo la rotazione di un punto si vede per intero in una vista laterale, guardando lungo la traccia.
+
+Il libro mostra anche che un punto P di un piano verticale, da solo, potrebbe ruotare in infiniti modi per arrivare su π₁: è la scelta della cerniera, cioè della traccia, che fissa il piano γ e quindi la posizione di P\*.
+
 > [!example] Disegno 1 · Il disegno nello spazio: il piano proiettante in prima si abbatte su π₁
 > ![[07-spazio-ribaltamento-su-pi1.svg|620]]
 >
@@ -131,6 +135,11 @@ Il piano si può girare su π₂ in una direzione o nell'altra:
 
 Alla lavagna la docente ha portato il ribaltamento dall'altra parte, per non sovrapporlo al disegno della seconda proiezione; sul libro si trova invece il ribaltamento dall'altro lato, con la sovrapposizione, ma il risultato è lo stesso.
 
+Nella figura 47 dell'allegato multimediale del libro (p. 44) il ribaltamento su π₂ è disegnato dalla parte opposta alla seconda proiezione, come alla lavagna. Nelle figure 47 e 48 si vede anche un dettaglio in più: mentre il piano ruota intorno a una traccia, l'altra traccia ruota insieme a lui, e la si disegna ribaltata con l'asterisco:
+
+- quando il piano si abbatte su π₁ intorno a t₁α, la seconda traccia ribaltata si chiama t₂α\*;
+- quando il piano si ribalta su π₂ intorno a t₂α, la prima traccia ribaltata si chiama t₁α\*.
+
 Secondo la docente questo ribaltamento è proprio il più facile.
 
 > [!example] Disegno 3 · Il disegno nello spazio: il piano si chiude su π₂ come una porta
@@ -159,6 +168,22 @@ I modi per ribaltare un piano proiettante sono quindi due:
 Se si fanno tutti e due con riga e squadra, si deve riscontrare che la figura ribaltata è identica.
 
 Nel modello della docente ci sono i due casi, a e b, con tutti i dati di rotazione: come ruota il piano che contiene la figura in un verso e nell'altro, sul piano π₁ e sul piano π₂.
+
+### La vera lunghezza di un segmento
+
+Lo stesso ribaltamento serve anche per un solo segmento. Il libro della docente lo propone come primo esercizio delle proiezioni ortogonali (applicazione 1, pp. 50-51): nelle proiezioni ortogonali la lunghezza di un segmento obliquo rispetto ai piani di proiezione risulta alterata, quindi bisogna ribaltarlo.
+
+Per trovare la vera lunghezza basta immaginare un piano a cui il segmento potrebbe appartenere e ribaltarlo su π₁ o su π₂. Il più comodo è il piano proiettante in prima che contiene il segmento: la sua prima traccia coincide con la prima proiezione del segmento.
+
+1. Si prende come cerniera la retta su cui sta A₁B₁, che è la prima traccia di quel piano.
+2. Da A₁ e da B₁ si tracciano le perpendicolari ad A₁B₁.
+3. Su ognuna si riporta la quota del punto, letta in seconda proiezione: si trovano A\* e B\*.
+4. A\*B\* è la vera lunghezza del segmento. Se un estremo sta già su π₁, quel punto non si muove e basta ribaltare l'altro.
+
+Il libro aggiunge due casi particolari:
+
+- se il segmento sta su un piano orizzontale, la sua vera lunghezza si legge direttamente in prima proiezione, e il ribaltamento è superfluo (lo stesso vale, in seconda proiezione, per un segmento su un piano frontale);
+- se il segmento è di profilo, le due proiezioni stanno sulla stessa perpendicolare alla linea di terra, e per conoscerne la vera lunghezza basta costruirne la terza proiezione.
 
 > [!abstract] Da ricordare: il piano proiettante in prima
 > - Su π₁: cerniera t₁α; A\* sta sulla perpendicolare a t₁α per A₁, a una distanza uguale alla quota di A.
@@ -240,6 +265,13 @@ Il motivo è che far compiere a un punto la rotazione equivale a proiettare il p
 Guardando la rotazione in sezione, su un piano perpendicolare alla traccia, si vede che il segmento che unisce A al suo ribaltamento A\* è perpendicolare al piano bisettore: ruotare il punto o proiettarlo in quella direzione porta allo stesso risultato.
 
 Si crea quindi un'affinità, perché il centro di proiezione è all'infinito.
+
+Il libro della docente lo spiega con la vista laterale del ribaltamento (allegato, p. 41, fig. 39, e p. 13, «Omologia di ribaltamento»): la prima proiezione M₁ e il punto ribaltato M\* sono due proiezioni dello stesso punto M, fatte da due centri di proiezione distinti, tutti e due all'infinito:
+
+- M₁ si ottiene proiettando M dal centro S₁∞, cioè nella direzione perpendicolare a π₁ (è la proiezione ortogonale);
+- M\* si ottiene proiettando M dal centro S∞, cioè nella direzione perpendicolare al piano bisettore dell'angolo tra il piano di M e π₁.
+
+È la stessa genesi dell'omologia vista nella seconda lezione: una figura proiettata da due centri diversi sullo stesso piano dà due figure legate da un'omologia. Qui l'asse è la retta in cui il piano della figura incontra π₁, cioè la traccia-cerniera, e poiché i due centri sono all'infinito anche il centro dell'omologia è all'infinito: per questo è un'affinità. Il libro precisa che è un'affinità ortogonale (p. 45).
 
 Valgono le proprietà dell'omologia:
 
@@ -406,3 +438,4 @@ I file della cartella `materiale` da cui viene questa bozza (si aprono solo sul 
 - [[PO_riepilogo_1.pdf]]: esercizio sulla retta di profilo
 - [[PO_riepilogo_1_soluzione.pdf]]: soluzione della docente
 - [[Calendario_attivita_AA_2026-2027_ottobre-dicembre.pdf]]: data della Prova n. 1
+- [[566_3.pdf]]: allegato multimediale del libro della docente (G. Spadafora, *Fondamenti e applicazioni di geometria descrittiva*). Teoria: «Omologia di ribaltamento» (p. 13), «Ribaltamento. Questioni generali» e «Il ribaltamento di un punto» (pp. 40-41), «Il ribaltamento dei piani proiettanti» con le figure 47 e 48 (p. 44). Esercizi utili: applicazione 1 sulla vera lunghezza dei segmenti (pp. 50-51); applicazione 5, prima e terza figura, sulla falda in un piano proiettante in seconda e in un piano parallelo alla linea di terra (pp. 64-65); le applicazioni 1-12 di omologia piana (pp. 16-27) per ripassare le omologie dell'esercitazione
