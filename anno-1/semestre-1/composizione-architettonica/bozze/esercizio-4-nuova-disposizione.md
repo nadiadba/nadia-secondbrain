@@ -11,7 +11,7 @@ tags: [composizione-architettonica, bozza]
 La pianta del punto 5 dell'esercizio: lo stesso quadrato di 14,40 m e le stesse stanze della casa di Aalto, disposte come hai deciso tu nella pagina interattiva (23 novembre). Il modello da girare con il mouse è nella [pagina 3D della nuova casa](https://claude.ai/artifact/FFWF7fdrfaJTqGkjdDEmt6). Una vista più semplice e «carina», con mobili, il lago e il bosco, è nel [render della casa](https://claude.ai/artifact/CN1sG2Zz5jeNTByZQx3uNL).
 
 > [!info] Note collegate
-> Casa originale: [[esercizio-4-casa-muuratsalo]] · Lezione: [[03-muuratsalo-esercitazione]] · Proposte di partenza: [[esercizio-4-disposizioni.pdf|30 disposizioni semplici (PDF)]]
+> Casa originale: [[esercizio-4-casa-muuratsalo]] · Lezione: [[03-muuratsalo-esercitazione]]
 >
 > Esercizio precedente: [[esercizio-3-nuova-disposizione]]
 
