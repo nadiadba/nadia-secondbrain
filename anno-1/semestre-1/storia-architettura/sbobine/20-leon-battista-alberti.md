@@ -12,7 +12,7 @@ tags: [storia-architettura, sbobina]
 > Trascrizione automatica con Whisper della registrazione di Nadia, in una sola parte. Il contenuto è fedele alle parole della professoressa: sono stati corretti gli errori di trascrizione (soprattutto i nomi propri) e tolte le parti fuori tema; dove la registrazione è incomprensibile il testo è stato lasciato più breve. I titoli servono per ritrovare gli argomenti a colpo d'occhio. La registrazione è parziale: comincia dopo la prima parte della lezione, dedicata a Brunelleschi, che manca, e copre solo la parte su Leon Battista Alberti; si interrompe all'inizio di Sant'Andrea a Mantova, quando la lezione viene sospesa. La parte su Sant'Andrea è stata spiegata all'inizio della lezione del 25 novembre: si trova nella sbobina [[21-bramante-belvedere-e-palazzi]]. Per questa lezione non ci sono slide nel materiale (l'ultimo PDF è «21_architettura gotica_Francia_Italia.pdf»), quindi i nomi propri sono stati ricostruiti dal contesto.
 
 > [!info] Note collegate
-> Sbobina precedente: [[19-gotico-in-italia-e-inizio-del-rinascimento]] · Successiva: [[21-bramante-belvedere-e-palazzi]]
+> Bozza: [[20-brunelleschi-e-alberti]] · Sbobina precedente: [[19-gotico-in-italia-e-inizio-del-rinascimento]] · Successiva: [[21-bramante-belvedere-e-palazzi]]
 >
 > Argomenti collegati: [[19-gotico-italiano-federico-ii-e-primo-rinascimento]]
 
