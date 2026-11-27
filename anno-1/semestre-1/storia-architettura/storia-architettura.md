@@ -65,6 +65,11 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 - [[22-raffaello-pittore-e-architetto|Raffaello pittore e architetto]]: le architetture dipinte delle Stanze vaticane, la lettera a Leone X, la Cappella Chigi, i palazzetti romani e il modello di Palazzo Caprini, Villa Madama e la villa di Plinio.
 - [[23-baldassarre-peruzzi|Baldassarre Peruzzi]]: dalla Farnesina e dai disegni dell'antico (Ostia, Terracina, Ferento, Todi) ai progetti sulle rovine di Roma, il Sacco del 1527 e Palazzo Massimo alle Colonne.
 
+Per l'esercitazione e il taccuino:
+
+- [[scheda-atlante-fior-di-pesco.pdf|Scheda dell'Atlante dei materiali: fior di pesco (PDF)]]: la scheda sul tuo marmo, sul modello della prof, con fonti e bibliografia (da rivedere prima della revisione del 10 dicembre)
+- [[opere-del-corso-per-il-taccuino.pdf|Opere del corso per il taccuino dei disegni (PDF)]]: 82 opere divise per periodo, con i dati da scrivere sotto il disegno e cosa conviene disegnare (★ = da cui cominciare)
+
 ## Da fare
 
 - [ ] Parti mancanti della settimana 23-27 novembre: circa dieci minuti di gio 26 (ville medicee e inizio di Villa Madama), prima metà di ven 27 (Farnesina e disegni di viaggio di Peruzzi): se un compagno ha la registrazione, si aggiungono alle sbobine 22 e 23
