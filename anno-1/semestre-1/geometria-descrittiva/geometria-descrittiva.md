@@ -41,6 +41,7 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 12. [[12-correzione-prova-1-e-assonometria-obliqua|Avvisi sull'esame, correzione della Prova n. 1 (omologia, ribaltamenti, tracce, perpendicolare) e assonometria obliqua con il quadro verticale]] (gio 12 novembre, registrazione di una compagna)
 13. [[13-prospettiva-metodo-della-pianta|La prospettiva con la pianta: orizzonte, fondamentale, O e O*, cerchio di distanza; traccia e fuga delle rette perpendicolari, parallele e a 45° rispetto al quadro (audio molto rovinato, registrata in parte)]] (mar 17 novembre, due registrazioni)
 14. [[14-prospettiva-altezze-e-punto-di-misura|La costruzione del punto in prospettiva, le altezze con lo schema laterale, l'angolo vero in O*; la prospettiva senza pianta con il punto di misura (quasi tutta esercitazione, poco parlato)]] (gio 19 novembre, quattro registrazioni)
+15. [[15-prospettiva-occhio-di-formica|La prospettiva a occhio di formica: orizzonte e fondamentale coincidono, la fondamentale ausiliaria (F), la pianta con i punti di misura, le altezze sulla traccia del piano verticale; dettato e uso nelle tavole]] (gio 26 novembre; manca la lezione di mar 24 novembre)
 
 ## Bozze
 

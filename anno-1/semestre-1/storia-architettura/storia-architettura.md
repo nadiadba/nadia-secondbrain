@@ -35,6 +35,9 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 18. [[18-architettura-gotica-francia|L'architettura gotica in Francia: la struttura della chiesa gotica, Saint-Denis, Notre-Dame, Villard de Honnecourt]] (gio 12 novembre, registrazione di Giulia)
 19. [[19-gotico-in-italia-e-inizio-del-rinascimento|Il gotico in Italia (cistercensi, Assisi, Orvieto), Federico II e Castel del Monte; l'inizio del Rinascimento e Brunelleschi]] (ven 13 novembre, registrazione di Giulia)
 20. [[20-leon-battista-alberti|Leon Battista Alberti: il De re aedificatoria, Roma e Palazzo Venezia, il Tempio Malatestiano a Rimini, Santa Maria Novella e Palazzo Rucellai a Firenze, Mantova e i Gonzaga]] (mer 18 novembre, registrazione parziale: manca la prima parte su Brunelleschi)
+21. [[21-bramante-belvedere-e-palazzi|Bramante: Giulio II, il Cortile del Belvedere, Palestrina, la scala elicoidale, Palazzo Castellesi e il Palazzo dei Tribunali]] (mer 25 novembre, registrazione parziale: visita a Villa Lante saltata per pioggia; manca la prima metà su Villa Lante e sulla prima parte di Bramante)
+22. [[22-raffaello-architetto|Raffaello: la formazione con Perugino, le Stanze vaticane, lo studio dell'antico (lettere a Castiglione e a Leone X, il Pantheon), la Cappella Chigi, i palazzi Alberini, Jacopo da Brescia e Branconio dell'Aquila, Villa Madama]] (gio 26 novembre, registrazione in due parti: mancano circa dieci minuti tra Palazzo Branconio e Villa Madama)
+23. [[23-peruzzi-e-l-antico|Baldassarre Peruzzi e l'antico: i progetti sulle rovine di Roma, palazzo Orsini alle terme di Agrippa, palazzo Savelli sul teatro di Marcello, il Mausoleo di Augusto, il Sacco di Roma, Palazzo Massimo alle Colonne]] (ven 27 novembre, registrazione parziale: manca la prima metà sulla Farnesina e sui disegni di viaggio)
 
 ## Bozze
 
@@ -58,8 +61,13 @@ Corso del primo semestre. Le lezioni frontali vengono registrate e trascritte; d
 - [[17-romanico-in-italia-da-venezia-a-tuscania|Il romanico in Italia: da Venezia a Tuscania]]: San Marco a Venezia, il Duomo di Modena, lo schema cassinese in Puglia, San Cataldo a Palermo e la stereotomia, Santa Maria in Trastevere, San Lorenzo fuori le Mura, San Pietro a Tuscania.
 - [[18-architettura-gotica-in-francia|L'architettura gotica in Francia]]: il termine gotico, Cluny III, lo schema e la struttura della cattedrale gotica, Saint-Denis e Suger, Notre-Dame, Villard de Honnecourt.
 - [[19-gotico-italiano-federico-ii-e-primo-rinascimento|Il gotico in Italia, Federico II e il primo Rinascimento]]: le abbazie cistercensi, Assisi e Giotto, il Duomo di Orvieto, Castel del Monte, Vasari e Brunelleschi.
+- [[21-bramante-giulio-ii-e-il-belvedere|Bramante: Giulio II, il Cortile del Belvedere e i palazzi]]: la formazione prospettica e San Satiro, Santa Maria della Pace e il Tempietto, il Belvedere e i modelli di Palestrina e Plinio, il Laocoonte, la scala elicoidale, Palazzo Castellesi, il Palazzo dei Tribunali.
+- [[22-raffaello-pittore-e-architetto|Raffaello pittore e architetto]]: le architetture dipinte delle Stanze vaticane, la lettera a Leone X, la Cappella Chigi, i palazzetti romani e il modello di Palazzo Caprini, Villa Madama e la villa di Plinio.
+- [[23-baldassarre-peruzzi|Baldassarre Peruzzi]]: dalla Farnesina e dai disegni dell'antico (Ostia, Terracina, Ferento, Todi) ai progetti sulle rovine di Roma, il Sacco del 1527 e Palazzo Massimo alle Colonne.
 
 ## Da fare
 
+- [ ] Parti mancanti della settimana 23-27 novembre: prima metà di mer 25 (Villa Lante e prima parte di Bramante), circa dieci minuti di gio 26 (ville medicee e inizio di Villa Madama), prima metà di ven 27 (Farnesina e disegni di viaggio di Peruzzi): se un compagno ha la registrazione, si aggiungono alle sbobine 21, 22 e 23
+- [ ] Prima parte della lezione di mer 18 novembre (Brunelleschi): manca nella sbobina 20
 - [ ] Visita al Celio (mer 28 ottobre): eri assente e la registrazione non c'è; se serve, una bozza solo dalle slide (`14_visita Celio.pdf`)
 - [x] Slide delle lezioni 12-15 (paleocristiano, bizantino, Longobardi e Carolingi, romanico): arrivate il 14 novembre, nomi delle sbobine ricontrollati

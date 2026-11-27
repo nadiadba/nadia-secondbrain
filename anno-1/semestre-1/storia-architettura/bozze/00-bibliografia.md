@@ -214,3 +214,44 @@ Per ogni bozza, i testi su cui approfondire l'argomento, in ordine di lezione. L
 - A. Manetti, *Vita di Filippo Brunelleschi* (citata a lezione come seconda biografia dell'architetto)
 - Fonti citate a lezione e nelle slide: Federico II di Svevia, *De arte venandi cum avibus* (Biblioteca Apostolica Vaticana, Pal. Lat. 1071, f. 16r); Vitruvio, *De architectura*, riletto e tradotto in volgare nel Quattrocento; l'esemplare delle *Vite* di Vasari postillato da Federico Zuccari; i disegni di Villard de Honnecourt; le piante dei castelli federiciani rielaborate da Romanini.
 - Fonti iconografiche mostrate nelle slide: Giotto, *Storie di San Francesco*, circa 1292-1296 (Assisi, chiesa superiore; particolare del *Dono del mantello*); Giotto, gli affreschi della cappella degli Scrovegni a Padova (citati a lezione); busto di Federico II, metà del XIII secolo (Barletta, Museo civico); la carta dei castelli e delle residenze fortificate di Federico II; la carta delle principali abbazie cistercensi in Italia nel XII secolo.
+
+## Bramante: Giulio II, il Cortile del Belvedere e i palazzi
+
+*Lezione di mercoledì 25 novembre* · Bozza: [[21-bramante-giulio-ii-e-il-belvedere]] · Sbobina: [[21-bramante-belvedere-e-palazzi]]
+
+- A. Bruschi, *Bramante*, Bari 1973 (o edizioni successive) (indicato nelle slide e consigliato a lezione come lettura per inquadrare l'architetto)
+- C.L. Frommel, *Architettura del Rinascimento italiano*, Milano, Skira 2009 (testo di riferimento generale del programma)
+- *Il primo Cinquecento*, a cura di A. Bruschi, Milano, Electa 2002 (bibliografia di approfondimento del programma)
+- *L'architettura del Rinascimento. Storia e geografia*, a cura di F. Mattei, Roma, Carocci 2026
+- A. Naser Eslami, M.R. Nobile, *Storia dell'architettura in Italia. Tra Mediterraneo e Europa (VII-XVIII secolo)*, Milano, Pearson 2022
+- G. Vasari, *Le vite de' più eccellenti pittori, scultori e architettori*, in particolare la *Vita di Bramante* (citata nelle slide; Vasari è la fonte dell'attribuzione di Palazzo Castellesi)
+- Fonti citate a lezione e nelle slide: le lettere di Plinio il Giovane sulle ville; Vitruvio, *De architectura* (il termine «ortografia»); S. Serlio, *Terzo libro dell'architettura*, 1540; A. Palladio, *I quattro libri dell'architettura*, 1570.
+- Fonti iconografiche mostrate nelle slide: Raffaello, *Ritratto di Giulio II*, 1511 (Londra, National Gallery); Pedro Berruguete, *Doppio ritratto di Federico da Montefeltro*, 1476-1477; Bramante, *Tempio in rovina* (incisione Prevedari), 1481 circa; la *Veduta di Roma* (Mantova, Museo di San Sebastiano); Taddeo di Bartolo, mappa di Roma, 1413-1414 (Siena, Palazzo Pubblico); Perugino, *Consegna delle chiavi* (1481-1482) e *Sposalizio della Vergine* (1502-1503); la stampa «Vero disegno deli stupendi edefitii giardini boschi fontane et cose maravegliose di Belvedere in Roma»; l'affresco con il Belvedere allagato (Palazzi Vaticani); G.A. Dosio, *Veduta del Belvedere*, Firenze, GDSU inv. 2559; «Orthographia pulcri videre pontificis»; la pianta della scala e dell'esedra con le lettere A e B; «Escalier du Bramante»; Hendrick III van Cleve, *Veduta del Belvedere Vaticano*, 1589 (Bruxelles, Museo Reale del Belgio); Bramante, progetto del Palazzo dei Tribunali, 1508.
+
+## Raffaello pittore e architetto
+
+*Lezione di giovedì 26 novembre* · Bozza: [[22-raffaello-pittore-e-architetto]] · Sbobina: [[22-raffaello-architetto]]
+
+- *Raffaello architetto*, a cura di M. Tafuri et al., Milano 1984 (bibliografia della lezione nelle slide; consigliato a lezione)
+- F.P. Di Teodoro, V. Farinella, «Santi, Raffaello», in *Dizionario Biografico degli Italiani*, vol. 90, 2017 (bibliografia della lezione nelle slide; voce consigliata a lezione)
+- C.L. Frommel, *Architettura del Rinascimento italiano*, Milano, Skira 2009 (testo di riferimento generale del programma)
+- *Il primo Cinquecento*, a cura di A. Bruschi, Milano, Electa 2002 (bibliografia di approfondimento del programma)
+- A. Naser Eslami, M.R. Nobile, *Storia dell'architettura in Italia. Tra Mediterraneo e Europa (VII-XVIII secolo)*, Milano, Pearson 2022
+- *L'architettura del Rinascimento. Storia e geografia*, a cura di F. Mattei, Roma, Carocci 2026
+- G. Vasari, *Le vite de' più eccellenti pittori, scultori e architettori*, vita di Raffaello (citata a lezione per i cantieri incompiuti e per i committenti «gentiluomini»)
+- Fonti citate a lezione e nelle slide: Raffaello, lettera a Baldassarre Castiglione, primavera 1514 («Vorrei trovar le belle forme degli edifici antichi...»); Raffaello e Baldassarre Castiglione, lettera a Leone X, 1519 circa; la lettera di Raffaello con la descrizione di Villa Madama; Plinio il Giovane, *Lettere ai familiari*, II, 17 (la villa Laurentina), nella versione di G. Vitali, Bologna, Zanichelli 1992; Vitruvio, *De architectura*.
+- Fonti iconografiche mostrate nelle slide: Raffaello, *Autoritratto*, 1504-1506 (Uffizi); Perugino e Raffaello, *Sposalizio della Vergine*; Raffaello, *Presentazione al Tempio*, 1502-1503; gli affreschi delle Stanze vaticane (Scuola di Atene, Incendio di Borgo); M. van Heemskerck, il cantiere di San Pietro e Villa Madama (1532-1537, *Taccuino romano*, Berlino); Raffaello, i disegni del Pantheon (GDSU, inv. 164 Av); Raffaello, *Ritratto di Baldassarre Castiglione*, 1514-1515 (Louvre) e *Ritratto di Leone X con i cardinali Giulio de' Medici e Luigi de' Rossi* (Uffizi); G.A. Dosio, pianta e sezione della Cappella Chigi; la mappa catastale della proprietà di Giulio Alberini in via dei Banchi; le incisioni di Palazzo Alberini, Palazzo Caprini e Palazzo Jacopo da Brescia e le foto della demolizione del 1936; la villa di Pratolino; A. da Sangallo il Giovane, progetto per Villa Madama (GDSU, inv. 273A); la ricostruzione del sistema di terrazze e il modello ricostruttivo del 1989; H. Robert, *An artist drawing beside a statue of Jupiter*, 1762 (Katrin Bellinger Collection); A. Palladio, Villa Madama (anni Cinquanta del Cinquecento); i disegni di Charles Percier (citati a lezione).
+
+## Baldassarre Peruzzi
+
+*Lezione di venerdì 27 novembre* · Bozza: [[23-baldassarre-peruzzi]] · Sbobina: [[23-peruzzi-e-l-antico]]
+
+- A. Angelini, M. Mussolin, «Peruzzi, Baldassarre», in *Dizionario Biografico degli Italiani*, vol. 82, Roma, Istituto della Enciclopedia Italiana 2015 (dalla bibliografia della lezione nelle slide; citata a lezione)
+- V. Cafà, *Palazzo Massimo alle Colonne di Baldassarre Peruzzi. Storia di una famiglia romana e del suo palazzo in rione Parione*, Venezia 2007 (dalla bibliografia della lezione nelle slide)
+- C.L. Frommel, *Architettura del Rinascimento italiano*, Milano, Skira 2009 (testo di riferimento generale del programma)
+- *Il primo Cinquecento*, a cura di A. Bruschi, Milano, Electa 2002 (bibliografia di approfondimento del programma)
+- A. Naser Eslami, M.R. Nobile, *Storia dell'architettura in Italia. Tra Mediterraneo e Europa (VII-XVIII secolo)*, Milano, Pearson 2022
+- *L'architettura del Rinascimento. Storia e geografia*, a cura di F. Mattei, Roma, Carocci 2026
+- G. Vasari, *Le vite de' più eccellenti pittori, scultori e architettori*, Firenze 1568; in particolare la vita di Baldassarre Peruzzi (il passo sulle pitture della Rocca di Ostia, nelle slide)
+- Fonti citate a lezione e nelle slide: S. Serlio, che attribuisce a Peruzzi il palazzo Savelli; B. Peruzzi, *Taccuino dei viaggi*, 1519-1521 (Firenze, Gallerie degli Uffizi, GDSU); i disegni di Peruzzi agli Uffizi: Terracina GDSU 404, 401, 422 e 556Ar; teatro di Ferento 387A; Nicchioni di Todi 402Ar; Sant'Adriano 625Ar; palazzo Orsini alle terme di Agrippa 456Ar; Santa Maria Liberatrice 593Ar; studio del tempio di Marte Ultore, 1531-1535; disegno per il portale di Palazzo Massimo; M. Lutero, le 95 tesi, Wittenberg 1517.
+- Fonti iconografiche mostrate nelle slide: incisione di Palazzo Caprini («Raph. Urbinat. ex lapide coctili Romae extructum»); disegno del prospetto della Farnesina; G.A. Dosio, il teatro di Marcello (Uffizi 2532Ar); É. Dupérac, vedute con didascalia del teatro di Marcello e del Mausoleo di Augusto con il giardino Soderini; M. van Heemskerck, Album II, ff. 91v-92r (Berlino, Kupferstichkabinett); miniatura della presa di Castel Sant'Angelo da parte dei lanzichenecchi; G. Vasi, incisione di Palazzo Massimo alle Colonne; le due piante di Palazzo Massimo (primo progetto e pianta realizzata); la sezione e i cortili di Palazzo Massimo.
