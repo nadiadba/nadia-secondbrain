@@ -46,6 +46,7 @@ Corso del primo semestre, con lezioni teoriche e molto disegno a mano.
 ## Bozze
 
 - [[00-mappa-degli-argomenti|Mappa degli argomenti]]: lo schema di tutto quello che si è fatto finora, diviso in gruppi e sottogruppi
+- [[studio-villa-tugendhat|Studio di Villa Tugendhat]]: la casa scelta per l'esame, con le consegne di dicembre e la lista di analisi, ridisegni e menabò da spuntare
 - [[00-ripasso-prova-1|Ripasso per la Prova n.1 (29 ottobre)]]: scheda su tutto il programma fatto finora, con i passaggi di ogni tipo di esercizio
 - [[01-strumenti-materiali-e-regole|Strumenti, materiali e regole di base del disegno]] (1 ottobre)
 - [[02-proiezioni-e-omologia-schema|Richiami di geometria, proiezioni e omologia, con gli esercizi risolti]] (6 ottobre)
