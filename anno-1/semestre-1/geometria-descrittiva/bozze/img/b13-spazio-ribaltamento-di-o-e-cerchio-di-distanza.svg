@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 466" width="760" height="466">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: O ribaltato sul quadro diventa O*, il cerchio di distanza</text>
+<g transform="translate(0,36)">
+<polygon points="82.9,309.5 517.1,368.9 517.1,74.4 82.9,15.0" fill="#7fa6c9" fill-opacity="0.2" stroke="#5d88b0" stroke-width="1.2"/>
+<text x="86.9" y="31.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3f6b94">quadro</text>
+<line x1="82.9" y1="162.2" x2="517.1" y2="221.6" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="16.9" y="166.2" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f">orizzonte</text>
+<polygon points="26.8,225.0 460.9,284.4 517.1,221.6 82.9,162.2" fill="#d9a441" fill-opacity="0.1" stroke="#d9a441" stroke-width="1"/>
+<text x="30.8" y="219.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#b07d1e">piano d'orizzonte</text>
+<circle cx="250.4" cy="247.3" r="2.8" fill="#1f1f1f"/>
+<text x="230.4" y="259.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O</text>
+<line x1="250.4" y1="247.3" x2="300.0" y2="191.9" stroke="#1f1f1f" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<text x="261.2" y="215.6" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" font-style="italic">d</text>
+<circle cx="300.0" cy="191.9" r="2.8" fill="#1f1f1f"/>
+<text x="274.0" y="185.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<line x1="250.4" y1="247.3" x2="441.6" y2="211.3" stroke="#2e8b57" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="250.4" y1="247.3" x2="158.4" y2="172.6" stroke="#2e8b57" stroke-width="1.6" stroke-linecap="round"/>
+<circle cx="441.6" cy="211.3" r="2.8" fill="#2e8b57"/>
+<text x="445.6" y="203.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">D<tspan dy="4" font-size="70%">d</tspan><tspan dy="-4"></tspan></text>
+<circle cx="158.4" cy="172.6" r="2.8" fill="#2e8b57"/>
+<text x="132.4" y="164.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">D<tspan dy="4" font-size="70%">s</tspan><tspan dy="-4"></tspan></text>
+<path d="M 250.4 247.3 L 250.5 251.6 L 250.5 255.8 L 250.7 260.0 L 250.8 264.2 L 251.1 268.2 L 251.3 272.2 L 251.6 276.1 L 252.0 279.9 L 252.4 283.6 L 252.9 287.2 L 253.4 290.8 L 253.9 294.2 L 254.5 297.6 L 255.2 300.8 L 255.8 303.9 L 256.6 307.0 L 257.3 309.9 L 258.2 312.6 L 259.0 315.3 L 259.9 317.9 L 260.8 320.3 L 261.8 322.6 L 262.8 324.8 L 263.9 326.8 L 265.0 328.7 L 266.1 330.5 L 267.2 332.1 L 268.4 333.6 L 269.6 335.0 L 270.9 336.2 L 272.1 337.2 L 273.4 338.2 L 274.8 338.9 L 276.1 339.6 L 277.5 340.1 L 278.9 340.4 L 280.3 340.6 L 281.8 340.7 L 283.2 340.6 L 284.7 340.3 L 286.2 340.0 L 287.7 339.4 L 289.2 338.7 L 290.7 337.9 L 292.2 337.0 L 293.8 335.8 L 295.3 334.6 L 296.9 333.2 L 298.4 331.7 L 300.0 330.0" fill="none" stroke="#d97706" stroke-width="1.6" stroke-dasharray="6,3"/>
+<line x1="300.0" y1="191.9" x2="300.0" y2="330.0" stroke="#d97706" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<circle cx="300.0" cy="330.0" r="2.8" fill="#d97706"/>
+<text x="308.0" y="334.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#d97706" font-style="italic">O*</text>
+<path d="M 441.6 211.3 L 441.2 201.6 L 440.2 191.9 L 438.5 182.2 L 436.1 172.5 L 433.0 162.9 L 429.3 153.5 L 425.0 144.2 L 420.1 135.2 L 414.5 126.5 L 408.5 118.0 L 401.8 110.0 L 394.7 102.3 L 387.2 95.1 L 379.2 88.3 L 370.8 82.1 L 362.1 76.3 L 353.0 71.2 L 343.8 66.6 L 334.3 62.7 L 324.6 59.3 L 314.8 56.7 L 304.9 54.6 L 295.1 53.3 L 285.2 52.6 L 275.4 52.6 L 265.7 53.3 L 256.2 54.6 L 247.0 56.7 L 237.9 59.4 L 229.2 62.7 L 220.8 66.6 L 212.8 71.2 L 205.3 76.4 L 198.2 82.1 L 191.5 88.4 L 185.5 95.1 L 179.9 102.3 L 175.0 110.0 L 170.7 118.1 L 167.0 126.5 L 163.9 135.3 L 161.5 144.3 L 159.8 153.5 L 158.8 163.0 L 158.4 172.6 L 158.8 182.2 L 159.8 192.0 L 161.5 201.7 L 163.9 211.4 L 167.0 221.0 L 170.7 230.4 L 175.0 239.6 L 179.9 248.7 L 185.5 257.4 L 191.5 265.8 L 198.2 273.9 L 205.3 281.6 L 212.8 288.8 L 220.8 295.6 L 229.2 301.8 L 237.9 307.5 L 247.0 312.7 L 256.2 317.3 L 265.7 321.2 L 275.4 324.5 L 285.2 327.2 L 295.1 329.2 L 304.9 330.6 L 314.8 331.3 L 324.6 331.3 L 334.3 330.6 L 343.8 329.2 L 353.0 327.2 L 362.1 324.5 L 370.8 321.2 L 379.2 317.2 L 387.2 312.7 L 394.7 307.5 L 401.8 301.8 L 408.5 295.5 L 414.5 288.8 L 420.1 281.5 L 425.0 273.9 L 429.3 265.8 L 433.0 257.4 L 436.1 248.6 L 438.5 239.6 L 440.2 230.3 L 441.2 220.9 L 441.6 211.3" fill="none" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="2,4"/>
+<text x="158.1" y="74.7" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">cerchio di distanza</text>
+<line x1="300.0" y1="330.0" x2="441.6" y2="211.3" stroke="#2e8b57" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="300.0" y1="330.0" x2="158.4" y2="172.6" stroke="#2e8b57" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<text x="16" y="402" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Il piano d'orizzonte gira intorno all'orizzonte e si appoggia sul quadro: O va in O*, sotto O₀ alla distanza d.</text>
+<text x="16" y="420" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Le rette da O a 45° arrivano sull'orizzonte nei due punti di distanza, dove l'orizzonte incontra il cerchio di distanza.</text>
+</g>
+</svg>

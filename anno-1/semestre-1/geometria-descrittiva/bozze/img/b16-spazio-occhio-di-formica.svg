@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 536" width="760" height="536">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: l'occhio di formica sta sul geometrale</text>
+<g transform="translate(0,36)">
+<polygon points="76.9,198.8 323.4,445.7 626.6,297.0 380.0,50.0" fill="#c9b98f" fill-opacity="0.18" stroke="#b5a77f" stroke-width="1"/>
+<text x="528.4" y="297.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a7a4f">geometrale</text>
+<polygon points="244.0,133.9 479.1,369.3 479.1,233.8 244.0,-1.6" fill="#7fa6c9" fill-opacity="0.22" stroke="#5d88b0" stroke-width="1.2"/>
+<text x="248.0" y="14.4" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3f6b94">quadro</text>
+<line x1="244.0" y1="133.9" x2="479.1" y2="369.3" stroke="#c0392b" stroke-width="2.6" stroke-linecap="round"/>
+<text x="419.1" y="391.3" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#c0392b">orizzonte ≡ fondamentale</text>
+<circle cx="190.7" cy="288.3" r="2.8" fill="#1f1f1f"/>
+<text x="150.7" y="306.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O (la formica)</text>
+<line x1="190.7" y1="288.3" x2="330.0" y2="220.0" stroke="#1f1f1f" stroke-width="1.2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<text x="246.4" y="258.2" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" font-style="italic">d</text>
+<circle cx="330.0" cy="220.0" r="2.8" fill="#1f1f1f"/>
+<text x="300.0" y="234.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<line x1="374.7" y1="209.7" x2="500.2" y2="233.3" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="374.7" y1="152.7" x2="500.2" y2="176.3" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="374.7" y1="209.7" x2="374.7" y2="152.7" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="500.2" y1="233.3" x2="518.4" y2="185.9" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="500.2" y1="176.3" x2="518.4" y2="128.9" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="500.2" y1="233.3" x2="500.2" y2="176.3" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="518.4" y1="185.9" x2="392.8" y2="162.3" stroke="#2563a8" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="518.4" y1="128.9" x2="392.8" y2="105.3" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="518.4" y1="185.9" x2="518.4" y2="128.9" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="392.8" y1="162.3" x2="374.7" y2="209.7" stroke="#2563a8" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<line x1="392.8" y1="105.3" x2="374.7" y2="152.7" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="392.8" y1="162.3" x2="392.8" y2="105.3" stroke="#2563a8" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<polygon points="374.7,209.7 500.2,233.3 500.2,176.3 374.7,152.7" fill="#2563a8" fill-opacity="0.18" stroke="none"/>
+<text x="368.7" y="225.7" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2563a8" font-style="italic">A</text>
+<text x="504.2" y="247.3" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2563a8" font-style="italic">B</text>
+<line x1="307.1" y1="197.0" x2="374.7" y2="209.7" stroke="#2563a8" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="307.1" y1="140.0" x2="374.7" y2="152.7" stroke="#2563a8" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="307.1" y1="197.0" x2="307.1" y2="79.4" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="283.1" y="83.4" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">α</tspan><tspan dy="-4"></tspan></text>
+<line x1="307.1" y1="197.0" x2="307.1" y2="140.0" stroke="#2e8b57" stroke-width="4" stroke-linecap="round"/>
+<text x="289.1" y="172.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2e8b57" font-style="italic">H</text>
+<circle cx="307.1" cy="197.0" r="2.8" fill="#1f1f1f"/>
+<text x="281.1" y="211.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">T<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<text x="16" y="454" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">L'occhio è sul geometrale: l'orizzonte cade sulla fondamentale e tutto il solido si vede sopra di essa;</text>
+<text x="16" y="472" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">la base si schiaccia sulla linea. Le altezze vere si portano, come sempre, sulla traccia tα del piano</text>
+<text x="16" y="490" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">verticale della faccia, partendo dall'orizzonte.</text>
+</g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 536" width="760" height="536">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: l'angolo tra due rette si legge vero in O*</text>
+<g transform="translate(0,36)">
+<polygon points="54.6,225.6 583.2,297.9 583.2,86.3 54.6,13.9" fill="#7fa6c9" fill-opacity="0.2" stroke="#5d88b0" stroke-width="1.2"/>
+<text x="58.6" y="29.9" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3f6b94">quadro</text>
+<line x1="54.6" y1="78.4" x2="583.2" y2="150.7" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="519.2" y="142.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f">orizzonte</text>
+<polygon points="-1.6,141.1 527.0,213.4 583.2,150.7 54.6,78.4" fill="#d9a441" fill-opacity="0.1" stroke="#d9a441" stroke-width="1"/>
+<circle cx="250.4" cy="167.3" r="2.8" fill="#1f1f1f"/>
+<text x="230.4" y="179.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O</text>
+<circle cx="300.0" cy="111.9" r="2.8" fill="#1f1f1f"/>
+<text x="290.0" y="101.9" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<line x1="250.4" y1="167.3" x2="468.7" y2="135.0" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="250.4" y1="167.3" x2="181.2" y2="95.7" stroke="#2563a8" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="468.7" cy="135.0" r="2.8" fill="#c0392b"/>
+<text x="472.7" y="127.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">F<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="181.2" cy="95.7" r="2.8" fill="#2563a8"/>
+<text x="159.2" y="87.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">F<tspan dy="4" font-size="70%">s</tspan><tspan dy="-4"></tspan></text>
+<text x="365.6" y="165.2" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b">parallela a r</text>
+<text x="135.8" y="145.5" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2563a8">parallela a s</text>
+<line x1="263.5" y1="165.3" x2="258.6" y2="160.2" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="245.5" y1="162.2" x2="258.6" y2="160.2" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<path d="M 250.4 167.3 L 250.5 171.6 L 250.5 175.8 L 250.7 180.0 L 250.8 184.2 L 251.1 188.2 L 251.3 192.2 L 251.6 196.1 L 252.0 199.9 L 252.4 203.6 L 252.9 207.2 L 253.4 210.8 L 253.9 214.2 L 254.5 217.6 L 255.2 220.8 L 255.8 223.9 L 256.6 227.0 L 257.3 229.9 L 258.2 232.6 L 259.0 235.3 L 259.9 237.9 L 260.8 240.3 L 261.8 242.6 L 262.8 244.8 L 263.9 246.8 L 265.0 248.7 L 266.1 250.5 L 267.2 252.1 L 268.4 253.6 L 269.6 255.0 L 270.9 256.2 L 272.1 257.2 L 273.4 258.2 L 274.8 258.9 L 276.1 259.6 L 277.5 260.1 L 278.9 260.4 L 280.3 260.6 L 281.8 260.7 L 283.2 260.6 L 284.7 260.3 L 286.2 260.0 L 287.7 259.4 L 289.2 258.7 L 290.7 257.9 L 292.2 257.0 L 293.8 255.8 L 295.3 254.6 L 296.9 253.2 L 298.4 251.7 L 300.0 250.0" fill="none" stroke="#d97706" stroke-width="1.6" stroke-dasharray="6,3"/>
+<circle cx="300.0" cy="250.0" r="2.8" fill="#d97706"/>
+<text x="308.0" y="256.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#d97706" font-style="italic">O*</text>
+<line x1="300.0" y1="250.0" x2="468.7" y2="135.0" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<line x1="300.0" y1="250.0" x2="181.2" y2="95.7" stroke="#2563a8" stroke-width="1.2" stroke-dasharray="5,3" stroke-linecap="round"/>
+<text x="16" y="472" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Le parallele a r e a s per O formano lo stesso angolo di r e s (qui 90°). Il piano d'orizzonte si ribalta sul quadro:</text>
+<text x="16" y="490" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">O va in O*, Fᵣ e Fₛ restano dove sono, quindi l'angolo FᵣO*Fₛ è l'angolo vero tra r e s.</text>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 416" width="760" height="416">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">In pianta: perché il punto di misura funziona</text>
+<g transform="translate(0,36)">
+<line x1="10.0" y1="140.0" x2="740.0" y2="140.0" stroke="#1f1f1f" stroke-width="1.8" stroke-linecap="round"/>
+<text x="616.0" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f">quadro (in pianta)</text>
+<circle cx="300.0" cy="310.0" r="2.8" fill="#1f1f1f"/>
+<text x="308.0" y="314.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O</text>
+<line x1="300.0" y1="310.0" x2="300.0" y2="140.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<text x="306.0" y="229.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">d</text>
+<line x1="280.0" y1="140.0" x2="471.5" y2="-20.7" stroke="#2563a8" stroke-width="2" stroke-linecap="round"/>
+<text x="475.5" y="-16.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">r</text>
+<line x1="300.0" y1="310.0" x2="502.6" y2="140.0" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="6,3" stroke-linecap="round"/>
+<text x="411.3" y="231.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b">parallela a r</text>
+<path d="M 238.1 140.0 L 238.1 143.1 L 238.2 146.2 L 238.3 149.2 L 238.4 152.3 L 238.6 155.4 L 238.8 158.4 L 239.0 161.5 L 239.3 164.6 L 239.6 167.6 L 239.9 170.7 L 240.3 173.8 L 240.7 176.8 L 241.1 179.9 L 241.6 182.9 L 242.1 185.9 L 242.7 189.0 L 243.3 192.0 L 243.9 195.0 L 244.6 198.0 L 245.3 201.0 L 246.0 204.0 L 246.7 207.0 L 247.5 209.9 L 248.4 212.9 L 249.2 215.9 L 250.1 218.8 L 251.1 221.7 L 252.0 224.6 L 253.0 227.6 L 254.1 230.5 L 255.1 233.3 L 256.2 236.2 L 257.4 239.1 L 258.6 241.9 L 259.8 244.8 L 261.0 247.6 L 262.3 250.4 L 263.6 253.2 L 264.9 255.9 L 266.3 258.7 L 267.7 261.4 L 269.1 264.2 L 270.5 266.9 L 272.0 269.6 L 273.6 272.2 L 275.1 274.9 L 276.7 277.5 L 278.3 280.1 L 280.0 282.7 L 281.6 285.3 L 283.3 287.9 L 285.1 290.4 L 286.8 293.0 L 288.6 295.5 L 290.5 297.9 L 292.3 300.4 L 294.2 302.8 L 296.1 305.2 L 298.0 307.6 L 300.0 310.0" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<path d="M 430.0 140.0 L 430.0 138.3 L 430.0 136.5 L 429.9 134.8 L 429.8 133.0 L 429.7 131.3 L 429.6 129.5 L 429.5 127.8 L 429.4 126.1 L 429.2 124.3 L 429.0 122.6 L 428.8 120.9 L 428.5 119.1 L 428.3 117.4 L 428.0 115.7 L 427.7 114.0 L 427.4 112.2 L 427.1 110.5 L 426.7 108.8 L 426.3 107.1 L 426.0 105.4 L 425.5 103.7 L 425.1 102.0 L 424.7 100.3 L 424.2 98.7 L 423.7 97.0 L 423.2 95.3 L 422.7 93.6 L 422.1 92.0 L 421.5 90.3 L 421.0 88.7 L 420.3 87.1 L 419.7 85.4 L 419.1 83.8 L 418.4 82.2 L 417.7 80.6 L 417.0 79.0 L 416.3 77.4 L 415.6 75.8 L 414.8 74.2 L 414.0 72.7 L 413.3 71.1 L 412.4 69.6 L 411.6 68.0 L 410.8 66.5 L 409.9 65.0 L 409.0 63.5 L 408.1 62.0 L 407.2 60.5 L 406.3 59.0 L 405.3 57.6 L 404.4 56.1 L 403.4 54.7 L 402.4 53.3 L 401.4 51.8 L 400.3 50.4 L 399.3 49.0 L 398.2 47.7 L 397.1 46.3 L 396.0 44.9 L 394.9 43.6" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="300.0" y1="310.0" x2="238.1" y2="140.0" stroke="#2e8b57" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="394.9" y1="43.6" x2="430.0" y2="140.0" stroke="#2e8b57" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="280.0" cy="140.0" r="2.8" fill="#2563a8"/>
+<text x="270.0" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">T<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="394.9" cy="43.6" r="2.8" fill="#2563a8"/>
+<text x="378.9" y="41.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="502.6" cy="140.0" r="2.8" fill="#c0392b"/>
+<text x="506.6" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">F<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="238.1" cy="140.0" r="2.8" fill="#2e8b57"/>
+<text x="220.1" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">M<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="430.0" cy="140.0" r="2.8" fill="#2e8b57"/>
+<text x="436.0" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">A<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<text x="16" y="334" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Triangolo FᵣOMᵣ: FᵣMᵣ = FᵣO (arco di centro Fᵣ). Triangolo TᵣAAᵣ: TᵣAᵣ = TᵣA (arco di centro Tᵣ).</text>
+<text x="16" y="352" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">I due triangoli sono isosceli con i lati paralleli, quindi AAᵣ è parallela a OMᵣ: la retta AAᵣ ha la fuga in Mᵣ.</text>
+<text x="16" y="370" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">Sul foglio A′ sta allora sulla retta MᵣAᵣ, e Aᵣ è sulla fondamentale a distanza vera TᵣA dalla traccia.</text>
+</g>
+</svg>

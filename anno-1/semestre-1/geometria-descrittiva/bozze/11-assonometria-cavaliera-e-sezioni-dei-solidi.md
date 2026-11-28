@@ -14,7 +14,7 @@ tags: [geometria-descrittiva, bozza]
 >
 > Bozza precedente: [[10-intersezione-retta-piano-e-segno-di-sezione]] · Successiva: [[12-errori-della-prova-1-e-quadro-verticale]]
 >
-> Argomenti collegati: [[07-il-ribaltamento]] · [[04-rette-e-piani-nelle-varie-posizioni]] · [[02-affinita-ortogonale-passo-passo]] · [[PO 7 - Figure piane e solidi]]
+> Argomenti collegati: [[07-il-ribaltamento]] · [[04-rette-e-piani-nelle-varie-posizioni]] · [[02-affinita-ortogonale-passo-passo]] · [[PO 7 - Figure piane e solidi]] · [[15-sezioni-di-prisma-e-piramide-e-desargues]] (sezioni del prisma e della piramide)
 
 La lezione di martedì 10 novembre, registrata in due parti, ha due argomenti.
 

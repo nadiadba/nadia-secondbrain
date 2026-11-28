@@ -12,7 +12,7 @@ tags: [geometria-descrittiva, bozza]
 > [!info] Note collegate
 > Sbobina: [[12-correzione-prova-1-e-assonometria-obliqua]]
 >
-> Bozza precedente: [[11-assonometria-cavaliera-e-sezioni-dei-solidi]]
+> Bozza precedente: [[11-assonometria-cavaliera-e-sezioni-dei-solidi]] · Successiva: [[13-la-prospettiva-e-il-metodo-della-pianta]]
 >
 > Argomenti collegati: [[02-proiezioni-e-omologia-schema]] · [[02-omologia-dai-due-centri-passo-passo]] · [[02-affinita-ortogonale-passo-passo]] · [[06-piani-ausiliari-e-perpendicolarita]] · [[07-il-ribaltamento]] · [[09-ribaltamento-del-piano-generico]] · [[00-ripasso-prova-1]]
 

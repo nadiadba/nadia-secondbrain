@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 346" width="800" height="346">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Passo 3 · da Mᵣ si proietta A′ sulla fondamentale: Aᵣ; da Aᵣ si stacca AB vera: Bᵣ</text>
+<g transform="translate(0,36)">
+<line x1="10.0" y1="50.0" x2="790.0" y2="50.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="12.0" y="42.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f">orizzonte</text>
+<line x1="10.0" y1="140.0" x2="790.0" y2="140.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="12.0" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f">fondamentale</text>
+<circle cx="420.0" cy="50.0" r="2.8" fill="#1f1f1f"/>
+<text x="424.0" y="42.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<line x1="420.0" y1="50.0" x2="420.0" y2="220.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3,3" stroke-linecap="round"/>
+<circle cx="420.0" cy="220.0" r="2.8" fill="#1f1f1f"/>
+<text x="428.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O*</text>
+<circle cx="622.6" cy="50.0" r="2.8" fill="#1f1f1f"/>
+<text x="626.6" y="42.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">F<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<line x1="340.0" y1="140.0" x2="622.6" y2="50.0" stroke="#c0392b" stroke-width="2" stroke-linecap="round"/>
+<circle cx="340.0" cy="140.0" r="2.8" fill="#c0392b"/>
+<text x="310.0" y="158.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">T<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan>′</text>
+<text x="547.3" y="59.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">r′</text>
+<circle cx="384.9" cy="125.7" r="2.8" fill="#c0392b"/>
+<text x="374.9" y="115.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A′</text>
+<path d="M 358.1 50.0 L 358.1 53.1 L 358.2 56.2 L 358.3 59.2 L 358.4 62.3 L 358.6 65.4 L 358.8 68.4 L 359.0 71.5 L 359.3 74.6 L 359.6 77.6 L 359.9 80.7 L 360.3 83.8 L 360.7 86.8 L 361.1 89.9 L 361.6 92.9 L 362.1 95.9 L 362.7 99.0 L 363.3 102.0 L 363.9 105.0 L 364.6 108.0 L 365.3 111.0 L 366.0 114.0 L 366.7 117.0 L 367.5 119.9 L 368.4 122.9 L 369.2 125.9 L 370.1 128.8 L 371.1 131.7 L 372.0 134.6 L 373.0 137.6 L 374.1 140.5 L 375.1 143.3 L 376.2 146.2 L 377.4 149.1 L 378.6 151.9 L 379.8 154.8 L 381.0 157.6 L 382.3 160.4 L 383.6 163.2 L 384.9 165.9 L 386.3 168.7 L 387.7 171.4 L 389.1 174.2 L 390.5 176.9 L 392.0 179.6 L 393.6 182.2 L 395.1 184.9 L 396.7 187.5 L 398.3 190.1 L 400.0 192.7 L 401.6 195.3 L 403.3 197.9 L 405.1 200.4 L 406.8 203.0 L 408.6 205.5 L 410.5 207.9 L 412.3 210.4 L 414.2 212.8 L 416.1 215.2 L 418.0 217.6 L 420.0 220.0" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="420.0" y1="220.0" x2="622.6" y2="50.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<circle cx="358.1" cy="50.0" r="2.8" fill="#2e8b57"/>
+<text x="348.1" y="40.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">M<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<line x1="358.1" y1="50.0" x2="390.0" y2="140.0" stroke="#2e8b57" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="390.0" y1="140.0" x2="510.0" y2="140.0" stroke="#2e8b57" stroke-width="3" stroke-linecap="round"/>
+<circle cx="390.0" cy="140.0" r="2.8" fill="#2e8b57"/>
+<text x="382.0" y="158.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">A<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<circle cx="510.0" cy="140.0" r="2.8" fill="#2e8b57"/>
+<text x="502.0" y="158.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">B<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<text x="426.0" y="174.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2e8b57">AB vera</text>
+<text x="16" y="282" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">La retta da Mᵣ per A′ si prolunga fino alla fondamentale. Sulla fondamentale le misure sono vere:</text>
+<text x="16" y="300" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">da Aᵣ si riporta la lunghezza AB (raddoppiata, se il disegno viene troppo piccolo).</text>
+</g>
+</svg>

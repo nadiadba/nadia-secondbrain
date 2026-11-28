@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della lezione, dalla registrazione di Nadia in due audio (trascrizione automatica con Whisper), uniti qui nell'ordine in cui si è svolta la lezione. Il primo audio dura circa 25 minuti, il secondo 12 minuti; la lezione, tutta un'esercitazione guidata alla lavagna sul primo esercizio di prospettiva, è stata registrata solo in parte. L'audio era di qualità molto bassa: molte frasi arrivano spezzate o coperte dal brusio dell'aula. Sono stati corretti gli errori evidenti di trascrizione e tolte le parti incomprensibili o fuori tema, senza aggiungere contenuti; le parole tra parentesi quadre servono solo a rendere leggibile la frase e, dove la trascrizione era troppo rovinata, sono una ricostruzione da controllare sugli appunti. La docente dice «A primo», «O con zero», «O asterisco»: qui si scrive A′, O₀, O*. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni con schemi e passaggi (la figura è semplificata: un quadrato ABCD appoggiato al quadro con il lato AB): non sono parole della docente.
 
 > [!info] Note collegate
+> Bozza: [[13-la-prospettiva-e-il-metodo-della-pianta]]
+>
 > Sbobina precedente: [[12-correzione-prova-1-e-assonometria-obliqua]] · Successiva: [[14-prospettiva-altezze-e-punto-di-misura]]
 >
 > Argomenti collegati: [[02-proiezioni-e-omologia]] (le proiezioni dal centro proprio)

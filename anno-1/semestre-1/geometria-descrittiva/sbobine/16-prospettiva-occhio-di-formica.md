@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della lezione, dalla registrazione di Nadia (trascrizione automatica con Whisper, un audio di circa 52 minuti). La lezione è un'esercitazione guidata alla lavagna: la docente spiega, poi passa tra i banchi mentre la classe disegna, e alla fine detta una frase da scrivere sul foglio. L'audio era di qualità molto bassa: sono stati corretti gli errori evidenti di trascrizione e tolte le parti incomprensibili o fuori tema (le chiacchiere durante l'esercitazione), senza aggiungere contenuti; le parole tra parentesi quadre servono solo a rendere leggibile la frase e, dove la trascrizione era troppo rovinata, sono una ricostruzione da controllare sugli appunti. La docente dice «A primo», «M di r», «A di r», «O asterisco»: qui si scrive A′, Mᵣ, Aᵣ, O*. Più volte la docente dice che alcune cose (il punto di misura usato per la pianta, la traccia del piano per le altezze) le ha già mostrate «la volta scorsa»: è la lezione di martedì 24 novembre (sbobina [[15-prospettiva-esercitazione-e-ripasso-sezioni|15]]), di cui però la registrazione conserva quasi solo l'esercitazione e il ripasso per la prova n. 2, non la spiegazione alla lavagna. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni con schemi e passaggi (la figura è un semplice rettangolo ABCD): non sono parole della docente.
 
 > [!info] Note collegate
+> Bozza: [[16-la-prospettiva-a-occhio-di-formica]]
+>
 > Sbobina precedente: [[15-prospettiva-esercitazione-e-ripasso-sezioni]]
 >
 > Argomenti collegati: [[13-prospettiva-metodo-della-pianta]] (la prospettiva con la pianta) · [[02-proiezioni-e-omologia]] (le proiezioni dal centro proprio)

@@ -12,6 +12,8 @@ tags: [geometria-descrittiva, sbobina]
 > Trascrizione sistemata della lezione, dalla registrazione di Nadia in quattro audio (trascrizione automatica con Whisper), uniti qui nell'ordine in cui si è svolta la lezione. Gli audio durano in tutto circa 2 ore e 16 minuti, ma il parlato è poco più di 25 minuti: la lezione è stata quasi tutta un'esercitazione in aula, con la docente che passa tra i banchi. Il primo audio (18 minuti) contiene la costruzione del punto e le altezze; il secondo (32 minuti) e il terzo (38 minuti) quasi solo silenzio e brevi frasi; il quarto (48 minuti) l'esempio di prospettiva senza pianta, con il punto di misura. L'audio era di qualità molto bassa: sono stati corretti gli errori evidenti di trascrizione e tolte le parti incomprensibili o fuori tema, senza aggiungere contenuti; le parole tra parentesi quadre servono solo a rendere leggibile la frase e, dove la trascrizione era troppo rovinata, sono una ricostruzione da controllare sugli appunti. La docente dice «A primo», «O asterisco», «F di r»: qui si scrive A′, O*, Fᵣ. I titoli servono per ritrovare gli argomenti a colpo d'occhio. I riquadri «Il disegno» ricostruiscono le costruzioni con schemi e passaggi: non sono parole della docente.
 
 > [!info] Note collegate
+> Bozza: [[14-altezze-e-punto-di-misura-in-prospettiva]]
+>
 > Sbobina precedente: [[13-prospettiva-metodo-della-pianta]] · Successiva: [[15-prospettiva-esercitazione-e-ripasso-sezioni]]
 >
 > Argomenti collegati: [[02-proiezioni-e-omologia]] (le proiezioni dal centro proprio)

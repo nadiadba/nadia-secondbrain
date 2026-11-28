@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 576" width="760" height="576">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Nello spazio: la traccia e la fuga di una retta del geometrale</text>
+<g transform="translate(0,36)">
+<polygon points="76.9,238.8 323.4,485.7 626.6,337.0 380.0,90.0" fill="#c9b98f" fill-opacity="0.18" stroke="#b5a77f" stroke-width="1"/>
+<text x="528.4" y="337.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a7a4f">geometrale</text>
+<polygon points="244.0,173.9 479.1,409.3 479.1,273.8 244.0,38.4" fill="#7fa6c9" fill-opacity="0.22" stroke="#5d88b0" stroke-width="1.2"/>
+<text x="248.0" y="54.4" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3f6b94">quadro</text>
+<line x1="244.0" y1="173.9" x2="479.1" y2="409.3" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="485.1" y="419.3" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f">fondamentale</text>
+<line x1="244.0" y1="113.2" x2="479.1" y2="348.7" stroke="#1f1f1f" stroke-width="2.2" stroke-linecap="round"/>
+<text x="178.0" y="117.2" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f1f1f">orizzonte</text>
+<line x1="190.7" y1="328.3" x2="190.7" y2="267.7" stroke="#8a8a8a" stroke-width="3" stroke-linecap="round"/>
+<circle cx="190.7" cy="267.7" r="2.8" fill="#1f1f1f"/>
+<text x="172.7" y="261.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O</text>
+<circle cx="330.0" cy="199.4" r="2.8" fill="#1f1f1f"/>
+<text x="336.0" y="215.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">O<tspan dy="4" font-size="70%">0</tspan><tspan dy="-4"></tspan></text>
+<line x1="295.6" y1="225.5" x2="578.2" y2="271.3" stroke="#2563a8" stroke-width="2.4" stroke-linecap="round"/>
+<text x="582.2" y="267.3" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2563a8" font-style="italic">r</text>
+<circle cx="295.6" cy="225.5" r="2.8" fill="#2563a8"/>
+<text x="271.6" y="239.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">T<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<line x1="190.7" y1="267.7" x2="438.3" y2="307.8" stroke="#2e8b57" stroke-width="1.6" stroke-dasharray="6,3" stroke-linecap="round"/>
+<circle cx="438.3" cy="307.8" r="2.8" fill="#2e8b57"/>
+<text x="442.3" y="299.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">F<tspan dy="4" font-size="70%">r</tspan><tspan dy="-4"></tspan></text>
+<text x="204.5" y="303.8" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#2e8b57">parallela a r per O</text>
+<line x1="295.6" y1="225.5" x2="438.3" y2="307.8" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="190.7" y1="267.7" x2="461.2" y2="252.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<circle cx="461.2" cy="252.4" r="2.8" fill="#2563a8"/>
+<text x="467.2" y="256.4" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2563a8" font-style="italic">A</text>
+<circle cx="352.8" cy="258.5" r="2.8" fill="#c0392b"/>
+<text x="348.8" y="248.5" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">A′</text>
+<text x="376.9" y="278.7" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c0392b" font-style="italic">r′</text>
+<line x1="261.2" y1="191.1" x2="441.4" y2="102.6" stroke="#7b4fa0" stroke-width="2" stroke-linecap="round"/>
+<text x="447.4" y="102.6" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#7b4fa0" font-style="italic">p</text>
+<line x1="261.2" y1="191.1" x2="330.0" y2="199.4" stroke="#7b4fa0" stroke-width="1.6" stroke-dasharray="6,3" stroke-linecap="round"/>
+<circle cx="261.2" cy="191.1" r="2.8" fill="#7b4fa0"/>
+<text x="235.2" y="203.1" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#7b4fa0" font-style="italic">T<tspan dy="4" font-size="70%">p</tspan><tspan dy="-4"></tspan></text>
+<text x="291.6" y="213.2" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#7b4fa0" font-style="italic">p′</text>
+<text x="16" y="494" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">La traccia Tᵣ è dove r incontra il quadro (sulla fondamentale).</text>
+<text x="16" y="512" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">La fuga Fᵣ è dove la parallela a r per O incontra il quadro (sull'orizzonte). r′ congiunge traccia e fuga:</text>
+<text x="16" y="530" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444">ogni punto A di r ha la prospettiva A′ su r′. La retta p, perpendicolare al quadro, ha la fuga in O₀.</text>
+</g>
+</svg>
