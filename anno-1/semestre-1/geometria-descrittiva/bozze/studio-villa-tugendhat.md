@@ -9,7 +9,7 @@ tags: [geometria-descrittiva, bozza]
 # Studio di Villa Tugendhat: cosa fare per raccoglitore, menabò e tavole
 
 > [!info] Note collegate
-> Argomenti collegati: [[11-assonometria-cavaliera-e-sezioni-dei-solidi]] · [[13-prospettiva-metodo-della-pianta]] · [[15-prospettiva-occhio-di-formica]]
+> Argomenti collegati: [[11-assonometria-cavaliera-e-sezioni-dei-solidi]] · [[13-prospettiva-metodo-della-pianta]] · [[16-prospettiva-occhio-di-formica]]
 
 **Villa Tugendhat** · Brno (Repubblica Ceca) · 1928-1930 · Ludwig Mies van der Rohe, per Fritz e Grete Tugendhat. Casa scelta da Nadia il 27 novembre 2026.
 

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 491" width="700" height="491">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#333">Il ribaltamento della sezione su π₁, intorno a t₁α</text>
+<g transform="translate(0,36)">
+<line x1="160.1" y1="50.0" x2="539.9" y2="50.0" stroke="#1f1f1f" stroke-width="1.6" stroke-linecap="round"/>
+<text x="162.1" y="44.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">LT</text>
+<line x1="200.9" y1="50.0" x2="466.5" y2="365.3" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round"/>
+<text x="474.5" y="369.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f1f1f" font-style="italic">t<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan>α (asse)</text>
+<polygon points="304.9,89.0 408.9,212.5 499.9,89.0" fill="#8a8a8a" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1.8"/>
+<polygon points="451.4,123.7 329.3,104.2 408.9,198.8" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<line x1="451.4" y1="123.7" x2="200.1" y2="335.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="451.4" y1="123.7" x2="525.6" y2="211.9" stroke="#d97706" stroke-width="1.8" stroke-linecap="round"/>
+<text x="492.5" y="161.8" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#d97706">quota</text>
+<line x1="341.2" y1="216.5" x2="525.6" y2="211.9" stroke="#d97706" stroke-width="1.2" stroke-dasharray="6,3" stroke-linecap="round"/>
+<text x="450.3" y="231.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#d97706">raggio</text>
+<path d="M 525.6 211.9 L 525.6 221.0 L 525.1 230.1 L 524.3 239.1 L 522.9 248.1 L 521.1 257.0 L 518.9 265.9 L 516.3 274.6 L 513.2 283.1 L 509.7 291.5 L 505.8 299.8 L 501.5 307.8 L 496.8 315.6 L 491.7 323.1 L 486.3 330.4 L 480.5 337.4 L 474.3 344.2 L 467.9 350.6 L 461.1 356.7 L 454.1 362.4 L 446.7 367.8 L 439.1 372.8 L 431.3 377.5 L 423.3 381.7 L 415.0 385.6 L 406.6 389.0 L 398.0 392.0 L 389.3 394.6 L 380.4 396.8 L 371.5 398.5 L 362.5 399.7 L 353.4 400.6 L 344.3 401.0 L 335.2 400.9 L 326.1 400.4 L 317.1 399.4 L 308.1 398.0 L 299.2 396.1 L 290.4 393.9 L 281.7 391.1 L 273.2 388.0 L 264.8 384.4 L 256.6 380.5 L 248.6 376.1 L 240.9 371.3 L 233.3 366.2 L 226.1 360.7 L 219.1 354.8 L 212.4 348.7 L 206.1 342.1 L 200.1 335.3" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4"/>
+<line x1="346.3" y1="222.6" x2="340.2" y2="227.8" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="340.2" y1="227.8" x2="335.0" y2="221.7" stroke="#1f1f1f" stroke-width="1" stroke-linecap="round"/>
+<line x1="451.4" y1="123.7" x2="375.7" y2="257.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="375.7" y1="257.6" x2="200.1" y2="335.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="408.9" y1="198.8" x2="298.6" y2="291.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<line x1="329.3" y1="104.2" x2="219.0" y2="197.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5,4" stroke-linecap="round"/>
+<circle cx="375.7" cy="257.6" r="2.8" fill="#2e8b57"/>
+<text x="357.7" y="253.6" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#2e8b57" font-style="italic">K</text>
+<polygon points="200.1,335.3 219.0,197.2 298.6,291.7" fill="#c0392b" fill-opacity="0.12" stroke="#c0392b" stroke-width="1.8"/>
+<line x1="296.6" y1="289.4" x2="291.0" y2="295.1" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="292.8" y1="284.8" x2="275.7" y2="301.8" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="288.9" y1="280.2" x2="260.5" y2="308.6" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="285.0" y1="275.6" x2="245.3" y2="315.3" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="281.1" y1="271.0" x2="230.1" y2="322.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="277.2" y1="266.4" x2="214.8" y2="328.8" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="200.1" y1="335.1" x2="273.4" y2="261.8" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="201.4" y1="325.2" x2="269.5" y2="257.2" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="202.8" y1="315.4" x2="265.6" y2="252.6" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="204.1" y1="305.6" x2="261.7" y2="248.0" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="205.5" y1="295.7" x2="257.9" y2="243.4" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="206.8" y1="285.9" x2="254.0" y2="238.7" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="208.2" y1="276.1" x2="250.1" y2="234.1" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="209.5" y1="266.2" x2="246.2" y2="229.5" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="210.9" y1="256.4" x2="242.3" y2="224.9" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="212.2" y1="246.6" x2="238.5" y2="220.3" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="213.6" y1="236.7" x2="234.6" y2="215.7" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="214.9" y1="226.9" x2="230.7" y2="211.1" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="216.2" y1="217.1" x2="226.8" y2="206.5" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="217.6" y1="207.2" x2="222.9" y2="201.9" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<line x1="218.9" y1="197.4" x2="219.1" y2="197.3" stroke="#c0392b" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="451.4" cy="123.7" r="2.8" fill="#c0392b"/>
+<text x="443.4" y="113.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">1<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<circle cx="329.3" cy="104.2" r="2.8" fill="#c0392b"/>
+<text x="303.3" y="110.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">2<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<circle cx="408.9" cy="198.8" r="2.8" fill="#c0392b"/>
+<text x="382.9" y="196.8" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">3<tspan dy="4" font-size="70%">1</tspan><tspan dy="-4"></tspan></text>
+<circle cx="200.1" cy="335.3" r="2.8" fill="#c0392b"/>
+<text x="208.1" y="341.3" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">1*</text>
+<circle cx="219.0" cy="197.2" r="2.8" fill="#c0392b"/>
+<text x="197.0" y="213.2" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">2*</text>
+<circle cx="298.6" cy="291.7" r="2.8" fill="#c0392b"/>
+<text x="304.6" y="285.7" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c0392b" font-style="italic">3*</text>
+<text x="14" y="427" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444">1*: perpendicolare a t₁α da 1₁, la quota di 1 riportata in 1₁, il raggio fino all'asse, l'arco sulla perpendicolare.</text>
+<text x="14" y="445" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444">3*: 1₁3₁ fino all'asse (K), poi K1* fino alla perpendicolare da 3₁. 2*: da 3* la parallela all'asse (2-3 è orizzontale).</text>
+</g>
+</svg>
